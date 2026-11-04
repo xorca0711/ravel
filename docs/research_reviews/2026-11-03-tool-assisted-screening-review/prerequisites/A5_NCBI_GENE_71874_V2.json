@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gene",
+      "id": "71874",
+      "retmode": "json"
+    },
+    "record_path": "result.71874",
+    "max_items": 30,
+    "max_depth": 4
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result.71874",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uid": "71874",
+      "name": "Mab21l4",
+      "description": "mab-21-like 4",
+      "status": "",
+      "currentid": "",
+      "chromosome": "1",
+      "geneticsource": "genomic",
+      "maplocation": "1 47.03 cM",
+      "otheraliases": "2310007B03Rik",
+      "otherdesignations": "protein mab-21-like 4|uncharacterized protein C2orf54 homolog",
+      "nomenclaturesymbol": "Mab21l4",
+      "nomenclaturename": "mab-21-like 4",
+      "nomenclaturestatus": "Official",
+      "mim": [],
+      "genomicinfo": [
+        {
+          "chrloc": "1",
+          "chraccver": "NC_000067.7",
+          "chrstart": 93088678,
+          "chrstop": 93079075,
+          "exoncount": 6
+        }
+      ],
+      "geneweight": 194,
+      "summary": "Orthologous to human MAB21L4 (mab-21 like 4). [provided by Alliance of Genome Resources, Jul 2025]",
+      "chrsort": "01",
+      "chrstart": 93079075,
+      "organism": {
+        "scientificname": "Mus musculus",
+        "commonname": "house mouse",
+        "taxid": 10090
+      },
+      "locationhist": [
+        {
+          "annotationrelease": "RS_2024_02",
+          "assemblyaccver": "GCF_000001635.27",
+          "chraccver": "NC_000067.7",
+          "chrstart": 93088678,
+          "chrstop": 93079075
+        },
+        {
+          "annotationrelease": "RS_2023_04",
+          "assemblyaccver": "GCF_000001635.27",
+          "chraccver": "NC_000067.7",
+          "chrstart": 93088678,
+          "chrstop": 93079075
+        },
+        {
+          "annotationrelease": "108.20200622",
+          "assemblyaccver": "GCF_000001635.26",
+          "chraccver": "NC_000067.6",
+          "chrstart": 93160955,
+          "chrstop": 93151353
+        }
+      ]
+    },
+    "top_keys": [
+      "uid",
+      "name",
+      "description",
+      "status",
+      "currentid",
+      "chromosome",
+      "geneticsource",
+      "maplocation",
+      "otheraliases",
+      "otherdesignations",
+      "nomenclaturesymbol",
+      "nomenclaturename",
+      "nomenclaturestatus",
+      "mim",
+      "genomicinfo",
+      "geneweight",
+      "summary",
+      "chrsort",
+      "chrstart",
+      "organism",
+      "locationhist"
+    ]
+  }
+}

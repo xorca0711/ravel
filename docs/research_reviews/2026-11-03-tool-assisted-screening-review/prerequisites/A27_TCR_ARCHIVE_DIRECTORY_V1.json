@@ -1,0 +1,822 @@
+{
+  "retrieved_at_utc": "2026-11-03T15:00:45.470855+00:00",
+  "archive": {
+    "key": "immgenT-TCR.zip",
+    "size": 2557699062,
+    "checksum": "md5:eec8014545ecc3b80aa89c6f7d1b3583",
+    "links": {
+      "self": "https://zenodo.org/api/records/21839963/files/immgenT-TCR.zip/content"
+    }
+  },
+  "purpose": "remote ZIP directory only, no raw reads or concentration analysis",
+  "ranges": [
+    {
+      "start": 2557699040,
+      "bytes": 22,
+      "content_range": "bytes 2557699040-2557699061/2557699062"
+    },
+    {
+      "start": 2557699020,
+      "bytes": 20,
+      "content_range": "bytes 2557699020-2557699039/2557699062"
+    },
+    {
+      "start": 2557684463,
+      "bytes": 14577,
+      "content_range": "bytes 2557684463-2557699039/2557699062"
+    }
+  ],
+  "entries": [
+    {
+      "name": "data/",
+      "size": 0,
+      "compressed_size": 0,
+      "crc": 0,
+      "compression": 0
+    },
+    {
+      "name": "data/Mutations/",
+      "size": 0,
+      "compressed_size": 0,
+      "crc": 0,
+      "compression": 0
+    },
+    {
+      "name": "data/Mutations/region_vs_region_comparison_TRA_10000.csv",
+      "size": 1049,
+      "compressed_size": 320,
+      "crc": 2792589292,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT12_samtools_outputs_minBQ_0_Cd4.txt",
+      "size": 248427754,
+      "compressed_size": 7350970,
+      "crc": 3924710552,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/mutation_comparison_with_pvalues_10000sim_TRA.csv",
+      "size": 6484429,
+      "compressed_size": 599068,
+      "crc": 1753056381,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT11_samtools_outputs_minBQ_0_Cd3e.txt",
+      "size": 905204471,
+      "compressed_size": 250486364,
+      "crc": 3479911773,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT11_samtools_outputs_minBQ_0_Cd4.txt",
+      "size": 190875424,
+      "compressed_size": 2681610,
+      "crc": 3155449634,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/Mutations_longStrings_pureJax.csv",
+      "size": 134297,
+      "compressed_size": 30227,
+      "crc": 211476140,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/GeneV_mutations_positions_TRA.csv",
+      "size": 35452,
+      "compressed_size": 1468,
+      "crc": 1055800641,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT11_samtools_outputs_minBQ_0_Cd28.txt",
+      "size": 584719431,
+      "compressed_size": 56871884,
+      "crc": 1622172609,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT10_samtools_outputs_minBQ_0_Cd4.txt",
+      "size": 98717970,
+      "compressed_size": 991451,
+      "crc": 2124024415,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT10_samtools_outputs_minBQ_0_Cd28.txt",
+      "size": 335947178,
+      "compressed_size": 10575448,
+      "crc": 640936295,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT11_samtools_outputs_minBQ_0_Cd8a.txt",
+      "size": 101717452,
+      "compressed_size": 9554233,
+      "crc": 952041084,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/region_vs_simulation_results_TRA_10000.csv",
+      "size": 283,
+      "compressed_size": 174,
+      "crc": 2494385147,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/Mutations_Lpart_pureJax.xlsx",
+      "size": 47122,
+      "compressed_size": 44868,
+      "crc": 4053475553,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/WeightPositions_TRA_sim.csv",
+      "size": 2081,
+      "compressed_size": 680,
+      "crc": 3388310969,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/random_mutations_10000_simulations_TRA.csv",
+      "size": 6480974,
+      "compressed_size": 598216,
+      "crc": 777767499,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT10_samtools_outputs_minBQ_0_Cd3e.txt",
+      "size": 767245632,
+      "compressed_size": 196301077,
+      "crc": 345930860,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT12_samtools_outputs_minBQ_0_Cd3e.txt",
+      "size": 773121975,
+      "compressed_size": 203763037,
+      "crc": 2541876948,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT12_samtools_outputs_minBQ_0_Cd28.txt",
+      "size": 1023264010,
+      "compressed_size": 255124396,
+      "crc": 1596839259,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT12_samtools_outputs_minBQ_0_Cd8a.txt",
+      "size": 67183453,
+      "compressed_size": 7419139,
+      "crc": 515524819,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/gene_coding_regions.txt",
+      "size": 8825,
+      "compressed_size": 1550,
+      "crc": 2336724698,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/",
+      "size": 0,
+      "compressed_size": 0,
+      "crc": 0,
+      "compression": 0
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT81_mutations_tmp.tsv",
+      "size": 15413832,
+      "compressed_size": 269126,
+      "crc": 838718330,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT28_samtools_outputs_minBQ_0.txt",
+      "size": 1774858,
+      "compressed_size": 79396,
+      "crc": 2092048159,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT73_mutations_tmp.tsv",
+      "size": 657591,
+      "compressed_size": 13273,
+      "crc": 3080756586,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT17_amp_mutations_tmp.tsv",
+      "size": 28323593,
+      "compressed_size": 470876,
+      "crc": 3156246713,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT61_mutations_tmp.tsv",
+      "size": 1800530,
+      "compressed_size": 32027,
+      "crc": 2244922849,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT30_mutations_tmp.tsv",
+      "size": 12209415,
+      "compressed_size": 197307,
+      "crc": 1818361419,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT44_mutations_tmp.tsv",
+      "size": 872008,
+      "compressed_size": 14857,
+      "crc": 2340271633,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT17_amp_samtools_outputs_minBQ_0.txt",
+      "size": 59674219,
+      "compressed_size": 1177813,
+      "crc": 4126153914,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_mutations_tmp.tsv",
+      "size": 18134982,
+      "compressed_size": 302327,
+      "crc": 1120643437,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT81_samtools_outputs_minBQ_0.txt",
+      "size": 7668900,
+      "compressed_size": 197930,
+      "crc": 3015349500,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT2_mutations_tmp.tsv",
+      "size": 11364765,
+      "compressed_size": 186007,
+      "crc": 3514430058,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT80_mutations_tmp.tsv",
+      "size": 4057147,
+      "compressed_size": 70699,
+      "crc": 2169691292,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT68_mutations_tmp.tsv",
+      "size": 11757513,
+      "compressed_size": 201191,
+      "crc": 3471934005,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT8_mutations_tmp.tsv",
+      "size": 16291759,
+      "compressed_size": 274110,
+      "crc": 2908755374,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT26_samtools_outputs_minBQ_0.txt",
+      "size": 6532864,
+      "compressed_size": 168212,
+      "crc": 4273371506,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT66_mutations_tmp.tsv",
+      "size": 6322471,
+      "compressed_size": 112304,
+      "crc": 103454636,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT26_mutations_tmp.tsv",
+      "size": 12958467,
+      "compressed_size": 202630,
+      "crc": 1371738916,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT45_mutations_tmp.tsv",
+      "size": 918848,
+      "compressed_size": 20023,
+      "crc": 2382056298,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT3_mutations_tmp.tsv",
+      "size": 12475110,
+      "compressed_size": 232753,
+      "crc": 607540703,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_WTA_mutations_tmp.tsv",
+      "size": 19585816,
+      "compressed_size": 339092,
+      "crc": 2241067761,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT9_mutations_tmp.tsv",
+      "size": 10725546,
+      "compressed_size": 186585,
+      "crc": 4250628836,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT76_samtools_outputs_minBQ_0.txt",
+      "size": 2402763,
+      "compressed_size": 66655,
+      "crc": 1580198966,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT30_samtools_outputs_minBQ_0.txt",
+      "size": 3289752,
+      "compressed_size": 114806,
+      "crc": 1691952172,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_WTA_samtools_outputs_minBQ_0.txt",
+      "size": 8987875,
+      "compressed_size": 259264,
+      "crc": 3004566321,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT65_samtools_outputs_minBQ_0.txt",
+      "size": 3227562,
+      "compressed_size": 94632,
+      "crc": 4195257557,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT76_mutations_tmp.tsv",
+      "size": 6141659,
+      "compressed_size": 102095,
+      "crc": 3533432098,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT19_samtools_outputs_minBQ_0.txt",
+      "size": 6756518,
+      "compressed_size": 248045,
+      "crc": 1442586148,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT85_mutations_tmp.tsv",
+      "size": 15316247,
+      "compressed_size": 248478,
+      "crc": 2984737623,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT79_mutations_tmp.tsv",
+      "size": 3282302,
+      "compressed_size": 61228,
+      "crc": 2197232295,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT65_mutations_tmp.tsv",
+      "size": 7066782,
+      "compressed_size": 126269,
+      "crc": 2329592404,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT3_samtools_outputs_minBQ_0.txt",
+      "size": 6556088,
+      "compressed_size": 200968,
+      "crc": 1309237359,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT52_mutations_tmp.tsv",
+      "size": 2287017,
+      "compressed_size": 42597,
+      "crc": 4081718767,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT61_samtools_outputs_minBQ_0.txt",
+      "size": 2722794,
+      "compressed_size": 67588,
+      "crc": 3559155062,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT5_samtools_outputs_minBQ_0.txt",
+      "size": 369431,
+      "compressed_size": 21740,
+      "crc": 1604397230,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT52_samtools_outputs_minBQ_0.txt",
+      "size": 4861369,
+      "compressed_size": 107026,
+      "crc": 3943441907,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT79_samtools_outputs_minBQ_0.txt",
+      "size": 11061357,
+      "compressed_size": 139522,
+      "crc": 3314553325,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT23_mutations_tmp.tsv",
+      "size": 14631773,
+      "compressed_size": 248542,
+      "crc": 2606696965,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_amp_samtools_outputs_minBQ_0.txt",
+      "size": 51977448,
+      "compressed_size": 1106923,
+      "crc": 854791694,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT6_mutations_tmp.tsv",
+      "size": 6822114,
+      "compressed_size": 116223,
+      "crc": 337347830,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT73_samtools_outputs_minBQ_0.txt",
+      "size": 2917727,
+      "compressed_size": 48236,
+      "crc": 932963898,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT6_samtools_outputs_minBQ_0.txt",
+      "size": 2726069,
+      "compressed_size": 80818,
+      "crc": 1087779226,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT64_mutations_tmp.tsv",
+      "size": 5311546,
+      "compressed_size": 96464,
+      "crc": 285520442,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT21_samtools_outputs_minBQ_0.txt",
+      "size": 6042959,
+      "compressed_size": 169643,
+      "crc": 3268027800,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT8_samtools_outputs_minBQ_0.txt",
+      "size": 3071612,
+      "compressed_size": 126543,
+      "crc": 1954170382,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT17_samtools_outputs_minBQ_0.txt",
+      "size": 6800553,
+      "compressed_size": 223937,
+      "crc": 2375581760,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT80_samtools_outputs_minBQ_0.txt",
+      "size": 1054557,
+      "compressed_size": 40727,
+      "crc": 3387480974,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT5_mutations_tmp.tsv",
+      "size": 4073551,
+      "compressed_size": 72753,
+      "crc": 2898544736,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT43_samtools_outputs_minBQ_0.txt",
+      "size": 28055,
+      "compressed_size": 1122,
+      "crc": 215605282,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT85_samtools_outputs_minBQ_0.txt",
+      "size": 6954602,
+      "compressed_size": 185452,
+      "crc": 1639311144,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT17_mutations_tmp.tsv",
+      "size": 22318980,
+      "compressed_size": 350146,
+      "crc": 3071115984,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT7_samtools_outputs_minBQ_0.txt",
+      "size": 6261183,
+      "compressed_size": 199477,
+      "crc": 2693707867,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT43_mutations_tmp.tsv",
+      "size": 132151,
+      "compressed_size": 2958,
+      "crc": 574225826,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT19_mutations_tmp.tsv",
+      "size": 25676578,
+      "compressed_size": 427853,
+      "crc": 3711788176,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_samtools_outputs_minBQ_0.txt",
+      "size": 6102628,
+      "compressed_size": 202967,
+      "crc": 265790872,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT78_samtools_outputs_minBQ_0.txt",
+      "size": 2292267,
+      "compressed_size": 75747,
+      "crc": 3778514632,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT27_mutations_tmp.tsv",
+      "size": 14363318,
+      "compressed_size": 256402,
+      "crc": 3296986838,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT69_samtools_outputs_minBQ_0.txt",
+      "size": 15996893,
+      "compressed_size": 351850,
+      "crc": 1248836329,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT20_samtools_outputs_minBQ_0.txt",
+      "size": 7701257,
+      "compressed_size": 225030,
+      "crc": 1012937668,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT66_samtools_outputs_minBQ_0.txt",
+      "size": 2661279,
+      "compressed_size": 85301,
+      "crc": 3814332942,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT23_samtools_outputs_minBQ_0.txt",
+      "size": 7813718,
+      "compressed_size": 221944,
+      "crc": 2945892139,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT20_mutations_tmp.tsv",
+      "size": 16988372,
+      "compressed_size": 283646,
+      "crc": 1423499216,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT44_samtools_outputs_minBQ_0.txt",
+      "size": 82123,
+      "compressed_size": 3486,
+      "crc": 1341573642,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT54_mutations_tmp.tsv",
+      "size": 1047914,
+      "compressed_size": 16352,
+      "crc": 580452691,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT2_samtools_outputs_minBQ_0.txt",
+      "size": 1791760,
+      "compressed_size": 74388,
+      "crc": 1620519608,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT64_samtools_outputs_minBQ_0.txt",
+      "size": 3404538,
+      "compressed_size": 92528,
+      "crc": 80065305,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT18_amp_mutations_tmp.tsv",
+      "size": 24308143,
+      "compressed_size": 419329,
+      "crc": 2203636260,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT54_samtools_outputs_minBQ_0.txt",
+      "size": 4876295,
+      "compressed_size": 131810,
+      "crc": 2033774496,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT69_mutations_tmp.tsv",
+      "size": 5125745,
+      "compressed_size": 108269,
+      "crc": 3730322273,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT9_samtools_outputs_minBQ_0.txt",
+      "size": 4732422,
+      "compressed_size": 132881,
+      "crc": 1580814377,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT45_samtools_outputs_minBQ_0.txt",
+      "size": 73574,
+      "compressed_size": 3358,
+      "crc": 1240965591,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT7_mutations_tmp.tsv",
+      "size": 18867462,
+      "compressed_size": 327085,
+      "crc": 1710752017,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT27_samtools_outputs_minBQ_0.txt",
+      "size": 5444175,
+      "compressed_size": 169287,
+      "crc": 3476604374,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT68_samtools_outputs_minBQ_0.txt",
+      "size": 3468789,
+      "compressed_size": 138215,
+      "crc": 2313147131,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT21_mutations_tmp.tsv",
+      "size": 12038744,
+      "compressed_size": 193518,
+      "crc": 3173168153,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT28_mutations_tmp.tsv",
+      "size": 15859336,
+      "compressed_size": 258958,
+      "crc": 2849736267,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/samtools_outputs_Vgene/IGT78_mutations_tmp.tsv",
+      "size": 9232358,
+      "compressed_size": 154424,
+      "crc": 1701331444,
+      "compression": 8
+    },
+    {
+      "name": "data/Mutations/IGT10_samtools_outputs_minBQ_0_Cd8a.txt",
+      "size": 39624882,
+      "compressed_size": 3862964,
+      "crc": 3388782799,
+      "compression": 8
+    },
+    {
+      "name": "data/GSE297097_mde_incremental_level1_All_data.csv",
+      "size": 36089754,
+      "compressed_size": 12022908,
+      "crc": 2214194613,
+      "compression": 8
+    },
+    {
+      "name": "data/va.duplic.simplif.csv",
+      "size": 1249,
+      "compressed_size": 353,
+      "crc": 530530701,
+      "compression": 8
+    },
+    {
+      "name": "data/HighV_QUEST.tar.gz",
+      "size": 1456257561,
+      "compressed_size": 1446530338,
+      "crc": 2748117451,
+      "compression": 8
+    },
+    {
+      "name": "data/random_TRA_seqs.csv",
+      "size": 14672219,
+      "compressed_size": 2623669,
+      "crc": 1900122964,
+      "compression": 8
+    },
+    {
+      "name": "data/All.IGTs.Enhanced.Summary.Table.2026-02-12.csv",
+      "size": 249556523,
+      "compressed_size": 61900726,
+      "crc": 1658680618,
+      "compression": 8
+    },
+    {
+      "name": "data/paired.igts.csv",
+      "size": 365,
+      "compressed_size": 154,
+      "crc": 3421070951,
+      "compression": 8
+    },
+    {
+      "name": "data/GSE297097_annotation_table_20260206_IGT1_104_cleaned.csv",
+      "size": 60252286,
+      "compressed_size": 14154338,
+      "crc": 3349936261,
+      "compression": 8
+    },
+    {
+      "name": "data/Frequency/",
+      "size": 0,
+      "compressed_size": 0,
+      "crc": 0,
+      "compression": 0
+    },
+    {
+      "name": "data/Frequency/TRAV_TRAJ_positions.csv",
+      "size": 158089,
+      "compressed_size": 25760,
+      "crc": 2511601590,
+      "compression": 8
+    },
+    {
+      "name": "data/Frequency/Counts_TRAV_TRAJ_pairs_prod_AllIGTs.csv",
+      "size": 164174,
+      "compressed_size": 23907,
+      "crc": 1737941441,
+      "compression": 8
+    },
+    {
+      "name": "data/Frequency/Counts_TRAV_TRAJ_pairs_prod_AllIGTs_50_50.csv",
+      "size": 289331,
+      "compressed_size": 51774,
+      "crc": 3709847819,
+      "compression": 8
+    },
+    {
+      "name": "README.md",
+      "size": 5238,
+      "compressed_size": 1842,
+      "crc": 3251795153,
+      "compression": 8
+    },
+    {
+      "name": "requirements.txt",
+      "size": 109,
+      "compressed_size": 90,
+      "crc": 2023942989,
+      "compression": 8
+    }
+  ]
+}

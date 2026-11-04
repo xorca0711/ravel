@@ -1,0 +1,41 @@
+# A27: processed receptor/state follow-through and comparison proposal v2
+
+4 November 2026. This source-qualification result supersedes the unverified processed-receptor availability/join statement in [intake v1](A27_SOURCE_INTAKE_V1.md). The earlier files and unfavorable state-support result remain preserved. No clone concentration, age effect, rarefaction or fixed-composition attribution was calculated.
+
+## What this source resolves
+
+The preceding [A27 state-representation result](../../../RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/STATE_REPRESENTATION_V1_RESULTS.md) could not estimate its main naive-associated versus effector-associated age contrasts. The next biological question remains whether broad repertoire change reflects within-state clone concentration, state redistribution or both. An actual joint RNA/receptor source with identified animals is therefore useful preparation; more cells alone do not answer the question.
+
+The author's [ImmGenT repository](https://github.com/immgen/immgenT_Project/tree/7b2714071eec19d0db91162c97b6fd0b68ffcc09/TCR_analysis) links [Zenodo record 21839963](https://zenodo.org/records/21839963). Its processed TCR archive contains `data/All.IGTs.Enhanced.Summary.Table.2026-02-12.csv`. Targeted ZIP-member recovery verified the member's complete CRC32 and SHA-256; 12,743 IGT29 rows were extracted from 663,853 source records. The whole 2.56-GB archive was not downloaded or verified as a whole. [Archive directory](prerequisites/A27_TCR_ARCHIVE_DIRECTORY_V1.json), [member extraction/integrity](prerequisites/A27_IGT29_EXTRACTION_V1.json) and [source inventory](prerequisites/A27_ZENODO_FILE_INVENTORY_V1.json).
+
+The 56 source fields retain primary and second alpha/beta chains, productivity, V/J, amino-acid and nucleotide junctions, read support, source cell IDs and annotations. Natural source sequences remain in the ignored cache; the reviewable join table contains identifiers and chain/annotation metadata, not a calculated clone assignment.
+
+All 27 GEX/TCR/FBC sample records in [GSE347791](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347791) were qualified in the [sample map](prerequisites/A27_GSE347791_SAMPLE_MAP_V1.tsv). The nine hashtags map to mouse0088 through mouse0096, each explicitly unpooled. Ages are 8, 24, 48 and 72 weeks with one male and one female each, plus one 108-week male. Preserve those source ages; cells and three assay records per mouse do not create additional animals.
+
+## Exact join, separate labels and missingness
+
+The GEX metadata and cell-list files each contain the same 12,978 unique IDs. The receptor table contains 12,743 unique IDs. Their union is 13,332 cells: 12,389 shared, 589 GEX-only and 354 receptor-only, with zero hashtag/mouse conflicts. [Original join evidence](prerequisites/A27_IGT29_JOIN_SUMMARY_V1.json).
+
+The archive also contains `data/GSE297097_annotation_table_20260206_IGT1_104_cleaned.csv`. Its complete member CRC/SHA was verified; 12,953 IGT29 annotation rows were extracted from 785,340 source rows. Author code reads this separate table and selects its level1 CD8 labels by exact cell ID, keeping CD8aa separate. [Source code locators and limitation](prerequisites/A27_STATE_LABEL_SOURCE_LOCATORS_V1.json); [annotation integrity/provenance](prerequisites/A27_IGT29_LABEL_PROVENANCE_V1.json).
+
+| Join disposition | Cells | Separate annotation present | Separate annotation absent |
+|---|---:|---:|---:|
+| GEX and receptor | 12,389 | 12,389 | 0 |
+| GEX only | 589 | 564 | 25 |
+| Receptor only | 354 | 0 | 354 |
+
+The [v2 joined table](prerequisites/A27_IGT29_SOURCE_JOIN_V2.tsv) retains original receptor-derived labels and separate annotation fields distinctly. All shared cells agree on source level1/level2, and all separate annotation hashtags agree with mapped samples. Critically, blank labels for GEX-only cells in the earlier receptor-based join did **not** mean absent RNA-state annotation: 564 are recovered in the separate table. The 25 RNA cells without separate annotation remain explicit. [Deterministic join/reproduction script](prerequisites/A27_join_separate_annotations_v2.py) and [input/output hashes and coverage](prerequisites/A27_IGT29_SOURCE_JOIN_V2.json) preserve this distinction. Default script mode verifies existing output bytes; it never overwrites differing outputs.
+
+This supports availability of a genuine processed joint source. It does not prove that unmatched cells are random or that different source releases have identical QC. GEO, receptor and annotation versions differ; the specific reasons for the 589/354 mismatch are unresolved. The separate label table is not by itself proof that every label was derived independently of receptor information. CD8 level2 codes include lettered labels rather than self-explanatory naive/effector identities; exact biological definitions and label-construction provenance still require qualification. Do not rename these codes from assumptions or reuse the earlier analyst marker rules as if they were author identities.
+
+## Proposed comparison and clone conventions for review
+
+The proposed population is author-defined splenic CD8-alpha-beta cells from these nine actual mice, initially using source level1 CD8 with CD8aa and other lineages separate. Preserve all source level2 codes until their biological definitions are reviewed. RNA-state representation should use the eligible GEX population with the separate annotation, including GEX-only cells; receptor representation must be reported against that denominator before within-state repertoire interpretation. Receptor-only cells cannot silently enter the RNA-state denominator.
+
+A future descriptive comparison would report state fractions and within-state clone concentration for each actual mouse, with source ages and sex visible and no automatic age pooling. Concordant concentration within a qualified state would support a repertoire change beyond changed state representation; differing state fractions with sufficiently measured, stable within-state concentration would be compatible with redistribution. Both may coexist. Sparse or unequal representation would leave the distinction unresolved. Side-by-side state fractions and concentration do not establish a formal decomposition: shared clones across states and fixed-composition assumptions would require their own explicit estimand. No antigen specificity, function or causal aging effect follows, and this is not replication of the old atlas's exact measurement unless definitions genuinely match.
+
+Proposed conservative primary clone identity, **not yet applied or frozen**: within each mouse, exact productive paired alpha/beta nucleotide junction plus source V/J identity, limited to cells with exactly one complete productive alpha and one complete productive beta. Identical receptors in different mice are not merged into a clone. Nucleotide versus amino-acid matching defines different estimands; amino-acid convergence is not the same lineage identity. No junction similarity threshold, chain imputation or choice by favorable concentration is allowed.
+
+Retain dual-alpha, dual-beta, single-chain, incomplete, unproductive and unusual rearrangements as distinct source categories. Excluding dual-chain cells can cause selection bias; a complete-chain-set convention could instead be a prespecified sensitivity or primary choice, but it must be decided from source biology and coverage before outcomes. Do not silently keep the highest-read chain. The source contains explicit empty, no-result/no-rearrangement and nonstandard rearrangement states; these are not interchangeable with productive receptors or missing cells.
+
+Before a numerical contract: independently review this exact join; qualify state-code meaning and any receptor-aware annotation; assess per-mouse/state source coverage under the proposed chain rules; then fix the concentration endpoint, representation denominator, eligibility/support rules and any sensitivity. No power, effect threshold or valid age/sex-adjusted model can be inferred from nine mice, including only one oldest male. This handoff proposes a bounded next comparison and makes the remaining design decisions explicit; it does not authorize repertoire execution or further source expansion by itself.

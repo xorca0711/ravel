@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A31.depth_conditioned_partner_v1",
+  "owner": "A31",
+  "contract": "analysis/research/contracts/A31.depth_conditioned_partner_v1.json",
+  "contract_sha256": "9e7b37b134a9c91da6f2e8826aa2a9142823db1bbfb96cbcc8c133f85c352eea",
+  "git_commit": "6b1fe389d0d3061e0d9a23728a9f1d361ed5ab12",
+  "started_at": "2026-11-03T14:16:00.356517+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A31_gria1_fibroblast_response/scripts/depth_conditioned_partner_v1.py",
+    "--output",
+    "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/cell_partner_counts.tsv.gz",
+      "sha256": "495faee4f808830f37110b4922ffd80bb85cfe4ea80bafd6312aa768c2088249",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/stratum_gene.tsv",
+      "sha256": "6cef31b352a319a5512f91688a8d741bcbe10409ee2f9222adcf53c132fd5639",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/paired_strata.tsv",
+      "sha256": "cffed02316a79649a89bf634c485fb8c4a0036aab249eb40e38da09b01d1dea0",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_MAP_V1.json",
+      "sha256": "61079d1419b8dd31a69cab72d66f8f79d0ceaea2538219391268c78c304edd48",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_SPEC_V1.md",
+      "sha256": "a1c2850b5a099f51c62e8e5a5ae3f06ba122c0cbad563df10f3aed2c0f5c2692",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_DEPTH_SUPPORT_V1.tsv",
+      "sha256": "95565a10100cfa821acede40ce6e3233f69365a7719f0ef6cc69a15c496dd40c",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_DEPTH_BINS_V1.tsv",
+      "sha256": "71badd2c5d2df35de0e0e72cd63a97a575e4fd664d68cba966f3c72c4ff1f43b",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A31_gria1_fibroblast_response/scripts/depth_conditioned_partner_v1.py",
+      "sha256": "34ee87b0148cf1873c39476683ccb4c349120a4b774060462dd43bc37e013a20"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_MAP_V1.json",
+      "sha256": "61079d1419b8dd31a69cab72d66f8f79d0ceaea2538219391268c78c304edd48"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/original_primitive_parity.tsv",
+      "sha256": "538f76496310cb4555228407067932b06cc8cb76bcb8d6f62ed8361c65c91da7"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/depth_support.tsv",
+      "sha256": "82399f691fffc7f63f8a6dedeac7584a664deeba9c9591f24ac3b7bf675e522d"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/bin_partner_primitives.tsv",
+      "sha256": "ed4639412f655043c1c47f46a50a97ee2791779b8b529c10aef86a5203a76ebb"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/stratum_standardized_context.tsv",
+      "sha256": "bc66f20680b067e8f992a648b4d59ccba8ef4f5928b2457b7edbe65d04a1c43f"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/donor_context.tsv",
+      "sha256": "b144b290ff45a713f71dde4d984a56ef868d507ab5a970df523eb6754cd2f05a"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/donor_influence.tsv",
+      "sha256": "4273b41f72bfe82a0e3a2daebf28ac4014f052c573155d9794347839469b7a7d"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/observed_expected_all_partners.png",
+      "sha256": "fa568f25b8f7378fb1ebbc166519263b6f6974d81b72d2d5150f79ede71c56ee"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/donor_context_all_partners.png",
+      "sha256": "15b3de2b7c60a2a22322a6685ec0ab3892b6657ee545af5b11cbee39977a2db0"
+    },
+    {
+      "path": "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/verification.json",
+      "sha256": "1f0a93ab24c6a966de29c4057634d846215a9059378c014908649a82bbf48c3e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T14:16:46.101852+00:00"
+}

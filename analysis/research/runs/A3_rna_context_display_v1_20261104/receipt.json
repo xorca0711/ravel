@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A3.rna_context_display_v1",
+  "owner": "A3",
+  "contract": "analysis/research/contracts/A3.rna_context_display_v1.json",
+  "contract_sha256": "51c5592efbedbbbe5bb247b8df357aa212f730c372f9c776d8d14d517616aec2",
+  "git_commit": "43f633f8e2a7a3bfe3ab5f66dc0d52ad7c19fa1a",
+  "started_at": "2026-11-04T01:41:23.298859+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A3_macrophage_injury_history/scripts/rna_context_display_v1.py",
+    "--output",
+    "analysis/research/runs/A3_rna_context_display_v1_20261104"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_intake_20261104/A3/GSE247943_rna.counts.tsv.gz",
+      "sha256": "fc58938d85e701844f87cb2820665cd2c93ebe8ffaedc4d3145b3ade4955a3fd",
+      "study_id": "GSE247943",
+      "unit_ids": [
+        "GSM7903557",
+        "GSM7903558",
+        "GSM7903565",
+        "GSM7903566",
+        "GSM7903577",
+        "GSM7903578"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A3_macrophage_injury_history/scripts/rna_context_display_v1.py",
+      "sha256": "ae2f97756132808dc15a104e9d9dd32b646ab5b759007a1d4cb27f65c9fc3877"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_FULL_SOURCE_SEMANTICS_V1.json",
+      "sha256": "3642471709e0e85a1cf744ac3d13f5bb0a51fe7962f2019d5f8fc2c13cb6caa5"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_SOURCE_LIBRARY_TOTALS_V1.tsv",
+      "sha256": "a13a52f10e5ffb83dc7b5b34d8a858df6b163978b74cd93463ca56b8be0d9cd2"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_FIXED_TARGET_MAP_V1.tsv",
+      "sha256": "6f1fb6d005b6817576e4ce40b48ee142a15c13efa8eec422b6ab33efc7c363c6"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_GSE247943_HEADER_JOIN_V1.tsv",
+      "sha256": "a505d528807f77061b7069b955191ccf68a411aa20e97c8fbf02fba94c989cbc"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_RNA_CONTEXT_DISPLAY_SPEC_V1.md",
+      "sha256": "954f93d35b1b521b988eecba5a43713b8c6c049026608c35b85dc353c3becc2d"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A3_rna_context_display_v1_20261104/target_library_values.tsv",
+      "sha256": "ad95a44d2a1bdc40c718590b0d37e129a22ef07259d2f606e770d8258aa7010e"
+    },
+    {
+      "path": "analysis/research/runs/A3_rna_context_display_v1_20261104/target_condition_summary.tsv",
+      "sha256": "db559a9f2fba87d311117eec1f53b0d476b9819498801db572a83ec8db222a77"
+    },
+    {
+      "path": "analysis/research/runs/A3_rna_context_display_v1_20261104/source_library_totals.tsv",
+      "sha256": "a13a52f10e5ffb83dc7b5b34d8a858df6b163978b74cd93463ca56b8be0d9cd2"
+    },
+    {
+      "path": "analysis/research/runs/A3_rna_context_display_v1_20261104/rna_context_by_library.png",
+      "sha256": "0c987f00b11752ace742c4352a5da19038054bfd39526c8a40c1f740bc9cf7d2"
+    },
+    {
+      "path": "analysis/research/runs/A3_rna_context_display_v1_20261104/summary.json",
+      "sha256": "72998c98a8d7e7f46fb728c9589cb6578508c1c756bfadeec45f4778022c4dfa"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:41:36.074401+00:00"
+}

@@ -62,7 +62,9 @@
         "RQ_Specified/A3_macrophage_injury_history/PLAN.md",
         "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md",
         "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md",
-        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md"
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md",
+        "docs/research_reviews/2026-11-03-tool-assisted-screening-review/A3_METHOD_QUALIFICATION_AND_SCOPE_V3.md",
+        "RQ_Specified/A3_macrophage_injury_history/reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md"
       ]
     },
     {
@@ -96,7 +98,8 @@
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
         "RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md",
-        "RQ_Specified/A5_developmental_programme_reuse/reports/COMPONENT_ATTRIBUTION_V1_RESULTS.md"
+        "RQ_Specified/A5_developmental_programme_reuse/reports/COMPONENT_ATTRIBUTION_V1_RESULTS.md",
+        "RQ_Specified/A5_developmental_programme_reuse/reports/FEATURE_CONTEXT_DISPLAY_V1_RESULTS.md"
       ]
     },
     {
@@ -422,7 +425,9 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md",
         "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md",
-        "RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/STATE_REPRESENTATION_V1_RESULTS.md"
+        "RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/STATE_REPRESENTATION_V1_RESULTS.md",
+        "docs/research_reviews/2026-11-03-tool-assisted-screening-review/A27_SOURCE_FOLLOWTHROUGH_V2.md",
+        "RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/SOURCE_CODE_CONCENTRATION_V1_RESULTS.md"
       ]
     },
     {
@@ -492,7 +497,8 @@
         "docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
-        "RQ_Specified/A31_gria1_fibroblast_response/reports/PARTNER_CONTEXT_V1_RESULTS.md"
+        "RQ_Specified/A31_gria1_fibroblast_response/reports/PARTNER_CONTEXT_V1_RESULTS.md",
+        "RQ_Specified/A31_gria1_fibroblast_response/reports/DEPTH_CONDITIONED_PARTNER_V1_RESULTS.md"
       ]
     },
     {
@@ -1131,7 +1137,11 @@
     "analysis/research/contracts/A9.receptor_context_v1.json",
     "analysis/research/contracts/A8.panel_attribution_v1.json",
     "analysis/research/contracts/A27.state_representation_v1.json",
-    "analysis/research/contracts/A31.depth_conditioned_partner_v1.json"
+    "analysis/research/contracts/A31.depth_conditioned_partner_v1.json",
+    "analysis/research/contracts/A5.feature_context_display_v1.json",
+    "analysis/research/contracts/A5.feature_context_figures_v2.json",
+    "analysis/research/contracts/A3.rna_context_display_v1.json",
+    "analysis/research/contracts/A27.source_code_concentration_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1283,7 +1293,12 @@
     "analysis/research/runs/A31_partner_context_v1_20261103/receipt.json",
     "analysis/research/runs/A9_receptor_context_v1_20261103/receipt.json",
     "analysis/research/runs/A8_panel_attribution_v1_20261103/receipt.json",
-    "analysis/research/runs/A27_state_representation_v1_20261103/receipt.json"
+    "analysis/research/runs/A27_state_representation_v1_20261103/receipt.json",
+    "analysis/research/runs/A31_depth_conditioned_partner_v1_20261103/receipt.json",
+    "analysis/research/runs/A5_feature_context_display_v1_20261104/receipt.json",
+    "analysis/research/runs/A5_feature_context_figures_v2_20261104/receipt.json",
+    "analysis/research/runs/A3_rna_context_display_v1_20261104/receipt.json",
+    "analysis/research/runs/A27_source_code_concentration_v1_20261104/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

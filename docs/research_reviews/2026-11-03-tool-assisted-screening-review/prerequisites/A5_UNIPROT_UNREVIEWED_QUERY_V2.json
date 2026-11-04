@@ -1,0 +1,14 @@
+{
+  "query": "organism_id:10090 AND reviewed:false AND (gene_exact:2210011C24Rik OR gene_exact:2310007B03Rik OR gene_exact:9330182L06Rik OR gene_exact:AA986860 OR gene_exact:Akr1c14 OR gene_exact:Fam184a OR gene_exact:Tmem116)",
+  "missing_reviewed_symbols": [
+    "2210011C24Rik",
+    "2310007B03Rik",
+    "9330182L06Rik",
+    "AA986860",
+    "Akr1c14",
+    "Fam184a",
+    "Tmem116"
+  ],
+  "count": 37,
+  "date": "2026-11-03"
+}

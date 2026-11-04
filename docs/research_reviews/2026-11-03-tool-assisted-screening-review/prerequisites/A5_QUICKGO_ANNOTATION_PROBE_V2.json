@@ -1,0 +1,2798 @@
+{
+  "numberOfHits": 63,
+  "results": [
+    {
+      "id": "UniProtKB:P31955!267840268",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0008284",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:8702723",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20161020",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840269",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0032355",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:17369357",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090623",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840270",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0050731",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:8702723",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20161020",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840271",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060598",
+      "goName": null,
+      "goEvidence": "IMP",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000315",
+      "reference": "PMID:17369357",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:2176531"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "EMAPA",
+              "id": "35538",
+              "relation": "occurs_in"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090623",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840272",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060744",
+      "goName": null,
+      "goEvidence": "IMP",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000315",
+      "reference": "PMID:10331984",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:2176531"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090626",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840273",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060744",
+      "goName": null,
+      "goEvidence": "IMP",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000315",
+      "reference": "PMID:17369357",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:2176531"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090623",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840274",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060749",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:10331984",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95290"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "EMAPA",
+              "id": "36566",
+              "relation": "results_in_development_of"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090626",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840275",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060749",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:10331984",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:98724"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "EMAPA",
+              "id": "36566",
+              "relation": "results_in_development_of"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20090626",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840276",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "acts_upstream_of_or_within",
+      "goId": "GO:0060750",
+      "goName": null,
+      "goEvidence": "IMP",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000315",
+      "reference": "PMID:17369357",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:2176531"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "EMAPA",
+              "id": "35538",
+              "relation": "occurs_in"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20210319",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840277",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0005154",
+      "goName": null,
+      "goEvidence": "IBA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000318",
+      "reference": "GO_REF:0000033",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:107508"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:96070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "PANTHER",
+              "id": "PTN000077690"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2526"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "3849"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620275"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P01135"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q6UW88"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20241119",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840278",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0005154",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840279",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0005154",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840280",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0008083",
+      "goName": null,
+      "goEvidence": "IBA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000318",
+      "reference": "GO_REF:0000033",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:1919170"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:96070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "PANTHER",
+              "id": "PTN000077690"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2526"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620275"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620299"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P01135"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q6UW88"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q99075"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20170228",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840281",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0008083",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840282",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0008083",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840283",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0030297",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840284",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000501",
+      "reference": "GO_REF:0000120",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "ARBA",
+              "id": "ARBA00028558"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840285",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:23086930",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "GO",
+              "id": "0007173",
+              "relation": "part_of"
+            },
+            {
+              "db": "GO",
+              "id": "0005576",
+              "relation": "occurs_in"
+            },
+            {
+              "db": "GO",
+              "id": "0004714",
+              "relation": "directly_positively_regulates"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840286",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:23333074",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "GO",
+              "id": "0007173",
+              "relation": "part_of"
+            },
+            {
+              "db": "GO",
+              "id": "0004714",
+              "relation": "directly_positively_regulates"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840287",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:26243875",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "GO",
+              "id": "0007173",
+              "relation": "part_of"
+            },
+            {
+              "db": "GO",
+              "id": "0004714",
+              "relation": "directly_positively_regulates"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840288",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:30770250",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "GO",
+              "id": "0007173",
+              "relation": "part_of"
+            },
+            {
+              "db": "GO",
+              "id": "0005576",
+              "relation": "occurs_in"
+            },
+            {
+              "db": "GO",
+              "id": "0004714",
+              "relation": "directly_positively_regulates"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840289",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "enables",
+      "goId": "GO:0048018",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "molecular_function",
+      "evidenceCode": "ECO:0000266",
+      "reference": "PMID:8702723",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "GO",
+              "id": "0038134",
+              "relation": "part_of"
+            },
+            {
+              "db": "GO",
+              "id": "0005576",
+              "relation": "occurs_in"
+            },
+            {
+              "db": "GO",
+              "id": "0004714",
+              "relation": "directly_positively_regulates"
+            }
+          ]
+        }
+      ],
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211208",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840290",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IBA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000318",
+      "reference": "GO_REF:0000033",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:107508"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:1919170"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:88068"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:96070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:98724"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:99439"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "PANTHER",
+              "id": "PTN001643577"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2526"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620275"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620299"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "O14944"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P01135"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P35070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q6UW88"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q99075"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20250411",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840291",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840292",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000119",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840293",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000501",
+      "reference": "GO_REF:0000120",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "ARBA",
+              "id": "ARBA00034174"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840294",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:23086930",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840295",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:23333074",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840296",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:26243875",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840297",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007173",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:30770250",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211130",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840298",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007186",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840299",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0007186",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000119",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840300",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0008284",
+      "goName": null,
+      "goEvidence": "IBA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000318",
+      "reference": "GO_REF:0000033",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:107508"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:1919170"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:88068"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:96070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:98724"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:99439"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "PANTHER",
+              "id": "PTN001643577"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "3849"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620275"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620299"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "O14944"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P01135"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q6UW88"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20200313",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840301",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0008284",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840302",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0008284",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000119",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840303",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0008284",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000501",
+      "reference": "GO_REF:0000120",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840304",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0014009",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840305",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0014009",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840306",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0031175",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840307",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0031175",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840308",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0038134",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840309",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0038134",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "PMID:8702723",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20211208",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840310",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0042327",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840311",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0042327",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840312",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0042542",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840313",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0043434",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840314",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0045668",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840315",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0045668",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840316",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0051384",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840317",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0051384",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840318",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "involved_in",
+      "goId": "GO:0051591",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "biological_process",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840319",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "is_active_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "IBA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000318",
+      "reference": "GO_REF:0000033",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:107508"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:1919170"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:88068"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:96070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:98724"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:99439"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "PANTHER",
+              "id": "PTN000077690"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "3849"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "620299"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "O14944"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P01135"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P35070"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "Q99075"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260528",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840320",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "is_active_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:23086930",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20220114",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840321",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "is_active_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "IGI",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000316",
+      "reference": "PMID:30770250",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "MGI",
+              "id": "MGI:95294"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20220114",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840322",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "is_active_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000266",
+      "reference": "PMID:8702723",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20220114",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840323",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000096",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "RGD",
+              "id": "2149"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840324",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000119",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840325",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0005576",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000501",
+      "reference": "GO_REF:0000120",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P24338"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSRNOP00000003703"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840326",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0005634",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:8588926",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20080820",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840327",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0005737",
+      "goName": null,
+      "goEvidence": "IDA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000314",
+      "reference": "PMID:8588926",
+      "withFrom": null,
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "MGI",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20080820",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840328",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0009986",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000265",
+      "reference": "GO_REF:0000107",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        },
+        {
+          "connectedXrefs": [
+            {
+              "db": "ensembl",
+              "id": "ENSP00000379097"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "Ensembl",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260724",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840329",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0009986",
+      "goName": null,
+      "goEvidence": "ISO",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0000266",
+      "reference": "GO_REF:0000119",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB",
+              "id": "P15514"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "GO_Central",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260723",
+      "synonyms": null,
+      "name": null
+    },
+    {
+      "id": "UniProtKB:P31955!267840330",
+      "geneProductId": "UniProtKB:P31955",
+      "qualifier": "located_in",
+      "goId": "GO:0016020",
+      "goName": null,
+      "goEvidence": "IEA",
+      "goAspect": "cellular_component",
+      "evidenceCode": "ECO:0007322",
+      "reference": "GO_REF:0000044",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "db": "UniProtKB-SubCell",
+              "id": "SL-0162"
+            }
+          ]
+        }
+      ],
+      "taxonId": 10090,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": [
+        "KRUK"
+      ],
+      "symbol": "Areg",
+      "date": "20260727",
+      "synonyms": null,
+      "name": null
+    }
+  ],
+  "pageInfo": {
+    "resultsPerPage": 200,
+    "current": 1,
+    "total": 1
+  }
+}

@@ -1,0 +1,465 @@
+cohort	assay	donor	region	protocol	width_log2	primary	partner	eligible	status	n_alveolar	n_adventitial	retained_alveolar	retained_adventitial	count_unit	alveolar_p_gria1	alveolar_p_partner	alveolar_observed_joint	alveolar_expected_joint	alveolar_residual	adventitial_p_gria1	adventitial_p_partner	adventitial_observed_joint	adventitial_expected_joint	adventitial_residual	delta_residual
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	GRIA2	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	GRIA3	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0038422649140546004	0.0	8.935499800126979e-05	-8.935499800126979e-05	8.935499800126979e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	GRIA4	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	CNIH2	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	CNIH3	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.008695652173913044	0.008695652173913044	0.0023715415019762848	0.00632411067193676	0.0038422649140546004	0.008695652173913044	0.0	0.0	0.0	0.00632411067193676
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	CACNG2	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	CACNG3	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	CACNG8	True	estimated	169	319	144	152	source_counts	0.16608281573498965	0.0	0.0	0.0	0.0	0.0038422649140546004	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	GRIA2	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	GRIA3	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.004417151475975005	0.0	5.663014712788469e-05	-5.663014712788469e-05	5.663014712788469e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	GRIA4	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	CNIH2	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	CNIH3	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.008403361344537815	0.008403361344537815	0.0018446402951424472	0.006558721049395368	0.004417151475975005	0.008403361344537815	0.0	0.0	0.0	0.006558721049395368
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	CACNG2	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	CACNG3	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	CACNG8	True	estimated	169	319	164	156	source_counts	0.16470439221304273	0.0	0.0	0.0	0.0	0.004417151475975005	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	GRIA2	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0	0.0	0.0	0.0	0.0072104214127617135	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	GRIA3	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0	0.0	0.0	0.0	0.0072104214127617135	0.005338309937427833	0.0	7.006733149892748e-05	-7.006733149892748e-05	7.006733149892748e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	GRIA4	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0	0.0	0.0	0.0	0.0072104214127617135	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	CNIH2	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0022988570292493925	0.0	0.00010637284884129618	-0.00010637284884129618	0.0072104214127617135	0.0	0.0	0.0	0.0	-0.00010637284884129618
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	CNIH3	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.01003954619543912	0.0	0.000783836345261715	-0.000783836345261715	0.0072104214127617135	0.00626205867777046	0.0	7.006733149892748e-05	-7.006733149892748e-05	-0.0007137690137627875
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	CACNG2	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0	0.0	0.0	0.0	0.0072104214127617135	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	CACNG3	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0	0.0	0.0	0.0	0.0072104214127617135	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	CACNG8	True	estimated	610	493	579	421	source_counts	0.08097260892040536	0.0008687898671666019	0.0	2.27431902399634e-05	-2.27431902399634e-05	0.0072104214127617135	0.0	0.0	0.0	0.0	-2.27431902399634e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	GRIA2	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0	0.0	0.0	0.0	0.006696354647174319	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	GRIA3	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0	0.0	0.0	0.0	0.006696354647174319	0.006849525701984718	0.0	6.968914741227255e-05	-6.968914741227255e-05	6.968914741227255e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	GRIA4	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0	0.0	0.0	0.0	0.006696354647174319	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	CNIH2	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0030698657841514987	0.0	0.0002083822774788026	-0.0002083822774788026	0.006696354647174319	0.0	0.0	0.0	0.0	-0.0002083822774788026
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	CNIH3	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.011504810933382362	0.0	0.0007827328089258591	-0.0007827328089258591	0.006696354647174319	0.008364677217136234	0.0	9.035030443706593e-05	-9.035030443706593e-05	-0.0006923825044887931
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	CACNG2	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0	0.0	0.0	0.0	0.006696354647174319	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	CACNG3	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0	0.0	0.0	0.0	0.006696354647174319	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	CACNG8	True	estimated	610	493	608	484	source_counts	0.07354954954954954	0.0007047864190721333	0.0	3.8096563193088285e-05	-3.8096563193088285e-05	0.006696354647174319	0.0	0.0	0.0	0.0	-3.8096563193088285e-05
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA2	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA3	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA4	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CNIH2	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CNIH3	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.018648018648018648	0.018648018648018648	0.0014344629729245114	0.01721355567509414	0.0	0.0303030303030303	0.0	0.0	0.0	0.01721355567509414
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG2	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG3	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG8	True	estimated	69	66	51	37	source_counts	0.04895104895104895	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA2	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA3	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA4	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CNIH2	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CNIH3	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.01539855072463768	0.01539855072463768	0.0006416062801932366	0.014756944444444442	0.0	0.021739130434782608	0.0	0.0	0.0	0.014756944444444442
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG2	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG3	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG8	True	estimated	69	66	69	65	source_counts	0.045498885172798216	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	GRIA2	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	GRIA3	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	GRIA4	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	CNIH2	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	CNIH3	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.009197335443872839	0.0	0.0012117840769976648	-0.0012117840769976648	0.007518796992481203	0.011278195488721804	0.0	0.0	0.0	-0.0012117840769976648
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	CACNG2	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	CACNG3	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	CACNG8	True	estimated	416	274	409	266	source_counts	0.13592271844664047	0.0	0.0	0.0	0.0	0.007518796992481203	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	GRIA2	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	GRIA3	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	GRIA4	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	CNIH2	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	CNIH3	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.008712206747401996	0.0	0.0009225710664308859	-0.0009225710664308859	0.007380073800738008	0.01107011070110701	0.0	0.0	0.0	-0.0009225710664308859
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	CACNG2	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	CACNG3	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	CACNG8	True	estimated	416	274	414	273	source_counts	0.13738091184084153	0.0	0.0	0.0	0.0	0.007380073800738008	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	0	2	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	GRIA4	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CNIH2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CNIH3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	CACNG8	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	GRIA4	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CNIH2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CNIH3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG2	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG3	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	CACNG8	False	unestimated_common_depth_support	4	38	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.037037037037037035	0.0	0.0	0.0	0.0	0.007407407407407407	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	True	estimated	43	179	27	79	source_counts	0.037037037037037035	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0061403508771929825	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.05263157894736842	0.0	0.0	0.0	0.0	0.006379585326953748	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	True	estimated	43	179	38	157	source_counts	0.02631578947368421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA4	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG8	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA4	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG2	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG3	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG8	False	unestimated_common_depth_support	0	44	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	5	0	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	6	27	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	1	6	0	0	source_counts											
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.005714285714285713	0.0	4.0241448692152914e-05	-4.0241448692152914e-05	4.0241448692152914e-05
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.005714285714285713	0.0	4.0241448692152914e-05	-4.0241448692152914e-05	4.0241448692152914e-05
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.011346685444656014	0.001515390686661405	0.0012260769981820192	0.00028931368847938583	0.007930029154518951	0.00857142857142857	0.0	0.0	0.0	0.00028931368847938583
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	True	estimated	542	430	538	422	source_counts	0.07620555790973807	0.0	0.0	0.0	0.0	0.007930029154518951	0.002857142857142857	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0055248618784530384	0.0	1.654150263009892e-05	-1.654150263009892e-05	1.654150263009892e-05
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0055248618784530384	0.0	1.654150263009892e-05	-1.654150263009892e-05	1.654150263009892e-05
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.01087993737345001	0.0015962836223212067	0.001067340276079999	0.0005289433462412075	0.009077255416363929	0.008180013946253286	0.0	6.809785346117167e-05	-6.809785346117167e-05	0.0005970411997023792
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	True	estimated	542	430	538	422	source_counts	0.07789938601485112	0.0	0.0	0.0	0.0	0.009077255416363929	0.0027624309392265192	0.0	1.654150263009892e-05	-1.654150263009892e-05	1.654150263009892e-05
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.004464285714285714	0.0	0.0	0.0	0.010416666666666666	0.020833333333333336	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.025930851063829786	0.0	0.001844568935164227	-0.001844568935164227	0.010416666666666666	0.010416666666666668	0.0	0.0	0.0	-0.001844568935164227
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	True	estimated	175	168	173	148	source_counts	0.0719956658786446	0.0	0.0	0.0	0.0	0.010416666666666666	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.004971219256933542	0.0	0.00012746716043419341	-0.00012746716043419341	0.01020408163265306	0.022626441881100266	0.0	0.0	0.0	-0.00012746716043419341
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.024401064773735583	0.0	0.004098251195199615	-0.004098251195199615	0.01020408163265306	0.01020408163265306	0.0	0.0	0.0	-0.004098251195199615
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	True	estimated	175	168	175	162	source_counts	0.0719632334539167	0.0	0.0	0.0	0.0	0.01020408163265306	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.03571428571428571	0.011904761904761904	0.0021962233169129717	0.009708538587848934	-0.009708538587848934
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.022021456804065496	0.016845473367212496	0.005231407190506692	0.011614066176705806	0.047619047619047616	0.03571428571428571	0.0	0.003981937602627257	-0.003981937602627257	0.015596003779333062
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	True	estimated	179	105	135	89	source_counts	0.2454081345385693	0.0	0.0	0.0	0.0	0.047619047619047616	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0297029702970297	0.009900990099009901	0.002491114496064991	0.007409875602944911	-0.007409875602944911
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.01806496439117596	0.01354872329338197	0.0044370087978326915	0.009111714495549277	0.039603960396039604	0.0297029702970297	0.0	0.002491114496064991	-0.002491114496064991	0.011602828991614269
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	True	estimated	179	105	174	101	source_counts	0.23375714263155636	0.0	0.0	0.0	0.0	0.039603960396039604	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA4	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG8	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA4	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG2	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG3	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG8	False	unestimated_common_depth_support	1	10	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA2	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA3	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.013605442176870746	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	GRIA4	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH2	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CNIH3	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.047619047619047616	0.047619047619047616	0.010582010582010581	0.037037037037037035	0.0	0.013605442176870746	0.0	0.0	0.0	0.037037037037037035
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG2	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG3	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	CACNG8	True	estimated	42	93	21	44	source_counts	0.19047619047619047	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA2	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA3	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.021491228070175436	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	GRIA4	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH2	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CNIH3	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.02631578947368421	0.02631578947368421	0.007017543859649123	0.019298245614035085	0.0	0.010964912280701754	0.0	0.0	0.0	0.019298245614035085
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG2	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG3	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	CACNG8	True	estimated	42	93	38	81	source_counts	0.18421052631578946	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	GRIA4	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	CNIH3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	CACNG8	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	GRIA4	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	CNIH3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG2	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG3	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	CACNG8	False	unestimated_common_depth_support	0	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	GRIA2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	GRIA3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	GRIA4	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	CNIH2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	CNIH3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	CACNG2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	CACNG3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	CACNG8	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	GRIA2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	GRIA3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	GRIA4	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	CNIH2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	CNIH3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	CACNG2	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	CACNG3	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	CACNG8	False	unestimated_common_depth_support	2	1	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	0	6	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	GRIA2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	GRIA3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	GRIA4	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	CNIH2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	CNIH3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	CACNG2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	CACNG3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	CACNG8	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	GRIA2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	GRIA3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	GRIA4	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	CNIH2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	CNIH3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	CACNG2	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	CACNG3	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	CACNG8	False	unestimated_common_depth_support	0	19	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	GRIA4	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	CNIH2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	CNIH3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	CACNG8	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	GRIA4	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	CNIH2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	CNIH3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG2	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG3	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	CACNG8	False	unestimated_common_depth_support	1	23	0	0	source_counts											
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	GRIA2	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.0	0.0	0.0	0.0	0.10144927536231883	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	GRIA3	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.006802721088435373	0.006802721088435373	0.003748438150770512	0.0030542829376648613	0.10144927536231883	0.043478260869565216	0.014492753623188406	0.007246376811594203	0.007246376811594203	-0.004192093873929341
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	GRIA4	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.006802721088435373	0.006802721088435373	0.003748438150770512	0.0030542829376648613	0.10144927536231883	0.0	0.0	0.0	0.0	0.0030542829376648613
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	CNIH2	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.0	0.0	0.0	0.0	0.10144927536231883	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	CNIH3	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.07281906473281136	0.05997769630138082	0.04546324118768994	0.014514455113690877	0.10144927536231883	0.07246376811594203	0.0	0.00992438563327032	-0.00992438563327032	0.024438840746961198
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	CACNG2	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.004710144927536232	0.004710144927536232	0.001766304347826087	0.002943840579710145	0.10144927536231883	0.0	0.0	0.0	0.0	0.002943840579710145
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	CACNG3	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.0	0.0	0.0	0.0	0.10144927536231883	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	CACNG8	True	estimated	245	75	206	69	source_counts	0.569486066233986	0.0	0.0	0.0	0.0	0.10144927536231883	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	GRIA2	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0	0.0	0.0	0.0	0.0958904109589041	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	GRIA3	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0051034112275047	0.0051034112275047	0.0033022072648559823	0.0018012039626487178	0.0958904109589041	0.0410958904109589	0.0136986301369863	0.0045662100456621	0.0091324200913242	-0.007331216128675482
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	GRIA4	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0051034112275047	0.0051034112275047	0.0033022072648559823	0.0018012039626487178	0.0958904109589041	0.0	0.0	0.0	0.0	0.0018012039626487178
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	CNIH2	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0	0.0	0.0	0.0	0.0958904109589041	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	CNIH3	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.05767218121283672	0.04158524888712471	0.034120962421355136	0.0074642864657695806	0.0958904109589041	0.0684931506849315	0.0	0.007690459024273011	-0.007690459024273011	0.01515474549004259
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	CACNG2	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.007403197312404066	0.007403197312404066	0.004027828861201146	0.0033753684512029198	0.0958904109589041	0.0	0.0	0.0	0.0	0.0033753684512029198
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	CACNG3	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0	0.0	0.0	0.0	0.0958904109589041	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	CACNG8	True	estimated	245	75	233	73	source_counts	0.5832556776656621	0.0	0.0	0.0	0.0	0.0958904109589041	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	GRIA2	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	GRIA3	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	GRIA4	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	CNIH2	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	CNIH3	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	CACNG2	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	CACNG3	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	CACNG8	False	unestimated_common_depth_support	310	28	132	17	source_counts											
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	GRIA2	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0	0.0	0.0	0.0	0.1111111111111111	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	GRIA3	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0034940600978336823	0.0	0.002241472515591419	-0.002241472515591419	0.1111111111111111	0.1111111111111111	0.0	0.020987654320987655	-0.020987654320987655	0.018746181805396236
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	GRIA4	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.001966568338249754	0.001966568338249754	0.0015662933667475918	0.0004002749715021623	0.1111111111111111	0.0	0.0	0.0	0.0	0.0004002749715021623
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	CNIH2	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0	0.0	0.0	0.0	0.1111111111111111	0.0	0.0	0.0	0.0	0.0
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	CNIH3	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.08982057696367263	0.0629116342924992	0.0622522498494419	0.0006593844430573044	0.1111111111111111	0.07407407407407407	0.0	0.013580246913580247	-0.013580246913580247	0.014239631356637552
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	CACNG2	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0034940600978336823	0.0034940600978336823	0.002241472515591419	0.0012525875822422634	0.1111111111111111	0.0	0.0	0.0	0.0	0.0012525875822422634
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	CACNG3	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0055055055055055055	0.0	0.002678354029705381	-0.002678354029705381	0.1111111111111111	0.0	0.0	0.0	0.0	-0.002678354029705381
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	CACNG8	True	estimated	310	28	293	27	source_counts	0.6127854352933665	0.0	0.0	0.0	0.0	0.1111111111111111	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	GRIA2	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	GRIA3	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	GRIA4	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	CNIH2	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	CNIH3	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	CACNG2	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	CACNG3	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	0.5	True	CACNG8	True	estimated	45	133	39	86	UMIs	0.05263157894736842	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	GRIA2	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	GRIA3	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	GRIA4	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	CNIH2	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	CNIH3	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	CACNG2	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	CACNG3	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P1	distal	10x	1.0	False	CACNG8	True	estimated	45	133	44	122	UMIs	0.04651162790697675	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P2	distal	10x	0.5	True	GRIA2	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	GRIA3	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	GRIA4	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	CNIH2	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	CNIH3	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	CACNG2	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	CACNG3	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	0.5	True	CACNG8	False	unestimated_common_depth_support	121	15	30	5	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	GRIA2	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	GRIA3	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	GRIA4	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	CNIH2	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	CNIH3	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	CACNG2	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	CACNG3	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P2	distal	10x	1.0	False	CACNG8	False	unestimated_common_depth_support	121	15	86	13	UMIs											
+Travaglini	10x	P3	distal	10x	0.5	True	GRIA2	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	0.5	True	GRIA3	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0018580453363062058	0.0	0.0001884973529586006	-0.0001884973529586006	0.02564102564102564	0.014245014245014244	0.0	0.0	0.0	-0.0001884973529586006
+Travaglini	10x	P3	distal	10x	0.5	True	GRIA4	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	0.5	True	CNIH2	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	0.5	True	CNIH3	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.014678558156819026	0.0	0.003224934599922163	-0.003224934599922163	0.02564102564102564	0.0	0.0	0.0	0.0	-0.003224934599922163
+Travaglini	10x	P3	distal	10x	0.5	True	CACNG2	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	0.5	True	CACNG3	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	0.5	True	CACNG8	True	estimated	599	58	186	47	UMIs	0.21832032701597917	0.0	0.0	0.0	0.0	0.02564102564102564	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	GRIA2	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	GRIA3	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0006473634651600753	0.0	6.583357272814325e-05	-6.583357272814325e-05	0.020833333333333336	0.020833333333333336	0.0	0.0005630630630630631	-0.0005630630630630631	0.0004972294903349198
+Travaglini	10x	P3	distal	10x	1.0	False	GRIA4	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	CNIH2	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	CNIH3	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.01670639124293785	0.0	0.004080590517172587	-0.004080590517172587	0.020833333333333336	0.0	0.0	0.0	0.0	-0.004080590517172587
+Travaglini	10x	P3	distal	10x	1.0	False	CACNG2	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	CACNG3	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	10x	P3	distal	10x	1.0	False	CACNG8	True	estimated	599	58	402	48	UMIs	0.21601341807909605	0.0	0.0	0.0	0.0	0.020833333333333336	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	GRIA2	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	GRIA3	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.07407407407407407	0.0	0.0037037037037037034	-0.0037037037037037034	0.0037037037037037034
+Travaglini	SS2	P1	distal	SS2	0.5	True	GRIA4	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	CNIH2	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.037037037037037035	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	CNIH3	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	CACNG2	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	CACNG3	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	0.5	True	CACNG8	True	estimated	80	54	31	27	reads	0.42222222222222217	0.0	0.0	0.0	0.0	0.037037037037037035	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	1.0	False	GRIA2	True	estimated	80	54	67	42	reads	0.46749226006191946	0.0	0.0	0.0	0.0	0.02631578947368421	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	1.0	False	GRIA3	True	estimated	80	54	67	42	reads	0.46749226006191946	0.0	0.0	0.0	0.0	0.02631578947368421	0.046052631578947366	0.0	0.0014619883040935672	-0.0014619883040935672	0.0014619883040935672
+Travaglini	SS2	P1	distal	SS2	1.0	False	GRIA4	True	estimated	80	54	67	42	reads	0.46749226006191946	0.0	0.0	0.0	0.0	0.02631578947368421	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	1.0	False	CNIH2	True	estimated	80	54	67	42	reads	0.46749226006191946	0.006191950464396284	0.0	0.0029138590420688397	-0.0029138590420688397	0.02631578947368421	0.039473684210526314	0.0	0.0	0.0	-0.0029138590420688397
+Travaglini	SS2	P1	distal	SS2	1.0	False	CNIH3	True	estimated	80	54	67	42	reads	0.46749226006191946	0.024767801857585137	0.006191950464396284	0.011655436168275359	-0.005463485703879075	0.02631578947368421	0.0	0.0	0.0	0.0	-0.005463485703879075
+Travaglini	SS2	P1	distal	SS2	1.0	False	CACNG2	True	estimated	80	54	67	42	reads	0.46749226006191946	0.0	0.0	0.0	0.0	0.02631578947368421	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	1.0	False	CACNG3	True	estimated	80	54	67	42	reads	0.46749226006191946	0.0	0.0	0.0	0.0	0.02631578947368421	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P1	distal	SS2	1.0	False	CACNG8	True	estimated	80	54	67	42	reads	0.46749226006191946	0.006191950464396284	0.0	0.0029138590420688397	-0.0029138590420688397	0.02631578947368421	0.0	0.0	0.0	0.0	-0.0029138590420688397
+Travaglini	SS2	P2	distal	SS2	0.5	True	GRIA2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	GRIA3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	GRIA4	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	CNIH2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	CNIH3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	CACNG2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	CACNG3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	0.5	True	CACNG8	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	GRIA2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	GRIA3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	GRIA4	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	CNIH2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	CNIH3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	CACNG2	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	CACNG3	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P2	distal	SS2	1.0	False	CACNG8	False	unestimated_common_depth_support	28	4	0	0	reads											
+Travaglini	SS2	P3	distal	SS2	0.5	True	GRIA2	True	estimated	140	37	95	26	reads	0.32899698340874817	0.009615384615384616	0.0	0.00420673076923077	-0.00420673076923077	0.0	0.0	0.0	0.0	0.0	-0.00420673076923077
+Travaglini	SS2	P3	distal	SS2	0.5	True	GRIA3	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.038461538461538464	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	0.5	True	GRIA4	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	0.5	True	CNIH2	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.038461538461538464	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	0.5	True	CNIH3	True	estimated	140	37	95	26	reads	0.32899698340874817	0.007918552036199095	0.007918552036199095	0.002561884482299707	0.005356667553899387	0.0	0.07692307692307693	0.0	0.0	0.0	0.005356667553899387
+Travaglini	SS2	P3	distal	SS2	0.5	True	CACNG2	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	0.5	True	CACNG3	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	0.5	True	CACNG8	True	estimated	140	37	95	26	reads	0.32899698340874817	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	GRIA2	True	estimated	140	37	120	30	reads	0.32584082584082585	0.007575757575757576	0.0	0.002869605142332415	-0.002869605142332415	0.0	0.0	0.0	0.0	0.0	-0.002869605142332415
+Travaglini	SS2	P3	distal	SS2	1.0	False	GRIA3	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.03333333333333333	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	GRIA4	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	CNIH2	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.03333333333333333	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	CNIH3	True	estimated	140	37	120	30	reads	0.32584082584082585	0.013986013986013986	0.013986013986013986	0.00582818502398922	0.008157828962024768	0.0	0.06666666666666667	0.0	0.0	0.0	0.008157828962024768
+Travaglini	SS2	P3	distal	SS2	1.0	False	CACNG2	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	CACNG3	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Travaglini	SS2	P3	distal	SS2	1.0	False	CACNG8	True	estimated	140	37	120	30	reads	0.32584082584082585	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0

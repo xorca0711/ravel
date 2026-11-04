@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "source_manifest": "A27_ANNOTATION_MEMBER_MANIFEST_V1.json",
+  "source_rows": 785340,
+  "IGT29_rows": 12953,
+  "uncompressed_sha256": "00b31ecfb01435bf24d3f85d26b4c02238bf7c590f3b35cfc0e218ac035e31fd",
+  "crc32": 3349936261,
+  "subset_path": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A27\\A27_IGT29_SEPARATE_ANNOTATION_V1.tsv",
+  "subset_sha256": "96c19fd2acc9645c48f48c0eeda49dbef5bf90b1e5c9694e6e3fccec661d698f",
+  "columns": [
+    "IGT.cellID",
+    "level1",
+    "level2",
+    "level2.group",
+    "IGT",
+    "IGTHT",
+    "mdeX",
+    "mdeY"
+  ],
+  "union_join_coverage": {
+    "with_separate_annotation": 12953,
+    "without_separate_annotation": 379
+  },
+  "shared_GEX_TCR_label_disagreements": 0,
+  "disagreement_examples": [],
+  "scope": "source-state annotation concordance; no within-state clone concentration"
+}

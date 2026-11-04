@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gene",
+      "id": "212439,71874,98248",
+      "retmode": "json"
+    },
+    "max_items": 3,
+    "max_depth": 4
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": null,
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "header": {
+        "type": "esummary",
+        "version": "0.3"
+      },
+      "result": {
+        "uids": [
+          "212439",
+          "71874",
+          "98248"
+        ],
+        "212439": {
+          "uid": "212439",
+          "name": "AA986860",
+          "description": "expressed sequence AA986860",
+          "_truncated_keys": 18
+        },
+        "71874": {
+          "uid": "71874",
+          "name": "Mab21l4",
+          "description": "mab-21-like 4",
+          "_truncated_keys": 18
+        },
+        "_truncated_keys": 1
+      }
+    },
+    "top_keys": [
+      "header",
+      "result"
+    ]
+  }
+}

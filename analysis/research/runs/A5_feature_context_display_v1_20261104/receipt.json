@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.feature_context_display_v1",
+  "owner": "A5",
+  "contract": "analysis/research/contracts/A5.feature_context_display_v1.json",
+  "contract_sha256": "8f373c461c14c7083483065bc5cbf656fbfa7eac87026a6598e81405248e41a3",
+  "git_commit": "53820f064629fa8320af169465cbf32a21b2f93a",
+  "started_at": "2026-11-04T01:01:39.233055+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_display_v1.py",
+    "--output",
+    "analysis/research/runs/A5_feature_context_display_v1_20261104"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/member_contributions.tsv",
+      "sha256": "096c037eacdb73ced6a7a329d35831fe7041a5725ab4c82c5f6b25cd9b35f2c1",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/unit_support.tsv",
+      "sha256": "fb670b4a27063448a31e4f01ce92ab89471094f39056c2847bcb38bf415b05e5",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/receipt.json",
+      "sha256": "bb7122691384de5b91464317e85dba74c4b9cc24449e0c777263f2d41308a97c",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_display_v1.py",
+      "sha256": "e16b8203da862f3bf0d2eb84b33774ef59cda1d44abe91fd0186b535485a103a"
+    },
+    {
+      "path": "analysis/research/contracts/A5.component_attribution_v1.json",
+      "sha256": "b3979441f7d73a1d24403d9b33ea533f5ac82fcdc95a33ed484f1d26a38a411e"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_DISPLAY_MAP_V1.tsv",
+      "sha256": "db85e5273bfacefeeb35c36f3535d28d2fc4d4f58ac905fae70b96f1c0f3e41c"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_ROLE_SCOPE_CROSSWALK_V2.tsv",
+      "sha256": "44b680cce91685d07435a618b96bffe91de27bd2e750234e49442c8824bdd564"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_DISPLAY_INPUTS_V1.json",
+      "sha256": "68d09aadd2348887f17539c9c8896245b92ef6c0b199f01f71827ba63f26d4cb"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_CONTEXT_DISPLAY_SPEC_V1.md",
+      "sha256": "204a622b51cb7e9bea5af842b5c8dcaef4597cda9fca3907a6192dea1ce47e75"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_CANDIDATE_PROCESS_COMPARISON_V1.md",
+      "sha256": "8487e0b8dcbd45859f5e443bc12e14d1da8a5abbe92fc81de2515d9661f5903b"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_SELECTED_ANNOTATIONS_V2.json",
+      "sha256": "f8861b77c4ce3a3905c7aabae97006278a7de33d3dd479d136c110eaea89277b"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_GO_EVIDENCE_ROWS_V2.tsv",
+      "sha256": "7d99963855d7e6ff35bd7742be527f83fd00dc09c049e84cf0a25c75dd2992e2"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_extract_annotations_v2.py",
+      "sha256": "3d11925ca2f908b590335638ef4d2bc658674d0244fea7d63887f20fbfbdd98b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/all_member_values.tsv",
+      "sha256": "715d82fa42eee30005061de06bfd5eeba25aae5241f3c4966d5b9f3c30796f42"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/gene_summary.tsv",
+      "sha256": "49c9594d3afadc236b9fac39bba58387be057d4e395e2ee0cb4f2fd093a816ce"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/gene_day_summary.tsv",
+      "sha256": "e00b829fa82b6bf9d5d8d42b4d62381ddd818dc8aabab44da58e981fe71345ac"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/support.tsv",
+      "sha256": "8755af49c25a5365ebd2ac1d27a9f4d7fe4872f80c061456068a1d95f8d0b254"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/source_role_crosswalk.tsv",
+      "sha256": "44b680cce91685d07435a618b96bffe91de27bd2e750234e49442c8824bdd564"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/all_members_by_mouse.png",
+      "sha256": "defc908a26e4d384b0f882f54d14f90b2114b2cd5a89fdc86779828251ac61a4"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/candidate_features_by_mouse.png",
+      "sha256": "98d890a8a88d1f5d5539824be63a79816ea5fa1e2d4477953714778c30b6e0e7"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/summary.json",
+      "sha256": "e40cd77bbb27d96ccb76600496215282db1b016c6e570191f8e5d19df329a698"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:01:50.851111+00:00"
+}

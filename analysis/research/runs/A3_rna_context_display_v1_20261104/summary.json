@@ -1,0 +1,30 @@
+{
+  "analysis_id": "A3.rna_context_display_v1",
+  "measured_libraries": 6,
+  "fixed_targets": 6,
+  "library_target_rows": 36,
+  "condition_summary_rows": 18,
+  "source_gene_rows": 24411,
+  "source_libraries": 52,
+  "compressed_sha256": "fc58938d85e701844f87cb2820665cd2c93ebe8ffaedc4d3145b3ade4955a3fd",
+  "decompressed_sha256": "df810dbe880191f79ab5019b7b844e67113642046975d4194a2010370af09fc7",
+  "source_totals_exact_parity": true,
+  "gene_order": [
+    "Stat6",
+    "Egr2",
+    "Pparg",
+    "Rxra",
+    "Irf4",
+    "Arg1"
+  ],
+  "sample_order": [
+    "WT-CTR_1",
+    "WT-CTR_2",
+    "WT-IL4_24h_1",
+    "WT-IL4_24h_2",
+    "WT-pIL4_1",
+    "WT-pIL4_2"
+  ],
+  "scope": "Exposed descriptive reported-count CPM in six libraries; preparation/batch and control-duration unknown; no population or withdrawal-effect inference",
+  "figure": "Library points only; separate y maxima, zero baseline; raw-CPM means/ranges in table only"
+}

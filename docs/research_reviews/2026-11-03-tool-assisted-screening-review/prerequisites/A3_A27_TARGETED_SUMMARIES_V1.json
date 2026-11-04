@@ -1,0 +1,125 @@
+{
+  "retrieved_at_utc": "2026-11-03T14:45:13.398545+00:00",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gds",
+      "id": "200322520,200154935",
+      "retmode": "json"
+    },
+    "record_path": "result",
+    "max_items": 35,
+    "max_depth": 6
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uids": [
+        "200322520",
+        "200154935"
+      ],
+      "200322520": {
+        "uid": "200322520",
+        "error": "cannot get document summary"
+      },
+      "200154935": {
+        "uid": "200154935",
+        "accession": "GSE154935",
+        "gds": "",
+        "title": "Analysis of CD8 T cells in aged mice",
+        "summary": "Aging is associated with systemic chronic inflammation (inflammaging) that leads to impaired physiological functions and vulnerability to several diseases. However, underlying alterations in aged immune system resulting in gradual loss of i...",
+        "gpl": "17021",
+        "gse": "154935",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2020/12/06",
+        "suppfile": "CNT",
+        "samples": [
+          {
+            "accession": "GSM4684600",
+            "title": "DM_A.TTGAGCCTT"
+          },
+          {
+            "accession": "GSM4684603",
+            "title": "DM_B.GGTCCAGAT"
+          },
+          {
+            "accession": "GSM4684597",
+            "title": "DM_A.ACACGATCT"
+          },
+          {
+            "accession": "GSM4684594",
+            "title": "DM_A.AACTTGACT"
+          },
+          {
+            "accession": "GSM4684593",
+            "title": "DM_A.AACGCATTT"
+          },
+          {
+            "accession": "GSM4684596",
+            "title": "DM_B.CATGCTTAT"
+          },
+          {
+            "accession": "GSM4684598",
+            "title": "DM_A.CCAGTTAGT"
+          },
+          {
+            "accession": "GSM4684599",
+            "title": "DM_A.TTCGCTGAT"
+          },
+          {
+            "accession": "GSM4684601",
+            "title": "DM_B.AGCAATTCT"
+          },
+          {
+            "accession": "GSM4684602",
+            "title": "DM_B.GCACATCTT"
+          },
+          {
+            "accession": "GSM4684595",
+            "title": "DM_B.AGTTGCTTT"
+          },
+          {
+            "accession": "GSM4684604",
+            "title": "DM_B.TCGGAATGT"
+          }
+        ],
+        "relations": [],
+        "extrelations": [
+          {
+            "relationtype": "SRA",
+            "targetobject": "SRP273146",
+            "targetftplink": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP273/SRP273146/"
+          }
+        ],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "33271118"
+        ],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154935/",
+        "geo2r": "no",
+        "bioproject": "PRJNA647901"
+      }
+    },
+    "top_keys": [
+      "uids",
+      "200322520",
+      "200154935"
+    ]
+  }
+}

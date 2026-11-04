@@ -1,0 +1,54 @@
+{
+  "retrieved_at_utc": "2026-11-03T15:01:30.698790+00:00",
+  "date_local": "2026-11-04",
+  "ranges": [
+    {
+      "start": 2557699040,
+      "bytes": 22
+    },
+    {
+      "start": 2557699020,
+      "bytes": 20
+    },
+    {
+      "start": 2557684463,
+      "bytes": 14577
+    },
+    {
+      "start": 2481524862,
+      "bytes": 30
+    },
+    {
+      "start": 2481524892,
+      "bytes": 51
+    },
+    {
+      "start": 2481524975,
+      "bytes": 4096
+    },
+    {
+      "start": 2557682350,
+      "bytes": 30
+    },
+    {
+      "start": 2557682380,
+      "bytes": 9
+    },
+    {
+      "start": 2557682421,
+      "bytes": 1842
+    }
+  ],
+  "archive": "https://zenodo.org/api/records/21839963/files/immgenT-TCR.zip/content",
+  "table_name": "data/All.IGTs.Enhanced.Summary.Table.2026-02-12.csv",
+  "column_header": "IGT.ID,organ,organ.detailed,genetic.variation,sample.name,IGTHT,IGT.cellID,alpha.functionality,alpha.vgene,alpha.jgene,alpha.junction,alpha.Pgen.aa,alpha.junction.nt,alpha.Pgen.nt,alpha.vj.nregion,alpha.reads,alpha2.functionality,alpha2.vgene,alpha2.jgene,alpha2.junction,alpha2.Pgen.aa,alpha2.junction.nt,alpha2.Pgen.nt,alpha2.vj.nregion,alpha2.reads,beta.functionality,beta.vgene,beta.jgene,beta.junction,beta.Pgen.aa,beta.junction.nt,beta.Pgen.nt,beta.vd.nregion,beta.dj.nregion,beta.reads,beta2.functionality,beta2.vgene,beta2.jgene,beta2.junction,beta2.Pgen.aa,beta2.junction.nt,beta2.Pgen.nt,beta2.vd.nregion,beta2.dj.nregion,beta2.reads,isNKT,isMAIT,level1,level2,umapX,umapY,Seurat.cluster,mdeX,mdeY",
+  "readme_resource_lines": [
+    "\u2514\u2500\u2500 data/",
+    "[Zenodo record \u2014 DOI 10.5281/zenodo.21839963](https://zenodo.org/records/21839963?utm_source=chatgpt.com)",
+    "Download the dataset and place the `data/` directory in the folder coantaining the notebooks.",
+    "**Important:** The notebooks may contain relative paths to these directories. Before running the analyses, verify that the paths in the notebooks correspond to the location of the downloaded `data/` directory.",
+    "[Zenodo \u2014 10.5281/zenodo.21839963](https://zenodo.org/records/21839963?utm_source=chatgpt.com)",
+    "Place the downloaded `data/` directory in the location expected by the analysis scripts (in the folder with the scripts).",
+    "5. Place the Zenodo `data/` directory in the expected location."
+  ]
+}

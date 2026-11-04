@@ -1,0 +1,12 @@
+{
+  "purpose": "source-only reproducible extraction and original-role scope preservation",
+  "date": "2026-11-03",
+  "files": {
+    "A5_extract_annotations_v2.py": "3d11925ca2f908b590335638ef4d2bc658674d0244fea7d63887f20fbfbdd98b",
+    "A5_ROLE_SCOPE_CROSSWALK_V2.tsv": "44b680cce91685d07435a618b96bffe91de27bd2e750234e49442c8824bdd564",
+    "A5_GO_EVIDENCE_ROWS_V2.tsv": "7d99963855d7e6ff35bd7742be527f83fd00dc09c049e84cf0a25c75dd2992e2",
+    "A5_MEMBER_ANNOTATION_V2.tsv": "e75b03015f6094717fcc76f81b2dad796e48fc8e1a2331dd6e25937ace444e00"
+  },
+  "original_role_table_sha256": "4c7b125a8ad189b81d44731e5e23d18146aad0f918ae1eaa96a287646c304176",
+  "verification": "Both pre-existing annotation tables reproduced byte-for-byte; original99 roles retained; no expression/contribution input read"
+}

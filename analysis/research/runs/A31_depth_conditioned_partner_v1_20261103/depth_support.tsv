@@ -1,0 +1,59 @@
+cohort	assay	donor	region	protocol	width_log2	primary	n_alveolar	n_adventitial	retained_alveolar	retained_adventitial	fraction_retained_alveolar	fraction_retained_adventitial	common_bins	eligible	count_unit
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	True	169	319	144	152	0.8520710059171598	0.47648902821316613	7	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	False	169	319	164	156	0.9704142011834319	0.4890282131661442	4	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	True	610	493	579	421	0.9491803278688524	0.8539553752535497	7	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	False	610	493	608	484	0.9967213114754099	0.9817444219066938	5	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	69	66	51	37	0.7391304347826086	0.5606060606060606	5	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	69	66	69	65	1.0	0.9848484848484849	4	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	True	416	274	409	266	0.9831730769230769	0.9708029197080292	8	True	source_counts
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	False	416	274	414	273	0.9951923076923077	0.9963503649635036	5	True	source_counts
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	True	0	2	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	False	0	2	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	True	4	38	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	False	4	38	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	43	179	27	79	0.627906976744186	0.441340782122905	4	True	source_counts
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	43	179	38	157	0.8837209302325582	0.8770949720670391	4	True	source_counts
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	0	44	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	0	44	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	5	0	0	0	0.0		0	False	source_counts
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	5	0	0	0	0.0		0	False	source_counts
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	6	27	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	6	27	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	1	6	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	1	6	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	542	430	538	422	0.992619926199262	0.9813953488372092	8	True	source_counts
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	542	430	538	422	0.992619926199262	0.9813953488372092	4	True	source_counts
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	175	168	173	148	0.9885714285714285	0.8809523809523809	8	True	source_counts
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	175	168	175	162	1.0	0.9642857142857143	5	True	source_counts
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	179	105	135	89	0.7541899441340782	0.8476190476190476	6	True	source_counts
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	179	105	174	101	0.9720670391061452	0.9619047619047619	5	True	source_counts
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	True	1	10	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	False	1	10	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	True	42	93	21	44	0.5	0.4731182795698925	3	True	source_counts
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	False	42	93	38	81	0.9047619047619048	0.8709677419354839	4	True	source_counts
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	True	0	23	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	False	0	23	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	True	2	1	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	False	2	1	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	True	0	6	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	False	0	6	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	True	0	19	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	False	0	19	0	0		0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	True	1	23	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	False	1	23	0	0	0.0	0.0	0	False	source_counts
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	True	245	75	206	69	0.8408163265306122	0.92	5	True	source_counts
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	False	245	75	233	73	0.9510204081632653	0.9733333333333334	3	True	source_counts
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	True	310	28	132	17	0.4258064516129032	0.6071428571428571	3	False	source_counts
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	False	310	28	293	27	0.9451612903225807	0.9642857142857143	3	True	source_counts
+Travaglini	10x	P1	distal	10x	0.5	True	45	133	39	86	0.8666666666666667	0.6466165413533834	4	True	UMIs
+Travaglini	10x	P1	distal	10x	1.0	False	45	133	44	122	0.9777777777777777	0.9172932330827067	3	True	UMIs
+Travaglini	10x	P2	distal	10x	0.5	True	121	15	30	5	0.24793388429752067	0.3333333333333333	1	False	UMIs
+Travaglini	10x	P2	distal	10x	1.0	False	121	15	86	13	0.7107438016528925	0.8666666666666667	2	False	UMIs
+Travaglini	10x	P3	distal	10x	0.5	True	599	58	186	47	0.3105175292153589	0.8103448275862069	3	True	UMIs
+Travaglini	10x	P3	distal	10x	1.0	False	599	58	402	48	0.671118530884808	0.8275862068965517	2	True	UMIs
+Travaglini	SS2	P1	distal	SS2	0.5	True	80	54	31	27	0.3875	0.5	3	True	reads
+Travaglini	SS2	P1	distal	SS2	1.0	False	80	54	67	42	0.8375	0.7777777777777778	3	True	reads
+Travaglini	SS2	P2	distal	SS2	0.5	True	28	4	0	0	0.0	0.0	0	False	reads
+Travaglini	SS2	P2	distal	SS2	1.0	False	28	4	0	0	0.0	0.0	0	False	reads
+Travaglini	SS2	P3	distal	SS2	0.5	True	140	37	95	26	0.6785714285714286	0.7027027027027027	4	True	reads
+Travaglini	SS2	P3	distal	SS2	1.0	False	140	37	120	30	0.8571428571428571	0.8108108108108109	3	True	reads

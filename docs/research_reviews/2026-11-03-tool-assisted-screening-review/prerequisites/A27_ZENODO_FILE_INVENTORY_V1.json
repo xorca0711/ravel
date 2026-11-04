@@ -1,0 +1,49 @@
+{
+  "url": "https://zenodo.org/api/records/21839963",
+  "retrieved_at_utc": "2026-11-03T14:59:53.081928+00:00",
+  "response_sha256": "aa434abbde99230e03d5b9263f62d68716ad2a774a34d3255da97ce7a6a7be0c",
+  "doi": "10.5281/zenodo.21839963",
+  "title": "immgenT datasets",
+  "files": [
+    {
+      "key": "immgenT-TCR.zip",
+      "size": 2557699062,
+      "checksum": "md5:eec8014545ecc3b80aa89c6f7d1b3583",
+      "links": {
+        "self": "https://zenodo.org/api/records/21839963/files/immgenT-TCR.zip/content"
+      }
+    },
+    {
+      "key": "immgenT-CD8.zip",
+      "size": 2170464970,
+      "checksum": "md5:edcee3292887612f7d47fe346bde5dad",
+      "links": {
+        "self": "https://zenodo.org/api/records/21839963/files/immgenT-CD8.zip/content"
+      }
+    },
+    {
+      "key": "immgenT-CD4.zip",
+      "size": 305496221,
+      "checksum": "md5:1e27ef5d5f7d6bfc57402efcca681fec",
+      "links": {
+        "self": "https://zenodo.org/api/records/21839963/files/immgenT-CD4.zip/content"
+      }
+    },
+    {
+      "key": "immgenT-Treg.zip",
+      "size": 1289774145,
+      "checksum": "md5:1a142968ff6ab266685b6ca9eaad5c52",
+      "links": {
+        "self": "https://zenodo.org/api/records/21839963/files/immgenT-Treg.zip/content"
+      }
+    },
+    {
+      "key": "immgenT-Cosmo.zip",
+      "size": 4014130252,
+      "checksum": "md5:6038631fb96750c0c35aeeb1590a35b7",
+      "links": {
+        "self": "https://zenodo.org/api/records/21839963/files/immgenT-Cosmo.zip/content"
+      }
+    }
+  ]
+}

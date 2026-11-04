@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-04",
+  "changed_paths": [
+    "RQ_Specified/A3_macrophage_injury_history/README.md",
+    "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md",
+    "docs/research_dossiers/A3.md",
+    "RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md",
+    "RQ_Specified/A27_cd8_repertoire_state_redistribution/LITERATURE_CONTEXT.md",
+    "docs/research_dossiers/A27.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A3_macrophage_injury_history/reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md",
+    "RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/SOURCE_CODE_CONCENTRATION_V1_RESULTS.md"
+  ],
+  "local_path_checks": 194,
+  "broken_local_paths": [],
+  "framing_blocks_byte_identical": 19,
+  "registered_illustrations_hash_match": [
+    "A3",
+    "A27"
+  ],
+  "git_diff_check": "passed",
+  "scientific_rerun_for_documentation": false,
+  "integration_base_last_fetched": "acefbced7fd073f4f29ea265468aca640e1ded4c",
+  "technical_HEAD": "0b67a8027270ce8ed34ecd3d2e88ef5ee84d3b52",
+  "final_editorial_corrections": {
+    "DY1_inference_not_mechanism_exclusion": "both additions corrected",
+    "new_prose_spacing": "corrected without editing frozen source/specification artifacts",
+    "extra_title_and_banner_blank_lines": "removed",
+    "link_targets_unchanged_since_194_path_checks": true,
+    "protected_framing_byte_parity_rechecked": true,
+    "git_diff_check": "passed"
+  }
+}

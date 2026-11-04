@@ -1,0 +1,617 @@
+{
+  "retrieved_at_utc": "2026-11-03T14:47:38.032770+00:00",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gds",
+      "id": "200247939,200247940,200247943,200247944,200145562,200155005",
+      "retmode": "json"
+    },
+    "record_path": "result",
+    "max_items": 25,
+    "max_depth": 5
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uids": [
+        "200247939",
+        "200247940",
+        "200247943",
+        "200247944",
+        "200145562",
+        "200155005"
+      ],
+      "200247939": {
+        "uid": "200247939",
+        "accession": "GSE247939",
+        "gds": "",
+        "title": "Regulation of transcriptional signal integration and memory by inflammation-induced chromosome conformation [ChIP-Seq]",
+        "summary": "3-dimensional (3D) genome conformation is central to gene expression regulation, yet our understanding of how rapid transcriptional responses, transcriptional memory, and integration of different environmental signals are orchestrated in th...",
+        "gpl": "24247",
+        "gse": "247939",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/12/31",
+        "suppfile": "BW",
+        "samples": [
+          {
+            "accession": "GSM7903365",
+            "title": "Bone marrow-derived macrophage-BM_IL4_NIPBL_rep1"
+          },
+          {
+            "accession": "GSM7903345",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K27ac_rep1"
+          },
+          {
+            "accession": "GSM7903362",
+            "title": "Bone marrow-derived macrophage-BM_IL4_K4M1_rep2"
+          },
+          {
+            "accession": "GSM7903356",
+            "title": "Bone marrow-derived macrophage-BM_CTR_SMC1A_rep2"
+          },
+          {
+            "accession": "GSM7903353",
+            "title": "Bone marrow-derived macrophage-BM_CTR_NIPBL_rep1"
+          },
+          {
+            "accession": "GSM7903376",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K4M3_rep2"
+          },
+          {
+            "accession": "GSM7903359",
+            "title": "Bone marrow-derived macrophage-BM_IL4_K36M3_rep1"
+          },
+          {
+            "accession": "GSM7903373",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K4M1_rep1"
+          },
+          {
+            "accession": "GSM7903379",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_SMC1A_rep1"
+          },
+          {
+            "accession": "GSM7903380",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_SMC1A_rep2"
+          },
+          {
+            "accession": "GSM7903377",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_NIPBL_rep1"
+          },
+          {
+            "accession": "GSM7903357",
+            "title": "Bone marrow-derived macrophage-BM_IL4_K27ac_rep1"
+          },
+          {
+            "accession": "GSM7903374",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K4M1_rep2"
+          },
+          {
+            "accession": "GSM7903348",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K36M3_rep2"
+          },
+          {
+            "accession": "GSM7903354",
+            "title": "Bone marrow-derived macrophage-BM_CTR_NIPBL_rep2"
+          },
+          {
+            "accession": "GSM7903371",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K36M3_rep1"
+          },
+          {
+            "accession": "GSM7903368",
+            "title": "Bone marrow-derived macrophage-BM_IL4_SMC1A_rep2"
+          },
+          {
+            "accession": "GSM7903360",
+            "title": "Bone marrow-derived macrophage-BM_IL4_K36M3_rep2"
+          },
+          {
+            "accession": "GSM7903351",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K4M3_rep1"
+          },
+          {
+            "accession": "GSM7903355",
+            "title": "Bone marrow-derived macrophage-BM_CTR_SMC1A_rep1"
+          },
+          {
+            "accession": "GSM7903352",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K4M3_rep2"
+          },
+          {
+            "accession": "GSM7903375",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K4M3_rep1"
+          },
+          {
+            "accession": "GSM7903372",
+            "title": "Bone marrow-derived macrophage-BM_pIL4_K36M3_rep2"
+          },
+          {
+            "accession": "GSM7903349",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K4M1_rep1"
+          },
+          {
+            "accession": "GSM7903346",
+            "title": "Bone marrow-derived macrophage-BM_CTR_K27ac_rep2"
+          },
+          "... (+11 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 36,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42743281"
+        ],
+        "_truncated_keys": 4
+      },
+      "200247940": {
+        "uid": "200247940",
+        "accession": "GSE247940",
+        "gds": "",
+        "title": "Regulation of transcriptional signal integration and memory by inflammation-induced chromosome conformation [Hi-C]",
+        "summary": "3-dimensional (3D) genome conformation is central to gene expression regulation, yet our understanding of how rapid transcriptional responses, transcriptional memory, and integration of different environmental signals are orchestrated in th...",
+        "gpl": "24247",
+        "gse": "247940",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/12/31",
+        "suppfile": "BEDPE, HIC",
+        "samples": [
+          {
+            "accession": "GSM7903389",
+            "title": "Bone marrow-derived macrophage-BMDMpreIL4IFNG_Rep1"
+          },
+          {
+            "accession": "GSM7903386",
+            "title": "Bone marrow-derived macrophage-BMDMIL4_Rep2"
+          },
+          {
+            "accession": "GSM7903383",
+            "title": "Bone marrow-derived macrophage-BMDMIFNG_Rep1"
+          },
+          {
+            "accession": "GSM7903381",
+            "title": "Bone marrow-derived macrophage-BMDMCTR_Rep1"
+          },
+          {
+            "accession": "GSM7903387",
+            "title": "Bone marrow-derived macrophage-BMDMpreIL4_Rep1"
+          },
+          {
+            "accession": "GSM7903384",
+            "title": "Bone marrow-derived macrophage-BMDMIFNG_Rep2"
+          },
+          {
+            "accession": "GSM7903390",
+            "title": "Bone marrow-derived macrophage-BMDMpreIL4IFNG_Rep2"
+          },
+          {
+            "accession": "GSM7903382",
+            "title": "Bone marrow-derived macrophage-BMDMCTR_Rep2"
+          },
+          {
+            "accession": "GSM7903388",
+            "title": "Bone marrow-derived macrophage-BMDMpreIL4_Rep2"
+          },
+          {
+            "accession": "GSM7903385",
+            "title": "Bone marrow-derived macrophage-BMDMIL4_Rep1"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 10,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42743281"
+        ],
+        "_truncated_keys": 4
+      },
+      "200247943": {
+        "uid": "200247943",
+        "accession": "GSE247943",
+        "gds": "",
+        "title": "Cyclical macrophage plasticity provides periodic inflammatory and regenerative gene expression programs in cell cycle[RNA-Seq]",
+        "summary": "Cell cycle (CC) is a fundamental biological process with robust, cyclical gene expression programs to facilitate cell division. In the immune system, a productive immune response requires the expansion of pathogen-responsive cell types, but...",
+        "gpl": "17021",
+        "gse": "247943",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/12/31",
+        "suppfile": "TSV",
+        "samples": [
+          {
+            "accession": "GSM7903550",
+            "title": "Bone marrow-derived macrophage-KO-pIL4+DEX_rep2"
+          },
+          {
+            "accession": "GSM7903570",
+            "title": "Bone marrow-derived macrophage-WT-IL4+IFNG_rep2"
+          },
+          {
+            "accession": "GSM7903553",
+            "title": "Bone marrow-derived macrophage-KO-pIL4+IL10_rep1"
+          },
+          {
+            "accession": "GSM7903573",
+            "title": "Bone marrow-derived macrophage-WT-IL4+LPS_rep1"
+          },
+          {
+            "accession": "GSM7903576",
+            "title": "Bone marrow-derived macrophage-WT-LPS_rep2"
+          },
+          {
+            "accession": "GSM7903541",
+            "title": "Bone marrow-derived macrophage-KO-IL4+IFNG_rep1"
+          },
+          {
+            "accession": "GSM7903544",
+            "title": "Bone marrow-derived macrophage-KO-IL4+IL10_rep2"
+          },
+          {
+            "accession": "GSM7903564",
+            "title": "Bone marrow-derived macrophage-WT-IL10_rep2"
+          },
+          {
+            "accession": "GSM7903547",
+            "title": "Bone marrow-derived macrophage-KO-pIL4_rep1"
+          },
+          {
+            "accession": "GSM7903567",
+            "title": "Bone marrow-derived macrophage-WT-IL4+DEX_rep1"
+          },
+          {
+            "accession": "GSM7903545",
+            "title": "Bone marrow-derived macrophage-KO-IL4+LPS_rep1"
+          },
+          {
+            "accession": "GSM7903584",
+            "title": "Bone marrow-derived macrophage-WT-pIL4+IL10_rep2"
+          },
+          {
+            "accession": "GSM7903568",
+            "title": "Bone marrow-derived macrophage-WT-IL4+DEX_rep2"
+          },
+          {
+            "accession": "GSM7903585",
+            "title": "Bone marrow-derived macrophage-WT-pIL4+LPS_rep1"
+          },
+          {
+            "accession": "GSM7903579",
+            "title": "Bone marrow-derived macrophage-WT-pIL4+DEX_rep1"
+          },
+          {
+            "accession": "GSM7903548",
+            "title": "Bone marrow-derived macrophage-KO-pIL4_rep2"
+          },
+          {
+            "accession": "GSM7903559",
+            "title": "Bone marrow-derived macrophage-WT-DEX_rep1"
+          },
+          {
+            "accession": "GSM7903571",
+            "title": "Bone marrow-derived macrophage-WT-IL4+IL10_rep1"
+          },
+          {
+            "accession": "GSM7903582",
+            "title": "Bone marrow-derived macrophage-WT-pIL4+IFNG_rep2"
+          },
+          {
+            "accession": "GSM7903556",
+            "title": "Bone marrow-derived macrophage-KO-pIL4+LPS_rep2"
+          },
+          {
+            "accession": "GSM7903560",
+            "title": "Bone marrow-derived macrophage-WT-DEX_rep2"
+          },
+          {
+            "accession": "GSM7903565",
+            "title": "Bone marrow-derived macrophage-WT-IL4_rep24h_rep1"
+          },
+          {
+            "accession": "GSM7903540",
+            "title": "Bone marrow-derived macrophage-KO-IL4+DEX_rep2"
+          },
+          {
+            "accession": "GSM7903563",
+            "title": "Bone marrow-derived macrophage-WT-IL10_rep1"
+          },
+          {
+            "accession": "GSM7903542",
+            "title": "Bone marrow-derived macrophage-KO-IL4+IFNG_rep2"
+          },
+          "... (+27 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 52,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42743281"
+        ],
+        "_truncated_keys": 4
+      },
+      "200247944": {
+        "uid": "200247944",
+        "accession": "GSE247944",
+        "gds": "",
+        "title": "Regulation of transcriptional signal integration and memory by inflammation-induced chromosome conformation [MCC]",
+        "summary": "3-dimensional (3D) genome conformation is central to gene expression regulation, yet our understanding of how rapid transcriptional responses, transcriptional memory, and integration of different environmental signals are orchestrated in th...",
+        "gpl": "24247",
+        "gse": "247944",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/12/31",
+        "suppfile": "BW",
+        "samples": [
+          {
+            "accession": "GSM7903600",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-3_2"
+          },
+          {
+            "accession": "GSM7903597",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-2_1"
+          },
+          {
+            "accession": "GSM7903591",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-3_3"
+          },
+          {
+            "accession": "GSM7903588",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR_2"
+          },
+          {
+            "accession": "GSM7903594",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-31_2"
+          },
+          {
+            "accession": "GSM7903595",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-1_1"
+          },
+          {
+            "accession": "GSM7903592",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-3_4"
+          },
+          {
+            "accession": "GSM7903589",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-3_1"
+          },
+          {
+            "accession": "GSM7903609",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4-1_3"
+          },
+          {
+            "accession": "GSM7903606",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4_2"
+          },
+          {
+            "accession": "GSM7903607",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4-1_1"
+          },
+          {
+            "accession": "GSM7903598",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-2_2"
+          },
+          {
+            "accession": "GSM7903603",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-31_1"
+          },
+          {
+            "accession": "GSM7903590",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-3_2"
+          },
+          {
+            "accession": "GSM7903608",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4-1_2"
+          },
+          {
+            "accession": "GSM7903604",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-31_2"
+          },
+          {
+            "accession": "GSM7903587",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR_1"
+          },
+          {
+            "accession": "GSM7903605",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4_1"
+          },
+          {
+            "accession": "GSM7903601",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-3_3"
+          },
+          {
+            "accession": "GSM7903602",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-3_4"
+          },
+          {
+            "accession": "GSM7903610",
+            "title": "Bone marrow-derived macrophage-BMDM_pIL4-1_4"
+          },
+          {
+            "accession": "GSM7903599",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-3_1"
+          },
+          {
+            "accession": "GSM7903596",
+            "title": "Bone marrow-derived macrophage-BMDM_IL4-1_2"
+          },
+          {
+            "accession": "GSM7903593",
+            "title": "Bone marrow-derived macrophage-BMDM_CTR-31_1"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 24,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42743281"
+        ],
+        "_truncated_keys": 4
+      },
+      "200145562": {
+        "uid": "200145562",
+        "accession": "GSE145562",
+        "gds": "",
+        "title": "scRNA-seq analysis of aged immune system in mice",
+        "summary": "Aging is associated with systemic chronic inflammation (inflammaging) that leads to impaired physiological functions and vulnerability to several diseases. However, underlying alterations in aged immune system resulting in gradual loss of i...",
+        "gpl": "24247",
+        "gse": "145562",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2020/12/06",
+        "suppfile": "MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM4321527",
+            "title": "CD45+ cells isolated from the lungs of 3-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321524",
+            "title": "CD45+ cells isolated from the liver of 17-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321530",
+            "title": "CD45+ cells isolated from the spleen of 17-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321531",
+            "title": "CD45+ cells isolated from the spleen of 3-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321528",
+            "title": "CD45+ cells isolated from peritoneal cavity of 17-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321526",
+            "title": "CD45+ cells isolated from the lungs of 17-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321529",
+            "title": "CD45+ cells isolated from peritoneal cavity of 3-month-old wild type mice (samples pooled from 3 mice)"
+          },
+          {
+            "accession": "GSM4321525",
+            "title": "CD45+ cells isolated from the liver of 3-month-old wild type mice (samples pooled from 3 mice)"
+          }
+        ],
+        "relations": [],
+        "extrelations": [
+          {
+            "relationtype": "SRA",
+            "targetobject": "SRP250030",
+            "targetftplink": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP250/SRP250030/"
+          }
+        ],
+        "n_samples": 8,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "33271118"
+        ],
+        "_truncated_keys": 4
+      },
+      "200155005": {
+        "uid": "200155005",
+        "accession": "GSE155005",
+        "gds": "",
+        "title": "scRNA-seq analysis of mouse splenic CD8 T cells 1 month post transfer of CD8 T cells from 3 months old donor into 24 months old recipient",
+        "summary": "Aging is associated with systemic chronic inflammation (inflammaging) that leads to impaired physiological functions and vulnerability to several diseases. However, underlying alterations in aged immune system resulting in gradual loss of i...",
+        "gpl": "24247",
+        "gse": "155005",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2020/12/06",
+        "suppfile": "MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM4693063",
+            "title": "CD45.1+CD3e+CD8a+ cells isolated from the spleen of 25 months old mouse (young donor CD8 T cells) [ALAW-4]"
+          },
+          {
+            "accession": "GSM4693062",
+            "title": "CD45.2+CD3e+CD8a+ cells isolated from the spleen of 25 months old mouse (old recipient CD8 T cells) [ALAW-3]"
+          }
+        ],
+        "relations": [],
+        "extrelations": [
+          {
+            "relationtype": "SRA",
+            "targetobject": "SRP273478",
+            "targetftplink": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP273/SRP273478/"
+          }
+        ],
+        "n_samples": 2,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "33271118"
+        ],
+        "_truncated_keys": 4
+      }
+    },
+    "top_keys": [
+      "uids",
+      "200247939",
+      "200247940",
+      "200247943",
+      "200247944",
+      "200145562",
+      "200155005"
+    ]
+  }
+}

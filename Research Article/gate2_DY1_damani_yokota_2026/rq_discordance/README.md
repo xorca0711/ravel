@@ -121,6 +121,10 @@ association cannot establish the STAT6-EGR2-PPARgamma/RXRA-ARG1 causal chain.
 
 ## What the completed extensions show
 
+The [reviewed separate A3 RNA-context result, 4 November 2026](../../../RQ_Specified/A3_macrophage_injury_history/reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md) adds six source libraries for the same fixed five regulator transcripts and separate Arg1. Egr2/Irf4 show induced and above-control post-IL4 RNA, with lower post than initial values; Pparg post values lie within the source-control range, Stat6 remains lower and Rxra supplies distinct post context. Arg1 is far lower post than initially but remains above its low control values. This narrows an RNA-context nomination without making the full panel a uniform activated programme.
+
+The new source does not supply DY1's missing original assay/preparation matching or convert the earlier averaged repeat-stimulation ratios into individual maintenance trajectories. Unknown control harvest alignment, batch/preparation sharing and compositional/length effects preclude inferring a withdrawal/maintenance mechanism from this comparison. A matched-time/preparation discriminator remains separate from protein/activity and effector-function evidence. The original DY1 results and A3 registered hypothesis remain unchanged; no new analysis is implied by this source connection.
+
 - **Reference measurement benchmark:** about 56% of full mapped gene-region rows
   share a direction; about 63% do in the source nearest-TSS distance subset.
   Fixed offsets 1 and 0.5 change these proportions little. Both same and opposite

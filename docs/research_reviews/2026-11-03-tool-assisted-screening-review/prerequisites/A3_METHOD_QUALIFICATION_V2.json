@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-04",
+  "question": "A3/DY1",
+  "scope": "identified article supporting methods, timing and preparation qualification only; no numerical expression analysis",
+  "article_doi": "10.1073/pnas.2600693123",
+  "article_pmc": "PMC13598234",
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598234/fullTextXML",
+      "local_cache": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A3\\PMC13598234.fullText.xml",
+      "sha256": "963e39571d7b51c383f5a2761241ab6fdbbf08093877691186975a6f847008ff",
+      "locators": [
+        "sec s2 / first direct paragraph, Macrophage Polarization Stably Remodels 3D Genome Conformation",
+        "fig01 / panel A and caption",
+        "sec s9 / Methods Summary",
+        "sec s10 / Data, Materials, and Software Availability"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598234/supplementaryFiles",
+      "member": "pnas.2600693123.sapp.pdf",
+      "local_cache": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A3\\pnas.2600693123.sapp.pdf",
+      "sha256": "66f51a97af57d0ced3f1c8f3cf5f1549d3ba820125632353a477b34c8c8628d0",
+      "locators": [
+        "physical PDF page 2, printed page 1: Mice and macrophage differentiation; Treatment conditions",
+        "physical PDF page 3, printed page 2: RNA-seq",
+        "physical PDF page 6, printed page 5: RNA-seq analysis",
+        "physical PDF page 8, printed page 7: Statistical analysis"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598234/supplementaryFiles",
+      "member": "pnas.2600693123fig01.webp",
+      "local_cache": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A3\\pnas.2600693123fig01.webp",
+      "sha256": "e2527a8b258b055a3949426fef4689f487bbaa2cf733837e33f8fc48d8a9af90",
+      "locator": "Figure 1A visually inspected; schematic does not label a separate time-matched untreated harvest"
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13598234/",
+      "result": "web browser-check page"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13598234/bin/pnas.2600693123.sapp.pdf",
+      "result": "web tool inaccessible"
+    },
+    {
+      "url": "https://www.pnas.org/doi/suppl/10.1073/pnas.2600693123/suppl_file/pnas.2600693123.sapp.pdf",
+      "result": "web tool inaccessible"
+    }
+  ],
+  "source_supported": [
+    "Main article describes two biological replicates for the three-condition profiling experiment; this is author-reported biological replication, stronger than an unlabeled rep1/rep2 suffix.",
+    "SI describes female mouse marrow-derived macrophages, treatment beginning after six days differentiation, a 24-hour IL-4 exposure and a following 24-hour washout/rest interval.",
+    "SI RNA analysis describes a batch-plus-condition model; the inspected material does not provide the exact batch-to-library mapping."
+  ],
+  "remaining_unknowns": [
+    "Unique mouse/preparation IDs for each selected GEO library and whether preparations are shared across conditions or assays.",
+    "Explicit duration-matched untreated harvest for the selected CTR libraries.",
+    "No identified 48-hour continuous-IL4 library in the inspected count header."
+  ],
+  "exposure": "Main article Figure 1 and source findings seen; prior six-target DY1 outcomes exposed. No expression values from the new count matrix inspected in this qualification."
+}

@@ -1,0 +1,1158 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gds",
+      "id": "200287605,200324240,200324239,200261697,200261696,200247938,200278051,200278050,200278048,200247945",
+      "retmode": "json"
+    },
+    "record_path": "result",
+    "max_items": 25,
+    "max_depth": 5
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uids": [
+        "200287605",
+        "200324240",
+        "200324239",
+        "200261697",
+        "200261696",
+        "200247938",
+        "200278051",
+        "200278050",
+        "200278048",
+        "200247945"
+      ],
+      "200287605": {
+        "uid": "200287605",
+        "accession": "GSE287605",
+        "gds": "",
+        "title": "Distince macrophage subpopulations in mouse wound healing",
+        "summary": "Monocytes and macrophages displaying distinctive phenotypes may be pivotal in coordinating the transition between different stages of wound healing. RNAseq results showed that day 1 macrophages segregated from day 4 and 7 macrophages, and t...",
+        "gpl": "34290",
+        "gse": "287605",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/09/02",
+        "suppfile": "BW, NARROWPEAK, TXT",
+        "samples": [
+          {
+            "accession": "GSM8748812",
+            "title": "RNA_Day4_F480high_rep2"
+          },
+          {
+            "accession": "GSM8748815",
+            "title": "RNA_Day4_F480low_rep3"
+          },
+          {
+            "accession": "GSM8748832",
+            "title": "ATAC_Day7_F480high_rep1"
+          },
+          {
+            "accession": "GSM8748818",
+            "title": "RNA_Day7_F480high_rep2"
+          },
+          {
+            "accession": "GSM8748821",
+            "title": "ATAC_Day1_F480low_rep1"
+          },
+          {
+            "accession": "GSM8748824",
+            "title": "ATAC_Day1_F480high_rep3"
+          },
+          {
+            "accession": "GSM8748804",
+            "title": "RNA_Day1_F480high_rep1"
+          },
+          {
+            "accession": "GSM8748823",
+            "title": "ATAC_Day1_F480low_rep2"
+          },
+          {
+            "accession": "GSM8748806",
+            "title": "RNA_Day1_F480high_rep2"
+          },
+          {
+            "accession": "GSM8748817",
+            "title": "RNA_Day7_F480low_rep1"
+          },
+          {
+            "accession": "GSM8748809",
+            "title": "RNA_Day1_F480low_rep3"
+          },
+          {
+            "accession": "GSM8748829",
+            "title": "ATAC_Day4_F480low_rep2"
+          },
+          {
+            "accession": "GSM8748820",
+            "title": "ATAC_Day1_F480high_rep1"
+          },
+          {
+            "accession": "GSM8748822",
+            "title": "ATAC_Day1_F480high_rep2"
+          },
+          {
+            "accession": "GSM8748825",
+            "title": "ATAC_Day1_F480low_rep3"
+          },
+          {
+            "accession": "GSM8748805",
+            "title": "RNA_Day1_F480low_rep1"
+          },
+          {
+            "accession": "GSM8748828",
+            "title": "ATAC_Day4_F480high_rep2"
+          },
+          {
+            "accession": "GSM8748831",
+            "title": "ATAC_Day4_F480low_rep3"
+          },
+          {
+            "accession": "GSM8748826",
+            "title": "ATAC_Day4_F480high_rep1"
+          },
+          {
+            "accession": "GSM8748811",
+            "title": "RNA_Day4_F480low_rep1"
+          },
+          {
+            "accession": "GSM8748814",
+            "title": "RNA_Day4_F480high_rep3"
+          },
+          {
+            "accession": "GSM8748808",
+            "title": "RNA_Day1_F480high_rep3"
+          },
+          {
+            "accession": "GSM8748813",
+            "title": "RNA_Day4_F480low_rep2"
+          },
+          {
+            "accession": "GSM8748830",
+            "title": "ATAC_Day4_F480high_rep3"
+          },
+          {
+            "accession": "GSM8748827",
+            "title": "ATAC_Day4_F480low_rep1"
+          },
+          "... (+5 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 30,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200324240": {
+        "uid": "200324240",
+        "accession": "GSE324240",
+        "gds": "",
+        "title": "The metabolic cofactor Coenzyme A enhances alternative macrophage activation via MyD88-linked signaling [ATAC-seq]",
+        "summary": "Metabolites and metabolic co-factors can shape the innate immune response, though the  pathways by which these molecules adjust inflammation remain incompletely understood. Here we show that the metabolic cofactor Coenzyme A (CoA) enhances ...",
+        "gpl": "21103",
+        "gse": "324240",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/13",
+        "suppfile": "NARROWPEAK",
+        "samples": [
+          {
+            "accession": "GSM9571703",
+            "title": "BMDM, IL-4,24hrs, rep2"
+          },
+          {
+            "accession": "GSM9571706",
+            "title": "BMDM, IL-4+TLR2,24hrs, rep2"
+          },
+          {
+            "accession": "GSM9571695",
+            "title": "BMDM, IL-4,12hrs, rep3"
+          },
+          {
+            "accession": "GSM9571692",
+            "title": "BMDM, NT,12hrs, rep3"
+          },
+          {
+            "accession": "GSM9571704",
+            "title": "BMDM, IL-4,24hrs, rep3"
+          },
+          {
+            "accession": "GSM9571698",
+            "title": "BMDM, IL-4+TLR2,12hrs, rep3"
+          },
+          {
+            "accession": "GSM9571701",
+            "title": "BMDM, NT,24hrs, rep3"
+          },
+          {
+            "accession": "GSM9571690",
+            "title": "BMDM, NT,12hrs, rep1"
+          },
+          {
+            "accession": "GSM9571699",
+            "title": "BMDM, NT,24hrs, rep1"
+          },
+          {
+            "accession": "GSM9571696",
+            "title": "BMDM, IL-4+TLR2,12hrs, rep1"
+          },
+          {
+            "accession": "GSM9571707",
+            "title": "BMDM, IL-4+TLR2,24hrs, rep3"
+          },
+          {
+            "accession": "GSM9571705",
+            "title": "BMDM, IL-4+TLR2,24hrs, rep1"
+          },
+          {
+            "accession": "GSM9571693",
+            "title": "BMDM, IL-4,12hrs, rep1"
+          },
+          {
+            "accession": "GSM9571702",
+            "title": "BMDM, IL-4,24hrs, rep1"
+          },
+          {
+            "accession": "GSM9571694",
+            "title": "BMDM, IL-4,12hrs, rep2"
+          },
+          {
+            "accession": "GSM9571691",
+            "title": "BMDM, NT,12hrs, rep2"
+          },
+          {
+            "accession": "GSM9571697",
+            "title": "BMDM, IL-4+TLR2,12hrs, rep2"
+          },
+          {
+            "accession": "GSM9571700",
+            "title": "BMDM, NT,24hrs, rep2"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 18,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200324239": {
+        "uid": "200324239",
+        "accession": "GSE324239",
+        "gds": "",
+        "title": "The metabolic cofactor Coenzyme A enhances alternative macrophage activation via MyD88-linked signaling [RNA-seq]",
+        "summary": "Metabolites and metabolic co-factors can shape the innate immune response, though the  pathways by which these molecules adjust inflammation remain incompletely understood. Here we show that the metabolic cofactor Coenzyme A (CoA) enhances ...",
+        "gpl": "24247",
+        "gse": "324239",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/13",
+        "suppfile": "TXT",
+        "samples": [
+          {
+            "accession": "GSM9571682",
+            "title": "BMDM, IL-4,48hrs, rep1,R1"
+          },
+          {
+            "accession": "GSM9571679",
+            "title": "BMDM, NT,48hrs, rep2,R1"
+          },
+          {
+            "accession": "GSM9571685",
+            "title": "BMDM, IL-4,48hrs, rep4,R1"
+          },
+          {
+            "accession": "GSM9571688",
+            "title": "BMDM, IL-4+ 1mM CoA,48hrs, rep3,R1"
+          },
+          {
+            "accession": "GSM9571683",
+            "title": "BMDM, IL-4,48hrs, rep2,R1"
+          },
+          {
+            "accession": "GSM9571680",
+            "title": "BMDM, NT,48hrs, rep3,R1"
+          },
+          {
+            "accession": "GSM9571686",
+            "title": "BMDM, IL-4+ 1mM CoA,48hrs, rep1,R1"
+          },
+          {
+            "accession": "GSM9571689",
+            "title": "BMDM, IL-4+ 1mM CoA,48hrs, rep4,R1"
+          },
+          {
+            "accession": "GSM9571681",
+            "title": "BMDM, NT,48hrs, rep4,R1"
+          },
+          {
+            "accession": "GSM9571687",
+            "title": "BMDM, IL-4+ 1mM CoA,48hrs, rep2,R1"
+          },
+          {
+            "accession": "GSM9571678",
+            "title": "BMDM, NT,48hrs, rep1,R1"
+          },
+          {
+            "accession": "GSM9571684",
+            "title": "BMDM, IL-4,48hrs, rep3,R1"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200261697": {
+        "uid": "200261697",
+        "accession": "GSE261697",
+        "gds": "",
+        "title": "Chromatin accesibility characteristics of human primary, bone marrow-derived and iPSC-derived monocytes and macrophages [ATAC-Seq]",
+        "summary": "In vitro models to study diseases often involve human primary monocytes which are subjected to a interpersonal variability and short half-life. Bone marrow and iPSC-derived monocytes as an alternative for these in vitro models. However, the...",
+        "gpl": "24676",
+        "gse": "261697",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/01/31",
+        "suppfile": "BW",
+        "samples": [
+          {
+            "accession": "GSM8148902",
+            "title": "MoDeMac_M0_DonorC [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148905",
+            "title": "BM_mono_1 [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148908",
+            "title": "iPCS_mono_1 [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148894",
+            "title": "MoDeMac_M0_DonorA [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148900",
+            "title": "MoDeMac_M2_DonorB [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148897",
+            "title": "HumPrimMono_DonorB [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148909",
+            "title": "iPCS_mono_2 [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148903",
+            "title": "MoDeMac_M1_DonorC [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148906",
+            "title": "BM_mono_2 [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148895",
+            "title": "MoDeMac_M1_DonorA [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148898",
+            "title": "MoDeMac_M0_DonorB [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148901",
+            "title": "HumPrimMono_DonorC [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148904",
+            "title": "MoDeMac_M2_DonorC [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148893",
+            "title": "HumPrimMono_DonorA [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148896",
+            "title": "MoDeMac_M2_DonorA [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148899",
+            "title": "MoDeMac_M1_DonorB [ATAC-Seq]"
+          },
+          {
+            "accession": "GSM8148907",
+            "title": "BM_mono_3 [ATAC-Seq]"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 17,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200261696": {
+        "uid": "200261696",
+        "accession": "GSE261696",
+        "gds": "",
+        "title": "Transcriptional characteristics of human primary, bone marrow-derived and iPSC-derived monocytes and macrophages [RNA-Seq]",
+        "summary": "In vitro models to study diseases often involve human primary monocytes which are subjected to a interpersonal variability and short half-life. Bone marrow and iPSC-derived monocytes as an alternative for these in vitro models. However, the...",
+        "gpl": "24676",
+        "gse": "261696",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/01/31",
+        "suppfile": "COUNTS",
+        "samples": [
+          {
+            "accession": "GSM8148878",
+            "title": "Control_B_mono"
+          },
+          {
+            "accession": "GSM8148887",
+            "title": "iPSC_mono_141-31B"
+          },
+          {
+            "accession": "GSM8148875",
+            "title": "Control_A_M0"
+          },
+          {
+            "accession": "GSM8148884",
+            "title": "Control_C_M1"
+          },
+          {
+            "accession": "GSM8148881",
+            "title": "Control_B_M2"
+          },
+          {
+            "accession": "GSM8148890",
+            "title": "BM_mono_D6"
+          },
+          {
+            "accession": "GSM8148879",
+            "title": "Control_B_M0"
+          },
+          {
+            "accession": "GSM8148876",
+            "title": "Control_A_M1"
+          },
+          {
+            "accession": "GSM8148882",
+            "title": "Control_C_mono"
+          },
+          {
+            "accession": "GSM8148877",
+            "title": "Control_A_M2"
+          },
+          {
+            "accession": "GSM8148888",
+            "title": "iPSC_mono_143-18"
+          },
+          {
+            "accession": "GSM8148880",
+            "title": "Control_B_M1"
+          },
+          {
+            "accession": "GSM8148874",
+            "title": "Control_A_mono"
+          },
+          {
+            "accession": "GSM8148883",
+            "title": "Control_C_M0"
+          },
+          {
+            "accession": "GSM8148885",
+            "title": "Control_C_M2"
+          },
+          {
+            "accession": "GSM8148891",
+            "title": "BM_mono_D8"
+          },
+          {
+            "accession": "GSM8148886",
+            "title": "iPSC_mono_115-4H"
+          },
+          {
+            "accession": "GSM8148889",
+            "title": "iPSC_mono_144-41"
+          },
+          {
+            "accession": "GSM8148892",
+            "title": "BM_mono_DB2"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 19,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200247938": {
+        "uid": "200247938",
+        "accession": "GSE247938",
+        "gds": "",
+        "title": "Regulation of transcriptional signal integration and memory by inflammation-induced chromosome conformation [ATAC-Seq]",
+        "summary": "3-dimensional (3D) genome conformation is central to gene expression regulation, yet our understanding of how rapid transcriptional responses, transcriptional memory, and integration of different environmental signals are orchestrated in th...",
+        "gpl": "17021",
+        "gse": "247938",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/12/31",
+        "suppfile": "BW",
+        "samples": [
+          {
+            "accession": "GSM7903341",
+            "title": "Bone marrow-derived macrophage-pIFNG_rep1"
+          },
+          {
+            "accession": "GSM7903335",
+            "title": "Bone marrow-derived macrophage-CTR_rep1"
+          },
+          {
+            "accession": "GSM7903338",
+            "title": "Bone marrow-derived macrophage-IFNG_rep2"
+          },
+          {
+            "accession": "GSM7903339",
+            "title": "Bone marrow-derived macrophage-IL4_rep1"
+          },
+          {
+            "accession": "GSM7903344",
+            "title": "Bone marrow-derived macrophage-pIL4_rep2"
+          },
+          {
+            "accession": "GSM7903336",
+            "title": "Bone marrow-derived macrophage-CTR_rep2"
+          },
+          {
+            "accession": "GSM7903342",
+            "title": "Bone marrow-derived macrophage-pIFNG_rep2"
+          },
+          {
+            "accession": "GSM7903343",
+            "title": "Bone marrow-derived macrophage-pIL4_rep1"
+          },
+          {
+            "accession": "GSM7903340",
+            "title": "Bone marrow-derived macrophage-IL4_rep2"
+          },
+          {
+            "accession": "GSM7903337",
+            "title": "Bone marrow-derived macrophage-IFNG_rep1"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 10,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42743281"
+        ],
+        "_truncated_keys": 4
+      },
+      "200278051": {
+        "uid": "200278051",
+        "accession": "GSE278051",
+        "gds": "",
+        "title": "KLF13 promotes SLE Pathogenesis by modifying chromatin accessibility of key proinflammatory cytokine genes",
+        "summary": "This SuperSeries is composed of the SubSeries listed below.",
+        "gpl": "13112;21626",
+        "gse": "278051",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/10/15",
+        "suppfile": "TXT",
+        "samples": [
+          {
+            "accession": "GSM8538762",
+            "title": "KLF13_B6_T0,  RNA-seq"
+          },
+          {
+            "accession": "GSM8538745",
+            "title": "WT_T1, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538782",
+            "title": "KLF13-/-_T2, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538802",
+            "title": "KLF13-/-_D2, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538765",
+            "title": "Sle3_T1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538739",
+            "title": "Sle3k_M, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538785",
+            "title": "KLF13-/-_M0, RNA-seq"
+          },
+          {
+            "accession": "GSM8538759",
+            "title": "KLF13-/-_D3, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538742",
+            "title": "KLF13-/-_T, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538799",
+            "title": "KLF13-/-_D1, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538736",
+            "title": "B6_M, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538793",
+            "title": "WT_D0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538756",
+            "title": "WT_D2, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538796",
+            "title": "WT_D1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538753",
+            "title": "WT_D1, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538773",
+            "title": "WT_T0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538733",
+            "title": "B6_T, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538800",
+            "title": "WT_D2, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538780",
+            "title": "WT_T2, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538754",
+            "title": "KLF13-/-_D1, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538803",
+            "title": "KLF13-/-_D2, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538776",
+            "title": "WT_T1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538797",
+            "title": "WT_D1, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538757",
+            "title": "WT_D2, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538777",
+            "title": "WT_T1, replicate 2, RNA-seq"
+          },
+          "... (+45 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 70,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "39506084"
+        ],
+        "_truncated_keys": 4
+      },
+      "200278050": {
+        "uid": "200278050",
+        "accession": "GSE278050",
+        "gds": "",
+        "title": "KLF13 promotes SLE Pathogenesis by modifying chromatin accessibility of key proinflammatory cytokine genes [RNA-seq]",
+        "summary": "Although significant progress has been achieved in elucidating the genetic architecture of systemic lupus erythematosus (SLE), identifying genes underlying the pathogenesis has been challenging. The NZM2410-derived lupus susceptibility Sle3...",
+        "gpl": "21626;13112",
+        "gse": "278050",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/10/15",
+        "suppfile": "TXT",
+        "samples": [
+          {
+            "accession": "GSM8538775",
+            "title": "KLF13-/-_T0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538778",
+            "title": "KLF13-/-_T1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538781",
+            "title": "WT_T2, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538798",
+            "title": "KLF13-/-_D1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538801",
+            "title": "WT_D2, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538769",
+            "title": "Sle3_D0, RNA-seq"
+          },
+          {
+            "accession": "GSM8538772",
+            "title": "WT_T0, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538795",
+            "title": "KLF13-/-_D0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538770",
+            "title": "B6_D1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538796",
+            "title": "WT_D1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538789",
+            "title": "KLF13-/-_M2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538790",
+            "title": "WT_M3, RNA-seq"
+          },
+          {
+            "accession": "GSM8538792",
+            "title": "WT_D0, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538793",
+            "title": "WT_D0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538784",
+            "title": "WT_M0, RNA-seq"
+          },
+          {
+            "accession": "GSM8538776",
+            "title": "WT_T1, replicate 1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538787",
+            "title": "KLF13-/-_M1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538767",
+            "title": "Sle3_T2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538764",
+            "title": "B6_T1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538768",
+            "title": "B6_D0, RNA-seq"
+          },
+          {
+            "accession": "GSM8538773",
+            "title": "WT_T0, replicate 2, RNA-seq"
+          },
+          {
+            "accession": "GSM8538785",
+            "title": "KLF13-/-_M0, RNA-seq"
+          },
+          {
+            "accession": "GSM8538771",
+            "title": "Sle3_D1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538765",
+            "title": "Sle3_T1, RNA-seq"
+          },
+          {
+            "accession": "GSM8538788",
+            "title": "WT_M2, RNA-seq"
+          },
+          "... (+17 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 42,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "39506084"
+        ],
+        "_truncated_keys": 4
+      },
+      "200278048": {
+        "uid": "200278048",
+        "accession": "GSE278048",
+        "gds": "",
+        "title": "KLF13 promotes SLE Pathogenesis by modifying chromatin accessibility of key proinflammatory cytokine genes [ATAC-seq]",
+        "summary": "Although significant progress has been achieved in elucidating the genetic architecture of systemic lupus erythematosus (SLE), identifying genes underlying the pathogenesis has been challenging. The NZM2410-derived lupus susceptibility Sle3...",
+        "gpl": "21626",
+        "gse": "278048",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2024/10/15",
+        "suppfile": "BIGWIG, BW",
+        "samples": [
+          {
+            "accession": "GSM8538750",
+            "title": "KLF13-/-_M, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538747",
+            "title": "KLF13-/-_T1, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538758",
+            "title": "KLF13-/-_D3, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538744",
+            "title": "WT_T1, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538741",
+            "title": "WT_T, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538759",
+            "title": "KLF13-/-_D3, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538739",
+            "title": "Sle3k_M, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538738",
+            "title": "Sle3k_M, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538735",
+            "title": "Sle3k_T, replicate 2 ATAC-seq"
+          },
+          {
+            "accession": "GSM8538745",
+            "title": "WT_T1, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538742",
+            "title": "KLF13-/-_T, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538756",
+            "title": "WT_D2, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538736",
+            "title": "B6_M, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538733",
+            "title": "B6_T, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538753",
+            "title": "WT_D1, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538737",
+            "title": "B6_M, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538734",
+            "title": "Sle3k_T, replicate 1 ATAC-seq"
+          },
+          {
+            "accession": "GSM8538748",
+            "title": "WT_M, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538749",
+            "title": "WT_M, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538757",
+            "title": "WT_D2, replicate 2, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538754",
+            "title": "KLF13-/-_D1, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538732",
+            "title": "B6_T, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538752",
+            "title": "WT_D1, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538746",
+            "title": "KLF13-/-_T1, replicate 1, ATAC-seq"
+          },
+          {
+            "accession": "GSM8538755",
+            "title": "KLF13-/-_D1, replicate 2, ATAC-seq"
+          },
+          "... (+3 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 28,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "39506084"
+        ],
+        "_truncated_keys": 4
+      },
+      "200247945": {
+        "uid": "200247945",
+        "accession": "GSE247945",
+        "gds": "",
+        "title": "A TLR4/Traf6-dependent signaling pathway mediates NCoR co-activator complex formation for inflammatory gene activation",
+        "summary": "This SuperSeries is composed of the SubSeries listed below.",
+        "gpl": "21103",
+        "gse": "247945",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2023/12/21",
+        "suppfile": "",
+        "samples": [
+          {
+            "accession": "GSM7903504",
+            "title": "WT_PolyIC rep2"
+          },
+          {
+            "accession": "GSM7903421",
+            "title": "p65_WT_KLA rep1"
+          },
+          {
+            "accession": "GSM7903458",
+            "title": "Input_ERK1_WT_Day0 rep2"
+          },
+          {
+            "accession": "GSM7903521",
+            "title": "Pgc1b_flox_Veh rep1"
+          },
+          {
+            "accession": "GSM7903438",
+            "title": "ERK1_WT_KLA rep2"
+          },
+          {
+            "accession": "GSM7903418",
+            "title": "Input_Fosl2_p65_PU.1_WT_KLA rep2"
+          },
+          {
+            "accession": "GSM7903501",
+            "title": "NKO_RANKL rep1"
+          },
+          {
+            "accession": "GSM7903518",
+            "title": "KLA rep2"
+          },
+          {
+            "accession": "GSM7903435",
+            "title": "ERK1_WT_Veh rep1"
+          },
+          {
+            "accession": "GSM7903455",
+            "title": "ERK1_WT_Day4 rep1"
+          },
+          {
+            "accession": "GSM7903398",
+            "title": "H3K27ac_NKO_KLA rep2"
+          },
+          {
+            "accession": "GSM7903415",
+            "title": "Input_Fosl2_p65_PU.1_WT_Veh rep1"
+          },
+          {
+            "accession": "GSM7903498",
+            "title": "NKO_KLA rep2"
+          },
+          {
+            "accession": "GSM7903461",
+            "title": "NCoR_WT_ERKi_KLA rep1"
+          },
+          {
+            "accession": "GSM7903332",
+            "title": "ATAC_WT_KLA rep2"
+          },
+          {
+            "accession": "GSM7903524",
+            "title": "Pgc1b_flox_Cre_Veh rep2"
+          },
+          {
+            "accession": "GSM7903441",
+            "title": "H3K27ac_WT_DMSO_KLA rep1"
+          },
+          {
+            "accession": "GSM7903395",
+            "title": "H3K27ac_WT_KLA rep1"
+          },
+          {
+            "accession": "GSM7903475",
+            "title": "p300_WT_Veh rep1"
+          },
+          {
+            "accession": "GSM7903392",
+            "title": "H3K27ac_WT_Veh rep2"
+          },
+          {
+            "accession": "GSM7903512",
+            "title": "WT_IL4 rep2"
+          },
+          {
+            "accession": "GSM7903429",
+            "title": "PGC1b_WT_KLA rep1"
+          },
+          {
+            "accession": "GSM7903492",
+            "title": "WT_Veh rep2"
+          },
+          {
+            "accession": "GSM7903409",
+            "title": "HDAC3_WT_KLA rep1"
+          },
+          {
+            "accession": "GSM7903472",
+            "title": "Input_PGC1b_WT_DMSO_Veh rep2"
+          },
+          "... (+127 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 152,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "38165941"
+        ],
+        "_truncated_keys": 4
+      }
+    },
+    "top_keys": [
+      "uids",
+      "200287605",
+      "200324240",
+      "200324239",
+      "200261697",
+      "200261696",
+      "200247938",
+      "200278051",
+      "200278050",
+      "200278048",
+      "200247945"
+    ]
+  }
+}

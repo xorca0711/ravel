@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-04",
+  "scope": "barcode, sample, source-chain and label metadata qualification only; no clone counts/concentration",
+  "gex_metadata_rows": 12978,
+  "gex_cell_file_rows": 12978,
+  "gex_cell_first_two": [
+    "IGT29.AAACCTGAGACTTGAA",
+    "IGT29.AAACCTGAGCTATGCT"
+  ],
+  "receptor_rows": 12743,
+  "join_dispositions": {
+    "both": 12389,
+    "GEX_only": 589,
+    "receptor_only": 354
+  },
+  "cell_list_only_n": 0,
+  "metadata_not_in_cell_list_n": 0,
+  "hashtag_conflicts": 0,
+  "mouse_map": {
+    "HT1": {
+      "IGTHT": "I29H1",
+      "mouse": "mouse0088",
+      "age_weeks": "8",
+      "sex": "male",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060545;GSM10060546;GSM10060547"
+    },
+    "HT2": {
+      "IGTHT": "I29H2",
+      "mouse": "mouse0089",
+      "age_weeks": "8",
+      "sex": "female",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060548;GSM10060549;GSM10060550"
+    },
+    "HT3": {
+      "IGTHT": "I29H3",
+      "mouse": "mouse0090",
+      "age_weeks": "24",
+      "sex": "male",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060551;GSM10060552;GSM10060553"
+    },
+    "HT4": {
+      "IGTHT": "I29H4",
+      "mouse": "mouse0091",
+      "age_weeks": "24",
+      "sex": "female",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060554;GSM10060555;GSM10060556"
+    },
+    "HT5": {
+      "IGTHT": "I29H5",
+      "mouse": "mouse0092",
+      "age_weeks": "48",
+      "sex": "male",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060557;GSM10060558;GSM10060559"
+    },
+    "HT6": {
+      "IGTHT": "I29H6",
+      "mouse": "mouse0093",
+      "age_weeks": "48",
+      "sex": "female",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060560;GSM10060561;GSM10060562"
+    },
+    "HT7": {
+      "IGTHT": "I29H7",
+      "mouse": "mouse0094",
+      "age_weeks": "72",
+      "sex": "male",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060563;GSM10060564;GSM10060565"
+    },
+    "HT8": {
+      "IGTHT": "I29H8",
+      "mouse": "mouse0095",
+      "age_weeks": "72",
+      "sex": "female",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060566;GSM10060567;GSM10060568"
+    },
+    "HT9": {
+      "IGTHT": "I29H9",
+      "mouse": "mouse0096",
+      "age_weeks": "108",
+      "sex": "male",
+      "pool_of_mice": "FALSE",
+      "GSMs": "GSM10060569;GSM10060570;GSM10060571"
+    }
+  },
+  "source_chain_functionality_values": [
+    {
+      "field": "alpha.functionality",
+      "value": "",
+      "rows": 3859
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "No rearrangement found",
+      "rows": 52
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "No results",
+      "rows": 13
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "Rearrangement TRAV with TRBJ|TRBC",
+      "rows": 1
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "productive",
+      "rows": 8784
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "rearranged sequence (but no junction found)",
+      "rows": 24
+    },
+    {
+      "field": "alpha.functionality",
+      "value": "unproductive",
+      "rows": 599
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "",
+      "rows": 11229
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "No rearrangement found",
+      "rows": 63
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "No results",
+      "rows": 12
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "Rearrangement TRAV with TRBJ|TRBC",
+      "rows": 2
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "productive",
+      "rows": 942
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "rearranged sequence (but no junction found)",
+      "rows": 17
+    },
+    {
+      "field": "alpha2.functionality",
+      "value": "unproductive",
+      "rows": 1067
+    },
+    {
+      "field": "beta.functionality",
+      "value": "",
+      "rows": 1327
+    },
+    {
+      "field": "beta.functionality",
+      "value": "No rearrangement found",
+      "rows": 12
+    },
+    {
+      "field": "beta.functionality",
+      "value": "No results",
+      "rows": 8
+    },
+    {
+      "field": "beta.functionality",
+      "value": "productive",
+      "rows": 11834
+    },
+    {
+      "field": "beta.functionality",
+      "value": "unproductive",
+      "rows": 151
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "",
+      "rows": 11626
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "No rearrangement found",
+      "rows": 21
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "No results",
+      "rows": 34
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "productive",
+      "rows": 734
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "rearranged sequence (but no junction found)",
+      "rows": 1
+    },
+    {
+      "field": "beta2.functionality",
+      "value": "unproductive",
+      "rows": 916
+    }
+  ],
+  "source_label_missingness": {
+    "source_level1": 943,
+    "source_level2": 943
+  }
+}
