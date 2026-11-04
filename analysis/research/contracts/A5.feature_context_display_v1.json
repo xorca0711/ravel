@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.feature_context_display_v1",
+  "owner": "A5",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the fixed developmental component show distributed junction/basement-membrane-associated RNA in transitional versus activated AT2 cells, versus signal-context or heterogeneous recruitment?",
+  "decision": "Nominate an architecture-associated RNA context or report mixed/no nomination while preserving all members and the original specialized-transport context.",
+  "strongest_rival": "Cross-sectional state/time selection and broad cross-tissue annotations can resemble a coherent architectural process without assembly or repair function; signal context and architectural features may coexist.",
+  "discriminator": "All99 original member/mouse detection differences with a fixed22-gene selected display, source-qualified layout and no new family totals; retain original5 signal/4 transport/6 regulator sets and all opposite/zero patterns.",
+  "evidence_refs": [
+    "RQ_Specified/A5_developmental_programme_reuse/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A5_developmental_programme_reuse/reports/COMPONENT_ATTRIBUTION_V1_RESULTS.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_CANDIDATE_PROCESS_COMPARISON_V1.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_CONTEXT_DISPLAY_SPEC_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All prior A5 aggregate, attribution and destination outcomes were exposed. The99-gene map was fixed from complete source annotations before new display effect access, then coordinator reviewed its exact scope and specification on4November. This is an exposed existing-output view, not independent replication or an unexposed test.",
+  "biological_unit": "Original source-identified mouse, with ADI and activated-AT2 cells nested within each of24 eligible mice.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Cells nest within mice; all three modules overlap and reuse one Strunz source. Role bins may overlap. No new independent replication is claimed.",
+  "population_and_selection": "Exact original GSE141259 injured day2-21 cohort; exclude NC-prefix samples; raw UMI>=500 and >=30 cells per state; same24 eligible mice and all99 fixed genes.",
+  "contrast": "Mouse-paired Krt8+ ADI minus AT2 activated expected gene detection at500 UMI; equal-mouse summaries.",
+  "endpoint": "Existing mouse-paired expected-detection difference in percentage points and original module-denominated member contributions99/57/53; descriptive member/mouse/day means, ranges and sign counts.",
+  "methods": "Verify frozen input hashes and original receipt lineage; one-to-one99-gene x24-mouse join to paired eligible support. Preserve exact memberships and roles; verify contribution=d/moduleN for members and0 otherwise within1e-10. Report all genes/day summaries and fixed-order shared-scale heatmaps. Excluded-module mean is NA, not biological zero. No count-matrix rerun.",
+  "missingness_and_exclusions": "Stop for duplicate/missing mouse-gene, state, day or source join; changed memberships, original roles or support; nonfinite values or arithmetic mismatch. Preserve all99 including uncertain/source-unclassified members and25 peripheral context genes.",
+  "multiplicity": "No new hypothesis tests, p-values, confidence intervals, architecture score, binary coherence rule, family totals, effect ordering or selected positive replacement set.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This is attribution of an already exposed fixed descriptive aggregate. No new power, effect margin, population confidence interval or confirmatory test is invented.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "The22 are a selected display, not exhaustive junction/signaling biology. Roles overlap and include cross-tissue/inferred evidence. RNA context does not establish assembled junctions, deposited matrix, transport activity, fate or beneficial repair. Ppl peripheral placement does not mean absent junction function. Same source/mice are not independent replication.",
+  "stop_rule": "Stop for input/hash/receipt-lineage, member/mouse/support/day/role/membership or contribution-parity failure; refuse existing outputs; retain failures and do not relax eligibility.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/member_contributions.tsv",
+      "sha256": "096c037eacdb73ced6a7a329d35831fe7041a5725ab4c82c5f6b25cd9b35f2c1",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/unit_support.tsv",
+      "sha256": "fb670b4a27063448a31e4f01ce92ab89471094f39056c2847bcb38bf415b05e5",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/receipt.json",
+      "sha256": "bb7122691384de5b91464317e85dba74c4b9cc24449e0c777263f2d41308a97c",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_display_v1.py",
+      "sha256": "e16b8203da862f3bf0d2eb84b33774ef59cda1d44abe91fd0186b535485a103a"
+    },
+    {
+      "path": "analysis/research/contracts/A5.component_attribution_v1.json",
+      "sha256": "b3979441f7d73a1d24403d9b33ea533f5ac82fcdc95a33ed484f1d26a38a411e"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_DISPLAY_MAP_V1.tsv",
+      "sha256": "db85e5273bfacefeeb35c36f3535d28d2fc4d4f58ac905fae70b96f1c0f3e41c"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_ROLE_SCOPE_CROSSWALK_V2.tsv",
+      "sha256": "44b680cce91685d07435a618b96bffe91de27bd2e750234e49442c8824bdd564"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_DISPLAY_INPUTS_V1.json",
+      "sha256": "68d09aadd2348887f17539c9c8896245b92ef6c0b199f01f71827ba63f26d4cb"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_CONTEXT_DISPLAY_SPEC_V1.md",
+      "sha256": "204a622b51cb7e9bea5af842b5c8dcaef4597cda9fca3907a6192dea1ce47e75"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_CANDIDATE_PROCESS_COMPARISON_V1.md",
+      "sha256": "8487e0b8dcbd45859f5e443bc12e14d1da8a5abbe92fc81de2515d9661f5903b"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_SELECTED_ANNOTATIONS_V2.json",
+      "sha256": "f8861b77c4ce3a3905c7aabae97006278a7de33d3dd479d136c110eaea89277b"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_GO_EVIDENCE_ROWS_V2.tsv",
+      "sha256": "7d99963855d7e6ff35bd7742be527f83fd00dc09c049e84cf0a25c75dd2992e2"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_extract_annotations_v2.py",
+      "sha256": "3d11925ca2f908b590335638ef4d2bc658674d0244fea7d63887f20fbfbdd98b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_display_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_member_values.tsv",
+    "gene_summary.tsv",
+    "gene_day_summary.tsv",
+    "support.tsv",
+    "source_role_crosswalk.tsv",
+    "all_members_by_mouse.png",
+    "candidate_features_by_mouse.png",
+    "summary.json"
+  ],
+  "amendment_of": "analysis/research/contracts/A5.component_attribution_v1.json",
+  "amendment_reason": "New reviewed source-fixed display of immutable estimates after complete annotation; preserves the prior component, original18-role result and all historical outputs."
+}
