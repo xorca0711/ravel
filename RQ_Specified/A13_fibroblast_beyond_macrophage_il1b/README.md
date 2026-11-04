@@ -1,5 +1,50 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
+## Organizing Biological Q
+
+What fibroblast contribution, if any, adds explanatory information about epithelial context beyond the measured macrophage IL1B term?
+
+Stromal support, matrix and trophic effects are biologically plausible. A pathway RNA proxy and an epithelial association do not identify a secreted product or reciprocal feedback.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A13.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A13: reviewed matte qualitative illustration](schematics/A13_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A13_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The exposed 12-patient paired-triad extension adds the fibroblast TGF-hallmark RNA proxy to macrophage IL1B, mixture and TNF predictors of the epithelial HPCS RNA proxy. Primary held-out MSE worsens by 0.004181 despite smaller individual errors in eight patients; every eligible prespecified sensitivity also worsens. This is an unfavorable predictive result and selects no mediator. Source capture and cohort coverage constrain the replication question. The failed predictor is a specific operational test rather than a comprehensive assay of fibroblast biology. The compartment rule was explicitly amended from the historical gate, and the specification followed prior outcome and A12-result exposure; it is not independent evidence or an execution of the old test.
+
+[Paired-triad prediction and external coverage](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) · [Separate historical coverage audit](reports/COVERAGE_RESULTS.md).
+
+**Rationale check.** Useful unfavorable prediction result. It restricts this proxy extension and does not establish absence of all fibroblast contributions. Replacing it with another generic pathway score would require a new biological rationale, not merely an opportunity to obtain a positive result.
+
+## Current interpretation and next decision
+
+A specific source product and an independently measured epithelial consequence remain unnominated. The assigned macrophage term does not establish all active IL1B input or exhaust other cell sources.
+
+Retain the unfavorable operational result. A future extension should follow a specific published or measured source-product premise and a consequence that could distinguish it. Evidence beyond the current proxy could advance that bounded question; another association in the same score family would not by itself identify feedback.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -29,19 +74,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A13: reviewed matte qualitative illustration](schematics/A13_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A13_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -154,3 +187,5 @@ itself.
 | `scripts/01_count_triads.py` | standard library only, hash-verified inputs, refuses to overwrite, and refuses to report new counts if the reproduction check fails |
 | `tables/` | per-unit counts, the reproduction check, the run record, and the refused first attempt |
 | `reports/` | [coverage results](reports/COVERAGE_RESULTS.md) |
+
+</details>

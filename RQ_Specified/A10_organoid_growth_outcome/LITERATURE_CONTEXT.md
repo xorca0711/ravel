@@ -16,20 +16,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Residual-growth scores improved the descriptive baseline, but absolute predictive R-squared was negative on three of four plates. Target and plate are entangled and independent preparation identities remain unresolved.
+A six-score growth block improves a specified baseline in the existing screen, but the full model has negative absolute held-out R-squared on three of four plates. Day-14 RNA and imaging are concurrent; targets and plates are entangled and preparation identities remain unresolved. Plates are not automatically independent biological preparations. Follow-up comparisons were specified before their new fits, after the original screen results were known; reuse of these wells is not independent validation.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A10_organoid_growth_outcome/README.md](README.md)
-- [RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md](reports/FOLLOWUP_RESULTS.md)
-- [docs/research_dossiers/qualification_2026-10-03/RESULTS.md](../../docs/research_dossiers/qualification_2026-10-03/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/METADATA.md](../../docs/research_dossiers/followup_2026-10-03/METADATA.md)
+[Current result, design and limits](reports/FOLLOWUP_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-An early, fixed measurement that forecasts later area in independent preparations could add transportable prediction. Area remains a growth endpoint; it cannot establish mature AT1 identity or repair function.
+Within-screen information with a useful transport/timing limit. Relative model improvement does not establish reliable absolute prediction or an early biological driver. The poor plate results remain visible rather than being replaced by a favorable pooled association.
+
+Earlier features, later growth and qualified independent preparation units are not linked in the current evidence. A new split of the same wells cannot supply missing temporal order or biological identity.
 
 ## Current hypothesis and rival
 
@@ -39,7 +34,7 @@ The existing epithelial programme measurements may forecast subsequent organoid 
 
 ## What the comparison would teach
 
-An early predictor that improves unit-level held-out area prediction beyond the same baseline supports transport. Failure on whole-preparation holdout weakens it. Preserve negative absolute R-squared on three of four plates; organoid area cannot distinguish proliferation, survival and lumen changes by itself.
+Treat the current predictive comparison as complete. A forecast question would require a justified earlier-to-later measurement link and preparation-level evaluation. Transporting a frozen model would support that bounded use; dependence on concurrent measurements or plate context would restrict it. Do not label a within-screen gain a regenerative mechanism.
 
 ## Hypothesis schematic
 

@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gene",
+      "id": "212439",
+      "retmode": "json"
+    },
+    "record_path": "result.212439",
+    "max_items": 30,
+    "max_depth": 4
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result.212439",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uid": "212439",
+      "name": "AA986860",
+      "description": "expressed sequence AA986860",
+      "status": "",
+      "currentid": "",
+      "chromosome": "1",
+      "geneticsource": "genomic",
+      "maplocation": "1 56.89 cM",
+      "otheraliases": "E030025M07, Sarg",
+      "otherdesignations": "specifically androgen-regulated gene protein|specifically androgen-regulated protein",
+      "nomenclaturesymbol": "AA986860",
+      "nomenclaturename": "expressed sequence AA986860",
+      "nomenclaturestatus": "Official",
+      "mim": [],
+      "genomicinfo": [
+        {
+          "chrloc": "1",
+          "chraccver": "NC_000067.7",
+          "chrstart": 130659706,
+          "chrstop": 130672358,
+          "exoncount": 4
+        }
+      ],
+      "geneweight": 207,
+      "summary": "Predicted to be located in cytosol and plasma membrane. Predicted to be active in cytoplasm. Is expressed in gut and metanephros. Orthologous to human C1orf116 (chromosome 1 open reading frame 116). [provided by Alliance of Genome Resources...",
+      "chrsort": "01",
+      "chrstart": 130659706,
+      "organism": {
+        "scientificname": "Mus musculus",
+        "commonname": "house mouse",
+        "taxid": 10090
+      },
+      "locationhist": [
+        {
+          "annotationrelease": "RS_2024_02",
+          "assemblyaccver": "GCF_000001635.27",
+          "chraccver": "NC_000067.7",
+          "chrstart": 130659706,
+          "chrstop": 130672358
+        },
+        {
+          "annotationrelease": "RS_2023_04",
+          "assemblyaccver": "GCF_000001635.27",
+          "chraccver": "NC_000067.7",
+          "chrstart": 130659712,
+          "chrstop": 130672358
+        },
+        {
+          "annotationrelease": "108.20200622",
+          "assemblyaccver": "GCF_000001635.26",
+          "chraccver": "NC_000067.6",
+          "chrstart": 130731941,
+          "chrstop": 130744621
+        }
+      ]
+    },
+    "top_keys": [
+      "uid",
+      "name",
+      "description",
+      "status",
+      "currentid",
+      "chromosome",
+      "geneticsource",
+      "maplocation",
+      "otheraliases",
+      "otherdesignations",
+      "nomenclaturesymbol",
+      "nomenclaturename",
+      "nomenclaturestatus",
+      "mim",
+      "genomicinfo",
+      "geneweight",
+      "summary",
+      "chrsort",
+      "chrstart",
+      "organism",
+      "locationhist"
+    ]
+  }
+}

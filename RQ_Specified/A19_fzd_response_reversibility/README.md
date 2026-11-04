@@ -1,4 +1,67 @@
-# A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
+# A19: ending receptor input, mature output and retained reserve
+
+## Organizing Biological Q
+
+Can ending a specified Fzd-supported expansion input increase mature AT1 output while retaining AT2 descendants able to respond again? Current culture-context results show why marker change alone cannot answer that joint question. Starting-state competence, schedule and input identity remain distinct decisions.
+
+Current synthesis: 4 November 2026. [Literature context](LITERATURE_CONTEXT.md) ·
+[Dossier](../../docs/research_dossiers/A19.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a19).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A19: reviewed matte qualitative illustration](schematics/A19_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A19_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+Compartment-specific Fzd growth and alveolar differentiation are published premises. The [2022 human organoid source](../../RQ_Specified/A19_fzd_response_reversibility/SOURCES.md) provides donor-coded qPCR and source-block RNA comparisons under CHIR media conditions. Nabhan and the later expansion/differentiation precedents motivate the receptor question; they do not turn the CHIR comparison into Fzd-selective cessation or a measured reserve.
+
+The retained illustration describes the registered proposal. Its dashed relationships
+are unmeasured; the completed comparisons below have their own narrower endpoints.
+
+## Evidence, analyses and next steps
+
+The [completed result](../../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md) reports CHIR-absent versus present qPCR in three matched HTII-280-positive-derived donor lines. SFTPC falls in all three, while FOXJ1, TP63 and SCGB1A1 rise; intervals are mostly wide. In separate airway-derived source lines, early SFTPC induction diminishes from passage 1 to 3 despite continued CHIR. Changing donor labels and non-detects in another passage series prevent treating it as another three-donor trajectory.
+
+Eight bulk libraries in GSE197949 represent two source blocks; explicit donor mapping is unresolved and the knockdown hairpin differs by block. They are not eight donors. CHIR absence increases both AT1-associated and airway RNA panels, with gene-level exceptions. **Bulk SFTPC increases in both control blocks whereas the three qPCR effects are negative.** Different preparations and normalization prevent pooling these into a universal identity-loss estimate.
+
+GSK3B knockdown lowers its RNA but yields nonuniform marker changes; it does not prove a CHIR off-target mechanism. The measurements are normalized qPCR expression or bulk RNA panels, not traced mature output, barrier function or response to a later bout. Separate source figures do not identify a treatment-by-starting-state interaction.
+
+![A19: existing measured comparison](../../RQ_Specified/A19_fzd_response_reversibility/figures/exploratory_v1/A19_F3_bulk_response_context.png)
+
+The existing bulk panel retains mixed AT1/airway responses and the SFTPC disagreement with qPCR. Two source blocks are not eight independent donors; programs are RNA summaries, not pathway activity or a measured reserve.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: useful context diagnostics and an exploratory competence lead; the receptor-specific schedule/reserve inference is incomplete.** The mixed marker responses undermine a simple equation of input removal with productive alveolar maturation. They do not select an airway programme as the causal barrier, establish irreversible loss of competence, or identify Fzd5 as the operative input.
+
+Source narratives and prior Nb2 outcomes were exposed; new workbook/count estimates followed a frozen exploratory plan. The competence refinement was post-analysis. Donor codes shared across figures do not create replication, and qPCR/bulk discordance remains part of the evidence. Selective growth/survival, changing populations, passage, missing cues and downstream GSK3 context remain alternatives. A mechanistic label cannot resolve that ambiguity or establish random noise.
+
+## What a further comparison would decide
+
+Greater mature output with retained responsive AT2 reserve would support the joint benefit in that context; greater output with depleted reserve would reveal a tradeoff. Marker induction or area alone decides neither. A state-dependent schedule effect would refine the comparison but would not alone prove that acquiring that state caused reduced competence.
+
+Specify which input, schedule and outcome a qualified source can compare. A source-qualified narrower context question remains useful, but the registered joint benefit requires both mature output and reserve. Historical pipeline priorities are not automatically active; each further comparison needs a stated scientific purpose.
+
+**Current boundary:** RNA marker changes are not mature repair, functional reserve or an irreversible fate change. The current data do not establish receptor selectivity, a source-origin interaction or a causal state barrier.
+
+## Registered scope and earlier records
+
+The complete earlier framing below retains its dated scope and registered hypotheses.
+Current results and amendments govern interpretation. Older unfinished-work, source-access
+or priority statements do not supersede this synthesis or start an execution queue.
+Registration and completed analysis confer neither human acceptance nor a claim promotion.
+
+<details>
+<summary>Registered framing, source links and retained development history</summary>
+
 
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
@@ -30,21 +93,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A19: reviewed matte qualitative illustration](schematics/A19_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A19_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Existing source/passage qPCR distinguishes CHIR media context and changing epithelial markers; it does not measure receptor-selective Fzd withdrawal or retained regenerative reserve.
+
+**Remaining discriminator:** Matched starting-state history, cessation and absolute mature output/reserve are missing. Reuse the donor/source contrasts without treating different source lines or culture ages as a factorial experiment.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -153,3 +212,5 @@ but no inspected source supplies that complete linked test.
 [The parent contract](config/question_contract.json) still leaves confirmatory assay choices, effect
 margins and validation data unset. A4's Wnt/IL-1 sequence, A8's maturation predictor,
 A10's growth question and A1's regulatory-state question keep their own scope.
+
+</details>

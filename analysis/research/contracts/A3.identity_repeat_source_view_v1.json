@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A3.identity_repeat_source_view_v1",
+  "owner": "A3",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the six fixed identity/effector target source-average contrasts differ between first and second WT IL-4 stimulation in the already qualified GSE115504 table?",
+  "decision": "Clarify the exact target context for induction versus repeat stimulation; do not infer maintenance or repeat the full source analysis.",
+  "strongest_rival": "Source averaging, different stage baselines, normalization ambiguity and offset-sensitive low expression can mimic a stable history response.",
+  "discriminator": "All four WT source averages and the frozen first, second, baseline and second-minus-first contrasts at both offsets for the six prespecified symbols.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_TARGET_VIEW_SPEC_V1.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Full-table source-average outputs and the independent six-target induction screen are exposed. Exact target identifiers were inspected before this freeze; new six-target repeat-stage values were not inspected. This is a new exposed view of already computed source data, not independent validation.",
+  "biological_unit": "Author-supplied RNA group averages from cultured macrophages; effective biological n and individual variance are unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Both offsets and all six genes reuse the same four source averages; no independent biological replication or pairing of individual preparations is inferred.",
+  "population_and_selection": "Exact WT source rows Stat6,Egr2,Pparg,Rxra,Irf4,Arg1; no KO selection, new genes, zero-row exclusion or outcome ranking.",
+  "contrast": "First-stage and second-stage source-average log ratios, their difference and the baseline shift, at offsets1.0/0.5.",
+  "endpoint": "Twelve gene/offset rows with four supplied WT averages and four inherited log2-ratio endpoints; ARG1 remains a separate effector.",
+  "methods": "Extract exact rows from frozen contrasts; independently recompute scalar log2 ratios from four original WT averages, requiring parity within1e-10; preserve both baselines and offsets.",
+  "missingness_and_exclusions": "Missing or duplicate gene/offset/column IDs, negative/nonfinite source averages or arithmetic failure stop the run. All-zero rows are retained.",
+  "multiplicity": "All six targets and two offsets retained; no tests, ranking, score or uncertainty estimates.",
+  "precision_status": "unknown",
+  "precision_basis": "Author group averages do not expose preparation variance or effective biological n. Arithmetic tolerance is not biological precision.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Author-labelled averaged CPM/Cufflinks has normalization ambiguity. No individual temporal response, post-cessation maintenance, causal interaction, NAM/infection transfer, protein activity or mechanistic proof.",
+  "stop_rule": "Stop on hash/identifier/column/value/parity conflicts and retain failed evidence; no target or offset changes.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+      "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/source_average_contrasts.tsv.gz",
+      "sha256": "056d76f72d1d7d4c54760a9b85e3ac0bb748e382ae6e81f5af7968be9b0e2d1f",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_FEATURE_MAP_V1.json",
+      "sha256": "361b824e3dc128149335a749da4e9bb7ee851e514eaefcbfab403a7918620996",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_TARGET_VIEW_SPEC_V1.md",
+      "sha256": "efda74c8bd671dd8bfedd0b53cb341e664d7b60e789199143f9cf5da4125dd38",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+      "sha256": "0f019c3e8ad92d17be94527adbb4f43ecd07240d64ecdcfc56e245f5b9996150"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_FEATURE_MAP_V1.json",
+      "sha256": "361b824e3dc128149335a749da4e9bb7ee851e514eaefcbfab403a7918620996"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "target_source_average_view.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New separately scoped exposed fixed-target view; original whole-table and induction contracts/results remain unchanged."
+}

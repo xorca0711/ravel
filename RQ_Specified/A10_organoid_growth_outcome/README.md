@@ -1,5 +1,50 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
+## Organizing Biological Q
+
+Can epithelial RNA features predict later organoid growth across biological preparations, and how much of the existing result is concurrent within-screen information?
+
+Growth is an outcome requiring timing and unit definitions. An RNA–area association at the same time can be informative without establishing an early predictor or a growth mechanism.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A10.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A10: reviewed matte qualitative illustration](schematics/A10_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A10_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+A six-score growth block improves a specified baseline in the existing screen, but the full model has negative absolute held-out R-squared on three of four plates. Day-14 RNA and imaging are concurrent; targets and plates are entangled and preparation identities remain unresolved. Plates are not automatically independent biological preparations. Follow-up comparisons were specified before their new fits, after the original screen results were known; reuse of these wells is not independent validation.
+
+[Current result, design and limits](reports/FOLLOWUP_RESULTS.md).
+
+**Rationale check.** Within-screen information with a useful transport/timing limit. Relative model improvement does not establish reliable absolute prediction or an early biological driver. The poor plate results remain visible rather than being replaced by a favorable pooled association.
+
+## Current interpretation and next decision
+
+Earlier features, later growth and qualified independent preparation units are not linked in the current evidence. A new split of the same wells cannot supply missing temporal order or biological identity.
+
+Treat the current predictive comparison as complete. A forecast question would require a justified earlier-to-later measurement link and preparation-level evaluation. Transporting a frozen model would support that bounded use; dependence on concurrent measurements or plate context would restrict it. Do not label a within-screen gain a regenerative mechanism.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,19 +75,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A10: reviewed matte qualitative illustration](schematics/A10_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A10_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -195,3 +228,5 @@ reading-status fields in frozen A10 configurations remain unchanged.
 - **Do not split wells at random for evaluation.** Wells may share preparation and
   handling. Completed holdouts are entire deposited plate-replicate groups;
   whether those groups are independent preparations is unresolved.
+
+</details>

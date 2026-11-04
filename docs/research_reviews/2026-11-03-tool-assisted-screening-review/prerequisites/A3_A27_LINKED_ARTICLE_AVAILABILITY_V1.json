@@ -1,0 +1,101 @@
+[
+  {
+    "id": "PMC13598234",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598234/fullTextXML",
+    "retrieved_at_utc": "2026-11-03T14:58:23.306959+00:00",
+    "response_sha256": "963e39571d7b51c383f5a2761241ab6fdbbf08093877691186975a6f847008ff",
+    "article_ids": [
+      {
+        "type": "pmcid",
+        "value": "PMC13598234"
+      },
+      {
+        "type": "pmcid-ver",
+        "value": "PMC13598234.1"
+      },
+      {
+        "type": "pmcaid",
+        "value": "13598234"
+      },
+      {
+        "type": "pmcaiid",
+        "value": "13598234"
+      },
+      {
+        "type": "pmid",
+        "value": "42743281"
+      },
+      {
+        "type": "doi",
+        "value": "10.1073/pnas.2600693123"
+      },
+      {
+        "type": "publisher-id",
+        "value": "202600693"
+      }
+    ],
+    "availability_sections": [],
+    "external_resource_links": [
+      "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247946",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247946"
+    ]
+  },
+  {
+    "id": "PMC13596324",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13596324/fullTextXML",
+    "retrieved_at_utc": "2026-11-03T14:58:25.558337+00:00",
+    "response_sha256": "9064df99b18a61a51e49e733a308d2b97070fd0c088bba020abc91819a7fb59a",
+    "article_ids": [
+      {
+        "type": "pmcid",
+        "value": "PMC13596324"
+      },
+      {
+        "type": "pmcid-ver",
+        "value": "PMC13596324.1"
+      },
+      {
+        "type": "pmcaid",
+        "value": "13596324"
+      },
+      {
+        "type": "pmcaiid",
+        "value": "13596324"
+      },
+      {
+        "type": "pmid",
+        "value": "42779700"
+      },
+      {
+        "type": "doi",
+        "value": "10.64898/2026.09.15.751918"
+      }
+    ],
+    "availability_sections": [
+      {
+        "title": "Data availability",
+        "external_links": [
+          "GSE297097"
+        ],
+        "first_25_words": "Data availability All raw and processed sequencing data generated in this study are available through the Gene Expression Omnibus (GEO) under accession GSE297097 ."
+      },
+      {
+        "title": "Code availability",
+        "external_links": [
+          "https://github.com/immgen/immgenT_Project/tree/main/GP_paper"
+        ],
+        "first_25_words": "Code availability Code is available at the following repository https://github.com/immgen/immgenT_Project/tree/main/GP_paper"
+      }
+    ],
+    "external_resource_links": [
+      "https://github.com/dzemmour/ZemmourLib",
+      "https://github.com/immgen/immgenT_Project/tree/main/GP_paper",
+      "https://immgen.org/ImmGenT/",
+      "https://rosetta.immgen.org/",
+      "https://rstats.immgen.org/Skyline/skyline.html?datagroup=immgenT%20Pseudobulk",
+      "https://rstats.immgen.org/immgenT_integration_analysis/",
+      "https://rstats.immgen.org/tcrbrowser/",
+      "https://www.immgen.org/ImmGenT/"
+    ]
+  }
+]

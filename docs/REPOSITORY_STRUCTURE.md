@@ -29,6 +29,16 @@ protocols, original trial names and immutable run records remain historical evid
 
 See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 33 questions; the registry locates their evidence and the 37 retained article-local candidates; their IDs do not automatically become canonical RQs.
 
+The question README is the reader's current scientific entrypoint: biological
+purpose, published premise, performed comparison, actual result, changed
+interpretation and the next uncertainty. The local context supplies source
+support; the dossier develops the complete reasoning and proposed comparisons.
+An unchanged registered hypothesis can describe a narrower branch than the broad
+purpose, so its scope remains explicit. Old plans are retained as history rather
+than treated as a second current execution queue. The collection index offers
+biological-topic and contribution-based reading routes; neither replaces IDs or
+assigns scientific acceptance. Frozen source evidence stays with its owner.
+
 ## Identifier namespaces
 
 - `A0`–`A32` identify the current repository-wide question cards. A15–A18

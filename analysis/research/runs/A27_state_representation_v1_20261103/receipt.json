@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A27.state_representation_v1",
+  "owner": "A27",
+  "contract": "analysis/research/contracts/A27.state_representation_v1.json",
+  "contract_sha256": "28d781272fc1eee7ccc543b545d63092b2b52c905d1370ed146678893954fb44",
+  "git_commit": "c09108f11f7eafeee6012fd95f43b38bf2332e48",
+  "started_at": "2026-11-03T11:47:31.873069+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/state_representation_v1.py",
+    "--output",
+    "analysis/research/runs/A27_state_representation_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/A27_state_recovery_v1/official_facs_spleen.h5ad",
+      "sha256": "ea3ebbb6d68e9c69238eb276eb0f3454fa404e2505bd18daea5d6dac7a69f309",
+      "study_id": "Tabula_Muris_Senis_official_FACS_Spleen",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_mouse.tsv",
+      "sha256": "ff8d595399699762f23f451ffd68fa217182a456ff0ba616d65e66ad3e63a234",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_INPUT_MAP_V1.json",
+      "sha256": "40ce5b2a90ba5e5c289d777aabd8229d34f8929c495664a9a73d7b6550571233",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_STATE_RECOVERY_SPEC_V1.md",
+      "sha256": "80f7c5bbe7b0f9818a984fed3b029ee63364beb490d6917fa44093cf4a732fef",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/A27_TARGET_SOURCE_REVIEW.md",
+      "sha256": "54235d28a16c9da92adeffc8e4c5dcf7321c91579efb83cbd8e5e793ce2d631a",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/state_representation_v1.py",
+      "sha256": "07a0e3fbbed11ec076e0446310e6ede33b23cc0d0f8650c8e6d9d0c4eb6817c2"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_INPUT_MAP_V1.json",
+      "sha256": "40ce5b2a90ba5e5c289d777aabd8229d34f8929c495664a9a73d7b6550571233"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/cell_state_primitives.tsv",
+      "sha256": "c559cebccf4ab586f233e433390836907f681e8adc992516acf9932c068927ae"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/mouse_state_representation.tsv",
+      "sha256": "af15cfa3da8230e8e5372b2d386d7959ad0ddb34dde3c42dcb2e6d09c823f1b7"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/mouse_state_repetition.tsv",
+      "sha256": "e7816039cce719af2dbbaa5607de1a14fc992caa09a751f2769027d0141d6026"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/clone_state_occupancy.tsv",
+      "sha256": "3e9dc43684d5473fc50a85bc160d4be38031666434bd843a6e316f550e74fee9"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/broad_cd8_depth5.tsv",
+      "sha256": "707f3c3442c70d37ed79a43f1ee2e4df1060ff251454b5d9b3ba0d495a851502"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/original_broad_parity.tsv",
+      "sha256": "885b56abc44563933c26f6df04f94b2de5f12af646cdcecffaac6f88f7dbf043"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/state_age_contrasts.tsv",
+      "sha256": "01ecda2168808c8b8f25edc13f51ac8ec09ed2ac8a6acb02b453f9c80d29cf73"
+    },
+    {
+      "path": "analysis/research/runs/A27_state_representation_v1_20261103/verification.json",
+      "sha256": "de0e141c6638b7a880c64402dc1342e3ce576968c567d541c9440336692949fa"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T11:47:38.365672+00:00"
+}

@@ -16,18 +16,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Corrected Stage 1 analysis attenuated the association and left residual imbalance. Current evidence does not establish intrinsic priming, complete exclusion of contamination or later fate.
+Matching attenuates the fixed four-gene mean log1p(full-library CP10k) score contrast from 1.256 to 0.410 and from 1.332 to 0.315 in the two libraries, while substantial imbalance remains. Independent animal identities, a linked later response and complete exclusion of contamination are not available. This was an amended computation on fully exposed data. Matching uses concurrent RNA coordinates, not an independently measured pre-intervention starting state; the registered hypothesis's historical phrase "starting-state matching" must be read with that limit. Excluding the 660 direct grouping/outcome genes does not eliminate correlated-feature overadjustment, shared normalization or detection-dependent selection. Matching does not convert these libraries into independent animal-level evidence.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A16_cd177_state_attribution/README.md](README.md)
-- [RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md](reports/STAGE1_RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Current result, design and limits](correction_20260928/reports/CORRECTED_C1_REPORT.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Confirm epithelial protein attribution and one independent prospective response. That could qualify a useful marker; it would not establish CD177 as the molecule controlling fate.
+A diagnostic restriction on the marker interpretation. The attenuation shows sensitivity to the measured context but neither proves all of the signal is confounded nor establishes an intrinsic programme. No priming mechanism or later fate prediction has been selected.
+
+Source/protein attribution, qualified biological units and a specified later response remain unlinked. Current marker-positive RNA cannot establish prospective competence.
 
 ## Current hypothesis and rival
 
@@ -37,7 +34,7 @@ Epithelial CD177 protein may identify a priming phenotype within comparable muta
 
 ## What the comparison would teach
 
-Confirmed epithelial protein followed by a later response difference within comparable baseline states supports marker utility. Disappearance after source or state control favors contamination or mixture. Endpoint RNA differences alone do not show priming, and CD177 perturbation would ask a different causal question.
+Keep the matched and unmatched observations together. Independently attributed CD177 status linked to a later response could support a prospective marker claim; loss of that relationship under source/context qualification would restrict it. A causal perturbation claim is a different question and is not required merely to evaluate a marker.
 
 ## Hypothesis schematic
 

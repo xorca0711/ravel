@@ -1,5 +1,15 @@
 # Yadav follow-up research plans
 
+<!-- full-priority-screening-20261103:start -->
+**Wg-P06 screening follow-through — 3 November 2026.** Reuse the [final T1-B source review](REVIEW_T1B_FINAL.md) and retain the original vector/mapping holds. Substrate availability, recipient routing and signaling are separate explanations; published ARG1/ornithine biology is a premise, not a newly discovered circuit. No linked source-ARG1, extracellular arginine/ornithine exposure and recipient collagen measurements were recovered. A new RNA proxy or renormalization of incomplete tracer vectors would not answer that comparison. [Reviewed sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). No human scientific acceptance is implied.
+
+| Candidate explanation | Existing measurement | Missing discriminator |
+|---|---|---|
+| Substrate availability | Source recipes and eligible reported metabolite channels | Measured extracellular arginine/ornithine delivered to the recipient |
+| Metabolic routing | Eligible literal isotope percentages; ambiguous/incomplete vectors remain held | Verified tracer/map and unit-linked recipient routing; nitrogen label alone is not carbon transfer |
+| Signaling or demand | Published perturbation and RNA context | Linked signaling/protein response and collagen output; native ion areas are not calibrated pools |
+<!-- full-priority-screening-20261103:end -->
+
 **Registration crosswalk — 2 November 2026:** Yd1-P02 now develops as proposed
 [A32](../A32_myeloid_arg1_matrix_epithelial_recovery/README.md). This package retains its historical source plans,
 contracts, runs and outcomes; none is relabelled as an A32 effect. Earlier

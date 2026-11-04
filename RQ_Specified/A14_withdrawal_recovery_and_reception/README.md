@@ -1,5 +1,50 @@
 # A14: do exposure duration and fibroblast IL-1 reception separately determine recovery?
 
+## Organizing Biological Q
+
+How does ending an inflammatory exposure affect later epithelial maturation, and what separate contribution could fibroblast reception make?
+
+Published withdrawal and pre-exposure findings are premises, not discoveries of this repository. Epithelial exposure history and fibroblast reception are separate questions; the fibroblast-effect direction has not been established here.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A14.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A14: reviewed matte qualitative illustration](schematics/A14_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A14_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+Source intake identified Choi Figure 7E's twelve qPCR endpoints and the relevant withdrawal comparison. The legend reports four biological replicates from two experiments but does not map preparation identities or pairing. Preparation-linked numerical values were not found in the inspected attachments; the figure/methods Limch1 versus Limch2 discrepancy is retained. Continuous-input RNA and a separate metabolic intervention do not reproduce withdrawal.
+
+[Current result, design and limits](../../docs/research_reviews/2026-11-03-full-priority-screening/A14_SOURCE_MANIFEST.md).
+
+**Rationale check.** Completed source/endpoint clarification with an unestimated local withdrawal effect. Published plausibility does not mean the proposed mature-output or fibroblast-reception question has run. Failure to recover values from these attachments is not proof that no suitable data exist elsewhere.
+
+## Current interpretation and next decision
+
+Preparation-level values, their experimental map and a qualified relation to the intended mature-output endpoint remain missing. RNA marker recovery does not by itself establish mature lineage output or functional recovery.
+
+Use the identified source comparison to define what recoverable values could actually estimate. A qualified post-cessation contrast could inform marker recovery; the stronger mature-output and separate fibroblast-reception claims require their own linked endpoints. No direction for fibroblast reception or new interaction effect is invented, and continuous-input data do not substitute for the missing withdrawal contrast.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,21 +75,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A14: reviewed matte qualitative illustration](schematics/A14_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A14_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The original Choi withdrawal panel and its twelve qPCR endpoints were identified in the primary figure/legend. This completes source intake, not numerical reproduction.
+
+**Remaining discriminator:** Fig7E preparation-level values and the preparation-to-experiment/condition map were not found in the checked attachments. Gapdh/delta-Ct normalization is reported, but the values remain unavailable; continuous-exposure RNA cannot substitute for withdrawal. [Source/endpoint/unit manifest](../../docs/research_reviews/2026-11-03-full-priority-screening/A14_SOURCE_MANIFEST.md).
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -186,3 +227,5 @@ evidence remains unidentified; all routes retain the same endpoint and unit requ
    rival, and target engagement must be measured alongside the outcome.
 6. **Do not extend any recovery result to malignant transformation.** Neither
    hypothesis bears on it.
+
+</details>

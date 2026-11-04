@@ -3,32 +3,258 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Biological-screening guidance revision — 4 November 2026
+## RQ restructuring publication — 4 November 2026
 
-Owner-requested policy PR, isolated from the preserved research continuation.
+The owner authorized commit, push and a PR for the reviewed all-33 restructuring
+and validated fixes. Publication uses the isolated branch
+`codex/rq-reasoning-restructure-20261104`, with current main `acefbced` integrated.
+The original C: review worktree remains preserved. The reviewed screening
+dependencies missing from main are retained in separate commits so result links
+and frozen provenance remain usable. [Integration scope and validation](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/PUBLISHING.md).
+Restructuring/fixes are committed at `0bb57ef`; reviewed dependencies are in
+`57f6dea`, following the main reconciliation at `1b7049c`. Fresh isolated-tree
+validation passed 16,450 repository checks, 170 unit tests (one Windows skip),
+required archive/claim checks and the research gate against `acefbced`. Fourteen
+historical checkout files needed their unchanged Git bytes restored to match
+frozen hashes; no scientific source or validator was changed. All 255 pending
+source-file contents were preserved during export.
+No new biological analysis or policy change is introduced by publication, and
+the resulting PR is not authorized for automatic merge. Earlier no-push and
+uncommitted statements below describe their original review checkpoint.
+
+## Portfolio reasoning restructuring — 4 November 2026
+
+**Follow-up findings validated and corrected.** The owner's requested recheck
+found A9's comparison already proposed in the earlier biological-link map; the
+defect was its omission from current owner arguments. That connection is restored.
+A3's ambiguous axis phrase now states only the measured RNA restriction. Seventeen
+dossier preambles and the historical ledger now distinguish current work from
+dated package status. [Validated scope and repairs](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/FOLLOWUP_REVIEW.md#validated-scope-and-repairs).
+This does not establish a new mechanism, nominate a target, or mean that every
+RQ has a fully developed next experiment. The prior coverage milestone remains
+valid; its blanket substantive-completion wording was qualified. No biological
+run or hypothesis change was made. Fresh validation passed **16,449 repository
+checks** and the provenance gate against refreshed main `acefbced`; 224 protected
+sections, 36 assets and all 33 registered hypothesis/image pairs are preserved.
+The three focused corrections are complete, with scientific unknowns retained.
+Raw evidence and unrelated local work remain preserved; changes are uncommitted.
+
+The owner approved the cross-chat direction after reviewing this coordinator's
+explanation, including useful new/versioned figures. A fresh technical chat,
+**Ravel RQ reasoning — A5 pilot and rollout**
+(`01a1a468-11ec-7533-bc5c-3b82d00c7b3c`, local), completed its delegated queue.
+[Approved plan, all-33 work order and ownership](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/README.md).
+The purpose is to expose defensible question → comparison → result → changed
+interpretation → next-decision reasoning, including negative/diagnostic findings.
+No mandatory target count or causal discovery is imposed. Registered hypotheses,
+figures and frozen evidence remain preserved; substantive changes are separate
+proposals. This task does not restart old numerical queues or request push/merge.
+
+The authoritative research worktree remains `codex/tool-assisted-screening-review-20261103`
+at `0b67a80`, with no upstream and pending reviewed local research. The saved
+project root `X:/GitHub/ravel` was verified at older `78320a1`; all edits use this
+worktree. All 33 README/context/dossier narratives have completed scientific and
+editorial cross-review. [Coordinator review and batch evidence](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/COORDINATOR_REVIEW.md).
+The [all-33 rationale assessment](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
+distinguishes supported findings, exploratory leads, negative/measurement
+diagnostics and untested proposals without treating uncertainty as random noise.
+Collection navigation and the current register/architecture pointers are aligned.
+Existing measured figures were reused with bounded captions; no new images or
+biological runs were needed. Registered hypotheses, illustrations and frozen
+evidence remain unchanged. Final validation passed **16,391 repository checks**
+and the provenance gate against refreshed main `acefbced`; all 33 registered
+hypothesis/image pairs, required opening headings and visible rationale sections
+passed the scoped preservation check. [Validation record](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/COORDINATOR_REVIEW.md#final-integration-validation).
+Biological holds remain question-specific and do not imply unfinished editorial
+work. No commit, staging, push or merge was performed for this task.
+
+## Research skills and plugin audit — 4 November 2026
+
+Inventoried 212 SciAgent skill files and 95 recently modified AI/ML skill files;
+reviewed selected research workflows and live connector capabilities. The
+[usage review](docs/research_reviews/2026-11-03-tool-assisted-screening-review/NEW_SKILLS_USAGE_REVIEW_2026-11-04.md)
+maps useful annotation, interaction, motif, multiomics and figure tools to current
+biological decisions. Generic autonomous-pivot and always-mechanistic instructions
+must not override repository governance. Workbench's local runtime currently
+discovers no workflow controller; existing Python research runs remain separate
+and unaffected. Package metadata is recorded, not asserted as tested readiness.
+No installation, external figure job, new analysis or governance change followed
+from this audit. The technical chat received the usage boundaries.
+
+A3 (`43f633f`) and A27 (`0b67a80`) now pass independent numerical, visual and
+biological report review: 374 and 358,840 reconstruction checks respectively,
+zero numerical discrepancy, 33 verified hashes and 84 report checks. All three
+figures passed. [Review and exact limits](docs/research_reviews/2026-11-03-tool-assisted-screening-review/COORDINATOR_REVIEW.md).
+Owner-context synthesis is now complete and reviewed across A3/A27 READMEs,
+literature contexts, dossiers and the DY1-P02 source connection; both result
+reports link the review. The Pparg trajectory wording and DY1 inference limit
+are corrected. All 194 synthesis/report links resolve; protected framing and
+registered illustrations are preserved. Both receipt verifications and the
+provenance gate against main `acefbced` pass. A3/A27 join A5/A31 as complete
+reviewed bounded branches; broader unresolved biological questions remain explicit.
+The three audit/status documents passed 74 local-link checks, and the
+repository validator passed 15,931 checks; no biological analysis was rerun for
+this documentation audit. These status updates supersede prospective wording below without
+claiming A3 coordinator acceptance.
+
+## Authorized restart after guidance merge — 4 November 2026
+
+[Agent-guidance PR #164](https://github.com/xorca0711/ravel/pull/164) merged into
+main as `acefbced` after both remote CI workflows passed. Its isolated three-file
+change passed 46 local governance tests, 15,328 repository checks, local links
+and the provenance gate. A fresh Windows checkout needed exact existing Git
+bytes restored for 14 newline-only hash mismatches; no scientific content changed.
+The research checkout uses the merged guidance, and the existing technical chat
+confirmed restart under the owner's explicit instruction. Earlier halt records
+below are historical; all modified/untracked research evidence remains preserved.
+
+A5's approved branch is complete: exact source-map review, frozen numerical
+display (`53820f0`), rendering-only correction (`e076aeb`), independent numerical/
+visual/report review, and current README/context/dossier synthesis. All 27,324
+independent numerical checks passed (maximum discrepancy 3.553e-15 pp); 85 local
+links and preserved framing-marker contents passed final synthesis checks.
+The result narrows toward junction/polarity-associated RNA with selected matrix
+context, retaining heterogeneous signaling/matrix members and negative original
+transport means. No assembly, maturation, repair-function or independent-replication
+claim follows. [Result and figures](RQ_Specified/A5_developmental_programme_reuse/reports/FEATURE_CONTEXT_DISPLAY_V1_RESULTS.md)
+· [Coordinator review](docs/research_reviews/2026-11-03-tool-assisted-screening-review/COORDINATOR_REVIEW.md).
+
+A3's recovered source/methods passed bounded review and report biological
+replication, but exact preparation/batch sharing and control harvest alignment
+remain unknown. The SI identifies Salmon counts, so actual count/estimate
+semantics must be qualified rather than imposing a raw-integer-only rule. The
+six-library RNA-context specification has now passed exact source/hash/mapping
+review and is cleared for frozen descriptive execution; numerical/visual/report
+review must precede current A3/DY1 synthesis. A27's 13,332-row source/annotation
+join passed independent review; the next bounded qualification covers CD8 label
+construction and per-mouse/state chain eligibility before choosing clone
+conventions and an endpoint. Its versioned 354-row receptor-only mouse-metadata
+correction passed independent review; those cells remain outside RNA-state
+denominators. The exact nominal-source-code concentration proposal is now cleared
+for prospective frozen execution, with single-pair primary/complete-set sensitivity,
+full support/NA reporting and no aging or independently defined state-redistribution
+claim. A3/A27 numerical, visual and report review must precede synthesis updates.
+Reuse reviewed A31; A8/A9 still need an explicit biological decision before a
+new run, and A12 remains coordinator-owned. Each further comparison must follow
+what the preceding result narrowed, with exact dependent holds.
+
+Integration remains coordinator-owned. PR #163 merged into its former stacked
+branch, not main; its research content is retained on this continuation and must
+be explicitly reconciled in the later research PR. Do not reset, stash or clean.
+
+## Historical owner-requested halt — 4 November 2026
+
+Research execution, annotation expansion and source searches are halted at the
+owner's request while agent reasoning flow is reframed. Prior continuation
+instructions are superseded. [Preserved current-state handoff](docs/research_reviews/2026-11-03-tool-assisted-screening-review/HALT_HANDOFF_2026-11-04.md)
+distinguishes reviewed A31 results, reviewed A5 source preparation, incomplete
+source joins/proposals and the unstarted jobs. All existing modified/untracked
+artifacts remain in place; no commit, push, merge, reset, stash or cleanup was
+performed for this halt. Both chats confirmed no active owned scientific process.
+The targeted compressed TCR download finished during halting; no decompression,
+barcode join or repertoire calculation followed. The latest A5 feature map is
+saved but unreviewed. Do not resume scientific work without the owner's new
+direction. Earlier research checkpoints below remain historical;
+instruction-only updates do not resume that queue.
+
+## Agent instruction revision — 4 November 2026
+
+The owner subsequently requested changes to the repository's agent instructions
+to prevent recurrence of analysis accumulation without biological narrowing.
 [AGENTS.md](AGENTS.md#biological-screening-and-question-progression) and the
 [decision workflow](docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
-now require a visible connection from published premises and repository
-observations to the next biological comparison, informative outcomes and the
-next decision. Task-specific skill/connector guidance preserves source provenance
-and distinguishes access failures from missing measurements. Descriptive work,
-replication, qualified partial screening and unfavorable results remain valid.
-No contract, validator, frozen output, question identity or claim grade changes.
+now connect starting evidence, the next unresolved comparison, informative
+outcomes and the next step after a result. They preserve legitimate descriptive/
+replication work, informative partial screening and existing execution safeguards.
+At the owner's follow-up request, they also add task-specific skill/connector
+selection, live availability checks, provenance and appropriate fallback routes.
+This authorization is for instruction work only; the research halt remains in
+effect. No RQ, frozen evidence, validator, contract schema or claim grade was
+changed. Agent wording/compatibility review covered legitimate replication,
+partial descriptive screens, mixed results, tool availability and the active
+halt. The 46 existing governance tests passed with normal temporary-directory
+access after sandbox temp-file permissions prevented the first attempt.
+Repository validation passed 15,808 checks and the research gate passed against
+refreshed `origin/main` (`99670da`). The final tool-guidance additions passed
+targeted local-link/anchor and whitespace checks; unchanged tests were reused.
+These instruction edits are saved locally and remain explicit policy-review
+material for integration. No commit, push or merge was performed.
 
-Review checked compatibility with existing governance, proportional design,
-partial screens, tool availability and owner-requested halts. This is agent
-review under the owner's explicit instruction to open and merge the policy PR;
-it is not independent human scientific acceptance. The user authorized restarting
-the existing technical chat only after this guidance is merged. Research remains
-paused until that merge; the coordinator will record the resumed scope and review
-checkpoints in the preserved research checkout. No numerical rerun is required
-for this documentation change.
+## Tool-assisted screening review — 3 November 2026
 
-Validation on the isolated main-based checkout: 46 governance tests passed,
-15,328 repository checks passed, and all 56 local links/anchors across the three
-edited files resolved. Existing hash-locked published files were restored for
-verification; no analysis was rerun. Remote CI and the final provenance gate
-remain required before merge.
+Reviewed the seven latest screening implementations/results, the full 22-owner
+disposition and all 33 RQ dossier boundaries against available source,
+annotation, Scanpy and NGS tools. [Review and stepwise plan](docs/research_reviews/2026-11-03-tool-assisted-screening-review/README.md).
+The owner clarified screening as progressive biological hypothesis narrowing,
+using Cardoso's cell-state/signaling/recipient/feedback sequence as an example.
+[Prospective amendment](docs/research_reviews/2026-11-03-tool-assisted-screening-review/BIOLOGICAL_SCREENING_AMENDMENT_V1.md)
+and [RQ folder diagnosis](docs/research_reviews/2026-11-03-tool-assisted-screening-review/RQ_FOLDER_DIAGNOSIS_V1.md)
+record the change. All 33 README organizing sections/structures were inspected;
+the main gap is synthesis of biological progression, not directory ownership.
+The existing technical chat prepared the 22-owner biological-link map; detailed
+per-job review precedes further numerical work. A8/A9 unstarted runs are held for a biological decision;
+A5 source annotation now covers all 99 members. Coordinator review cleared the
+metadata preparation but found that broad GO associations redefine the prior
+regulatory group. The original-role crosswalk and source-grounded architectural
+remodeling comparison are now reviewed in principle; the exact exhaustive feature
+map/display specification remains required before its freeze. It will reuse
+immutable member estimates without a new architecture score. A3/A27 source
+intakes found partial temporal and paired RNA/TCR leads. Coordinator review
+requested one bounded check of the linked RNA sample/count identities and
+VDJ-specific public products before closing those source dispositions; no new
+RNA or repertoire outcome was calculated.
+
+A31's conditional partner run completed under freeze `6b1fe38`; independent
+arithmetic, biological-report and figure review passed. Partner context remains
+source-dependent, with no uniform receptor architecture or functional claim.
+[Execution review](docs/research_reviews/2026-11-03-tool-assisted-screening-review/COORDINATOR_REVIEW.md).
+[A12 intake](docs/research_reviews/2026-11-03-tool-assisted-screening-review/A12_SOURCE_INTAKE.md)
+located 75 cell-level count stores and annotation files on X:; state evidence
+and the next candidate-discriminating comparison remain unresolved.
+Follow-through is isolated on `codex/tool-assisted-screening-review-20261103`
+from `300a184`. Main refreshed to `99670da` (PR #162 merged); its tree equals
+`f54ad29`, already contained in this branch, so no new scientific content needs
+reconciliation. Next: review the technical
+biological-link mapping, finish A5 source-role qualification, and approve only
+exact new comparisons that could change a named biological inference. No bulk
+RQ rewrite, claim promotion or new PR has occurred in this continuation.
+
+## Full primary/moderate screening sequence — 3 November 2026
+
+All 22 owner plans (21 canonical RQs plus Wg-P06) have reviewed rationale,
+ordered steps and final dispositions: seven new numerical screens, fourteen
+reused completed screens and the A14 source intake.
+[Coverage and implications](docs/research_reviews/2026-11-03-full-priority-screening/README.md)
+· [Independent review](docs/research_reviews/2026-11-03-full-priority-screening/COORDINATOR_REVIEW.md).
+A3, A5, A12, A31, A9, A8 and A27 passed independent numerical and biological
+report review. A8 retains 34 supported/106 unsupported module contrasts;
+A27 retains all four unsupported main naive/effector age contrasts. Focused
+RNA context survives some screens, but no uniform regulatory programme,
+functional receptor response, causal repair or redistribution mechanism is inferred.
+
+All owning README/context/dossiers and Wg-P06 entrypoints are reconciled.
+A14 still lacks Fig7E preparation-level qPCR values and experiment/condition
+mapping in the checked attachments. Each remaining biological limit and
+reopening condition is retained in the plans/ledger. No human scientific
+acceptance or claim promotion is implied.
+
+Work is isolated on `codex/full-priority-screening-20261103`, from `f54ad29`.
+Last refreshed main is `445a0ca`; PR #162 remains open on its original branch.
+Larger runs executed at `X:/GitHub/ravel_execution/full-priority-screening-20261103`
+because C: lacks matrix-copy capacity. Relative input hashes and runtime gates
+are unchanged; compact verified outputs returned to this authoring checkout.
+Existing source/annotation/literature tools suffice; no plugin was installed.
+Integration checks passed: 15,650 repository checks, all seven receipts,
+required archive/claim checks, and 170 distinct tests with one host-specific
+symlink skip. [Validation details](docs/research_reviews/2026-11-03-full-priority-screening/VALIDATION.md).
+Reviewed results are committed at `9cab415` and published in
+[PR #163](https://github.com/xorca0711/ravel/pull/163), stacked on still-open
+PR #162. No merge was performed. Initial remote repository checks passed;
+governance identified nine CRLF-bound configuration checkout mismatches.
+Exact-path checkout rules restore the recorded bytes; contracts and outputs
+are unchanged. Current remote CI status is tracked in PR #163. No scientific analysis step remains
+queued, only the documented measurement holds.
+No frozen output or governance rule has been changed.
 
 ## Remaining public-reference screening reviewed — 3 November 2026
 

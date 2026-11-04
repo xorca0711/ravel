@@ -1,12 +1,11 @@
-# A32: literature context and proposed joint-outcome comparison
+# A32: literature context and current argument
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A32.md).
 
-2 November 2026, Asia/Seoul. Codex review following the owner's authorization to
-assess and register distinct RQs. Base source revision: main `96e6a8d`.
-Reuses the reviewed Yd1-P02 source/design record of 31 October, with a targeted
-primary-literature refresh today. Published and repository outcomes were already
-exposed. Registration adds no new numerical experiment or novelty certification.
+Synthesis updated 4 November 2026 using the recorded primary-source reviews and
+current owning results. Their actual search dates, versions, access and figure
+locators remain in the records below. No new literature search or biological run
+was performed for this documentation batch.
 
 ## Published starting point
 
@@ -22,6 +21,95 @@ exact earlier source versions, figure/supplement access and local hashed
 qualification. These reads and reanalyses share source lineages; they do not
 create independent replication. Reviews and commercial search hits were not
 used as primary evidence.
+
+
+Yadav's ARG1-related fibrosis result supplies a matrix premise; Hamanaka's fibroblast arginine work supplies a recipient-context alternative. Li's Atg5 study measures distinct organoid and differentiation endpoints under another perturbation, and the older myeloid Arg1-loss study cautions against universal effects. The [dated primary-source review](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md#published-starting-point) keeps those findings separate. Truchi's public resolution atlas motivates the completed RNA context screen; it is not an ARG1 intervention or independent replication of its own publication.
+
+## Repository observation
+
+The [current GSE234197 result](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md) uses 36 source mice in six age/day captures, with three BLM and three PBS mice per capture. Days are cross-sectional. Source-defined mouse/state log2(CPM+1) RNA is compared as equal-mouse mean BLM minus PBS; cells and repeated genes do not add biological units.
+
+| Fixed family | Estimated / planned | What the support permits |
+|---|---:|---|
+| Source myeloid states | 66 / 180 | Selected state/gene contrasts; missing support remains explicit. |
+| Fibroblasts | 4 / 24 | Only young D14 has full arm support. |
+| AT1/AT2 | 0 / 84 | All epithelial contrasts are unestimated, not null. |
+| Pooled AM_all, secondary | 18 / 18 | Composition-sensitive context, not restored within-state support. |
+
+The full panel has 306 dispositions: 88 estimates and 218 unsupported comparisons. Young-D14 AM1 Arg1 and fibroblast Col1a1/Col3a1/Fn1 differences are positive. BLM AM2/AM3 carry more observed Arg1 RNA than AM1, including after library-size normalization, but their PBS support is insufficient for within-state induction estimates. Young-D60 AM1's positive transformed contrast comes from only **2–5 Arg1 UMIs per BLM mouse**; it does not establish persistent programme activity. These are RNA observations, not ARG1 protein activity, deposited collagen or epithelial output.
+
+The [Speth GSE328925 access record](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_HOLD_V1.md) documents a separate private-source hold checked on 3 November. Its earlier public-alternative nomination is superseded by the completed GSE234197 report; the access hold does not mean no public RNA analysis ran.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: an exploratory source-population lead and a useful support boundary; the joint functional inference is incomplete.** The completion count is not biological narrowing. AM2/AM3 are candidates for observed Arg1-bearing populations under early injury, not validated source-specific ARG1 induction or a source–matrix circuit. Early AM1/fibroblast co-occurrence cannot assign direction or mediation. Sparse late counts cannot establish persistence.
+
+Published narratives and prior outcomes were exposed; the panel and support rule preceded new expression estimates. Highlighting a source label after inspecting the fixed panel does not establish target priority. Shared injury severity, capture, relative recovery, within-label composition and background RNA remain alternatives. Raw age/day differences are capture-confounded, and the same deposited mice do not become independent validation. Nothing here selects a favorable epithelial response or demonstrates random noise.
+
+## What remains unmeasured
+
+Linked source ARG1 exposure, matrix production/deposition and mature epithelial output are missing. The public dataset cannot estimate the intended epithelial comparison and supplies no ARG1 perturbation. AM2/AM3 labels are not automatically another paper's myeloid subtype.
+
+The unchanged registered hypothesis below is a proposal. The rationale assessment
+does not select its mechanism or confer scientific acceptance.
+
+## Current hypothesis and rival
+
+This is perturbation-effect estimation with no invented direction for epithelial
+function. Compare a qualified source-restricted myeloid ARG1 reduction with
+matched source-active control in a non-infectious lung-repair system. Estimate
+absolute lineage-derived mature AT1 output per starting epithelial input and,
+separately, newly produced/deposited collagen in the same biological design.
+Actual source/fibroblast/epithelial donors or animals and their crossing/nesting
+define units. Timing, species/model, mature-function assay and effect margin
+remain unspecified until qualification.
+
+The principal threat is source loss, altered inflammation, direct recipient
+exposure or epithelial/fibroblast selection being mistaken for restored niche
+support or maturation. Those explanations need measurement appropriate to the
+claim; a bounded intervention effect does not automatically identify mediation.
+
+## What the comparison would teach
+
+A qualified source-restricted ARG1 contrast could yield less matrix with higher mature output, or less matrix with poorer output; both are informative joint effects. An imprecise epithelial result leaves uncertainty, not preserved function. Estimating those effects does not automatically identify fibroblast mediation. A narrower source/context description can also be useful without claiming the joint function.
+
+Retain the completed RNA context result and the separate access hold. Reopening the registered comparison requires a source with linked biological units, credible source restriction and suitable matrix/mature-output measurements. Further expression summaries in the same sparsely epithelial atlas cannot supply that missing joint endpoint. A new source or intervention needs its own specific rationale; no old plan restarts automatically.
+
+## Hypothesis schematic
+
+![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+A linked cytosolic callout retains the local ARG1 conversion of arginine to ornithine and urea without asserting metabolite transfer or a complete intercellular mechanism. The myeloid subtype remains unspecified. Fibroblast collagen production/deposition and absolute lineage-derived mature AT1 output are separate proposed effects; the compact AT2-to-AT1 reference does not establish the effect or matrix mediation.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
+
+Both endpoints remain separate. Source restriction, lineage and mature-function qualification precede interpretation. The rejected text-only draft remains in [history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg). Source records stay under Yd1-P02/Wg-P06 and the paper package; [PLAN.md](PLAN.md) retains the eligibility steps.
+
+## Earlier source and development records
+
+The following records preserve dated searches, access limits, outcome exposure,
+earlier interpretations and review blocks. Read current results/amendments above
+before any older plan. Planned queries remain plans; an absent hit never proves
+novelty or global data absence. A newly specified comparison needs its relevant
+source review under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+
+<details>
+<summary>Dated source searches and retained development notes</summary>
+
+
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A32.md).
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Reuse the public GSE234197 compartment screen: 306 contrast dispositions include 88 estimates and 218 unsupported comparisons. Myeloid ARG1 and matrix RNA can be described in supported contexts; epithelial contrasts remain unsupported. Sparse AT1/AT2 sampling leaves all 84 epithelial contrasts unestimated. Linked ARG1 exposure, matrix function and mature epithelial recovery are missing, and the previously checked GSE328925 release remains private. These are distinct limits, not a completed joint-outcome mechanism. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
+2 November 2026, Asia/Seoul. Codex review following the owner's authorization to
+assess and register distinct RQs. Base source revision: main `96e6a8d`.
+Reuses the reviewed Yd1-P02 source/design record of 31 October, with a targeted
+primary-literature refresh today. Published and repository outcomes were already
+exposed. Registration adds no new numerical experiment or novelty certification.
 
 ## Repository observation
 
@@ -44,22 +132,6 @@ estimand concerns a myeloid metabolic source intervention and two linked outcome
 The source-study distinction is insufficient by itself; that changed contrast
 and endpoint relationship is the reason for separate registration.
 
-## Current hypothesis and rival
-
-This is perturbation-effect estimation with no invented direction for epithelial
-function. Compare a qualified source-restricted myeloid ARG1 reduction with
-matched source-active control in a non-infectious lung-repair system. Estimate
-absolute lineage-derived mature AT1 output per starting epithelial input and,
-separately, newly produced/deposited collagen in the same biological design.
-Actual source/fibroblast/epithelial donors or animals and their crossing/nesting
-define units. Timing, species/model, mature-function assay and effect margin
-remain unspecified until qualification.
-
-The principal threat is source loss, altered inflammation, direct recipient
-exposure or epithelial/fibroblast selection being mistaken for restored niche
-support or maturation. Those explanations need measurement appropriate to the
-claim; a bounded intervention effect does not automatically identify mediation.
-
 ## What the comparison would teach
 
 Reduced matrix with improved mature output supports a favorable joint response
@@ -69,18 +141,6 @@ implying preserved function. Source/recipient loss can limit attribution even
 when both outcomes change. RNA, organoid size and proportions cannot substitute
 for lineage and a calibrated mature endpoint. No composite repair score or
 cross-paper correlation is proposed.
-
-## Hypothesis schematic
-
-![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-A linked cytosolic callout retains the local ARG1 conversion of arginine to ornithine and urea without asserting metabolite transfer or a complete intercellular mechanism. The myeloid subtype remains unspecified. Fibroblast collagen production/deposition and absolute lineage-derived mature AT1 output are separate proposed effects; the compact AT2-to-AT1 reference does not establish the effect or matrix mediation.
-
-Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
-
-Both endpoints remain separate. Source restriction, lineage and mature-function qualification precede interpretation. The rejected text-only draft remains in [history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg). Source records stay under Yd1-P02/Wg-P06 and the paper package; [PLAN.md](PLAN.md) retains the eligibility steps.
 
 ## Next literature check
 
@@ -163,3 +223,5 @@ condition contrasts remain unestimated. The late AM1 signal is only 2–5 UMIs
 per BLM mouse, not evidence of a maintained programme. The intended joint
 resolution discriminator therefore remains unanswered; no mechanism or claim
 grade was promoted.
+
+</details>

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "sampling_genes": 1503,
+  "units": 35,
+  "external": {
+    "status": "scored",
+    "animal_count": 25,
+    "input_cells": 5721,
+    "allowed_author_labels": [
+      "AT1",
+      "AT1_AT2",
+      "AT2",
+      "Alveolar_transitional"
+    ],
+    "available_author_labels": [
+      "AF1",
+      "AF2",
+      "AT1",
+      "AT1_AT2",
+      "AT2",
+      "Adventitial_fibroblast",
+      "Alveolar_transitional",
+      "Arterial_endothelium",
+      "B_lymphocyte",
+      "CAP1",
+      "CAP2",
+      "Ciliated",
+      "Krt5",
+      "Lymphatic_endothelium",
+      "Mesothelium",
+      "NK_cell",
+      "Neutrophil",
+      "Peribronchial_fibroblast",
+      "Plasma_cell",
+      "Secretory",
+      "T_lymphocyte",
+      "VSMC",
+      "Venous_endothelium",
+      "aMAC",
+      "cDC1",
+      "cDC2",
+      "cMON",
+      "iMAC",
+      "iMON",
+      "maDC",
+      "nan",
+      "pMON"
+    ],
+    "caution": "external to multiome studies, not untouched held-out data; different injury; no neonatal arm; cell floor decides evaluability"
+  },
+  "group_module_rows": 280,
+  "member_rows": 980,
+  "attempted_module_contrasts": 140,
+  "interpretable_module_contrasts": 34,
+  "parity_scalar_checks": 1960,
+  "max_parity_error": 9.71445146547012e-17,
+  "seeds": [
+    17,
+    29
+  ],
+  "limit": "Fixed panel attribution; pooled libraries and technical seeds are not biological replicates; RNA detection is not maturation, fate or AT1 contribution."
+}

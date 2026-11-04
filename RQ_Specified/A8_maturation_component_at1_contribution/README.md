@@ -1,5 +1,52 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
+## Organizing Biological Q
+
+Does an early epithelial RNA component add information about later mature AT1 contribution, beyond a concurrent transitional-marker description?
+
+Published early/late marker context motivates distinguishing transition from maturation. The repository's three-gene early and four-gene late panels are selected subsets, not complete biological programmes.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A8.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A8: reviewed matte qualitative illustration](schematics/A8_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A8_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The completed exposed-source attribution retains 35 original units: ten pooled multiome libraries and 25 external animals. Of 140 unit/seed/panel contrasts, 34 qualify and 106 remain unsupported. Seeds are technical sensitivity, not independent replicates. The endpoint is the equal-member mean detection difference in percentage points between Cldn4/Krt8-labelled and Sftpc-reference cells at the original 2,000-UMI budget. Contributions are heterogeneous; some late-panel totals change sign across seeds, including the sole external animal eligible at both seeds. Those changes describe a fixed-budget detection measurement, not later AT1 output.
+
+[Current result, design and limits](reports/PANEL_ATTRIBUTION_V1_RESULTS.md).
+
+**Rationale check.** A useful panel/measurement diagnostic rather than selection of a maturation driver. The results limit interpretation of small-panel totals as coordinated maturation. Neither a favorable panel score nor a technically stable member has been validated as an early predictor of later contribution.
+
+## Current interpretation and next decision
+
+The early measurement and later mature output are not linked in the required biological units. Pooled libraries, external animals and repeated technical seeds cannot be pooled as equivalent independent replicates.
+
+Keep every supported and unsupported panel contrast and the technical sign changes. A predictive question needs an eligible early-to-later endpoint link and an explicit fixed component. Improvement on an appropriate earlier-state baseline would support bounded prediction; a signal confined to concurrent markers or technical choices would restrict it. More same-source scoring does not supply the missing later outcome.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
+**Completed full-priority screen, 3 November 2026:** The fixed attribution screen has completed across 35 original units using both original seeds and the full 1,503-gene sampling order. All original panel scores/support reconstruct; only 34 of 140 panel contrasts qualify and all 106 held contrasts remain visible. The selected three-gene early and four-gene late panels are published-marker subsets, not complete programmes. Heterogeneous member contributions and technical sign changes do not predict later AT1 contribution; the required early-to-later biological-unit link remains missing. [Complete result and evidence](reports/PANEL_ATTRIBUTION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,19 +77,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A8: reviewed matte qualitative illustration](schematics/A8_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A8_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -177,3 +212,5 @@ otherwise eligible association design.
    association route, but it cannot establish prospective prediction.
 5. **Do not open A8's endpoint before the component partition is frozen in
    writing.** The partition must not be chosen after seeing an increment.
+
+</details>

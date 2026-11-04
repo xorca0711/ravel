@@ -1,5 +1,50 @@
 # A16: does CD177 identify a priming phenotype within comparable mutant cells?
 
+## Organizing Biological Q
+
+Does CD177 identify a useful prospective epithelial response context, or merely a concurrent transcriptional neighborhood?
+
+A marker can be predictive without being causal. Before interpreting CD177 as intrinsic priming, source identity and the timing of the proposed response must be distinguished from RNA proximity.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A16.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A16: reviewed matte qualitative illustration](schematics/A16_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A16_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+Matching attenuates the fixed four-gene mean log1p(full-library CP10k) score contrast from 1.256 to 0.410 and from 1.332 to 0.315 in the two libraries, while substantial imbalance remains. Independent animal identities, a linked later response and complete exclusion of contamination are not available. This was an amended computation on fully exposed data. Matching uses concurrent RNA coordinates, not an independently measured pre-intervention starting state; the registered hypothesis's historical phrase "starting-state matching" must be read with that limit. Excluding the 660 direct grouping/outcome genes does not eliminate correlated-feature overadjustment, shared normalization or detection-dependent selection. Matching does not convert these libraries into independent animal-level evidence.
+
+[Current result, design and limits](correction_20260928/reports/CORRECTED_C1_REPORT.md).
+
+**Rationale check.** A diagnostic restriction on the marker interpretation. The attenuation shows sensitivity to the measured context but neither proves all of the signal is confounded nor establishes an intrinsic programme. No priming mechanism or later fate prediction has been selected.
+
+## Current interpretation and next decision
+
+Source/protein attribution, qualified biological units and a specified later response remain unlinked. Current marker-positive RNA cannot establish prospective competence.
+
+Keep the matched and unmatched observations together. Independently attributed CD177 status linked to a later response could support a prospective marker claim; loss of that relationship under source/context qualification would restrict it. A causal perturbation claim is a different question and is not required merely to evaluate a marker.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -29,19 +74,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A16: reviewed matte qualitative illustration](schematics/A16_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A16_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -147,3 +180,5 @@ Keep cell thresholds, exposure history and missing biological-unit identities
 explicit. Do not pool libraries to claim independent replication or substitute
 cycling RNA for a measured outcome. Original execution scripts overwrite
 outputs; they must not be replayed over the archived evidence.
+
+</details>

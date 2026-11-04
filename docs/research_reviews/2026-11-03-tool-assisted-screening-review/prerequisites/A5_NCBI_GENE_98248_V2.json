@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gene",
+      "id": "98248",
+      "retmode": "json"
+    },
+    "record_path": "result.98248",
+    "max_items": 30,
+    "max_depth": 4
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result.98248",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uid": "98248",
+      "name": "AA986860",
+      "description": "expressed sequence AA986860",
+      "status": 1,
+      "currentid": 212439,
+      "chromosome": "1",
+      "geneticsource": "genomic",
+      "maplocation": "",
+      "otheraliases": "",
+      "otherdesignations": "",
+      "nomenclaturesymbol": "AA986860",
+      "nomenclaturename": "expressed sequence AA986860",
+      "nomenclaturestatus": "Official",
+      "mim": [],
+      "genomicinfo": [],
+      "geneweight": "",
+      "summary": "",
+      "chrsort": "~~last",
+      "chrstart": 999999999,
+      "organism": {
+        "scientificname": "Mus musculus",
+        "commonname": "house mouse",
+        "taxid": 10090
+      },
+      "locationhist": []
+    },
+    "top_keys": [
+      "uid",
+      "name",
+      "description",
+      "status",
+      "currentid",
+      "chromosome",
+      "geneticsource",
+      "maplocation",
+      "otheraliases",
+      "otherdesignations",
+      "nomenclaturesymbol",
+      "nomenclaturename",
+      "nomenclaturestatus",
+      "mim",
+      "genomicinfo",
+      "geneweight",
+      "summary",
+      "chrsort",
+      "chrstart",
+      "organism",
+      "locationhist"
+    ]
+  }
+}

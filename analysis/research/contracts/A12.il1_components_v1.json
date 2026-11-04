@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.il1_components_v1",
+  "owner": "A12",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the original five IL-1 recipient-index components and five fixed downstream-context transcripts differ within the original paired recipient units?",
+  "decision": "Clarify the measured recipient branches without fitting another predictor or treating ERBB reference work as IL-1 completion.",
+  "strongest_rival": "Tumor/normal selection, reference-label uncertainty, RNA composition and nonspecific inflammatory input can create receptor/feedback RNA patterns without IL-1-specific recipient competence.",
+  "discriminator": "All ten per-gene paired log-CPM differences, exact original five signed index contributions, full-library primitives, and explicit overlap of two added targets with the old response.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_COMPONENT_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A12_TARGET_SOURCE_REVIEW.md",
+    "docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original pilot predictions, unfavorable fibroblast result, source attribution and ERBB reference are exposed. Exact ten feature names and original primary24-row roster were inspected before this freeze; new per-gene counts and differences were not inspected. Source-role map reviewed prospectively.",
+  "biological_unit": "Twelve original patients, each contributing normal and LUAD recipient pseudobulk units for AT2 and alveolar fibroblast candidate labels.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Twenty-four patient/recipient pairs reuse the same twelve patients, not twenty-four donors; both recipients and histologies are nested within patient. Counts pool repeated original libraries.",
+  "population_and_selection": "Exactly original A12_model_inputs rows at uncertainty0.2 and cell_floor50; twelve pairs per recipient and48 distinct recipient units. No new annotations or cohort/floor sensitivity.",
+  "contrast": "Within-patient LUAD-minus-normal, separately for each of the two original candidate recipient labels.",
+  "endpoint": "Per-gene log2(1+CPM) from summed unit counts/full-feature library totals; weighted original-index contributions and individual downstream-context differences.",
+  "methods": "Stream the original hash-matched processed unit-count matrix, verify all48 full-library sums, save480 count/log/weight primitives and240 paired rows, and reconstruct all24 original index values within1e-10. Independent scalar log2 checks; equal-patient means only.",
+  "missingness_and_exclusions": "Any changed roster/support, absent/duplicate feature/unit, invalid count/library or original-index parity failure stops. Preserve label uncertainty, all signs and old unfavorable fibroblast prediction.",
+  "multiplicity": "Ten fixed genes by two recipient labels; all20 summaries and all patient rows retained. No test, ranking, refit, correlation with overlapping response or new signed downstream score.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exposed fixed-component description; no new inferential test, effect margin or power claim. Twelve paired patients supply descriptive units.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "NFKBIA/TNFAIP3 overlap the old response; their agreement is not independent evidence. Feedback-associated RNA is not effective inhibition. No IL-1-specific activation, receptor engagement, protein function or causal competence inference.",
+  "stop_rule": "Stop for hash/feature/roster/full-library/count/index conflict; no relabeling, denominator substitution or floor relaxation.",
+  "inputs": [
+    {
+      "path": "raw_data/A12_COMPONENTS_v1/unc20_pooled_triad_counts.csv.gz",
+      "sha256": "e24fccfa249a52788117bde204bc88f7deb1ce350d2e52c1b92ebc14c08bfc02",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/unc20_pooled_units.csv",
+      "sha256": "288f4c9988b048cad9bc4274aad4ea70a194cec205cdc5cc8c00ce8c69c970f1",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv",
+      "sha256": "6bc36b82c3f30f525a9901ffa5362a83da5d4b5b9e050c34c442557650f368b6",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_results.json",
+      "sha256": "7d157a98e8d585e7691a2c72792f521ff29ef56ac0ba354f4af2763f70544c57",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_COMPONENT_SPEC_V1.md",
+      "sha256": "648aca2ab76bf084a41dca2a3266cbedf2a85d833658464181b5e5c1bc45e9df",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/A12_TARGET_SOURCE_REVIEW.md",
+      "sha256": "b59d057cc5f02f9816b6173745b2586972fd4d6206d6214e1b5fa96a2c7a9874",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/il1_components_v1.py",
+      "sha256": "24a89bd03d162b97cdebc4dfd151347a71e9bd362512277ac04fffc23e1f0e9f"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A12_recipient_context/scripts/il1_components_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "unit_gene_primitives.tsv",
+    "paired_gene_components.tsv",
+    "original_index_parity.tsv",
+    "component_summary.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New component-resolved exposed description of the original IL-1 pilot; original model and ERBB results remain unchanged."
+}

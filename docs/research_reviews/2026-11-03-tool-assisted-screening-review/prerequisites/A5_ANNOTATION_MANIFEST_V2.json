@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-03",
+  "purpose": "source annotation metadata only; no expression or contribution data loaded",
+  "original_genes": 99,
+  "selected_accessions": 131,
+  "annotation_records": 4344,
+  "negated_records": 8,
+  "ND_records": 41,
+  "members_without_positive_draft_category": [
+    "2210011C24Rik",
+    "2310007B03Rik",
+    "9330182L06Rik",
+    "Cdcp1",
+    "Cep170b",
+    "Fam184a",
+    "Gipc2",
+    "Gramd2",
+    "Mal2",
+    "Mfap3l",
+    "Ndnf",
+    "Plekhd1",
+    "Rap1gap",
+    "Rprm",
+    "S100a14",
+    "Scel",
+    "Sec14l4",
+    "Sh2d4a",
+    "Traf1"
+  ],
+  "sources": {
+    "A5_IDENTIFIER_MAP_V2.tsv": "5ef3dda19737de7cbb09314249e0a60cab868378f1b9ce360250f41e3565f9f4",
+    "A5_SELECTED_ANNOTATIONS_V2.json": "f8861b77c4ce3a3905c7aabae97006278a7de33d3dd479d136c110eaea89277b",
+    "A5_GO_ANNOTATIONS_V2.json": "b57582aca55de9ad81c43198f5b193f2717c0d19f8f12280f5d3493de6a37d30",
+    "A5_GO_ROLE_ROOTS_V2.json": "47efd6998673430fbb4d59a4f8a88d0a6c8d6467178c48c8dc958f56848708c4",
+    "A5_GO_ANCESTRY_V2.json": "7a3e172ea853c8daa7443be4e6ad9c5bb50f55144e07e01464c837e4ac9fdd75",
+    "A5_GO_ANCESTRY_ADDITIONS_V2.json": "6abe57eecf91d35372a8c948ec92d8f52ef39475e44388a6ed5cc0b3035831ab"
+  },
+  "outputs": {
+    "A5_GO_EVIDENCE_ROWS_V2.tsv": "7d99963855d7e6ff35bd7742be527f83fd00dc09c049e84cf0a25c75dd2992e2",
+    "A5_MEMBER_ANNOTATION_V2.tsv": "e75b03015f6094717fcc76f81b2dad796e48fc8e1a2331dd6e25937ace444e00"
+  }
+}

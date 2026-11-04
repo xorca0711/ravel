@@ -1,0 +1,39 @@
+{
+  "source_path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115504/suppl/GSE115504_memory_averaged.cpm.table.tsv.gz",
+  "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+  "source_row_count": 23420,
+  "identifier_column": "ORF",
+  "mapping": [
+    {
+      "display_symbol": "STAT6",
+      "source_row_id": "Stat6",
+      "occurrences": 1
+    },
+    {
+      "display_symbol": "EGR2",
+      "source_row_id": "Egr2",
+      "occurrences": 1
+    },
+    {
+      "display_symbol": "PPARG",
+      "source_row_id": "Pparg",
+      "occurrences": 1
+    },
+    {
+      "display_symbol": "RXRA",
+      "source_row_id": "Rxra",
+      "occurrences": 1
+    },
+    {
+      "display_symbol": "IRF4",
+      "source_row_id": "Irf4",
+      "occurrences": 1
+    },
+    {
+      "display_symbol": "ARG1",
+      "source_row_id": "Arg1",
+      "occurrences": 1
+    }
+  ]
+}

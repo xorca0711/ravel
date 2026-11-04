@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-03",
+  "query": "organism_id:10090 AND (gene_exact:Mab21l4 OR gene_exact:Sarg)",
+  "count": 2,
+  "mapping_authority": {
+    "2310007B03Rik": {
+      "NCBI_Gene": "71874",
+      "current_symbol": "Mab21l4"
+    },
+    "AA986860": {
+      "NCBI_Gene": "212439",
+      "explicit_alias": "Sarg",
+      "retired_GeneID": "98248"
+    }
+  }
+}

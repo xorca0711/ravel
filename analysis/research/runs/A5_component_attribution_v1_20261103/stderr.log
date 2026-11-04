@@ -1,0 +1,4 @@
+C:\Users\dream\.codex\worktrees\macrophage-memory-review-20261029\ravel\RQ_Specified\A5_developmental_programme_reuse\scripts\component_attribution_v1.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  chosen[targets]=x[:,indices].T
+C:\Users\dream\.codex\worktrees\macrophage-memory-review-20261029\ravel\RQ_Specified\A5_developmental_programme_reuse\scripts\component_attribution_v1.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  chosen[targets]=x[:,indices].T

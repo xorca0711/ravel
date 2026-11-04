@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "source_manifest": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A27\\source_manifest.json",
+  "compressed_sha256": "d731c4208a61de12675f48375b2d37083fa401f790b6574482f58b233de0ae83",
+  "uncompressed_sha256": "b5fe95c1fa7e00552ab8c162c7fc058834c9b243755e1b25a0fc56d8e1675301",
+  "uncompressed_bytes": 249556523,
+  "crc32": 1658680618,
+  "source_records": 663853,
+  "selected_IGT": "IGT29",
+  "selected_records": 12743,
+  "selected_path": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A27\\A27_IGT29_RECEPTOR_METADATA_V1.tsv",
+  "selected_sha256": "4176b597669aae7e82386ba5457eda71696828e7dc29a27db7100a36792cd6ef",
+  "metadata_identifier_example": {
+    "IGT.ID": "IGT29",
+    "sample.name": "12m Male",
+    "IGTHT": "I29H5",
+    "IGT.cellID": "IGT29.AAACCTGAGACTTGAA",
+    "level1": "CD4",
+    "level2": "CD4.G"
+  },
+  "scope": "source identity/filter only; all chain/functionality fields retained; no clone-concentration endpoint calculated"
+}

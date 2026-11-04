@@ -17,18 +17,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The twelve-triad pilot using a fibroblast TGF hallmark and epithelial HPCS proxy worsened RMSE; all models performed poorly against baseline. It did not test feedback or establish that every fibroblast niche programme is uninformative.
+The exposed 12-patient paired-triad extension adds the fibroblast TGF-hallmark RNA proxy to macrophage IL1B, mixture and TNF predictors of the epithelial HPCS RNA proxy. Primary held-out MSE worsens by 0.004181 despite smaller individual errors in eight patients; every eligible prespecified sensitivity also worsens. This is an unfavorable predictive result and selects no mediator. Source capture and cohort coverage constrain the replication question. The failed predictor is a specific operational test rather than a comprehensive assay of fibroblast biology. The compartment rule was explicitly amended from the historical gate, and the specification followed prior outcome and A12-result exposure; it is not independent evidence or an execution of the old test.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md](README.md)
-- [RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md](reports/COVERAGE_RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Paired-triad prediction and external coverage](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) · [Separate historical coverage audit](reports/COVERAGE_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Name a fibroblast output and a distinct epithelial recovery endpoint before proposing an added route. The unfavourable incremental proxy result stays visible; the literature supplies candidate reasoning, not evidence for an unnamed mediator.
+Useful unfavorable prediction result. It restricts this proxy extension and does not establish absence of all fibroblast contributions. Replacing it with another generic pathway score would require a new biological rationale, not merely an opportunity to obtain a positive result.
+
+A specific source product and an independently measured epithelial consequence remain unnominated. The assigned macrophage term does not establish all active IL1B input or exhaust other cell sources.
 
 ## Current hypothesis and rival
 
@@ -38,7 +35,7 @@ Fibroblast output may alter epithelial recovery beyond the effect of macrophage 
 
 ## What the comparison would teach
 
-A source-directed change in a nominated product linked to a separately validated epithelial recovery endpoint could support the additional niche route. Effects explained only by fibroblast depletion or shared inflammation leave activity-specific attribution unresolved. The negative proxy pilot must not be relabeled a mediator discovery.
+Retain the unfavorable operational result. A future extension should follow a specific published or measured source-product premise and a consequence that could distinguish it. Evidence beyond the current proxy could advance that bounded question; another association in the same score family would not by itself identify feedback.
 
 ## Hypothesis schematic
 

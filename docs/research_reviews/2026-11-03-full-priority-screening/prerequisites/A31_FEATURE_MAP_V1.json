@@ -1,0 +1,222 @@
+{
+  "inspected_date": "2026-11-03",
+  "inspection": "raw/var identifiers only; raw/X values not read",
+  "mapping": [
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "GRIA1",
+      "occurrences": 1,
+      "feature_id": "ENSG00000155511",
+      "feature_index": 7267
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "GRIA2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000120251",
+      "feature_index": 9244
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "GRIA3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000125675",
+      "feature_index": 10771
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "GRIA4",
+      "occurrences": 1,
+      "feature_id": "ENSG00000152578",
+      "feature_index": 38106
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "CNIH2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000174871",
+      "feature_index": 47785
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "CNIH3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000143786",
+      "feature_index": 25259
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "CACNG2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000166862",
+      "feature_index": 16122
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "CACNG3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000006116",
+      "feature_index": 14841
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "source_sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "gene": "CACNG8",
+      "occurrences": 1,
+      "feature_id": "ENSG00000142408",
+      "feature_index": 39238
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "GRIA1",
+      "occurrences": 1,
+      "feature_id": "ENSG00000155511",
+      "feature_index": 11468
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "GRIA2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000120251",
+      "feature_index": 2427
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "GRIA3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000125675",
+      "feature_index": 24525
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "GRIA4",
+      "occurrences": 1,
+      "feature_id": "ENSG00000152578",
+      "feature_index": 9525
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "CNIH2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000174871",
+      "feature_index": 9122
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "CNIH3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000143786",
+      "feature_index": 9751
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "CACNG2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000166862",
+      "feature_index": 3190
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "CACNG3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000006116",
+      "feature_index": 14108
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "source_sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "gene": "CACNG8",
+      "occurrences": 1,
+      "feature_id": "ENSG00000142408",
+      "feature_index": 3667
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "GRIA1",
+      "occurrences": 1,
+      "feature_id": "ENSG00000155511",
+      "feature_index": 9484
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "GRIA2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000120251",
+      "feature_index": 8006
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "GRIA3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000125675",
+      "feature_index": 13625
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "GRIA4",
+      "occurrences": 1,
+      "feature_id": "ENSG00000152578",
+      "feature_index": 17844
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "CNIH2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000174871",
+      "feature_index": 17403
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "CNIH3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000143786",
+      "feature_index": 2775
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "CACNG2",
+      "occurrences": 1,
+      "feature_id": "ENSG00000166862",
+      "feature_index": 31547
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "CACNG3",
+      "occurrences": 1,
+      "feature_id": "ENSG00000006116",
+      "feature_index": 24698
+    },
+    {
+      "source": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "source_sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "gene": "CACNG8",
+      "occurrences": 1,
+      "feature_id": "ENSG00000142408",
+      "feature_index": 30719
+    }
+  ]
+}

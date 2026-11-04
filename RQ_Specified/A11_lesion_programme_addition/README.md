@@ -1,5 +1,52 @@
 # A11: lesion-associated programme beyond shared plasticity
 
+## Organizing Biological Q
+
+Does the fixed lesion-associated RNA component add distinct information beyond specified shared developmental, injury and stress features?
+
+Published plasticity and regenerative/stress programmes make shared biology a serious rival to lesion specificity. Association with lesions and incremental information beyond those features are separate questions.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A11.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A11: reviewed matte qualitative illustration](schematics/A11_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A11_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The eight-patient lesion association is supported, while the original beyond-shared criterion remains unresolved (q=0.0547). A later paired model lowers mean log loss from 0.226980 to 0.191987 nats after adding the fixed component. Duplicating an existing p53 feature lowers it to 0.190882 without adding information. That control is a model diagnostic, not another biological cohort.
+
+The follow-up and capacity amendment are outcome-exposed reuse of the same eight patients. Training excludes the held-out patient, but this does not make the earlier feature-discovery history untouched. Both original models already order all eight pairs correctly: the gain concerns confidence/log loss, not newly correct pair ordering. Normal-AT2 versus author tumour-epithelial composition remains an alternative.
+
+[Current result, design and limits](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md#a11-lower-log-loss-does-not-establish-distinct-residual-information).
+
+**Rationale check.** Supported association with an unfavorable information diagnostic. The apparent increment cannot establish a distinct lesion programme because altered regularization geometry can produce comparable improvement without new information. This corrects the narrowing rationale; it does not prove that p53 explains lesion biology.
+
+## Current interpretation and next decision
+
+Distinct lesion-context information and a functional mediator remain unresolved. The fixed shared/stress comparisons do not exhaust all plasticity, composition or measurement explanations.
+
+Keep the association and adverse capacity control together. A future information comparison needs a justified baseline and matched model capacity with outcome exposure retained. A gain persisting under that design could support bounded incremental information; gain reproduced by capacity controls would not. No new component or mechanism is selected here.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -29,19 +76,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A11: reviewed matte qualitative illustration](schematics/A11_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A11_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -148,3 +183,5 @@ launcher with `scripts/03_prepare_kim.py --data-root DATA_ROOT`, then
 `Rscript scripts/04_score_kim.R REPO_ROOT DATA_ROOT`. These scripts refuse to
 overwrite results. The Python step verifies all original Kim input hashes and
 requires the successful discovery reproduction before reading counts for scoring.
+
+</details>

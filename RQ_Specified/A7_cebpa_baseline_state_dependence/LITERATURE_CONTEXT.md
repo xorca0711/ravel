@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A7.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** The completed CEBPA/AP1 conditional screens retain pooled-well and gating sensitivities; a post-treatment identity gate is not the starting epithelial state. A baseline-state-by-perturbation contrast needs baseline-linked units. Current pooled post-treatment samples cannot identify that interaction, so no replacement state score is added. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point
@@ -17,20 +21,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The relevant record is ES1 epithelial-state specificity using the CEBPA source, not the England mutant-clone paper. The shared ES1 resource has six CEBPA-source and four separate AP-1-source condition wells. These support conditional, label-sensitive descriptions; cells and pooled wells do not supply a replicated genotype-by-state interaction at animal level.
+ES1 measures context-dependent label-versus-reference RNA-panel detection at 2,000 UMIs per retained cell. The Cldn4/Krt8 call and Sftpc-conditioned reference are defined after treatment; the label-free ADI contrast differs across contexts, rather than testing an independently manipulated reference or starting state. Six CEBPA-condition wells and four separate AP-1 wells are pooled libraries, not a replicated starting-state interaction. Technical seeds and reusing these outcomes add no independent biological replication.
 
-
-Exact current result locators:
-
-- [Research Article/epithelial_state_specificity/README.md](../../Research%20Article/epithelial_state_specificity/README.md)
-- [Research Article/epithelial_state_specificity/results/SUMMARY.md](../../Research%20Article/epithelial_state_specificity/results/SUMMARY.md)
-- [docs/research_dossiers/qualification_2026-10-03/RESULTS.md](../../docs/research_dossiers/qualification_2026-10-03/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/METADATA.md](../../docs/research_dossiers/followup_2026-10-03/METADATA.md)
+[Current result, design and limits](../../Research%20Article/epithelial_state_specificity/results/SUMMARY.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Determine whether an independently defined starting state modifies a qualified CEBPA contrast. Defining the state after perturbation could instead select survivors or relabel the outcome; pooled units and separate AP-1 sources remain distinct.
+Useful measurement and design correction. The evidence has not selected a selectively vulnerable starting population or demonstrated that initial competence determines response. The distinction is worth testing, but it was not established by the reference-dependent RNA pattern.
+
+Qualified pre-intervention state and independent preparation information remain missing for the interaction question. Separate perturbation series do not supply a factorial comparison by proximity.
 
 ## Current hypothesis and rival
 
@@ -40,7 +39,7 @@ CEBPA loss attenuates alveolar identity across AT2 states; the additional candid
 
 ## What the comparison would teach
 
-Estimate broad attenuation and the additional baseline-state interaction separately. A consistent interaction supports state dependence; precise similarity would weaken it. A nonsignificant interaction is not equivalence, and differential survival can mimic selective loss.
+Keep the conditional panel contrasts and reference-selection limitation as results. A future state-dependent effect comparison needs a defensible starting-state measurement and units appropriate to that question. A reproducible interaction would support state dependence; an effect explained by a changed reference would limit it. No additional post-treatment relabelling can recover the missing starting history.
 
 ## Hypothesis schematic
 

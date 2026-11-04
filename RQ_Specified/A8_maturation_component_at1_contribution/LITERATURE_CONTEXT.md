@@ -1,5 +1,7 @@
 # A8: literature context and hypothesis schematic
 
+**Completed full-priority screen, 3 November 2026:** The fixed attribution screen has completed across 35 original units using both original seeds and the full 1,503-gene sampling order. All original panel scores/support reconstruct; only 34 of 140 panel contrasts qualify and all 106 held contrasts remain visible. The selected three-gene early and four-gene late panels are published-marker subsets, not complete programmes. Heterogeneous member contributions and technical sign changes do not predict later AT1 contribution; the required early-to-later biological-unit link remains missing. [Complete result and evidence](reports/PANEL_ATTRIBUTION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A8.md).
 
 **External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal source has molecular and later functional figures, but no early-to-later biological-unit join was located in the inspected deposits. It cannot validate this question's maturation-to-AT1 relationship. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
@@ -22,19 +24,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The 119-gene overlap analysis is a measurement diagnostic, not a fate test. Nb4 also shows that MYRF expression is not specific to AT1 because mesothelium expresses it.
+The completed exposed-source attribution retains 35 original units: ten pooled multiome libraries and 25 external animals. Of 140 unit/seed/panel contrasts, 34 qualify and 106 remain unsupported. Seeds are technical sensitivity, not independent replicates. The endpoint is the equal-member mean detection difference in percentage points between Cldn4/Krt8-labelled and Sftpc-reference cells at the original 2,000-UMI budget. Contributions are heterogeneous; some late-panel totals change sign across seeds, including the sole external animal eligible at both seeds. Those changes describe a fixed-budget detection measurement, not later AT1 output.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A8_maturation_component_at1_contribution/README.md](README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/OUTCOMES.md](../../docs/research_dossiers/followup_2026-10-03/OUTCOMES.md)
-- [docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md](../../docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md)
+[Current result, design and limits](reports/PANEL_ATTRIBUTION_V1_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Test whether a frozen early component adds information about independent later mature AT1 output beyond shared baseline information. That would be useful predictive evidence even without establishing a fate-control mechanism.
+A useful panel/measurement diagnostic rather than selection of a maturation driver. The results limit interpretation of small-panel totals as coordinated maturation. Neither a favorable panel score nor a technically stable member has been validated as an early predictor of later contribution.
+
+The early measurement and later mature output are not linked in the required biological units. Pooled libraries, external animals and repeated technical seeds cannot be pooled as equivalent independent replicates.
 
 ## Current hypothesis and rival
 
@@ -44,7 +42,7 @@ An early, frozen maturation-associated RNA component may identify AT2 descendant
 
 ## What the comparison would teach
 
-Improved prediction of later mature output on held-out biological units supports the component as an early indicator. No stable increment weakens it. Identity, lineage and function require independent endpoints; contemporaneous RNA or MYRF expression cannot substitute for mature AT1 contribution.
+Keep every supported and unsupported panel contrast and the technical sign changes. A predictive question needs an eligible early-to-later endpoint link and an explicit fixed component. Improvement on an appropriate earlier-state baseline would support bounded prediction; a signal confined to concurrent markers or technical choices would restrict it. More same-source scoring does not supply the missing later outcome.
 
 ## Hypothesis schematic
 

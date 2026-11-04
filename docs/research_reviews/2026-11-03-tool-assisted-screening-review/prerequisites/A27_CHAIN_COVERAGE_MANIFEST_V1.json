@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "scope": "source eligibility/selection coverage, no cross-cell clone assignment or concentration",
+  "inputs": {
+    "receptor_subset_sha256": "4176b597669aae7e82386ba5457eda71696828e7dc29a27db7100a36792cd6ef",
+    "joined_metadata_sha256": "51d1fa052bd86199568a971c43a3d16a472a6b0e639d2dfe8d7370f1e49775e6"
+  },
+  "union_cells": 13332,
+  "gex_cells": 12978,
+  "receptor_only_unlabelled_cells": 354,
+  "CD8_GEX_totals": {
+    "gex_cells": 6293,
+    "receptor_present": 6075,
+    "single_pair_eligible": 3252,
+    "complete_set_eligible": 3792,
+    "productive_incomplete": 3,
+    "nonstandard": 23,
+    "alpha_only": 300,
+    "beta_only": 1933,
+    "no_productive": 40,
+    "multiple_alpha_slots": 383,
+    "multiple_beta_slots": 292,
+    "ambiguous_productive_vj": 1481,
+    "unproductive_present": 1174,
+    "duplicate_productive_slot_record": 0
+  },
+  "CD8_source_state_count": 20,
+  "flags_overlap": "Flags overlap; source_chain_category is a mutually exclusive ordered disposition. No-productivity means no source-annotated productive slot, not absence of a biological receptor.",
+  "complete_productive_slot_rule": "functionality exactly productive; nonempty ACGT nucleotide junction; nonempty matching TRA/TRB V and J call tokens. Pipe-delimited source ambiguity retained as sorted call sets, not resolved.",
+  "eligibility": "Single: exactly one productive alpha and beta slot, complete. Set: >=1 complete productive slot of each lineage. Both exclude any incomplete productive slot or nonstandard functionality; explicit nonproductive/empty/no-result secondary slots do not imply known biological absence.",
+  "duplicates": "Within-cell duplicate slot records identified only as a coverage flag; no cross-cell receptor keys or frequencies generated.",
+  "output_sha256": {
+    "A27_CELL_CHAIN_COVERAGE_V1.tsv": "e6f40ef1be2b1c034eb1122190b42deae14a7e5e88d620ea651c20548ff3c4c3",
+    "A27_MOUSE_STATE_CHAIN_COVERAGE_V1.tsv": "8bc6f63f2287ad720b33c886781bd3e6055cdde5f4c1dac52a01a0381edbec70",
+    "A27_CD8_MOUSE_CHAIN_COVERAGE_V1.tsv": "7b32a47236fa70f46e2cbaeb00ae4362c6a2684caf5a1265f34bad0dc01fcce7"
+  }
+}

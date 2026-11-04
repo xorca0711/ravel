@@ -4,7 +4,7 @@
 
 **7 October refresh:** [current comparison and targeted primary-source review](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/LITERATURE.md), with [executed results and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md). The fixed genes remain unchanged; no novelty or untouched validation claim is made.
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -19,20 +19,17 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Lesion association replicated across eight patients, but the beyond-shared test remained unresolved at q = 0.0547. The three-donor acute-injury comparison did not establish injury specificity.
+The eight-patient lesion association is supported, while the original beyond-shared criterion remains unresolved (q=0.0547). A later paired model lowers mean log loss from 0.226980 to 0.191987 nats after adding the fixed component. Duplicating an existing p53 feature lowers it to 0.190882 without adding information. That control is a model diagnostic, not another biological cohort.
 
+The follow-up and capacity amendment are outcome-exposed reuse of the same eight patients. Training excludes the held-out patient, but this does not make the earlier feature-discovery history untouched. Both original models already order all eight pairs correctly: the gain concerns confidence/log loss, not newly correct pair ordering. Normal-AT2 versus author tumour-epithelial composition remains an alternative.
 
-Exact current result locators:
-
-- [RQ_Specified/A11_lesion_programme_addition/README.md](README.md)
-- [RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md)
-- [RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md](reports/ACUTE_INJURY_RESULTS.md)
-- [docs/research_dossiers/qualification_2026-10-03/A11_PRECEDENTS.md](../../docs/research_dossiers/qualification_2026-10-03/A11_PRECEDENTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Current result, design and limits](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md#a11-lower-log-loss-does-not-establish-distinct-residual-information). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A11 initially asks what a fixed disjoint residual measures beyond the shared component. Useful replication or incremental information would not create a new cell state; worthwhile biological novelty remains provisional.
+Supported association with an unfavorable information diagnostic. The apparent increment cannot establish a distinct lesion programme because altered regularization geometry can produce comparable improvement without new information. This corrects the narrowing rationale; it does not prove that p53 explains lesion biology.
+
+Distinct lesion-context information and a functional mediator remain unresolved. The fixed shared/stress comparisons do not exhaust all plasticity, composition or measurement explanations.
 
 ## Current hypothesis and rival
 
@@ -42,7 +39,7 @@ The frozen lesion-associated residual component may contain reproducible lesion-
 
 ## What the comparison would teach
 
-A stable patient-level increment against the frozen shared/stress comparison could support measurement utility. Comparable recruitment in matched non-neoplastic injury or no increment favors shared plasticity. Preserve the beyond-shared BH q=0.0547 result; this comparison cannot establish causal lesion specificity.
+Keep the association and adverse capacity control together. A future information comparison needs a justified baseline and matched model capacity with outcome exposure retained. A gain persisting under that design could support bounded incremental information; gain reproduced by capacity controls would not. No new component or mechanism is selected here.
 
 ## Hypothesis schematic
 

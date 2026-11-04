@@ -1,0 +1,10 @@
+# These exact files are bound to their Windows execution bytes in frozen contracts.
+# Keep the existing LF Git blobs; materialize the recorded CRLF bytes on all hosts.
+/A3_FEATURE_MAP_V1.json text eol=crlf
+/A5_ROLE_TABLE_V1.tsv text eol=crlf
+/A5_ROLE_SOURCES_V1.json text eol=crlf
+/A12_FEATURE_MAP_V1.json text eol=crlf
+/A31_FEATURE_MAP_V1.json text eol=crlf
+/A9_INPUT_MAP_V1.json text eol=crlf
+/A8_INPUT_MAP_V1.json text eol=crlf
+/A27_INPUT_MAP_V1.json text eol=crlf

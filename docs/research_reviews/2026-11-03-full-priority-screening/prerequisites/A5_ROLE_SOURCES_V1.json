@@ -1,0 +1,1082 @@
+{
+  "retrieved_date": "2026-11-03 Asia/Seoul",
+  "source": "UniProt REST through installed uniprot_tools.py; count returned18 before search(limit18)",
+  "query": "(organism_id:10090) AND (reviewed:true) AND (gene_exact:Rbpjl OR gene_exact:Tfcp2l1 OR gene_exact:Cecr2 OR gene_exact:Esrp1 OR gene_exact:Zfp462 OR gene_exact:Eya2 OR gene_exact:Egfr OR gene_exact:Erbb3 OR gene_exact:Fzd5 OR gene_exact:Areg OR gene_exact:Shh OR gene_exact:Aqp5 OR gene_exact:Scnn1b OR gene_exact:Scnn1g OR gene_exact:Slc26a9 OR gene_exact:Col4a3 OR gene_exact:Col4a4 OR gene_exact:Col4a5)",
+  "raw_path": "raw_data/full_priority_20261103/a5_uniprot_reviewed_18.json",
+  "raw_sha256": "ca73022fa3c5545844d0e0f354c55f4b5bdf4387cf3f37fab8345f31768e256e",
+  "scope": "18 prespecified candidate members only; 81 other members retained with explicit unreviewed role, no absence-of-function claim",
+  "records": [
+    {
+      "frozen_gene": "Aqp5",
+      "accession": "Q9WTY4",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:106215"
+              }
+            ],
+            "value": "Aqp5"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2000-05-30",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1999-11-01",
+        "entryVersion": 163,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P55064"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10400615"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10619865"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12042359"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16571723"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18027168"
+                }
+              ],
+              "value": "Aquaporins form homotetrameric transmembrane channels, with each monomer independently mediating water transport across the plasma membrane along its osmotic gradient (By similarity). Plays an important role in fluid secretion in salivary glands (PubMed:10400615, PubMed:16571723, PubMed:18027168). Required for TRPV4 activation by hypotonicity. Together with TRPV4, controls regulatory volume decrease in salivary epithelial cells (PubMed:16571723). Seems to play a redundant role in water transport in the eye, lung and in sweat glands (PubMed:10619865, PubMed:12042359, PubMed:18027168)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Areg",
+      "accession": "P31955",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Areg"
+          },
+          "synonyms": [
+            {
+              "value": "Sdgf"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "1993-07-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1993-07-01",
+        "entryVersion": 184,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "value": "Ligand of the EGF receptor/EGFR. Autocrine growth factor as well as a mitogen for a broad range of target cells including astrocytes, Schwann cells and fibroblasts"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Cecr2",
+      "accession": "E9Q2Z1",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:1923799"
+              }
+            ],
+            "value": "Cecr2"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "14621295"
+                }
+              ],
+              "value": "Kiaa1740"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2017-10-25",
+        "lastAnnotationUpdateDate": "2026-01-28",
+        "lastSequenceUpdateDate": "2011-04-05",
+        "entryVersion": 99,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9BXF3"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15640247"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20589882"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21246654"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22154806"
+                }
+              ],
+              "value": "Regulatory subunit of the ATP-dependent CERF-1 and CERF-5 ISWI chromatin remodeling complexes, which form ordered nucleosome arrays on chromatin and facilitate access to DNA during DNA-templated processes such as DNA replication, transcription, and repair (By similarity). The complexes do not have the ability to slide mononucleosomes to the center of a DNA template (By similarity). The CERF-1 ISWI chromatin remodeling complex has a lower ATP hydrolysis rate than the CERF-5 ISWI chromatin remodeling complex (By similarity). Plays a role in various processes during development: required during embryogenesis for neural tube closure and inner ear development (PubMed:15640247, PubMed:20589882, PubMed:21246654). In adults, required for spermatogenesis, via the formation of ISWI-type chromatin complexes (PubMed:22154806). In histone-modifying complexes, CECR2 recognizes and binds acylated histones: binds histones that are acetylated and/or butyrylated (By similarity). May also be involved through its interaction with LRPPRC in the integration of cytoskeletal network with vesicular trafficking, nucleocytosolic shuttling, transcription, chromosome remodeling and cytokinesis (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Col4a3",
+      "accession": "Q9QZS0",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:104688"
+              }
+            ],
+            "value": "Col4a3"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2007-03-06",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2007-03-06",
+        "entryVersion": 174,
+        "sequenceVersion": 2
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q01955"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7962065"
+                }
+              ],
+              "value": "Type IV collagen is the major structural component of glomerular basement membranes (GBM), forming a 'chicken-wire' meshwork together with laminins, proteoglycans and entactin/nidogen"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q01955"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12842087"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7962065"
+                }
+              ],
+              "value": "Tumstatin, a cleavage fragment corresponding to the collagen alpha 3(IV) NC1 domain, possesses both anti-angiogenic and anti-tumor cell activity; these two anti-tumor properties may be regulated via RGD-independent ITGB3-mediated mechanisms"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Col4a4",
+      "accession": "Q9QZR9",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:104687"
+              }
+            ],
+            "value": "Col4a4"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2007-04-17",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2000-05-01",
+        "entryVersion": 169,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P53420"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10639489"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7962065"
+                }
+              ],
+              "value": "Type IV collagen is the major structural component of glomerular basement membranes (GBM), forming a 'chicken-wire' meshwork together with laminins, proteoglycans and entactin/nidogen"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Col4a5",
+      "accession": "Q63ZW6",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Col4a5"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2026-01-28",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2004-10-25",
+        "entryVersion": 187,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "value": "Type IV collagen is the major structural component of glomerular basement membranes (GBM), forming a 'chicken-wire' meshwork together with laminins, proteoglycans and entactin/nidogen"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Egfr",
+      "accession": "Q01279",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:95294"
+              }
+            ],
+            "value": "Egfr"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "1996-02-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1996-02-01",
+        "entryVersion": 253,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P00533"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10953014"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20639532"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "35131940"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8404850"
+                }
+              ],
+              "value": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10953014, PubMed:8404850). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (By similarity). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues (By similarity). The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades (By similarity). Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (By similarity). May also activate the NF-kappa-B signaling cascade (By similarity). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (By similarity). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (By similarity). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (By similarity). Acts as a positive regulator of cGAS-STING signaling by mediating tyrosine phosphorylation of STING1, promoting production of type I interferon (IFN-alpha and IFN-beta), while inhibiting STING1 ability to regulate autophagy (By similarity). Plays a role in enhancing learning and memory performance (PubMed:20639532). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (PubMed:35131940)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Erbb3",
+      "accession": "Q61526",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Erbb3"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "1998-12-15",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2005-10-11",
+        "entryVersion": 203,
+        "sequenceVersion": 2
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P21860"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19019207"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9338783"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9362461"
+                }
+              ],
+              "value": "Tyrosine kinase receptor that, despite substitutions of key catalytic residues in the kinase domain, retains residual catalytic activity enabling autophosphorylation. Functions primarily as a heterodimer, preferentially partnering with ERBB2/HER2, which phosphorylates ERBB3 on specific tyrosine residues and provides the kinase activity required for downstream signaling. Binds neuregulins NRG1 and NRG2 through its extracellular domain, which induces conformational change from a tethered autoinhibited state to an extended conformation competent for dimerization. Upon heterodimerization and trans-phosphorylation, acts as the most efficient activator of the PI3K/AKT pathway within the ErbB family. Also activates the RAS/MAPK/ERK cascade to promote cell proliferation (By similarity). Plays an essential role in cardiac development; required for normal formation of the endocardial cushion and ventricular trabeculation during embryogenesis (PubMed:9362461). Critical for peripheral nervous system development, where neuregulin-1/ERBB3 signaling drives Schwann cell survival, proliferation, and differentiation, and is required for axonal myelination (PubMed:9338783). Involved in epithelial morphogenesis and mammary gland development (PubMed:19019207). Also involved in the regulation of myeloid cell differentiation. Participates in a regulatory feedback loop whereby pathway activation induces transcriptional up-regulation of ERBB3 expression. Participates in vesicular sorting by stabilizing the ARF6-GGA3-RABEP1 endosomal sorting complex, to promote early recycling of TFRC and ITGB1. May also be activated by additional ligands including CSPG5 and EGFL6; the latter triggers assembly of an ERBB2/ERBB3/ITGB3 signaling complex leading to ERK phosphorylation and cell proliferation (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Esrp1",
+      "accession": "Q3US41",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Esrp1"
+          },
+          "synonyms": [
+            {
+              "value": "Rbm35a"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2007-01-23",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2009-05-05",
+        "entryVersion": 137,
+        "sequenceVersion": 2
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q6NXG1"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "29107558"
+                }
+              ],
+              "value": "mRNA splicing factor that regulates the formation of epithelial cell-specific isoforms. Specifically regulates the expression of FGFR2-IIIb, an epithelial cell-specific isoform of FGFR2. Also regulates the splicing of CD44, CTNND1, ENAH, 3 transcripts that undergo changes in splicing during the epithelial-to-mesenchymal transition (EMT). Acts by directly binding specific sequences in mRNAs. Binds the GU-rich sequence motifs in the ISE/ISS-3, a cis-element regulatory region present in the mRNA of FGFR2 (By similarity). Regulates splicing and expression of genes involved in inner ear development, auditory hair cell differentiation, and cell fate specification in the cochlear epithelium (PubMed:29107558)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Eya2",
+      "accession": "O08575",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Eya2"
+          },
+          "synonyms": [
+            {
+              "value": "Eab1"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "1998-07-15",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1997-07-01",
+        "entryVersion": 188,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "O00167"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10490620"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17098221"
+                }
+              ],
+              "value": "Functions both as protein phosphatase and as transcriptional coactivator for SIX1, and probably also for SIX2, SIX4 and SIX5 (PubMed:10490620, PubMed:17098221). Tyrosine phosphatase that dephosphorylates 'Tyr-142' of histone H2AX (H2AXY142ph) and promotes efficient DNA repair via the recruitment of DNA repair complexes containing MDC1. 'Tyr-142' phosphorylation of histone H2AX plays a central role in DNA repair and acts as a mark that distinguishes between apoptotic and repair responses to genotoxic stress. Its function as histone phosphatase may contribute to its function in transcription regulation during organogenesis (By similarity). Plays an important role in hypaxial muscle development together with SIX1 and DACH2; in this it is functionally redundant with EYA1 (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Fzd5",
+      "accession": "Q9EQD0",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Fzd5"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2001-12-05",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2012-10-03",
+        "entryVersion": 199,
+        "sequenceVersion": 3
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q13467"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11092808"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18230341"
+                }
+              ],
+              "value": "Receptor for Wnt proteins (PubMed:11092808, PubMed:18230341). Functions in the canonical Wnt/beta-catenin signaling pathway (PubMed:18230341). In vitro activates WNT2, WNT10B, WNT5A, but not WNT2B or WNT4 signaling (PubMed:11092808). In neurons, activation by WNT7A promotes formation of synapses (By similarity). May be involved in transduction and intercellular transmission of polarity information during tissue morphogenesis and/or in differentiated tissues (Probable). Plays a role in yolk sac angiogenesis and in placental vascularization (PubMed:11092808). Plays a role in ocular development (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Rbpjl",
+      "accession": "O08674",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Rbpjl"
+          },
+          "synonyms": [
+            {
+              "value": "Rbpl"
+            },
+            {
+              "value": "Rbpsuhl"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2002-11-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1997-07-01",
+        "entryVersion": 173,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "value": "Putative transcription factor, which cooperates with EBNA2 to activate transcription"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Scnn1b",
+      "accession": "Q9WU38",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:104696"
+              }
+            ],
+            "value": "Scnn1b"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2000-12-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1999-11-01",
+        "entryVersion": 184,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10409305"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9990092"
+                }
+              ],
+              "value": "This is one of the three pore-forming subunits of the heterotrimeric epithelial sodium channel (ENaC), a critical regulator of sodium balance and fluid homeostasis (PubMed:10409305). ENaC operates in epithelial tissues, where it mediates the electrodiffusion of sodium ions from extracellular fluid through the apical membrane of cells, with water following osmotically (PubMed:9990092). It plays a key role in maintaining sodium homeostasis through electrogenic sodium reabsorption in the kidneys (PubMed:9990092). This subunit is not essential for ENaC function in airway surface liquid homeostasis and proper mucus clearance (PubMed:9990092)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Scnn1g",
+      "accession": "Q9WU39",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:104695"
+              }
+            ],
+            "value": "Scnn1g"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2000-12-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1999-11-01",
+        "entryVersion": 176,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P51170"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10409305"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12871941"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15007080"
+                }
+              ],
+              "value": "This is one of the three pore-forming subunits of the heterotrimeric epithelial sodium channel (ENaC), a critical regulator of sodium balance and fluid homeostasis (PubMed:10409305, PubMed:12871941, PubMed:15007080). ENaC operates in epithelial tissues, where it mediates the electrodiffusion of sodium ions from extracellular fluid through the apical membrane of cells, with water following osmotically (PubMed:12871941, PubMed:15007080). It plays a key role in maintaining sodium homeostasis through electrogenic sodium reabsorption in the kidneys. Additionally, ENaC is essential for airway surface liquid homeostasis, which is crucial for proper mucus clearance (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Shh",
+      "accession": "Q62226",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "7916661"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:98297"
+              }
+            ],
+            "value": "Shh"
+          },
+          "synonyms": [
+            {
+              "value": "Hhg1"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "1999-07-15",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1998-06-01",
+        "entryVersion": 231,
+        "sequenceVersion": 2
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11389830"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21357747"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31657721"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7736596"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7891723"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8824192"
+                }
+              ],
+              "value": "Precursor of sonic hedgehog, a morphogen that activates the smoothened signaling pathway, and which is essential for a variety of patterning events during development (PubMed:11389830, PubMed:31657721, PubMed:7736596, PubMed:7891723, PubMed:8824192). The C-terminal part of the precursor displays an autoproteolysis and a cholesterol transferase activity, resulting (1) in the cleavage of the full-length protein into two parts, Sonic hedgehog protein N-product and C-product (ShhN and ShhC, respectively) and (2) covalent attachment of a cholesterol moiety to the C-terminus of the newly generated ShhN (PubMed:7736596, PubMed:7891723, PubMed:8824192). Both autoproteolysis and a cholesterol transferase activities occur in the endoplasmic reticulum (PubMed:21357747). Following additional lipidation, ShhN acts as a morphogen, while ShhC is degraded in the endoplasmic reticulum (PubMed:21357747)"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Sonic hedgehog protein"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11389830"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11430830"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12679031"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "14687547"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15315762"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24863049"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "29622726"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31657721"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7736596"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7916661"
+                }
+              ],
+              "value": "The dually lipidated sonic hedgehog protein N-product (ShhN) is a morphogen that activates the smoothened signaling pathway, and which is essential for a variety of patterning events during development (PubMed:11389830, PubMed:14687547, PubMed:29622726, PubMed:7736596, PubMed:7916661). Acts by binding to the patched receptor (PTCH1 or PTCH2), relieving smoothened (SMO) inhibition by patched, activating the smoothened signaling pathway and transcription of target genes (PubMed:31657721). In the absence of SHH, patched represses the constitutive signaling activity of SMO (PubMed:31657721). ShhN is widely expressed and plays a key role in the patterning of the central nervous system and limb development (PubMed:11430830, PubMed:12679031, PubMed:15315762, PubMed:24863049). Induces ventral cell fate in the neural tube and somites (PubMed:11430830, PubMed:24863049). Involved in the patterning of the anterior-posterior axis of the developing limb bud (PubMed:15315762). Essential for axon guidance (PubMed:12679031)"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Sonic hedgehog protein N-product"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Slc26a9",
+      "accession": "Q8BU91",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "15800055"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "MGI",
+                "id": "MGI:2444594"
+              }
+            ],
+            "value": "Slc26a9"
+          }
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2008-03-18",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2003-03-01",
+        "entryVersion": 145,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15800055"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17120765"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31339488"
+                }
+              ],
+              "value": "Ion transporter that can act both as an ion channel and anion exchanger (PubMed:15800055, PubMed:17120765, PubMed:31339488). Mainly acts as a chloride channel, which mediate uncoupled chloride anion transport in an alternate-access mechanism where a saturable binding site is alternately exposed to either one or the other side of the membrane (PubMed:31339488). Also acts as a DIDS- and thiosulfate- sensitive anion exchanger the exchange of chloride for bicarbonate ions across the cell membrane (PubMed:15800055)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Tfcp2l1",
+      "accession": "Q3UNW5",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "value": "Tfcp2l1"
+          },
+          "synonyms": [
+            {
+              "value": "Crtr1"
+            },
+            {
+              "value": "Tcfcp2l1"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2006-03-21",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2012-07-11",
+        "entryVersion": 149,
+        "sequenceVersion": 2
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9NZI6"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11073954"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17079272"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23942233"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23942238"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26321140"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28577314"
+                }
+              ],
+              "value": "Transcription factor that facilitates establishment and maintenance of pluripotency in embryonic stem cells (ESCs) (PubMed:23942233, PubMed:26321140). With Klf2, acts as the major effector of self-renewal that mediates induction of pluripotency downstream of LIF/Stat3 and Wnt/beta-catenin signaling (PubMed:23942233, PubMed:23942238, PubMed:26321140). Required for normal duct development in the salivary gland and kidney (PubMed:17079272). Coordinates the development of the kidney collecting ducts intercalated (IC) and principal (PC) cells, which regulate acid-base and salt-water homeostasis, respectively (PubMed:28577314). Regulates the expression of IC genes including subunits B1 and D2 of the V-ATPase complex, Oxgr1, Ca12, Slc4a1, Aqp6 and IC-specific transcription factor Foxi1 (PubMed:28577314). Also regulates the expression of Jag1 and subsequent notch signaling in the collecting duct (PubMed:28577314). Jag1 initiates notch signaling in PCs but inhibits notch signaling in ICs (PubMed:28577314). Acts as a transcriptional suppressor that may suppress UBP1-mediated transcriptional activation (PubMed:11073954). Modulates the placental expression of CYP11A1 (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    },
+    {
+      "frozen_gene": "Zfp462",
+      "accession": "B1AWL2",
+      "taxonId": 10090,
+      "gene_names": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Znf462"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "source": "MGI",
+                  "id": "MGI:107690"
+                }
+              ],
+              "value": "Zfp462"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "firstPublicDate": "2018-11-07",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "2008-04-08",
+        "entryVersion": 115,
+        "sequenceVersion": 1
+      },
+      "function_comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17353115"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20219459"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21570965"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27621227"
+                }
+              ],
+              "value": "Zinc finger nuclear factor involved in transcription by regulating chromatin structure and organization (PubMed:20219459, PubMed:21570965). Involved in the pluripotency and differentiation of embryonic stem cells by regulating SOX2, POU5F1/OCT4, and NANOG (PubMed:21570965). By binding PBX1, prevents the heterodimerization of PBX1 and HOXA9 and their binding to DNA (PubMed:17353115). Regulates neuronal development and neural cell differentiation (PubMed:21570965, PubMed:27621227)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ]
+    }
+  ]
+}

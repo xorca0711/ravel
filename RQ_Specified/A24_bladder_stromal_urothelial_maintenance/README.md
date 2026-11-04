@@ -2,11 +2,11 @@
 
 ## Organizing Biological Q
 
-Does the aged bladder stromal compartment contribute to loss of normal urothelial barrier maintenance independently of epithelial-intrinsic ageing and changing epithelial differentiation?
+Does aged bladder stroma contribute to loss of urothelial barrier maintenance beyond epithelial-intrinsic ageing and changing epithelial composition?
 
-**Unresolved gap:** The stromal population, its relevant change and a paired independent epithelial barrier endpoint remain unqualified. A mediator is not required to pose the question, but the source population and functional measurement must be nominated before an identifiable causal experiment.
+Stromal support and tissue ageing make the question plausible, but senescence-associated transcripts and barrier function are different measurements. A normal-bladder mechanism is not supplied by a generic ageing signature.
 
-[Full working hypothesis and alternatives](../../docs/research_dossiers/A24.md#working-hypothesis).
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A24.md) · [Source context](LITERATURE_CONTEXT.md).
 
 <!-- literature-visual-context:start -->
 <a id="literature-context-and-visual-hypothesis"></a>
@@ -21,6 +21,39 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+In three young and three old mice, the 24-minus-3-month bladder Cdkn2a detection difference is -1.238 percentage points. Lmnb1 detection decreases within the broad urothelial annotation (-1.519 points) but increases within mesenchymal cells (+3.952 points), despite an aggregate increase. These exposed source summaries measure detection frequency, distinct from normalized mean RNA, senescence burden or barrier function. All old mice are male; capture, sex and finer-state replacement within broad annotations remain limitations. No stromal mediator is selected.
+
+[Bladder detection and composition result](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md#p01-tissue-remodelling-and-within-type-rna).
+
+**Rationale check.** Descriptive compartment context with an untested stromal-to-barrier proposal. The conflicting marker directions usefully prevent treating a generic senescence score as the biological answer; they do not select a barrier mechanism or refute senescence in the tissue.
+
+## Current interpretation and next decision
+
+A specified normal-bladder stromal population, linked epithelial consequence and independent barrier measurement are not supplied by the atlas observations.
+
+Keep the atlas observations as context. A justified extension should specify a stromal population and an independently measured epithelial/barrier consequence. Concordant changes would motivate a bounded support question; effects accounted for by epithelial state or capture would restrict it. Another generic senescence score does not identify the missing mediator.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
+## Organizing Biological Q
+
+Does the aged bladder stromal compartment contribute to loss of normal urothelial barrier maintenance independently of epithelial-intrinsic ageing and changing epithelial differentiation?
+
+**Unresolved gap:** The stromal population, its relevant change and a paired independent epithelial barrier endpoint remain unqualified. A mediator is not required to pose the question, but the source population and functional measurement must be nominated before an identifiable causal experiment.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A24.md#working-hypothesis).
+
+
 
 ## Evidence, analyses and next steps
 
@@ -55,3 +88,5 @@ unfinished numerical design.
 This workspace owns future question-specific planning. Existing figures, tables,
 failed runs and amendments remain in the article package. No new analysis has
 been executed under this RQ; shared inputs remain shared biological evidence.
+
+</details>

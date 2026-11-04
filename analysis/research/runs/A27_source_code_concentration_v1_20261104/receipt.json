@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A27.source_code_concentration_v1",
+  "owner": "A27",
+  "contract": "analysis/research/contracts/A27.source_code_concentration_v1.json",
+  "contract_sha256": "e581de114078e9170abbe3496eaff0b7e5de73cd495a67dbfd6d08efbad5cd47",
+  "git_commit": "0b67a8027270ce8ed34ecd3d2e88ef5ee84d3b52",
+  "started_at": "2026-11-04T01:50:48.403296+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/source_code_concentration_v1.py",
+    "--output",
+    "analysis/research/runs/A27_source_code_concentration_v1_20261104"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_intake_20261104/A27/A27_IGT29_RECEPTOR_METADATA_V1.tsv",
+      "sha256": "4176b597669aae7e82386ba5457eda71696828e7dc29a27db7100a36792cd6ef",
+      "study_id": "GSE347791_IGT29_ImmGenT",
+      "unit_ids": [
+        "mouse0088",
+        "mouse0089",
+        "mouse0090",
+        "mouse0091",
+        "mouse0092",
+        "mouse0093",
+        "mouse0094",
+        "mouse0095",
+        "mouse0096"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/source_code_concentration_v1.py",
+      "sha256": "497de814ce74d84ee27d26704ba3afca762319d3855c5d43e5e0009e68d82496"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_SOURCE_CODE_EXECUTION_SPEC_V4.md",
+      "sha256": "7b5786e0f48ac020ca0f1b498a4cee9e1ad62c3ee26dd998da82e86804086b5e"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/A27_CODE_CONVENTION_SPEC_V3.md",
+      "sha256": "cd95a9effc6d706ef2fb625db6fe857e81b5149e2856c9dd81159cf400603a19"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_IGT29_SOURCE_JOIN_V3.tsv",
+      "sha256": "97b377d054ede1e1f73351ccb6fbf1482e111a448e22eefc4dd06cf14e0a3891"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_IGT29_SOURCE_JOIN_V3.json",
+      "sha256": "c35b185e561d4fae6877b2f1452fad33fdd99074438e2260966714aa9627afa9"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_IGT29_EXTRACTION_V1.json",
+      "sha256": "39d3dcf6c8fc82770f7a9ac27f51ba88494f6283584f54a1cfdf52102a6be11c"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_CELL_CHAIN_COVERAGE_V2.tsv",
+      "sha256": "685b935fa77c7336e8df43427c403998c85af65ebefbf0c9c1655875e2ed50c8"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_CHAIN_COVERAGE_MANIFEST_V2.json",
+      "sha256": "b7db1875f1cc009c801844aa76dff0e11150e6f23c2d10a895796f8bf77dcd14"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_STATE_CONSTRUCTION_QUALIFICATION_V2.json",
+      "sha256": "20b3aa5dc4d20e3489c7e65e4a864c438038011963efc701241773784c34180c"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_OUTPUT_SCHEMA_V1.json",
+      "sha256": "78bad80c0a95cc3af82040a8289d6f747e3946cae994275cb24440618f203a00"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/cell_assignments.tsv",
+      "sha256": "291cae2731259d2448d20cf83970f3dedab33da4b3cfb68ca10ebffb226c5998"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/clone_counts.tsv",
+      "sha256": "3d1edbc0234897fa3ee06cef5797fa96975f6520d17f525f89a67197f869dd26"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/concentration_by_mouse_code.tsv",
+      "sha256": "12615d31d7b3c14c10a654422cebc57a547631847c57b6a65e06adabb41e33b5"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/support_by_mouse_code.tsv",
+      "sha256": "168fad9139d8a75e3e47cb759acf3fbbdc0962671d4503d689b6ea732de12108"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/source_disposition_by_mouse.tsv",
+      "sha256": "e1dbf047b8a5dd86ad6af2d3c008e864e698b90b1c4060d5f0476bd843402d3b"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/concentration_by_source_code.png",
+      "sha256": "938b0c0aa619985965c424f9ff95d7ce2cc2be8d2831ed29a89fba8138284dde"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/representation_and_eligibility.png",
+      "sha256": "b0bb1ddf9fb5d14a314f00a483890e5587f1c58c48800d3b151bed95c1665311"
+    },
+    {
+      "path": "analysis/research/runs/A27_source_code_concentration_v1_20261104/summary.json",
+      "sha256": "19b372d947a6b648049aeeffe2934131b4cd2a22fc64d433b25fe2bd8ddb2d7b"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:51:00.455502+00:00"
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.feature_context_figures_v2",
+  "owner": "A5",
+  "contract": "analysis/research/contracts/A5.feature_context_figures_v2.json",
+  "contract_sha256": "5d062e5f4f51beb3d046577c693dc270a4455d422163a957c09e6e9759eb37ac",
+  "git_commit": "e076aebbfd80650e09e45456b632059f35c0a804",
+  "started_at": "2026-11-04T01:06:18.135951+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_figures_v2.py",
+    "--output",
+    "analysis/research/runs/A5_feature_context_figures_v2_20261104"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/all_member_values.tsv",
+      "sha256": "715d82fa42eee30005061de06bfd5eeba25aae5241f3c4966d5b9f3c30796f42",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/summary.json",
+      "sha256": "e40cd77bbb27d96ccb76600496215282db1b016c6e570191f8e5d19df329a698",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_display_v1_20261104/receipt.json",
+      "sha256": "26974029f049b48868155f3ef19867ee9ad6356f6087337ca9fde04f7b050e32",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/scripts/feature_context_figures_v2.py",
+      "sha256": "489a92b6ff7d9f32b265c8e5136f4dd892635385d0465d82b4530ea7d1f5a370"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_DISPLAY_MAP_V1.tsv",
+      "sha256": "db85e5273bfacefeeb35c36f3535d28d2fc4d4f58ac905fae70b96f1c0f3e41c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A5_feature_context_figures_v2_20261104/all_members_by_mouse_v2.png",
+      "sha256": "defc908a26e4d384b0f882f54d14f90b2114b2cd5a89fdc86779828251ac61a4"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_figures_v2_20261104/candidate_features_by_mouse_v2.png",
+      "sha256": "c1df8acec19b5e12b7ad2d00139a46f444d138b1caadc59c640c47f04b4e8bb8"
+    },
+    {
+      "path": "analysis/research/runs/A5_feature_context_figures_v2_20261104/render_metadata.json",
+      "sha256": "764fcc8d4e32578a2f5bbe9abac7d952d448dc6ca2feb6ee75d5f52122f95d6b"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:06:27.653755+00:00"
+}

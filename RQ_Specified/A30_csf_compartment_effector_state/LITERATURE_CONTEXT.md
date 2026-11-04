@@ -24,24 +24,15 @@ Shared TCR does not demonstrate residence, migration direction or local inductio
 
 ## Repository observation
 
-Read the [v3 erratum](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
-and [artifact audit](../../docs/audits/2026-10-07-pr140/REPORT.md) before the original
-plan. Corrected pro-inflammatory contrasts are +0.0558/+0.0498/+0.0570 with BH
-0.0321/0.0368/0.0321 against the implemented size-only null. Residual activation
-persists. Regulatory non-significance does not show equivalence. The decomposition
-is descriptive and depends on common-state support.
+The corrected all-cell paired inflammatory association is positive in all ten donors. Within observed shared-state and activation support, linear activation standardization retains seven donors, with median inflammatory RNA-score contrast +0.03810 and positive direction in six. Median retained coverage is 67.7% for CSF and 33.0% for blood, with only 3.9% CSF coverage for the least-covered retained donor; the floor-five sensitivity interval crosses zero. The standardized activation contrast is zero by construction, not evidence that biological activation has been controlled. The comparison changes the target population rather than explaining every cell in either compartment. Inputs and motivating outcomes were already exposed; a later frozen specification does not make this confirmatory.
 
-The earlier Wp-R4 disease contrast did not reproduce the published pattern under
-this repository's gate and scoring implementation. That is a bounded reproduction
-result, not a refutation of all human findings or of the paper's mouse mechanism.
+[Current result, design and limits](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A measurement-validation and biological-context extension: determine whether a
-CSF-associated programme has information beyond measured activation and subset
-mixing in a donor-paired comparison. A robust association, attenuation after
-adjustment or an unresolved estimate can each be informative. A new causal
-mechanism or treatment claim is not required to make the comparison useful.
+A bounded association survives a more restricted observed comparison. This is useful context narrowing, but it does not exclude biological activation or select local compartment induction. State and activation definitions share the transcriptome, and the sensitivity result limits a uniformly robust interpretation.
+
+Independent lineage/activation qualification, clinical context and functional outcomes remain unresolved. Trimming to common support cannot identify unmeasured activation, trafficking or residency, nor demonstrate regulatory equivalence.
 
 ## Current hypothesis and rival
 
@@ -59,17 +50,7 @@ establish CD4 identity, paired timing, clinical covariates and assay validity.
 
 ## What the comparison would teach
 
-| Outcome | Permitted interpretation |
-|---|---|
-| Difference persists with good activation balance, lineage and common-state support | Residual association beyond measured adjustment; unmeasured confounding and trafficking remain. |
-| Difference attenuates after adjustment | Measured activation/composition accounts for part of the contrast under that model; no sole cause is established. |
-| Estimate is unstable or imprecise | Unresolved, not no effect or equal regulatory function. |
-| Paired protein/TCR supports a within-subset pattern | Better phenotypic/clonal resolution; shared clones still do not prove residence or induction. |
-| A justified later intervention changes a functional endpoint | Causal inference limited to that intervention/model and its controls. |
-
-Conditioning on activation may remove a mediator as well as confounding: adjusted
-and total compartment associations are distinct estimands. Neither RNA contrast
-identifies the effect of moving the same cell between compartments.
+Preserve both the all-cell and restricted estimands and their coverage. Independent state/activation or clinical qualification could determine whether the association transports to the intended population. Persistence would support a bounded contextual association; dependence on those definitions would restrict it. Further stratification of the same exposed data does not automatically resolve induction or function.
 
 ## Hypothesis schematic
 

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-04",
+  "repository": "https://github.com/immgen/immgenT_Project",
+  "revision": "7b2714071eec19d0db91162c97b6fd0b68ffcc09",
+  "file": "TCR_analysis/1. Dataprep and basics 0226.R",
+  "inspected_locators": {
+    "lines_40_45": "Reads enhanced receptor summary and separate GSE297097 annotation table.",
+    "lines_184_193": "Uses cell-ID matches to separate annotation level1 values for Treg, CD4, CD8, CD8aa and Tz subsets."
+  },
+  "conclusion": "The source workflow consumes a separate cell-state annotation product. This does not by itself prove complete RNA/ADT-only derivation or independence from receptor-informed labeling.",
+  "remaining": "Biological meaning and construction of exact CD8 level2 codes, and any receptor-aware component of the annotation workflow, remain to be qualified before a naive/effector state interpretation."
+}

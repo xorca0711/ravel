@@ -1,4 +1,73 @@
-# A32: myeloid ARG1, matrix production and mature epithelial recovery
+# A32: myeloid ARG1, matrix and epithelial recovery
+
+## Organizing Biological Q
+
+Does reducing source-restricted myeloid ARG1 change matrix production and mature epithelial recovery in the same repair context? Less collagen does not determine the direction of the epithelial effect. The completed public RNA screen supplies early source/context observations, while the registered joint functional comparison remains unmeasured.
+
+Current synthesis: 4 November 2026. [Literature context](LITERATURE_CONTEXT.md) ·
+[Dossier](../../docs/research_dossiers/A32.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a32).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[Published findings, repository observations and interpretation limits](LITERATURE_CONTEXT.md).
+
+![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and
+cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier artwork is retained as history.
+<!-- literature-visual-context:end -->
+
+Yadav's ARG1-related fibrosis result supplies a matrix premise; Hamanaka's fibroblast arginine work supplies a recipient-context alternative. Li's Atg5 study measures distinct organoid and differentiation endpoints under another perturbation, and the older myeloid Arg1-loss study cautions against universal effects. The [dated primary-source review](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md#published-starting-point) keeps those findings separate. Truchi's public resolution atlas motivates the completed RNA context screen; it is not an ARG1 intervention or independent replication of its own publication.
+
+The retained illustration describes the registered proposal. Its dashed relationships
+are unmeasured; the completed comparisons below have their own narrower endpoints.
+
+## Evidence, analyses and next steps
+
+The [current GSE234197 result](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md) uses 36 source mice in six age/day captures, with three BLM and three PBS mice per capture. Days are cross-sectional. Source-defined mouse/state log2(CPM+1) RNA is compared as equal-mouse mean BLM minus PBS; cells and repeated genes do not add biological units.
+
+| Fixed family | Estimated / planned | What the support permits |
+|---|---:|---|
+| Source myeloid states | 66 / 180 | Selected state/gene contrasts; missing support remains explicit. |
+| Fibroblasts | 4 / 24 | Only young D14 has full arm support. |
+| AT1/AT2 | 0 / 84 | All epithelial contrasts are unestimated, not null. |
+| Pooled AM_all, secondary | 18 / 18 | Composition-sensitive context, not restored within-state support. |
+
+The full panel has 306 dispositions: 88 estimates and 218 unsupported comparisons. Young-D14 AM1 Arg1 and fibroblast Col1a1/Col3a1/Fn1 differences are positive. BLM AM2/AM3 carry more observed Arg1 RNA than AM1, including after library-size normalization, but their PBS support is insufficient for within-state induction estimates. Young-D60 AM1's positive transformed contrast comes from only **2–5 Arg1 UMIs per BLM mouse**; it does not establish persistent programme activity. These are RNA observations, not ARG1 protein activity, deposited collagen or epithelial output.
+
+The [Speth GSE328925 access record](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_HOLD_V1.md) documents a separate private-source hold checked on 3 November. Its earlier public-alternative nomination is superseded by the completed GSE234197 report; the access hold does not mean no public RNA analysis ran.
+
+![A32: existing measured comparison](../../analysis/research/runs/A32_resolution_context_v1_20261103/rna_contrasts.png)
+
+The complete fixed panel retains unsupported gray contrasts. Gray is unestimated, not absence of expression or effect; AM2/AM3 have observed BLM Arg1 RNA but insufficient PBS support. AM_all is composition-sensitive. The owning report retains pointwise intervals, sparse counts and all mouse values.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: an exploratory source-population lead and a useful support boundary; the joint functional inference is incomplete.** The completion count is not biological narrowing. AM2/AM3 are candidates for observed Arg1-bearing populations under early injury, not validated source-specific ARG1 induction or a source–matrix circuit. Early AM1/fibroblast co-occurrence cannot assign direction or mediation. Sparse late counts cannot establish persistence.
+
+Published narratives and prior outcomes were exposed; the panel and support rule preceded new expression estimates. Highlighting a source label after inspecting the fixed panel does not establish target priority. Shared injury severity, capture, relative recovery, within-label composition and background RNA remain alternatives. Raw age/day differences are capture-confounded, and the same deposited mice do not become independent validation. Nothing here selects a favorable epithelial response or demonstrates random noise.
+
+## What a further comparison would decide
+
+A qualified source-restricted ARG1 contrast could yield less matrix with higher mature output, or less matrix with poorer output; both are informative joint effects. An imprecise epithelial result leaves uncertainty, not preserved function. Estimating those effects does not automatically identify fibroblast mediation. A narrower source/context description can also be useful without claiming the joint function.
+
+Retain the completed RNA context result and the separate access hold. Reopening the registered comparison requires a source with linked biological units, credible source restriction and suitable matrix/mature-output measurements. Further expression summaries in the same sparsely epithelial atlas cannot supply that missing joint endpoint. A new source or intervention needs its own specific rationale; no old plan restarts automatically.
+
+**Current boundary:** RNA abundance is not ARG1 activity, collagen deposition, lineage-derived mature function or repair. The epithelial direction remains unspecified. Source restrictions, species/context and actual assay access are unresolved; no intervention setting or effect margin is selected.
+
+## Registered scope and earlier records
+
+The complete earlier framing below retains its dated scope and registered hypotheses.
+Current results and amendments govern interpretation. Older unfinished-work, source-access
+or priority statements do not supersede this synthesis or start an execution queue.
+Registration and completed analysis confer neither human acceptance nor a claim promotion.
+
+<details>
+<summary>Registered framing, source links and retained development history</summary>
+
 
 ## Organizing Biological Q
 
@@ -16,20 +85,17 @@ specificity, mature endpoint validity, model access and precision are unresolved
 
 [Full working hypothesis and alternatives](../../docs/research_dossiers/A32.md#working-hypothesis).
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[Published findings, repository observations and interpretation limits](LITERATURE_CONTEXT.md).
-
-![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and
-cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier artwork is retained as history.
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Reuse the public GSE234197 compartment screen: 306 contrast dispositions include 88 estimates and 218 unsupported comparisons. Myeloid ARG1 and matrix RNA can be described in supported contexts; epithelial contrasts remain unsupported.
+
+**Remaining discriminator:** Sparse AT1/AT2 sampling leaves all 84 epithelial contrasts unestimated. Linked ARG1 exposure, matrix function and mature epithelial recovery are missing, and the previously checked GSE328925 release remains private. These are distinct limits, not a completed joint-outcome mechanism.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -117,3 +183,5 @@ prevent a within-state induction estimate. Early fibroblast matrix RNA rises;
 this does not establish collagen deposition or ARG1 mediation. The late AM1
 Arg1 observation is only 2–5 UMIs per BLM mouse and cannot establish a maintained
 programme. Canonical functional and Speth access holds remain unchanged.
+
+</details>

@@ -1,5 +1,50 @@
 # A1: Distinguishing transitional epithelial states
 
+## Organizing Biological Q
+
+Which regulatory or starting-state distinctions help explain why similar transitional RNA markers accompany different epithelial outcomes?
+
+Published transitional populations, chromatin changes and lineage outcomes justify studying context. They do not establish one universal transitional state or the original closed-versus-silenced interpretation. The registered early-regulatory/later-output question is a narrower proposed branch.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A1.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A1: reviewed matte qualitative illustration](schematics/A1_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A1_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+Current source recovery maps all 22 retained HPCS aliases to named mice, resolving that identity hold while library/chase confounding remains. In the iATC-minus-iAT2 comparison at the checked ±1-kb promoter windows, CDKN1A H3K27ac/H3 reverses at an alternate start in one preparation, whereas H3K27me3/H3 is lower at both checked starts in both preparations. These preparations share one iPSC-line context. The [promoter/preparation sensitivity report](reports/ROBUSTNESS_REPORT.md) supplies the histone comparison. The separate AP-1 endpoint is HOPX acquisition among lineage-labelled cells, not completed functional AT1 differentiation. Opposite regional directions in three mice per genotype (interaction p=0.10) challenge a blanket benefit claim without establishing a replicated regional mechanism. The source-informed specification followed inspection of source layouts and values; these reanalyses add no independent replication.
+
+[Current result, design and limits](reports/REGULATORY_FATE_REPORT.md).
+
+**Rationale check.** Useful source, regulatory-context and outcome distinctions, not a selected common epigenetic mechanism. Source-specific consistency can nominate a feature for a stated comparison, but these separate studies do not link that feature to later mature output beyond RNA. The chromatin interpretation remains measured histone signal, not proof of closed chromatin, absolute histone occupancy, memory or fate control.
+
+## Current interpretation and next decision
+
+A primary regulatory feature and an eligible early-regulatory/later-output comparison have not been jointly qualified. Recovered mouse identities do not remove library/chase confounding, and separate preparations cannot be stitched into a same-cell regulatory mechanism.
+
+Retain the descriptive evidence and choose one comparison that could change the biological interpretation before adding another branch. For the registered predictive question, a fixed early feature and linked later output must be available in appropriate units. Added information beyond RNA would support a bounded prediction; source/TSS dependence or no incremental information would limit it. A narrower descriptive regulatory comparison can still be useful without claiming prediction or function.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,21 +75,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A1: reviewed matte qualitative illustration](schematics/A1_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A1_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The existing regulatory screens nominate source-specific chromatin features, not a general maturity score. CDKN1A H3K27me3 is comparatively stable across the checked TSS/preparation choices; other acetylation/AP1 findings depend on context.
+
+**Remaining discriminator:** Early regulatory measurements are not linked to later lineage-derived output in the same biological units. Reuse the completed screens; reopen a predictive/functional comparison only when that linkage exists.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -172,3 +213,5 @@ is now quantified descriptively. Existing multiome figures remain
 historical observations of RNA and accessibility, not the answer to this
 expanded question. Full sequencing reprocessing is conditional on the
 metadata gates and a measured storage/runtime estimate.
+
+</details>

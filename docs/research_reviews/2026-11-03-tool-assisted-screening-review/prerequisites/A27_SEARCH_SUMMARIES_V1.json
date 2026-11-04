@@ -1,0 +1,832 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esummary",
+    "params": {
+      "db": "gds",
+      "id": "200347939,200347791,200307874,200330826,200325226,200291215,200275967,200270704,200307901,200253136",
+      "retmode": "json"
+    },
+    "record_path": "result",
+    "max_items": 25,
+    "max_depth": 5
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esummary",
+    "record_path": "result",
+    "raw_output_path": null,
+    "warnings": [],
+    "summary": {
+      "uids": [
+        "200347939",
+        "200347791",
+        "200307874",
+        "200330826",
+        "200325226",
+        "200291215",
+        "200275967",
+        "200270704",
+        "200307901",
+        "200253136"
+      ],
+      "200347939": {
+        "uid": "200347939",
+        "accession": "GSE347939",
+        "gds": "",
+        "title": "Extravascular and intravascular skin T cells in acute (armstrong) LCMV infection [I50, I51]",
+        "summary": "This study is part of the immgenT Open Source Project, specifically IGT50 and IGT51, which focuses on the characterization of extravascular and intravascular skin T cells during acute lymphocytic choriomeningitis virus (LCMV) Armstrong infe...",
+        "gpl": "24247",
+        "gse": "347939",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing; Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/09/23",
+        "suppfile": "MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM10063231",
+            "title": "I50H2_LNinguinal_LCMVarm_extravascular_GEX"
+          },
+          {
+            "accession": "GSM10063251",
+            "title": "I51H2_LNinguinal_LCMVarm_intravascular_FBC"
+          },
+          {
+            "accession": "GSM10063254",
+            "title": "I51H4_lung_LCMVarm_intravascular_FBC"
+          },
+          {
+            "accession": "GSM10063234",
+            "title": "I50H4_lung_LCMVarm_extravascular_GEX"
+          },
+          {
+            "accession": "GSM10063260",
+            "title": "I51H7_skinear_LCMVarm_intravascularsurveilling_FBC"
+          },
+          {
+            "accession": "GSM10063257",
+            "title": "I51H5_skinear_LCMVarm_intravascular_FBC"
+          },
+          {
+            "accession": "GSM10063237",
+            "title": "I50H5_skinear_LCMVarm_extravascular_GEX"
+          },
+          {
+            "accession": "GSM10063240",
+            "title": "I50H6_skinear_LCMVarm_intravascularcirculating_GEX"
+          },
+          {
+            "accession": "GSM10063239",
+            "title": "I50H6_skinear_LCMVarm_intravascularcirculating_FBC"
+          },
+          {
+            "accession": "GSM10063236",
+            "title": "I50H5_skinear_LCMVarm_extravascular_FBC"
+          },
+          {
+            "accession": "GSM10063243",
+            "title": "I50H7_skinear_LCMVarm_intravascularcirculating_GEX"
+          },
+          {
+            "accession": "GSM10063259",
+            "title": "I51H5_skinear_LCMVarm_intravascular_TCR"
+          },
+          {
+            "accession": "GSM10063248",
+            "title": "I51H1_spleen_LCMVarm_intravascular_FBC"
+          },
+          {
+            "accession": "GSM10063256",
+            "title": "I51H4_lung_LCMVarm_intravascular_TCR"
+          },
+          {
+            "accession": "GSM10063242",
+            "title": "I50H7_skinear_LCMVarm_intravascularcirculating_FBC"
+          },
+          {
+            "accession": "GSM10063245",
+            "title": "I50H8_spleen_FBC"
+          },
+          {
+            "accession": "GSM10063228",
+            "title": "I50H1_spleen_LCMVarm_extravascular_GEX"
+          },
+          {
+            "accession": "GSM10063241",
+            "title": "I50H6_skinear_LCMVarm_intravascularcirculating_TCR"
+          },
+          {
+            "accession": "GSM10063261",
+            "title": "I51H7_skinear_LCMVarm_intravascularsurveilling_GEX"
+          },
+          {
+            "accession": "GSM10063244",
+            "title": "I50H7_skinear_LCMVarm_intravascularcirculating_TCR"
+          },
+          {
+            "accession": "GSM10063250",
+            "title": "I51H1_spleen_LCMVarm_intravascular_TCR"
+          },
+          {
+            "accession": "GSM10063262",
+            "title": "I51H7_skinear_LCMVarm_intravascularsurveilling_TCR"
+          },
+          {
+            "accession": "GSM10063247",
+            "title": "I50H8_spleen_TCR"
+          },
+          {
+            "accession": "GSM10063229",
+            "title": "I50H1_spleen_LCMVarm_extravascular_TCR"
+          },
+          {
+            "accession": "GSM10063232",
+            "title": "I50H2_LNinguinal_LCMVarm_extravascular_TCR"
+          },
+          "... (+11 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 36,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42779700"
+        ],
+        "_truncated_keys": 4
+      },
+      "200347791": {
+        "uid": "200347791",
+        "accession": "GSE347791",
+        "gds": "",
+        "title": "Spleen T cells in aging [I29]",
+        "summary": "This study is part of the immgenT Open Source Project, specifically IGT29, which focuses on characterizing T cells during aging in mice. It includes a spleen control at baseline (6-8-week-old C57BL/6J mouse).",
+        "gpl": "24247",
+        "gse": "347791",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing; Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/09/22",
+        "suppfile": "MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM10060571",
+            "title": "I29H9_spleen_27mo_TCR"
+          },
+          {
+            "accession": "GSM10060545",
+            "title": "I29H1_spleen_2mo_FBC"
+          },
+          {
+            "accession": "GSM10060551",
+            "title": "I29H3_spleen_6mo_FBC"
+          },
+          {
+            "accession": "GSM10060548",
+            "title": "I29H2_spleen_2mo_FBC"
+          },
+          {
+            "accession": "GSM10060568",
+            "title": "I29H8_spleen_18mo_TCR"
+          },
+          {
+            "accession": "GSM10060565",
+            "title": "I29H7_spleen_18mo_TCR"
+          },
+          {
+            "accession": "GSM10060554",
+            "title": "I29H4_spleen_6mo_FBC"
+          },
+          {
+            "accession": "GSM10060557",
+            "title": "I29H5_spleen_12mo_FBC"
+          },
+          {
+            "accession": "GSM10060570",
+            "title": "I29H9_spleen_27mo_GEX"
+          },
+          {
+            "accession": "GSM10060553",
+            "title": "I29H3_spleen_6mo_TCR"
+          },
+          {
+            "accession": "GSM10060562",
+            "title": "I29H6_spleen_12mo_TCR"
+          },
+          {
+            "accession": "GSM10060550",
+            "title": "I29H2_spleen_2mo_TCR"
+          },
+          {
+            "accession": "GSM10060559",
+            "title": "I29H5_spleen_12mo_TCR"
+          },
+          {
+            "accession": "GSM10060561",
+            "title": "I29H6_spleen_12mo_GEX"
+          },
+          {
+            "accession": "GSM10060556",
+            "title": "I29H4_spleen_6mo_TCR"
+          },
+          {
+            "accession": "GSM10060558",
+            "title": "I29H5_spleen_12mo_GEX"
+          },
+          {
+            "accession": "GSM10060555",
+            "title": "I29H4_spleen_6mo_GEX"
+          },
+          {
+            "accession": "GSM10060564",
+            "title": "I29H7_spleen_18mo_GEX"
+          },
+          {
+            "accession": "GSM10060567",
+            "title": "I29H8_spleen_18mo_GEX"
+          },
+          {
+            "accession": "GSM10060560",
+            "title": "I29H6_spleen_12mo_FBC"
+          },
+          {
+            "accession": "GSM10060552",
+            "title": "I29H3_spleen_6mo_GEX"
+          },
+          {
+            "accession": "GSM10060549",
+            "title": "I29H2_spleen_2mo_GEX"
+          },
+          {
+            "accession": "GSM10060547",
+            "title": "I29H1_spleen_2mo_TCR"
+          },
+          {
+            "accession": "GSM10060546",
+            "title": "I29H1_spleen_2mo_GEX"
+          },
+          {
+            "accession": "GSM10060563",
+            "title": "I29H7_spleen_18mo_FBC"
+          },
+          "... (+2 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 27,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42779700"
+        ],
+        "_truncated_keys": 4
+      },
+      "200307874": {
+        "uid": "200307874",
+        "accession": "GSE307874",
+        "gds": "",
+        "title": "Bone marrow thymus blood T cells at baseline - scRNA-seq, CITE-seq and TCRab [I2, I6]",
+        "summary": "This study is part of the immgenT Open Source Project, specifically from IGT2 and IGT6, which focuses on characterizing T cells from blood, spleen, bone marrow, thymus, and inguinal, axillary, mesenteric, cervical, and mediastinal lymph nod...",
+        "gpl": "24247",
+        "gse": "307874",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing; Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/09/15",
+        "suppfile": "CSV, MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM9233138",
+            "title": "I6H5_LNmesenteric_FBC"
+          },
+          {
+            "accession": "GSM9233112",
+            "title": "I2H5_bonemarrow_GEX"
+          },
+          {
+            "accession": "GSM9233115",
+            "title": "I2H6_bonemarrow_GEX"
+          },
+          {
+            "accession": "GSM9233135",
+            "title": "I6H4_LNaxillary_FBC"
+          },
+          {
+            "accession": "GSM9233132",
+            "title": "I6H3_LNaxillary_FBC"
+          },
+          {
+            "accession": "GSM9233129",
+            "title": "I6H2_LNinguinal_FBC"
+          },
+          {
+            "accession": "GSM9233118",
+            "title": "I2H7_thymus_GEX"
+          },
+          {
+            "accession": "GSM9233126",
+            "title": "I6H10_LNmediastinal_FBC"
+          },
+          {
+            "accession": "GSM9233106",
+            "title": "I2H3_spleen_GEX"
+          },
+          {
+            "accession": "GSM9233109",
+            "title": "I2H4_spleen_GEX"
+          },
+          {
+            "accession": "GSM9233146",
+            "title": "I6H7_LNcervical_TCR"
+          },
+          {
+            "accession": "GSM9233152",
+            "title": "I6H9_LNmediastinal_TCR"
+          },
+          {
+            "accession": "GSM9233149",
+            "title": "I6H8_LNcervical_TCR"
+          },
+          {
+            "accession": "GSM9233110",
+            "title": "I2H4_spleen_TCR"
+          },
+          {
+            "accession": "GSM9233130",
+            "title": "I6H2_LNinguinal_GEX"
+          },
+          {
+            "accession": "GSM9233113",
+            "title": "I2H5_bonemarrow_TCR"
+          },
+          {
+            "accession": "GSM9233133",
+            "title": "I6H3_LNaxillary_GEX"
+          },
+          {
+            "accession": "GSM9233107",
+            "title": "I2H3_spleen_TCR"
+          },
+          {
+            "accession": "GSM9233127",
+            "title": "I6H10_LNmediastinal_GEX"
+          },
+          {
+            "accession": "GSM9233147",
+            "title": "I6H8_LNcervical_FBC"
+          },
+          {
+            "accession": "GSM9233101",
+            "title": "I2H1_blood_TCR"
+          },
+          {
+            "accession": "GSM9233144",
+            "title": "I6H7_LNcervical_FBC"
+          },
+          {
+            "accession": "GSM9233148",
+            "title": "I6H8_LNcervical_GEX"
+          },
+          {
+            "accession": "GSM9233145",
+            "title": "I6H7_LNcervical_GEX"
+          },
+          {
+            "accession": "GSM9233150",
+            "title": "I6H9_LNmediastinal_FBC"
+          },
+          "... (+29 more)"
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 54,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42779700"
+        ],
+        "_truncated_keys": 4
+      },
+      "200330826": {
+        "uid": "200330826",
+        "accession": "GSE330826",
+        "gds": "",
+        "title": "CCL3 and IL-7 Synergistically Enhance CAR-T Efficacy in Solid Tumors",
+        "summary": "CAR-T cell therapy has demonstrated remarkable clinical efficacy, but challenges remain in the therapeutic application for solid tumors, primarily due to poor infiltration capacity, suboptimal activity, and tumor antigen escape. Here, we fo...",
+        "gpl": "24247",
+        "gse": "330826",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Other; Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/07/15",
+        "suppfile": "CSV, MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM9733276",
+            "title": "CQH4,Ctrl-CAR-T,replicate 1"
+          },
+          {
+            "accession": "GSM9733273",
+            "title": "CQH1,3P7-CAR-T,replicate 1"
+          },
+          {
+            "accession": "GSM9733279",
+            "title": "TQ1,3P7-CAR-T,replicate 1"
+          },
+          {
+            "accession": "GSM9733282",
+            "title": "TQ4,Ctrl-CAR-T,replicate 1"
+          },
+          {
+            "accession": "GSM9733274",
+            "title": "CQH2,3P7-CAR-T,replicate 2"
+          },
+          {
+            "accession": "GSM9733277",
+            "title": "CQH5,Ctrl-CAR-T,replicate 2"
+          },
+          {
+            "accession": "GSM9733280",
+            "title": "TQ2,3P7-CAR-T,replicate 2"
+          },
+          {
+            "accession": "GSM9733275",
+            "title": "CQH3,3P7-CAR-T,replicate 3"
+          },
+          {
+            "accession": "GSM9733283",
+            "title": "TQ5,Ctrl-CAR-T,replicate 2"
+          },
+          {
+            "accession": "GSM9733284",
+            "title": "TQ6,Ctrl-CAR-T,replicate 3"
+          },
+          {
+            "accession": "GSM9733281",
+            "title": "TQ3,3P7-CAR-T,replicate 3"
+          },
+          {
+            "accession": "GSM9733278",
+            "title": "CQH6,Ctrl-CAR-T,replicate 3"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "42328713"
+        ],
+        "_truncated_keys": 4
+      },
+      "200325226": {
+        "uid": "200325226",
+        "accession": "GSE325226",
+        "gds": "",
+        "title": "CD69 regulates the tissue dynamics of epigenetically imprinted memory CD4+ T cells [scRNA-seq]",
+        "summary": "Tissue-resident memory T (TRM) cells reside in non-lymphoid tissues and provide the first line of defense against pathogens. A subset of TRM cells can egress from non-lymphoid tissues into the circulation. However, the functional consequenc...",
+        "gpl": "24247",
+        "gse": "325226",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/23",
+        "suppfile": "H5",
+        "samples": [
+          {
+            "accession": "GSM9598145",
+            "title": "CD4Tcric_rep1"
+          },
+          {
+            "accession": "GSM9598146",
+            "title": "CD4TRM_rep2"
+          },
+          {
+            "accession": "GSM9598144",
+            "title": "CD4TRM_rep1"
+          },
+          {
+            "accession": "GSM9598147",
+            "title": "CD4Tcric_rep2"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 4,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200291215": {
+        "uid": "200291215",
+        "accession": "GSE291215",
+        "gds": "",
+        "title": "Single-cell gene expression analysis using lung derived cells from SARS-CoV-2-infected mice in aged and adult mice",
+        "summary": "We conducted single-cell gene expression analysis to elucidate the molecular basis of immune cells in the mouse lung associated with age-dependent severity of COVID-19 infection. In aged infected mice, genes associated with inflammation wer...",
+        "gpl": "19057",
+        "gse": "291215",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/01/09",
+        "suppfile": "CSV, H5, MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM8831051",
+            "title": "Lung cell, adult, SARS-CoV2-infected, BCR"
+          },
+          {
+            "accession": "GSM8831049",
+            "title": "Lung cell, aged, SARS-CoV2-infected, BCR"
+          },
+          {
+            "accession": "GSM8831046",
+            "title": "Lung cell, aged, uninfected, TCR"
+          },
+          {
+            "accession": "GSM8831043",
+            "title": "Lung cell, adult, SARS-CoV2-infected, GEX"
+          },
+          {
+            "accession": "GSM8831052",
+            "title": "Lung cell, adult, uninfected, BCR"
+          },
+          {
+            "accession": "GSM8831041",
+            "title": "Lung cell, aged, SARS-CoV2-infected, GEX"
+          },
+          {
+            "accession": "GSM8831044",
+            "title": "Lung cell, adult, uninfected, GEX"
+          },
+          {
+            "accession": "GSM8831047",
+            "title": "Lung cell, adult, SARS-CoV2-infected, TCR"
+          },
+          {
+            "accession": "GSM8831050",
+            "title": "Lung cell, aged, uninfected, BCR"
+          },
+          {
+            "accession": "GSM8831048",
+            "title": "Lung cell, adult, uninfected, TCR"
+          },
+          {
+            "accession": "GSM8831045",
+            "title": "Lung cell, aged, SARS-CoV2-infected, TCR"
+          },
+          {
+            "accession": "GSM8831042",
+            "title": "Lung cell, aged, uninfected, GEX"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "41533733"
+        ],
+        "_truncated_keys": 4
+      },
+      "200275967": {
+        "uid": "200275967",
+        "accession": "GSE275967",
+        "gds": "",
+        "title": "Study title: B Cells Promote T Cell Immunosenescence and Mammalian Aging Parameters- 5\u2019 single cell transcriptomics with VDJ T cell receptor analyses on splenic CD3+ cells from aged \u00b5MT and WT mice",
+        "summary": "The goals of this experiment were two-fold: 1) To understand changes in splenic  T cells at the transcriptomic level from aged \u00b5MT and WT mice, and 2) to understand TCR diversity and clonality in aged \u00b5MT and WT mice",
+        "gpl": "24247",
+        "gse": "275967",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing; Other",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2025/12/31",
+        "suppfile": "CSV, MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM8488644",
+            "title": "WT_T_Cells"
+          },
+          {
+            "accession": "GSM8488645",
+            "title": "KO_T_Cells_TCR"
+          },
+          {
+            "accession": "GSM8488646",
+            "title": "WT_T_Cells_TCR"
+          },
+          {
+            "accession": "GSM8488643",
+            "title": "KO_T_Cells"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 4,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "41616067"
+        ],
+        "_truncated_keys": 4
+      },
+      "200270704": {
+        "uid": "200270704",
+        "accession": "GSE270704",
+        "gds": "",
+        "title": "Gene expression of daughter CD8+ T cells that inherited or not pre-mitotic mitochondria",
+        "summary": "T cell immunity is impaired during ageing, particularly in memory responses needed for efficient vaccination. Autophagy and asymmetric cell division (ACD) are cell biological mechanisms key to memory formation, which undergo a decline upon ...",
+        "gpl": "24247",
+        "gse": "270704",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2025/12/01",
+        "suppfile": "MTX, TSV",
+        "samples": [
+          {
+            "accession": "GSM8350423",
+            "title": "MitoSnap-, scRNAseq"
+          },
+          {
+            "accession": "GSM8350424",
+            "title": "MitoSnap+, scRNAseq"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 2,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200307901": {
+        "uid": "200307901",
+        "accession": "GSE307901",
+        "gds": "",
+        "title": "Hematopoietic Tet2 inactivation enhances the response to checkpoint blockade immunotherapy",
+        "summary": "Somatic mutations inactivating TET2 are among the most common drivers of clonal hematopoiesis (CH). While TET2 inactivation is associated with monocyte-derived inflammation and improved chimeric antigen-receptor-T cell function, its impact ...",
+        "gpl": "24247",
+        "gse": "307901",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2025/10/01",
+        "suppfile": "RDS",
+        "samples": [
+          {
+            "accession": "GSM9233731",
+            "title": "WT_ISO_A2 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233732",
+            "title": "WT_PD1_A11 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233729",
+            "title": "Tet2het_PD-1_m144 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233730",
+            "title": "WT-PD1_7 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233733",
+            "title": "WT_PD1_A7_A14 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233726",
+            "title": "Tet2het_ISO_A16 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233728",
+            "title": "Tet2het_ISO_A31 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233727",
+            "title": "Tet2het_ISO_A18 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          },
+          {
+            "accession": "GSM9233725",
+            "title": "TET2_HET_PD1_28 CD45+ tumor-infiltrating leukocytes (TILs) from MC38 tumors"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 9,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "_truncated_keys": 4
+      },
+      "200253136": {
+        "uid": "200253136",
+        "accession": "GSE253136",
+        "gds": "",
+        "title": "MAIT cells drive chronic inflammation in a genetically diverse model of spontenous colitis",
+        "summary": "MAIT cells are innate-like T cells conserved across species and bridge innate and adaptive immunity. After T-cell receptor mediated stimulation, they rapidly produce a range of chemokines and inflammatory mediators and thus may contribute i...",
+        "gpl": "24247",
+        "gse": "253136",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2025/09/24",
+        "suppfile": "CSV",
+        "samples": [
+          {
+            "accession": "GSM8014780",
+            "title": "CC011_MAIT"
+          }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 1,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+          "40425090"
+        ],
+        "_truncated_keys": 4
+      }
+    },
+    "top_keys": [
+      "uids",
+      "200347939",
+      "200347791",
+      "200307874",
+      "200330826",
+      "200325226",
+      "200291215",
+      "200275967",
+      "200270704",
+      "200307901",
+      "200253136"
+    ]
+  }
+}

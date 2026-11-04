@@ -1,10 +1,12 @@
 # Research architecture and interpretation authority
 
-**Current navigation, 2 November 2026:** the [registry](../analysis/research/registry.json)
+**Current navigation, 4 November 2026:** the [registry](../analysis/research/registry.json)
 locates all 33 canonical questions, A0–A32. Read [PROGRESS](../PROGRESS.md), the
-[October portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md) and
-[Weft intake](../weft_intake/README.md) for subsequent developments. The
-September execution checkpoints below retain their original scope.
+[current question arguments](../RQ_Specified/README.md) and the
+[rationale review](research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
+for current contributions and limits. The [October portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md)
+and September execution checkpoints below retain their original scope;
+[Weft intake](../weft_intake/README.md) remains a separate pilot.
 
 **Historical execution checkpoint:** the [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 records A15 correction, corrected A16 C1, A17 source accounting and independent

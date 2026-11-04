@@ -8,6 +8,12 @@ findings and reanalysis of public biological data. It investigates cellular stat
 and molecular programmes in tissue homeostasis, injury, repair, ageing and disease,
 using unresolved findings to develop testable research questions.
 
+The portfolio follows how a question changes with evidence: the published premise,
+the comparison worth making, its result and the next uncertainty. A useful outcome
+can narrow a biological context, reveal a failed generalization or establish a
+measurement limit. Positive findings, mixed results and justified stops are part
+of that scientific progression; they do not all imply a new causal mechanism.
+
 The project began with lung single-cell and multiome studies. Its scope now
 follows the papers and questions under investigation across relevant tissues,
 organisms and experimental contexts. Analyses include single-cell and bulk RNA
@@ -74,9 +80,11 @@ not support.
 5. **Connect the evidence.** Assess recurring phenotypes, complementary measurements
    and differences across studies. Check shared samples and gene sets before
    interpreting agreement as independent replication or biological convergence.
-6. **Evaluate the hypothesis.** Define predictions and contrary outcomes before
-   confirmatory testing. Use eligible independent or perturbation, lineage and
-   functional data; comparisons requiring new experiments remain proposed.
+6. **Evaluate what changed.** Decide whether the evidence narrows an explanation,
+   supports a description or prediction, limits generalization, or leaves the
+   comparison unresolved. For confirmatory testing, define predictions and
+   contrary outcomes in advance. Comparisons requiring new experiments remain
+   proposed, with the missing measurements stated.
 
 Different questions are at different stages. Completing an analysis can resolve a
 measurement or data limitation while leaving the biological hypothesis open. The

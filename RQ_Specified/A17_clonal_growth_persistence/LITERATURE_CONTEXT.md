@@ -2,7 +2,7 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A17.md).
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -16,18 +16,17 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Source accounting covers 58 rows and 11 source mice. The deposited slow-loss branch is unreachable in its current simulator implementation; the corrected stochastic model comparison remains unrun.
+The completed synthetic qualification uses terminal weeks 1/2/4 and the 11-mouse sampling design. Candidate size laws differ under uniform detection. Under unconstrained size/time-dependent detection, however, persistent-founder, switching and combined families can yield the same retained-size law. This is a mathematical existence result and a numerical diagnostic: no England clone outcome was fitted, and the constructed detection weights were not measured in the experiment.
 
+Prior source outcomes and simulator/ascertainment results were exposed. The switching rates are illustrative numerical fixtures, not inferred biology or justified empirical search bounds. Synthetic replicates use the source sampling design; they add no independent mice.
 
-Exact current result locators:
-
-- [Research Article/gate2_C2_england_2025/README.md](../../Research%20Article/gate2_C2_england_2025/README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md](../../docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md)
+[Current result, design and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A17_TECHNICAL_RESULT.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Compare persistent founder propensity against similarly flexible switching and observation models. Technical identifiability and solver qualification must come first; a local implementation correction is not a refutation of the paper.
+Useful diagnostic boundary. The earlier simulator and denominator checks now lead to a concrete reason to stop empirical mechanism selection: growth and observation can be confounded. This does not disprove founder persistence or discover a cell type. Solver/recoverability work is completed; older unfinished-work wording is historical.
+
+The actual detection/merger process and a justified bounded model domain remain unqualified. Retained sizes alone do not identify founder incidence, extinction or longitudinal state transitions.
 
 ## Current hypothesis and rival
 
@@ -35,9 +34,13 @@ Persistent differences inherited from founder lineages may contribute to unequal
 
 **Strongest rival:** State switching, differential survival, clone merger or observation error accounts for apparent founder persistence.
 
+## Current disposition of the registered scope
+
+The registered wording above retains its earlier unfinished-work statement. The 3 November solver/recoverability diagnostic is now complete; empirical mechanism selection remains stopped for the observation limits above.
+
 ## What the comparison would teach
 
-A founder component that improves held-out prediction under comparably flexible switching/observation models supports that explanation only where identifiable. Equal adequacy or non-identifiability leaves the question unresolved. Unlinked size snapshots must not be called measured clone trajectories.
+Keep empirical mechanism selection stopped under current observation uncertainty. Independent evidence constraining detection/merger and the model domain could justify a conditional prediction comparison. Distinguishable models under those constraints would make that comparison informative; continued ambiguity would retain the limit. Neither outcome makes a latent model class a molecular cell type.
 
 ## Hypothesis schematic
 
@@ -53,7 +56,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 Planned query (not reported as newly executed): `alveolar mutant clone size founder heterogeneity switching observation model identifiability`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
-**Current unresolved specification:** Competing model families have not been compared under common observations, biological units and held-out predictive criteria.
+**Current unresolved specification:** Synthetic recoverability under common observations has been evaluated. No empirical source-clone outcome comparison was fitted; a predictive comparison remains conditional on qualified ascertainment and a justified model domain.
 
 **Interpretation limit:** A fitted latent founder class is not a distinct biological cell type or a demonstrated molecular mechanism.
 

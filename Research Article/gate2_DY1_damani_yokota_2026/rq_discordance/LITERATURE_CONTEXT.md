@@ -27,6 +27,10 @@ comprehensive integrity search. Access limitations above remain material.
 
 ## Repository observation
 
+The [reviewed separate A3 RNA-context result, 4 November 2026](../../../RQ_Specified/A3_macrophage_injury_history/reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md) adds six source libraries for the same fixed five regulator transcripts and separate Arg1. Egr2/Irf4 show induced and above-control post-IL4 RNA, with lower post than initial values; Pparg post values lie within the source-control range, Stat6 remains lower and Rxra supplies distinct post context. Arg1 is far lower post than initially but remains above its low control values. This narrows an RNA-context nomination without making the full panel a uniform activated programme.
+
+The new source does not supply DY1's missing original assay/preparation matching or convert the earlier averaged repeat-stimulation ratios into individual maintenance trajectories. Unknown control harvest alignment, batch/preparation sharing and compositional/length effects preclude inferring a withdrawal/maintenance mechanism from this comparison. A matched-time/preparation discriminator remains separate from protein/activity and effector-function evidence. The original DY1 results and A3 registered hypothesis remain unchanged; no new analysis is implied by this source connection.
+
 The [current job ledger](../JOB_ASSESSMENT_2026-10-30.md) supersedes old blanket
 execution wording. Baseline integrity and sample geometry are computed; mouse
 gene/peak effect estimates, state decomposition and axis tests are not. Human

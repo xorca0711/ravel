@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A27.state_representation_v1",
+  "owner": "A27",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do fixed CD8 RNA states and prior repertoire-table representation relate to observed clone repetition within source mice?",
+  "decision": "Determine which within-state descriptive age contrasts are supported while documenting RNA/source-table selection and inherited clone-label uncertainty.",
+  "strongest_rival": "RNA dropout, source selection, age/sex imbalance and unverified blank source clone labels can mimic state-specific concentration without biological expansion or redistribution.",
+  "discriminator": "Four fixed RNA states assigned without age or clone information; separate RNA and original-table denominators; within-state repetition at unchanged depth five, with explicit unsupported mouse and age contrasts.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_STATE_RECOVERY_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A27_TARGET_SOURCE_REVIEW.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original broad CD8 repetition outcomes and repertoire metadata are exposed. Before the new RNA-state screen, 354 annotated cells, 288 exact original-source matches and 237 blank source clonal_group labels were known; all nine marker roles and the fixed rule were reviewed. No target-specific RNA state counts inspected before freeze.",
+  "biological_unit": "Original source mice, with RNA cells and represented source clones nested within mouse/age; 13 RNA mice and 11 original repertoire-table mice.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Same exposed source study and original 6000 mouse-mapped repertoire rows. Only 288 official spleen CD8 matches enter clone analysis; 354 annotated RNA cells form a separate denominator. Source clone keys may span operational RNA states.",
+  "population_and_selection": "Official FACS Spleen CD8 annotation at ages 3, 18 and 24 months, preserving post-QC cells and no new depth filter. Exact prior official_lookup join only; no formerly unassigned repertoire rows enter.",
+  "contrast": "18 minus 3 and 24 minus 3 months within each fixed state, only with at least two depth-qualified mice in each age. Equal weights to eligible mice and explicit restricted rosters.",
+  "endpoint": "RNA-state counts/fractions and original-table representation fractions per mouse; within-state repeated-source-key fraction and expected repetition at depth five among represented cells only.",
+  "methods": "Read and validate all raw.X integer reads against raw.var, not normalized X. Fixed nine-gene detection rule creates naive-associated, effector-associated, mixed and indeterminate states. Preserve source clone keys with inherited singleton:cell_name for blank original labels; report all 237 uses. Save all cell, denominator and cross-state occupancy primitives. Independently verify hypergeometric expectation by scalar combinations and synthetic enumeration; reconstruct original broad CD8 depth-five mouse results.",
+  "missingness_and_exclusions": "All 52 mouse/state rows including zeros and RNA-only mice remain output. At least five represented cells are required per mouse/state; two qualifying mice per compared age. No invented clone for RNA-only cells, lowering depth, merging states, new labels or source expansion.",
+  "multiplicity": "All four states, all mouse/state rows and eight planned age contrasts remain visible; no p-values, cell-level confidence intervals or selected favorable subset.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Existing mice and fixed eligibility thresholds support conditional descriptions only; no invented effect margin or power claim. RNA-only young mice do not establish failed assembly.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Analyst-defined RNA states are not validated naive/memory identity. Prior-table representation is not verified productive assembly success or a recovery rate without an attempt denominator. Blank clone labels treated as singleton by inherited convention do not prove sequence uniqueness. Different pooled/within-state populations and cross-state clones prevent fixed-composition redistribution attribution; no absolute expansion or causal mediation.",
+  "stop_rule": "Stop on source/hash/layer/feature/raw-domain/identity/join/old-broad-parity conflict. Preserve failed support and unfavorable results without threshold or label tuning.",
+  "inputs": [
+    {
+      "path": "raw_data/A27_state_recovery_v1/official_facs_spleen.h5ad",
+      "sha256": "ea3ebbb6d68e9c69238eb276eb0f3454fa404e2505bd18daea5d6dac7a69f309",
+      "study_id": "Tabula_Muris_Senis_official_FACS_Spleen",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_mouse.tsv",
+      "sha256": "ff8d595399699762f23f451ffd68fa217182a456ff0ba616d65e66ad3e63a234",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_INPUT_MAP_V1.json",
+      "sha256": "40ce5b2a90ba5e5c289d777aabd8229d34f8929c495664a9a73d7b6550571233",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_STATE_RECOVERY_SPEC_V1.md",
+      "sha256": "80f7c5bbe7b0f9818a984fed3b029ee63364beb490d6917fa44093cf4a732fef",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/A27_TARGET_SOURCE_REVIEW.md",
+      "sha256": "54235d28a16c9da92adeffc8e4c5dcf7321c91579efb83cbd8e5e793ce2d631a",
+      "study_id": "Original_CD8_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/state_representation_v1.py",
+      "sha256": "07a0e3fbbed11ec076e0446310e6ede33b23cc0d0f8650c8e6d9d0c4eb6817c2"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_INPUT_MAP_V1.json",
+      "sha256": "40ce5b2a90ba5e5c289d777aabd8229d34f8929c495664a9a73d7b6550571233"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A27_cd8_repertoire_state_redistribution/scripts/state_representation_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_state_primitives.tsv",
+    "mouse_state_representation.tsv",
+    "mouse_state_repetition.tsv",
+    "clone_state_occupancy.tsv",
+    "broad_cd8_depth5.tsv",
+    "original_broad_parity.tsv",
+    "state_age_contrasts.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New fixed RNA-state and prior-table representation extension of the original exposed CD8 cohort. No independent replication, new assembly workflow or fixed-composition decomposition. Execute in task-owned X: checkout."
+}

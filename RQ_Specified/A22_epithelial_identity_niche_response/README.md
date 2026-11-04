@@ -1,5 +1,50 @@
 # A22: does epithelial identity determine fibroblast chemokine competence?
 
+## Organizing Biological Q
+
+How far does the focal NKX2-1 epithelial identity result generalize, and does its fibroblast chemokine RNA effect extend to extracellular output?
+
+NKX2-1-dependent epithelial identity and the focal chemokine RNA direction are published premises. A general identity-to-niche rule and a protein-output extension are additional questions.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A22.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A22: reviewed matte qualitative illustration](schematics/A22_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A22_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The retrospective predictor uses 672 wells across 201 targets. Adding the inherited AT2 identity score reduces equal-target mean squared error by 0.64% in target holdouts, increases it by 35.00% in whole-plate holdouts, and loses the small target-held-out gain without NKX2-1. Day-14 RNA and imaging are concurrent; day-7 imaging is also post-perturbation. Whole-screen TMM normalization was not refitted within folds, so held-out count distributions contributed to upstream processing. Adjustment for these treatment-dependent proxies does not identify mediation or an epithelial-amount effect. These are processing-conditional screen diagnostics, not independent preparation-level or clean prospective validation.
+
+[Current result, design and limits](reports/identity_amount_v2/RESULTS.md).
+
+**Rationale check.** Useful failed transport of the broad identity predictor. A focal NKX2-1 output question remains justified by the published contrast; it does not rescue the failed generalization or identify a new mediator. The seven focal chemokine RNA effects are not measurements of secretion or functional competence.
+
+## Current interpretation and next decision
+
+Viable epithelial amount, extracellular chemokine protein and recipient selection/state are not jointly measured. Imaging area/read depth are imperfect proxies and may be treatment consequences.
+
+Retain the failed broad predictor. A focal extension would specify an extracellular output and how source amount and recipient context affect its interpretation. Concordant RNA/protein changes in qualified units would advance the output question; RNA-only or selection-dependent effects would restrict it. Another general predictor or RNA score does not supply secretion.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,21 +75,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A22: reviewed matte qualitative illustration](schematics/A22_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A22_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** All seven focal chemokine RNA effects are already available after NKX2-1 perturbation. The small broad-identity predictor gain fails whole-plate transfer and disappears without NKX2-1.
+
+**Remaining discriminator:** Viable source-cell amount, extracellular protein output and recipient selection are not jointly measured. Reuse the focal RNA screen; do not repeat the broad predictor or infer secretion from RNA.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -120,3 +161,5 @@ in the [pipeline](PIPELINE.md#run-the-intake).
 The pipeline draft remains historical. The executed extension uses a separate
 exploratory contract and adds one current figure. No functional result or
 claim-grade promotion is reported.
+
+</details>

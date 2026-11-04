@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A18.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Existing spatial descriptions separate WT-neighbor size from AT2-identity fraction and retain the log-size/logit-fraction sensitivity and declining distal occupancy. Spatial rows lack verified mouse/clone/pair linkage and may repeat neighbors. Separate mouse-indexed arrays cannot be joined by assumption. Molecular mediator/range and animal-level distance interactions remain unestimated. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point
@@ -16,17 +20,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Source Figures 5–6 motivate both outcomes, but available pooled spatial data lack the mouse/clone identities required for the proposed independent-unit comparison. SPP1/DLK1 remain nominated interactions.
+The exposed pooled-pair analysis measures WT-neighbor size and the pro-Sftpc-negative fraction, an identity-loss proxy. Size-gradient separation from homeostatic references holds at one and two weeks under both original and dense-bin estimators; four-week separation depends on the estimator. Identity-loss distance slopes have inconsistent signs, which does not demonstrate distance independence. Log-size/logit-fraction sensitivity and declining distal occupancy remain relevant, but the two transformed slopes are not biologically interchangeable. Spatial rows lack verified mouse/clone/pair linkage and may repeat neighbors; separate mouse-indexed arrays cannot be joined to these rows by assumption.
 
-
-Exact current result locators:
-
-- [Research Article/gate2_C2_england_2025/README.md](../../Research%20Article/gate2_C2_england_2025/README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Corrected interpretation and spatial-unit audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md#a18-retain-as-a-conditional-mechanism-question) · [Deposited spatial description](../../Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md#fu_w--the-sources-growth-versus-differentiation-decoupling-recovered-from-the-deposit). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Measure absolute WT lineage expansion separately from qualified alveolar identity and loss. Dissociation could sharpen the biological question, while two measured outcomes alone do not identify two signalling mechanisms.
+A useful separation of descriptive readouts and correction of an earlier mechanistic story. Different size and identity patterns do not establish two independent channels, identify a mediator or estimate an animal-level distance interaction.
+
+Qualified spatial units and linked growth/identity measurements remain missing for the joint biological question. Pooled neighborhoods are not independent animals, and a marker fraction is not a directly traced fate change.
 
 ## Current hypothesis and rival
 
@@ -36,7 +38,7 @@ The local mutant epithelial context may alter absolute expansion of neighboring 
 
 ## What the comparison would teach
 
-A context-dependent change in absolute WT descendants without corresponding identity loss, or the reverse, would support outcome dissociation. Coupled changes explained by survival or pooled lineage mixture would not. Measure lineage identity, absolute yield and survival separately within mapped animals.
+Retain the descriptive distinction without assigning channels. A unit-qualified joint comparison could show whether growth and identity changes dissociate; concordance or dissociation would then constrain which explanation merits study. A molecular candidate needs its own published or independently measured rationale; the shape of these pooled spatial plots alone does not select one.
 
 ## Hypothesis schematic
 

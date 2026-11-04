@@ -1,0 +1,40 @@
+{
+  "inspection_date_local": "2026-11-04 before halt; documented at authorized restart",
+  "repository": "https://github.com/miller-jensen-lab/il4-pulse-macrophage-rnaseq",
+  "tree_sha": "6a8186779cb51c81c9909a615e387138481cf1b9",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "blob_sha": "e48e20811feba5f63ebd3a20d9152d4f28e3b0c7"
+    },
+    {
+      "path": "Feature Counts to DDS_24hrs.R",
+      "blob_sha": "76921cd45998804d5ced111b4d91cfdda4629424"
+    },
+    {
+      "path": "Feature Counts to DDS_4hrs.R",
+      "blob_sha": "95a91df2bcc295f561e782ffca2d9e36d4a9c344"
+    },
+    {
+      "path": "03_02_26_DDS to Union Table Final code.R",
+      "blob_sha": "7eab8a10b95dd666ed0f5f568e7059b1591f3dba"
+    }
+  ],
+  "inspected_sections": [
+    "README Data Availability and Repository Contents",
+    "24-hour script Steps1-3 inputs and metadata"
+  ],
+  "facts": {
+    "GEO": "GSE322520",
+    "24h_script_input_basename": "gene_counts_24hours_CvsP copy.txt",
+    "24h_script_documented_samples": 9,
+    "conditions_from_names": [
+      "control",
+      "continuous",
+      "pulse"
+    ],
+    "counts_or_RDS_in_inspected_tree": false
+  },
+  "limit": "Repository tree/code observation, not biological-unit validation or proof of global data absence."
+}

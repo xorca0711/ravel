@@ -2,11 +2,11 @@
 
 ## Organizing Biological Q
 
-How broadly does Cebpa loss attenuate AT2 identity, and is there an additional effect associated with independently defined states?
+Does CEBPA perturbation have a different consequence depending on the epithelial starting state, or does a changed reference state alter the apparent contrast?
 
-**Unresolved gap:** How much of the apparent reference-versus-transition compression survives independent state definitions and valid biological replication is unresolved. Broad identity change and an additional state interaction can coexist.
+Broad attenuation of epithelial identity after CEBPA loss is already a published premise. The additional question concerns starting-state dependence rather than rediscovery of general identity loss.
 
-[Working hypothesis and competing explanations](../../docs/research_dossiers/A7.md#working-hypothesis) · [Canonical card](../../RESEARCH_QUESTIONS.md#a7).
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A7.md) · [Source context](LITERATURE_CONTEXT.md).
 
 <!-- literature-visual-context:start -->
 <a id="literature-context-and-visual-hypothesis"></a>
@@ -21,7 +21,48 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and
 cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A7_gpt_matte_v1.prompt.txt). Earlier artwork is retained as history.
 <!-- literature-visual-context:end -->
 
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+ES1 measures context-dependent label-versus-reference RNA-panel detection at 2,000 UMIs per retained cell. The Cldn4/Krt8 call and Sftpc-conditioned reference are defined after treatment; the label-free ADI contrast differs across contexts, rather than testing an independently manipulated reference or starting state. Six CEBPA-condition wells and four separate AP-1 wells are pooled libraries, not a replicated starting-state interaction. Technical seeds and reusing these outcomes add no independent biological replication.
+
+[Current result, design and limits](../../Research%20Article/epithelial_state_specificity/results/SUMMARY.md).
+
+**Rationale check.** Useful measurement and design correction. The evidence has not selected a selectively vulnerable starting population or demonstrated that initial competence determines response. The distinction is worth testing, but it was not established by the reference-dependent RNA pattern.
+
+## Current interpretation and next decision
+
+Qualified pre-intervention state and independent preparation information remain missing for the interaction question. Separate perturbation series do not supply a factorial comparison by proximity.
+
+Keep the conditional panel contrasts and reference-selection limitation as results. A future state-dependent effect comparison needs a defensible starting-state measurement and units appropriate to that question. A reproducible interaction would support state dependence; an effect explained by a changed reference would limit it. No additional post-treatment relabelling can recover the missing starting history.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
+## Organizing Biological Q
+
+How broadly does Cebpa loss attenuate AT2 identity, and is there an additional effect associated with independently defined states?
+
+**Unresolved gap:** How much of the apparent reference-versus-transition compression survives independent state definitions and valid biological replication is unresolved. Broad identity change and an additional state interaction can coexist.
+
+[Working hypothesis and competing explanations](../../docs/research_dossiers/A7.md#working-hypothesis) · [Canonical card](../../RESEARCH_QUESTIONS.md#a7).
+
+
+
 ## Current evidence and interpretation
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The completed CEBPA/AP1 conditional screens retain pooled-well and gating sensitivities; a post-treatment identity gate is not the starting epithelial state.
+
+**Remaining discriminator:** A baseline-state-by-perturbation contrast needs baseline-linked units. Current pooled post-treatment samples cannot identify that interaction, so no replacement state score is added.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -55,3 +96,5 @@ Audit state definitions, pooled-source identities and animal-level replication i
 [Plan and existing implementation](PLAN.md) · [Full scientific dossier](../../docs/research_dossiers/A7.md) · [Current interpretation boundary](../../docs/research_dossiers/A7.md#interpretation-boundary).
 
 This folder is the question home. Existing paper-owned analyses, shared code and frozen runs retain their original ownership and paths.
+
+</details>

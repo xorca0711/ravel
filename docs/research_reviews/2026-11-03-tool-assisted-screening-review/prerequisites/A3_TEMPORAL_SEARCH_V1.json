@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-03",
+  "request": {
+    "endpoint": "esearch",
+    "params": {
+      "db": "gds",
+      "term": "GSE[ETYP] AND macrophage AND (IL4 OR \"IL-4\" OR IL13 OR \"IL-13\") AND (ATAC OR accessibility) AND (time OR withdrawal OR restimulation OR memory)",
+      "retmode": "json",
+      "retmax": 10
+    },
+    "max_items": 10
+  },
+  "compact_response": {
+    "ok": true,
+    "source": "ncbi-entrez",
+    "endpoint": "esearch",
+    "record_path": "esearchresult.idlist",
+    "raw_output_path": null,
+    "warnings": [],
+    "record_count_returned": 10,
+    "record_count_available": 10,
+    "truncated": false,
+    "records": [
+      "200287605",
+      "200324240",
+      "200324239",
+      "200261697",
+      "200261696",
+      "200247938",
+      "200278051",
+      "200278050",
+      "200278048",
+      "200247945"
+    ]
+  }
+}

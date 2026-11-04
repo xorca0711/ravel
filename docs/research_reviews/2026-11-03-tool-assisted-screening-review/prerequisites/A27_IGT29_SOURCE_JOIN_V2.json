@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "scope": "source annotation coverage and exact identifier concordance only; no clone/state concentration",
+  "inputs": {
+    "A27_IGT29_BARCODE_JOIN_V1.tsv": "94194451e977f6a8fc5862985172700d5959a1f86f844ef6efacbfb1c3b6ed39",
+    "separate_annotation_subset": "96c19fd2acc9645c48f48c0eeda49dbef5bf90b1e5c9694e6e3fccec661d698f"
+  },
+  "join_rows": 13332,
+  "coverage_by_join_disposition": {
+    "both": {
+      "total": 12389,
+      "separate_annotation": 12389,
+      "no_separate_annotation": 0
+    },
+    "GEX_only": {
+      "total": 589,
+      "separate_annotation": 564,
+      "no_separate_annotation": 25
+    },
+    "receptor_only": {
+      "total": 354,
+      "separate_annotation": 0,
+      "no_separate_annotation": 354
+    }
+  },
+  "annotation_hashtag_conflicts": 0,
+  "shared_label_conflicts": 0,
+  "source_CD8_level2_codes": [
+    "CD8.A",
+    "CD8.B",
+    "CD8.C",
+    "CD8.D",
+    "CD8.E",
+    "CD8.F",
+    "CD8.G",
+    "CD8.H",
+    "CD8.I",
+    "CD8.J",
+    "CD8.K",
+    "CD8.P",
+    "CD8.Q",
+    "CD8.R",
+    "CD8.S",
+    "CD8.T",
+    "CD8.wM",
+    "CD8.wV",
+    "CD8.wX",
+    "CD8.wY"
+  ],
+  "output_sha256": "51d1fa052bd86199568a971c43a3d16a472a6b0e639d2dfe8d7370f1e49775e6",
+  "interpretation": "V1 source_level columns came from the receptor table; blank GEX-only labels there do not establish missing separate RNA-state annotation. Separate annotation fields are kept distinct."
+}

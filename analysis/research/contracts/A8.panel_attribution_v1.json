@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A8.panel_attribution_v1",
+  "owner": "A8",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which fixed early and late AT1 panel constituents produce the original ES1 RNA detection contrasts?",
+  "decision": "Clarify measured panel attribution before interpreting an apparent maturation difference; retain original unfavorable or unsupported contrasts.",
+  "strongest_rival": "Joint RNA sampling, sparse detection and reference selection can change panel measurements without altered maturation or future AT1 contribution.",
+  "discriminator": "All seven original panel genes, both original technical draws and the same full joint sampling universe; reconstruct original early/late module and support results.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A8_ATTRIBUTION_SPEC_V1.md",
+    "RQ_Specified/A8_maturation_component_at1_contribution/LITERATURE_CONTEXT.md",
+    "Research Article/epithelial_state_specificity/results/SUMMARY.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original ES1 module outcomes are exposed. Exact panel membership, all five source feature maps and full 1503-gene order reviewed before new per-gene draws. Both seeds are technical sensitivity, not new independent evidence.",
+  "biological_unit": "Ten original pooled multiome libraries and original external source-identified animals, with cells nested within units.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Each multiome condition is one pooled library. Two seeds reuse cells. External animals were previously analyzed, with no neonatal arm; none of these is independent confirmation.",
+  "population_and_selection": "All original ES1 units and external author-labelled alveolar cells. Same barcode order, full RNA depth at least 2000, airway sum no greater than alveolar sum; identical within-unit seed restart and gate labels.",
+  "contrast": "Two-marker Cldn4/Krt8 detected minus Sftpc-detected non-two-marker reference, within each unit and seed; descriptive only.",
+  "endpoint": "Seven member detected counts/fractions and panel-normalized constituent contributions; early three-gene and late four-gene module detection differences.",
+  "methods": "Hash-bound original read_10x, joint_sample and external read logic with a new run-only callback. Full sorted 1503-gene universe and residual category, budget 2000 and seeds 17/29. Save cell identities, filter primitives, sampled panel/gate counts and support. Require original module/support/contrast parity within 1e-10.",
+  "missingness_and_exclusions": "Keep every original failed-support row. Interpretation requires both groups at least 30 cells and original coverage at least 0.8. Missing features, unit/order/source conflict or parity failure stops; no seed or gate tuning.",
+  "multiplicity": "Every early/late member, both seeds and every original unit retained without ranking, new targets or inferential tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Original support thresholds describe measurement eligibility, not power. Pooled wells and technical seeds cannot estimate independent biological variance.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Panel detection and attribution do not identify maturation, future AT1 contribution, lineage or reversibility. Reused full AT1/ADI summaries remain context; no replacement program or factorial comparison.",
+  "stop_rule": "Stop on source/hash/feature/order/identity/raw-domain or original support/score conflict; preserve failed attempts without tuning.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE247130/GSE247130_Aggregate.P9_filtered_feature_bc_matrix.h5",
+      "sha256": "34bdad122f8c42346e1512d667ff05dba9210891cf6e27fa7ea09575a8834bce",
+      "study_id": "Original_ES1_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE247130/GSE247130_Aggregate7-wk_filtered_feature_bc_matrix.h5",
+      "sha256": "ceed18eb1ec80a1d3feee78c459d52b0d240ab50793ffa46a4e0ce08e47e63c1",
+      "study_id": "Original_ES1_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE247130/GSE247130_Aggregate_SeV_filtered_feature_bc_matrix.h5",
+      "sha256": "73f38005269ee779d88eba2bf9088a4920ca5cc31935f647dc2cd9d065466f64",
+      "study_id": "Original_ES1_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE310539/GSE310539_totalaggr_filtered_feature_bc_matrix.h5",
+      "sha256": "43858a93fad7990a4a6adf06e27d0c3f47947696c01e8d72d74ab4527609adbb",
+      "study_id": "Original_ES1_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate1_01_niethamer_2025/GSE262927/processed/postQC.h5ad",
+      "sha256": "d4f3cfbe81b6e8f6665205e3bb731c6baeef611e5b43bfe522593f7fabaa9dc1",
+      "study_id": "Original_ES1_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/epithelial_state_specificity/modules.json",
+      "sha256": "64ceac751679f6dcbc5be48cbee7a6ea4bba17ad39ff1ba2eebfdd575f78e12d",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/epithelial_state_specificity/results/module_scores.csv",
+      "sha256": "8e12a64755f1d9973a65a71b75be0752cf34c395d2f8597fb6d938993f3da707",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/epithelial_state_specificity/results/within_unit_effects.csv",
+      "sha256": "d70607b73d7135c71acd419cccaf3ac9016322c09e4b4817b9942f5166017d23",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate1_01_niethamer_2025/trials/w1_amac_pseudobulk_de/w1_units.csv",
+      "sha256": "4272aae8f1356fe242a1ad8d63455e4addd204d6b9c87830add56ef090083552",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A8_INPUT_MAP_V1.json",
+      "sha256": "82f2d8a6795cf0f89a7a56dcbfbcb379b0dd90e752e9d00fb74452c0868c15aa",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A8_ATTRIBUTION_SPEC_V1.md",
+      "sha256": "3eb630f2def98a4d0fbefbafaa2ce4f10a5404fb7ac9cf0ea1667a5c69e9d4d3",
+      "study_id": "Original_ES1_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A8_maturation_component_at1_contribution/scripts/panel_attribution_v1.py",
+      "sha256": "cafc0c1f0180b2019e40b6dbc19619cc206f9db88bada3836559ac05088ceb04"
+    },
+    {
+      "path": "Research Article/epithelial_state_specificity/run_es1.py",
+      "sha256": "4b510b27f775b08a9eecaabb204d163b915a5e76a7a28fc7a3ec62eef37fe321"
+    },
+    {
+      "path": "Research Article/epithelial_state_specificity/modules.json",
+      "sha256": "64ceac751679f6dcbc5be48cbee7a6ea4bba17ad39ff1ba2eebfdd575f78e12d"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A8_INPUT_MAP_V1.json",
+      "sha256": "82f2d8a6795cf0f89a7a56dcbfbcb379b0dd90e752e9d00fb74452c0868c15aa"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A8_maturation_component_at1_contribution/scripts/panel_attribution_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "module_scores.tsv",
+    "member_detection.tsv",
+    "within_unit_effects.tsv",
+    "member_contrasts.tsv",
+    "retention.tsv",
+    "original_parity.tsv",
+    "cell_filter_primitives.tsv.gz",
+    "cell_draw_primitives.tsv.gz",
+    "external_population_inventory.csv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New fixed constituent attribution of the same ES1 early/late panels; original scripts and outputs immutable. Execute on task-owned X: checkout with identical relative inputs and frozen commit."
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_id": "A27.source_code_concentration_v1",
+  "mice": [
+    "mouse0088",
+    "mouse0089",
+    "mouse0090",
+    "mouse0091",
+    "mouse0092",
+    "mouse0093",
+    "mouse0094",
+    "mouse0095",
+    "mouse0096"
+  ],
+  "source_codes": [
+    "CD8.A",
+    "CD8.B",
+    "CD8.C",
+    "CD8.D",
+    "CD8.E",
+    "CD8.F",
+    "CD8.G",
+    "CD8.H",
+    "CD8.I",
+    "CD8.J",
+    "CD8.K",
+    "CD8.P",
+    "CD8.Q",
+    "CD8.R",
+    "CD8.S",
+    "CD8.T",
+    "CD8.wM",
+    "CD8.wV",
+    "CD8.wX",
+    "CD8.wY"
+  ],
+  "union_rows": 13332,
+  "source_CD8_GEX": 6293,
+  "primary_cells": 3252,
+  "sensitivity_cells": 3792,
+  "concentration_rows": 378,
+  "support_rows": 189,
+  "source_flag_scalar_checks": 173316,
+  "strict_subset_partition_parity": true,
+  "source_code_computable_strata": {
+    "single_pair_primary": 97,
+    "complete_set_sensitivity": 102
+  },
+  "scope": "Finite captured-cell operational-key description conditioned on nominal source codes; no receptor-independent state construction, biological redistribution or age effect established; conventions differ in eligible population and chain observation."
+}

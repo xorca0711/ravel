@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A9.receptor_context_v1",
+  "owner": "A9",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What six-gene receptor and feedback RNA context accompanies the original AREG recipient labels?",
+  "decision": "Identify measured recipient context for a later functional comparison, retaining the original failed complex-coverage result.",
+  "strongest_rival": "RNA dropout, library depth and cell annotation can generate expression differences without functional receptor competence.",
+  "discriminator": "Fixed six-gene profiles and EGFR/ERBB2 co-detection within original donor/recipient strata; Myofibroblast minus Fibroblast only when both retain the original ten-cell threshold.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A9_RECIPIENT_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A9_TARGET_SOURCE_REVIEW.md",
+    "analysis/corrections/ligand/results/lr/scope.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original ligand and receptor results are exposed. The six target roles, source count layer, donor identities and subtype support were reviewed before this new screen. This is an exposed descriptive extension, not confirmation.",
+  "biological_unit": "Original 22 source donors; cells are nested in Fibroblast and Myofibroblast labels.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Same GSE136831 donors and source cells as the original corrected ligand analysis; no independent replication.",
+  "population_and_selection": "Original 22 donors with at least 50 epithelial and 50 combined Fibroblast/Myofibroblast cells. Each recipient subtype requires at least 10 cells; preserve all 44 attempted strata. No new disease contrast.",
+  "contrast": "Myofibroblast minus Fibroblast within each original donor; no cell-level inference.",
+  "endpoint": "Six marginal raw-count and detection profiles, mean per-cell natural log1p(CP10k), and EGFR/ERBB2 co-detection with all-recipient-cell denominator.",
+  "methods": "Read original integer CSR X and full-feature cell libraries. Save per-cell target counts, IDs and normalized values. Independently check scalar logs, original donor/support parity, co-detection set bounds and all fixed pairs.",
+  "missingness_and_exclusions": "Missing or ambiguous targets, noninteger/negative counts, invalid libraries or cohort mismatch stop. Below-ten-cell strata and unsupported donor pairs remain explicit, without threshold relaxation.",
+  "multiplicity": "All six genes and all donor/recipient and attempted pair rows retained. No significance tests, ligand ranks, complex refit or new signed index.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Descriptive donor profiles with existing support; thresholds are not power calculations and cells are not independent donors.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "RNA and co-detection do not establish receptor assembly, signaling, localization or AREG dependence. ERBB3/ERBB4 are family context, not direct AREG receptors; feedback RNA is not effective inhibition. Original 7/22 complex coverage below 11 remains failed.",
+  "stop_rule": "Stop on hash, source, layer, feature, cohort, raw-domain, library or arithmetic conflict; retain failed evidence.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/c12_epithelial_stromal.h5ad",
+      "sha256": "50b8ea96924bdbafb05ae5148f71ab5661d571ed0bb2b498fbb55289985242b1",
+      "study_id": "GSE136831",
+      "unit_ids": [
+        "010I",
+        "021I",
+        "022I",
+        "034I",
+        "040I",
+        "041I",
+        "49I",
+        "051I",
+        "59I",
+        "063I",
+        "098C",
+        "123I",
+        "135I",
+        "138I",
+        "166I",
+        "174I",
+        "192C",
+        "222C",
+        "222I",
+        "225I",
+        "228I",
+        "1372C"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/corrections/ligand/results/lr/scope.json",
+      "sha256": "1f58d960c855f523ec5e0bff50a73139578e22252b270d15b4b90a1deb0caf6f",
+      "study_id": "A9_original_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A9_INPUT_MAP_V1.json",
+      "sha256": "42885b0da27d9cde863a0516cf718018eb2b6e0c7a10ba205215bf5c8b326917",
+      "study_id": "A9_original_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A9_RECIPIENT_SPEC_V1.md",
+      "sha256": "46d02652b269dd8a04b5dc150ee75eed8c0bb16c3c2c6f620f8e05bba6cae46b",
+      "study_id": "A9_original_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/A9_TARGET_SOURCE_REVIEW.md",
+      "sha256": "7b76712dab198b4e8bef73ddbf1edfabab35d0f1e1de4784e52bc82af9f48094",
+      "study_id": "A9_original_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A9_areg_recipient_competence/scripts/receptor_context_v1.py",
+      "sha256": "bc41d627456790721cef4f9586ca64262802d22ccddf7db925a665ce11e22d5b"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A9_INPUT_MAP_V1.json",
+      "sha256": "42885b0da27d9cde863a0516cf718018eb2b6e0c7a10ba205215bf5c8b326917"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A9_areg_recipient_competence/scripts/receptor_context_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_receptor_primitives.tsv.gz",
+    "recipient_support.tsv",
+    "recipient_gene_profiles.tsv",
+    "egfr_erbb2_codetection.tsv",
+    "within_donor_recipient_pairs.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New bounded receptor-context view of the same source; no change to historical ligand/complex results. Execute on task-owned X: checkout due C: capacity with identical relative paths and freeze."
+}

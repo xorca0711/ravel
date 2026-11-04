@@ -1,5 +1,52 @@
 # A0 — Conserved epithelial transition programme
 
+## Organizing Biological Q
+
+What can be shared across epithelial transitions, and what boundary does the failed frozen lung-to-intestine transfer place on that proposal?
+
+Lung repair intermediates and developmental programmes motivate shared-transition biology. Similar RNA features across organs do not establish equivalent starting states, endpoints or a fate-controlling mechanism.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A0.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A0: reviewed matte qualitative illustration](schematics/A0_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A0_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The frozen 50-gene lung programme passed its discovery comparison but failed the specified intestinal intermediate-versus-mature ordering in three mice; only one mouse had the intended positive direction. The intermediate-versus-stem result does not rescue the failed mature-endpoint contrast. The prespecified stop pruned later specificity tests.
+
+Discovery used nine injured-lung mice and eleven early human-airway donors; its favorable contrasts are selected estimates, not independent confirmation. Prior Strunz/A5 outcomes were exposed. The 50-gene membership was fixed before scoring the three intestinal mice. The endpoint is a within-cell percentile-rank RNA score averaged by biological unit/state, not fate or function; species, assay, state mapping and untested lung specificity remain limits.
+
+[Current result, design and limits](reports/PILOT_V1_RESULTS.md).
+
+**Rationale check.** Informative failed generalization. The result restricts this signature, population mapping and endpoint contrast, not all conserved repair biology. Selecting a replacement gene set using the failed target would create a new exposed question rather than rescue the frozen transfer.
+
+## Current interpretation and next decision
+
+The failed RNA ordering does not distinguish a tissue-specific signature from noncomparable states, timing, species or assay effects; conserved function was not measured. None of these explanations is selected by the negative result.
+
+Retain the stopped transfer. Review the source-recovery evidence for an independent biological rationale for a different mapping question. Without one, do not tune the signature again. With one, specify a new exposed comparison and informative outcomes separately; the original failure remains unchanged.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -29,19 +76,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A0: reviewed matte qualitative illustration](schematics/A0_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A0_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -138,3 +173,5 @@ controls and stage decisions are separate; it does not reopen pilot_v1's pruned 
 The earlier replication gaps describe this run's chosen cohorts, not all A0 work.
 
 Read its [report](reports/EXPLORATORY_PILOT_REPORT.md), [stage decisions](stage_decisions.json), [status](exploratory_readiness.json) and [reproduction instructions](EXPLORATORY_REPRODUCING.md). The full 50-gene program remains near zero in the selected intestinal comparison; an initially positive 31-gene control variant weakens after depth matching. The decision is to narrow the interpretation and stop broader expansion of this signature.
+
+</details>

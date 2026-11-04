@@ -1,0 +1,981 @@
+cohort	unit	unit_type	genotype	stage	injury	seed	group	module	gene	n_cells	present	n_detected	detection	contribution	interpretable	independence
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_early_panel	Lmo7	182	True	127	0.6978021978021978	0.23260073260073258	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_early_panel	Pdpn	182	True	9	0.04945054945054945	0.016483516483516484	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_early_panel	Hopx	182	True	25	0.13736263736263737	0.04578754578754579	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_late_panel	Aqp5	182	True	23	0.12637362637362637	0.03159340659340659	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_late_panel	Vegfa	182	True	32	0.17582417582417584	0.04395604395604396	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_late_panel	Cav1	182	True	9	0.04945054945054945	0.012362637362637362	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	two_marker	AT1_late_panel	Spock2	182	True	11	0.06043956043956044	0.01510989010989011	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_early_panel	Lmo7	10880	True	6587	0.6054227941176471	0.2018075980392157	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_early_panel	Pdpn	10880	True	997	0.0916360294117647	0.0305453431372549	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_early_panel	Hopx	10880	True	1745	0.16038602941176472	0.05346200980392157	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_late_panel	Aqp5	10880	True	2216	0.2036764705882353	0.05091911764705882	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_late_panel	Vegfa	10880	True	3131	0.28777573529411765	0.07194393382352941	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_late_panel	Cav1	10880	True	1038	0.09540441176470588	0.02385110294117647	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	17	reference	AT1_late_panel	Spock2	10880	True	1290	0.11856617647058823	0.029641544117647058	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_early_panel	Lmo7	209	True	133	0.6363636363636364	0.21212121212121213	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_early_panel	Pdpn	209	True	12	0.05741626794258373	0.019138755980861243	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_early_panel	Hopx	209	True	37	0.17703349282296652	0.059011164274322174	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_late_panel	Aqp5	209	True	42	0.20095693779904306	0.050239234449760764	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_late_panel	Vegfa	209	True	35	0.1674641148325359	0.041866028708133975	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_late_panel	Cav1	209	True	9	0.0430622009569378	0.01076555023923445	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	two_marker	AT1_late_panel	Spock2	209	True	8	0.03827751196172249	0.009569377990430622	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_early_panel	Lmo7	10853	True	6547	0.6032433428545103	0.20108111428483677	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_early_panel	Pdpn	10853	True	990	0.09121901778310144	0.030406339261033814	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_early_panel	Hopx	10853	True	1726	0.15903436837740717	0.05301145612580239	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_late_panel	Aqp5	10853	True	2130	0.1962590988666728	0.0490647747166682	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_late_panel	Vegfa	10853	True	3116	0.2871095549617617	0.07177738874044043	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_late_panel	Cav1	10853	True	1037	0.09554961761724869	0.02388740440431217	True	
+GSE247130	P9_control	pooled_library	control	P9	uninjured	29	reference	AT1_late_panel	Spock2	10853	True	1272	0.1172026167879849	0.029300654196996224	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_early_panel	Lmo7	412	True	294	0.7135922330097088	0.23786407766990292	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_early_panel	Pdpn	412	True	33	0.08009708737864078	0.026699029126213594	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_early_panel	Hopx	412	True	72	0.17475728155339806	0.05825242718446602	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_late_panel	Aqp5	412	True	95	0.23058252427184467	0.05764563106796117	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_late_panel	Vegfa	412	True	127	0.308252427184466	0.0770631067961165	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_late_panel	Cav1	412	True	30	0.07281553398058252	0.01820388349514563	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	two_marker	AT1_late_panel	Spock2	412	True	28	0.06796116504854369	0.01699029126213592	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_early_panel	Lmo7	10258	True	6701	0.653246246831741	0.2177487489439137	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_early_panel	Pdpn	10258	True	1102	0.10742834860596608	0.03580944953532202	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_early_panel	Hopx	10258	True	1745	0.17011113277441997	0.05670371092480666	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_late_panel	Aqp5	10258	True	1765	0.17206083057126145	0.04301520764281536	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_late_panel	Vegfa	10258	True	3566	0.3476311171768376	0.0869077792942094	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_late_panel	Cav1	10258	True	956	0.0931955546890232	0.0232988886722558	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	17	reference	AT1_late_panel	Spock2	10258	True	1120	0.10918307662312342	0.027295769155780854	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_early_panel	Lmo7	446	True	309	0.6928251121076233	0.23094170403587444	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_early_panel	Pdpn	446	True	41	0.09192825112107623	0.030642750373692077	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_early_panel	Hopx	446	True	72	0.16143497757847533	0.05381165919282511	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_late_panel	Aqp5	446	True	99	0.2219730941704036	0.0554932735426009	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_late_panel	Vegfa	446	True	142	0.3183856502242152	0.0795964125560538	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_late_panel	Cav1	446	True	31	0.06950672645739911	0.017376681614349777	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	two_marker	AT1_late_panel	Spock2	446	True	36	0.08071748878923767	0.020179372197309416	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_early_panel	Lmo7	10224	True	6707	0.6560054773082942	0.21866849243609807	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_early_panel	Pdpn	10224	True	1062	0.10387323943661972	0.034624413145539906	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_early_panel	Hopx	10224	True	1690	0.16529733959311424	0.05509911319770475	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_late_panel	Aqp5	10224	True	1752	0.17136150234741784	0.04284037558685446	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_late_panel	Vegfa	10224	True	3564	0.3485915492957746	0.08714788732394366	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_late_panel	Cav1	10224	True	937	0.09164710485133021	0.022911776212832552	True	
+GSE247130	P9_Cebpa_mutant	pooled_library	Cebpa_mutant	P9	uninjured	29	reference	AT1_late_panel	Spock2	10224	True	1077	0.10534037558685445	0.026335093896713613	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_early_panel	Lmo7	30	True	21	0.7	0.2333333333333333	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_early_panel	Pdpn	30	True	1	0.03333333333333333	0.011111111111111112	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_early_panel	Hopx	30	True	12	0.4	0.13333333333333333	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_late_panel	Aqp5	30	True	3	0.1	0.025	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_late_panel	Vegfa	30	True	7	0.23333333333333334	0.058333333333333334	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_late_panel	Cav1	30	True	1	0.03333333333333333	0.008333333333333333	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	two_marker	AT1_late_panel	Spock2	30	True	2	0.06666666666666667	0.016666666666666666	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_early_panel	Lmo7	6863	True	4191	0.6106658895526738	0.2035552965175579	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_early_panel	Pdpn	6863	True	288	0.04196415561707708	0.013988051872359027	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_early_panel	Hopx	6863	True	856	0.12472679586186798	0.04157559862062266	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_late_panel	Aqp5	6863	True	1701	0.2478507941133615	0.061962698528340375	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_late_panel	Vegfa	6863	True	1836	0.2675214920588664	0.0668803730147166	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_late_panel	Cav1	6863	True	342	0.04983243479527903	0.012458108698819758	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	17	reference	AT1_late_panel	Spock2	6863	True	316	0.04604400407984846	0.011511001019962115	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_early_panel	Lmo7	26	True	18	0.6923076923076923	0.23076923076923075	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_early_panel	Pdpn	26	True	2	0.07692307692307693	0.025641025641025644	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_early_panel	Hopx	26	True	5	0.19230769230769232	0.06410256410256411	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_late_panel	Aqp5	26	True	6	0.23076923076923078	0.057692307692307696	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_late_panel	Vegfa	26	True	5	0.19230769230769232	0.04807692307692308	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_late_panel	Cav1	26	True	0	0.0	0.0	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	two_marker	AT1_late_panel	Spock2	26	True	2	0.07692307692307693	0.019230769230769232	False	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_early_panel	Lmo7	6868	True	4189	0.6099301106581246	0.20331003688604155	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_early_panel	Pdpn	6868	True	327	0.04761211415259173	0.015870704717530576	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_early_panel	Hopx	6868	True	827	0.12041351193942924	0.040137837313143084	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_late_panel	Aqp5	6868	True	1728	0.2516016307513104	0.0629004076878276	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_late_panel	Vegfa	6868	True	1751	0.25495049504950495	0.06373762376237624	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_late_panel	Cav1	6868	True	316	0.046010483401281305	0.011502620850320326	True	
+GSE247130	7wk_control	pooled_library	control	7wk	uninjured	29	reference	AT1_late_panel	Spock2	6868	True	302	0.043972044263249854	0.010993011065812464	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_early_panel	Lmo7	78	True	51	0.6538461538461539	0.21794871794871795	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_early_panel	Pdpn	78	True	3	0.038461538461538464	0.012820512820512822	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_early_panel	Hopx	78	True	11	0.14102564102564102	0.04700854700854701	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_late_panel	Aqp5	78	True	20	0.2564102564102564	0.0641025641025641	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_late_panel	Vegfa	78	True	23	0.2948717948717949	0.07371794871794872	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_late_panel	Cav1	78	True	4	0.05128205128205128	0.01282051282051282	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	two_marker	AT1_late_panel	Spock2	78	True	2	0.02564102564102564	0.00641025641025641	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_early_panel	Lmo7	9726	True	6375	0.6554595928439235	0.21848653094797452	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_early_panel	Pdpn	9726	True	819	0.08420727945712524	0.028069093152375078	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_early_panel	Hopx	9726	True	1651	0.1697511823976969	0.056583727465898966	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_late_panel	Aqp5	9726	True	2038	0.20954143532798683	0.05238535883199671	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_late_panel	Vegfa	9726	True	3058	0.3144149701830146	0.07860374254575365	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_late_panel	Cav1	9726	True	771	0.07927205428747687	0.019818013571869218	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	17	reference	AT1_late_panel	Spock2	9726	True	541	0.05562410034957845	0.013906025087394613	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_early_panel	Lmo7	61	True	44	0.7213114754098361	0.24043715846994537	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_early_panel	Pdpn	61	True	2	0.03278688524590164	0.01092896174863388	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_early_panel	Hopx	61	True	8	0.13114754098360656	0.04371584699453552	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_late_panel	Aqp5	61	True	14	0.22950819672131148	0.05737704918032787	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_late_panel	Vegfa	61	True	12	0.19672131147540983	0.04918032786885246	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_late_panel	Cav1	61	True	6	0.09836065573770492	0.02459016393442623	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	two_marker	AT1_late_panel	Spock2	61	True	2	0.03278688524590164	0.00819672131147541	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_early_panel	Lmo7	9742	True	6357	0.6525354136727571	0.2175118045575857	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_early_panel	Pdpn	9742	True	798	0.08191336481215356	0.02730445493738452	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_early_panel	Hopx	9742	True	1641	0.1684459043317594	0.05614863477725313	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_late_panel	Aqp5	9742	True	2045	0.20991582837199754	0.052478957092999386	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_late_panel	Vegfa	9742	True	3069	0.3150277150482447	0.07875692876206118	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_late_panel	Cav1	9742	True	748	0.07678094847053993	0.019195237117634982	True	
+GSE247130	7wk_Cebpa_mutant	pooled_library	Cebpa_mutant	7wk	uninjured	29	reference	AT1_late_panel	Spock2	9742	True	548	0.056251283104085406	0.014062820776021352	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Lmo7	32	True	27	0.84375	0.28125	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Pdpn	32	True	6	0.1875	0.0625	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Hopx	32	True	10	0.3125	0.10416666666666667	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Aqp5	32	True	10	0.3125	0.078125	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Vegfa	32	True	4	0.125	0.03125	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Cav1	32	True	1	0.03125	0.0078125	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Spock2	32	True	0	0.0	0.0	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_early_panel	Lmo7	8519	True	4074	0.4782251437962202	0.15940838126540674	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_early_panel	Pdpn	8519	True	416	0.048832022537856554	0.016277340845952185	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_early_panel	Hopx	8519	True	621	0.07289587979809836	0.02429862659936612	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_late_panel	Aqp5	8519	True	1613	0.1893414720037563	0.04733536800093908	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_late_panel	Vegfa	8519	True	1732	0.2033102476816528	0.0508275619204132	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_late_panel	Cav1	8519	True	253	0.02969832139922526	0.007424580349806315	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	17	reference	AT1_late_panel	Spock2	8519	True	100	0.011738466956215518	0.0029346167390538794	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Lmo7	36	True	28	0.7777777777777778	0.25925925925925924	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Pdpn	36	True	6	0.16666666666666666	0.05555555555555555	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Hopx	36	True	11	0.3055555555555556	0.10185185185185186	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Aqp5	36	True	13	0.3611111111111111	0.09027777777777778	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Vegfa	36	True	5	0.1388888888888889	0.034722222222222224	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Cav1	36	True	0	0.0	0.0	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Spock2	36	True	0	0.0	0.0	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_early_panel	Lmo7	8515	True	4101	0.48162066940692894	0.16054022313564298	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_early_panel	Pdpn	8515	True	433	0.05085143863769818	0.016950479545899393	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_early_panel	Hopx	8515	True	637	0.07480916030534351	0.024936386768447838	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_late_panel	Aqp5	8515	True	1638	0.19236641221374046	0.048091603053435114	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_late_panel	Vegfa	8515	True	1703	0.2	0.05	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_late_panel	Cav1	8515	True	258	0.030299471520845566	0.0075748678802113915	True	
+GSE247130	SeV_control	pooled_library	control	adult_14dpi	SeV	29	reference	AT1_late_panel	Spock2	8515	True	93	0.01092190252495596	0.00273047563123899	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Lmo7	222	True	185	0.8333333333333334	0.2777777777777778	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Pdpn	222	True	14	0.06306306306306306	0.02102102102102102	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_early_panel	Hopx	222	True	37	0.16666666666666666	0.05555555555555555	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Aqp5	222	True	67	0.30180180180180183	0.07545045045045046	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Vegfa	222	True	62	0.27927927927927926	0.06981981981981981	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Cav1	222	True	8	0.036036036036036036	0.009009009009009009	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	two_marker	AT1_late_panel	Spock2	222	True	2	0.009009009009009009	0.0022522522522522522	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_early_panel	Lmo7	8528	True	5352	0.6275797373358349	0.20919324577861165	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_early_panel	Pdpn	8528	True	692	0.08114446529080675	0.027048155096935585	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_early_panel	Hopx	8528	True	899	0.10541744840525329	0.035139149468417764	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_late_panel	Aqp5	8528	True	2088	0.2448405253283302	0.06121013133208255	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_late_panel	Vegfa	8528	True	2870	0.33653846153846156	0.08413461538461539	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_late_panel	Cav1	8528	True	364	0.042682926829268296	0.010670731707317074	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	17	reference	AT1_late_panel	Spock2	8528	True	87	0.010201688555347092	0.002550422138836773	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Lmo7	214	True	169	0.7897196261682243	0.26323987538940813	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Pdpn	214	True	17	0.0794392523364486	0.0264797507788162	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_early_panel	Hopx	214	True	26	0.12149532710280374	0.040498442367601244	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Aqp5	214	True	64	0.29906542056074764	0.07476635514018691	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Vegfa	214	True	75	0.35046728971962615	0.08761682242990654	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Cav1	214	True	6	0.028037383177570093	0.007009345794392523	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	two_marker	AT1_late_panel	Spock2	214	True	1	0.004672897196261682	0.0011682242990654205	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_early_panel	Lmo7	8528	True	5407	0.6340290806754222	0.2113430268918074	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_early_panel	Pdpn	8528	True	664	0.07786116322701689	0.025953721075672297	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_early_panel	Hopx	8528	True	879	0.10307223264540338	0.03435741088180113	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_late_panel	Aqp5	8528	True	2103	0.24659943714821764	0.06164985928705441	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_late_panel	Vegfa	8528	True	2863	0.3357176360225141	0.08392940900562852	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_late_panel	Cav1	8528	True	347	0.040689493433395875	0.010172373358348969	True	
+GSE247130	SeV_Cebpa_mutant	pooled_library	Cebpa_mutant	adult_14dpi	SeV	29	reference	AT1_late_panel	Spock2	8528	True	98	0.01149155722326454	0.002872889305816135	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_early_panel	Lmo7	8	True	7	0.875	0.2916666666666667	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_early_panel	Pdpn	8	True	2	0.25	0.08333333333333333	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_early_panel	Hopx	8	True	2	0.25	0.08333333333333333	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_late_panel	Aqp5	8	True	3	0.375	0.09375	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_late_panel	Vegfa	8	True	2	0.25	0.0625	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_late_panel	Cav1	8	True	0	0.0	0.0	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	two_marker	AT1_late_panel	Spock2	8	True	1	0.125	0.03125	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_early_panel	Lmo7	5746	True	3030	0.5273233553776541	0.17577445179255136	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_early_panel	Pdpn	5746	True	692	0.12043160459450052	0.040143868198166836	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_early_panel	Hopx	5746	True	1629	0.2835015663069962	0.09450052210233206	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_late_panel	Aqp5	5746	True	1782	0.3101287852419074	0.07753219631047685	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_late_panel	Vegfa	5746	True	2021	0.3517229376957884	0.0879307344239471	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_late_panel	Cav1	5746	True	1186	0.20640445527323356	0.05160111381830839	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	17	reference	AT1_late_panel	Spock2	5746	True	1005	0.17490428123912286	0.043726070309780714	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_early_panel	Lmo7	14	True	10	0.7142857142857143	0.2380952380952381	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_early_panel	Pdpn	14	True	0	0.0	0.0	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_early_panel	Hopx	14	True	2	0.14285714285714285	0.047619047619047616	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_late_panel	Aqp5	14	True	2	0.14285714285714285	0.03571428571428571	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_late_panel	Vegfa	14	True	1	0.07142857142857142	0.017857142857142856	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_late_panel	Cav1	14	True	0	0.0	0.0	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	two_marker	AT1_late_panel	Spock2	14	True	0	0.0	0.0	False	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_early_panel	Lmo7	5742	True	3025	0.5268199233716475	0.1756066411238825	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_early_panel	Pdpn	5742	True	682	0.11877394636015326	0.03959131545338442	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_early_panel	Hopx	5742	True	1645	0.28648554510623475	0.09549518170207826	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_late_panel	Aqp5	5742	True	1773	0.30877742946708464	0.07719435736677116	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_late_panel	Vegfa	5742	True	2016	0.3510971786833856	0.0877742946708464	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_late_panel	Cav1	5742	True	1170	0.20376175548589343	0.050940438871473356	True	
+GSE310539	wildtype_PBS	pooled_library	wildtype	adult	uninjured	29	reference	AT1_late_panel	Spock2	5742	True	993	0.1729362591431557	0.04323406478578892	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_early_panel	Lmo7	58	True	41	0.7068965517241379	0.23563218390804597	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_early_panel	Pdpn	58	True	7	0.1206896551724138	0.040229885057471264	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_early_panel	Hopx	58	True	18	0.3103448275862069	0.10344827586206896	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_late_panel	Aqp5	58	True	29	0.5	0.125	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_late_panel	Vegfa	58	True	6	0.10344827586206896	0.02586206896551724	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_late_panel	Cav1	58	True	4	0.06896551724137931	0.017241379310344827	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	two_marker	AT1_late_panel	Spock2	58	True	1	0.017241379310344827	0.004310344827586207	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_early_panel	Lmo7	4659	True	2126	0.45632109894827216	0.15210703298275738	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_early_panel	Pdpn	4659	True	452	0.0970165271517493	0.03233884238391643	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_early_panel	Hopx	4659	True	657	0.14101738570508693	0.04700579523502898	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_late_panel	Aqp5	4659	True	1503	0.32260141661300706	0.08065035415325177	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_late_panel	Vegfa	4659	True	1155	0.24790727623953637	0.06197681905988409	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_late_panel	Cav1	4659	True	460	0.0987336338270015	0.024683408456750374	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	17	reference	AT1_late_panel	Spock2	4659	True	200	0.042927666881305004	0.010731916720326251	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_early_panel	Lmo7	73	True	58	0.7945205479452054	0.2648401826484018	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_early_panel	Pdpn	73	True	7	0.0958904109589041	0.0319634703196347	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_early_panel	Hopx	73	True	24	0.3287671232876712	0.1095890410958904	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_late_panel	Aqp5	73	True	36	0.4931506849315068	0.1232876712328767	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_late_panel	Vegfa	73	True	13	0.1780821917808219	0.04452054794520548	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_late_panel	Cav1	73	True	5	0.0684931506849315	0.017123287671232876	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	two_marker	AT1_late_panel	Spock2	73	True	2	0.0273972602739726	0.00684931506849315	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_early_panel	Lmo7	4641	True	2120	0.4567981038569274	0.15226603461897578	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_early_panel	Pdpn	4641	True	449	0.09674639086403793	0.03224879695467931	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_early_panel	Hopx	4641	True	627	0.13510019392372333	0.045033397974574445	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_late_panel	Aqp5	4641	True	1547	0.3333333333333333	0.08333333333333333	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_late_panel	Vegfa	4641	True	1179	0.2540400775694893	0.06351001939237233	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_late_panel	Cav1	4641	True	459	0.0989010989010989	0.024725274725274724	True	
+GSE310539	wildtype_SeV	pooled_library	wildtype	adult	SeV	29	reference	AT1_late_panel	Spock2	4641	True	194	0.041801335918982975	0.010450333979745744	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_early_panel	Lmo7	15	True	8	0.5333333333333333	0.17777777777777778	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_early_panel	Pdpn	15	True	2	0.13333333333333333	0.044444444444444446	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_early_panel	Hopx	15	True	5	0.3333333333333333	0.1111111111111111	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_late_panel	Aqp5	15	True	7	0.4666666666666667	0.11666666666666667	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_late_panel	Vegfa	15	True	5	0.3333333333333333	0.08333333333333333	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_late_panel	Cav1	15	True	1	0.06666666666666667	0.016666666666666666	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	two_marker	AT1_late_panel	Spock2	15	True	1	0.06666666666666667	0.016666666666666666	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_early_panel	Lmo7	8845	True	4641	0.5247032221594121	0.17490107405313737	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_early_panel	Pdpn	8845	True	806	0.09112492933860938	0.030374976446203128	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_early_panel	Hopx	8845	True	2094	0.236743923120407	0.07891464104013567	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_late_panel	Aqp5	8845	True	2999	0.3390616167326173	0.08476540418315433	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_late_panel	Vegfa	8845	True	3013	0.34064443188241944	0.08516110797060486	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_late_panel	Cav1	8845	True	864	0.09768230638778971	0.02442057659694743	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	17	reference	AT1_late_panel	Spock2	8845	True	853	0.09643866591294517	0.024109666478236293	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_early_panel	Lmo7	11	True	4	0.36363636363636365	0.12121212121212122	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_early_panel	Pdpn	11	True	0	0.0	0.0	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_early_panel	Hopx	11	True	1	0.09090909090909091	0.030303030303030304	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_late_panel	Aqp5	11	True	2	0.18181818181818182	0.045454545454545456	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_late_panel	Vegfa	11	True	1	0.09090909090909091	0.022727272727272728	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_late_panel	Cav1	11	True	0	0.0	0.0	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	two_marker	AT1_late_panel	Spock2	11	True	0	0.0	0.0	False	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_early_panel	Lmo7	8848	True	4693	0.5304023508137432	0.17680078360458107	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_early_panel	Pdpn	8848	True	798	0.09018987341772151	0.030063291139240503	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_early_panel	Hopx	8848	True	2103	0.23768083182640146	0.07922694394213382	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_late_panel	Aqp5	8848	True	3000	0.33905967450271246	0.08476491862567812	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_late_panel	Vegfa	8848	True	3054	0.3451627486437613	0.08629068716094032	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_late_panel	Cav1	8848	True	859	0.09708408679927667	0.024271021699819168	True	
+GSE310539	AP1mut_PBS	pooled_library	AP1mut	adult	uninjured	29	reference	AT1_late_panel	Spock2	8848	True	839	0.0948236889692586	0.02370592224231465	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_early_panel	Lmo7	46	True	31	0.6739130434782609	0.2246376811594203	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_early_panel	Pdpn	46	True	8	0.17391304347826086	0.057971014492753624	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_early_panel	Hopx	46	True	16	0.34782608695652173	0.11594202898550725	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_late_panel	Aqp5	46	True	19	0.41304347826086957	0.10326086956521739	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_late_panel	Vegfa	46	True	11	0.2391304347826087	0.059782608695652176	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_late_panel	Cav1	46	True	4	0.08695652173913043	0.021739130434782608	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	two_marker	AT1_late_panel	Spock2	46	True	4	0.08695652173913043	0.021739130434782608	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_early_panel	Lmo7	7841	True	4204	0.5361561025379415	0.17871870084598052	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_early_panel	Pdpn	7841	True	932	0.11886239000127535	0.039620796667091784	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_early_panel	Hopx	7841	True	2161	0.27560260170896567	0.09186753390298856	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_late_panel	Aqp5	7841	True	3038	0.3874505802831272	0.0968626450707818	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_late_panel	Vegfa	7841	True	2930	0.3736768269353399	0.09341920673383497	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_late_panel	Cav1	7841	True	1060	0.13518683841346768	0.03379670960336692	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	17	reference	AT1_late_panel	Spock2	7841	True	912	0.1163116949368703	0.029077923734217574	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_early_panel	Lmo7	44	True	30	0.6818181818181818	0.22727272727272727	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_early_panel	Pdpn	44	True	7	0.1590909090909091	0.05303030303030303	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_early_panel	Hopx	44	True	9	0.20454545454545456	0.06818181818181819	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_late_panel	Aqp5	44	True	19	0.4318181818181818	0.10795454545454546	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_late_panel	Vegfa	44	True	9	0.20454545454545456	0.05113636363636364	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_late_panel	Cav1	44	True	6	0.13636363636363635	0.03409090909090909	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	two_marker	AT1_late_panel	Spock2	44	True	1	0.022727272727272728	0.005681818181818182	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_early_panel	Lmo7	7844	True	4233	0.5396481387047425	0.17988271290158084	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_early_panel	Pdpn	7844	True	941	0.11996430392656808	0.03998810130885603	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_early_panel	Hopx	7844	True	2154	0.274604793472718	0.09153493115757266	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_late_panel	Aqp5	7844	True	3044	0.3880673125956145	0.09701682814890362	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_late_panel	Vegfa	7844	True	2862	0.36486486486486486	0.09121621621621621	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_late_panel	Cav1	7844	True	1055	0.13449770525242224	0.03362442631310556	True	
+GSE310539	AP1mut_SeV	pooled_library	AP1mut	adult	SeV	29	reference	AT1_late_panel	Spock2	7844	True	923	0.11766955634880163	0.02941738908720041	True	
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	3	True	3	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	3	True	3	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	132	True	36	0.2727272727272727	0.0909090909090909	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	132	True	11	0.08333333333333333	0.027777777777777776	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	132	True	33	0.25	0.08333333333333333	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	132	True	71	0.5378787878787878	0.13446969696969696	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	132	True	39	0.29545454545454547	0.07386363636363637	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	132	True	21	0.1590909090909091	0.03977272727272727	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	132	True	7	0.05303030303030303	0.013257575757575758	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	3	True	2	0.6666666666666666	0.2222222222222222	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	132	True	46	0.3484848484848485	0.11616161616161617	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	132	True	10	0.07575757575757576	0.025252525252525252	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	132	True	30	0.22727272727272727	0.07575757575757576	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	132	True	65	0.49242424242424243	0.12310606060606061	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	132	True	34	0.25757575757575757	0.06439393939393939	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	132	True	19	0.14393939393939395	0.03598484848484849	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-113	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	132	True	7	0.05303030303030303	0.013257575757575758	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	7	True	6	0.8571428571428571	0.2857142857142857	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	7	True	1	0.14285714285714285	0.047619047619047616	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	7	True	3	0.42857142857142855	0.14285714285714285	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	7	True	4	0.5714285714285714	0.14285714285714285	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	7	True	2	0.2857142857142857	0.07142857142857142	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	7	True	1	0.14285714285714285	0.03571428571428571	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	7	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	48	True	12	0.25	0.08333333333333333	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	48	True	3	0.0625	0.020833333333333332	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	48	True	14	0.2916666666666667	0.09722222222222222	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	48	True	36	0.75	0.1875	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	48	True	14	0.2916666666666667	0.07291666666666667	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	48	True	13	0.2708333333333333	0.06770833333333333	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	48	True	4	0.08333333333333333	0.020833333333333332	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	10	True	8	0.8	0.26666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	10	True	2	0.2	0.06666666666666667	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	10	True	5	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	10	True	8	0.8	0.2	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	10	True	3	0.3	0.075	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	10	True	1	0.1	0.025	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	10	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	47	True	10	0.2127659574468085	0.07092198581560284	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	47	True	3	0.06382978723404255	0.02127659574468085	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	47	True	13	0.2765957446808511	0.0921985815602837	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	47	True	35	0.7446808510638298	0.18617021276595744	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	47	True	15	0.3191489361702128	0.0797872340425532	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	47	True	10	0.2127659574468085	0.05319148936170213	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-116	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	47	True	4	0.0851063829787234	0.02127659574468085	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	181	True	61	0.3370165745856354	0.11233885819521179	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	181	True	8	0.04419889502762431	0.014732965009208102	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	181	True	35	0.19337016574585636	0.06445672191528545	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	181	True	96	0.5303867403314917	0.13259668508287292	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	181	True	50	0.27624309392265195	0.06906077348066299	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	181	True	26	0.143646408839779	0.03591160220994475	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	181	True	11	0.06077348066298342	0.015193370165745856	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	187	True	72	0.3850267379679144	0.1283422459893048	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	187	True	11	0.058823529411764705	0.0196078431372549	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	187	True	41	0.2192513368983957	0.0730837789661319	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	187	True	103	0.5508021390374331	0.13770053475935828	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	187	True	57	0.3048128342245989	0.07620320855614973	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	187	True	29	0.15508021390374332	0.03877005347593583	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-117	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	187	True	8	0.0427807486631016	0.0106951871657754	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	144	True	37	0.2569444444444444	0.08564814814814814	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	144	True	22	0.1527777777777778	0.05092592592592593	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	144	True	48	0.3333333333333333	0.1111111111111111	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	144	True	87	0.6041666666666666	0.15104166666666666	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	144	True	50	0.3472222222222222	0.08680555555555555	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	144	True	23	0.1597222222222222	0.03993055555555555	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	144	True	21	0.14583333333333334	0.036458333333333336	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	3	True	2	0.6666666666666666	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	143	True	38	0.26573426573426573	0.08857808857808858	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	143	True	20	0.13986013986013987	0.046620046620046623	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	143	True	48	0.3356643356643357	0.11188811188811189	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	143	True	93	0.6503496503496503	0.16258741258741258	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	143	True	49	0.34265734265734266	0.08566433566433566	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	143	True	28	0.1958041958041958	0.04895104895104895	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-118	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	143	True	23	0.16083916083916083	0.04020979020979021	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	1	True	1	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	1	True	1	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	58	True	12	0.20689655172413793	0.06896551724137931	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	58	True	5	0.08620689655172414	0.02873563218390805	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	58	True	7	0.1206896551724138	0.040229885057471264	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	58	True	22	0.3793103448275862	0.09482758620689655	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	58	True	9	0.15517241379310345	0.03879310344827586	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	58	True	8	0.13793103448275862	0.034482758620689655	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	58	True	4	0.06896551724137931	0.017241379310344827	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	59	True	14	0.23728813559322035	0.07909604519774012	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	59	True	5	0.0847457627118644	0.02824858757062147	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	59	True	9	0.15254237288135594	0.05084745762711865	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	59	True	19	0.3220338983050847	0.08050847457627118	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	59	True	9	0.15254237288135594	0.038135593220338986	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	59	True	4	0.06779661016949153	0.01694915254237288	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-124	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	59	True	4	0.06779661016949153	0.01694915254237288	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	161	True	38	0.2360248447204969	0.07867494824016563	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	161	True	14	0.08695652173913043	0.028985507246376812	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	161	True	37	0.22981366459627328	0.07660455486542443	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	161	True	86	0.5341614906832298	0.13354037267080746	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	161	True	45	0.2795031055900621	0.06987577639751552	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	161	True	18	0.11180124223602485	0.027950310559006212	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	161	True	17	0.10559006211180125	0.026397515527950312	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	3	True	2	0.6666666666666666	0.2222222222222222	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	3	True	2	0.6666666666666666	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	3	True	3	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	157	True	39	0.2484076433121019	0.08280254777070063	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	157	True	12	0.07643312101910828	0.025477707006369425	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	157	True	34	0.21656050955414013	0.07218683651804671	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	157	True	78	0.4968152866242038	0.12420382165605096	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	157	True	41	0.2611464968152866	0.06528662420382166	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	157	True	19	0.12101910828025478	0.030254777070063694	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-125	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	157	True	11	0.07006369426751592	0.01751592356687898	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	1	True	1	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	1	True	1	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	1	True	1	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	139	True	43	0.30935251798561153	0.10311750599520385	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	139	True	16	0.11510791366906475	0.03836930455635492	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	139	True	59	0.4244604316546763	0.14148681055155876	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	139	True	84	0.60431654676259	0.1510791366906475	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	139	True	53	0.381294964028777	0.09532374100719425	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	139	True	46	0.33093525179856115	0.08273381294964029	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	139	True	16	0.11510791366906475	0.02877697841726619	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	139	True	53	0.381294964028777	0.12709832134292567	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	139	True	16	0.11510791366906475	0.03836930455635492	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	139	True	60	0.4316546762589928	0.14388489208633093	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	139	True	94	0.6762589928057554	0.16906474820143885	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	139	True	51	0.3669064748201439	0.09172661870503597	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	139	True	49	0.35251798561151076	0.08812949640287769	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-126	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	139	True	19	0.1366906474820144	0.0341726618705036	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	87	True	32	0.367816091954023	0.12260536398467432	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	87	True	10	0.11494252873563218	0.038314176245210725	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	87	True	18	0.20689655172413793	0.06896551724137931	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	87	True	39	0.4482758620689655	0.11206896551724138	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	87	True	29	0.3333333333333333	0.08333333333333333	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	87	True	13	0.14942528735632185	0.03735632183908046	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	87	True	7	0.08045977011494253	0.020114942528735632	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	1	True	1	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	1	True	1	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	1	True	1	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	1	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	85	True	19	0.2235294117647059	0.07450980392156863	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	85	True	8	0.09411764705882353	0.03137254901960784	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	85	True	18	0.21176470588235294	0.07058823529411765	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	85	True	38	0.4470588235294118	0.11176470588235295	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	85	True	28	0.32941176470588235	0.08235294117647059	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	85	True	8	0.09411764705882353	0.023529411764705882	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-127	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	85	True	5	0.058823529411764705	0.014705882352941176	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Lmo7	244	True	73	0.29918032786885246	0.09972677595628415	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Pdpn	244	True	12	0.04918032786885246	0.01639344262295082	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Hopx	244	True	38	0.1557377049180328	0.05191256830601093	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Aqp5	244	True	92	0.3770491803278688	0.0942622950819672	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Vegfa	244	True	43	0.1762295081967213	0.04405737704918033	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Cav1	244	True	16	0.06557377049180328	0.01639344262295082	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Spock2	244	True	13	0.05327868852459016	0.01331967213114754	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Lmo7	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Pdpn	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Hopx	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Aqp5	3	True	2	0.6666666666666666	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Vegfa	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Cav1	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Lmo7	242	True	75	0.30991735537190085	0.10330578512396695	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Pdpn	242	True	15	0.06198347107438017	0.02066115702479339	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Hopx	242	True	44	0.18181818181818182	0.06060606060606061	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Aqp5	242	True	85	0.3512396694214876	0.0878099173553719	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Vegfa	242	True	43	0.17768595041322313	0.04442148760330578	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Cav1	242	True	20	0.08264462809917356	0.02066115702479339	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-158	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Spock2	242	True	13	0.05371900826446281	0.013429752066115703	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	3	True	3	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	3	True	1	0.3333333333333333	0.1111111111111111	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	168	True	63	0.375	0.125	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	168	True	15	0.08928571428571429	0.029761904761904764	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	168	True	40	0.23809523809523808	0.07936507936507936	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	168	True	101	0.6011904761904762	0.15029761904761904	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	168	True	48	0.2857142857142857	0.07142857142857142	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	168	True	23	0.13690476190476192	0.03422619047619048	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	168	True	12	0.07142857142857142	0.017857142857142856	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	3	True	3	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	3	True	1	0.3333333333333333	0.08333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	3	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	167	True	57	0.3413173652694611	0.11377245508982037	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	167	True	11	0.0658682634730539	0.021956087824351298	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	167	True	35	0.20958083832335328	0.06986027944111776	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	167	True	99	0.592814371257485	0.14820359281437126	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	167	True	49	0.2934131736526946	0.07335329341317365	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	167	True	22	0.1317365269461078	0.03293413173652695	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-162	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	6.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	167	True	8	0.04790419161676647	0.011976047904191617	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Lmo7	61	True	24	0.39344262295081966	0.13114754098360656	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Pdpn	61	True	8	0.13114754098360656	0.04371584699453552	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_early_panel	Hopx	61	True	23	0.3770491803278688	0.12568306010928962	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Aqp5	61	True	36	0.5901639344262295	0.14754098360655737	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Vegfa	61	True	32	0.5245901639344263	0.13114754098360656	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Cav1	61	True	19	0.3114754098360656	0.0778688524590164	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	17	reference	AT1_late_panel	Spock2	61	True	9	0.14754098360655737	0.036885245901639344	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Lmo7	59	True	25	0.423728813559322	0.14124293785310735	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Pdpn	59	True	7	0.11864406779661017	0.03954802259887006	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_early_panel	Hopx	59	True	23	0.3898305084745763	0.12994350282485875	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Aqp5	59	True	34	0.576271186440678	0.1440677966101695	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Vegfa	59	True	28	0.4745762711864407	0.11864406779661017	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Cav1	59	True	23	0.3898305084745763	0.09745762711864407	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-166	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	0.0	homeostasis	29	reference	AT1_late_panel	Spock2	59	True	9	0.15254237288135594	0.038135593220338986	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	40	True	24	0.6	0.19999999999999998	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	40	True	8	0.2	0.06666666666666667	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	40	True	11	0.275	0.09166666666666667	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	40	True	31	0.775	0.19375	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	40	True	12	0.3	0.075	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	40	True	4	0.1	0.025	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	40	True	1	0.025	0.00625	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	193	True	47	0.24352331606217617	0.08117443868739206	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	193	True	24	0.12435233160621761	0.04145077720207254	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	193	True	54	0.27979274611398963	0.09326424870466321	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	193	True	137	0.7098445595854922	0.17746113989637305	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	193	True	54	0.27979274611398963	0.06994818652849741	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	193	True	16	0.08290155440414508	0.02072538860103627	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	193	True	11	0.05699481865284974	0.014248704663212436	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	35	True	20	0.5714285714285714	0.19047619047619047	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	35	True	7	0.2	0.06666666666666667	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	35	True	16	0.45714285714285713	0.15238095238095237	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	35	True	24	0.6857142857142857	0.17142857142857143	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	35	True	9	0.2571428571428571	0.06428571428571428	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	35	True	6	0.17142857142857143	0.04285714285714286	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	35	True	0	0.0	0.0	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	197	True	53	0.26903553299492383	0.08967851099830794	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	197	True	24	0.1218274111675127	0.04060913705583757	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	197	True	52	0.2639593908629442	0.08798646362098139	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	197	True	149	0.7563451776649747	0.18908629441624367	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	197	True	62	0.3147208121827411	0.07868020304568528	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	197	True	15	0.07614213197969544	0.01903553299492386	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-167	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	11.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	197	True	15	0.07614213197969544	0.01903553299492386	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	5	True	5	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	5	True	3	0.6	0.19999999999999998	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	5	True	5	1.0	0.3333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	5	True	5	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	5	True	4	0.8	0.2	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	5	True	2	0.4	0.1	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	5	True	2	0.4	0.1	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	158	True	58	0.3670886075949367	0.12236286919831224	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	158	True	20	0.12658227848101267	0.042194092827004225	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	158	True	53	0.33544303797468356	0.11181434599156119	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	158	True	108	0.6835443037974683	0.17088607594936708	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	158	True	75	0.47468354430379744	0.11867088607594936	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	158	True	35	0.22151898734177214	0.055379746835443035	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	158	True	20	0.12658227848101267	0.03164556962025317	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	7	True	4	0.5714285714285714	0.19047619047619047	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	7	True	3	0.42857142857142855	0.14285714285714285	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	7	True	6	0.8571428571428571	0.2857142857142857	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	7	True	7	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	7	True	6	0.8571428571428571	0.21428571428571427	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	7	True	3	0.42857142857142855	0.10714285714285714	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	7	True	3	0.42857142857142855	0.10714285714285714	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	161	True	69	0.42857142857142855	0.14285714285714285	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	161	True	30	0.18633540372670807	0.062111801242236024	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	161	True	59	0.36645962732919257	0.12215320910973086	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	161	True	105	0.6521739130434783	0.16304347826086957	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	161	True	74	0.45962732919254656	0.11490683229813664	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	161	True	38	0.2360248447204969	0.059006211180124224	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-170	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	19.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	161	True	24	0.14906832298136646	0.037267080745341616	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	273	True	82	0.30036630036630035	0.10012210012210011	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	273	True	28	0.10256410256410256	0.034188034188034185	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	273	True	79	0.2893772893772894	0.09645909645909646	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	273	True	153	0.5604395604395604	0.1401098901098901	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	273	True	98	0.358974358974359	0.08974358974358974	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	273	True	40	0.14652014652014653	0.03663003663003663	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	273	True	26	0.09523809523809523	0.023809523809523808	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	2	True	2	1.0	0.25	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	2	True	1	0.5	0.125	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	275	True	73	0.26545454545454544	0.08848484848484849	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	275	True	26	0.09454545454545454	0.03151515151515152	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	275	True	83	0.3018181818181818	0.1006060606060606	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	275	True	171	0.6218181818181818	0.15545454545454546	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	275	True	94	0.3418181818181818	0.08545454545454545	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	275	True	43	0.15636363636363637	0.03909090909090909	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-172	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	25.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	275	True	32	0.11636363636363636	0.02909090909090909	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	91	True	31	0.34065934065934067	0.11355311355311355	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	91	True	6	0.06593406593406594	0.02197802197802198	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	91	True	21	0.23076923076923078	0.07692307692307693	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	91	True	52	0.5714285714285714	0.14285714285714285	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	91	True	29	0.31868131868131866	0.07967032967032966	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	91	True	18	0.1978021978021978	0.04945054945054945	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	91	True	7	0.07692307692307693	0.019230769230769232	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	91	True	30	0.32967032967032966	0.10989010989010989	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	91	True	10	0.10989010989010989	0.03663003663003663	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	91	True	19	0.2087912087912088	0.0695970695970696	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	91	True	44	0.4835164835164835	0.12087912087912088	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	91	True	36	0.3956043956043956	0.0989010989010989	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	91	True	16	0.17582417582417584	0.04395604395604396	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-179	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	91	True	9	0.0989010989010989	0.024725274725274724	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	62	True	23	0.3709677419354839	0.12365591397849462	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	62	True	6	0.0967741935483871	0.03225806451612903	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	62	True	14	0.22580645161290322	0.07526881720430108	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	62	True	37	0.5967741935483871	0.14919354838709678	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	62	True	20	0.3225806451612903	0.08064516129032258	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	62	True	12	0.1935483870967742	0.04838709677419355	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	62	True	5	0.08064516129032258	0.020161290322580645	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	61	True	22	0.36065573770491804	0.12021857923497269	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	61	True	6	0.09836065573770492	0.03278688524590164	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	61	True	15	0.2459016393442623	0.08196721311475409	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	61	True	39	0.639344262295082	0.1598360655737705	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	61	True	22	0.36065573770491804	0.09016393442622951	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	61	True	12	0.19672131147540983	0.04918032786885246	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-180	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	61	True	5	0.08196721311475409	0.020491803278688523	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	117	True	55	0.4700854700854701	0.15669515669515668	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	117	True	18	0.15384615384615385	0.05128205128205129	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	117	True	35	0.29914529914529914	0.09971509971509972	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	117	True	67	0.5726495726495726	0.14316239316239315	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	117	True	55	0.4700854700854701	0.11752136752136752	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	117	True	29	0.24786324786324787	0.06196581196581197	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	117	True	19	0.1623931623931624	0.0405982905982906	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	117	True	57	0.48717948717948717	0.1623931623931624	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	117	True	17	0.1452991452991453	0.04843304843304844	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	117	True	39	0.3333333333333333	0.1111111111111111	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	117	True	69	0.5897435897435898	0.14743589743589744	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	117	True	57	0.48717948717948717	0.12179487179487179	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	117	True	34	0.2905982905982906	0.07264957264957266	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-181	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	117	True	14	0.11965811965811966	0.029914529914529916	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	129	True	69	0.5348837209302325	0.17829457364341084	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	129	True	23	0.17829457364341086	0.05943152454780362	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	129	True	44	0.34108527131782945	0.11369509043927649	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	129	True	77	0.5968992248062015	0.14922480620155038	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	129	True	47	0.3643410852713178	0.09108527131782945	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	129	True	47	0.3643410852713178	0.09108527131782945	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	129	True	21	0.16279069767441862	0.040697674418604654	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	127	True	57	0.44881889763779526	0.1496062992125984	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	127	True	16	0.12598425196850394	0.04199475065616798	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	127	True	46	0.36220472440944884	0.12073490813648295	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	127	True	74	0.5826771653543307	0.14566929133858267	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	127	True	59	0.4645669291338583	0.11614173228346457	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	127	True	43	0.33858267716535434	0.08464566929133858	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-182	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	42.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	127	True	13	0.10236220472440945	0.025590551181102362	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	2	True	1	0.5	0.16666666666666666	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	134	True	41	0.30597014925373134	0.10199004975124377	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	134	True	12	0.08955223880597014	0.029850746268656716	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	134	True	33	0.2462686567164179	0.08208955223880597	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	134	True	72	0.5373134328358209	0.13432835820895522	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	134	True	37	0.27611940298507465	0.06902985074626866	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	134	True	24	0.1791044776119403	0.04477611940298507	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	134	True	13	0.09701492537313433	0.024253731343283583	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	5	True	3	0.6	0.19999999999999998	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	5	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	5	True	2	0.4	0.13333333333333333	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	5	True	1	0.2	0.05	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	5	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	5	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	5	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	134	True	39	0.291044776119403	0.09701492537313433	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	134	True	11	0.08208955223880597	0.02736318407960199	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	134	True	33	0.2462686567164179	0.08208955223880597	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	134	True	68	0.5074626865671642	0.12686567164179105	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	134	True	38	0.2835820895522388	0.0708955223880597	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	134	True	22	0.16417910447761194	0.041044776119402986	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-236	animal	Ki67Cre/Cre; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	134	True	14	0.1044776119402985	0.026119402985074626	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	107	True	25	0.2336448598130841	0.0778816199376947	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	107	True	3	0.028037383177570093	0.009345794392523364	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	107	True	14	0.1308411214953271	0.04361370716510903	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	107	True	61	0.5700934579439252	0.1425233644859813	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	107	True	29	0.27102803738317754	0.06775700934579439	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	107	True	11	0.102803738317757	0.02570093457943925	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	107	True	4	0.037383177570093455	0.009345794392523364	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	2	True	0	0.0	0.0	False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	104	True	27	0.25961538461538464	0.08653846153846155	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	104	True	3	0.028846153846153848	0.009615384615384616	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	104	True	14	0.1346153846153846	0.04487179487179487	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	104	True	54	0.5192307692307693	0.12980769230769232	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	104	True	25	0.2403846153846154	0.06009615384615385	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	104	True	16	0.15384615384615385	0.038461538461538464	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-237	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	104	True	3	0.028846153846153848	0.007211538461538462	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	261	True	94	0.36015325670498083	0.12005108556832694	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	261	True	25	0.09578544061302682	0.031928480204342274	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	261	True	83	0.31800766283524906	0.10600255427841636	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	261	True	148	0.5670498084291188	0.1417624521072797	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	261	True	83	0.31800766283524906	0.07950191570881227	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	261	True	65	0.24904214559386972	0.06226053639846743	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	261	True	29	0.1111111111111111	0.027777777777777776	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	258	True	79	0.3062015503875969	0.1020671834625323	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	258	True	19	0.07364341085271318	0.02454780361757106	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	258	True	78	0.3023255813953488	0.10077519379844961	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	258	True	134	0.5193798449612403	0.1298449612403101	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	258	True	83	0.32170542635658916	0.08042635658914729	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	258	True	56	0.21705426356589147	0.05426356589147287	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-238	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	258	True	29	0.1124031007751938	0.02810077519379845	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	291	True	65	0.22336769759450173	0.07445589919816724	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	291	True	4	0.013745704467353952	0.004581901489117984	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	291	True	23	0.07903780068728522	0.026345933562428408	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	291	True	158	0.5429553264604811	0.13573883161512026	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	291	True	73	0.2508591065292096	0.0627147766323024	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	291	True	18	0.061855670103092786	0.015463917525773196	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	291	True	5	0.01718213058419244	0.00429553264604811	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	292	True	67	0.22945205479452055	0.07648401826484018	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	292	True	6	0.02054794520547945	0.00684931506849315	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	292	True	26	0.08904109589041095	0.02968036529680365	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	292	True	152	0.5205479452054794	0.13013698630136986	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	292	True	75	0.2568493150684932	0.0642123287671233	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	292	True	15	0.05136986301369863	0.012842465753424657	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-239	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	90.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	292	True	3	0.010273972602739725	0.0025684931506849314	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	300	True	129	0.43	0.14333333333333334	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	300	True	33	0.11	0.03666666666666667	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	300	True	99	0.33	0.11	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	300	True	205	0.6833333333333333	0.17083333333333334	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	300	True	118	0.3933333333333333	0.09833333333333333	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	300	True	62	0.20666666666666667	0.051666666666666666	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	300	True	36	0.12	0.03	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	297	True	116	0.39057239057239057	0.13019079685746351	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	297	True	37	0.12457912457912458	0.04152637485970819	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	297	True	103	0.3468013468013468	0.11560044893378225	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	297	True	202	0.6801346801346801	0.17003367003367004	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	297	True	112	0.3771043771043771	0.09427609427609428	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	297	True	54	0.18181818181818182	0.045454545454545456	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-310	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	297	True	27	0.09090909090909091	0.022727272727272728	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	217	True	64	0.29493087557603687	0.09831029185867896	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	217	True	18	0.08294930875576037	0.027649769585253458	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	217	True	51	0.2350230414746544	0.0783410138248848	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	217	True	123	0.5668202764976958	0.14170506912442396	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	217	True	63	0.2903225806451613	0.07258064516129033	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	217	True	34	0.15668202764976957	0.03917050691244239	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	217	True	12	0.055299539170506916	0.013824884792626729	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	216	True	59	0.27314814814814814	0.09104938271604938	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	216	True	17	0.0787037037037037	0.02623456790123457	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	216	True	60	0.2777777777777778	0.0925925925925926	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	216	True	119	0.5509259259259259	0.13773148148148148	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	216	True	66	0.3055555555555556	0.0763888888888889	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	216	True	32	0.14814814814814814	0.037037037037037035	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-311	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	216	True	17	0.0787037037037037	0.019675925925925927	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Lmo7	159	True	47	0.29559748427672955	0.09853249475890985	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Pdpn	159	True	14	0.0880503144654088	0.029350104821802933	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_early_panel	Hopx	159	True	34	0.2138364779874214	0.07127882599580714	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Aqp5	159	True	77	0.48427672955974843	0.12106918238993711	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Vegfa	159	True	64	0.4025157232704403	0.10062893081761007	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Cav1	159	True	15	0.09433962264150944	0.02358490566037736	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	17	reference	AT1_late_panel	Spock2	159	True	12	0.07547169811320754	0.018867924528301886	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Lmo7	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Pdpn	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_early_panel	Hopx	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Aqp5	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Vegfa	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Cav1	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	two_marker	AT1_late_panel	Spock2	0	True	0			False	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Lmo7	159	True	43	0.27044025157232704	0.09014675052410902	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Pdpn	159	True	12	0.07547169811320754	0.025157232704402514	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_early_panel	Hopx	159	True	40	0.25157232704402516	0.08385744234800839	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Aqp5	159	True	74	0.46540880503144655	0.11635220125786164	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Vegfa	159	True	51	0.32075471698113206	0.08018867924528301	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Cav1	159	True	21	0.1320754716981132	0.0330188679245283	True	external-study, previously analyzed; no neonatal arm
+GSE262927	EEM-scRNA-312	animal	Ki67Cre/+; ROSA26LSL-tdTm/+	366.0	H1N1_infected	29	reference	AT1_late_panel	Spock2	159	True	13	0.08176100628930817	0.020440251572327043	True	external-study, previously analyzed; no neonatal arm
