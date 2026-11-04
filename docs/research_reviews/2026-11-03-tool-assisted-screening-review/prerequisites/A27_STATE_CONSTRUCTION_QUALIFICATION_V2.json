@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-04",
+  "revision": "7b2714071eec19d0db91162c97b6fd0b68ffcc09",
+  "notebook": {
+    "path": "immgenT-CD8/immgenT-CD8_1.ipynb",
+    "url": "https://github.com/immgen/immgenT_Project/blob/7b2714071eec19d0db91162c97b6fd0b68ffcc09/immgenT-CD8/immgenT-CD8_1.ipynb",
+    "git_blob_sha1": "8cc8ab4fafb343c26f1af09bf84e39270dd21b88",
+    "sha256": "92c32fe8c88f8b6b0cfd692a16fec0e6f76b683003842c56d6bc9a355c166d16",
+    "local_cache": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A27\\immgenT-CD8_1.ipynb",
+    "locators": {
+      "cell_2": "Author figure outline: I/J/K acute effectors, E/F/G/H circulating-memory context, Q resident-memory context. These are source interpretations, not an exhaustive reviewed per-code mapping.",
+      "cell_4": "Ag_spe_v1 prioritizes congenic CITE-seq markers; Ag_spe_v2 prioritizes TCR-seq for P14 identification. Receptor-aware metadata demonstrably exist.",
+      "cell_11": "Loads precurated MuData and normalizes RNA/ADT; cluster_annotation is already present rather than constructed by this notebook.",
+      "cells_17_18": "RNA and protein marker displays grouped by existing cluster_annotation."
+    }
+  },
+  "other_author_code": {
+    "path": "Cosmology_paper/run_totalvi_v2.py",
+    "locator": "lines128-142, TOTALVI setup uses RNA/protein modalities and batch covariates; lines162-173 latent embedding/neighbors",
+    "limit": "No explicit clonotype key is shown in this setup, but it does not establish the full derivation or independence of curated level1/level2 labels."
+  },
+  "primary_versions": {
+    "CD8": {
+      "doi": "10.64898/2026.02.02.703365",
+      "version": "3",
+      "date": "2026-09-01",
+      "title": "A comprehensive reference of mouse CD8\u03b1\u03b2 T cell differentiation states",
+      "jatsxml": "https://www.biorxiv.org/content/early/2026/09/01/2026.02.02.703365.source.xml"
+    },
+    "cosmology": {
+      "doi": "10.64898/2026.01.30.702892",
+      "version": "3",
+      "date": "2026-09-02",
+      "title": "immgenT: A Comprehensive Reference of Convergent T-cell States in the Mouse",
+      "jatsxml": "https://www.biorxiv.org/content/early/2026/09/02/2026.01.30.702892.source.xml"
+    }
+  },
+  "access_failures": [
+    "GitHub connector rejected notebook1 as too large/unsupported; public raw file read, parsed without execution and Git blob verified.",
+    "bioRxiv full-text web routes inaccessible for the two linked manuscripts.",
+    "Official API returned linked version3 XML URLs, but both XML fetches returned HTTP429; no retries or full-text/annotation-method claims."
+  ],
+  "conclusion": "Source-code interpretation partially recovered; the supplied code does not establish that the exact February annotation table was constructed without receptor-informed decisions. Keep source codes nominal, with explicit uncertainty, rather than relabeling all as validated naive/memory/effector states."
+}

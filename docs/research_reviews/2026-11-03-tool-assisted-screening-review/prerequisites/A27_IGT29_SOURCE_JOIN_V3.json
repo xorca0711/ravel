@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "amends": "A27_IGT29_SOURCE_JOIN_V2.tsv",
+  "reason": "The354 receptor-only rows retained valid I29H1-I29H9 source hashtags but v2 left mouse/age/sex blank because it used GEX mapping. Fill from the already verified exact source-hashtag map; no new animal or state label inferred.",
+  "input_sha256": "51d1fa052bd86199568a971c43a3d16a472a6b0e639d2dfe8d7370f1e49775e6",
+  "source_mouse_map_sha256": "0f5c2208d8a21ec53edda9d8e9e40dba73f47458358d0f31365df3813a505fe6",
+  "rows": 13332,
+  "filled_receptor_only_rows": 354,
+  "receptor_only_by_mouse": {
+    "mouse0088": 34,
+    "mouse0089": 23,
+    "mouse0090": 34,
+    "mouse0091": 47,
+    "mouse0092": 41,
+    "mouse0093": 39,
+    "mouse0094": 54,
+    "mouse0095": 51,
+    "mouse0096": 31
+  },
+  "output_sha256": "97b377d054ede1e1f73351ccb6fbf1482e111a448e22eefc4dd06cf14e0a3891",
+  "scope": "Source identity completion only; all original annotation/chain fields and row order preserved;354 receptor-only cells still lack separate state annotation."
+}
