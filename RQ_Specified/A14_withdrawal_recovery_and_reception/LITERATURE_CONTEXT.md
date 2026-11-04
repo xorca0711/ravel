@@ -25,18 +25,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The canonical question contains two separable hypotheses: exposure history and fibroblast IL-1 reception. Existing context does not establish an autonomous memory mechanism.
+Source intake identified Choi Figure 7E's twelve qPCR endpoints and the relevant withdrawal comparison. The legend reports four biological replicates from two experiments but does not map preparation identities or pairing. Preparation-linked numerical values were not found in the inspected attachments; the figure/methods Limch1 versus Limch2 discrepancy is retained. Continuous-input RNA and a separate metabolic intervention do not reproduce withdrawal.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A14_withdrawal_recovery_and_reception/README.md](README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/OUTCOMES.md](../../docs/research_dossiers/followup_2026-10-03/OUTCOMES.md)
+[Current result, design and limits](../../docs/research_reviews/2026-11-03-full-priority-screening/A14_SOURCE_MANIFEST.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Separate the proposed exposure-history effect on later mature AT1 recovery from the independently posed fibroblast-compartment effect. Verified cessation and mature output distinguish this extension from concurrent stimulation and organoid size.
+Completed source/endpoint clarification with an unestimated local withdrawal effect. Published plausibility does not mean the proposed mature-output or fibroblast-reception question has run. Failure to recover values from these attachments is not proof that no suitable data exist elsewhere.
+
+Preparation-level values, their experimental map and a qualified relation to the intended mature-output endpoint remain missing. RNA marker recovery does not by itself establish mature lineage output or functional recovery.
 
 ## Current hypothesis and rival
 
@@ -46,7 +43,7 @@ H1: longer IL-1-beta exposure reduces subsequent lineage-derived mature AT1 reco
 
 ## What the comparison would teach
 
-Lower absolute mature output after the longer history, despite verified cessation, favors H1; comparable recovery weakens it. A separate fibroblast-reception contrast at comparable epithelial input addresses H2. Record lineage yield, survival and mature function; organoid number or a falling transitional score cannot distinguish recovery, death and replacement.
+Use the identified source comparison to define what recoverable values could actually estimate. A qualified post-cessation contrast could inform marker recovery; the stronger mature-output and separate fibroblast-reception claims require their own linked endpoints. No direction for fibroblast reception or new interaction effect is invented, and continuous-input data do not substitute for the missing withdrawal contrast.
 
 ## Hypothesis schematic
 

@@ -6,7 +6,7 @@
 **Screening follow-through — 3 November 2026:** Existing transition and alternative-transporter screens are complete. SLC20A1/SLC20A2 RNA is lower in the single PAM case across overlapping selections; this is not evidence of transport compensation. Static fractions and marker endpoints cannot distinguish entry from persistence or exit. Repeated/dynamic unit-linked measurements are missing; pseudotime or relabelled scores would not supply them. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
 <!-- full-priority-screening-20261103:end -->
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -21,19 +21,17 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The screen showed a +0.524 transition-marker contrast with three concordant markers. The external PAM case did not show coordinated marker increase; SLC20A1/2 RNA was lower, providing no transcriptional compensation evidence.
+The external comparison of one PAM case with one adult control does not reproduce coordinated KRT8/SPRR1A/CLU elevation. Separate fractions of the PAM subject are not independent patients. SLC20A1/SLC20A2 RNA is lower across overlapping selections, so an increased-transporter-RNA explanation is unsupported; compensatory transport activity remains untested. Disease, donor, age and sampling are inseparable in the case comparison.
 
+The original candidate markers were disjoint from the reported readouts; published-annotation and complete-cell-set sensitivities reuse the same case and can retain identity-selection bias. The alternative-transporter readouts were fixed before inspecting their values, after exposure to the preceding case results. These are overlapping sensitivity/extension observations, not independent confirmations. See the [transporter result](../../RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md).
 
-Exact current result locators:
-
-- [RQ_Specified/A23_slc34a2_transition_homeostasis/README.md](README.md)
-- [RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md](reports/external_pilot_v2/RESULTS.md)
-- [RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md](reports/transporter_context_v1/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Current result, design and limits](reports/external_pilot_v2/RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Distinguish increased acquisition of the transition-associated state from prolonged residence or failed exit in starting lineages. Keep independent transport/injury evidence and the adverse external marker result; endpoint occupancy cannot decide entry versus exit.
+Unfavorable external marker transfer and an unsupported RNA-surrogate compensation account. Entry versus delayed exit is a legitimate remaining distinction, not an explanation selected by static RNA observations. Endpoint fractions can change through survival, division and starting composition as well as transition timing.
+
+The current contrasts do not measure entry, residence time, exit or transport function in linked units. Relabelled scores and pseudotime cannot supply the missing dynamic endpoint.
 
 ## Current hypothesis and rival
 
@@ -43,7 +41,7 @@ SLC34A2 transport impairment may increase acquisition of a transition-associated
 
 ## What the comparison would teach
 
-Lineage-linked acquisition and subsequent exit measured separately can distinguish increased entry from prolonged residence; endpoint state abundance cannot. Measure transport function, compartment-specific phosphate, injury and viability independently. A qualified restoration contrast can test transport dependence, but rescue of counts alone cannot identify the affected transition step. Preserve the external negative marker result.
+Keep the external failure and compensation limit visible. A timing comparison would need unit-linked repeated or lineage-resolved measurements appropriate to entry versus exit. Increased entry with unchanged exit and prolonged residence without increased entry would have different implications; endpoint occupancy alone leaves the question open. No same-data retuning follows automatically.
 
 ## Hypothesis schematic
 

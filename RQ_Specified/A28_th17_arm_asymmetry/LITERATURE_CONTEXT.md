@@ -1,22 +1,15 @@
-# A28: literature context and hypothesis schematic
+# A28: literature context and current argument
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A28.md).
 
-<!-- full-priority-screening-20261103:start -->
-**Screening follow-through — 3 November 2026:** The completed two-arm decomposition does not support a universal reciprocal regulatory-versus-inflammatory RNA switch. Low-glucose effects and the corrected human compartment contrast have different arm patterns. Regulatory and inflammatory functions need separately measured outputs. RNA scores, two mouse sources and shared donor contrasts cannot establish symmetric or independent functional competence. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
-<!-- full-priority-screening-20261103:end -->
-
-**Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
-
-Reviewed 5 October 2026. This note connects published findings to the current
-proposed question. It is a bounded synthesis, not novelty clearance and not
-scientific acceptance. The searches actually executed, their hit counts and
-their coverage limits are recorded in the
-[package literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md).
+Synthesis updated 4 November 2026 using the recorded source reviews and current
+results. No fresh literature search or biological calculation was performed for
+this documentation batch. Published premises and reused-data observations remain
+separate evidence types.
 
 ## Published starting point
 
-Th17-lineage plasticity in both directions is established, and the two gene modules this question concerns are published. Both are premises here, not findings.
+Published studies report Th17-lineage plasticity, and the two RNA module definitions were recovered from their source. These motivate the question; they are not evidence that the scored arms are separately regulated functions.
 
 | Primary source | Inspected locator and access record |
 |---|---|
@@ -26,21 +19,77 @@ Th17-lineage plasticity in both directions is established, and the two gene modu
 
 Abstract-level inspection is not a figure and methods audit. Published-source evidence and reanalysis of the same material are not independent replication.
 
+The current source-to-observation link runs through the Wp reproduction and
+its [correction record](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md).
+The mouse nutrient experiment, human CSF/blood contrast and published plasticity
+studies differ in population, comparison and endpoint. Their juxtaposition
+motivates a question; it is not evidence that one causal programme operates
+identically across them. The corrected Compass sign cannot be reused as
+corroboration of the old negative PGAM interpretation.
+
 ## Repository observation
 
-At 1 mM versus 25 mM glucose the score rises in 4/4 animal-paired comparisons through the pro-regulatory arm falling, with the pro-inflammatory arm not consistently increasing across the two animals; the two arms are anti-correlated across 15,830 cells at Spearman −0.389 to −0.503. In ten paired human donors, corrected R4 v3 gives an inflammatory CSF-minus-blood median of +0.061825 (10/10 positive) and a regulatory median of +0.006024 (6/10 positive; nominal paired p=0.232422). M3 v2 uses a slightly different finite-gene universe: its inflammatory median is +0.060759 (3/1,000 null draws as extreme), while regulatory authors/all-gene null fractions are 0.292/0.884. These restricted size-only nulls do not establish genome-wide specificity or regulatory equivalence. The mouse evidence rests on two animals.
+The [mouse reproduction](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)
+uses eight libraries from **two animals**, crossed over cell type and glucose
+conditions; animal identity is prior-only. Four animal-by-cell-type paired
+comparisons are not four independent animals. The deposited matrix does not
+recover the paper's exact selected cells or scVI model.
 
-Exact current result locators:
+| Existing comparison | What changed | What follows |
+|---|---|---|
+| Mouse low-minus-high glucose, library-mean RNA scores | The pathogenicity difference rises in 4/4 animal-by-cell-type pairs. The regulatory arm falls in all four; the inflammatory arm falls in three and rises slightly in one. | Arm-wise reporting clarifies the arithmetic; uniform effector gain is unsupported. |
+| Corrected R4 v3, CSF minus blood in ten paired human donors | Inflammatory median +0.061825, 10/10 positive; regulatory median +0.006024, 6/10 positive, nominal paired p=0.232422. | The regulatory result is not evidence of an unchanged arm or equivalent function. |
+| Mouse composition decomposition | Primary within-state terms are +0.034 and -0.037 in the two animals, while composition terms are positive. | The within-state result is inconclusive; marker-defined composition is itself dependent on the same RNA. |
 
-- [A28 workspace](README.md) and [development plan](PLAN.md)
-- [Derivation card](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q1_arm_asymmetry.md)
-- [Overlap screen against A0 to A27](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md)
-- [Grounding and exposure record](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md)
-- [Reproduction scope and claim-by-claim outcome](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md)
+The [score-construction study](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md)
+shows sensitivity to module/HVG definition, while the
+[decomposition report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)
+retains its inconclusive stop rule. Correlation between arms in the same
+transcriptome is not an independent test of biological antagonism.
+
+The [correction](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md)
+restores full-gene normalization for human transfer. M3 v2 has a different
+finite-gene universe from R4 v3; its regulatory authors/all-gene size-only null
+fractions are 0.292/0.884. Those values do not establish equivalence or
+genome-wide specificity. The human cells are an operational CD4-lineage/non-CD8
+selection, not independently certified Th17 cells, and a compartment contrast is
+not a cytokine intervention. Mouse and human observations are distinct settings,
+not replication of one within-cell mechanism.
+
+The corrected Compass association is positive rather than the formerly claimed
+negative direction; it does not reproduce the paper's PGAM direction under
+substituted inputs. RNA-derived consistency supplies no metabolic-flux or
+functional evidence for A28.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: supported measurement decomposition and a useful
+diagnostic boundary; separate functional competences remain an incomplete
+inference.** Published modules and plasticity findings motivate the question.
+The two-animal glucose contrast shows why a higher difference score need not
+mean greater inflammatory output; the corrected ten-donor human contrast has a
+different arm pattern. Neither measures suppressive or effector function.
+
+The [grounding record](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md)
+records that the question followed exposure to the branch outcomes. Reused
+article data, selected gene modules and operational cell labels are not
+independent tests of two functions. Module/HVG sensitivity, full-gene
+normalization corrections and opposing within-state terms leave composition
+and score construction consequential. Rejecting a one-number description does
+not reject a shared latent biological axis; a nonsignificant regulatory result
+does not support an unchanged function. The next informative comparison depends
+on the claim: joint protein measurements for marker-level dissociation, and
+independent functional outcomes for competence. Current uncertainty is not
+evidence that the arm observations are merely noise.
 
 ## What this question could add
 
-Establish whether the two arms of a widely used pathogenicity score move independently under different perturbation classes. If they do, perturbations producing identical score changes produce functionally different cells, and the score must be reported arm-wise. A reproducible answer is useful either way and claims no new mechanism.
+The current contribution is interpretation of a composite measurement:
+different arm patterns can produce a higher difference score. A28 then proposes
+model discrimination beyond that arithmetic, without claiming a new module or
+mechanism. RNA asymmetry does not certify two independently regulated functions,
+and null contrasts do not demonstrate equivalence. The following registered
+hypothesis remains unchanged as an untested functional proposal.
 
 ## Current hypothesis and rival
 
@@ -50,7 +99,25 @@ Regulatory and effector competence are separately regulated within the same Th17
 
 ## What the comparison would teach
 
-A per-cell joint protein readout — Foxp3, CTLA4, IL-17A, IL-17F with a division tracker, mouse as unit — separates the hypotheses on the joint distribution rather than two marginal means. Falling Foxp3 with flat IL-17 under glucose restriction, and the converse under pathogenic cytokines, supports separate regulation; reciprocal movement under both supports one latent axis; disjoint cell populations indicate composition; loss of effects under matched division indicates the proliferation confound.
+Joint same-cell protein distributions could discriminate marker-level
+dissociation from reciprocal marker movement, population mixture and division
+context. Opposite selective marker patterns would support a narrower
+marker-regulation interpretation; reciprocal patterns would be compatible with
+a shared axis. Neither observation alone proves regulatory or effector function.
+Disjoint populations would favor composition, while unresolved animal-level
+variation would leave the comparison inconclusive.
+
+“Unchanged” requires justified equivalence evidence; a large p value, near-zero
+mean or undetected protein change is insufficient. A functional claim additionally
+needs a measured suppressive/effector outcome. The registered prediction is not
+an executable protocol, and the current RNA-only package does not select an
+effect margin or provide laboratory access.
+
+## Reading the registered illustration
+
+The retained illustration depicts the registered proposal. The
+[measured figure in the question home](README.md#evidence-analyses-and-next-steps)
+has a separate evidence-display purpose; no registered asset is replaced.
 
 ## Hypothesis schematic
 
@@ -64,19 +131,22 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned, not reported as newly executed: forward citations of the closest
-inspected primary sources above, and the queries recorded as pending in the
-[package literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md).
-Expand to synonyms and contrary findings using the
-[literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact
-population, comparison, timing, unit and endpoint before making any stronger
-contribution claim.
+The [5 October literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md)
+records actual queries, inspected abstracts and pending citation work. Reuse that
+record with the 7 October corrections; this editorial pass performed no new
+search. Before a new comparison, inspect the exact protein-versus-function
+discriminator and contrary findings under the literature workflow. Earlier
+external nutrient-source screening qualified no independent dataset; deferred
+records are not proof that none exists.
 
-**Current unresolved specification:** Run the per-cell joint protein readout — Foxp3, CTLA4, IL-17A and IL-17F co-stained with a division tracker, under glucose restriction and under pathogenic cytokines, mouse as unit. No further analysis of the deposited RNA is warranted; the arms are anti-correlated by construction in every available summary of it.
+[Current evidence and history](README.md#evidence-and-planning-records) ·
+[Research governance](../../docs/RESEARCH_GOVERNANCE.md).
 
-**Interpretation limit:** Module scores are RNA, not protein, secretion or
-function. Reanalysis of the source deposits shares one evidence lineage with
-the source paper and never becomes independent replication. No search
-certifies novelty and no absence of a hit is evidence of a first.
+## Preserved review record
 
-[Current dossier](../../docs/research_dossiers/A28.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a28)
+The following unchanged block retains its review-date scope; current results
+and the synthesis above specify the present evidence limits.
+
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** The completed two-arm decomposition does not support a universal reciprocal regulatory-versus-inflammatory RNA switch. Low-glucose effects and the corrected human compartment contrast have different arm patterns. Regulatory and inflammatory functions need separately measured outputs. RNA scores, two mouse sources and shared donor contrasts cannot establish symmetric or independent functional competence. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->

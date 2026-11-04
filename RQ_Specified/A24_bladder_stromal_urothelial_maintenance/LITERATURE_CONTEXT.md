@@ -17,21 +17,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The exposed Nb5 bladder decomposition has opposing Lmnb1 detection directions in broad urothelial and mesenchymal annotations, while captured-bladder Cdkn2a detection declines. Those RNA summaries do not identify a causal stromal population, absolute abundance, senescence burden or barrier dysfunction. Existing Figures 7 and 8 are contextual evidence only.
+In three young and three old mice, the 24-minus-3-month bladder Cdkn2a detection difference is -1.238 percentage points. Lmnb1 detection decreases within the broad urothelial annotation (-1.519 points) but increases within mesenchymal cells (+3.952 points), despite an aggregate increase. These exposed source summaries measure detection frequency, distinct from normalized mean RNA, senescence burden or barrier function. All old mice are male; capture, sex and finer-state replacement within broad annotations remain limitations. No stromal mediator is selected.
 
-Exact current result locators:
-
-- [RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md](README.md)
-- [RQ_Specified/A24_bladder_stromal_urothelial_maintenance/PLAN.md](PLAN.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md)
+[Bladder detection and composition result](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md#p01-tissue-remodelling-and-within-type-rna). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A24 would ask about a specified normal-bladder stromal population and independently measured barrier maintenance. The tumour result motivates a source question, but does not prove normal barrier failure or justify treating a marker as senescence burden.
+Descriptive compartment context with an untested stromal-to-barrier proposal. The conflicting marker directions usefully prevent treating a generic senescence score as the biological answer; they do not select a barrier mechanism or refute senescence in the tissue.
+
+A specified normal-bladder stromal population, linked epithelial consequence and independent barrier measurement are not supplied by the atlas observations.
 
 ## Current hypothesis and rival
 
@@ -41,7 +35,7 @@ An age-associated change in a specified bladder stromal population reduces uroth
 
 ## What the comparison would teach
 
-A separately measured barrier difference attributable to stromal context at comparable epithelial starting condition would support the stromal contribution. A difference confined to epithelial age or differentiation would favor the rival. Marker positivity, tissue-average RNA or a ligand-receptor score alone cannot discriminate them.
+Keep the atlas observations as context. A justified extension should specify a stromal population and an independently measured epithelial/barrier consequence. Concordant changes would motivate a bounded support question; effects accounted for by epithelial state or capture would restrict it. Another generic senescence score does not identify the missing mediator.
 
 ## Hypothesis schematic
 

@@ -2,7 +2,7 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A25.md).
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -17,21 +17,17 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Nb5 recovered count-valued official expression, four region labels and exact identities for 13,130 source-labelled microglia. The source has 6/4/4 mice at 3/18/24 months; all 24-month mice are male. No state-versus-mixture model has run. Source clusters and trajectories are outcome-exposed observations, not longitudinal transitions.
+The exposed internal prediction comparison uses 2,129 male cortex microglia from nine mice: 3/2/4 mice at 3/18/24 months. Whole mice are held out; feature selection, scaling and PCA use training mice. The added component beats endpoint mixture in both middle-age holdouts, but its gains against the flexible nonmonotone age model are +0.209465 and -0.013622 nats per cell in each fold's projection. The unfavorable comparison remains part of the result.
 
-Exact current result locators:
+The flexible baseline allows nonmonotone quadratic mean/log-variance interpolation and is saturated at the three observed ages. Away from middle age, the added-component model equals the endpoint mixture by design; an aggregate advantage over flexible age is therefore not wholly attributable to the middle-age component.
 
-- [RQ_Specified/A25_microglial_midlife_configuration/README.md](README.md)
-- [RQ_Specified/A25_microglial_midlife_configuration/PLAN.md](PLAN.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md)
+[Current result, design and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Compare qualified mixture, continuous and additional-component accounts in a defined region/sex, with animal-held-out prediction and later independent transport. This could test robustness and interpretation of reported intermediates; it does not announce the first state or infer function from RNA.
+Supported limitation of the endpoint-mixture representation, with mixed evidence against flexible age. A favorable average and similar reconstructed directions do not establish a distinct middle-age state. The two middle-age fits share most endpoint training mice and each trains on only one middle-age mouse; agreement is not independent replication.
+
+Only two middle-age male cortex units support the key comparison. Other regions and sexes are not supplied by adjustment. Gaussian restrictions and age-associated processing remain alternatives; a predictive component is not a functional or discrete cell state.
 
 ## Current hypothesis and rival
 
@@ -41,7 +37,7 @@ A region- and sex-qualified middle-age microglial distribution contains coherent
 
 ## What the comparison would teach
 
-Compare animal-held-out predictive adequacy of prespecified endpoint-mixture, continuous and additional-component models with complexity control. Support for an added component must accompany reproducible cell-level coherence. Equivalent or unstable prediction leaves the models unresolved; training fit and embedding separation cannot decide.
+Treat this comparison as complete with a mixed outcome. A transport question would need independently justified middle-age, region and sex support with explicit preprocessing/model choices. Consistent improvement beyond flexible age would strengthen a bounded RNA-organization claim; gain only beyond endpoint mixture would continue to restrict it. No rescue tuning or new state label follows.
 
 ## Hypothesis schematic
 
@@ -57,7 +53,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 Planned query (not reported as newly executed): `microglia middle age hippocampus continuous mixture intermediate state animal replication 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
-**Current unresolved specification:** The actual configuration, feature/model specification and supported region/sex population must be fixed. External datasets differ in age schedules, sex and regional sampling; independently mapped animal units and compatible endpoints remain unqualified.
+**Current unresolved specification:** The male-cortex configuration, feature/model specification and supported population were fixed for the completed comparison. A transport study still needs independently mapped animals and compatible age, sex, regional sampling and endpoints; the mixed internal result supplies no universal configuration.
 
 **Interpretation limit:** No RNA configuration implies a cell transition, reversibility, beneficial state, Alzheimer mechanism or treatment target. A25 preserves the owner's disease-related motivation without turning it into a measured result. Old female absence cannot be repaired by regression.
 

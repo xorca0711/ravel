@@ -1,7 +1,5 @@
 # A3: literature context and hypothesis schematic
 
-**Completed full-priority screen, 3 November 2026:** The reviewed six-target, two-offset repeat-stimulation view has completed. Target directions are heterogeneous and ARG1 is offset-sensitive; source group averages supply neither individual variance nor persistent macrophage memory. This same-source measurement does not establish NAM/injury memory or a repair mechanism. [Complete result and evidence](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
-
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A3.md).
 
 **Source-navigation update, 2 November 2026:** [DY1-P02 current results and holds](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md) support measurement/context assessment for A3. This link introduces no new mechanism, literature claim or change to the registered hypothesis; the [scope assessment](../../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md) preserves the source ownership.
@@ -20,18 +18,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-W1 is a pseudobulk analysis, not a completed Compass flux analysis. Age and processing are confounded; the reference CAMERA analysis found no significant sets and the seven-gene ornithine set was ineligible.
+The reviewed separate BMDM source contains six libraries: two source controls, two initial IL4 and two post-IL4. Egr2/Irf4 post values exceed control but remain well below initial exposure. Pparg post values lie within the control range, Stat6 is lower, and Rxra has a higher-post context. Arg1 is much lower post than initially while remaining above low control values. The readout is deposited-count CPM with all 24,411 genes in the denominator, retaining Salmon-derived count/estimate semantics.
 
-
-Exact current result locators:
-
-- [Research Article/gate1_01_niethamer_2025/README.md](../../Research%20Article/gate1_01_niethamer_2025/README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md](../../docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md)
+[Current result, design and limits](reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A3 would ask whether a nominated programme and consequence remain associated with injury history at comparable origin, age and present context. The Nb5 normal-age extension informs the rival; it does not establish injury memory.
+Exploratory transcript-context narrowing, not identification of a persistence-maintaining regulator. The measured regulator RNAs are not uniformly maintained in these libraries. This does not test a requirement of the mechanistic axis or exclude sequential regulation; regulator activity is unmeasured. Egr2/Irf4 are source-specific leads after prior outcome exposure; annotations and repeated use of these libraries do not independently validate maintenance, activity or an ARG1 mechanism.
+
+Preparation/batch sharing and time-matched control harvest remain unresolved. Library suffixes do not establish pairing or six independent animals. This source is distinct from the original NAM context and does not resolve same-cell RNA–ATAC coupling or a withdrawal effect.
 
 ## Current hypothesis and rival
 
@@ -41,7 +36,7 @@ Prior lung injury may leave a persistent macrophage programme within comparable 
 
 ## What the comparison would teach
 
-A history-associated difference within supported age/origin/context comparisons could support persistence. Disappearance under those comparisons favors age, mixture or ongoing stimulation. Missing overlap cannot be repaired by covariate adjustment, and RNA does not measure metabolic flux.
+Use the existing temporal/source qualification to decide what a matched post-exposure contrast could estimate. Consistent transcript persistence after qualified cessation would narrow a temporal explanation; dependence on current input, timing or composition would restrict it. Regulator activity and effector consequences are separate questions. No additional unlinked enrichment score or intervention is selected by this display.
 
 ## Hypothesis schematic
 

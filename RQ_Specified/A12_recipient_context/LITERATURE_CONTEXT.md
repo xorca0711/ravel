@@ -1,10 +1,11 @@
-# A12: literature context and hypothesis schematic
-
-**Completed full-priority screen, 3 November 2026:** The reviewed ten-gene component view has completed in the original 12 patients and 48 units. Mixed receptor/accessory/inhibitor directions explain why the signed index cannot be read as uniform receptor activation. NFKBIA/TNFAIP3 overlap the old response and are not independent validation. The unfavorable fibroblast prediction, candidate-label uncertainty and unassigned IL1B source remain; IL-1-dependent function is still unmeasured. [Complete result and evidence](reports/IL1_COMPONENTS_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+# A12: literature context and current argument
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A12.md).
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Synthesis updated 4 November 2026 using the recorded source reviews and current
+results. No fresh literature search or biological calculation was performed for
+this documentation batch. Published premises and reused-data observations remain
+separate evidence types.
 
 ## Published starting point
 
@@ -17,19 +18,78 @@ IL-1-dependent epithelial transitions and fibroblast exposure effects already sh
 
 Sources above reuse the named review unless the update ledger explicitly records a fresh inspection. Published-source evidence and reanalysis of the same material are not independent replication.
 
+The [3 November ERBB source record](../../RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md)
+and [Lin read](../../RQ_Specified/A12_recipient_context/reports/LIN_REFERENCE_READ_V1.md)
+are adjacent receptor/identity context, not a new IL-1 validation lineage.
+The close Gomez/Koyama 2026 report (DOI
+[10.1093/ajrccm/aamaf106](https://doi.org/10.1093/ajrccm/aamaf106), Fig. 2A and
+supplementary Figs. 2/3) cautions that HTII-280 sorting need not yield homogeneous
+AT2 cells; its GSE150068 reanalysis shares the sorted source. The resulting
+ERBB4/ERBB2 RNA detection in one preparation is described separately in the
+[completed report](../../RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md).
+A usable between-state map and Lin replicate/preparation values remain
+unrecovered. None of these observations transfers a functional mechanism into
+the current human IL-1 prediction.
+
 ## Repository observation
 
-The recipient index improved epithelial prediction in twelve patients while fibroblast results were unstable. Unassigned sources account for roughly 52–72% of IL1B, limiting a macrophage-only source interpretation.
+The [original pilot](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md)
+uses **12 matched patients and 48 patient/histology/recipient units** in GSE308103.
+All features and outcomes are LUAD-minus-normal within patient. The outcome is a
+gene-disjoint TNF/NFkB inflammatory RNA score, not an IL-1-specific activity assay.
+The fixed comparison adds recipient context to the same source/mixture model
+already containing TNF; patients are held out from fitting.
 
+| Recipient | Source + TNF RMSE | With recipient index | Interpretation |
+|---|---:|---:|---|
+| AT2 candidate label | 0.4271 | 0.3244 | Lower prediction error; 7/12 patients improve. |
+| Alveolar fibroblast candidate label | 0.2098 | 0.2283 | Worse primary prediction; direction changes in sensitivity analyses. |
 
-Exact current result locators:
+Cross-validation training sets overlap, so these are exploratory prediction
+results without fold-based significance claims. Healthy-reference labels do not
+independently establish malignant identity. The [ten-gene attribution](../../RQ_Specified/A12_recipient_context/reports/IL1_COMPONENTS_V1_RESULTS.md)
+reuses the same 12 patients: 24 patient/recipient paired contrasts, not new donors.
+In epithelium, IL1RAP increases while IL1R1 decreases; lower IL1R2/SIGIRR contributes
+positively to the signed index, while higher IL1RN contributes negatively.
+The index is therefore not uniform receptor activation or uniform inhibitor loss.
+MYD88/IRAK1/IRAK4 add RNA context, not activation measurements.
+**NFKBIA and TNFAIP3 overlap the old response**, so they cannot independently
+validate it.
 
-- [RQ_Specified/A12_recipient_context/README.md](README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+The [A12-S1 source map](../../RQ_Specified/A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md)
+reports **median patient-level unassigned fractions of recovered IL1B counts
+of roughly 52-72% across histologies** under the recorded assignments. These are
+not pooled tissue fractions or secretion measurements. The source term describes
+assigned macrophages; it cannot assign all active ligand to macrophages.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: supported exploratory predictive narrowing, with an
+incomplete causal interpretation.** Published recipient-context effects make the
+question plausible; the actual support is lower held-out inflammatory-RNA error
+in 12 epithelial patient pairs and an unfavorable fibroblast comparison. This
+warrants prioritizing epithelial prediction for independent validation. It does
+not select a causal receptor configuration, establish IL-1 specificity or show
+that the fibroblast biology is absent.
+
+The [pilot exposure record](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md)
+distinguishes a comparison specified before its new scores/fits from exposure to
+earlier results and coverage. Epithelial prioritization followed those outcomes;
+the later component display reuses the same patients. Candidate-label transfer,
+composition, shared normalization and general inflammation remain alternatives.
+Mixed receptor/inhibitor directions and the unfavorable fibroblast result are
+part of the evidence, not grounds to choose a favorable subset. The next
+informative decision is whether the fixed epithelial prediction transports to a
+qualified independent context. Current evidence cannot determine how much of
+the gain is biological versus technical or sampling variation.
 
 ## What this question could add
 
-Fix the recipient compartment and one IL-1-specific functional response at comparable input. This can distinguish recipient context from supply, while a generic disease-associated predictor remains insufficient.
+The computational contribution is recipient-specific predictive narrowing and
+interpretation of the original signed index. Epithelial association is useful
+without proving reception. The unchanged registered hypothesis below remains a
+functional proposal: an epithelial lead has been prioritized, but the mechanistic
+receptor/inhibitory contrast and consequence are still unqualified.
 
 ## Current hypothesis and rival
 
@@ -39,7 +99,24 @@ IL-1 receptor and inhibitory context in recipient epithelial cells or fibroblast
 
 ## What the comparison would teach
 
-A recipient-context effect under a qualified IL-1-dependent contrast supports specific reception. The same response without IL-1 dependence favors a general inflammatory marker. Source-attribution uncertainty and a generic pathway score cannot identify which cells delivered the active input.
+The epithelial result motivates separating receptor/accessory/inhibitory
+configuration from population mixture and general inflammation. The current
+same-patient component display supports that question but cannot distinguish all
+three explanations. Independent epithelial validation would test predictive
+transport; a qualified IL-1-dependent response would test the stronger reception
+claim. A generic response without IL-1 dependence would leave a useful
+inflammatory predictor while weakening the specific functional interpretation.
+Source uncertainty prevents a macrophage-only transmission conclusion.
+
+The 23-patient CSC intake is source work in the same study, not 23 new validation
+patients. Its healthy-reference labels use some candidate genes and retain
+cross-lineage/retention uncertainty. [Exact intake and limitations](../../docs/research_reviews/2026-11-03-tool-assisted-screening-review/A12_SOURCE_INTAKE.md).
+
+## Reading the registered illustration
+
+The retained illustration depicts the registered proposal. The
+[measured figure in the question home](README.md#evidence-analyses-and-next-steps)
+has a separate evidence-display purpose; no registered asset is replaced.
 
 ## Hypothesis schematic
 
@@ -53,30 +130,13 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `IL1 recipient epithelial fibroblast context specific functional response matched input`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+This synthesis reuses the recorded 3 October primary review and the bounded
+3 November adjacent-reference/source records above; no fresh search was performed.
+The earlier planned IL-1 recipient query remains a possible future check, not an
+executed search. Refresh exact epithelial input, receptor context and
+IL-1-dependent endpoint precedents if a new comparison is specified.
+[Independent-source qualification](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md)
+does not confer novelty or laboratory readiness.
 
-**Current unresolved specification:** The endpoint is insufficiently IL-1-specific, and source assignment is incomplete; ligand RNA versus recipient competence is not a causal decomposition.
-
-**Interpretation limit:** A transcript-based receptor index does not establish receptor activity, and NFkB-associated RNA cannot identify the responsible ligand.
-
-[Current dossier](../../docs/research_dossiers/A12.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)
-
-## Cut-or-fill execution — 3 November 2026
-
-A new bounded independent-source search is executed. No cohort clears the unchanged joint patient/state/count gate; fixed-procedure replication remains held and the original pilot stays closed.
-
-[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
-
-## Literature-informed screening disposition — 3 November 2026
-
-The Lin reference sharpens the published receptor/identity distinction, but source-value reproduction is held on unrecovered replicate values and preparation identities. The closed pilot and independent replication hold are unchanged. [Exact source evidence and reopening condition](reports/LIN_REFERENCE_READ_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.
-
-## A12-adjacent ERBB sorted-origin reference — 3 November 2026
-
-A bounded same-day refresh reused A19 intake and the Lin source read, then checked GSE150068/GSE150247, Kathiriya's original methods and direct reanalysis routes. No usable public barcode-to-state map was recovered. The exposed descriptive extension is restricted to the source-defined fresh HTII-280-sorted GSM4522986 preparation, with ERBB4/ERBB2 RNA molecules, full-RNA denominators and detection. It cannot compare epithelial states or change the closed IL-1 pilot.
-
-The close 2026 Gomez/Koyama primary report (DOI [10.1093/ajrccm/aamaf106](https://doi.org/10.1093/ajrccm/aamaf106), Fig. 2A and supplementary Figs. 2/3) warns that HTII-280 sorting need not isolate a homogeneous AT2 state. Its GSE150068 reanalysis shares these data. We retain the source sort label and unknown cell identity. Original-paper QC is operationally reconstructed, with its wording ambiguity explicit. Positive RNA provides a preparation reference; sparse/absent detection limits measurement without establishing absent receptor function.
-
-[Search date, queries, access/version records, published premise to decision, prospective specification and exposure](reports/ERBB_SORTED_SPEC_V1.md). This is reference characterization, not an independent replication, Lin perturbation reproduction, novelty claim or laboratory-readiness decision. The canonical hypothesis and registered qualitative illustration remain unchanged.
-
-**Completed adjacent reference result:** [ERBB sorted-preparation report and measured figure](reports/ERBB_SORTED_RESULTS_V1.md). In the operational-QC subset, ERBB4/ERBB2 are detected in 13.65%/13.46% of 11,352 barcodes; both in 2.03%. The nested deposited subset is similar. This confirms measured RNA in this single sorted preparation while leaving receptor activity, cell identity and the between-state comparison unresolved. No canonical hypothesis, novelty/acceptance decision or IL-1 replication status changes.
+[Current evidence and history](README.md#evidence-and-planning-records) ·
+[Research governance](../../docs/RESEARCH_GOVERNANCE.md).

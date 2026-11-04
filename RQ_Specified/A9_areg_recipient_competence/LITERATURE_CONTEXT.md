@@ -19,20 +19,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The primary resource/complex-coverage observation is in the corrected ligand report; the Nb3 screen is adjacent EGF/compartment context. EGFR_ERBB2 coverage was only 7 of 22 donors, below the specified 11-donor eligibility floor. This establishes neither receptor competence nor an EGFR homodimer mechanism.
+The resource correction found AREG/HBEGF–EGFR_ERBB2 scoreable in only 7 of 22 donors, below the fixed 11-donor rule; the encoded complexes existed in the resource. The completed 3 November six-target screen then retained all 132 attempted within-donor recipient-label contrasts: 114 estimated in 19 paired donors and 18 unsupported. Mean per-cell log1p(full-library CP10k) EGFR and ERRFI1 are lower in Myofibroblast in every supported pair; ERBB2, ERBB3, ERBB4 and LRIG1 have mixed directions. These reused donors support an exploratory RNA-context lead, not independent validation or a response contrast at comparable effective input.
 
-
-Exact current result locators:
-
-- [analysis/corrections/ligand/RESULTS.md](../../analysis/corrections/ligand/RESULTS.md)
-- [Research Article/gate2_N2_nabhan_2026/README.md](../../Research%20Article/gate2_N2_nabhan_2026/README.md)
-- [docs/research_dossiers/qualification_2026-10-03/RESULTS.md](../../docs/research_dossiers/qualification_2026-10-03/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/METADATA.md](../../docs/research_dossiers/followup_2026-10-03/METADATA.md)
+[Completed recipient RNA-context result](reports/RECEPTOR_CONTEXT_V1_RESULTS.md) · [Earlier resource correction](../../analysis/corrections/ligand/RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A9 would compare a named recipient consequence at comparable effective input. This complements A2 delivery attribution; it does not rescue a score as proof of pathway engagement or invent a functional endpoint.
+Supported technical correction and exploratory recipient RNA-context narrowing, with the competence mechanism still unmeasured. The concordant EGFR/ERRFI1 directions do not rank receptor activity or effective inhibition; annotation, depth and transcript detection remain alternatives. Exclusion by expression coverage does not establish homodimer signaling, receptor absence or functional competence, and correcting database absence does not select a causal configuration.
+
+A recipient definition, comparable effective exposure and a specific measured response are not jointly supplied by the current source. Receptor assembly/activity and downstream state remain unmeasured alternatives.
 
 ## Current hypothesis and rival
 
@@ -42,7 +37,9 @@ Fibroblast competence to receive AREG may change its downstream response even at
 
 ## What the comparison would teach
 
-Protein/activity evidence and a receptor-dependent response at comparable input would support recipient competence. RNA-only association, differences in ligand availability or a response equally explained by other stimuli would not. Existing sparse complex coverage remains an eligibility hold.
+The [existing candidate comparison](../../docs/research_reviews/2026-11-03-tool-assisted-screening-review/BIOLOGICAL_LINK_SCREENING_V1.md#a9-specify-which-recipient-configuration-changes-the-hypothesis) asks whether EGFR and ERRFI1/LRIG1 transcript context occurs together within an independently identified fibroblast population or reflects different subpopulations. This follows from the lower EGFR and ERRFI1 marginal measurements without assigning a net response direction. A within-population pattern would motivate a receptor/feedback-context question; segregation among populations would shift the interpretation toward recipient composition. Neither outcome would turn RNA into surface receptor availability or effective inhibition. Feedback-associated RNA may also reflect earlier stimulation.
+
+This is a proposed descriptive branch, not a completed co-occurrence result or a selected mechanism. It needs an interpretable population definition and transcript-detection comparison before any new run. The separate response question still asks whether recipient contexts differ at comparable effective input. A directly informative response comparison need not wait for the optional RNA branch. The 7/22 encoded-complex coverage failure and all six measured targets remain unchanged.
 
 ## Hypothesis schematic
 

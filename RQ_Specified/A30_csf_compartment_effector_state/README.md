@@ -2,11 +2,11 @@
 
 ## Organizing Biological Q
 
-CSF and blood can contain different mixtures and states of CD4 T cells. A paired RNA difference may reflect activation, selective trafficking or context-associated expression. A30 asks whether a residual association is measurable within comparable states; it does not presume a compartment-induced mechanism.
+How much of the paired CSF–blood inflammatory RNA difference remains within the observed state and activation support, and what can that restricted comparison explain?
 
-**Unresolved gap:** Are the residual RNA differences robust to lineage/gating, depth, activation balance and state-support qualification? The source cannot establish local induction, residence or regulatory function. Ten paired donors and incomplete clinical covariates restrict precision and interpretation; descriptive states do not guarantee biologically comparable populations.
+Published compartmentalization motivates a paired association question. It does not establish local induction, residency, disease specificity or unchanged regulatory competence; a blood treatment comparison is not a CSF intervention.
 
-[Full working hypothesis and alternatives](../../docs/research_dossiers/A30.md#working-hypothesis).
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A30.md) · [Source context](LITERATURE_CONTEXT.md).
 
 <!-- literature-visual-context:start -->
 <a id="literature-context-and-visual-hypothesis"></a>
@@ -22,6 +22,39 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Qualitative proposal, not measured results. Sample symbols do not encode observed
 counts. Extensions require their own qualified designs.*
 <!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The corrected all-cell paired inflammatory association is positive in all ten donors. Within observed shared-state and activation support, linear activation standardization retains seven donors, with median inflammatory RNA-score contrast +0.03810 and positive direction in six. Median retained coverage is 67.7% for CSF and 33.0% for blood, with only 3.9% CSF coverage for the least-covered retained donor; the floor-five sensitivity interval crosses zero. The standardized activation contrast is zero by construction, not evidence that biological activation has been controlled. The comparison changes the target population rather than explaining every cell in either compartment. Inputs and motivating outcomes were already exposed; a later frozen specification does not make this confirmatory.
+
+[Current result, design and limits](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md).
+
+**Rationale check.** A bounded association survives a more restricted observed comparison. This is useful context narrowing, but it does not exclude biological activation or select local compartment induction. State and activation definitions share the transcriptome, and the sensitivity result limits a uniformly robust interpretation.
+
+## Current interpretation and next decision
+
+Independent lineage/activation qualification, clinical context and functional outcomes remain unresolved. Trimming to common support cannot identify unmeasured activation, trafficking or residency, nor demonstrate regulatory equivalence.
+
+Preserve both the all-cell and restricted estimands and their coverage. Independent state/activation or clinical qualification could determine whether the association transports to the intended population. Persistence would support a bounded contextual association; dependence on those definitions would restrict it. Further stratification of the same exposed data does not automatically resolve induction or function.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
+## Organizing Biological Q
+
+CSF and blood can contain different mixtures and states of CD4 T cells. A paired RNA difference may reflect activation, selective trafficking or context-associated expression. A30 asks whether a residual association is measurable within comparable states; it does not presume a compartment-induced mechanism.
+
+**Unresolved gap:** Are the residual RNA differences robust to lineage/gating, depth, activation balance and state-support qualification? The source cannot establish local induction, residence or regulatory function. Ten paired donors and incomplete clinical covariates restrict precision and interpretation; descriptive states do not guarantee biologically comparable populations.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A30.md#working-hypothesis).
+
+
 
 ## Evidence, analyses and next steps
 
@@ -103,3 +136,5 @@ The v2 schematic supersedes the earlier causal and regulatory-function framing.
 The saved-state/barcode key audit is executed. Equal cell totals do not supply a cell identity join; dependent lineage/doublet and matched-null work remains held.
 
 [Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A30_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+</details>

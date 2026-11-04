@@ -16,17 +16,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The proliferating-state comparison has only three IPF donors and one control at its gate. Earlier owner reservations about this direction remain recorded; registration does not reverse them.
+The available proliferating-state validation contains three IPF and one control donor. In the broader 254-candidate RNA gene-set screen, no candidate passes corrected discovery and validation under estimated intergene correlation; the post-primary fixed-0.01 sensitivity supports 30, including 28 macrophage sets. This sensitivity cannot replace the primary result or establish pathway activity. Different subtype labels and sparse support prevent a composition-only conclusion. Additional cells, gene sets or reuse through an atlas integration do not create independent control donors, and a more complex score does not supply a reproducible within-state target.
 
-
-Exact current result locators:
-
-- [Research Article/gate1_04_sikkema_2023_hlca/README.md](../../Research%20Article/gate1_04_sikkema_2023_hlca/README.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Statistical correction and subtype support](../../analysis/corrections/statistics/README.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A reproducible change within a comparable state could narrow the effector question. An independent tissue consequence and nominated programme remain necessary before treating the comparison as a mechanism.
+A coherent question with sparse source support and a useful interpretation limit. The current evidence has not selected a reproducible IPF effector; it also does not establish absence of within-state biology or demonstrate that the observed signal is random noise.
+
+Donor/state support for a fixed within-state comparison and a specific biological consequence remain unqualified. Existing owner reservations remain in force; no retain/reject decision is created here.
 
 ## Current hypothesis and rival
 
@@ -36,7 +34,7 @@ IPF may change macrophage activity within a shared macrophage state as well as c
 
 ## What the comparison would teach
 
-A replicated within-state difference separate from abundance would support altered state activity. A difference explained by state mixture or one donor favors those rivals. More cells from the single control do not provide independent control replication.
+Reuse the current decomposition and correlation checks. A new source would need adequate donor/state support for a stated contrast, rather than another broad signature. A reproducible within-state pattern would motivate a more specific consequence question; dependence on composition or a single donor would restrict the claim. No new target is selected by the current dataset.
 
 ## Hypothesis schematic
 

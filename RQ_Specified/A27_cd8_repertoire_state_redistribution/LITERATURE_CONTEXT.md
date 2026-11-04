@@ -1,7 +1,5 @@
 # A27: literature context and hypothesis schematic
 
-**Completed full-priority screen, 3 November 2026:** The fixed CD8 RNA-state screen has completed with separate denominators of 354 RNA cells and 288 prior repertoire-table rows. All four naive/effector-associated age contrasts remain unsupported; four mixed/indeterminate contrasts qualify without resolving state redistribution. The 237 blank source clone labels retain an inherited singleton convention, not verified sequence uniqueness. Prior-table representation is not productive assembly success, and within-state depth-five comparisons are not fixed-composition attribution. [Complete result and evidence](reports/STATE_REPRESENTATION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
-
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A27.md).
 
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
@@ -19,21 +17,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The Nb5 broad CD8 restriction retains a higher older spleen mean at a conditional depth of only five reconstructed cells per mouse, with 4/3/4 mice at 3/18/24 months. CD4 has no 24-versus-3 difference; its 18-month result depends on one mouse. Neither outcome resolves finer states or receptor recovery.
+The newer source retains all nine mice and describes repeated operational alpha/beta receptor keys within nominal source codes. Concentration is the fraction of distinct eligible-cell pairs sharing a key, with N<2 reported as unavailable. Mouse0096's CD8.E code retains repeated keys under both chain conventions; some extreme tiles contain only two or three cells. The conventions change eligible cells as well as key matching. The 354 receptor-only records have mouse mappings but no state labels and remain outside RNA/CD8 denominators.
 
-Exact current result locators:
-
-- [RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md](README.md)
-- [RQ_Specified/A27_cd8_repertoire_state_redistribution/PLAN.md](PLAN.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md)
+[Current result, design and limits](reports/SOURCE_CODE_CONCENTRATION_V1_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-Estimate how state redistribution and within-state concentration contribute to the specified spleen contrast, retaining aggregate and ascertainment limits. A reproducible attribution is useful without claiming a first mechanism or immune impairment.
+Supported finite-source description and an annotation/ascertainment lead. It does not establish an independently defined memory state, biological expansion rate or ageing mechanism. The code/notebook evidence does not establish final state-label independence from receptor information, and the sole 108-week male cannot support an age effect.
+
+Independent state definitions, receptor recovery and adequate mouse/state support remain unresolved. Mathematical computability of a cell-pair fraction is not adequate precision or independent biological replication. The earlier unestimated contrasts remain unestimated.
 
 ## Current hypothesis and rival
 
@@ -43,7 +35,7 @@ For specified CD8 states, a measurable component of the spleen age contrast rema
 
 ## What the comparison would teach
 
-Estimate state-specific repeated-clone-cell fractions on a common sampling scale and a declared fixed-composition contrast, retaining the aggregate result. If the standardized contrast attenuates and state weights explain the pattern, redistribution is favored. Persistent supported state contrasts motivate quantitative replication; uncertain sparse results remain inconclusive.
+Qualify what the nominated source codes represent before interpreting the pattern as within-state redistribution. Persistence under independently justified state definitions and comparable ascertainment would support a narrower descriptive context; dependence on labels or eligibility would limit it. Any age comparison needs its own biological-unit support. Do not rescue the earlier fixed-state comparison by relabelling the new codes.
 
 ## Hypothesis schematic
 

@@ -6,7 +6,7 @@
 **Screening follow-through — 3 November 2026:** All seven focal chemokine RNA effects are already available after NKX2-1 perturbation. The small broad-identity predictor gain fails whole-plate transfer and disappears without NKX2-1. Viable source-cell amount, extracellular protein output and recipient selection are not jointly measured. Reuse the focal RNA screen; do not repeat the broad predictor or infer secretion from RNA. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
 <!-- full-priority-screening-20261103:end -->
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -20,20 +20,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The 672-well, 201-target analysis showed a 0.64% error improvement that became -0.97% without NKX21 and -35% on whole-plate holdout. This weakens a general predictor. Nb4 shows opposing C3/chemokine behavior across cohorts, so C3 is not a stable proxy.
+The retrospective predictor uses 672 wells across 201 targets. Adding the inherited AT2 identity score reduces equal-target mean squared error by 0.64% in target holdouts, increases it by 35.00% in whole-plate holdouts, and loses the small target-held-out gain without NKX2-1. Day-14 RNA and imaging are concurrent; day-7 imaging is also post-perturbation. Whole-screen TMM normalization was not refitted within folds, so held-out count distributions contributed to upstream processing. Adjustment for these treatment-dependent proxies does not identify mediation or an epithelial-amount effect. These are processing-conditional screen diagnostics, not independent preparation-level or clean prospective validation.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A22_epithelial_identity_niche_response/README.md](README.md)
-- [RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md](reports/identity_amount_v2/RESULTS.md)
-- [docs/research_dossiers/qualification_2026-10-03/RESULTS.md](../../docs/research_dossiers/qualification_2026-10-03/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/METADATA.md](../../docs/research_dossiers/followup_2026-10-03/METADATA.md)
+[Current result, design and limits](reports/identity_amount_v2/RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A named extracellular protein endpoint at comparable viable source amount could determine whether the RNA effect reaches measured output. It would not by itself measure secretion rate or immune recruitment.
+Useful failed transport of the broad identity predictor. A focal NKX2-1 output question remains justified by the published contrast; it does not rescue the failed generalization or identify a new mediator. The seven focal chemokine RNA effects are not measurements of secretion or functional competence.
+
+Viable epithelial amount, extracellular chemokine protein and recipient selection/state are not jointly measured. Imaging area/read depth are imperfect proxies and may be treatment consequences.
 
 ## Current hypothesis and rival
 
@@ -43,7 +38,7 @@ Loss of NKX2-1-dependent AT2 identity may lower actual fibroblast chemokine outp
 
 ## What the comparison would teach
 
-Lower measured protein output within comparable recipient states at comparable viable epithelial input would support the extension. An amount/selection-only effect or unchanged protein weakens it. Calibrated collection/recovery is needed for secretion-rate language; the failed broad predictor cannot support all epithelial identity perturbations.
+Retain the failed broad predictor. A focal extension would specify an extracellular output and how source amount and recipient context affect its interpretation. Concordant RNA/protein changes in qualified units would advance the output question; RNA-only or selection-dependent effects would restrict it. Another general predictor or RNA score does not supply secretion.
 
 ## Hypothesis schematic
 

@@ -17,21 +17,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Nb5 broad T-cell results differ across spleen, marrow and thymus. Tissue-specific common depths preclude direct ranking. The later exact CD4/CD8 follow-up supports spleen only; absent exact marrow CD8 support remains a hold. This proposed spleen/marrow contrast was chosen after exposure to those results, not preregistered.
+The exact marrow-CD8 coverage required by the current comparison fails. The registered spleen/marrow focus was chosen after inspection of the source outcomes, not preregistered before them. Missing qualifying labels are not zero CD8 cells, and different tissue-specific rarefaction depths cannot be ranked as a tissue effect. The newer A27 nominal-code source description is a different question and does not supply the missing paired-organ contrast.
 
-Exact current result locators:
-
-- [RQ_Specified/A26_tissue_context_cd8_ageing/README.md](README.md)
-- [RQ_Specified/A26_tissue_context_cd8_ageing/PLAN.md](PLAN.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md)
-- [Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md)
+[Exact subtype-support result](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md#completed-biological-follow-up-cd4cd8-repertoire-concentration). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A26 could estimate a paired-organ age difference in clone concentration at a common CD8 state and scale. Its proposed older-age window and estimand differ from the inspected study, but their biological value still needs justification and qualified marrow support.
+A well-defined but currently unestimated tissue comparison. Source ineligibility is an observation about the proposed analysis, not evidence of absent tissue-specific biology or a negative age interaction.
+
+Paired-organ animal identity, independently comparable state definition and receptor recovery support remain insufficient for the intended comparison.
 
 ## Current hypothesis and rival
 
@@ -41,7 +35,7 @@ At a fixed, independently defined CD8 state and comparable sampling scale, the o
 
 ## What the comparison would teach
 
-The target is an age contrast of within-animal spleen-minus-marrow differences at a common state and observation scale. A reproducible tissue-dependent contrast supports context dependence; compatible contrasts support a shared association only with useful precision. Cross-tissue receptor sharing alone does not prove movement or local proliferation.
+Reopen only for a source supporting the intended paired state/receptor comparison. A reproducible tissue difference at comparable ascertainment would support a contextual association; disappearance with state or recovery matching would restrict it. Lowering the old floor or borrowing A27's codes cannot create the missing pairing.
 
 ## Hypothesis schematic
 

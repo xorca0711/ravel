@@ -2,7 +2,7 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A0.md).
 
-Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+Primary-source reviews retain their recorded dates and access limits. Synthesis updated 4 November 2026 using those records and current results, without a new literature search. This is a bounded rationale assessment, not novelty clearance or scientific acceptance.
 
 ## Published starting point
 
@@ -17,19 +17,17 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-The frozen 50-gene lung programme failed the specified intestinal intermediate-minus-mature contrast: the three-mouse median was negative and only one mouse was positive. This is a failed operational transfer, not a direct experiment on conserved function. The original stop remains in force.
+The frozen 50-gene lung programme passed its discovery comparison but failed the specified intestinal intermediate-versus-mature ordering in three mice; only one mouse had the intended positive direction. The intermediate-versus-stem result does not rescue the failed mature-endpoint contrast. The prespecified stop pruned later specificity tests.
 
+Discovery used nine injured-lung mice and eleven early human-airway donors; its favorable contrasts are selected estimates, not independent confirmation. Prior Strunz/A5 outcomes were exposed. The 50-gene membership was fixed before scoring the three intestinal mice. The endpoint is a within-cell percentile-rank RNA score averaged by biological unit/state, not fate or function; species, assay, state mapping and untested lung specificity remain limits.
 
-Exact current result locators:
-
-- [RQ_Specified/A0_conserved_epithelial_transition_program/README.md](README.md)
-- [RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md](reports/PILOT_V1_RESULTS.md)
-- [RQ_Specified/A0_conserved_epithelial_transition_program/reports/SOURCE_RECOVERY.md](reports/SOURCE_RECOVERY.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+[Current result, design and limits](reports/PILOT_V1_RESULTS.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A0 can test where a fixed measurement transports and where biological correspondence fails. Its failed intestinal transfer is information about the boundary; a new mechanism is not required to make that boundary useful.
+Informative failed generalization. The result restricts this signature, population mapping and endpoint contrast, not all conserved repair biology. Selecting a replacement gene set using the failed target would create a new exposed question rather than rescue the frozen transfer.
+
+The failed RNA ordering does not distinguish a tissue-specific signature from noncomparable states, timing, species or assay effects; conserved function was not measured. None of these explanations is selected by the negative result.
 
 ## Current hypothesis and rival
 
@@ -39,7 +37,7 @@ Biological aim: adult epithelial repair recruits part of a transition programme 
 
 ## What the comparison would teach
 
-An independently justified state comparison could delimit where the original transfer question applies. Re-scoring the same data after changing genes or labels would test a new, exposed hypothesis and cannot rescue the frozen result.
+Retain the stopped transfer. Review the source-recovery evidence for an independent biological rationale for a different mapping question. Without one, do not tune the signature again. With one, specify a new exposed comparison and informative outcomes separately; the original failure remains unchanged.
 
 ## Hypothesis schematic
 
@@ -55,7 +53,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 Planned query (not reported as newly executed): `conserved epithelial transition lung intestine independent lineage state correspondence 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
-**Current unresolved specification:** The existing transfer test cannot distinguish absence of a conserved function from an invalid cross-tissue state or endpoint correspondence. Neither possibility licenses post hoc signature rescue.
+**Current unresolved specification:** The failed RNA ordering leaves biological state correspondence, tissue specificity and technical/context differences unresolved; it does not test conserved function. No alternative licenses post hoc signature rescue.
 
 **Interpretation limit:** The negative transfer restricts this signature and contrast; it neither proves absence of all conserved epithelial biology nor supplies a lung maturation predictor.
 

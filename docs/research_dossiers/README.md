@@ -19,51 +19,56 @@ analysis is not an experiment-ready hypothesis. Published background and
 repository observations are separated in each dossier; novelty requires a
 targeted primary-source review before commitment.
 
-Use this sequence: establish the known result → identify the remaining gap →
-state a hypothesis and strong rival → specify outcomes that separate them →
-qualify measurements and independent units → freeze an appropriate analysis →
-evaluate the result → design the experiment justified by that evidence.
+Use this sequence: establish the published premise → identify the question and
+research purpose → justify a comparison → examine its actual result → explain
+what changed → state the next decision. For a hypothesis-driven study, identify
+the prediction and consequential alternative; descriptive, replication and
+predictive work instead need a clear endpoint and their relevant validity limits.
+A model diagnostic or an informative negative result can complete a useful branch.
+The [question index](../../RQ_Specified/README.md#browse-by-scientific-contribution)
+offers examples by contribution as well as biological topic. Historical packages
+remain evidence and proposals, not automatic commitments to execute every plan.
 
 No numerical effect margin, sample size or molecular mediator has been invented
 to complete these records. The endpoint, measurement validity and source/lab
 feasibility must supply those choices. Dossiers describe comparisons at the
 scientific-design level; they are not laboratory procedures.
 
-| Question | Proposed development scope | Dossier |
+| Question | Biological question → what current evidence changes | Dossier |
 |---|---|---|
-| A0 | Conservation aim; frozen cross-tissue transfer failed | [Evidence and next discriminator](A0.md) |
-| A1 | Regulatory competence beyond RNA; feature still missing | [Evidence and next discriminator](A1.md) |
-| A2 | AREG delivery through availability versus recipient competence | [Evidence and next discriminator](A2.md) |
-| A3 | Macrophage injury history beyond origin, age and current context | [Evidence and next discriminator](A3.md) |
-| A4 | Wnt-history AT2 lineages acquiring IL-1 response versus selection | [Evidence and next discriminator](A4.md) |
-| A5 | Replicate the fixed developmental component without claiming function | [Evidence and next discriminator](A5.md) |
-| A6 | Within-state macrophage change versus IPF population mixture | [Evidence and next discriminator](A6.md) |
-| A7 | CEBPA baseline-state interaction beyond known broad identity loss | [Evidence and next discriminator](A7.md) |
-| A8 | Frozen early RNA component predicting independent later AT1 output | [Evidence and next discriminator](A8.md) |
-| A9 | AREG recipient competence at comparable effective input | [Evidence and next discriminator](A9.md) |
-| A10 | Forecast later organoid area; concurrent association is insufficient | [Evidence and next discriminator](A10.md) |
-| A11 | Fixed residual beyond shared/stress; no new lesion mechanism | [Evidence and next discriminator](A11.md) |
-| A12 | IL-1-specific recipient response; compartment still to be fixed | [Evidence and next discriminator](A12.md) |
-| A13 | Additional fibroblast recovery route; no mediator nominated | [Evidence and next discriminator](A13.md) |
-| A14 | IL-1 exposure history and compartment effects on later mature AT1 recovery | [Evidence and next discriminator](A14.md) |
-| A15 | ITGB6 activation route for the existing context; pathway already known | [Evidence and next discriminator](A15.md) |
-| A16 | CD177 as a prospective epithelial marker, not a fate mechanism | [Evidence and next discriminator](A16.md) |
-| A17 | Persistent founder effects versus switching and clone observation | [Evidence and next discriminator](A17.md) |
-| A18 | Neighboring WT lineage expansion versus alveolar identity loss | [Evidence and next discriminator](A18.md) |
-| A19 | End Fzd input: mature AT1 output plus responsive AT2 reserve | [Evidence and next discriminator](A19.md) |
-| A20 | Matched AF1 Fzd2-versus-Fzd1 support of early pool and mature output | [Evidence and next discriminator](A20.md) |
-| A21 | Fzd4 vascular integrity linked to gCap renewal and aerocyte output | [Evidence and next discriminator](A21.md) |
-| A22 | NKX2-1 loss and actual fibroblast chemokine output beyond source amount | [Evidence and next discriminator](A22.md) |
-| A23 | SLC34A2 loss: increased transition entry versus delayed exit | [Evidence and next discriminator](A23.md) |
-| A24 | Bladder stromal ageing and urothelial barrier maintenance; proposed | [Evidence and next discriminator](A24.md) |
-| A25 | Regional microglial configuration during middle age; proposed | [Evidence and next discriminator](A25.md) |
-| A26 | Tissue context of CD8 repertoire ageing; proposed | [Evidence and next discriminator](A26.md) |
-| A27 | Within-state and compositional CD8 repertoire ageing; proposed | [Evidence and next discriminator](A27.md) |
-| A28 | Regulatory and inflammatory RNA arms versus functional competence; proposed | [Evidence and next discriminator](A28.md) |
-| A29 | PGAM perturbation, biosynthetic demand and effector output; proposed | [Evidence and next discriminator](A29.md) |
-| A30 | CSF-associated effector state: composition versus within-state association; proposed | [Evidence and next discriminator](A30.md) |
-| A31 | GRIA1-dependent acute glutamate response in adult alveolar fibroblasts | [Evidence and proposed baseline](A31.md) |
-| A32 | Myeloid ARG1: separate matrix and mature epithelial effects in one qualified design | [Evidence and next discriminator](A32.md) |
+| A0 | Cross-tissue epithelial conservation → frozen lung-to-intestine transfer failed; the boundary is the tested programme and state mapping. | [Evidence and next discriminator](A0.md) |
+| A1 | Regulatory competence → source-specific histone features are described; no early-regulatory/later-output prediction has been tested. | [Evidence and next discriminator](A1.md) |
+| A2 | AREG source and delivery → source/resource audits corrected attribution; the donor RNA association does not select effective delivery as the explanation. | [Evidence and next discriminator](A2.md) |
+| A3 | Macrophage exposure history → Egr2/Irf4 RNA remains above control after a pulse in a separate source; matched control timing and maintenance mechanism remain unresolved. | [Evidence and next discriminator](A3.md) |
+| A4 | Wnt history and IL-1 response → present-state RNA cannot distinguish acquired responsiveness from selection of starting lineages. | [Evidence and next discriminator](A4.md) |
+| A5 | Developmental reuse → a positive fixed component narrows to junction/polarity-associated RNA with mixed members; productive repair versus prolonged transition remains open. | [Evidence and next discriminator](A5.md) |
+| A6 | IPF macrophage change → composition and sparse donor/state support limit within-state interpretation; no reproducible effector has been selected. | [Evidence and next discriminator](A6.md) |
+| A7 | CEBPA starting-state dependence → panel contrasts differ across contexts under a post-treatment RNA reference; a pre-intervention state interaction remains unestimated. | [Evidence and next discriminator](A7.md) |
+| A8 | Maturation component and later AT1 output → member/depth sensitivity limits the small RNA panels; linked later output remains unmeasured. | [Evidence and next discriminator](A8.md) |
+| A9 | AREG recipient competence → EGFR/ERRFI1 RNA are lower in all 19 supported recipient-label pairs, with mixed family/feedback targets; receptor activity and effective inhibition remain unmeasured. | [Evidence and next discriminator](A9.md) |
+| A10 | Organoid growth prediction → a score block adds within-screen information, while absolute plate transfer is usually poor and measurements are concurrent. | [Evidence and next discriminator](A10.md) |
+| A11 | Lesion information beyond plasticity → positive association persists, but a duplicate-feature control undermines the claimed distinct predictive information. | [Evidence and next discriminator](A11.md) |
+| A12 | Inflammatory recipient context → prediction improves in epithelium and worsens in fibroblasts; receptor/feedback composition remains an explanation to distinguish. | [Evidence and next discriminator](A12.md) |
+| A13 | Fibroblast contribution beyond macrophage IL1B → the tested pathway-proxy extension worsens prediction; no mediator was selected. | [Evidence and next discriminator](A13.md) |
+| A14 | Recovery after exposure ends → the published withdrawal endpoint is identified; preparation-linked values and mature-output effects remain unavailable. | [Evidence and next discriminator](A14.md) |
+| A15 | Epithelial ITGB6 and TGF-beta activation → corrected perturbation RNA supports a matrix contrast, without measuring active ligand or excluding epithelial mediation. | [Evidence and next discriminator](A15.md) |
+| A16 | CD177 as a prospective marker → matching attenuates the RNA contrast; source attribution and later response are unresolved. | [Evidence and next discriminator](A16.md) |
+| A17 | Clonal growth persistence → unconstrained detection can make competing models observationally identical; empirical mechanism selection is not justified. | [Evidence and next discriminator](A17.md) |
+| A18 | Neighboring WT expansion versus identity → spatial descriptions separate the readouts, but missing mouse/clone linkage prevents assigning two causal channels. | [Evidence and next discriminator](A18.md) |
+| A19 | Fzd input, maturation and reserve → culture-context RNA helps define starting state; receptor-specific withdrawal and joint mature-output/reserve effects remain untested. | [Evidence and next discriminator](A19.md) |
+| A20 | Fzd2 versus Fzd1 fibroblast support → expression/support context narrows the proposal; separate RNA and functional donors do not establish receptor-dependent support. | [Evidence and next discriminator](A20.md) |
+| A21 | Fzd4 capillary biology → gCap expression is supported but the cycling rationale is inconsistent; maintenance, survival and lineage effects remain alternatives. | [Evidence and next discriminator](A21.md) |
+| A22 | Epithelial identity and fibroblast output → the broad predictor fails plate transfer; focal NKX2-1 RNA findings motivate a separate extracellular-output question. | [Evidence and next discriminator](A22.md) |
+| A23 | SLC34A2 and transition occupancy → the external marker result is unfavorable and increased-transporter RNA is unsupported; transport activity and entry versus exit remain unresolved. | [Evidence and next discriminator](A23.md) |
+| A24 | Bladder stromal ageing → opposing compartment RNA patterns restrict generic senescence interpretations; barrier function and a stromal mediator remain unmeasured. | [Evidence and next discriminator](A24.md) |
+| A25 | Microglial midlife configuration → an extra component improves on endpoint mixture but has mixed gain over flexible age; a distinct state is not established. | [Evidence and next discriminator](A25.md) |
+| A26 | CD8 repertoire ageing across tissues → exact paired marrow/CD8 coverage is insufficient; this is an unestimated tissue contrast, not a negative biological effect. | [Evidence and next discriminator](A26.md) |
+| A27 | CD8 repertoire redistribution → nominal-state receptor concentration changes with eligibility rules; label construction and uneven mouse/state support limit the age interpretation. | [Evidence and next discriminator](A27.md) |
+| A28 | Regulatory and inflammatory RNA arms → decomposition explains different composite-score changes across contexts; it does not demonstrate a functional switch. | [Evidence and next discriminator](A28.md) |
+| A29 | PGAM-associated effector output → corrected RNA/metabolic-proxy results do not choose PEP signaling over demand or stress explanations. | [Evidence and next discriminator](A29.md) |
+| A30 | CSF-associated effector RNA → paired association remains in narrower observed-state support; activation exclusion, local induction and regulatory equivalence are not established. | [Evidence and next discriminator](A30.md) |
+| A31 | GRIA1 fibroblast response → alveolar expression and heterogeneous partners nominate conditional RNA contexts, including CNIH3; acute function remains unmeasured. | [Evidence and proposed baseline](A31.md) |
+| A32 | Myeloid ARG1 and recovery → supported myeloid/matrix RNA contexts coexist with unsupported epithelial contrasts; matrix reduction cannot stand in for regeneration. | [Evidence and next discriminator](A32.md) |
 
 ## Nb5 review and proposed registrations
 

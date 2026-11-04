@@ -17,23 +17,15 @@ Sources above reuse the named review unless the update ledger explicitly records
 
 ## Repository observation
 
-Read the 27 September interpretation audit before the earlier stage reports. The corrected RNA association is inconclusive, not evidence that AREG supply is absent or irrelevant. Source Itgb6 observations, EGF-containing medium and common-preparation split wells restrict attribution.
+Source and database audits corrected specific label, coverage and interpretation errors. The depth-standardized machinery/activation RNA association is positive but inconclusive across 22 donors (rho 0.2931, nominal p 0.185637); it neither establishes zero coupling nor favors delivery over abundance. Partial source perturbation, recipient ligand expression, supplemented EGF and split wells do not isolate effective delivery in the existing sources.
 
-
-Exact current result locators:
-
-- [RQ_Specified/A2_areg_source_delivery/README.md](README.md)
-- [RQ_Specified/A2_areg_source_delivery/reports/LEG2_DEPTH_STANDARDISED_RESULTS.md](reports/LEG2_DEPTH_STANDARDISED_RESULTS.md)
-- [RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md](reports/STAGE3_LEG1_RESULTS.md)
-- [RQ_Specified/A2_areg_source_delivery/reports/STAGE4_LEG2_RESULTS.md](reports/STAGE4_LEG2_RESULTS.md)
-- [RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md](reports/INTERPRETATION_AUDIT_2026-09-27.md)
-- [docs/research_dossiers/qualification_2026-10-03/RESULTS.md](../../docs/research_dossiers/qualification_2026-10-03/RESULTS.md)
-- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
-- [docs/research_dossiers/followup_2026-10-03/METADATA.md](../../docs/research_dossiers/followup_2026-10-03/METADATA.md)
+[Current result, design and limits](reports/INTERPRETATION_AUDIT_2026-09-27.md). This reuses existing evidence rather than providing a new run or independent replication.
 
 ## What this question could add
 
-A specified delivery contrast and actual fibroblast consequence could identify which part of the support route changes. A2 remains incomplete while those choices are open; source AREG RNA alone would repeat the premise.
+Useful source/measurement correction; the delivery explanation remains untested. Failure to establish an RNA association does not select availability or delivery as the mechanism. This distinction prevents a plausible biological explanation from being presented as the winner of an inconclusive screen.
+
+The existing evidence lacks a qualified effective-input/recipient-response contrast. Source RNA, active ligand amount and receiver competence are different endpoints; the last is developed separately in A9.
 
 ## Current hypothesis and rival
 
@@ -43,7 +35,7 @@ Epithelial AREG delivery can change the effective ligand reaching fibroblasts an
 
 ## What the comparison would teach
 
-Measure available AREG and the nominated fibroblast response separately. A response change following altered availability is compatible with delivery through supply; equalizing availability can remove that route. A remaining response difference points to recipient competence or other inputs, not automatically a delivery-specific mechanism.
+Use the existing source audit to specify what an informative delivery comparison would measure. Differences in response tracking available input would support that route in its context; comparable input with different receiver responses would point to a recipient question. Another ligand ranking would not supply either measurement. No delivery mechanism is selected from the current positive but inconclusive association.
 
 ## Hypothesis schematic
 

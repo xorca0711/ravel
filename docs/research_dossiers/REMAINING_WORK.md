@@ -1,5 +1,14 @@
 # Repository-grounding completion and deferred work
 
+**Historical ledger — navigation clarified 4 November 2026.** Use
+[PROGRESS](../../PROGRESS.md), the [current RQ index](../../RQ_Specified/README.md)
+and each owner's current result for active status and next work. This page preserves
+dated grounding/package checkpoints. Headings such as “Current disposition” and
+“What remains now” below retain their original dates; they do not define the
+current execution queue. In particular, the old A17 unfinished-work entry is
+superseded by the [owner's current result and remaining limits](A17.md#repository-evidence).
+No historical record or registered hypothesis is rewritten by this pointer.
+
 **Proposed A32 registration:** [joint ARG1/matrix/mature-output question](A32.md) develops Yd1-P02. Its effect analysis remains held for linked model/data, mature endpoint, source attribution and precision. Source qualification and registration do not fill those gaps.
 
 **7 October portfolio update:** use the [group ledgers and executed extensions](../portfolio_extensions/2026-10-07/README.md) for current eligible analyses and source/functional holds. Proposed [A31](A31.md) needs an independently identified adult fibroblast preparation and qualified acute-response experiment; it is not functionally executed. Earlier dated completion/hold statements retain their original scope.

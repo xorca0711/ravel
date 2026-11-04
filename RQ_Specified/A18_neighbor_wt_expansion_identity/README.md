@@ -2,11 +2,11 @@
 
 ## Organizing Biological Q
 
-Do neighboring mutant cells influence WT expansion and loss of AT2 identity through separable processes?
+Do neighboring wild-type lineage expansion and loss of alveolar identity represent separable responses to a mutant epithelial neighborhood?
 
-**Unresolved gap:** The two WT outcomes have not been separated with identifiable biological units and compartment-specific causal evidence.
+The source spatial observations motivate separating growth from identity. SPP1/DLK1 and different signaling ranges are candidate explanations, not established causal channels.
 
-[Working hypothesis and competing explanations](../../docs/research_dossiers/A18.md#working-hypothesis) · [Canonical card](../../RESEARCH_QUESTIONS.md#a18).
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A18.md) · [Source context](LITERATURE_CONTEXT.md).
 
 <!-- literature-visual-context:start -->
 <a id="literature-context-and-visual-hypothesis"></a>
@@ -20,6 +20,39 @@ Do neighboring mutant cells influence WT expansion and loss of AT2 identity thro
 GPT-generated matte illustration, 3 November 2026. Proposed relationships and
 cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A18_gpt_matte_v1.prompt.txt). Earlier artwork is retained as history.
 <!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The exposed pooled-pair analysis measures WT-neighbor size and the pro-Sftpc-negative fraction, an identity-loss proxy. Size-gradient separation from homeostatic references holds at one and two weeks under both original and dense-bin estimators; four-week separation depends on the estimator. Identity-loss distance slopes have inconsistent signs, which does not demonstrate distance independence. Log-size/logit-fraction sensitivity and declining distal occupancy remain relevant, but the two transformed slopes are not biologically interchangeable. Spatial rows lack verified mouse/clone/pair linkage and may repeat neighbors; separate mouse-indexed arrays cannot be joined to these rows by assumption.
+
+[Corrected interpretation and spatial-unit audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md#a18-retain-as-a-conditional-mechanism-question) · [Deposited spatial description](../../Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md#fu_w--the-sources-growth-versus-differentiation-decoupling-recovered-from-the-deposit).
+
+**Rationale check.** A useful separation of descriptive readouts and correction of an earlier mechanistic story. Different size and identity patterns do not establish two independent channels, identify a mediator or estimate an animal-level distance interaction.
+
+## Current interpretation and next decision
+
+Qualified spatial units and linked growth/identity measurements remain missing for the joint biological question. Pooled neighborhoods are not independent animals, and a marker fraction is not a directly traced fate change.
+
+Retain the descriptive distinction without assigning channels. A unit-qualified joint comparison could show whether growth and identity changes dissociate; concordance or dissociation would then constrain which explanation merits study. A molecular candidate needs its own published or independently measured rationale; the shape of these pooled spatial plots alone does not select one.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
+## Organizing Biological Q
+
+Do neighboring mutant cells influence WT expansion and loss of AT2 identity through separable processes?
+
+**Unresolved gap:** The two WT outcomes have not been separated with identifiable biological units and compartment-specific causal evidence.
+
+[Working hypothesis and competing explanations](../../docs/research_dossiers/A18.md#working-hypothesis) · [Canonical card](../../RESEARCH_QUESTIONS.md#a18).
+
+
 
 ## Current evidence and interpretation
 
@@ -61,3 +94,5 @@ Recover source mouse/clone identities and qualify separate endpoints. If identit
 [Plan and existing implementation](PLAN.md) · [Full scientific dossier](../../docs/research_dossiers/A18.md) · [Current interpretation boundary](../../docs/research_dossiers/A18.md#interpretation-boundary).
 
 This folder is the question home. Existing paper-owned analyses, shared code and frozen runs retain their original ownership and paths.
+
+</details>

@@ -1,4 +1,63 @@
-# A29: Which mechanism raises Th17 effector output under PGAM restriction
+# A29: PGAM-related effector RNA and competing mechanisms
+
+## Organizing Biological Q
+
+Which account can explain the source's PGAM-related phenotype: a PEP-dependent route, altered biosynthetic demand, stress, or a combination? The local analyses describe relative RNA and correct a computational association; they have not selected one mechanism. The strongly directional registered hypothesis remains a proposal, not the conclusion of the current screen.
+
+Current synthesis: 4 November 2026. [Literature context](LITERATURE_CONTEXT.md) ·
+[Dossier](../../docs/research_dossiers/A29.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a29).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A29: reviewed matte qualitative illustration](schematics/A29_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A29_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The [local primary-source review](../../RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md#published-starting-point) records published PEP/JunB-related, stress and metabolic-context mechanisms, together with contrary findings in other T-cell settings. These are distinct premises, not a single established pathway in the source's preparation. The source's Fig. 1E isotope-label measurement is a labeling fraction, not an absolute metabolite pool; its lack of a detected PEP change is not equivalence or a calibrated pool result.
+
+The retained illustration describes the registered proposal. Its dashed relationships
+are unmeasured; the completed comparisons below have their own narrower endpoints.
+
+## Evidence, analyses and next steps
+
+The [7 October correction](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) controls the Compass reading. Corrected forward PGAM consistency has a **positive association, rho +0.291248 and BH q 0.180810** under substituted inputs. It does not reproduce the paper's negative direction or identify PGAM as distinctive; the micropools reuse source animals and are not independent biological replicates. The old negative-penalty interpretation is historical.
+
+The [bulk reproduction](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md) uses deposited TPM with **library as the only verifiable unit**: animal/culture identities are absent. The focal Th17n/EGCG division-1 contrast has five libraries per arm. Gates and drug/cell contexts are not interchangeable. The [E3 result](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/E3_RESULTS.md) shows relative effector-set enrichment (+0.544) and lower ISR-set transcripts (-0.491) against an expression-decile-matched null; zero of 1,000 draws as extreme is not zero probability or animal-level inference.
+
+The two-gene-overlap sensitivity retains the ISR RNA direction. It does not measure stress activity, ATF4 protein/translation or absolute per-cell effector output. Expression matching does not remove TPM composition ambiguity. Published isotope fractions do not provide pools or metabolic flux, and the source's phenotype is not independently validated by reanalysis of its own libraries.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: descriptive relative-RNA context and a corrected negative/diagnostic boundary; PEP-mechanism selection is unsupported.** Lower biosynthetic/ISR transcripts with higher relative effector RNA does not exclude stress or establish demand relief. Correcting the Compass sign removes a previously claimed corroboration rather than selecting its opposite mechanism. A new name for the same RNA pattern adds no causal evidence.
+
+Question derivation followed exposed outcomes; the reduced-overlap sensitivity was frozen before its new estimates while reusing exposed full-set values. Declared gene sets, division gates, library-only units, finite null draws, drug specificity and unknown absolute RNA content constrain interpretation. A PEP pool decrease would address one prediction but cannot uniquely distinguish all routes, and a supplementation response would not be unique proof. None of the uncertain alternatives is demonstrated to be noise.
+
+## What a further comparison would decide
+
+A calibrated pool decrease would support one prediction of the proposed PEP account, without selecting its causal contribution. Appropriate independent evidence could favor stress or demand, possibly together. A non-significant label-fraction contrast or an RNA module cannot establish equivalent pool size or absent activity. The comparison must be chosen for the inference it can actually resolve.
+
+Retain the corrected Compass and relative-RNA results, adverse directions and composition limits. Qualify evidence that separates the intended candidate accounts before any new calculation or experiment. The current synthesis selects no target priority or preferred route; another score would need a distinct informative comparison.
+
+**Current boundary:** Library-level TPM and gene-set null draws are not independent animals, secretion or function. Isotope-label fractions are not pools or flux; ISR RNA is not stress activity. The published mechanisms remain competing premises, and the current evidence selects none.
+
+## Registered scope and earlier records
+
+The complete earlier framing below retains its dated scope and registered hypotheses.
+Current results and amendments govern interpretation. Older unfinished-work, source-access
+or priority statements do not supersede this synthesis or start an execution queue.
+Registration and completed analysis confer neither human acceptance nor a claim promotion.
+
+<details>
+<summary>Registered framing, source links and retained development history</summary>
+
 
 ## Organizing Biological Q
 
@@ -22,19 +81,7 @@ analysis singling out the 3PG-to-PEP segment.
 
 [Full working hypothesis and alternatives](../../docs/research_dossiers/A29.md#working-hypothesis).
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A29: reviewed matte qualitative illustration](schematics/A29_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A29_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -81,3 +128,5 @@ runs, frozen tables, receipts and branch cards remain in the article package and
 keep their article-run ownership. No analysis has been executed under this RQ;
 shared inputs remain shared biological evidence and never become independent
 replication.
+
+</details>

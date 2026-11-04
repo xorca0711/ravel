@@ -1,4 +1,68 @@
-# A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
+# A15: epithelial integrin activity and latent TGF-beta activation
+
+## Organizing Biological Q
+
+Does epithelial ITGB6-containing integrin activity explain the A2-context fibroblast response by changing latent TGF-beta activation rather than total ligand supply? The activation pathway is published. The local association and corrected antibody side branch have not attributed the recipient response to that route.
+
+Current synthesis: 4 November 2026. [Literature context](LITERATURE_CONTEXT.md) ·
+[Dossier](../../docs/research_dossiers/A15.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a15).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A15: reviewed matte qualitative illustration](schematics/A15_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A15_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+Munger's published epithelial alpha-v-beta-6 mechanism is an explicit premise, not a discovery from receptor RNA. Horan supplies the prior antibody-response direction used by the separate mouse side branch. [Primary-source context](../../RQ_Specified/A15_epithelial_integrin_tgfb_activation/LITERATURE_CONTEXT.md#published-starting-point) and the [interpretation clarification](../../RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/INTERPRETATION_AUDIT_2026-09-27.md) distinguish a general mechanism, a downstream response and the untested A2-specific attribution.
+
+The retained illustration describes the registered proposal. Its dashed relationships
+are unmeasured; the completed comparisons below have their own narrower endpoints.
+
+## Evidence, analyses and next steps
+
+Read the [28 September normalization erratum](../../RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_ERRATUM_2026-09-28.md) before the [original result](../../RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_RESULTS.md). The separate GSE190821 comparison has **four antibody-treated versus four control mice**, with paired epithelial-enriched immunoprecipitate and whole-lung input. It is not the technically confounded A2 split-well association.
+
+Whole-lung collagen/myofibroblast RNA falls under the antibody contrast: the original standardized score difference is -1.2424, with complete observed separation. This is downstream pharmacodynamic RNA evidence, not integrin occupancy or isolated fibroblast function. The epithelial transitional and identity panels do not separate groups. The original normalization sensitivity double-counted a depth component and is withdrawn; the versioned correction uses unchanged panels and remains non-separating.
+
+| Corrected epithelial panel | Mean difference in log2 normalized-count score | Exact rank-sum p |
+|---|---:|---:|
+| Transitional | -0.085856 | 0.685714 |
+| Identity | +0.021399 | 0.885714 |
+
+These corrected scores are not on the original standardized CPM scale. Wide endpoint intervals remain compatible with substantial shifts. The paired marker audit supports epithelial enrichment with no flagged large measured arm difference; it does not prove pure, equivalent or composition-invariant epithelium. Four mice per arm, unknown allocation randomization and a day-7 enriched translatome leave consequential limits.
+
+## Does the evidence warrant the narrowing?
+
+**Rationale verdict: a corrected diagnostic boundary; source-specific activation remains an incomplete inference.** A matrix-RNA change alongside non-separating epithelial panels does not exclude epithelial mediation, earlier transient effects or altered subtype composition. The historical algorithmic label is retained but supplies no causal bound on the parent mechanism. Failure to detect a mediator is not a mediation test.
+
+The initial side-branch freeze preceded its outcomes; the correction was frozen before corrected estimates after the original result was known. Repairing normalization adds no animals or independent validation. The original Itgb6 association remains vulnerable to split-well/position and preparation effects. Published integrin biology makes activation plausible, but neither that premise nor the corrected negative panels selects it over ligand supply, other activators or recipient context.
+
+## What a further comparison would decide
+
+A source-attributable active-ligand change at comparable latent supply, linked to a qualified recipient response, would support the activation account. Supply-only changes or a response that persists independently of the activation contrast would restrict it. An unresolved or imprecise epithelial effect remains unresolved; non-significance is not equivalence.
+
+Reuse the corrected measurements and interpretation audit. The next decision is whether an eligible source can distinguish ligand activation from supply in the stated recipient context. More receptor RNA or the same non-separating epithelial score cannot do so. This documentation pass nominates no assay, margin or new execution.
+
+**Current boundary:** Receptor RNA, ligand RNA, total ligand and a response score do not separately establish activation. The current matrix endpoint is RNA, not deposited collagen. The mechanism is established generally but untested in the repository-specific causal comparison.
+
+## Registered scope and earlier records
+
+The complete earlier framing below retains its dated scope and registered hypotheses.
+Current results and amendments govern interpretation. Older unfinished-work, source-access
+or priority statements do not supersede this synthesis or start an execution queue.
+Registration and completed analysis confer neither human acceptance nor a claim promotion.
+
+<details>
+<summary>Registered framing, source links and retained development history</summary>
+
 
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
@@ -29,19 +93,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A15: reviewed matte qualitative illustration](schematics/A15_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A15_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -222,3 +274,5 @@ dataset clears the stage 1 gate in [PLAN.md](PLAN.md), which no candidate in the
 7. **Do not move between the mechanism and the clinic in either direction.** The failure
    of an anti-alphaVbeta6 antibody in an idiopathic pulmonary fibrosis trial does not
    refute the mechanism, and the mechanism does not support a therapeutic reading.
+
+</details>

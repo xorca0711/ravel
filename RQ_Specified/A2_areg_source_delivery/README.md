@@ -1,5 +1,50 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
+## Organizing Biological Q
+
+Which cells contribute AREG-related input, and does effective delivery to a recipient explain more than ligand RNA abundance alone?
+
+Published epithelial–stromal signaling motivates distinguishing source expression, available ligand and recipient response. A ligand–receptor database ranking measures neither secretion nor delivery.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A2.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A2: reviewed matte qualitative illustration](schematics/A2_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A2_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+Source and database audits corrected specific label, coverage and interpretation errors. The depth-standardized machinery/activation RNA association is positive but inconclusive across 22 donors (rho 0.2931, nominal p 0.185637); it neither establishes zero coupling nor favors delivery over abundance. Partial source perturbation, recipient ligand expression, supplemented EGF and split wells do not isolate effective delivery in the existing sources.
+
+[Current result, design and limits](reports/INTERPRETATION_AUDIT_2026-09-27.md).
+
+**Rationale check.** Useful source/measurement correction; the delivery explanation remains untested. Failure to establish an RNA association does not select availability or delivery as the mechanism. This distinction prevents a plausible biological explanation from being presented as the winner of an inconclusive screen.
+
+## Current interpretation and next decision
+
+The existing evidence lacks a qualified effective-input/recipient-response contrast. Source RNA, active ligand amount and receiver competence are different endpoints; the last is developed separately in A9.
+
+Use the existing source audit to specify what an informative delivery comparison would measure. Differences in response tracking available input would support that route in its context; comparable input with different receiver responses would point to a recipient question. Another ligand ranking would not supply either measurement. No delivery mechanism is selected from the current positive but inconclusive association.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -30,19 +75,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A2: reviewed matte qualitative illustration](schematics/A2_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A2_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -217,3 +250,5 @@ all four units does not reach it.
    descriptive association while preparation independence is unresolved, and leg
    2 is correlational with no direction and no proximity, and may be refused by
    its own depth control.
+
+</details>

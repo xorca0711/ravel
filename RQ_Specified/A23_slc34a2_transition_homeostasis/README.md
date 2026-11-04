@@ -1,5 +1,52 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
+## Organizing Biological Q
+
+Does SLC34A2 impairment increase entry into a transition-associated state, or change persistence and exit of cells already in that state?
+
+The source Slc34a2-loss RNA module and phosphate-related repair impairment are published. They motivate a timing question without establishing a new transporter-to-repair mechanism.
+
+Current synthesis: 4 November 2026. [Full rationale](../../docs/research_dossiers/A23.md) · [Source context](LITERATURE_CONTEXT.md).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A23: reviewed matte qualitative illustration](schematics/A23_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A23_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+The illustration presents the registered question and untested relationships. The current argument follows the result below; the drawing does not establish its proposed mechanism.
+
+## What the analysis changed
+
+The external comparison of one PAM case with one adult control does not reproduce coordinated KRT8/SPRR1A/CLU elevation. Separate fractions of the PAM subject are not independent patients. SLC20A1/SLC20A2 RNA is lower across overlapping selections, so an increased-transporter-RNA explanation is unsupported; compensatory transport activity remains untested. Disease, donor, age and sampling are inseparable in the case comparison.
+
+The original candidate markers were disjoint from the reported readouts; published-annotation and complete-cell-set sensitivities reuse the same case and can retain identity-selection bias. The alternative-transporter readouts were fixed before inspecting their values, after exposure to the preceding case results. These are overlapping sensitivity/extension observations, not independent confirmations. See the [transporter result](../../RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md).
+
+[Current result, design and limits](reports/external_pilot_v2/RESULTS.md).
+
+**Rationale check.** Unfavorable external marker transfer and an unsupported RNA-surrogate compensation account. Entry versus delayed exit is a legitimate remaining distinction, not an explanation selected by static RNA observations. Endpoint fractions can change through survival, division and starting composition as well as transition timing.
+
+## Current interpretation and next decision
+
+The current contrasts do not measure entry, residence time, exit or transport function in linked units. Relabelled scores and pseudotime cannot supply the missing dynamic endpoint.
+
+Keep the external failure and compensation limit visible. A timing comparison would need unit-linked repeated or lineage-resolved measurements appropriate to entry versus exit. Increased entry with unchanged exit and prolonged residence without increased entry would have different implications; endpoint occupancy alone leaves the question open. No same-data retuning follows automatically.
+
+## Registered scope and analysis history
+
+The records below preserve earlier framing and execution checkpoints. Read the current result before an older plan. Historical unfinished-work wording does not supersede completed later diagnostics. Registered hypotheses remain unchanged; this synthesis grants no claim grade or human acceptance.
+
+<details>
+<summary>Registered framing and retained analysis history</summary>
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 
@@ -29,19 +76,7 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
-<!-- literature-visual-context:start -->
-<a id="literature-context-and-visual-hypothesis"></a>
 
-## Literature context & visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A23: reviewed matte qualitative illustration](schematics/A23_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A23_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
 
 ## Evidence, analyses and next steps
 
@@ -132,3 +167,5 @@ The current archived-pilot verification command is
 It checks the unchanged numerical records and the
 [original gallery snapshot](metadata/history/pre_transporter_extension/snapshot.json).
 The original verifier remains preserved for its historical checkout.
+
+</details>
