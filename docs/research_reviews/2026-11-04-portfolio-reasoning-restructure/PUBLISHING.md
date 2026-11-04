@@ -24,7 +24,7 @@ Publishing documentation alone would leave missing evidence and provenance.
 - `57f6dea` commits the reviewed evidence dependencies separately: reports,
   public-source preparation records, five receipts and their frozen outputs,
   source-navigation updates and registry evidence links. No computation reran.
-- The restructuring commit covers all 33 README/context/dossier narratives,
+- `0bb57ef` covers all 33 README/context/dossier narratives,
   collection navigation, rationale review, validated A3/A9 corrections and
   current-versus-historical work routing. Registered hypotheses, artwork,
   adverse results and scientific acceptance states remain unchanged.
@@ -40,6 +40,32 @@ raw data. Existing source-level scientific reviews are reused.
 
 The original review records 16,449 repository checks, the provenance gate,
 224 preserved sections and all 33 hypothesis/image pairs. Fresh isolated-tree
-checks and publication details will be recorded here before delivery. No
+validation on `0bb57ef` passed:
+
+- **16,450 repository checks**.
+- **170 unit tests**, with the Windows-specific symlink test skipped; Python
+  compilation, claim-manifest verification and every required archived-evidence
+  verifier also passed.
+- Research provenance and changed-asset gate against `acefbced`: zero errors
+  after the checkout-byte repair described below.
+- All 33 registered guides and image hashes agree with the reviewed source.
+  All 255 pending source-file contents remained unchanged during export.
+
+The first fresh-checkout gate reported 23 hash errors from **14 historical files**.
+Each discrepancy was proven to be line-ending-only. The original Git blobs
+matched the frozen receipt hashes and were restored locally byte for byte; the
+gate then passed. There is no Git content change to these files and no altered
+contract, expected hash or validator. Git's Windows conversion setting can still
+display these local byte restorations as modified; they are intentionally not
+restaged. The initial locked-output download also encountered sandbox DNS/temp
+restrictions; the authorized retry verified all 16 published members and restored
+15 absent files, without an analysis rerun.
+
+Logs and export/hash manifests are retained under
+`C:/Users/dream/AppData/Local/Temp/ravel-pr-publish-0q8uhfyd`. Final publication
+metadata changes only documentation and receives scoped link/whitespace checks;
+already-passed scientific checks are not repeated for those metadata edits.
+The PR description records these results and the exact dependency scope. No
 successful technical check confers scientific acceptance or resolves a missing
-biological measurement.
+biological measurement, and the PR remains subject to review rather than an
+automatic merge.

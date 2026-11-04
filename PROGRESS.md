@@ -11,6 +11,13 @@ and validated fixes. Publication uses the isolated branch
 The original C: review worktree remains preserved. The reviewed screening
 dependencies missing from main are retained in separate commits so result links
 and frozen provenance remain usable. [Integration scope and validation](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/PUBLISHING.md).
+Restructuring/fixes are committed at `0bb57ef`; reviewed dependencies are in
+`57f6dea`, following the main reconciliation at `1b7049c`. Fresh isolated-tree
+validation passed 16,450 repository checks, 170 unit tests (one Windows skip),
+required archive/claim checks and the research gate against `acefbced`. Fourteen
+historical checkout files needed their unchanged Git bytes restored to match
+frozen hashes; no scientific source or validator was changed. All 255 pending
+source-file contents were preserved during export.
 No new biological analysis or policy change is introduced by publication, and
 the resulting PR is not authorized for automatic merge. Earlier no-push and
 uncommitted statements below describe their original review checkpoint.
