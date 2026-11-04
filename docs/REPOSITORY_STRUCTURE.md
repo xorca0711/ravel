@@ -9,6 +9,7 @@ protocols, original trial names and immutable run records remain historical evid
 | Material | Canonical location | Rule |
 |---|---|---|
 | Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A32; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
+| Topic-based navigation | [Biological topic map](RESEARCH_TOPICS.md), with matching RQ/article index tags | Overlapping biological scope; one stable home per owner. Tags are separate from current findings, reading status and execution status. |
 | Question homes | `RQ_Specified/A<id>_<topic>/` for all 33 RQs | README starts with Organizing Biological Q, then Literature context & visual hypothesis; local context, plan and schematics. Add analysis subdirectories only where work exists; link paper-owned and frozen evidence. |
 | Full scientific argument | `docs/research_dossiers/A<id>.md` | All 33 dossiers retain hypotheses, alternatives and experimental bridges; each links its question home. |
 | Qualitative RQ illustrations | [RQ schematic gallery](../RQ_Specified/SCHEMATIC_GALLERY.md) and each home’s `schematics/` | Current matte PNG and prompt, with preserved source artwork; separate from measured-result figures. |
@@ -38,6 +39,15 @@ purpose, so its scope remains explicit. Old plans are retained as history rather
 than treated as a second current execution queue. The collection index offers
 biological-topic and contribution-based reading routes; neither replaces IDs or
 assigns scientific acceptance. Frozen source evidence stays with its owner.
+
+The [topic map](RESEARCH_TOPICS.md) spans all 33 question homes and 18 paper
+packages. The 35 directories under `RQ_Specified/` comprise those 33 homes plus
+two shared/historical workspaces; the 20 under `Research Article/` comprise 18
+paper packages, the cross-study specificity module and the Primary source archive.
+These supporting directories do not create extra RQs or papers. Topic changes
+update navigation rather than moving evidence into status or theme folders.
+The [4 November architecture audit](audits/2026-11-04-topic-navigation/README.md)
+records current coverage, repaired navigation and preserved path exceptions.
 
 ## Identifier namespaces
 

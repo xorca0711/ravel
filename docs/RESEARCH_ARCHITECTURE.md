@@ -1,5 +1,8 @@
 # Research architecture and interpretation authority
 
+[Biological topic navigation](RESEARCH_TOPICS.md) connects related RQs and paper
+packages while retaining their existing evidence owners and stable paths.
+
 **Current navigation, 4 November 2026:** the [registry](../analysis/research/registry.json)
 locates all 33 canonical questions, A0–A32. Read [PROGRESS](../PROGRESS.md), the
 [current question arguments](../RQ_Specified/README.md) and the
@@ -53,10 +56,12 @@ One study can inform several questions, but reuse never adds independent evidenc
 | Current state and amendments | RQ README, `PROGRESS.md`, `AI_CONTEXT.md` | Latest dated interpretation overrides a stale execution queue, not historical numbers |
 | Historical protocols and run records | Frozen configs, reports, hashes and archives | Preserve original bytes; record corrections and exposure rather than retroactively changing a freeze |
 
-The [current audit](audits/2026-09-27-rq-rationale/REPORT.md) and its A2/A15 addenda
+The [27 September audit](audits/2026-09-27-rq-rationale/REPORT.md) and its A2/A15 addenda
 govern the corrected interpretations described there. Historical labels such as
 `weak bound` and `null` remain in frozen run records and are not current evidence
-grades. A15 registration remains pending; this audit does not impersonate owner review.
+grades. A15 is present in the current canonical register; its proposed scientific
+status is separate from ID registration. This historical audit does not supply
+owner scientific acceptance.
 
 ## Rules shared by every question
 
@@ -97,11 +102,12 @@ decision. Prefer recovering a missing preparation map, comparable state definiti
 or linked endpoint over adding another correlated score. If no possible result of
 the proposed calculation can distinguish the stated rivals, stop at feasibility.
 
-The open critical gaps are in the [audit](audits/2026-09-27-rq-rationale/REPORT.md#critical-logical-gaps-still-open).
-The [research roadmap](RESEARCH_ROADMAP.md) develops them into six work packages,
-biological rationales, data requirements and explicit proceed/stop decisions.
-This is guidance for future specifications, not a new analysis authorization or
-an instruction to repeat completed fits.
+The [27 September audit](audits/2026-09-27-rq-rationale/REPORT.md#critical-logical-gaps-still-open)
+records the gaps identified at that checkpoint. The associated
+[research roadmap](RESEARCH_ROADMAP.md) developed six work packages, biological
+rationales, data requirements and proceed/stop decisions. Current question
+arguments and result amendments record later work and remaining uncertainties;
+the dated roadmap does not restart completed fits or authorize a new run.
 
 ## A21 extension boundary, 30 September 2026
 
