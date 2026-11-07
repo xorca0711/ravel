@@ -983,7 +983,9 @@
       "evidence": [
         "Research Article/gate3_09_dupage_2015/README.md",
         "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
-        "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md"
+        "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_09_dupage_2015/STAGE_STATUS.md",
+        "Research Article/gate3_09_dupage_2015/S0_RESULT.md"
       ]
     }
   ],
@@ -1151,7 +1153,8 @@
     "analysis/research/contracts/A5.feature_context_figures_v2.json",
     "analysis/research/contracts/A3.rna_context_display_v1.json",
     "analysis/research/contracts/A27.source_code_concentration_v1.json",
-    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S0.source_qualification_v1.json"
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S0.source_qualification_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S1.reconstruction_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1308,7 +1311,8 @@
     "analysis/research/runs/A5_feature_context_display_v1_20261104/receipt.json",
     "analysis/research/runs/A5_feature_context_figures_v2_20261104/receipt.json",
     "analysis/research/runs/A3_rna_context_display_v1_20261104/receipt.json",
-    "analysis/research/runs/A27_source_code_concentration_v1_20261104/receipt.json"
+    "analysis/research/runs/A27_source_code_concentration_v1_20261104/receipt.json",
+    "analysis/research/runs/dupage_s0_qualification_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

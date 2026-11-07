@@ -3,6 +3,20 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## DuPage S0 checkpoint — 7 November 2026
+
+S0 executed under its frozen contract and passed receipt/source arithmetic checks.
+[Current stage ledger](Research%20Article/gate3_09_dupage_2015/STAGE_STATUS.md) and
+[S0 result](Research%20Article/gate3_09_dupage_2015/S0_RESULT.md) own details.
+23,102 unique gene-labelled spans match across all 12 libraries; 22,997 are OK
+in the 11 retained libraries. ENA links 24 runs to 12 libraries; mouse/pool and
+pairing identities remain unknown. Descriptive FPKM is eligible; count/population
+inference is held. Article XML recovered exact supplement names, but downloads
+remain challenged/forbidden; no claim of source-wide absence. Next: frozen S1
+adapted reconstruction, then result-guided S2–S6 in this single technical chat.
+The temporary separate-chat interpretation was superseded by the owner's latest
+instruction. No push, external settings change, claim promotion or wet-lab work.
+
 ## DuPage sequential execution authorized — 7 November 2026
 
 The owner requested a separate technical chat in Ravel to launch every planned

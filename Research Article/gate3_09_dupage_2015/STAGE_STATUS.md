@@ -6,8 +6,8 @@ in the retained version-1 plan. No scientific acceptance is inferred.
 
 | Stage | Status | Decision / evidence |
 |---|---|---|
-| S0 source qualification | Frozen; ready to execute | [Contract](contracts/Dp1.S0.source_qualification_v1.json); 12-library source and ENA manifest recovered |
-| S1 reconstruction | Not executed | Await S0 common-feature route |
+| S0 source qualification | Executed; independently checked | [S0 result](S0_RESULT.md); 23,102 common loci, 22,997 all-OK, 24 runs / 12 libraries |
+| S1 reconstruction | Frozen; ready to execute | [Contract](contracts/Dp1.S1.reconstruction_v1.json); descriptive per-library and merged PCA |
 | S2 state dependence | Not executed | FPKM descriptive route anticipated; count/unit inference not qualified |
 | S3 regulation | Not executed | Reference memberships require qualification |
 | S4 later-study discriminator | Not executed | Conditional on an informative unresolved S3 comparison |
