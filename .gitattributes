@@ -261,8 +261,3 @@ analysis/research/runs/g1_a11_capacity_qualification_v1/** -text
 
 # Preserve exact draft Weft pilot source/config/runtime bytes across platforms.
 "Research Article/gate1_02_choi_2020/weft_pilot_v1/**" -text whitespace=cr-at-eol
-
-# Preserve the exact Windows contract bytes recorded by the DuPage run receipts.
-"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json" -text whitespace=cr-at-eol
-"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v2.json" -text whitespace=cr-at-eol
-"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json" -text whitespace=cr-at-eol

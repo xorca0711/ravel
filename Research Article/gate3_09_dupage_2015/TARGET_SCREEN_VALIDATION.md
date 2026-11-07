@@ -5,7 +5,10 @@
 The first Linux CI run passed repository validation but failed the research gate:
 Git had normalized three new contract files from CRLF to LF. Their working-copy
 bytes still matched the frozen receipt hashes. Exact-path `.gitattributes`
-entries now preserve those original CRLF bytes in Git on every platform. JSON
+entries in `contracts/.gitattributes` now preserve those original CRLF bytes in
+Git on every platform. The initial root-level attribute placement was moved
+here because the root file is itself a frozen input to the unrelated Choi pilot;
+that root file is restored byte-for-byte. JSON
 content, execution receipts, scripts and numerical outputs are unchanged; the
 gate remains strict. Historical freeze commits are not rewritten. This is a
 byte-preservation correction, not a rerun or a claim that the initial CI passed.
