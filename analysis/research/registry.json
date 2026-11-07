@@ -993,7 +993,8 @@
         "Research Article/gate3_09_dupage_2015/S2_RESULT.md",
         "Research Article/gate3_09_dupage_2015/ANALYSIS_AMENDMENT_V2.md",
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md",
-        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_AMENDMENT_V2.md"
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_AMENDMENT_V2.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md"
       ]
     }
   ],
@@ -1330,7 +1331,8 @@
     "analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json",
     "analysis/research/runs/dupage_s3_regulatory_context_v1/receipt.json",
     "analysis/research/runs/dupage_target_screen_v1/receipt.json",
-    "analysis/research/runs/dupage_target_screen_v2/receipt.json"
+    "analysis/research/runs/dupage_target_screen_v2/receipt.json",
+    "analysis/research/runs/dupage_target_figures_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

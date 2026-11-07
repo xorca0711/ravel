@@ -17,6 +17,11 @@ claim grade or human scientific decision was created or promoted.
 [Source review](SOURCE_REVIEW.md) · [Literature context](LITERATURE_CONTEXT.md) ·
 [Validation](VALIDATION.md)
 
+**New exploratory follow-up:** [32-candidate screen and proposed experiments](TARGET_SCREEN_RESULT.md)
+· [Four-figure portfolio, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
+This DuPage-first screen is independent of the owner's optional Zhang reading
+direction, but reuses the same exposed DuPage samples; it is not replication.
+
 ## What the screening changed
 
 | Stage | Result or disposition | Consequence |
@@ -68,10 +73,11 @@ generalization; see [literature context](LITERATURE_CONTEXT.md).
 
 ## Next biological decision
 
-**Owner-requested follow-up:** a [DuPage-first exploratory target screen](TARGET_SCREEN_PLAN_V1.md)
-now asks which specific RNA changes could motivate identity, survival or
-suppressive-function experiments. Zhang 2026 is optional context. This new
-screen does not change the completed S0–S6 dispositions or validate a target.
+**Owner-requested follow-up completed:** the [DuPage-first target screen](TARGET_SCREEN_RESULT.md)
+qualified a separate protein-coding view after finding small-RNA-label dominance
+in the unrestricted ranking. Proposed routes address TIGIT–PRDM1 inducible
+output, CCR2 localization versus fitness, and IGFBP4 buffering versus compensation.
+Zhang 2026 is optional context; no candidate is validated or adopted as an RQ.
 
 The proposed next question is whether regulatory changes appear **within viable
 lineage-labelled HET/KO Tregs under a common activation exposure before changes

@@ -6,6 +6,9 @@ Current execution is in [RESULTS](RESULTS.md), [ledger](STAGE_STATUS.md) and
 The owner's subsequent DuPage-first target-screen follow-up is specified in
 [TARGET_SCREEN_PLAN_V1](TARGET_SCREEN_PLAN_V1.md); it preserves this original
 plan and the completed stage results, and does not require a tumor/NK direction.
+[Current target-screen interpretation](TARGET_SCREEN_RESULT.md) and
+[portfolio figures](TARGET_SCREEN_FIGURES.md) distinguish the new exploratory
+candidate proposals from the original planning record below.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

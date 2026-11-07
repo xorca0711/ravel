@@ -88,6 +88,12 @@ a premise, not this screen's discovery. Our RNA changes motivate testing the
 upstream Ezh2 connection in a common activation context. Areg RNA alone does not
 answer whether an inducible response is intact.
 
+The [2024 EZH2 gain-of-function study](https://pubmed.ncbi.nlm.nih.gov/39264807/)
+already includes TIGIT protein phenotyping (Figures 2B, 4D and 7G). Thus, even
+the broad EZH2–TIGIT association has precedent. The proposed increment is the
+**genotype-dependent inducible output and its functional contribution**, beyond
+the established effector-state phenotype; novelty remains unverified.
+
 First compare lineage-labelled HET/KO Tregs under the same activation, with and
 without defined TIGIT engagement. Measure surface TIGIT, Blimp-1 protein and
 secreted AREG per viable cell, with absolute viable recovery, division and Foxp3
@@ -199,5 +205,5 @@ the primary evidence, including unfavorable and unannotated entries.
   [receipt](../../analysis/research/runs/dupage_target_screen_v2/receipt.json).
 
 Validation and search-access details are in [literature context](LITERATURE_CONTEXT.md)
-and the final validation addendum. The underlying S0–S3 frozen records and all
+and [target-screen validation](TARGET_SCREEN_VALIDATION.md). The underlying S0–S3 frozen records and all
 canonical questions remain unchanged.

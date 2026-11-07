@@ -5,15 +5,25 @@ research registry own scientific status; older checkpoints are history.
 
 ## DuPage-first target-screen follow-up — 7 November 2026
 
-The owner requested a fresh target screen from DuPage 2015; Zhang 2026 is
-optional context. The [exploratory plan](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md)
-uses the fixed 11,614-locus universe, separate low-state/state-prioritized
-tracks, and a bounded literature-reading frontier. Prior outcome and named-gene
-exposure are explicit. Contract preflight passed; execution and candidate
-interpretation are the next steps. Existing frozen evidence remains unchanged.
-Scientific hypothesis-generation and literature-review skills inform the
-rationale; no missing effect margin, independence or laboratory readiness is
-invented. No external setting was changed.
+Completed the owner-requested DuPage-first exploration; Zhang 2026 is optional.
+[Report and proposal](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md)
+and [four-figure portfolio](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md)
+own details. V1 exposed small-RNA-label dominance in poly-A RNA-seq. A frozen
+amendment retained v1 and qualified 9,845 coding loci, yielding 32 displayed
+candidates. Proposed routes: TIGIT–PRDM1 inducible output, CCR2 localization
+versus fitness, IGFBP4 buffering versus compensation. Literature includes
+nearest precedent and contrary findings; no novelty or target validation claimed.
+
+Three new frozen contracts/receipts preserve screen v1, annotation v2 and four
+figures (PNG/PDF/SVG). Independent arithmetic/annotation checks and plotted-value
+checks passed; all four figures visually inspected. Final repository validation
+passed (17,058 checks and research gate against refreshed main); details are in
+the [validation note](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_VALIDATION.md).
+Next: qualify candidate protein/output under common activation, then specify
+the selected functional perturbation, biological units and feasible precision.
+No new RQ/claim grade, independent replication, paid compute, wet-lab work or
+external setting change. Local scoped commits only; original frozen evidence
+and unrelated work preserved. Refreshed main remains `dcee4b6`.
 
 ## DuPage S0–S6 complete within qualified scope — 7 November 2026
 

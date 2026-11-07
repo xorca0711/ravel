@@ -192,6 +192,7 @@ clearance. Searches were not restricted to target PIs. Main sources and access:
 | Primary source and exact locator | Portion actually inspected; effect on interpretation |
 |---|---|
 | [TIGIT tissue protection, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12571903/), Figures 3, 5–6 and associated Results | Full-text BioC retrieved; focused mechanistic passages/legends read. Published receptor-to-Blimp-1/AREG premise motivates an Ezh2-dependent response test; it is not a novel TIGIT mechanism. |
+| [EZH2 gain, 2024](https://pubmed.ncbi.nlm.nih.gov/39264807/), Figures 2B, 4D, 7G | PubMed primary figure legends rechecked for TIGIT protein phenotyping. The broad EZH2–TIGIT association is also established precedent; the proposed increment concerns inducible functional output. |
 | [CCR2/CD25, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC7000403/), Figure 5 and Results | Indexed primary text/legend inspected; direct full-text routes returned browser check/non-XML. Supplies fitness alternative to migration; no entire-supplement review claimed. |
 | [Intestinal microniches, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11041794/), Figure 5, Extended Data 9 | Indexed primary Results/legends inspected; spatial expression/contact context does not establish receptor causality. |
 | [IGF/Th17–Treg, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8078727/), Figures 1 and 4, Discussion | Full primary page available; focused Results/legends read. Distinguishes induction from subsequent survival/maintenance; does not test the present Ezh2–IGFBP4 mechanism. |
