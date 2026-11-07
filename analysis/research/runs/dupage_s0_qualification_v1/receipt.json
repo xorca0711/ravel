@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S0.source_qualification_v1",
+  "owner": "Dp1-P01",
+  "contract": "Research Article/gate3_09_dupage_2015/contracts/Dp1.S0.source_qualification_v1.json",
+  "contract_sha256": "5fc72be253ee3a22b580a9be036b37a5c0a6fa81b8d4834d19f03c3f2c746f5c",
+  "git_commit": "92ecdd7f8968fe7497b180b344df2ea534a5418e",
+  "started_at": "2026-11-07T06:54:37.071739+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py",
+    "--output",
+    "analysis/research/runs/dupage_s0_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_RAW.tar",
+      "sha256": "87eb8b660d7b83c501040c984db62b9501acbe24c8fb7d9f91a531835fa78e6f",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_family.soft",
+      "sha256": "b667cc7b64e7161be6edfc9ff6005811e8cc011b37474113a7638cbfc6fa4ece",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_FPKM_all_samples_merged.txt.gz",
+      "sha256": "b5ef0d73b19e21c2cee6c89d306e6d99affc8d4e48b5c0ba8205c1151fa8aa51",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/ena_runs.tsv",
+      "sha256": "5500ef7dc8e74c29fa82ddad34958346d7851a0b87715a0159b75450dba67973",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py",
+      "sha256": "65b903e0d3c28ee7f5469edc508b70abfbc6fcd2bb14b10d0c9e7c88f484a09b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/sample_manifest.tsv",
+      "sha256": "a34965093ad5eec75565989b2b613c38ea64eb333d40001ab57daf0c4ee288b2"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/file_qc.tsv",
+      "sha256": "45c4b5ead2b4084216b871cbd953a6f9a03a725f24248eb1a1c2805c20144319"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/archive_member_hashes.tsv",
+      "sha256": "fa9ed3b8dd5fa3806274fb2b46ac00dce3d5fa43fdf4095ad026dcab49a6e3ad"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/feature_identity.tsv",
+      "sha256": "65d8af201adc4a6e6a0fd28c68a7bb705c8b8007a6595f44486a4a92e07b1fc2"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/common_fpkm.tsv",
+      "sha256": "c197e58b8071d370c8adf150f5bd15956da639082ea45664f70e2b4f81fdc3c2"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/merged_crosswalk.tsv",
+      "sha256": "800733b70116a79a6d4ab1b26907486d76b943c28fb9389e7ce42cdf53e55b4f"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/qualification.json",
+      "sha256": "494d451459f01c6f3440885590d75889fd62d150cdecca0a0305df82ffab7179"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-07T06:54:50.844338+00:00"
+}

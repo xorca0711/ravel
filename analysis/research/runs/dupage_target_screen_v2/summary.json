@@ -1,0 +1,18 @@
+{
+  "universe": 11614,
+  "annotation_status": {
+    "unmatched": 1107,
+    "exact_unique": 10491,
+    "chromosome_discordant": 16
+  },
+  "protein_eligible": 9845,
+  "track_counts": {
+    "low_positive": 2372,
+    "low_negative": 3943,
+    "state_positive": 1473,
+    "state_negative": 2471
+  },
+  "protein_frontier_unique": 32,
+  "v1_frontier_protein_unique": 3,
+  "scope": "Current NCBI exact symbol/chromosome annotation; no alias recovery, coordinate conversion or target validation."
+}

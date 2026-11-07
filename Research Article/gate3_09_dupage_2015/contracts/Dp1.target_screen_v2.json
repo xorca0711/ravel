@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.target_screen_v2",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Which exact-symbol, chromosome-compatible protein-coding entries from the preserved DuPage exploratory screen warrant biological follow-up?",
+  "decision": "Separate a protein-target reading frontier from noncoding labels that dominate the poly-A RNA-seq ranking; retain the full v1 findings.",
+  "strongest_rival": "Biotype, stale symbol or overlapping-transcript measurement errors can create large robust RNA estimates without measuring the proposed target product; activation mixture and survival selection remain unresolved.",
+  "discriminator": "Add pinned NCBI mouse gene type and exact symbol/chromosome identity without refitting any expression estimate; retain all excluded/unmatched rows. This does not verify protein abundance or direct regulation.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S1_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md",
+    "Research Article/gate3_09_dupage_2015/RESULTS.md",
+    "Research Article/gate3_09_dupage_2015/S3_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All v1 ranks, 26 displayed genes and 19 anchors were inspected. The poly-A protocol prompted a separate protein-coding view. No v2 coding ranks calculated before this freeze.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "(mean log2(FPKM+1) KO_low - HET_low) - (KO_high - HET_high); observed states, not a temporal intervention.",
+  "endpoint": "Exact annotation audit and protein-coding restriction of the unchanged v1 signed orderings.",
+  "methods": "TARGET_SCREEN_AMENDMENT_V2.md: taxon 10090, exact case-sensitive symbol, unique GeneID, matching chromosome, type protein-coding. No aliases or cross-build coordinate conversion. Reuse v1 numeric estimates and sort rules; first 10 per signed track is a reading budget. Keep full annotations, old frontier audit, new frontier and anchors.",
+  "missingness_and_exclusions": "Keep every v1 locus in annotation audit. Exclude unmatched, ambiguous, chromosome-discordant and non-protein-coding entries only from the separate coding ranking; do not erase original outcomes.",
+  "multiplicity": "No tests, FDR or probability of target validity. All loci retained; top 10 per signed track is a finite reading budget, not an effect threshold.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Post-outcome exploratory RNA selection from surviving Foxp3-positive preparations. Sensitivity stability cannot establish biological independence, direct Ezh2 regulation, protein expression, cell function, novelty or target validity.",
+  "stop_rule": "Stop on mismatched hashes, duplicate v1 symbols or missing annotation fields. Do not retune ranking after viewing v2. Uninformative output is a valid outcome.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v1/all_candidates.tsv",
+      "sha256": "b42d8e1d4ae57c00b6bd905718e7768201fe4d2b7731bb19c4dd36f93cd9e965",
+      "study_id": "GSE58998_GSE55773_context",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v1/review_frontier.tsv",
+      "sha256": "e60377766c9d0a84f5494012297e4bc0e39a17306da1915243174bdb3b57aba7",
+      "study_id": "GSE58998_GSE55773_context",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v1/anchor_lookup.tsv",
+      "sha256": "aa6bf341f718a4b3fdacfc6f7e934fddda6ed7bd92ee9ada3bdc6921872ea931",
+      "study_id": "GSE58998_GSE55773_context",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_target_screen_20261107/Mus_musculus.gene_info.gz",
+      "sha256": "38c16681b79cf9277ff5969e91093cd9c84ba852e7c6bb4fae525fb6aceb1719",
+      "study_id": "NCBI_Gene_mouse_20261107",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py",
+      "sha256": "4691d08594fb6d7e41f72f321e0e014464f35e39a103cc3dd7724dbac50bf956"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_annotated.tsv",
+    "protein_frontier.tsv",
+    "v1_frontier_audit.tsv",
+    "anchor_lookup.tsv",
+    "summary.json"
+  ],
+  "amendment_of": "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json",
+  "amendment_reason": "Assay qualification after the v1 frontier was dominated by noncoding labels despite source poly-A library selection. Prospective protein-target restriction; v1 remains intact."
+}

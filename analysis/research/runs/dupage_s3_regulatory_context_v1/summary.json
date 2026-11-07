@@ -1,0 +1,92 @@
+{
+  "source_domains": 4390,
+  "gene_domain_edges": 5022,
+  "domains_multiple_genes": 984,
+  "boundary_sensitive_pairs_excluded": 0,
+  "eligible_rna_loci": 11614,
+  "mapped_rna_loci": 1180,
+  "single_gene_domain_rna_loci": 659,
+  "uncovered_rna_loci": 10434,
+  "descriptive_spearman": {
+    "all_domain_gene_overlap": {
+      "delta_high": 0.0008786151255089227,
+      "delta_low": 0.13807576573561495,
+      "interaction": 0.16240493047256474
+    },
+    "single_gene_domains": {
+      "delta_high": 0.027178709542291422,
+      "delta_low": 0.12928982536239636,
+      "interaction": 0.1494846321003134
+    }
+  },
+  "class_summaries": [
+    {
+      "family": "activation_class",
+      "class": "HET_down",
+      "expression_bin": "all",
+      "n_loci": 4400,
+      "median_interaction": 0.1023563585539875,
+      "median_delta_low": 0.06277231193390187,
+      "median_delta_high": -0.037026524066391175,
+      "positive_interaction_fraction": 0.8197727272727273,
+      "loo_stable_fraction": 0.6079545454545454
+    },
+    {
+      "family": "activation_class",
+      "class": "HET_up",
+      "expression_bin": "all",
+      "n_loci": 7175,
+      "median_interaction": -0.0798808837700915,
+      "median_delta_low": -0.08231343051751594,
+      "median_delta_high": -0.008766048809803806,
+      "positive_interaction_fraction": 0.2546341463414634,
+      "loo_stable_fraction": 0.5825783972125436
+    },
+    {
+      "family": "activation_class",
+      "class": "HET_zero",
+      "expression_bin": "all",
+      "n_loci": 39,
+      "median_interaction": 0.11765637291905495,
+      "median_delta_low": 1.227408313690088,
+      "median_delta_high": 1.2913989824994552,
+      "positive_interaction_fraction": 0.5384615384615384,
+      "loo_stable_fraction": 0.05128205128205128
+    },
+    {
+      "family": "chromatin_class",
+      "class": "nonpositive",
+      "expression_bin": "all",
+      "n_loci": 365,
+      "median_interaction": -0.0021022290780638997,
+      "median_delta_low": -0.0047721927649887474,
+      "median_delta_high": -0.020235764887531538,
+      "positive_interaction_fraction": 0.4958904109589041,
+      "loo_stable_fraction": 0.6027397260273972
+    },
+    {
+      "family": "chromatin_class",
+      "class": "positive",
+      "expression_bin": "all",
+      "n_loci": 815,
+      "median_interaction": 0.041108787809668534,
+      "median_delta_low": 0.02530266748894583,
+      "median_delta_high": -0.019495893174446,
+      "positive_interaction_fraction": 0.5865030674846625,
+      "loo_stable_fraction": 0.6269938650306749
+    },
+    {
+      "family": "chromatin_class",
+      "class": "uncovered",
+      "expression_bin": "all",
+      "n_loci": 10434,
+      "median_interaction": -0.014837356422270354,
+      "median_delta_low": -0.030229144497334937,
+      "median_delta_high": -0.0191644358201033,
+      "positive_interaction_fraction": 0.45965114050220435,
+      "loo_stable_fraction": 0.5871190339275446
+    }
+  ],
+  "chromatin_scale": "mean activated minus mean resting, source log2(RPKM+0.3) quantile-normalized signal; no further log transform",
+  "limits": "Adapted mm9 RefGene body-overlap mapping then exact same-chromosome symbols to mm10 RNA. Multi-gene domains and unknown unit nesting preclude target/mediation and population inference. Internal HET classes are mathematically coupled."
+}

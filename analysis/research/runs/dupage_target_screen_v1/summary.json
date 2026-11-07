@@ -1,0 +1,30 @@
+{
+  "universe": 11614,
+  "retained_libraries": 11,
+  "configurations": [
+    "primary",
+    "omit_GSM1423625",
+    "omit_GSM1423626",
+    "omit_GSM1423628",
+    "omit_GSM1423629",
+    "omit_GSM1423630",
+    "omit_GSM1423631",
+    "omit_GSM1423632",
+    "omit_GSM1423633",
+    "omit_GSM1423634",
+    "omit_GSM1423635",
+    "omit_GSM1423636",
+    "pseudocount_0.5",
+    "pseudocount_2"
+  ],
+  "track_eligible_counts": {
+    "low_positive": 2814,
+    "low_negative": 4504,
+    "state_positive": 1715,
+    "state_negative": 2800
+  },
+  "frontier_rows": 40,
+  "frontier_unique_genes": 26,
+  "anchor_missing": [],
+  "scope": "Exposed RNA screening. Ordered sensitivity bounds are not confidence intervals, biological effect thresholds, direct targets or validated function."
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S3.regulatory_context_v1",
+  "owner": "Dp1-P01",
+  "contract": "Research Article/gate3_09_dupage_2015/contracts/Dp1.S3.regulatory_context_v1.json",
+  "contract_sha256": "5247f188d6e7e7d74ab605df64f4c1cdbeb62e398a8c423b49fdeccee5c9e82c",
+  "git_commit": "d66cb49a0b51bfa84d684ad87fb65d40b5ac55ac",
+  "started_at": "2026-11-07T07:08:07.942327+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py",
+    "--output",
+    "analysis/research/runs/dupage_s3_regulatory_context_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_s1_reconstruction_v1/gene_contrasts.tsv",
+      "sha256": "d055485a7039ea8319d7e9a8bed5964d1eb6fa288a61505f78931a9ca9ba0bb1",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/interaction.tsv",
+      "sha256": "ce49040775cfbf9ac7b119d33f60c3f54865b7d595294d23508b8e83dbae879e",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_h3k27me3_qn.txt.gz",
+      "sha256": "72d06febbd1e47a5599873cb97dbc0ae2e4543d80b6d2f73edebb44eba730a32",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_README.txt",
+      "sha256": "82f899bd751b63c2e70aa5effdae16e232e53ae0ba5a3acbc601997f2943bcf9",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_series.soft",
+      "sha256": "4b42cbe5ff36f78b1cdd82329b923fa54ae652a3067f97e00b6c1cd3b511e367",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/arvey_efetch.xml",
+      "sha256": "092144ca3d96939c45032ee5030d2ef03c4e2f2aeb08a745905538ee11654770",
+      "study_id": "Arvey2014",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/arvey_Table6_springer.xls",
+      "sha256": "306f5de678fd86186c4ded61ced57de24792d9c0acfdd0940caf311242e7d513",
+      "study_id": "Arvey2014",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/mm9_refGene.txt.gz",
+      "sha256": "7eb239607afa72581e1eebb9c90156e8d83d871953118357b93d39df88208ac4",
+      "study_id": "UCSC_mm9_refGene_2020_dump",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/mm9_refGene.sql",
+      "sha256": "87a11e68b3389fa217a889758aa361b906941531aa0e8ad680e6eaf1baf751e2",
+      "study_id": "UCSC_mm9_refGene_2020_dump",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py",
+      "sha256": "0e6992098058c0e323027a6b666e7ca485e5a3743e8ba098caae633ed2c4d7a4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/domain_signal.tsv",
+      "sha256": "c8b4b341f79a65170ade96dba06efbe2b450cfc618286e064ae930415ea74c39"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/gene_domain_edges.tsv",
+      "sha256": "5afbc07703ab24ab0175e557f8af468e38d3c2b1227e48a15a97e54bf62eec34"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/gene_context.tsv",
+      "sha256": "c0d55f6fd48d7b3e16cd8736c14c98cc8068334c6bd715fe656b718561457d37"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/class_summary.tsv",
+      "sha256": "1764d62e4363a39e0a392fb6424c68e70cf93d11674e0c7d504c4432b95193b2"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/summary.json",
+      "sha256": "d8bda00acd95352cfd169937584ad157595200963485a2a39f5f6aec624e80a2"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.png",
+      "sha256": "859075c308d9efe8b75abbdc75c85f2f5bbe0ad4073da777d6fe725e9d86a737"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.pdf",
+      "sha256": "0506c7537e16ad2b9e1fd137113e03c22c1e58e481e54c33ca354167fb45c7f6"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-07T07:08:13.810208+00:00"
+}

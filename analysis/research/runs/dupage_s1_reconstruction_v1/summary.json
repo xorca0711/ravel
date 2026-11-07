@@ -1,0 +1,45 @@
+{
+  "eligible_loci": 11614,
+  "status_ok_loci": 22997,
+  "retained_libraries": 11,
+  "transform": "log2(FPKM+1); means of transformed retained libraries; genes centered, not scaled for PCA",
+  "pca_explained_variance": [
+    0.3171233507567506,
+    0.12967415271680943,
+    0.10306346869806365,
+    0.08973617121879315,
+    0.07888294942357223,
+    0.07262012538350583,
+    0.07053510046216521,
+    0.054643908696297525,
+    0.04890063125683086,
+    0.034820141387211664,
+    1.8859081006382735e-30
+  ],
+  "merged_eligible_loci": 11246,
+  "merged_pca_explained_variance": [
+    0.5491889617562706,
+    0.2509520044451109,
+    0.19985903379861836,
+    2.407860713465978e-30
+  ],
+  "contrast_summary": {
+    "activation_HET": {
+      "rms": 0.5634406681357463,
+      "median_absolute": 0.17396391980581205
+    },
+    "activation_KO": {
+      "rms": 0.4627198173736584,
+      "median_absolute": 0.12170888215914483
+    },
+    "delta_high": {
+      "rms": 0.34082029698613403,
+      "median_absolute": 0.06530234835052906
+    },
+    "delta_low": {
+      "rms": 0.37043166266348787,
+      "median_absolute": 0.09771574578228992
+    }
+  },
+  "scope": "No p-values, confidence intervals, DEG calls or exact published PCA claim."
+}

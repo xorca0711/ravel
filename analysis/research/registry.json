@@ -976,6 +976,30 @@
         "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md",
         "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/ORIGINATING_REVIEW.md"
       ]
+    },
+    {
+      "id": "Dp1-P01",
+      "plan": "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_FOLLOWUP.md",
+        "Research Article/gate3_09_dupage_2015/candidates/SOURCE_QUALIFICATION.md",
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/RESULTS.md",
+        "Research Article/gate3_09_dupage_2015/S3_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/README.md",
+        "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+        "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_09_dupage_2015/STAGE_STATUS.md",
+        "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/S1_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/S2_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/ANALYSIS_AMENDMENT_V2.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_AMENDMENT_V2.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md"
+      ]
     }
   ],
   "contracts": [
@@ -1141,7 +1165,15 @@
     "analysis/research/contracts/A5.feature_context_display_v1.json",
     "analysis/research/contracts/A5.feature_context_figures_v2.json",
     "analysis/research/contracts/A3.rna_context_display_v1.json",
-    "analysis/research/contracts/A27.source_code_concentration_v1.json"
+    "analysis/research/contracts/A27.source_code_concentration_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S0.source_qualification_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S1.reconstruction_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S2.state_contrast_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.S3.regulatory_context_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v2.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.candidate_followup_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1298,7 +1330,15 @@
     "analysis/research/runs/A5_feature_context_display_v1_20261104/receipt.json",
     "analysis/research/runs/A5_feature_context_figures_v2_20261104/receipt.json",
     "analysis/research/runs/A3_rna_context_display_v1_20261104/receipt.json",
-    "analysis/research/runs/A27_source_code_concentration_v1_20261104/receipt.json"
+    "analysis/research/runs/A27_source_code_concentration_v1_20261104/receipt.json",
+    "analysis/research/runs/dupage_s0_qualification_v1/receipt.json",
+    "analysis/research/runs/dupage_s1_reconstruction_v1/receipt.json",
+    "analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json",
+    "analysis/research/runs/dupage_s3_regulatory_context_v1/receipt.json",
+    "analysis/research/runs/dupage_target_screen_v1/receipt.json",
+    "analysis/research/runs/dupage_target_screen_v2/receipt.json",
+    "analysis/research/runs/dupage_target_figures_v1/receipt.json",
+    "analysis/research/runs/dupage_candidate_followup_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

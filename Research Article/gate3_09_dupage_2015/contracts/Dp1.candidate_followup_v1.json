@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.candidate_followup_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Do the fixed TIGIT-PRDM1, CCR2 and IGFBP4 candidates show reciprocal directions across DuPage loss and Peeters gain contexts, and how stable are the gain-context descriptive contrasts to single-library omission?",
+  "decision": "Describe candidate-specific baseline and activated gain-context profiles to refine protein/context qualification without selecting a winner or asserting mediation.",
+  "strongest_rival": "Y641F biochemistry, genetic controls, culture/IL-2 exposure, source selection and survivor composition differ from knockout observed states; selected rlog release and unknown source units restrict interpretation.",
+  "discriminator": "Separate genotype differences before and after in-vitro activation and retain omission sensitivity, missing genes and discordant signs; do not pool magnitudes or infer causal effects.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
+    "Research Article/gate3_09_dupage_2015/CANDIDATE_FOLLOWUP.md",
+    "Research Article/gate3_09_dupage_2015/candidates/SOURCE_QUALIFICATION.md",
+    "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_PLAN_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All DuPage outcomes and primary literature were exposed, including published Peeters TIGIT and CD25 directions. GEO family metadata, matrix header and selection rule inspected; candidate rlog values not inspected before this freeze. Overall exposed exploration.",
+  "biological_unit": "Source Treg preparation; GEO declares three libraries per group but individual animals, pooling and cross-state pairing are unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve GSE262130 libraries; no verified animal mapping. DuPage table is preserved discovery evidence; Peeters has different samples/design but independence is not asserted. Reanalysis is not independent validation.",
+  "population_and_selection": "CD62L-positive sorted murine Tregs with Ezh2 Y641F or WT, immediately sorted or cultured four days with CD3/CD28 and IL-2. Published matrix is a union selected by authors adjusted p < 0.05 across six comparisons.",
+  "contrast": "Mean rlog Y641F-WT at freshly sorted N and day4 D4; activation differences within genotype and difference of gain contrasts. Qualitative sign comparison to DuPage KO-HET high/low only.",
+  "endpoint": "Fixed-gene rlog sample values, descriptive contrasts, 13-configuration omission ranges and source-limited direction relations.",
+  "methods": "CANDIDATE_ANALYSIS_PLAN_V1.md. Fixed candidates Tigit,Prdm1,Ccr2,Igfbp4; anchors Areg,Il2ra,Igf1r. Exact unique symbols only. Primary plus 12 leave-one-library configurations; no new inferential tests, fitting, pseudocounts or threshold changes. Render source-bound profiles and distinct-unit direction panels.",
+  "missingness_and_exclusions": "No sample exclusion. Missing/ambiguous symbols retained as unavailable; not null expression. No imputation or substitute genes. Selected release restricts assessability.",
+  "multiplicity": "Seven fixed symbols, four candidates plus three contextual anchors. No new p-values, FDR or selection based on observed gain-context outcomes.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No independent animal variance or meaningful margin established. Omission ranges are not confidence intervals.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Descriptive exposed cross-context reanalysis of an outcome-selected transformed matrix. Neither independent validation nor direct target, protein, secretion, homing, repair, necessity or causal function evidence.",
+  "stop_rule": "Stop on hash/header mismatch, malformed records, duplicate sample labels or nonfinite eligible values. Missing/ambiguous genes get explicit unavailable records. Do not replace candidates or overwrite output directories.",
+  "inputs": [
+    {
+      "path": "raw_data/dupage_candidate_followup_20261107/GSE262130_family.soft.gz",
+      "sha256": "cb77d61cadad4b8e48ad7ab879843053e5a567c7033e0a2ef5e30af380b37682",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_candidate_followup_20261107/GSE262130_rld_sig_up.txt.gz",
+      "sha256": "d8cde4819b9339fb1c42aeda25063ab671f2211069455b5ac6df64821def0023",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/all_annotated.tsv",
+      "sha256": "07dfa3379c6390d97b67ed0b1b3b01f9983b8a1b6152ed7d3e3e9bfa950a6232",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/candidate_followup_v1.py",
+      "sha256": "59671713591fdd90a2ff7a15ddd40f8433409bee27b842302a429082a24c88fd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/candidate_followup_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_metadata.tsv",
+    "availability.tsv",
+    "observations.tsv",
+    "sensitivity.tsv",
+    "contrasts.tsv",
+    "direction_comparison.tsv",
+    "summary.json",
+    "figure_manifest.json",
+    "fig05_candidate_profiles.png",
+    "fig05_candidate_profiles.pdf",
+    "fig05_candidate_profiles.svg",
+    "fig06_candidate_direction_context.png",
+    "fig06_candidate_direction_context.pdf",
+    "fig06_candidate_direction_context.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New candidate-focused cross-context follow-up; existing DuPage contracts and outputs remain unchanged."
+}
