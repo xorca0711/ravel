@@ -176,3 +176,52 @@ potential in Ezh2-deficient tumor Tregs, including IL-2 after restimulation,
 and compared reprogramming with depletion. This is not evidence for spontaneous
 in-situ IL-2 release in DuPage's lymphoid samples. GSE114298 is a potential future
 source, not a qualified independent validation dataset in this work.
+
+## Target-screen literature triage — 7 November 2026
+
+[The completed target-screen report](TARGET_SCREEN_RESULT.md) now owns candidate
+observations, triage of all 32 coding-frontier genes and three proposed
+comparisons. [Portfolio figures](TARGET_SCREEN_FIGURES.md) preserve the full
+frontier and distinguish data from proposed experiments. V1 exposed a poly-A
+versus small-RNA-label mismatch; V2 added a separately frozen coding annotation
+restriction rather than rewriting that result.
+
+This was a bounded primary-literature pass, not a systematic review or novelty
+clearance. Searches were not restricted to target PIs. Main sources and access:
+
+| Primary source and exact locator | Portion actually inspected; effect on interpretation |
+|---|---|
+| [TIGIT tissue protection, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12571903/), Figures 3, 5–6 and associated Results | Full-text BioC retrieved; focused mechanistic passages/legends read. Published receptor-to-Blimp-1/AREG premise motivates an Ezh2-dependent response test; it is not a novel TIGIT mechanism. |
+| [CCR2/CD25, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC7000403/), Figure 5 and Results | Indexed primary text/legend inspected; direct full-text routes returned browser check/non-XML. Supplies fitness alternative to migration; no entire-supplement review claimed. |
+| [Intestinal microniches, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11041794/), Figure 5, Extended Data 9 | Indexed primary Results/legends inspected; spatial expression/contact context does not establish receptor causality. |
+| [IGF/Th17–Treg, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8078727/), Figures 1 and 4, Discussion | Full primary page available; focused Results/legends read. Distinguishes induction from subsequent survival/maintenance; does not test the present Ezh2–IGFBP4 mechanism. |
+| [IGF-1/Treg, 2014](https://pubmed.ncbi.nlm.nih.gov/25339185/), abstract and indexed figure descriptions | Treg expansion/suppression context; not a complete methods audit. |
+| [Lymphoid single-cell landscape, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6069633/), core-signature paragraph containing Igfbp4/Dapl1 | Indexed primary manuscript passage inspected; PMC/BioC routes blocked/rate-limited. Supports origin/state qualification rather than a validated functional role. |
+| [PDE3B, 2019](https://www.jci.org/articles/view/124725), Figures 5–6 | Primary Results/legends inspected; substantial existing mechanism makes PDE3B a comparator and bounded Ezh2-specific follow-up, not a discovery. |
+| [IL1R2/Tfr, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11143922/), Figure 3; [IL1R2/tumor, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12666320/), deletion/blockade Results and Discussion | Both primary pages inspected in relevant sections. Different contexts separate functional receptor contribution from useful cell-surface marking. |
+| [Tcf1/Lef1, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6446865/) and [TCF7/LEF1 tumor study, 2024](https://pubmed.ncbi.nlm.nih.gov/38169425/) | Indexed Results/abstract reviewed as context boundaries; no numerical integration or full supplement audit. |
+
+Actual search strings for this post-screen pass (7 November 2026):
+
+- `PDE3B regulatory T cells Foxp3 cAMP genetic deletion suppression`
+- `TCF1 LEF1 regulatory T cells loss function colitis 2019 2020 2024`
+- `"IGFBP4" "regulatory T" cells`; `"DAPL1" "regulatory T" cells`;
+  `"ADAM8" "regulatory T" cells`; `"IL1R2" regulatory T cells 2024 2025 2026`
+- `"Igfbp4" "Treg" "Ezh2"`; `"IGFBP4" "regulatory T cells" 2024 2025 2026`;
+  `"Dapl1" Treg suppressive function gene deletion`; `"G0s2" regulatory T cells`
+- `CCR2 regulatory T cells migration suppressive function tissue 2024 2025 2026`;
+  `"CCR2" "regulatory T cells" knockout tissue homeostasis`
+- `"Single-cell gene expression reveals a landscape" Igfbp4 Dapl1`;
+  `"IGF-1" mature regulatory T cells protection 2014 2015`
+- `TIGIT EZH2 regulatory T cells amphiregulin`;
+  `"Single-cell gene expression reveals a landscape of regulatory T cell phenotypes"`
+- `"CCR2 enhances CD25" "Fig." "IL-2"`;
+  `"Immune microniches shape intestinal Treg function" "CCR2" "blockade"`
+
+Search leads for G0S2, DAPL1, ADAM8 and recent IGFBP4 contexts did not receive
+equivalent functional-source qualification; their status remains unresolved,
+not unsupported biology or absence of precedent. Search snippets describing
+predicted regulons or prognostic scores were not treated as Treg perturbation
+evidence. No new shared-source dataset was counted as independent replication.
+Current annotation version and molecular-identity limits are in AM02. Exact
+primary reads remain distinct from planned assay/data acquisition.

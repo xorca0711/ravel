@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.target_figures_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can the completed DuPage target screen and proposed experimental distinctions be communicated without converting RNA estimates into functional claims?",
+  "decision": "Publish reproducible portfolio figures with complete candidate coverage, explicit post-outcome focused selection, sensitivity ranges and qualitative experimental alternatives.",
+  "strongest_rival": "Selective display, ambiguous effect units and diagrams that look causal could overstate the exploratory RNA evidence.",
+  "discriminator": "Show all 32 coding-frontier genes, annotation exclusions, explicitly focused candidates and a labelled proposal matrix; keep source-value tables and figure captions.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S1_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md",
+    "Research Article/gate3_09_dupage_2015/RESULTS.md",
+    "Research Article/gate3_09_dupage_2015/S3_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_AMENDMENT_V2.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All plotted values, annotations and candidate literature are exposed; figures summarize completed v1/v2 screens and do not provide validation.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "(mean log2(FPKM+1) KO_low - HET_low) - (KO_high - HET_high); observed states, not a temporal intervention.",
+  "endpoint": "Annotation counts, preserved RNA contrasts and sensitivity ranges, and a qualitative comparison matrix.",
+  "methods": "No expression refit. Figure 1 annotation/frontier and overlapping-track counts; figure 2 all 32 protein-frontier genes alphabetically with high/low/interaction values; figure 3 ten declared post-outcome genes with 14-configuration extrema; figure 4 proposed comparisons only. Save PNG at 300 dpi plus PDF/SVG, exact source-value TSV and manifest.",
+  "missingness_and_exclusions": "All 32 coding-frontier genes shown; focused display explicitly adds prior anchors Areg, Il2ra, Pde3b and Bcl2. No candidate becomes significant or a validated target from display.",
+  "multiplicity": "No tests. Focused genes selected after observing outcomes and literature; full frontier remains visible.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Post-outcome exploratory RNA selection from surviving Foxp3-positive preparations. Sensitivity stability cannot establish biological independence, direct Ezh2 regulation, protein expression, cell function, novelty or target validity.",
+  "stop_rule": "Stop on missing genes, hash mismatch, nonfinite numeric values or incorrect source values. Inspect rendered figures before portfolio delivery; layout corrections require new versioned code/output.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v1/summary.json",
+      "sha256": "bfe4a7e5b05205a3708bdf3fdb9d48880717a389f8d059ec6cb0d4a2b140f68d",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/summary.json",
+      "sha256": "1777993a35e664ffadbc0cc6b98fd698211158253efa7d7bfe8b1ab78d5980e7",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/all_annotated.tsv",
+      "sha256": "07dfa3379c6390d97b67ed0b1b3b01f9983b8a1b6152ed7d3e3e9bfa950a6232",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/protein_frontier.tsv",
+      "sha256": "5f782381902b12bef6c6f1e1577d53ec36d42ed31c9e7d67ec8feebfd0930428",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py",
+      "sha256": "66083095698d81068d9cb3a8c4d871e99b99a78db17e53be3f3d2975abce75f3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "fig01_screen_qualification.png",
+    "fig01_screen_qualification.pdf",
+    "fig01_screen_qualification.svg",
+    "fig02_complete_protein_frontier.png",
+    "fig02_complete_protein_frontier.pdf",
+    "fig02_complete_protein_frontier.svg",
+    "fig03_candidate_sensitivity.png",
+    "fig03_candidate_sensitivity.pdf",
+    "fig03_candidate_sensitivity.svg",
+    "fig04_proposed_comparisons.png",
+    "fig04_proposed_comparisons.pdf",
+    "fig04_proposed_comparisons.svg",
+    "figure_source_values.tsv",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner requested figures stored in the repository as a portfolio. Rendering completed data and explicit proposals; no numerical screen is replaced."
+}
