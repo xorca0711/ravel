@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S1.reconstruction_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do retained-library expression patterns show greater KO-HET divergence in CD62L-low than high, as in published Figure 6?",
+  "decision": "Proceed to a direct descriptive interaction contrast if source QC supports interpretable state comparisons; revisit feature/sample QC if discrepancies dominate.",
+  "strongest_rival": "Different bulk mixtures or selective survival within the Foxp3-positive gate, plus technical preparation variability, can mimic state-dependent regulation.",
+  "discriminator": "Show retained-library PCA, four merged-estimate PCA and all four signed contrasts with explicitly separate feature universes. These diagnose source patterns but do not distinguish within-cell regulation from selection.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results, S0 qualification and source headers are exposed; S1 numerical expression contrasts and PCA have not yet been computed. Exposed reconstruction, not confirmation.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "Low-minus-high within HET and KO; KO-minus-HET within high and low. Group means are means of library log2(FPKM+1). Merged deposited estimates are a separate descriptive view.",
+  "endpoint": "Signed log2(FPKM+1) expression contrasts; contrast RMS and median absolute magnitude; library and group-estimate PCA coordinates.",
+  "methods": "Use S0 common features with OK status in all 11 retained libraries and FPKM>=1 in at least one library. log2(FPKM+1), mean transformed expression per group, gene-centered unscaled PCA by SVD. Merged PCA uses its own all-four-OK, finite nonnegative, any-group FPKM>=1 rows. No feature optimization, DEG tests, significance threshold or normalization beyond declared transform.",
+  "missingness_and_exclusions": "Exclude source GSM1423627; omit non-OK common features and low-detection rows before analysis. Threshold 1 FPKM is a display eligibility rule, not an effect margin. No missing values imputed or confidence bounds interpreted as biological SEM.",
+  "multiplicity": "No hypothesis tests or inferential gene family; all eligible loci and four contrasts retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Adapted source reconstruction, not exact Figure 6 replay or independent replication. Selected CD62L states are not interventions/timepoints. FPKM contrasts cannot establish chromatin mechanism or functional fate.",
+  "stop_rule": "Fail empty eligibility, nonfinite log/PCA or missing group. Strong sample/feature discrepancies trigger review before any downstream regulatory interpretation.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/common_fpkm.tsv",
+      "sha256": "c197e58b8071d370c8adf150f5bd15956da639082ea45664f70e2b4f81fdc3c2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/sample_manifest.tsv",
+      "sha256": "a34965093ad5eec75565989b2b613c38ea64eb333d40001ab57daf0c4ee288b2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_FPKM_all_samples_merged.txt.gz",
+      "sha256": "b5ef0d73b19e21c2cee6c89d306e6d99affc8d4e48b5c0ba8205c1151fa8aa51",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s1_reconstruct_v1.py",
+      "sha256": "830cd78114beb854d68c32ee85d6d94c2a5c72e76832e552b915b54810900f76"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/s1_reconstruct_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_contrasts.tsv",
+    "sample_qc_pca.tsv",
+    "merged_pca.tsv",
+    "summary.json",
+    "reconstruction.png",
+    "reconstruction.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial S1 specification selected prospectively from S0 qualified descriptive route. No inferred animal independence or count-model substitution."
+}

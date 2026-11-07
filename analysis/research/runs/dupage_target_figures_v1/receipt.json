@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.target_figures_v1",
+  "owner": "Dp1-P01",
+  "contract": "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json",
+  "contract_sha256": "dbb9fd0d5e0755c83fe88252bb87ff4dcc5a74ac2cfd943791c66c898ffbb1cc",
+  "git_commit": "6c4ad83bc0398311e58ac6e9afcb369a31cd0eb7",
+  "started_at": "2026-11-07T09:33:33.317521+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py",
+    "--output",
+    "analysis/research/runs/dupage_target_figures_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v1/summary.json",
+      "sha256": "bfe4a7e5b05205a3708bdf3fdb9d48880717a389f8d059ec6cb0d4a2b140f68d",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/summary.json",
+      "sha256": "1777993a35e664ffadbc0cc6b98fd698211158253efa7d7bfe8b1ab78d5980e7",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/all_annotated.tsv",
+      "sha256": "07dfa3379c6390d97b67ed0b1b3b01f9983b8a1b6152ed7d3e3e9bfa950a6232",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_screen_v2/protein_frontier.tsv",
+      "sha256": "5f782381902b12bef6c6f1e1577d53ec36d42ed31c9e7d67ec8feebfd0930428",
+      "study_id": "Dp1_exposed_target_screen",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py",
+      "sha256": "66083095698d81068d9cb3a8c4d871e99b99a78db17e53be3f3d2975abce75f3"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig01_screen_qualification.png",
+      "sha256": "2a6161db6f990ad6a99dc1858bbf38d82059924d004c432347cd6fe2e81d8ca6"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig01_screen_qualification.pdf",
+      "sha256": "c3e631f00b5854333ecda715280924e0bb6a6d5d9ba8b337fe92b944d2016513"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig01_screen_qualification.svg",
+      "sha256": "4d9744b2b0b895ad4b1c23356b367756d3b496079dfcddc0b107bdc28f4b614e"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig02_complete_protein_frontier.png",
+      "sha256": "006bf68e32cb731c405736dd5907c0932fafddcd9d86d62d7a631b6ce62825fc"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig02_complete_protein_frontier.pdf",
+      "sha256": "507075a17ff2ef0c3e68c0f8113801b5f274843c22848e23a811dc92193ab013"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig02_complete_protein_frontier.svg",
+      "sha256": "778698f3d5c36b4a54fb6ee2e3a21c413fb33cc0c9ca7a42c9f8f7f09128f52b"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig03_candidate_sensitivity.png",
+      "sha256": "137d21beeb3fa18e456b28681762798f06ccc27e6198ca0a06302d32f39fd3d5"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig03_candidate_sensitivity.pdf",
+      "sha256": "7f9b59c5a1a4c93bcd79af801a8ac321237c022a23af7fa0e7cc380235c11042"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig03_candidate_sensitivity.svg",
+      "sha256": "719bdd74fc764bfa2b8a98a6522b6f0fbbd0f03da9e54c8502514c5cc8d0d92a"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.png",
+      "sha256": "13363617450e4e2c2bff91b9360edf02a79456921bfa959c5ae043b792ae4b21"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.pdf",
+      "sha256": "c7dc492ef7200da56d65c58ef9efaf8e8eed3143fb17b7a1c96571b566eb110c"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.svg",
+      "sha256": "f6110309b9ba0a813e169a73151cc070530cf82cd246f6dff9c1f5c917382a84"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/figure_source_values.tsv",
+      "sha256": "1086e959e9e1fc807c67bc6c6b3d1feb1a5fa804779098dfe8c430db312820fe"
+    },
+    {
+      "path": "analysis/research/runs/dupage_target_figures_v1/figure_manifest.json",
+      "sha256": "b206dfdacb67725ec67bcf55b3c11c7a2e3eaf31f30478f66a75713bcd810c14"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-07T09:33:46.383851+00:00"
+}

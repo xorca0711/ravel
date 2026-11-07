@@ -1,0 +1,76 @@
+{
+  "analysis_id": "Dp1.candidate_followup_v1",
+  "source_rows_selected_by_authors": 11440,
+  "candidates": [
+    "Tigit",
+    "Prdm1",
+    "Ccr2",
+    "Igfbp4"
+  ],
+  "context_anchors": [
+    "Areg",
+    "Il2ra",
+    "Igf1r"
+  ],
+  "availability": [
+    {
+      "gene": "Tigit",
+      "role": "candidate",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000071552"
+    },
+    {
+      "gene": "Prdm1",
+      "role": "candidate",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000038151"
+    },
+    {
+      "gene": "Ccr2",
+      "role": "candidate",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000049103"
+    },
+    {
+      "gene": "Igfbp4",
+      "role": "candidate",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000017493"
+    },
+    {
+      "gene": "Areg",
+      "role": "context_anchor",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000029378"
+    },
+    {
+      "gene": "Il2ra",
+      "role": "context_anchor",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000026770"
+    },
+    {
+      "gene": "Igf1r",
+      "role": "context_anchor",
+      "status": "unique",
+      "source_rows": 1,
+      "ensembl_ids": "ENSMUSG00000005533"
+    }
+  ],
+  "library_count": 12,
+  "independent_animal_count": null,
+  "sensitivity_configurations": 13,
+  "new_inferential_tests": false,
+  "validation_scope": "none",
+  "limit": "Selected published rlog matrix; descriptive context comparison, not independent validation or function.",
+  "runtime": {
+    "numpy": "2.5.1",
+    "matplotlib": "3.11.1"
+  }
+}

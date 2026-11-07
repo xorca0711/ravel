@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S2.state_contrast_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How does the KO-HET expression difference change between observed CD62L states, and how sensitive is that pattern to retained libraries and zero handling?",
+  "decision": "Determine whether activation-specific dysregulation is directionally robust enough for S3 class interpretation, or must remain mixed and sample-sensitive.",
+  "strongest_rival": "Different bulk mixtures or selective survival within the Foxp3-positive gate, plus technical preparation variability, can mimic state-dependent regulation.",
+  "discriminator": "Difference of the two genotype contrasts with fixed S1 features; leave one retained library out and vary the pseudocount to assess stability. Does not establish a randomized state effect, biological independence or mediation.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S1_RESULT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes and S0/S1 results are exposed, including modestly larger low-state divergence and KO/low sample spread. Interaction and sensitivity results have not been calculated before this freeze.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "(mean log2(FPKM+1) KO_low - HET_low) - (KO_high - HET_high); observed states, not a temporal intervention.",
+  "endpoint": "Per-locus descriptive interaction, sign stability, and low/high RMS genotype-contrast ratio under declared sensitivities.",
+  "methods": "Use all 11,614 S1-eligible loci without reselection. Primary pseudocount 1; sensitivity 0.5 and 2. Omit each of 11 retained libraries once with all four groups still represented. Recompute means and contrasts; report omission extrema and sign stability without significance tests. Calculate design matrix rank and label nominal library df separately from unknown biological df.",
+  "missingness_and_exclusions": "Retain S1 universe, all-OK filtering and source exclusion. Never reintroduce excluded low-depth GSM1423627. No outlier deletion or post-outcome rethresholding.",
+  "multiplicity": "No hypothesis tests or inferential gene family; all eligible loci and four contrasts retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Descriptive log-shifted expression interaction among surviving Foxp3-positive preparations. No population inference; gene sign stability is not biological replication, precision or effect size importance.",
+  "stop_rule": "Stop if any group empties, S1 primary contrasts fail numerical reconciliation, or nonfinite estimates arise. Mixed/fragile results must remain mixed; do not add datasets merely to obtain a positive result.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/common_fpkm.tsv",
+      "sha256": "c197e58b8071d370c8adf150f5bd15956da639082ea45664f70e2b4f81fdc3c2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/sample_manifest.tsv",
+      "sha256": "a34965093ad5eec75565989b2b613c38ea64eb333d40001ab57daf0c4ee288b2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s1_reconstruction_v1/gene_contrasts.tsv",
+      "sha256": "d055485a7039ea8319d7e9a8bed5964d1eb6fa288a61505f78931a9ca9ba0bb1",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py",
+      "sha256": "e47ecb6a27b64ff16b3c4e5cb35fd121740ebdba39f3bb02687f1ce2bcefa31d"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "interaction.tsv",
+    "sensitivity.tsv",
+    "summary.json",
+    "state_dependence.png",
+    "state_dependence.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial S2 descriptive route after S0 qualified FPKM only and S1 revealed modest global divergence with library spread. This instantiates the planned descriptive fallback, not a count-model substitution."
+}

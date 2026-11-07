@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S3.regulatory_context_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do mixed DuPage RNA interactions align with activation-repressed source classes and independently measured activation-associated H3K27me3 context?",
+  "decision": "Determine whether a limited cross-study regulatory association is supported or whether selective repression remains unqualified; permit S4 only for a specific unresolved discriminator.",
+  "strongest_rival": "Mathematical coupling of HET-defined classes, bulk population selection, expression detectability and broad multi-gene chromatin domains can mimic a selective repression association.",
+  "discriminator": "Separate internal HET-down/up directions from externally sourced chromatin signal. Use pinned within-mm9 gene-domain overlap and exact same-chromosome symbols, uncovered-gene accounting, expression strata and single-gene-domain sensitivity. Does not identify direct targets or measured KO chromatin mediation.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S1_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S2_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results, S0-S2 and Arvey main text/metadata/README and table headers are exposed. No gene-domain overlaps or cross-study correlations have been computed before freeze. This is adapted exploratory description, not confirmation or exact Figure 6 replay.",
+  "biological_unit": "DuPage source preparations with unknown mouse/pool nesting; Arvey activated/resting Treg ChIP samples described as two replicates per state, individual mouse/pool identities not audited. Gene/domain summaries are not biological replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "DuPage S1/S2 reuse one study. Arvey is a different source/activation context but is already the external chromatin source used in DuPage 2015; this is one published analytical lineage, not independent replication of the original claim. Multi-gene domains induce shared signal.",
+  "population_and_selection": "DuPage healthy mosaic female spleen/LN Foxp3-positive CD62L strata; Arvey spleen/LN resting Tregs versus in-vivo activated Tregs after transient DT depletion/inflammation. Different activation contexts and no matched DuPage KO chromatin.",
+  "contrast": "DuPage S2 interaction versus Arvey mean atr.rep1/2 minus mean rtr.rep1/2 on deposited log2(RPKM+0.3), quantile-normalized scale. Internal HET activation-down/up groups retained separately.",
+  "endpoint": "Descriptive signed gene-level RNA/chromatin association and mapping/detectability coverage; no enrichment p-values or causal endpoints.",
+  "methods": "Use fixed S1 11614 loci and S2 interactions. Parse GEO qn table with unique named columns; no additional log transform. Map domains to all mm9 RefGene transcript bodies using txStart/txEnd; retain gene/domain pairs stable to start versus start-1 boundary convention, collapse duplicate transcripts, exclude multi-chromosome symbols. Join exact same-chromosome symbols to RNA; median domain difference per gene. Keep uncovered distinct from nonpositive. Report all-domain and single-gene-domain Spearman correlations without p-values, internal activation classes and positive/nonpositive external change groups. Five equal-count HET/high-expression rank bins provide descriptive detectability strata. No cross-build coordinate join or alias guessing.",
+  "missingness_and_exclusions": "No new RNA filtering beyond S1. Exclude nonfinite source signal, duplicated domain IDs, unsupported columns or ambiguous gene chromosome identity; fail malformed sources. Preserve uncovered genes and boundary-sensitive mapping counts. Missing exact Foxp3-loss/binding/signature sets remain held.",
+  "multiplicity": "No inferential tests. Fixed two descriptive association views, three RNA contrasts and internal/external signed classes with five expression bins; all outputs retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Cross-study association with broad marked domains under different activation contexts is not direct binding, locus-specific KO chromatin loss, identity fate, function or mediation. Internal class directions share HET terms with the interaction and cannot independently support repression. Quantile normalization cannot estimate global methylation abundance.",
+  "stop_rule": "Fail malformed/nonfinite signal, empty mapped universe or inconsistent RNA gene order. If exact reference replay cannot be qualified, retain its hold; use only the explicitly adapted AM01 branch. Mixed/negative association must not trigger unbounded external screening.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_s1_reconstruction_v1/gene_contrasts.tsv",
+      "sha256": "d055485a7039ea8319d7e9a8bed5964d1eb6fa288a61505f78931a9ca9ba0bb1",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/interaction.tsv",
+      "sha256": "ce49040775cfbf9ac7b119d33f60c3f54865b7d595294d23508b8e83dbae879e",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_h3k27me3_qn.txt.gz",
+      "sha256": "72d06febbd1e47a5599873cb97dbc0ae2e4543d80b6d2f73edebb44eba730a32",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_README.txt",
+      "sha256": "82f899bd751b63c2e70aa5effdae16e232e53ae0ba5a3acbc601997f2943bcf9",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE55773_series.soft",
+      "sha256": "4b42cbe5ff36f78b1cdd82329b923fa54ae652a3067f97e00b6c1cd3b511e367",
+      "study_id": "GSE55773",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/arvey_efetch.xml",
+      "sha256": "092144ca3d96939c45032ee5030d2ef03c4e2f2aeb08a745905538ee11654770",
+      "study_id": "Arvey2014",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/arvey_Table6_springer.xls",
+      "sha256": "306f5de678fd86186c4ded61ced57de24792d9c0acfdd0940caf311242e7d513",
+      "study_id": "Arvey2014",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/mm9_refGene.txt.gz",
+      "sha256": "7eb239607afa72581e1eebb9c90156e8d83d871953118357b93d39df88208ac4",
+      "study_id": "UCSC_mm9_refGene_2020_dump",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/mm9_refGene.sql",
+      "sha256": "87a11e68b3389fa217a889758aa361b906941531aa0e8ad680e6eaf1baf751e2",
+      "study_id": "UCSC_mm9_refGene_2020_dump",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py",
+      "sha256": "0e6992098058c0e323027a6b666e7ca485e5a3743e8ba098caae633ed2c4d7a4"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "domain_signal.tsv",
+    "gene_domain_edges.tsv",
+    "gene_context.tsv",
+    "class_summary.tsv",
+    "summary.json",
+    "regulatory_context.png",
+    "regulatory_context.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial S3 numerical contract implementing prospective plan amendment Dp1-AM01 (ANALYSIS_AMENDMENT_V2.md); no predecessor S3 run exists. Recovered explicit GEO signal semantics replace an unqualified exact published-set replay."
+}

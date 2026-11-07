@@ -30,6 +30,139 @@ performed. The inventory update is complete locally and remains uncommitted in
 the scoped worktree. Future changes to caches or unmerged research require a
 new snapshot/reconciliation; no external setting is needed for this update.
 
+## Biological review and executed candidate continuation — 7 November 2026
+
+[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Biological review,
+source qualification and three experimental question cards are committed.
+The [numerical candidate follow-up](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
+executed from frozen `8f7fa76`: all four candidate genes and three anchors were
+available in the selected Peeters rlog matrix. Tigit/Prdm1/Ccr2 reverse direction
+between fresh and cultured gain contexts; Igfbp4 stays lower. No target is
+validated, accepted or removed. Two new figures have been visually inspected.
+Independent checks passed for 84 source values, 455 contrasts, 35 ranges/sign
+records, six figure hashes and the new receipt. Repository validation passed
+17,122 checks; refreshed main is unchanged at `dcee4b6`. The final preservation
+gate and both GitHub workflows passed for the published results at `0578490`.
+All 14 expected new outputs and the receipt match Git byte-for-byte. The original contract-byte
+issue was corrected with article-local attributes; frozen pilot inputs and all
+historical outputs remain preserved. GitHub identity verified as `xorca0711`.
+Results are committed and available for PR review. Future biological work requires the protein/response
+qualification in the candidate cards. TIGIT animal/source mapping remains unknown;
+no wet-lab experiments or scientific acceptance are implied.
+
+## DuPage-first target-screen follow-up — 7 November 2026
+
+Completed the owner-requested DuPage-first exploration; Zhang 2026 is optional.
+[Report and proposal](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md)
+and [four-figure portfolio](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md)
+own details. V1 exposed small-RNA-label dominance in poly-A RNA-seq. A frozen
+amendment retained v1 and qualified 9,845 coding loci, yielding 32 displayed
+candidates. Proposed routes: TIGIT–PRDM1 inducible output, CCR2 localization
+versus fitness, IGFBP4 buffering versus compensation. Literature includes
+nearest precedent and contrary findings; no novelty or target validation claimed.
+
+Three new frozen contracts/receipts preserve screen v1, annotation v2 and four
+figures (PNG/PDF/SVG). Independent arithmetic/annotation checks and plotted-value
+checks passed; all four figures visually inspected. Final repository validation
+passed (17,058 checks and research gate against refreshed main); details are in
+the [validation note](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_VALIDATION.md).
+Next: qualify candidate protein/output under common activation, then specify
+the selected functional perturbation, biological units and feasible precision.
+No new RQ/claim grade, independent replication, paid compute, wet-lab work or
+external setting change. Local scoped commits only; original frozen evidence
+and unrelated work preserved. Refreshed main remains `dcee4b6`.
+
+## DuPage S0–S6 complete within qualified scope — 7 November 2026
+
+One technical chat completed all stage dispositions on the isolated branch
+`codex/dupage-stepwise-plan-20261107`; the old root checkout is untouched.
+[Current report](Research%20Article/gate3_09_dupage_2015/RESULTS.md),
+[ledger](Research%20Article/gate3_09_dupage_2015/STAGE_STATUS.md) and
+[validation](Research%20Article/gate3_09_dupage_2015/VALIDATION.md) own details.
+S0–S3 ran under four frozen contracts; receipts, arithmetic, PCA/mapping and
+figures were checked. S4 was not informative beyond the published broad
+loss/gain comparison; S5–S6 completed endpoint/next-question synthesis.
+
+11 retained libraries, 11,614 eligible loci. Low/high genotype RMS ratio 1.087
+but 0.812–1.235 under library omission. External chromatin mapping covers 1,180
+loci, interaction rho 0.162 (single-gene domains 0.149). Mixed results retained.
+Arvey inputs recovered; 2015 supplement/exact Foxp3 sets, mouse/pool identities
+and raw functional data remain unresolved. No count/population inference.
+
+Next scientific decision: develop a common-activation HET/KO comparison to
+separate regulation within viable lineage-labelled cells from Foxp3 loss and
+selective death. Target, precision and laboratory feasibility remain unknown;
+this is a proposal, not an accepted RQ. Canonical questions/grades/frozen assets
+and Niethamer/D1 gate preserved. Local commits only; no push/PR/merge, external
+message, paid compute or wet-lab work. External settings unchanged/unaudited.
+Final validation passed against refreshed unchanged main dcee4b6: 17,000
+repository checks; 167 tests OK (2 skipped); compilation and provenance gate.
+Sandbox test-temp failures were resolved with checkout-local scratch space.
+
+## Historical DuPage S0 checkpoint — 7 November 2026
+
+S0 executed under its frozen contract and passed receipt/source arithmetic checks.
+[Current stage ledger](Research%20Article/gate3_09_dupage_2015/STAGE_STATUS.md) and
+[S0 result](Research%20Article/gate3_09_dupage_2015/S0_RESULT.md) own details.
+23,102 unique gene-labelled spans match across all 12 libraries; 22,997 are OK
+in the 11 retained libraries. ENA links 24 runs to 12 libraries; mouse/pool and
+pairing identities remain unknown. Descriptive FPKM is eligible; count/population
+inference is held. Article XML recovered exact supplement names, but downloads
+remain challenged/forbidden; no claim of source-wide absence. Next: frozen S1
+adapted reconstruction, then result-guided S2–S6 in this single technical chat.
+The temporary separate-chat interpretation was superseded by the owner's latest
+instruction. No push, external settings change, claim promotion or wet-lab work.
+
+## Historical DuPage execution authorization — 7 November 2026
+
+The owner requested a separate technical chat in Ravel to launch every planned
+Dp1 step, explain progress during execution, and report/adopt justified
+between-step adjustments based on actual results. This supersedes the earlier
+planning-only scope. It authorizes sequential source qualification, eligible
+reproduction/descriptive analyses, qualified inferential or external comparisons,
+functional-evidence synthesis and final question development under the existing
+AGENTS and contract/runner rules. Conditional steps must receive an evidence-based
+execution/hold/not-informative disposition, not forced unsupported analyses.
+Necessary local commits of scoped plans, frozen contracts, code and results are
+part of compliant execution; push, PR, merge, external messages, wet-lab work,
+paid compute and scientific acceptance are not included.
+
+The technical chat will use the existing isolated DuPage worktree and own its
+execution files and PROGRESS updates. The originating chat monitors and explains
+stage results and adjustments. It does not run a competing analysis. Preserve
+the original plan and all outcomes; substantive changes use prospective versioned
+amendments and explicit exposure records.
+
+## Historical DuPage reading review and plan — 7 November 2026
+
+Owner reading is complete. The [Dp1 package](Research%20Article/gate3_09_dupage_2015/README.md)
+connects the annotated published paper, private reading notes, verified GSE58998
+file structure and bounded current literature to a seven-step biological plan.
+The source has 12 libraries but 11 retained samples (2/3/3/3); merged FPKM is
+four condition estimates, and the archive contains per-library FPKM, not counts.
+The plan distinguishes state-associated regulation, chromatin consistency,
+identity retention, survival and functional tissue control. Dp1-P01 is article-local;
+all 33 canonical questions, frozen evidence and the Niethamer/D1 gate are preserved.
+
+Work is isolated on `codex/dupage-stepwise-plan-20261107` from fetched main
+`dcee4b63e11abd27fe2bbc679993b288e913565e`; root-checkout edits are untouched.
+No numerical analysis or Notion write was performed. The separate 2015 supplement
+was not recovered through the attempted publisher/archive routes. Next: qualify
+sample/pool/pairing and feature identities under Dp1-S0, then choose descriptive
+FPKM reconstruction or a separately qualified count-based route. Exact external
+chromatin references and raw functional data remain dependent-stage holds.
+Validation passed: 16,906 repository checks; 167 tests completed (two skipped);
+Python compilation, claim/archive verifiers and the research provenance gate
+against refreshed unchanged main `dcee4b6`. Fifteen missing hash-locked published
+outputs were restored (16 verified); fourteen historical files needed exact HEAD
+bytes restored after newline-only checkout drift. They have no content diff;
+Git may still report stat/line-ending dirtiness under `core.autocrlf=true`.
+All canonical question/guide/contract/receipt records, existing article candidates
+and roadmap gate rules are unchanged. Only Dp1-P01 and paper-9 navigation/status
+were added or updated. Work remains local and uncommitted; no push or PR was made.
+External branch-protection settings and scientific acceptance were not changed
+or audited.
+
 ## Topic navigation and architecture review — 4 November 2026
 
 Applied the owner's overlapping-topic navigation across all 33 RQs and 18 paper

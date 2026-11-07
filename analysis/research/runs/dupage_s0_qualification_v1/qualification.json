@@ -1,0 +1,48 @@
+{
+  "scope": "metadata and feature qualification; no expression contrast or population inference",
+  "libraries": 12,
+  "retained_libraries": 11,
+  "sra_runs": 24,
+  "retained_groups": {
+    "HET_hi": 2,
+    "HET_lo": 3,
+    "KO_hi": 3,
+    "KO_lo": 3
+  },
+  "excluded_gsm": "GSM1423627",
+  "unique_reference_locus_union_retained": 23102,
+  "common_reference_loci_11": 23102,
+  "common_reference_loci_12": 23102,
+  "common_reference_loci_11_all_status_ok": 22997,
+  "merged_rows": 23235,
+  "merged_unique_tracking": 23235,
+  "merged_exact_symbol_locus_crosswalk": 19526,
+  "merged_status_counts": {
+    "Het_hi": {
+      "OK": 23233,
+      "FAIL": 2
+    },
+    "Het_lo": {
+      "OK": 23234,
+      "FAIL": 1
+    },
+    "KO_hi": {
+      "OK": 23234,
+      "HIDATA": 1
+    },
+    "KO_lo": {
+      "OK": 23235
+    }
+  },
+  "ena_total_fastq_bytes": 16551370115,
+  "route": "Descriptive FPKM on unique gene-labelled genomic spans shared across retained libraries; merged estimates separately labelled",
+  "feature_limit": "Exact gene label and mm10 span compatibility; transcript/exon equivalence and annotation release are not established. No symbol-only merging or transcript FPKM summation.",
+  "unit_limit": "Source calls preparations biological samples; individual mice/pools, cross-state pairing and batch remain unknown. GSM, BioSample and SRR are not independent animals.",
+  "count_model": "held: no count matrix, per-transcript abundance import semantics or independently verified biological units",
+  "source_hashes": {
+    "GSE58998_RAW.tar": "87eb8b660d7b83c501040c984db62b9501acbe24c8fb7d9f91a531835fa78e6f",
+    "GSE58998_family.soft": "b667cc7b64e7161be6edfc9ff6005811e8cc011b37474113a7638cbfc6fa4ece",
+    "GSE58998_FPKM_all_samples_merged.txt.gz": "b5ef0d73b19e21c2cee6c89d306e6d99affc8d4e48b5c0ba8205c1151fa8aa51",
+    "ena_runs.tsv": "5500ef7dc8e74c29fa82ddad34958346d7851a0b87715a0159b75450dba67973"
+  }
+}
