@@ -8,8 +8,8 @@ in the retained version-1 plan. No scientific acceptance is inferred.
 |---|---|---|
 | S0 source qualification | Executed; independently checked | [S0 result](S0_RESULT.md); 23,102 common loci, 22,997 all-OK, 24 runs / 12 libraries |
 | S1 reconstruction | Executed; independently checked | [S1 result](S1_RESULT.md); low/high RMS ratio 1.087, KO/low spread |
-| S2 state dependence | Frozen; ready to execute | [Contract](contracts/Dp1.S2.state_contrast_v1.json); direct interaction plus fixed sensitivities |
-| S3 regulation | Not executed | Reference memberships require qualification |
+| S2 state dependence | Executed; checked; mixed | [S2 result](S2_RESULT.md); omission RMS ratio 0.812–1.235 |
+| S3 regulation | Frozen adapted branch; exact replay held | [AM01](ANALYSIS_AMENDMENT_V2.md); qualified Arvey signal and mm9 annotation |
 | S4 later-study discriminator | Not executed | Conditional on an informative unresolved S3 comparison |
 | S5 functional bridge | Not executed | Published evidence map remains eligible |
 | S6 next question | Not executed | Synthesize completed stages and dependent holds |
