@@ -1,5 +1,18 @@
 # Target-screen and portfolio validation
 
+## Cross-platform preservation correction — PR #167
+
+The first Linux CI run passed repository validation but failed the research gate:
+Git had normalized three new contract files from CRLF to LF. Their working-copy
+bytes still matched the frozen receipt hashes. Exact-path `.gitattributes`
+entries now preserve those original CRLF bytes in Git on every platform. JSON
+content, execution receipts, scripts and numerical outputs are unchanged; the
+gate remains strict. Historical freeze commits are not rewritten. This is a
+byte-preservation correction, not a rerun or a claim that the initial CI passed.
+The PR's later CI run supplies the cross-platform verification.
+
+## Original local checks
+
 7 November 2026, isolated `codex/dupage-stepwise-plan-20261107` checkout.
 Integration base fetched again: `dcee4b63e11abd27fe2bbc679993b288e913565e`, unchanged.
 
