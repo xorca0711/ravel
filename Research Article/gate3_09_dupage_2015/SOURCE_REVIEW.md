@@ -141,3 +141,12 @@ inspected file headers and literature results. This is exposed reproduction /
 exploratory planning. A later freeze cannot make it confirmatory. Next: execute
 the bounded source/feature qualification specified in [Dp1-S0](ANALYSIS_PLAN.md#dp1-s0--qualify-the-observation-before-fitting-a-model)
 under its own contract, then choose the permitted descriptive or inferential route.
+
+
+## Execution-era source update
+
+The review above records initial planning access. [S0](S0_RESULT.md) adds the
+ENA run crosswalk and article XML; [S3](S3_RESULT.md) records recovered Arvey
+sources and annotation. The separate 2015 supplement remains unrecovered.
+Current results are in [RESULTS](RESULTS.md); originals/private material were
+preserved.

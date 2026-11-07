@@ -25,7 +25,7 @@ No correction/retraction notice was encountered in the inspected publication
 records and the bounded DuPage correction search. This is not a complete
 publisher/version audit, particularly given the access restrictions.
 
-## Repository observation
+## Repository observation at planning
 
 The [source review](SOURCE_REVIEW.md) verifies GSE58998's 12 deposited libraries,
 the excluded HET/high library and four-condition merged FPKM structure. These
@@ -47,7 +47,7 @@ associated, induction-associated and unexplained changes. Any more ambitious
 addition must address an unresolved comparison beyond the closest published
 experiment; renaming the published mechanism is not an increment.
 
-## Current hypothesis and rival
+## Initial hypothesis and rival
 
 Ezh2 loss may preferentially disrupt repression in activated Foxp3-positive Tregs.
 Heterogeneous activation, survival and selection into the sorted gate can also
@@ -71,7 +71,7 @@ separates published links, proposed connections and the selection/survival
 alternative. It contains no measured counts. A canonical registered illustration
 is not created for this article-local planning candidate.
 
-## Next literature check
+## Initial literature search record
 
 Actual searches used live web search on 7 November 2026, without author/lab
 restriction. Coverage: foundational work plus a recent 2024-2026 window, using
@@ -102,3 +102,43 @@ the exact older reference data and 2015 supplement. Before S4, audit the actual
 2024/2026 assay/sample manifests and the relevant full supplemental comparisons.
 Reopen literature review if a numerical result, chosen gene class or intended
 functional claim changes the comparison. Do not infer novelty from search gaps.
+
+
+## Execution update — 7 November 2026
+
+[Current synthesis](RESULTS.md), [S3](S3_RESULT.md) and [AM01](ANALYSIS_AMENDMENT_V2.md)
+supersede the initial no-result/reference-access status above. The initial
+hypothesis is preserved, not rewritten as if outcomes were unexposed.
+
+S0–S2 supply compatible per-library FPKM and a mixed, sample-sensitive state
+interaction. S3 finds weak positive external chromatin consistency in 1,180
+mapped loci (rho 0.162; single-gene-domain sensitivity 0.149). Most RNA loci are
+uncovered; HET-defined classes share terms with the interaction. The contribution
+is adapted shared-source reconstruction, not independent replication or novelty.
+
+New completed primary reads: DuPage full XML (Figures 4/5/7 and main-text S7
+account); Arvey full XML, Figures 5–6/online methods, publisher Table 6 structure;
+GSE55753/55773 metadata and sequencing README. Exact source URLs, versions,
+normalization, mapping and hashes are in S0/S3 and their contracts. Arvey
+sequencing is GSE55773; GSE55705 is microarray. The H3K27me3 table is already
+log2(RPKM+0.3), quantile normalized. Pinned UCSC mm9 RefGene is a 2020 dump,
+not the original authors' gene mapping. No cross-build coordinate join was used.
+The separate 2015 supplement and exact Foxp3 reference selections remain held.
+
+Live web checks used `"ni.2868" "MOESM7"`, `"NIHMS574501" "xls"`,
+`site.genome.ucsc.edu refGene txStart txEnd zero based half open name2`,
+`"Hyperactivating EZH2" "S7H"`, and `site.jci.org/articles/view/196022 "KDM6B"`.
+These were targeted source/method/precedent checks, not a second systematic scan.
+The initial same-day broader 2024–2026 search remains valid for unchanged premises.
+The [2024 primary Results passage](https://pmc.ncbi.nlm.nih.gov/articles/PMC12052300/)
+describing S7H and [2026 primary Results](https://www.jci.org/articles/view/196022)
+were rechecked; their full supplements and numerical assay manifests were not
+audited. S4 would repeat a broad published comparison without a specific new
+discriminator, so no external numerical execution is claimed or required.
+
+The unresolved contrast is regulation within viable lineage-labelled Tregs
+versus altered population survival/selection. A future common-exposure HET/KO
+comparison needs direct regulatory, lineage-retention and viability readouts;
+function/trafficking need separate assays if claimed. This is a proposed
+model-discrimination question, not an accepted RQ or experiment-ready design.
+Target, effect margin, sample-size basis and laboratory feasibility are unknown.

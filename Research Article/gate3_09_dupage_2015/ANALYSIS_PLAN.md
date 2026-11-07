@@ -1,6 +1,8 @@
 # Dp1-P01: stepwise analysis and biological aims
 
-Version 1, 7 November 2026. **Proposed plan; no numerical step executed.**
+Version 1, 7 November 2026. **Original prospective planning record, retained.**
+Current execution is in [RESULTS](RESULTS.md), [ledger](STAGE_STATUS.md) and
+[AM01](ANALYSIS_AMENDMENT_V2.md). Planning-only statements below are historical.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

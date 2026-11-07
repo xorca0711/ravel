@@ -6,91 +6,85 @@ How does Ezh2 help activated regulatory T cells retain their transcriptional
 identity, and which part of that regulation can explain their subsequent loss
 from inflamed tissues?
 
-**7 November 2026: owner reading complete; annotated paper, private notes and
-deposited-file structure reviewed; analysis planned, not executed.** Stable
-paper ID **9**, Gate **3B**. **Dp1-P01** is an article-local planning candidate,
-not a new canonical A question or an accepted mechanism.
+**7 November 2026: S0–S6 disposition complete.** S0–S3 were executed within
+qualified descriptive scope; S4 was not informative for another numerical run;
+S5–S6 completed the functional evidence map and next-question synthesis.
+**Dp1-P01** remains article-local, paper **9**, Gate **3B**. No canonical RQ,
+claim grade or human scientific decision was created or promoted.
 
-[Stepwise plan and aims](ANALYSIS_PLAN.md) · [Paper, notes and data review](SOURCE_REVIEW.md) ·
-[Current primary-literature context](LITERATURE_CONTEXT.md) ·
-[Published article](https://doi.org/10.1016/j.immuni.2015.01.007) ·
-[GSE58998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58998)
+[Current results and S4–S6](RESULTS.md) · [Stage ledger](STAGE_STATUS.md) ·
+[Original plan](ANALYSIS_PLAN.md) · [Prospective amendment](ANALYSIS_AMENDMENT_V2.md) ·
+[Source review](SOURCE_REVIEW.md) · [Literature context](LITERATURE_CONTEXT.md) ·
+[Validation](VALIDATION.md)
+
+## What the screening changed
+
+| Stage | Result or disposition | Consequence |
+|---|---|---|
+| [S0](S0_RESULT.md) | 23,102 compatible loci; 22,997 all-OK; 12 libraries / 24 runs; 11 libraries retained | Descriptive FPKM eligible; count/population inference held |
+| [S1](S1_RESULT.md) | 11,614 eligible loci; low/high KO–HET RMS ratio 1.087; KO/low library spread | Published direction modestly supported; direct interaction needed |
+| [S2](S2_RESULT.md) | Ratio 0.812–1.235 after library omission; 59.0% of interaction signs stable | Broad activation specificity remains mixed and sample-sensitive |
+| [S3](S3_RESULT.md) | Weak chromatin association, rho 0.162 across 1,180 mapped loci; 0.149 in single-gene-domain sensitivity | Covered-subset consistency, not direct targets or mediation |
+| [S4](RESULTS.md#s4--later-study-comparison-reviewed-not-informative-to-execute) | No specific new discriminator beyond published broad loss/gain comparison | No additional numerical dataset imported |
+| [S5](RESULTS.md#s5--functional-bridge-evidence-map-completed-raw-reanalysis-held) | Published identity and survival evidence coexist; trafficking unresolved | Distinct phenotype endpoints retained; raw-data analysis held |
+| [S6](RESULTS.md#s6--defensible-next-scientific-decision) | Bounded reconstruction; no validated target or new mechanism | Proposed next comparison separates within-viable-cell regulation from cell loss |
+
+RNA differences compare conditional **KO versus HET**, not ordinary WT.
+CD62L states are observed after perturbation, and profiled cells remain
+Foxp3-positive. This is shared-source exposed reconstruction, not independent
+replication. Sign counts and omission ranges are not tests or confidence intervals.
 
 ## Literature context & visual hypothesis
 
-The paper connects several experiments; it does not follow all links in one
-sequenced population. The organizing sequence below preserves that distinction.
-
 ```mermaid
 flowchart TD
-  A[CD28 co-stimulation] -->|Published Figure 1| B[Ezh2 induction]
-  B -->|Published perturbation and RNA evidence| C[Activation-associated transcriptional regulation]
-  C -.->|Mechanism to qualify: external chromatin evidence| D[Foxp3-associated repression at particular loci]
-  C -.->|Proposed connection across assays| E[Retention of Foxp3 expression and surviving Treg cells]
-  E -.->|Proposed mediation; Figure 7 shows disease phenotype| F[Control of tissue inflammation]
-  G[Selection, apoptosis and heterogeneous activation states] -.-> C
+  A[CD28 co-stimulation] -->|Published Figure 1, not tested here| B[Ezh2 induction]
+  B -->|Published perturbation; mixed descriptive RNA support| C[Activation-associated regulation]
+  C -.->|Weak external chromatin consistency; exact Foxp3 sets held| D[Foxp3-associated programme]
+  D -.->|RNA-to-phenotype link remains proposed| E[Foxp3 retention and viable Treg survival]
+  E -.->|Mediation unresolved; published EAE phenotype| F[Inflammatory control]
+  G[Selection and heterogeneous activation] -.-> C
   G -.-> E
 ```
 
-This is a qualitative reasoning map, not a measured trajectory or a completed
-causal chain. Figures 4-5 directly support instability after perturbation;
-the arrows connecting the RNA observations to fate and clinical remission remain
-to be resolved. Ezh2-deficient-cell H3K27me3 was not profiled in GSE58998.
+This qualitative map does not assert temporal mediation. Arvey chromatin used
+a different activation context and mm9 loci. No matched DuPage KO chromatin was
+measured. The 2024 EZH2 gain-of-function and 2026 KDM6B papers constrain
+generalization; see [literature context](LITERATURE_CONTEXT.md).
 
-## What the review changed
+## Measured figures
 
-- The appropriate starting comparison is **Ezh2 KO versus HET within CD62L-low
-  and CD62L-high Tregs**, then the genotype-by-state difference. HET is not WT;
-  these sorted populations are not longitudinal samples of the same cells.
-- GEO has 12 libraries, but the published analysis excludes HET/CD62L-high
-  replicate 3 for low read depth: the retained design is **2/3/3/3**.
-- The merged FPKM file has four condition estimates. The `RAW.tar` contains
-  per-library FPKM files, not read counts or FASTQ. Source reconstruction and a
-  modern count-based interaction analysis therefore require different inputs.
-- The RNA samples are Foxp3-positive Tregs from healthy mosaic females. They
-  inform dysregulation among retained Tregs, not the transcriptomes or transition
-  rates of cells that already lost Foxp3.
-- The 2024 gain-of-function study already compared EZH2 gain and loss, and the
-  2026 KDM6B study supplies an important counterweight to a simple global
-  methylation model. These change the next comparison; they are not a reason to
-  generate an open-ended set of scores. See the [context](LITERATURE_CONTEXT.md).
+![S1 reconstruction](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.png)
 
-No new biological result has been produced in this review. The older
-Niethamer/D1 external-lung Treg gate remains unmet. It is distinct from qualifying
-the already sorted Treg source data in this paper.
+[S1 PDF](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.pdf) · [Tables/methods/receipt](S1_RESULT.md)
+
+![S2 sensitivity](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.png)
+
+[S2 PDF](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.pdf) · [Tables/methods/receipt](S2_RESULT.md)
+
+![S3 chromatin context](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.png)
+
+[S3 PDF](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.pdf) · [Mappings/methods/receipt](S3_RESULT.md)
 
 ## Next biological decision
 
-First establish whether the deposited expression features and biological-sample
-identities support a faithful reconstruction. Then ask whether the genotype
-difference is concentrated in the activated state and in an externally defined
-repression programme. Only an informative result justifies the conditional
-chromatin, reciprocal-perturbation or tissue follow-up.
+The proposed next question is whether regulatory changes appear **within viable
+lineage-labelled HET/KO Tregs under a common activation exposure before changes
+in Foxp3 retention or selective cell loss**. Direct chromatin/RNA, viable absolute
+numbers, lineage-marker retention, division and death address distinct parts of
+that question. Function and trafficking require their own endpoints if claimed.
+No target, effect margin, sample-size basis or laboratory readiness is established;
+see [S6](RESULTS.md#s6--defensible-next-scientific-decision).
 
-| Step | Aim | Immediate disposition |
-|---|---|---|
-| Dp1-S0 | Establish what each sample/file can measure | Next: source and feature-identity qualification |
-| Dp1-S1 | Reconstruct the published activation-associated RNA pattern | Planned descriptive source reanalysis |
-| Dp1-S2 | Estimate whether the KO-HET difference changes with CD62L state | Conditional on suitable inputs and biological units |
-| Dp1-S3 | Distinguish repression-associated changes from other state changes | Conditional on S1/S2 and exact external reference sets |
-| Dp1-S4 | Test whether a specific unresolved pattern generalizes across perturbations | Optional, literature-bounded comparison |
-| Dp1-S5 | Separate identity loss, survival, migration and inflammatory control | Published-evidence synthesis; new inference needs matching assays |
-| Dp1-S6 | Turn the findings into one justified next question or explicit stop | Synthesis after every completed step; final decision here |
+The original Niethamer/D1 lung-Treg gate remains separate and unmet. A30's paired
+human compartment RNA comparison and all other canonical questions are unchanged.
 
-The [full plan](ANALYSIS_PLAN.md) states the endpoint, unit, alternative,
-informative outcomes and stop condition for each step. Its stages are a
-decision sequence, not an instruction to execute every stage regardless of results.
+## Execution history
 
-## Repository relationship and execution history
-
-The current registry contains 33 canonical questions and no pre-existing DuPage
-candidate, contract, receipt or result. A30 studies paired human CSF/blood RNA
-associations; it does not own this murine Ezh2 perturbation. Other epithelial,
-myeloid and lymphocyte questions remain unchanged. Similar words such as
-"identity" or "resolution" do not make their evidence interchangeable.
-
-This package follows the [4 November decision workflow](../../docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development).
-Planning is authorized by the owner's 7 November request. Numerical execution
-still requires a completed, frozen versioned contract, qualified inputs and the
-[research runner](../../docs/RESEARCH_GOVERNANCE.md). No scientific acceptance,
-experimental readiness, gate reopening or new execution is asserted.
+Execution authorization superseded the planning-only scope, with all stages
+ultimately kept in one technical chat. Four frozen contracts, immutable receipts,
+independent arithmetic/mapping checks and retained unfavorable results document
+the work. [AM01](ANALYSIS_AMENDMENT_V2.md) records the prospective adapted S3
+mapping. Original plans remain readable; public raw inputs are ignored and
+private reading material was not tracked. Local commits only; no push, PR,
+external message or wet-lab execution.

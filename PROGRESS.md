@@ -3,7 +3,34 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## DuPage S0 checkpoint — 7 November 2026
+## DuPage S0–S6 complete within qualified scope — 7 November 2026
+
+One technical chat completed all stage dispositions on the isolated branch
+`codex/dupage-stepwise-plan-20261107`; the old root checkout is untouched.
+[Current report](Research%20Article/gate3_09_dupage_2015/RESULTS.md),
+[ledger](Research%20Article/gate3_09_dupage_2015/STAGE_STATUS.md) and
+[validation](Research%20Article/gate3_09_dupage_2015/VALIDATION.md) own details.
+S0–S3 ran under four frozen contracts; receipts, arithmetic, PCA/mapping and
+figures were checked. S4 was not informative beyond the published broad
+loss/gain comparison; S5–S6 completed endpoint/next-question synthesis.
+
+11 retained libraries, 11,614 eligible loci. Low/high genotype RMS ratio 1.087
+but 0.812–1.235 under library omission. External chromatin mapping covers 1,180
+loci, interaction rho 0.162 (single-gene domains 0.149). Mixed results retained.
+Arvey inputs recovered; 2015 supplement/exact Foxp3 sets, mouse/pool identities
+and raw functional data remain unresolved. No count/population inference.
+
+Next scientific decision: develop a common-activation HET/KO comparison to
+separate regulation within viable lineage-labelled cells from Foxp3 loss and
+selective death. Target, precision and laboratory feasibility remain unknown;
+this is a proposal, not an accepted RQ. Canonical questions/grades/frozen assets
+and Niethamer/D1 gate preserved. Local commits only; no push/PR/merge, external
+message, paid compute or wet-lab work. External settings unchanged/unaudited.
+Final validation passed against refreshed unchanged main dcee4b6: 17,000
+repository checks; 167 tests OK (2 skipped); compilation and provenance gate.
+Sandbox test-temp failures were resolved with checkout-local scratch space.
+
+## Historical DuPage S0 checkpoint — 7 November 2026
 
 S0 executed under its frozen contract and passed receipt/source arithmetic checks.
 [Current stage ledger](Research%20Article/gate3_09_dupage_2015/STAGE_STATUS.md) and
@@ -17,7 +44,7 @@ adapted reconstruction, then result-guided S2–S6 in this single technical chat
 The temporary separate-chat interpretation was superseded by the owner's latest
 instruction. No push, external settings change, claim promotion or wet-lab work.
 
-## DuPage sequential execution authorized — 7 November 2026
+## Historical DuPage execution authorization — 7 November 2026
 
 The owner requested a separate technical chat in Ravel to launch every planned
 Dp1 step, explain progress during execution, and report/adopt justified
@@ -37,7 +64,7 @@ stage results and adjustments. It does not run a competing analysis. Preserve
 the original plan and all outcomes; substantive changes use prospective versioned
 amendments and explicit exposure records.
 
-## DuPage 2015 reading review and stepwise plan — 7 November 2026
+## Historical DuPage reading review and plan — 7 November 2026
 
 Owner reading is complete. The [Dp1 package](Research%20Article/gate3_09_dupage_2015/README.md)
 connects the annotated published paper, private reading notes, verified GSE58998
