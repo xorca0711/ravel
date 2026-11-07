@@ -1,12 +1,12 @@
 # Public-data use: additions and reconciliation, 7 November 2026
 
 Companion to the [central dataset inventory](DATASETS.md), based on merged main
-`dcee4b63e11abd27fe2bbc679993b288e913565e`. This fills omissions in the September
+`32ab85e87bee788e62bec4e1b7ce5bad6df84d30`. This fills omissions in the September
 list and distinguishes actual numerical use from metadata qualification. Source
 links establish deposit identity; linked repository reports establish use. This
 review does not refresh remote availability, rerun analyses or change eligibility.
 
-The [complete accession-reference census](audits/2026-11-07-public-data-inventory/snapshot_v1/accession_references.csv)
+The [complete accession-reference census](audits/2026-11-07-public-data-inventory/snapshot_v2/accession_references.csv)
 also retains search leads, parent/child aliases and metadata-only records. It is
 not a list of independent cohorts. Exact versions, hashes, transformations and
 units remain in the owning contracts/manifests/results. One source reused by
@@ -34,6 +34,9 @@ several questions is not several replications.
 | [GSE302685](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302685), [GSE302687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302687), [GSE329778](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329778) | Arz1 seven epithelial multiome libraries: RNA/QC and bounded chromatin descriptions | [Current results](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md), [qualification](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md); article/GEO Multiome 1/2 names disagree, inferred donors are not validated animals, peak sets differ |
 | [GSE347791](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347791), [ImmGenT Zenodo 21839963](https://zenodo.org/records/21839963) | A27 processed receptor/annotation joins and operational-key concentration by nominal source code | [Result and corrected join](../RQ_Specified/A27_cd8_repertoire_state_redistribution/reports/SOURCE_CODE_CONCENTRATION_V1_RESULTS.md); nine source mice, receptor-independent state construction unproven, no age-effect inference |
 | [GSE150068](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150068), [GSE150247](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150247) | A12 sorted ERBB-reference expression description | [Results](../RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md); reference context, not the paired human precursor contrast |
+| [GSE58998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58998) / PRJNA254138 | DuPage S0–S3 reconstruction and exploratory target screen | [Stage synthesis](../Research%20Article/gate3_09_dupage_2015/RESULTS.md), [screen](../Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md); deposited FPKM, twelve libraries/eleven retained, HET versus KO in CD62L strata; unknown mouse/pool/pairing, no raw-count or population inference |
+| [GSE55773](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55773), parent GSE55753 | DuPage adapted Arvey chromatin-table comparison | [S3 result](../Research%20Article/gate3_09_dupage_2015/S3_RESULT.md), [amendment](../Research%20Article/gate3_09_dupage_2015/ANALYSIS_AMENDMENT_V2.md); pinned within-mm9 annotation, partial coverage and cross-study association. GSE55705 is the microarray companion, not this chromatin assay |
+| [GSE262130](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262130) | Executed DuPage candidate follow-up using Peeters' author-selected rlog matrix | [Current result](../Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md), [source qualification](../Research%20Article/gate3_09_dupage_2015/candidates/SOURCE_QUALIFICATION.md); twelve libraries and seven fixed genes/anchors. Mean-rlog differences are not log2 fold changes or comparable effect sizes to DuPage FPKM; no independent-validation claim |
 
 ## Qualified or inspected sources without an admitted biological contrast
 
@@ -47,7 +50,7 @@ several questions is not several replications.
 | GSE302684; GSE329696; GSE329965 | Arz1 bulk-ATAC listing, bulk-RNA and immune-scRNA schema qualification. [Report](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md); merged tracks cannot supply sample variance, Salmon estimates are fractional, immune cohort is separate from epithelial multiome |
 | GSE145230/GSE145231; GSE188288 | Yd1 neutrophil source records, assay and sample joins. [Checkpoint C](../Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_C_RESULTS.md); no donor-independent numerical biological comparison admitted |
 | GSE110465; GSE115085; GSE115502; GSE115505; GSE151015 | DY1-P02 temporal source audit. [Source review](../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md); no qualified matched temporal RNA-ATAC panel |
-| GSE169125; GSE304587/E-MTAB-13526; GSE306194/GSE306714 | A2, A12 and A8 source qualification respectively; exact registered analysis IDs/receipts in the [census](audits/2026-11-07-public-data-inventory/snapshot_v1/accession_references.csv). A metadata input is not a newly executed expression contrast |
+| GSE169125; GSE304587/E-MTAB-13526; GSE306194/GSE306714 | A2, A12 and A8 source qualification respectively; exact registered analysis IDs/receipts in the [census](audits/2026-11-07-public-data-inventory/snapshot_v2/accession_references.csv). A metadata input is not a newly executed expression contrast |
 | GSE67602 | A0 skin fallback feasibility only; [original feasibility report](../RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_REPORT.md), superseded for broader A0 execution by its later reports |
 
 ## Resources that are not additional cohorts
@@ -65,11 +68,17 @@ also qualifies an official S3 brain object and full/raw atlas metadata. Its
 count-valued brain layer is distinct from the earlier normalized Figshare
 objects; the source release and layer must travel with any reuse.
 
-## Newer local work awaiting integration
+## Integration and remaining source leads
 
-DuPage's 7 November branch records numerical use of **GSE58998** (processed
-FPKM, HET versus KO in selected CD62L strata) and **GSE55773** (Arvey chromatin
-table). GSE55753 is the umbrella and GSE55705 the microarray companion.
-GSE262130/GSE262129/GSE291449 remain future leads. The [audit branch record](audits/2026-11-07-public-data-inventory/README.md#newer-local-work)
-pins the inspected revision and reports. These are visible local research, not
-silently added to the main-based receipt census. No branch was merged by this audit.
+[PR #167](https://github.com/xorca0711/ravel/pull/167) merged on 7 November at
+`32ab85e`. DuPage's GSE58998/GSE55773 use and later GSE262130 follow-up are now
+included above and in the refreshed receipt census. The preserved initial
+snapshot described the earlier local branch correctly at its scan time; it is
+superseded for current integration/use status by this update.
+
+GSE262129 and GSE291449 remain later-study leads, not executed inputs in this
+follow-up. The TIGIT study's stated E-MTAB-8861 conflicts with the recovered
+metadata; its single-cell data were not used. E-MTAB-6156 and GSE79339/GSE121838
+are cited reuse/source leads, not new independent validation cohorts. See the
+[qualified candidate sources](../Research%20Article/gate3_09_dupage_2015/candidates/SOURCE_QUALIFICATION.md)
+and [reconciliation record](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).

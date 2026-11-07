@@ -1,8 +1,8 @@
 # Repository structure and label scope
 
-**Current scope — 3 November 2026:** 33 canonical questions (A0–A32) and 37 retained article-local candidates. A32 develops Yd1-P02; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
+**Current scope — 7 November 2026:** 33 canonical questions (A0–A32) and 38 retained article-local candidates. A32 develops Yd1-P02; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
 
-Navigation and label scope reconciled 2 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
+Navigation and label scope reconciled 7 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
 protocols, original trial names and immutable run records remain historical evidence.
 
@@ -28,7 +28,7 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 33 questions; the registry locates their evidence and the 37 retained article-local candidates; their IDs do not automatically become canonical RQs.
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 33 questions; the registry locates their evidence and the 38 retained article-local candidates; their IDs do not automatically become canonical RQs.
 
 The question README is the reader's current scientific entrypoint: biological
 purpose, published premise, performed comparison, actual result, changed
@@ -47,7 +47,10 @@ paper packages, the cross-study specificity module and the Primary source archiv
 These supporting directories do not create extra RQs or papers. Topic changes
 update navigation rather than moving evidence into status or theme folders.
 The [4 November architecture audit](audits/2026-11-04-topic-navigation/README.md)
-records current coverage, repaired navigation and preserved path exceptions.
+records its dated coverage, repaired navigation and preserved path exceptions.
+The [7 November reconciliation](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md)
+adds current source inventory and post-DuPage navigation checks; no evidence
+directories were moved. Dp1-P01 remains article-local, outside the A-series register.
 
 ## Identifier namespaces
 

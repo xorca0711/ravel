@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import collections
 import csv
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -52,7 +53,7 @@ def scan(repo, storage_repo, output):
             excluded["non_text_suffix"] += 1
             continue
         if ("/history/" in relative or "legacy_artifacts.json" in relative
-                or "2026-11-07-public-data-inventory/" in relative):
+                or any(part.endswith("-public-data-inventory") for part in path.parts)):
             excluded["history_baseline_or_this_audit"] += 1
             continue
         if path.stat().st_size > MAX_TEXT_BYTES:
@@ -164,6 +165,8 @@ def scan(repo, storage_repo, output):
     summary = {"started_utc": started, "finished_utc": datetime.now(timezone.utc).isoformat(),
                "repository_revision": git(repo, "rev-parse", "HEAD").strip(),
                "integration_base": git(repo, "rev-parse", "origin/main").strip(),
+               "working_tree_status_at_scan": git(repo, "status", "--porcelain=v1").splitlines(),
+               "scanner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                "tracked_paths": len(tracked), "scanned_text_files": scanned,
                "excluded_files": dict(excluded), "text_limit_bytes": MAX_TEXT_BYTES,
                "accession_count": len(refs), "accession_evidence_kinds": dict(collections.Counter(

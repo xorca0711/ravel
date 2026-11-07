@@ -1,5 +1,9 @@
 # Public-data and local deposit reconciliation
 
+**Initial snapshot v1, retained as history.** The [current v2 reconciliation](RECONCILIATION_V2.md)
+includes merged PR #167, later GSE262130 use, a fresh cache census and navigation
+cleanup. Counts and unmerged-branch statements below describe the original scan.
+
 7 November 2026 (Asia/Seoul). Documentation/storage audit of merged main
 `dcee4b63e11abd27fe2bbc679993b288e913565e`, freshly fetched from origin.
 Worktree: `X:/GitHub/ravel/.worktrees/public-data-inventory-20261107`, branch

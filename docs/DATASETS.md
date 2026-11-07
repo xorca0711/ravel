@@ -1,13 +1,13 @@
 # Dataset inventory and eligibility
 
-**Updated 7 November 2026** against main `dcee4b6`. Read the
+**Updated 7 November 2026** against main `32ab85e`. Read the
 [current additions and source-use classifications](DATASET_UPDATES_2026-11-07.md)
 together with the retained inventory below. Numerical use, metadata-only
-qualification, reference leads and newer unmerged work are distinguished.
+qualification, reference leads and merged DuPage follow-ups are distinguished.
 
-- [Audit and local storage summary](audits/2026-11-07-public-data-inventory/README.md).
-- [Accession-reference census](audits/2026-11-07-public-data-inventory/snapshot_v1/accession_references.csv): 530 GEO/ArrayExpress/BioProject identifiers in scanned tracked text, **not 530 utilized datasets**. Search leads and aliases are included.
-- [Current local directories](audits/2026-11-07-public-data-inventory/snapshot_v1/local_directories.csv) and [file inventory](audits/2026-11-07-public-data-inventory/snapshot_v1/local_files.csv), covering source/reference caches in the root and registered worktrees.
+- [Audit and local storage summary](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).
+- [Accession-reference census](audits/2026-11-07-public-data-inventory/snapshot_v2/accession_references.csv): 544 GEO/ArrayExpress/BioProject identifiers in scanned tracked text, **not 544 utilized datasets**. Search leads and aliases are included.
+- [Current local directories](audits/2026-11-07-public-data-inventory/snapshot_v2/local_directories.csv) and [file inventory](audits/2026-11-07-public-data-inventory/snapshot_v2/local_files.csv), covering source/reference caches in the root and registered worktrees.
 - The original [51-file inventory](../analysis/raw_data_inventory.txt) remains a historical two-series snapshot. Local raw caches are ignored; a fresh Git clone does not contain them.
 
 **Wp correction:** R0–R4 and selected extensions executed. The [current correction report](../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) records corrected Compass orientation and full-library human normalization. Published scVI inputs remain unrecovered; the repository's substituted Compass run is distinct from recovered author scores.

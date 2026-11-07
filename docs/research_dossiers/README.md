@@ -6,7 +6,7 @@
 
 **Historical review coverage:** the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) retain their dated scope. They are not the current 33-question inventory.
 
-**Specificity and novelty applied:** [current source comparison](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
+**Specificity and novelty applied:** [3 October source comparison](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
 **Package history (3 October 2026):** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [current project state](../../PROGRESS.md) and the owning question results for current status. The [historical remaining-work ledger](REMAINING_WORK.md) and [package ledger](packages_2026-10-03/LEDGER.md) retain their dated scope and eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
 

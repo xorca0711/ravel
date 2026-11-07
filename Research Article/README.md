@@ -9,7 +9,7 @@ the [project state](../PROGRESS.md) owns the current handoff.
 - [Studies and figure galleries](#studies-with-executed-analyses)
 - [Ungated source papers](#ungated-source-papers)
 - [Reading order and status](#order-and-status)
-- [Reading decision](#current-reading-decision-1-october-2026)
+- [Reading permissions and dated decisions](#current-reading-decision-1-october-2026)
 - [Earlier index checkpoints](INDEX_HISTORY_2026-11-02.md)
 - [3 November unfinished-work, metadata-screening and structure audit](../docs/audits/2026-11-03-article-rq-screening/README.md)
 
@@ -42,7 +42,10 @@ membership; it does not imply acceptance or waive source/analysis eligibility.
 
 ## Current reading decision, 1 October 2026
 
-Reconciled with main on 3 October 2026.
+The permissions below originate in the 1 October decision. Current paper-specific
+reading and execution status is in [Order and status](#order-and-status) and the
+owning reports. DuPage and its candidate follow-up merged in PR #167 on
+7 November; this does not change Niethamer/S1 or D1 eligibility.
 
 
 Reading and analysis now have separate readiness rules. The foundation,
@@ -52,8 +55,9 @@ Niethamer/S1 and D1 remain unrun and their data gates remain unmet.** W1 is
 animal-level pseudobulk, not Compass flux inference. A12/A13 exploratory
 results do not substitute for S1/D1 or establish a cytokine/Treg mechanism.
 
-The current queue is a comparison exercise, not a new ranking of scientific
-claims. Stable paper numbers and the historical full order remain below.
+The 1 October comparison queue below is historical, not an instruction to
+repeat completed reading or analyses. Stable paper numbers and the historical
+full order remain below; current owner reports determine what remains open.
 
 | Step | Read or review | Output that makes the next choice useful |
 |---|---|---|
@@ -149,7 +153,7 @@ explain both this archive and the cross-study specificity module.
 | 17 | 2W | Wang, Wagner et al. 2025, *Cell Reports* | [10.1016/j.celrep.2025.115799](https://doi.org/10.1016/j.celrep.2025.115799) | 40482033 | PGAM as a glycolytic reaction opposing the pathway average in Th17 cells; glucose-dependent effector programmes | [paper package](gate2_W2_wagner_Th17_PGAM/README.md) | owner read 2026-10-04; package structured the same day | R0–R4 and selected extensions executed; R2 uses substituted inputs, R5 closed without execution. [7 October corrections](gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) supersede affected Compass/human summaries. A28–A30 registered proposals; no scientific acceptance. |
 | 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | Context-dependent IL-22 signaling, transcription and measured protective/inflammatory outcomes | [Sx22 results and ledger](gate3_08_saxton_2021_il22/README.md) | abstract/introduction/discussion read; results reading not certified complete | R1/X1-X3/E1a reviewed; Q1-Q4 colon RNA description and three figures reviewed; population inference, exact replay, signaling/function and linked persistence retain specific holds; Niethamer/S1 remains separately gated |
-| 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | [Dp1 paper package](gate3_09_dupage_2015/README.md) | owner reading complete 2026-11-07; annotated PDF and notes reviewed | S0–S6 disposition complete: descriptive S0–S3, S4 not informative, S5–S6 synthesis. Mixed state dependence and weak chromatin consistency; Niethamer/D1 separately gated. |
+| 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | [Dp1 paper package](gate3_09_dupage_2015/README.md) | owner reading complete 2026-11-07; annotated PDF and notes reviewed | S0–S6 complete within stated scope; target screen and [candidate follow-up](gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md) executed. GSE262130 supplies selected rlog context, not independent validation. Protein/function and unit holds remain; Niethamer/D1 separately gated. |
 | 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
 
@@ -189,6 +193,12 @@ Sikkema trial S2 targets it.
 DOIs and PMIDs were verified against PubMed on 2026-09-09.
 
 ## Gate rules carried over from the roadmap
+
+**Historical rules from the original reading/pilot roadmap.** The later
+[reading permissions](#current-reading-decision-1-october-2026) separate open
+literature exploration from analysis eligibility. Current per-paper reports
+record authorized work; these dated rules do not restart completed pilots or
+revoke later permissions. Niethamer/S1 and D1 retain their own existing gates.
 
 - **Analysis gate.** After papers 1 to 4, write a one-page analysis contract
   and begin with deposited count matrices plus metadata, not FASTQ. The

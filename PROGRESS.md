@@ -3,7 +3,34 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Public-data inventory reconciliation — 7 November 2026
+## Source inventory publication and documentation hygiene — 7 November 2026
+
+Owner authorized updating the inventory to current main, opening a PR, and
+cleaning the root README, documentation structure, links and superseded roadmap
+routes. Main is `32ab85e` after merged PR #167; the scoped branch integrated it
+at `4d6f96c`. [Current reconciliation and artifacts](docs/audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).
+DuPage GSE58998/GSE55773 and the later executed GSE262130 comparison are now
+included. V1 remains preserved; v2 records 544 accession references and 4,197
+local cache files / 74.04 GB. Root raw_data remains 955 files / 34.52 GB.
+
+Current owner routes replace historical ledgers presented as current work.
+Collection counts are 33 RQs, 38 article-local candidates and 19 paper packages.
+The article README/roadmap agree on DuPage's follow-up; old gates/reading order,
+frozen scientific evidence and root measured figures remain preserved.
+GitHub connector and CLI identities are verified as `xorca0711`. Validation
+passed: 772 focused navigation/count/preservation checks, 17,230 repository
+checks, 167 unit tests (two skips), compilation, whitespace checks and the
+base-aware provenance gate against `32ab85e`. The gate caught a hash-bound
+`.gitignore` comment edit; the file was restored exactly and its guidance kept
+in the docs. Seven newly merged DuPage scripts also required exact Git bytes
+locally after Windows checkout line-ending conversion. No frozen input or
+validator was changed. PR publication is next; no merge is authorized.
+
+## Initial source inventory checkpoint — 7 November 2026
+
+The following paragraph records the first local delivery before PR #167 merged;
+the reconciliation above supersedes its integration and publication status.
+
 
 Updated the [central dataset list](docs/DATASETS.md) and its
 [source-use additions](docs/DATASET_UPDATES_2026-11-07.md) on isolated branch
@@ -32,7 +59,7 @@ new snapshot/reconciliation; no external setting is needed for this update.
 
 ## Biological review and executed candidate continuation — 7 November 2026
 
-[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Biological review,
+[PR #167](https://github.com/xorca0711/ravel/pull/167) merged on 7 November at `32ab85e`. Biological review,
 source qualification and three experimental question cards are committed.
 The [numerical candidate follow-up](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
 executed from frozen `8f7fa76`: all four candidate genes and three anchors were
@@ -46,7 +73,7 @@ gate and both GitHub workflows passed for the published results at `0578490`.
 All 14 expected new outputs and the receipt match Git byte-for-byte. The original contract-byte
 issue was corrected with article-local attributes; frozen pilot inputs and all
 historical outputs remain preserved. GitHub identity verified as `xorca0711`.
-Results are committed and available for PR review. Future biological work requires the protein/response
+Results are merged; the validation/revision statements above describe publication. Future biological work requires the protein/response
 qualification in the candidate cards. TIGIT animal/source mapping remains unknown;
 no wet-lab experiments or scientific acceptance are implied.
 
