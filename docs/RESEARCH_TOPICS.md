@@ -1,6 +1,6 @@
 # Biological topic navigation
 
-This is the shared topic map for all **33 RQ homes and 18 paper packages**.
+This is the shared topic map for all **33 RQ homes and 19 paper packages**.
 Tags describe the question or package scope, including proposed and unresolved
 links. They do not mean that a mechanism is established, an analysis is complete,
 or a question has priority. A question can belong to several topics while keeping
@@ -16,12 +16,12 @@ for source work. This page introduces no status ledger or execution queue.
 | Topic tag | Scope | RQs | Paper packages |
 |---|---|---|---|
 | [Epithelial states](#epithelial-states) | Epithelial state, differentiation and repair | 18 | 14 |
-| [Regulatory context](#regulatory-context) | Chromatin, regulation and exposure history | 3 | 4 |
+| [Regulatory context](#regulatory-context) | Chromatin, regulation and exposure history | 3 | 5 |
 | [Recipient signaling](#recipient-signaling) | Signals, delivery and recipient context | 12 | 9 |
 | [Myeloid context](#myeloid-context) | Myeloid states, history and inflammation | 5 | 6 |
 | [Stroma/vasculature](#stroma-vasculature) | Stroma, matrix and vascular context | 9 | 9 |
 | [Tissue ageing](#tissue-ageing) | Ageing across tissues and cell populations | 4 | 1 |
-| [Lymphocyte states](#lymphocyte-states) | Lymphocyte states, repertoires and compartments | 5 | 3 |
+| [Lymphocyte states](#lymphocyte-states) | Lymphocyte states, repertoires and compartments | 5 | 4 |
 | [Metabolism](#metabolism) | Metabolism and effector programmes | 5 | 3 |
 | [Growth/clones](#growth-clonal-dynamics) | Growth, plasticity and clonal dynamics | 4 | 2 |
 
@@ -41,7 +41,7 @@ Regulatory features, identity regulation and persistence after prior exposure; R
 
 **Question homes:** [A1](../RQ_Specified/A1_transitional_epithelial_state_distinction/README.md) · [A3](../RQ_Specified/A3_macrophage_injury_history/README.md) · [A7](../RQ_Specified/A7_cebpa_baseline_state_dependence/README.md).
 
-**Paper packages:** [Choi 2020](../Research%20Article/gate1_02_choi_2020/README.md) · [Yu/Lee/Choi 2026](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/README.md) · [Damani–Yokota 2026 / DY1 (ungated)](../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) · [Arozamena 2026 / Arz1 (ungated)](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md).
+**Paper packages:** [Choi 2020](../Research%20Article/gate1_02_choi_2020/README.md) · [Yu/Lee/Choi 2026](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/README.md) · [Damani–Yokota 2026 / DY1 (ungated)](../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) · [Arozamena 2026 / Arz1 (ungated)](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) · [DuPage 2015 / Dp1](../Research%20Article/gate3_09_dupage_2015/README.md).
 
 <a id="recipient-signaling"></a>
 ## Signals, delivery and recipient context
@@ -86,7 +86,7 @@ T-cell state, receptor repertoire, regulatory/effector distinctions and compartm
 
 **Question homes:** [A26](../RQ_Specified/A26_tissue_context_cd8_ageing/README.md) · [A27](../RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md) · [A28](../RQ_Specified/A28_th17_arm_asymmetry/README.md) · [A29](../RQ_Specified/A29_pgam_effector_mechanism/README.md) · [A30](../RQ_Specified/A30_csf_compartment_effector_state/README.md).
 
-**Paper packages:** [Tabula Muris Senis / Nb5](../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md) · [Wagner 2021 / Wg](../Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md) · [Wang/Wagner 2025 / Wp](../Research%20Article/gate2_W2_wagner_Th17_PGAM/README.md).
+**Paper packages:** [Tabula Muris Senis / Nb5](../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md) · [Wagner 2021 / Wg](../Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md) · [Wang/Wagner 2025 / Wp](../Research%20Article/gate2_W2_wagner_Th17_PGAM/README.md) · [DuPage 2015 / Dp1](../Research%20Article/gate3_09_dupage_2015/README.md).
 
 <a id="metabolism"></a>
 ## Metabolism and effector programmes

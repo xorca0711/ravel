@@ -3,6 +3,56 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## DuPage sequential execution authorized — 7 November 2026
+
+The owner requested a separate technical chat in Ravel to launch every planned
+Dp1 step, explain progress during execution, and report/adopt justified
+between-step adjustments based on actual results. This supersedes the earlier
+planning-only scope. It authorizes sequential source qualification, eligible
+reproduction/descriptive analyses, qualified inferential or external comparisons,
+functional-evidence synthesis and final question development under the existing
+AGENTS and contract/runner rules. Conditional steps must receive an evidence-based
+execution/hold/not-informative disposition, not forced unsupported analyses.
+Necessary local commits of scoped plans, frozen contracts, code and results are
+part of compliant execution; push, PR, merge, external messages, wet-lab work,
+paid compute and scientific acceptance are not included.
+
+The technical chat will use the existing isolated DuPage worktree and own its
+execution files and PROGRESS updates. The originating chat monitors and explains
+stage results and adjustments. It does not run a competing analysis. Preserve
+the original plan and all outcomes; substantive changes use prospective versioned
+amendments and explicit exposure records.
+
+## DuPage 2015 reading review and stepwise plan — 7 November 2026
+
+Owner reading is complete. The [Dp1 package](Research%20Article/gate3_09_dupage_2015/README.md)
+connects the annotated published paper, private reading notes, verified GSE58998
+file structure and bounded current literature to a seven-step biological plan.
+The source has 12 libraries but 11 retained samples (2/3/3/3); merged FPKM is
+four condition estimates, and the archive contains per-library FPKM, not counts.
+The plan distinguishes state-associated regulation, chromatin consistency,
+identity retention, survival and functional tissue control. Dp1-P01 is article-local;
+all 33 canonical questions, frozen evidence and the Niethamer/D1 gate are preserved.
+
+Work is isolated on `codex/dupage-stepwise-plan-20261107` from fetched main
+`dcee4b63e11abd27fe2bbc679993b288e913565e`; root-checkout edits are untouched.
+No numerical analysis or Notion write was performed. The separate 2015 supplement
+was not recovered through the attempted publisher/archive routes. Next: qualify
+sample/pool/pairing and feature identities under Dp1-S0, then choose descriptive
+FPKM reconstruction or a separately qualified count-based route. Exact external
+chromatin references and raw functional data remain dependent-stage holds.
+Validation passed: 16,906 repository checks; 167 tests completed (two skipped);
+Python compilation, claim/archive verifiers and the research provenance gate
+against refreshed unchanged main `dcee4b6`. Fifteen missing hash-locked published
+outputs were restored (16 verified); fourteen historical files needed exact HEAD
+bytes restored after newline-only checkout drift. They have no content diff;
+Git may still report stat/line-ending dirtiness under `core.autocrlf=true`.
+All canonical question/guide/contract/receipt records, existing article candidates
+and roadmap gate rules are unchanged. Only Dp1-P01 and paper-9 navigation/status
+were added or updated. Work remains local and uncommitted; no push or PR was made.
+External branch-protection settings and scientific acceptance were not changed
+or audited.
+
 ## Topic navigation and architecture review — 4 November 2026
 
 Applied the owner's overlapping-topic navigation across all 33 RQs and 18 paper

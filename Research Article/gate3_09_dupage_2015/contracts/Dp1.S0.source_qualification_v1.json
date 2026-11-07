@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.S0.source_qualification_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which deposited DuPage samples, expression features and biological units support the planned activation-state comparison?",
+  "decision": "Choose a per-library descriptive FPKM route, a group-only route, or a dependent hold; qualify raw-read recovery without starting reprocessing.",
+  "strongest_rival": "Incorrect source or feature identity, unknown mouse/pool nesting and sample-specific assembly identifiers can produce false contrasts or pseudoreplication.",
+  "discriminator": "Join GEO GSM-to-SRX-to-BioSample against ENA experiment/run metadata; audit exact gene label and mm10 genomic-span identity across every file without symbol-only joins. Does not resolve unreported biological units or exon models.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner and agent have read the published outcomes. Initial review inspected headers and archive members. This stage additionally retrieved source XML, ENA metadata and file headers; no biological contrasts have been calculated.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "No biological contrast in S0; compare feature definitions and metadata of 12 deposited, 11 retained libraries and four merged group estimates.",
+  "endpoint": "Sample/source crosswalk, feature eligibility, estimation-status and malformed-value checks, explicit route and dependent holds.",
+  "methods": "Parse source SOFT and ENA TSV; require exact SRX and BioSample matches, unique run accessions. Read all gzip members without extraction. Qualify unique per-file gene_id=single gene_short_name plus exact locus, exclude XLOC/CUFF and ambiguous names, intersect 11 retained files. Retain statuses and raw FPKM strings. Separate exact symbol/locus crosswalk to merged file; no FPKM summation. No effect fitting, normalization or PCA.",
+  "missingness_and_exclusions": "Keep excluded GSM1423627 in manifest and audit, omit it from primary 11-file intersection. Unknown mouse/pool/age/batch/pairing/annotation release stay unknown. Missing features are blank, never zero-filled.",
+  "multiplicity": "No statistical tests or biological hypothesis family in metadata qualification.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Not applicable to identity/count checks; no biological-population uncertainty is estimated.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Qualified gene-labelled genomic spans do not establish exact transcript/exon models, matched chromatin, biological independence, temporal activation effects or functional outcomes.",
+  "stop_rule": "Fail exact sample-source joins or malformed FPKM. If no common reference-labelled loci exist, hold per-library route. Unresolved count/unit identity holds inference only; no raw-read reprocessing starts.",
+  "inputs": [
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_RAW.tar",
+      "sha256": "87eb8b660d7b83c501040c984db62b9501acbe24c8fb7d9f91a531835fa78e6f",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_family.soft",
+      "sha256": "b667cc7b64e7161be6edfc9ff6005811e8cc011b37474113a7638cbfc6fa4ece",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/GSE58998_FPKM_all_samples_merged.txt.gz",
+      "sha256": "b5ef0d73b19e21c2cee6c89d306e6d99affc8d4e48b5c0ba8205c1151fa8aa51",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/dupage_20261107/ena_runs.tsv",
+      "sha256": "5500ef7dc8e74c29fa82ddad34958346d7851a0b87715a0159b75450dba67973",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py",
+      "sha256": "65b903e0d3c28ee7f5469edc508b70abfbc6fcd2bb14b10d0c9e7c88f484a09b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_manifest.tsv",
+    "file_qc.tsv",
+    "archive_member_hashes.tsv",
+    "feature_identity.tsv",
+    "common_fpkm.tsv",
+    "merged_crosswalk.tsv",
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed metadata qualification after owner execution authorization; biological contrasts remain prospective."
+}
