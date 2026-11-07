@@ -1,10 +1,27 @@
 # Documentation Index
 
-**Current navigation — 4 November 2026:** [biological topic map](RESEARCH_TOPICS.md)
-connects all 33 RQs and 18 paper packages. [Current question arguments](../RQ_Specified/README.md),
+**Current navigation — 7 November 2026:** [biological topic map](RESEARCH_TOPICS.md)
+connects all 33 RQs and 19 paper packages. [Current question arguments](../RQ_Specified/README.md),
 [reviewed rationale](research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
 and [project state](../PROGRESS.md) own current findings and work status.
-[Architecture audit and navigation fixes](audits/2026-11-04-topic-navigation/README.md).
+[Latest source/structure reconciliation](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).
+
+## Current entry points
+
+| Need | Current owner |
+|---|---|
+| Questions, evidence and next comparisons | [Question homes](../RQ_Specified/README.md), [dossiers](research_dossiers/README.md), [registry](../analysis/research/registry.json) |
+| Papers, reading permissions and analyses | [Article index](../Research%20Article/README.md) and [roadmap data](../Research%20Article/ROADMAP.json) |
+| Public sources and local cache inventory | [Dataset inventory](DATASETS.md), [source-use update](DATASET_UPDATES_2026-11-07.md) |
+| Directory ownership and evidence rules | [Structure](REPOSITORY_STRUCTURE.md), [architecture](RESEARCH_ARCHITECTURE.md), [governance](RESEARCH_GOVERNANCE.md) |
+| Verification and handoff | [Reproducibility](../REPRODUCIBILITY.md), [project state](../PROGRESS.md) |
+
+## Dated reviews and planning history
+
+The checkpoints below preserve their original scope. Their next steps and
+completion statements do not override current owning reports. The
+[4 November architecture audit](audits/2026-11-04-topic-navigation/README.md)
+records the preceding navigation review.
 
 **3 November primary-target literature review:** [recent sources and biological implications](research_reviews/2026-11-03-primary-candidate-literature/README.md)
 and [literature-informed screening plan](research_reviews/2026-11-03-primary-candidate-literature/ANALYSIS_PLAN_V1.md).
@@ -33,7 +50,9 @@ it does not supersede the existing question portfolio.
 
 **Preceding repository audit:** [findings and corrections](audits/2026-10-07-repository-readiness/REPORT.md) and [all-question review](audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md).
 
-Start current research development with the [dossier index](research_dossiers/README.md), [governance](RESEARCH_GOVERNANCE.md) and [reconciliation report](audits/2026-10-03-repository-repair/REPORT.md).
+Start current research development with the [dossier index](research_dossiers/README.md)
+and [governance](RESEARCH_GOVERNANCE.md). The [3 October reconciliation](audits/2026-10-03-repository-repair/REPORT.md)
+is a historical preservation record, not the latest checkout state.
 
 Start with the [research questions](../RESEARCH_QUESTIONS.md),
 [paper roadmap](../Research%20Article/README.md) and [dataset inventory](DATASETS.md).
@@ -60,6 +79,8 @@ The [next-dataset gate](NEXT_DATASET_GATE.md) is a historical design with links
 to the resulting analyses. Dated reviews, including the
 [England source review](audits/2026-09-28-england-paper-rqs/REPORT.md), retain their
 original scope; they are not the repository-wide navigation hierarchy.
+
+## Methods and original pipeline references
 
 > **Tool reference pages are not execution records.** The five tool pages below
 > describe tools and the reference study's design. They do **not** imply that
@@ -128,13 +149,15 @@ Supporting documents:
   (the owner's reading order), with per-paper study notes, extracted decision criteria and
   analysis trials; the HLCA note is at
   [`../Research Article/gate1_04_sikkema_2023_hlca/README.md`](../Research%20Article/gate1_04_sikkema_2023_hlca/README.md).
-- [`../REFERENCES.md`](../REFERENCES.md): every source study, roadmap paper and
-  method paper with DOIs, PMC links and data accessions.
+- [`../REFERENCES.md`](../REFERENCES.md): bibliographic index of source studies, roadmap papers and
+  methods, with DOIs, PMC links and data accessions; current article reports
+  retain later source-specific citations.
 
 Alignment (STARsolo) and the Seurat stages have no separate schematic. Their
 steps are linear and fully covered in [`WORKFLOW_Niethamer2025.md`](WORKFLOW_Niethamer2025.md); a
 per-tool diagram would only restate it.
 
-No PDFs are stored in this repository. Three of the five method papers are
-CC BY 4.0 and three are not, so every paper is linked to its open-access
-version in [`../REFERENCES.md`](../REFERENCES.md) instead.
+Downloaded full-text papers and publisher supplements remain outside Git.
+Generated research-figure PDFs may be tracked with their provenance.
+[`../REFERENCES.md`](../REFERENCES.md) links the source publications; source
+access and reuse terms remain publication-specific.
