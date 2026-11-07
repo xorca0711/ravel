@@ -24,7 +24,10 @@ base-aware provenance gate against `32ab85e`. The gate caught a hash-bound
 `.gitignore` comment edit; the file was restored exactly and its guidance kept
 in the docs. Seven newly merged DuPage scripts also required exact Git bytes
 locally after Windows checkout line-ending conversion. No frozen input or
-validator was changed. PR publication is next; no merge is authorized.
+validator was changed. [PR #168](https://github.com/xorca0711/ravel/pull/168)
+is open against main; [remote checks](https://github.com/xorca0711/ravel/pull/168/checks)
+are the live CI record. Next: review and merge only with owner authorization.
+No external settings are unresolved, and no merge was performed.
 
 ## Initial source inventory checkpoint — 7 November 2026
 

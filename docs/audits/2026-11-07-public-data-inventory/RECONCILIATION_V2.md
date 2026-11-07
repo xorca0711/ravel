@@ -91,6 +91,8 @@ Neither frozen inputs nor validators change in the PR. The initial checkpoint's
 archive/claim checks remain valid for preserved evidence. No biological analyses
 were rerun and no source files were downloaded.
 
-GitHub connector and CLI identities were verified as `xorca0711`. Publication is
-pending; this request authorizes opening the PR, not merging it. The PR link and
-remote checks will be recorded in the handoff.
+GitHub connector and CLI identities were verified as `xorca0711`.
+[PR #168](https://github.com/xorca0711/ravel/pull/168) is open against main;
+its [checks page](https://github.com/xorca0711/ravel/pull/168/checks) records CI
+for the published revision. The final handoff reports the observed remote result.
+No merge was performed; review and any merge remain owner decisions.
