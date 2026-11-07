@@ -3,6 +3,33 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Public-data inventory reconciliation — 7 November 2026
+
+Updated the [central dataset list](docs/DATASETS.md) and its
+[source-use additions](docs/DATASET_UPDATES_2026-11-07.md) on isolated branch
+`codex/public-data-inventory-20261107`, based on freshly fetched main `dcee4b6`.
+[Audit, scan scope and artifacts](docs/audits/2026-11-07-public-data-inventory/README.md).
+The original root checkout and unrelated edits remain preserved.
+
+The tracked-text census records 530 accession identifiers, including metadata,
+search leads and aliases; it does not claim 530 utilized cohorts. The local
+source/reference census contains 4,181 files / 74.04 GB across 15 cache roots;
+the project-root `raw_data/` alone contains 955 files / 34.52 GB in 33 folders.
+The original 51-file inventory remains historical and unchanged. Newer DuPage
+use is recorded separately at its inspected branch revision, not merged.
+
+Inventory/link checks, required archive/claim checks and 167 unit tests passed
+(two environment/platform skips with an explicit writable temporary directory).
+Compilation passed. Fifteen published outputs were restored from existing
+hash-matched local copies; fourteen frozen checkout files were restored to exact
+Git bytes to resolve Windows line-ending mismatches, without semantic changes.
+Final validation passed 16,934 repository checks and the unchanged provenance
+gate against refreshed main `dcee4b6`; whitespace checks passed. No biological
+reruns, source downloads, scientific-status changes, commit, push or merge were
+performed. The inventory update is complete locally and remains uncommitted in
+the scoped worktree. Future changes to caches or unmerged research require a
+new snapshot/reconciliation; no external setting is needed for this update.
+
 ## Topic navigation and architecture review — 4 November 2026
 
 Applied the owner's overlapping-topic navigation across all 33 RQs and 18 paper

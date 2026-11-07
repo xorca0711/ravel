@@ -1,0 +1,194 @@
+{
+  "started_utc": "2026-11-07T09:50:38.915857+00:00",
+  "finished_utc": "2026-11-07T09:50:46.687153+00:00",
+  "repository_revision": "dcee4b63e11abd27fe2bbc679993b288e913565e",
+  "integration_base": "dcee4b63e11abd27fe2bbc679993b288e913565e",
+  "tracked_paths": 7771,
+  "scanned_text_files": 5419,
+  "excluded_files": {
+    "non_text_suffix": 2269,
+    "history_baseline_or_this_audit": 35,
+    "over_2MB": 48
+  },
+  "text_limit_bytes": 2000000,
+  "accession_count": 530,
+  "accession_evidence_kinds": {
+    "reference_only": 460,
+    "registered_input_path": 52,
+    "legacy_record_reference": 18
+  },
+  "registered_receipts_inspected": 155,
+  "worktrees": [
+    {
+      "storage_id": "project-root",
+      "path": "X:/GitHub/ravel",
+      "head": "78320a186b6f52426e7c7c5349a2f26492b718b7",
+      "branch": "refs/heads/codex/comprehensive-portfolio-20261026",
+      "cache_roots": [
+        "analysis/corrections/statistics/cache",
+        "raw_data",
+        "Research Article/gate2_C3_yu_lee_choi_min_2026/cache",
+        "RQ_Specified/A0_conserved_epithelial_transition_program/cache",
+        "RQ_Specified/A1_transitional_epithelial_state_distinction/cache"
+      ]
+    },
+    {
+      "storage_id": "macrophage-memory-review-20261029",
+      "path": "C:/Users/dream/.codex/worktrees/macrophage-memory-review-20261029/ravel",
+      "head": "0b67a8027270ce8ed34ecd3d2e88ef5ee84d3b52",
+      "branch": "refs/heads/codex/tool-assisted-screening-review-20261103",
+      "cache_roots": [
+        "raw_data",
+        "RQ_Specified/A5_developmental_programme_reuse/cache"
+      ]
+    },
+    {
+      "storage_id": "portfolio-grounding-20261019",
+      "path": "C:/Users/dream/.codex/worktrees/portfolio-grounding-20261019/ravel",
+      "head": "7840089dc78a42c25679e2083541c5df1507cfc6",
+      "branch": "refs/heads/codex/portfolio-grounding-20261019",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "portfolio-status-20261019",
+      "path": "C:/Users/dream/.codex/worktrees/portfolio-status-20261019/ravel",
+      "head": "7840089dc78a42c25679e2083541c5df1507cfc6",
+      "branch": "refs/heads/codex/portfolio-status-20261019",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "saxton-il22-execution-20261031",
+      "path": "C:/Users/dream/.codex/worktrees/saxton-il22-execution-20261031/ravel",
+      "head": "ff09fab3fb37fd4bf915845e5cd59effaa386210",
+      "branch": "refs/heads/codex/saxton-il22-execution-20261031",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "saxton-metadata-recovery-20261031",
+      "path": "C:/Users/dream/.codex/worktrees/saxton-metadata-recovery-20261031/ravel",
+      "head": "a244f7f3108e4886859d0c06b2c11f8d99cd5a7a",
+      "branch": "refs/heads/codex/arozamena-qualification-20261101",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "yadav-analysis-plan-20261030",
+      "path": "C:/Users/dream/.codex/worktrees/yadav-analysis-plan-20261030/ravel",
+      "head": "4780f98cee880c97739cd33cb955514c42685bb3",
+      "branch": "refs/heads/codex/yadav-analysis-plan-20261030",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "sharp-margulis-5e858e",
+      "path": "X:/GitHub/ravel/.claude/worktrees/sharp-margulis-5e858e",
+      "head": "fee907165d9f5e94ddf97acb68c14425dcc2f709",
+      "branch": "detached",
+      "cache_roots": [
+        "RQ_Specified/A15_epithelial_integrin_tgfb_activation/cache"
+      ]
+    },
+    {
+      "storage_id": "agent-screening-guidance-20261104",
+      "path": "X:/GitHub/ravel/.worktrees/agent-screening-guidance-20261104",
+      "head": "55250837be8d55ef8595cc5828321ee899c51c14",
+      "branch": "refs/heads/codex/biological-screening-guidance-20261104",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "dupage-stepwise-plan-20261107",
+      "path": "X:/GitHub/ravel/.worktrees/dupage-stepwise-plan-20261107",
+      "head": "b207aef7af657e49590307250bd19103efc8a7a4",
+      "branch": "refs/heads/codex/dupage-stepwise-plan-20261107",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "public-data-inventory-20261107",
+      "path": "X:/GitHub/ravel/.worktrees/public-data-inventory-20261107",
+      "head": "dcee4b63e11abd27fe2bbc679993b288e913565e",
+      "branch": "refs/heads/codex/public-data-inventory-20261107",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "ravel-rename-20261007",
+      "path": "X:/GitHub/ravel/.worktrees/ravel-rename-20261007",
+      "head": "633377f76148b635d3cb89b1cffc074efa85e519",
+      "branch": "refs/heads/codex/local-ravel-migration-20261011",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "reading-status-20261029",
+      "path": "X:/GitHub/ravel/.worktrees/reading-status-20261029",
+      "head": "78320a186b6f52426e7c7c5349a2f26492b718b7",
+      "branch": "refs/heads/codex/reading-status-20261029",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "rq-reasoning-pr-20261104",
+      "path": "X:/GitHub/ravel/.worktrees/rq-reasoning-pr-20261104",
+      "head": "7b68e8164d6be63a4d9e8dc8f47ed4f0b79ceaea",
+      "branch": "refs/heads/codex/rq-reasoning-restructure-20261104",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "storage-hygiene-20261004",
+      "path": "X:/GitHub/ravel/.worktrees/storage-hygiene-20261004",
+      "head": "a5d41834395cac0b82b488d48759ceb6fab8f2d5",
+      "branch": "refs/heads/codex/storage-hygiene-20261004",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "topic-navigation-20261104",
+      "path": "X:/GitHub/ravel/.worktrees/topic-navigation-20261104",
+      "head": "7b00cafa20c0e975edd16fe550cdf0a703ca3ed3",
+      "branch": "refs/heads/codex/topic-navigation-20261104",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "wagner-continuation-20261004",
+      "path": "X:/GitHub/ravel/.worktrees/wagner-continuation-20261004",
+      "head": "1bd4f2457d26d08594893dcd1fff4a35b0082c65",
+      "branch": "refs/heads/codex/wagner-continuation-20261004",
+      "cache_roots": [
+        "raw_data"
+      ]
+    },
+    {
+      "storage_id": "weft-choi-pilot-20261011",
+      "path": "X:/GitHub/ravel/.worktrees/weft-choi-pilot-20261011",
+      "head": "353d3e3c34c23c598f917e620e58dc9a798360fa",
+      "branch": "refs/heads/codex/weft-intake-20261012",
+      "cache_roots": []
+    },
+    {
+      "storage_id": "full-priority-screening-20261103",
+      "path": "X:/GitHub/ravel_execution/full-priority-screening-20261103",
+      "head": "c09108f11f7eafeee6012fd95f43b38bf2332e48",
+      "branch": "detached",
+      "cache_roots": [
+        "raw_data"
+      ]
+    }
+  ],
+  "scanned_cache_roots": 15,
+  "local_file_count": 4181,
+  "local_size_bytes": 74039394025,
+  "local_path_accession_count": 92,
+  "scan_errors_or_exclusions": [],
+  "limits": [
+    "References are not confirmed use; inspect owning result/receipt.",
+    "Local presence uses paths and byte sizes, not fresh content hashes or integrity checks.",
+    "Counts are apparent file bytes, not unique datasets, physical disk use or independent samples.",
+    "Copies in different worktrees count separately; resolved duplicate roots do not.",
+    "tmp, processed/model objects, runtimes, external caches and cloud storage are outside scope.",
+    "No remote source availability refresh or biological rerun."
+  ]
+}

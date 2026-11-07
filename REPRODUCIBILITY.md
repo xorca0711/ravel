@@ -157,7 +157,12 @@ the exact files, sizes and modification times it read.
 - [GSE178360](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178360):
   `GSE178360_RAW.tar`
 
-The exact 51-file inventory from the original run is tracked in
+The current [dataset-use catalog](docs/DATASETS.md) and
+[dated local storage census](docs/audits/2026-11-07-public-data-inventory/README.md)
+cover later source use and caches, including worktrees. They do not certify
+input integrity or scientific rerun readiness.
+
+The exact historical 51-file inventory from the original run is tracked in
 [`analysis/raw_data_inventory.txt`](analysis/raw_data_inventory.txt),
 [`analysis/raw_data_inventory.csv`](analysis/raw_data_inventory.csv), and
 [`analysis/raw_data_inventory.json`](analysis/raw_data_inventory.json). Only
