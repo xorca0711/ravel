@@ -231,3 +231,12 @@ predicted regulons or prognostic scores were not treated as Treg perturbation
 evidence. No new shared-source dataset was counted as independent replication.
 Current annotation version and molecular-identity limits are in AM02. Exact
 primary reads remain distinct from planned assay/data acquisition.
+
+## Three-candidate source qualification and numerical continuation
+
+7 November 2026: [source audit](candidates/SOURCE_QUALIFICATION.md) records the
+TIGIT accession mismatch, matching Zenodo lead, CCR2 assay-context restriction,
+IGFBP4 source/processing precedents and selected-matrix limitation in GSE262130.
+[Candidate comparisons](CANDIDATE_FOLLOWUP.md) distinguish proposed experiments
+from the [new frozen numerical plan](CANDIDATE_ANALYSIS_PLAN_V1.md). No fresh
+expression analysis was performed during the preceding literature/metadata pass.

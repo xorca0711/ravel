@@ -21,6 +21,8 @@ claim grade or human scientific decision was created or promoted.
 · [Four-figure portfolio, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
 Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_20261107.md)
 before choosing an experimental comparison.
+The [three candidate records](CANDIDATE_FOLLOWUP.md) separate source qualification
+from the [prospective numerical follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md).
 This DuPage-first screen is independent of the owner's optional Zhang reading
 direction, but reuses the same exposed DuPage samples; it is not replication.
 

@@ -11,6 +11,10 @@ plan and the completed stage results, and does not require a tumor/NK direction.
 candidate proposals from the original planning record below.
 The [biological review](BIOLOGICAL_REVIEW_20261107.md) qualifies candidate
 direction, assay context and readiness before the requested three-way follow-up.
+The [three candidate records](CANDIDATE_FOLLOWUP.md) now specify their individual
+comparisons. [Source qualification](candidates/SOURCE_QUALIFICATION.md) supports
+a limited [numerical gain-context follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md),
+without treating it as replication of the original loss/state interaction.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

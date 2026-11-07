@@ -5,6 +5,16 @@ research registry own scientific status; older checkpoints are history.
 
 ## Biological review, PR and three-candidate continuation — 7 November 2026
 
+[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Repository and
+research-governance CI passed at `3ca54b2` after preserving the original contract
+bytes through article-local attributes; unrelated frozen inputs remain unchanged.
+The [candidate records](Research%20Article/gate3_09_dupage_2015/CANDIDATE_FOLLOWUP.md)
+complete source/assay qualification only. The owner clarified that numerical
+follow-up is required: a [fixed-candidate Peeters plan](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_PLAN_V1.md)
+is now specified and preflight-passed, before candidate rlog outcomes are read.
+Next: commit/freeze, execute via the research runner, independently check values,
+inspect figures, update interpretations and push the same PR.
+
 Owner authorized review, commit, PR and then continuation of TIGIT–PRDM1, CCR2
 and IGFBP4. [Review](Research%20Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md)
 qualifies Igfbp4's cross-state direction, native-IGF versus desIGF1, TIGIT

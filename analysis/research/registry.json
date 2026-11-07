@@ -981,6 +981,8 @@
       "id": "Dp1-P01",
       "plan": "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_FOLLOWUP.md",
+        "Research Article/gate3_09_dupage_2015/candidates/SOURCE_QUALIFICATION.md",
         "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
         "Research Article/gate3_09_dupage_2015/RESULTS.md",
@@ -1169,7 +1171,8 @@
     "Research Article/gate3_09_dupage_2015/contracts/Dp1.S3.regulatory_context_v1.json",
     "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json",
     "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v2.json",
-    "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json"
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json",
+    "Research Article/gate3_09_dupage_2015/contracts/Dp1.candidate_followup_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
