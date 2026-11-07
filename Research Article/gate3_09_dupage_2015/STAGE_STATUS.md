@@ -7,8 +7,8 @@ in the retained version-1 plan. No scientific acceptance is inferred.
 | Stage | Status | Decision / evidence |
 |---|---|---|
 | S0 source qualification | Executed; independently checked | [S0 result](S0_RESULT.md); 23,102 common loci, 22,997 all-OK, 24 runs / 12 libraries |
-| S1 reconstruction | Frozen; ready to execute | [Contract](contracts/Dp1.S1.reconstruction_v1.json); descriptive per-library and merged PCA |
-| S2 state dependence | Not executed | FPKM descriptive route anticipated; count/unit inference not qualified |
+| S1 reconstruction | Executed; independently checked | [S1 result](S1_RESULT.md); low/high RMS ratio 1.087, KO/low spread |
+| S2 state dependence | Frozen; ready to execute | [Contract](contracts/Dp1.S2.state_contrast_v1.json); direct interaction plus fixed sensitivities |
 | S3 regulation | Not executed | Reference memberships require qualification |
 | S4 later-study discriminator | Not executed | Conditional on an informative unresolved S3 comparison |
 | S5 functional bridge | Not executed | Published evidence map remains eligible |
