@@ -81,6 +81,9 @@ labels, units and provenance. No biological rerun was needed.
 Repository validation passed 17,122 checks; the research gate passed against
 refreshed, unchanged main `dcee4b6`. Generated SVG path whitespace is retained
 verbatim with exact-file Git attributes so receipt hashes remain unchanged.
+Both GitHub workflows passed on result commit `0578490`: [repository checks](https://github.com/xorca0711/ravel/actions/runs/42365620403)
+and [research governance](https://github.com/xorca0711/ravel/actions/runs/42365620370).
+All fourteen expected outputs plus the receipt are tracked with identical bytes.
 
 This is exposed descriptive reanalysis of a published outcome-selected matrix,
 not independent validation or a new differential-expression test. Y641F mutation,

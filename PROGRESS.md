@@ -14,11 +14,12 @@ between fresh and cultured gain contexts; Igfbp4 stays lower. No target is
 validated, accepted or removed. Two new figures have been visually inspected.
 Independent checks passed for 84 source values, 455 contrasts, 35 ranges/sign
 records, six figure hashes and the new receipt. Repository validation passed
-17,122 checks; refreshed main is unchanged at `dcee4b6`. Prior CI passed at
-`3ca54b2`; the final preservation gate passed, with updated PR CI pending. The original contract-byte
+17,122 checks; refreshed main is unchanged at `dcee4b6`. The final preservation
+gate and both GitHub workflows passed for the published results at `0578490`.
+All 14 expected new outputs and the receipt match Git byte-for-byte. The original contract-byte
 issue was corrected with article-local attributes; frozen pilot inputs and all
 historical outputs remain preserved. GitHub identity verified as `xorca0711`.
-Next: final checks and push; future biological work requires the protein/response
+Results are committed and available for PR review. Future biological work requires the protein/response
 qualification in the candidate cards. TIGIT animal/source mapping remains unknown;
 no wet-lab experiments or scientific acceptance are implied.
 
