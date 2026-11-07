@@ -3,6 +3,9 @@
 7 November 2026. Exploratory Dp1-P01 subquestion; not an accepted new RQ.
 [Follow-up overview](../CANDIDATE_FOLLOWUP.md) · [Source audit](SOURCE_QUALIFICATION.md).
 
+**Completed numerical follow-up:** [gain-context results](../CANDIDATE_ANALYSIS_RESULT_V1.md).
+The experimental stages below remain proposed; interpret their RNA premise with that result.
+
 ## Published finding → repository observation → remaining question
 
 [Zhan et al., online 2018 / issue 2020](https://doi.org/10.1038/s41423-018-0187-8),

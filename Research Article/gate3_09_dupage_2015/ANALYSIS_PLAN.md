@@ -15,6 +15,8 @@ The [three candidate records](CANDIDATE_FOLLOWUP.md) now specify their individua
 comparisons. [Source qualification](candidates/SOURCE_QUALIFICATION.md) supports
 a limited [numerical gain-context follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md),
 without treating it as replication of the original loss/state interaction.
+The [executed candidate result](CANDIDATE_ANALYSIS_RESULT_V1.md) now governs the
+gain-context interpretation; experimental designs remain proposed.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

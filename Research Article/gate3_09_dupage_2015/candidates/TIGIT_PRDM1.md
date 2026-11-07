@@ -3,6 +3,9 @@
 7 November 2026. Exploratory Dp1-P01 subquestion; not an accepted new RQ.
 [Follow-up overview](../CANDIDATE_FOLLOWUP.md) · [Source audit](SOURCE_QUALIFICATION.md).
 
+**Completed numerical follow-up:** [gain-context results](../CANDIDATE_ANALYSIS_RESULT_V1.md).
+The experimental stages below remain proposed; interpret their RNA premise with that result.
+
 ## Published finding → repository observation → remaining question
 
 TIGIT-associated Blimp-1/AREG output is an established premise, with activation

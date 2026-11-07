@@ -240,3 +240,8 @@ IGFBP4 source/processing precedents and selected-matrix limitation in GSE262130.
 [Candidate comparisons](CANDIDATE_FOLLOWUP.md) distinguish proposed experiments
 from the [new frozen numerical plan](CANDIDATE_ANALYSIS_PLAN_V1.md). No fresh
 expression analysis was performed during the preceding literature/metadata pass.
+
+The executed [candidate follow-up](CANDIDATE_ANALYSIS_RESULT_V1.md) narrows the
+reciprocal-direction premise: Tigit/Prdm1/Ccr2 reverse across fresh/cultured gain
+contexts; Igfbp4 remains lower. These RNA observations refine the proposed
+comparisons without establishing protein/function or independent validation.

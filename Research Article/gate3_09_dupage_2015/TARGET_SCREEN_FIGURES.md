@@ -76,3 +76,9 @@ is represented in this panel.
 PNG files are 300 dpi; PDFs and SVGs are vector exports. Keep these captions and
 the exploratory/proposed labels when reusing figures in a portfolio. Do not
 overwrite frozen exports; later corrections require a new version and link.
+
+## Executed candidate follow-up figures
+
+The [candidate results gallery](CANDIDATE_ANALYSIS_RESULT_V1.md#figures-and-source-values)
+adds Figures 5–6, with PNG/PDF/SVG and source values, from a separate frozen run.
+The first four screen figures above remain unchanged.

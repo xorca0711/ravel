@@ -3,28 +3,24 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Biological review, PR and three-candidate continuation — 7 November 2026
+## Biological review and executed candidate continuation — 7 November 2026
 
-[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Repository and
-research-governance CI passed at `3ca54b2` after preserving the original contract
-bytes through article-local attributes; unrelated frozen inputs remain unchanged.
-The [candidate records](Research%20Article/gate3_09_dupage_2015/CANDIDATE_FOLLOWUP.md)
-complete source/assay qualification only. The owner clarified that numerical
-follow-up is required: a [fixed-candidate Peeters plan](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_PLAN_V1.md)
-is now specified and preflight-passed, before candidate rlog outcomes are read.
-Next: commit/freeze, execute via the research runner, independently check values,
-inspect figures, update interpretations and push the same PR.
-
-Owner authorized review, commit, PR and then continuation of TIGIT–PRDM1, CCR2
-and IGFBP4. [Review](Research%20Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md)
-qualifies Igfbp4's cross-state direction, native-IGF versus desIGF1, TIGIT
-priming/accessory context and CCR2/CD25 inference. Numerical outputs and figures
-remain unchanged; no new scientific acceptance is recorded. GitHub connector
-and CLI identities both verified as `xorca0711`; main refreshed at unchanged
-`dcee4b6`. Review validation passed: 17,065 repository checks and the research
-gate against `origin/main`; no numerical replay was needed. Next: commit reviewed package, open PR, then record concrete
-candidate-specific source and assay qualification. No merge or external settings
-change is authorized by this publication request.
+[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Biological review,
+source qualification and three experimental question cards are committed.
+The [numerical candidate follow-up](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
+executed from frozen `8f7fa76`: all four candidate genes and three anchors were
+available in the selected Peeters rlog matrix. Tigit/Prdm1/Ccr2 reverse direction
+between fresh and cultured gain contexts; Igfbp4 stays lower. No target is
+validated, accepted or removed. Two new figures have been visually inspected.
+Independent checks passed for 84 source values, 455 contrasts, 35 ranges/sign
+records, six figure hashes and the new receipt. Repository validation passed
+17,122 checks; refreshed main is unchanged at `dcee4b6`. Prior CI passed at
+`3ca54b2`; the final preservation gate passed, with updated PR CI pending. The original contract-byte
+issue was corrected with article-local attributes; frozen pilot inputs and all
+historical outputs remain preserved. GitHub identity verified as `xorca0711`.
+Next: final checks and push; future biological work requires the protein/response
+qualification in the candidate cards. TIGIT animal/source mapping remains unknown;
+no wet-lab experiments or scientific acceptance are implied.
 
 ## DuPage-first target-screen follow-up — 7 November 2026
 

@@ -10,6 +10,9 @@ This page records the qualification checkpoint. After the owner clarified the
 need for actual numerical follow-up, the separate
 [candidate analysis plan](CANDIDATE_ANALYSIS_PLAN_V1.md) specifies the next run.
 Qualification and execution status must not be conflated.
+**Subsequent numerical run completed:** [results and figures](CANDIDATE_ANALYSIS_RESULT_V1.md).
+The paragraphs below retain the earlier qualification checkpoint; the linked
+result supplies the completed gain-context analysis and updated interpretation.
 
 ## What the completed screen supports
 

@@ -23,6 +23,9 @@ Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_202611
 before choosing an experimental comparison.
 The [three candidate records](CANDIDATE_FOLLOWUP.md) separate source qualification
 from the [prospective numerical follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md).
+**Executed follow-up:** [candidate results and two new figures](CANDIDATE_ANALYSIS_RESULT_V1.md).
+Tigit/Prdm1/Ccr2 gain effects reverse across fresh/cultured contexts; Igfbp4
+retains a reciprocal direction. This is descriptive cross-context evidence.
 This DuPage-first screen is independent of the owner's optional Zhang reading
 direction, but reuses the same exposed DuPage samples; it is not replication.
 
