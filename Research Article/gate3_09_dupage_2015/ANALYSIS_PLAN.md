@@ -3,6 +3,9 @@
 Version 1, 7 November 2026. **Original prospective planning record, retained.**
 Current execution is in [RESULTS](RESULTS.md), [ledger](STAGE_STATUS.md) and
 [AM01](ANALYSIS_AMENDMENT_V2.md). Planning-only statements below are historical.
+The owner's subsequent DuPage-first target-screen follow-up is specified in
+[TARGET_SCREEN_PLAN_V1](TARGET_SCREEN_PLAN_V1.md); it preserves this original
+plan and the completed stage results, and does not require a tumor/NK direction.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

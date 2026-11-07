@@ -3,6 +3,18 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## DuPage-first target-screen follow-up — 7 November 2026
+
+The owner requested a fresh target screen from DuPage 2015; Zhang 2026 is
+optional context. The [exploratory plan](Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md)
+uses the fixed 11,614-locus universe, separate low-state/state-prioritized
+tracks, and a bounded literature-reading frontier. Prior outcome and named-gene
+exposure are explicit. Contract preflight passed; execution and candidate
+interpretation are the next steps. Existing frozen evidence remains unchanged.
+Scientific hypothesis-generation and literature-review skills inform the
+rationale; no missing effect margin, independence or laboratory readiness is
+invented. No external setting was changed.
+
 ## DuPage S0–S6 complete within qualified scope — 7 November 2026
 
 One technical chat completed all stage dispositions on the isolated branch

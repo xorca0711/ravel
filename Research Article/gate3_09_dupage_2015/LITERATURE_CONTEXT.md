@@ -142,3 +142,37 @@ comparison needs direct regulatory, lineage-retention and viability readouts;
 function/trafficking need separate assays if claimed. This is a proposed
 model-discrimination question, not an accepted RQ or experiment-ready design.
 Target, effect margin, sample-size basis and laboratory feasibility are unknown.
+
+## DuPage-first target-screen rationale — 7 November 2026
+
+The owner requested a new screen rooted in DuPage 2015, with Zhang 2026 optional
+rather than a required tumor/NK direction. [The prospective exploratory plan](TARGET_SCREEN_PLAN_V1.md)
+keeps the original Treg population and separates stable low-state differences
+from state-prioritized differences. Broad mixed results do not imply that no
+individual candidate is worth investigating; neither do individual RNA rows
+establish a causal target. Every candidate will need literature triage and a
+distinct protein/function comparison.
+
+DuPage's Discussion (journal pp.235–236, paragraph beginning "We found that
+Ezh2 functions largely...") already names Pde3b, Tcf7 and Lef1. They are
+precedent anchors, not new discoveries. A targeted search on 7 November 2026
+used `Ezh2 Treg Pde3b Tcf7 Lef1 2024 2025 2026 primary` and
+`DuPage 2015 Ezh2 regulatory T cells downstream targets activation survival`.
+It recovered [Kidani et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38169425/),
+on TCF7/LEF1 downregulation in tumor Tregs (search record inspected; focused
+results reading remains prospective), and the already-read Peeters/He context
+above. Screening ranks have not yet been inspected at this planning checkpoint.
+
+The preceding Zhang comparison established relevant boundaries, not the chosen
+screening direction: the supplied published Zhang PDF (10 April 2026,
+[doi:10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411),
+SHA-256 `476c35571d5fcede9f3e32a6f53d493967f65180b3f03fbf5d0353c95d7a6b23`)
+was text-read, with journal pp.8–9 visually inspected. Figures 6–7 connect local
+Treg depletion to cDC2/conventional-CD4 IL-2 and NK-dependent tumor control;
+the mechanism of suppression upstream of IL-2 is not fully resolved.
+[Wang et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6094952/), main text
+and Figure 5F–G/6 legends read via NCBI BioC, already showed altered cytokine
+potential in Ezh2-deficient tumor Tregs, including IL-2 after restimulation,
+and compared reprogramming with depletion. This is not evidence for spontaneous
+in-situ IL-2 release in DuPage's lymphoid samples. GSE114298 is a potential future
+source, not a qualified independent validation dataset in this work.

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1.target_screen_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Which Ezh2-associated changes in the original DuPage Tregs warrant a specific identity, survival or suppressive-function follow-up?",
+  "decision": "Create a bounded, literature-triaged target candidate set without requiring the Zhang tumor/NK direction or claiming target validation.",
+  "strongest_rival": "Different bulk mixtures or selective survival within the Foxp3-positive gate, plus technical preparation variability, can mimic state-dependent regulation.",
+  "discriminator": "Two signed tracks retain robust low-state changes and state-prioritized changes separately; literature and future protein/function perturbation distinguish mechanistic candidates from state or selection markers.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/ANALYSIS_PLAN.md",
+    "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
+    "Research Article/gate3_09_dupage_2015/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_09_dupage_2015/S0_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/S1_RESULT.md",
+    "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_PLAN_V1.md",
+    "Research Article/gate3_09_dupage_2015/RESULTS.md",
+    "Research Article/gate3_09_dupage_2015/S3_RESULT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "S0-S3 and published outcomes are exposed. Il2, Ctla4, Il2ra, Il10 and Tgfb1 rows were viewed during Zhang/Wang reading before the owner requested a DuPage-first screen. Original-paper Pde3b/Tcf7/Lef1 examples and a 2024 TCF7/LEF1 precedent are known. No new ranking or additional sensitivity minima calculated before this freeze.",
+  "biological_unit": "Source biological preparation; individual mouse, pool membership and cross-state pairing remain unknown. This stage counts files/features, not animals.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries from one study; GSM1423627 excluded by authors. All reuse of these libraries is shared-source reanalysis. Replicate labels do not prove pairing or independence.",
+  "population_and_selection": "Female C57BL/6 healthy mosaic mice; spleen/LN sorted Foxp3-positive CD4+CD25+YFP+RFP+ Tregs, conditional Ezh2 HET or KO, observed CD62L high/low.",
+  "contrast": "(mean log2(FPKM+1) KO_low - HET_low) - (KO_high - HET_high); observed states, not a temporal intervention.",
+  "endpoint": "Per-gene low-state KO-HET contrast and state interaction; sign-oriented minima across declared sensitivities, complete orderings and a bounded reading frontier.",
+  "methods": "Exactly TARGET_SCREEN_PLAN_V1.md: fixed 11614 loci and 11 libraries; primary log2(FPKM+1), 11 separate omissions, full-sample pseudocount 0.5/2. Low track requires stable low sign; state track additionally stable coherent interaction sign and larger primary absolute low than high contrast. Order by sign-oriented minimum of low or interaction respectively; first 10 per signed track for reading only. Preserve all rows and 19 named anchors separately. S3 chromatin is annotation only.",
+  "missingness_and_exclusions": "Retain S1 universe, all-OK filtering and source exclusion. Never reintroduce excluded low-depth GSM1423627. No outlier deletion or post-outcome rethresholding.",
+  "multiplicity": "No tests, FDR or probability of target validity. All loci retained; top 10 per signed track is a finite reading budget, not an effect threshold.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed sample variation and PCA only; no confidence intervals because mouse/pool identity and independence are not qualified.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Post-outcome exploratory RNA selection from surviving Foxp3-positive preparations. Sensitivity stability cannot establish biological independence, direct Ezh2 regulation, protein expression, cell function, novelty or target validity.",
+  "stop_rule": "Stop on universe or symbol-join mismatch, nonfinite values or unreconciled S1/S2 contrasts. Retain empty/fragile/biologically unsupported outcomes; do not change ranking after seeing candidates.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/common_fpkm.tsv",
+      "sha256": "c197e58b8071d370c8adf150f5bd15956da639082ea45664f70e2b4f81fdc3c2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s0_qualification_v1/sample_manifest.tsv",
+      "sha256": "a34965093ad5eec75565989b2b613c38ea64eb333d40001ab57daf0c4ee288b2",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s1_reconstruction_v1/gene_contrasts.tsv",
+      "sha256": "d055485a7039ea8319d7e9a8bed5964d1eb6fa288a61505f78931a9ca9ba0bb1",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/interaction.tsv",
+      "sha256": "ce49040775cfbf9ac7b119d33f60c3f54865b7d595294d23508b8e83dbae879e",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s3_regulatory_context_v1/gene_context.tsv",
+      "sha256": "c0d55f6fd48d7b3e16cd8736c14c98cc8068334c6bd715fe656b718561457d37",
+      "study_id": "GSE58998_GSE55773_context",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py",
+      "sha256": "45c08472086b3b7f7faa727239a09045c473336cf2970ad6e95d82e5f7ba71d9"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_candidates.tsv",
+    "review_frontier.tsv",
+    "anchor_lookup.tsv",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New owner-requested DuPage-first exploration after the completed S0-S6 reconstruction. Adds target selection and low-contrast sensitivity; does not supersede frozen results."
+}

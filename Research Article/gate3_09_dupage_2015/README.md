@@ -68,6 +68,11 @@ generalization; see [literature context](LITERATURE_CONTEXT.md).
 
 ## Next biological decision
 
+**Owner-requested follow-up:** a [DuPage-first exploratory target screen](TARGET_SCREEN_PLAN_V1.md)
+now asks which specific RNA changes could motivate identity, survival or
+suppressive-function experiments. Zhang 2026 is optional context. This new
+screen does not change the completed S0–S6 dispositions or validate a target.
+
 The proposed next question is whether regulatory changes appear **within viable
 lineage-labelled HET/KO Tregs under a common activation exposure before changes
 in Foxp3 retention or selective cell loss**. Direct chromatin/RNA, viable absolute
