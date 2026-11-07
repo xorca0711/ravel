@@ -9,6 +9,8 @@ plan and the completed stage results, and does not require a tumor/NK direction.
 [Current target-screen interpretation](TARGET_SCREEN_RESULT.md) and
 [portfolio figures](TARGET_SCREEN_FIGURES.md) distinguish the new exploratory
 candidate proposals from the original planning record below.
+The [biological review](BIOLOGICAL_REVIEW_20261107.md) qualifies candidate
+direction, assay context and readiness before the requested three-way follow-up.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated

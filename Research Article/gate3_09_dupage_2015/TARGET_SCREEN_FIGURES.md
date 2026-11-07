@@ -7,6 +7,8 @@
 All panels are generated from repository tables. Numerical figures are exposed,
 shared-source exploration. **Figure 4 describes proposed experiments.** No panel
 establishes a direct EZH2 target, protein activity, secretion or tissue repair.
+The subsequent [biological review](BIOLOGICAL_REVIEW_20261107.md) qualifies
+Figure 4's assay context and candidate direction; use it with the caption.
 
 ## Figure 1 — qualification changes the reading frontier
 

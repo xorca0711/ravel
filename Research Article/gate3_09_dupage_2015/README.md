@@ -19,6 +19,8 @@ claim grade or human scientific decision was created or promoted.
 
 **New exploratory follow-up:** [32-candidate screen and proposed experiments](TARGET_SCREEN_RESULT.md)
 · [Four-figure portfolio, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
+Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_20261107.md)
+before choosing an experimental comparison.
 This DuPage-first screen is independent of the owner's optional Zhang reading
 direction, but reuses the same exposed DuPage samples; it is not replication.
 

@@ -1,5 +1,10 @@
 # Dp1-P01: literature context
 
+The [7 November biological review](BIOLOGICAL_REVIEW_20261107.md) adds targeted
+source checks of the TIGIT priming/accessory-cell context, CCR2/CD25 inference
+and the IGF paper's reduced-binding ligand. Its qualifications apply to the
+three candidate proposals; prior search records remain below.
+
 Review: **7 November 2026 (Asia/Seoul)**. Base `dcee4b63e11abd27fe2bbc679993b288e913565e`.
 Reason: owner completed DuPage 2015 and requested a biological sequence of
 analysis decisions. This is a bounded primary-source review, not systematic

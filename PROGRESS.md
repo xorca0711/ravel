@@ -3,6 +3,19 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Biological review, PR and three-candidate continuation — 7 November 2026
+
+Owner authorized review, commit, PR and then continuation of TIGIT–PRDM1, CCR2
+and IGFBP4. [Review](Research%20Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md)
+qualifies Igfbp4's cross-state direction, native-IGF versus desIGF1, TIGIT
+priming/accessory context and CCR2/CD25 inference. Numerical outputs and figures
+remain unchanged; no new scientific acceptance is recorded. GitHub connector
+and CLI identities both verified as `xorca0711`; main refreshed at unchanged
+`dcee4b6`. Review validation passed: 17,065 repository checks and the research
+gate against `origin/main`; no numerical replay was needed. Next: commit reviewed package, open PR, then record concrete
+candidate-specific source and assay qualification. No merge or external settings
+change is authorized by this publication request.
+
 ## DuPage-first target-screen follow-up — 7 November 2026
 
 Completed the owner-requested DuPage-first exploration; Zhang 2026 is optional.

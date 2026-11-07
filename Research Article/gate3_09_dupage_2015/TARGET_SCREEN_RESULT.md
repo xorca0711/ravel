@@ -1,5 +1,10 @@
 # DuPage-first target screen and proposal portfolio
 
+**Current interpretation:** read the [biological review](BIOLOGICAL_REVIEW_20261107.md)
+before using the experimental proposals below. It qualifies the IGFBP4 state
+direction, native-ligand requirement, TIGIT assay context and candidate readiness;
+the original numerical results and proposal history are preserved.
+
 7 November 2026. **Exploratory candidate development, not target validation.**
 Dp1-P01 remains article-local. The owner requested a fresh screen from DuPage
 2015 and explicitly made the Zhang 2026 direction optional. Scientific
