@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1.public_source_bindings_v1",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the versioned public-input manifests preserve exact deposited-library identities and the source hashes verified by the completed RNA runs?",
+  "decision": "Register the two source manifests as scientific configuration and verify their existing GEO/receipt bindings without an infrastructure exception or biological rerun.",
+  "strongest_rival": "A plausible cache path could be associated with the wrong sample, histology or source byte identity.",
+  "discriminator": "Exact131 manifest GSM/patient/histology joins to the prior GEO qualification and542 source-file hashes/paths to successful immutable run receipts.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_VALIDATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All source identities and completed public cell/spatial outcomes are exposed. This metadata binding check corrects configuration registration only; no new outcome or state model is estimated.",
+  "biological_unit": "Patient labels retained from the prior GEO qualification; immediate audited units are131 deposited libraries/sections and542 file bindings.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Libraries and sections remain nested in reported patients and share the existing source lineage. No genotype, exact serial-section identity or independent replication is certified.",
+  "population_and_selection": "All75 GSE308103 library entries and all56 GSE307534 section entries in the exact existing manifests.",
+  "contrast": "Manifest identifiers and SHA256 values versus the prior185-record GEO qualification and successful runner input records.",
+  "endpoint": "Verified source configuration joins, exact input-hash agreement and explicit library-level identity limits.",
+  "methods": "Read only existing manifest, GEO and receipt metadata; compare complete rosters, patient/histology labels, basename/GSM paths and hashes, preserving normalized case only for histology strings.",
+  "missingness_and_exclusions": "Missing/duplicate/conflicting identity or source hash stops. No metadata imputation or sample exclusion to make a check pass.",
+  "multiplicity": "Deterministic complete binding checks; no biological test or exploratory score.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata consistency verification has no inferential sample size, effect margin or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Execution-source consistency only. Reported patient labels and cache provenance do not establish genotype, section equivalence, receptor function or scientific acceptance.",
+  "stop_rule": "Stop for any conflicting manifest, GEO identity or frozen receipt input hash; preserve original artifacts and gate settings.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_cells_manifest_v1.json",
+      "sha256": "cb1e1ff44e4f3ba10fbac960f3f1e0b7a17eda36e72ab8c2c4011784740f9003",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_spatial_manifest_v1.json",
+      "sha256": "36d2ee91d4bc2b8d12723206b0a2710cdfc586763fb9da32bd5916f5fce5c02b",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
+      "sha256": "ae9f7d8bc8db677edbd437fe115bdb1c8b6b12851507c59e1e5cf970ae42270f",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+      "sha256": "085df113f0119d7019673290dd48ffa6e36080e218e376a128aaf27ba1a668e0",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_source_bindings_v1.py",
+      "sha256": "28366ff2fdb0e32c5598523d7c287f727ee842cc950a3ce4b69d0bf82ef57b91"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_cells_manifest_v1.json",
+      "sha256": "cb1e1ff44e4f3ba10fbac960f3f1e0b7a17eda36e72ab8c2c4011784740f9003"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_spatial_manifest_v1.json",
+      "sha256": "36d2ee91d4bc2b8d12723206b0a2710cdfc586763fb9da32bd5916f5fce5c02b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_source_bindings_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_bindings.csv",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Base-aware gate found source manifests bound as inputs but not registered as versioned configuration assets. Explicit metadata/code registration resolves that omission without weakening checks."
+}

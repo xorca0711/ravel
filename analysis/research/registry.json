@@ -1269,7 +1269,8 @@
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v1.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v2.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v3.json",
-    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_rationale_render_v2.json"
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_rationale_render_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_source_bindings_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1447,7 +1448,8 @@
     "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
     "analysis/research/runs/Pg1_supplements_v2_20261108/receipt.json",
     "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
-    "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json"
+    "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+    "analysis/research/runs/Pg1_public_rationale_v2_20261108/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
