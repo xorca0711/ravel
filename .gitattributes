@@ -1,9 +1,5 @@
 *.pdf binary
 
-# New Saxton extension freezes retain exact source/config bytes on every platform.
-"Research Article/ungated_saxton_2021_il10/extensions_20261108/**" -text whitespace=cr-at-eol
-"Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/**" -text whitespace=cr-at-eol
-
 # Preserve prospective contract/receipt hashes.
 analysis/research/** -text whitespace=cr-at-eol
 # Metadata contracts hash these source bytes, including on Windows checkouts.

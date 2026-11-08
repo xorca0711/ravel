@@ -8,6 +8,25 @@ register another RQ, or imply human scientific acceptance.
 
 ## Published starting point
 
+**Same-day execution addendum:** [three extension plans and completed source work](EXTENSION_EXECUTION.md)
+now follow this review. Gorby coverage was extended to indexed primary Results
+around Figs. 5–6 (author-manuscript pp. 11–13), RNA methods pp. 24–26 and S7
+legend pp. 45–46. Its CD8 RNA comparison used a six-day culture with ligand during
+activation/expansion, distinct from Saxton's post-activation 24-hour treatment.
+GEO SOFT and twelve per-comparison tables were inspected; a failed common-matrix
+qualification and the narrower estimate endpoint are preserved in the new report.
+The table below records the earlier reading checkpoint, supplemented here.
+
+GEO E-utilities source searches on 8 November used `gds`, `gse[ETYP]`, retmax 20,
+no date filter: IL10/IL18/CD8 synonyms; super-10/10-DE/R5A11/Saxton with IL18;
+IL22 with IFNA/priming; and exact 22-B3 terms. Actual translated queries, all
+returned records, counts and warnings are bound to the source-screen receipts.
+The exact IL10 search dropped an unrecognized R5A11 phrase. All returned summaries
+and sample-title lists were read; full SOFT was additionally read for GSE248984,
+GSE162791, GSE307526, GSE89610 and GSE214633. Neither interaction qualified.
+These are source screens, not a new systematic literature or novelty review.
+The earlier recent-primary scan and its full-text access gaps remain applicable.
+
 | Primary source / version | Actual read and exact locator | What is already specified |
 |---|---|---|
 | [Saxton et al., 2021, IL-10](https://doi.org/10.1126/science.abc8433), supplied final PDF | Reuse completed Results/Figs. 3–5 and CD8/RNA-methods reading; Fig. 5 visually inspected. | Weaker 10-DE and heterogeneous super-10 transcription were already reported in Fig. 5. The repository checks the same source data; it does not discover these patterns or independently validate the paper. |

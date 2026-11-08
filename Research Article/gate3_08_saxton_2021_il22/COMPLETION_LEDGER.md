@@ -1,5 +1,9 @@
 # Completion and hold ledger
 
+**8 November priming extension:** [plan and source screen completed](priming_extension_20261108/RESULTS.md).
+No qualified epithelial B3/WT × IFN-priming source; numerical interaction held.
+The exact missing arms, units and response endpoints are recorded in the plan.
+
 **8 November extension completed:** [Osmr description and bounded sensitivity](osmr_v1/RESULTS.md)
 under Sx22-P01. Population inference and OSM/epithelial/function claims retain
 the exact requirements there; no generic panel analysis was repeated.

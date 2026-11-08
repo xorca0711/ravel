@@ -5,7 +5,9 @@ and [dated literature attribution](POST_RESULT_LITERATURE.md) connect the comple
 results to older and 2025–2026 precedents. The modeling code's reuse of GSE160332
 is now verified; the manuscript remains unread. Proposed extensions concern
 output transportability and defined co-input/priming contexts, with acute Osmr's
-unfavorable result retained. No new biological run or accepted RQ is created.
+unfavorable result retained. The [extension plans and execution](EXTENSION_EXECUTION.md)
+now record completed source screens and a Gorby three-target description;
+the two numerical interactions remain held. No accepted RQ is created.
 
 **Execution follow-through:** [IL-10 completed results and holds](../../../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
 and [IL-22 Osmr results](../../../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)

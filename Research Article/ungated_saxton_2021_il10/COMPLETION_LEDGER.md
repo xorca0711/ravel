@@ -4,6 +4,8 @@
 
 | Stage | Disposition | Evidence or exact requirement |
 |---|---|---|
+| Extension: Gorby output transport | Completed with prospective endpoint adaptation | [Result](extensions_20261108/RESULTS.md): common matrix failed; reported-estimate description, all fixed sensitivities and independent scalar verification completed |
+| Extension: ligand × IL-18 | Source screen completed; interaction held | [Plan and missing evidence](extensions_20261108/PLAN.md): matched human CD8 variant × IL-18 arms, units and protein/response endpoints required |
 | 0: evidence map | Completed for final paper, RNA methods, Figure5 and accessible PMC version; S9 held | [Assay map](SOURCE_EVIDENCE.md); obtain S9 and exact display processing for any exact-replay claim |
 | 1: source/unit qualification | Completed; donor inference held | [Qualified joins and correction](SOURCE_QUALIFICATION.md); donor/preparation IDs, allocation, nesting and pairing needed for population inference |
 | 2: technical eligibility | Completed | Count/FPKM exact stable-ID alignment, QC, coverage and correlations; no excluded library |

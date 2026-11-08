@@ -1,9 +1,18 @@
 # Where the completed Saxton analyses can lead
 
-8 November 2026. **Article-local discussion under Sx10-P01 and Sx22-P01; no new
-accepted RQ or numerical run.** This dossier uses the current results at `16627aa`
-and the [dated primary-literature review](POST_RESULT_LITERATURE.md). Outcomes
-were already exposed. Proposals below are not amendments to frozen contracts.
+8 November 2026. **Article-local development under Sx10-P01 and Sx22-P01; no new
+accepted RQ.** The [three-route execution record](EXTENSION_EXECUTION.md) now
+supplements the original results at `16627aa` and the
+[dated primary-literature review](POST_RESULT_LITERATURE.md). Outcomes were
+already exposed. The original rationale below is retained; new versioned
+contracts, source amendment and reports own the completed extension work.
+
+**Current narrowing:** the Gorby reported estimates do not reproduce opposing
+IFNG/GZMB directions at either dose. All three targets favor the enhanced ligand
+at 0.1 nM and WT at 50 nM; high-dose IL18RAP is calculation/omission-sensitive.
+This motivates a matched ligand/dose/activation comparison, with source
+normalization limits unresolved. Both interaction source screens completed
+without a qualified dataset. Their matched response experiments remain proposals.
 
 ## What is worth narrowing
 
@@ -13,7 +22,7 @@ established. The current data nominate comparisons, not causal targets.
 
 | Route | Existing observation → remaining question | Plausible contribution / next decision |
 |---|---|---|
-| IL-10 output separation | Super-10 raises IFNG/IL18RAP relative to WT but lowers GZMB/IL22/SOCS3. Is this relationship reproducible with another affinity-enhanced ligand, dose and preparation? | Start with a distinct-study transportability screen, conditional on source qualification. This extends description beyond the same eight libraries; it is not a mechanism or exact replication. |
+| IL-10 output separation | Super-10 raises IFNG/IL18RAP relative to WT but lowers GZMB/IL22/SOCS3. Gorby's reported estimates do not retain that split at either tested dose. | Source description completed after a narrower endpoint amendment. Next: matched ligand/dose/activation context and protein outputs; no causal factor identified. |
 | IL-10 co-input dependence | IL18RAP RNA nominates a response-capacity question, but IL-10/IL-18 cooperation is old literature. Does ligand choice alter the incremental response to IL-18 in activated human CD8 cells? | A specific variant-by-partner boundary test. Requires matched response data; RNA or a receptor score cannot answer it. |
 | IL-22 context dependence | The B3 acute colon result has no stable Osmr induction; the broader transcriptional distinction also includes attenuation. Does B3 retain its STAT/output separation after defined IFN priming? | A priming-by-ligand boundary test, building on Bachmann rather than claiming priming itself is new. No qualified B3/WT priming dataset found in this bounded pass. |
 
@@ -149,9 +158,9 @@ any new myeloid-selectivity proposal; the modeling preprint must be assessed
 before proposing another threshold model. Abstract-only coverage is insufficient
 for final experimental specification.
 
-**Completed here:** literature/source-overlap review, cross-paper synthesis and
-proposed comparison narrowing. **Not run:** a new gene screen, model, atlas,
-structure prediction or wet-lab experiment. Next executable work is a scoped
-GSE146438 source qualification under a new prospective contract, if pursuing
-the IL-10 computational route. The parent technical audit of the prior handoff
-and scientific adoption remain separate from this documentation review.
+**Completed:** literature/source-overlap review, cross-paper synthesis, plans for
+all three routes, source qualification/screens and the fixed Gorby reported-estimate
+description. **Held:** both numerical interactions and laboratory execution for
+the missing evidence stated in their plans. No broader gene screen, model, atlas
+or structure prediction was added. The parent technical audit of the earlier
+handoff and human scientific adoption remain separate from this execution.

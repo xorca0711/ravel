@@ -3,6 +3,37 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton extension plans and executed stages - 8 November 2026
+
+[Execution overview](docs/research_reviews/2026-11-08-saxton-reading/EXTENSION_EXECUTION.md)
+links plans for all three routes, the completed Gorby reported-estimate description
+and both completed interaction-source screens. The common-expression-matrix
+qualification failed and remains held; the prospective narrower endpoint was
+frozen at `d31c123`. All three targets favor R5A11D at 0.1 nM and WT at 50 nM in
+the reported estimates, unlike Saxton's opposing IFNG/GZMB directions. High-dose
+IL18RAP is sensitive to calculation/omission. Independent raw-input arithmetic
+passed 324 checks; the six-panel PNG was inspected. No population inference.
+
+No screened source qualified for human CD8 engineered-IL10 × IL18 or epithelial
+B3/WT × IFN priming. Numerical interactions and bench work remain held for the
+exact arms, units, response endpoints and feasibility recorded in their plans.
+The next biological work is a matched ligand/dose/activation or co-input comparison,
+after those specifications are qualified; no further broad gene screen is queued.
+Bachmann/modeling full-text access and the earlier parent technical audit remain
+open. Published premises have author/year attribution; no RQ/claim promotion.
+
+The exact-byte freeze correction and the failed original source qualification
+are preserved. Three v2 screens ran at `4fb14dd`; the numerical stage at `d31c123`.
+The final gate initially caught a Choi dependency on root `.gitattributes`;
+its exact bytes were restored and equivalent serialization rules placed inside
+the new Saxton folders. Validation now passes: base-aware research gate, all
+five extension receipts, 17,756 repository checks, 18 unchanged claim bindings
+and 167 tests (two skipped). Original numerical/archive checks are reused;
+no biological reruns were needed for the attribute repair. Refetched origin/main
+remains `4318740`. No push or main merge; original-checkout edits and historical
+byte-preservation paths are preserved. Required policy review and externally
+configured branch protections remain separate from these passing local checks.
+
 ## Saxton question development and attribution rule - 8 November 2026
 
 The [dated literature review](docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
@@ -11,7 +42,7 @@ connect the completed Saxton results with older and 2025–2026 primary work.
 Author code now verifies the modeling preprint's GSE160332 reuse; it cannot be
 counted as independent validation. Acute B3/Osmr's unfavorable finding is retained.
 Plausible next comparisons concern IL-10 output transportability/co-inputs and
-IL-22 priming boundaries; none is run or adopted. First computational intake,
+IL-22 priming boundaries; at that checkpoint none was run or adopted. First computational intake,
 if pursuing that route: qualify GSE146438 donor/design/unselected-matrix records
 under a prospective contract. Full modeling/Bachmann access and the earlier
 parent technical audit remain open; no portfolio-wide search is queued.

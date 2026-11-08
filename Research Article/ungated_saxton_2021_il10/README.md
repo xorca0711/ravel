@@ -11,8 +11,10 @@ were already reported by Saxton et al. (2021), Fig. 5, using the same source.
 The [dated attribution review](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
 also verifies that a 2026 modeling preprint's public code reuses GSE160332.
 The [development dossier and diagram](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
-propose a separate-study output comparison and a conditional IL-18 response test;
-neither is executed or accepted. Source verification does not establish mechanism.
+now link the [completed extension plans, Gorby description and IL-18 source screen](extensions_20261108/RESULTS.md).
+The Gorby reported estimates do not reproduce the opposing IFNG/GZMB pattern at
+either dose; the IL-18 interaction remains held for missing matched response
+data. These are exposed source descriptions, not scientific acceptance or mechanism.
 
 This is the existing roadmap paper **7, Gate 3A**. The `ungated_` folder label
 was assigned during technical intake; it is a retained path exception, not a

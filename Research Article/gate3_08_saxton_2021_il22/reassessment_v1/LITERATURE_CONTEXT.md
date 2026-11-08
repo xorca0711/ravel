@@ -1,5 +1,10 @@
 # Sx22-P01: literature context for program reassessment
 
+**Priming extension, 8 November:** the [plan and completed public-source screen](../priming_extension_20261108/RESULTS.md)
+retain Bachmann's published priming premise and the acute Osmr negative result.
+No inspected source supplies epithelial WT/B3 crossed with IFN priming. This
+updates execution status, not the earlier frozen program analysis or claim grade.
+
 **Post-result update, 8 November:** [literature attribution](../../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
 and [question-development dossier](../../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
 incorporate the completed unfavorable [Osmr comparison](../osmr_v1/RESULTS.md).

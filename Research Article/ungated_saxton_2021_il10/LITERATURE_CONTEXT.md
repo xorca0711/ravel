@@ -1,5 +1,14 @@
 # Literature and source context
 
+**Extension execution, 8 November:** [three-target Gorby results and IL-18 screen](extensions_20261108/RESULTS.md)
+now supplement the original Saxton description. Gorby's indexed primary
+Figs. 5–6 Results (author manuscript pp. 11–13), RNA methods (pp. 24–26) and
+S7 legend (pp. 45–46) were read. Low-dose enhancement was already specified by
+Gorby et al. (2020); our estimates reuse that source. The failed common matrix,
+narrower reported-estimate endpoint and high-dose sensitivity are retained.
+The [execution overview](../../docs/research_reviews/2026-11-08-saxton-reading/EXTENSION_EXECUTION.md)
+separates completed source work from unexecuted protein/co-input experiments.
+
 **Post-result update, 8 November:** [dated literature attribution](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
 and [development dossier](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
 now distinguish the already-published source patterns, independent-study questions
