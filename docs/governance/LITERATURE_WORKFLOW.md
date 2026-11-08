@@ -65,7 +65,7 @@ for a useful question. Do not turn absence of a search hit into “novel” or �
 
 ## Save the argument where the question is read
 
-Use the [context template](templates/LITERATURE_CONTEXT.md). In a dedicated RQ
+Use the [context template](../templates/LITERATURE_CONTEXT.md). In a dedicated RQ
 folder maintain `LITERATURE_CONTEXT.md`; questions with existing article/shared
 workspaces use dossier companions and a link from that source entrypoint. Keep
 article-local candidates in their article namespace until authorized registration.
@@ -110,5 +110,5 @@ checks do not verify that a search was performed or that a source supports a
 claim. Source interpretation and governance changes require explicit review;
 protected integration remains an external setting, not a property of prose.
 
-[Current question context index](../RQ_Specified/README.md)
+[Current question context index](../../RQ_Specified/README.md)
 contains the applied example and its honest search/access limits.

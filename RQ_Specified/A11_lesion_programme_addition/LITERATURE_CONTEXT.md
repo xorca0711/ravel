@@ -53,7 +53,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `HPCS regenerative stress programme residual lesion signature independent nonneoplastic comparator 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `HPCS regenerative stress programme residual lesion signature independent nonneoplastic comparator 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** The evidence does not yet identify a component with robust contextual specificity and an independently measured biological consequence.
 

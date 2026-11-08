@@ -3,24 +3,24 @@
 [Biological topic navigation](RESEARCH_TOPICS.md) connects related RQs and paper
 packages while retaining their existing evidence owners and stable paths.
 
-**Current navigation, 4 November 2026:** the [registry](../analysis/research/registry.json)
-locates all 33 canonical questions, A0–A32. Read [PROGRESS](../PROGRESS.md), the
-[current question arguments](../RQ_Specified/README.md) and the
-[rationale review](research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
-for current contributions and limits. The [October portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md)
+**Current navigation, 4 November 2026:** the [registry](../../analysis/research/registry.json)
+locates all 33 canonical questions, A0–A32. Read [PROGRESS](../../PROGRESS.md), the
+[current question arguments](../../RQ_Specified/README.md) and the
+[rationale review](../research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
+for current contributions and limits. The [October portfolio synthesis](../portfolio_extensions/2026-10-07/SYNTHESIS.md)
 and September execution checkpoints below retain their original scope;
-[Weft intake](../weft_intake/README.md) remains a separate pilot.
+[Weft intake](../../weft_intake/README.md) remains a separate pilot.
 
-**Historical execution checkpoint:** the [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+**Historical execution checkpoint:** the [28 September gap-fill ledger](../roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 records A15 correction, corrected A16 C1, A17 source accounting and independent
 A5/A12 data gates across all 20 question entries. The earlier
-[follow-through](roadmap_runs/2026-09-27-followthrough/README.md) retains the A12/A13
+[follow-through](../roadmap_runs/2026-09-27-followthrough/README.md) retains the A12/A13
 exploratory pilots. Historical run hashes remain snapshots; living-context
 changes do not rewrite earlier measurements.
 
-The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the P1 source facts and P4 accounting evidence recorded at that checkpoint. Completed feasibility work does not imply its biological gate has passed.
+The [roadmap execution record](../roadmap_runs/2026-09-27/README.md) supplies the P1 source facts and P4 accounting evidence recorded at that checkpoint. Completed feasibility work does not imply its biological gate has passed.
 
-Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. The subsequent September question scope was A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
+Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](../audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. The subsequent September question scope was A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
 
 **Project scope, updated 7 October 2026:** Ravel develops and discriminates
 biological hypotheses through paper reading and public-data reanalysis across
@@ -56,7 +56,7 @@ One study can inform several questions, but reuse never adds independent evidenc
 | Current state and amendments | RQ README, `PROGRESS.md`, `AI_CONTEXT.md` | Latest dated interpretation overrides a stale execution queue, not historical numbers |
 | Historical protocols and run records | Frozen configs, reports, hashes and archives | Preserve original bytes; record corrections and exposure rather than retroactively changing a freeze |
 
-The [27 September audit](audits/2026-09-27-rq-rationale/REPORT.md) and its A2/A15 addenda
+The [27 September audit](../audits/2026-09-27-rq-rationale/REPORT.md) and its A2/A15 addenda
 govern the corrected interpretations described there. Historical labels such as
 `weak bound` and `null` remain in frozen run records and are not current evidence
 grades. A15 is present in the current canonical register; its proposed scientific
@@ -102,16 +102,16 @@ decision. Prefer recovering a missing preparation map, comparable state definiti
 or linked endpoint over adding another correlated score. If no possible result of
 the proposed calculation can distinguish the stated rivals, stop at feasibility.
 
-The [27 September audit](audits/2026-09-27-rq-rationale/REPORT.md#critical-logical-gaps-still-open)
+The [27 September audit](../audits/2026-09-27-rq-rationale/REPORT.md#critical-logical-gaps-still-open)
 records the gaps identified at that checkpoint. The associated
-[research roadmap](history/planning/RESEARCH_ROADMAP.md) developed six work packages, biological
+[research roadmap](../history/planning/RESEARCH_ROADMAP.md) developed six work packages, biological
 rationales, data requirements and proceed/stop decisions. Current question
 arguments and result amendments record later work and remaining uncertainties;
 the dated roadmap does not restart completed fits or authorize a new run.
 
 ## A21 extension boundary, 30 September 2026
 
-[Source reconstruction and family mapping](../RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md)
+[Source reconstruction and family mapping](../../RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md)
 refine vascular maintenance versus capillary lineage specificity. Tumor structural
 rescue, upstream Foxf1-loss perfusion and adult atlas RNA remain separate evidence
 layers. The extension adds no adult-lung causal join, compensation claim or

@@ -71,7 +71,7 @@ The following records preserve dated searches, access limits, outcome exposure,
 earlier interpretations and review blocks. Read current results/amendments above
 before any older plan. Planned queries remain plans; an absent hit never proves
 novelty or global data absence. A newly specified comparison needs its relevant
-source review under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+source review under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md).
 
 <details>
 <summary>Dated source searches and retained development notes</summary>
@@ -132,7 +132,7 @@ Planned, not reported as newly executed: forward citations of the closest
 inspected primary sources above, and the queries recorded as pending in the
 [package literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md).
 Expand to synonyms and contrary findings using the
-[literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact
+[literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact
 population, comparison, timing, unit and endpoint before making any stronger
 contribution claim.
 

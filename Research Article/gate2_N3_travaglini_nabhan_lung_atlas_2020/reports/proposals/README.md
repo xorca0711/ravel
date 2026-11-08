@@ -125,7 +125,7 @@ scientific decision. Feasibility problems should narrow the next experiment,
 not erase an interesting question. No new canonical number is assigned here.
 
 The common contract follows
-[research architecture](../../../../docs/RESEARCH_ARCHITECTURE.md) and
+[research architecture](../../../../docs/guides/RESEARCH_ARCHITECTURE.md) and
 [measurement contracts](../../../../docs/RQ_MEASUREMENT_CONTRACTS.md).
 The earlier immutable runs and their negative/inconclusive results remain
 unchanged. Main README stays universal.

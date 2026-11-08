@@ -34,19 +34,19 @@ Do not infer current state from an old checkout, an old plan or a chat summary.
 - A missing downstream functional measurement limits the claim it would support. An informative upstream or partial descriptive screen may proceed within its own qualified scope. Name the exact missing input and dependent step; a failed access route or one file's missing fields does not establish source-wide absence. Preserve valid stop rules and do not relax them to obtain a favorable result.
 - Keep the question README's current biological progression easy to read: organizing question, literature/visual evidence, what screening changed, and next biological decision, followed by execution history. Link related RQs by the distinct comparisons they own; do not merge, retire or duplicate IDs to tidy the narrative. Keep current README/context/dossier statements aligned rather than stacking contradictory completion banners.
 
-Apply the [decision workflow](docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
+Apply the [decision workflow](docs/governance/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
 before expanding a screening sequence. These instructions guide review; they do
 not replace the research contract, change claim authority or guarantee compliance.
 
 ## Skills, plugins and source tools
 
-- Select a skill or connector for an identified biological, source, annotation or implementation need. Discover what is actually available in the current session and read the selected skill's instructions before applying it. Repository mentions are examples, not proof that a plugin is connected or a workflow is ready. Use the [capability guide](docs/AGENT_DECISION_WORKFLOW.md#using-skills-and-connectors) when choosing a route.
+- Select a skill or connector for an identified biological, source, annotation or implementation need. Discover what is actually available in the current session and read the selected skill's instructions before applying it. Repository mentions are examples, not proof that a plugin is connected or a workflow is ready. Use the [capability guide](docs/governance/AGENT_DECISION_WORKFLOW.md#using-skills-and-connectors) when choosing a route.
 - Prefer a suitable connected tool or existing qualified local implementation when it can do the work. Preserve the intended comparison, matrix semantics and biological units; switching to a familiar package or rerunning a pipeline is not automatically an improvement. Skill guidance does not override the owner's scope, research contracts or service permissions.
 - Retain the source/accession/version, relevant request parameters, access limits and saved evidence needed to reproduce consequential tool-derived findings. Distinguish metadata retrieval, annotation, workflow execution and scientific interpretation. An unavailable connector or failed API call is not proof of absent data: consider an appropriate documented API, public source file or local method within scope before recording the exact limitation. Do not run a portfolio-wide tool census or source search for every question.
 
 ## Literature-grounded question development
 
-- When deriving or materially reframing an RQ from reproduction/branch evidence, or preparing an experiment package, follow [docs/LITERATURE_WORKFLOW.md](docs/LITERATURE_WORKFLOW.md). Search relevant recent primary literature beyond the existing bibliography and target PIs, together with the closest older precedents and contrary findings.
+- When deriving or materially reframing an RQ from reproduction/branch evidence, or preparing an experiment package, follow [docs/LITERATURE_WORKFLOW.md](docs/governance/LITERATURE_WORKFLOW.md). Search relevant recent primary literature beyond the existing bibliography and target PIs, together with the closest older precedents and contrary findings.
 - Record actual search date, queries, coverage, source version, access and exact figure/result locators. Explain published finding → repository observation → remaining question → fit-for-purpose comparison → informative outcomes. For hypothesis-driven work, include the prediction and relevant alternatives. Separate completed reads from planned searches and shared-source reanalysis from replication.
 - Keep published mechanisms as explicit premises. State whether the contribution is replication, model discrimination or a justified extension; do not infer novelty from absent search hits or a changed label/context alone.
 - After reviewing literature relevant to a completed/committed analysis, annotate the current result interpretation when a primary study explicitly addresses an observed pattern. Name the authors and year, cite the exact figure/result, and state which repository observation it addresses: for example, "This pattern was already reported by Author et al. (year), Fig. X, in [context]." Distinguish directly tested explanations, consistent/related evidence, contradictions and unresolved overlap; correlation alone does not establish that the literature explains our result. Record source-version and access limits, and explicitly flag reused datasets rather than count them as independent support.
@@ -66,7 +66,7 @@ not replace the research contract, change claim authority or guarantee complianc
 - Changes to governance, validators and interpretation boundaries need explicit review; agents must not weaken checks to make their own work pass.
 - Instructions assist compliant agents; runtime gates and protected integration provide enforcement. Never claim these files control arbitrary tools or guarantee scientific truth.
 
-See [the decision workflow](docs/AGENT_DECISION_WORKFLOW.md) for work-type routing,
+See [the decision workflow](docs/governance/AGENT_DECISION_WORKFLOW.md) for work-type routing,
 the mutant/control example and the distinction between instructions, runtime
 checks and human scientific decisions. Topic-specific assays and designs belong
 in their own question plans, not in repository-wide agent policy.

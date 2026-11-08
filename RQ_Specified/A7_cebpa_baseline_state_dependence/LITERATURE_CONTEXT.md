@@ -53,7 +53,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `CEBPA alveolar baseline cell state interaction identity loss lineage 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `CEBPA alveolar baseline cell state interaction identity loss lineage 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** How much of the apparent reference-versus-transition compression survives independent state definitions and valid biological replication is unresolved. Broad identity change and an additional state interaction can coexist.
 

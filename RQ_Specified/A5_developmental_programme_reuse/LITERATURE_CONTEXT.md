@@ -163,7 +163,7 @@ This pilot reuses that record rather than claiming a fresh search.
 
 If a new localization/state comparison is proposed, refresh the exact population,
 protein/localization endpoint and productive-versus-persistent outcome linkage
-under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). The older planned
+under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). The older planned
 query `fixed developmental gene component adult alveolar repair independent animals replication`
 remains a possible replication-branch search, not a newly executed search or an
 automatic continuation task. Old conditional packages do not authorize new work.

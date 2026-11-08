@@ -7,7 +7,7 @@ links each question to its current scientific argument and measured contribution
 The [rationale review](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
 distinguishes supported observations, exploratory leads and unresolved interpretations.
 The registered cards and historical hypotheses below remain unchanged.
-[Topic-guided navigation](docs/RESEARCH_TOPICS.md) links related questions and paper
+[Topic-guided navigation](docs/guides/RESEARCH_TOPICS.md) links related questions and paper
 packages without changing these IDs or assigning scientific acceptance.
 
 **Registration update — 2 November 2026:** [A32](#a32) develops the distinct
@@ -81,7 +81,7 @@ historical results and claim grades are unchanged.
 **Roadmap execution, 27 September 2026:** [package results](docs/roadmap_runs/2026-09-27/README.md). P1 recovered split-well replication and supplemented EGF in the screen; P2 replication remains gated, and P4 quantifies source-attribution uncertainty. Current interpretations below retain the original numerical results.
 
 **Interpretation audit, 27 September 2026:** [all questions and trials](docs/audits/2026-09-27-rq-rationale/REPORT.md);
-[shared research architecture](docs/RESEARCH_ARCHITECTURE.md). A2 and A15
+[shared research architecture](docs/guides/RESEARCH_ARCHITECTURE.md). A2 and A15
 interpretations below incorporate the dated corrections; recorded estimates,
 thresholds and historical claim grades are unchanged.
 The [research roadmap](docs/history/planning/RESEARCH_ROADMAP.md) structures proposed next work, biological context and stop rules.
@@ -1707,7 +1707,7 @@ outcomes need not be forced into a binary winner.
 This clarification replaces the universal causal/directional-process requirement
 of 29 September while retaining endpoint validity and interpretation limits. No
 existing question is retired or automatically promoted. See the
-[instruction review and decision workflow](docs/AGENT_DECISION_WORKFLOW.md).
+[instruction review and decision workflow](docs/governance/AGENT_DECISION_WORKFLOW.md).
 
 Before a new substantive fit, freeze its estimand, biological unit, eligibility,
 primary comparison, multiplicity and exposure in the appropriate contract. State

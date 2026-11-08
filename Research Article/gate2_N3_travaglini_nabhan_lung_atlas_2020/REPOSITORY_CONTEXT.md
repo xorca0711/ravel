@@ -36,7 +36,7 @@ context; only its local retrospective review was available here.
 | [Nabhan 2026 / Nb3](../gate2_N2_nabhan_2026/README.md) | Source-first work, species-separated measurements, explicit reproduction mismatches | Organoid bulk wells are not human atlas donors |
 | [HLCA 2023](../gate1_04_sikkema_2023_hlca/README.md) | Hierarchical labels, uncertainty and reference dependence | Determine whether Travaglini donors contributed to the reference before calling transfer independent |
 | [Yu/Lee/Choi/Min](../gate2_C3_yu_lee_choi_min_2026/README.md) | Compartment coverage before niche analysis; source/receiver distinctions | Fibrotic or tumor-state labels are not normal-atlas identities |
-| [Shared architecture](../../docs/RESEARCH_ARCHITECTURE.md) | Unit -> measurement -> rival -> decision -> independent outcome | Arithmetic correctness does not establish biological validity |
+| [Shared architecture](../../docs/guides/RESEARCH_ARCHITECTURE.md) | Unit -> measurement -> rival -> decision -> independent outcome | Arithmetic correctness does not establish biological validity |
 
 The [research roadmap](../../docs/history/planning/RESEARCH_ROADMAP.md) places this contribution
 primarily under source/receiver identity and coverage (P4) and measurement

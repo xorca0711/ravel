@@ -20,7 +20,7 @@ The owner authorized committing, opening a PR and merging the completed rational
 
 ### What is complete: do not repeat it
 
-1. Repository-wide A0–A15/A12-S1 audit, context synchronization and biological roadmap: [architecture](../RESEARCH_ARCHITECTURE.md), [audit](../audits/2026-09-27-rq-rationale/REPORT.md), [roadmap](../history/planning/RESEARCH_ROADMAP.md).
+1. Repository-wide A0–A15/A12-S1 audit, context synchronization and biological roadmap: [architecture](../guides/RESEARCH_ARCHITECTURE.md), [audit](../audits/2026-09-27-rq-rationale/REPORT.md), [roadmap](../history/planning/RESEARCH_ROADMAP.md).
 2. [P0–P5 execution](../roadmap_runs/2026-09-27/README.md): outcome ledger; 886-library screen crosswalk; source supplement recovery; A5 candidate gates; regulatory/fate linkage audit; IL1B assignment bounds; selective post-entry experimental design.
 3. [Follow-through](../roadmap_runs/2026-09-27-followthrough/README.md): A12 and A13 exploratory 12-patient paired pilots, 18 additional GEO records, 76,070-cell external annotation coverage and experimental precision scenarios.
 4. A12 epithelial held-out RMSE improved from 0.4271 to 0.3244 with recipient context; fibroblast increment was unstable. This is exposed discovery data, not independent validation or IL1-specific activation.

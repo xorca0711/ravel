@@ -49,7 +49,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `spleen CD8 ageing repertoire concentration within state composition ascertainment 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `spleen CD8 ageing repertoire concentration within state composition ascertainment 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** Fine differentiation states, their independent definition, receptor recovery denominators and adequate mouse-level support remain unqualified. The common-depth eligibility minimum is not a power calculation. GSE145562 pools mice and cannot supply individual replicates without recovered identity.
 

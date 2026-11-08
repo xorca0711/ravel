@@ -1,6 +1,6 @@
 # Measurement contracts supporting the research questions
 
-Current authority: [research architecture](RESEARCH_ARCHITECTURE.md) and
+Current authority: [research architecture](guides/RESEARCH_ARCHITECTURE.md) and
 [27 September rationale audit](audits/2026-09-27-rq-rationale/REPORT.md).
 The audit corrects A2 depth/null interpretations and A15 purity/mediator/gate
 interpretations without replacing frozen numerical records.

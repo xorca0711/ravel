@@ -52,7 +52,7 @@ Qualification of all three: [DATASETS.md](../DATASETS.md),
 
 ## Contribution descriptions
 
-Per [the literature workflow](../../../docs/LITERATURE_WORKFLOW.md), stated as
+Per [the literature workflow](../../../docs/governance/LITERATURE_WORKFLOW.md), stated as
 descriptions and not as a ranking:
 
 - **Wp-Q1** — model discrimination between a one-axis and a two-competence

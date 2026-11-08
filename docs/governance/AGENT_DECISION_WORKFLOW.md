@@ -7,13 +7,13 @@ declared workflow and observable checks, not a claim to expose a model's private
 reasoning or guarantee that arbitrary tools obey Markdown. Instruction changes
 are explicit review material; no human scientific acceptance is inferred.
 
-The [7 October workflow illustration](schematics/agent_decision_workflow_v1.svg)
+The [7 October workflow illustration](../schematics/agent_decision_workflow_v1.svg)
 is retained as history. The current decision sequence is described below.
 
 ## What the 7 October instruction audit found
 
-Tracked instruction inventory: root [AGENTS.md](../AGENTS.md) and
-[CLAUDE.md](../CLAUDE.md). No nested AGENT/AGENTS file is tracked; CLAUDE.md points
+Tracked instruction inventory: root [AGENTS.md](../../AGENTS.md) and
+[CLAUDE.md](../../CLAUDE.md). No nested AGENT/AGENTS file is tracked; CLAUDE.md points
 to the same policy. The user-supplied session instructions also govern this task;
 this change does not edit personal/global agent settings.
 

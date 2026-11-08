@@ -750,7 +750,7 @@ The former Yu RQ1–RQ4 are now A11–A14 in
 [RESEARCH_QUESTIONS.md](RESEARCH_QUESTIONS.md); their six shared figures,
 plotted tables and scripts moved into the established `analysis/` layout.
 Paper-specific inference and its 17 figures stay with the paper. The
-[structure contract](docs/REPOSITORY_STRUCTURE.md) documents label namespaces
+[structure contract](docs/guides/REPOSITORY_STRUCTURE.md) documents label namespaces
 and the original-to-current path mapping.
 
 The original UMAP/PCA preparation and scientific table bytes were preserved;

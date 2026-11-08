@@ -44,4 +44,4 @@ ranked, retired, promoted or accepted by this ledger.
 Current biological hypotheses are proposals. A fit-for-purpose mutant/control
 contrast can estimate an effect; no universal rescue or extra rival arm is
 imposed. Add those measurements only when the intended inference requires them.
-The existing [agent workflow](../../AGENT_DECISION_WORKFLOW.md) remains applicable.
+The existing [agent workflow](../../governance/AGENT_DECISION_WORKFLOW.md) remains applicable.

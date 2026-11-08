@@ -51,7 +51,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `microglia middle age hippocampus continuous mixture intermediate state animal replication 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `microglia middle age hippocampus continuous mixture intermediate state animal replication 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** The male-cortex configuration, feature/model specification and supported population were fixed for the completed comparison. A transport study still needs independently mapped animals and compatible age, sex, regional sampling and endpoints; the mixed internal result supplies no universal configuration.
 

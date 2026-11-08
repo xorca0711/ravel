@@ -5,7 +5,7 @@
 
 # Documentation Index
 
-**Current navigation — 7 November 2026:** [biological topic map](../../RESEARCH_TOPICS.md)
+**Current navigation — 7 November 2026:** [biological topic map](../../guides/RESEARCH_TOPICS.md)
 connects all 33 RQs and 19 paper packages. [Current question arguments](../../../RQ_Specified/README.md),
 [reviewed rationale](../../research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
 and [project state](../../../PROGRESS.md) own current findings and work status.
@@ -18,7 +18,7 @@ and [project state](../../../PROGRESS.md) own current findings and work status.
 | Questions, evidence and next comparisons | [Question homes](../../../RQ_Specified/README.md), [dossiers](../../research_dossiers/README.md), [registry](../../../analysis/research/registry.json) |
 | Papers, reading permissions and analyses | [Article index](../../../Research%20Article/README.md) and [roadmap data](../../../Research%20Article/ROADMAP.json) |
 | Public sources and local cache inventory | [Dataset inventory](../../DATASETS.md), [source-use update](../source-inventories/DATASET_UPDATES_2026-11-07.md) |
-| Directory ownership and evidence rules | [Structure](../../REPOSITORY_STRUCTURE.md), [architecture](../../RESEARCH_ARCHITECTURE.md), [governance](../../RESEARCH_GOVERNANCE.md) |
+| Directory ownership and evidence rules | [Structure](../../guides/REPOSITORY_STRUCTURE.md), [architecture](../../guides/RESEARCH_ARCHITECTURE.md), [governance](../../RESEARCH_GOVERNANCE.md) |
 | Verification and handoff | [Reproducibility](../../../REPRODUCIBILITY.md), [project state](../../../PROGRESS.md) |
 
 ## Dated reviews and planning history
@@ -46,7 +46,7 @@ Current schematic review: [all 33 reviewed cellular figures and biological-detai
 
 **2 November navigation hygiene and RQ registration:** [audit and checks](../../audits/2026-11-02-navigation-hygiene/REPORT.md) · [six-candidate scope assessment](../../audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md). Root navigation stays collection-level; paper galleries stay article-owned. The illustrated guide includes proposed A32 and a separate article-local crosswalk.
 
-**Portfolio presentation and history:** [portfolio summary](../../PORTFOLIO_SUMMARY.md)
+**Portfolio presentation and history:** [portfolio summary](../../portfolio/PORTFOLIO_SUMMARY.md)
 and [25 October summary synchronization](../../audits/2026-10-25-summary-synchronization/REPORT.md).
 The [12 October Weft intake](../../../weft_intake/README.md) is a reviewed trial handoff;
 it does not supersede the existing question portfolio.
@@ -77,9 +77,9 @@ Evidence summaries: [claim register](../../../CLAIMS.md), [claim summary](../../
 and [negative-results index](../../NEGATIVE_RESULTS.md). The summaries are generated
 from the register; corrections belong in their source records.
 
-Repository guides: [structure and label scope](../../REPOSITORY_STRUCTURE.md),
-[research architecture](../../RESEARCH_ARCHITECTURE.md),
-[reproducibility](../../../REPRODUCIBILITY.md) and [portfolio summary](../../PORTFOLIO_SUMMARY.md).
+Repository guides: [structure and label scope](../../guides/REPOSITORY_STRUCTURE.md),
+[research architecture](../../guides/RESEARCH_ARCHITECTURE.md),
+[reproducibility](../../../REPRODUCIBILITY.md) and [portfolio summary](../../portfolio/PORTFOLIO_SUMMARY.md).
 The [next-dataset gate](../planning/NEXT_DATASET_GATE.md) is a historical design with links
 to the resulting analyses. Dated reviews, including the
 [England source review](../../audits/2026-09-28-england-paper-rqs/REPORT.md), retain their

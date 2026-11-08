@@ -52,7 +52,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `NKX2-1 alveolar fibroblast chemokine extracellular protein output viable source`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `NKX2-1 alveolar fibroblast chemokine extracellular protein output viable source`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** Within-state chemokine induction has not been separated from fibroblast abundance/selection, epithelial amount and a dominant perturbation-specific effect.
 

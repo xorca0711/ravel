@@ -70,7 +70,7 @@ The following records preserve dated searches, access limits, outcome exposure,
 earlier interpretations and review blocks. Read current results/amendments above
 before any older plan. Planned queries remain plans; an absent hit never proves
 novelty or global data absence. A newly specified comparison needs its relevant
-source review under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+source review under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md).
 
 <details>
 <summary>Dated source searches and retained development notes</summary>
@@ -107,7 +107,7 @@ A smaller early competent pool followed by reduced mature output is compatible w
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `AF1 Fzd2 Fzd1 matched receptor competent AT2 pool mature output`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `AF1 Fzd2 Fzd1 matched receptor competent AT2 pool mature output`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** There is no qualified matched functional Fzd1/Fzd2 comparison establishing receptor-selective support of an early AT2 pool and its later mature descendants.
 

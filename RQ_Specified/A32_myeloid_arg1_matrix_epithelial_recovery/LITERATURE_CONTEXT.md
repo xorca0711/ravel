@@ -93,7 +93,7 @@ The following records preserve dated searches, access limits, outcome exposure,
 earlier interpretations and review blocks. Read current results/amendments above
 before any older plan. Planned queries remain plans; an absent hit never proves
 novelty or global data absence. A newly specified comparison needs its relevant
-source review under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+source review under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md).
 
 <details>
 <summary>Dated source searches and retained development notes</summary>
