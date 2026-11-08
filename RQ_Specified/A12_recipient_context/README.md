@@ -20,6 +20,13 @@ exploratory predictive compartment narrowing.
 Current synthesis: 4 November 2026. [Question card](../../RESEARCH_QUESTIONS.md#a12)
 · [Literature context](LITERATURE_CONTEXT.md) · [Dossier](../../docs/research_dossiers/A12.md).
 
+**Literature annotation, 8 November 2026:** Peng et al. (2026), Figs. 4D and
+5E/K, provide related state-specific IL1R1 and spatial-neighborhood evidence in
+the same GSE308103 source lineage. Their KAC/state comparison does not directly
+explain this pilot's LUAD-minus-normal index, including its decreasing epithelial
+IL1R1 component. [Paper assessment and proposed annotation qualification](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#a12-related-evidence-different-estimands).
+The current results, hypothesis, illustration and acceptance status are unchanged.
+
 ## Literature context & visual hypothesis
 
 Published IL-1 epithelial-transition and fibroblast pre-exposure experiments

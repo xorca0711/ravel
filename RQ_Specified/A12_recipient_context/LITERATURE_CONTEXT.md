@@ -7,6 +7,15 @@ results. No fresh literature search or biological calculation was performed for
 this documentation batch. Published premises and reused-data observations remain
 separate evidence types.
 
+**Addendum, 8 November 2026:** A fresh bounded reading of Peng et al. (2026),
+Figs. 4D and 5E/K, and the supplied supplement adds related spatial/state
+context, with [search and access records](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#literature-context-and-actual-search-coverage).
+High IL1R1 in KACs is a different estimand from this pilot's LUAD-minus-normal
+contrast; it does not resolve its state-mixture or general-inflammation alternatives.
+The study's GSE308103 cohort is already reused here. [Interpretation and proposed
+next qualification](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#a12-related-evidence-different-estimands)
+preserve the current hypothesis, results and registered illustration.
+
 ## Published starting point
 
 IL-1-dependent epithelial transitions and fibroblast exposure effects already show that responding compartments matter.

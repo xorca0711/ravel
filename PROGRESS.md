@@ -3,6 +3,28 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Peng spatial-omics paper and reading-note assessment - 8 November 2026
+
+Read the supplied full paper/supplement and linked notes, checked the main
+state/pathology, clonal, spatial and mouse-intervention evidence, and compared
+it with current A11/A12/A13 and state/recovery records.
+[Assessment, note corrections and proposed next comparison](docs/research_reviews/2026-11-08-peng-spatial-reading/README.md).
+Added a consistent A12 literature annotation to its README, context and dossier;
+Peng's KAC/state comparison is related evidence, not an explanation of the
+pilot's different histology contrast or independent validation of reused patients.
+
+The next proposed step is targeted author annotation/ROI and sample-join recovery
+for the existing spatial source, before a within-state neighborhood comparison.
+Current source access leaves the published Zenodo identifiers unreconciled:
+17172149 has restricted files; 15670280 and the author README's 17148540 were
+not retrievable by the inspected route. No new source archive or biological run
+was required. Notion notes, frozen evidence, questions and scientific acceptance
+remain unchanged; no external settings or accounts were modified.
+
+Work is isolated on `codex/peng-spatial-reading-20261108` from main `60537cd`.
+The original checkout's unrelated PROGRESS changes are preserved. Validation
+and final integration-base verification are pending below.
+
 ## PR 171 reconciliation after PR 170 merged - 8 November 2026
 
 The owner requested resolution of the conflict with merged PR #170. Integrated
