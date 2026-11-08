@@ -1,5 +1,26 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**Completed Osmr follow-up, 8 November 2026:** [results](osmr_v1/RESULTS.md) and
+[figure](osmr_v1/FIGURES.md) show lower B3 than WT Osmr RNA across all specified
+scales/omissions; B3-PBS is small and sensitive. This is bulk RNA, not OSM response.
+
+**Post-result literature and RQ development:** the [dated attribution review](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+distinguishes Cineus/Luo et al.'s 2025 epithelial mechanism from this acute B3
+comparison. The [current dossier and diagram](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+retain the negative Osmr finding and propose a defined priming boundary question,
+building on Bachmann et al. (2013). The [priming plan and source screen](priming_extension_20261108/RESULTS.md)
+are now complete: none of the 16 retained GSE records qualifies for the proposed
+epithelial B3-by-IFN interaction. Numerical interaction and laboratory execution
+remain held; no scientific acceptance is implied.
+
+**Earlier reading comparison, 8 November 2026:** the [IL-10 / IL-22 review](../../docs/research_reviews/2026-11-08-saxton-reading/README.md)
+distinguishes intracellular recruitment, tissue selectivity and current RNA evidence,
+and scopes a possible IL-10 CD8 source reanalysis. That planning checkpoint preceded the completed Osmr run above.
+
+The [additional-work assessment](FOLLOWUP_ASSESSMENT_20261108.md) records the rationale for the now-completed bounded
+Osmr transcript comparison and records what signaling, functional and history
+extensions require. Completed analyses remain the baseline.
+
 **Connected epithelial reference:** [Arozamena 2026](../ungated_arozamena_2026_inflammatory_memory/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and explicit [RQ connections](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
 
 **Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)

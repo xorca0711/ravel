@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.description_v1",
+  "owner": "Sx10-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "In activated human CD8 libraries, is 10-DE response attenuated versus WT, and does super-10 uniformly amplify or alter particular fixed Figure5 gene responses?",
+  "decision": "Determine source fidelity and bounded normalization/library sensitivity; narrow any later signaling question without inferring functional selectivity.",
+  "strongest_rival": "Broad attenuation, source-selected targets, donor/preparation confounding, relative normalization and individual-library variation could explain the patterns.",
+  "discriminator": "Five direct/context RNA contrasts, separate published up/down panels, fixed target-excluded background amplitude and all single-library omissions on three frozen scales; no causal STAT discrimination.",
+  "evidence_refs": [
+    "Research Article/ungated_saxton_2021_il10/README.md",
+    "Research Article/ungated_saxton_2021_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
+    "Research Article/ungated_saxton_2021_il10/METHODS_V1.md",
+    "analysis/research/runs/sx10_qualification_v2/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Both published papers and Figure5 outcomes were read; metadata/QC and target mapping exposed. The v1 row-order failure and v2 keyed-annotation correction are retained. No treatment outcome calculation was inspected before this description freeze; prior exposure still makes this shared-source description, not confirmation.",
+  "biological_unit": "Human donor/preparation; author reports two biological RNA replicates, but current deposited descriptive unit is a library.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Eight libraries, two treatment labels each; donor and preparation overlap across arms unknown. Genes nest in libraries; RNA is distinct from ELISA and phospho-flow.",
+  "population_and_selection": "All 58735 stable-ID rows and eight named source libraries. Fixed universe CPM>=1 in at least two full-data libraries (12677), held unchanged for 27 cases. Exactly 23 Figure5A symbols and eight overlapping Figure5B targets; IL2 shown but below filter. Background excludes all target matches (12655).",
+  "contrast": "10-DE minus WT and super-10 minus WT; each active arm minus PBS, as differences of mean per-library log2(expression+1).",
+  "endpoint": "All primary per-library log CPM and gene contrasts; target values, panel medians/member disagreement, descriptive through-origin amplitude and residuals; observed omission ranges.",
+  "methods": "METHODS_V1.md fixes exact raw ID joins, CPM primary, median-ratio count-normalized CPM and deposited FPKM, +1/log2; nine views per scale; no post-result method changes. Fit beta=sum(x*y)/sum(x*x) on fixed background separately for DE and SUPER, x=WT-PBS. Preserve all five contrasts and residuals.",
+  "missingness_and_exclusions": "No library exclusions or stable-ID collapse. Exact unique target mappings qualified. IL2 excluded only from summaries by fixed expression rule, retained in values. No favorable substitutes or extra membership search.",
+  "multiplicity": "Three overlapping published panels, 23 unique targets, five contrasts, three scales and nine views; no p-values, FDR, CIs, bootstrap, equivalence or inferential model.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-library description only; omission ranges do not estimate population uncertainty, and donor independence remains unknown.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "RNA is not STAT activation, secretion, cytotoxicity, myeloid suppression, repair, persistence or protection. Shared PBS axes and exposed source panels are not independent evidence. Super-10 need not amplify every gene. No donor or exact-author replay inference.",
+  "stop_rule": "Stop on source/code hash mismatch, invalid matrix/counts, changed qualified ID mapping, empty positive reference or zero amplitude denominator. Preserve failure and unfavorable outcomes; no threshold relaxation or new targets.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_readcount_genename.txt.gz",
+      "sha256": "482a9284ef0f23f012d7b5d5fabda13f734b48a7adbed5c9052842d6052e18e8",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_fpkm_genename.txt.gz",
+      "sha256": "e7de2a5efec1192f9d64b5f60019fd6741b5baba714f5cd70e2f409281927453",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/METHODS_V1.md",
+      "sha256": "593745c606791d110fdd50a6364c937539a8e875e49cf5a4475b4a967e7889b9",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v2/qualification.json",
+      "sha256": "593886b7785c7d1b7ee29e4d3dd578a7eba69c8d5e2a516ca2da24c41fca008a",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v2/target_mapping.csv",
+      "sha256": "aa824810a60cbc7ade30489a08b26c5612a18999b3b1b2e5a5cebe0f8569c190",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v2/sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/describe_v1.py",
+      "sha256": "1aa5edf0724a392eaa5bfd9b91de265e6ef961a4b849790d65cd576d8bd8d561"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/plot_v1.py",
+      "sha256": "be1218934f2b06f1d8844733e76f1b41f45b17369db62641e04136ac225fccce"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/verify_v1.py",
+      "sha256": "bd4432e0c45ea03d937958d88684dac8e627f17a80dd566666458d6760f22342"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/test_description_v1.py",
+      "sha256": "d94a2e03cb5d3257c0c810651fc3bc0baa5a4338e85a6ecfc67dcd0f7110ebb2"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_saxton_2021_il10/scripts/describe_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_gene_primary.csv",
+    "normalization_factors.csv",
+    "target_library_values.csv",
+    "target_sensitivity.csv",
+    "target_ranges.csv",
+    "panel_summaries.csv",
+    "amplitude_fits.csv",
+    "summary.json",
+    "fixed_targets.png",
+    "fixed_targets.pdf",
+    "response_pattern.png",
+    "response_pattern.pdf",
+    "omission_sensitivity.png",
+    "omission_sensitivity.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial numerical description after source qualification_v2; prior metadata v1 failure is preserved, not overwritten."
+}

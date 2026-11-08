@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.qualification_v1",
+  "owner": "Sx10-P01",
+  "contract": "Research Article/ungated_saxton_2021_il10/contracts/qualification_v1.json",
+  "contract_sha256": "bf3d11056c3e73fa206a489f829f449af78b73e495a114286f67eddc727888fc",
+  "git_commit": "e30618c02c83801cae3272eaf0894bde84217a22",
+  "started_at": "2026-11-08T01:55:10.570422+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_saxton_2021_il10/scripts/qualify_v1.py",
+    "--output",
+    "analysis/research/runs/sx10_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Sx10/GSE160332_family.soft.gz",
+      "sha256": "01f80d7cda6c4e08982e0070271011c7c3a0404540914b9021da64c46d83f2c3",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_readcount_genename.txt.gz",
+      "sha256": "482a9284ef0f23f012d7b5d5fabda13f734b48a7adbed5c9052842d6052e18e8",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_fpkm_genename.txt.gz",
+      "sha256": "e7de2a5efec1192f9d64b5f60019fd6741b5baba714f5cd70e2f409281927453",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/biosamples.xml",
+      "sha256": "76283f0a67f7133c9e706f18fff98cc2cf8a96d082e030cbf364d9ee975a9405",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/sra.xml",
+      "sha256": "6b6f3ef6682c1c3e544d47039bfefc378c330d49bcccf772977bcac8a56119bb",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/acquisition_v1.json",
+      "sha256": "9c535e24f09bad3d12c6025378e163843ac5923783fd364da0e33b2439bab794",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
+      "sha256": "29b86c10c09e11fe75ac3b3d19cf2a10330028b9956842345d8190567ee2bbfe",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/qualify_v1.py",
+      "sha256": "7d4d1c4bf2642fd8598e335e74716e7a9d6822c767de3db97a4add565d0d8f90"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/acquisition_v1.json",
+      "sha256": "9c535e24f09bad3d12c6025378e163843ac5923783fd364da0e33b2439bab794"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "error": "Missing file: library_qc.csv",
+  "finished_at": "2026-11-08T01:55:13.307922+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.failure_preservation_v1",
+  "owner": "Sx10-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can every byte of the failed source qualification be retained under a registered archive without relabeling the failed analysis as successful?",
+  "decision": "Preserve failure evidence with separate archival provenance; original local bytes and original commit remain.",
+  "strongest_rival": "Registering a failed analysis as successful or deleting failed evidence would obscure source correction history.",
+  "discriminator": "Byte-for-byte copies, original paths and SHA256 values, with explicit execution_failed status retained.",
+  "evidence_refs": [
+    "Research Article/ungated_saxton_2021_il10/README.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Final paper outcomes and Figure5 panels have been read; source metadata and headers inspected before freeze. No new matrix group outcome contrasts inspected. This exposed metadata stage does not establish unexposed confirmation.",
+  "biological_unit": "Not applicable to deterministic archive; original biological-unit uncertainty remains unchanged.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Exact duplicate evidence only, not replication or a new scientific observation.",
+  "population_and_selection": "Exactly four files from the failed sx10_qualification_v1 run; no biological selection.",
+  "contrast": "Original versus archived byte hashes only; no biological contrast.",
+  "endpoint": "Exact archived failed receipt, partial crosswalk and logs, plus preservation manifest.",
+  "methods": "Copy four declared immutable inputs to exclusively created outputs, retain execution_failed status, record original paths and hashes.",
+  "missingness_and_exclusions": "Preserve all files present in the failed attempt; missing expected analysis outputs remain missing.",
+  "multiplicity": "Not applicable to deterministic copying; no inferential testing.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No effect estimate or biological precision in archival metadata.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archive execution success means copying only; the original source qualification remains failed. No scientific acceptance or population inference.",
+  "stop_rule": "Stop on hash mismatch, existing destination, missing source file or original status not execution_failed.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/receipt.json",
+      "sha256": "d17916294bc7eb7a55e043bb7b7cff114ffe63ec6bb54f6ba19ee196597b1333",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/stderr.log",
+      "sha256": "651ade39bc753ff9020120778383e0b78892ccb80728a83a3980f764fb1177a3",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/preserve_failure_v1.py",
+      "sha256": "e438c17c83afda2bcb0ae2f7f07e90c894ee4a958821d99358bceecf12e26da1"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_saxton_2021_il10/scripts/preserve_failure_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "failed_receipt.json",
+    "failed_sample_crosswalk.csv",
+    "failed_stdout.log",
+    "failed_stderr.log",
+    "preservation.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Use the existing Nb5/DY1 failed-run preservation pattern because the unchanged registry accepts only successful execution receipts. Original files remain local and in commit ea6267a; duplicate index entries will be retired after archive verification."
+}

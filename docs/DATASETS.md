@@ -1,5 +1,11 @@
 # Dataset inventory and eligibility
 
+**Saxton update, 8 November 2026:** [GSE160332 source qualification](../Research%20Article/ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md)
+adds eight activated human CD8 libraries with explicit arm joins, aligned counts/FPKM
+and unknown donor/preparation identity. [RNA results](../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
+are finite-library descriptions. [GSE160217 Osmr extension](../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
+reuses the six existing colon libraries; neither is independent replication.
+
 **Updated 7 November 2026** against main `32ab85e`. Read the
 [current additions and source-use classifications](DATASET_UPDATES_2026-11-07.md)
 together with the retained inventory below. Numerical use, metadata-only

@@ -3,6 +3,135 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton PR opened - 8 November 2026
+
+[PR #169](https://github.com/xorca0711/ravel/pull/169) is open for review against
+`main` (`4318740`), with the completed Saxton analyses, extension plans/results
+and literature-attribution rule. GitHub identity was verified as `xorca0711`.
+The scoped branch is published; the validation below is reused because its
+scientific files and integration base are unchanged. The PR body identifies
+the remaining scientific and policy review, missing interaction datasets and
+full-text access limits. Remote checks are pending; no merge was requested.
+Unrelated original-checkout work and historical byte-preservation paths remain.
+
+## Saxton extension plans and executed stages - 8 November 2026
+
+[Execution overview](docs/research_reviews/2026-11-08-saxton-reading/EXTENSION_EXECUTION.md)
+links plans for all three routes, the completed Gorby reported-estimate description
+and both completed interaction-source screens. The common-expression-matrix
+qualification failed and remains held; the prospective narrower endpoint was
+frozen at `d31c123`. All three targets favor R5A11D at 0.1 nM and WT at 50 nM in
+the reported estimates, unlike Saxton's opposing IFNG/GZMB directions. High-dose
+IL18RAP is sensitive to calculation/omission. Independent raw-input arithmetic
+passed 324 checks; the six-panel PNG was inspected. No population inference.
+
+No screened source qualified for human CD8 engineered-IL10 × IL18 or epithelial
+B3/WT × IFN priming. Numerical interactions and bench work remain held for the
+exact arms, units, response endpoints and feasibility recorded in their plans.
+The next biological work is a matched ligand/dose/activation or co-input comparison,
+after those specifications are qualified; no further broad gene screen is queued.
+Bachmann/modeling full-text access and the earlier parent technical audit remain
+open. Published premises have author/year attribution; no RQ/claim promotion.
+
+The exact-byte freeze correction and the failed original source qualification
+are preserved. Three v2 screens ran at `4fb14dd`; the numerical stage at `d31c123`.
+The final gate initially caught a Choi dependency on root `.gitattributes`;
+its exact bytes were restored and equivalent serialization rules placed inside
+the new Saxton folders. Validation now passes: base-aware research gate, all
+five extension receipts, 17,756 repository checks, 18 unchanged claim bindings
+and 167 tests (two skipped). Original numerical/archive checks are reused;
+no biological reruns were needed for the attribute repair. Refetched origin/main
+remains `4318740`. No push or main merge; original-checkout edits and historical
+byte-preservation paths are preserved. Required policy review and externally
+configured branch protections remain separate from these passing local checks.
+
+## Saxton question development and attribution rule - 8 November 2026
+
+The [dated literature review](docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+and [development dossier](docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+connect the completed Saxton results with older and 2025–2026 primary work.
+Author code now verifies the modeling preprint's GSE160332 reuse; it cannot be
+counted as independent validation. Acute B3/Osmr's unfavorable finding is retained.
+Plausible next comparisons concern IL-10 output transportability/co-inputs and
+IL-22 priming boundaries; at that checkpoint none was run or adopted. First computational intake,
+if pursuing that route: qualify GSE146438 donor/design/unselected-matrix records
+under a prospective contract. Full modeling/Bachmann access and the earlier
+parent technical audit remain open; no portfolio-wide search is queued.
+
+At the owner's explicit request, repository-wide AGENTS now requires dated,
+author/year/figure attribution when reviewed literature addresses completed
+results, with direct versus related evidence, source reuse and possible next
+comparisons distinguished. Frozen evidence and claim authority are unchanged.
+This documentation/policy change is reviewable; no validator or gate was weakened.
+Refetched main remains `4318740`. Validation passed: 17,680 repository checks,
+18 unchanged numeric claim bindings, base-aware research gate and 46 governance
+tests. The first test invocation failed on sandbox temporary-directory access;
+the same tests passed with temporary files confined to this worktree. Prior
+unchanged numerical/archive checks are reused; no biological rerun, external
+write, push or main merge. Original-checkout edits and exact-byte archive
+preservation paths remain untouched.
+
+## Saxton source analyses completed - 8 November 2026
+
+[Technical handoff and validation](docs/research_reviews/2026-11-08-saxton-reading/EXECUTION_HANDOFF.md)
+links the completed [IL-22 Osmr result](Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
+and [IL-10 RNA result](Research%20Article/ungated_saxton_2021_il10/RESULTS.md).
+Osmr is lower under B3 than WT across bounded checks; B3-PBS is small and sensitive.
+The IL-10 fixed-panel description supports weaker 10-DE and mixed super-10 effects;
+CCL1 remains omission-sensitive. These are exposed finite-library RNA results,
+not receptor responsiveness, causal STAT or functional evidence. Donor/animal
+inference and exact replay retain their specific holds.
+
+Prospective freezes and runner receipts are retained. The initial IL-10 row-order
+failure was corrected with a committed exact stable-ID alignment amendment and
+archived byte-for-byte; no source values or validator changed. Independent scalar
+checks and all four visual reviews passed. Final validation passed: 17,647 repository
+checks, 167 tests (two Windows skips), base-aware research gate, all required
+archive verifiers and unchanged claim bindings. All prior owners are preserved.
+Fetched main remains `4318740`; the original checkout and unrelated PROGRESS work
+are untouched. The local handoff is ready for parent technical review; exact
+remaining donor/animal, S9/method and assay-specific evidence is in the ledgers.
+No push, merge, external messages, paid compute or account-setting changes.
+
+The earlier same-day entries below are pre-execution historical checkpoints.
+
+## Authorized Saxton technical continuation - 8 November 2026
+
+[Cross-paper scope review and execution handoff](docs/research_reviews/2026-11-08-saxton-reading/SCOPE_REVIEW_AND_HANDOFF.md)
+finds the bounded work consistent with completed DuPage, Arozamena, Wagner and
+DY1 analyses. The owner authorized proceeding in a separate technical session.
+Current main advanced to `4318740`; merged as `cecc2a9`, preserving both PROGRESS
+histories, the source inventory and A33-A35. Next: technical execution of the
+fixed Osmr description, then IL-10 source qualification and eligible RNA stages,
+with inference/function holds retained where their evidence is missing.
+No scientific run has started at this handoff checkpoint. Parent review follows
+the technical report; no external publication or scientific acceptance is implied.
+
+## Saxton reading and computational assessment - 8 November 2026
+
+Reviewed the current Sx22-P01 results, amendments, source-panel corrections and
+both published papers against fetched main `32ab85e`. The
+[reading comparison and feasibility note](docs/research_reviews/2026-11-08-saxton-reading/README.md)
+explains IL-22 intracellular STAT recruitment plus tissue selectivity, retains the
+RNA attenuation/panel-sensitivity qualifications, and links the requested
+[stepwise IL-10 plan](docs/research_reviews/2026-11-08-saxton-reading/IL10_ANALYSIS_PLAN.md)
+and [IL-22 follow-up assessment](Research%20Article/gate3_08_saxton_2021_il22/FOLLOWUP_ASSESSMENT_20261108.md).
+The latter proposes a bounded Osmr RNA comparison grounded in a refreshed primary
+literature review. Plans are unexecuted; no biological rerun or new accepted RQ.
+Next: qualify IL-10 sample-code/donor/design metadata and establish its article-local
+owner before a frozen contract; qualify Osmr mapping before any Sx22 amendment.
+Existing IL-22 unit, raw-function and persistence holds remain endpoint-specific.
+Work is isolated on `codex/saxton-reading-assessment-20261108`; unrelated original
+checkout edits are preserved. Final validation passed against refreshed unchanged
+main `32ab85e`: 17,155 repository checks, the base-aware preservation/research gate,
+23 local links in the new planning documents and whitespace checks. The unchanged
+claim manifest's 18 numeric bindings also passed. Initial gate
+failures were checkout CRLF drift and missing published display outputs: 21 untouched
+files restored to exact recorded Git bytes; 15 outputs restored from local copies
+against the release manifest hashes, without a scientific rerun or validator change.
+External settings unchanged;
+NCBI direct-page challenges were supplemented by indexed primary records/local PDFs.
+
 ## DuPage RQ placement and rationale audit — 7 November 2026
 
 Owner requested review against the earlier reframing chat, published-target

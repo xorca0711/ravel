@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.priming_qualification_v2",
+  "owner": "Sx22-P01",
+  "contract": "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v2.json",
+  "contract_sha256": "3bca1e903fcae54506b73d34badadeae6606260db9bb8ba9d5ab6bc415b5a745",
+  "git_commit": "4fb14dd1a827ea9aecc93bb496571a180b00bb42",
+  "started_at": "2026-11-08T03:47:51.416520+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+    "--mode",
+    "priming",
+    "--output",
+    "analysis/research/runs/sx22_priming_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Saxton_extensions_20261108/il22_priming_esearch.json",
+      "sha256": "ce2be5eef4e685b6fdc69490ac4b7fb46c87ee87949bd344d0262b5dfc81dbc3",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/il22_b3_esearch.json",
+      "sha256": "91cf06bb5d0f2ae039965ca2ec7193349f6e3bd5896e51fc11126035f65e52aa",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/candidate_summaries_v1.json",
+      "sha256": "6cb7b9cde503482f1d14b101effbaeebeebffd251261b6a63de9bee2284e67cb",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE307526_family.soft.gz",
+      "sha256": "9f37e74c08a9c5df49f9b3c900c014f7362f619b65d7cb7afb318f0b83d0ef14",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE89610_family.soft.gz",
+      "sha256": "8f4aa8c6fdc5fd4ae3d3c0a1ff17749b6a987e89c02873d7f2bb0e93f7f6de74",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE214633_family.soft.gz",
+      "sha256": "d939e37fab983268ab4e0d23f03046e640f9bd5718f4ebd1d3d5fe00d5633df5",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+      "sha256": "26d8217047d731de4dd3d04c5688732d75a2b5281d982cefe2d765b56272b0b0"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/screen_dispositions_v1.json",
+      "sha256": "c73792063061ddc401efbaaa6e22815810143eac428ab16a8fe344a5476b170c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx22_priming_qualification_v2/source_candidates.csv",
+      "sha256": "208646bae65e753e2c24f9eb84de661bb4ab5cfca56679c69d2f6248264258ad"
+    },
+    {
+      "path": "analysis/research/runs/sx22_priming_qualification_v2/screen.json",
+      "sha256": "61fd45712516c1ec67e40c811d3bf870028031c24e25499e32aa855d5f7e3e0e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T03:47:52.404842+00:00"
+}

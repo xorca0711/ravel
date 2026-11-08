@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.failure_preservation_v1",
+  "owner": "Sx10-P01",
+  "contract": "Research Article/ungated_saxton_2021_il10/contracts/failure_preservation_v1.json",
+  "contract_sha256": "fcb9b3163084e5e072bebf05ca8777ef2f28657b990d33d5253b1893034a322d",
+  "git_commit": "1334d29d179f2e04f3883586fff26d1b54497beb",
+  "started_at": "2026-11-08T02:03:25.949007+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_saxton_2021_il10/scripts/preserve_failure_v1.py",
+    "--output",
+    "analysis/research/runs/sx10_failure_preservation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/receipt.json",
+      "sha256": "d17916294bc7eb7a55e043bb7b7cff114ffe63ec6bb54f6ba19ee196597b1333",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx10_qualification_v1/stderr.log",
+      "sha256": "651ade39bc753ff9020120778383e0b78892ccb80728a83a3980f764fb1177a3",
+      "study_id": "Sx10_failed_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/preserve_failure_v1.py",
+      "sha256": "e438c17c83afda2bcb0ae2f7f07e90c894ee4a958821d99358bceecf12e26da1"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx10_failure_preservation_v1/failed_receipt.json",
+      "sha256": "d17916294bc7eb7a55e043bb7b7cff114ffe63ec6bb54f6ba19ee196597b1333"
+    },
+    {
+      "path": "analysis/research/runs/sx10_failure_preservation_v1/failed_sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95"
+    },
+    {
+      "path": "analysis/research/runs/sx10_failure_preservation_v1/failed_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/sx10_failure_preservation_v1/failed_stderr.log",
+      "sha256": "651ade39bc753ff9020120778383e0b78892ccb80728a83a3980f764fb1177a3"
+    },
+    {
+      "path": "analysis/research/runs/sx10_failure_preservation_v1/preservation.json",
+      "sha256": "f1282c7646adbed1ac4b58fba12fdfedfecb6c40ce152710b27848c9ae9e5c25"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T02:03:26.844582+00:00"
+}
