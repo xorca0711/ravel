@@ -1,5 +1,11 @@
 # Bounded literature context for the Saxton plans
 
+**Later same-day update:** [post-result literature review](POST_RESULT_LITERATURE.md)
+supersedes the access/status statements below where specified. In particular,
+the 2026 modeling author's code now verifies GSE160332 reuse; full manuscript
+access remains unresolved. [Question-development dossier](RQ_DEVELOPMENT.md).
+The table below remains the pre-execution planning record.
+
 Search/read date: **8 November 2026**, Asia/Seoul. Work type: planning and source
 interpretation. [IL-10 plan](IL10_ANALYSIS_PLAN.md) ·
 [IL-22 follow-up](../../../Research%20Article/gate3_08_saxton_2021_il22/FOLLOWUP_ASSESSMENT_20261108.md).

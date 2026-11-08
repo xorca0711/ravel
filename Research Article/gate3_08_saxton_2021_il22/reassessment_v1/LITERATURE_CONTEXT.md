@@ -1,5 +1,11 @@
 # Sx22-P01: literature context for program reassessment
 
+**Post-result update, 8 November:** [literature attribution](../../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+and [question-development dossier](../../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+incorporate the completed unfavorable [Osmr comparison](../osmr_v1/RESULTS.md).
+The earlier same-day proposal below has executed; its numerical report remains
+unchanged. Priming and OSMR mechanisms are published premises, not new discoveries.
+
 **8 November follow-up:** the [bounded literature update](../../../docs/research_reviews/2026-11-08-saxton-reading/LITERATURE_CONTEXT.md)
 supports a proposed [Osmr transcript comparison](../FOLLOWUP_ASSESSMENT_20261108.md).
 This supplements the historical context below without changing the frozen results.

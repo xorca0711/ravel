@@ -3,6 +3,32 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton question development and attribution rule - 8 November 2026
+
+The [dated literature review](docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+and [development dossier](docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+connect the completed Saxton results with older and 2025–2026 primary work.
+Author code now verifies the modeling preprint's GSE160332 reuse; it cannot be
+counted as independent validation. Acute B3/Osmr's unfavorable finding is retained.
+Plausible next comparisons concern IL-10 output transportability/co-inputs and
+IL-22 priming boundaries; none is run or adopted. First computational intake,
+if pursuing that route: qualify GSE146438 donor/design/unselected-matrix records
+under a prospective contract. Full modeling/Bachmann access and the earlier
+parent technical audit remain open; no portfolio-wide search is queued.
+
+At the owner's explicit request, repository-wide AGENTS now requires dated,
+author/year/figure attribution when reviewed literature addresses completed
+results, with direct versus related evidence, source reuse and possible next
+comparisons distinguished. Frozen evidence and claim authority are unchanged.
+This documentation/policy change is reviewable; no validator or gate was weakened.
+Refetched main remains `4318740`. Validation passed: 17,680 repository checks,
+18 unchanged numeric claim bindings, base-aware research gate and 46 governance
+tests. The first test invocation failed on sandbox temporary-directory access;
+the same tests passed with temporary files confined to this worktree. Prior
+unchanged numerical/archive checks are reused; no biological rerun, external
+write, push or main merge. Original-checkout edits and exact-byte archive
+preservation paths remain untouched.
+
 ## Saxton source analyses completed - 8 November 2026
 
 [Technical handoff and validation](docs/research_reviews/2026-11-08-saxton-reading/EXECUTION_HANDOFF.md)

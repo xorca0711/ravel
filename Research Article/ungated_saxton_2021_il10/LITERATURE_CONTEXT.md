@@ -1,5 +1,12 @@
 # Literature and source context
 
+**Post-result update, 8 November:** [dated literature attribution](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+and [development dossier](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+now distinguish the already-published source patterns, independent-study questions
+and prospective co-input comparisons. The modeling manuscript remains unread,
+but its author's code has now verified GSE160332 reuse. This supersedes the
+earlier code-access uncertainty, not any frozen result or inference hold.
+
 8 November 2026, Asia/Seoul. This package reuses the same-day
 [bounded primary literature review](../../docs/research_reviews/2026-11-08-saxton-reading/LITERATURE_CONTEXT.md)
 and [comparison with other repository analyses](../../docs/research_reviews/2026-11-08-saxton-reading/SCOPE_REVIEW_AND_HANDOFF.md).

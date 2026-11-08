@@ -4,6 +4,12 @@
 [figure](osmr_v1/FIGURES.md) show lower B3 than WT Osmr RNA across all specified
 scales/omissions; B3-PBS is small and sensitive. This is bulk RNA, not OSM response.
 
+**Post-result literature and RQ development:** the [dated attribution review](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+distinguishes Cineus/Luo et al.'s 2025 epithelial mechanism from this acute B3
+comparison. The [current dossier and diagram](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+retain the negative Osmr finding and propose a defined priming boundary question,
+building on Bachmann et al. (2013). This is a proposal, not a new run or acceptance.
+
 **Earlier reading comparison, 8 November 2026:** the [IL-10 / IL-22 review](../../docs/research_reviews/2026-11-08-saxton-reading/README.md)
 distinguishes intracellular recruitment, tissue selectivity and current RNA evidence,
 and scopes a possible IL-10 CD8 source reanalysis. That planning checkpoint preceded the completed Osmr run above.

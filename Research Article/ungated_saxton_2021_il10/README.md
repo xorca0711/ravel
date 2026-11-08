@@ -6,6 +6,14 @@
 10-DE responses are broadly weaker; super-10 has stable mixed target directions.
 CCL1 remains omission-sensitive. Population inference and exact replay are held.
 
+**Literature interpretation and next question:** these transcriptional patterns
+were already reported by Saxton et al. (2021), Fig. 5, using the same source.
+The [dated attribution review](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+also verifies that a 2026 modeling preprint's public code reuses GSE160332.
+The [development dossier and diagram](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+propose a separate-study output comparison and a conditional IL-18 response test;
+neither is executed or accepted. Source verification does not establish mechanism.
+
 This is the existing roadmap paper **7, Gate 3A**. The `ungated_` folder label
 was assigned during technical intake; it is a retained path exception, not a
 change to reading-order membership. The owner authorized this bounded source work
