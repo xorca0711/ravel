@@ -1,5 +1,16 @@
 # Current project state
 
+## Remote main CI retry passed — 8 November 2026
+
+The failing Repository checks badge on main 471d0c2 came from HTTP 504 while
+downloading the hash-locked Choi archive; subsequent checks were skipped.
+After verifying the GitHub identity as xorca0711, the failed job was retried once.
+[The same run](https://github.com/xorca0711/ravel/actions/runs/42465816677) then
+completed successfully (retry job 128723760203). No code, lock, scientific output
+or validation requirement changed. This does not integrate the local Peng repair
+or session-assistance commits. The root checkout's unrelated PROGRESS.md edit was
+preserved, and all 27 registered worktrees had no unresolved Git index entries.
+
 ## Ravel session assistance implemented; activation unresolved — 8 November 2026
 
 The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md) documents the new
