@@ -4,6 +4,66 @@ The owner requested a cloud attempt after the local resource check, and guidance
 in the repository-root AGENTS.md for future hardware constraints. This is an
 operational record, not an RNA qualification receipt.
 
+## Current state: runtime and acquisition verified
+
+On 8 November 2026 the owner started cloud chat
+`01a1ba3e-f795-73e9-aa71-4c20e962d094` (**Acquire authorized IL10 RDS**) with
+explicit scope to prepare an isolated runtime and acquire the main RDS without
+biological inspection. Its completed execution logs were checked from the
+Ravel chat. They supersede the initial network/runtime blockers below.
+
+- **Network:** the launched policy includes `zenodo.org`; the exact authorized
+  file endpoint returned HTTP 200 and matching publisher metadata.
+- **Runtime:** isolated R 4.5.0, Matrix 1.7-3 and SeuratObject 5.0.2 under
+  `/tmp/navarro_2026`. SeuratObject was rebuilt against this runtime after
+  binary-version warnings. Synthetic v3 and v5 Seurat serialization and sparse
+  access tests both passed. **Full Seurat is not installed.** The launcher is
+  `/tmp/navarro_2026/bin/Rscript`; runtime instructions are in
+  `/tmp/navarro_2026/README.txt` on that executor.
+- **Acquisition:** only `/tmp/navarro_2026/data/IL10_svz_seurat.rds`, made
+  read-only (`0444`), was acquired. Exact size **2,188,161,276 bytes** and MD5
+  **`ce9bf02e41665e00e11cd1b262114506`** match Zenodo. SHA-256 is
+  **`b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559`**.
+  Independent `stat`, GNU `md5sum` and GNU `sha256sum` checks passed at
+  **2026-11-08 08:38:17 UTC**. Zenodo supplies no SHA-256 reference; that hash
+  matched two full-file reads, not an external publisher hash.
+- **Resources at completion:** 16 GiB cgroup memory limit; 2,623,672,320 bytes
+  used and 14,556,196,864 bytes headroom; CPU quota four cores; 6,895,386,624
+  bytes free under `/tmp`. `/tmp` is **tmpfs**, so the retained RDS consumes
+  memory. These observations do not establish peak memory for `readRDS`.
+- **Scope:** no acquired biological object was deserialized, no RNA analysis
+  ran, no additional biological file was acquired, and the mounted Weft
+  repository was untouched. Ravel code has not yet been transferred there.
+
+Source evidence on that cloud executor: `evidence/acquisition.json`,
+`evidence/readiness.json`, `logs/r-smoke-test.log`, and
+`logs/independent-verification.log`, all relative to `/tmp/navarro_2026`.
+The checked chat output for command `exec-574b0805-1acc-4006-985e-2c08db284c5b`
+contains the acquisition manifest and readiness/resource/scope fields; command
+`exec-2f53c4a8-3662-4123-92b2-5d0c849a2d82` records both successful synthetic
+tests after the rebuild. This is a record of that completed run, not a new
+live resource probe or a guarantee that temporary files survive replacement
+of the executor.
+
+**No further environment-setting change is currently demonstrated as necessary
+for metadata qualification.** A separately named Ravel pilot is not required.
+The local machine's missing R and memory pressure remain; the cloud supplies
+the working runtime. Actual object compatibility and loading memory remain
+untested. The overall scientific plan is therefore not complete.
+
+Next: refresh the executor's state and confirm retained inputs; transfer the
+scoped Ravel code through an authorized path, freeze the metadata contract
+against the verified SHA-256, and use the repository runner for bounded sparse
+object qualification. Any concrete missing dependency or resource failure must
+be recorded. Resolve aliases/doses/layers before a separately frozen pooled
+RNA description. Preserve the one-pool-per-condition interpretation limit.
+
+## Initial reconnaissance — superseded operational snapshot
+
+The following records the earlier attempt, before the owner's new cloud chat
+successfully acquired the file and prepared R. Its failed access observations
+remain historical evidence, not the current blocker.
+
 Local Windows ARM64 observations: 16.76 GB total RAM, approximately 1.82 GB
 available at inspection; approximately 113 GB free workspace disk. Rscript was
 absent from PATH and checked ordinary R/Conda locations; WSL was not installed.
@@ -32,7 +92,7 @@ and no biological object inspection occurred.** The owner was subsequently told
 to leave Weft configuration unchanged. A distinct environment named “Ravel
 pilot” is not required; a suitable authorized Ravel workspace/executor is.
 
-## Minimal resumption requirements
+### Original resumption checklist (items 1–3 now completed for the new executor)
 
 1. Select or provision a suitable cloud/remote environment for Ravel, preserving
    unrelated repositories. The available local connector lists/launches saved
@@ -57,5 +117,6 @@ pilot” is not required; a suitable authorized Ravel workspace/executor is.
    the separately frozen pooled RNA description. Resource/runtime readiness
    does not relax biological units or permit population inference.
 
-The local source and animal branches are complete within their recorded scope;
-cloud readiness is the exact outstanding technical dependency for stages 4–5.
+The local source and animal branches are complete within their recorded scope.
+Runtime/acquisition readiness is now established by the newer evidence above;
+the frozen object-qualification stage and subsequent description remain pending.

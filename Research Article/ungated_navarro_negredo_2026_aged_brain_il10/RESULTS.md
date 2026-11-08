@@ -157,7 +157,9 @@ v2 supplies the current exact-test reconciliation rather than overwriting them.
 - **RNA:** S1 confirms no multiplexing, six main libraries and the old-control
   single mouse. S1 sample/lane order does not match code C1–C8. WT1/WT5 numerical
   dose mapping, extra WT50/Mut50 arms and the filename discrepancy remain
-  unresolved until object inspection. No RDS or FASTQ has been downloaded.
+  unresolved until object inspection. Only the main RDS has now been acquired
+  and checksum-verified in the owner's cloud chat; it has not been deserialized.
+  No FASTQ was downloaded. [Operational evidence](CLOUD_READINESS.md).
 
 The [source crosswalk](../../analysis/research/runs/nn26_source_qualification_v1/source_crosswalk.json)
 records ENA low/high mapping to the only two reported doses as a semantic
@@ -175,8 +177,9 @@ No amount of cell resampling supplies absent animal replication.
 | Separated immune readouts | Most mouse protein statistics reproduce; one IFITM3 P discrepancy | Specific source reconciliation remains; published Fig.5 mechanism is a premise, not newly inferred here |
 | Pooled RNA response separation | Not yet inspected | Qualify only the main RDS on a suitable executor, resolve aliases/layers, then freeze a separate within-dose descriptive contract |
 
-The [cloud readiness record](CLOUD_READINESS.md) identifies the actual execution
-blocker. No optional auxiliary dataset is justified merely to overcome an
+The [cloud readiness record](CLOUD_READINESS.md) confirms runtime/acquisition
+readiness; actual object loading and the frozen qualification run remain pending.
+No optional auxiliary dataset is justified merely to overcome an
 unfavorable result. Young treatment arms, animal replication, defined injury
 and appropriate mediation experiments would require new data and a separate
 design; they are not supplied by this reanalysis.

@@ -3,7 +3,7 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Navarro technical stages executed; RNA executor pending — 8 November 2026
+## Navarro animal stages executed; cloud runtime/acquisition verified — 8 November 2026
 
 Owner-authorized execution registered **Nn26-P01** in the separate ungated
 package. [Results and figures](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
@@ -20,26 +20,47 @@ match 38/40 reported direct tests within 0.0001. Open-field formulas omit the
 first listed mouse; its P value and WT/control IFITM3 P remain discrepant.
 No values were removed to force agreement. Stored-scale and mouse-key limits remain.
 
-[Cloud reconnaissance](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md)
-found a plausible 16 GiB executor, but the launcher exposes only Weft environments,
-Zenodo is blocked by policy and R is absent. No Weft setting/repository changed;
-owner was told to leave it unchanged. A separate “pilot” is not required.
-Next: select a suitable authorized Ravel executor, qualify runtime/network,
-acquire only the main RDS with size/MD5/SHA-256, then freeze its metadata contract.
-RNA stages and optional sources have not run. No RDS or FASTQ downloaded.
+[Cloud evidence](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md)
+now supersedes the initial network/runtime blocker. The owner's newer cloud
+chat `01a1ba3e-f795-73e9-aa71-4c20e962d094` verified Zenodo access, isolated
+R 4.5.0/Matrix 1.7-3/SeuratObject 5.0.2 and synthetic v3/v5 object checks.
+Only the main RDS was acquired; exact size/MD5 and an independently reread
+SHA-256 passed at 08:38 UTC. The 16 GiB executor retains the file in tmpfs;
+actual loading/peak memory remain untested. Full Seurat is not installed.
+No biological object was opened and the mounted Weft repository was untouched.
+No further setting change is currently evidenced as necessary; a separate
+“Ravel pilot” is not required. Local R/memory limitations remain.
+Next: confirm retained cloud inputs/runtime, transfer scoped Ravel code,
+freeze the hash-bound metadata contract, then qualify the object through the
+repository runner. RNA description remains dependent on that result; optional
+sources have not run and no FASTQ was downloaded. The overall plan is unfinished.
 
 At the owner's request, repository-root AGENTS.md now directs hardware-constrained
 work to verified cloud/remote resources while retaining contracts and access
 boundaries. This policy addition needs explicit review before integration; no
 validator or scientific boundary was weakened. Unrelated checkout work and all
 33 byte-identical historical status paths remain untouched. No push/merge,
-claim promotion, author contact or external configuration change.
+claim promotion or author contact. This Ravel worktree made no external
+configuration change; the owner's separate setup is reflected in the new logs.
 
 Validation passed: 18,341 repository checks, base-aware research gate against
 freshly verified unchanged main `1ff71a1`, compilation, and 167 tests (two skips).
 All three receipts verify; whitespace checks pass. Prior archive/claim verifications
 remain applicable because their inputs/code are unchanged. Local commits retain
 the stages and this handoff; no push or merge.
+
+The cloud-status follow-up changes documentation only. Freshly fetched main is
+now `471d0c2` (Peng PR #173), advancing from the prior validated `1ff71a1`.
+It adds a separate paper package and changes shared indexes/registry/PROGRESS;
+it does not change the validators, repository instructions or Navarro package.
+This branch has not integrated that new main. Documentation validation passed
+18,343 checks and whitespace checks passed. The base-aware research gate against
+`471d0c2` failed because this older branch lacks the newly integrated Peng/A12
+scientific assets and their registered contracts/receipts. Preserve and reconcile
+those additions when integrating main before any later PR; do not remove them
+or weaken the gate. The failure log is retained as `cloud_status_gate.log` in
+the session visualization directory. No biological code, contract or output
+changed in this follow-up, so prior numerical checks were not rerun.
 
 ## Navarro metadata follow-up and analysis plan — 8 November 2026
 
