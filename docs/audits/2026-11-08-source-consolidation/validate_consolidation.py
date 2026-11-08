@@ -132,7 +132,7 @@ def main():
     embeds=lambda s:re.findall(r'!\[[^\]]*\]\([^)]+\)',s)
     check(embeds(texts['README.md'])==embeds(baseline_texts['README.md']),'Root measured gallery changed')
     result={'base':BASE,'checks':checks,'local_links_checked':link_count,'source_identifiers':len(set(ACCESSION.findall(master))),'census_coverage':len(census),'moved_documents':len(moved),'compatibility_locators':sum(bool(r['compatibility_consumers']) for r in manifest['moves']),'preexisting_link_defects':len(old_defects),'new_link_defects':regressions,'failures':failures,'passed':not failures}
-    if args.output:args.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    if args.output:args.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({k:v for k,v in result.items() if k not in ['new_link_defects']}))
     return 0 if not failures else 1
 

@@ -56,8 +56,21 @@ folder was deleted as unused. No validator or governance rule was weakened.
 
 ## Validation and delivery
 
-Focused source/link/move checks and required repository checks are in progress.
-The final result and publication status will be recorded here and in PROGRESS.
+Validation passed against refreshed, unchanged main `1d7c814`:
+
+- [1,064 source/move/preservation checks](validation.json) and more than 14,900
+  local Markdown links/fragments, with no broken links introduced.
+- 18,118 repository validation checks.
+- 167 unit tests (two environment/platform skips), Python compilation, all
+  required archive verifiers and claim-contract checks.
+- The unchanged base-aware research provenance gate and PR whitespace checks.
+
+The first focused pass found missing legacy `a8`/`a13` anchors; compatibility
+locators now retain them without editing the frozen referring documents.
+Fifteen hash-locked published outputs were restored from existing local copies
+for verification. No analysis was rerun. GitHub identity is verified as
+`xorca0711`. The validated branch is ready for publication and owner review;
+no merge is performed by this task.
 
 [Current documentation](../../README.md) · [history by purpose](../../history/README.md)
 · [methods](../../methods/README.md).

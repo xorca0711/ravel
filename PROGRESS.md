@@ -23,8 +23,14 @@ Main advanced during consolidation: merged PR #169 (`1d7c814`) is integrated,
 including Sx10/Gorby source uses and both rejected interaction-source screens.
 The register now represents 563 source/project identifiers.
 
-Next: complete link/coverage/preservation and required repository validation,
-refresh main, then publish the documentation PR. No external settings changed.
+Validation passed against refreshed unchanged main `1d7c814`: 1,064 focused
+checks, more than 14,900 local links, 18,118 repository checks, 167 unit tests
+(two skips), compilation, required archive/claim checks, provenance gate and
+whitespace checks. Two legacy section anchors were restored in compatibility
+locators; frozen referring documents remain byte-identical. Fifteen published
+outputs were restored from existing hash-matched local copies for verification.
+Next: publish the validated documentation PR for owner review. GitHub identity
+is verified as `xorca0711`; no external setting changed or merge performed.
 
 ## Saxton PR opened - 8 November 2026
 
