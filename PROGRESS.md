@@ -37,9 +37,13 @@ including exact RQ inventory rejection cases. All 18 displayed values match the
 frozen tables. Earlier 33 cards/guides and original registry evidence are preserved;
 three selected PNGs were visually reviewed and their provenance registered. The validator's expected sequence now
 includes A33–A35 while retaining equality/order and rejection checks; this inventory
-assertion and the interpretation changes are explicit PR review items. Refreshed PR #168 remains open at `4ae13c0`; GitHub identity is verified as
-`xorca0711`. Scoped commit/push and the updated PR CI check are next. No merge
-is authorized or performed. External settings are unchanged and were not audited.
+assertion and the interpretation changes are explicit PR review items. The revisions were committed as `2631fc9` and pushed onto the existing PR #168
+branch, preserving its source-inventory work. Both GitHub workflows passed for
+that revision. The PR title/body now describe the combined scope and explicit
+review items; it remains open and unmerged. GitHub identity is verified as
+`xorca0711`. Next scientific work is the comparison/model qualification in each
+RQ plan if the owner chooses to pursue it; no automatic analysis queue is created.
+External settings are unchanged and were not audited.
 
 ## Source inventory publication and documentation hygiene — 7 November 2026
 
