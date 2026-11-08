@@ -3,6 +3,18 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Authorized Saxton technical continuation - 8 November 2026
+
+[Cross-paper scope review and execution handoff](docs/research_reviews/2026-11-08-saxton-reading/SCOPE_REVIEW_AND_HANDOFF.md)
+finds the bounded work consistent with completed DuPage, Arozamena, Wagner and
+DY1 analyses. The owner authorized proceeding in a separate technical session.
+Current main advanced to `4318740`; merged as `cecc2a9`, preserving both PROGRESS
+histories, the source inventory and A33-A35. Next: technical execution of the
+fixed Osmr description, then IL-10 source qualification and eligible RNA stages,
+with inference/function holds retained where their evidence is missing.
+No scientific run has started at this handoff checkpoint. Parent review follows
+the technical report; no external publication or scientific acceptance is implied.
+
 ## Saxton reading and computational assessment - 8 November 2026
 
 Reviewed the current Sx22-P01 results, amendments, source-panel corrections and
