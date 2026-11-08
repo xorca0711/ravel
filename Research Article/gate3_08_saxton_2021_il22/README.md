@@ -1,5 +1,13 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**Reading comparison, 8 November 2026:** the [IL-10 / IL-22 review](../../docs/research_reviews/2026-11-08-saxton-reading/README.md)
+distinguishes intracellular recruitment, tissue selectivity and current RNA evidence,
+and scopes a possible IL-10 CD8 source reanalysis. No new numerical run is reported.
+
+The [additional-work assessment](FOLLOWUP_ASSESSMENT_20261108.md) proposes a bounded
+Osmr transcript comparison and records what signaling, functional and history
+extensions require. Completed analyses remain the baseline.
+
 **Connected epithelial reference:** [Arozamena 2026](../ungated_arozamena_2026_inflammatory_memory/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and explicit [RQ connections](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
 
 **Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)

@@ -1,5 +1,10 @@
 # Saxton: connections to existing questions and biological extensions
 
+**8 November planning update:** [additional-work assessment](../FOLLOWUP_ASSESSMENT_20261108.md)
+narrows a possible next source comparison to Osmr transcript response, with
+current completed-work status and a literature-linked qualitative diagram.
+Existing canonical questions and the held functional comparisons remain unchanged.
+
 1 November 2026. Owner-requested synthesis after the [reviewed RNA results](RESULTS.md).
 These are conditional question connections, not adopted canonical amendments,
 qualified numerical jobs, new mechanisms or a portfolio ranking. The current

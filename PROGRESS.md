@@ -3,6 +3,31 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton reading and computational assessment - 8 November 2026
+
+Reviewed the current Sx22-P01 results, amendments, source-panel corrections and
+both published papers against fetched main `32ab85e`. The
+[reading comparison and feasibility note](docs/research_reviews/2026-11-08-saxton-reading/README.md)
+explains IL-22 intracellular STAT recruitment plus tissue selectivity, retains the
+RNA attenuation/panel-sensitivity qualifications, and links the requested
+[stepwise IL-10 plan](docs/research_reviews/2026-11-08-saxton-reading/IL10_ANALYSIS_PLAN.md)
+and [IL-22 follow-up assessment](Research%20Article/gate3_08_saxton_2021_il22/FOLLOWUP_ASSESSMENT_20261108.md).
+The latter proposes a bounded Osmr RNA comparison grounded in a refreshed primary
+literature review. Plans are unexecuted; no biological rerun or new accepted RQ.
+Next: qualify IL-10 sample-code/donor/design metadata and establish its article-local
+owner before a frozen contract; qualify Osmr mapping before any Sx22 amendment.
+Existing IL-22 unit, raw-function and persistence holds remain endpoint-specific.
+Work is isolated on `codex/saxton-reading-assessment-20261108`; unrelated original
+checkout edits are preserved. Final validation passed against refreshed unchanged
+main `32ab85e`: 17,155 repository checks, the base-aware preservation/research gate,
+23 local links in the new planning documents and whitespace checks. The unchanged
+claim manifest's 18 numeric bindings also passed. Initial gate
+failures were checkout CRLF drift and missing published display outputs: 21 untouched
+files restored to exact recorded Git bytes; 15 outputs restored from local copies
+against the release manifest hashes, without a scientific rerun or validator change.
+External settings unchanged;
+NCBI direct-page challenges were supplemented by indexed primary records/local PDFs.
+
 ## Biological review and executed candidate continuation — 7 November 2026
 
 [PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Biological review,

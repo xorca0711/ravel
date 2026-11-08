@@ -1,5 +1,9 @@
 # Sx22-P01: literature context for program reassessment
 
+**8 November follow-up:** the [bounded literature update](../../../docs/research_reviews/2026-11-08-saxton-reading/LITERATURE_CONTEXT.md)
+supports a proposed [Osmr transcript comparison](../FOLLOWUP_ASSESSMENT_20261108.md).
+This supplements the historical context below without changing the frozen results.
+
 Review: 1 November 2026, Asia/Seoul. Source revision: `21aa646`, following main
 `51d3b93`. Reason: the owner identified that QC and external receptor capture did
 not answer the paper's central gene-program question. Reuse the

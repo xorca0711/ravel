@@ -19,6 +19,10 @@ grade. Source-study findings, repository reproduction and proposed RQs retain
 their own owners, biological units and interpretation limits. Historical entry,
 withdrawal and reading-order decisions remain in [DEVELOPMENT](../DEVELOPMENT.md).
 
+**Saxton planning, 8 November:** [IL-10 stepwise analysis plan](../docs/research_reviews/2026-11-08-saxton-reading/IL10_ANALYSIS_PLAN.md)
+and [IL-22 additional-work assessment](gate3_08_saxton_2021_il22/FOLLOWUP_ASSESSMENT_20261108.md).
+These reading/planning notes do not add a roadmap entry or report a new run.
+
 ## Browse by biological topic
 
 [The shared topic map](../docs/RESEARCH_TOPICS.md) connects all 19 paper packages
