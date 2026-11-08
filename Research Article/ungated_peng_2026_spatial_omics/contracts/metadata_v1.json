@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.metadata_v1",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can public author library aliases, patient metadata and existing C3 inventories support defensible sample joins and identify the exact pathology/ROI qualification gaps?",
+  "decision": "Complete PLAN stages 0-2 within inspected sources; authorize no region reproduction or A12 estimation without their required labels, geometry, panels and separate contracts.",
+  "strongest_rival": "False identity through collapsing suffixes or equating patient-level matches with lesion, block, serial-section or same-cell correspondence; restricted public listings mistaken for absent data.",
+  "discriminator": "Parse verbatim GEO descriptions and title patient labels separately from alias-derived IDs; check unique GSM and alias cardinalities, demographics, prior C3 fields and independent raw extraction. This cannot verify genotype or exact tissue relationships.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+    "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
+    "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
+    "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/REPORT.md",
+    "docs/research_reviews/2026-11-08-peng-spatial-reading/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, methods, original plans, prior C3/A11/A12/A13 outcomes, GEO sample counts and metadata previews were inspected before this freeze. Known 56/75/54 records, 25/23/25 patient labels, explicit aliases including P7 LUAD labels, prior 23-patient demographic match and missing annotations were exposed. No confirmatory design.",
+  "biological_unit": "Patients are intended biological units; deposited libraries/sections and metadata records are immediate audited units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Libraries and sections nest within author patient labels; discovery platforms share source patients. Lesion, block, exact section and same-cell joins remain unknown; no independent replication or TMA identity is inferred.",
+  "population_and_selection": "Public GEO records GSE307534 Visium, GSE308103 snRNA-seq and GSE307529 WES from selected surgical discovery tissues, plus prior C3 metadata inventories and recorded public-source attempts. No Xenium records are fabricated.",
+  "contrast": "Exact deposited author aliases and patient/demographic fields across platforms versus prior C3 inventories; source availability versus required annotation products and published WES denominator.",
+  "endpoint": "Per-library records; exact-alias crosswalk including unmatched counterparts; patient membership and demographic consistency; disagreement rows; source hashes/access ledger; annotation availability and independent verification.",
+  "methods": "Standard-library SOFT parser preserving repeated fields; refuse duplicate GSM/within-platform alias or conflicting title/alias patient/histology; outer joins on exact author aliases preserving suffixes; case-insensitive demographic checks; compare C3 fields by GSM. Independent verifier uses separate regex-block parsing and set arithmetic without importing parser. Parse public Figure 1/5 object references; inspect existing archive member inventory only; no expression, large-archive download or author code execution.",
+  "missingness_and_exclusions": "Retain every deposited library. Unknown lesion/block/section/ROI/core/barcode/coordinate IDs and original/reviewed per-library histology remain blank with reasons. Current deposited histology kept separately. P7 case-level review cannot identify original category or revised alias. WES79 versus GEO54 is unresolved. Missing supplements and restricted exports hold only dependent stages.",
+  "multiplicity": "Not applicable: metadata audit and counts, no hypothesis tests, effects or selection of favorable endpoints.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic finite-record inventory; no sampling precision, power calculation, effect margin or cell-based population inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Metadata consistency and shared alias are not proof of lesion identity, identical cells, independent biological replication, pathway activation, secretion, clone or fate. KAC/RPII remain distinct. No claim promotion or scientific acceptance.",
+  "stop_rule": "Fail on source/code hash mismatch, unexpected parsed identifiers, nonunique GSM/alias, conflicting explicit identifiers, new annotation candidates or independent verification mismatch. Preserve failure receipt and outputs; amendments require new version. No fallback to expression-derived pathology, imputed panel genes or guessed specimen joins.",
+  "inputs": [
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307534_family.soft.gz",
+      "sha256": "4217586e667c6bfa6b1ea7d3a0f92d05dc74d126bcdf80b4cfe8a3d17a8d6ac9",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE308103_family.soft.gz",
+      "sha256": "345a35b10599bf556dafcf16e2769df367d903e5d2630d1531b6a16ddf0c064a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307529_family.soft.gz",
+      "sha256": "d7378ac95b9be85c8178b487d776287b929b128a1c3008ee02ba4a8f6ae69479",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v1.json",
+      "sha256": "98765adc6809affd201f1d50e0a3f862439e82dc7216e320caa6db0d9b970c3d",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v2.json",
+      "sha256": "e4303d8788740a66f2c50cedc7bfee769a00708892453f8b5080c8ef67085367",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v3.json",
+      "sha256": "8cc0abfaafd63148dcf482b7d873960737f7de94549f1ec77800eda909e67c1b",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v4.json",
+      "sha256": "5b7e036417ea6f9d1639e420da8a90cedf1dcc495f32df09042487c4b0207737",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v5.json",
+      "sha256": "b69125793d2aa2d5a34ed1cd767f80ed0b80f2a33d4edac5545f5427e3368af8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v6.json",
+      "sha256": "f3997690f2684c19113688243b9d4146b6586ace9b2e163ee092da505c701d12",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/pmc_article.html",
+      "sha256": "3bcdf1b1a6c71187d91ebe5dc5b7c46ae3ab4876d603296dcfa07c5bee45c016",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_15670280.json",
+      "sha256": "39bbf16a56a6c3177264fb564686e416f224ae0e5ef19747c1d249c41a1feb9a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_17172149.json",
+      "sha256": "9f972c738d071924d281eb6ead3a40d25775a51b8651a4baa3550c3ba4532e00",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_repository_tree.json",
+      "sha256": "91b809fbadef72af50cdb0988081414eecf4cd2413194d6eee4adbc622cfb36f",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_1.R",
+      "sha256": "e1f99d9a6f10dbead1a90b9a3ea6d60d827de5b4a5e07933188968bdab083bdc",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_5.R",
+      "sha256": "ba530ea1d1120538c112c3e800de24cbcba92755fc6d95eb5affbd729b3b3455",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/geo_spatial_directory.html",
+      "sha256": "fd15e26d8d9db020130a4a0d994041d0bb7fb7f42d02c8a1ca0e691aaece0881",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/sample_inventory.csv",
+      "sha256": "1d68bea6fbd8834c183549d750dd1e99e75d227475eacac9f190a0d3cf1278a8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/human_sample_links.csv",
+      "sha256": "f830bde07c6d02d17a97a13bccce419ab50ecba59e10a9b5cbb89884df8b8ebb",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/all_series_patient_histology_crosswalk.csv",
+      "sha256": "f49f83d50f5bd0a13c76504c6b89caaf4f2ac33dfcd098f0db55aa6fe610abd7",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/library_qc_and_annotation.csv",
+      "sha256": "b3043f427a355724727af7666c848f0f2aec8f8b7f43e5ad35fc3ebbcc957914",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_demographic_crosswalk.csv",
+      "sha256": "6b923dcea984b9b73a8a3e0ccd478b521715edea851fdd3d9bd962b3e3ad1023",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_crosswalk_validation.json",
+      "sha256": "6b8cb8a0e74903fd2efae876c35028067c0dfa3facf21458f8dd46b227b49660",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv",
+      "sha256": "ca3f319c9a626966d945ee9cb4ca805b7dc0fdf8119d3050a4f9d49680c5ea3c",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/possible_pathology_annotation_members.csv",
+      "sha256": "6c7a24d252f1c0c0a368e8e5b2a5ae83bd10f7546f763a41aec0fb4de81b7950",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v1.py",
+      "sha256": "b4198625cb4600c0babb910e6bde2c4a8851f9f2ee3c2edc3c448e82a20f95e8"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_metadata_v1.py",
+      "sha256": "c4832300af0e81c40b2548655074a1d34688192a215dd283184c556f4616f527"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_metadata_v1.py",
+      "sha256": "2e717d1948c55be8c8e161caa3eaa90c90c07369fd5d190414f9ae00277f0fa9"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "samples.csv",
+    "patients.csv",
+    "crosswalk.csv",
+    "prior_inventory_comparison.csv",
+    "source_manifest.json",
+    "annotation_availability.csv",
+    "author_required_objects.csv",
+    "join_issues.csv",
+    "summary.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial bounded, outcome-exposed metadata qualification execution under existing Pg1-P01."
+}
