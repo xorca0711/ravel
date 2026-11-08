@@ -29,8 +29,11 @@ checks, more than 14,900 local links, 18,118 repository checks, 167 unit tests
 whitespace checks. Two legacy section anchors were restored in compatibility
 locators; frozen referring documents remain byte-identical. Fifteen published
 outputs were restored from existing hash-matched local copies for verification.
-Next: publish the validated documentation PR for owner review. GitHub identity
-is verified as `xorca0711`; no external setting changed or merge performed.
+[PR #170](https://github.com/xorca0711/ravel/pull/170) is open for owner review;
+its [checks page](https://github.com/xorca0711/ravel/pull/170/checks) is the live
+remote validation record. Next: review the consolidation and archive routes;
+merge remains an owner decision. GitHub identity is verified as `xorca0711`;
+no external setting changed or merge was performed.
 
 ## Saxton PR opened - 8 November 2026
 

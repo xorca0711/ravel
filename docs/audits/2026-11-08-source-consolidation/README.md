@@ -69,8 +69,9 @@ The first focused pass found missing legacy `a8`/`a13` anchors; compatibility
 locators now retain them without editing the frozen referring documents.
 Fifteen hash-locked published outputs were restored from existing local copies
 for verification. No analysis was rerun. GitHub identity is verified as
-`xorca0711`. The validated branch is ready for publication and owner review;
-no merge is performed by this task.
+`xorca0711`. [PR #170](https://github.com/xorca0711/ravel/pull/170) is open for
+owner review; its [checks page](https://github.com/xorca0711/ravel/pull/170/checks)
+records validation on the published revision. No merge is performed by this task.
 
 [Current documentation](../../README.md) · [history by purpose](../../history/README.md)
 · [methods](../../methods/README.md).
