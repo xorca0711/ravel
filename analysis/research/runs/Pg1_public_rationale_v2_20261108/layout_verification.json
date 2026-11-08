@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "text": "MEASURED: A12 candidate nuclei",
+      "fits_box": true
+    },
+    {
+      "text": "12 paired patients, LUAD minus normal\nIL1RAP detection: +2.45 percentage points\nIntensity among detected nuclei: -0.196 log2 units\nIL1R1 / IL1RAP co-detection: +1.01 points\nAfter common-depth standardization: +0.16 points",
+      "fits_box": true
+    },
+    {
+      "text": "MEASURED: Visium RNA organization",
+      "fits_box": true
+    },
+    {
+      "text": "10 paired patients, LUAD minus AAH\nIL1B / CLDN4 one-hop statistic: +0.0279\nWith broad RNA-composition covariates: +0.0095\nLattice adjacency only; spots contain mixtures\nPatient-level description, not a spot significance test",
+      "fits_box": true
+    },
+    {
+      "text": "WHAT THESE RESULTS CHANGE",
+      "fits_box": true
+    },
+    {
+      "text": "The aggregate RNA pattern has detection and spatial components.\nDepth, candidate selection and broad composition remain consequential.",
+      "fits_box": true
+    },
+    {
+      "text": "ALTERNATIVE EXPLANATIONS RETAINED",
+      "fits_box": true
+    },
+    {
+      "text": "Transferred-label selection and epithelial mixtures\nRNA depth and background RNA\nTissue geometry and other inflammatory inputs\nSensitivity checks do not identify a unique cause.",
+      "fits_box": true
+    },
+    {
+      "text": "FUNCTIONAL HYPOTHESIS STILL UNTESTED",
+      "fits_box": true
+    },
+    {
+      "text": "Does recipient configuration alter an IL-1 response?\nNeeds independently established state identity\nand protein / functional response measurements.\nRNA co-detection is not receptor assembly or signaling.",
+      "fits_box": true
+    }
+  ],
+  "all_text_fits": true,
+  "display_values": 6,
+  "analysis_recomputed": false,
+  "supersedes_render_only": "Pg1_public_spatial_v3_20261108/public_data_rationale"
+}

@@ -1,0 +1,10 @@
+product,availability,inspected_member_count,represented_GSMs,annotation_QC,evidence,consequence
+Visium coordinate file references,present_in_prior_inventory,112,56,prior_inventory_reference_only,Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv,Prior C3 coordinate/barcode QC reused; no new coordinates loaded
+Visium image references,present_in_prior_inventory,112,56,prior_inventory_reference_only,Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv,Raster is not a pathology or ROI export
+Visium author spot pathology and exclusion flags,not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Stage 3 spot-category/geometry QC held
+Visium author molecular state and clone labels,not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Must remain separate from morphology
+Whole-slide 11 mm ROI squares and block/section manifest,not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Stage 3 alignment held
+"Xenium cell labels, counts, centroids, polygons and transforms",not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Stages 3-5 held; no invented Xenium GEO rows
+TMA core-lesion-patient manifest and measured panel,not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Stage 6 transport eligibility held
+Tables S1-S4,linked_not_recovered,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,S1 joins; S2-S3 signatures; S4 add-on panel contents unavailable
+Human Zenodo 18851077 and code 17172149,restricted,,,not_performed_missing_exports,SOURCE_RECOVERY.md; source_manifest.json,Empty public file list is an access limit

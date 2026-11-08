@@ -119,7 +119,7 @@ The [Yadav follow-up package](Yadav_followups_20261031/README.md) retains Wg-P06
 ## Article-local connections
 
 These seven recently registered owners remain distinct from the canonical rows.
-The registry retains all 39 article-local candidates, including older Nb4/Nb5/Wg/Wp
+The registry retains all 40 article-local candidates, including older Nb4/Nb5/Wg/Wp
 families. An ID is not acceptance or evidence of a completed mechanism.
 
 | Owner | Current plan / relation to canonical questions |
@@ -130,6 +130,7 @@ families. An ID is not acceptance or evidence of a completed mechanism.
 | Yd1-P02 → proposed A32 | [Historical source plan](Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md) → [A32 development](A32_myeloid_arg1_matrix_epithelial_recovery/README.md); earlier runs retain Yd1-P02 ownership |
 | Sx10-P01 — Gate 3A, paper 7 | [Saxton IL-10 source and extensions](../Research%20Article/gate3_07_saxton_2021_il10/README.md) |
 | Sx22-P01 | [Saxton source reassessment](../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md); [recipient/persistence connections](../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md) |
+| Pg1-P01 — ungated source | [Peng pathology/ROI and sample qualification](../Research%20Article/ungated_peng_2026_spatial_omics/PLAN.md); [existing-RQ connections](../Research%20Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md) |
 | Arz1-P01 — ungated source | [Arozamena paired measurements](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md); [A1/A14/A8 connections and limits](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) |
 
 [Scope and overlap assessment](../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md)

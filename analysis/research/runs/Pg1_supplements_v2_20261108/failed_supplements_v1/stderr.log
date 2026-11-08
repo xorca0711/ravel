@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_supplements_v1.py", line 199, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);verify(p.parse_args().run)
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_supplements_v1.py", line 195, in verify
+    if failures:raise ValueError('Independent source verification failed')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Independent source verification failed
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\supplements_v1.py", line 336, in <module>
+    main(p.parse_args().output)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\supplements_v1.py", line 330, in main
+    subprocess.run([sys.executable,str(Path(__file__).with_name('verify_supplements_v1.py')),'--run',str(out)],check=True)
+  File "C:\Users\dream\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\Research Article\\ungated_peng_2026_spatial_omics\\scripts\\verify_supplements_v1.py', '--run', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\analysis\\research\\runs\\Pg1_supplements_v1_20261108']' returned non-zero exit status 1.

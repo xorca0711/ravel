@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v2.py", line 141, in <module>
+    verify(p.parse_args().run)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v2.py", line 119, in verify
+    check('Five exposed filename discrepancies preserved', differences==exposed_differences)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v2.py", line 26, in check
+    raise ValueError(f'Independent verification failed: {name}')
+ValueError: Independent verification failed: Five exposed filename discrepancies preserved
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\metadata_v2.py", line 303, in <module>
+    execute(p.parse_args().output)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\metadata_v2.py", line 296, in execute
+    subprocess.run([sys.executable, str(Path(__file__).with_name('verify_metadata_v2.py')), '--run', str(out)], check=True)
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\Research Article\\ungated_peng_2026_spatial_omics\\scripts\\verify_metadata_v2.py', '--run', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\analysis\\research\\runs\\Pg1_metadata_v2_20261108']' returned non-zero exit status 1.

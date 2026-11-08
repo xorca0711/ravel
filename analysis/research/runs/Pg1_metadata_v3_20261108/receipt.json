@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.metadata_v3",
+  "owner": "Pg1-P01",
+  "contract": "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v3.json",
+  "contract_sha256": "ef4341d88c1fff0c9cc7ca6d998e6d3cb092f0508e4e67e58119f90b9e00abbc",
+  "git_commit": "84d156e1658f5d246edfbc802db0d4e26fbd1086",
+  "started_at": "2026-11-08T05:43:07.109649+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v3.py",
+    "--output",
+    "analysis/research/runs/Pg1_metadata_v3_20261108"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307534_family.soft.gz",
+      "sha256": "4217586e667c6bfa6b1ea7d3a0f92d05dc74d126bcdf80b4cfe8a3d17a8d6ac9",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE308103_family.soft.gz",
+      "sha256": "345a35b10599bf556dafcf16e2769df367d903e5d2630d1531b6a16ddf0c064a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307529_family.soft.gz",
+      "sha256": "d7378ac95b9be85c8178b487d776287b929b128a1c3008ee02ba4a8f6ae69479",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v1.json",
+      "sha256": "98765adc6809affd201f1d50e0a3f862439e82dc7216e320caa6db0d9b970c3d",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v2.json",
+      "sha256": "e4303d8788740a66f2c50cedc7bfee769a00708892453f8b5080c8ef67085367",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v3.json",
+      "sha256": "8cc0abfaafd63148dcf482b7d873960737f7de94549f1ec77800eda909e67c1b",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v4.json",
+      "sha256": "5b7e036417ea6f9d1639e420da8a90cedf1dcc495f32df09042487c4b0207737",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v5.json",
+      "sha256": "b69125793d2aa2d5a34ed1cd767f80ed0b80f2a33d4edac5545f5427e3368af8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v6.json",
+      "sha256": "f3997690f2684c19113688243b9d4146b6586ace9b2e163ee092da505c701d12",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/pmc_article.html",
+      "sha256": "3bcdf1b1a6c71187d91ebe5dc5b7c46ae3ab4876d603296dcfa07c5bee45c016",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_15670280.json",
+      "sha256": "39bbf16a56a6c3177264fb564686e416f224ae0e5ef19747c1d249c41a1feb9a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_17172149.json",
+      "sha256": "9f972c738d071924d281eb6ead3a40d25775a51b8651a4baa3550c3ba4532e00",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_repository_tree.json",
+      "sha256": "91b809fbadef72af50cdb0988081414eecf4cd2413194d6eee4adbc622cfb36f",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_1.R",
+      "sha256": "e1f99d9a6f10dbead1a90b9a3ea6d60d827de5b4a5e07933188968bdab083bdc",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_5.R",
+      "sha256": "ba530ea1d1120538c112c3e800de24cbcba92755fc6d95eb5affbd729b3b3455",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/geo_spatial_directory.html",
+      "sha256": "fd15e26d8d9db020130a4a0d994041d0bb7fb7f42d02c8a1ca0e691aaece0881",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/sample_inventory.csv",
+      "sha256": "1d68bea6fbd8834c183549d750dd1e99e75d227475eacac9f190a0d3cf1278a8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/human_sample_links.csv",
+      "sha256": "f830bde07c6d02d17a97a13bccce419ab50ecba59e10a9b5cbb89884df8b8ebb",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/all_series_patient_histology_crosswalk.csv",
+      "sha256": "f49f83d50f5bd0a13c76504c6b89caaf4f2ac33dfcd098f0db55aa6fe610abd7",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/library_qc_and_annotation.csv",
+      "sha256": "b3043f427a355724727af7666c848f0f2aec8f8b7f43e5ad35fc3ebbcc957914",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_demographic_crosswalk.csv",
+      "sha256": "6b923dcea984b9b73a8a3e0ccd478b521715edea851fdd3d9bd962b3e3ad1023",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_crosswalk_validation.json",
+      "sha256": "6b8cb8a0e74903fd2efae876c35028067c0dfa3facf21458f8dd46b227b49660",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv",
+      "sha256": "ca3f319c9a626966d945ee9cb4ca805b7dc0fdf8119d3050a4f9d49680c5ea3c",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/possible_pathology_annotation_members.csv",
+      "sha256": "6c7a24d252f1c0c0a368e8e5b2a5ae83bd10f7546f763a41aec0fb4de81b7950",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/receipt.json",
+      "sha256": "ab95f81018a81d2d0cdedd3729922ae4d7735fdd7c47177dc371357237adbfd0",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/stderr.log",
+      "sha256": "2fe85b79d78985d19533a5fa34c48885a41f935314984c271b7a88964d605569",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48",
+      "study_id": "Pg1_failed_metadata_v1_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/receipt.json",
+      "sha256": "ab95f81018a81d2d0cdedd3729922ae4d7735fdd7c47177dc371357237adbfd0",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/stderr.log",
+      "sha256": "2fe85b79d78985d19533a5fa34c48885a41f935314984c271b7a88964d605569",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failed_v1/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/failure_preservation.json",
+      "sha256": "ac85b72610a47566b312eed91a67aba8f519335d4a5a45c9549ad4df325137f8",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/join_issues.csv",
+      "sha256": "c74fcf84bf5cb9853e3c0847a3173631157d81ee4c0b4aa1dde6924da26b7c1f",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/receipt.json",
+      "sha256": "25f8b507d5ad0c1104d09f4972098586a9b65fe5cad978625c9a089228c4e6e8",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/samples.csv",
+      "sha256": "5222a50ae117b72c59353e2cc3660fcc62450607223914739cb8a3f4a954440a",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/stderr.log",
+      "sha256": "bf7e36e56034d5555a3c57b086eaaac989d490ddafa3cfc2b275cc6245b8e1e6",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v2_20261108/summary.json",
+      "sha256": "71becf85592f42da8993b19af88a56c3d5b8e67a3a44c2cb25976f9c42300ecb",
+      "study_id": "Pg1_failed_metadata_v2_archive",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v3.py",
+      "sha256": "7ef8cb7f61e9e26bb1a46fd1efc1252f14e8462131caa1260590e9be6d1b07c9"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_metadata_v3.py",
+      "sha256": "2f891cfbbf4a328f0a912e5c58f48fd9e2351b0199c151b0e923dc6efdca38fe"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_metadata_v3.py",
+      "sha256": "6657c4ad1208fe8497bf8a470587334a287a4bf88f0ee8ffb0c09f9eedaaddf0"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/crosswalk.csv",
+      "sha256": "5ca8be365bcaa344732a62b5f7a200a4ccf1805b773811b02443d6e56138d8ef"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/join_issues.csv",
+      "sha256": "144fb5f3dd1b3152ca76cea53bc80fff41d0f6770687677fb87202a3e68ecb7e"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/summary.json",
+      "sha256": "1f75fc7037cee3b49d728f96e5b59d08507afb6beafb77d50acc1cc90e123346"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/verification.json",
+      "sha256": "b064e69d40f79a3c95417216377b53dacb2c537bab50a0e5f9a056b11a5b4cc6"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/receipt.json",
+      "sha256": "ab95f81018a81d2d0cdedd3729922ae4d7735fdd7c47177dc371357237adbfd0"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/stderr.log",
+      "sha256": "2fe85b79d78985d19533a5fa34c48885a41f935314984c271b7a88964d605569"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v1/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failure_preservation.json",
+      "sha256": "ac85b72610a47566b312eed91a67aba8f519335d4a5a45c9549ad4df325137f8"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/receipt.json",
+      "sha256": "ab95f81018a81d2d0cdedd3729922ae4d7735fdd7c47177dc371357237adbfd0"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/stderr.log",
+      "sha256": "2fe85b79d78985d19533a5fa34c48885a41f935314984c271b7a88964d605569"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failed_v1/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/failure_preservation.json",
+      "sha256": "ac85b72610a47566b312eed91a67aba8f519335d4a5a45c9549ad4df325137f8"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/join_issues.csv",
+      "sha256": "c74fcf84bf5cb9853e3c0847a3173631157d81ee4c0b4aa1dde6924da26b7c1f"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/receipt.json",
+      "sha256": "25f8b507d5ad0c1104d09f4972098586a9b65fe5cad978625c9a089228c4e6e8"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/samples.csv",
+      "sha256": "5222a50ae117b72c59353e2cc3660fcc62450607223914739cb8a3f4a954440a"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/stderr.log",
+      "sha256": "bf7e36e56034d5555a3c57b086eaaac989d490ddafa3cfc2b275cc6245b8e1e6"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failed_v2/summary.json",
+      "sha256": "71becf85592f42da8993b19af88a56c3d5b8e67a3a44c2cb25976f9c42300ecb"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/failure_v2_preservation.json",
+      "sha256": "c84b782c0b7ea59da1178b081abb786ddd7b0772038468cdcb62460497791ec7"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T05:43:09.772928+00:00"
+}

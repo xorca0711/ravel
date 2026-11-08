@@ -1,0 +1,9 @@
+# Original failed Peng runs remain local; byte-exact archives are registered in Pg1_metadata_v3_20261108.
+/Pg1_metadata_v1_20261108/
+/Pg1_metadata_v2_20261108/
+# Failed supplementary v1 remains local; exact archive is registered in Pg1_supplements_v2_20261108.
+/Pg1_supplements_v1_20261108/
+
+# Original public-spatial failures are retained byte-exact within the successful v3 run.
+/Pg1_public_spatial_v1_20261108/
+/Pg1_public_spatial_v2_20261108/

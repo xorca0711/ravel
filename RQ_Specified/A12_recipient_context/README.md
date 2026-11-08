@@ -1,5 +1,18 @@
 # A12: recipient context beyond ligand RNA
 
+**Public-cell result, 8 November:** The [fixed cell-level description](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
+qualifies 75 libraries and reproduces the original 12-patient AT2 counts exactly.
+IL1RAP detection increases on average while its positive-cell normalized intensity
+falls. The small co-detection increase attenuates after depth standardization, and
+IL1R1 detection changes direction in broader epithelial candidates. These results
+keep mixture/selection alternatives central; no intrinsic within-state regulation,
+receptor assembly or stronger signaling is established. [Context/search refresh](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
+and [measured figure gallery](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md).
+Original predictive results, including unfavorable fibroblast outcomes, and the
+registered hypothesis/illustration remain unchanged.
+
+**Source qualification, 8 November:** [Peng Tables S1–S6 are now qualified](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md). Patient/platform and aggregate TMA metadata, human/mouse signatures and two custom add-ons are explicit; source-linked checks identify feature overlap with the fixed A12 endpoint. Add-on absence is not full-assay absence. Author state/pathology exports, geometry, exact section/core maps and measured panels remain unqualified, so the within-state A12 extension is unestimated. The prior 185-record GEO result, P6 WES hold, A12 estimand, unfavorable fibroblast result and claim status are unchanged.
+
 <a id="organizing-biological-question"></a>
 
 ## Organizing Biological Q
@@ -19,6 +32,13 @@ exploratory predictive compartment narrowing.
 
 Current synthesis: 4 November 2026. [Question card](../../RESEARCH_QUESTIONS.md#a12)
 · [Literature context](LITERATURE_CONTEXT.md) · [Dossier](../../docs/research_dossiers/A12.md).
+
+**Literature annotation, 8 November 2026:** Peng et al. (2026), Figs. 4D and
+5E/K, provide related state-specific IL1R1 and spatial-neighborhood evidence in
+the same GSE308103 source lineage. Their KAC/state comparison does not directly
+explain this pilot's LUAD-minus-normal index, including its decreasing epithelial
+IL1R1 component. [Paper assessment and proposed annotation qualification](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#a12-related-evidence-different-estimands).
+The current results, hypothesis, illustration and acceptance status are unchanged.
 
 ## Literature context & visual hypothesis
 

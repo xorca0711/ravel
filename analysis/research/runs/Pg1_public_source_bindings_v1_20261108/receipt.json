@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1.public_source_bindings_v1",
+  "owner": "Pg1-P01",
+  "contract": "Research Article/ungated_peng_2026_spatial_omics/contracts/public_source_bindings_v1.json",
+  "contract_sha256": "a2a358944ccccfc01dd548ddff86595e4e290f7d6165e41ede393f58cf5125d2",
+  "git_commit": "7ee773a0bdea6cc003466b0f903108eb9d2521ec",
+  "started_at": "2026-11-08T08:11:08.305806+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_peng_2026_spatial_omics/scripts/public_source_bindings_v1.py",
+    "--output",
+    "analysis/research/runs/Pg1_public_source_bindings_v1_20261108"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_cells_manifest_v1.json",
+      "sha256": "cb1e1ff44e4f3ba10fbac960f3f1e0b7a17eda36e72ab8c2c4011784740f9003",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_spatial_manifest_v1.json",
+      "sha256": "36d2ee91d4bc2b8d12723206b0a2710cdfc586763fb9da32bd5916f5fce5c02b",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
+      "sha256": "ae9f7d8bc8db677edbd437fe115bdb1c8b6b12851507c59e1e5cf970ae42270f",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+      "sha256": "085df113f0119d7019673290dd48ffa6e36080e218e376a128aaf27ba1a668e0",
+      "study_id": "existing_public_source_bindings",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_source_bindings_v1.py",
+      "sha256": "28366ff2fdb0e32c5598523d7c287f727ee842cc950a3ce4b69d0bf82ef57b91"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_cells_manifest_v1.json",
+      "sha256": "cb1e1ff44e4f3ba10fbac960f3f1e0b7a17eda36e72ab8c2c4011784740f9003"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_spatial_manifest_v1.json",
+      "sha256": "36d2ee91d4bc2b8d12723206b0a2710cdfc586763fb9da32bd5916f5fce5c02b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Pg1_public_source_bindings_v1_20261108/source_bindings.csv",
+      "sha256": "9b215b4504e020ac7bd73ca0417b83702f505117e7f5221092a8b7861a945a5f"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_source_bindings_v1_20261108/verification.json",
+      "sha256": "7f703475c9b128f37f5a14e61a7f51fff4c581d23b828789297102b15805e009"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T08:11:09.287963+00:00"
+}

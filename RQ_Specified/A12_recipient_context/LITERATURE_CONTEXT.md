@@ -1,11 +1,33 @@
 # A12: literature context and current argument
 
+**Public-cell result, 8 November:** The [fixed cell-level description](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
+qualifies 75 libraries and reproduces the original 12-patient AT2 counts exactly.
+IL1RAP detection increases on average while its positive-cell normalized intensity
+falls. The small co-detection increase attenuates after depth standardization, and
+IL1R1 detection changes direction in broader epithelial candidates. These results
+keep mixture/selection alternatives central; no intrinsic within-state regulation,
+receptor assembly or stronger signaling is established. [Context/search refresh](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
+and [measured figure gallery](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md).
+Original predictive results, including unfavorable fibroblast outcomes, and the
+registered hypothesis/illustration remain unchanged.
+
+**Source qualification, 8 November:** [Peng Tables S1–S6 are now qualified](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md). Patient/platform and aggregate TMA metadata, human/mouse signatures and two custom add-ons are explicit; source-linked checks identify feature overlap with the fixed A12 endpoint. Add-on absence is not full-assay absence. Author state/pathology exports, geometry, exact section/core maps and measured panels remain unqualified, so the within-state A12 extension is unestimated. The prior 185-record GEO result, P6 WES hold, A12 estimand, unfavorable fibroblast result and claim status are unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A12.md).
 
 Synthesis updated 4 November 2026 using the recorded source reviews and current
 results. No fresh literature search or biological calculation was performed for
 this documentation batch. Published premises and reused-data observations remain
 separate evidence types.
+
+**Addendum, 8 November 2026:** A fresh bounded reading of Peng et al. (2026),
+Figs. 4D and 5E/K, and the supplied supplement adds related spatial/state
+context, with [search and access records](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#literature-context-and-actual-search-coverage).
+High IL1R1 in KACs is a different estimand from this pilot's LUAD-minus-normal
+contrast; it does not resolve its state-mixture or general-inflammation alternatives.
+The study's GSE308103 cohort is already reused here. [Interpretation and proposed
+next qualification](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md#a12-related-evidence-different-estimands)
+preserve the current hypothesis, results and registered illustration.
 
 ## Published starting point
 

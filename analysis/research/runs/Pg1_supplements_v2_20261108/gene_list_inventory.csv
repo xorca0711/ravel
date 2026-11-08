@@ -1,0 +1,37 @@
+namespace,species,list_kind,label_raw,entries,unique_symbols,duplicate_entries,header_locator
+S2::Visium::MP1,Homo_sapiens,meta_program,Normal parenchyma,49,49,0,NIHMS2118436-supplement-3.xlsx#Sheet1!U3
+S2::Visium::MP10,Homo_sapiens,meta_program,Normal parenchyma (AT1),50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!AD3
+S2::Visium::MP11,Homo_sapiens,meta_program,Plasma,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!AE3
+S2::Visium::MP2,Homo_sapiens,meta_program,Stromal,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!V3
+S2::Visium::MP3,Homo_sapiens,meta_program,Precursor,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!W3
+S2::Visium::MP4,Homo_sapiens,meta_program,Lymphoid,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!X3
+S2::Visium::MP5,Homo_sapiens,meta_program,Myeloid (macrophages),50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!Y3
+S2::Visium::MP6,Homo_sapiens,meta_program,Airway,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!Z3
+S2::Visium::MP7,Homo_sapiens,meta_program,Inflammed/stressed cells,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!AA3
+S2::Visium::MP8,Homo_sapiens,meta_program,Endothelial,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!AB3
+S2::Visium::MP9,Homo_sapiens,meta_program,Invasive/malignant,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!AC3
+S2::snRNA_epithelial::MP1,Homo_sapiens,meta_program,Ciliated,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!K3
+S2::snRNA_epithelial::MP2,Homo_sapiens,meta_program,AT2,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!L3
+S2::snRNA_epithelial::MP3,Homo_sapiens,meta_program,Club/secretory,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!M3
+S2::snRNA_epithelial::MP4,Homo_sapiens,meta_program,Basal/basal stem,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!N3
+S2::snRNA_epithelial::MP5,Homo_sapiens,meta_program,AT1,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!O3
+S2::snRNA_epithelial::MP6,Homo_sapiens,meta_program,Tumor cell/KAC,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!P3
+S2::snRNA_epithelial::MP7,Homo_sapiens,meta_program,Tumor cell (stress/inflammatory),50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!Q3
+S2::snRNA_epithelial::MP8,Homo_sapiens,meta_program,Ciliated,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!R3
+S2::snRNA_epithelial::MP9,Homo_sapiens,meta_program,KAC/inflammatory,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!S3
+S2::snRNA_panlineage::MP1,Homo_sapiens,meta_program,Normal epithelia,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!A3
+S2::snRNA_panlineage::MP2,Homo_sapiens,meta_program,Myeloid ,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!B3
+S2::snRNA_panlineage::MP3,Homo_sapiens,meta_program,Stromal (fibroblast),50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!C3
+S2::snRNA_panlineage::MP4,Homo_sapiens,meta_program,Tumor cell,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!D3
+S2::snRNA_panlineage::MP5,Homo_sapiens,meta_program,Stromal (endothelial),50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!E3
+S2::snRNA_panlineage::MP6,Homo_sapiens,meta_program,Normal epithelia,49,49,0,NIHMS2118436-supplement-3.xlsx#Sheet1!F3
+S2::snRNA_panlineage::MP7,Homo_sapiens,meta_program,Lymphoid ,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!G3
+S2::snRNA_panlineage::MP8,Homo_sapiens,meta_program,Airway,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!H3
+S2::snRNA_panlineage::MP9,Homo_sapiens,meta_program,B/plasma,50,50,0,NIHMS2118436-supplement-3.xlsx#Sheet1!I3
+S3::Homo_sapiens::Interferon,Homo_sapiens,published_signature,Interferon,136,136,0,NIHMS2118436-supplement-4.xlsx#Sheet1!C3
+S3::Homo_sapiens::KAC,Homo_sapiens,published_signature,KAC,102,102,0,NIHMS2118436-supplement-4.xlsx#Sheet1!A3
+S3::Homo_sapiens::NF-kB,Homo_sapiens,published_signature,NF-kB,21,21,0,NIHMS2118436-supplement-4.xlsx#Sheet1!B3
+S3::Mus_musculus::Inflammatory,Mus_musculus,published_signature,Inflammatory,199,199,0,NIHMS2118436-supplement-4.xlsx#Sheet1!E3
+S3::Mus_musculus::KAC,Mus_musculus,published_signature,KAC,98,98,0,NIHMS2118436-supplement-4.xlsx#Sheet1!D3
+S4::custom_addon::TMA_lung,Homo_sapiens,custom_addon_only,Human lung (TMAs),100,100,0,NIHMS2118436-supplement-5.xlsx#Tab 1!C2
+S4::custom_addon::whole_tissue_5K_Prime,Homo_sapiens,custom_addon_only,Human 5K Prime (whole tissue),100,100,0,NIHMS2118436-supplement-5.xlsx#Tab 1!A2

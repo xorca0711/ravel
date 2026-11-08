@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "method": "Separately implemented raw-block regex extraction and CSV/set arithmetic; no production parser imports",
+  "checks": 3961,
+  "failures": [],
+  "covered": [
+    "GSM and patient counts",
+    "suffixes",
+    "filename aliases",
+    "demographics",
+    "join union/cardinality",
+    "C3 coverage and disagreements",
+    "unknown identity preservation",
+    "published WES/P7 locators"
+  ],
+  "limit": "Same source numerical verification, not independent biological replication or human scientific acceptance"
+}
