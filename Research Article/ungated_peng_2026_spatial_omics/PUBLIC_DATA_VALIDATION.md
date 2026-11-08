@@ -64,5 +64,16 @@ No scientific acceptance or claim-grade change follows from these checks. Previo
 checks are reused; focused new tests and independent measured checks cover this
 implementation. No biological computation was replayed for documentation edits.
 
-The owner-reported Zenodo request remains pending and unverified. This chat sent
-no external message/request and made no push, PR, merge or Notion mutation.
+At analysis delivery, the owner-reported Zenodo request remained pending and
+unverified; no external message/request, push, PR, merge or Notion mutation had
+been made. The owner subsequently authorized publication: delivery commit
+`65627dc` was pushed and [PR #173](https://github.com/xorca0711/ravel/pull/173)
+opened against main on 8 November 2026, with both GitHub connections verified as
+`xorca0711`. The integration base is unchanged. The owner also requested a
+completion handoff to the coordinating chat for biological-rationale review,
+neighboring-article comparison, possible extensions and job implications. This
+publication update changes no scientific outputs or interpretation boundaries.
+Publication validation again passed all 18,490 repository checks and the
+base-aware provenance gate. The 34 unrelated file hashes remain unchanged.
+Both GitHub Actions workflows passed for analysis commit `65627dc`; the final
+publication-record commit requires its own remote CI result.

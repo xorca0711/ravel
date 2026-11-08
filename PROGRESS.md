@@ -27,9 +27,13 @@ Zenodo access is USER-REPORTED requested, pending and unverified. Original autho
 dependent stages 3–6 and linked functional outcomes remain held. Next: qualify
 received author state/pathology/geometry, exact section/core and full-panel exports
 under new contracts when accessible; do not replay completed descriptions. The
-remaining file-request draft is unsent. No external request/message, push, PR,
-merge, Notion edit or governance change. Final delivery checks and local commit
-are recorded in [validation](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_VALIDATION.md).
+remaining file-request draft is unsent. The owner-authorized branch is now pushed
+and [PR #173](https://github.com/xorca0711/ravel/pull/173) is open against main;
+analysis delivery commit: `65627dc`. No merge, author message, Notion edit or
+governance change. The owner requests a completion handoff to **Assess paper fit
+with Ravel** for biological-rationale review, comparison with neighboring article
+work, possible extensions, and a job-by-job summary of implications. Final
+delivery checks are recorded in [validation](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_VALIDATION.md).
 Refreshed main remains `1ff71a1`; unrelated work and canonical identities are preserved.
 
 ## Peng supplementary sources qualified; spatial exports held — 8 November 2026
