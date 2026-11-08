@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 Loss of NKX2-1-dependent AT2 identity may lower actual fibroblast chemokine output within comparable fibroblast states beyond a change in viable epithelial source amount. The RNA direction is already published. The proposed extension asks whether it reaches extracellular protein output; the primary chemokine protein and collection/recovery definition have not been nominated, and broad AT2-score generalization failed.
 
-**What is already known, and what remains:** Nabhan already reports NKX2-1-dependent fibroblast chemokine transcripts and niche changes. The possible contribution is source-amount/selection-qualified protein output, not rediscovery of the transcript effect or an assumed immune-recruitment function. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a22).
+**What is already known, and what remains:** Nabhan already reports NKX2-1-dependent fibroblast chemokine transcripts and niche changes. The possible contribution is source-amount/selection-qualified protein output, not rediscovery of the transcript effect or an assumed immune-recruitment function. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a22).
 
 **What the measurements would decide:** Lower measured protein output within comparable recipient states at comparable viable epithelial input would support the extension. An amount/selection-only effect or unchanged protein weakens it. Calibrated collection/recovery is needed for secretion-rate language; the failed broad predictor cannot support all epithelial identity perturbations.
 
@@ -68,7 +68,7 @@ Loss of NKX2-1-dependent AT2 identity may lower actual fibroblast chemokine outp
 [development dossier](../../docs/research_dossiers/A22.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A22.md).
 Source-mapping closeout: [M05/M06 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

@@ -105,5 +105,5 @@ accession release warrants inspection, not automatic eligibility. Author outreac
 requires a separate user instruction. Do not repeat closed searches without new
 evidence. No recurring monitoring was created.
 
-See [remaining work](../REMAINING_WORK.md), [inspection scope](SOURCES.md) and
+See [remaining work](../../history/planning/REMAINING_WORK.md), [inspection scope](SOURCES.md) and
 [verification](VALIDATION.md).

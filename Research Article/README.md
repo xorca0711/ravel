@@ -96,7 +96,7 @@ that a study note has been accepted. Each overview states its limits.
 
 <a id="figure-galleries"></a>
 
-The [29 September figure audit](../docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md)
+The [29 September figure audit](../docs/history/reviews/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md)
 records presentation corrections, preserved historical versions and review
 coverage across the galleries. Study-specific additions and later updates are
 linked in each study's gallery.

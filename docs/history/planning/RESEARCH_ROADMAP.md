@@ -1,31 +1,35 @@
 # Research roadmap: closing the biological and logical gaps
 
-**Historical September planning document.** Current work follows [project state](../PROGRESS.md),
-the [question homes](../RQ_Specified/README.md), [article reports](../Research%20Article/README.md)
-and their registered evidence. The [conditional packages](research_dossiers/packages_2026-10-03/README.md)
-and [remaining-work ledger](research_dossiers/REMAINING_WORK.md) preserve later
+> Historical record, archived 8 November 2026. Its dates, counts and proposed
+> next steps retain their original scope. Use the [current index](../../README.md)
+> for active sources and navigation.
+
+**Historical September planning document.** Current work follows [project state](../../../PROGRESS.md),
+the [question homes](../../../RQ_Specified/README.md), [article reports](../../../Research%20Article/README.md)
+and their registered evidence. The [conditional packages](../../research_dossiers/packages_2026-10-03/README.md)
+and [remaining-work ledger](REMAINING_WORK.md) preserve later
 dated planning checkpoints, not a current execution queue. The priority order
 and execution statements below retain their original revisions.
 
-**Current owner direction, 3 October 2026:** develop all existing questions before selecting a priority. The priority order below is the historical September execution proposal, not a current ranking or automatic queue. Use the [current dossiers](research_dossiers/README.md) and [project state](../PROGRESS.md) for next decisions.
+**Current owner direction, 3 October 2026:** develop all existing questions before selecting a priority. The priority order below is the historical September execution proposal, not a current ranking or automatic queue. Use the [current dossiers](../../research_dossiers/README.md) and [project state](../../../PROGRESS.md) for next decisions.
 
 **Draft development proposal, 28 September 2026:** the
-[combined question-by-question plan](audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+[combined question-by-question plan](../../audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
 joins documentation-depth and hypothesis-reframing assessments. It proposes
 immediate synthesis work and separate evidence gates; it does not change the
 registered hypotheses, execution queue or results below.
 
-**Current execution, 28 September 2026:** the [gap-fill report and every-question ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+**Current execution, 28 September 2026:** the [gap-fill report and every-question ledger](../../roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 record the merged A15 normalization correction, corrected A16 C1, A17 source
-accounting and A5/A12 recovery gates. The [small-task queue](research_pipeline/queue.json)
+accounting and A5/A12 recovery gates. The [small-task queue](../../research_pipeline/queue.json)
 is synchronized; no scientific job is running and no eligible external A5/A12
-score is queued. The older [handoff](handoffs/2026-09-27-computational-research.md)
-and [first P0–P5 execution](roadmap_runs/2026-09-27/README.md) remain historical.
+score is queued. The older [handoff](../../handoffs/2026-09-27-computational-research.md)
+and [first P0–P5 execution](../../roadmap_runs/2026-09-27/README.md) remain historical.
 
-The [27 September follow-through](roadmap_runs/2026-09-27-followthrough/README.md)
+The [27 September follow-through](../../roadmap_runs/2026-09-27-followthrough/README.md)
 contains the completed A12/A13 exploratory pilots and prior candidate checks.
 Prospective designs below describe requirements; they are not completed experiments.
-Use the [dataset inventory](DATASETS.md) for current analysed versus gated inputs.
+Use the [dataset inventory](../../DATASETS.md) for current analysed versus gated inputs.
 
 | Current checkpoint | Next enabling input or decision |
 |---|---|
@@ -38,7 +42,7 @@ Use the [dataset inventory](DATASETS.md) for current analysed versus gated input
 
 **Planning baseline:** 27 September 2026, with execution status synchronized on 28 September.
 
-This roadmap follows the [repository rationale audit](audits/2026-09-27-rq-rationale/REPORT.md) and [shared architecture](RESEARCH_ARCHITECTURE.md). It preserves existing stop decisions and frozen instruments. It structures future work without changing claim grades or treating A15 registration as accepted. A dataset mentioned in an older analysis is not automatically eligible for a new question.
+This roadmap follows the [repository rationale audit](../../audits/2026-09-27-rq-rationale/REPORT.md) and [shared architecture](../../RESEARCH_ARCHITECTURE.md). It preserves existing stop decisions and frozen instruments. It structures future work without changing claim grades or treating A15 registration as accepted. A dataset mentioned in an older analysis is not automatically eligible for a new question.
 
 ## 1. Organizing question and biological context
 
@@ -123,13 +127,13 @@ For an alveolar maturation study, select a primary mature-cell contribution endp
 
 **Biological rationale.** Recruitment of a perinatal gene set may represent reusable differentiation machinery, alveolar identity, birth-associated stress or generic injury. The current result supports partial RNA recruitment, leaving these explanations incompletely separated.
 
-**Starting evidence.** The [completed A5 test](../RQ_Specified/A5_developmental_programme_reuse/README.md) found positive within-mouse contrasts in 24 Strunz mice. Its primary external module has 99 genes, with fixed 57-gene identity and 53-gene identity/control exclusion sensitivities. These definitions remain frozen.
+**Starting evidence.** The [completed A5 test](../../../RQ_Specified/A5_developmental_programme_reuse/README.md) found positive within-mouse contrasts in 24 Strunz mice. Its primary external module has 99 genes, with fixed 57-gene identity and 53-gene identity/control exclusion sensitivities. These definitions remain frozen.
 
 **Next test.**
 
 1. Inspect metadata for an independent adult-injury cohort, preferably mouse first to avoid adding ortholog/species differences to the initial replication. Require raw integer counts, verified animal IDs, supported transitional and activated-AT2 comparators, compatible sampling times and adequate gene/cell coverage.
 2. Establish state correspondence without using the module being tested. If the author labels do not map credibly, report a transport limitation; do not select labels that maximize the score. Track previous exposure to the candidate data.
-3. Preserve the [existing instrument and contrast](../RQ_Specified/A5_developmental_programme_reuse/PLAN.md): expected detection at 500 UMI and a transitional-minus-activated-AT2 contrast within each animal, with equal-animal aggregation. Retain existing gene coverage, cell eligibility and secondary-family rules. A necessary assay adaptation becomes a separately named amended transport test, not an unchanged replication.
+3. Preserve the [existing instrument and contrast](../../../RQ_Specified/A5_developmental_programme_reuse/PLAN.md): expected detection at 500 UMI and a transitional-minus-activated-AT2 contrast within each animal, with equal-animal aggregation. Retain existing gene coverage, cell eligibility and secondary-family rules. A necessary assay adaptation becomes a separately named amended transport test, not an unchanged replication.
 4. Before scores are inspected, justify the target population/time window and evaluate anticipated precision using independent information. The historical three-mouse floor is not a sample-size justification. Do not use the original positive estimate as the only planning assumption.
 5. Report every eligible animal, uncertainty, time heterogeneity and fixed secondary results. Keep the original and replication estimates separate before considering any cross-study synthesis; two studies give little information about between-study heterogeneity.
 
@@ -177,7 +181,7 @@ Compare a source-only model with a small recipient/fibroblast extension using id
 | Ligand and integrin arms under the same recipient-ligand condition, with a factorial recipient condition where feasible | Joint contributions and compensation | Removing recipient ligand changes the system; do not compare different recipient conditions as one route contrast |
 | Recipient receptor perturbation and appropriate active-ligand bypass/rescue | Whether the downstream response can depend on the nominated route | Outcome floors, saturation and toxicity; rescue can bypass several upstream defects and is not uniquely diagnostic |
 
-Select a primary contrast and statistical scale before interpreting an interaction. A full factorial is justified only when it can be replicated adequately; otherwise narrow the hypothesis rather than proliferating underpowered arms. Read the [A2](../RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md) and [A15](../RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/INTERPRETATION_AUDIT_2026-09-27.md) corrections before drafting a new specification.
+Select a primary contrast and statistical scale before interpreting an interaction. A full factorial is justified only when it can be replicated adequately; otherwise narrow the hypothesis rather than proliferating underpowered arms. Read the [A2](../../../RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md) and [A15](../../../RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/INTERPRETATION_AUDIT_2026-09-27.md) corrections before drafting a new specification.
 
 **Decision.** Concordant perturbation, engagement, activation and recipient-response evidence can distinguish proposed routes under the tested conditions. Failed engagement is inconclusive. A precise lack of a prespecified effect weakens that route in that context; a nonsignificant RNA score does not. The A15 parent remains proposed and blocked until its own gate is met.
 
@@ -201,7 +205,7 @@ Test the fibroblast-recipient hypothesis separately with fibroblast-specific ver
 
 ## 9. Concrete next work and stopping rules
 
-These are the original planned tasks. The [execution record](roadmap_runs/2026-09-27/README.md) now distinguishes delivered outputs from gated analyses. Metadata inspection and specification come before large downloads or new fits.
+These are the original planned tasks. The [execution record](../../roadmap_runs/2026-09-27/README.md) now distinguishes delivered outputs from gated analyses. Metadata inspection and specification come before large downloads or new fits.
 
 | Task | Output to create | Done when | If the gate fails |
 |---|---|---|---|
@@ -220,4 +224,4 @@ The T0–T2-first ordering describes the original planning sequence. The current
 
 **Success for the next phase:** a trustworthy screen-design ceiling, one eligible independently specified replication or a documented data gap, and one explicit path from early state to a later independent outcome. Negative or inconclusive findings can meet that goal when they resolve which claims and next tests are justified.
 
-Document consistency and RQ coverage are recorded in [roadmap validation](audits/2026-09-27-rq-rationale/roadmap_validation.json). That record covers the planning document; the [execution validation](roadmap_runs/2026-09-27/execution_validation.json) covers subsequent source audits and calculations. No unperformed experiment is reported as a result.
+Document consistency and RQ coverage are recorded in [roadmap validation](../../audits/2026-09-27-rq-rationale/roadmap_validation.json). That record covers the planning document; the [execution validation](../../roadmap_runs/2026-09-27/execution_validation.json) covers subsequent source audits and calculations. No unperformed experiment is reported as a result.

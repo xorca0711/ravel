@@ -54,7 +54,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 The frozen lesion-associated residual component may contain reproducible lesion-context information beyond the specified shared developmental/injury and stress explanations. It is a set-defined measurement, not an identified cancer-specific state or mechanism. The paired-patient beyond-shared criterion remains unresolved, and no lesion-relevant functional mediator is nominated.
 
-**What is already known, and what remains:** HPCS, regenerative overlap and stress-associated plasticity have close published precedents. A disjoint gene list alone is not novelty; the exact incremental information and biological value remain unresolved. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a11).
+**What is already known, and what remains:** HPCS, regenerative overlap and stress-associated plasticity have close published precedents. A disjoint gene list alone is not novelty; the exact incremental information and biological value remain unresolved. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a11).
 
 **What the measurements would decide:** A stable patient-level increment against the frozen shared/stress comparison could support measurement utility. Comparable recruitment in matched non-neoplastic injury or no increment favors shared plasticity. Preserve the beyond-shared BH q=0.0547 result; this comparison cannot establish causal lesion specificity.
 
@@ -69,7 +69,7 @@ The frozen lesion-associated residual component may contain reproducible lesion-
 **Read in this order:** [current evidence](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md),
 [development dossier](../../docs/research_dossiers/A11.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A11.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

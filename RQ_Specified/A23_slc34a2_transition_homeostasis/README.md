@@ -54,7 +54,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 SLC34A2 transport impairment may increase acquisition of a transition-associated epithelial stress state before broad AT2 identity loss, rather than merely prolong an existing intermediate state by impairing exit to AT1 maturation. This entry-versus-residence distinction narrows the original proposal. Phosphate-dependent repair failure and the Slc34a2-loss transitional RNA module already have published precedents; the mechanism cannot be claimed new from their combination.
 
-**What is already known, and what remains:** Lv already links SLC34A2/intracellular phosphate to AT2 self-renewal and AT1 differentiation; Nabhan reports the transitional module, and Uehara establishes mineral-context biology. The inspected Lv endpoints do not resolve the proposed entry-versus-exit comparison; its novelty and biological value remain provisional. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a23).
+**What is already known, and what remains:** Lv already links SLC34A2/intracellular phosphate to AT2 self-renewal and AT1 differentiation; Nabhan reports the transitional module, and Uehara establishes mineral-context biology. The inspected Lv endpoints do not resolve the proposed entry-versus-exit comparison; its novelty and biological value remain provisional. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a23).
 
 **What the measurements would decide:** Lineage-linked acquisition and subsequent exit measured separately can distinguish increased entry from prolonged residence; endpoint state abundance cannot. Measure transport function, compartment-specific phosphate, injury and viability independently. A qualified restoration contrast can test transport dependence, but rescue of counts alone cannot identify the affected transition step. Preserve the external negative marker result.
 
@@ -69,7 +69,7 @@ SLC34A2 transport impairment may increase acquisition of a transition-associated
 **Read in this order:** [current evidence](reports/external_pilot_v2/RESULTS.md),
 [development dossier](../../docs/research_dossiers/A23.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A23.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

@@ -30,4 +30,4 @@ Full suite: **134 tests, one existing skip**. Targeted documentation validation 
 
 ## Completion limit
 
-This verifies the bounded repository-grounding/source-recovery checkpoint. Scientific review, new evidence, later analytical implementation and actual laboratory qualification remain distinct. Owner merge and scientific acceptance are not fabricated. See [current remaining work](../REMAINING_WORK.md).
+This verifies the bounded repository-grounding/source-recovery checkpoint. Scientific review, new evidence, later analytical implementation and actual laboratory qualification remain distinct. Owner merge and scientific acceptance are not fabricated. See [current remaining work](../../history/planning/REMAINING_WORK.md).

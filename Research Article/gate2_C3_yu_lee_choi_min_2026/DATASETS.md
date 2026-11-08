@@ -92,7 +92,7 @@ download programme is included in this revision.
   alternatives. Public accession and reusable sample design remain to be
   verified; it is not part of the launch-ready count queue.
 - **GSE307112/GSE307128:** the repository's
-  [separate outcome-linked screen gate](../../docs/NEXT_DATASET_GATE.md) already
+  [separate outcome-linked screen gate](../../docs/history/planning/NEXT_DATASET_GATE.md) already
   audits these. Organoid growth/morphology provides a valuable orthogonal
   endpoint if well/preparation identities are resolved. It is not a direct
   IL-1beta withdrawal or mature-AT1 fate assay.

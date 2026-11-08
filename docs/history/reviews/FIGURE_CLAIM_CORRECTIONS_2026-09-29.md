@@ -1,8 +1,12 @@
 # Figure audit completion, 29 September 2026
 
+> Historical record, archived 8 November 2026. Its dates, counts and proposed
+> next steps retain their original scope. Use the [current index](../../README.md)
+> for active sources and navigation.
+
 This completes the presentation audit begun in [PR #118](https://github.com/xorca0711/scRNA_seq/pull/118), following the distribution-focused A16 additions in [merged PR #117](https://github.com/xorca0711/scRNA_seq/pull/117). The intended standard is to make the observations and biological units behind a result visible, choose a display appropriate to the analysis, and keep every title within the evidence. It does not require one plot style everywhere or imply that a summary statistic is inherently invalid.
 
-The [consolidated inventory](FIGURE_AUDIT_CONSOLIDATED.csv) now exists. It contains **367 figure families and 480 assets: 367 PNGs, 86 SVGs and 27 PDF companions**. A family is one extensionless repository path; historical versions and saved render copies have distinct paths. Every tracked image and every figure PDF has a disposition. The archived portfolio PDF is a document, not a figure asset, and is excluded. At the start of this continuation, PR #118 contained 346 families / 447 assets under this definition.
+The [consolidated inventory](../../FIGURE_AUDIT_CONSOLIDATED.csv) now exists. It contains **367 figure families and 480 assets: 367 PNGs, 86 SVGs and 27 PDF companions**. A family is one extensionless repository path; historical versions and saved render copies have distinct paths. Every tracked image and every figure PDF has a disposition. The archived portfolio PDF is a document, not a figure asset, and is excluded. At the start of this continuation, PR #118 contained 346 families / 447 assets under this definition.
 
 ## What PR #118 had and what needed correction
 
@@ -54,7 +58,7 @@ EN_F03 requires the per-library processed RNA cell tables; FU_F01 requires the p
 
 ## Verification
 
-[Deciding checks](figure_audit_2026-09-29/deciding_checks.json) retain the numerical and provenance checks from the scoped reviews. Each corrected presentation has local input/output provenance. These records describe the renderer's actual input bytes; unpinned text line endings can differ between Windows and Linux checkouts. The consolidated inventory therefore normalizes SVG line endings for its portable hash check, while PNG/PDF hashes are exact bytes.
+[Deciding checks](../../figure_audit_2026-09-29/deciding_checks.json) retain the numerical and provenance checks from the scoped reviews. Each corrected presentation has local input/output provenance. These records describe the renderer's actual input bytes; unpinned text line endings can differ between Windows and Linux checkouts. The consolidated inventory therefore normalizes SVG line endings for its portable hash check, while PNG/PDF hashes are exact bytes.
 
 Run `python docs/figure_audit_2026-09-29/verify_inventory.py` to check complete tracked coverage, unique families, format counts and all 480 asset hashes. This verifies this dated inventory; it does not rerun science. Repository-required compilation, evidence tests, claim-contract checks, Nb1 verification, archived A16 verification and documentation validation are recorded with the final PR checks.
 

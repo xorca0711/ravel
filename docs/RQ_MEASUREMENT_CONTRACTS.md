@@ -35,7 +35,7 @@ confounded age, injury time and processing.
   IRE1α is day-7 epithelial RiboTag, five KIRA8 versus five vehicle mice,
   with batch and sex terms; exclude Axum8 antibody controls. PATS source endpoints
   use measured descendants, and control 0/0 fractions remain undefined.
-- [Outcome-data gate](NEXT_DATASET_GATE.md): verify well, guide, plate and biological
+- [Outcome-data gate](history/planning/NEXT_DATASET_GATE.md): verify well, guide, plate and biological
   preparation joins and harvest timing before A10 prediction. Hold out whole
   preparations; outcome-time RNA is concurrent association.
 - [Niche report](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/REPORT.md):

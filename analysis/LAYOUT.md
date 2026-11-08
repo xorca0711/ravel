@@ -90,7 +90,7 @@ their own [methods and reproduction commands](figures/rq/il1b_context/REPORT.md)
 |---|---|
 | what was actually run, with parameters | [`../docs/PIPELINE_AS_RUN.md`](../docs/PIPELINE_AS_RUN.md) |
 | why each decision was made | [`../docs/ANALYSIS_RATIONALE.md`](../docs/ANALYSIS_RATIONALE.md) |
-| background (non-computational reader) | [`../docs/UMAP_AND_FIGURES.md`](../docs/UMAP_AND_FIGURES.md), [`../docs/BACKGROUND_FOR_BIOLOGISTS.md`](../docs/BACKGROUND_FOR_BIOLOGISTS.md), [`../docs/DOUBLETS_AND_SCRUBLET.md`](../docs/DOUBLETS_AND_SCRUBLET.md) |
+| background (non-computational reader) | [`../docs/UMAP_AND_FIGURES.md`](../docs/methods/background/UMAP_AND_FIGURES.md), [`../docs/BACKGROUND_FOR_BIOLOGISTS.md`](../docs/methods/background/BACKGROUND_FOR_BIOLOGISTS.md), [`../docs/DOUBLETS_AND_SCRUBLET.md`](../docs/methods/background/DOUBLETS_AND_SCRUBLET.md) |
 | the mouse report | [`GSE262927/README.md`](../Research%20Article/gate1_01_niethamer_2025/GSE262927/README.md) |
 | the human report | [`GSE178360/README.md`](../Research%20Article/ungated_murthy_2022/GSE178360/README.md) |
 

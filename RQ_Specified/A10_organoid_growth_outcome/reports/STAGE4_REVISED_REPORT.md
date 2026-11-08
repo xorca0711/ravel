@@ -2,7 +2,7 @@
 
 **Interpretation addendum, 26 September 2026.** The 0.0426 epithelial increment
 and -0.0154 fibroblast increment are retained, as is the declared descriptive
-margin decision. The [logical review](../../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections)
+margin decision. The [logical review](../../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md#a10-corrections)
 qualifies the original narrative below: this is a same-screen adaptive
 specification using held-out group outcome means, not independent confirmation.
 The four-cell pattern is specification dependence, not a tested biological

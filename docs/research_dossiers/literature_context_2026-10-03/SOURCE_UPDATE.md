@@ -2,7 +2,7 @@
 
 3 October 2026. This application propagates the earlier bounded overlap review
 into all 28 question entrypoints. It does **not** represent a new full-text search
-for every question. The source chain is the [specificity application](../NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md),
+for every question. The source chain is the [specificity application](../../history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md),
 [primary ledger](../review_2026-10-03/SOURCES.md), [follow-up comparison](../followup_2026-10-03/NOVELTY.md),
 [package source audit](../packages_2026-10-03/SOURCES.md) and
 [Nb5 review](../../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).

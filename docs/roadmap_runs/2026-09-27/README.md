@@ -1,6 +1,6 @@
 # Roadmap execution — 27 September 2026
 
-**The bounded P0–P5 execution is complete.** Source recovery and accounting calculations ran; ineligible replication/predictive models did not. P5 produced an experimental design, not experimental data. The [roadmap](../../RESEARCH_ROADMAP.md) remains the design reference; [status.json](status.json) records the distinct package outcomes.
+**The bounded P0–P5 execution is complete.** Source recovery and accounting calculations ran; ineligible replication/predictive models did not. P5 produced an experimental design, not experimental data. The [roadmap](../../history/planning/RESEARCH_ROADMAP.md) remains the design reference; [status.json](status.json) records the distinct package outcomes.
 
 | Package | Executed work | Outcome and remaining gate |
 |---|---|---|

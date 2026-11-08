@@ -1,6 +1,6 @@
 # Agent entry point
 
-Updated 7 November 2026. Read [AGENTS.md](AGENTS.md), [current state](PROGRESS.md)
+Updated 8 November 2026. Read [AGENTS.md](AGENTS.md), [current state](PROGRESS.md)
 and [research governance](docs/RESEARCH_GOVERNANCE.md) before substantive work.
 This file is navigation, not a second scientific status register.
 
@@ -17,10 +17,10 @@ Study-specific topics do not define the project-wide mission.
 | Question reasoning, context and diagrams | [All 36 question homes](RQ_Specified/README.md), each with a local context and schematic; [dossiers](docs/research_dossiers/README.md) retain the full scientific argument |
 | Papers, reading status, analyses and galleries | [Article index](Research%20Article/README.md); current article reports own their results |
 | Documentation ownership and work type | [Structure](docs/REPOSITORY_STRUCTURE.md), [decision workflow](docs/AGENT_DECISION_WORKFLOW.md), [literature workflow](docs/LITERATURE_WORKFLOW.md) |
-| Source units, data and reproducibility | [Dataset inventory](docs/DATASETS.md), [source/storage audit](docs/audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md), [reproducibility](REPRODUCIBILITY.md), [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) |
+| Source units, data and reproducibility | [Single source register](docs/DATASETS.md), including dated storage snapshots, [reproducibility](REPRODUCIBILITY.md), [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) |
 | Evidence grades, corrections and negative outcomes | [Claims](CLAIMS.md), [negative results](docs/NEGATIVE_RESULTS.md); execution is not scientific acceptance |
 | Reviewed automation trial handoffs | [Weft intake](weft_intake/README.md); arrival does not promote an RQ |
-| Historical audits, portfolio work and packages | [Documentation index](docs/README.md) and [historical remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
+| Historical audits, portfolio work and packages | [History by purpose](docs/history/README.md) and [documentation index](docs/README.md) |
 
 Read each current result and amendment before its older plan. Use registry paths
 to find frozen contracts and receipts; do not infer state from a dated summary.

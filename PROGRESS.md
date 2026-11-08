@@ -3,6 +3,25 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Unified source register and documentation categories — 8 November 2026
+
+Owner requested one source list and purpose-based organization of superseded
+documentation. Scoped branch `codex/source-register-docs-20261108` starts at
+fresh main `4318740`, after PR #168 merged. The prior root and inventory worktree
+edits remain untouched. [Consolidation and move record](docs/audits/2026-11-08-source-consolidation/README.md).
+
+`docs/DATASETS.md` now consolidates used sources, inspected/rejected comparisons,
+pending sources, historical screens and aliases, including all 544 identifiers
+from the preceding census. The root README has one source-list destination.
+Twenty older/reference documents moved into planning, review, source-inventory
+history and methods folders; compatibility locators preserve twelve old paths
+used by recorded machine/frozen-document consumers. Current counts are 36 RQs,
+38 article-local candidates and 19 paper packages. No biological analysis,
+source download, cache rescan, evidence deletion or scientific-status promotion.
+
+Next: complete link/coverage/preservation and required repository validation,
+refresh main, then publish the documentation PR. No external settings changed.
+
 ## DuPage RQ placement and rationale audit — 7 November 2026
 
 Owner requested review against the earlier reframing chat, published-target
@@ -78,7 +97,7 @@ the reconciliation above supersedes its integration and publication status.
 
 
 Updated the [central dataset list](docs/DATASETS.md) and its
-[source-use additions](docs/DATASET_UPDATES_2026-11-07.md) on isolated branch
+[source-use additions](docs/history/source-inventories/DATASET_UPDATES_2026-11-07.md) on isolated branch
 `codex/public-data-inventory-20261107`, based on freshly fetched main `dcee4b6`.
 [Audit, scan scope and artifacts](docs/audits/2026-11-07-public-data-inventory/README.md).
 The original root checkout and unrelated edits remain preserved.
@@ -1158,7 +1177,7 @@ No numerical rerun, existing PR rewrite or main merge is part of this work.
 
 Use the [paper index](Research%20Article/README.md), [question workspaces](RQ_Specified/README.md),
 [dossiers](docs/research_dossiers/README.md) and
-[remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md). The reviewed
+[remaining-work ledger](docs/history/planning/REMAINING_WORK.md). The reviewed
 Arozamena/Saxton work is merged through PR #157; its exact source/state/function
 holds remain in the owning reports. Reopen a held analysis only for its named
 new source/design evidence; registration does not supply missing measurements.

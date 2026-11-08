@@ -13,7 +13,7 @@ Capillary subtype/lineage work supplies the repair premise; Bian supplies the va
 
 | Primary source | Inspected locator and access record |
 |---|---|
-| [Nabhan 2023](https://pubmed.ncbi.nlm.nih.gov/37321220/) | Compartment-specific Fzd results; Figs. 3–4 for A19. [Access / prior review](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
+| [Nabhan 2023](https://pubmed.ncbi.nlm.nih.gov/37321220/) | Compartment-specific Fzd results; Figs. 3–4 for A19. [Access / prior review](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
 | [Gillich 2020](https://www.nature.com/articles/s41586-020-2822-7) | Capillary subtype/renewal findings; indexed primary abstract. [Access / prior review](../../docs/research_dossiers/review_2026-10-03/SOURCES.md#s17) |
 
 Sources above reuse the named review unless the update ledger explicitly records a fresh inspection. Published-source evidence and reanalysis of the same material are not independent replication.

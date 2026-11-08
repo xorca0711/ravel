@@ -70,7 +70,7 @@ Registration and completed analysis confer neither human acceptance nor a claim 
 
 In primary AT2-derived cultures retaining alveolar identity before the schedule comparison, ending Fzd-supported expansion may increase later absolute lineage-derived mature AT1 output while preserving AT2 descendants capable of renewed expansion. Continued receptor input is the comparator. Fzd5-selective stimulation is a source-supported candidate input, not a frozen reagent choice; schedule, starting-state competence and input identity retain separate decisions.
 
-**What is already known, and what remains:** Fzd-supported AT2 growth, Wnt withdrawal and differentiation are established. The possible increment is the joint receptor-specific AT1-output/functional-reserve tradeoff; existing CHIR withdrawal and expanded-cell differentiation do not establish it. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a19).
+**What is already known, and what remains:** Fzd-supported AT2 growth, Wnt withdrawal and differentiation are established. The possible increment is the joint receptor-specific AT1-output/functional-reserve tradeoff; existing CHIR withdrawal and expanded-cell differentiation do not establish it. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a19).
 
 **What the measurements would decide:** More mature AT1 output with a retained responsive AT2 reserve supports productive withdrawal in that context. More AT1 output with reserve depletion is a tradeoff; more area alone tests neither. Lineage-linked absolute counts address yield, independent identity/function addresses maturity, and later response capacity addresses reserve. CHIR withdrawal does not isolate Fzd5 withdrawal.
 
@@ -86,7 +86,7 @@ In primary AT2-derived cultures retaining alveolar identity before the schedule 
 [development dossier](../../docs/research_dossiers/A19.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A19.md).
 Source-mapping closeout: [M11 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

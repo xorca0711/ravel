@@ -71,7 +71,7 @@ Registration and completed analysis confer neither human acceptance nor a claim 
 
 Epithelial ITGB6-containing integrin activity may change fibroblast response by activating latent TGF-beta, rather than by changing total ligand supply. That pathway is already established. The repository-specific idea is whether the epithelial Itgb6-associated fibroblast response in the A2 context is explained by this activation route; neither active TGF-beta nor a decisive fibroblast functional endpoint was measured there.
 
-**What is already known, and what remains:** Integrin-mediated latent TGF-beta activation and profibrotic epithelial-fibroblast signaling are published. The source-specific attribution and meaningful recipient endpoint still need definition; this is not a new pathway claim. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a15).
+**What is already known, and what remains:** Integrin-mediated latent TGF-beta activation and profibrotic epithelial-fibroblast signaling are published. The source-specific attribution and meaningful recipient endpoint still need definition; this is not a new pathway claim. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a15).
 
 **What the measurements would decide:** A source-attributable change in active TGF-beta and the nominated recipient response at comparable latent supply would favor activation. Supply-only change or a response independent of the activation contrast favors rivals. Itgb6 RNA, total TGF-beta and a fibroblast RNA score cannot substitute for active ligand and function.
 
@@ -86,7 +86,7 @@ Epithelial ITGB6-containing integrin activity may change fibroblast response by 
 **Read in this order:** [current evidence](reports/NORMALIZATION_ERRATUM_2026-09-28.md),
 [development dossier](../../docs/research_dossiers/A15.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A15.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

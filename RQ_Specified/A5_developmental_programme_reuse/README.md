@@ -156,7 +156,7 @@ question. The measured heatmap above has a separate evidential purpose.
 
 Adult alveolar repair recruits the exact independently sourced developmental epithelial component beyond the identity, stress and labeling genes excluded by the frozen shared-component contract. Its association in 24 mice motivates independent replication of that same component. Whether it performs a developmental function during repair is a separate, untested biological question.
 
-**What is already known, and what remains:** Developmental-programme reuse is established broadly. The current contribution is reproducibility of a fixed measurement; replication is useful without being a new mechanism. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a5).
+**What is already known, and what remains:** Developmental-programme reuse is established broadly. The current contribution is reproducibility of a fixed measurement; replication is useful without being a new mechanism. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a5).
 
 **What the measurements would decide:** Reproduction in independent, source-qualified animals supports transport of the fixed component. Failure or loss after valid state/identity comparison weakens that generalization. Functional reuse requires a separately justified endpoint and intervention; gene overlap alone cannot supply it.
 
@@ -172,7 +172,7 @@ Adult alveolar repair recruits the exact independently sourced developmental epi
 [development dossier](../../docs/research_dossiers/A5.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A5.md).
 Source-mapping closeout: [M02 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

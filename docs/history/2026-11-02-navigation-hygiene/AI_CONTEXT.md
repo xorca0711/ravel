@@ -60,7 +60,7 @@ each study's specific questions and limits. See the
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](../../research_dossiers/packages_2026-10-03/README.md)
   contain 24 drafts and nine Nb4 supplements awaiting scientific review.
-- [Remaining work](../../research_dossiers/REMAINING_WORK.md) records current
+- [Remaining work](../planning/REMAINING_WORK.md) records current
   dependencies after integration. Review and qualify the existing packages.
 - [Source-mapping closeout](../../research_dossiers/source_mapping_closeout_2026-10-03/README.md)
   closes the bounded recovery task; later review/implementation and evidence holds

@@ -16,7 +16,7 @@ violate, is [`AI_CONTEXT.md`](AI_CONTEXT.md).
 
 The user requested completion of PR #118 after review of merged PR #117. Codex coordinated
 three bounded figure reviews and integrated saved-table presentation corrections. The
-[audit](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) records decisions, coverage depth and
+[audit](docs/history/reviews/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) records decisions, coverage depth and
 remaining reproduction inputs. No new scientific model fit or raw-RNA scoring was performed in this presentation pass; the changes do not promote biological claims.
 
 ## Who decided what
@@ -117,7 +117,7 @@ posture. I had the test itself examined: a co-expression gate cannot audit a
 co-expression detector. A stricter gate (SFTPC⁺ SCGB3A2⁺ EPCAM⁺,
 lineage-negative) reversed the conclusion, AT0 flagged at 3.9% vs a 6.3%
 baseline, below background, and the full sequence, including the wrong first
-pass, is documented in [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/DOUBLETS_AND_SCRUBLET.md).
+pass, is documented in [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/methods/background/DOUBLETS_AND_SCRUBLET.md).
 
 **7 · The trajectory required a commissioned re-analysis.** The whole-atlas
 embedding does not answer the regeneration question, at atlas resolution the
@@ -1148,7 +1148,7 @@ are drafted but unsent; the concise Notion page was not expanded.
 ## Where the honest failures live
 
 - The refuted Scrublet/AT0 over-removal claim, with both rounds of the test:
-  [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/DOUBLETS_AND_SCRUBLET.md)
+  [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/methods/background/DOUBLETS_AND_SCRUBLET.md)
 - The three contradicted cluster annotations, flagged in
   `Research Article/gate1_01_niethamer_2025/GSE262927/tables/cluster_annotation_proposals.csv`
 - Thresholds that never bound, doublet calls that are a ranking rather than a
@@ -1191,7 +1191,7 @@ in the result report. Scientific acceptance remains for owner review.
 | 2026-09-26 | A10 implied protocol completeness and exhaustive metadata exclusion | Secondary BH inference and retained-model comparisons were not fully implemented; one sample record cannot exclude metadata elsewhere | Codex recorded limitations and a diagnostic-first follow-up order; no retrospective test invented |
 | 2026-09-26 | Shared-contract README's universal shared component and unchanged A5 input claim | The partition has two pairwise overlaps; revised A5 tests use additional external Guo modules | Codex aligned the entry point with the existing biological logic and completed results |
 
-The [review](docs/LOGICAL_RATIONALE_REVIEW.md) names the supporting reports,
+The [review](docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md) names the supporting reports,
 specifications, code and output tables. It retains the A5/A11 association results,
 qualifies the small A1 regional comparison and narrows A10's descriptive claim.
 No historical claim grade or numerical artifact was changed. Notion and source
@@ -2539,7 +2539,7 @@ analysis bodies are preserved; no empty execution folders or new RQ IDs are adde
 |---|---|---|---|
 | 2026-10-03 | Codex's A0–A23 visual-atlas summaries and generic assay framing | Owner found the summaries too vague/broad to yield useful hypotheses or experiments; self-review confirms lost biological specificity and conflation of supporting work with the organizing question | Owner rejected the framing; Codex recorded the rejection and proposed repairs |
 
-The [specificity review](docs/research_dossiers/RQ_SPECIFICITY_REVIEW_2026-10-03.md)
+The [specificity review](docs/history/reviews/RQ_SPECIFICITY_REVIEW_2026-10-03.md)
 preserves useful source evidence and distinguishes restored details from new
 candidate narrowings. A technically rendered figure and passing repository
 checks do not constitute scientific acceptance. The rejection does not discard

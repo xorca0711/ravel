@@ -1,0 +1,40 @@
+{
+  "base": "4318740dd98f9649c1c287a3eb758fd12772f47a",
+  "checks": 1046,
+  "local_links_checked": 14714,
+  "source_identifiers": 544,
+  "census_coverage": 544,
+  "moved_documents": 20,
+  "compatibility_locators": 12,
+  "preexisting_link_defects": 0,
+  "new_link_defects": [
+    [
+      "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+      "docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md",
+      "a8",
+      "missing fragment"
+    ],
+    [
+      "docs/research_dossiers/A13.md",
+      "docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md",
+      "a13",
+      "missing fragment"
+    ]
+  ],
+  "failures": [
+    "missing fragment: RQ_Specified/A8_maturation_component_at1_contribution/README.md -> docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a8",
+    "missing fragment: docs/research_dossiers/A13.md -> docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a13",
+    "No new broken local links or fragments",
+    "Changed non-link prose docs/history/planning/RESEARCH_ROADMAP.md",
+    "Changed non-link prose docs/history/planning/NEXT_DATASET_GATE.md",
+    "Changed non-link prose docs/history/planning/COMPUTATIONAL_RESEARCH_PIPELINE.md",
+    "Changed non-link prose docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md",
+    "Changed non-link prose docs/history/reviews/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md",
+    "Changed non-link prose docs/history/source-inventories/DATASET_UPDATES_2026-11-07.md",
+    "Changed non-link prose docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md",
+    "Changed non-link prose docs/history/reviews/RQ_ENTRYPOINT_ALIGNMENT_2026-10-03.md",
+    "Changed non-link prose docs/history/reviews/RQ_SPECIFICITY_REVIEW_2026-10-03.md",
+    "Changed non-link prose docs/history/planning/REMAINING_WORK.md"
+  ],
+  "passed": false
+}

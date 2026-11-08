@@ -20,7 +20,7 @@ draws do not constitute new biological replication. All older contracts, outputs
 claim grades and negative/stopped results remain unchanged.
 
 The [validation record](VALIDATION.md) records checks and limits.
-[Remaining work](../REMAINING_WORK.md) is the current original-job ledger.
+[Remaining work](../../history/planning/REMAINING_WORK.md) is the current original-job ledger.
 Continue the actual missing qualification; do not restart package drafting,
 repeat exhausted library-identity searches or rerun historical pipelines.
 

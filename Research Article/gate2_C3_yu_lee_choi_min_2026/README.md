@@ -89,7 +89,7 @@ Existing Choi, Cardoso and England trials remain in their source-paper folders.
 This branch references their outputs rather than moving or rerunning them.
 The [epithelial specificity project](../epithelial_state_specificity/README.md)
 provides traceable state definitions and known limitations. The
-[outcome-linked dataset gate](../../docs/NEXT_DATASET_GATE.md) remains an
+[outcome-linked dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md) remains an
 independent route for organoid growth outcomes; it is not replaced by this plan.
 
 The review does not supply a new experimental dataset or a result to reproduce

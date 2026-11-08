@@ -13,7 +13,7 @@ not establish a universal state taxonomy or same-cell chromatin mediation.
 Interpretation clarification, 26 September 2026: the regional AP-1 contrast is
 descriptive (three mice per genotype; exact interaction p=0.10). Its observed
 opposite directions challenge a universal beneficial reading, but do not establish
-a replicated regional mechanism. See the [cross-question logic review](../../../docs/LOGICAL_RATIONALE_REVIEW.md).
+a replicated regional mechanism. See the [cross-question logic review](../../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md).
 
 | Avenue | New result | Consequence |
 |---|---|---|

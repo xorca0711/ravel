@@ -1,7 +1,7 @@
 # Ravel research portfolio summary
 
-**Navigation updated 2 November 2026.** The [current register](../RESEARCH_QUESTIONS.md)
-contains 33 questions, A0–A32. This summary connects representative analyses to
+**Navigation updated 8 November 2026.** The [current register](../RESEARCH_QUESTIONS.md)
+contains 36 questions, A0–A35. This summary connects representative analyses to
 their biological questions; dated source reports retain their own scope.
 For complete current discovery, use the [question index](../RQ_Specified/README.md)
 and [19-paper index](../Research%20Article/README.md), including the merged
@@ -61,7 +61,7 @@ four plates. Independent preparations and genuinely early-to-later prediction
 remain unresolved. [A22](../RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md)
 adds a separate identity-to-chemokine analysis: negligible target-holdout gain
 and worse whole-plate transfer restrict a general predictor. The original
-[dataset gate](NEXT_DATASET_GATE.md) is historical provenance, not a new task.
+[dataset gate](history/planning/NEXT_DATASET_GATE.md) is historical provenance, not a new task.
 
 **Next development.** Use the [current dossiers](research_dossiers/README.md)
 and [portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md) to identify

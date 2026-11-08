@@ -11,7 +11,7 @@ Original plan, 25 September 2026: **Stage 1 only was authorized at declaration.*
 biology and the argument are in [RATIONALE.md](RATIONALE.md); the machine-readable
 decisions in [`config/a10_outcome_contract.json`](config/a10_outcome_contract.json).
 This plan follows the register's [A10 card](../../RESEARCH_QUESTIONS.md#a10) and the
-[dataset gate](../../docs/NEXT_DATASET_GATE.md), which set the joins and the
+[dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md), which set the joins and the
 prohibitions this plan inherits.
 
 ## Structure

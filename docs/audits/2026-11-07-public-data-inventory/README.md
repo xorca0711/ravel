@@ -17,7 +17,7 @@ additions through 7 October. The raw inventory described only the original two
 GEO series: 51 files, roughly 7.8 GiB. It was not a current repository-wide cache
 census. Its three original files and scanner remain unchanged.
 
-[DATASETS](../../DATASETS.md) now routes to the [current source-use additions](../../DATASET_UPDATES_2026-11-07.md)
+[DATASETS](../../DATASETS.md) now routes to the [current source-use additions](../../history/source-inventories/DATASET_UPDATES_2026-11-07.md)
 and this inventory. Eighteen grouped entries document omitted or expanded
 numerical/source-reconstruction use, followed by ten grouped qualification
 entries, non-cohort references and a separate unmerged DuPage record. Wp's stale
