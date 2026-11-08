@@ -1,5 +1,9 @@
 # IL-10: stepwise source-analysis plan
 
+**Execution follow-through:** [IL-10 completed results and holds](../../../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
+and [IL-22 Osmr results](../../../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
+now own the numerical status. The planning record below remains historical.
+
 8 November 2026. Requested planning work, **not an executed analysis or frozen
 contract**. This review folder holds the proposal until source intake establishes
 its article package and registered article-local owner. No global A identifier or

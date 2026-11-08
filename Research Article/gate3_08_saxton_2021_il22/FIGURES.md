@@ -1,5 +1,9 @@
 # Saxton 2021 IL-22: combined figure gallery
 
+**8 November extension:** [Osmr figure and caption](osmr_v1/FIGURES.md), with
+[results/limits](osmr_v1/RESULTS.md), adds the fixed six-library receptor-transcript
+comparison. The six earlier figures below retain their original numbering.
+
 1 November 2026. **Six figures: three direct colon RNA descriptions, two technical
 QC visualizations and one external feasibility figure.** The [reviewed reassessment](reassessment_v1/RESULTS.md)
 now addresses the paper's deposited Figure 6 comparison. The selected-panel

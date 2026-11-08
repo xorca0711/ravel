@@ -1,0 +1,26 @@
+{
+  "original_status": "execution_failed",
+  "purpose": "Exact archival preservation only; no scientific success or acceptance",
+  "files": [
+    {
+      "source": "analysis/research/runs/sx10_qualification_v1/receipt.json",
+      "archive": "failed_receipt.json",
+      "sha256": "d17916294bc7eb7a55e043bb7b7cff114ffe63ec6bb54f6ba19ee196597b1333"
+    },
+    {
+      "source": "analysis/research/runs/sx10_qualification_v1/sample_crosswalk.csv",
+      "archive": "failed_sample_crosswalk.csv",
+      "sha256": "28006f7b891a0979ea37c3fc68782220d543d2b325295f1b0610b1f59a07ee95"
+    },
+    {
+      "source": "analysis/research/runs/sx10_qualification_v1/stdout.log",
+      "archive": "failed_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "analysis/research/runs/sx10_qualification_v1/stderr.log",
+      "archive": "failed_stderr.log",
+      "sha256": "651ade39bc753ff9020120778383e0b78892ccb80728a83a3980f764fb1177a3"
+    }
+  ]
+}

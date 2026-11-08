@@ -3,6 +3,30 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton source analyses completed - 8 November 2026
+
+[Technical handoff and validation](docs/research_reviews/2026-11-08-saxton-reading/EXECUTION_HANDOFF.md)
+links the completed [IL-22 Osmr result](Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
+and [IL-10 RNA result](Research%20Article/ungated_saxton_2021_il10/RESULTS.md).
+Osmr is lower under B3 than WT across bounded checks; B3-PBS is small and sensitive.
+The IL-10 fixed-panel description supports weaker 10-DE and mixed super-10 effects;
+CCL1 remains omission-sensitive. These are exposed finite-library RNA results,
+not receptor responsiveness, causal STAT or functional evidence. Donor/animal
+inference and exact replay retain their specific holds.
+
+Prospective freezes and runner receipts are retained. The initial IL-10 row-order
+failure was corrected with a committed exact stable-ID alignment amendment and
+archived byte-for-byte; no source values or validator changed. Independent scalar
+checks and all four visual reviews passed. Final validation passed: 17,647 repository
+checks, 167 tests (two Windows skips), base-aware research gate, all required
+archive verifiers and unchanged claim bindings. All prior owners are preserved.
+Fetched main remains `4318740`; the original checkout and unrelated PROGRESS work
+are untouched. The local handoff is ready for parent technical review; exact
+remaining donor/animal, S9/method and assay-specific evidence is in the ledgers.
+No push, merge, external messages, paid compute or account-setting changes.
+
+The earlier same-day entries below are pre-execution historical checkpoints.
+
 ## Authorized Saxton technical continuation - 8 November 2026
 
 [Cross-paper scope review and execution handoff](docs/research_reviews/2026-11-08-saxton-reading/SCOPE_REVIEW_AND_HANDOFF.md)

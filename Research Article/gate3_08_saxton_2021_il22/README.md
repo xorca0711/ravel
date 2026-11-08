@@ -1,10 +1,14 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
-**Reading comparison, 8 November 2026:** the [IL-10 / IL-22 review](../../docs/research_reviews/2026-11-08-saxton-reading/README.md)
-distinguishes intracellular recruitment, tissue selectivity and current RNA evidence,
-and scopes a possible IL-10 CD8 source reanalysis. No new numerical run is reported.
+**Completed Osmr follow-up, 8 November 2026:** [results](osmr_v1/RESULTS.md) and
+[figure](osmr_v1/FIGURES.md) show lower B3 than WT Osmr RNA across all specified
+scales/omissions; B3-PBS is small and sensitive. This is bulk RNA, not OSM response.
 
-The [additional-work assessment](FOLLOWUP_ASSESSMENT_20261108.md) proposes a bounded
+**Earlier reading comparison, 8 November 2026:** the [IL-10 / IL-22 review](../../docs/research_reviews/2026-11-08-saxton-reading/README.md)
+distinguishes intracellular recruitment, tissue selectivity and current RNA evidence,
+and scopes a possible IL-10 CD8 source reanalysis. That planning checkpoint preceded the completed Osmr run above.
+
+The [additional-work assessment](FOLLOWUP_ASSESSMENT_20261108.md) records the rationale for the now-completed bounded
 Osmr transcript comparison and records what signaling, functional and history
 extensions require. Completed analyses remain the baseline.
 

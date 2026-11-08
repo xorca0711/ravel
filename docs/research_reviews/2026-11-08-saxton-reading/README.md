@@ -1,5 +1,9 @@
 # Saxton IL-10 / IL-22: reading and computational scope
 
+**Execution follow-through:** [IL-10 completed results and holds](../../../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
+and [IL-22 Osmr results](../../../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
+now own the numerical status. The planning record below remains historical.
+
 8 November 2026 (Asia/Seoul). Documentation review against fetched main
 `32ab85e87bee788e62bec4e1b7ce5bad6df84d30`. No new biological analysis, execution
 contract, canonical RQ or scientific acceptance is created. The current

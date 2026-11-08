@@ -1049,7 +1049,12 @@
       "plan": "Research Article/ungated_saxton_2021_il10/README.md",
       "evidence": [
         "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
-        "Research Article/ungated_saxton_2021_il10/LITERATURE_CONTEXT.md"
+        "Research Article/ungated_saxton_2021_il10/LITERATURE_CONTEXT.md",
+        "Research Article/ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md",
+        "Research Article/ungated_saxton_2021_il10/RESULTS.md",
+        "Research Article/ungated_saxton_2021_il10/FIGURES.md",
+        "Research Article/ungated_saxton_2021_il10/COMPLETION_LEDGER.md",
+        "Research Article/ungated_saxton_2021_il10/VALIDATION.md"
       ]
     }
   ],
@@ -1396,7 +1401,9 @@
     "analysis/research/runs/dupage_target_figures_v1/receipt.json",
     "analysis/research/runs/dupage_candidate_followup_v1/receipt.json",
     "analysis/research/runs/sx22_osmr_v1/receipt.json",
-    "analysis/research/runs/sx10_qualification_v2/receipt.json"
+    "analysis/research/runs/sx10_qualification_v2/receipt.json",
+    "analysis/research/runs/sx10_failure_preservation_v1/receipt.json",
+    "analysis/research/runs/sx10_description_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

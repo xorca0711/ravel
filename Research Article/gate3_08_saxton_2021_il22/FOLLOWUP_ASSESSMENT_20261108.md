@@ -1,5 +1,8 @@
 # IL-22: additional work after the completed description
 
+**Execution update:** the proposed fixed Osmr comparison is now [completed](osmr_v1/RESULTS.md).
+The prospective reasoning below remains the planning record; other endpoint holds remain.
+
 8 November 2026. Planning under **Sx22-P01**; no new run, canonical RQ, acceptance
 or replacement of frozen results. [Current results](reassessment_v1/RESULTS.md) ·
 [Hold ledger](COMPLETION_LEDGER.md) ·

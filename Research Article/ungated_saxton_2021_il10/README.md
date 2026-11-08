@@ -1,5 +1,16 @@
 # Saxton 2021 IL-10: activated CD8 RNA source description
 
+**Completed technical description, 8 November 2026:** [results](RESULTS.md),
+[three figures](FIGURES.md), [source qualification](SOURCE_QUALIFICATION.md),
+[completion/hold ledger](COMPLETION_LEDGER.md) and [verification](VALIDATION.md).
+10-DE responses are broadly weaker; super-10 has stable mixed target directions.
+CCL1 remains omission-sensitive. Population inference and exact replay are held.
+
+This is the existing roadmap paper **7, Gate 3A**. The `ungated_` folder label
+was assigned during technical intake; it is a retained path exception, not a
+change to reading-order membership. The owner authorized this bounded source work
+separately from historical Gate3A prerequisites. No other paper gate is reopened.
+
 **Article-local owner Sx10-P01**, registered 8 November 2026 after checking the
 current registry (36 canonical RQs, 38 pre-existing article-local candidates).
 No A number, roadmap promotion, scientific acceptance or ligand-design work is
