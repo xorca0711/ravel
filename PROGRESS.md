@@ -25,7 +25,9 @@ checkout check found line-ending changes and missing cached published outputs;
 only line endings differed, and 15 Choi outputs were restored from the verified
 local cache against the publication lock. These are local preservation steps,
 not committed scientific edits. No biological rerun or validator change occurred.
-The follow-up PR is prepared; scientific acceptance and reading gates are unchanged.
+[Follow-up PR #171](https://github.com/xorca0711/ravel/pull/171) is open against
+`main`; identity verified as `xorca0711`. Remote checks are pending. Scientific
+acceptance and reading gates are unchanged; no merge was requested.
 
 ## Saxton PR opened - 8 November 2026
 
