@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.qualification_v1",
+  "owner": "Sx10-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do GSE160332 source labels, sample joins and matrices qualify finite-library CD8 IL-10 descriptions, and which biological-unit claims remain unsupported?",
+  "decision": "Qualify source identity and numerical measurement eligibility before a separate exposed description; hold population inference if donor/preparation identities are unknown.",
+  "strongest_rival": "Wrong alias joins, conflating a source biological-replicate statement with verified donors, annotation disagreement or invalid matrix semantics could invalidate a comparison.",
+  "discriminator": "Cross-check GEO explicit treatment and BioSample/SRA chains; inspect integer nonnegative counts, shared stable-ID annotations, library totals and fixed target coverage, without computing group outcome contrasts.",
+  "evidence_refs": [
+    "Research Article/ungated_saxton_2021_il10/README.md",
+    "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
+    "Research Article/ungated_saxton_2021_il10/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Final paper outcomes and Figure5 panels have been read; source metadata and headers inspected before freeze. No new matrix group outcome contrasts inspected. This exposed metadata stage does not establish unexposed confirmation.",
+  "biological_unit": "Human donor/preparation; author reports two biological RNA replicates, but current deposited descriptive unit is a library.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Eight libraries, two treatment labels each; donor and preparation overlap across arms unknown. Genes nest in libraries; RNA is distinct from ELISA and phospho-flow.",
+  "population_and_selection": "All deposited count and FPKM rows and eight named library columns. Figure5A/B exact source symbols fixed before source QC; no phenotype-based exclusions.",
+  "contrast": "No treatment-effect contrasts in metadata stage; verify labels and measurement semantics for later 10-DE-WT, super-10-WT and each active arm-PBS.",
+  "endpoint": "Sample crosswalk, technical matrix QC, fixed target mapping, library correlation and biological-unit eligibility.",
+  "methods": "Parse GEO SOFT and XML; match GSM/SAMN/SRX/SRS/SRR and treatment attributes. Require identical stable-ID annotations, unique IDs, finite nonnegative matrices and integer counts. Report full-count library totals and log2(CPM+1) correlation on CPM>=1 in >=2 libraries; no donor inference from correlation.",
+  "missingness_and_exclusions": "No dropped libraries or collapsed rows. Absent or ambiguous symbols unavailable, never zero or guessed alias. Record missing donor/preparation/pairing explicitly.",
+  "multiplicity": "Descriptive QC and mapping only; no p-values, inference or significance-driven filtering.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Source qualification does not estimate population effects; unknown donor independence cannot provide precision.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Qualification supports finite-library RNA descriptions only; no verified donor inference, exact author replay, causal STAT activity, secretion, myeloid function or protection.",
+  "stop_rule": "Stop affected analysis on identity disagreement, invalid matrix values, nonunique stable IDs, annotation disagreement or hash mismatch. Unknown donor keys hold population inference only. Preserve failures; no weakened gates.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx10/GSE160332_family.soft.gz",
+      "sha256": "01f80d7cda6c4e08982e0070271011c7c3a0404540914b9021da64c46d83f2c3",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_readcount_genename.txt.gz",
+      "sha256": "482a9284ef0f23f012d7b5d5fabda13f734b48a7adbed5c9052842d6052e18e8",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/GSE160332_070720_10_fpkm_genename.txt.gz",
+      "sha256": "e7de2a5efec1192f9d64b5f60019fd6741b5baba714f5cd70e2f409281927453",
+      "study_id": "GSE160332",
+      "unit_ids": [
+        "Unt_1",
+        "Unt_2",
+        "BS30_1",
+        "BS30_2",
+        "BS65_1",
+        "BS65_2",
+        "BS45_1",
+        "BS45_2"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/biosamples.xml",
+      "sha256": "76283f0a67f7133c9e706f18fff98cc2cf8a96d082e030cbf364d9ee975a9405",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx10/sra.xml",
+      "sha256": "6b6f3ef6682c1c3e544d47039bfefc378c330d49bcccf772977bcac8a56119bb",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/acquisition_v1.json",
+      "sha256": "9c535e24f09bad3d12c6025378e163843ac5923783fd364da0e33b2439bab794",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
+      "sha256": "29b86c10c09e11fe75ac3b3d19cf2a10330028b9956842345d8190567ee2bbfe",
+      "study_id": "GSE160332",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/scripts/qualify_v1.py",
+      "sha256": "7d4d1c4bf2642fd8598e335e74716e7a9d6822c767de3db97a4add565d0d8f90"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/figure5_memberships_v1.json",
+      "sha256": "0aee9e32ace042933fd69203d823d9cdba3de3342c8325ac298e822c5363a2c9"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/sources/acquisition_v1.json",
+      "sha256": "9c535e24f09bad3d12c6025378e163843ac5923783fd364da0e33b2439bab794"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_saxton_2021_il10/scripts/qualify_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_crosswalk.csv",
+    "library_qc.csv",
+    "repeated_symbols.csv",
+    "target_mapping.csv",
+    "library_correlations.csv",
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial article-local source qualification under owner-authorized Saxton continuation; preserves all existing question and candidate owners."
+}
