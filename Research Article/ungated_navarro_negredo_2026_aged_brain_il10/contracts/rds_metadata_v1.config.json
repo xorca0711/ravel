@@ -1,0 +1,16 @@
+{
+  "rds_path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+  "condition_field": "orig.ident",
+  "annotation_field": "Celltype",
+  "cells_per_condition": 24,
+  "uniform_genes": 128,
+  "nonzero_genes": 64,
+  "normalization_candidate": {
+    "method": "LogNormalize",
+    "scale_factor": 10000,
+    "basis": "Author NormalizeData default; stored RNA command parameters take precedence, then independently sampled reconstruction required."
+  },
+  "normalization_tolerance": 1e-10,
+  "memory_budget": "R_MAX_VSIZE=11G; monitor RSS 12 GiB and cgroup 15 GiB, 1800s wall limit",
+  "selection": "Original deposited broad annotations; no reclassification or additional cell exclusion."
+}
