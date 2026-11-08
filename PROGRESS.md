@@ -21,9 +21,18 @@ not retrievable by the inspected route. No new source archive or biological run
 was required. Notion notes, frozen evidence, questions and scientific acceptance
 remain unchanged; no external settings or accounts were modified.
 
-Work is isolated on `codex/peng-spatial-reading-20261108` from main `60537cd`.
-The original checkout's unrelated PROGRESS changes are preserved. Validation
-and final integration-base verification are pending below.
+Work is isolated on `codex/peng-spatial-reading-20261108`, with updated main
+`1ff71a1` integrated and both progress entries preserved. The original checkout's
+unrelated PROGRESS changes are untouched. Validation passed: 18,243 repository
+checks, 167 tests (two skipped), compilation, 18 claim bindings, required archive
+verifiers, whitespace checks and the base-aware research gate. The first test
+attempt hit sandbox temporary-directory permissions; it passed with an explicit
+writable test directory. The first gate found Windows checkout byte differences;
+33 files were restored to their exact existing Git bytes after verifying only
+line endings differed. Fifteen missing published outputs were also supplied from
+hash-matched existing local copies; all 16 locked members verify. No scientific
+content, contract or validator changed, and no biological analysis was rerun.
+The reading assessment is complete and saved locally; no push or PR was requested.
 
 ## Remaining top-level documentation organized — 8 November 2026
 
