@@ -1,3 +1,7 @@
+> **Historical evidence location.** The current entry is [gate3_07_saxton_2021_il10](../gate3_07_saxton_2021_il10/README.md).
+> The original directory name is retained for frozen provenance, not gate classification.
+> The documentation below is the preserved pre-correction entry; follow the current entry for navigation.
+
 # Saxton 2021 IL-10: activated CD8 RNA source description
 
 **Completed technical description, 8 November 2026:** [results](RESULTS.md),

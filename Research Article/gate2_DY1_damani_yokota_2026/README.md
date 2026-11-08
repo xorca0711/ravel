@@ -1,3 +1,7 @@
+> **Historical evidence location.** The current entry is [ungated_damani_yokota_2026](../ungated_damani_yokota_2026/README.md).
+> The original directory name is retained for frozen provenance, not gate classification.
+> The documentation below is the preserved pre-correction entry; follow the current entry for navigation.
+
 # DY1: NAM immune-history source reproduction
 
 **Roadmap classification: ungated — owner clarification, 2 November 2026.**

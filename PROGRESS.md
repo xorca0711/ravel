@@ -3,6 +3,46 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## PR 171 reconciliation after PR 170 merged - 8 November 2026
+
+The owner requested resolution of the conflict with merged PR #170. Integrated
+`main` at `23c3db6` into the existing PR #171 branch. Both progress entries are
+retained; the article index and structure guide combine the consolidated source
+register/document categories with the corrected ungated DY1 and Gate3A IL-10
+entries. The source register, moved historical documents and frozen evidence
+remain intact. Verified exact preservation of 179 nonoverlapping PR #170 paths
+and ten nonoverlapping PR #171 paths, and reviewed all three overlapping
+documentation files. Validation passed: 18,206 repository checks, 18 unchanged
+claim bindings, whitespace checks and the base-aware research gate. Refetched
+main still matches `23c3db6`. The resolution is ready for publication to #171;
+no biological analysis, policy change or merge of PR #171 into main is performed.
+
+## Corrected Damani–Yokota and Saxton IL-10 entry folders - 8 November 2026
+
+The owner clarified that Damani–Yokota is ungated and Saxton IL-10 belongs to
+Gate 3. Current entries now use
+[`ungated_damani_yokota_2026`](Research%20Article/ungated_damani_yokota_2026/README.md)
+and [`gate3_07_saxton_2021_il10`](Research%20Article/gate3_07_saxton_2021_il10/README.md)
+(paper 7 / Gate 3A). The roadmap, RQ index, topic navigation and candidate-plan
+registry point to those names. DY1-P02 also has a correctly named current entry;
+the RQ index now includes the existing Sx10-P01 owner and the actual 39-candidate count.
+
+Historical directories remain as marked evidence locations because frozen paths
+are recorded in contracts, scripts and receipts. No numerical file, contract,
+claim, candidate ID or reading order changed. This is a navigation correction,
+not a full evidence-directory rename. Work is isolated from merged PR #169 at
+`1d7c814`; the original checkout's unrelated PROGRESS edit is untouched.
+Validation passed: 17,841 repository checks, 18 unchanged claim bindings and the
+base-aware research gate against refreshed `1d7c814`. The first fresh-Windows-
+checkout check found line-ending changes and missing cached published outputs;
+33 historical files were restored to exact existing Git bytes after confirming
+only line endings differed, and 15 Choi outputs were restored from the verified
+local cache against the publication lock. These are local preservation steps,
+not committed scientific edits. No biological rerun or validator change occurred.
+[Follow-up PR #171](https://github.com/xorca0711/ravel/pull/171) is open against
+`main`; identity verified as `xorca0711`. Remote checks are pending. Scientific
+acceptance and reading gates are unchanged; no merge was requested.
+
 ## Unified source register and documentation categories — 8 November 2026
 
 Owner requested one source list and purpose-based organization of superseded

@@ -330,9 +330,9 @@
       "datasets": [
         "GSE160332"
       ],
-      "folder": "ungated_saxton_2021_il10",
+      "folder": "gate3_07_saxton_2021_il10",
       "note_status": "Main Results, Figures 3-5 and relevant RNA methods read 2026-11-08; S9 source access held.",
-      "trial_status": "Owner-authorized finite-library RNA description and sensitivity completed 2026-11-08. Donor inference and exact replay held; see article results/ledger. Retained ungated_ path label is an intake exception; existing paper7/Gate3A membership unchanged."
+      "trial_status": "Owner-authorized finite-library RNA description and sensitivity completed 2026-11-08. Donor inference and exact replay held; see article results/ledger. Current Gate3A/paper7 entry folder corrected 2026-11-08; frozen evidence remains under the historical ungated_saxton_2021_il10 path."
     },
     {
       "order": 8,
@@ -618,7 +618,7 @@
       "year": 2026,
       "classification": "ungated",
       "doi": "10.1038/s41586-026-11060-y",
-      "folder": "gate2_DY1_damani_yokota_2026",
+      "folder": "ungated_damani_yokota_2026",
       "trial_status": "Reviewed source and bounded descriptive work; exact holds are maintained in the article README. Ungated classification confirmed by owner 2026-11-02.",
       "trial_location": "Research Article/gate2_DY1_damani_yokota_2026"
     },
@@ -759,7 +759,8 @@
     "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6.",
     "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
     "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis.",
-    "damani_yokota_2026": "Ungated source outside the ordered roadmap. Historical gate2_DY1_damani_yokota_2026 path retained for immutable contracts/receipts; prefix is not a current Gate 2 assignment. Owner clarification 2026-11-02."
+    "damani_yokota_2026": "Current entry: ungated_damani_yokota_2026, outside the ordered roadmap. Frozen evidence remains under gate2_DY1_damani_yokota_2026; that historical prefix is not a Gate 2 assignment. Entry corrected 2026-11-08.",
+    "saxton_2021_il10": "Current entry: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Frozen evidence remains under ungated_saxton_2021_il10; that historical prefix does not classify this paper as ungated. Entry corrected 2026-11-08."
   },
   "current_reading_queue": {
     "updated": "2026-10-04",
