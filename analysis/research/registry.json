@@ -1227,7 +1227,9 @@
     "Research Article/gate3_09_dupage_2015/contracts/Dp1.candidate_followup_v1.json",
     "Research Article/gate3_08_saxton_2021_il22/osmr_v1/contract_v1.json",
     "Research Article/ungated_saxton_2021_il10/contracts/qualification_v1.json",
-    "Research Article/ungated_saxton_2021_il10/contracts/qualification_v2.json"
+    "Research Article/ungated_saxton_2021_il10/contracts/qualification_v2.json",
+    "Research Article/ungated_saxton_2021_il10/contracts/description_v1.json",
+    "Research Article/ungated_saxton_2021_il10/contracts/failure_preservation_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1394,7 +1396,7 @@
     "analysis/research/runs/dupage_target_figures_v1/receipt.json",
     "analysis/research/runs/dupage_candidate_followup_v1/receipt.json",
     "analysis/research/runs/sx22_osmr_v1/receipt.json",
-    "analysis/research/runs/sx10_qualification_v1/receipt.json"
+    "analysis/research/runs/sx10_qualification_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
