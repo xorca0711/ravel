@@ -70,7 +70,7 @@ Registration and completed analysis confer neither human acceptance nor a claim 
 
 In adult AF1-like fibroblasts, comparable Fzd2 loss reduces support of a maturation-competent AT2 pool and subsequent absolute mature epithelial output more than comparable Fzd1 loss. Pool maintenance is the proposed explanation, distinct from a later maturation-specific defect, general fibroblast loss or matrix effects. This restores the existing narrowed hypothesis and does not claim discovery of Fzd2-dependent repair.
 
-**What is already known, and what remains:** Zhou already reports mesenchymal Fzd2, AF1 identity and repair involvement. The possible increment is the matched Fzd2-versus-Fzd1 comparison and early-pool versus later-output distinction; its independent value remains provisional. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a20).
+**What is already known, and what remains:** Zhou already reports mesenchymal Fzd2, AF1 identity and repair involvement. The possible increment is the matched Fzd2-versus-Fzd1 comparison and early-pool versus later-output distinction; its independent value remains provisional. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a20).
 
 **What the measurements would decide:** A smaller early competent pool followed by reduced mature output is compatible with pool maintenance. Preserved early pool with reduced later output favors maturation-specific support. Unequal receptor engagement or fibroblast survival makes the receptor comparison ambiguous. Do not adjust away the post-treatment pool deficit or call timing alone mediation.
 
@@ -86,7 +86,7 @@ In adult AF1-like fibroblasts, comparable Fzd2 loss reduces support of a maturat
 [development dossier](../../docs/research_dossiers/A20.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A20.md).
 Source-mapping closeout: [M12 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

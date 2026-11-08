@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 The existing epithelial programme measurements may forecast subsequent organoid area beyond initial area and cell-cycle information across independent preparations. This is a growth-prediction question supporting the broader epithelial-growth hypothesis. The current day-14 RNA/area association is concurrent; it neither establishes early forecasting nor identifies a causal programme or mature repair function.
 
-**What is already known, and what remains:** The source screen already connects perturbations, RNA and organoid growth. The possible contribution is transport of a fixed early predictor to independent preparations, not reproduction of that association. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a10).
+**What is already known, and what remains:** The source screen already connects perturbations, RNA and organoid growth. The possible contribution is transport of a fixed early predictor to independent preparations, not reproduction of that association. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a10).
 
 **What the measurements would decide:** An early predictor that improves unit-level held-out area prediction beyond the same baseline supports transport. Failure on whole-preparation holdout weakens it. Preserve negative absolute R-squared on three of four plates; organoid area cannot distinguish proliferation, survival and lumen changes by itself.
 
@@ -68,7 +68,7 @@ The existing epithelial programme measurements may forecast subsequent organoid 
 [development dossier](../../docs/research_dossiers/A10.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A10.md).
 Source-mapping closeout: [M05 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical
@@ -158,7 +158,7 @@ Target-transcript reduction supplies a limited consistency check. Biological uni
 remain unresolved, the revised specification follows inspection of the original fit,
 and the within-unit metric uses held-out outcome means. Everything here remains
 a within-screen descriptive association. See the
-[logical review](../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections) for the
+[logical review](../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md#a10-corrections) for the
 scope of the checks and differences between the written plan and implementation.
 
 ### Why this question is worth the effort

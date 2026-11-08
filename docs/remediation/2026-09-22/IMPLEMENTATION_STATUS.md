@@ -86,7 +86,7 @@ earlier bytes before replacement, hash inputs and record code identity.
 Historical runs are not retroactively called preregistered or fully hashed.
 
 The [portfolio summary](../../PORTFOLIO_SUMMARY.md) provides four figures and a
-short account of the contribution. The [next dataset gate](../../NEXT_DATASET_GATE.md)
+short account of the contribution. The [next dataset gate](../../history/planning/NEXT_DATASET_GATE.md)
 and [candidate manifest](../../../analysis/claims/dataset_candidates.json) capture
 scientific planning without copying private PI outreach rankings into the repo.
 

@@ -1,0 +1,339 @@
+{
+  "base": "4318740dd98f9649c1c287a3eb758fd12772f47a",
+  "moves": [
+    {
+      "from": "docs/RESEARCH_ROADMAP.md",
+      "to": "docs/history/planning/RESEARCH_ROADMAP.md",
+      "original_sha256": "43278814c8476f401ffba8ed5fd8995189f7ddaf1489b32558042be0168670c5",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/NEXT_DATASET_GATE.md",
+      "to": "docs/history/planning/NEXT_DATASET_GATE.md",
+      "original_sha256": "a1bcdf44875cf843c3d5b22065dcef7c915b14793d4d04d84fa9abc52ce1fa30",
+      "compatibility_consumers": [
+        "RQ_Specified/A10_organoid_growth_outcome/config/a10_outcome_contract.json",
+        "RQ_Specified/A2_areg_source_delivery/config/a2_delivery_contract.json"
+      ]
+    },
+    {
+      "from": "docs/COMPUTATIONAL_RESEARCH_PIPELINE.md",
+      "to": "docs/history/planning/COMPUTATIONAL_RESEARCH_PIPELINE.md",
+      "original_sha256": "0e4f706ecb3b7de47cc6f08e2ef79266a66d3c21eb64828cc8e196d08b9e615f",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/LOGICAL_RATIONALE_REVIEW.md",
+      "to": "docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md",
+      "original_sha256": "82af0c8c5156fdf0be9abd706226fcef423065ddf19f8a85b32784975f306a67",
+      "compatibility_consumers": [
+        "docs/roadmap_runs/2026-09-27-followthrough/validation.json",
+        "docs/roadmap_runs/2026-09-27/execution_validation.json"
+      ]
+    },
+    {
+      "from": "docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md",
+      "to": "docs/history/reviews/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md",
+      "original_sha256": "a02d695e751a5d8843ef4a433f745458b9541a73f3a9d3558780afb338bc7e5c",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/DATASET_UPDATES_2026-11-07.md",
+      "to": "docs/history/source-inventories/DATASET_UPDATES_2026-11-07.md",
+      "original_sha256": "b0d1482ec1e24ee20406f6e74202781fac03619d9d622603f13942258383b996",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md",
+      "to": "docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md",
+      "original_sha256": "1a3917d78decf8c8377d9db555dc80f5c051cca48442eeab9fd8ddfbfdb06a6c",
+      "compatibility_consumers": [
+        "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+        "docs/research_dossiers/A13.md"
+      ]
+    },
+    {
+      "from": "docs/research_dossiers/RQ_ENTRYPOINT_ALIGNMENT_2026-10-03.md",
+      "to": "docs/history/reviews/RQ_ENTRYPOINT_ALIGNMENT_2026-10-03.md",
+      "original_sha256": "36f444190cf4fa6ae9cbc3ed3797a7a1052a3bfc76cfc4d1ea614d1ea3a30502",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/research_dossiers/RQ_SPECIFICITY_REVIEW_2026-10-03.md",
+      "to": "docs/history/reviews/RQ_SPECIFICITY_REVIEW_2026-10-03.md",
+      "original_sha256": "221916ad6063fefe6626998aa767d73343ba52ca3e81ed2faf8e0793c2d94fdf",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/research_dossiers/REMAINING_WORK.md",
+      "to": "docs/history/planning/REMAINING_WORK.md",
+      "original_sha256": "6acdc70c720f8f3bc97be9633f5184072f8221808a332a20cb80fea2ac51f5ff",
+      "compatibility_consumers": [
+        "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+        "docs/research_dossiers/A13.md"
+      ]
+    },
+    {
+      "from": "docs/SOUPX.md",
+      "to": "docs/methods/tools/SOUPX.md",
+      "original_sha256": "41bac7ae6ff0a4f8ac39f9012c03560699080cd4cc096faf0f51d6269bce701b",
+      "compatibility_consumers": [
+        "analysis/scripts/05_write_pipeline_as_run.py"
+      ]
+    },
+    {
+      "from": "docs/SCRUBLET.md",
+      "to": "docs/methods/tools/SCRUBLET.md",
+      "original_sha256": "9db944a521a6bbd471f1257b863564bb5e97fcbd9254b0b7c04f88713186ceb5",
+      "compatibility_consumers": [
+        "Research Article/ROADMAP.json",
+        "analysis/claims/manifest.json",
+        "analysis/scripts/05_write_pipeline_as_run.py"
+      ]
+    },
+    {
+      "from": "docs/SCDS.md",
+      "to": "docs/methods/tools/SCDS.md",
+      "original_sha256": "499b982c451e8b5a695ba33ea59ca1f110a050458606a262693af6e0f808b8fb",
+      "compatibility_consumers": [
+        "analysis/scripts/05_write_pipeline_as_run.py"
+      ]
+    },
+    {
+      "from": "docs/SLINGSHOT.md",
+      "to": "docs/methods/tools/SLINGSHOT.md",
+      "original_sha256": "481f19052602a1e44b55e798a52e3ef0e0aeb9b5e1038c90ab24297221e97a80",
+      "compatibility_consumers": [
+        "analysis/scripts/05_write_pipeline_as_run.py"
+      ]
+    },
+    {
+      "from": "docs/TRADESEQ.md",
+      "to": "docs/methods/tools/TRADESEQ.md",
+      "original_sha256": "8b7b22f3dcfb6cfd22dc254ef67338c90f821e2ca0be83b7243e880c196f2410",
+      "compatibility_consumers": [
+        "analysis/scripts/05_write_pipeline_as_run.py"
+      ]
+    },
+    {
+      "from": "docs/BACKGROUND_FOR_BIOLOGISTS.md",
+      "to": "docs/methods/background/BACKGROUND_FOR_BIOLOGISTS.md",
+      "original_sha256": "0a14cecbc5bfee63be5c73da1f74b53d9d47c04fed59adae522685996546a93e",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/DOUBLETS_AND_SCRUBLET.md",
+      "to": "docs/methods/background/DOUBLETS_AND_SCRUBLET.md",
+      "original_sha256": "4a8484d63642a28766f91b9aa10719b91afca0be9c3995819e0aa9d059931347",
+      "compatibility_consumers": [
+        "Research Article/ROADMAP.json",
+        "analysis/claims/manifest.json"
+      ]
+    },
+    {
+      "from": "docs/UMAP_AND_FIGURES.md",
+      "to": "docs/methods/background/UMAP_AND_FIGURES.md",
+      "original_sha256": "acdb80b2c2d3cf99a992c06c416dbdc1325ae2baa632f1b181c2159ec6bf86a5",
+      "compatibility_consumers": [
+        "analysis/scripts/10_phase_timecourse.py"
+      ]
+    },
+    {
+      "from": "docs/WORKFLOW_Niethamer2025.md",
+      "to": "docs/methods/workflows/WORKFLOW_Niethamer2025.md",
+      "original_sha256": "4464f7dbc5386eef4c9f48f4d51f157d082f9762987c4afc92357827cd29a1e4",
+      "compatibility_consumers": []
+    },
+    {
+      "from": "docs/scRNAseq_workflow_Niethamer2025.md",
+      "to": "docs/methods/workflows/scRNAseq_workflow_Niethamer2025.md",
+      "original_sha256": "ac9a1b3b282cc11b01da2bf26d7b1311ce2e0b2bfe9be289fbf173d833a8c519",
+      "compatibility_consumers": [
+        "Research Article/ROADMAP.json"
+      ]
+    }
+  ],
+  "rewritten_markdown": [
+    "AI_CONTEXT.md",
+    "DEVELOPMENT.md",
+    "FINDINGS.md",
+    "PROGRESS.md",
+    "README.md",
+    "RESEARCH_QUESTIONS.md",
+    "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+    "RQ_Specified/A10_organoid_growth_outcome/FOLLOWUP_PLAN.md",
+    "RQ_Specified/A10_organoid_growth_outcome/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A10_organoid_growth_outcome/PLAN.md",
+    "RQ_Specified/A10_organoid_growth_outcome/RATIONALE.md",
+    "RQ_Specified/A10_organoid_growth_outcome/README.md",
+    "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE1_IDENTITY_AUDIT.md",
+    "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE3_FIT_REPORT.md",
+    "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md",
+    "RQ_Specified/A11_lesion_programme_addition/README.md",
+    "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A12_recipient_context/README.md",
+    "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+    "RQ_Specified/A14_withdrawal_recovery_and_reception/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A14_withdrawal_recovery_and_reception/README.md",
+    "RQ_Specified/A15_epithelial_integrin_tgfb_activation/PLAN.md",
+    "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+    "RQ_Specified/A16_cd177_state_attribution/README.md",
+    "RQ_Specified/A17_clonal_growth_persistence/README.md",
+    "RQ_Specified/A18_neighbor_wt_expansion_identity/README.md",
+    "RQ_Specified/A19_fzd_response_reversibility/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A19_fzd_response_reversibility/README.md",
+    "RQ_Specified/A1_transitional_epithelial_state_distinction/README.md",
+    "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md",
+    "RQ_Specified/A20_fibroblast_fzd_context/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A20_fibroblast_fzd_context/README.md",
+    "RQ_Specified/A21_fzd4_capillary_function/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A21_fzd4_capillary_function/README.md",
+    "RQ_Specified/A22_epithelial_identity_niche_response/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis/README.md",
+    "RQ_Specified/A2_areg_source_delivery/PLAN.md",
+    "RQ_Specified/A2_areg_source_delivery/README.md",
+    "RQ_Specified/A3_macrophage_injury_history/README.md",
+    "RQ_Specified/A4_wnt_history_il1_response/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A4_wnt_history_il1_response/README.md",
+    "RQ_Specified/A5_A11_shared_component_contract/README.md",
+    "RQ_Specified/A5_developmental_programme_reuse/README.md",
+    "RQ_Specified/A6_ipf_macrophage_state_composition/README.md",
+    "RQ_Specified/A7_cebpa_baseline_state_dependence/README.md",
+    "RQ_Specified/A9_areg_recipient_competence/README.md",
+    "Research Article/README.md",
+    "Research Article/gate1_01_niethamer_2025/README.md",
+    "Research Article/gate1_04_sikkema_2023_hlca/README.md",
+    "Research Article/gate2_C3_yu_lee_choi_min_2026/DATASETS.md",
+    "Research Article/gate2_C3_yu_lee_choi_min_2026/README.md",
+    "Research Article/gate2_N1_nabhan_2023/branch_analysis/METHODS.md",
+    "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/REPOSITORY_CONTEXT.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P03.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/FRAMING_AUDIT_2026-10-04.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/FIGURES.md",
+    "analysis/LAYOUT.md",
+    "docs/PORTFOLIO_SUMMARY.md",
+    "docs/README.md",
+    "docs/RESEARCH_ARCHITECTURE.md",
+    "docs/RQ_MEASUREMENT_CONTRACTS.md",
+    "docs/audits/2026-09-28-documentation-sync/REPORT.md",
+    "docs/audits/2026-11-07-public-data-inventory/README.md",
+    "docs/audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md",
+    "docs/handoffs/2026-09-27-computational-research.md",
+    "docs/history/2026-11-02-navigation-hygiene/AI_CONTEXT.md",
+    "docs/remediation/2026-09-22/IMPLEMENTATION_STATUS.md",
+    "docs/research_dossiers/A0.md",
+    "docs/research_dossiers/A1.md",
+    "docs/research_dossiers/A10.md",
+    "docs/research_dossiers/A11.md",
+    "docs/research_dossiers/A12.md",
+    "docs/research_dossiers/A14.md",
+    "docs/research_dossiers/A15.md",
+    "docs/research_dossiers/A16.md",
+    "docs/research_dossiers/A17.md",
+    "docs/research_dossiers/A18.md",
+    "docs/research_dossiers/A19.md",
+    "docs/research_dossiers/A2.md",
+    "docs/research_dossiers/A20.md",
+    "docs/research_dossiers/A21.md",
+    "docs/research_dossiers/A22.md",
+    "docs/research_dossiers/A23.md",
+    "docs/research_dossiers/A3.md",
+    "docs/research_dossiers/A4.md",
+    "docs/research_dossiers/A5.md",
+    "docs/research_dossiers/A6.md",
+    "docs/research_dossiers/A7.md",
+    "docs/research_dossiers/A8.md",
+    "docs/research_dossiers/A9.md",
+    "docs/research_dossiers/README.md",
+    "docs/research_dossiers/capabilities_2026-10-03/NEXT_STEPS.md",
+    "docs/research_dossiers/capabilities_2026-10-03/README.md",
+    "docs/research_dossiers/continuation_2026-10-03/README.md",
+    "docs/research_dossiers/continuation_2026-10-03/VALIDATION.md",
+    "docs/research_dossiers/literature_context_2026-10-03/SOURCE_UPDATE.md",
+    "docs/research_dossiers/packages_2026-10-03/A0.md",
+    "docs/research_dossiers/packages_2026-10-03/A1.md",
+    "docs/research_dossiers/packages_2026-10-03/A10.md",
+    "docs/research_dossiers/packages_2026-10-03/A11.md",
+    "docs/research_dossiers/packages_2026-10-03/A12.md",
+    "docs/research_dossiers/packages_2026-10-03/A13.md",
+    "docs/research_dossiers/packages_2026-10-03/A14.md",
+    "docs/research_dossiers/packages_2026-10-03/A15.md",
+    "docs/research_dossiers/packages_2026-10-03/A16.md",
+    "docs/research_dossiers/packages_2026-10-03/A17.md",
+    "docs/research_dossiers/packages_2026-10-03/A18.md",
+    "docs/research_dossiers/packages_2026-10-03/A19.md",
+    "docs/research_dossiers/packages_2026-10-03/A2.md",
+    "docs/research_dossiers/packages_2026-10-03/A20.md",
+    "docs/research_dossiers/packages_2026-10-03/A21.md",
+    "docs/research_dossiers/packages_2026-10-03/A22.md",
+    "docs/research_dossiers/packages_2026-10-03/A23.md",
+    "docs/research_dossiers/packages_2026-10-03/A3.md",
+    "docs/research_dossiers/packages_2026-10-03/A4.md",
+    "docs/research_dossiers/packages_2026-10-03/A5.md",
+    "docs/research_dossiers/packages_2026-10-03/A6.md",
+    "docs/research_dossiers/packages_2026-10-03/A7.md",
+    "docs/research_dossiers/packages_2026-10-03/A8.md",
+    "docs/research_dossiers/packages_2026-10-03/A9.md",
+    "docs/research_dossiers/packages_2026-10-03/LEDGER.md",
+    "docs/research_dossiers/packages_2026-10-03/README.md",
+    "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+    "docs/research_dossiers/source_mapping_closeout_2026-10-03/VALIDATION.md",
+    "docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/FOLLOWUP_REVIEW.md",
+    "docs/roadmap_runs/2026-09-27/README.md"
+  ],
+  "preserved_hash_bound_markdown": [
+    "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+    "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
+    "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md",
+    "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+    "RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md",
+    "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_SPEC_V1.md",
+    "RQ_Specified/A5_developmental_programme_reuse/DESTINATION_SCREEN_SPEC_V1.md",
+    "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+    "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md",
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/METHODS.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_V1_HOLD.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/METADATA_METHODS.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_AMENDMENT_V2.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/METADATA_AMENDMENT_V2.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/PRIMARY_RENDER_CORRECTION_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_IMPLEMENTATION_V1.md",
+    "analysis/research/runs/wg_bulk_figures_v1/CAPTIONS.md",
+    "analysis/research/runs/wg_bulk_paired_descriptive_v2/CAPTIONS.md",
+    "analysis/research/runs/wg_figures_v1/CAPTIONS.md",
+    "analysis/research/runs/wg_figures_v2/CAPTIONS.md",
+    "docs/research_dossiers/A13.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A12_TARGET_SOURCE_REVIEW.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A27_TARGET_SOURCE_REVIEW.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/A9_TARGET_SOURCE_REVIEW.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_COMPONENT_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A27_STATE_RECOVERY_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_PARTNER_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_TARGET_SOURCE_REVIEW_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_TARGET_VIEW_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_COMPONENT_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A8_ATTRIBUTION_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A9_RECIPIENT_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/A27_CODE_CONVENTION_SPEC_V3.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A27_SOURCE_CODE_EXECUTION_SPEC_V4.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A3_RNA_CONTEXT_DISPLAY_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_CANDIDATE_PROCESS_COMPARISON_V1.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A5_FEATURE_CONTEXT_DISPLAY_SPEC_V1.md",
+    "raw_data/Yadav_followups_T0_20261031/hamanaka_README.md",
+    "raw_data/Yd1_checkpoint_b_20261031/Tsukui_README.md",
+    "raw_data/Yd1_extension_20261031/SCAHN_README.md",
+    "raw_data/wagner_closeout_20261004/compass_2021/LICENSE.md"
+  ]
+}

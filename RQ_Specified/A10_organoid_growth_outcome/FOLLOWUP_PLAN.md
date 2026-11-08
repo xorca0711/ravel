@@ -1,7 +1,7 @@
 # A10 follow-up: design diagnostics before model extensions
 
 26 September 2026. The owner authorized the follow-up order in the
-[logical review](../../docs/LOGICAL_RATIONALE_REVIEW.md). This plan first fixes a
+[logical review](../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md). This plan first fixes a
 descriptive audit; a separate model amendment will be committed after the audit
 and before new fits. Previous numerical outputs and specifications are immutable.
 

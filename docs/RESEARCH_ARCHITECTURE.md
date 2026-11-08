@@ -104,7 +104,7 @@ the proposed calculation can distinguish the stated rivals, stop at feasibility.
 
 The [27 September audit](audits/2026-09-27-rq-rationale/REPORT.md#critical-logical-gaps-still-open)
 records the gaps identified at that checkpoint. The associated
-[research roadmap](RESEARCH_ROADMAP.md) developed six work packages, biological
+[research roadmap](history/planning/RESEARCH_ROADMAP.md) developed six work packages, biological
 rationales, data requirements and proceed/stop decisions. Current question
 arguments and result amendments record later work and remaining uncertainties;
 the dated roadmap does not restart completed fits or authorize a new run.

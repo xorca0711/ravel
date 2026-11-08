@@ -24,7 +24,7 @@ Current synthesis: 4 November 2026. [Question card](../../RESEARCH_QUESTIONS.md#
 
 Published IL-1 epithelial-transition and fibroblast pre-exposure experiments
 show that recipient context can matter. They do not validate this cohort's
-predictive index. [Choi Fig. 7 and Ciminieri Fig. 1, with access records](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md)
+predictive index. [Choi Fig. 7 and Ciminieri Fig. 1, with access records](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md)
 supply the premises; the [local literature context](LITERATURE_CONTEXT.md) separates
 those models from the present human disease contrast.
 
@@ -129,7 +129,7 @@ supported predictive results.
 
 IL-1 receptor and inhibitory context in recipient epithelial cells or fibroblasts may explain an IL-1-dependent response beyond ligand RNA abundance. Those are separate recipient questions; the current portfolio has not fixed one compartment, receptor/inhibitory contrast and biological consequence for a mechanistic experiment. General NF-kB or inflammation scores cannot establish IL-1 specificity.
 
-**What is already known, and what remains:** IL-1-dependent epithelial and stromal effects are published, including recipient-history effects. Exact-compartment novelty is unresolved until the contrast and consequence are specified. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a12).
+**What is already known, and what remains:** IL-1-dependent epithelial and stromal effects are published, including recipient-history effects. Exact-compartment novelty is unresolved until the contrast and consequence are specified. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a12).
 
 **What the measurements would decide:** A recipient-context effect under a qualified IL-1-dependent contrast supports specific reception. The same response without IL-1 dependence favors a general inflammatory marker. Source-attribution uncertainty and a generic pathway score cannot identify which cells delivered the active input.
 
@@ -144,7 +144,7 @@ IL-1 receptor and inhibitory context in recipient epithelial cells or fibroblast
 **Read in this order:** [current evidence](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md),
 [development dossier](../../docs/research_dossiers/A12.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A12.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

@@ -13,9 +13,9 @@ Wnt-associated alveolar stem-cell behaviour, changing Wnt responsiveness and inf
 
 | Primary source | Inspected locator and access record |
 |---|---|
-| [Nabhan 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5997265/) | Wnt niche and tracing result. [Access / prior review](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
+| [Nabhan 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5997265/) | Wnt niche and tracing result. [Access / prior review](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
 | [Frank 2016](https://pubmed.ncbi.nlm.nih.gov/27880906/) | Developmental Wnt history; Fig. S2G–H. [Access / prior review](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md) |
-| [Choi 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/) | Fig. 7 and Discussion. [Access / prior review](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
+| [Choi 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/) | Fig. 7 and Discussion. [Access / prior review](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
 
 Sources above reuse the named review unless the update ledger explicitly records a fresh inspection. Published-source evidence and reanalysis of the same material are not independent replication.
 

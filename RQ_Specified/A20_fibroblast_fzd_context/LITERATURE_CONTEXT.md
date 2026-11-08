@@ -13,8 +13,8 @@ Fzd2-dependent mesenchymal identity and repair support are published. They justi
 
 | Primary source | Inspected locator and access record |
 |---|---|
-| [Nabhan 2023](https://pubmed.ncbi.nlm.nih.gov/37321220/) | Compartment-specific Fzd results; Figs. 3–4 for A19. [Access / prior review](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
-| [Zhou 2025](https://link.springer.com/article/10.1186/s12964-025-02501-8) | Figs. 5–7 and Discussion. [Access / prior review](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
+| [Nabhan 2023](https://pubmed.ncbi.nlm.nih.gov/37321220/) | Compartment-specific Fzd results; Figs. 3–4 for A19. [Access / prior review](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
+| [Zhou 2025](https://link.springer.com/article/10.1186/s12964-025-02501-8) | Figs. 5–7 and Discussion. [Access / prior review](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) |
 
 Sources above reuse the named review unless the update ledger explicitly records a fresh inspection. Published-source evidence and reanalysis of the same material are not independent replication.
 

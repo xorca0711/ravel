@@ -3,6 +3,20 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## PR 171 reconciliation after PR 170 merged - 8 November 2026
+
+The owner requested resolution of the conflict with merged PR #170. Integrated
+`main` at `23c3db6` into the existing PR #171 branch. Both progress entries are
+retained; the article index and structure guide combine the consolidated source
+register/document categories with the corrected ungated DY1 and Gate3A IL-10
+entries. The source register, moved historical documents and frozen evidence
+remain intact. Verified exact preservation of 179 nonoverlapping PR #170 paths
+and ten nonoverlapping PR #171 paths, and reviewed all three overlapping
+documentation files. Validation passed: 18,206 repository checks, 18 unchanged
+claim bindings, whitespace checks and the base-aware research gate. Refetched
+main still matches `23c3db6`. The resolution is ready for publication to #171;
+no biological analysis, policy change or merge of PR #171 into main is performed.
+
 ## Corrected Damani–Yokota and Saxton IL-10 entry folders - 8 November 2026
 
 The owner clarified that Damani–Yokota is ungated and Saxton IL-10 belongs to
@@ -28,6 +42,38 @@ not committed scientific edits. No biological rerun or validator change occurred
 [Follow-up PR #171](https://github.com/xorca0711/ravel/pull/171) is open against
 `main`; identity verified as `xorca0711`. Remote checks are pending. Scientific
 acceptance and reading gates are unchanged; no merge was requested.
+
+## Unified source register and documentation categories — 8 November 2026
+
+Owner requested one source list and purpose-based organization of superseded
+documentation. Scoped branch `codex/source-register-docs-20261108` starts at
+fresh main `4318740`, after PR #168 merged. The prior root and inventory worktree
+edits remain untouched. [Consolidation and move record](docs/audits/2026-11-08-source-consolidation/README.md).
+
+`docs/DATASETS.md` now consolidates used sources, inspected/rejected comparisons,
+pending sources, historical screens and aliases, including all 544 identifiers
+from the preceding census, plus 19 identifiers from merged Saxton work. The root README has one source-list destination.
+Twenty older/reference documents moved into planning, review, source-inventory
+history and methods folders; compatibility locators preserve twelve old paths
+used by recorded machine/frozen-document consumers. Current counts are 36 RQs,
+39 article-local candidates and 20 paper packages. No biological analysis,
+source download, cache rescan, evidence deletion or scientific-status promotion.
+
+Main advanced during consolidation: merged PR #169 (`1d7c814`) is integrated,
+including Sx10/Gorby source uses and both rejected interaction-source screens.
+The register now represents 563 source/project identifiers.
+
+Validation passed against refreshed unchanged main `1d7c814`: 1,064 focused
+checks, more than 14,900 local links, 18,118 repository checks, 167 unit tests
+(two skips), compilation, required archive/claim checks, provenance gate and
+whitespace checks. Two legacy section anchors were restored in compatibility
+locators; frozen referring documents remain byte-identical. Fifteen published
+outputs were restored from existing hash-matched local copies for verification.
+[PR #170](https://github.com/xorca0711/ravel/pull/170) is open for owner review;
+its [checks page](https://github.com/xorca0711/ravel/pull/170/checks) is the live
+remote validation record. Next: review the consolidation and archive routes;
+merge remains an owner decision. GitHub identity is verified as `xorca0711`;
+no external setting changed or merge was performed.
 
 ## Saxton PR opened - 8 November 2026
 
@@ -233,7 +279,7 @@ the reconciliation above supersedes its integration and publication status.
 
 
 Updated the [central dataset list](docs/DATASETS.md) and its
-[source-use additions](docs/DATASET_UPDATES_2026-11-07.md) on isolated branch
+[source-use additions](docs/history/source-inventories/DATASET_UPDATES_2026-11-07.md) on isolated branch
 `codex/public-data-inventory-20261107`, based on freshly fetched main `dcee4b6`.
 [Audit, scan scope and artifacts](docs/audits/2026-11-07-public-data-inventory/README.md).
 The original root checkout and unrelated edits remain preserved.
@@ -1313,7 +1359,7 @@ No numerical rerun, existing PR rewrite or main merge is part of this work.
 
 Use the [paper index](Research%20Article/README.md), [question workspaces](RQ_Specified/README.md),
 [dossiers](docs/research_dossiers/README.md) and
-[remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md). The reviewed
+[remaining-work ledger](docs/history/planning/REMAINING_WORK.md). The reviewed
 Arozamena/Saxton work is merged through PR #157; its exact source/state/function
 holds remain in the owning reports. Reopen a held analysis only for its named
 new source/design evidence; registration does not supply missing measurements.

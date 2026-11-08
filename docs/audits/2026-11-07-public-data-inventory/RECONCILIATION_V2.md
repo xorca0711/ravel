@@ -8,7 +8,7 @@ then requested publication and documentation/navigation cleanup in this PR.
 
 ## Current source-use and storage records
 
-[Central inventory](../../DATASETS.md) · [source-use additions](../../DATASET_UPDATES_2026-11-07.md)
+[Central inventory](../../DATASETS.md) · [source-use additions](../../history/source-inventories/DATASET_UPDATES_2026-11-07.md)
 · [accession references](snapshot_v2/accession_references.csv)
 · [local directories](snapshot_v2/local_directories.csv)
 · [local files](snapshot_v2/local_files.csv) · [snapshot metadata](snapshot_v2/snapshot.json).

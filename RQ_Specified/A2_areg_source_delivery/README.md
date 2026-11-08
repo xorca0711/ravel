@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 Epithelial AREG delivery can change the effective ligand reaching fibroblasts and thereby their response, even when epithelial AREG RNA or source-cell abundance is similar. The biological contrast is delivery through effective availability versus a recipient-context effect. The source/presentation comparison and downstream fibroblast function remain unnominated, so this is a developing hypothesis, not a specified wet experiment.
 
-**What is already known, and what remains:** AREG/EGFR support and recipient-dependent ligand responses are precedents. A new contribution requires a justified delivery contrast and an actual recipient consequence; another source-RNA association is redundant. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a2).
+**What is already known, and what remains:** AREG/EGFR support and recipient-dependent ligand responses are precedents. A new contribution requires a justified delivery contrast and an actual recipient consequence; another source-RNA association is redundant. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a2).
 
 **What the measurements would decide:** Measure available AREG and the nominated fibroblast response separately. A response change following altered availability is compatible with delivery through supply; equalizing availability can remove that route. A remaining response difference points to recipient competence or other inputs, not automatically a delivery-specific mechanism.
 
@@ -68,7 +68,7 @@ Epithelial AREG delivery can change the effective ligand reaching fibroblasts an
 [development dossier](../../docs/research_dossiers/A2.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A2.md).
 Source-mapping closeout: [M01 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

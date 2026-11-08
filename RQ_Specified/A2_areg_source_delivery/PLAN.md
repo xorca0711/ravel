@@ -13,7 +13,7 @@ Declared 26 September 2026. **Stage 1 only is authorized at declaration.** The
 biology is in [RATIONALE.md](RATIONALE.md), the machine-readable decisions in
 [`config/a2_delivery_contract.json`](config/a2_delivery_contract.json), and the
 question in the [A2 card](../../RESEARCH_QUESTIONS.md#a2). This plan inherits the
-prohibitions the [dataset gate](../../docs/NEXT_DATASET_GATE.md) and
+prohibitions the [dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md) and
 [A10 stage 1](../A10_organoid_growth_outcome/reports/STAGE1_IDENTITY_AUDIT.md)
 placed on GSE307112, and the measurement contracts
 [MC2 to MC4](../../docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).

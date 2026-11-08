@@ -15,7 +15,7 @@ Read the [revised result](reports/REVISED_TEST_RESULTS.md) before earlier plans.
 Shared gene/source overlap is not independent replication. Scientific/novelty
 review is deferred; no component may be retuned to rescue a result. Source
 recovery is closed within its [inspected scope](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-See [remaining work](../../docs/research_dossiers/REMAINING_WORK.md) and
+See [remaining work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution governance](../../docs/RESEARCH_GOVERNANCE.md) before a new analysis.
 The existing definitions, exclusions, results and history below remain intact.
 <!-- current-rq-framing:end -->

@@ -385,7 +385,7 @@ programmes for the repository's question, in human tissue only.
   Club-AT2", with SFTPC and SCGB3A1 levels as the discriminators. This is the
   human counterpart of the transitional states the repository studies in
   mouse, and the population whose doublet-loss audit is documented in
-  [`../../docs/DOUBLETS_AND_SCRUBLET.md`](../../docs/DOUBLETS_AND_SCRUBLET.md).
+  [`../../docs/DOUBLETS_AND_SCRUBLET.md`](../../docs/methods/background/DOUBLETS_AND_SCRUBLET.md).
 - **Interferon and sex.** IFNAR1 is lower in female lymphatic endothelium;
   the authors link it to sex-differential interferon responses.
 - **Proximal-distal programmes.** Oxidative phosphorylation, MHC-I antigen

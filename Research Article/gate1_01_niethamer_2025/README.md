@@ -6,7 +6,7 @@ Current figure corrections: [categorical time axes and annotation comparison](GS
 
 | To understand | Read |
 |---|---|
-| Paper context and biological question | [Published workflow](../../docs/WORKFLOW_Niethamer2025.md); [source-method notes](../../docs/scRNAseq_workflow_Niethamer2025.md) |
+| Paper context and biological question | [Published workflow](../../docs/methods/workflows/WORKFLOW_Niethamer2025.md); [source-method notes](../../docs/methods/workflows/scRNAseq_workflow_Niethamer2025.md) |
 | Analysis results, claims and limitations | [Generated atlas report](GSE262927/README.md); [analysis stages and outcomes](ANALYSIS_TRIAL_PLAN.md) |
 | Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Selected figures and links to detailed galleries](#figure-gallery) |
@@ -24,8 +24,8 @@ DOI 10.1016/j.stem.2024.12.002, PMID 39818203. Data: GEO GSE262927.
 
 | What | Where |
 |---|---|
-| Annotated reference to the published method (parameters, marker tables, open decisions) | [`../../docs/scRNAseq_workflow_Niethamer2025.md`](../../docs/scRNAseq_workflow_Niethamer2025.md) |
-| The published workflow, ordering constraints, statistical unit | [`../../docs/WORKFLOW_Niethamer2025.md`](../../docs/WORKFLOW_Niethamer2025.md) |
+| Annotated reference to the published method (parameters, marker tables, open decisions) | [`../../docs/scRNAseq_workflow_Niethamer2025.md`](../../docs/methods/workflows/scRNAseq_workflow_Niethamer2025.md) |
+| The published workflow, ordering constraints, statistical unit | [`../../docs/WORKFLOW_Niethamer2025.md`](../../docs/methods/workflows/WORKFLOW_Niethamer2025.md) |
 | The executed reanalysis (generated report) | [`Research Article/gate1_01_niethamer_2025/GSE262927/README.md`](GSE262927/README.md) |
 | Focused analyses: AT2 to Krt8-high transitional to AT1 trajectory; injury-associated capillary state | [`Research Article/gate1_01_niethamer_2025/GSE262927/regeneration_focus/`](GSE262927/regeneration_focus/) |
 | Lineage-tracing cohort (8 non-atlas samples) | [`Research Article/gate1_01_niethamer_2025/GSE262927/lineage_tracing_cohort/`](GSE262927/lineage_tracing_cohort/) |

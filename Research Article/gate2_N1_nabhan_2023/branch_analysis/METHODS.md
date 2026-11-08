@@ -47,7 +47,7 @@ with no population p-values. No exposure-response model, pseudotime fate claim,
 integration or inferred cell lineage is fitted.
 
 CAP1/CAP2 crosswalks use Aplnr/Gpihbp1/Kit and Car4/Ednrb/Apln, consistent with
-[Niethamer's source framework](../../../docs/scRNAseq_workflow_Niethamer2025.md) and
+[Niethamer's source framework](../../../docs/methods/workflows/scRNAseq_workflow_Niethamer2025.md) and
 [Gillich et al.](https://www.nature.com/articles/s41586-020-2822-7). General-capillary
 lineage behavior in the latter does not transfer as an observed fate for every
 cell in this atlas. CAP1 injury substates are not resolved by these coarse labels.

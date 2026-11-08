@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 Fibroblast output may alter epithelial recovery beyond the effect of macrophage IL-1-beta input. The existing TGF-beta-hallmark/HPCS-proxy pilot found no aggregate held-out gain and nominates no mediator. The biological idea remains incomplete until a particular fibroblast product, epithelial response and source-directed contrast are supported; output nomination is preparatory work, not the hypothesis itself.
 
-**What is already known, and what remains:** Reciprocal epithelial-fibroblast effects and inflammatory fibroblast outputs already have functional precedents. A generic additional fibroblast effect or another score fit would not establish novelty. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a13).
+**What is already known, and what remains:** Reciprocal epithelial-fibroblast effects and inflammatory fibroblast outputs already have functional precedents. A generic additional fibroblast effect or another score fit would not establish novelty. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a13).
 
 **What the measurements would decide:** A source-directed change in a nominated product linked to a separately validated epithelial recovery endpoint could support the additional niche route. Effects explained only by fibroblast depletion or shared inflammation leave activity-specific attribution unresolved. The negative proxy pilot must not be relabeled a mediator discovery.
 
@@ -67,7 +67,7 @@ Fibroblast output may alter epithelial recovery beyond the effect of macrophage 
 **Read in this order:** [current evidence](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md),
 [development dossier](../../docs/research_dossiers/A13.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A13.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

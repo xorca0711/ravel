@@ -88,7 +88,7 @@ not stand in for the whole parent question.
 Seventeen dossiers retain, before their first substantive section, an instruction
 to use `REMAINING_WORK.md` as the current work disposition: A0, A1, A2, A3, A6,
 A7, A8, A9, A10, A11, A13, A14, A16, A17, A18, A22 and A23.
-The target [ledger](../../research_dossiers/REMAINING_WORK.md#what-remains-now)
+The target [ledger](../../history/planning/REMAINING_WORK.md#what-remains-now)
 still includes A17's unfinished technical qualification under “What remains now.”
 The [A17 dossier](../../research_dossiers/A17.md) correctly announces the completed
 3 November diagnostic and scopes old entries as historical, but then repeats the

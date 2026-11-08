@@ -1,5 +1,9 @@
 # RQ specificity review and proposed repairs
 
+> Historical record, archived 8 November 2026. Its dates, counts and proposed
+> next steps retain their original scope. Use the [current index](../../README.md)
+> for active sources and navigation.
+
 **Later application:** the [source-grounded revision](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) supersedes this proposal as the current documentation state. In particular, A4/Fzd5 gating was not adopted and A23 was narrowed after identifying closer prior art. This review remains the record of the rejected framing and initial proposals.
 
 3 October 2026. Requested after the owner rejected the one-line atlas summaries
@@ -40,10 +44,10 @@ The problem is substantive, not just that the titles were short.
    Withdrawal-associated recovery is already a precedent for A14; its precise
    history or compartment comparison must supply the additional question.
 
-The [owner's biological-hypothesis rule](../../RESEARCH_QUESTIONS.md), near the end of the register,
+The [owner's biological-hypothesis rule](../../../RESEARCH_QUESTIONS.md), near the end of the register,
 already requires a plausible biological process, directional or causal
 prediction, competing explanations and a discriminating outcome. The
-[governance](../RESEARCH_GOVERNANCE.md) also correctly permits descriptive and
+[governance](../../RESEARCH_GOVERNANCE.md) also correctly permits descriptive and
 prediction work. Both can be respected: keep the biological question, its
 supporting analysis and its current evidence gap as separate layers.
 
@@ -76,8 +80,8 @@ durations, effect margins and sample sizes remain implementation work.
 ## Worked repair 1: A4 — test Wnt gating of inflammatory transition
 
 **Current scope:** same-lineage Wnt-associated maintenance followed by an
-IL-1-responsive transition, versus selection. See [card](../../RESEARCH_QUESTIONS.md#a4)
-and [package](packages_2026-10-03/A4.md). The atlas's "does one lineage change its
+IL-1-responsive transition, versus selection. See [card](../../../RESEARCH_QUESTIONS.md#a4)
+and [package](../../research_dossiers/packages_2026-10-03/A4.md). The atlas's "does one lineage change its
 response" omitted the biological input and gave a weak account of the contribution.
 
 **Plausible new narrowing, requiring review:** in adult AT2-derived preparations,
@@ -113,9 +117,9 @@ exact contrast is already answered remains a targeted novelty-review question.
 
 ## Worked repair 2: A19 — separate expansion from productive maturation
 
-The [original card](../../RESEARCH_QUESTIONS.md#a19),
-[current interpretation](../../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md)
-and [plan](../../RQ_Specified/A19_fzd_response_reversibility/PLAN.md) already have
+The [original card](../../../RESEARCH_QUESTIONS.md#a19),
+[current interpretation](../../../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md)
+and [plan](../../../RQ_Specified/A19_fzd_response_reversibility/PLAN.md) already have
 more biological content than the atlas. Restore it before adding new terms.
 
 **Proposed narrow hypothesis:** in primary AT2-derived organoids retaining an
@@ -152,7 +156,7 @@ the already known general association between Wnt input and cell identity.
 ## Worked repair 3: A20 — retain the actual receptor comparison
 
 This RQ already has a relatively specific
-[narrowed hypothesis](../../RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md).
+[narrowed hypothesis](../../../RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md).
 The repair is to foreground its full biology rather than rewrite it as generic
 "fibroblast support."
 
@@ -181,7 +185,7 @@ functional maturation and independent replication still require qualification.
 
 ## Worked repair 4: A14 — restore direction and split the hypotheses
 
-Restore H1 from the [card](../../RESEARCH_QUESTIONS.md#a14): **longer prior
+Restore H1 from the [card](../../../RESEARCH_QUESTIONS.md#a14): **longer prior
 IL-1-beta exposure reduces later AT1-lineage recovery after verified cessation,
 at comparable recovery intervals and culture age.** The distinction is incomplete
 recovery after exposure history, not simply whether any recovery occurs.
@@ -226,7 +230,7 @@ not a sufficient fate definition. Preserve the external PAM non-reproduction.
 ## Portfolio review: disposition proposed for all 24 questions
 
 These are recommendations about framing, not a new claim/status register. Every
-ID remains available and retains its [registered dossier](README.md).
+ID remains available and retains its [registered dossier](../../research_dossiers/README.md).
 
 | RQ | Specific defect or retained strength | Plausible repair before another figure |
 |---|---|---|
@@ -282,11 +286,11 @@ argument rather than rewarding filled headings.
 
 ## Evidence and limits of this review
 
-- Repository authority: [question register](../../RESEARCH_QUESTIONS.md),
-  [registry](../../analysis/research/registry.json),
-  [conditional packages](packages_2026-10-03/README.md),
-  [later refinements](continuation_2026-10-03/PACKAGE_REVIEW.md), and the
-  [bounded novelty review](followup_2026-10-03/NOVELTY.md). The portfolio audit
+- Repository authority: [question register](../../../RESEARCH_QUESTIONS.md),
+  [registry](../../../analysis/research/registry.json),
+  [conditional packages](../../research_dossiers/packages_2026-10-03/README.md),
+  [later refinements](../../research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md), and the
+  [bounded novelty review](../../research_dossiers/followup_2026-10-03/NOVELTY.md). The portfolio audit
   reviews framing; it is not a fresh full-text novelty review of all 24 RQs.
 - [Nabhan 2023](https://pubmed.ncbi.nlm.nih.gov/37321220/) supplies the published
   Fzd5/Fzd6 AT2-input precedent. This session retrieved the indexed primary
