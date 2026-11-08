@@ -38,7 +38,7 @@ context; only its local retrospective review was available here.
 | [Yu/Lee/Choi/Min](../gate2_C3_yu_lee_choi_min_2026/README.md) | Compartment coverage before niche analysis; source/receiver distinctions | Fibrotic or tumor-state labels are not normal-atlas identities |
 | [Shared architecture](../../docs/RESEARCH_ARCHITECTURE.md) | Unit -> measurement -> rival -> decision -> independent outcome | Arithmetic correctness does not establish biological validity |
 
-The [research roadmap](../../docs/RESEARCH_ROADMAP.md) places this contribution
+The [research roadmap](../../docs/history/planning/RESEARCH_ROADMAP.md) places this contribution
 primarily under source/receiver identity and coverage (P4) and measurement
 definition (P0). It cannot supply P0's missing repair endpoint or P3's linked
 regulatory-to-fate design. A normal reference may improve A1/A8 interpretation;

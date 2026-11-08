@@ -54,7 +54,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 Biological aim: adult epithelial repair recruits part of a transition programme also used in other epithelial contexts. The frozen 50-gene lung-to-intestine test failed its intended ordering; the remaining task is to determine whether independently justified source and target states are comparable. No replacement signature or conserved fate-control mechanism is proposed by that failure.
 
-**What is already known, and what remains:** Conserved transition biology is published. This remains construct qualification and a failed-transfer boundary, not a new mechanism or a positive conservation result. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a0).
+**What is already known, and what remains:** Conserved transition biology is published. This remains construct qualification and a failed-transfer boundary, not a new mechanism or a positive conservation result. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a0).
 
 **What the measurements would decide:** An independently justified state comparison could delimit where the original transfer question applies. Re-scoring the same data after changing genes or labels would test a new, exposed hypothesis and cannot rescue the frozen result.
 
@@ -69,7 +69,7 @@ Biological aim: adult epithelial repair recruits part of a transition programme 
 **Read in this order:** [current evidence](reports/PILOT_V1_RESULTS.md),
 [development dossier](../../docs/research_dossiers/A0.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A0.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

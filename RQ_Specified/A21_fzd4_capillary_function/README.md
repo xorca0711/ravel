@@ -124,7 +124,7 @@ arrows remain proposed relationships.
 
 Fzd4-dependent capillary integrity may permit gCap self-renewal and subsequent aerocyte production during normal adult alveolar repair. The proposed route links vascular function to lineage output; it must be distinguished from direct regenerative entry, endothelial survival and parallel injury responses. Tumor-vessel rescue is a precedent, not evidence that this complete adult repair route has been demonstrated.
 
-**What is already known, and what remains:** Capillary lineage specialization and Fzd4 vascular effects are established. The candidate increment is adult repair function/lineage linkage; co-occurrence alone does not establish integrity-mediated renewal. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a21).
+**What is already known, and what remains:** Capillary lineage specialization and Fzd4 vascular effects are established. The candidate increment is adult repair function/lineage linkage; co-occurrence alone does not establish integrity-mediated renewal. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a21).
 
 **What the measurements would decide:** A Fzd4-dependent output difference with independently measured vascular function, division, lineage and survival supports functional coupling. An output difference explained by cell loss favors maintenance. Even matched function and lineage changes do not identify mediation without a further discriminating comparison.
 
@@ -140,7 +140,7 @@ Fzd4-dependent capillary integrity may permit gCap self-renewal and subsequent a
 [development dossier](../../docs/research_dossiers/A21.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A21.md).
 Source-mapping closeout: [M13 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

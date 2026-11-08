@@ -74,7 +74,7 @@ The hypothesis remains a proposal where its decisive comparison is untested.
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate2_C2_england_2025/README.md) ·
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A17.md).
 The package draft exists. The requested specificity/novelty revision is applied;
-scientific acceptance and experiment-specific qualification remain pending. Use [current work disposition](../../docs/research_dossiers/REMAINING_WORK.md), not an older
+scientific acceptance and experiment-specific qualification remain pending. Use [current work disposition](../../docs/history/planning/REMAINING_WORK.md), not an older
 package-pending checkpoint, to decide what is active.
 The [numerically qualified model specification](../../docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md) is available; probability/tail, observation and identifiability work before biological fitting remains deferred and unfinished.
 

@@ -32,7 +32,7 @@ and preservation of historical evidence.
 | Browse related biological topics across questions and papers | [Topic map](docs/RESEARCH_TOPICS.md) |
 | Questions, biological rationale and proposed comparisons | [All 36 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
-| Public-data use, local deposits and eligibility | [Dataset inventory](docs/DATASETS.md) · [Source-use additions](docs/DATASET_UPDATES_2026-11-07.md) |
+| Public-data use, local deposits and eligibility | [Single source register](docs/DATASETS.md) |
 | Current results and remaining work | [Project state](PROGRESS.md) · [Current question findings](RQ_Specified/README.md#all-33-current-questions) |
 | Evidence grades, corrections and negative results | [Claim summary](docs/CLAIM_SUMMARY.md) · [Full register](CLAIMS.md) · [Negative results](docs/NEGATIVE_RESULTS.md) |
 | Reproduction and research development | [Reproducibility](REPRODUCIBILITY.md) · [Research governance](docs/RESEARCH_GOVERNANCE.md) · [Documentation index](docs/README.md) |
@@ -92,7 +92,7 @@ measurement or data limitation while leaving the biological hypothesis open. The
 [research architecture](docs/RESEARCH_ARCHITECTURE.md) explains the evidence layers,
 while [current project state](PROGRESS.md), the [question homes](RQ_Specified/README.md)
 and [article reports](Research%20Article/README.md) locate active dependencies.
-The [older remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md)
+The [older remaining-work ledger](docs/history/planning/REMAINING_WORK.md)
 preserves dated grounding and package decisions.
 
 ## How the research is organized
@@ -106,14 +106,15 @@ acceptance; dated reports preserve earlier results and corrections.
 
 ## Datasets
 
-The [inventory](docs/DATASETS.md) separates analysed data from feasibility inputs
-and candidates that do not meet a particular comparison's requirements. Most
-expression analyses use deposited counts; some reproduce deposited normalized
-values. Contracts record exact inputs, inclusion rules and biological units.
-Reused deposits and their companion assays remain shared evidence.
-The inventory also links dated file/directory snapshots of ignored local caches.
-Referenced accessions, files present on one machine and datasets actually used
-are different counts; downloaded inputs do not accompany a Git clone.
+The [single public-source register](docs/DATASETS.md) lists sources used in
+analyses, inspected or rejected for particular comparisons, pending qualification,
+and retained as search leads or references. Each entry links its decision and
+source evidence. Parent accessions and reused cohorts do not become independent
+replication.
+
+The same page links dated local-directory/file inventories. Local raw caches
+are ignored and are not supplied by a fresh clone. Source use, accession mentions
+and files present on one machine are distinct records.
 
 ## Try it yourself
 

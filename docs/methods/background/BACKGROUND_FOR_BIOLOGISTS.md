@@ -3,7 +3,7 @@
 Written for a reader comfortable with lung biology and the bench, but not with
 the computational side. Intuition first, maths only where it earns its place.
 
-Companion to [`ANALYSIS_RATIONALE.md`](ANALYSIS_RATIONALE.md), which records
+Companion to [`ANALYSIS_RATIONALE.md`](../../ANALYSIS_RATIONALE.md), which records
 what was decided for *this* dataset. This file explains the concepts behind
 those decisions. Sources are listed at the end of each section.
 

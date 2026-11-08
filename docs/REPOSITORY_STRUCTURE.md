@@ -22,8 +22,10 @@ protocols, original trial names and immutable run records remain historical evid
 | Corrective scientific analyses | `analysis/corrections/` | Keep original results and corrections distinguishable |
 | Graded evidence and negative results | [CLAIMS.md](../CLAIMS.md), [NEGATIVE_RESULTS.md](NEGATIVE_RESULTS.md) | Claims change only with supporting evidence; current question reports may narrow historical interpretations without promoting grades |
 | Original two-atlas findings | [FINDINGS.md](../FINDINGS.md) | Historical scope; not a summary of every later question or correction |
-| Dataset roles, units and eligibility | [DATASETS.md](DATASETS.md) | Link to run-specific provenance and gates; shared deposits and companion assays are not independent replications |
-| Methods, structure, portfolio and communication drafts | `docs/` | Each page identifies whether it describes execution, reference methods or proposed work |
+| Dataset roles, units and eligibility | [DATASETS.md](DATASETS.md) | Single current public-source list, including used, rejected/inspected and pending sources; link to owning evidence and preserve comparison-specific limits |
+| Methods and teaching references | [methods](methods/README.md) | Tool descriptions remain distinct from actual execution; generated records retain stable paths |
+| Superseded plans, reviews and source supplements | [history by purpose](history/README.md) | Full documents live in category folders; compatibility locators preserve frozen/generated references |
+| Structure, portfolio and communication guides | [documentation index](README.md) | Current navigation separates owner reports, reference material and dated records |
 | Reading order and paper status | [Research Article/ROADMAP.json](../Research%20Article/ROADMAP.json), [Research Article/README.md](../Research%20Article/README.md) | Stable paper identifiers differ from the reading sequence; update the two views together |
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |

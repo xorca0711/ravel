@@ -1,5 +1,9 @@
 # RQ entrypoint alignment
 
+> Historical record, archived 8 November 2026. Its dates, counts and proposed
+> next steps retain their original scope. Use the [current index](../../README.md)
+> for active sources and navigation.
+
 3 October 2026. Documentation follow-up from merged PR #132 at `bf7d716`.
 
 ## Scope and authority

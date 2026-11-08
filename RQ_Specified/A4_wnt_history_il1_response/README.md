@@ -88,7 +88,7 @@ The hypothesis remains a proposal where its decisive comparison is untested.
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate1_03_nabhan_2018/README.md) ·
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A4.md).
 The package draft exists. The requested specificity/novelty revision is applied;
-scientific acceptance and experiment-specific qualification remain pending. Use [current work disposition](../../docs/research_dossiers/REMAINING_WORK.md), not an older
+scientific acceptance and experiment-specific qualification remain pending. Use [current work disposition](../../docs/history/planning/REMAINING_WORK.md), not an older
 package-pending checkpoint, to decide what is active.
 Source recovery is closed at its documented evidence limit: [M08](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md). Missing biological links remain held.
 Review the [t0-denominator and missing-lineage refinement](../../docs/research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md) with the package; survivor-conditioned fractions are not the proposed primary denominator.

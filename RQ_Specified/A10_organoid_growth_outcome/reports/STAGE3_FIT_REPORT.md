@@ -3,7 +3,7 @@
 **Interpretation addendum, 26 September 2026.** The original fit and its numbers
 below are preserved; the later specification is reported in
 [stage 4](STAGE4_REVISED_REPORT.md). The
-[logical review](../../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections)
+[logical review](../../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md#a10-corrections)
 narrows the original assay-validation claim: 58/76 target-transcript reductions
 are a limited consistency check against pooled other targets, not verification
 of every edit, imaging positive control or join. A below-margin or unstable

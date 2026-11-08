@@ -1,6 +1,6 @@
 # Published capabilities and experimental development
 
-**Historical capability-stage checkpoint.** The later [conditional packages](../packages_2026-10-03/README.md) are now drafted and PR #130 is merged. Use [remaining work](../REMAINING_WORK.md) for current decisions. The methods, coverage and validation below retain this stage's original scope.
+**Historical capability-stage checkpoint.** The later [conditional packages](../packages_2026-10-03/README.md) are now drafted and PR #130 is merged. Use [remaining work](../../history/planning/REMAINING_WORK.md) for current decisions. The methods, coverage and validation below retain this stage's original scope.
 
 3 October 2026. This stage uses the supplied article collection to turn the
 portfolio's experimental bridges into requirements for conditional designs. It does

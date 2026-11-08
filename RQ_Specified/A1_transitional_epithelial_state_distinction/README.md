@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 RNA-similar transitional alveolar epithelial cells may differ in regulatory competence for later AT1 maturation. The remaining hypothesis would require an early regulatory feature to distinguish later lineage-derived mature AT1 output beyond the starting RNA state. No particular regulatory feature has yet been nominated for that prospective contrast; a generic chromatin assay does not complete it.
 
-**What is already known, and what remains:** Regulatory heterogeneity and functional transitional states are published. Exact-feature novelty cannot be judged until the regulatory feature and mature endpoint are fixed. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a1).
+**What is already known, and what remains:** Regulatory heterogeneity and functional transitional states are published. Exact-feature novelty cannot be judged until the regulatory feature and mature endpoint are fixed. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a1).
 
 **What the measurements would decide:** Early regulatory information that improves prediction in independent biological units would support a competence marker. It would not establish a causal regulator; absent incremental information weakens the proposed marker. Current unlinked RNA/regulatory samples cannot perform this comparison.
 
@@ -68,7 +68,7 @@ RNA-similar transitional alveolar epithelial cells may differ in regulatory comp
 [development dossier](../../docs/research_dossiers/A1.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A1.md).
 Source-mapping closeout: [M07 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

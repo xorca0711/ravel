@@ -5,7 +5,7 @@ fits and logical review. This is the current biological argument, not a
 retrospective preregistration. The [original plan](PLAN.md), frozen specifications
 and numerical outputs preserve the execution record. Read the
 [stage 4 report](reports/STAGE4_REVISED_REPORT.md) and
-[logical review](../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections).
+[logical review](../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md#a10-corrections).
 
 **Execution update:** the diagnostic-first follow-up is now complete. The
 [results](reports/FOLLOWUP_RESULTS.md) show conditional information beyond the

@@ -161,7 +161,7 @@ independent evidence.
 No plate shows a UMAP or any embedding: the analysed 5,192-cell object and its
 scVI model were never deposited, so a re-derived embedding would differ from the
 published one by construction and would invite exactly the distance reading that
-[the repository's embedding guidance](../../docs/UMAP_AND_FIGURES.md) warns
+[the repository's embedding guidance](../../docs/methods/background/UMAP_AND_FIGURES.md) warns
 against. No plate shows protein, metabolite or disease data, because none is
 deposited — that is [Wp-P04](branches/P04_endpoint_class_dependence.md)'s
 permanent block, and substituting an RNA panel for it is the specific error that

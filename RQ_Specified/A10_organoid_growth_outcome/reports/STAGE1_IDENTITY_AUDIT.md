@@ -6,7 +6,7 @@ information is absent from every deposited sample or supplementary source.
 The original audit below overstates what one metadata probe can exclude;
 the unit remains unresolved. Later count-sheet and transcript checks are in
 [stage 3](STAGE3_FIT_REPORT.md), with their limits in the
-[logical review](../../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections).
+[logical review](../../../docs/history/reviews/LOGICAL_RATIONALE_REVIEW.md#a10-corrections).
 
 ## Original audit, 25 September 2026
 

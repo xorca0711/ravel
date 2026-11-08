@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 Epithelial CD177 protein may identify a priming phenotype within comparable mutant transitional cells that differs in a later response. It is a candidate marker, not a proposed causal fate regulator. Source/protein attribution and one specific later response still need qualification; the corrected RNA comparison attenuated after improved starting-state matching.
 
-**What is already known, and what remains:** State markers and mutant epithelial heterogeneity are precedents. A prospective, source-validated marker contribution is possible, but the missing response prevents a complete novelty judgment. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a16).
+**What is already known, and what remains:** State markers and mutant epithelial heterogeneity are precedents. A prospective, source-validated marker contribution is possible, but the missing response prevents a complete novelty judgment. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a16).
 
 **What the measurements would decide:** Confirmed epithelial protein followed by a later response difference within comparable baseline states supports marker utility. Disappearance after source or state control favors contamination or mixture. Endpoint RNA differences alone do not show priming, and CD177 perturbation would ask a different causal question.
 
@@ -67,7 +67,7 @@ Epithelial CD177 protein may identify a priming phenotype within comparable muta
 **Read in this order:** [current evidence](correction_20260928/reports/CORRECTED_C1_REPORT.md),
 [development dossier](../../docs/research_dossiers/A16.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A16.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

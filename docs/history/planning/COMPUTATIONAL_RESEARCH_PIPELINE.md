@@ -1,15 +1,19 @@
 # Computational pipeline for remaining research gaps
 
+> Historical record, archived 8 November 2026. Its dates, counts and proposed
+> next steps retain their original scope. Use the [current index](../../README.md)
+> for active sources and navigation.
+
 **Synchronized 28 September 2026.** A11 C0–C5 and its diagnostics are complete;
-the [current A11 report](../RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
+the [current A11 report](../../../RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
 governs interpretation after identity adjudication. A5 recovery (C6-audit-followups)
 and the three-candidate A12 audit (C9) are now complete with data gates. C7/C8
 and C10 remain blocked; no independent validation score has run. C11 status
-synchronization is complete. The [queue](research_pipeline/queue.json) records
-these states and the [global gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+synchronization is complete. The [queue](../../research_pipeline/queue.json) records
+these states and the [global gap-fill ledger](../../roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 covers the additional A15–A18 work. No scientific job is running.
 
-The [handoff](handoffs/2026-09-27-computational-research.md) holds exact paths, sources and prior decisions. The [queue](research_pipeline/queue.json) records execution state. The purpose is to distinguish reused injury programmes from lesion-associated expression, identify reproducible source/recipient associations, and expose which fate or mechanism claims still need additional measurements. Each task produces a reviewable checkpoint; completion of retrieval is never completion of analysis.
+The [handoff](../../handoffs/2026-09-27-computational-research.md) holds exact paths, sources and prior decisions. The [queue](../../research_pipeline/queue.json) records execution state. The purpose is to distinguish reused injury programmes from lesion-associated expression, identify reproducible source/recipient associations, and expose which fate or mechanism claims still need additional measurements. Each task produces a reviewable checkpoint; completion of retrieval is never completion of analysis.
 
 ## Task contracts and decision gates
 

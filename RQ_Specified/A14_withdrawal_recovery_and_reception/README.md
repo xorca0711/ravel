@@ -52,7 +52,7 @@ The records below preserve earlier framing and execution checkpoints. Read the c
 
 H1: longer IL-1-beta exposure reduces subsequent lineage-derived mature AT1 recovery after input cessation, with comparable recovery intervals and culture age. H2, assessed separately: fibroblast IL-1 reception modifies that mature-output recovery beyond direct epithelial reception. H2 has no justified direction yet. The proposed increment concerns post-cessation maturation, not the already published effects of withdrawal or fibroblast pre-exposure on organoid formation.
 
-**What is already known, and what remains:** Choi establishes withdrawal recovery; Ciminieri already tests fibroblast IL-1 pre-exposure and organoid growth. The candidate increment is linked mature AT1 recovery after verified cessation with compartment attribution, not generic history or niche involvement. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a14).
+**What is already known, and what remains:** Choi establishes withdrawal recovery; Ciminieri already tests fibroblast IL-1 pre-exposure and organoid growth. The candidate increment is linked mature AT1 recovery after verified cessation with compartment attribution, not generic history or niche involvement. [Primary-source comparison](../../docs/history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a14).
 
 **What the measurements would decide:** Lower absolute mature output after the longer history, despite verified cessation, favors H1; comparable recovery weakens it. A separate fibroblast-reception contrast at comparable epithelial input addresses H2. Record lineage yield, survival and mature function; organoid number or a falling transitional score cannot distinguish recovery, death and replacement.
 
@@ -68,7 +68,7 @@ H1: longer IL-1-beta exposure reduces subsequent lineage-derived mature AT1 reco
 [development dossier](../../docs/research_dossiers/A14.md),
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A14.md).
 Source-mapping closeout: [M10 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
-[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[Deferred work](../../docs/history/planning/REMAINING_WORK.md) and
 [execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
 analysis. Draft completion does not establish assay validity, resource access,
 meaningful effects, precision or scientific acceptance. Existing numerical

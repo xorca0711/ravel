@@ -204,7 +204,7 @@ cannot be trusted on its passed ones.
   overturned it: AT0 flagged at **3.9% vs a 6.3% baseline**, and the cells the
   crude gate "lost" carry 1.8× the UMIs of their neighbours; they were
   doublets. Lesson recorded: a co-expression gate cannot audit a co-expression
-  detector. [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/DOUBLETS_AND_SCRUBLET.md)
+  detector. [`docs/DOUBLETS_AND_SCRUBLET.md`](docs/methods/background/DOUBLETS_AND_SCRUBLET.md)
 - **Doublet thresholds are a ranking cut here, not a detection.** Scrublet's
   automatic threshold was acceptable in only 1 of 33 mouse samples; elsewhere
   the expected-rate quantile was substituted, and every substitution is logged

@@ -8,7 +8,7 @@ biology is in [RATIONALE.md](RATIONALE.md), the machine-readable decisions in
 argument in [reports/REGISTER_DECISION.md](reports/REGISTER_DECISION.md), and the question
 in the [A15 card](../../RESEARCH_QUESTIONS.md#a15).
 
-This plan inherits the prohibitions that the [dataset gate](../../docs/NEXT_DATASET_GATE.md)
+This plan inherits the prohibitions that the [dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md)
 and [A10 stage 1](../A10_organoid_growth_outcome/reports/STAGE1_IDENTITY_AUDIT.md) placed
 on GSE307112, and the measurement contracts
 [MC1](../../docs/RQ_MEASUREMENT_CONTRACTS.md#mc1) and
