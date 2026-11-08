@@ -1,0 +1,11 @@
+{
+  "conditions": ["Young", "Control", "WT5", "Mut5", "WT1", "Mut1"],
+  "excluded_expression_aliases": ["WT50", "Mut50"],
+  "original_broad_annotations": true,
+  "normalization": "RNA LogNormalize, scale 10000",
+  "no_reclustering": true,
+  "no_downsampling": true,
+  "no_population_inference": true,
+  "R_loaded_once": true,
+  "unneeded_assays_released_before_summaries": true
+}
