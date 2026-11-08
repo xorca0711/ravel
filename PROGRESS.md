@@ -3,6 +3,17 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Saxton PR opened - 8 November 2026
+
+[PR #169](https://github.com/xorca0711/ravel/pull/169) is open for review against
+`main` (`4318740`), with the completed Saxton analyses, extension plans/results
+and literature-attribution rule. GitHub identity was verified as `xorca0711`.
+The scoped branch is published; the validation below is reused because its
+scientific files and integration base are unchanged. The PR body identifies
+the remaining scientific and policy review, missing interaction datasets and
+full-text access limits. Remote checks are pending; no merge was requested.
+Unrelated original-checkout work and historical byte-preservation paths remain.
+
 ## Saxton extension plans and executed stages - 8 November 2026
 
 [Execution overview](docs/research_reviews/2026-11-08-saxton-reading/EXTENSION_EXECUTION.md)
