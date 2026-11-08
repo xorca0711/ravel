@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.osmr_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does attenuated selected IFN RNA under B3 coexist with an acute Osmr RNA change in the same six deposited colon libraries?",
+  "decision": "Narrow whether a later epithelial protein and OSM response comparison is motivated; no functional conclusion.",
+  "strongest_rival": "Broad response attenuation, outcome-selected panels, individual-library variation, bulk composition and unmeasured batches can mimic a selective transcriptional program.",
+  "discriminator": "Fixed Osmr B3-WT and each versus PBS, three existing scales and six single-library omissions; composition and function remain unresolved.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/osmr_v1/METHODS.md",
+    "Research Article/gate3_08_saxton_2021_il22/FOLLOWUP_ASSESSMENT_20261108.md",
+    "docs/research_reviews/2026-11-08-saxton-reading/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Both papers and existing genome-wide source outputs were previously exposed. Before this freeze only the Osmr annotation and existing eligibility flag were inspected, not target outcome contrasts. This remains exposed shared-source description.",
+  "biological_unit": "Deposited RNA library; paper reports two independent biological samples per group, but animal/preparation identity and allocation keys remain unverified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Gene rows nest in the same six whole-colon libraries. Fixed sets overlap. Both vehicle-relative axes reuse PBS; omission views and normalization scales reuse the same observations. No gene-based biological replication.",
+  "population_and_selection": "Exactly one uniquely mapped target Osmr ENSMUSG00000022146; all six libraries; unchanged CPM>=1 in at least two rule.",
+  "contrast": "WT-PBS, published 22-B3-PBS and direct 22-B3-WT, each as difference of group means of per-library log2(expression+1); these are not fitted population log-fold changes.",
+  "endpoint": "Osmr per-library abundance and difference of mean log2(expression+1), with observed omission extrema.",
+  "methods": "See osmr_v1/METHODS.md. Reuse immutable primary CPM and per-view TMM denominators; deposited FPKM; exactly 21 scale/view cases, three contrasts, all six library values.",
+  "missingness_and_exclusions": "No target replacement, extra receptor, library exclusion, row collapse or altered expression threshold.",
+  "multiplicity": "One fixed target, three contrasts, three scales, seven views. No p-values, FDR, confidence intervals or equivalence claims.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-library exposed description only. Two source libraries per group do not establish verified population units; six omission ranges describe observed sensitivity, not sampling uncertainty.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Osmr RNA is not OSM responsiveness, receptor protein, epithelial localization, protection, chronic risk or independent replication.",
+  "stop_rule": "Stop affected endpoint on hash/schema mismatch, absent/ambiguous target, invalid expression or changed eligibility. No substitution; preserve failures and old artifacts.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/gene_inventory.csv",
+      "sha256": "d8cfdede7b8229b90127c2c86e2c5ed75849b249d06b264515e7021caca9170a",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/counts_for_tmm.csv",
+      "sha256": "533d366d92da5567a5d09d30a8031956f0f24a3c0b7b3f105eea172cd4abb81a",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/primary_gene_expression.csv",
+      "sha256": "dc44f45444bbd175f1e2b9ef90ed3e26552248b0914db54e16f5c808e532f086",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/normalization_factors.csv",
+      "sha256": "319402a6ba6d12a70b00eb137026014a6bb20083555f89bea5d53f9c2ece0426",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/osmr_v1/METHODS.md",
+      "sha256": "5cfbc1ca058e96c4c9f49891a069b6a4e3aba31388f75ee6c3fbabec45c3a311",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/osmr_v1/describe_v1.py",
+      "sha256": "d7dc677b744c67f8e03133badd891bedb9a27c1c0a9599c87e0fe23002cbd0f3"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/osmr_v1/verify_v1.py",
+      "sha256": "ee9aafe4076d8090360d05afc4337c2041b089cc05acea546375205d0de60d39"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/osmr_v1/describe_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "mapping.csv",
+    "library_values.csv",
+    "contrasts.csv",
+    "ranges.csv",
+    "osmr.png",
+    "osmr.pdf",
+    "summary.json"
+  ],
+  "amendment_of": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v2.json",
+  "amendment_reason": "New literature-motivated fixed Osmr endpoint, not replacement of prior panels or repeated generic scoring. Existing outputs and eligibility are reused unchanged."
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.coinput_qualification_v1",
+  "owner": "Sx10-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the documented source identities, treatment arms, units and endpoint formats support the coinput extension specified in the owning plan?",
+  "decision": "Qualify finite source description for Gorby, or identify whether the exact proposed interaction comparison has a usable public source.",
+  "strongest_rival": "Keyword matches, inconsistent replicate labels, duplicated control columns or shared source reuse can falsely imply a matched biological comparison.",
+  "discriminator": "Exact workbook/GEO joins and source-format checks for Gorby; retained query results and source-specific design dispositions for interaction screens. No gene effects.",
+  "evidence_refs": [
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/PLAN.md",
+    "docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md",
+    "docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Saxton/Gorby published results, Saxton source results, worksheet header/dimensions and public metadata were inspected before freeze. Gorby target abundance contrasts have not been inspected; this remains exposed source qualification.",
+  "biological_unit": "Public sample metadata and matrix records; author-reported donors and source blocks are distinguished from independently verified identities.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Queries overlap and SuperSeries/subseries are not independent. Repeated worksheet control columns are copies, not new samples. Cross-study donor overlap is unresolved.",
+  "population_and_selection": "Exactly the recorded queries and their complete returned records, or the full deposited CD8 workbook and its 21 source columns; no outcome selection.",
+  "contrast": "Source eligibility against the prewritten extension tuple; not a biological treatment-effect contrast.",
+  "endpoint": "Sample/column identity, matrix schema, target mapping and interpretation limits, or source-by-source eligibility and missing design factors.",
+  "methods": "Read saved hashed GEO SOFT/JSON and openpyxl workbook. Validate all repeated normalized control values without computing gene effects. Screen decisions are explicit reviewed metadata annotations.",
+  "missingness_and_exclusions": "All hits retained. Unknown units and missing arms remain explicit; stop on truncated searches or unreviewed records. No target replacement or invented arm.",
+  "multiplicity": "No statistical tests; metadata qualification only.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Source intake estimates no population quantity or uncertainty; donor/endpoint qualification is the deliverable.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Metadata eligibility is not biological acceptance, statistical independence, signaling, secretion or interaction evidence.",
+  "stop_rule": "Stop on schema/hash mismatch or missing query records; report absent/ambiguous targets and invalid source values rather than repairing silently.",
+  "inputs": [
+    {
+      "path": "raw_data/Saxton_extensions_20261108/il10_il18_esearch.json",
+      "sha256": "c191eed7b034dc0138701915466c2b8d6bdcd9dd62d647ad2c7945eed4677204",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/il10_variants_esearch.json",
+      "sha256": "4ba85384df5348ada1c60357dfce4d3d1376216bf9ee90d1cf3a895ebe1b6d57",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/candidate_summaries_v1.json",
+      "sha256": "6cb7b9cde503482f1d14b101effbaeebeebffd251261b6a63de9bee2284e67cb",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE248984_family.soft.gz",
+      "sha256": "a4b2928a91b34da993396d045b135f64b47fa6cafbcddf36af114b3135221b82",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE162791_family.soft.gz",
+      "sha256": "a342b550e740fe149491fca0721027b752c7a2d11594ef4644dfaac4d51f23f2",
+      "study_id": "bounded_GEO_source_search_20261108",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+      "sha256": "26d8217047d731de4dd3d04c5688732d75a2b5281d982cefe2d765b56272b0b0"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/screen_dispositions_v1.json",
+      "sha256": "c73792063061ddc401efbaaa6e22815810143eac428ab16a8fe344a5476b170c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+  "arguments": [
+    "--mode",
+    "coinput",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_candidates.csv",
+    "screen.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective metadata stage authorized after literature-grounded extension planning; all prior frozen analyses retained."
+}

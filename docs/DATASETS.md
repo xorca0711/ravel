@@ -1,6 +1,6 @@
 # Public source register
 
-**Consolidated 8 November 2026 from main `4318740`.** This is the single
+**Consolidated 8 November 2026 against main `1d7c814` (including merged Saxton PR #169).** This is the single
 repository-wide list of public sources used, screened, rejected for a particular
 comparison, held pending qualification, or cited as leads. Update this page when
 source use or disposition changes. Article/RQ reports remain the evidence for
@@ -83,6 +83,14 @@ derived author assets. They should not all be called independent scRNA cohorts.
 | [GSE267226](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267226) / [GSE267228](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267228) | Nine human/mouse post-viral spatial matrices processed for context | 3 human disease/2 controls; mouse arms 2/2. The deposited mouse perturbation is anti-CD8, not an IL-1 intervention | [Source-design inventory](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/DATASETS.md); [completed packages](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/WORK_PACKAGES.md) |
 | [Zenodo 14673088, v1.1](https://doi.org/10.5281/zenodo.14673088) | England MATLAB source, nested clone measurements and pooled spatial arrays | Nonspatial data retain 44 source-indexed mice; A17 primary uses 11. Spatial pair rows lack mouse/clone identifiers | [Raw-source reconciliation](roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md); [England overview](../Research%20Article/gate2_C2_england_2025/README.md) |
 | Published source workbooks and frozen gene lists | A1 PATS/HPCS/AP-1/iATC outcome reconstructions; Guo developmental lists used in A5 | Microscopy/culture units and published lists are distinct from sequencing cohorts; list reuse does not add independent observations | [A1 source map](../RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ANALYSIS_REFERENCE_MAP.md); [A5 instrument](../RQ_Specified/A5_developmental_programme_reuse/PLAN.md) |
+
+### Saxton source uses merged on 8 November
+
+| Source / product | Recorded use | Unit, qualification and evidence |
+|---|---|---|
+| GSE160332 / PRJNA672965 | Sx10 activated human CD8 RNA qualification and finite-library descriptions | Eight libraries with explicit arm joins and aligned counts/FPKM; donor/preparation identities remain unknown. [Source qualification](../Research%20Article/ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md), [current results](../Research%20Article/ungated_saxton_2021_il10/RESULTS.md). The modeling preprint reuses this source; it is not independent validation. |
+| GSE160217, reused colon libraries | Sx22 acute Osmr RNA extension | Six existing PBS/WT/B3 colon libraries; no IFN-priming arm or independent replication. [Extension result](../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md). |
+| GSE146438 / Gorby deposited comparison workbooks | Sx10 description of 36 fixed target records across twelve author comparison tables | Reported estimates only; common-expression-matrix qualification failed and remains held. Source codes D85/D93/D36 lack an independently recovered donor crosswalk. No population inference or certification of upstream normalization. [Current result and amendment](../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md). |
 
 ### Additional source families
 
@@ -457,7 +465,7 @@ Prior use and exposure remain explicit. S09/S10 have no qualified source identif
 | GSE328925 / A3 | Publication/deposit access discrepancy remains a recorded source hold; no public-data numerical reproduction claimed. | [evidence](research_reviews/2026-11-03-primary-candidate-literature/SOURCE_READS_AND_HOLDS.md) |
 | GSE232628, GSE263817 / Niethamer V1 | Planned human myeloid transport qualification; source-defined donor/state mapping required. No V1 execution inferred. | [evidence](../Research%20Article/gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) |
 | GSE292440, GSE277256, GSE277226, GSE300399 / Niethamer D1 | External lung-Treg leads; D1 remains unrun/gated. Recorded refresh timeouts do not prove public data absence. | [evidence](../Research%20Article/gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) |
-| GSE160332 / Saxton IL-10; GSE287581 / Treg ablation | Reading/source leads awaiting comparison-specific cell, condition and unit qualification; not numerical runs in this register. | [evidence](portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md) |
+| GSE287581 / Treg ablation | Reading/source lead awaiting comparison-specific cell, condition and unit qualification; no numerical run in this register. | [evidence](portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md) |
 | GSE335257 / HSC training; BioProject 984020 / CD8 nutrient–chromatin study | Unqualified cross-context leads; assay/sample mapping and primary methods remain required. | [evidence](portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md) |
 | GSE227136, GSE264151, GSE264162, GSE341505 / A21 | Published endothelial-context leads; not a new joined adult-lung Fzd4 functional dataset or numerical reuse. | [evidence](research_reviews/2026-11-03-full-priority-screening/A21_SOURCE_REFRESH.md) |
 | GSE290806 / A25 | Cerebellar microglial literature/source lead; not an additional normal-aging replication. | [evidence](portfolio_extensions/2026-10-07/g3_immune/A25_CONTEXT.md) |
@@ -475,6 +483,42 @@ The tables below centralize previously scattered screening records. Decisions
 remain attached to the named screen and its date. A search result or a title-level
 rule failure is not a full matrix inspection. A later use elsewhere in this page
 does not erase the earlier screen or make the two comparisons equivalent.
+
+### Saxton interaction-source screens, 8 November
+
+Both requested interaction contrasts remain held. The GSE146438 common-matrix
+route failed qualification because repeated controls disagreed and abundance
+cells were invalid/non-numeric; the narrower reported-estimate use above is a
+separate amended endpoint. The following candidates did not qualify for the
+specified interactions. Inspection depth is retained in each recorded reason.
+
+**Sx10 engineered IL10 × IL18** — [current result](../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md); [frozen source screen](../analysis/research/runs/sx10_coinput_qualification_v2/source_candidates.csv).
+
+| Source | Recorded comparison-specific disposition |
+|---|---|
+| GSE248984 | Not qualified: mouse infection/genetic-background CD11c-enriched comparison; no engineered IL-10 by IL-18 intervention in full SOFT. |
+| GSE162791 | Not qualified: pancreatic primary/metastatic tumor comparison; IL10 and IL18 biological context is not a controlled engineered-ligand co-input experiment. |
+
+**Sx22 epithelial B3/WT × IFN priming** — [current result](../Research%20Article/gate3_08_saxton_2021_il22/priming_extension_20261108/RESULTS.md); [frozen source screen](../analysis/research/runs/sx22_priming_qualification_v2/source_candidates.csv).
+
+| Source | Recorded comparison-specific disposition |
+|---|---|
+| GSE232204 | Not qualified from inspected summary/sample titles: Delayed engagement of host defenses enables SARS-CoV-2 viremia and productive infection of distal organs; no documented epithelial B3-by-IFN priming comparison. |
+| GSE307670 | SuperSeries for the stromal study; not an independent cohort of its RNA/ATAC subseries. No qualified epithelial B3-by-priming design. |
+| GSE307635 | Ccd18-Co fibroblast cytokine panels; single IFNA and IL22 labels do not form B3-by-priming arms. RNA and ATAC are distinct assays; full RNA SOFT verifies fibroblast identity. |
+| GSE307526 | Ccd18-Co fibroblast cytokine panels; single IFNA and IL22 labels do not form B3-by-priming arms. RNA and ATAC are distinct assays; full RNA SOFT verifies fibroblast identity. |
+| GSE277730 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cell in lupus [Time_coure_RNAseq]; no documented epithelial B3-by-IFN priming comparison. |
+| GSE252917 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [JUN IFN]; no documented epithelial B3-by-IFN priming comparison. |
+| GSE233050 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus; no documented epithelial B3-by-IFN priming comparison. |
+| GSE233048 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [JUN OE]; no documented epithelial B3-by-IFN priming comparison. |
+| GSE233047 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [JUN AHR modulation]; no documented epithelial B3-by-IFN priming comparison. |
+| GSE233045 | Not qualified from inspected summary/sample titles: Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [AHR]; no documented epithelial B3-by-IFN priming comparison. |
+| GSE214633 | Full SOFT: mouse PBMC cytokine atlas with pooling/hashtag libraries; IL18_IL22 library labels are not the requested epithelial B3-by-IFN design. |
+| GSE161938 | Not qualified from inspected summary/sample titles: Clonotypic analysis of protective influenza M2e-specific lung resident T helper memory cells reveals extensive functional plasticity; no documented epithelial B3-by-IFN priming comparison. |
+| GSE89610 | Full SOFT: Huh7.5 individual-cytokine/time comparisons; no B3 or documented IFNA-then-IL22 factorial challenge. Shared generic IL27 protocol text also limits exact arm interpretation. |
+| GSE65231 | Not qualified from inspected summary/sample titles: Genome wide host gene expression analysis in chicken lungs infected with avian influenza viruses; no documented epithelial B3-by-IFN priming comparison. |
+| GSE31652 | Not qualified from inspected summary/sample titles: IL-17A is an essential cytokine to sustain pathogenic cell activation and inflammatory gene circuits in psoriasis vulgaris; no documented epithelial B3-by-IFN priming comparison. |
+| GSE160217 | Existing Saxton source: PBS/WT/B3 acute colon RNA, but no IFN-priming arm. Same source, not new replication. |
 
 ### Wp E5 nutrient-contrast screen
 
@@ -770,6 +814,8 @@ objects; the source release and layer must travel with any reuse.
 ### Remaining accession locators
 
 Every identifier in the preserved 544-identifier census appears in this page.
+The merged Saxton sources and screens add 19 identifiers, for 563 source/project
+identifiers represented here; these remain distinct from utilized-dataset counts.
 The remaining rows below record aliases, metadata relations and search/literature
 locators that lack a separate executed-use disposition in the reviewed summaries.
 Their linked records show the actual mention; explicit metadata decisions are

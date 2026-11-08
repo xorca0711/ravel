@@ -1,5 +1,16 @@
 # Saxton: connections to existing questions and biological extensions
 
+**Post-result update, 8 November:** [current development dossier](../../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
+and [literature attribution](../../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
+supersede the proposed Osmr execution status below. The completed result weakens
+retained acute induction; it does not establish OSM responsiveness. The existing
+canonical RQ connections remain conceptual and their hypotheses are unchanged.
+
+**8 November planning update:** [additional-work assessment](../FOLLOWUP_ASSESSMENT_20261108.md)
+narrows a possible next source comparison to Osmr transcript response, with
+current completed-work status and a literature-linked qualitative diagram.
+Existing canonical questions and the held functional comparisons remain unchanged.
+
 1 November 2026. Owner-requested synthesis after the [reviewed RNA results](RESULTS.md).
 These are conditional question connections, not adopted canonical amendments,
 qualified numerical jobs, new mechanisms or a portfolio ranking. The current

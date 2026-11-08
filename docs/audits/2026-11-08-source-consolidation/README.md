@@ -1,7 +1,9 @@
 # Source-register consolidation and documentation organization
 
-8 November 2026. Integration base: `4318740dd98f9649c1c287a3eb758fd12772f47a`,
-the merged PR #168, including A33–A35. This is an editorial consolidation and
+8 November 2026. Initial base: `4318740dd98f9649c1c287a3eb758fd12772f47a`, merged PR #168.
+Current integration base: `1d7c814e86cf9c3c1fc70b35ee78f455420adf59`, after
+PR #169 merged during this work. Its Saxton sources/screens are incorporated;
+the main registry has 36 RQs, 39 article-local candidates and 20 paper packages. This is an editorial consolidation and
 path reorganization authorized by the owner; it performs no biological analysis,
 scientific acceptance decision, new public-availability search or local-cache scan.
 
@@ -15,7 +17,9 @@ registers remain supporting evidence for their source versions and comparisons.
 
 Coverage includes all 544 identifiers from the preceding bounded census, the
 114-row Wp screen (64 recorded rule failures, 50 requiring record inspection),
-102 register-search question/source rows and 16 G0 feasibility records. These are
+102 register-search question/source rows and 16 G0 feasibility records. Merged Saxton work adds 19 identifiers and
+18 comparison-specific interaction-screen rows: 563 source/project identifiers
+are represented in the master list. These are
 not counts of utilized or independent datasets. Used, inspected, rejected for a
 specific comparison, pending, search-only and alias roles remain distinct. The
 master list also identifies non-GEO author products and resources; sample/file
@@ -39,7 +43,7 @@ hashes and compatibility consumers. Full documents now live under:
 - `docs/methods/tools/`, `background/` and `workflows/`: reference/teaching material.
 
 The previous documentation index is retained in the review-history folder.
-Current indexes identify 36 RQs, 38 article-local candidates and 19 paper packages.
+Current indexes identify 36 RQs, 39 article-local candidates and 20 paper packages.
 Twelve old paths retain small compatibility locators for recorded machine or
 frozen-document consumers. Their original section anchors are retained.
 

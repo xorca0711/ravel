@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx10.gorby_qualification_v1",
+  "owner": "Sx10-P01",
+  "contract": "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/gorby_qualification_v1.json",
+  "contract_sha256": "27faae460b6fe9b1244ba2778e6f5ec899a4023402451c4a528a9338d26c6961",
+  "git_commit": "b886c7ca97da96367e3554b2146a175cb4a79291",
+  "started_at": "2026-11-08T03:40:23.024653+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+    "--mode",
+    "gorby",
+    "--output",
+    "analysis/research/runs/sx10_gorby_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE146438_family.soft.gz",
+      "sha256": "43c69404a7d1ea4d1da60f7d8bb8d31dcd44f4bc14ac6ffe2ed805e98f96c802",
+      "study_id": "GSE146438",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Saxton_extensions_20261108/GSE146438_CD8_Normalised_Data.xlsx",
+      "sha256": "dcc2471f791473606700a4c612b6157f2f9742e46eeffd5d7417f8f6910cd767",
+      "study_id": "GSE146438",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/qualify_v1.py",
+      "sha256": "26d8217047d731de4dd3d04c5688732d75a2b5281d982cefe2d765b56272b0b0"
+    },
+    {
+      "path": "Research Article/ungated_saxton_2021_il10/extensions_20261108/screen_dispositions_v1.json",
+      "sha256": "c73792063061ddc401efbaaa6e22815810143eac428ab16a8fe344a5476b170c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx10_gorby_qualification_v1/samples.csv",
+      "sha256": "4f41857937e9bb92eeb2544183a4f85254ecb559bfdd0770ca5466eb852039ba"
+    },
+    {
+      "path": "analysis/research/runs/sx10_gorby_qualification_v1/target_mapping.csv",
+      "sha256": "a6fd405a18e8a975dc2b2f47b39946eec4e04fd17e586bfa4da44c01327a931a"
+    },
+    {
+      "path": "analysis/research/runs/sx10_gorby_qualification_v1/qualification.json",
+      "sha256": "ebc9d641b99fc130ef972082a67631253c2f3cc0fc52e107d4310dbff229cc17"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T03:40:55.766163+00:00"
+}

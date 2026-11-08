@@ -327,10 +327,12 @@
       "pmid": "33737461",
       "role": "can a cytokine programme be resolved into beneficial anti-inflammatory and unwanted stimulatory components",
       "extract": [],
-      "datasets": [],
-      "folder": null,
-      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
-      "trial_status": "not started"
+      "datasets": [
+        "GSE160332"
+      ],
+      "folder": "ungated_saxton_2021_il10",
+      "note_status": "Main Results, Figures 3-5 and relevant RNA methods read 2026-11-08; S9 source access held.",
+      "trial_status": "Owner-authorized finite-library RNA description and sensitivity completed 2026-11-08. Donor inference and exact replay held; see article results/ledger. Retained ungated_ path label is an intake exception; existing paper7/Gate3A membership unchanged."
     },
     {
       "order": 8,
@@ -347,8 +349,8 @@
       "extract": [],
       "datasets": [],
       "folder": "gate3_08_saxton_2021_il22",
-      "note_status": "abstract/introduction/discussion read; results reading not certified complete; reviewed 2026-10-31",
-      "trial_status": "R1 metadata/QC executed and independently reviewed 2026-10-31; bounded source/documentation recovery complete and integrated locally; original biological sequence incomplete with explicit platform-policy and data/design holds; see Sx22 completion ledger; Niethamer/S1 remains separate"
+      "note_status": "Figures3-7 and RNA methods reviewed in 2026-11-08 reading assessment; prior source corrections retained.",
+      "trial_status": "Prior source/QC and gene-program descriptions retained. Fixed Osmr extension completed 2026-11-08; unit, exact-replay and functional holds remain endpoint-specific; Niethamer/S1 separate."
     },
     {
       "order": 9,

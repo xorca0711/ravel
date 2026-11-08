@@ -1,0 +1,28 @@
+{
+  "target": "ENSMUSG00000022146",
+  "eligible": true,
+  "primary": [
+    {
+      "scale": "CPM",
+      "contrast": "WT-PBS",
+      "full": 0.19999589343035273,
+      "omission_min": 0.06323951450839216,
+      "omission_max": 0.3367522723523133
+    },
+    {
+      "scale": "CPM",
+      "contrast": "B3-PBS",
+      "full": -0.18265910165402133,
+      "omission_min": -0.38860485285830393,
+      "omission_max": 0.023286649550261718
+    },
+    {
+      "scale": "CPM",
+      "contrast": "B3-WT",
+      "full": -0.38265499508437406,
+      "omission_min": -0.5886007462886567,
+      "omission_max": -0.17670924388009102
+    }
+  ],
+  "limits": "No animal-level inference, epithelial localization, OSM responsiveness, protection or chronic-risk measurement."
+}

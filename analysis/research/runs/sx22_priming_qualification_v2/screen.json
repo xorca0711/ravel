@@ -1,0 +1,44 @@
+{
+  "route": "priming",
+  "queries": [
+    {
+      "file": "il22_priming_esearch.json",
+      "count": 15,
+      "query": "(IL22[All Fields] OR \"IL-22\"[All Fields]) AND (\"interferon alpha\"[All Fields] OR IFNA[All Fields] OR priming[All Fields]) AND gse[ETYP]",
+      "accessions": [
+        "GSE232204",
+        "GSE307670",
+        "GSE307635",
+        "GSE307526",
+        "GSE277730",
+        "GSE252917",
+        "GSE233050",
+        "GSE233048",
+        "GSE233047",
+        "GSE233045",
+        "GSE214633",
+        "GSE161938",
+        "GSE89610",
+        "GSE65231",
+        "GSE31652"
+      ],
+      "warnings": {},
+      "errors": {}
+    },
+    {
+      "file": "il22_b3_esearch.json",
+      "count": 1,
+      "query": "(\"22-B3\"[All Fields] OR \"22 B3\"[All Fields]) AND gse[ETYP]",
+      "accessions": [
+        "GSE160217"
+      ],
+      "warnings": {},
+      "errors": {}
+    }
+  ],
+  "retained_candidates": 16,
+  "qualified_exact_interaction_sources": [],
+  "numerical_interaction": "held",
+  "missing": "WT versus B3 crossed with IFN priming in a defined epithelial population, with unit and endpoint records.",
+  "scope": "bounded public-source screen, not proof of universal absence or novelty"
+}

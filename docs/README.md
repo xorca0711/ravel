@@ -1,7 +1,7 @@
 # Documentation index
 
 **Updated 8 November 2026.** The current registry contains 36 canonical questions,
-38 retained article-local candidates and 19 paper packages. Current owner reports
+39 retained article-local candidates and 20 paper packages. Current owner reports
 supply findings and next comparisons; dated reviews retain their original scope.
 
 ## Current entry points

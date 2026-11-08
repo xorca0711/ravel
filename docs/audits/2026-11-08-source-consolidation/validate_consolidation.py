@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 AUDIT='docs/audits/2026-11-08-source-consolidation'
-BASE='4318740dd98f9649c1c287a3eb758fd12772f47a'
+BASE='1d7c814e86cf9c3c1fc70b35ee78f455420adf59'
 ACCESSION=re.compile(r'(?<![A-Za-z0-9])(?:GSE\d{4,}|E-MTAB-\d+|PRJ(?:NA|EB|DB)\d+)(?![A-Za-z0-9])')
 INLINE=re.compile(r'!?\[[^\]]*\]\((<[^>\n]+>|[^)\n]+)\)')
 REF=re.compile(r'(?m)^\s*\[[^\]]+\]:\s*(\S+)')
@@ -104,7 +104,7 @@ def main():
     for r in census:check(r['accession'] in ACCESSION.findall(master),'Missing source '+r['accession'])
     for source in ['docs/DATASETS.md','docs/DATASET_UPDATES_2026-11-07.md']:
         for a in set(ACCESSION.findall(baseline_texts[source])):check(a in master,'Lost original source '+a)
-    for source,delimiter in [('analysis/research/runs/wp_e5_external_screen_v1/candidates.csv',','),('docs/audits/2026-09-27-register-gate-audit/candidates.tsv','\t'),('Research Article/gate1_01_niethamer_2025/trials/g0_gsea_feasibility/g0_deposits.csv',',')]:
+    for source,delimiter in [('analysis/research/runs/sx10_coinput_qualification_v2/source_candidates.csv',','),('analysis/research/runs/sx22_priming_qualification_v2/source_candidates.csv',','),('analysis/research/runs/wp_e5_external_screen_v1/candidates.csv',','),('docs/audits/2026-09-27-register-gate-audit/candidates.tsv','\t'),('Research Article/gate1_01_niethamer_2025/trials/g0_gsea_feasibility/g0_deposits.csv',',')]:
         for r in csv.DictReader(Path(source).open(encoding='utf-8-sig'),delimiter=delimiter):
             check(r['accession'] in master,'Lost screen source '+r['accession'])
     check('DATASET_UPDATES_' not in texts['README.md'],'Root README must have one source-list route')

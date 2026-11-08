@@ -1,6 +1,6 @@
 # Repository structure and label scope
 
-**Current scope — 7 November 2026:** 36 canonical questions (A0–A35) and 38 retained article-local candidates. A32 develops Yd1-P02; A33–A35 develop Dp1-P01; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
+**Current scope — 8 November 2026:** 36 canonical questions (A0–A35) and 39 retained article-local candidates. A32 develops Yd1-P02; A33–A35 develop Dp1-P01; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
 
 Navigation and label scope reconciled 7 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
@@ -30,7 +30,7 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 36 questions; the registry locates their evidence and the 38 retained article-local candidates; their IDs do not automatically become canonical RQs.
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 36 questions; the registry locates their evidence and the 39 retained article-local candidates; their IDs do not automatically become canonical RQs.
 
 The question README is the reader's current scientific entrypoint: biological
 purpose, published premise, performed comparison, actual result, changed
@@ -42,9 +42,9 @@ than treated as a second current execution queue. The collection index offers
 biological-topic and contribution-based reading routes; neither replaces IDs or
 assigns scientific acceptance. Frozen source evidence stays with its owner.
 
-The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 19 paper
+The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 20 paper
 packages. The 38 directories under `RQ_Specified/` comprise those 36 homes plus
-two shared/historical workspaces (A5/A11 and Yadav); the 21 under `Research Article/` comprise 19
+two shared/historical workspaces (A5/A11 and Yadav); the 22 under `Research Article/` comprise 20
 paper packages, the cross-study specificity module and the Primary source archive.
 These supporting directories do not create extra RQs or papers. Topic changes
 update navigation rather than moving evidence into status or theme folders.
@@ -186,3 +186,8 @@ The A21 priorities extension is versioned under
 contracts, source provenance, tables, scripts, figures, results and functional
 design. Parent scientific evidence is preserved; revised parent navigation and
 contracts have pre-extension snapshots under the extension metadata/history.
+
+Saxton IL-10 remains roadmap paper 7 / Gate3A. Its new `ungated_saxton_2021_il10/`
+package is a retained technical-intake path-label exception, not an ungated roadmap
+reclassification. Sx10-P01 owns the authorized source description; all A0-A35 and
+prior article-local candidates retain their identities.
