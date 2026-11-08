@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.pooled_rna_description_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Within the qualified author aliases and original broad annotations, what mean RNA expression, raw-count detection and cell recovery describe WT/D25K-associated immune readouts?",
+  "decision": "Describe the observed microglial and T-cell measurement pattern, retaining attenuation, null and opposing marker directions, while distinguishing source holds from supportable finite-pool summaries.",
+  "strongest_rival": "Pool variation, cell recovery/state composition, unmapped dose/accession labels and downstream exclusion differences can explain apparent ligand contrasts; cells cannot estimate between-mouse variance.",
+  "discriminator": "Within each explicit WT5/Mut5 and WT1/Mut1 pair, compare mutant-minus-WT and each-minus-old-Control marker means and detection fractions; retain young-Control context, counts, absent markers and Gzmb-positive/all-T denominators. No causal mechanism or age interaction is identified.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "EXPOSED description. Paper, animal results, published marker lists and author code were already read. Metadata runs exposed all condition/type counts, eight aliases, normalized samples, QC and command parameters. No unexposed confirmation is claimed.",
+  "biological_unit": "One observed pool/library per reported condition; cells nested within pool. Extra WT50/Mut50 pool/source identity unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Old Control is one reported mouse, other reported main libraries pool two mice, no multiplexing. Both alias pairs reuse the same old Control; Young is reference only. No per-mouse labels or replicated intervention units.",
+  "population_and_selection": "Original broad Microglia and T_cells in Young, Control, WT5, Mut5, WT1 and Mut1. No reclustering, integration, downsampling, extra QC exclusions or subtype sensitivity. WT50/Mut50 recovered counts retained but expression contrasts held.",
+  "contrast": "Mut5-WT5, WT5-Control, Mut5-Control, Mut1-WT1, WT1-Control, Mut1-Control; Young-Control context. Aliases primary: main-pair 0.02 mg/mL is figure-linked, other numerical dose unverified.",
+  "endpoint": "Per marker: mean stored RNA LogNormalize(10000) expression, fraction raw counts > 0, recovered cells. Exact 28 IL10-related mixed-direction and 20 IFN-related vectors; Ifng/Gzmb all-T; Gzmb-positive conditional mean with all-T denominator.",
+  "methods": "Sparse RNA access; release unused assays after loading. R computes all summaries/contrasts, emits selected nonzero gene/cell entries with complete denominators. Independent Python math.fsum reconstructs every target entry from raw counts/library totals, checks every summary/contrast, and renders four measured SVGs. Zero counts remain denominators; absent genes remain NA. No hallmark score replacement.",
+  "missingness_and_exclusions": "No new cell exclusions. Broad microglia lack downstream Micro_types exclusions. Gene absence differs from zero expression. Empty groups/subsets retain zero counts and NA means/fractions. Socs3 versus Stat3 code/caption discrepancy retained, both shown individually.",
+  "multiplicity": "All prespecified marker vectors and seven contrasts reported. No inferential P values, confidence intervals, cell permutations, bootstraps or multiplicity-adjusted significance.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact observed finite-pool descriptions only; one pool cannot identify population uncertainty. Old-Control T-cell denominator is nine. Numerical tolerance 1e-10 verifies arithmetic, not scientific precision.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No population treatment effect, independent replication, age-by-treatment interaction, mediation, secretion, pathway flux, repair or beneficial-score inference. This is not exact recreation of downstream plots or missing hallmark score.",
+  "stop_rule": "Stop on input/hash or cell alignment failure, invalid sparse data, independent arithmetic disagreement, or resource limits. Preserve the failed receipt and freeze an amendment for any code/design correction; never drop unfavorable markers to pass.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+      "sha256": "b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/marker_manifest.json",
+      "sha256": "455e6006fa6300d5ecbb5b329256065d86dcbcf13d4e449e8e5a97725b5d3077",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/qualification.json",
+      "sha256": "82db865f0b24f38331b78614779cf60d5b03643639a7d734ec452826872a9bd6",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/alias_crosswalk.json",
+      "sha256": "2598dfc622571dbde908a370b2de1b1cf107cd40f89cbd347fa48d07de66bda9",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/independent_verification.json",
+      "sha256": "dc25421e756956a53dc6703f70823b67f70c100e5c92d94236de9f89e2dd22bd",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/description_pipeline_v1.py",
+      "sha256": "a1ea4cb19a5e7fd22aa94a27256f8d35dcc061ce7d9297b72a3c2f1cc198c89e"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/describe_rna_v1.R",
+      "sha256": "a0dea133213353b403ebbd72070b076bc617a9d309cd1959ddd6a3bf06ca60ba"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+      "sha256": "5aee79b6e16166b5824198a56f8b6bf4af7820aaf81cf219982f843d75bbbe80"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.config.json",
+      "sha256": "03d6514eb402a8c66bbb1c2627c237b8bc867d435d31a26013d813cc6b2e22b7"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/description_pipeline_v1.py",
+  "arguments": [
+    "--config",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.config.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_denominators.tsv",
+    "selected_entries.tsv.gz",
+    "summaries_R.tsv",
+    "marker_availability.tsv",
+    "contrasts_R.tsv",
+    "R_session.txt",
+    "description_scope.json",
+    "resource_usage.json",
+    "summaries.tsv",
+    "contrasts.tsv",
+    "independent_verification.json",
+    "scientific_holds.json",
+    "software_versions.json",
+    "microglia_markers.svg",
+    "microglia_contrasts.svg",
+    "T_cells.svg",
+    "recovery.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial frozen EXPOSED pooled RNA description after source/layer qualification; immutable published vectors and all supported alias-pair contrasts."
+}

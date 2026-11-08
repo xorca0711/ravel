@@ -1,0 +1,21 @@
+{
+  "normalization_entries_checked": 36810,
+  "max_absolute_error_python": 5.10702591327572e-15,
+  "tolerance": 1e-10,
+  "unique_cell_gene_pairs": 36810,
+  "recovery_total_checked": 51176,
+  "v2_review_numeric_and_inventory_files_byte_identical": true,
+  "warnings": {
+    "count": 192,
+    "message_counts": {
+      "row names were found from a short variable and have been discarded": 192
+    },
+    "assessment": "Named scalar library totals supplied an unused data.frame row name; R discarded only these implicit row names. Explicit cell/gene/condition columns are retained, keys unique, all independent arithmetic passes. No annotation or object validity warning occurred."
+  },
+  "qc_field_definitions": {
+    "nCount_matches": "maximum absolute difference, reconstructed counts sum minus metadata; zero is exact agreement",
+    "nFeature_matches": "maximum absolute difference, reconstructed positive features minus metadata; zero is exact agreement",
+    "thresholds": "counts of cells violating each published threshold; all zero"
+  },
+  "independent_biological_replication": false
+}

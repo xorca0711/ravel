@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    "Young",
+    "Control",
+    "WT5",
+    "Mut5",
+    "WT1",
+    "Mut1"
+  ],
+  "contrasts": [
+    {
+      "id": "Mut5-WT5",
+      "left": "Mut5",
+      "right": "WT5"
+    },
+    {
+      "id": "WT5-Control",
+      "left": "WT5",
+      "right": "Control"
+    },
+    {
+      "id": "Mut5-Control",
+      "left": "Mut5",
+      "right": "Control"
+    },
+    {
+      "id": "Mut1-WT1",
+      "left": "Mut1",
+      "right": "WT1"
+    },
+    {
+      "id": "WT1-Control",
+      "left": "WT1",
+      "right": "Control"
+    },
+    {
+      "id": "Mut1-Control",
+      "left": "Mut1",
+      "right": "Control"
+    },
+    {
+      "id": "Young-Control",
+      "left": "Young",
+      "right": "Control"
+    }
+  ],
+  "rds_path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+  "marker_manifest": "analysis/research/runs/nn26_qualification_review_v1/marker_manifest.json",
+  "recovery_table": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+  "scale_factor": 10000,
+  "arithmetic_tolerance": 1e-10,
+  "bounded_launcher": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+  "R_script": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/describe_rna_v1.R",
+  "scope": "Original broad Microglia and T_cells; Gzmb-positive T cells separately, all-T denominator retained. Extra WT50/Mut50 held from expression contrasts; shown in recovery only.",
+  "interpretation": "Alias pairs primary. WT5/Mut5 caption-associated 0.02 mg/mL; WT1/Mut1 numeric dose not verified. No combined score, P values, CIs or population claims."
+}

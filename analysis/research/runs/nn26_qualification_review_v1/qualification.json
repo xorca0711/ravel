@@ -1,0 +1,36 @@
+{
+  "qualified_for": "Finite-pool alias-pair description on RNA LogNormalize(10000), original broad annotations",
+  "eligible_aliases": [
+    "Young",
+    "Control",
+    "WT5",
+    "Mut5",
+    "WT1",
+    "Mut1"
+  ],
+  "held_aliases": [
+    "WT50",
+    "Mut50"
+  ],
+  "comparison_pairs": [
+    [
+      "WT5",
+      "Mut5"
+    ],
+    [
+      "WT1",
+      "Mut1"
+    ]
+  ],
+  "normalization_verified": true,
+  "marker_vectors_frozen_in_output": true,
+  "donor_assignment_established": false,
+  "reported_source_libraries": 6,
+  "observed_object_conditions": 8,
+  "broad_microglia_equal_author_downstream_plot_population": false,
+  "downstream_Micro_types_present": false,
+  "filename_discrepancy": "Deposited main file lacks _IL10 suffix used by downstream scripts; source and object are qualified for broad-annotation description, not proven identical to that downstream file.",
+  "numeric_dose_mapping": "Use alias pairs as primary identifiers; main pair is caption-associated with 0.02 mg/mL, other pair is not numerically verified.",
+  "optional_sources": "Not eligible for automatic acquisition: no concrete comparison requires them for this bounded description; they cannot repair pooled units or the unresolved extra aliases.",
+  "scientific_acceptance": "not_assessed"
+}
