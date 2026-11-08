@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\saxton-reading-assessment-20261108\Research Article\ungated_saxton_2021_il10\scripts\qualify_v1.py", line 62, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--output',required=True,type=Path);main(p.parse_args().output)
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\ravel\.worktrees\saxton-reading-assessment-20261108\Research Article\ungated_saxton_2021_il10\scripts\qualify_v1.py", line 41, in main
+    assert tables[0]==tables[1]
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError
