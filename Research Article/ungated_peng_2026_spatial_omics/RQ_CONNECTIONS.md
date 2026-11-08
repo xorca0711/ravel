@@ -1,5 +1,12 @@
 # Connections, contribution and distinctions
 
+**Public-data amendment, 8 November:** Existing A12 owns the bounded cell-level
+detection/intensity/co-detection follow-up; Pg1-P01/C3 owns a separate lattice
+spatial description. [Context and literature refresh](PUBLIC_DATA_CONTEXT.md)
+connect the earlier mixed IL1R1/IL1RAP result to these new endpoints. No canonical
+question, claim grade, old result or original pathology-specific estimand changes.
+
+
 8 November 2026. This paper supplies a pathology/spatial layer for existing
 questions. It does not replace their hypotheses, results, ownership or acceptance.
 The [completed source assessment](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md)

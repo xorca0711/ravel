@@ -1,5 +1,17 @@
 # Current project state
 
+## Public Peng RNA execution resumed — 8 November 2026
+
+Owner-reported Zenodo request is submitted and pending, not approved or independently
+verified. Existing-cache branches are authorized: A12 cell configuration first,
+then Pg1-P01/C3 spot-level RNA organization. [Prospective context](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
+and [cell specification](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_CELLS_SPEC_V1.md).
+Current phase: qualify exact source joins and freeze committed contracts before
+new outcomes; then run, independently verify, interpret and deliver measured plots.
+Original state/pathology/geometry holds and all old results remain. No external
+request, message, push or governance change. Refreshed main: `1ff71a1`.
+
+
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 

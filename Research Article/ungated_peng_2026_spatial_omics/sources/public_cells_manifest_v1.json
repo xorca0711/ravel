@@ -1,0 +1,1582 @@
+{
+  "schema": 1,
+  "date": "2026-11-08",
+  "study": "GSE308103",
+  "libraries": [
+    {
+      "gsm": "GSM9237901",
+      "patient": "3",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237901/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237901/raw_counts.csc.h5",
+          "sha256": "61d229ae2a2a5b6390b569c51b24e622363e4544f5e3b0ea13cc68b18b757fcd",
+          "bytes": 5862840,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237901/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237901/cell_annotations.csv.gz",
+          "sha256": "745743554b45744a351158926fb50628df8e5453a4e9a1a7c7a2a3ab557a67e1",
+          "bytes": 77787,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237902",
+      "patient": "3",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237902/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237902/raw_counts.csc.h5",
+          "sha256": "0e24a789c2f1339ccf6ebbb6a4569a340732c6e377be531dd11cef45c07090ed",
+          "bytes": 13208472,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237902/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237902/cell_annotations.csv.gz",
+          "sha256": "19256369483f4de260faec6f15fdc1b14fc4a05e078f9555b157427cc455214b",
+          "bytes": 213915,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237903",
+      "patient": "3",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237903/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237903/raw_counts.csc.h5",
+          "sha256": "c531963f3cd1b8876278ef9d6254a8e5cdc0fa48e1383bff2dd576dad1afc853",
+          "bytes": 10255785,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237903/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237903/cell_annotations.csv.gz",
+          "sha256": "38afa86012a4774831d64b0cffb2343831d71a411fac6ccc2c1a7ebee19c4d5e",
+          "bytes": 145373,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237904",
+      "patient": "4",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237904/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237904/raw_counts.csc.h5",
+          "sha256": "af026afa4aa80027e95471e75bf0474ac8b865c6717db47ce748d2264847b077",
+          "bytes": 120336419,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237904/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237904/cell_annotations.csv.gz",
+          "sha256": "801c9809a80b3fac2eaa91bd4e1cd45b00fb16c4b652f3c1986960d7a55aec3d",
+          "bytes": 1763995,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237905",
+      "patient": "4",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237905/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237905/raw_counts.csc.h5",
+          "sha256": "4bb957412093965bd8a92c606b4b394726b2b5fb36cce92b1d4f03f88126db37",
+          "bytes": 45089926,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237905/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237905/cell_annotations.csv.gz",
+          "sha256": "df80edb7a69271615db7fad9bcec25aac12bc6504fb876354a10dc5969e5337c",
+          "bytes": 624997,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237906",
+      "patient": "4",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237906/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237906/raw_counts.csc.h5",
+          "sha256": "f6d74f0a07d788316a8d5b853235dd3ab3f0316b7721d451f479122e8b46b61c",
+          "bytes": 22943678,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237906/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237906/cell_annotations.csv.gz",
+          "sha256": "3583017d10a1e8254bd059c345d94b6565e8d73f5280d147456f02b78bf8222f",
+          "bytes": 276504,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237907",
+      "patient": "4",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237907/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237907/raw_counts.csc.h5",
+          "sha256": "2753973d423ac91e319204310f012feb89902f6765208044c9a19cf142d03ebb",
+          "bytes": 43832895,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237907/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237907/cell_annotations.csv.gz",
+          "sha256": "65f05f310147168960925de96b5718a2f276757c3af6d5664d98ba4becca046a",
+          "bytes": 624328,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237908",
+      "patient": "4",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237908/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237908/raw_counts.csc.h5",
+          "sha256": "65111bbd2c82a6b47353202ff687937212edbb87c4a3ef4257ad9121910dbc05",
+          "bytes": 154602678,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237908/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237908/cell_annotations.csv.gz",
+          "sha256": "54f735363d3ac14bc6c259637031bc94ebcf108791505b7de0fac8b94223c292",
+          "bytes": 2092109,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237909",
+      "patient": "5",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237909/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237909/raw_counts.csc.h5",
+          "sha256": "ca9eb30048c182645bf10c20808571e435674c4d6a13b357214c1b9bdd22accd",
+          "bytes": 61419480,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237909/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237909/cell_annotations.csv.gz",
+          "sha256": "10473ffa3aa28ed78e7a2b7c6ce31d1a17406cdb061e96d021b4742088321852",
+          "bytes": 967654,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237910",
+      "patient": "5",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237910/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237910/raw_counts.csc.h5",
+          "sha256": "b7bacb0a45aa1cf84b3beae04d73bbfe70a6a347b3c616274623f6f471531dcb",
+          "bytes": 9798040,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237910/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237910/cell_annotations.csv.gz",
+          "sha256": "5eaf71eecd9bba5cc257a7cc1c1617dfdedbb62a8d70d7b11ea27236c9a24e02",
+          "bytes": 117495,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237911",
+      "patient": "5",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237911/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237911/raw_counts.csc.h5",
+          "sha256": "98cbf7ba63895a5290d78bb1c07c0f1383474fa0562d9527a7d83affd060d6f1",
+          "bytes": 73606838,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237911/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237911/cell_annotations.csv.gz",
+          "sha256": "6f7c479f4dbed8371466a23e17990e48ea94cc0e187eb782575392b755b75f9f",
+          "bytes": 1041231,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237912",
+      "patient": "6",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237912/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237912/raw_counts.csc.h5",
+          "sha256": "82da54d7fb4667999c2b600d548c882a49cbb4f6ad26c119c42c95f3ef36bcb8",
+          "bytes": 5895645,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237912/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237912/cell_annotations.csv.gz",
+          "sha256": "0344526d185c201482b651e1ded614f1f716eddad610d116262ca290fd98d14b",
+          "bytes": 65470,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237913",
+      "patient": "6",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237913/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237913/raw_counts.csc.h5",
+          "sha256": "321f5177bf09fb8d6c833c219bd8232aa89b6c9f8af95003750aafd5f31e8a99",
+          "bytes": 11533206,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237913/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237913/cell_annotations.csv.gz",
+          "sha256": "e7610b32bbed8992e4f9b34f2c140287184afd5ac394c4610c142b061f4ba97e",
+          "bytes": 132158,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237914",
+      "patient": "6",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237914/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237914/raw_counts.csc.h5",
+          "sha256": "9f982ce09965fa9099a7cfe6c305489f9a65eb62c46052e21f1f753e2b78efd3",
+          "bytes": 26089311,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237914/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237914/cell_annotations.csv.gz",
+          "sha256": "b14dafd86e64730c146d245257cb56435b77f4f483ecead98133928b2b93267c",
+          "bytes": 310564,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237915",
+      "patient": "7",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237915/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237915/raw_counts.csc.h5",
+          "sha256": "835187a60d227247435097af1e21fa83ca0229c85dc7bfda187f42c4296b764b",
+          "bytes": 25834205,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237915/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237915/cell_annotations.csv.gz",
+          "sha256": "084d9996e7f5a89313b7862d4cf33fd83e92486e4aec3745a41eb4c88eaaa3f7",
+          "bytes": 365785,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237916",
+      "patient": "7",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237916/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237916/raw_counts.csc.h5",
+          "sha256": "4ce23a6021782d6bb19b0dbd33a8584ee0cd04036eab1e4007825522ad018fda",
+          "bytes": 33240923,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237916/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237916/cell_annotations.csv.gz",
+          "sha256": "540b895f0af91203e88b82dc9621f490fcd2309a95820f2b7449dd5dc4438895",
+          "bytes": 442192,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237917",
+      "patient": "7",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237917/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237917/raw_counts.csc.h5",
+          "sha256": "e3d15aa4470dbd36fe2ace26357881ca60d0b5212a61e591e23bec89ed09077a",
+          "bytes": 41700105,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237917/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237917/cell_annotations.csv.gz",
+          "sha256": "6a3ad7bbb71a5402a50021fb2d1d3c37b14edbd34dbc4953e314832f2ee0b0ef",
+          "bytes": 503782,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237918",
+      "patient": "8",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237918/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237918/raw_counts.csc.h5",
+          "sha256": "2419fab4caf77c899f4bec5d3af4ce98011be1330c36d4eccb2acfb4f5fa3269",
+          "bytes": 3904156,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237918/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237918/cell_annotations.csv.gz",
+          "sha256": "b41ff1ede1ba62d34b95727af8891b0bd1b0ee03ba46221cf84e5594fd5fbe19",
+          "bytes": 28972,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237919",
+      "patient": "8",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237919/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237919/raw_counts.csc.h5",
+          "sha256": "f7729ff9c135808d92a13b72782489a7d57ed464dc67a82be0b2c475f21a270d",
+          "bytes": 3747909,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237919/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237919/cell_annotations.csv.gz",
+          "sha256": "5fb4ea44d8670ece431d1b174552b9eaa76b6586cb01347947b5f85b2fb6c1a6",
+          "bytes": 34315,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237920",
+      "patient": "8",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237920/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237920/raw_counts.csc.h5",
+          "sha256": "e84ace3c3c7f46203234ea9f98f8e0feea379c204c8e889fac1427ef21ccd66e",
+          "bytes": 30119501,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237920/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237920/cell_annotations.csv.gz",
+          "sha256": "b0f9cd43d3eb8039c1ee2e8f96a4eef348f98b24abf9b901141c6dece656daa4",
+          "bytes": 365627,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237921",
+      "patient": "9",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237921/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237921/raw_counts.csc.h5",
+          "sha256": "19190932401d07dcd6ae787fda9e8b7596a0c2aec58db96d9f3cd01d69d16dcc",
+          "bytes": 9819278,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237921/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237921/cell_annotations.csv.gz",
+          "sha256": "a97db2fb3ce1427b3ed9f62820e60c5485017af5aa89f397569612df7bb58238",
+          "bytes": 116341,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237922",
+      "patient": "9",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237922/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237922/raw_counts.csc.h5",
+          "sha256": "2a94e080f05d29d02f50e171a6cf602e86d043a54d90557336c79902c5d64a81",
+          "bytes": 5606196,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237922/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237922/cell_annotations.csv.gz",
+          "sha256": "e1f65d04ca334098f97fce6cecf318af325d2cefd9e879b37c375f02c6a9df59",
+          "bytes": 58331,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237923",
+      "patient": "9",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237923/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237923/raw_counts.csc.h5",
+          "sha256": "7c315764528101858e06ec7dbbe0c9f153822d3bc5c993da3baf3055cb24be87",
+          "bytes": 17932140,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237923/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237923/cell_annotations.csv.gz",
+          "sha256": "a5b97bebca8e44e71acd4be4e3340be3aedd495cde13e1aabd73af9b18607267",
+          "bytes": 220171,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237924",
+      "patient": "9",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237924/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237924/raw_counts.csc.h5",
+          "sha256": "c34f2b74a510c2b83844c61107196829f807a5cfe2ecc8716dd7f0cd5c7b4da3",
+          "bytes": 23284366,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237924/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237924/cell_annotations.csv.gz",
+          "sha256": "ed247aa08b5e50cb422061b9b30262ecce0acc733d12216ba1bd1049fd52a754",
+          "bytes": 285496,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237925",
+      "patient": "10",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237925/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237925/raw_counts.csc.h5",
+          "sha256": "8f23fa7851d643217fceb603161e5240853152fe8b193401d220544e9325aa2d",
+          "bytes": 5708915,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237925/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237925/cell_annotations.csv.gz",
+          "sha256": "6ea972e0fb3a94660ce62dbbf51e62481baa311c32d733151c796aa9749d23e2",
+          "bytes": 71115,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237926",
+      "patient": "10",
+      "histology": "MIA",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237926/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237926/raw_counts.csc.h5",
+          "sha256": "6a6b811a23d4f0a5c283bfcfb9a4e654e5ca63cf112164046673b21a36908da0",
+          "bytes": 12214926,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237926/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237926/cell_annotations.csv.gz",
+          "sha256": "1aed1122eacaca409a6393a4a7b29bbd680b9c4489f8adc10526f8d94f19be6a",
+          "bytes": 140149,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237927",
+      "patient": "10",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237927/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237927/raw_counts.csc.h5",
+          "sha256": "cda4a057843aabc002c4b9a0ce47056316b87cc2b2ab68bb7b062ce74d33f938",
+          "bytes": 78260826,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237927/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237927/cell_annotations.csv.gz",
+          "sha256": "e459515d5f59a48c44f8e05f39f6386a6a53d302139359493de8c30a0c2c0ba9",
+          "bytes": 1026597,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237928",
+      "patient": "11",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237928/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237928/raw_counts.csc.h5",
+          "sha256": "d9376147d14df72b8efba28a6aaf717eddf375ab1be238395ad51ca499d7d8a0",
+          "bytes": 5843380,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237928/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237928/cell_annotations.csv.gz",
+          "sha256": "19d67526a67da510607880986ed88e7f1273d4bba7c38067869619447463c403",
+          "bytes": 62341,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237929",
+      "patient": "11",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237929/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237929/raw_counts.csc.h5",
+          "sha256": "f49ae487e3eea0f23c044b4c57b979d64a62ed4f9dc4a3d491dc0ca422dd8a8d",
+          "bytes": 12899629,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237929/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237929/cell_annotations.csv.gz",
+          "sha256": "9486ea48607f60875079b45b0930c64e30a26723ce84667ce83b5383f86f596d",
+          "bytes": 145729,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237930",
+      "patient": "11",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237930/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237930/raw_counts.csc.h5",
+          "sha256": "c1ae87b2434f5abd28f5b07c853853fc781a3f4e34e6e3b4b14aeda3bd56a38f",
+          "bytes": 37172543,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237930/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237930/cell_annotations.csv.gz",
+          "sha256": "70a620e880edc44bb371e4f285f3bb0883bde5a15c4f98f49792dc7ac5b7b9d9",
+          "bytes": 513548,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237931",
+      "patient": "12",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237931/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237931/raw_counts.csc.h5",
+          "sha256": "18111bf600384136a809582e778bfa72757d683565035cf2f8b351e6966cd8c6",
+          "bytes": 5436121,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237931/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237931/cell_annotations.csv.gz",
+          "sha256": "cac7e23bb72be98a35927caf4864d64d68f8301d6034b0ab5619f340eaef56c9",
+          "bytes": 60202,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237932",
+      "patient": "12",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237932/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237932/raw_counts.csc.h5",
+          "sha256": "1c1e8a062986e381f33c5899dbe0f11c4b484b8e59acb77d2707f5e1365e5c27",
+          "bytes": 12380487,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237932/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237932/cell_annotations.csv.gz",
+          "sha256": "5bf124c9b8d7851fdb67f75a1260d5ae520828753b86f085cabd555ecac91958",
+          "bytes": 142185,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237933",
+      "patient": "12",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237933/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237933/raw_counts.csc.h5",
+          "sha256": "7ae15a74a1f38cf5d40be3aada98b08e1277813846b13422db16aa3273264197",
+          "bytes": 12791808,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237933/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237933/cell_annotations.csv.gz",
+          "sha256": "fe96773f64077681b17fecdb9ccde3d216e52f33edd83efb042e1ab4dc0411cf",
+          "bytes": 141145,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237934",
+      "patient": "13",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237934/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237934/raw_counts.csc.h5",
+          "sha256": "92f858378dfbd878526d91a1bacb92ad95b67cb3d2ac4c5847a127ad7146cb2b",
+          "bytes": 2979463,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237934/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237934/cell_annotations.csv.gz",
+          "sha256": "28f8dc14b587013a81793169bf653c12daf12e4c5ed3160121e76344e70da1cc",
+          "bytes": 31844,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237935",
+      "patient": "13",
+      "histology": "MIA",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237935/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237935/raw_counts.csc.h5",
+          "sha256": "fc58a53afde402b2bb8370e5ab7085234290592c5d1b7396a51ab5de0412a478",
+          "bytes": 9987285,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237935/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237935/cell_annotations.csv.gz",
+          "sha256": "abde6c04b533723750600ca64c8c330d30538e6c2b8e9e2045e206bdb9e1e4b7",
+          "bytes": 115338,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237936",
+      "patient": "13",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237936/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237936/raw_counts.csc.h5",
+          "sha256": "c280cb1471a1dc592a40f876b23eb94fe2744ce7662f52627c7bada06775a539",
+          "bytes": 10869016,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237936/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237936/cell_annotations.csv.gz",
+          "sha256": "42ecb48e2d13b66de481ee5fef861e4f26528cab0a87f5b5bd60800b1d715987",
+          "bytes": 155672,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237937",
+      "patient": "14",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237937/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237937/raw_counts.csc.h5",
+          "sha256": "b73c6ebfcd86d493b6c0a56ae884f3ed822c3c4cbaf7225cfef1b3ceb9b2c5fa",
+          "bytes": 4969354,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237937/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237937/cell_annotations.csv.gz",
+          "sha256": "1bd0708daa24fc1fa554a001aff6aeaee32e320835b2919a3980af0b50ed8bc9",
+          "bytes": 48913,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237938",
+      "patient": "14",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237938/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237938/raw_counts.csc.h5",
+          "sha256": "41160c612010c2a49b61a2f3373d961df89f23ed1bf64588332d791b86a1df70",
+          "bytes": 16232518,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237938/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237938/cell_annotations.csv.gz",
+          "sha256": "f3b707d1af0aa9135c4d34e53b1b202923dc44b958ed64a03222b9e7e048197a",
+          "bytes": 188160,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237939",
+      "patient": "14",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237939/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237939/raw_counts.csc.h5",
+          "sha256": "2d1078b5e7c70cebd3ed59ffce2afd5b0cc5d89d1f4f70ad13e6c95a8e333fac",
+          "bytes": 15147297,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237939/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237939/cell_annotations.csv.gz",
+          "sha256": "f690d83610aaf8e4f83cdfe121ce9107cff2ea40b27a0469f3f91efea29a4c96",
+          "bytes": 161341,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237940",
+      "patient": "15",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237940/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237940/raw_counts.csc.h5",
+          "sha256": "ab00c058a7a850edaea1dc3329d7a7e422d5290b34d9a647e7e6b74c2baf9bc3",
+          "bytes": 6032618,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237940/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237940/cell_annotations.csv.gz",
+          "sha256": "ee8459ebcd6a416614b3f98baf8f354f93d3a6688edc4e12ae4b989bea1ff759",
+          "bytes": 70557,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237941",
+      "patient": "15",
+      "histology": "MIA",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237941/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237941/raw_counts.csc.h5",
+          "sha256": "ca463b7c7bc8880d21c9323bd9c0f30e91aa4321198a169dd2eef3aef53a279e",
+          "bytes": 15083364,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237941/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237941/cell_annotations.csv.gz",
+          "sha256": "de26261ab7149bc5f1ab6f741a0b2501d960ef665bceda691517a41092e9e088",
+          "bytes": 205388,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237942",
+      "patient": "15",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237942/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237942/raw_counts.csc.h5",
+          "sha256": "baf0b0379eeb37f69a44174ef3de7a3b276cff1e35edfa125e18398c2f9e2e93",
+          "bytes": 28721848,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237942/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237942/cell_annotations.csv.gz",
+          "sha256": "69458c8a9eab1cc0292dadc7b72b25dab0da393f94044ea66500a425ddc20ba6",
+          "bytes": 326026,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237943",
+      "patient": "16",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237943/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237943/raw_counts.csc.h5",
+          "sha256": "ee02b4f1781128a8e42b0db4a9006a0885f8addefc2ff5a8366ce7fbeb56a4d7",
+          "bytes": 6573576,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237943/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237943/cell_annotations.csv.gz",
+          "sha256": "7848832e747d2379c00aa08b37dc7366249b146c5c1fad50fdca1180632dde95",
+          "bytes": 80070,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237944",
+      "patient": "16",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237944/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237944/raw_counts.csc.h5",
+          "sha256": "0eb9a7668f4ccd42664145ded5a5efaeb104e0c829018b863874fdf51c8f8380",
+          "bytes": 13599167,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237944/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237944/cell_annotations.csv.gz",
+          "sha256": "38d47028916fd9c5e157f7273ded494222fed26e875a4a9d3ed2cd856a295338",
+          "bytes": 147999,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237945",
+      "patient": "16",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237945/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237945/raw_counts.csc.h5",
+          "sha256": "4d4f65a7e9ca1c9519c123108f9d9e565c26d901b1f27040d90e1ce86044e089",
+          "bytes": 13468497,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237945/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237945/cell_annotations.csv.gz",
+          "sha256": "9bd3fa4588a3a97f1e87aa4f569764fd24cea43b5aa4fd3251fe64fa81ffe8d4",
+          "bytes": 156484,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237946",
+      "patient": "17",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237946/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237946/raw_counts.csc.h5",
+          "sha256": "eed403eef18b0afd268669d6ba7646b858d4ce9cd6a637bd207760e8e263545a",
+          "bytes": 36862731,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237946/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237946/cell_annotations.csv.gz",
+          "sha256": "4f743a6fd06868bc155ee32bb2530eb13fcfe2aa621b9cdc32b9c62352cc02f1",
+          "bytes": 505349,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237947",
+      "patient": "17",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237947/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237947/raw_counts.csc.h5",
+          "sha256": "5083c9015a29e5ed165cb8ff55d455f1d4f3f6f97c5027f8a4462bccac820cf9",
+          "bytes": 42814604,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237947/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237947/cell_annotations.csv.gz",
+          "sha256": "1194952e22bc3ded0edaed80da8278c5f94e8a69e8cdf97cccf6d84b65d783ae",
+          "bytes": 554859,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237948",
+      "patient": "17",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237948/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237948/raw_counts.csc.h5",
+          "sha256": "e22db06c8af1f67257693188175aa4da73d5869212c3b81f90bbc9d138a3bd6c",
+          "bytes": 44602023,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237948/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237948/cell_annotations.csv.gz",
+          "sha256": "bdfd093bc54d9f86acceaa0b73ab80077828159e9214a420d7e133b1941ec5d8",
+          "bytes": 598164,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237949",
+      "patient": "18",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237949/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237949/raw_counts.csc.h5",
+          "sha256": "fd3f696437f43555e73fe9e186696f488da5eb4245712284c66ec442998a3f12",
+          "bytes": 27570867,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237949/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237949/cell_annotations.csv.gz",
+          "sha256": "003bf5d20caaa5844f629b1bd801da92f9c754837f122b8b9488bf4a4f7f58c5",
+          "bytes": 425927,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237950",
+      "patient": "18",
+      "histology": "MIA",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237950/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237950/raw_counts.csc.h5",
+          "sha256": "7afe4d45900f038510b5f0d55c439d3fad445dff361f9340e201b3ac7f7a47dc",
+          "bytes": 45271626,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237950/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237950/cell_annotations.csv.gz",
+          "sha256": "a31864188c22510b785c7843506c4a7f53da5b96ef838b88771a0c6b7b02748e",
+          "bytes": 673253,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237951",
+      "patient": "18",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237951/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237951/raw_counts.csc.h5",
+          "sha256": "e2c2c76c182a37b86f365f9e80d7cc923e80a860c159bda21d86315cf9d323b6",
+          "bytes": 48884704,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237951/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237951/cell_annotations.csv.gz",
+          "sha256": "57ff6368bd7ed69f1c17e7f285e69edcba31c0f806905e7385c206d88af4e64d",
+          "bytes": 734469,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237952",
+      "patient": "19",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237952/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237952/raw_counts.csc.h5",
+          "sha256": "db53594fc673aba93fb0a907240b8e31561df9088e8c446c182c46c88f9e402b",
+          "bytes": 19549244,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237952/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237952/cell_annotations.csv.gz",
+          "sha256": "e7c272072e944b639d225307b551745ac5a4c534b13a907e974c320d00170bac",
+          "bytes": 235864,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237953",
+      "patient": "19",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237953/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237953/raw_counts.csc.h5",
+          "sha256": "72a26991a8e8af506107723d681ca1f9dad91c97e818ffe7ccda470d3adf260b",
+          "bytes": 50438584,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237953/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237953/cell_annotations.csv.gz",
+          "sha256": "5d384d9493bfdcce0e367045f2ad6e632bca68e01d44d3c429beed5e8d043093",
+          "bytes": 689086,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237954",
+      "patient": "19",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237954/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237954/raw_counts.csc.h5",
+          "sha256": "bb03f2548a8dff556d142e4cca4f70d91e7ec11cfcface4b51e639d92bae927b",
+          "bytes": 80152157,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237954/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237954/cell_annotations.csv.gz",
+          "sha256": "e08bded4136d720a9e7e2e744a96eb3010d3c8e5e2e4d5a7907f1fb49c3b27d9",
+          "bytes": 1117908,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237955",
+      "patient": "20",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237955/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237955/raw_counts.csc.h5",
+          "sha256": "c9b5e4b61f56085b59a5c67eeab54ab237bf818dc193b6a870475fe77f21d93f",
+          "bytes": 6060424,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237955/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237955/cell_annotations.csv.gz",
+          "sha256": "cd68d55929dc108a028718b0aa11a1de011e9cfed7756a782b5b2d1bd6ff4142",
+          "bytes": 82509,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237956",
+      "patient": "20",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237956/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237956/raw_counts.csc.h5",
+          "sha256": "898aa1cf095015ee21c15f585c140d8d0106734c1f8c067275bd6bc7212e8239",
+          "bytes": 37286398,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237956/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237956/cell_annotations.csv.gz",
+          "sha256": "d6a0cb1ae83bd0b205c9f989a9b970565a20fbe0b87e6ffb2bcfe77e0415d4e4",
+          "bytes": 515500,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237957",
+      "patient": "20",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237957/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237957/raw_counts.csc.h5",
+          "sha256": "273375a4b9aa8845111105fe9386e57e0bf9debf7635711302d3da0c3d9e23e3",
+          "bytes": 42526117,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237957/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237957/cell_annotations.csv.gz",
+          "sha256": "d7c1a44db5b426da6b7920b04a51dcad71c95543670ce084b1f9e86ff851f78f",
+          "bytes": 628343,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237958",
+      "patient": "21",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237958/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237958/raw_counts.csc.h5",
+          "sha256": "5b3dea62e6117414f33fca7b2b815f5ade11d766611435bd2879daaa225447ad",
+          "bytes": 16083567,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237958/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237958/cell_annotations.csv.gz",
+          "sha256": "ae9983039b646e1b604dffe458c99cab2f8a4edbc3ef335d90ecbd8f50a4c261",
+          "bytes": 233824,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237959",
+      "patient": "21",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237959/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237959/raw_counts.csc.h5",
+          "sha256": "60b1b3c5b71819f94d5079e25ffa4fab2d6dc7d807b4a038981af73433e0e141",
+          "bytes": 41127024,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237959/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237959/cell_annotations.csv.gz",
+          "sha256": "3fe2423c3ab4c19988d59cbded9cec7ae2b59f6552747ac0c1e06b48757259cd",
+          "bytes": 504616,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237960",
+      "patient": "21",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237960/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237960/raw_counts.csc.h5",
+          "sha256": "ca8b5d889eb46ef150ace0bf416d538bd1b66cbd7add51c6460158dbbdaeeb14",
+          "bytes": 36212969,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237960/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237960/cell_annotations.csv.gz",
+          "sha256": "34bb3a27530dc7a90d198e5577752caa41591378da1f3a05005fede18eabce66",
+          "bytes": 450684,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237961",
+      "patient": "21",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237961/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237961/raw_counts.csc.h5",
+          "sha256": "df702d45cc4553f8e93e9dbaf9a38c8d1de12570d1e28b639cd7278433f0e00f",
+          "bytes": 14625244,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237961/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237961/cell_annotations.csv.gz",
+          "sha256": "745ed5a02cc59afdabacc79f81e851994c95814950dc436c674073a98f49c582",
+          "bytes": 182304,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237962",
+      "patient": "22",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237962/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237962/raw_counts.csc.h5",
+          "sha256": "9ab13384905f08291f509e7238f38f86f5026df5106985fb15e48f4c1d4580e2",
+          "bytes": 12082323,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237962/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237962/cell_annotations.csv.gz",
+          "sha256": "9c9379ded9795127eb56dad99a851d402f8524509e24957a51a4ba0c8980c3ba",
+          "bytes": 143039,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237963",
+      "patient": "22",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237963/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237963/raw_counts.csc.h5",
+          "sha256": "bed8722d9668c683a181a60331112c6dbf4822539f7b49978a9620d4e5a35bee",
+          "bytes": 16986628,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237963/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237963/cell_annotations.csv.gz",
+          "sha256": "61cff6a9230092c9cc2843d46df1a3d9edb4d46b2d909921ae45dd82e31093fb",
+          "bytes": 198168,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237964",
+      "patient": "22",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237964/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237964/raw_counts.csc.h5",
+          "sha256": "918c9a191122da05c0f55dd107e27cc3e78f68145dd6f81e4213ef887e7f0b9a",
+          "bytes": 22869056,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237964/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237964/cell_annotations.csv.gz",
+          "sha256": "a27716d68425c878277676170a245c20bd88cd75d80d661655eb50c6d4714fb0",
+          "bytes": 266310,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237965",
+      "patient": "22",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237965/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237965/raw_counts.csc.h5",
+          "sha256": "5319bf311a6058efa564c4940557fbdf71f5f1d02d6bec506e2779db4930d991",
+          "bytes": 31466992,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237965/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237965/cell_annotations.csv.gz",
+          "sha256": "196d023d175ec56817e91d98c5b6f8892466f6c6ac40f4e40c7862ad15cb9081",
+          "bytes": 375612,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237966",
+      "patient": "23",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237966/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237966/raw_counts.csc.h5",
+          "sha256": "414f1861e97c259e255793b6e263a1dc49ca47c8461602a192c86cae23ff6fc1",
+          "bytes": 30275634,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237966/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237966/cell_annotations.csv.gz",
+          "sha256": "7cc8e9dd0eb474a32b51eddbeff4f9a7bf15385f3f7100d88f07f843925436d5",
+          "bytes": 393893,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237967",
+      "patient": "23",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237967/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237967/raw_counts.csc.h5",
+          "sha256": "6f7c7e28824a785bf3aaf3411eb080f35216f86af280f37822d9ee5108860db9",
+          "bytes": 79953897,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237967/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237967/cell_annotations.csv.gz",
+          "sha256": "7d0f4c3475896e3d579837893aa594a7e5cbf1b89a27705a9d8ce244c9a31bd6",
+          "bytes": 1182903,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237968",
+      "patient": "23",
+      "histology": "AIS",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237968/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237968/raw_counts.csc.h5",
+          "sha256": "58b83bbd55d43dbdfd01da3e095446c3b4e55493ddaa29403f0cbaf358f551d3",
+          "bytes": 108938269,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237968/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237968/cell_annotations.csv.gz",
+          "sha256": "c495a8888cb05276d737b1f7decbba92e4d11f3dbf7c8d66926279c4cf4174f8",
+          "bytes": 1691664,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237969",
+      "patient": "23",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237969/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237969/raw_counts.csc.h5",
+          "sha256": "ad134769ebba48970476e0574580d6f1aad30dc7d127c71670b2fd0a016018fe",
+          "bytes": 108861840,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237969/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237969/cell_annotations.csv.gz",
+          "sha256": "a09908b9cce91c77a5aaebea313e41941b43e708c9bdd8800e10fd50a2b07750",
+          "bytes": 1666216,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237970",
+      "patient": "24",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237970/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237970/raw_counts.csc.h5",
+          "sha256": "06d9130215f3be3e94a827832f95d9ad76365829dd3348efa77c3f858f75a629",
+          "bytes": 49201647,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237970/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237970/cell_annotations.csv.gz",
+          "sha256": "1d708dd722b61e25e531912842783ff0722be0efffe80d1fc8280a131b227f31",
+          "bytes": 507376,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237971",
+      "patient": "24",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237971/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237971/raw_counts.csc.h5",
+          "sha256": "a3ec67f9c954196d7c2db0018cf472e8f8281e5cbc9e15fc3687319d8a9c3056",
+          "bytes": 58175310,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237971/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237971/cell_annotations.csv.gz",
+          "sha256": "0b0f619ae10a2efd78190278e698dd2bf5d0d8ae03abb2a55be60668331893fc",
+          "bytes": 585387,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237972",
+      "patient": "24",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237972/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237972/raw_counts.csc.h5",
+          "sha256": "00b7446443142b845d8ead034ad03aa15a19c8b81b6d3f291a2be4735f52e81d",
+          "bytes": 344362644,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237972/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237972/cell_annotations.csv.gz",
+          "sha256": "cb03d0de0688d9ec08b15e370fe1da75b8ac207a1b415a2793121b046e11f380",
+          "bytes": 3752309,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237973",
+      "patient": "25",
+      "histology": "normal",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237973/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237973/raw_counts.csc.h5",
+          "sha256": "90d79e5343f6907974a8c6d828501741c026c59b8584fe06f5b6e35145817859",
+          "bytes": 46513277,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237973/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237973/cell_annotations.csv.gz",
+          "sha256": "b93c377450a62369fcf1f3f585a2b84c16c7efc1146e569bd651e740f4c6e2c2",
+          "bytes": 730712,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237974",
+      "patient": "25",
+      "histology": "AAH",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237974/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237974/raw_counts.csc.h5",
+          "sha256": "ef84ac9b3526da74d6b0b8dffb69596aed4e09b5ae5b131e30b6e7cd5af71737",
+          "bytes": 13247691,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237974/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237974/cell_annotations.csv.gz",
+          "sha256": "c515e7b457450c3f66c88d7ef784022a8409f0945a574744e611c4d041f69088",
+          "bytes": 172146,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    },
+    {
+      "gsm": "GSM9237975",
+      "patient": "25",
+      "histology": "LUAD",
+      "files": [
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237975/raw_counts.csc.h5",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237975/raw_counts.csc.h5",
+          "sha256": "5d53db6562464e5b4500689377dc28bd272f7ace57ee8b6961f70208da44409b",
+          "bytes": 78624560,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        },
+        {
+          "source_repository_path": "Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_full/GSM9237975/cell_annotations.csv.gz",
+          "path": "raw_data/peng_public_20261108/cells/GSM9237975/cell_annotations.csv.gz",
+          "sha256": "7f9750f43498af95c754bf749f836eaca40a0a90017e88fca01046707d615961",
+          "bytes": 1094275,
+          "access": "read-only code; NTFS hardlink reuses cached bytes"
+        }
+      ]
+    }
+  ]
+}

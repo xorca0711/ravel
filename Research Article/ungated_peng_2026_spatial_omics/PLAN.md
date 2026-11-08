@@ -1,5 +1,17 @@
 # Stepwise plan: Pg1-P01 and existing-question extensions
 
+## Authorized public-data branches — prospective amendment, 8 November
+
+The owner reports Zenodo access requested, approval pending. Continue accessible
+public data now: **A**, existing A12 cell-level candidate configuration, then **B**,
+Pg1-P01/C3 lattice-based Visium RNA organization. See [fixed cell specification](PUBLIC_CELLS_SPEC_V1.md)
+and [targeted literature/context](PUBLIC_DATA_CONTEXT.md). These new exposed
+descriptions use existing public counts; they do not relax author-dependent stages
+3–6 or replace pathology with expression scores. The historical statement that
+tables alone do not enable expression work remains true. Branch A is being frozen;
+branch B requires qualified graph inputs and its own frozen contract.
+
+
 8 November 2026. The owner requested source recovery, ungated placement and then
 execution in a separate technical chat. This plan authorizes progression through
 eligible steps with prospective contracts; it does not make missing inputs
