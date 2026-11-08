@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1.public_rationale_render_v2",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can the completed public cell and spatial measurements be displayed clearly beside their remaining biological interpretation limits?",
+  "decision": "Replace only the crowded explanatory rationale rendering with a legible source-bound panel; preserve old image and all numerical analyses.",
+  "strongest_rival": "A crowded or causal-looking diagram could conflate measured RNA, candidate selection and untested functional receptor signaling.",
+  "discriminator": "Explicit measured-source values, separate alternative-explanation and untested-functional-hypothesis boxes, plus programmatic text bounds and visual review.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All cell and spatial outputs are exposed and fixed. Original rationale image inspected and found crowded. This is only a rendering correction; no data selection, model or biological endpoint changes.",
+  "biological_unit": "Previously summarized patients: original12 A12 pairs and primary10 spatial AAH/LUAD pairs.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Existing frozen summaries preserve nested cells, spots and sections. Both branches reuse the Peng/C3 source lineage; the figure is not additional evidence or replication.",
+  "population_and_selection": "Display existing fixed primary summary rows only. No new subset, score search, gene change or independent-state claim.",
+  "contrast": "Display already completed LUAD-normal cell and LUAD-AAH spatial comparisons, with existing depth/composition sensitivities.",
+  "endpoint": "Legible explanatory measured-value panel with exact displayed scalar table and no new biological measurement.",
+  "methods": "Read frozen primary summary tables, format six scalar values, draw distinct evidence/alternative/hypothesis boxes and dashed reasoning arrows. Assert every title/body bounding box fits its panel.",
+  "missingness_and_exclusions": "Missing/duplicate requested source summary row or text overflow stops rendering. No missing values replaced, no scientific exclusion or threshold changes.",
+  "multiplicity": "Rendering only; no tests, new estimates, causal edges or acceptance decisions.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Reuse existing descriptive patient summaries and their reported finite-data limitations; no new power or precision claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "RNA detection and spatial cross-products do not establish receptor assembly, functional signaling, validated states, cell contact or independent validation.",
+  "stop_rule": "Stop for source hash or summary-row mismatch, invalid figure value or any overflowing text; retain previous rendering and unchanged measurements.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/paired_summary.csv",
+      "sha256": "11f2cb412bbe569275118eb5c4a2072074426e32886ccfaa6a3a667100b255b1",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/depth_standardized_deltas.csv",
+      "sha256": "a5c412bfec610acbd132cf31c25903e8a05de367f73b6b3407e866420a85b033",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/paired_summary.csv",
+      "sha256": "bd0ad5d143c4a2183c585783879b516974b161c11ca719cdc634e1f0f1c02fd1",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
+      "sha256": "ae9f7d8bc8db677edbd437fe115bdb1c8b6b12851507c59e1e5cf970ae42270f",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+      "sha256": "085df113f0119d7019673290dd48ffa6e36080e218e376a128aaf27ba1a668e0",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_rationale_v2.py",
+      "sha256": "c92e96c0ed8cbc1edbc039e375d97ccc607a41d4f7c843132dbce7e7afc71418"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_rationale_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "public_data_rationale_v2.png",
+    "public_data_rationale_v2.pdf",
+    "figure_values.csv",
+    "layout_verification.json"
+  ],
+  "amendment_of": "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v3.json",
+  "amendment_reason": "Rendering-only supersession of crowded public_data_rationale image; numerical outputs, source definitions and scientific interpretation boundaries are preserved."
+}
