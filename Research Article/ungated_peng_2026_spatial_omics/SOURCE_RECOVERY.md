@@ -1,5 +1,10 @@
 # Source and annotation recovery — 8 November 2026
 
+**Access update, 8 November 2026:** The owner reports submitting the Zenodo
+access request; approval is pending and unverified. This chat sent no request
+or external message. The remaining author-file request below remains an unsent
+draft. Existing public RNA work proceeds under [separate bounded branches](PUBLIC_DATA_RESULTS.md).
+
 This is the retained planning-stage source-reading/access record. The subsequent
 [completed metadata qualification](RESULTS.md) provides the frozen crosswalk,
 source ledger, filename conflicts and exact remaining holds through the

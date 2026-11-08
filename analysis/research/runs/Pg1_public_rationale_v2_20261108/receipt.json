@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1.public_rationale_render_v2",
+  "owner": "Pg1-P01",
+  "contract": "Research Article/ungated_peng_2026_spatial_omics/contracts/public_rationale_render_v2.json",
+  "contract_sha256": "37cb67cf8af93999829905634f96eeb82d7f59382391793194df07776bf3ef23",
+  "git_commit": "c95d9be1c32378a19c215164077a7f650dc074aa",
+  "started_at": "2026-11-08T08:03:52.587735+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_peng_2026_spatial_omics/scripts/public_rationale_v2.py",
+    "--output",
+    "analysis/research/runs/Pg1_public_rationale_v2_20261108"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/paired_summary.csv",
+      "sha256": "11f2cb412bbe569275118eb5c4a2072074426e32886ccfaa6a3a667100b255b1",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/depth_standardized_deltas.csv",
+      "sha256": "a5c412bfec610acbd132cf31c25903e8a05de367f73b6b3407e866420a85b033",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/paired_summary.csv",
+      "sha256": "bd0ad5d143c4a2183c585783879b516974b161c11ca719cdc634e1f0f1c02fd1",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
+      "sha256": "ae9f7d8bc8db677edbd437fe115bdb1c8b6b12851507c59e1e5cf970ae42270f",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+      "sha256": "085df113f0119d7019673290dd48ffa6e36080e218e376a128aaf27ba1a668e0",
+      "study_id": "completed_public_Peng_descriptions",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_rationale_v2.py",
+      "sha256": "c92e96c0ed8cbc1edbc039e375d97ccc607a41d4f7c843132dbce7e7afc71418"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Pg1_public_rationale_v2_20261108/public_data_rationale_v2.png",
+      "sha256": "8d6a90b02463604ac0cb46cb9e4c254b2f2a0d62867ba56da890b00d2b838fee"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_rationale_v2_20261108/public_data_rationale_v2.pdf",
+      "sha256": "e6bb4dc34a057d2fdbe21de6ca58e43227b404daf4c32bcf64e09ff0adb2126e"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_rationale_v2_20261108/figure_values.csv",
+      "sha256": "2317d4f050efa05eb46b9fa6ccb3e9759f97c25aaeac7df45a589d11a6a3d085"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_rationale_v2_20261108/layout_verification.json",
+      "sha256": "a7550bdfbb4091b7774addeef4e1ad5c805db4a6ee9462fc8960d3dcecb809c9"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T08:03:58.088184+00:00"
+}

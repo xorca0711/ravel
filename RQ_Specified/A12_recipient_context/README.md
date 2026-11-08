@@ -1,11 +1,15 @@
 # A12: recipient context beyond ligand RNA
 
-**Public cell branch, prospective 8 November:** The owner authorized a fixed
-descriptive follow-up using existing GSE308103 counts. [Specification](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_CELLS_SPEC_V1.md)
-and [context/search refresh](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
-separate candidate-label detection/intensity/co-detection from the held within-state
-spatial comparison. No prediction refit or change to prior unfavorable results.
-
+**Public-cell result, 8 November:** The [fixed cell-level description](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
+qualifies 75 libraries and reproduces the original 12-patient AT2 counts exactly.
+IL1RAP detection increases on average while its positive-cell normalized intensity
+falls. The small co-detection increase attenuates after depth standardization, and
+IL1R1 detection changes direction in broader epithelial candidates. These results
+keep mixture/selection alternatives central; no intrinsic within-state regulation,
+receptor assembly or stronger signaling is established. [Context/search refresh](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
+and [measured figure gallery](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md).
+Original predictive results, including unfavorable fibroblast outcomes, and the
+registered hypothesis/illustration remain unchanged.
 
 **Source qualification, 8 November:** [Peng Tables S1–S6 are now qualified](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md). Patient/platform and aggregate TMA metadata, human/mouse signatures and two custom add-ons are explicit; source-linked checks identify feature overlap with the fixed A12 endpoint. Add-on absence is not full-assay absence. Author state/pathology exports, geometry, exact section/core maps and measured panels remain unqualified, so the within-state A12 extension is unestimated. The prior 185-record GEO result, P6 WES hold, A12 estimand, unfavorable fibroblast result and claim status are unchanged.
 

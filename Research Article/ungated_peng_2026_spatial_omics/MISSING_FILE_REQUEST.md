@@ -1,5 +1,10 @@
 # Missing-file request — draft, not sent
 
+**Access update, 8 November 2026:** The owner reports submitting the Zenodo
+access request; approval is pending and unverified. This chat sent no request
+or external message. The remaining author-file request below remains an unsent
+draft. Existing public RNA work proceeds under [separate bounded branches](PUBLIC_DATA_RESULTS.md).
+
 Updated after [qualification of the supplied Tables S1–S6](SUPPLEMENTS_RESULTS.md).
 Those workbooks are received and no longer requested. The [original GEO result](RESULTS.md)
 retains the earlier holds as dated evidence. This request now names only remaining

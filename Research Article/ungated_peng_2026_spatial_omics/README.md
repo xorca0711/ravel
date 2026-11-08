@@ -13,14 +13,18 @@ proinflammatory niches in progression of lung precursor lesions*. Published onli
 supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
 provides searchable methods and links to additional spreadsheet tables.
 
-**Current result:** [Supplied Tables S1–S6 are qualified](SUPPLEMENTS_RESULTS.md),
-with 42,530 independent checks. They resolve table access, localize the WES gap to
-24 Normal plus one P4 AAH block, recover discovery Xenium participation and
-aggregate TMA structure, and provide distinct program/signature/custom-add-on
-lists. One S5 date-formatted gene cell remains unresolved. The
-[previous 185-record GEO result](RESULTS.md) is preserved unchanged, including
-its P6 WES identity hold. Actual barcode/state labels, ROI geometry, exact section/
-core maps and full measured panels remain missing; A12 estimation is unestimated.
+**Current public-data work:** [Candidate-cell results and spatial execution](PUBLIC_DATA_RESULTS.md)
+add narrowly scoped description from existing public matrices. Both branches are complete: A12 retains exact old-count parity, and all 56
+Visium sections have independently verified lattice measurements. The small
+co-detection/spatial associations depend on depth and candidate/composition
+choices; no functional IL-1 reception is established. [Figure gallery](PUBLIC_DATA_FIGURES.md) stores measured plots and spatial maps. Biological rationale remains in prose,
+following the owner’s presentation direction. These do not replace author pathology/state reproduction.
+The owner reports Zenodo access requested; approval is pending and unverified.
+
+[Supplied Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the
+[185-record GEO audit](RESULTS.md) remain preserved. Author barcode/state labels,
+ROI geometry, exact section/core maps and full measured panels remain missing
+for the original within-state spatial extension and TMA transport.
 
 | Read next | Purpose |
 |---|---|
@@ -62,4 +66,6 @@ bind immutable outputs under `analysis/research/runs/Pg1_supplements_v2_20261108
 The earlier GEO run, contracts and result remain intact. The
 [qualification schema](QUALIFICATION_SCHEMA.md) separates author, parsed and
 unknown fields. The [missing-file request](MISSING_FILE_REQUEST.md) is drafted,
-not sent. No measured-figure gallery is created without qualified annotations.
+not sent. Author-pathology overlay figures remain held. The separately specified
+public-data gallery uses qualified source indices, tissue masks and lattice
+coordinates, without inventing author cell states or pathology regions.

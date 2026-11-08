@@ -43,7 +43,7 @@ membership; it does not imply acceptance or waive source/analysis eligibility.
 |---|---|
 | **Damani–Yokota 2026 — ungated (DY1)** | [Study and current disposition](ungated_damani_yokota_2026/README.md); source reproduction, article-local comparisons and explicit holds. The historical `gate2_DY1_...` directory is retained because frozen contracts and receipts bind it; it is not a Gate 2 assignment. |
 | **Arozamena 2026 — ungated (Arz1)** | [Source qualification and paired descriptions](ungated_arozamena_2026_inflammatory_memory/README.md); original state/function questions retain their data limits. |
-| **Peng 2026 — ungated (Pg1)** | [Supplement qualification and receipts](ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md): S1–S6 metadata/lists qualified; original GEO audit preserved; region reproduction/A12 await author exports and measured panels. |
+| **Peng 2026 — ungated (Pg1)** | [Public-data results and figures](ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md): fixed A12 cell description and bounded Visium lattice branch; prior sources preserved, author-dependent spatial reproduction still held. |
 | **Murthy 2022 — ungated** | [Atlas source and gallery](ungated_murthy_2022/README.md); deposited atlas analysed, roadmap study note not written. |
 
 ## Current reading decision, 1 October 2026

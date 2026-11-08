@@ -10,8 +10,18 @@ descriptions use existing public counts; they do not relax author-dependent stag
 3–6 or replace pathology with expression scores. The historical statement that
 tables alone do not enable expression work remains true. Branch A has executed with 7,677 independent checks and exact old-count parity.
 Branch B now has its [fixed lattice specification](PUBLIC_SPATIAL_SPEC_V1.md)
-and registered input-bound contract, pending its committed freeze/run. Measured
-result plots and a separately labeled rationale figure will be stored with receipts.
+and registered input-bound contract. V1 stopped on feature-symbol identity before
+expression; [v2](PUBLIC_SPATIAL_SPEC_V2.md) restores the original C3 symbol-level
+QC representation without changing targets, thresholds or the spatial estimand.
+V2 verified 43 sections then stopped on two stored zero counts in the next
+matrix. [V3 continuation](PUBLIC_SPATIAL_SPEC_V3.md), frozen at `bf2f841`, preserves
+those outputs, reuses verified extracts and handles legitimate measured zeros.
+No target, QC threshold or statistical comparison changed. V3 completed all
+56 sections with 3,782,624 independent checks. [Public-data results](PUBLIC_DATA_RESULTS.md)
+and [measured figure gallery](PUBLIC_DATA_FIGURES.md) record both completed
+branches; the author-dependent stages below remain held. Measured
+result plots are stored with receipts; biological rationale remains in prose,
+following the owner’s presentation direction.
 
 
 8 November 2026. The owner requested source recovery, ungated placement and then
@@ -24,8 +34,10 @@ run. The [supplementary qualification](SUPPLEMENTS_RESULTS.md) completes the new
 eligible S1 clinical/participation reconciliation, S2–S4 list definitions, S5/S6
 published assay summaries and aggregate TMA portion of stage 6. Actual annotation,
 geometry, exact section/core maps and measured-panel requirements still hold
-stages 3–6. Stage 7 still lacks linked functional inputs. The next input-driven
-contract must qualify those exports before any reproduction or A12 calculation.
+stages 3–6. Stage 7 still lacks linked functional inputs. A future input-driven
+contract must qualify those exports before author-dependent reproduction or the
+original within-state A12 spatial calculation. The two authorized public-data
+branches above have narrower, distinct endpoints.
 
 ## Purpose, comparison and limits
 

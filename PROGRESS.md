@@ -1,19 +1,36 @@
 # Current project state
 
-## Public Peng RNA execution resumed — 8 November 2026
+## Public Peng RNA analyses completed — 8 November 2026
 
-Owner-reported Zenodo request is submitted and pending, not approved or independently
-verified. Existing-cache branches are authorized: A12 cell configuration first,
-then Pg1-P01/C3 spot-level RNA organization. [Prospective context](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
-and [cell specification](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_CELLS_SPEC_V1.md).
-Current phase: qualify exact source joins and freeze committed contracts before
-new outcomes; then run, independently verify, interpret and deliver measured plots.
-Original state/pathology/geometry holds and all old results remain. No external
-request, message, push or governance change. Refreshed main: `1ff71a1`.
+[Current results](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
+and [measured figure gallery](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md)
+record both authorized branches. A12 qualifies 75 libraries and retains exact
+old counts for the original 12-patient comparison, with 7,677 independent checks.
+IL1RAP detection increases while positive-cell normalized intensity falls; the
+small co-detection increase attenuates with depth standardization, and candidate
+selection changes the IL1R1 direction. Prior unfavorable outcomes remain intact.
 
+Pg1-P01/C3 completes all 56 Visium sections / 25 patient labels, with 3,782,624
+independent checks. The primary 10-patient LUAD–AAH one-hop RNA contrast is modest
+and smaller after broad RNA-composition adjustment. No cell-contact, state-specific
+or functional IL-1 inference is made. V3 at `bf2f841` preserves both failed attempts
+and reuses 43 verified extracts; feature-symbol and stored-zero corrections changed
+no biological thresholds or endpoints. Metadata binding at `7ee773a` explicitly
+registers both manifests and checks all 131 identities / 542 source-file bindings.
 
-Update this before stopping work, every session. Current reports and the
-research registry own scientific status; older checkpoints are history.
+**Presentation preference:** keep biological rationale in prose. Use measured
+plots and actual spatial maps as visual aids; do not display text-box rationale
+diagrams. Earlier rationale renderings are retained only as frozen history.
+PNG/PDF results and the 25-patient map atlas are stored with immutable receipts.
+
+Zenodo access is USER-REPORTED requested, pending and unverified. Original author-
+dependent stages 3–6 and linked functional outcomes remain held. Next: qualify
+received author state/pathology/geometry, exact section/core and full-panel exports
+under new contracts when accessible; do not replay completed descriptions. The
+remaining file-request draft is unsent. No external request/message, push, PR,
+merge, Notion edit or governance change. Final delivery checks and local commit
+are recorded in [validation](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_VALIDATION.md).
+Refreshed main remains `1ff71a1`; unrelated work and canonical identities are preserved.
 
 ## Peng supplementary sources qualified; spatial exports held — 8 November 2026
 

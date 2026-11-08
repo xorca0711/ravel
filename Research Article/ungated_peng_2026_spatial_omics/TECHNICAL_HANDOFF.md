@@ -1,10 +1,12 @@
 # Technical execution handoff
 
-**Current handoff, 8 November 2026:** [Supplement qualification](SUPPLEMENTS_RESULTS.md)
-records the new S1–S6 inputs and remaining holds. The [original metadata v3 result](RESULTS.md)
-is unchanged. [Missing-file request](MISSING_FILE_REQUEST.md) and
-[qualification schema](QUALIFICATION_SCHEMA.md) define the remaining inputs;
-no table-content download or prior GEO scan needs repeating.
+**Current handoff, 8 November 2026:** [Public-data results](PUBLIC_DATA_RESULTS.md)
+own the new A12 cell and Pg1-P01/C3 lattice analyses; [figure gallery](PUBLIC_DATA_FIGURES.md)
+stores measured results and spatial maps; biological rationale remains in prose. [Supplement qualification](SUPPLEMENTS_RESULTS.md)
+and the original metadata v3 result remain unchanged. Zenodo access is owner-reported
+requested, pending and unverified. The [missing-file request](MISSING_FILE_REQUEST.md)
+remains unsent; author-dependent stages still need qualified exports. No prior GEO
+scan, table intake, old expression pipeline or known failed download needs replaying.
 The original dispatch instructions below remain historical execution context.
 
 Owner request, 8 November 2026: execute the structured plan in a separate technical
