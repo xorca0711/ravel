@@ -1,0 +1,66 @@
+{
+  "original_status": "execution_failed",
+  "scope": "Byte-identical archive only; v1 remains failed and its partial results are not qualified",
+  "files": [
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/annotation_availability.csv",
+      "archive": "failed_v1/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/author_required_objects.csv",
+      "archive": "failed_v1/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/crosswalk.csv",
+      "archive": "failed_v1/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/join_issues.csv",
+      "archive": "failed_v1/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/patients.csv",
+      "archive": "failed_v1/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/prior_inventory_comparison.csv",
+      "archive": "failed_v1/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/receipt.json",
+      "archive": "failed_v1/receipt.json",
+      "sha256": "ab95f81018a81d2d0cdedd3729922ae4d7735fdd7c47177dc371357237adbfd0"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/samples.csv",
+      "archive": "failed_v1/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/source_manifest.json",
+      "archive": "failed_v1/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/stderr.log",
+      "archive": "failed_v1/stderr.log",
+      "sha256": "2fe85b79d78985d19533a5fa34c48885a41f935314984c271b7a88964d605569"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/stdout.log",
+      "archive": "failed_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "analysis/research/runs/Pg1_metadata_v1_20261108/summary.json",
+      "archive": "failed_v1/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 # Technical execution handoff
 
+**Executed 8 November 2026:** [RESULTS](RESULTS.md) is the current handoff. Metadata
+v3 completed after two preserved failures; [missing-file request](MISSING_FILE_REQUEST.md)
+and [qualification schema](QUALIFICATION_SCHEMA.md) define the next inputs.
+The original dispatch instructions below remain historical execution context.
+
 Owner request, 8 November 2026: execute the structured plan in a separate technical
 chat using helpful plugins/skills. Start with [PLAN.md](PLAN.md),
 [SOURCE_RECOVERY.md](SOURCE_RECOVERY.md), current governance and the registry.

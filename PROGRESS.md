@@ -3,34 +3,30 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Peng ungated paper structure and technical handoff — 8 November 2026
+## Peng metadata execution complete; spatial inputs held — 8 November 2026
 
-Owner requested pathology/ROI/sample recovery, ungated classification and then
-execution in a separate technical chat. Created the [Pg1 package](Research%20Article/ungated_peng_2026_spatial_omics/README.md), registered Pg1-P01 as an article-local candidate, and linked its
-[source record](Research%20Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md),
-[stepwise plan](Research%20Article/ungated_peng_2026_spatial_omics/PLAN.md) and
-[technical handoff](Research%20Article/ungated_peng_2026_spatial_omics/TECHNICAL_HANDOFF.md).
-The ordered roadmap and all existing RQ identities/results remain unchanged.
+[Pg1-P01 results](Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md)
+complete the bounded source ledger, 185-record metadata crosswalk and accessible
+annotation inventory. Frozen v3 (`84d156e`) passed 3,961 independently implemented
+checks and preserves both failed attempts byte-for-byte. Five snRNA filename
+suffix differences and WES GSM9226083 (`P6_AAH` versus file `P6_AIS`) remain explicit;
+the WES file and its affected joins have an identity hold. P7 historical review
+mapping and WES 79-versus-54 coverage remain unresolved. Prior C3 fields agree.
 
-Recovered three public GEO SOFT records and exact published pathology/ROI rules.
-GSE307529 is WES, not Xenium. Human-data DOI 15670280 resolves to restricted
-version 18851077; code 17172149 is also restricted. Table S1–S4 links were located,
-but direct routes returned non-spreadsheet responses/errors and the browser
-attempt timed out. Exact author spot/cell labels, ROI geometry and specimen joins
-remain unqualified; no expression analysis was rerun. Next technical work is a
-frozen metadata contract/crosswalk using prior C3 inventories, then every eligible
-plan stage with narrow holds where inputs are missing. No author contact or
-external account changes were made.
+Actual author barcode/pathology/state exports, ROI polygons/transforms, specimen
+maps and panel contents remain unrecovered. A distinct publisher route returned
+403; prior failures/restricted Zenodo records were reused without bypass. Stages
+3–6 remain narrow input holds; A12 is unestimated. [Exact next-input request](Research%20Article/ungated_peng_2026_spatial_omics/MISSING_FILE_REQUEST.md)
+is drafted, not sent. On permitted receipt of inputs, qualify their keys/geometry/
+panels under a new contract, then separately freeze source reproduction or A12.
+No new global RQ, acceptance, expression run, paid compute or NGS workflow.
 
-Work stays in `codex/peng-spatial-reading-20261108`; main `1ff71a1` was refreshed.
-The original checkout's unrelated changes and all frozen outputs are preserved.
-The [earlier paper/Notion review](docs/research_reviews/2026-11-08-peng-spatial-reading/README.md)
-and its full validation remain recorded. Planning validation passed: 18,279
-repository checks, the base-aware research gate, local package links, whitespace,
-and explicit preservation of the ordered reading list and canonical question
-records. No scientific code changed, so prior passing numerical/archive tests
-were reused. The next action is dispatch of the separate technical chat from
-this committed plan; that chat will own execution receipts and subsequent updates.
+Work remains local on `codex/peng-spatial-reading-20261108`. Refreshed main remains
+`1ff71a1818be1782dede0ccd5898eea793497f73`; [delivery validation](Research%20Article/ungated_peng_2026_spatial_omics/VALIDATION.md)
+records current checks and preservation. Original checkout/unrelated work and
+prior A11/A12/A13 evidence remain preserved. No push, PR, merge, author contact,
+access request or Notion mutation. External file-access restrictions remain the
+only settings-dependent input gap; no account/protection settings were changed.
 
 ## Remaining top-level documentation organized — 8 November 2026
 

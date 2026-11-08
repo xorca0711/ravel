@@ -5,6 +5,12 @@ execution in a separate technical chat. This plan authorizes progression through
 eligible steps with prospective contracts; it does not make missing inputs
 available or certify scientific acceptance. [Actual source status](SOURCE_RECOVERY.md).
 
+**Execution status:** [RESULTS](RESULTS.md) records completed stages 0–1 and the
+accessible source/annotation inventory in stage 2. Stages 3–6 remain input-specific
+holds; stage 7 lacks linked functional inputs. The plan below retains the intended
+sequence. Next permitted action is qualification of newly supplied exports under
+new contracts, not another whole-section score.
+
 ## Purpose, comparison and limits
 
 Pg1-P01 asks whether author sample, pathology and ROI definitions can be recovered

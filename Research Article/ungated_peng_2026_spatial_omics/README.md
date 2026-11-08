@@ -13,14 +13,16 @@ proinflammatory niches in progression of lung precursor lesions*. Published onli
 supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
 provides searchable methods and links to additional spreadsheet tables.
 
-**Current result:** pathology/ROI rules and public GEO metadata were recovered.
-Exact spot/cell pathology assignments, polygon exports and cross-platform section
-identities remain unqualified. The human-data Zenodo concept resolves to a
-restricted version; public supplementary spreadsheets were linked but their
-contents were not recovered in this pass. No new expression analysis was run.
+**Current result:** [Gated metadata qualification completed](RESULTS.md): 185 GEO
+records, exact author-alias and patient-level crosswalks, source/annotation inventory
+and 3,961 independent checks. Five snRNA filename punctuation differences and one
+WES histology conflict remain explicit; P6 WES file identity is held. Both failed
+attempts are preserved. Author pathology/cell exports, polygons, specimen maps and
+panels remain unavailable, so region reproduction and A12 estimation are held.
 
 | Read next | Purpose |
 |---|---|
+| [Results and receipts](RESULTS.md) | Completed stages, discrepancies, verification and exact next inputs |
 | [Source recovery](SOURCE_RECOVERY.md) | Actual access, author definitions, missing exports and join limits |
 | [Stepwise plan](PLAN.md) | Executable sequence, required inputs and informative outcomes |
 | [Connections and distinctions](RQ_CONNECTIONS.md) | Existing owners, published premises and different estimands |
@@ -52,8 +54,8 @@ not independent validation. Any new A12 contextual comparison retains A12
 ownership and a new prospective contract. [Literature framing and limits](RQ_CONNECTIONS.md)
 reuse the completed 8 November review; no exhaustive novelty claim is made.
 
-Planned execution folders are `contracts/` and `scripts/`; immutable outputs belong
-under `analysis/research/runs/`. Create them when the first contract and code are
-ready, not as empty evidence. A later `RESULTS.md` will link receipts and distinguish
-recovered, incompatible, unavailable and unestimated items. A measured-figure
-gallery is added only after a qualified run.
+Frozen [contracts](contracts/metadata_v3.json) and versioned scripts bind immutable
+outputs under `analysis/research/runs/Pg1_metadata_v3_20261108/`. The
+[qualification schema](QUALIFICATION_SCHEMA.md) separates author, parsed and
+unknown fields. The [missing-file request](MISSING_FILE_REQUEST.md) is drafted,
+not sent. No measured-figure gallery is created without qualified annotations.

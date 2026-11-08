@@ -1,0 +1,3 @@
+# Preserve exact frozen Peng code/contract bytes across platforms.
+contracts/** -text whitespace=cr-at-eol
+scripts/** -text whitespace=cr-at-eol

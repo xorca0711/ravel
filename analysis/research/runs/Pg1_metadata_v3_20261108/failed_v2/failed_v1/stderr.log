@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v1.py", line 123, in <module>
+    verify(p.parse_args().run)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v1.py", line 55, in verify
+    check(f'{gsm}: explicit alias agrees with supplementary filename',
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\verify_metadata_v1.py", line 26, in check
+    raise ValueError(f'Independent verification failed: {name}')
+ValueError: Independent verification failed: GSM9237905: explicit alias agrees with supplementary filename
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\metadata_v1.py", line 265, in <module>
+    execute(p.parse_args().output)
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\metadata_v1.py", line 258, in execute
+    subprocess.run([sys.executable, str(Path(__file__).with_name('verify_metadata_v1.py')), '--run', str(out)], check=True)
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\Research Article\\ungated_peng_2026_spatial_omics\\scripts\\verify_metadata_v1.py', '--run', 'X:\\GitHub\\ravel\\.worktrees\\peng-spatial-reading-20261108\\analysis\\research\\runs\\Pg1_metadata_v1_20261108']' returned non-zero exit status 1.

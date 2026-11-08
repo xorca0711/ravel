@@ -1,6 +1,6 @@
 # A12: recipient context beyond ligand RNA
 
-**Authorized source recovery, 8 November:** the [ungated Peng package](../../Research%20Article/ungated_peng_2026_spatial_omics/README.md) records recovered methods/GEO metadata, missing author exports and the stepwise technical plan. This advances qualification only; the A12 estimand, current results and claim status are unchanged.
+**Source qualification, 8 November:** the [Peng metadata result](../../Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md) verifies 185 GEO records and shared-source alias/patient joins, retaining six filename discrepancies and a P6 WES identity hold. Author state/pathology exports, geometry and measured panels remain unqualified; the within-state A12 extension is unestimated. The A12 estimand, prior results (including unfavorable fibroblast prediction) and claim status are unchanged.
 
 <a id="organizing-biological-question"></a>
 

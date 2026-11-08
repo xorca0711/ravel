@@ -1,9 +1,12 @@
 # Source and annotation recovery — 8 November 2026
 
-This is a source-reading/access record, not a completed numerical qualification.
-The next technical run must hash its inputs and produce the crosswalk through the
+This is the retained planning-stage source-reading/access record. The subsequent
+[completed metadata qualification](RESULTS.md) provides the frozen crosswalk,
+source ledger, filename conflicts and exact remaining holds through the
 [research contract and runner](../../docs/RESEARCH_GOVERNANCE.md). All source
 outcomes already inspected, including earlier C3 results, are outcome-exposed.
+The later Figure 5 code retrieval and publisher HTTP 403 route are recorded in
+its source manifest; Tables S1–S4 and annotation exports remain unrecovered.
 
 ## Recovered sources and remaining access limits
 

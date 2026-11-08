@@ -1,0 +1,81 @@
+{
+  "analysis_id": "Pg1-P01.metadata_v2",
+  "analysis_type": "metadata",
+  "outcome_exposure": "exposed",
+  "series": {
+    "GSE307534": {
+      "platform": "Visium",
+      "records": 56,
+      "patient_labels": 25,
+      "histology_deposited": {
+        "AAH": 11,
+        "LUAD": 26,
+        "AIS": 14,
+        "Normal": 1,
+        "MIA": 4
+      }
+    },
+    "GSE308103": {
+      "platform": "snRNA-seq",
+      "records": 75,
+      "patient_labels": 23,
+      "histology_deposited": {
+        "Normal": 24,
+        "AIS": 14,
+        "LUAD": 24,
+        "AAH": 9,
+        "MIA": 4
+      }
+    },
+    "GSE307529": {
+      "platform": "WES",
+      "records": 54,
+      "patient_labels": 25,
+      "histology_deposited": {
+        "AAH": 10,
+        "LUAD": 26,
+        "AIS": 14,
+        "MIA": 4
+      }
+    }
+  },
+  "total_records": 185,
+  "pairs": {
+    "GSE307534__GSE308103": {
+      "shared_exact_aliases": 52,
+      "source_only": 4,
+      "target_only": 23,
+      "overlapping_patient_labels": 23
+    },
+    "GSE307534__GSE307529": {
+      "shared_exact_aliases": 54,
+      "source_only": 2,
+      "target_only": 0,
+      "overlapping_patient_labels": 25
+    },
+    "GSE308103__GSE307529": {
+      "shared_exact_aliases": 50,
+      "source_only": 25,
+      "target_only": 4,
+      "overlapping_patient_labels": 23
+    }
+  },
+  "filename_alias_discrepancies": 6,
+  "prior_comparison_rows": 651,
+  "prior_disagreements": 0,
+  "inspected_spatial_archive_members": 728,
+  "candidate_pathology_members": 0,
+  "published_wes_total": 79,
+  "deposited_WES_records": 54,
+  "stages": {
+    "0": "complete_bounded_ledger",
+    "1": "complete_metadata_alias_and_patient_joins",
+    "2": "accessible_inventory_complete_exports_unrecovered",
+    "3": "held_annotation_geometry",
+    "4": "held_author_labels_neighborhood_inputs",
+    "5": "A12_unestimated_no_qualified_inputs_or_new_contract",
+    "6": "held_TMA_manifest_and_panel",
+    "7": "not_executed_longitudinal_functional_inputs_missing"
+  },
+  "interpretation": "No population inference, source independence, lesion identity, secretion, receptor activation, clone or fate established; no scientific acceptance"
+}
