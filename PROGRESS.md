@@ -1,5 +1,31 @@
 # Current project state
 
+## Peng biological framing repaired — 8 November 2026
+
+The [focused repair record](docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
+now records applied fixes against main `471d0c2`. Peng's current entrypoint and
+plan start from epithelial populations, pathological location and inflammatory
+surroundings, then distinguish abundance, arrangement and within-state questions.
+A12's README/context/dossier integrate the new RNA distributions into the existing
+predictive argument; completion banners no longer lead the question. A meaningful
+composition result is not counted as proof of A12's beyond-mixture increment.
+
+All measured results, unfavorable findings, registered hypotheses and illustrations
+are preserved. The numerical portion of the public result report and A12 tables
+match their pre-edit text. No new scientific run, global RQ or claim grade follows.
+The existing AGENTS.md requirements were applied; governance and validators are
+unchanged. The previous review's checkout hash failure is retained in the repair
+record; exact-byte restoration and 15 hash-verified archived outputs resolved the
+checkout-only failures. All 12 focused preservation checks, 18,531 repository
+checks and the base-aware research provenance gate passed. A final fetch verified
+that origin/main remains `471d0c2`; no biological analysis was rerun.
+
+Next scientific work remains a qualified comparison locating which states and
+regions carry the pattern, with the exact missing author exports retained as
+holds. Independent prediction, functional reception and later output have separate
+requirements. Zenodo access remains user-reported requested, pending/unverified.
+The owner authorized a local commit of this repair; no push or merge is requested.
+
 ## Peng biological review and PR synthesis — 8 November 2026
 
 [Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)

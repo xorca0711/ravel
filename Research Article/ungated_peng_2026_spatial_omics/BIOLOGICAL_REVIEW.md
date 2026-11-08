@@ -8,11 +8,18 @@ validation, a new experiment package or a human acceptance decision.
 
 ## What the completed work contributes
 
-The public analyses narrow how receptor RNA and tissue organization can be
-interpreted. They do not yet supply the paper's pathology/state layer.
-That distinction makes the work useful: it identifies measurements needed before
-assigning a contextual association to a particular epithelial state, and the
-conclusions that would still require functional evidence.
+The organizing question is how epithelial populations, pathological location and
+inflammatory surroundings relate across the sampled lesion contexts. The public
+analyses contribute an epithelial predictive lead's RNA distribution and a
+tissue-organization description. They separate candidate explanations without
+yet deciding among changing population abundance, arrangement or within-state
+response. These can coexist; cell composition is not automatically a nuisance.
+
+A12 retains its specific question about added recipient information beyond the
+specified ligand/mixture comparison. A population-associated pattern could inform
+the broader article question while failing to establish that A12 increment.
+The source-recovery endpoint and the ultimate functional questions are supporting
+and downstream branches respectively, not replacements for the biological aim.
 
 **A12:** in the original 12 paired patients, candidate AT2 nuclei have more
 frequent IL1RAP detection in LUAD, but lower normalized intensity among detected
@@ -109,8 +116,18 @@ New measurement context does not rescue prior unfavorable tests.
 These are conditional follow-ups under existing owners, not new numerical
 contracts or bench-ready protocols. All current outcomes have been seen.
 
+The nearest decision is which biological populations and regions carry the
+observed pattern. With qualified labels and geometry, differences in abundance
+could identify a changing population context; differences in arrangement among
+comparable populations could motivate a spatial-organization explanation; a
+within-state RNA association could motivate recipient-context work. These are
+possible interpretations, not effects established by residualizing broad RNA
+covariates. Independent prediction and functional response address different
+claims and need not be presented as a compulsory assay sequence.
+
 | Extension | Feasibility and prerequisite | Comparison and informative outcomes |
 |---|---|---|
+| State abundance and tissue organization | **Await qualified author labels/geometry for the planned pathology-resolved version.** Pg1-P01/C3 retain the source description; new numerical choices require a contract. | Identify populations/regions carrying the pattern, retaining abundance as an endpoint and distinguishing arrangement where the design supports it. A population-associated result informs tissue biology but does not establish A12's beyond-mixture increment or a causal niche effect. |
 | Author endpoint, then within-state context | **Await exports.** Pg1-P01 stages 3–4 precede A12 stage 5. Qualify geometry, pathology, states and overlap with outcome genes before freezing the endpoint. | Patient summaries within comparable strata could distinguish an association retained within state from one dependent on mixture/density. Either is informative; unresolved labels leave it unestimated. Reverse recruitment and other inputs remain. |
 | TMA transport | **Await core/full-panel qualification.** Use a compatible endpoint, verified patient/core nesting and source independence. | A fixed comparison in separate patients assesses transport. Coverage failure is non-estimability; discordance is a boundary result. Discovery reuse does not become independent evidence. |
 | Recipient response and niche dependence | **New measurements needed.** A12/A13 need independent epithelial state, justified source/ligand perturbation and separately measured response; model, timing, replication and precision remain unspecified. | A response difference linked to verified receptor configuration at matched state could support recipient dependence. Dependence on mixture or additional inputs narrows that account. Cardoso/Jaiswal motivate alternatives, not an automatic large factorial experiment. |

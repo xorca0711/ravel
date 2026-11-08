@@ -138,13 +138,28 @@ prior GEO qualification and successful input-hash records.
 
 ## Biological rationale, in text
 
-The functional question remains whether recipient configuration changes IL-1
-response in an independently established state. The detection/intensity plots
-and measured spatial maps are the visual aids: they show why mixture, depth and
-spatial organization remain alternatives to intrinsic receptor regulation.
-They do not test receptor assembly or functional signaling. Independent state
-identity and appropriate protein/functional measurements remain necessary for
-that inference.
+**Interpretation update, 8 November 2026; numerical results unchanged.**
+The organizing question concerns epithelial populations and inflammatory
+surroundings across lesion contexts. A12's prior epithelial predictive gain
+motivated the cell description; more frequent IL1RAP detection together with
+lower intensity among positive nuclei restricts a uniform-upregulation account.
+Depth and candidate-selection sensitivity leave the biological carrier unresolved.
+The new summaries neither decompose the old prediction gain nor refute receptor
+function.
+
+The spatial result adds tissue arrangement to section means. The next decision
+is which populations and pathological regions carry the association, and whether
+it varies with abundance, arrangement among comparable populations or within-state
+RNA. Population composition can itself be biologically meaningful; its role
+cannot be inferred from adjustment by three broad RNA proxies. A composition-
+associated result would still not establish A12's specific recipient increment
+beyond mixture. The [current synthesis](README.md#next-biological-decision) and
+[comparative review](BIOLOGICAL_REVIEW.md) distinguish these branches.
+
+Functional IL-1 reception in an independently established state is a stronger,
+separate question requiring suitable protein/response measurements. Later state
+persistence and mature output require linked outcomes under their existing owners.
+The measured plots and maps support the present descriptive arguments.
 
 Per the owner's presentation direction, text-box rationale diagrams are not
 displayed. The previous renderings remain immutable historical artifacts only.

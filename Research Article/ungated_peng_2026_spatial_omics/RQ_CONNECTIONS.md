@@ -1,5 +1,13 @@
 # Connections, contribution and distinctions
 
+The article asks how populations, pathology and inflammatory neighborhoods relate.
+Population abundance, spatial arrangement and within-state variation are
+potentially coexisting explanations. Pg1-P01/C3 can describe population and
+tissue organization; A12 asks the narrower question of recipient information
+beyond its specified ligand/mixture comparison. A meaningful composition result
+does not establish that A12 increment. A1/A8/A14 retain linked state/output and
+withdrawal questions. [Current progression](README.md#organizing-biological-question).
+
 The [completed-delivery biological review](BIOLOGICAL_REVIEW.md) compares the
 actual public results with neighboring article work and records conditional
 extensions. It preserves the distinctions below: the Visium lattice endpoint is
