@@ -1,0 +1,63 @@
+{
+  "candidate": "Nn26-P01",
+  "animal_stage": "eligible for exposed panel-wise reproduction after frozen contract",
+  "RNA_stage": "object qualification pending runtime/resources; aliases unresolved",
+  "independence": "no new mouse independence established",
+  "conflicts": [
+    {
+      "id": "cognition_direct_tests",
+      "locators": [
+        "S4 Figure 7 I14",
+        "S4 Figure 7 I19"
+      ],
+      "finding": "Direct rank-sum P values are reported separately from within-group chance tests; reproduce both, no WT arm."
+    },
+    {
+      "id": "nesting_dose_pooling",
+      "locators": [
+        "S4 Figure 7 D3",
+        "S4 Figure 7 D5",
+        "S4 Figure 7 I6"
+      ],
+      "finding": "Combined nesting pools 0.1 and 0.02 mg/mL; WT occurs only in 0.1 mg/mL cohort. Preserve aggregate reproduction and separate dose-specific description."
+    },
+    {
+      "id": "neurogenesis_labels",
+      "locators": [
+        "S4 Figure 6 A57",
+        "S4 Figure 6 A76",
+        "S4 Figure 6 E10:E16",
+        "paper Fig.6G/I/J and Methods P92"
+      ],
+      "finding": "Data-block titles say SVZ for both EdU outcomes; experiment descriptors and paper assign OB. Table panel letters differ from final paper; units also conflict. Analyze stored scale only; do not call values original counts/mm2."
+    },
+    {
+      "id": "source_count_conflicts",
+      "locators": [
+        "S1 Mouse_Metadata E8:E9",
+        "S4 Figure 2 D4",
+        "paper STAR Methods RIPR experiment 2",
+        "S1 Mouse_Metadata F18:F19",
+        "S4 Figure 3 D5"
+      ],
+      "finding": "RIPR second-cohort pool counts differ (S1 4, S4 5, paper 3); separate-WT control age differs (S1 27 months, S4 25 months). Optional cohorts remain unqualified for pooled comparisons."
+    },
+    {
+      "id": "absent_individual_keys",
+      "locators": [
+        "S1 Mouse_Metadata B11:B16/H11:H16",
+        "S4 Figure 6 and Figure 7 raw blocks"
+      ],
+      "finding": "Sample numbers/lane/index identify libraries, not demultiplexed mice. S4 gives group columns and some experiment blocks, no demonstrated stable mouse keys across assays."
+    },
+    {
+      "id": "aliases",
+      "locators": [
+        "IL10/1.Seurat.R:23-41,232,251-252",
+        "S1 Mouse_Metadata rows 11-16"
+      ],
+      "finding": "S1 samples/lanes are not code C1-C8 order. Six deposited RNA libraries versus eight code aliases remains unresolved. Saved object precedes later plot-only WT50/Mut50 filtering."
+    }
+  ],
+  "scientific_acceptance": "not_assessed"
+}
