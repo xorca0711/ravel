@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.animal_reproduction_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do deposited animal-level values reproduce the reported direct IL-10 comparisons, and which source discrepancies limit interpretation?",
+  "decision": "Establish reproducibility of specified neural, behavioral and immune readouts, preserving nulls, source disagreements and unsupported physical-unit or cross-assay claims.",
+  "strongest_rival": "Attrition, mislabeled panels/scales, mixed doses, shared normalization and absent stable mouse IDs can overstate treatment evidence.",
+  "discriminator": "Separate direct group tests from chance tests; preserve all 16 declared endpoint blocks, dose-specific nesting, original denominators and arithmetic discrepancies.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, correction, code, S1, selected S4 individual values and reported P values read before freeze on 2026-11-08. Explicit exposed reproduction.",
+  "biological_unit": "Individual mouse within each panel as documented by legends; source coordinates are not cross-assay mouse identities.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Sections averaged within mice. Two neurogenesis/FACS blocks retained. Combined nesting reuses high/low cohorts with WT only high. Cognition panels share original cohort but have different attrition; no per-mouse task join.",
+  "population_and_selection": "All available numerical observations in 16 predeclared S4 panels/ranges under original seven-stage priorities; aged males with contextual young controls.",
+  "contrast": "D25K-Control, WT-Control, D25K-WT where arms exist; reported Young-Control and RIPR-Control. Dose/cohort descriptions separated from mixed-dose aggregate reproduction.",
+  "endpoint": "Y-maze index, NOR percentage, open field, neural-marker source values, ordinal nesting and mouse-level microglial protein readouts.",
+  "methods": "Exact coordinates and methods in bound animal_panels_v1.json. Two-sided rank-sum exact without ties; tie-corrected asymptotic with continuity for ties; both approximation options retained. Two-sided one-sample t for chance per Methods; signed-rank diagnostic. Mean differences and rank-biserial point summaries. Mouse plots; no new confidence intervals.",
+  "missingness_and_exclusions": "Blank source cells are missing. Exclude only declared summary rows. Preserve published attrition without invented mouse IDs. No dropping data to match a P value or cached mean; ambiguities remain findings.",
+  "multiplicity": "Unadjusted published tests reproduced; no new familywise discovery/equivalence decision. Predeclared unreported comparisons are diagnostic only.",
+  "precision_status": "unknown",
+  "precision_basis": "No justified effect margin or numerical precision basis recovered. No post-hoc power; ambiguous scales and shared normalizers limit further uncertainty claims.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reproduction, not independent replication. No WT cognition, mediation, age interaction, injury repair or unsupported physical-unit conversion. No cross-panel row matching.",
+  "stop_rule": "Fail on nonnumeric cells, unresolved blocks or independent arithmetic disagreement; preserve source-summary/P discrepancies without tuning methods or selection.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_animal_panels",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/paper.xml",
+      "sha256": "75c65f97aa3cd4c05d4b16d60f53a9fd570d65250a439faadf9ce4baf3b91037",
+      "study_id": "NavarroNegredo2026_animal_panels",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/reproduce_animals_v1.py",
+      "sha256": "ac6d06f4fab00cdb3b7f200c2c0b82e7b8bcb3cce5390695bfecb069f7938ac8"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/config/animal_panels_v1.json",
+      "sha256": "56283c81d1911604e65b3746cbc42e020a92d2592e10810d22cfe5bc9d140d25"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/reproduce_animals_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.csv",
+    "summaries.csv",
+    "contrasts.csv",
+    "chance_tests.csv",
+    "source_mean_reconciliation.csv",
+    "results.json",
+    "validation.json",
+    "cognition.png",
+    "cognition.svg",
+    "neurogenesis.png",
+    "neurogenesis.svg",
+    "nesting.png",
+    "nesting.svg",
+    "immune_protein.png",
+    "immune_protein.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed animal reproduction after S1/S4 qualification; source labels and test-option uncertainties retained."
+}
