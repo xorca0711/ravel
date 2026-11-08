@@ -1,0 +1,34 @@
+{
+  "archived_status": "execution_failed",
+  "original_run_id": "nn26_rds_metadata_v1",
+  "original_freeze_commit": "d03c72fb4cf384a0e0b26bee5b18ca161c88e971",
+  "files": [
+    {
+      "file": "receipt.json",
+      "sha256": "8b30f4de5d24f2893fbd9e1333cf2f126c0e9b177a651d52d9873b4a2441e8dd",
+      "size_bytes": 5059
+    },
+    {
+      "file": "load_status.json",
+      "sha256": "2acbc354992452c15b050b41554e05d5129d02d908f8cebda141e15d22c371e1",
+      "size_bytes": 91
+    },
+    {
+      "file": "resource_usage.json",
+      "sha256": "1365c4e4e1338723e39e73b12620a67513bfc95a481ed982bb70a664c20dc6e7",
+      "size_bytes": 272
+    },
+    {
+      "file": "stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "file": "stderr.log",
+      "sha256": "c0c2630e25d8fa7b6a281569320a8e0263df293b119b51b142581a337bd9cd15",
+      "size_bytes": 73
+    }
+  ],
+  "operation": "Byte-for-byte preservation of failure, not successful biological execution.",
+  "original_receipt_rewritten": false
+}
