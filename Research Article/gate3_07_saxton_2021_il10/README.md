@@ -1,5 +1,12 @@
 # Saxton 2021 IL-10 — Gate 3A (paper 7)
 
+**Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../ungated_navarro_negredo_2026_aged_brain_il10/README.md)
+connects published D25K effects in the aged neural niche to this paper's
+myeloid/T-cell selectivity problem. It adds separate functional evidence, not
+replication of the existing super-10/10-DE RNA contrasts. Pooled sequencing,
+missing young-treatment arms and behavioral-statistics access limits are explicit.
+The owner placed this study in a separate ungated package; no adopted RQ.
+
 **Completed technical description, 8 November 2026:** [results](../ungated_saxton_2021_il10/RESULTS.md),
 [three figures](../ungated_saxton_2021_il10/FIGURES.md), [source qualification](../ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md),
 [completion/hold ledger](../ungated_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../ungated_saxton_2021_il10/VALIDATION.md).

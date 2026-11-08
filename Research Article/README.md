@@ -26,7 +26,7 @@ and exact-replay holds. IL-10 remains existing paper 7; no new roadmap member.
 
 ## Browse by biological topic
 
-[The shared topic map](../docs/guides/RESEARCH_TOPICS.md) connects all 20 paper packages
+[The shared topic map](../docs/guides/RESEARCH_TOPICS.md) connects all 21 paper packages
 to the 36 question homes. The study inventory has a separate topic-tag column;
 reading status, analysis status and interpretation remain in their existing
 columns and owning reports. Shared tags do not establish a paper-to-RQ evidence
@@ -41,6 +41,7 @@ membership; it does not imply acceptance or waive source/analysis eligibility.
 
 | Source | Scope and current entry point |
 |---|---|
+| **Navarro Negredo 2026 — ungated** | [Aged-brain IL-10 study and data-use assessment](ungated_navarro_negredo_2026_aged_brain_il10/README.md); separate owner-selected paper package linked to Saxton. Reading/source inspection completed; no biological analysis, registered candidate or scientific acceptance. |
 | **Damani–Yokota 2026 — ungated (DY1)** | [Study and current disposition](ungated_damani_yokota_2026/README.md); source reproduction, article-local comparisons and explicit holds. The historical `gate2_DY1_...` directory is retained because frozen contracts and receipts bind it; it is not a Gate 2 assignment. |
 | **Arozamena 2026 — ungated (Arz1)** | [Source qualification and paired descriptions](ungated_arozamena_2026_inflammatory_memory/README.md); original state/function questions retain their data limits. |
 | **Murthy 2022 — ungated** | [Atlas source and gallery](ungated_murthy_2022/README.md); deposited atlas analysed, roadmap study note not written. |

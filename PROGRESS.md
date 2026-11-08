@@ -3,6 +3,41 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Navarro Negredo aged-brain paper assessed — 8 November 2026
+
+Completed the owner-requested [fit assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md)
+and [data/source audit](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/DATA_USAGE.md)
+on `codex/navarro-aging-fit-20261108`, based on freshly fetched main `1ff71a1`.
+The paper is a strong Saxton IL-10 companion: D25K connects immune selectivity
+to aged-niche neurogenesis/behavior, with distinct assays and interpretation
+limits. The primary IL-10 sequencing pools lack animal-level treatment
+replication and young-treatment arms. Age-associated decline is not a defined
+injury-repair experiment; D25K is absent from Ravel's existing Saxton RNA arms.
+
+Verified PRJNA1365936's 20 run records, the five-object Zenodo manifest, frozen
+author-code archive and a later figure correction. Recovered PMC XML identifies
+S1/S4, but their downloads returned HTML rather than spreadsheets; complete
+between-group behavioral statistics and processed-object metadata remain unread.
+No large matrices, FASTQs, biological reruns, RQ/claim promotions or external
+setting changes. Existing checkout edits and frozen evidence are preserved.
+
+Next if numerical reuse is selected: recover S1/S4 and supplements, qualify the
+object's condition/dose/pool mappings under a new contract, then decide whether
+a bounded within-dose D25K/WT description is informative. The owner selected a separate ungated package; article/topic navigation, the
+outside-roadmap source record and public source register reflect that placement.
+No numerical analysis or new candidate is launched. Validation passed: 18,245
+repository checks, the base-aware research gate, 167 tests (two skips),
+compilation, all required archive verifiers and 18 unchanged claim bindings.
+The initial sandbox temporary-directory failures were resolved by using this
+chat's writable test directory. Fresh-checkout gate failures required restoring
+33 historical files to exact HEAD bytes after confirming only line endings
+differed, plus 15 absent published outputs from an existing hash-locked local
+cache. No historical content or validators changed; byte-preserved files remain
+unstaged if Git's line-ending conversion reports them as modified.
+Main was refreshed and remains `1ff71a1`. Final editorial checks cover the
+separate placement, topic counts, local links and unchanged ordered reading list.
+The package is local; no push, PR, merge or external setting change occurred.
+
 ## Remaining top-level documentation organized — 8 November 2026
 
 Owner identified clutter left by compatibility files. Scoped branch
