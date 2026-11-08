@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.failure_preservation_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can the failed first metadata run be preserved byte-for-byte with its actual failure status and original receipt?",
+  "decision": "Retain truthful failure provenance in a registered archive without representing a failed analysis as successful.",
+  "strongest_rival": "A copied or rewritten failure record could lose source identity or be mistaken for a completed biological stage.",
+  "discriminator": "Verify original failure status, exit code, analysis ID, and exact byte hashes of every archived file.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper figures, captions, published markers, source/animal results and author code exposed. The biological RDS has not been deserialized before this first metadata freeze; earlier acquisition used only opaque byte hashes.",
+  "biological_unit": "Not applicable: execution records only.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "S1 reports one old-control mouse and two pooled mice in the other main libraries, with no multiplexing. Shared controls serve both dose contrasts. Individual donor assignment requires separate provenance.",
+  "population_and_selection": "All retained cells in the authorized main IL10_svz_seurat.rds and original broad Celltype annotations. No fresh clustering, integration, downsampling or marker-based exclusion.",
+  "contrast": "Original failed files versus their exact archived bytes; no biological comparison.",
+  "endpoint": "Exact file hashes and preserved execution_failed status.",
+  "methods": "Copy five frozen failed-run files and independently compare SHA-256; emit a manifest that distinguishes archive execution from biological execution.",
+  "missingness_and_exclusions": "No new exclusions. Missing fields, absent genes/conditions, explicit sparse zeros, duplicate/misaligned barcodes and source discrepancies are reported. A failed required check stops dependent analyses rather than selecting favorable records.",
+  "multiplicity": "Metadata and arithmetic checks only; no inferential P values or confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate. Exact stored recovery counts and bounded numerical tolerance qualify file arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No biological replication, population treatment effect, age interaction, mediation or repair inference. Downstream microglia exclusions and filename changes must remain distinct from broad deposited cells.",
+  "stop_rule": "Stop on source hash mismatch, incompatible sparse layers, barcode/gene misalignment, incomplete required labels, invalid raw counts, or operational limits. Normalization mismatch holds descriptive RNA stage; preserve failures and use a new committed amendment for changes.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/failed_metadata_v1/receipt.json",
+      "sha256": "8b30f4de5d24f2893fbd9e1333cf2f126c0e9b177a651d52d9873b4a2441e8dd",
+      "study_id": "nn26_rds_metadata_v1_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/failed_metadata_v1/load_status.json",
+      "sha256": "2acbc354992452c15b050b41554e05d5129d02d908f8cebda141e15d22c371e1",
+      "study_id": "nn26_rds_metadata_v1_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/failed_metadata_v1/resource_usage.json",
+      "sha256": "1365c4e4e1338723e39e73b12620a67513bfc95a481ed982bb70a664c20dc6e7",
+      "study_id": "nn26_rds_metadata_v1_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/failed_metadata_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "nn26_rds_metadata_v1_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/failed_metadata_v1/stderr.log",
+      "sha256": "c0c2630e25d8fa7b6a281569320a8e0263df293b119b51b142581a337bd9cd15",
+      "study_id": "nn26_rds_metadata_v1_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/preserve_failure_v1.py",
+      "sha256": "b8444cc9c45c1cac1166aa9ce1f9e46fb659bbec1fbb591ad58d3196bf3ca1fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/preserve_failure_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "failed_v1/receipt.json",
+    "failed_v1/load_status.json",
+    "failed_v1/resource_usage.json",
+    "failed_v1/stdout.log",
+    "failed_v1/stderr.log",
+    "failure_archive_manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Preserve the original failure through an explicitly registered archive; do not register its failed receipt as successful."
+}

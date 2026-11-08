@@ -1,0 +1,48 @@
+{
+  "cells": 51176,
+  "genes": 31053,
+  "conditions": {
+    "Control": 3365,
+    "Mut1": 8391,
+    "Mut5": 6162,
+    "Mut50": 4167,
+    "WT1": 9384,
+    "WT5": 7760,
+    "WT50": 3161,
+    "Young": 8786
+  },
+  "celltypes": {
+    "aNSCs_NPCs": 3157,
+    "Astrocytes_qNSCs": 4858,
+    "Endothelial": 9524,
+    "Ependymal": 452,
+    "Macrophages": 893,
+    "Microglia": 12668,
+    "Mural_cells": 3229,
+    "Neuroblasts": 5492,
+    "Neurons": 370,
+    "Oligodendrocytes": 9767,
+    "OPC": 257,
+    "T_cells": 509
+  },
+  "sparse_counts": {
+    "explicit_zeros": 0,
+    "negative": 0,
+    "noninteger": 0,
+    "nonfinite": 0
+  },
+  "zero_library_totals": 0,
+  "nCount_matches": 0,
+  "nFeature_matches": 0,
+  "thresholds": {
+    "nCount_RNA_gt_1000": 0,
+    "nFeature_RNA_gt_500": 0,
+    "percent_mt_lt_10": 0
+  },
+  "broad_Remove_cells": 0,
+  "downstream_Micro_types_present": false,
+  "WT50_present": true,
+  "Mut50_present": true,
+  "true_mouse_assignment_established": false,
+  "source_pooling": "One pool/library per main condition. Old vehicle one mouse; other reported main libraries two pooled mice; no multiplexing."
+}
