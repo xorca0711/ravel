@@ -1060,6 +1060,15 @@
         "Research Article/ungated_saxton_2021_il10/extensions_20261108/PLAN.md",
         "Research Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md"
       ]
+    },
+    {
+      "id": "Nn26-P01",
+      "plan": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+      "evidence": [
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md"
+      ]
     }
   ],
   "contracts": [
@@ -1245,7 +1254,8 @@
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/gorby_qualification_v2.json",
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/coinput_qualification_v2.json",
     "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v2.json",
-    "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/reported_description_v1.json"
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/reported_description_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/source_qualification_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
