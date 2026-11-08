@@ -1,0 +1,25 @@
+platform,histology,marks_derived,table_reported,GEO_records,table_minus_GEO,marks_match_reported,source_locator,marks_range,formula,comparison_level
+Visium,Normal,1,1,1,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA3,NIHMS2118436-supplement-2.xlsx#Tab 2!B3:Z3,,aggregate_participation
+Visium,AAH,11,11,11,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA4,NIHMS2118436-supplement-2.xlsx#Tab 2!B4:Z4,,aggregate_participation
+Visium,AIS,14,14,14,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA5,NIHMS2118436-supplement-2.xlsx#Tab 2!B5:Z5,,aggregate_participation
+Visium,MIA,4,4,4,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA6,NIHMS2118436-supplement-2.xlsx#Tab 2!B6:Z6,,aggregate_participation
+Visium,LUAD,26,26,26,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA7,NIHMS2118436-supplement-2.xlsx#Tab 2!B7:Z7,,aggregate_participation
+Visium,ALL,56,56,56,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA8,NIHMS2118436-supplement-2.xlsx#Tab 2!B3:Z7,=SUM(AA3:AA7),aggregate_participation
+snRNA-seq,Normal,24,24,24,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA10,NIHMS2118436-supplement-2.xlsx#Tab 2!B10:Z10,,aggregate_participation
+snRNA-seq,AAH,9,9,9,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA11,NIHMS2118436-supplement-2.xlsx#Tab 2!B11:Z11,,aggregate_participation
+snRNA-seq,AIS,14,14,14,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA12,NIHMS2118436-supplement-2.xlsx#Tab 2!B12:Z12,,aggregate_participation
+snRNA-seq,MIA,4,4,4,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA13,NIHMS2118436-supplement-2.xlsx#Tab 2!B13:Z13,,aggregate_participation
+snRNA-seq,LUAD,24,24,24,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA14,NIHMS2118436-supplement-2.xlsx#Tab 2!B14:Z14,,aggregate_participation
+snRNA-seq,ALL,75,75,75,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA15,NIHMS2118436-supplement-2.xlsx#Tab 2!B10:Z14,=SUM(AA10:AA14),aggregate_participation
+WES,Normal,24,24,0,24,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA17,NIHMS2118436-supplement-2.xlsx#Tab 2!B17:Z17,,aggregate_participation
+WES,AAH,11,11,10,1,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA18,NIHMS2118436-supplement-2.xlsx#Tab 2!B18:Z18,,aggregate_participation
+WES,AIS,14,14,14,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA19,NIHMS2118436-supplement-2.xlsx#Tab 2!B19:Z19,,aggregate_participation
+WES,MIA,4,4,4,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA20,NIHMS2118436-supplement-2.xlsx#Tab 2!B20:Z20,,aggregate_participation
+WES,LUAD,26,26,26,0,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA21,NIHMS2118436-supplement-2.xlsx#Tab 2!B21:Z21,,aggregate_participation
+WES,ALL,79,79,54,25,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA22,NIHMS2118436-supplement-2.xlsx#Tab 2!B17:Z21,=SUM(AA17:AA21),aggregate_participation
+Xenium_5K_Prime,Normal,0,0,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA24,NIHMS2118436-supplement-2.xlsx#Tab 2!B24:Z24,,aggregate_participation
+Xenium_5K_Prime,AAH,3,3,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA25,NIHMS2118436-supplement-2.xlsx#Tab 2!B25:Z25,,aggregate_participation
+Xenium_5K_Prime,AIS,3,3,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA26,NIHMS2118436-supplement-2.xlsx#Tab 2!B26:Z26,,aggregate_participation
+Xenium_5K_Prime,MIA,0,0,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA27,NIHMS2118436-supplement-2.xlsx#Tab 2!B27:Z27,,aggregate_participation
+Xenium_5K_Prime,LUAD,6,6,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA28,NIHMS2118436-supplement-2.xlsx#Tab 2!B28:Z28,,aggregate_participation
+Xenium_5K_Prime,ALL,12,12,,,True,NIHMS2118436-supplement-2.xlsx#Tab 2!AA29,NIHMS2118436-supplement-2.xlsx#Tab 2!B24:Z28,=SUM(AA24:AA28),aggregate_participation

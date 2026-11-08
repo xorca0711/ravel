@@ -3,7 +3,13 @@
 The [current samples](../../analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv)
 are one row per actual GSE/GSM library record. `record_id` and `cohort_id` are
 local bookkeeping labels, not author section identifiers. Raw strings and parsed
-components must remain separate. [Results and limits](RESULTS.md).
+components must remain separate. [Original GEO limits](RESULTS.md) remain intact.
+The [supplement qualification](SUPPLEMENTS_RESULTS.md) adds cell-linked clinical
+and platform participation, aggregate TMA groups, namespaced programs/signatures,
+custom add-ons and published assay summaries. Actual merges, not forward-fill,
+link TMA source fields. These tables do not populate unknown library-level block,
+section, core or barcode IDs. Missing custom-add-on membership does not establish
+an unmeasured gene; the full base panel and measured matrix remain required.
 
 | Fields | Provenance / interpretation |
 |---|---|

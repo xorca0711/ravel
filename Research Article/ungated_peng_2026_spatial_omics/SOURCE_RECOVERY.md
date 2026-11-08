@@ -6,9 +6,12 @@ source ledger, filename conflicts and exact remaining holds through the
 [research contract and runner](../../docs/RESEARCH_GOVERNANCE.md). All source
 outcomes already inspected, including earlier C3 results, are outcome-exposed.
 The later Figure 5 code retrieval and publisher HTTP 403 route are recorded in
-its source manifest; Tables S1–S4 and annotation exports remain unrecovered.
+its source manifest. **Subsequently, the owner supplied Tables S1–S6:** their
+[completed qualification](SUPPLEMENTS_RESULTS.md) resolves table-content access
+and narrows participation/panel holds. Actual barcode/ROI exports remain missing.
+The access observations below describe the period before that supply.
 
-## Recovered sources and remaining access limits
+## Historical access record before supplied tables
 
 | Source | Observed availability | Permitted use |
 |---|---|---|

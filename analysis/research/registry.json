@@ -1065,6 +1065,7 @@
       "id": "Pg1-P01",
       "plan": "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
       "evidence": [
+        "Research Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md",
         "Research Article/ungated_peng_2026_spatial_omics/RESULTS.md",
         "Research Article/ungated_peng_2026_spatial_omics/README.md",
         "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
@@ -1436,7 +1437,8 @@
     "analysis/research/runs/sx10_coinput_qualification_v2/receipt.json",
     "analysis/research/runs/sx22_priming_qualification_v2/receipt.json",
     "analysis/research/runs/sx10_gorby_reported_description_v1/receipt.json",
-    "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json"
+    "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+    "analysis/research/runs/Pg1_supplements_v2_20261108/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

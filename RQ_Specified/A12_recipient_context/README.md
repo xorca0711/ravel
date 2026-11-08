@@ -1,6 +1,6 @@
 # A12: recipient context beyond ligand RNA
 
-**Source qualification, 8 November:** the [Peng metadata result](../../Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md) verifies 185 GEO records and shared-source alias/patient joins, retaining six filename discrepancies and a P6 WES identity hold. Author state/pathology exports, geometry and measured panels remain unqualified; the within-state A12 extension is unestimated. The A12 estimand, prior results (including unfavorable fibroblast prediction) and claim status are unchanged.
+**Source qualification, 8 November:** [Peng Tables S1–S6 are now qualified](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md). Patient/platform and aggregate TMA metadata, human/mouse signatures and two custom add-ons are explicit; source-linked checks identify feature overlap with the fixed A12 endpoint. Add-on absence is not full-assay absence. Author state/pathology exports, geometry, exact section/core maps and measured panels remain unqualified, so the within-state A12 extension is unestimated. The prior 185-record GEO result, P6 WES hold, A12 estimand, unfavorable fibroblast result and claim status are unchanged.
 
 <a id="organizing-biological-question"></a>
 

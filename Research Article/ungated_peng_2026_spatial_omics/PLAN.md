@@ -5,11 +5,13 @@ execution in a separate technical chat. This plan authorizes progression through
 eligible steps with prospective contracts; it does not make missing inputs
 available or certify scientific acceptance. [Actual source status](SOURCE_RECOVERY.md).
 
-**Execution status:** [RESULTS](RESULTS.md) records completed stages 0–1 and the
-accessible source/annotation inventory in stage 2. Stages 3–6 remain input-specific
-holds; stage 7 lacks linked functional inputs. The plan below retains the intended
-sequence. Next permitted action is qualification of newly supplied exports under
-new contracts, not another whole-section score.
+**Execution status:** [Original GEO metadata](RESULTS.md) remains frozen in its
+run. The [supplementary qualification](SUPPLEMENTS_RESULTS.md) completes the newly
+eligible S1 clinical/participation reconciliation, S2–S4 list definitions, S5/S6
+published assay summaries and aggregate TMA portion of stage 6. Actual annotation,
+geometry, exact section/core maps and measured-panel requirements still hold
+stages 3–6. Stage 7 still lacks linked functional inputs. The next input-driven
+contract must qualify those exports before any reproduction or A12 calculation.
 
 ## Purpose, comparison and limits
 
@@ -27,7 +29,7 @@ metadata task. The paper, notes and reused results have already been seen.
 
 | Step | Work and owner | Deliverable and decision |
 |---|---|---|
-| 0 — source ledger | Pg1-P01: reuse recovered public metadata, previous C3 inventories and source access receipts. Record version/URL/hash; verify downloads are their claimed format. | Source manifest with successful, restricted, unresolved and failed routes. Current reading record is complete; machine-verifiable manifest remains to run. |
+| 0 — source ledger | Pg1-P01: reuse recovered public metadata, previous C3 inventories and source access receipts. Record version/URL/hash; verify downloads are their claimed format. | Source manifest with successful, restricted, unresolved and failed routes. GEO v3 and supplement v2 manifests complete for received sources; new access only for a named remaining gap. |
 | 1 — sample joins | Pg1-P01: parse the three GEO SOFT records; compare exact author library aliases, GSMs and demographics with existing crosswalks. Qualify WES separately; reconcile S1 if obtained. | `samples.csv`, `crosswalk.csv`, `join_issues.csv`, `summary.json`. One row per actual library/section, no fabricated Xenium records. Accept patient-level matches at that level only; unresolved specimen relationships stay unknown. |
 | 2 — pathology/ROI recovery | Pg1-P01: inspect documented public supplemental/author products and existing member inventories. Obtain permitted exports if available; distinguish published definitions from actual geometry/labels. | Annotation inventory and schema, exact recovered files, missing-data specification. If exports are inaccessible, retain the hold on region-specific analysis while completing metadata work. Do not repeatedly download the known 9.4 GB archive. |
 | 3 — coordinate and annotation qualification | Pg1-P01, conditional on exports: check sample/barcode uniqueness, polygon membership, units/orientation, image dimensions, transforms, label dictionaries, QC and category totals against author figures. | A bounded alignment/QC report with overlays from measured data, exact disagreements and exclusion counts. Failures hold only affected sections/analyses. No score-derived replacement for missing pathology. |

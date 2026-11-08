@@ -1,8 +1,10 @@
 # Technical execution handoff
 
-**Executed 8 November 2026:** [RESULTS](RESULTS.md) is the current handoff. Metadata
-v3 completed after two preserved failures; [missing-file request](MISSING_FILE_REQUEST.md)
-and [qualification schema](QUALIFICATION_SCHEMA.md) define the next inputs.
+**Current handoff, 8 November 2026:** [Supplement qualification](SUPPLEMENTS_RESULTS.md)
+records the new S1–S6 inputs and remaining holds. The [original metadata v3 result](RESULTS.md)
+is unchanged. [Missing-file request](MISSING_FILE_REQUEST.md) and
+[qualification schema](QUALIFICATION_SCHEMA.md) define the remaining inputs;
+no table-content download or prior GEO scan needs repeating.
 The original dispatch instructions below remain historical execution context.
 
 Owner request, 8 November 2026: execute the structured plan in a separate technical

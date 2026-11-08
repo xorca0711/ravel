@@ -3,30 +3,39 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Peng metadata execution complete; spatial inputs held — 8 November 2026
+## Peng supplementary sources qualified; spatial exports held — 8 November 2026
 
-[Pg1-P01 results](Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md)
-complete the bounded source ledger, 185-record metadata crosswalk and accessible
-annotation inventory. Frozen v3 (`84d156e`) passed 3,961 independently implemented
-checks and preserves both failed attempts byte-for-byte. Five snRNA filename
-suffix differences and WES GSM9226083 (`P6_AAH` versus file `P6_AIS`) remain explicit;
-the WES file and its affected joins have an identity hold. P7 historical review
-mapping and WES 79-versus-54 coverage remain unresolved. Prior C3 fields agree.
+[Current supplement result](Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md)
+qualifies the six owner-supplied Tables S1–S6 with 42,530 independent checks.
+Contract v2 was frozen at `a46a835`. The first source run failed on S5 Gene A333,
+a date-formatted numeric serial; its complete failed archive is retained, and
+that gene identity remains explicitly unresolved. Original workbooks and the
+[previous GEO result](Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md),
+metadata_v3 receipt and outputs remain unchanged.
 
-Actual author barcode/pathology/state exports, ROI polygons/transforms, specimen
-maps and panel contents remain unrecovered. A distinct publisher route returned
-403; prior failures/restricted Zenodo records were reused without bypass. Stages
-3–6 remain narrow input holds; A12 is unestimated. [Exact next-input request](Research%20Article/ungated_peng_2026_spatial_omics/MISSING_FILE_REQUEST.md)
-is drafted, not sent. On permitted receipt of inputs, qualify their keys/geometry/
-panels under a new contract, then separately freeze source reproduction or A12.
-No new global RQ, acceptance, expression run, paid compute or NGS workflow.
+S1 resolves participation totals and narrows WES 79-versus-54 to 24 Normal plus
+one P4 AAH block; P6 file identity and P7 original review mapping remain held.
+Discovery Xenium participation and 188 aggregate TMA cores / 19 patient labels
+are qualified, with no invented section/core IDs. Published MP/signature lists,
+two custom add-ons, DEG and antibody/run metadata are source-linked. Add-on
+absence is not unmeasured in the complete assay; overlap with the existing A12
+endpoint is inventoried without a new score or model. Prior unfavorable results
+and all question/claim identities remain unchanged.
 
-Work remains local on `codex/peng-spatial-reading-20261108`. Refreshed main remains
-`1ff71a1818be1782dede0ccd5898eea793497f73`; [delivery validation](Research%20Article/ungated_peng_2026_spatial_omics/VALIDATION.md)
-records current checks and preservation. Original checkout/unrelated work and
-prior A11/A12/A13 evidence remain preserved. No push, PR, merge, author contact,
-access request or Notion mutation. External file-access restrictions remain the
-only settings-dependent input gap; no account/protection settings were changed.
+Next inputs are actual author barcode/state/pathology exports, ROI polygons and
+transforms, exact section/core manifests, complete base-panel versions and measured
+gene axes. [Revised file request](Research%20Article/ungated_peng_2026_spatial_omics/MISSING_FILE_REQUEST.md)
+is drafted, not sent; it no longer asks for S1–S6. Qualify received exports under a
+new contract before stage 3 alignment, source reproduction, A12 estimation or TMA
+endpoint transport. No additional expression/spatial analysis is eligible from
+these metadata tables alone. S5/S6 do not provide stage 7 longitudinal outcomes.
+
+Work remains local on `codex/peng-spatial-reading-20261108`; refreshed main and
+[delivery checks](Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_VALIDATION.md)
+are recorded with preservation results. Original checkout and unrelated changes
+are preserved. No push, PR, merge, author message, restricted-access request,
+Notion edit, paid compute or NGS run. Restricted Zenodo access is unchanged;
+there is no new external account setting to resolve for this completed intake.
 
 ## Remaining top-level documentation organized — 8 November 2026
 

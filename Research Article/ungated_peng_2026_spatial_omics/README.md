@@ -13,16 +13,19 @@ proinflammatory niches in progression of lung precursor lesions*. Published onli
 supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
 provides searchable methods and links to additional spreadsheet tables.
 
-**Current result:** [Gated metadata qualification completed](RESULTS.md): 185 GEO
-records, exact author-alias and patient-level crosswalks, source/annotation inventory
-and 3,961 independent checks. Five snRNA filename punctuation differences and one
-WES histology conflict remain explicit; P6 WES file identity is held. Both failed
-attempts are preserved. Author pathology/cell exports, polygons, specimen maps and
-panels remain unavailable, so region reproduction and A12 estimation are held.
+**Current result:** [Supplied Tables S1–S6 are qualified](SUPPLEMENTS_RESULTS.md),
+with 42,530 independent checks. They resolve table access, localize the WES gap to
+24 Normal plus one P4 AAH block, recover discovery Xenium participation and
+aggregate TMA structure, and provide distinct program/signature/custom-add-on
+lists. One S5 date-formatted gene cell remains unresolved. The
+[previous 185-record GEO result](RESULTS.md) is preserved unchanged, including
+its P6 WES identity hold. Actual barcode/state labels, ROI geometry, exact section/
+core maps and full measured panels remain missing; A12 estimation is unestimated.
 
 | Read next | Purpose |
 |---|---|
-| [Results and receipts](RESULTS.md) | Completed stages, discrepancies, verification and exact next inputs |
+| [Supplement qualification](SUPPLEMENTS_RESULTS.md) | Current source access, lifted/narrowed holds, definitions and receipts |
+| [Original GEO metadata result](RESULTS.md) | Preserved 185-record audit and original hold record |
 | [Source recovery](SOURCE_RECOVERY.md) | Actual access, author definitions, missing exports and join limits |
 | [Stepwise plan](PLAN.md) | Executable sequence, required inputs and informative outcomes |
 | [Connections and distinctions](RQ_CONNECTIONS.md) | Existing owners, published premises and different estimands |
@@ -54,8 +57,9 @@ not independent validation. Any new A12 contextual comparison retains A12
 ownership and a new prospective contract. [Literature framing and limits](RQ_CONNECTIONS.md)
 reuse the completed 8 November review; no exhaustive novelty claim is made.
 
-Frozen [contracts](contracts/metadata_v3.json) and versioned scripts bind immutable
-outputs under `analysis/research/runs/Pg1_metadata_v3_20261108/`. The
+Frozen [supplement contract](contracts/supplements_v2.json) and versioned scripts
+bind immutable outputs under `analysis/research/runs/Pg1_supplements_v2_20261108/`.
+The earlier GEO run, contracts and result remain intact. The
 [qualification schema](QUALIFICATION_SCHEMA.md) separates author, parsed and
 unknown fields. The [missing-file request](MISSING_FILE_REQUEST.md) is drafted,
 not sent. No measured-figure gallery is created without qualified annotations.

@@ -1,0 +1,117 @@
+{
+  "source_kind": "user_supplied_local_supplementary_workbooks",
+  "files": [
+    {
+      "table": "S1",
+      "file": "NIHMS2118436-supplement-2.xlsx",
+      "sha256": "43e8e406addcda3180bde3d89ea840e8f4491cf1ee3759ba1f04ad4b0e9ad188",
+      "bytes": 21922,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-2.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.808730+00:00"
+    },
+    {
+      "table": "S2",
+      "file": "NIHMS2118436-supplement-3.xlsx",
+      "sha256": "d1c2333ab6031b83fe3cafd2a2fd274e802399c0f54cda50cd37f0238b2158b0",
+      "bytes": 22569,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-3.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.810757+00:00"
+    },
+    {
+      "table": "S3",
+      "file": "NIHMS2118436-supplement-4.xlsx",
+      "sha256": "043ff6c684dfabd24945c5dfc08c9bce913707a978d1971fb7fbb851546ea7b0",
+      "bytes": 19612,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-4.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.813119+00:00"
+    },
+    {
+      "table": "S4",
+      "file": "NIHMS2118436-supplement-5.xlsx",
+      "sha256": "e7271db824aa022c449cc7c6fbdb28d21eaf58db38e03c2fa7a62ac5d7730fcc",
+      "bytes": 22020,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-5.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.814814+00:00"
+    },
+    {
+      "table": "S5",
+      "file": "NIHMS2118436-supplement-6.xlsx",
+      "sha256": "a899b9fb564243a5c6b7795e2dcc6b8dfd86c0b8eabcf4798fa9a7e1e36fa090",
+      "bytes": 70588,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-6.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.816158+00:00"
+    },
+    {
+      "table": "S6",
+      "file": "NIHMS2118436-supplement-7.xlsx",
+      "sha256": "b76414f18ac29e728f84b2ecc295afbf70dcf04061b263ab85d6757aacd0a53c",
+      "bytes": 11226,
+      "source_kind": "user_supplied_local_workbook",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12980502/bin/NIHMS2118436-supplement-7.xlsx",
+      "received_date": "2026-11-08",
+      "copied_utc": "2026-11-08T06:35:56.817181+00:00"
+    }
+  ],
+  "input_hashes": [
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-2.xlsx",
+      "sha256": "43e8e406addcda3180bde3d89ea840e8f4491cf1ee3759ba1f04ad4b0e9ad188"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-3.xlsx",
+      "sha256": "d1c2333ab6031b83fe3cafd2a2fd274e802399c0f54cda50cd37f0238b2158b0"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-4.xlsx",
+      "sha256": "043ff6c684dfabd24945c5dfc08c9bce913707a978d1971fb7fbb851546ea7b0"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-5.xlsx",
+      "sha256": "e7271db824aa022c449cc7c6fbdb28d21eaf58db38e03c2fa7a62ac5d7730fcc"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-6.xlsx",
+      "sha256": "a899b9fb564243a5c6b7795e2dcc6b8dfd86c0b8eabcf4798fa9a7e1e36fa090"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-7.xlsx",
+      "sha256": "b76414f18ac29e728f84b2ecc295afbf70dcf04061b263ab85d6757aacd0a53c"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/intake_v1.json",
+      "sha256": "80fab90e10fc14139eac1496f92f6fc49fc67bb565122df0b0ea91b54d389995"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/summary.json",
+      "sha256": "1f75fc7037cee3b49d728f96e5b59d08507afb6beafb77d50acc1cc90e123346"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+      "sha256": "b21642b6020d98f891cf8c7e91b0faabb90d70bd812dd3d3229d336d3bb480b8"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f"
+    }
+  ],
+  "access_limit": "Supplied file hashes verified; download provenance before local supply is user-provided; prior failed public routes remain historical",
+  "read_semantics": "Read OOXML saved cells and formula caches without executing formulas; originals and local copies unchanged"
+}
