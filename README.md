@@ -29,7 +29,7 @@ and preservation of historical evidence.
 
 | What you need | Where to start |
 |---|---|
-| Browse related biological topics across questions and papers | [Topic map](docs/RESEARCH_TOPICS.md) |
+| Browse related biological topics across questions and papers | [Topic map](docs/guides/RESEARCH_TOPICS.md) |
 | Questions, biological rationale and proposed comparisons | [All 36 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
 | Public-data use, local deposits and eligibility | [Single source register](docs/DATASETS.md) |
@@ -73,7 +73,7 @@ not support.
 2. **Reanalyse eligible data.** Reproduce accessible findings and test defined
    comparisons with appropriate quality control, biological units and sensitivity checks.
 3. **Develop a research question.** Connect published findings and repository
-   observations through the [literature workflow](docs/LITERATURE_WORKFLOW.md).
+   observations through the [literature workflow](docs/governance/LITERATURE_WORKFLOW.md).
    State the remaining gap, informative comparison and interpretation limit.
 4. **Investigate the question.** Develop its plan in
    [RQ_Specified](RQ_Specified/README.md), qualify inputs, and freeze a versioned
@@ -149,7 +149,7 @@ DEVELOPMENT.md              responsibility and decision history
 AI_CONTEXT.md               working context for agents
 ```
 
-The [structure contract](docs/REPOSITORY_STRUCTURE.md) defines ownership and
+The [structure contract](docs/guides/REPOSITORY_STRUCTURE.md) defines ownership and
 identifier scope. [References](REFERENCES.md) and study reports provide source
 citations. [DEVELOPMENT.md](DEVELOPMENT.md) records AI assistance, responsibility
 and rejected or revised proposals.

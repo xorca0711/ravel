@@ -55,7 +55,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `SLC34A2 phosphate alveolar transition entry residence exit lineage 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `SLC34A2 phosphate alveolar transition entry residence exit lineage 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** The repository lacks linked state acquisition and exit observations with direct transport and compartment-specific phosphate measurements. Phosphate-linked repair failure is published; whether the proposed transition-step comparison adds a worthwhile contribution remains provisional. The external negative result constrains transfer.
 

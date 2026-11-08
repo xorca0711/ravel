@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "CLAIMS.md",
-  "source_sha256": "89c45ec4ad1400fbc0045cc5907c0e93e47a5681890d01096c29f94b7f04fedf",
+  "source_sha256": "6663f7312e2bc05b9cfb0c9f7af311e6b0e48433954ec33a29bc15d28819c22b",
   "interpretation": "Generated index, not a certificate of biological validity. Numeric checks have explicitly bounded coverage.",
   "claims": [
     {
@@ -177,9 +177,9 @@
       "design_and_observation": "first co-expression gate, then a stricter lineage-negative gate",
       "datasets_explicit_in_row": [],
       "artifacts": [
-        "docs/DOUBLETS_AND_SCRUBLET.md"
+        "docs/methods/background/DOUBLETS_AND_SCRUBLET.md"
       ],
-      "artifact_text": "`docs/DOUBLETS_AND_SCRUBLET.md`",
+      "artifact_text": "`docs/methods/background/DOUBLETS_AND_SCRUBLET.md`",
       "unresolved_artifact_labels": [],
       "status": "Retracted-superseded (refuted, kept on display)",
       "status_group": "Refuted or retracted",

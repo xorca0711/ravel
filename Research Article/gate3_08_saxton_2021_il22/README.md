@@ -183,7 +183,7 @@ Fig. 4 and the withdrawal passage, constrain a universal STAT3/protection label.
 [Bachmann et al. 2013](https://pubmed.ncbi.nlm.nih.gov/23153456/) is an abstract-read
 priming precedent, not a fully audited dataset. Before E1/E2 numerical work or
 material RQ development, complete a targeted current/older/contrary primary-source
-pass for that exact comparison under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+pass for that exact comparison under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md).
 Record actual dates, queries, versions, correction checks and read versus
 uninspected leads. Do not claim novelty or completed searches in advance.
 

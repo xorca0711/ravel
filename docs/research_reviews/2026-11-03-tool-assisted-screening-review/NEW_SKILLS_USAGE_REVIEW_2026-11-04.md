@@ -3,7 +3,7 @@
 Reviewed 4 November 2026. This is a capability and applicability audit, not a
 new numerical analysis, method freeze, installation request or scientific result.
 The current [biological screening amendment](BIOLOGICAL_SCREENING_AMENDMENT_V1.md)
-and [repository decision workflow](../../AGENT_DECISION_WORKFLOW.md) govern use.
+and [repository decision workflow](../../governance/AGENT_DECISION_WORKFLOW.md) govern use.
 
 ## What is actually available
 

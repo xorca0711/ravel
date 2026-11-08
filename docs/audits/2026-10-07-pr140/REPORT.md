@@ -158,7 +158,7 @@ they do not require joint execution, merge estimands or create independence.
 
 ## Agent-policy audit and completed documentation correction
 
-[Decision workflow and instruction review](../../AGENT_DECISION_WORKFLOW.md)
+[Decision workflow and instruction review](../../governance/AGENT_DECISION_WORKFLOW.md)
 records the inappropriate universal-mechanism requirement found in the canonical
 question register, the broader ambiguity in AGENTS.md, and the corrected
 work-type routing. No tissue-specific instruction was found in either tracked

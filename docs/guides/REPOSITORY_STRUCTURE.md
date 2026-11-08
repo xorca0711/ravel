@@ -1,6 +1,6 @@
 # Repository structure and label scope
 
-**Current scope — 8 November 2026:** 36 canonical questions (A0–A35) and 39 retained article-local candidates. A32 develops Yd1-P02; A33–A35 develop Dp1-P01; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
+**Current scope — 8 November 2026:** 36 canonical questions (A0–A35) and 39 retained article-local candidates. A32 develops Yd1-P02; A33–A35 develop Dp1-P01; registration does not imply scientific acceptance. The [registry](../../analysis/research/registry.json) and [question homes](../../RQ_Specified/README.md) own the current inventory.
 
 Navigation and label scope reconciled 7 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
@@ -8,29 +8,29 @@ protocols, original trial names and immutable run records remain historical evid
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A35; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md) | One current register, A0–A35; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
 | Topic-based navigation | [Biological topic map](RESEARCH_TOPICS.md), with matching RQ/article index tags | Overlapping biological scope; one stable home per owner. Tags are separate from current findings, reading status and execution status. |
 | Question homes | `RQ_Specified/A<id>_<topic>/` for all 36 RQs | README starts with Organizing Biological Q, then Literature context & visual hypothesis; local context, plan and schematics. Add analysis subdirectories only where work exists; link paper-owned and frozen evidence. |
 | Full scientific argument | `docs/research_dossiers/A<id>.md` | All 36 dossiers retain hypotheses, alternatives and experimental bridges; each links its question home. |
-| Qualitative RQ illustrations | [RQ schematic gallery](../RQ_Specified/SCHEMATIC_GALLERY.md) and each home’s `schematics/` | Registered qualitative SVG or current matte PNG with provenance; separate from measured-result figures. |
-| Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
-| Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
+| Qualitative RQ illustrations | [RQ schematic gallery](../../RQ_Specified/SCHEMATIC_GALLERY.md) and each home’s `schematics/` | Registered qualitative SVG or current matte PNG with provenance; separate from measured-result figures. |
+| Shared question figures | [analysis/figures/rq/README.md](../../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
+| Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](../RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
 | Shared plotting and pipeline entrypoints | `analysis/scripts/` | Numbered entrypoints; reusable utilities in `analysis/lib/` |
 | Palette, reusable settings and contracts | `analysis/config/` | Shared configuration, independent of a paper's local trial ID |
 | Paper notes, contracts, inference and galleries | `Research Article/<paper>/` | Preserve the paper-specific source evidence, scripts, tables and figure gallery |
 | Cross-study specificity analysis | `Research Article/epithelial_state_specificity/` | Existing substantive analysis module, referenced by the global questions |
 | Corrective scientific analyses | `analysis/corrections/` | Keep original results and corrections distinguishable |
-| Graded evidence and negative results | [CLAIMS.md](../CLAIMS.md), [NEGATIVE_RESULTS.md](NEGATIVE_RESULTS.md) | Claims change only with supporting evidence; current question reports may narrow historical interpretations without promoting grades |
-| Original two-atlas findings | [FINDINGS.md](../FINDINGS.md) | Historical scope; not a summary of every later question or correction |
-| Dataset roles, units and eligibility | [DATASETS.md](DATASETS.md) | Single current public-source list, including used, rejected/inspected and pending sources; link to owning evidence and preserve comparison-specific limits |
-| Methods and teaching references | [methods](methods/README.md) | Tool descriptions remain distinct from actual execution; generated records retain stable paths |
-| Superseded plans, reviews and source supplements | [history by purpose](history/README.md) | Full documents live in category folders; compatibility locators preserve frozen/generated references |
-| Structure, portfolio and communication guides | [documentation index](README.md) | Current navigation separates owner reports, reference material and dated records |
-| Reading order and paper status | [Research Article/ROADMAP.json](../Research%20Article/ROADMAP.json), [Research Article/README.md](../Research%20Article/README.md) | Stable paper identifiers differ from the reading sequence; update the two views together |
-| Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
+| Graded evidence and negative results | [CLAIMS.md](../../CLAIMS.md), [NEGATIVE_RESULTS.md](../NEGATIVE_RESULTS.md) | Claims change only with supporting evidence; current question reports may narrow historical interpretations without promoting grades |
+| Original two-atlas findings | [FINDINGS.md](../../FINDINGS.md) | Historical scope; not a summary of every later question or correction |
+| Dataset roles, units and eligibility | [DATASETS.md](../DATASETS.md) | Single current public-source list, including used, rejected/inspected and pending sources; link to owning evidence and preserve comparison-specific limits |
+| Methods and teaching references | [methods](../methods/README.md) | Tool descriptions remain distinct from actual execution; generated records retain stable paths |
+| Superseded plans, reviews and source supplements | [history by purpose](../history/README.md) | Full documents live in category folders; compatibility locators preserve frozen/generated references |
+| Structure, portfolio and communication guides | [documentation index](../README.md) | Current navigation separates owner reports, reference material and dated records |
+| Reading order and paper status | [Research Article/ROADMAP.json](../../Research%20Article/ROADMAP.json), [Research Article/README.md](../../Research%20Article/README.md) | Stable paper identifiers differ from the reading sequence; update the two views together |
+| Current handoff and operating context | [PROGRESS.md](../../PROGRESS.md), [AI_CONTEXT.md](../../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 36 questions; the registry locates their evidence and the 39 retained article-local candidates; their IDs do not automatically become canonical RQs.
+See [research governance](../RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](../research_dossiers/README.md) develop all 36 questions; the registry locates their evidence and the 39 retained article-local candidates; their IDs do not automatically become canonical RQs.
 
 The question README is the reader's current scientific entrypoint: biological
 purpose, published premise, performed comparison, actual result, changed
@@ -48,9 +48,9 @@ two shared/historical workspaces (A5/A11 and Yadav); the 22 under `Research Arti
 paper packages, the cross-study specificity module and the Primary source archive.
 These supporting directories do not create extra RQs or papers. Topic changes
 update navigation rather than moving evidence into status or theme folders.
-The [4 November architecture audit](audits/2026-11-04-topic-navigation/README.md)
+The [4 November architecture audit](../audits/2026-11-04-topic-navigation/README.md)
 records its dated coverage, repaired navigation and preserved path exceptions.
-The [7 November reconciliation](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md)
+The [7 November reconciliation](../audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md)
 adds current source inventory and post-DuPage navigation checks; no evidence
 directories were moved. Dp1-P01 remains the article-local source owner; its three developing comparisons are registered separately as A33–A35.
 
@@ -74,7 +74,7 @@ directories were moved. Dp1-P01 remains the article-local source owner; its thre
 - The former Yu follow-ups `RQ1`–`RQ4` are now `A11`–`A14`.
   Display labels D1, D2a–c, D0 and D4 map to A11, A12a–c, A12-S1 and A14.
   Historical D0/D1/D2 CSV basenames are retained and documented by the
-  [relocation manifest](../analysis/figures/rq/il1b_context/relocation_manifest.json).
+  [relocation manifest](../../analysis/figures/rq/il1b_context/relocation_manifest.json).
 - `C1` onward identifies claims. Reading-order paper numbers, trial IDs,
   global questions, figure groups and claim IDs are different namespaces.
 
@@ -83,7 +83,7 @@ directories were moved. Dp1-P01 remains the article-local source owner; its thre
 On 25 September 2026, `Thesis/` was renamed to `Research Article/` and
 `RQ_Specified/` was introduced at the owner's request. Paper folder identifiers,
 scientific results and historical run identities are unchanged. The
-[migration record](migrations/2026-09-25-research-layout/README.md) lists preserved
+[migration record](../migrations/2026-09-25-research-layout/README.md) lists preserved
 hashes and archives original bytes of updated code and documentation. Historical
 paths are resolved by `analysis/lib/repository_paths.py`; this is a record check,
 not evidence that the updated scripts have rerun. Quote paths containing
@@ -96,7 +96,7 @@ This documented exception does not renumber the roadmap.
 
 Damani–Yokota 2026 (DY1) is **ungated**, outside the ordered reading roadmap.
 Its current article and DY1-P02 question entries are under
-[`ungated_damani_yokota_2026/`](../Research%20Article/ungated_damani_yokota_2026/README.md),
+[`ungated_damani_yokota_2026/`](../../Research%20Article/ungated_damani_yokota_2026/README.md),
 corrected after the owner's 8 November clarification. Frozen contracts, scripts
 and results retain `gate2_DY1_damani_yokota_2026/` as an evidence location, not a
 Gate 2 assignment. The roadmap, RQ index and research registry use the corrected
@@ -104,7 +104,7 @@ current entries; historical references continue to resolve without rewritten has
 
 Shared IL-1 figures now use scripts 19–21. Their recorded UMAP/PCA preparation
 was executed before relocation; the original script bytes and identities
-remain archived alongside the [current figure report](../analysis/figures/rq/il1b_context/REPORT.md).
+remain archived alongside the [current figure report](../../analysis/figures/rq/il1b_context/REPORT.md).
 Original preparation input paths are study-relative; current rendering input
 and output paths are repository-relative. No execution date or original hash
 is rewritten to make an old run appear new. Future render records archive
@@ -152,11 +152,11 @@ including cross-study comparisons used to interpret the paper. Its candidate
 notes retain Nb2-N1–N8 as provisional interpretations. `RQ_Specified` is populated
 later with questions warranted by the analysis and synthesis; branches are not
 automatically promoted to RQs. The premature Nb2-RQ1–RQ8 registration is retired.
-The move preserves measured results, source records and existing A-series scope. [Index](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md).
+The move preserves measured results, source records and existing A-series scope. [Index](../../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md).
 
 ## Nb2 result-derived questions, 29 September 2026
 
-The subsequent [synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
+The subsequent [synthesis](../../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
 proposes A19–A21 after the paper analyses. Their new plans live under
 `RQ_Specified/A19_fzd_response_reversibility/`,
 `RQ_Specified/A20_fibroblast_fzd_context/` and
@@ -190,7 +190,7 @@ design. Parent scientific evidence is preserved; revised parent navigation and
 contracts have pre-extension snapshots under the extension metadata/history.
 
 Saxton IL-10 is roadmap paper **7 / Gate 3A**. Its current entry is
-[`gate3_07_saxton_2021_il10/`](../Research%20Article/gate3_07_saxton_2021_il10/README.md),
+[`gate3_07_saxton_2021_il10/`](../../Research%20Article/gate3_07_saxton_2021_il10/README.md),
 corrected on 8 November. `ungated_saxton_2021_il10/` retains frozen analysis
 evidence and historical references; it is not the current classification or entry
 folder. Sx10-P01, all A0-A35 and every other article-local candidate retain their

@@ -109,7 +109,7 @@ the selection is partly by accessibility.
 | `sources/README.md` | Identity of the untracked cached source spreadsheet |
 
 The layout follows the question-specific pattern in the
-[structure contract](../../docs/REPOSITORY_STRUCTURE.md).
+[structure contract](../../docs/guides/REPOSITORY_STRUCTURE.md).
 
 ## Historical evidence at contract creation
 

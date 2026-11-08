@@ -2,7 +2,7 @@
 
 **7 November additions:** [A33](A33.md), [A34](A34.md), [A35](A35.md) develop distinct DuPage-derived Treg comparisons. [Derivation and literature correction](../../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md). Earlier review coverage is historical.
 
-[Biological topic map](../RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#all-33-current-questions).
+[Biological topic map](../guides/RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#all-33-current-questions).
 
 **Current navigation:** all [36 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
 

@@ -20,7 +20,7 @@ gain-context interpretation; experimental designs remain proposed.
 This is the article-local scientific dossier. [Source review](SOURCE_REVIEW.md)
 and [literature context](LITERATURE_CONTEXT.md) are prerequisites to interpreting
 it. The plan follows the repository's updated
-[question-development sequence](../../docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development).
+[question-development sequence](../../docs/governance/AGENT_DECISION_WORKFLOW.md#screening-as-question-development).
 
 ## Purpose, hypothesis and strongest alternative
 
