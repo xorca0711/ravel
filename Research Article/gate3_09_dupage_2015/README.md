@@ -9,8 +9,9 @@ from inflamed tissues?
 **7 November 2026: S0–S6 disposition complete.** S0–S3 were executed within
 qualified descriptive scope; S4 was not informative for another numerical run;
 S5–S6 completed the functional evidence map and next-question synthesis.
-**Dp1-P01** remains article-local, paper **9**, Gate **3B**. No canonical RQ,
-claim grade or human scientific decision was created or promoted.
+**Dp1-P01** remains article-local, paper **9**, Gate **3B**. That S0–S6 checkpoint created no canonical RQ or claim promotion.
+The later owner-requested A33–A35 registrations are linked below; no human
+scientific acceptance is inferred.
 
 [Current results and S4–S6](RESULTS.md) · [Stage ledger](STAGE_STATUS.md) ·
 [Original plan](ANALYSIS_PLAN.md) · [Prospective amendment](ANALYSIS_AMENDMENT_V2.md) ·
@@ -18,7 +19,7 @@ claim grade or human scientific decision was created or promoted.
 [Validation](VALIDATION.md)
 
 **New exploratory follow-up:** [32-candidate screen and proposed experiments](TARGET_SCREEN_RESULT.md)
-· [Four-figure portfolio, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
+· [Measured-result gallery, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
 Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_20261107.md)
 before choosing an experimental comparison.
 The [three candidate records](CANDIDATE_FOLLOWUP.md) separate source qualification
@@ -28,6 +29,10 @@ Tigit/Prdm1/Ccr2 gain effects reverse across fresh/cultured contexts; Igfbp4
 retains a reciprocal direction. This is descriptive cross-context evidence.
 This DuPage-first screen is independent of the owner's optional Zhang reading
 direction, but reuses the same exposed DuPage samples; it is not replication.
+
+## Current question development
+
+[A33–A35](rq_derivation/README.md) now have distinct proposed RQ homes for TIGIT-responsive AREG output, CCR2 movement/fitness and IGFBP4 source/IGF response. Dp1-P01 retains the source analyses. The [reframing audit](rq_derivation/README.md#reframing-audit-what-recurred-and-what-held-up) records the corrected mechanistic wording and missed CCR2 background precedent. Registration is not acceptance or target validation. Proposal illustrations are separate from the measured gallery.
 
 ## What the screening changed
 

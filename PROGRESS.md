@@ -3,6 +3,44 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## DuPage RQ placement and rationale audit — 7 November 2026
+
+Owner requested review against the earlier reframing chat, published-target
+literature checks, three distinct RQ homes, and removal of proposed comparisons
+from the measured gallery. At the owner's later instruction, this work builds
+on PR #168 (`4ae13c0`) rather than a separate PR; main is `32ab85e`.
+[Derivation, overlap scan and corrections](Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md)
+now links proposed A33–A35. Current inventory is 36 RQs, 38 article-local
+candidates and 19 paper packages. All A0–A32 identities and hypotheses remain.
+
+The refresh found a missed CCR2/CD25 Il2ra-background counterexample and corrected
+causal-sounding loss/gain wording. It does not invalidate the numerical results.
+Figure 4 is preserved as a historical proposal outside the measured gallery;
+Figures 1–3 and 5–6, contracts, scripts and receipts remain unchanged. New
+qualitative diagrams live with the question homes, separate from measured plots.
+No biological rerun, target validation, scientific acceptance or laboratory
+execution is implied. Full CCR2 supplements, the IGFBP4 2017 full methods,
+actual experimental models and biological-unit precision remain unresolved.
+
+**8 November approved revision:** the owner approved matching neighboring RQs.
+A33–A35 now follow A28/A31/A32's reasoning order, with local primary-source tables,
+existing measured-value summaries, explicit narrowing assessments and staged
+plans. Three biological matte illustrations and exact prompts replace the displayed
+workflow drafts, which remain as provenance sources. The common derivation and
+literature audit now live in the DuPage article's `rq_derivation/` directory;
+there are 36 question homes and two supporting workspaces under `RQ_Specified/`.
+The A34 link is repaired. No biological rerun or hypothesis change was needed.
+
+Validation passed: 17,481 repository checks and the provenance gate against
+refreshed unchanged main `32ab85e`; 167 prior tests remain valid (two skipped),
+including exact RQ inventory rejection cases. All 18 displayed values match the
+frozen tables. Earlier 33 cards/guides and original registry evidence are preserved;
+three selected PNGs were visually reviewed and their provenance registered. The validator's expected sequence now
+includes A33–A35 while retaining equality/order and rejection checks; this inventory
+assertion and the interpretation changes are explicit PR review items. Refreshed PR #168 remains open at `4ae13c0`; GitHub identity is verified as
+`xorca0711`. Scoped commit/push and the updated PR CI check are next. No merge
+is authorized or performed. External settings are unchanged and were not audited.
+
 ## Source inventory publication and documentation hygiene — 7 November 2026
 
 Owner authorized updating the inventory to current main, opening a PR, and

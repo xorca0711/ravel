@@ -1,14 +1,13 @@
-# DuPage-first target-screen portfolio
+# DuPage-first measured-result gallery
 
 7 November 2026. [Scientific interpretation and proposal](TARGET_SCREEN_RESULT.md)
 · [Frozen screen plan](TARGET_SCREEN_PLAN_V1.md) · [Assay-motivated amendment](TARGET_SCREEN_AMENDMENT_V2.md)
 · [Figure specification](contracts/Dp1.target_figures_v1.json)
 
-All panels are generated from repository tables. Numerical figures are exposed,
-shared-source exploration. **Figure 4 describes proposed experiments.** No panel
-establishes a direct EZH2 target, protein activity, secretion or tissue repair.
-The subsequent [biological review](BIOLOGICAL_REVIEW_20261107.md) qualifies
-Figure 4's assay context and candidate direction; use it with the caption.
+This gallery contains measured screening and candidate-expression figures.
+The former qualitative Figure 4 is organized with the [RQ proposals](rq_derivation/README.md#archived-proposal-matrix--former-figure-4).
+Its frozen exports remain preserved; the results below retain their original numbering.
+These exposed, shared-source observations do not establish target function.
 
 ## Figure 1 — qualification changes the reading frontier
 
@@ -52,20 +51,6 @@ prior-paper anchors. Dots are primary estimates. Lines span the primary,
 intervals.** Areg/Il2ra retain their unfavorable interaction stability. Gene
 selection is not independent of the inspected literature or outcomes.
 
-## Figure 4 — comparisons that could change the decision
-
-![Proposed comparisons](../../analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.png)
-
-[Vector PDF](../../analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.pdf)
-· [Editable SVG](../../analysis/research/runs/dupage_target_figures_v1/fig04_proposed_comparisons.svg)
-
-Qualitative proposal matrix connecting measured RNA to three distinct questions:
-TIGIT–PRDM1 inducible output, CCR2 localization versus fitness, and IGFBP4
-growth-factor buffering versus compensation. Published mechanisms are premises;
-the Ezh2-to-function links remain proposed. The report supplies exact primary
-locators, alternative explanations and readiness limits. No experimental result
-is represented in this panel.
-
 ## Reuse and provenance
 
 [Exact plotted source values](../../analysis/research/runs/dupage_target_figures_v1/figure_source_values.tsv)
@@ -74,11 +59,11 @@ is represented in this panel.
 · [Immutable receipt](../../analysis/research/runs/dupage_target_figures_v1/receipt.json)
 
 PNG files are 300 dpi; PDFs and SVGs are vector exports. Keep these captions and
-the exploratory/proposed labels when reusing figures in a portfolio. Do not
+the exploratory labels when reusing figures in a portfolio. Do not
 overwrite frozen exports; later corrections require a new version and link.
 
 ## Executed candidate follow-up figures
 
 The [candidate results gallery](CANDIDATE_ANALYSIS_RESULT_V1.md#figures-and-source-values)
 adds Figures 5–6, with PNG/PDF/SVG and source values, from a separate frozen run.
-The first four screen figures above remain unchanged.
+Figures 1–3 above remain unchanged; Figure 4 is archived with the separate proposal overview.

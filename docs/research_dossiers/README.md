@@ -1,8 +1,10 @@
 # Research development index
 
+**7 November additions:** [A33](A33.md), [A34](A34.md), [A35](A35.md) develop distinct DuPage-derived Treg comparisons. [Derivation and literature correction](../../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md). Earlier review coverage is historical.
+
 [Biological topic map](../RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#all-33-current-questions).
 
-**Current navigation:** all [33 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
+**Current navigation:** all [36 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
 
 **Historical review coverage:** the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) retain their dated scope. They are not the current 33-question inventory.
 
@@ -14,7 +16,7 @@ The [3 October source-mapping closeout](source_mapping_closeout_2026-10-03/READM
 records the bounded recovery task and the work deferred at that checkpoint.
 Current owner pages record subsequent reviews and remaining evidence limits.
 
-All 33 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, proposed A31 from the Nb4-P09 functional-endpoint extension, and proposed A32 from Yd1-P02's joint matrix/mature-output question. Registration is not acceptance.
+All 36 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, proposed A31 from the Nb4-P09 functional-endpoint extension, and proposed A32 from Yd1-P02's joint matrix/mature-output question. Registration is not acceptance.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
 analysis is not an experiment-ready hypothesis. Published background and
