@@ -1,6 +1,11 @@
 # Research roadmap: closing the biological and logical gaps
 
-**Historical September planning document.** Current work follows the [conditional packages](research_dossiers/packages_2026-10-03/README.md) and [remaining-work ledger](research_dossiers/REMAINING_WORK.md). The dated execution checkpoints and priority order below describe their original revisions, not the current queue.
+**Historical September planning document.** Current work follows [project state](../PROGRESS.md),
+the [question homes](../RQ_Specified/README.md), [article reports](../Research%20Article/README.md)
+and their registered evidence. The [conditional packages](research_dossiers/packages_2026-10-03/README.md)
+and [remaining-work ledger](research_dossiers/REMAINING_WORK.md) preserve later
+dated planning checkpoints, not a current execution queue. The priority order
+and execution statements below retain their original revisions.
 
 **Current owner direction, 3 October 2026:** develop all existing questions before selecting a priority. The priority order below is the historical September execution proposal, not a current ranking or automatic queue. Use the [current dossiers](research_dossiers/README.md) and [project state](../PROGRESS.md) for next decisions.
 

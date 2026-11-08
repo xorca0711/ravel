@@ -1,8 +1,18 @@
 # Dataset inventory and eligibility
 
-**7 October update:** Wp R0–R4 and selected extensions have executed. The [current correction report](../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) records corrected Compass orientation and full-library human normalization. The dated intake rows below describe original availability, not present execution status. Published scVI inputs remain unavailable even though the repository’s substituted Compass run executed.
+**Updated 7 November 2026** against main `32ab85e`. Read the
+[current additions and source-use classifications](DATASET_UPDATES_2026-11-07.md)
+together with the retained inventory below. Numerical use, metadata-only
+qualification, reference leads and merged DuPage follow-ups are distinguished.
 
-Synchronized from tracked execution records on **28 September 2026**, after the
+- [Audit and local storage summary](audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).
+- [Accession-reference census](audits/2026-11-07-public-data-inventory/snapshot_v2/accession_references.csv): 544 GEO/ArrayExpress/BioProject identifiers in scanned tracked text, **not 544 utilized datasets**. Search leads and aliases are included.
+- [Current local directories](audits/2026-11-07-public-data-inventory/snapshot_v2/local_directories.csv) and [file inventory](audits/2026-11-07-public-data-inventory/snapshot_v2/local_files.csv), covering source/reference caches in the root and registered worktrees.
+- The original [51-file inventory](../analysis/raw_data_inventory.txt) remains a historical two-series snapshot. Local raw caches are ignored; a fresh Git clone does not contain them.
+
+**Wp correction:** R0–R4 and selected extensions executed. The [current correction report](../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) records corrected Compass orientation and full-library human normalization. Published scVI inputs remain unrecovered; the repository's substituted Compass run is distinct from recovered author scores.
+
+The retained inventory was synchronized on **28 September 2026**, after the
 gap-fill work merged in PR #107. This is a map of repository use, not a new
 survey of public availability. Linked run records retain exact URLs, versions,
 hashes and inclusion rules. Local raw caches are generally ignored by Git.
@@ -93,8 +103,9 @@ HLCA mapping references, curated ligand/receptor resources, NicheNet priors and
 published gene sets are reference assets, not additional biological cohorts.
 Use their analysis-specific version/coverage records. [References](../REFERENCES.md)
 and the linked source reports identify publications; [reproducibility](../REPRODUCIBILITY.md)
-describes local input layout. The [current per-question ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
-governs what missing input would permit a new analysis.
+describes local input layout. The [research registry](../analysis/research/registry.json)
+locates current results and gates; the [28 September ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+is historical.
 
 ## Nabhan 2023 source intake, 29 September 2026
 
@@ -214,7 +225,9 @@ full inventory and limits in its
 | [GSE290297](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290297) | mouse Th17n/Th17p population RNA with EGCG, DHEA and solvent controls, split by division gate; 79 libraries joining one-to-one to 79 TPM columns over 20,465 genes | Wp-R3 bulk contrasts | library; no animal or culture field is deposited and the values are TPM, not counts. Div.1 and Total are different gated populations, not replicates |
 | [GSE138266](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138266) | human MS and idiopathic-intracranial-hypertension blood and CSF leukocytes; 22 samples resolving to 12 donor codes, 10 with both tissues | Wp-R4 signature transport | donor, paired across tissue where available; reused cohort from Schafflick 2020, and no age, sex or treatment field is deposited |
 
-Compass reaction scores, LC/MS carbon tracing, cytokine protein and EAE values
-are not deposited anywhere for this paper; those stages are held rather than
-approximated. Raw caches stay ignored under `raw_data/wagner_pgam_w2_20261004/`.
+Original published scVI inputs and the listed functional/source measurements
+were not recovered in the documented source search. This does not establish
+source-wide absence or mean that the repository's substituted Compass
+computation was unrun; use the current correction report linked above.
+Raw caches stay ignored under `raw_data/wagner_pgam_w2_20261004/`.
 

@@ -1,5 +1,7 @@
 # Research questions
 
+**Registration update — 7 November 2026:** the owner requested distinct homes for the three DuPage routes after overlap and literature review. Proposed **A33–A35** bring the register to **36 questions, A0–A35**. [Derivation, overlap and corrections](Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md). Dp1-P01 keeps the frozen source evidence; A0–A32 and all scientific acceptance states are preserved. Earlier dated counts remain historical.
+
 **Current reading guide — 4 November 2026:** the [RQ index](RQ_Specified/README.md)
 links each question to its current scientific argument and measured contribution.
 The [rationale review](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
@@ -160,6 +162,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A30](#a30) | CSF compartment state versus local activation in human CD4 T cells | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A30.md) for source, endpoint and acceptance holds |
 | [A31](#a31) | GRIA1-dependent acute response in adult alveolar fibroblasts | Exposed Nb4-P09 expression context; response not measured | Proposed; source identity, receptor response and functional experiment remain held |
 | [A32](#a32) | Myeloid ARG1: matrix production and mature epithelial recovery | Yd1-P02 source/endpoint review; no joint effect measured | Proposed; linked model/data, mature endpoint, source attribution and precision remain held |
+| [A33](#a33) | Does Ezh2 loss alter the AREG response to TIGIT engagement in activated Tregs? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A33_ezh2_tigit_areg_output/README.md) |
+| [A34](#a34) | Which movement and fitness responses accompany Ezh2-associated CCR2 reduction in Tregs? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md) |
+| [A35](#a35) | Does the Ezh2-associated Igfbp4 RNA difference yield intact Treg-derived protein that modulates native-IGF response? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md) |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -1730,3 +1735,51 @@ Retain direct homeostatic disturbance and secondary mineral/inflammatory injury
 as rival routes. The operational next question is when SLC34A2 impairment
 produces stress; ordering before identity loss and recovery remain separate
 predictions. [Strict extension review](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md).
+
+<a id="a33"></a>
+
+### A33. Does Ezh2 loss alter the AREG response to TIGIT engagement in activated Tregs?
+
+**Proposed registration, 7 November 2026.** [Home](RQ_Specified/A33_ezh2_tigit_areg_output/README.md) · [Dossier](docs/research_dossiers/A33.md) · [Literature](RQ_Specified/A33_ezh2_tigit_areg_output/LITERATURE_CONTEXT.md).
+
+**Hypothesis and biology.** Under a common, demonstrably responsive activation context, Ezh2-deficient murine Tregs have a smaller TIGIT-engagement-minus-control AREG release response than matched genetic controls. This is an output-response hypothesis; it does not assert PRDM1 mediation or tissue repair.
+
+**Current evidence.** DuPage KO-low Tregs have lower Tigit and Prdm1 RNA than HET-low, but retain positive high-to-low state contrasts. In the Peeters gain dataset both RNAs are higher fresh and lower after culture, while Areg is higher in both conditions. Thus receptor/regulator RNA cannot stand in for AREG output, and a monotonic EZH2-to-function story is unsupported by this screen.
+
+**Contribution and overlap.** A context/boundary test of whether Ezh2 loss changes a receptor-evoked output, rather than another expression association. This can be informative even if the published TIGIT mechanism is reproduced. PRDM1 is a conditional mediator question, not a second independently selected target. A2 and A9 concern epithelial AREG delivery and fibroblast recipient competence. A33 concerns receptor-evoked output from Tregs under Ezh2 perturbation, with no recipient-repair claim. A12 concerns IL-1 recipient context, not this source response.
+
+**Next comparison.** Common TCR/co-stimulation; TIGIT engagement versus matched reagent control in aliquots from Ezh2-deficient and matched-control preparations. Estimate the genotype difference in engagement-minus-control AREG release, retaining the two simple responses and baseline output.
+
+**Boundary.** Different activation history, receptor availability, cell selection or loss, and accessory/Fc effects can alter the response. A response deficit does not alone identify PRDM1 mediation. Independent mice/preparations are the intended units, with nested aliquots. Model, timing and precision remain unresolved. Registration does not supply scientific acceptance or experimental readiness.
+
+<a id="a34"></a>
+
+### A34. Which movement and fitness responses accompany Ezh2-associated CCR2 reduction in Tregs?
+
+**Proposed registration, 7 November 2026.** [Home](RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md) · [Dossier](docs/research_dossiers/A34.md) · [Literature](RQ_Specified/A34_ezh2_ccr2_movement_fitness/LITERATURE_CONTEXT.md).
+
+**Hypothesis and biology.** After common activation, Ezh2-deficient murine Tregs may show a CCR2-related directed-movement deficit, an inflammatory-context fitness deficit, both, or neither. The first comparison estimates those separate genotype-associated responses; attribution to CCR2 requires a target-restricted test and qualified genetic background.
+
+**Current evidence.** DuPage KO-low Ccr2 RNA is lower, while Il2ra lacks a corresponding stable deficit. Peeters Ccr2 gain-minus-WT RNA is positive fresh and negative after culture. These observations motivate a context-specific response comparison; they do not measure migration, retention, survival, or CCR2-dependent CD25 signaling.
+
+**Contribution and overlap.** Separate directed movement from receptor/signaling and recovery responses in the Ezh2 context. The CD25 branch is a conditional published account to reproduce and qualify, not an established universal CCR2 mechanism. A CCR2-independent CD25 result would also be informative. A26–A27 concern CD8 receptor repertoires, A28 Th17 outputs, and A30 paired CSF/blood RNA. None measures directed Treg movement or separates it from the specified recovery/signaling responses. Shared lymphocyte tags do not merge these estimands.
+
+**Next comparison.** Matched activated Ezh2-deficient and genetic-control Treg preparations in a qualified CCR2-ligand gradient, with no-gradient/equal-concentration controls. In separate aliquots, assess a qualified inflammatory accessory-cell condition and downstream IL-2 response. Do not assume purified-cell CCL2 alone induces CD25.
+
+**Boundary.** General activation/viability differences, accessory-cell effects, or an independent Il2ra/background defect can mimic a CCR2-linked fitness result. The source RNA comparison cannot distinguish them. Independent mice/preparations are the intended units, with nested aliquots. Model, timing and precision remain unresolved. Registration does not supply scientific acceptance or experimental readiness.
+
+<a id="a35"></a>
+
+### A35. Does the Ezh2-associated Igfbp4 RNA difference yield intact Treg-derived protein that modulates native-IGF response?
+
+**Proposed registration, 7 November 2026.** [Home](RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md) · [Dossier](docs/research_dossiers/A35.md) · [Literature](RQ_Specified/A35_treg_igfbp4_source_igf_response/LITERATURE_CONTEXT.md).
+
+**Hypothesis and biology.** The Igfbp4 RNA excess in Ezh2-deficient Tregs may produce intact Treg-derived IGFBP4 that changes native-IGF receptor response. Source and intact-protein validation precede that perturbation question; neither the direction of the signaling effect nor benefit from IGFBP4 reduction is established by RNA.
+
+**Current evidence.** DuPage KO-low Igfbp4 is higher than HET-low, but both genotypes are lower in the observed low than high state: less downregulation is the descriptive pattern, not measured activation induction. Peeters Igfbp4 is lower with gain both fresh and cultured. This directional consistency retains a source/protein question; it does not rank IGFBP4 above the other candidates or exclude state composition.
+
+**Contribution and overlap.** First, source/measurement validation in established Tregs; conditionally, a context extension testing native-IGF modulation. This is distinct from showing IGFBP4 RNA in another atlas, rediscovering IGF binding, or assuming that blockade improves Treg function. A28–A29 concern Th17 regulatory/effector outputs and PGAM mechanisms. A35 concerns established Treg protein source and native-IGF response; the Th17 cleavage precedent is a boundary, not evidence that the questions coincide. A2 addresses AREG delivery in another source/recipient system.
+
+**Next comparison.** Ezh2-deficient and matched-control lineage-identified Tregs under common activation, separating locus-specific RNA, cell-associated protein and intact supernatant protein. If source and assay qualify, compare Treg-restricted IGFBP4 reduction with matched control under defined native-IGF and IL-2 exposure.
+
+**Boundary.** State composition, non-Treg source, serum carryover and proteolysis can dissociate RNA from intact extracellular protein. An effect on recipient cells or general viability can mimic a Treg-autonomous functional effect. Independent mice/preparations are the intended units, with nested aliquots. Model, timing and precision remain unresolved. Registration does not supply scientific acceptance or experimental readiness.

@@ -1,5 +1,7 @@
 # Three-candidate follow-up: source qualification and experimental questions
 
+**Subsequent question-development update — 7 November 2026:** [A33–A35 and the reframing audit](rq_derivation/README.md) now own the three proposed comparisons. The refresh adds a missed Il2ra/background counterexample to the CCR2 premise and restricts loss/gain interpretation to descriptive RNA context. The dated checkpoint below remains historical; frozen evidence is unchanged.
+
 7 November 2026. Dp1-P01, article-local exploratory continuation requested after
 [biological review](BIOLOGICAL_REVIEW_20261107.md) and opening
 [PR #167](https://github.com/xorca0711/ravel/pull/167). All screening outcomes were

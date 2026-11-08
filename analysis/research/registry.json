@@ -517,6 +517,48 @@
         "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_SPEC_V1.md",
         "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md"
       ]
+    },
+    {
+      "id": "A33",
+      "card": "RESEARCH_QUESTIONS.md#a33",
+      "dossier": "docs/research_dossiers/A33.md",
+      "evidence": [
+        "RQ_Specified/A33_ezh2_tigit_areg_output/README.md",
+        "RQ_Specified/A33_ezh2_tigit_areg_output/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A33_ezh2_tigit_areg_output/PLAN.md",
+        "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+      ]
+    },
+    {
+      "id": "A34",
+      "card": "RESEARCH_QUESTIONS.md#a34",
+      "dossier": "docs/research_dossiers/A34.md",
+      "evidence": [
+        "RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md",
+        "RQ_Specified/A34_ezh2_ccr2_movement_fitness/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A34_ezh2_ccr2_movement_fitness/PLAN.md",
+        "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+      ]
+    },
+    {
+      "id": "A35",
+      "card": "RESEARCH_QUESTIONS.md#a35",
+      "dossier": "docs/research_dossiers/A35.md",
+      "evidence": [
+        "RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md",
+        "RQ_Specified/A35_treg_igfbp4_source_igf_response/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A35_treg_igfbp4_source_igf_response/PLAN.md",
+        "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
+        "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
+        "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -1687,6 +1729,36 @@
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "6f2b193ea90b0ea71de09039791d9acecb241c27bf4afc7b407ca69fa93c562f",
       "hypothesis_sha256": "ed0cf6e247dfb82362fa531ae3d6d281780ede540b285d0740d186bf330c9f09"
+    },
+    {
+      "question": "A33",
+      "context": "RQ_Specified/A33_ezh2_tigit_areg_output/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A33_ezh2_tigit_areg_output/README.md",
+      "schematic": "RQ_Specified/A33_ezh2_tigit_areg_output/schematics/A33_gpt_matte_v1.png",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "schematic_sha256": "a53535381f797e9b8df4260d08f252e6ac74fef3dd4b9b0a88cf736f5e53ac65",
+      "hypothesis_sha256": "7fe365e5e87ae09215c45a9175575adfb79826b1996e786ce3550ab012b0c835"
+    },
+    {
+      "question": "A34",
+      "context": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md",
+      "schematic": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/schematics/A34_gpt_matte_v1.png",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "schematic_sha256": "39706eb433ffb1437cdb7c23da502d613177ad47cda81a46ce476b90bfd845fb",
+      "hypothesis_sha256": "cac1abef087f55574bdd0275c817fe8efb42b9bcb2820a8d401faf7f3b5f09a8"
+    },
+    {
+      "question": "A35",
+      "context": "RQ_Specified/A35_treg_igfbp4_source_igf_response/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md",
+      "schematic": "RQ_Specified/A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.png",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "schematic_sha256": "0c17392c56c22f7e86521836d55de5010729aaff3a18591c0bd68010d5522842",
+      "hypothesis_sha256": "1c92ab7ab16073ca7dcbc599345a189255058ddf597b4d2b40d640e9904b4b3f"
     }
   ],
   "question_raster_provenance": [
@@ -2118,6 +2190,45 @@
       "prompt": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/A32_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "c19c3176e3615093cc2ac2b739e8732f5773e5a3f509a22e1dd869cc755a5362",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
+    },
+    {
+      "question": "A33",
+      "kind": "qualitative_raster_illustration",
+      "image": "RQ_Specified/A33_ezh2_tigit_areg_output/schematics/A33_gpt_matte_v1.png",
+      "image_sha256": "a53535381f797e9b8df4260d08f252e6ac74fef3dd4b9b0a88cf736f5e53ac65",
+      "source_schematic": "RQ_Specified/A33_ezh2_tigit_areg_output/schematics/A33_comparison_v1.svg",
+      "source_schematic_sha256": "ce8a5294b6207b4d90fde67288ffd88abf98c597fd3c1398b35be982b0154d5e",
+      "hypothesis_sha256": "7fe365e5e87ae09215c45a9175575adfb79826b1996e786ce3550ab012b0c835",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "prompt": "RQ_Specified/A33_ezh2_tigit_areg_output/schematics/A33_gpt_matte_v1.prompt.txt",
+      "prompt_sha256": "314a5f0d9a151047a1cdd52e0c024dbbfb1d5f9aec8ddbc97166dc8e0e8e0508",
+      "review_record": "Research Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md"
+    },
+    {
+      "question": "A34",
+      "kind": "qualitative_raster_illustration",
+      "image": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/schematics/A34_gpt_matte_v1.png",
+      "image_sha256": "39706eb433ffb1437cdb7c23da502d613177ad47cda81a46ce476b90bfd845fb",
+      "source_schematic": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/schematics/A34_comparison_v1.svg",
+      "source_schematic_sha256": "0324e401c5429f340fc1f19ec6491a7ddfd8fbe0f8e76311ba88ef1591450fc6",
+      "hypothesis_sha256": "cac1abef087f55574bdd0275c817fe8efb42b9bcb2820a8d401faf7f3b5f09a8",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "prompt": "RQ_Specified/A34_ezh2_ccr2_movement_fitness/schematics/A34_gpt_matte_v1.prompt.txt",
+      "prompt_sha256": "e9d30fc953b9ae03f9ed421806ddfbfd28faf9cac5956d8f674c2bfaaa4f5740",
+      "review_record": "Research Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md"
+    },
+    {
+      "question": "A35",
+      "kind": "qualitative_raster_illustration",
+      "image": "RQ_Specified/A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.png",
+      "image_sha256": "0c17392c56c22f7e86521836d55de5010729aaff3a18591c0bd68010d5522842",
+      "source_schematic": "RQ_Specified/A35_treg_igfbp4_source_igf_response/schematics/A35_comparison_v1.svg",
+      "source_schematic_sha256": "d7145d15cca3401b9bca45e02da7d8706aec44969bd8cd902978138b9988d37f",
+      "hypothesis_sha256": "1c92ab7ab16073ca7dcbc599345a189255058ddf597b4d2b40d640e9904b4b3f",
+      "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
+      "prompt": "RQ_Specified/A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.prompt.txt",
+      "prompt_sha256": "607330b1b38660b6f528f7a5466ddf5e2653839df115a5c15a942a2dadea4108",
+      "review_record": "Research Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md"
     }
   ]
 }

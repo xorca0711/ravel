@@ -1,5 +1,7 @@
 # Candidate follow-up source qualification
 
+**Later same-day literature correction:** the [current review](../rq_derivation/README.md#literature-correction) adds Chorro 2018 Figure 1/Methods, absent from this earlier bounded pass. Its Il2ra/background finding qualifies the CCR2/CD25 proposal without identifying Zhan's colony as affected.
+
 7 November 2026. Reading/metadata record for Dp1-P01. This separates source
 qualification from the subsequent [numerical plan](../CANDIDATE_ANALYSIS_PLAN_V1.md).
 Published findings, repository observations and proposed effects are different

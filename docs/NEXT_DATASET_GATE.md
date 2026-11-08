@@ -5,8 +5,9 @@ revised models and [design follow-up](../RQ_Specified/A10_organoid_growth_outcom
 are complete. Later [source-design recovery](roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md)
 identifies repeats split from a starting mixture; independent biological
 preparation identities remain unresolved. Use the
-[current execution ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) for remaining
-gates. The dated design below is retained as provenance, not an unexecuted
+[historical execution ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) for the
+gates at that checkpoint, and [current question homes](../RQ_Specified/README.md)
+for later results and remaining inputs. The dated design below is retained as provenance, not an unexecuted
 instruction or confirmation of independent replication.
 
 Decision date: 22 September 2026. This is a prospective analysis gate following

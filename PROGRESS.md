@@ -28,9 +28,108 @@ against the release manifest hashes, without a scientific rerun or validator cha
 External settings unchanged;
 NCBI direct-page challenges were supplemented by indexed primary records/local PDFs.
 
+## DuPage RQ placement and rationale audit — 7 November 2026
+
+Owner requested review against the earlier reframing chat, published-target
+literature checks, three distinct RQ homes, and removal of proposed comparisons
+from the measured gallery. At the owner's later instruction, this work builds
+on PR #168 (`4ae13c0`) rather than a separate PR; main is `32ab85e`.
+[Derivation, overlap scan and corrections](Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md)
+now links proposed A33–A35. Current inventory is 36 RQs, 38 article-local
+candidates and 19 paper packages. All A0–A32 identities and hypotheses remain.
+
+The refresh found a missed CCR2/CD25 Il2ra-background counterexample and corrected
+causal-sounding loss/gain wording. It does not invalidate the numerical results.
+Figure 4 is preserved as a historical proposal outside the measured gallery;
+Figures 1–3 and 5–6, contracts, scripts and receipts remain unchanged. New
+qualitative diagrams live with the question homes, separate from measured plots.
+No biological rerun, target validation, scientific acceptance or laboratory
+execution is implied. Full CCR2 supplements, the IGFBP4 2017 full methods,
+actual experimental models and biological-unit precision remain unresolved.
+
+**8 November approved revision:** the owner approved matching neighboring RQs.
+A33–A35 now follow A28/A31/A32's reasoning order, with local primary-source tables,
+existing measured-value summaries, explicit narrowing assessments and staged
+plans. Three biological matte illustrations and exact prompts replace the displayed
+workflow drafts, which remain as provenance sources. The common derivation and
+literature audit now live in the DuPage article's `rq_derivation/` directory;
+there are 36 question homes and two supporting workspaces under `RQ_Specified/`.
+The A34 link is repaired. No biological rerun or hypothesis change was needed.
+
+Validation passed: 17,481 repository checks and the provenance gate against
+refreshed unchanged main `32ab85e`; 167 prior tests remain valid (two skipped),
+including exact RQ inventory rejection cases. All 18 displayed values match the
+frozen tables. Earlier 33 cards/guides and original registry evidence are preserved;
+three selected PNGs were visually reviewed and their provenance registered. The validator's expected sequence now
+includes A33–A35 while retaining equality/order and rejection checks; this inventory
+assertion and the interpretation changes are explicit PR review items. The revisions were committed as `2631fc9` and pushed onto the existing PR #168
+branch, preserving its source-inventory work. Both GitHub workflows passed for
+that revision. The PR title/body now describe the combined scope and explicit
+review items; it remains open and unmerged. GitHub identity is verified as
+`xorca0711`. Next scientific work is the comparison/model qualification in each
+RQ plan if the owner chooses to pursue it; no automatic analysis queue is created.
+External settings are unchanged and were not audited.
+
+## Source inventory publication and documentation hygiene — 7 November 2026
+
+Owner authorized updating the inventory to current main, opening a PR, and
+cleaning the root README, documentation structure, links and superseded roadmap
+routes. Main is `32ab85e` after merged PR #167; the scoped branch integrated it
+at `4d6f96c`. [Current reconciliation and artifacts](docs/audits/2026-11-07-public-data-inventory/RECONCILIATION_V2.md).
+DuPage GSE58998/GSE55773 and the later executed GSE262130 comparison are now
+included. V1 remains preserved; v2 records 544 accession references and 4,197
+local cache files / 74.04 GB. Root raw_data remains 955 files / 34.52 GB.
+
+Current owner routes replace historical ledgers presented as current work.
+Collection counts are 33 RQs, 38 article-local candidates and 19 paper packages.
+The article README/roadmap agree on DuPage's follow-up; old gates/reading order,
+frozen scientific evidence and root measured figures remain preserved.
+GitHub connector and CLI identities are verified as `xorca0711`. Validation
+passed: 772 focused navigation/count/preservation checks, 17,230 repository
+checks, 167 unit tests (two skips), compilation, whitespace checks and the
+base-aware provenance gate against `32ab85e`. The gate caught a hash-bound
+`.gitignore` comment edit; the file was restored exactly and its guidance kept
+in the docs. Seven newly merged DuPage scripts also required exact Git bytes
+locally after Windows checkout line-ending conversion. No frozen input or
+validator was changed. [PR #168](https://github.com/xorca0711/ravel/pull/168)
+is open against main; [remote checks](https://github.com/xorca0711/ravel/pull/168/checks)
+are the live CI record. Next: review and merge only with owner authorization.
+No external settings are unresolved, and no merge was performed.
+
+## Initial source inventory checkpoint — 7 November 2026
+
+The following paragraph records the first local delivery before PR #167 merged;
+the reconciliation above supersedes its integration and publication status.
+
+
+Updated the [central dataset list](docs/DATASETS.md) and its
+[source-use additions](docs/DATASET_UPDATES_2026-11-07.md) on isolated branch
+`codex/public-data-inventory-20261107`, based on freshly fetched main `dcee4b6`.
+[Audit, scan scope and artifacts](docs/audits/2026-11-07-public-data-inventory/README.md).
+The original root checkout and unrelated edits remain preserved.
+
+The tracked-text census records 530 accession identifiers, including metadata,
+search leads and aliases; it does not claim 530 utilized cohorts. The local
+source/reference census contains 4,181 files / 74.04 GB across 15 cache roots;
+the project-root `raw_data/` alone contains 955 files / 34.52 GB in 33 folders.
+The original 51-file inventory remains historical and unchanged. Newer DuPage
+use is recorded separately at its inspected branch revision, not merged.
+
+Inventory/link checks, required archive/claim checks and 167 unit tests passed
+(two environment/platform skips with an explicit writable temporary directory).
+Compilation passed. Fifteen published outputs were restored from existing
+hash-matched local copies; fourteen frozen checkout files were restored to exact
+Git bytes to resolve Windows line-ending mismatches, without semantic changes.
+Final validation passed 16,934 repository checks and the unchanged provenance
+gate against refreshed main `dcee4b6`; whitespace checks passed. No biological
+reruns, source downloads, scientific-status changes, commit, push or merge were
+performed. The inventory update is complete locally and remains uncommitted in
+the scoped worktree. Future changes to caches or unmerged research require a
+new snapshot/reconciliation; no external setting is needed for this update.
+
 ## Biological review and executed candidate continuation — 7 November 2026
 
-[PR #167](https://github.com/xorca0711/ravel/pull/167) is open. Biological review,
+[PR #167](https://github.com/xorca0711/ravel/pull/167) merged on 7 November at `32ab85e`. Biological review,
 source qualification and three experimental question cards are committed.
 The [numerical candidate follow-up](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
 executed from frozen `8f7fa76`: all four candidate genes and three anchors were
@@ -44,7 +143,7 @@ gate and both GitHub workflows passed for the published results at `0578490`.
 All 14 expected new outputs and the receipt match Git byte-for-byte. The original contract-byte
 issue was corrected with article-local attributes; frozen pilot inputs and all
 historical outputs remain preserved. GitHub identity verified as `xorca0711`.
-Results are committed and available for PR review. Future biological work requires the protein/response
+Results are merged; the validation/revision statements above describe publication. Future biological work requires the protein/response
 qualification in the candidate cards. TIGIT animal/source mapping remains unknown;
 no wet-lab experiments or scientific acceptance are implied.
 
