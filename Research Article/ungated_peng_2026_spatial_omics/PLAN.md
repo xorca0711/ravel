@@ -53,6 +53,11 @@ metadata task. The paper, notes and reused results have already been seen.
 
 ## Execution sequence
 
+The [post-execution job ledger](BIOLOGICAL_REVIEW.md#job-by-job-status-and-implication)
+marks each original stage as complete, partial or held and records both completed
+public branches. Its [extension comparison](BIOLOGICAL_REVIEW.md#possible-extensions-and-their-decision-value)
+distinguishes author-export requirements from new functional measurements.
+
 | Step | Work and owner | Deliverable and decision |
 |---|---|---|
 | 0 — source ledger | Pg1-P01: reuse recovered public metadata, previous C3 inventories and source access receipts. Record version/URL/hash; verify downloads are their claimed format. | Source manifest with successful, restricted, unresolved and failed routes. GEO v3 and supplement v2 manifests complete for received sources; new access only for a named remaining gap. |

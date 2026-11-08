@@ -21,6 +21,12 @@ choices; no functional IL-1 reception is established. [Figure gallery](PUBLIC_DA
 following the owner’s presentation direction. These do not replace author pathology/state reproduction.
 The owner reports Zenodo access requested; approval is pending and unverified.
 
+**Coordinating review:** [Biological synthesis and job status](BIOLOGICAL_REVIEW.md)
+compares the completed work with C3, Choi, Cardoso, Han, Hill and Jaiswal, and
+separates access-dependent follow-ups from new functional measurements. The
+LUAD-higher Visium RNA association is a different endpoint from Peng's early-lesion
+cell neighborhoods; it is not a reproduction of that directional result.
+
 [Supplied Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the
 [185-record GEO audit](RESULTS.md) remain preserved. Author barcode/state labels,
 ROI geometry, exact section/core maps and full measured panels remain missing
@@ -28,6 +34,7 @@ for the original within-state spatial extension and TMA transport.
 
 | Read next | Purpose |
 |---|---|
+| [Biological review and job ledger](BIOLOGICAL_REVIEW.md) | Completed contributions, neighboring papers, held jobs and conditional extensions |
 | [Supplement qualification](SUPPLEMENTS_RESULTS.md) | Current source access, lifted/narrowed holds, definitions and receipts |
 | [Original GEO metadata result](RESULTS.md) | Preserved 185-record audit and original hold record |
 | [Source recovery](SOURCE_RECOVERY.md) | Actual access, author definitions, missing exports and join limits |

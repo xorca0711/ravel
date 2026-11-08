@@ -1,5 +1,25 @@
 # Current project state
 
+## Peng biological review and PR synthesis — 8 November 2026
+
+[Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)
+connect completed source qualification, A12 cell distributions and Pg1-P01/C3
+spatial RNA description to neighboring Choi/Cardoso/Han/Hill/Jaiswal work.
+The LUAD-higher lattice result does not reproduce the paper's early-lesion
+cell-neighborhood endpoint. Existing A11/A13 unfavorable results remain intact.
+Both public numerical branches are complete; original stages 3–6 require author
+exports/qualified joins, and stage 7 needs linked functional measurements beyond
+access approval. No new numerical run, canonical RQ change or human acceptance.
+
+Review documentation is prepared for [PR #173](https://github.com/xorca0711/ravel/pull/173),
+with rationale in prose and measured figures retained. Review validation passed
+18,521 repository checks and the base-aware provenance gate against refreshed
+main `1ff71a1`; 33 unrelated raw files still match HEAD. Both remote workflows
+passed at `1ef5bef`; publication of the review revision triggers its own CI. Next:
+qualify newly received author exports under a new contract when available;
+otherwise retain completed public descriptions and conditional extensions.
+Zenodo request remains user-reported pending/unverified; no merge or author message.
+
 ## Public Peng RNA analyses completed — 8 November 2026
 
 [Current results](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)

@@ -77,3 +77,19 @@ Publication validation again passed all 18,490 repository checks and the
 base-aware provenance gate. The 34 unrelated file hashes remain unchanged.
 Both GitHub Actions workflows passed for analysis commit `65627dc`; the final
 publication-record commit requires its own remote CI result.
+
+## Coordinating biological review — 8 November 2026
+
+Both remote workflows passed for publication record `1ef5bef`. The subsequent
+biological synthesis is documentation only: no numerical analysis, contract,
+frozen output, claim grade or canonical question changed. Refetch confirmed main
+at `1ff71a1818be1782dede0ccd5898eea793497f73`. Review validation passed **18,521
+repository checks** and the unchanged research gate with `--base origin/main`.
+All 22 local links in the new synthesis resolve. The two principal measured PNGs
+were inspected; existing atlas and numerical verifications are reused.
+
+A temporary preservation snapshot was unavailable across isolated shells; direct
+raw-byte comparison instead confirmed all 33 unrelated working-tree files match
+their HEAD blobs. Authored-file whitespace checks passed. Publication of this
+documentation revision requires its own remote CI; prior success is not reused
+as evidence for a new commit.

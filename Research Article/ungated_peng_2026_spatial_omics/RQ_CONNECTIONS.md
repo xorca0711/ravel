@@ -1,5 +1,11 @@
 # Connections, contribution and distinctions
 
+The [completed-delivery biological review](BIOLOGICAL_REVIEW.md) compares the
+actual public results with neighboring article work and records conditional
+extensions. It preserves the distinctions below: the Visium lattice endpoint is
+not the author 80-micrometer cell-neighborhood endpoint, and no canonical question
+or unfavorable result is replaced.
+
 **Public-data amendment, 8 November:** Existing A12 owns the bounded cell-level
 detection/intensity/co-detection follow-up; Pg1-P01/C3 owns a separate lattice
 spatial description. [Context and literature refresh](PUBLIC_DATA_CONTEXT.md)
