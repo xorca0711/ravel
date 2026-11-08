@@ -8,8 +8,10 @@ Pg1-P01/C3 lattice-based Visium RNA organization. See [fixed cell specification]
 and [targeted literature/context](PUBLIC_DATA_CONTEXT.md). These new exposed
 descriptions use existing public counts; they do not relax author-dependent stages
 3–6 or replace pathology with expression scores. The historical statement that
-tables alone do not enable expression work remains true. Branch A is being frozen;
-branch B requires qualified graph inputs and its own frozen contract.
+tables alone do not enable expression work remains true. Branch A has executed with 7,677 independent checks and exact old-count parity.
+Branch B now has its [fixed lattice specification](PUBLIC_SPATIAL_SPEC_V1.md)
+and registered input-bound contract, pending its committed freeze/run. Measured
+result plots and a separately labeled rationale figure will be stored with receipts.
 
 
 8 November 2026. The owner requested source recovery, ungated placement and then
