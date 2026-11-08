@@ -45,3 +45,15 @@ Fig.6G/I/J already shows the ligand/control and nonsignificant ligand/ligand
 contrasts now reconstructed. This is same-source arithmetic verification, not
 independent support. The new source audit identifies mixed-dose nesting and
 remaining workbook/test discrepancies; it does not discover a new mechanism.
+
+## RNA execution interpretation — 8 November 2026
+
+The [RNA addendum](RNA_RESULTS.md) describes the deposited broad microglia and
+T cells using the exact archived IL-10-related and IFN marker vectors. This
+checks a same-source measurement pattern; the T-cell/IFN mechanism remains the
+paper's premise, not a new discovery or independent replication. Original
+annotation, dose/source and filename discrepancies preclude exact downstream
+figure reproduction. Stat3-versus-Socs3 source wording, absent hallmark membership
+and individual discordant markers remain explicit. No new novelty search or
+proposed RQ is needed for this bounded plan. Animal, protein and RNA endpoints
+remain separate, and the original correction accompanies the paper's panels.

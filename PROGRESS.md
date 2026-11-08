@@ -1,5 +1,26 @@
 # Current project state
 
+## Navarro pooled RNA execution — 8 November 2026
+
+[RNA results and measured SVGs](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
+and [seven-stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+record completed Nn26-P01 metadata qualification and exposed description.
+The main RDS has eight aliases rather than the six published libraries; extra
+WT50/Mut50 expression comparisons are held. WT5/Mut5 has an indirect main-figure
+dose association; WT1/Mut1 numeric dose remains unverified. Broad microglia do
+not recreate the downstream subcluster exclusion. Mixed marker directions,
+sparse control T cells and absent biological replication remain explicit.
+
+All 306 summaries and 357 contrasts passed 4,245 independent scalar checks.
+The original serializer failure and 192 captured row-name warnings are preserved
+and explained; successful stage receipts verify. Only the authorized main RDS
+and exact small author-code ZIP were acquired. Scoped cloud validation covers
+contracts, frozen code, input identities and receipts; parent integration checks
+remain separate because older animal assets and unrelated sparse paths are
+intentionally not materialized here. See the [transfer guide](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_TRANSFER.md).
+No scientific acceptance, push, publication, author contact, environment-policy
+change or mounted Weft modification occurred.
+
 ## Peng biological review and PR synthesis — 8 November 2026
 
 [Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)

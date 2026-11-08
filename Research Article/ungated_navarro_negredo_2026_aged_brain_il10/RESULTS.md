@@ -1,5 +1,7 @@
 # Nn26-P01 — source and animal-outcome reproduction
 
+**RNA addendum (8 November 2026):** [RNA_RESULTS.md](RNA_RESULTS.md) now records completed object qualification and alias-specific description, with dose/source holds. This earlier animal report and its frozen numerical evidence are retained; its RNA-pending statements describe the earlier checkpoint.
+
 8 November 2026. **Source qualification and the animal-outcome stage executed;
 RNA object qualification remains pending.** This is exposed same-source
 reproduction, not independent replication or scientific acceptance.

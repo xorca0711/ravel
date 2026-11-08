@@ -1,5 +1,7 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
+**Current RNA status (8 November 2026):** object qualification and bounded pooled RNA description have executed. See [RNA results, measured SVGs and validation](RNA_RESULTS.md), [current stage ledger](STAGE_STATUS.md) and [cloud transfer guide](CLOUD_TRANSFER.md). The earlier paper assessment below predates this RNA execution; its pending statements are historical.
+
 8 November 2026 (Asia/Seoul). **Nn26-P01 source qualification and animal-outcome
 reproduction executed; RNA object qualification pending.** This remains a separate
 ungated package linked to Gate 3A/Saxton IL-10, with no scientific acceptance.

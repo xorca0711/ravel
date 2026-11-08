@@ -1,24 +1,24 @@
 # Execution ledger — 8 November 2026
 
-Current authority: [results](RESULTS.md). Candidate **Nn26-P01**, ungated.
-Execution is not scientific acceptance; all prior outcome exposure is retained.
+Candidate **Nn26-P01**, ungated. Current authority: [RNA results](RNA_RESULTS.md)
+and [earlier animal results](RESULTS.md). Execution is not scientific acceptance.
+All numerical work remains exposed reproduction/description.
 
-| Planned stage | Status | Evidence / exact next step |
+| Plan step | Status | Qualification |
 |---|---|---|
-| 1. Source/exposure crosswalk | Executed with explicit unknowns | Valid publisher S1/S4; 20 runs/six BioSamples; six main RNA library descriptions. [Source receipt](../../analysis/research/runs/nn26_source_qualification_v1/receipt.json). Code aliases, optional-cohort discrepancies and biological keys remain explicit |
-| 2. Registration/contracts | Completed for executed stages | Nn26-P01; three frozen contracts/commits and verified receipts. Later RNA stages require their own hashes and freeze |
-| 3. Animal outcomes | Executed; partial source discrepancies retained | 16 panels, 40 reported direct comparisons; all four chance tests reproduce. Exact absolute-tail method reconciles 38/40 direct tests within 0.0001. No WT cognition arm, mixed-dose nesting retained |
-| 4. Main RDS qualification | Not executed; runtime/acquisition ready | Cloud R/Matrix/SeuratObject synthetic tests passed; authorized main RDS size/MD5/SHA-256 verified. [Readiness](CLOUD_READINESS.md). Actual object loading and peak memory untested; transfer/freeze Ravel metadata code and use its runner next |
-| 5. Within-dose pooled RNA | Not executed; dependent hold | Requires qualified dose/code aliases, cell identities and RNA layers, then a frozen descriptive contract. One pool per condition remains the unit |
-| 6. Optional auxiliary checks | Not launched | No new concrete comparison justifies acquisition. Optional-source conflicts retained |
-| 7. Synthesis | Completed for recovered sources and animal branch | [Evidence map](RESULTS.md#evidence-map-and-next-decision); RNA synthesis remains pending |
+| 1. Source/exposure crosswalk | Executed with holds | Earlier S1/S4 and six-library evidence preserved; eight RDS aliases observed. No accession/barcode join or extra-arm dose identity fabricated |
+| 2. Registration/contracts | Complete for executed stages | Separate committed metadata, review, description and archive contracts; successful receipts verified; actual failed v1 receipt preserved |
+| 3. Animal outcomes | Earlier desktop execution retained | 16 panels, 40 direct comparisons; 38/40 exact-rank reconciliations. No RNA-stage rerun or claim upgrade |
+| 4. Main RDS qualification | Complete with specific source holds | 51,176 cells, 31,053 RNA genes; sparse alignment/QC/normalization pass. No individual donor provenance, no downstream Micro_types |
+| 5. Pooled RNA description | Complete for supported alias pairs | WT5/Mut5 has indirect main-figure 0.02 mg/mL association; WT1/Mut1 numeric dose unverified. WT50/Mut50 expression held. All declared marker summaries/contrasts retained |
+| 6. Optional sources | No new eligible acquisition | Separate WT cannot replicate D25K–WT; RIPR/brain–lung/atlas designs do not repair main pooling. Existing optional-source conflicts remain |
+| 7. Synthesis | Complete within these limits | RNA, protein, neural markers and behavior kept distinct. No population effect, age interaction, repair or mediation inference |
 
-No global A ID, claim-grade promotion, human retain/reject decision, push,
-merge or author contact occurred. This Ravel worktree did not change cloud
-configuration; the owner's newer cloud chat verified applied Zenodo access
-and prepared an isolated runtime without modifying the mounted Weft repository.
+[Machine-readable completion](../../analysis/research/runs/nn26_completion_archive_v1/completion_summary.json)
+contains all seven decisions and exact run/table locators. Four SVGs were
+rendered and inspected. Metadata warnings were captured and independently
+qualified; frozen QC names are explained without rewriting outputs.
 
-Validation: source 180 independent cell checks; animal 657 independent checks;
-v2 34 enumeration and 34 SciPy permutation checks; receipts verify. Figures
-inspected. Repository/integration checks are recorded in PROGRESS at delivery.
-Historical line-ending status paths remain byte-identical and unstaged.
+[Cloud transfer guide](CLOUD_TRANSFER.md) records integration scope and validation.
+No global A ID, human acceptance, push, publication, network-policy change,
+author contact or modification of mounted Weft occurred.

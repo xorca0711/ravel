@@ -1,5 +1,7 @@
 # RNA execution readiness — 8 November 2026
 
+**Execution addendum (8 November 2026):** the retained runtime and exact RDS were reverified, and frozen metadata/descriptive stages have now executed. See [RNA_RESULTS.md](RNA_RESULTS.md) for actual peak memory, warnings, receipts and scientific holds. The readiness-only state below is historical.
+
 The owner requested a cloud attempt after the local resource check, and guidance
 in the repository-root AGENTS.md for future hardware constraints. This is an
 operational record, not an RNA qualification receipt.
