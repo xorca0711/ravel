@@ -3,36 +3,34 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Peng spatial-omics paper and reading-note assessment - 8 November 2026
+## Peng ungated paper structure and technical handoff — 8 November 2026
 
-Read the supplied full paper/supplement and linked notes, checked the main
-state/pathology, clonal, spatial and mouse-intervention evidence, and compared
-it with current A11/A12/A13 and state/recovery records.
-[Assessment, note corrections and proposed next comparison](docs/research_reviews/2026-11-08-peng-spatial-reading/README.md).
-Added a consistent A12 literature annotation to its README, context and dossier;
-Peng's KAC/state comparison is related evidence, not an explanation of the
-pilot's different histology contrast or independent validation of reused patients.
+Owner requested pathology/ROI/sample recovery, ungated classification and then
+execution in a separate technical chat. Created the [Pg1 package](Research%20Article/ungated_peng_2026_spatial_omics/README.md), registered Pg1-P01 as an article-local candidate, and linked its
+[source record](Research%20Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md),
+[stepwise plan](Research%20Article/ungated_peng_2026_spatial_omics/PLAN.md) and
+[technical handoff](Research%20Article/ungated_peng_2026_spatial_omics/TECHNICAL_HANDOFF.md).
+The ordered roadmap and all existing RQ identities/results remain unchanged.
 
-The next proposed step is targeted author annotation/ROI and sample-join recovery
-for the existing spatial source, before a within-state neighborhood comparison.
-Current source access leaves the published Zenodo identifiers unreconciled:
-17172149 has restricted files; 15670280 and the author README's 17148540 were
-not retrievable by the inspected route. No new source archive or biological run
-was required. Notion notes, frozen evidence, questions and scientific acceptance
-remain unchanged; no external settings or accounts were modified.
+Recovered three public GEO SOFT records and exact published pathology/ROI rules.
+GSE307529 is WES, not Xenium. Human-data DOI 15670280 resolves to restricted
+version 18851077; code 17172149 is also restricted. Table S1–S4 links were located,
+but direct routes returned non-spreadsheet responses/errors and the browser
+attempt timed out. Exact author spot/cell labels, ROI geometry and specimen joins
+remain unqualified; no expression analysis was rerun. Next technical work is a
+frozen metadata contract/crosswalk using prior C3 inventories, then every eligible
+plan stage with narrow holds where inputs are missing. No author contact or
+external account changes were made.
 
-Work is isolated on `codex/peng-spatial-reading-20261108`, with updated main
-`1ff71a1` integrated and both progress entries preserved. The original checkout's
-unrelated PROGRESS changes are untouched. Validation passed: 18,243 repository
-checks, 167 tests (two skipped), compilation, 18 claim bindings, required archive
-verifiers, whitespace checks and the base-aware research gate. The first test
-attempt hit sandbox temporary-directory permissions; it passed with an explicit
-writable test directory. The first gate found Windows checkout byte differences;
-33 files were restored to their exact existing Git bytes after verifying only
-line endings differed. Fifteen missing published outputs were also supplied from
-hash-matched existing local copies; all 16 locked members verify. No scientific
-content, contract or validator changed, and no biological analysis was rerun.
-The reading assessment is complete and saved locally; no push or PR was requested.
+Work stays in `codex/peng-spatial-reading-20261108`; main `1ff71a1` was refreshed.
+The original checkout's unrelated changes and all frozen outputs are preserved.
+The [earlier paper/Notion review](docs/research_reviews/2026-11-08-peng-spatial-reading/README.md)
+and its full validation remain recorded. Planning validation passed: 18,279
+repository checks, the base-aware research gate, local package links, whitespace,
+and explicit preservation of the ordered reading list and canonical question
+records. No scientific code changed, so prior passing numerical/archive tests
+were reused. The next action is dispatch of the separate technical chat from
+this committed plan; that chat will own execution receipts and subsequent updates.
 
 ## Remaining top-level documentation organized — 8 November 2026
 

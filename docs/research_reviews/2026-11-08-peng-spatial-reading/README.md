@@ -1,5 +1,7 @@
 # Peng spatial-omics: paper assessment and connection to Ravel
 
+**Subsequent owner-directed work, 8 November 2026:** [Ungated paper package and source recovery](../../../Research%20Article/ungated_peng_2026_spatial_omics/README.md) now own follow-through. The access statements below describe the earlier reading pass; the new source record resolves the human-data DOI to a restricted version and preserves remaining annotation/download limits.
+
 Reading assessment, 8 November 2026. Based on main `60537cdbaff97f4e6728c58ea97e16a6b265db13`.
 Reconciled with the documentation reorganization on main `1ff71a1` before delivery.
 Documentation only: no biological analysis, new candidate registration, hypothesis

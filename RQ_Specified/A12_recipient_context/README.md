@@ -1,5 +1,7 @@
 # A12: recipient context beyond ligand RNA
 
+**Authorized source recovery, 8 November:** the [ungated Peng package](../../Research%20Article/ungated_peng_2026_spatial_omics/README.md) records recovered methods/GEO metadata, missing author exports and the stepwise technical plan. This advances qualification only; the A12 estimand, current results and claim status are unchanged.
+
 <a id="organizing-biological-question"></a>
 
 ## Organizing Biological Q
