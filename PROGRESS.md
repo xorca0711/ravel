@@ -7,9 +7,9 @@ research registry own scientific status; older checkpoints are history.
 
 Owner identified clutter left by compatibility files. Scoped branch
 `codex/docs-root-hygiene-20261108` starts at freshly verified main `60537cd`,
-after merged PRs #170 and #171. Six unpinned guides moved into purpose folders;
+after merged PRs #170 and #171. Five unpinned guides moved into purpose folders;
 three unnecessary compatibility files were removed after updating their mutable
-roadmap/claim references. Top-level Markdown files decrease from 25 to 16.
+roadmap/claim references. Top-level Markdown files decrease from 25 to 17.
 [Dependency and move record](docs/audits/2026-11-08-docs-root-hygiene/README.md).
 
 Remaining compatibility paths have explicit generated-output or frozen-record
@@ -17,10 +17,13 @@ consumers. Claim C7 changes its artifact path only; the original full report,
 scientific wording/status and numeric bindings are preserved. Workflow files
 and AGENTS references change location only; no policy or validator is weakened.
 No biological analysis, raw-cache change or evidence deletion. Validation passed:
-84 focused move/preservation checks, 15,052 local links, 18,221 repository checks,
+82 focused move/preservation checks, 15,053 local links, 18,222 repository checks,
 167 tests (two skips), 18 claim numeric bindings and the unchanged provenance
 gate against refreshed main `60537cd`. The manifest changes only C7's two path
 fields and the source checksum; scientific scripts and outputs remain unchanged.
+Initial CI caught the A22 run records binding the A10 endpoint report. Restored
+that report exactly and retained its architecture-guide destination at the root;
+the unchanged archive verifier is part of the final checks.
 [PR #172](https://github.com/xorca0711/ravel/pull/172) is open for owner review;
 [remote checks](https://github.com/xorca0711/ravel/pull/172/checks) record validation
 on the published head. Next: review the path-only changes; merge remains an

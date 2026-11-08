@@ -7,7 +7,7 @@ frozen/generated consumers justify retaining an old path.
 
 ## Changes
 
-- Six current guides moved into `docs/guides/`, `docs/governance/` and
+- Five current guides moved into `docs/guides/`, `docs/governance/` and
   `docs/portfolio/`, with incoming links updated and no new root-level stubs.
 - Three unnecessary locators were removed: `DOUBLETS_AND_SCRUBLET.md`,
   `LOGICAL_RATIONALE_REVIEW.md` and `scRNAseq_workflow_Niethamer2025.md`.
@@ -17,7 +17,7 @@ frozen/generated consumers justify retaining an old path.
   artifact path points directly to the existing full doublet report; the claim
   wording, status and numeric bindings are unchanged. Its manifest/summaries were
   regenerated using the existing tools.
-- The `docs/` root now has 16 Markdown files, down from 25. Seven are necessary
+- The `docs/` root now has 17 Markdown files, down from 25. Seven are necessary
   compatibility locators; two more remain under `research_dossiers/`.
 
 [Migration record](migration.json) lists paths, original hashes and frozen files.
@@ -31,6 +31,7 @@ is not a current runtime consumer and no longer justifies an otherwise unused st
 | `README.md`, `DATASETS.md` | Deliberate stable documentation/source entry points |
 | `CLAIM_SUMMARY.md`, `NEGATIVE_RESULTS.md` | Current generated outputs and existing generator/checker paths |
 | `PIPELINE_AS_RUN.md`, `ANALYSIS_RATIONALE.md` | Original pipeline outputs/references, including generator and validation consumers |
+| `RESEARCH_ARCHITECTURE.md` | Linked from the exact-byte A10 report bound by A22 identity-amount run records |
 | `RESEARCH_GOVERNANCE.md` | Referenced by a hash-bound A8 document and frozen provenance |
 | `RQ_MEASUREMENT_CONTRACTS.md`, `NEXT_DATASET_GATE.md` | References inside preserved legacy question contracts |
 | `PORTFOLIO.md` | Referenced by hash-bound dossier A13 |
@@ -45,15 +46,18 @@ are preserved. No biological analysis was rerun.
 
 ## Validation and delivery
 
-Validation passed against refreshed, unchanged main `60537cd`: 84 focused
-move/preservation checks and 15,052 local links, 18,221 repository checks,
+Validation passed against refreshed, unchanged main `60537cd`: 82 focused
+move/preservation checks and 15,053 local links, 18,222 repository checks,
 167 unit tests (two skips), all 18 claim numeric bindings, the unchanged
 base-aware provenance gate and whitespace checks. The manifest diff contains
 only C7's two artifact-path fields and the updated source-document checksum.
 Existing CRLF serialization in the generated manifest is retained.
 
-No scientific script, validator or numeric output changed, so prior scientific
-archive checks remain valid. [Focused result](validation.json).
+CI exposed an additional exact-byte dependency: the A22 extension records bind
+the A10 endpoint report, whose architecture links must remain unchanged. The
+report was restored byte-for-byte and `RESEARCH_ARCHITECTURE.md` retained at its
+original path. The unchanged A22/A23 archive verifier was rerun after repair.
+No archive hash or validator was relaxed. [Focused result](validation.json).
 [PR #172](https://github.com/xorca0711/ravel/pull/172) is open for owner review;
 its [checks page](https://github.com/xorca0711/ravel/pull/172/checks) records remote
 validation. No merge was performed.

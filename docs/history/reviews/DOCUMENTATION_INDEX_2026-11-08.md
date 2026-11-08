@@ -18,7 +18,7 @@ and [project state](../../../PROGRESS.md) own current findings and work status.
 | Questions, evidence and next comparisons | [Question homes](../../../RQ_Specified/README.md), [dossiers](../../research_dossiers/README.md), [registry](../../../analysis/research/registry.json) |
 | Papers, reading permissions and analyses | [Article index](../../../Research%20Article/README.md) and [roadmap data](../../../Research%20Article/ROADMAP.json) |
 | Public sources and local cache inventory | [Dataset inventory](../../DATASETS.md), [source-use update](../source-inventories/DATASET_UPDATES_2026-11-07.md) |
-| Directory ownership and evidence rules | [Structure](../../guides/REPOSITORY_STRUCTURE.md), [architecture](../../guides/RESEARCH_ARCHITECTURE.md), [governance](../../RESEARCH_GOVERNANCE.md) |
+| Directory ownership and evidence rules | [Structure](../../guides/REPOSITORY_STRUCTURE.md), [architecture](../../RESEARCH_ARCHITECTURE.md), [governance](../../RESEARCH_GOVERNANCE.md) |
 | Verification and handoff | [Reproducibility](../../../REPRODUCIBILITY.md), [project state](../../../PROGRESS.md) |
 
 ## Dated reviews and planning history
@@ -78,7 +78,7 @@ and [negative-results index](../../NEGATIVE_RESULTS.md). The summaries are gener
 from the register; corrections belong in their source records.
 
 Repository guides: [structure and label scope](../../guides/REPOSITORY_STRUCTURE.md),
-[research architecture](../../guides/RESEARCH_ARCHITECTURE.md),
+[research architecture](../../RESEARCH_ARCHITECTURE.md),
 [reproducibility](../../../REPRODUCIBILITY.md) and [portfolio summary](../../portfolio/PORTFOLIO_SUMMARY.md).
 The [next-dataset gate](../planning/NEXT_DATASET_GATE.md) is a historical design with links
 to the resulting analyses. Dated reviews, including the

@@ -306,7 +306,7 @@ everything weaker than that threshold, which is why the previous wording was
 corrected rather than the underlying number changed. The repository rule is the
 same: "Positive nonsignificant estimates do not establish absence. Equivalence
 needs a stated useful-effect margin and suitable precision"
-([RESEARCH_ARCHITECTURE.md](../../../docs/guides/RESEARCH_ARCHITECTURE.md), rule 5;
+([RESEARCH_ARCHITECTURE.md](../../../docs/RESEARCH_ARCHITECTURE.md), rule 5;
 [MC1](../../../docs/RQ_MEASUREMENT_CONTRACTS.md#mc1)).
 
 This matters for A10 because A10's own comparisons supply no p-values, no
@@ -397,5 +397,5 @@ predicts a later outcome.
 | [docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md](../../../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) | C49 wording correction; A10 row of the evidence ledger |
 | [docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md](../../../docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md) | The A10 item this consolidation implements |
 | [docs/RQ_MEASUREMENT_CONTRACTS.md](../../../docs/RQ_MEASUREMENT_CONTRACTS.md#mc1) | MC1 unit rules and the A10 outcome-gate line; MC5 programme-validation rule |
-| [docs/RESEARCH_ARCHITECTURE.md](../../../docs/guides/RESEARCH_ARCHITECTURE.md) | Shared rule on nonsignificant estimates and equivalence |
+| [docs/RESEARCH_ARCHITECTURE.md](../../../docs/RESEARCH_ARCHITECTURE.md) | Shared rule on nonsignificant estimates and equivalence |
 | [RESEARCH_QUESTIONS.md](../../../RESEARCH_QUESTIONS.md#a10) | A10 register card wording, quoted without change |

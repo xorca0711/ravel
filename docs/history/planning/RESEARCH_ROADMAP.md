@@ -42,7 +42,7 @@ Use the [dataset inventory](../../DATASETS.md) for current analysed versus gated
 
 **Planning baseline:** 27 September 2026, with execution status synchronized on 28 September.
 
-This roadmap follows the [repository rationale audit](../../audits/2026-09-27-rq-rationale/REPORT.md) and [shared architecture](../../guides/RESEARCH_ARCHITECTURE.md). It preserves existing stop decisions and frozen instruments. It structures future work without changing claim grades or treating A15 registration as accepted. A dataset mentioned in an older analysis is not automatically eligible for a new question.
+This roadmap follows the [repository rationale audit](../../audits/2026-09-27-rq-rationale/REPORT.md) and [shared architecture](../../RESEARCH_ARCHITECTURE.md). It preserves existing stop decisions and frozen instruments. It structures future work without changing claim grades or treating A15 registration as accepted. A dataset mentioned in an older analysis is not automatically eligible for a new question.
 
 ## 1. Organizing question and biological context
 

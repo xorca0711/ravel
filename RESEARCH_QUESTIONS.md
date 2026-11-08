@@ -81,7 +81,7 @@ historical results and claim grades are unchanged.
 **Roadmap execution, 27 September 2026:** [package results](docs/roadmap_runs/2026-09-27/README.md). P1 recovered split-well replication and supplemented EGF in the screen; P2 replication remains gated, and P4 quantifies source-attribution uncertainty. Current interpretations below retain the original numerical results.
 
 **Interpretation audit, 27 September 2026:** [all questions and trials](docs/audits/2026-09-27-rq-rationale/REPORT.md);
-[shared research architecture](docs/guides/RESEARCH_ARCHITECTURE.md). A2 and A15
+[shared research architecture](docs/RESEARCH_ARCHITECTURE.md). A2 and A15
 interpretations below incorporate the dated corrections; recorded estimates,
 thresholds and historical claim grades are unchanged.
 The [research roadmap](docs/history/planning/RESEARCH_ROADMAP.md) structures proposed next work, biological context and stop rules.

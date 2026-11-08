@@ -20,7 +20,7 @@ supply findings and next comparisons; dated reviews retain their original scope.
 
 | Purpose | Folder or guide | Status |
 |---|---|---|
-| Research rules and document ownership | [Governance](RESEARCH_GOVERNANCE.md), [structure](guides/REPOSITORY_STRUCTURE.md), [architecture](guides/RESEARCH_ARCHITECTURE.md), [decision workflow](governance/AGENT_DECISION_WORKFLOW.md), [literature workflow](governance/LITERATURE_WORKFLOW.md) | Current repository-wide guidance |
+| Research rules and document ownership | [Governance](RESEARCH_GOVERNANCE.md), [structure](guides/REPOSITORY_STRUCTURE.md), [architecture](RESEARCH_ARCHITECTURE.md), [decision workflow](governance/AGENT_DECISION_WORKFLOW.md), [literature workflow](governance/LITERATURE_WORKFLOW.md) | Current repository-wide guidance |
 | Source use and eligibility | [DATASETS.md](DATASETS.md) | One current list, with evidence links and dated storage snapshots |
 | Methods, tools and teaching material | [methods](methods/README.md) | Reference methods separated from actual execution records |
 | Earlier plans, reviews, source supplements and handoffs | [history by purpose](history/README.md) | Historical; superseded plans are not active work queues |
@@ -40,9 +40,9 @@ paths required by frozen evidence, contracts and generated reports. Existing
 numerical evidence, current RQ dossiers and registered specifications stay in place.
 
 The follow-up [top-level cleanup](audits/2026-11-08-docs-root-hygiene/README.md)
-moves six current guides into [repository guides](guides/README.md),
+moves five current guides into [repository guides](guides/README.md),
 [research workflows](governance/README.md) and [portfolio reading](portfolio/README.md).
-Three unnecessary compatibility files are removed; `docs/` now has 16 top-level
+Three unnecessary compatibility files are removed; `docs/` now has 17 top-level
 Markdown files instead of 25. The cleanup record explains the concrete dependency
 for each remaining root-level file.
 

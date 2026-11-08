@@ -17,11 +17,6 @@
       "source_sha256": "5284ec9fd586c13dfc4f813efd4b3c3edef3c9724489b1915e1b1a898d81b394"
     },
     {
-      "from": "docs/RESEARCH_ARCHITECTURE.md",
-      "to": "docs/guides/RESEARCH_ARCHITECTURE.md",
-      "source_sha256": "35a3dcb36e85853152c1212cb41cd23c79919537d7a034198cb4a18168e57b6b"
-    },
-    {
       "from": "docs/RESEARCH_TOPICS.md",
       "to": "docs/guides/RESEARCH_TOPICS.md",
       "source_sha256": "2ac628848df5b8a82e93fc178a45b4eb17e33eb689288200851f965ffba80525"
@@ -46,7 +41,6 @@
     "RESEARCH_QUESTIONS.md",
     "RQ_Specified/A0_conserved_epithelial_transition_program/LITERATURE_CONTEXT.md",
     "RQ_Specified/A10_organoid_growth_outcome/LITERATURE_CONTEXT.md",
-    "RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md",
     "RQ_Specified/A11_lesion_programme_addition/LITERATURE_CONTEXT.md",
     "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/LITERATURE_CONTEXT.md",
     "RQ_Specified/A14_withdrawal_recovery_and_reception/LITERATURE_CONTEXT.md",
@@ -157,6 +151,12 @@
     "Research Article/ungated_saxton_2021_il10/METHODS_V1.md",
     "analysis/research/runs/wg_figures_v1/CAPTIONS.md",
     "analysis/research/runs/wg_figures_v2/CAPTIONS.md",
-    "analysis/research/runs/wg_bulk_figures_v1/CAPTIONS.md"
-  ]
+    "analysis/research/runs/wg_bulk_figures_v1/CAPTIONS.md",
+    "RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md"
+  ],
+  "retained_after_archive_check": {
+    "path": "docs/RESEARCH_ARCHITECTURE.md",
+    "frozen_consumer": "RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md",
+    "reason": "A22 identity_amount v1/v2 run records bind the exact A10 report bytes, including its original architecture link."
+  }
 }

@@ -55,7 +55,7 @@ suppress failures in the active repository's own scientific artifacts.
 | Medium L9 | A0 has two pilots with different discovery cohorts, intestinal intermediates and scorers; the old checkout exposes only the first | Current status is `pilot_v1`, not a blend of their sample counts/effects. Both reuse repair/Haber sources; a newly frozen candidate is not a wholly untouched cohort. Historical replay scripts can overwrite outputs and must run in an isolated copy. |
 
 The repository's shared architecture is now stated in
-[RESEARCH_ARCHITECTURE.md](../../guides/RESEARCH_ARCHITECTURE.md). The invariant is an
+[RESEARCH_ARCHITECTURE.md](../../RESEARCH_ARCHITECTURE.md). The invariant is an
 explicit question-to-measurement-to-decision chain, not identical software,
 one universal gene score, a universal cell floor or an insistence that every
 useful exploratory analysis must establish causation.

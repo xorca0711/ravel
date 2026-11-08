@@ -89,7 +89,7 @@ not support.
 
 Different questions are at different stages. Completing an analysis can resolve a
 measurement or data limitation while leaving the biological hypothesis open. The
-[research architecture](docs/guides/RESEARCH_ARCHITECTURE.md) explains the evidence layers,
+[research architecture](docs/RESEARCH_ARCHITECTURE.md) explains the evidence layers,
 while [current project state](PROGRESS.md), the [question homes](RQ_Specified/README.md)
 and [article reports](Research%20Article/README.md) locate active dependencies.
 The [older remaining-work ledger](docs/history/planning/REMAINING_WORK.md)
