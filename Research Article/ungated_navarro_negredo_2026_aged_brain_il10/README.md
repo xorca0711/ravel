@@ -3,7 +3,9 @@
 8 November 2026 (Asia/Seoul). Owner-requested paper/data-use assessment against
 main `1ff71a1818be1782dede0ccd5898eea793497f73`. This is reading and source
 inspection, not a numerical analysis, new registered candidate, or scientific
-acceptance. [Data and access record](DATA_USAGE.md).
+acceptance. [Data and access record](DATA_USAGE.md),
+[metadata follow-up](METADATA_FOLLOWUP.md), and
+[current stepwise analysis plan](ANALYSIS_PLAN.md).
 
 **Assessment: a strong biological companion to Gate 3A Saxton IL-10, with a
 useful but replication-limited single-cell deposit.** It connects cytokine
@@ -121,14 +123,23 @@ ordered reading roadmap, with a cross-link to Gate 3A/Saxton IL-10. Its datasets
 and study identity remain separate. No global A ID, registered analysis
 candidate, scientific acceptance or old-question retirement is created.
 
-For computation, the useful first target would be the main IL-10 Seurat object,
-after a separate source-qualification contract: reconcile condition/dose/pool
-labels and raw-read mappings; retain cell-type counts and the sparse T-cell
-denominator; then decide whether a bounded **D25K-versus-WT description within
-each dose** adds useful measurement verification. Suppression-associated and
-IFN-associated endpoints should be reported separately. Preserve attenuation
-and null differences, rather than search for an omnibus favorable score.
-Pooling remains a hard limit on animal-level inference even if every file loads.
+The owner's subsequent metadata request establishes the sequence in the
+[current plan](ANALYSIS_PLAN.md): qualify the source
+crosswalk, prioritize S4's animal-level outcomes, then inspect that single
+object for a bounded **D25K-versus-WT description within each verified dose**.
+The branches have separate eligibility requirements; an inaccessible outcome
+table need not stop independent object-metadata work. Suppression-associated
+and IFN-associated endpoints remain separate, including attenuation and null
+differences. Pooling limits animal-level inference even if every file loads.
+
+The [follow-up](METADATA_FOLLOWUP.md) recovers six BioSamples' collection dates,
+ages and tissues, four treatment libraries' chemistry, and assay-specific
+exposure/unit details. Main RNA figures and cognition use 0.02 mg/mL, whereas
+olfactory-bulb neurogenesis methods specify 0.1 mg/mL. Random assignment is
+reported for cognition; image acquisition and nest scoring are blinded.
+Endpoint-specific mouse counts, code dose aliases and direct behavioral
+statistics still need S1/S4. No individual mouse identities were recovered
+from the checked sequencing metadata.
 
 For a genuinely new age-boundary question, compare the same ligand contrast in
 young and old biological units under matched exposure and a defined functional
@@ -154,8 +165,10 @@ as interchangeable. The 2025 Groh and Mason papers were identified as contextual
 leads with different T-cell/microglial consequences, not fully audited here.
 No novelty or laboratory-readiness claim follows from this search.
 
-Assessment is complete. Before numerical reuse: obtain readable S1/S4 and
-supplemental figures; inspect the processed object's actual metadata/count
-slots and exclusions; resolve the code-to-deposit dose mapping; then specify
-and register any bounded analysis. No large matrix was downloaded, no biological
-analysis ran, and no external account setting or scientific status changed.
+Assessment and the requested metadata follow-up are complete. The
+[seven-step plan](ANALYSIS_PLAN.md) specifies source qualification, contracts,
+animal outcomes, object qualification, descriptive RNA comparisons, conditional
+auxiliary checks and synthesis. S1/S4 remain unread after public API, cloud and
+normal article-download checks; the final route encountered browser verification.
+No large matrix was downloaded, no biological analysis ran, and no external
+account setting or scientific status changed.

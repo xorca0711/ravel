@@ -3,6 +3,37 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Navarro metadata follow-up and analysis plan — 8 November 2026
+
+Completed the owner's [metadata scan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md)
+and [stepwise plan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md)
+in the separate ungated package on `codex/navarro-aging-fit-20261108`.
+Recovered experiment-level ages/dates/tissues from all six BioSamples and
+chemistry/platform from four treatment-library records. Methods distinguish
+0.02 mg/mL main RNA/cognition from 0.1 mg/mL olfactory-bulb measurements,
+document randomized cognition allocation and some blinded readouts, and expose
+panel-specific denominator and precision-reporting questions for S4.
+
+No individual mouse assignment, added biological replicate or young treatment
+arm was recovered. S1/S4 remain unread: direct routes returned HTML/403,
+the replacement PMC cloud excludes this manuscript's media, and a normal
+article download reached browser verification. No challenge was bypassed or
+author contacted. Exact sources, access limits and snapshot hashes are in the
+follow-up. No large matrix, numerical biological run, new candidate/contract,
+scientific promotion or external setting change.
+
+Next: recover readable S1/S4 and qualify panel/mouse/cohort/dose mappings, then
+freeze stage-specific contracts before numerical reuse. Prioritize direct
+animal-level outcome comparisons; qualify the main RDS separately for bounded
+within-dose RNA description. Optional auxiliary sources require a specific
+unresolved comparison. This is a plan, not a run authorization or result.
+
+Validation passed: 18,267 repository checks, the research gate against freshly
+fetched main `1ff71a1`, 28 package-local links and four source-snapshot hashes.
+The earlier passing code tests/archive checks remain applicable to this
+documentation-only update. The 33 historical files reported modified by Git
+were verified byte-identical to HEAD and remain unstaged. No push or PR.
+
 ## Navarro Negredo aged-brain paper assessed — 8 November 2026
 
 Completed the owner-requested [fit assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md)

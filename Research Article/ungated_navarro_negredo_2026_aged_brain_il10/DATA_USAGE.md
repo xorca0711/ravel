@@ -4,6 +4,12 @@
 Counts below describe public metadata and author-reported designs, not a new
 biological analysis. Outcomes were already exposed in the supplied paper.
 
+Subsequent owner-requested inspection is recorded in the
+[metadata follow-up](METADATA_FOLLOWUP.md): six BioSample attribute records,
+four SRA experiment records, assay-specific methods and updated supplement
+access attempts. The [current analysis plan](ANALYSIS_PLAN.md) uses that evidence.
+This initial audit remains the record of its original source coverage.
+
 ## New versus reused data
 
 | Source block | Usage and design | Reuse limit |
