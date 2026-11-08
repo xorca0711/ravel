@@ -1,3 +1,7 @@
+> **Historical evidence location.** The current entry is [rq_discordance](../../ungated_damani_yokota_2026/rq_discordance/README.md).
+> The original directory name is retained for frozen provenance, not gate classification.
+> The documentation below is the preserved pre-correction entry; follow the current entry for navigation.
+
 # DY1-P02: interpreting late RNA–ATAC discordance
 
 **Roadmap classification: ungated — owner clarification, 2 November 2026.**

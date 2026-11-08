@@ -92,11 +92,13 @@ trailing slash; other artifact fields are repository-relative. The owner-selecte
 `gate2_C3_yu_lee_choi_min_2026/` is branch 2C item 3, stable paper 13.
 This documented exception does not renumber the roadmap.
 
-Damani–Yokota 2026 (DY1) is **ungated**, outside the ordered reading roadmap,
-as clarified by the owner on 2 November 2026. Its historical
-`gate2_DY1_damani_yokota_2026/` folder is a provenance-preserving path exception,
-not a Gate 2 assignment. Current article navigation and ROADMAP outside-source
-metadata record that classification; frozen contracts and receipts are unchanged.
+Damani–Yokota 2026 (DY1) is **ungated**, outside the ordered reading roadmap.
+Its current article and DY1-P02 question entries are under
+[`ungated_damani_yokota_2026/`](../Research%20Article/ungated_damani_yokota_2026/README.md),
+corrected after the owner's 8 November clarification. Frozen contracts, scripts
+and results retain `gate2_DY1_damani_yokota_2026/` as an evidence location, not a
+Gate 2 assignment. The roadmap, RQ index and research registry use the corrected
+current entries; historical references continue to resolve without rewritten hashes.
 
 Shared IL-1 figures now use scripts 19–21. Their recorded UMAP/PCA preparation
 was executed before relocation; the original script bytes and identities
@@ -185,7 +187,10 @@ contracts, source provenance, tables, scripts, figures, results and functional
 design. Parent scientific evidence is preserved; revised parent navigation and
 contracts have pre-extension snapshots under the extension metadata/history.
 
-Saxton IL-10 remains roadmap paper 7 / Gate3A. Its new `ungated_saxton_2021_il10/`
-package is a retained technical-intake path-label exception, not an ungated roadmap
-reclassification. Sx10-P01 owns the authorized source description; all A0-A35 and
-prior article-local candidates retain their identities.
+Saxton IL-10 is roadmap paper **7 / Gate 3A**. Its current entry is
+[`gate3_07_saxton_2021_il10/`](../Research%20Article/gate3_07_saxton_2021_il10/README.md),
+corrected on 8 November. `ungated_saxton_2021_il10/` retains frozen analysis
+evidence and historical references; it is not the current classification or entry
+folder. Sx10-P01, all A0-A35 and every other article-local candidate retain their
+identities. These entry corrections do not move evidence, duplicate analyses,
+change reading order or authorize a scientific gate transition.

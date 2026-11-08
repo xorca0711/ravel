@@ -118,16 +118,17 @@ The [Yadav follow-up package](Yadav_followups_20261031/README.md) retains Wg-P06
 
 ## Article-local connections
 
-These six recently registered owners remain distinct from the canonical rows.
-The registry retains all 37 article-local candidates, including older Nb4/Nb5/Wg/Wp
+These seven recently registered owners remain distinct from the canonical rows.
+The registry retains all 39 article-local candidates, including older Nb4/Nb5/Wg/Wp
 families. An ID is not acceptance or evidence of a completed mechanism.
 
 | Owner | Current plan / relation to canonical questions |
 |---|---|
-| DY1-P01 — ungated source | [Damani–Yokota source reproduction](../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) |
-| DY1-P02 | [RNA–ATAC interpretability](../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md); supporting measurement context for A3, with an A1 analogy |
+| DY1-P01 — ungated source | [Damani–Yokota source reproduction](../Research%20Article/ungated_damani_yokota_2026/README.md) |
+| DY1-P02 | [RNA–ATAC interpretability](../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md); supporting measurement context for A3, with an A1 analogy |
 | Yd1-P01 | [Yadav source package](../Research%20Article/gate2_W3_yadav_2025/README.md); substrate/routing follow-ups retain Wg-P06 ownership |
 | Yd1-P02 → proposed A32 | [Historical source plan](Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md) → [A32 development](A32_myeloid_arg1_matrix_epithelial_recovery/README.md); earlier runs retain Yd1-P02 ownership |
+| Sx10-P01 — Gate 3A, paper 7 | [Saxton IL-10 source and extensions](../Research%20Article/gate3_07_saxton_2021_il10/README.md) |
 | Sx22-P01 | [Saxton source reassessment](../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md); [recipient/persistence connections](../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md) |
 | Arz1-P01 — ungated source | [Arozamena paired measurements](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md); [A1/A14/A8 connections and limits](../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) |
 

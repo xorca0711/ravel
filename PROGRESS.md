@@ -3,6 +3,30 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Corrected Damani–Yokota and Saxton IL-10 entry folders - 8 November 2026
+
+The owner clarified that Damani–Yokota is ungated and Saxton IL-10 belongs to
+Gate 3. Current entries now use
+[`ungated_damani_yokota_2026`](Research%20Article/ungated_damani_yokota_2026/README.md)
+and [`gate3_07_saxton_2021_il10`](Research%20Article/gate3_07_saxton_2021_il10/README.md)
+(paper 7 / Gate 3A). The roadmap, RQ index, topic navigation and candidate-plan
+registry point to those names. DY1-P02 also has a correctly named current entry;
+the RQ index now includes the existing Sx10-P01 owner and the actual 39-candidate count.
+
+Historical directories remain as marked evidence locations because frozen paths
+are recorded in contracts, scripts and receipts. No numerical file, contract,
+claim, candidate ID or reading order changed. This is a navigation correction,
+not a full evidence-directory rename. Work is isolated from merged PR #169 at
+`1d7c814`; the original checkout's unrelated PROGRESS edit is untouched.
+Validation passed: 17,841 repository checks, 18 unchanged claim bindings and the
+base-aware research gate against refreshed `1d7c814`. The first fresh-Windows-
+checkout check found line-ending changes and missing cached published outputs;
+33 historical files were restored to exact existing Git bytes after confirming
+only line endings differed, and 15 Choi outputs were restored from the verified
+local cache against the publication lock. These are local preservation steps,
+not committed scientific edits. No biological rerun or validator change occurred.
+The follow-up PR is prepared; scientific acceptance and reading gates are unchanged.
+
 ## Saxton PR opened - 8 November 2026
 
 [PR #169](https://github.com/xorca0711/ravel/pull/169) is open for review against
