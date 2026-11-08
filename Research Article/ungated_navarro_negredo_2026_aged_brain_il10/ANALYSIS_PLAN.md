@@ -3,9 +3,10 @@
 8 November 2026. Owner-requested plan following the [paper fit review](README.md)
 and [metadata follow-up](METADATA_FOLLOWUP.md). This is the current sequence for
 possible numerical reuse, superseding the README's initial object-first
-suggestion. **The metadata review is complete; numerical stages below have not
-run.** No analysis contract, candidate ID or claim acceptance is created by
-this document.
+suggestion. **Execution status is now in [STAGE_STATUS.md](STAGE_STATUS.md): source and
+animal stages executed under Nn26-P01; RNA stages remain pending.** This original
+sequence does not itself confer scientific acceptance. Frozen contracts and
+receipts are linked from [RESULTS.md](RESULTS.md).
 
 ## Purpose and scope
 
@@ -217,9 +218,10 @@ separate from a successful run receipt.
 
 ## Current handoff
 
-The next highest-value input is readable **S1/S4**, especially the direct
-behavioral comparisons, panel-specific mouse/cohort keys and code/dose mapping.
-If they remain inaccessible, the plan stays usable: proceed only with separately
-qualified source/object metadata and narrower eligible descriptions. No age
+**S1/S4 have now been recovered and the animal stage executed.** Follow
+[RESULTS.md](RESULTS.md) and [STAGE_STATUS.md](STAGE_STATUS.md) for direct tests,
+source discrepancies and pending RNA work. The next dependency is a suitable
+executor for main-object qualification, followed by resolving actual code/dose
+aliases and layers before any within-dose RNA description. No age
 interaction, repair claim, hidden replicate or definitive cognitive superiority
 over WT can be manufactured by further analysis of these deposits.

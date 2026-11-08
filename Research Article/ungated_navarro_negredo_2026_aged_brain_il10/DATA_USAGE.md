@@ -1,5 +1,9 @@
 # Data usage, source identity and access record
 
+> Historical access snapshot. S1/S4 were subsequently recovered and the
+> source/animal stages executed; see [current results](RESULTS.md) and
+> [stage ledger](STAGE_STATUS.md). Earlier failed routes remain documented below.
+
 8 November 2026 (Asia/Seoul). Companion to the [fit assessment](README.md).
 Counts below describe public metadata and author-reported designs, not a new
 biological analysis. Outcomes were already exposed in the supplied paper.

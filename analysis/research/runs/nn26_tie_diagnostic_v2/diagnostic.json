@@ -1,0 +1,102 @@
+{
+  "analysis": "Nn26-P01.tie_diagnostic_v2",
+  "status": "executed",
+  "method": "Exact fixed pooled-rank label distribution including ties; two-sided doubled smaller inclusive tail; absolute-tail alternative retained.",
+  "all_comparisons": 40,
+  "brute_enumeration_checks": 34,
+  "scipy_permutation_checks": 34,
+  "residual_differences_over_0_001": [
+    {
+      "endpoint": "open_field",
+      "comparison": "D25K-Control",
+      "n_a": 15,
+      "n_b": 13,
+      "p_reported": 0.59942,
+      "p_v1": 0.5962339913966814,
+      "p_exact_tied_doubled_tail": 0.5942180686156995,
+      "p_exact_tied_absolute_tail": 0.5941630771301656,
+      "delta_exact_reported": -0.005201931384300473,
+      "within_0_0001": false,
+      "source": "Figure 7!I16"
+    },
+    {
+      "endpoint": "nesting_high",
+      "comparison": "D25K-Control",
+      "n_a": 5,
+      "n_b": 6,
+      "p_reported": 0.2186,
+      "p_v1": 0.21211214928437616,
+      "p_exact_tied_doubled_tail": 0.2813852813852814,
+      "p_exact_tied_absolute_tail": 0.21861471861471862,
+      "delta_exact_reported": 0.06278528138528142,
+      "within_0_0001": false,
+      "source": "Figure 7!I3"
+    },
+    {
+      "endpoint": "nesting_high",
+      "comparison": "D25K-WT",
+      "n_a": 5,
+      "n_b": 6,
+      "p_reported": 0.4805,
+      "p_v1": 0.43792655417098325,
+      "p_exact_tied_doubled_tail": 0.5238095238095238,
+      "p_exact_tied_absolute_tail": 0.4805194805194805,
+      "delta_exact_reported": 0.04330952380952385,
+      "within_0_0001": false,
+      "source": "Figure 7!I3"
+    },
+    {
+      "endpoint": "nesting_low",
+      "comparison": "D25K-Control",
+      "n_a": 9,
+      "n_b": 8,
+      "p_reported": 0.0234,
+      "p_v1": 0.02117295248614781,
+      "p_exact_tied_doubled_tail": 0.028794734677087618,
+      "p_exact_tied_absolute_tail": 0.023447141094199916,
+      "delta_exact_reported": 0.005394734677087617,
+      "within_0_0001": false,
+      "source": "Figure 7!I5"
+    },
+    {
+      "endpoint": "nesting_combined",
+      "comparison": "WT-Control",
+      "n_a": 6,
+      "n_b": 14,
+      "p_reported": 0.3829,
+      "p_v1": 0.3547977717765275,
+      "p_exact_tied_doubled_tail": 0.35820433436532506,
+      "p_exact_tied_absolute_tail": 0.3829205366357069,
+      "delta_exact_reported": -0.024695665634674957,
+      "within_0_0001": false,
+      "source": "Figure 7!I6"
+    },
+    {
+      "endpoint": "nesting_combined",
+      "comparison": "D25K-WT",
+      "n_a": 14,
+      "n_b": 6,
+      "p_reported": 0.3006,
+      "p_v1": 0.27167254358503834,
+      "p_exact_tied_doubled_tail": 0.35758513931888547,
+      "p_exact_tied_absolute_tail": 0.30056759545923634,
+      "delta_exact_reported": 0.05698513931888549,
+      "within_0_0001": false,
+      "source": "Figure 7!I6"
+    },
+    {
+      "endpoint": "ifitm3",
+      "comparison": "WT-Control",
+      "n_a": 6,
+      "n_b": 6,
+      "p_reported": 0.0173,
+      "p_v1": 0.025974025974025976,
+      "p_exact_tied_doubled_tail": 0.025974025974025976,
+      "p_exact_tied_absolute_tail": 0.025974025974025976,
+      "delta_exact_reported": 0.008674025974025976,
+      "within_0_0001": false,
+      "source": "Figure 4!G17"
+    }
+  ],
+  "interpretation": "Method reconciliation after v1 exposure, not selection of a significance-favoring analysis. Original v1 retained. No new population claim or acceptance."
+}

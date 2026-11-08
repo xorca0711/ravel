@@ -32,5 +32,5 @@ before freezing the numerical contract. The paper, correction and code were
 already exposed. This is explicitly **exposed reproduction**.
 
 The [literature context](LITERATURE_CONTEXT.md) retains source attribution and
-the original search boundary. Current results and exact receipts will be
-linked from the README; frozen evidence is never edited to improve a result.
+the original search boundary. [Current results](RESULTS.md) and [stage status](STAGE_STATUS.md) link exact
+receipts and figures from the README; frozen evidence is never edited to improve a result.

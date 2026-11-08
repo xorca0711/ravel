@@ -34,3 +34,14 @@ animal-level D25K/control cognition tests, neurogenesis and nesting contrasts,
 then within-dose RNA description if the object and its aliases qualify.
 Reproduced contrary or null results limit the corresponding claim. Neither a
 reanalysis nor the source paper counts as independent replication of itself.
+
+## Interpretation after executed reproduction
+
+The [animal audit](RESULTS.md) reproduces the paper's chance tests and most
+reported direct comparisons. Navarro Negredo et al. already report the direct
+Y-maze/NOR null comparisons in S4 Figure 7 I14/I19; they are not a new negative
+experiment. The displayed Fig.7G/H chance tests address a different hypothesis.
+Fig.6G/I/J already shows the ligand/control and nonsignificant ligand/ligand
+contrasts now reconstructed. This is same-source arithmetic verification, not
+independent support. The new source audit identifies mixed-dose nesting and
+remaining workbook/test discrepancies; it does not discover a new mechanism.

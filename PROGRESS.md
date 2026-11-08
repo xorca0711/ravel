@@ -3,6 +3,44 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Navarro technical stages executed; RNA executor pending — 8 November 2026
+
+Owner-authorized execution registered **Nn26-P01** in the separate ungated
+package. [Results and figures](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
+and [stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+link three frozen contracts and verified receipts. Public publisher CDN supplied
+valid S1/S4; prior blocked routes are retained. Source audit checked 180 cells;
+16 animal panels passed 657 independent checks. A narrow frozen diagnostic
+verified exact tied-rank options with 34 enumerations and 34 SciPy comparisons.
+
+Direct cognition P=0.1299/0.649 is nonsignificant, separately from reproduced
+chance tests. Neurogenesis comparisons reproduce, including nonsignificant
+D25K/WT; combined nesting mixes doses/cohorts. Exact absolute-tail calculations
+match 38/40 reported direct tests within 0.0001. Open-field formulas omit the
+first listed mouse; its P value and WT/control IFITM3 P remain discrepant.
+No values were removed to force agreement. Stored-scale and mouse-key limits remain.
+
+[Cloud reconnaissance](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md)
+found a plausible 16 GiB executor, but the launcher exposes only Weft environments,
+Zenodo is blocked by policy and R is absent. No Weft setting/repository changed;
+owner was told to leave it unchanged. A separate “pilot” is not required.
+Next: select a suitable authorized Ravel executor, qualify runtime/network,
+acquire only the main RDS with size/MD5/SHA-256, then freeze its metadata contract.
+RNA stages and optional sources have not run. No RDS or FASTQ downloaded.
+
+At the owner's request, repository-root AGENTS.md now directs hardware-constrained
+work to verified cloud/remote resources while retaining contracts and access
+boundaries. This policy addition needs explicit review before integration; no
+validator or scientific boundary was weakened. Unrelated checkout work and all
+33 byte-identical historical status paths remain untouched. No push/merge,
+claim promotion, author contact or external configuration change.
+
+Validation passed: 18,341 repository checks, base-aware research gate against
+freshly verified unchanged main `1ff71a1`, compilation, and 167 tests (two skips).
+All three receipts verify; whitespace checks pass. Prior archive/claim verifications
+remain applicable because their inputs/code are unchanged. Local commits retain
+the stages and this handoff; no push or merge.
+
 ## Navarro metadata follow-up and analysis plan — 8 November 2026
 
 Completed the owner's [metadata scan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md)

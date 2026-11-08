@@ -1,11 +1,21 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
-8 November 2026 (Asia/Seoul). Owner-requested paper/data-use assessment against
-main `1ff71a1818be1782dede0ccd5898eea793497f73`. This is reading and source
-inspection, not a numerical analysis, new registered candidate, or scientific
-acceptance. [Data and access record](DATA_USAGE.md),
-[metadata follow-up](METADATA_FOLLOWUP.md), and
-[current stepwise analysis plan](ANALYSIS_PLAN.md).
+8 November 2026 (Asia/Seoul). **Nn26-P01 source qualification and animal-outcome
+reproduction executed; RNA object qualification pending.** This remains a separate
+ungated package linked to Gate 3A/Saxton IL-10, with no scientific acceptance.
+[Current results and figures](RESULTS.md), [stage ledger](STAGE_STATUS.md),
+[candidate dossier](CANDIDATE.md), [literature context](LITERATURE_CONTEXT.md),
+[original data audit](DATA_USAGE.md), [metadata follow-up](METADATA_FOLLOWUP.md),
+and [seven-stage plan](ANALYSIS_PLAN.md).
+
+The recovered S4 direct cognition tests are nonsignificant (Y-maze P=0.1299;
+NOR P=0.649), separately from reproduced tests against chance. Neurogenesis
+comparisons reproduce, including nonsignificant D25K-versus-WT results.
+Combined nesting mixes doses/cohorts. [Exact source discrepancies](RESULTS.md#unresolved-source-discrepancies-and-interpretation-limits)
+and [cloud readiness](CLOUD_READINESS.md) remain explicit.
+
+The following biological assessment retains the published premises and their
+relationship to existing Ravel questions; current numerical authority is RESULTS.
 
 **Assessment: a strong biological companion to Gate 3A Saxton IL-10, with a
 useful but replication-limited single-cell deposit.** It connects cytokine
@@ -90,10 +100,9 @@ The cognition cohort compares old vehicle with old D25K; it has **no WT IL-10
 arm**. After deaths/exclusions, Y-maze n=11/14 and novel-object recognition
 n=13/11. Fig. 7G/H stars test each group against chance. One group significant
 and the other not is not itself a treatment-group difference. Methods say
-between-group tests are in Table S4, whose identity was recovered but whose
-workbook could not be downloaded in this review. Consequently, this assessment
-records the published behavioral findings without independently verifying all
-between-group statistics. No causal chain from SVZ neurogenesis to cognition
+between-group tests are in Table S4, now recovered from the public publisher CDN. The [animal audit](RESULTS.md#cognition-and-attrition)
+reproduces the direct tests and shows that neither establishes a significant
+D25K-versus-vehicle difference. No causal chain from SVZ neurogenesis to cognition
 was demonstrated; the paper explicitly leaves the mediating cells unresolved.
 
 ## Exact relationship to the repository
@@ -120,8 +129,8 @@ engineered cytokine and a richer set of phenotypic readouts.
 
 **Owner-selected placement:** a separate ungated paper package, outside the
 ordered reading roadmap, with a cross-link to Gate 3A/Saxton IL-10. Its datasets
-and study identity remain separate. No global A ID, registered analysis
-candidate, scientific acceptance or old-question retirement is created.
+and study identity remain separate. The owner subsequently authorized technical execution under article-local
+**Nn26-P01**. No global A ID, scientific acceptance or old-question retirement is created.
 
 The owner's subsequent metadata request establishes the sequence in the
 [current plan](ANALYSIS_PLAN.md): qualify the source
@@ -137,8 +146,8 @@ ages and tissues, four treatment libraries' chemistry, and assay-specific
 exposure/unit details. Main RNA figures and cognition use 0.02 mg/mL, whereas
 olfactory-bulb neurogenesis methods specify 0.1 mg/mL. Random assignment is
 reported for cognition; image acquisition and nest scoring are blinded.
-Endpoint-specific mouse counts, code dose aliases and direct behavioral
-statistics still need S1/S4. No individual mouse identities were recovered
+S1/S4 now qualify endpoint-specific counts and direct behavioral statistics;
+code dose aliases and some source discrepancies remain unresolved. No individual mouse identities were recovered
 from the checked sequencing metadata.
 
 For a genuinely new age-boundary question, compare the same ligand contrast in
@@ -165,10 +174,9 @@ as interchangeable. The 2025 Groh and Mason papers were identified as contextual
 leads with different T-cell/microglial consequences, not fully audited here.
 No novelty or laboratory-readiness claim follows from this search.
 
-Assessment and the requested metadata follow-up are complete. The
-[seven-step plan](ANALYSIS_PLAN.md) specifies source qualification, contracts,
-animal outcomes, object qualification, descriptive RNA comparisons, conditional
-auxiliary checks and synthesis. S1/S4 remain unread after public API, cloud and
-normal article-download checks; the final route encountered browser verification.
-No large matrix was downloaded, no biological analysis ran, and no external
-account setting or scientific status changed.
+The [stage ledger](STAGE_STATUS.md) records three frozen and verified runs:
+source qualification, 16 animal panels and a narrow exact-test diagnostic.
+[Current synthesis](RESULTS.md#evidence-map-and-next-decision) retains unfavorable
+results and source discrepancies. S1/S4 are readable; no large matrix or FASTQ
+was downloaded. RNA qualification still needs a suitable authorized executor
+and source/code-alias reconciliation. No external setting or scientific status changed.

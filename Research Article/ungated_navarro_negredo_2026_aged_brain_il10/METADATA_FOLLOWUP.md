@@ -1,5 +1,9 @@
 # Metadata follow-up — 8 November 2026
 
+> Historical access snapshot. S1/S4 were subsequently recovered and the
+> source/animal stages executed; see [current results](RESULTS.md) and
+> [stage ledger](STAGE_STATUS.md). Earlier failed routes remain documented below.
+
 Owner-requested follow-up to [DATA_USAGE.md](DATA_USAGE.md). This records a
 bounded inspection of source metadata, methods and code; no expression matrix,
 supplementary workbook cells or biological estimates were analyzed. The

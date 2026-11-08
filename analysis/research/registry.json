@@ -1067,7 +1067,11 @@
       "evidence": [
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md",
-        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md"
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANIMAL_AMENDMENT_V2.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md"
       ]
     }
   ],
@@ -1433,7 +1437,8 @@
     "analysis/research/runs/sx22_priming_qualification_v2/receipt.json",
     "analysis/research/runs/sx10_gorby_reported_description_v1/receipt.json",
     "analysis/research/runs/nn26_source_qualification_v1/receipt.json",
-    "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json"
+    "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json",
+    "analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

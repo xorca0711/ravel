@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.tie_diagnostic_v2",
+  "owner": "Nn26-P01",
+  "contract": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json",
+  "contract_sha256": "7091e6335844090b71f6a2c4e155ba0befbc5fa46f579ad9fedbfdc574f44447",
+  "git_commit": "fb85158926cd7033950045da12be125f428d527e",
+  "started_at": "2026-11-08T08:03:47.114491+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+    "--output",
+    "analysis/research/runs/nn26_tie_diagnostic_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+      "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/contrasts.csv",
+      "sha256": "050738f2814154b6880c0191557e07577e8daf1002ecc11cad779fc88726fc1a",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+      "sha256": "4654da313a683502a57886c57e25a0aee4276a2f3a02f1a603706c240a511646"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nn26_tie_diagnostic_v2/exact_rank_reconciliation.csv",
+      "sha256": "40c3de3f497a4955715b875d04675a4889f48e1bceefe51cd7bf74118f331e1c"
+    },
+    {
+      "path": "analysis/research/runs/nn26_tie_diagnostic_v2/diagnostic.json",
+      "sha256": "b00e9e629e00f05614056d5bd34e0b26e04e413bd3423d66dfe73d724c465e09"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T08:03:57.929218+00:00"
+}
