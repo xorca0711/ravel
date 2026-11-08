@@ -1239,7 +1239,10 @@
     "Research Article/ungated_saxton_2021_il10/contracts/failure_preservation_v1.json",
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/gorby_qualification_v1.json",
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/coinput_qualification_v1.json",
-    "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v1.json"
+    "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v1.json",
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/gorby_qualification_v2.json",
+    "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/coinput_qualification_v2.json",
+    "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v2.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1408,7 +1411,8 @@
     "analysis/research/runs/sx22_osmr_v1/receipt.json",
     "analysis/research/runs/sx10_qualification_v2/receipt.json",
     "analysis/research/runs/sx10_failure_preservation_v1/receipt.json",
-    "analysis/research/runs/sx10_description_v1/receipt.json"
+    "analysis/research/runs/sx10_description_v1/receipt.json",
+    "analysis/research/runs/sx10_gorby_qualification_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

@@ -1,0 +1,19 @@
+{
+  "rows": 48162,
+  "unique_ids": 48162,
+  "duplicate_id_rows": 0,
+  "unique_CD8_samples": 21,
+  "repeated_control_columns": {
+    "D85US": 6,
+    "D93US": 6,
+    "D36US": 6
+  },
+  "repeated_control_mismatches": 79164,
+  "invalid_abundance_cells": 899624,
+  "unique_targets": true,
+  "finite_description_eligible": false,
+  "abundance_unit": "RPKM, per GEO and Gorby RNA methods; not raw counts",
+  "unit_status": "three human donors author-reported; D85/D93/D36 source blocks; independent donor crosswalk unresolved",
+  "timing": "activation/expansion with ligand over six days; differs from Saxton 24-hour post-activation treatment",
+  "inference": "finite source description only; no population tests or pooled study effect"
+}

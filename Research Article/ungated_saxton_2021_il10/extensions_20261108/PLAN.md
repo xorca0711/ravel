@@ -6,6 +6,11 @@ and [literature history](../../../docs/research_reviews/2026-11-08-saxton-readin
 Prior Saxton outcomes and Gorby published findings are exposed; no confirmation
 or new accepted RQ is claimed. Existing frozen analyses remain unchanged.
 
+**Prospective source amendment:** the [v2 adaptation](SOURCE_AMENDMENT_V2.md)
+retains the failed common-matrix qualification and narrows route 1 to reported
+comparison estimates. That amendment supersedes the conditional numerical method
+below; the original plan remains visible as the pre-qualification proposal.
+
 ## Route 1: does the contrasting IFNG/GZMB/IL18RAP response transport?
 
 **Purpose:** a specified context comparison, not an affinity mechanism estimate.
