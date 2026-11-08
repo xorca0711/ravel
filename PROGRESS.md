@@ -136,18 +136,17 @@ All three receipts verify; whitespace checks pass. Prior archive/claim verificat
 remain applicable because their inputs/code are unchanged. Local commits retain
 the stages and this handoff; no push or merge.
 
-The cloud-status follow-up changes documentation only. Freshly fetched main is
-now `471d0c2` (Peng PR #173), advancing from the prior validated `1ff71a1`.
-It adds a separate paper package and changes shared indexes/registry/PROGRESS;
-it does not change the validators, repository instructions or Navarro package.
-This branch has not integrated that new main. Documentation validation passed
-18,343 checks and whitespace checks passed. The base-aware research gate against
-`471d0c2` failed because this older branch lacks the newly integrated Peng/A12
-scientific assets and their registered contracts/receipts. Preserve and reconcile
-those additions when integrating main before any later PR; do not remove them
-or weaken the gate. The failure log is retained as `cloud_status_gate.log` in
-the session visualization directory. No biological code, contract or output
-changed in this follow-up, so prior numerical checks were not rerun.
+The owner subsequently authorized completing the RNA stages in the cloud.
+Main `471d0c2` (Peng PR #173) is now integrated locally at `72a266a`, retaining
+both paper packages, all 41 article candidates, and all frozen evidence. This
+resolves the earlier base-aware failure recorded in `cloud_status_gate.log`.
+Validation after reconciliation passed 18,624 repository checks and the research
+gate against `471d0c2`; existing generated SVG/log whitespace was preserved.
+The cloud reverified its runtime and RDS and prepared disk-backed Ravel checkout
+`/workspace/navarro_2026/ravel`. Exact scoped context was transferred without
+publication; metadata and descriptive contracts must be frozen separately there.
+Return frozen code, receipts and compact outputs for local verification and
+synthesis. No new biological result is claimed until those runs finish.
 
 ## Navarro metadata follow-up and analysis plan — 8 November 2026
 
