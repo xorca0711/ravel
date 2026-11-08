@@ -100,7 +100,7 @@ materially reframe the question or propose a new discriminator. The valid
 reused with their recorded access limits. No renewed novelty certification,
 new experiment package or broader literature clearance is claimed.
 If the question/discriminator is later changed, follow
-[the literature workflow](../../docs/LITERATURE_WORKFLOW.md) before freezing it.
+[the literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md) before freezing it.
 Effect margin, precision, physiological exposure range and bench readiness remain
 unknown. Reduced collagen cannot be relabeled epithelial regeneration.
 

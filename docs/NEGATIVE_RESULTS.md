@@ -36,7 +36,7 @@ what was refuted and what settled it.
 
 - **Status in the register:** Retracted-superseded (refuted, kept on display)
 - **What settled it:** first co-expression gate, then a stricter lineage-negative gate
-- **Artefact:** `docs/DOUBLETS_AND_SCRUBLET.md`
+- **Artefact:** `docs/methods/background/DOUBLETS_AND_SCRUBLET.md`
 - **Where it came from:** Stage 0. Initial run (August 2026): recovering the published biology from raw counts
 
 ### C72. Trial C9's own T1 verdict, read as "the observation does not replicate in an independent injury dataset"

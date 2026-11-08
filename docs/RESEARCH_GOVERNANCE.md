@@ -56,7 +56,7 @@ experimental oversight; a repository proposal does not provide those facts.
 
 ## Literature context and explanatory illustrations
 
-Question development follows the [literature workflow](LITERATURE_WORKFLOW.md):
+Question development follows the [literature workflow](governance/LITERATURE_WORKFLOW.md):
 recent primary work, older close precedents, contradictions and actual repository
 observations must be connected to the proposed discriminator. The
 [context index](../RQ_Specified/README.md) provides
@@ -124,7 +124,7 @@ For metadata work, a mistaken source/sample identity is a legitimate threat.
 For descriptive estimation, selection or measurement bias may be the relevant
 threat. Explain an inapplicable item or unknown honestly rather than fabricate a
 biological rival. Existing schema, exposure, precision and execution checks remain
-in force. See the [decision workflow](AGENT_DECISION_WORKFLOW.md).
+in force. See the [decision workflow](governance/AGENT_DECISION_WORKFLOW.md).
 
 Register the contract in `analysis/research/registry.json`. The owner is either an
 existing A identifier or a registered article-local candidate. To add a genuinely

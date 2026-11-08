@@ -49,7 +49,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `fibroblast secreted product alveolar epithelial recovery beyond macrophage IL1 functional`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `fibroblast secreted product alveolar epithelial recovery beyond macrophage IL1 functional`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** The failed TGF-hallmark/HPCS proxy model does not identify a fibroblast output that changes epithelial recovery beyond shared inflammatory context. No mediator is presently nominated by this dossier.
 

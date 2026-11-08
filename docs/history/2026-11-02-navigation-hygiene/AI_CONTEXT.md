@@ -19,11 +19,11 @@ each study's specific questions and limits. See the
 
 - [Weft intake](../../../weft_intake/README.md) owns reviewed trial handoffs; Choi's scientific dossier moved from Weft, while original frozen analysis paths remain unchanged. No automatic admission or new RQ.
 - [Portfolio extensions](../../portfolio_extensions/2026-10-07/README.md) owns the subsequent grouped scan, new exposed runs and cross-question synthesis; consult PROGRESS for execution status.
-- [Agent decision workflow](../../AGENT_DECISION_WORKFLOW.md) routes work by purpose; alternatives do not mandate extra experimental arms.
+- [Agent decision workflow](../../governance/AGENT_DECISION_WORKFLOW.md) routes work by purpose; alternatives do not mandate extra experimental arms.
 - [Repository readiness audit](../../audits/2026-10-07-repository-readiness/REPORT.md) owns the 7 October correction and synchronization checkpoint.
 - [Return checklist](../../audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) records checkout, runtime, raw-input preflight and how to start the next paper/RQ.
 - [Wp current corrections](../../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) replace raw-penalty Compass signs and R4/M3 subset-denominator human scores; A30 v3 remains a bounded association.
-- [Literature workflow](../../LITERATURE_WORKFLOW.md) connects primary findings and branch results to RQs.
+- [Literature workflow](../../governance/LITERATURE_WORKFLOW.md) connects primary findings and branch results to RQs.
   [Illustrated context notes](../../research_dossiers/literature_context_2026-10-03/README.md) index all 32 registered questions; use their access limits and exact proposed increments.
 - [Question register](../../../RESEARCH_QUESTIONS.md) owns the current question identities. The
   [dossiers](../../research_dossiers/README.md) develop every question without ranking them.

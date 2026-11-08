@@ -53,7 +53,7 @@ The newer [Nb5 normal-age reference](../../docs/research_dossiers/extensions_202
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `alveolar macrophage injury history persistent function origin ageing matched context 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `alveolar macrophage injury history persistent function origin ageing matched context 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** An age-matched, independently replicated comparison separating within-state changes from abundance and current environment is missing.
 

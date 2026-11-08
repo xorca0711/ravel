@@ -82,6 +82,6 @@ specific sensitivity question rather than create nominal replication.
 
 Next: complete the first candidate's identifier/replication audit; run the
 bounded outcome pilot if its design supports it; then seek independent biological
-confirmation. The [portfolio summary](../../PORTFOLIO_SUMMARY.md) and four-figure guide
+confirmation. The [portfolio summary](../../portfolio/PORTFOLIO_SUMMARY.md) and four-figure guide
 already present the completed corrections. Scientific selection is documented
 here; private outreach rankings and contact plans remain outside the repository.

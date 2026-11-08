@@ -54,7 +54,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `alveolar mutant clone size founder heterogeneity switching observation model identifiability`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `alveolar mutant clone size founder heterogeneity switching observation model identifiability`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** Synthetic recoverability under common observations has been evaluated. No empirical source-clone outcome comparison was fitted; a predictive comparison remains conditional on qualified ascertainment and a justified model domain.
 

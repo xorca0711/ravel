@@ -1,6 +1,7 @@
 # Peng spatial-omics: paper assessment and connection to Ravel
 
 Reading assessment, 8 November 2026. Based on main `60537cdbaff97f4e6728c58ea97e16a6b265db13`.
+Reconciled with the documentation reorganization on main `1ff71a1` before delivery.
 Documentation only: no biological analysis, new candidate registration, hypothesis
 replacement or scientific acceptance. The owner's linked reading notes were
 read, including the linked Figure 3 note, and remain unchanged.

@@ -1,6 +1,6 @@
 # Research architecture and interpretation authority
 
-[Biological topic navigation](RESEARCH_TOPICS.md) connects related RQs and paper
+[Biological topic navigation](guides/RESEARCH_TOPICS.md) connects related RQs and paper
 packages while retaining their existing evidence owners and stable paths.
 
 **Current navigation, 4 November 2026:** the [registry](../analysis/research/registry.json)

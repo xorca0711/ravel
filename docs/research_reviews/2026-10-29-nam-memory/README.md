@@ -21,7 +21,7 @@ Ravel's current registry has 32 canonical questions, 31 article-local candidates
 77 contracts and 72 receipts. These are registration/execution counts, not counts
 of accepted mechanisms. The current portfolio retains partial reproductions,
 negative transport results and missing functional endpoints. See
-[portfolio summary](../../PORTFOLIO_SUMMARY.md) and
+[portfolio summary](../../portfolio/PORTFOLIO_SUMMARY.md) and
 [current state](../../../PROGRESS.md).
 
 | Existing question | Connection to this paper | Boundary retained |
@@ -300,7 +300,7 @@ airway-associated NAMs are not interchangeable with an alveolar AT2 niche.
 ## Execution contract and stopping rules
 
 Follow [research governance](../../RESEARCH_GOVERNANCE.md) and the
-[decision workflow](../../AGENT_DECISION_WORKFLOW.md). Register the selected
+[decision workflow](../../governance/AGENT_DECISION_WORKFLOW.md). Register the selected
 article-local candidate before a numerical contract. Record the full prior
 exposure to paper figures, slide interpretations and selected loci. Reproduction
 and exploratory reanalysis are permissible; a later freeze does not make them

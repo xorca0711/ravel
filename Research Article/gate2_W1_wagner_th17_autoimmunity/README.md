@@ -85,6 +85,6 @@ Published figures, notes and tutorial outputs have already been viewed. Future
 reanalysis is outcome-exposed. The first [frozen metadata contract](config/source_qualification_v1.json)
 and [verified result](RESULTS.md) establish exact source membership. Later stages
 require their own frozen code, input hashes, methods and qualified environment. [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
-[literature workflow](../../docs/LITERATURE_WORKFLOW.md) govern execution.
+[literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md) govern execution.
 No global A identifier, claim grade, laboratory protocol or owner retain/reject
 decision is created here. Private PI/placement planning remains outside Git.

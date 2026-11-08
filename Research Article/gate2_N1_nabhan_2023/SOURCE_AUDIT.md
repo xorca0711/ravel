@@ -12,7 +12,7 @@ reported separately in [RESULTS.md](RESULTS.md). PDF page numbers include the gr
 | N1 | [Result-body notes](https://app.notion.com/p/3e9151616b448042b032e6f60e4d6dc4) | Owner's experimental logic and biological emphasis; last edited 2026-09-29T09:33:01.927Z |
 | N2 | [Discussion notes](https://app.notion.com/p/3e9151616b4480f3ace6e61b3044e155) | Owner's unresolved questions; last edited 2026-09-29T03:56:03.678Z |
 | N3 | [Research-theme candidates, Nabhan branch](https://app.notion.com/p/3e0151616b44807ba675e28eeb4db751) | Seven ordered themes plus the Fzd6-ligand question; also the earlier Axin2/Il1r1 theme; last edited 2026-09-29T07:32:00.198Z |
-| R1 | [Main purpose](../../README.md), [structure](../../docs/REPOSITORY_STRUCTURE.md), [architecture](../../docs/RESEARCH_ARCHITECTURE.md) | Paper evidence → biological questions → specified tests → cross-question synthesis |
+| R1 | [Main purpose](../../README.md), [structure](../../docs/guides/REPOSITORY_STRUCTURE.md), [architecture](../../docs/RESEARCH_ARCHITECTURE.md) | Paper evidence → biological questions → specified tests → cross-question synthesis |
 | R2 | [Nabhan 2018/Nb1](../gate1_03_nabhan_2018/README.md), [Axin2/Il1r1 work](../gate1_02_choi_2020/axin2_il1r1/README.md) | Existing exposure, source candidates and interpretation ceilings; avoid duplicate analyses |
 
 All Notion pages were available as text, marked unverified by Notion, with no

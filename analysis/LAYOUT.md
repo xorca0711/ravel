@@ -8,7 +8,7 @@ Question-specific plans and future analyses live in `RQ_Specified/`.
 Cross-study corrections remain in
 `analysis/corrections/`. Shared RQ figures and their compact plotted tables
 belong in `analysis/figures/rq/`, even when they draw on one study's results.
-The [repository structure contract](../docs/REPOSITORY_STRUCTURE.md) defines
+The [repository structure contract](../docs/guides/REPOSITORY_STRUCTURE.md) defines
 canonical paths and identifier scope across the whole repository.
 
 ```

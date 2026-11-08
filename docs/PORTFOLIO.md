@@ -1,6 +1,6 @@
 # Portfolio reading guide
 
-For a short entry point, use the [current portfolio summary](PORTFOLIO_SUMMARY.md).
+For a short entry point, use the [current portfolio summary](portfolio/PORTFOLIO_SUMMARY.md).
 
 This project documents paper-driven, AI-assisted research using public data:
 atlas recovery, paper reproduction, measurement correction, sample-aware analysis and an explicit

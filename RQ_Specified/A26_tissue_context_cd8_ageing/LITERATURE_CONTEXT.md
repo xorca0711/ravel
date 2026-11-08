@@ -49,7 +49,7 @@ Class-level glyphs and qualitative geometry are not molecular structures, organe
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `CD8 spleen bone marrow paired age clone concentration differentiation state 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `CD8 spleen bone marrow paired age clone concentration differentiation state 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** Paired animals with comparable spleen/marrow CD8 states, receptor ascertainment and common observation support have not been qualified. The local failure of exact subtype support cannot be repaired by treating an absent label as zero or relaxing the historical gate.
 

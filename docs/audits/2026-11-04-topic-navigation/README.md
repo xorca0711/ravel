@@ -7,7 +7,7 @@ which contains merged PR #165. Work is isolated on
 
 ## Implemented navigation
 
-The [shared topic map](../../RESEARCH_TOPICS.md) defines nine overlapping routes
+The [shared topic map](../../guides/RESEARCH_TOPICS.md) defines nine overlapping routes
 across all 33 canonical question homes and 18 paper packages. The
 [RQ index](../../../RQ_Specified/README.md) and
 [article index](../../../Research%20Article/README.md) expose matching tag columns.

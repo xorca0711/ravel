@@ -71,7 +71,7 @@ The following records preserve dated searches, access limits, outcome exposure,
 earlier interpretations and review blocks. Read current results/amendments above
 before any older plan. Planned queries remain plans; an absent hit never proves
 novelty or global data absence. A newly specified comparison needs its relevant
-source review under the [literature workflow](../../docs/LITERATURE_WORKFLOW.md).
+source review under the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md).
 
 <details>
 <summary>Dated source searches and retained development notes</summary>
@@ -107,7 +107,7 @@ Acquisition of the qualified response within tracked starting clones favors the 
 
 ## Next literature check
 
-Planned query (not reported as newly executed): `adult Wnt history AT2 lineage acquisition IL1 response selection clonal 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+Planned query (not reported as newly executed): `adult Wnt history AT2 lineage acquisition IL1 response selection clonal 2025 2026`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
 
 **Current unresolved specification:** Within-lineage response flexibility has not been distinguished from replacement or selective survival of pre-existing subsets.
 

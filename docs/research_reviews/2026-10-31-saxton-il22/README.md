@@ -73,4 +73,4 @@ Search date: 31 October 2026, Asia/Seoul. Sources: supplied published IL-22 PDF,
 - `IL-22 STAT1 interferon priming IL10RB Bachmann 2013 epithelial`
 - `GSE160217 samples WT B3 PBS colon RNA sequencing`
 
-Coverage establishes the paper's identity, the closest owner-nominated contrary context and an older priming precedent. Other lung search hits were not qualified as functional maturation evidence. This is neither a systematic review nor novelty clearance. Future question development must refresh the literature for its actual comparison under the [literature workflow](../../LITERATURE_WORKFLOW.md).
+Coverage establishes the paper's identity, the closest owner-nominated contrary context and an older priming precedent. Other lung search hits were not qualified as functional maturation evidence. This is neither a systematic review nor novelty clearance. Future question development must refresh the literature for its actual comparison under the [literature workflow](../../governance/LITERATURE_WORKFLOW.md).

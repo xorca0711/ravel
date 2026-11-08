@@ -25,6 +25,32 @@ Work is isolated on `codex/peng-spatial-reading-20261108` from main `60537cd`.
 The original checkout's unrelated PROGRESS changes are preserved. Validation
 and final integration-base verification are pending below.
 
+## Remaining top-level documentation organized — 8 November 2026
+
+Owner identified clutter left by compatibility files. Scoped branch
+`codex/docs-root-hygiene-20261108` starts at freshly verified main `60537cd`,
+after merged PRs #170 and #171. Five unpinned guides moved into purpose folders;
+three unnecessary compatibility files were removed after updating their mutable
+roadmap/claim references. Top-level Markdown files decrease from 25 to 17.
+[Dependency and move record](docs/audits/2026-11-08-docs-root-hygiene/README.md).
+
+Remaining compatibility paths have explicit generated-output or frozen-record
+consumers. Claim C7 changes its artifact path only; the original full report,
+scientific wording/status and numeric bindings are preserved. Workflow files
+and AGENTS references change location only; no policy or validator is weakened.
+No biological analysis, raw-cache change or evidence deletion. Validation passed:
+82 focused move/preservation checks, 15,053 local links, 18,222 repository checks,
+167 tests (two skips), 18 claim numeric bindings and the unchanged provenance
+gate against refreshed main `60537cd`. The manifest changes only C7's two path
+fields and the source checksum; scientific scripts and outputs remain unchanged.
+Initial CI caught the A22 run records binding the A10 endpoint report. Restored
+that report exactly and retained its architecture-guide destination at the root;
+the unchanged archive verifier is part of the final checks.
+[PR #172](https://github.com/xorca0711/ravel/pull/172) is open for owner review;
+[remote checks](https://github.com/xorca0711/ravel/pull/172/checks) record validation
+on the published head. Next: review the path-only changes; merge remains an
+owner decision. No external setting or main merge changed.
+
 ## PR 171 reconciliation after PR 170 merged - 8 November 2026
 
 The owner requested resolution of the conflict with merged PR #170. Integrated
@@ -462,7 +488,7 @@ or audited.
 
 Applied the owner's overlapping-topic navigation across all 33 RQs and 18 paper
 packages, on `codex/topic-navigation-20261104` from merged main `3f70489` (PR #165).
-The [topic map](docs/RESEARCH_TOPICS.md) and collection tag columns keep biological
+The [topic map](docs/guides/RESEARCH_TOPICS.md) and collection tag columns keep biological
 scope separate from current evidence and reading/execution status. Twelve RQs
 missing from the earlier topic routes are included. Current-status links no
 longer route through historical package ledgers; stale A15 registration and
@@ -640,7 +666,7 @@ instruction-only updates do not resume that queue.
 The owner subsequently requested changes to the repository's agent instructions
 to prevent recurrence of analysis accumulation without biological narrowing.
 [AGENTS.md](AGENTS.md#biological-screening-and-question-progression) and the
-[decision workflow](docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
+[decision workflow](docs/governance/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
 now connect starting evidence, the next unresolved comparison, informative
 outcomes and the next step after a result. They preserve legitimate descriptive/
 replication work, informative partial screening and existing execution safeguards.
