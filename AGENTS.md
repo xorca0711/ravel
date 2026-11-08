@@ -4,6 +4,11 @@ Read `AI_CONTEXT.md`, `PROGRESS.md`, and `docs/RESEARCH_GOVERNANCE.md` before su
 Use `analysis/research/registry.json` to locate the current question card, dossier and evidence.
 Do not infer current state from an old checkout, an old plan or a chat summary.
 
+For substantive research work, apply the project `ravel-research-reasoning` skill.
+Project lifecycle assistance is documented in [the session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md).
+If hooks are unavailable, follow the same decision workflow manually; hook output
+does not grant permissions or scientific acceptance.
+
 ## State and preservation
 
 - Inspect HEAD, upstream and working-tree changes before editing. Fetch the requested base when network access is available; otherwise state its last verified revision.

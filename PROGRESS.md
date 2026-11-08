@@ -1,5 +1,31 @@
 # Current project state
 
+## Ravel session assistance implemented; activation unresolved — 8 November 2026
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md) documents the new
+project reasoning skill, startup/resume/compaction context and bounded synthesis
+reminder. The implementation reuses current scientific governance; no biological
+analysis, claim promotion or frozen-evidence change follows. CI includes the new
+hook tests, and hook/skill paths have explicit code ownership.
+
+All 16 deterministic lifecycle tests and the skill-format validator passed.
+The [approved hypothetical trial](tools/codex/evals/REVIEW_2026-11-08.md) addressed
+all eight cases adequately on implementing-agent review. It also found no live
+startup preparation block. The local API returned no discovered hooks with either
+documented configuration representation; the cause remains unresolved. Normal
+hook trust and Desktop startup/resume/compaction delivery are not verified.
+
+Final repository validation passed 18,542 checks; the base-aware provenance gate
+also passed. A final fetch confirmed origin/main remains 471d0c2. Fifteen absent
+published outputs were restored only after
+matching their recorded hashes, with no numerical rerun or validator changes.
+
+Computer Use was stopped by the user with Escape. No further UI action was taken
+and Mir was not messaged. Next: diagnose live host hook discovery, use normal trust
+review, and observe startup plus resume/compaction delivery. The scoped branch is
+codex/ravel-session-reasoning-20261108, based on the Peng repair at 481c67c; main
+and other worktrees do not acquire these files until integration. No push or merge.
+
 ## Peng biological framing repaired — 8 November 2026
 
 The [focused repair record](docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
