@@ -8,8 +8,9 @@ Dp1-P01 remains exploratory and article-local; no target is validated or accepte
 
 ## Main result
 
-**The simple reciprocal-direction model does not generalize across the three
-routes.** In Peeters' gain-context matrix, Tigit, Prdm1 and Ccr2 are higher in
+**Observed loss/gain RNA signs depend on context.** This is a descriptive
+comparison across unmatched alleles, controls and states; it is not a causal
+falsification of an inverse-EZH2 mechanism. In Peeters' gain-context matrix, Tigit, Prdm1 and Ccr2 are higher in
 fresh Y641F Tregs than WT, but lower after four-day culture. Igfbp4 is lower in
 both conditions. All four genes were uniquely available; none was replaced.
 
@@ -36,7 +37,7 @@ library perturbations, not confidence intervals or independent-animal evidence.
   A context-specific movement/fitness question remains; deficient homing or an
   invariant EZH2–CCR2 relationship is not established. The WT activation contrast
   itself changes sign under omission.
-- **IGFBP4:** directions fit the reciprocal screening model in both contexts,
+- **IGFBP4:** directions are reciprocal in both descriptive comparisons,
   supporting continued source/protein qualification, not selection as a winner.
   Its WT activation contrast is omission-sensitive. Intact Treg-derived protein,
   native-IGF response and compensation remain unresolved.

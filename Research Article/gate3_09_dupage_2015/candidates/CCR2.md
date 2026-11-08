@@ -1,5 +1,10 @@
 # CCR2: directed movement versus context-dependent fitness
 
+**Current development owner (7 November): [A34](../../../RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md).**
+This article-local card retains its earlier design checkpoint. The new home integrates
+the executed RNA result and [reframing/literature correction](../rq_derivation/README.md).
+The older proposal below is not the current instruction to execute.
+
 7 November 2026. Exploratory Dp1-P01 subquestion; not an accepted new RQ.
 [Follow-up overview](../CANDIDATE_FOLLOWUP.md) · [Source audit](SOURCE_QUALIFICATION.md).
 

@@ -1,5 +1,10 @@
 # TIGIT–PRDM1: genotype-dependent inducible output
 
+**Current development owner (7 November): [A33](../../../RQ_Specified/A33_ezh2_tigit_areg_output/README.md).**
+This article-local card retains its earlier design checkpoint. The new home integrates
+the executed RNA result and [reframing/literature correction](../rq_derivation/README.md).
+The older proposal below is not the current instruction to execute.
+
 7 November 2026. Exploratory Dp1-P01 subquestion; not an accepted new RQ.
 [Follow-up overview](../CANDIDATE_FOLLOWUP.md) · [Source audit](SOURCE_QUALIFICATION.md).
 

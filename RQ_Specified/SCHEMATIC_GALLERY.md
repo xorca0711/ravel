@@ -1,6 +1,6 @@
 # Research-question figure gallery
 
-All 33 reviewed matte illustrations (A0–A32), generated with GPT. These are qualitative question diagrams, not measured results or scientific acceptance. Each owning page displays only its selected matte image.
+All 36 questions have qualitative biological illustrations. A33–A35 were added and reviewed on 8 November; the earlier A0–A32 artwork is preserved. These are qualitative question diagrams, not measured results or scientific acceptance. Each owning page displays only its selected matte image.
 
 [Question index](README.md) · [Publication and review record](../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Searchable HTML](SCHEMATIC_GALLERY.html)
 
@@ -201,3 +201,21 @@ All 33 reviewed matte illustrations (A0–A32), generated with GPT. These are qu
 ![A32: qualitative question illustration](A32_myeloid_arg1_matrix_epithelial_recovery/schematics/A32_gpt_matte_v1.png)
 
 [Full resolution](A32_myeloid_arg1_matrix_epithelial_recovery/schematics/A32_gpt_matte_v1.png) · [Question](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) · [Context](A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md) · [Selected prompt](A32_myeloid_arg1_matrix_epithelial_recovery/schematics/A32_gpt_matte_v1.prompt.txt)
+
+## A33 — TIGIT-responsive AREG output
+
+![A33: qualitative proposed comparison](A33_ezh2_tigit_areg_output/schematics/A33_gpt_matte_v1.png)
+
+[Question](A33_ezh2_tigit_areg_output/README.md) · [Context](A33_ezh2_tigit_areg_output/LITERATURE_CONTEXT.md). Biological matte illustration; [8 November review](../Research%20Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md). No measured result is depicted.
+
+## A34 — CCR2 movement and fitness
+
+![A34: qualitative proposed comparison](A34_ezh2_ccr2_movement_fitness/schematics/A34_gpt_matte_v1.png)
+
+[Question](A34_ezh2_ccr2_movement_fitness/README.md) · [Context](A34_ezh2_ccr2_movement_fitness/LITERATURE_CONTEXT.md). Biological matte illustration; [8 November review](../Research%20Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md). No measured result is depicted.
+
+## A35 — IGFBP4 source and IGF response
+
+![A35: qualitative proposed comparison](A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.png)
+
+[Question](A35_treg_igfbp4_source_igf_response/README.md) · [Context](A35_treg_igfbp4_source_igf_response/LITERATURE_CONTEXT.md). Biological matte illustration; [8 November review](../Research%20Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md). No measured result is depicted.

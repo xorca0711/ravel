@@ -1,6 +1,6 @@
 # Research question homes
 
-All **33 canonical questions (A0–A32)** have a dedicated home here. Folder presence
+All **36 canonical questions (A0–A35)** have a dedicated home here. Folder presence
 does not imply completed analysis, scientific acceptance or experimental readiness.
 The [canonical register](../RESEARCH_QUESTIONS.md) owns identity; the
 [registry](../analysis/research/registry.json) binds each home, context and figure.
@@ -26,7 +26,7 @@ dossier retains the full argument; paper-owned work and frozen runs stay at thei
 source locations. Local `scripts/`, `tables/`, `reports/` and `figures/` directories
 exist only where the corresponding work exists.
 
-[All 33 visual hypotheses](SCHEMATIC_GALLERY.md) · [Searchable HTML gallery](SCHEMATIC_GALLERY.html) ·
+[Question illustrations](SCHEMATIC_GALLERY.md) · [Searchable HTML gallery](SCHEMATIC_GALLERY.html) ·
 [Measured-result figure index](FIGURES.md) · [Scientific dossiers](../docs/research_dossiers/README.md).
 
 `schematics/` contains qualitative illustrations and prompts; `figures/` contains
@@ -57,7 +57,9 @@ These examples are reading routes, not scientific acceptance grades. The
 records staged owner-page review. An older plan or a missing functional endpoint
 does not automatically create a new active analysis task.
 
-## All 33 current questions
+<a id="all-33-current-questions"></a>
+<a id="current-questions"></a>
+## All 36 current questions
 
 | ID | Biological question → what current evidence changes | Question home | Dossier and package | Topic tags |
 |---|---|---|---|---|
@@ -94,6 +96,9 @@ does not automatically create a new active analysis task.
 | [A30](../RESEARCH_QUESTIONS.md#a30) | CSF-associated effector RNA → paired association remains in narrower observed-state support; activation exclusion, local induction and regulatory equivalence are not established. | [RQ home](A30_csf_compartment_effector_state/README.md) | [Dossier](../docs/research_dossiers/A30.md) | [Lymphocyte states](../docs/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [A31](../RESEARCH_QUESTIONS.md#a31) | GRIA1 fibroblast response → alveolar expression and heterogeneous partners nominate conditional RNA contexts, including CNIH3; acute function remains unmeasured. | [RQ home](A31_gria1_fibroblast_response/README.md) | [Dossier](../docs/research_dossiers/A31.md) · [Plan](A31_gria1_fibroblast_response/PLAN.md) | [Recipient signaling](../docs/RESEARCH_TOPICS.md#recipient-signaling) · [Stroma/vasculature](../docs/RESEARCH_TOPICS.md#stroma-vasculature) |
 | [A32](../RESEARCH_QUESTIONS.md#a32) | Myeloid ARG1 and recovery → supported myeloid/matrix RNA contexts coexist with unsupported epithelial contrasts; matrix reduction cannot stand in for regeneration. | [RQ home](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) | [Dossier](../docs/research_dossiers/A32.md) · [Plan](A32_myeloid_arg1_matrix_epithelial_recovery/PLAN.md) | [Epithelial states](../docs/RESEARCH_TOPICS.md#epithelial-states) · [Myeloid context](../docs/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/RESEARCH_TOPICS.md#stroma-vasculature) · [Metabolism](../docs/RESEARCH_TOPICS.md#metabolism) |
+| [A33](../RESEARCH_QUESTIONS.md#a33) | TIGIT-responsive AREG output → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A33_ezh2_tigit_areg_output/README.md) | [Dossier](../docs/research_dossiers/A33.md) · [Plan](A33_ezh2_tigit_areg_output/PLAN.md) | [Lymphocyte states](../docs/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/RESEARCH_TOPICS.md#recipient-signaling) |
+| [A34](../RESEARCH_QUESTIONS.md#a34) | CCR2 movement and fitness → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A34_ezh2_ccr2_movement_fitness/README.md) | [Dossier](../docs/research_dossiers/A34.md) · [Plan](A34_ezh2_ccr2_movement_fitness/PLAN.md) | [Lymphocyte states](../docs/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/RESEARCH_TOPICS.md#recipient-signaling) |
+| [A35](../RESEARCH_QUESTIONS.md#a35) | IGFBP4 source and IGF response → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A35_treg_igfbp4_source_igf_response/README.md) | [Dossier](../docs/research_dossiers/A35.md) · [Plan](A35_treg_igfbp4_source_igf_response/PLAN.md) | [Lymphocyte states](../docs/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/RESEARCH_TOPICS.md#recipient-signaling) |
 
 ## Shared and historical source work
 
@@ -138,3 +143,7 @@ Update the owning README, local literature context and registry together when a 
 ## Literature-informed screens — 3 November 2026
 
 [Six-job ledger](../docs/research_reviews/2026-11-03-primary-candidate-literature/EXECUTION_LEDGER.md): A5 named-feature and A3/DY1 reference screens are executed; A12/Lin and A32/Speth have exact source-value/access holds. A31 and Wg-P06 retain the prior functional/linkage requirements. Original hypotheses and all earlier evidence remain authoritative.
+
+## DuPage-derived question development — 7 November 2026
+
+The [article derivation record](../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md) records the A33–A35 overlap scan, literature correction and archived Figure 4. The source paper owns this shared record; only A33–A35 add new question homes. Measured screening figures remain in the article gallery.

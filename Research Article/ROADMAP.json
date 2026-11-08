@@ -3,7 +3,7 @@
   "source": {
     "origin": "the owner's reading order; the reading notes are kept privately",
     "reading_order_last_checked": "2026-10-01",
-    "dupage_2015_status_updated": "2026-11-07; S0-S6 disposition complete; descriptive S0-S3, S4 not informative, S5-S6 synthesis; see Dp1 results",
+    "dupage_2015_status_updated": "2026-11-07; merged PR #167 at 32ab85e; S0-S6, target screen and GSE262130 candidate follow-up executed within descriptive scope; current owning reports retain limits",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
     "analysis_status_updated": "2026-10-07",
     "analysis_status_basis": "PROGRESS.md; docs/audits/2026-10-07-repository-readiness/REPORT.md; current linked Wg/Wp result reports; owner reading statuses unchanged",
@@ -363,11 +363,13 @@
       "role": "foundation: activated-Treg stability and the EZH2 axis",
       "extract": [],
       "datasets": [
-        "GSE58998 (sorted mouse Treg bulk RNA-seq; FPKM deposit inspected; 12 libraries, 11 retained by publication)"
+        "GSE58998 (sorted mouse Treg bulk RNA-seq; FPKM deposit inspected; 12 libraries, 11 retained by publication)",
+        "GSE55773 (Arvey chromatin table; adapted cross-study context, parent GSE55753)",
+        "GSE262130 (Peeters author-selected rlog matrix; 12-library candidate follow-up; not raw counts or independent validation)"
       ],
       "folder": "gate3_09_dupage_2015",
       "note_status": "owner completed reading 2026-11-07; annotated PDF and private notes reviewed",
-      "trial_status": "S0-S3 executed under frozen contracts: descriptive FPKM and adapted chromatin; mixed state dependence and weak covered-subset consistency. S4 not informative; S5-S6 synthesis complete. Population inference, exact reference replay and raw functional branches held; Niethamer/D1 separately gated.",
+      "trial_status": "S0-S6 dispositions complete; target screen and frozen candidate follow-up executed (CANDIDATE_ANALYSIS_RESULT_V1.md). Selected GSE262130 rlog context shows context-dependent candidate directions; no target validation or scientific acceptance. Population inference, exact replay, protein/function and source-unit holds remain; Niethamer/D1 separately gated.",
       "note_location": "Research Article/gate3_09_dupage_2015/SOURCE_REVIEW.md",
       "trial_location": "Research Article/gate3_09_dupage_2015/RESULTS.md",
       "analysis_namespace": "Dp1"
