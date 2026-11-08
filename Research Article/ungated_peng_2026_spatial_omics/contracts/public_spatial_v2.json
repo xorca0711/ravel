@@ -1,0 +1,4519 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1.public_spatial_v2",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How does fixed IL1B-CLDN4 RNA association across adjacent QC tissue spots vary by lattice scale and patient-matched histology in the public Visium sections?",
+  "decision": "Determine whether the public sections provide spatial RNA organization beyond old whole-section means, and quantify dependence on depth, broad RNA composition and edges without substituting pathology labels.",
+  "strongest_rival": "Autocorrelated RNA fields, mixed spots, library depth, broad composition and irregular tissue geometry can yield cross-spot association without cell contact or IL-1 signaling.",
+  "discriminator": "Same-spot, one-hop and exactly two-hop standardized cross-products; within-component depth adjustment and fixed broad RNA composition/interior sensitivities, with patient-level histology contrasts.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_SPATIAL_SPEC_V2.md",
+    "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md",
+    "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/REPORT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Old whole-section means and prior measured maps are exposed, as are A12 results. New graph statistics have not been calculated. Cache file names, sizes, headers, two QC coordinate rows and original QC rules were inspected; complete source bytes were hashed before freeze. V1 produced no measured outputs; source-axis metadata now establishes three duplicated non-target symbols in the first section and variable duplicate-symbol axes elsewhere. All56 feature axes checked without expression values.",
+  "biological_unit": "Patient; 25 source patient labels with 56 nested Visium sections in the same Peng/C3 source lineage.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Spots nested within components and sections, repeated sections nested within patients. Same patients overlap snRNA source; this is not external validation. No source specimen or serial-section equivalence is inferred.",
+  "population_and_selection": "All56 GSE307534 sections; original tissue mask and >=500 counts, >=200 detected genes, <=15% mitochondrial QC. Retain graph components >=20 spots and sections >=100 retained spots; report smaller supports without threshold rescue.",
+  "contrast": "Primary within-patient LUAD-minus-AAH, repeated sections averaged equally; AIS and MIA contrasts and spot-weighted section aggregation are prespecified secondary descriptions.",
+  "endpoint": "Primary IL1B-CLDN4 symmetric one-hop mean standardized residual cross-product on the Visium lattice. Same-spot, two-hop, lag contrast, individual Moran-style and interior endpoints retained.",
+  "methods": "Recompute full matrix QC and five fixed normalized genes, verify both coordinate files and cached values. Six lattice offsets, no gap bridging. Component-specific depth regression, pooled residual RMS; scalar independent neighbor-list verification. Exact choices in PUBLIC_SPATIAL_SPEC_V2.md. Require unique Ensembl IDs and unique target symbols; collapse duplicate non-target symbols for original detected-gene QC and preserve exact count totals.",
+  "missingness_and_exclusions": "No unmeasured-to-zero imputation. Hash/source/coordinate/QC disagreement stops. Insufficient graph support or zero residual variance produces missing endpoints, no altered genes or floors. No pathology score-based region substitution.",
+  "multiplicity": "One fixed transcript pair, three transforms and stated distance/edge diagnostics; all patient matches and signs reported. No significance testing, spot shuffle, score search or new predictor.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Patient-level deltas, empirical range and leave-one-patient-out mean range. This is finite exposed description without spot-based p values, a null distribution, power margin or equivalence claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Spatial RNA organization in mixed spots only; no named cell state/pathology region, macrophage attribution, physical radius, contact, direction, causal reception, identical serial-section cells or 80-micrometer Xenium reproduction.",
+  "stop_rule": "Stop for source hash, duplicate/absent target, count, barcode, coordinate or cached QC/value disagreement. Narrow numerical support failures remain explicit missingness; do not block completed independent A12 work.",
+  "inputs": [
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/matrix.mtx.gz",
+      "sha256": "b4c6d5ad6733ffa137187e06dc430e8c0b611535c5fea62c6776772443b73c2e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/features.tsv.gz",
+      "sha256": "8147a70370cd3b9ba3d9f16e5548582b81d46f5fb9d92ba4a9613231fe748173",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/barcodes.tsv.gz",
+      "sha256": "8cf6f7f167ddcc47d2958e80bceb2642500babecc2fcf0856839a5525d99cdb7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/tissue_positions.csv",
+      "sha256": "d1bbb5f324e54c7e5da833b710f958fe2147f22266f62dd2fa935999854811c5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/tissue_positions_list.csv",
+      "sha256": "abca5a5a29c1a9ee4bbc48905511b0007cbb76362e53421cbffcffdc7d7e1800",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/spot_qc_and_coordinates.csv.gz",
+      "sha256": "05497e9679e7ff99e52d5cb742b41e14664d20419acf8ac7c31501b12137f577",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226168/spatial_display_values.csv.gz",
+      "sha256": "1c9c7168fffa4fcadf05367601240aab6927d40190a7af435dd749fc0a6535b2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/matrix.mtx.gz",
+      "sha256": "253b5994674bb1e9360a4c14f51e66cf6731bb694e0dcd060fd37807a9bf84c8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/features.tsv.gz",
+      "sha256": "a2f34cb497670f27b46ed2f39e6463cbe8d2a78c782d44ef39225a8e4826e348",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/barcodes.tsv.gz",
+      "sha256": "9a36e796cbecb6718616d98f9ac91b70bec2b4c1e7b5861d97d51848aabd0cf1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/tissue_positions.csv",
+      "sha256": "2ae5424f1028ead52a65067b9f0550d9d1e8110c5ade8cac871a3170db1a1a5c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/tissue_positions_list.csv",
+      "sha256": "947ea4c4d4a3fdad1f7b9707db2895214f39dd07ba7b35a6bae5a0004d2f0e4d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/spot_qc_and_coordinates.csv.gz",
+      "sha256": "8893b06caa7a87aa17a3b2d511446fdfda8d328087d9bfebabbf8150dfe463f9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226169/spatial_display_values.csv.gz",
+      "sha256": "295dd83121d95203b89824986d57e33455a7852ecb3812b0aa4764ca5b46d365",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "1"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/matrix.mtx.gz",
+      "sha256": "fd4fa900f00539621dbc00381df0b66b87a78939725e4f2370601390d9a1789d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/features.tsv.gz",
+      "sha256": "f1a3435fff69eeef05ce721236996c2e959a6dba53c6941aa057dda75cdbb8a9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/barcodes.tsv.gz",
+      "sha256": "95bcd53f594048ad5f649b20bbb6048d2443fc60ea34d9eebde6b7f1e4106b1a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/tissue_positions.csv",
+      "sha256": "4f624e73b7ce81bc7a8a0994416b2e6b6c0c3456fb2bfe1df58b8fd12b930938",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/tissue_positions_list.csv",
+      "sha256": "d5c73d255fa5ea35a9f16bf5838eb6ea71f95ca6180012da1985de5211cffa90",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/spot_qc_and_coordinates.csv.gz",
+      "sha256": "aa2d830a9641a20f7fc2a13b9147f4dc7e91f9b7f860786ad89e8c74edb9124e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226170/spatial_display_values.csv.gz",
+      "sha256": "6e043330d9ff1e68fa781abfe907b6a66f1960f7aa555aff36025a5348673c4d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/matrix.mtx.gz",
+      "sha256": "09b78132aac68ba02086043608b3179af03876744cd6f578c4b3665d8b7858fe",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/features.tsv.gz",
+      "sha256": "1dfccaa07609306c1329e5722697d03714375882c0699b8f7d58de92d9d582a1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/barcodes.tsv.gz",
+      "sha256": "364f0f966e59c034967356e718c86a46c2c13ab190a00ba10f44460869a9a856",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/tissue_positions.csv",
+      "sha256": "c1ffbba939f20508f7617a3bb6ebc45be3a04cd8ffd19b0b6b86e86f4eb70a40",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/tissue_positions_list.csv",
+      "sha256": "28a304ad14a6bf3197ae0ebdef8b5b98d20e3c1c58f3484751bc81343ad7f6e9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/spot_qc_and_coordinates.csv.gz",
+      "sha256": "3261b02f87f2e4daf278c9885cbfeb9a56d2040312e12cbfc4791f49e8cefc96",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226171/spatial_display_values.csv.gz",
+      "sha256": "400c838c93a0869591e8b3becec85c6372a1908545074ae8150aa9c602b387aa",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "2"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/matrix.mtx.gz",
+      "sha256": "dc68383b279694e4074cf2ce7b4176a414355c4a14131d04478aaf672789368f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/features.tsv.gz",
+      "sha256": "85000fa30010edd46ab4df149f11ce7a06a6e26c02e41b29789ada96d3fde494",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/barcodes.tsv.gz",
+      "sha256": "2dcaf23606a9673eaa1f609a47363238d8122826110633607689e5f73acc8082",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/tissue_positions.csv",
+      "sha256": "f8d3141364829ef2b62bbac724f3599b7b4f145e3486d959bc40bb9ebd9531fd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/tissue_positions_list.csv",
+      "sha256": "2e31a728c6dc01753baafc25def4efa7c5b9edb0478abb754af0a45e11890658",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/spot_qc_and_coordinates.csv.gz",
+      "sha256": "88603b8e7958edc77b2893b211920baf92d29acd2c0dd20866cd54048b521de4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226172/spatial_display_values.csv.gz",
+      "sha256": "c99ce8765790600fb205fcc5a4a035332d64273baccb3f12b6a32d2104558428",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/matrix.mtx.gz",
+      "sha256": "554d3f0a01a40fb045ed4e124e804483e94826d298978855b0a19d8ec97ecb5f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/features.tsv.gz",
+      "sha256": "98e3d63f3b72371313bff601d8286189f0319be8552d4679d55f7146ac174b40",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/barcodes.tsv.gz",
+      "sha256": "3d69b8dd4352e2167b2642c192f1e5f40ce5a1918ca99a0654ea876daa675cc7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/tissue_positions.csv",
+      "sha256": "3a876f06fefe8b9823ae9a643ef30ab00ee50cb058cbaf511fbbd8bf17926c35",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/tissue_positions_list.csv",
+      "sha256": "90766611bb4bdb81937256739382c8e2d0a407d163fb5bcae1563be3f36aee23",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/spot_qc_and_coordinates.csv.gz",
+      "sha256": "d99a3dc23f86f9ead8f1576bb2971599997fee5d4d123c42280e78fbc7cb53fb",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226173/spatial_display_values.csv.gz",
+      "sha256": "876c65f9e056ceaceca185bc9c6f755b3899c82802b58c2af942ac9437a3dead",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/matrix.mtx.gz",
+      "sha256": "89be227107577b68deb0da857760880b027df5249a8bb20c708ff7e1f68d9434",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/features.tsv.gz",
+      "sha256": "38406161adb09c61a9ce8ddbcb4afa709e6f55804c705296792013e4f3aa299e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/barcodes.tsv.gz",
+      "sha256": "0a88b2d322d753c63ed94e09c9a724d6b68dc636dd0de564c1bbd0cb86765a4d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/tissue_positions.csv",
+      "sha256": "32d8e93d33042b62ba0864b5be7a0fed8f361701ab5c597ef70d2c493a71f4ac",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/tissue_positions_list.csv",
+      "sha256": "fd699dfe0934a4cbd211f7ddb40e786f242500598f73f5a53947b11be24c0910",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/spot_qc_and_coordinates.csv.gz",
+      "sha256": "4862a244b1a1173499c336d6e63c0caf5324fb0f7780f4b8727092e9e62000b3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226174/spatial_display_values.csv.gz",
+      "sha256": "29db08b9b08607e429512715a547a644b0fed168818ecf65c583bfa54a7fd991",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/matrix.mtx.gz",
+      "sha256": "3828de248911f5ddf71521e015784564d465351ab9af0820768c6b9ab70b04c2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/features.tsv.gz",
+      "sha256": "b745e0ff31846c155c182e2b5e90ca08d35426e06ae66586c83bf7a8f0af52ab",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/barcodes.tsv.gz",
+      "sha256": "633a77ab04ea2c97a40960172f65799f20cca112cbb2ed820e998dfa5a3eeee8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/tissue_positions.csv",
+      "sha256": "44421ba757305ef7b362244f36945bfee53344e3b9fdb5c1bcbecfdd5127e0cd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/tissue_positions_list.csv",
+      "sha256": "37b5ce9cda66be1092d511f113c9c37ece48b108e64f6fd84dbaed1abef12e2f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/spot_qc_and_coordinates.csv.gz",
+      "sha256": "ae74186b7514d95cc141e33a54359acbf54de2765f30fe9d981a5df240383292",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226175/spatial_display_values.csv.gz",
+      "sha256": "abfb7621cdf43f080be6cb4a5634bec8493fdfc06670a45543527ac99412af44",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/matrix.mtx.gz",
+      "sha256": "94a62d6177cb8045b4354bdea26da0160a7eb1ea9049fc09c6020b5d19b4afd3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/features.tsv.gz",
+      "sha256": "8c2122d47d85aa09566125f13f832fe21a88e04e69bc443ca393bce8ae466827",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/barcodes.tsv.gz",
+      "sha256": "7c052d14a69d4251340b1bfd16a644d0c4a5fdb7f157c298880bf0505542a906",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/tissue_positions.csv",
+      "sha256": "22abbf3f21de217ff2e63184351fc354de3077db4396c144902e02e0dcfd31c8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/tissue_positions_list.csv",
+      "sha256": "c0429ede7b9caf684fa778d09cdb97d1b346143dc8aa24fe9f73aed3dd86e948",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/spot_qc_and_coordinates.csv.gz",
+      "sha256": "b3283109f96d8e691045718ff3057ed398e43409aa140715ad2832b6c6984f3a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226176/spatial_display_values.csv.gz",
+      "sha256": "572943738bc69c572b3fc39ee67e30bb6ad50137e48bafc99ccd1f8c7e537ae8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/matrix.mtx.gz",
+      "sha256": "2e43a2ecde2dcfcc2321f6adfc716e3a54a984cbe8038692525e2403987abd23",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/features.tsv.gz",
+      "sha256": "da64b3ecb0461b5f271ef54b05ec1fd396f1a6d99dda2f2f879eaf884f2efe63",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/barcodes.tsv.gz",
+      "sha256": "852c4f3270b37afd3fd8d9b812cfcefb5b0c495d390320f674ccb33f7d3cec1c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/tissue_positions.csv",
+      "sha256": "71f78e3638d098f732ebc8631052d4cd6342974d86ccdd5b4f2290edbd5c361f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/tissue_positions_list.csv",
+      "sha256": "c5c5ec5b2098412b607f23158df3636457d4c3344f43009a4458b3ec1a79a83d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/spot_qc_and_coordinates.csv.gz",
+      "sha256": "c59c72ac0cd7295f289e54eb6461eff3027255dd1ae39485c4e5435d3177bd21",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226177/spatial_display_values.csv.gz",
+      "sha256": "3659b4b15dbb37bbd93e55254711a4d32b4c4e1af2a3e65c4a958c7c36481e55",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "4"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/matrix.mtx.gz",
+      "sha256": "1b874e481b0771b0f40104c1da735028f88385f1c448cd57d6beaa14f869c941",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/features.tsv.gz",
+      "sha256": "6dacc296de6ff2a421654b402401cfa4168f5c855cab7d847b44c92d05ce42eb",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/barcodes.tsv.gz",
+      "sha256": "3c49606bdada7421abc8db52891bf6bdc283f63b8b10bbc81fb4a202edc9b2d5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/tissue_positions.csv",
+      "sha256": "6c7a234ea4482569b0bbc45f8cb619edb2a6fb9e79586996272acd643a726013",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/tissue_positions_list.csv",
+      "sha256": "992b320ec50c62a048a0710e353641d02ee11cbd2254caf736b958b4d6c70524",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/spot_qc_and_coordinates.csv.gz",
+      "sha256": "26f5e9c06c7481308a138418758f6b2e7e891ce39319edf74c79dd62ce206e93",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226178/spatial_display_values.csv.gz",
+      "sha256": "5cd9a8b61becbb40fb7e05b911e06ecd08371a85fa549977b3a3c16efebc03f5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/matrix.mtx.gz",
+      "sha256": "35001dd492020d82c639c57129d4974f97521c4dcc971f15b0523850037d62db",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/features.tsv.gz",
+      "sha256": "66bb75fd06fed00329aa18942844073b89861484ec105c1cce3e891ecf76d1e5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/barcodes.tsv.gz",
+      "sha256": "5d2cb43b708d510f34bdb2ca4e16e7780cff357aa75c4d290d6318c6b48a26e4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/tissue_positions.csv",
+      "sha256": "c2e2081c4bd3d4810b40384f76c75a30dc05671d558131fede9ff44ec1e5686e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/tissue_positions_list.csv",
+      "sha256": "f873cea1c8ea05e1f1bb1dc73a51b5642a7f3e34056456f482e646d666c564af",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/spot_qc_and_coordinates.csv.gz",
+      "sha256": "425d68012d56aa1592d940f3843723a39720bb56c326567fa259f9964ebf10e8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226179/spatial_display_values.csv.gz",
+      "sha256": "0bd3f3f08df54a7c5d66c2a3b551d7113562efb44c318921f47092da346517c4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "5"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/matrix.mtx.gz",
+      "sha256": "f56d4ab5f3efb93b5af7a227de1b4561cc50a7f5eea5d823a60105ad7fef0322",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/features.tsv.gz",
+      "sha256": "deab277f8b63cace361461f2de1b88638e96cc071d031de11f607e700744854e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/barcodes.tsv.gz",
+      "sha256": "6b40ff93e064e391725dd6616e8ab5d4b97347145260e1895425d335720a3b00",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/tissue_positions.csv",
+      "sha256": "4ed2447787d00d02fdf7fd59d9d77d32ea1d27e5dee7751397b23bee50c98b2f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/tissue_positions_list.csv",
+      "sha256": "a2a5329edeadf508b92f14649d9ce7ff484b2bd2e5519da58991bc8939dfc6b3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/spot_qc_and_coordinates.csv.gz",
+      "sha256": "ab999b4e09c47704e031cf28ed6d6ebb137bf54b8f3ccf7989f5b42d2710567f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226180/spatial_display_values.csv.gz",
+      "sha256": "7fe5d5a70ddc6169f4c2c9b44a007cd4857efbf8e15625e74bf4500e0eaac891",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/matrix.mtx.gz",
+      "sha256": "aaced318495a184f0cad5be5f96babde6c702d98fae0990ab1deab03799ce902",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/features.tsv.gz",
+      "sha256": "8a9bf806f9d05b081f5f31465e1a89f4099e2537d203c8ad25db9c911da5806c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/barcodes.tsv.gz",
+      "sha256": "528b9128fd0c7b589e8669a83b2d06742e5bd131db2ffb6c08c051bcca1bf60e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/tissue_positions.csv",
+      "sha256": "64002a1078fc0ad20eefdd30a340db1322e030afffd451737d69fb90de74de63",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/tissue_positions_list.csv",
+      "sha256": "97624291914d9cb5ae49d3779bbf5c7c51cbb7002e255168c159333c791cf16d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/spot_qc_and_coordinates.csv.gz",
+      "sha256": "7cad3bfee4fd2c04de61d07f90656df77ff5c65e237553513806175743c1827b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226181/spatial_display_values.csv.gz",
+      "sha256": "64f640d62e8f1ec1785be4a343867d794defc55ff234a7c229b8cab24e6962ab",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "6"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/matrix.mtx.gz",
+      "sha256": "5883a1852f329641236fd80597e7234da24d51bb6a9432943982c07b5c3a76c3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/features.tsv.gz",
+      "sha256": "925718d0583c7cc1c4937becd77a5a194be9361837e6af4f07e470eedb6e1356",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/barcodes.tsv.gz",
+      "sha256": "8af9c08a2bf95d45d64b7aec079665edf4c336734f6644a72f3134dfa7f50789",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/tissue_positions.csv",
+      "sha256": "19aac7d913b5a1602928175fe448d8f928779ad98858acddb297b4bbb34db3c7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/tissue_positions_list.csv",
+      "sha256": "531c6242a3dac07d7467d3a5bbcb0737e5e5e516ab4561794f1f4ede7e3e578b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/spot_qc_and_coordinates.csv.gz",
+      "sha256": "a40640a2654d908f29045fddd1284b27169c4a7ed5e39562bceb891244ddf2c8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226182/spatial_display_values.csv.gz",
+      "sha256": "bdd3b9d5516e31c279c69184bcc348be6cc0f907d77ace6cc421dd486ea25fb2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/matrix.mtx.gz",
+      "sha256": "bf62e1b64f9fc1b7979e362f8ae862310d40e5fe9f8896a10588c601c8ed52ab",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/features.tsv.gz",
+      "sha256": "38291e0d95c3fe2f9bc4e2ca71519051fdb65c35e9a1c8e77adb2863ec67b4cd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/barcodes.tsv.gz",
+      "sha256": "2b699b2d20cc665459cae549eee02d21c3e0d5b9cd2fa7a38eaba2ee35864c2b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/tissue_positions.csv",
+      "sha256": "b6cf2e27b729c139a5aa8689862d03ff82c10f52e53c63aa8061c8274cd29976",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/tissue_positions_list.csv",
+      "sha256": "ea1b672abfc1e0500a41f40e936a5271d1dcca81d49e847f452fdded586e5c5f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/spot_qc_and_coordinates.csv.gz",
+      "sha256": "6b7988f96cd875da5d9c472c04ec7de2da2c05e9de554a3b66faa4abdfcdd35a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226183/spatial_display_values.csv.gz",
+      "sha256": "e66dad013cd907bde0a35d160c6e8e3dd0f9e1133212465a15efbdef658fa85d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "7"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/matrix.mtx.gz",
+      "sha256": "fa4855c6035170200af6167f5e8e7adaec47396e6462aa0e8145fe725ff87335",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/features.tsv.gz",
+      "sha256": "50092a6f18ce68cfbda514ef1806f6ecc675b81bf6e770c9208ca79eeab29cf4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/barcodes.tsv.gz",
+      "sha256": "434c31422ac54fc745173a725e5eaf2cb66f7589108316a002bbf7ccdb8a1a12",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/tissue_positions.csv",
+      "sha256": "ca73ed9a7b632ca95273cbe185c85a2ec1c89dbdf8212ac53bdf741dc3c72385",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/tissue_positions_list.csv",
+      "sha256": "c97f3d84f52a7c93092c9d6634c2e272a0f00493b21a321f9ba8905240dcace0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/spot_qc_and_coordinates.csv.gz",
+      "sha256": "c05308fc47084dd93db6386ba308604019955fb98f4f0964c3ff26efbed9f429",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226184/spatial_display_values.csv.gz",
+      "sha256": "2ce83b129aa9aaede668621c3c0fe2a8173f01c6069351e149f52bb9a068b37f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/matrix.mtx.gz",
+      "sha256": "a97d792389dad9fa9f045d2af513ae705e588ac61be8fc3a0049e8dec5c923ad",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/features.tsv.gz",
+      "sha256": "95afa8de2770ed0422c6ba0b7c54f714f91a3e97bf640c8c5f0cee201fc4773a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/barcodes.tsv.gz",
+      "sha256": "4c64c32c0910ca8e2254365667a955ecd46eb035636a6b602806bcd1525b0ba5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/tissue_positions.csv",
+      "sha256": "b0ab2dd5fa18ef3c5a27c1693a8c122d2214868777558af77abd7b1467fea138",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/tissue_positions_list.csv",
+      "sha256": "578986ca3b9458dd8fe70490420eca3bbfddfa5d634d8c6e184f80cb6679952a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/spot_qc_and_coordinates.csv.gz",
+      "sha256": "80cba4d58b9a549e2cccc8e2f87cdf5df24b951f24a36115211d26a085b83ef1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226185/spatial_display_values.csv.gz",
+      "sha256": "d78c0dcd466e383385e4ddd1bd9a3a867bf9c414e64e38095beb5dc8f5f8d4f6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "8"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/matrix.mtx.gz",
+      "sha256": "1c7b47e73d94a9b7cf79416fb7e55954f311c69bea47d32e489ab8a694a91f04",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/features.tsv.gz",
+      "sha256": "fb86d74b8a08833cb9ec49b32d964a3c9b57f5d3ac0e04fa98ce0d3595c334b6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/barcodes.tsv.gz",
+      "sha256": "eab2295d46a485690c60a904c4e409f88df3922c08df32c8691d65ca8e224d5f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/tissue_positions.csv",
+      "sha256": "fcb95ed03e2f5c9adc52babb58830775230ef364a903d66fbf9e1545b6ab20b9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/tissue_positions_list.csv",
+      "sha256": "308240793f44960bc1e40b540f791819c86b86e5218a9a02e1875cb38d76f329",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/spot_qc_and_coordinates.csv.gz",
+      "sha256": "c3f3a0872ac6ab06515e1f11c6468734bf2f46b030c22393e0604e93559a91a3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226186/spatial_display_values.csv.gz",
+      "sha256": "c066cec4a3d0b3d80bce9c6880633fd1a3c6f317d1d9b08b2e0f51ae4d3af26e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/matrix.mtx.gz",
+      "sha256": "d3d443431f252e0cd3d757dd1a2e30753e44795e7422bb0badb16dc8090294b7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/features.tsv.gz",
+      "sha256": "5c81cd18dc2ad1e31ebedce28afd5198d2a22b8442c91ca81c12e5e169277b60",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/barcodes.tsv.gz",
+      "sha256": "18e3c8baa30cbf2b9e355f8fc9113551b8bde41c47d5ed9b2efc91eddc73fc17",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/tissue_positions.csv",
+      "sha256": "de70936e9d8039fb43eb5f9c69a1bbcd1aba6684cba7a8637345b8138ebc84f5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/tissue_positions_list.csv",
+      "sha256": "aea6e2e6fa7c738de256210c575fc3dc1fbea909b9a5465c662f4a5dad5c6ac9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/spot_qc_and_coordinates.csv.gz",
+      "sha256": "24dc8e78c96ff9e51038eaed1f1e3e2d743bc2217c269063f8d8774640e22532",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226187/spatial_display_values.csv.gz",
+      "sha256": "7575c9a8b4b9c69e438962fdd86b5673355504352378bccba0ed1fc3fc97a747",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/matrix.mtx.gz",
+      "sha256": "558b42a1d98299927e5b71dbe132833773006d889298025757bba85fb0823f3e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/features.tsv.gz",
+      "sha256": "a73575cf8fd05a3aa54f6e2204b2551e231bcbe8f0fcc4376772c5283a32de42",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/barcodes.tsv.gz",
+      "sha256": "d8b86df9f7ca0f5537ab07032a56da1a5b9c198f8297e16d0c176188c2536785",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/tissue_positions.csv",
+      "sha256": "9e299e786f4c8cf2c7922579962321b2d3f68839eef20e60d483efa8265d0672",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/tissue_positions_list.csv",
+      "sha256": "3cd6f21b7dc7928be584925bc960b60c143ad800609dfcd59336b164d22fdab5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/spot_qc_and_coordinates.csv.gz",
+      "sha256": "4af3f2311c0d68f2928ae2fab9ffc93d68319dfad86b06ca18321d5a47964986",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226188/spatial_display_values.csv.gz",
+      "sha256": "53b368e521f5828845d63ae2b1c5264ae4f075ec2640ffa3eecd26c5ed03cb80",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "9"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/matrix.mtx.gz",
+      "sha256": "c680467d0a20a00ad37b377ee3cec84400629f171d803f2211584db9daca978f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/features.tsv.gz",
+      "sha256": "6b094f0d2d8ff4721465a49235fc0f780c561ca6419d92e87e01a81822cf7ace",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/barcodes.tsv.gz",
+      "sha256": "e305951b346ebe54cd6f0716d22cd322c8d9dbe02f21cdeeffb8430fab1f538f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/tissue_positions.csv",
+      "sha256": "a4f13d523c6f9ca54c895857fa9cbbf87633de1a1f96d12208b44ca2131a6dbc",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/tissue_positions_list.csv",
+      "sha256": "dc412806cf6c08e6ac3d3e2c71d2e25b6f260eaa70978f3d0e99f7b6db61b54c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/spot_qc_and_coordinates.csv.gz",
+      "sha256": "f955d1446e04dfc2e84b53a085f3c1d8e40b792c7a28913005b475a1fe1ddd9d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226189/spatial_display_values.csv.gz",
+      "sha256": "e8f0b0f6d6093fcf843fe40f9f0247e1e2ecf9565954b4f7e97b38973b4cfec2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/matrix.mtx.gz",
+      "sha256": "2d654e49e2d88eb4e94532f6f7f04967a4614cc1a72c156b69054068af488a69",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/features.tsv.gz",
+      "sha256": "0d318865c6246b7409859e56edb80b221925fdd3d95dbaea47ad4fcf9048eab6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/barcodes.tsv.gz",
+      "sha256": "c31d7507fad89a2f51c9420efadab022d8579c0ce5a68e9db96ba9e4282beeac",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/tissue_positions.csv",
+      "sha256": "b58c4fe151c4dec22006ff6bcb131254c73aa6a69ab62370e4d9ba2309f03658",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/tissue_positions_list.csv",
+      "sha256": "dc0a3af36069f01cfaf59ef3ef9d20f2215fcdbaa3d5bb70879d538431e78f42",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/spot_qc_and_coordinates.csv.gz",
+      "sha256": "4f5f82c04fb8841bd8a1587a3e82e6cab8e253d73c72c898e2ff7062db597cb4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226190/spatial_display_values.csv.gz",
+      "sha256": "ee47455e8172da2039962dd676e8e1411cf26c7a748ccd36e73fd250300a42a0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "10"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/matrix.mtx.gz",
+      "sha256": "f3563d371ca2e7da48628b371ae4ba00ebbe5b47fe05c4dc6574e4cbb0a25d7a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/features.tsv.gz",
+      "sha256": "ce7acb0350cd58dc50e209a3fe5bee9f417cd0b852f3c5a8ad252a173c035ae6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/barcodes.tsv.gz",
+      "sha256": "74e1e83c2dfe12422e79b0dfcc77889c3c36ef917abc468c2c1d2b23ff90535d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/tissue_positions.csv",
+      "sha256": "c86c0e574107e37eadd39fabf410ba0347d6603a52e41813acc95aa1d264fed9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/tissue_positions_list.csv",
+      "sha256": "84b32065036086bb5ce91c6e6b17c20e990a03e960b38be29fc22e5793eed8e9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/spot_qc_and_coordinates.csv.gz",
+      "sha256": "f42d80a577901ff50bfa51867dabcaafd3255de00f8dde4de656b2721ea0b090",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226191/spatial_display_values.csv.gz",
+      "sha256": "97eda89dff333bf37b1cf38771582319aa167fab90cfd4b7ad062413067ba83c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/matrix.mtx.gz",
+      "sha256": "8e83ffbe28d5c0c909bcc9650a0a218e82c707c8f5ff905ae4823e4de05744b2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/features.tsv.gz",
+      "sha256": "2f1a502bf7a69acf8018215d94202c0557c469a74c05c19dfbe573dfa26f26c5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/barcodes.tsv.gz",
+      "sha256": "9a3f1a8bdba44162b05bf78315b1c1252acac669bdd6c198304df64185cff632",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/tissue_positions.csv",
+      "sha256": "4684f49a35f81a6bfd75e5bc4782e172551fd90fa66024c3a5dee8a4923da45c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/tissue_positions_list.csv",
+      "sha256": "d5de82c15a3242d9996dc1a740e87a6c297f5d6f22524ed5e3308b810b936433",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/spot_qc_and_coordinates.csv.gz",
+      "sha256": "cd00fed826034959717a155d2c055440066945ed814e99c8eddde0f92fc2f9b3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226192/spatial_display_values.csv.gz",
+      "sha256": "506e44dbdfcaa923a67488ef2872a7e6a94b9f68550fbda44bbed99078ad251d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "11"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/matrix.mtx.gz",
+      "sha256": "4dd9aee40e65f84b132d56fbc87a2d3f1b23aea0bfa733066a2c7dddcced1e60",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/features.tsv.gz",
+      "sha256": "cb12c41704450095d9cbaa267e5071c065babafdf00e825d64cfb6f644dbf231",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/barcodes.tsv.gz",
+      "sha256": "a4819c875ae85075f343b78bce637d8811c0287561d9667236b8ec41e56ac52a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/tissue_positions.csv",
+      "sha256": "3a8eccdfe312e56362b62a68d90736ca12103d522ca234b385ae6f5be8c64fc1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/tissue_positions_list.csv",
+      "sha256": "ca0c71a58aa6e4f05a48cc549acab001b19f54477d509fbc3a6e9c9205875b70",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/spot_qc_and_coordinates.csv.gz",
+      "sha256": "88927e91a0c829b2ce9a5d6cc03b77ff796a76c7ecf5bc174f0954d12ad07826",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226193/spatial_display_values.csv.gz",
+      "sha256": "df84fb79128935b5a9c0b3281b342e9f5becd27a4c8d7a593a529c2b4d130831",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/matrix.mtx.gz",
+      "sha256": "30fc6f449bec71a7e9c870272dfd84ddc343b311820bdc304b954264daa3bf89",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/features.tsv.gz",
+      "sha256": "b47834015649ddbe40bf34b6f04ac5891373edd87f87eb61671f166c649814dd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/barcodes.tsv.gz",
+      "sha256": "ce56d5b9c85bda45fc4d6e34c8081d084bc63fe59131a314dc26a7360a16b0e6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/tissue_positions.csv",
+      "sha256": "56acb4a6312318e653ef81737fe599c687be665e7c7faba6b5a2922e41d5dc3f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/tissue_positions_list.csv",
+      "sha256": "b83d8f7bd18792149efb6988eeb25b0f6c4314d7c81090bacf5231788c6cd410",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/spot_qc_and_coordinates.csv.gz",
+      "sha256": "5465a5f0a935360be7af50be16e2ca1ed3d67287a66a877167d3c35824406a60",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226194/spatial_display_values.csv.gz",
+      "sha256": "3a06e5d1828914804a5ea367208ff03cd47029decac175ca9527aa9834dde2f2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "12"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/matrix.mtx.gz",
+      "sha256": "6045025bb1973234f17f93ae1da3b81d55083d6d63dad7335556c3ca8912f236",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/features.tsv.gz",
+      "sha256": "a44612465d4632f63930e5b41b963b7a9fa5f73659b9e99c6258cf8b3743fc28",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/barcodes.tsv.gz",
+      "sha256": "b15c4772aa3acff79c78640a11f923958297ea3bbb66ceffabf70b5bafbe6434",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/tissue_positions.csv",
+      "sha256": "3c2d36344589145de5cd62f62ae9ee81895a3870e2936dfb3e48e0cdd6172a9d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/tissue_positions_list.csv",
+      "sha256": "43700ec2de83b54840f69021038ae76c1a74f6477808bed80b14eb9a8657c7f3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/spot_qc_and_coordinates.csv.gz",
+      "sha256": "a1d5cffc95c1bc7bcaf08b13757a9fee63d413ea705adcb52328047e54338a49",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226195/spatial_display_values.csv.gz",
+      "sha256": "9ded21347f83af5aeef4c9eac205b4dfa4754e881e0b856da709be689d3b81d8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/matrix.mtx.gz",
+      "sha256": "550e6c11284a10deac5440203d7580ae478841be7aa84f75c7ccdb63fd8d8bbc",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/features.tsv.gz",
+      "sha256": "590b51abea2fe16712dfeecc980516aa9739bab54bdb55a0375198d235e540d0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/barcodes.tsv.gz",
+      "sha256": "983a309ffe15b91cfe7aaec8de386e3dbf32a540fbc868937d0654ab9903d598",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/tissue_positions.csv",
+      "sha256": "e468c8942f711c19845d8ade58470fe79d4c745ce563ed4e0d7bb2b1559557d4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/tissue_positions_list.csv",
+      "sha256": "44d6b360093ea960f7b2f37683d2564f49e8011696085613815ac3e8ffc0e1bd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/spot_qc_and_coordinates.csv.gz",
+      "sha256": "944322d69230b91380201ac658e2626ec27dfcb0263d0f624d31359e0ccf5495",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226196/spatial_display_values.csv.gz",
+      "sha256": "3f9010e42a04ec6f87f1eef9aad40ed1067c6cdbc6546a13337de9b5e63afd11",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "13"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/matrix.mtx.gz",
+      "sha256": "428ee6790ab835c5ab8751f0218702f7748eea5d095c8505480a9ec1e0f154c6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/features.tsv.gz",
+      "sha256": "23587bd48006fbe9b2808dd97e9ce9259b0371dfb4c60316a2666f7607ea4e3f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/barcodes.tsv.gz",
+      "sha256": "19280aa1af172bd96ff4916902120270467baf3fb86ef1bcb3cf9abb3deeb2b4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/tissue_positions.csv",
+      "sha256": "0e198638a994947cb39a612563d55cc7ffe39b1f16c369b995fec0f5f73b0ecd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/tissue_positions_list.csv",
+      "sha256": "f5105d3f5c285287484c8ccf37001ea0b34600a8d18d8d43a3a3e3826dff7170",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/spot_qc_and_coordinates.csv.gz",
+      "sha256": "9b9c6972ea0337f56b3a82f63ab7308943aa8c135925048c3a76f028e8a38552",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226197/spatial_display_values.csv.gz",
+      "sha256": "2b0e35150a3c55b70d2b5ca937f32e9c24c0004b5e351b4207acbd2bf8633072",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/matrix.mtx.gz",
+      "sha256": "7c24f4a0de84b30f9e834463df8454e81f7e0a26041f4a9a0f7ca6a0dad2167e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/features.tsv.gz",
+      "sha256": "eaee1296d9f1df320f54c6766e0aa7fbc2a33b8fe19b9fddba52ac6c25e24e6e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/barcodes.tsv.gz",
+      "sha256": "c9fb2d33fc1b3f56d495b85ccfca9ef3a1222df7b36c5b911286ce5ec2e69747",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/tissue_positions.csv",
+      "sha256": "ec3ad8a1aa3d5376a39e705adcc61a39ca1e9d3e502e584e28b34378f231ea51",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/tissue_positions_list.csv",
+      "sha256": "f96a218f4ba150d81e70db5aaa814210114d36248d42f3d380462c27b44fef80",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/spot_qc_and_coordinates.csv.gz",
+      "sha256": "cd44c701d188457f69651007faa2575f408ff30143df422c52f7190995bcc1b2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226198/spatial_display_values.csv.gz",
+      "sha256": "f1a96ee845fdd7c0bb2f46b249ecef98bf510534d95f70958cea3c219735869d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "14"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/matrix.mtx.gz",
+      "sha256": "0f5c757a3dc2887632a2561e5ef9ff378bc89dd5e0ad8b37a971c75147ba2f5f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/features.tsv.gz",
+      "sha256": "9d62afed732fbd13f2ce21fe35c586ad190109f96132d51d228432711edec650",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/barcodes.tsv.gz",
+      "sha256": "bfbfe8cf75f9551eab98f43224cb6bf639c2a6ad7f17eed4a16ab08eff3c95f0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/tissue_positions.csv",
+      "sha256": "2356c7c57420de7d06f4073d9e5045098398f35d67970a12170ae274bdbe014b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/tissue_positions_list.csv",
+      "sha256": "d9bb9e01f6d28d6819243bb523d3f49120ccfc33fd1d6c4de113bec74c4cb354",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/spot_qc_and_coordinates.csv.gz",
+      "sha256": "c420f6d8b2452fb71b2da6ef6ee685e1a632667ec538792bee07a7e21052b213",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226199/spatial_display_values.csv.gz",
+      "sha256": "68becac702ea39307b8c3058046e0103fcdd633b2fd760b565e6d2f929938049",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/matrix.mtx.gz",
+      "sha256": "28c9e888af7e280778356e09e13a3cf235fa5a8689e9fb7fcfb131988559b7df",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/features.tsv.gz",
+      "sha256": "1a2803a18984567f716f8809fece47006342087da78572227daf6e21e4cd865f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/barcodes.tsv.gz",
+      "sha256": "ef12e950e1ea70b4dc1a6a6e2e7cea6ac02f8a418f861eec92596fde6b210862",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/tissue_positions.csv",
+      "sha256": "38b4596a5d1961d820223279d15c76194b90c08a407213c1bb88c2a5a6f2f63c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/tissue_positions_list.csv",
+      "sha256": "76ef61a50d0dc12138a0c4a077ca2b4cc990f3262b37eb9c1e0e9465a058c31a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/spot_qc_and_coordinates.csv.gz",
+      "sha256": "99ab47e346932a3b190fd2cb815dd9d49fd755090e168289b9091707aa97bb24",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226200/spatial_display_values.csv.gz",
+      "sha256": "c4b318a429c59205d112ab8fbcd00659e5d6772ac48f8366e6b9af3b71802924",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "15"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/matrix.mtx.gz",
+      "sha256": "964ef8b32407df57275998c970646a548704b1bff4a2f3449c0ece41c04187df",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/features.tsv.gz",
+      "sha256": "64d9ade6fa6a888fcfccbd88e36d31aa82688017c66f3afc283ed2fd7c56fe27",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/barcodes.tsv.gz",
+      "sha256": "d9d50abdae62abc9be0b62a41ddccd52e6e502601fdc787376535250bc04b96f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/tissue_positions.csv",
+      "sha256": "c94238674ed427cbc09417dbb2ab2187730aa4962cd55e1f8b9558ebd4add514",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/tissue_positions_list.csv",
+      "sha256": "e75d9685d9a4513c51ad42b4478e3a853179773141806dba26667979214c4a36",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/spot_qc_and_coordinates.csv.gz",
+      "sha256": "9371e18ec88ecea8aff61448fc379d307246ac5478059da86e5356ea40a27ddd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226201/spatial_display_values.csv.gz",
+      "sha256": "245277bb0a4c690e48b8e222a56d9b533ac394fd5c3278c84322c869f59502b7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/matrix.mtx.gz",
+      "sha256": "0c8187610eb8d6f13d9234afacdc362b54b79c70aa197e1bc8e32ffc12d35bbf",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/features.tsv.gz",
+      "sha256": "0bcfbafbe8f3495f762e366b37f70ca6d780a1b62240458872844e8b2fc247ad",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/barcodes.tsv.gz",
+      "sha256": "ab753f97b554de2e18a6098bc65d561af451731dc5bfaadc36d3d6c8493a4b24",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/tissue_positions.csv",
+      "sha256": "e3c0648a2b11029a15b7f466df4868e2df2e2eb56f635a780f08ab83d1b7f853",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/tissue_positions_list.csv",
+      "sha256": "bd3794ced10709be621620334099112728144f7d6f6ad238decfc2d6b7f306fd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/spot_qc_and_coordinates.csv.gz",
+      "sha256": "2563cf6e3a4b8815d2d502f5f90f06b7f416513e4563a111b21a8d67f98d645f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226202/spatial_display_values.csv.gz",
+      "sha256": "3c6acc0d042993c99953c03ab01e6b272eae5c9ff0ee0346f1bbdb29c838a4b7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "16"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/matrix.mtx.gz",
+      "sha256": "d8033d5d0a8d62cee519355a198e5037836f4b15a6ba8dad11fdcdb2893686a5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/features.tsv.gz",
+      "sha256": "74ceac37fea192f132a2afd5558557581b3c6bd66d25e56d6ef2cc1337be1553",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/barcodes.tsv.gz",
+      "sha256": "7850f7f0c61b911e8a19a1e8b703ce47a69c8662a504aa46f300c965de9b8545",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/tissue_positions.csv",
+      "sha256": "12d8c9743de15a63d041ca6bc01cf495c6fe5ff8bcc265957a2ec474d9ebd997",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/tissue_positions_list.csv",
+      "sha256": "fd68eab2c5cefae77730b13df80bbf63944666c7ddd00b1d6f0040da0d2adc65",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/spot_qc_and_coordinates.csv.gz",
+      "sha256": "9cfe1b3f500653821b3039292cabc2af5553c1bbe2f6896cbd106ade6aea4679",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226203/spatial_display_values.csv.gz",
+      "sha256": "415eb44527c3213152d79bf93a93b1c5dee57c31a3fe17efc2611a6e19dc4f24",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/matrix.mtx.gz",
+      "sha256": "976045985e1d1f0be9723d8bcb485aefe0cf87eac39ef3d5187ec974d498dc36",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/features.tsv.gz",
+      "sha256": "bd196be6675936e3988357417511854e4539f126bbd18dea0f0a49597025a2ba",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/barcodes.tsv.gz",
+      "sha256": "7fe9b245cc630993d5cecd200452d49b84fab0d5c49594a966b591c59aefe322",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/tissue_positions.csv",
+      "sha256": "f8987ee27ab255e6b7723e03549ed2b6604446ec2c5a6ae6fa3c44e8a21ba884",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/tissue_positions_list.csv",
+      "sha256": "5ade90a4b3b4efeceb74c9096b33fa8967673e382faa85e1c44040ed7fc29939",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/spot_qc_and_coordinates.csv.gz",
+      "sha256": "a83cdeb75faed1c881b44b6f38f095b4c8a4886f0aca5c6c224a739a9d9dd143",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226204/spatial_display_values.csv.gz",
+      "sha256": "ecb2b1fac39758aa2c151df28d949049a0e6d6b731ec71f60725c82d1829d51a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "17"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/matrix.mtx.gz",
+      "sha256": "cd97c9ecb6cd3a3e69d392702a15f8a8e6b17e4992a212685aba82d6921f5318",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/features.tsv.gz",
+      "sha256": "875ed60d7ded0799041091ed6e960c23d8d83909a2eb6d11851cbcc4b856d092",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/barcodes.tsv.gz",
+      "sha256": "272dde05cad64141cd921d85cdde42a806f170d1a22232775bd56db0652497ab",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/tissue_positions.csv",
+      "sha256": "5802a77a8b5da90e413dc27de524984a5c63d17028b2d65733ac12eed02b8c14",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/tissue_positions_list.csv",
+      "sha256": "1935c62339f12d1e5aa181dc7897b2535dc137d41aac7b48d99a68c952d0402a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/spot_qc_and_coordinates.csv.gz",
+      "sha256": "0ffce65ceb68b497dc958102fa79b4cf1a33bc8ce30f15d2bc9ea549d68abdbd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226205/spatial_display_values.csv.gz",
+      "sha256": "042c0591ca2ba324b70877a06870ef2e11346951efbe835e223d02b168ed8d09",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/matrix.mtx.gz",
+      "sha256": "461b52f659be8144fe64dcd82aae9bae48bd989031a0020b727b1e70f2355c74",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/features.tsv.gz",
+      "sha256": "1351ee09166d2a2f37bd271d70ad52ef47b887b737a19cdf143ff117717f7ee9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/barcodes.tsv.gz",
+      "sha256": "bb3656ba67df803891a13212ebe6f405a6d5086bd88716f4189fd89fdf671c41",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/tissue_positions.csv",
+      "sha256": "1d2b5b20427de0f36bd92c7cb7a3727855203e6c5951afb1e1d232d1e1ba2184",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/tissue_positions_list.csv",
+      "sha256": "73e2300de925ca563ec45f4c427a561958533c90eca13e4b88213ea2d224c9dd",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/spot_qc_and_coordinates.csv.gz",
+      "sha256": "7b7895514c8013df7b1ab6af04c9c4bb9e0e0635157facbbfc50666c29ebb1d7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226206/spatial_display_values.csv.gz",
+      "sha256": "a91832c2bfb2dcf51d60257f5f768669d4ef2046cb9d19c5e007d633c104458b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "18"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/matrix.mtx.gz",
+      "sha256": "0390694cdff0281133b34980c8186b00726faa3103d5b0eacf2233f69910038d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/features.tsv.gz",
+      "sha256": "8bdc5cdb32fddd3d7dde5db803b985bbbb67f9d3690a948b14593f1f05774fa5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/barcodes.tsv.gz",
+      "sha256": "8d23765deb3dcc33d3ce17d66397fabaa9000e4696ed5a4f65190662c0b8084b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/tissue_positions.csv",
+      "sha256": "942e0c382db22057c62484c6b52d488ccf8e47eae1f97b5bb96293d65410e5a9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/tissue_positions_list.csv",
+      "sha256": "3a9b0679889d7975b37fd84f30fb7f9e0bcbf145c3c1a65507e0d9b4cee9c079",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/spot_qc_and_coordinates.csv.gz",
+      "sha256": "5d8b77addda9a73b648a7756bd4927aca045b766f3ddae48628c2965b9b60491",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226207/spatial_display_values.csv.gz",
+      "sha256": "44c3bfdc7148cc602d04704c1cdb01014d064f712c714d1f217c2cdc58663865",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/matrix.mtx.gz",
+      "sha256": "29d416dc015a3dea4508ca1166f29ccbc699b41e2ab7c9a6e4f4489821e89e66",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/features.tsv.gz",
+      "sha256": "138c3eaf447eb12cdc4e3c4ae7f35f0426b8a64f09fa71aebc3e2301ed6fa204",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/barcodes.tsv.gz",
+      "sha256": "6e4a30fdb0db5469242beb3a4bf6e84f8b463637ad7fb283a8ccc2a1a16baeea",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/tissue_positions.csv",
+      "sha256": "47bfe63738e4278a932bb04804f6a340ac3768dae8cdcb3eae72ece6fcd8fdea",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/tissue_positions_list.csv",
+      "sha256": "4011a422f7e3d45aa74e99205b32c20e830ee0a4ea9101f6cf49901bf32c4aa4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/spot_qc_and_coordinates.csv.gz",
+      "sha256": "64e8f4ddb0a195be00e5c056d0ff238175c2c70b7bbe921ea703c6f4577ae0da",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226208/spatial_display_values.csv.gz",
+      "sha256": "11cd600fed32441a3eb4b88aecd3286ba263579481e7fd7218e0274f344fd656",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "19"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/matrix.mtx.gz",
+      "sha256": "21f904b70aa5c792b6c0dba3293d797ea478d0c510f7e590b8bbb15cf275becc",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/features.tsv.gz",
+      "sha256": "842d70ad05658efae31379acb56b1974355f787fc1b870b6da780addd599f1b9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/barcodes.tsv.gz",
+      "sha256": "6b13d6994f4646e7d51c96933c516a9a57e4210198d1e9b011371b6c74fc7058",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/tissue_positions.csv",
+      "sha256": "85b84775624e176a2c45e83aeae3f8c0ca00b991571576a6fc5724628eb7bd8d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/tissue_positions_list.csv",
+      "sha256": "f8a4dd92ac29b08d347af3efe3bb33b027575f3222a0ca9aa7104928cc0bc894",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/spot_qc_and_coordinates.csv.gz",
+      "sha256": "cf716ec54382432fd4f05ae45959429e7e42c96bc84ca0dfca4e0513be6da101",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226209/spatial_display_values.csv.gz",
+      "sha256": "a50222c6f64c2b62da38f26b900a8893d95cb8f98e1bba3a9f76f4b4e4df146a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/matrix.mtx.gz",
+      "sha256": "00f1094ae738d0ef0591f983788af2d8c9617a1abae1b9b8d057f8ed71495128",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/features.tsv.gz",
+      "sha256": "83255aec76131e5a99167227fa8588c460929eba3d2a4f9b32bd64de6295dc76",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/barcodes.tsv.gz",
+      "sha256": "f9c7291f333c659b80cc955195ad6fa34723cf557243e33b4045bb09acfed9b5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/tissue_positions.csv",
+      "sha256": "1839bff3c3b814a4815f747446cea121b9573c51bb105b3732e9290a4b196a51",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/tissue_positions_list.csv",
+      "sha256": "18c85a42510c9c74471770e9649cce931f0f12bb1f685ceac52f602eb8c9cdf1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/spot_qc_and_coordinates.csv.gz",
+      "sha256": "04debb09dc7c0da7265b51b9f244c27b01a14c416c87ebd8d4e19a423d05392c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226210/spatial_display_values.csv.gz",
+      "sha256": "2c49dd135456243c9eb125ce8eeb9af6fad50e2f887f217d9395ed8e8cd6b026",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "20"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/matrix.mtx.gz",
+      "sha256": "d3987ea62f51e7df0f2aeb507133949a2ad464634c85ae23a3e1956a70384b08",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/features.tsv.gz",
+      "sha256": "ff196d3db86043cba4309fe1df8df78afe7551b60797ea6b521688067ea256f9",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/barcodes.tsv.gz",
+      "sha256": "70151a8e5e68e74f73e1fda28818b65d08e4728882aefbe5a7e4e40df55eb6c1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/tissue_positions.csv",
+      "sha256": "50ddae2ccdbc8d2e9760a3e71d2659e482ae5f9402679e627ad8247a8e1a12c8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/tissue_positions_list.csv",
+      "sha256": "def9c72ef73b56b674ea5bf9248e056d647fde5562ca8ba21c97e74d7b327fd5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/spot_qc_and_coordinates.csv.gz",
+      "sha256": "3ca0f6db99ad6d3f0e9cba9ff8edfe214aca2474a0854ad1cd584dcc82338e16",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226211/spatial_display_values.csv.gz",
+      "sha256": "4814e7c51fdd8d5c3ab974e27f5bc6da3c7f5045059b096561d3f1a05798ca03",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/matrix.mtx.gz",
+      "sha256": "9fa558ba6218880f8499dd251494b50420087410e4309b9d51f3f8cacb2d1928",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/features.tsv.gz",
+      "sha256": "b04d3d623c76697cfea540a93f2956c75ad311edf796b16de7d9d640cefa2376",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/barcodes.tsv.gz",
+      "sha256": "d155e4dbf96f2053e181d5b89b576bd691b0e85da9433ab9dbb676e1936081e0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/tissue_positions.csv",
+      "sha256": "69ebeb8664b94d64655fbb498d194c252525c8adde4ea246c8d8ac6c5f21a7f4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/tissue_positions_list.csv",
+      "sha256": "276118051422b8dbd50e18d21734bf8687c62972e702de56f62f0a877afa713c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/spot_qc_and_coordinates.csv.gz",
+      "sha256": "b38885a9d021a038fe024072b6331dca03a24f3b2e8488ee1e0f412eb22f53cf",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226212/spatial_display_values.csv.gz",
+      "sha256": "2364ad6eaaa838a7cedee75d41bb391421223816f9805acae297a216db0ac6dc",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/matrix.mtx.gz",
+      "sha256": "d936ea8e1dceee888293e2097742b6a66f24fa8721ea1257f7522581877bfbba",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/features.tsv.gz",
+      "sha256": "3a8014a13644f5704492b55fc163aa2b61b1ac417ad507931b0678d89d5a4450",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/barcodes.tsv.gz",
+      "sha256": "54391993456c4fdb5682676c6357a8ea9d2156e969fd9bcf858b7f11a95becd6",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/tissue_positions.csv",
+      "sha256": "688af447e8cc0d791d29d31ff3ae5ec1eb0e0d25e409fd8d7a9c4714ea65ab96",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/tissue_positions_list.csv",
+      "sha256": "ee14a9805ca679601c52d3790a53a42a653fc25ff8e23ecff1d6cbf64b98c294",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/spot_qc_and_coordinates.csv.gz",
+      "sha256": "354f0c5a1a92a36859bbc59a12de2e516f7022338e933ced6f93006fa5add228",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226213/spatial_display_values.csv.gz",
+      "sha256": "94bc6d9e2989a9adf3b5a6a479847c12b45032166f27742821ea84f97c658126",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "21"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/matrix.mtx.gz",
+      "sha256": "2bfa9714cc20e00fa45a30f884e449f60c43302116e88772d68ade80c9a81cae",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/features.tsv.gz",
+      "sha256": "d3614916e70aceb894414fdb3712a581515e38372937b18abf086602d2624290",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/barcodes.tsv.gz",
+      "sha256": "7852a434fdf5651fa823999d58cb4e1890b3287cb8ab28fa4b2e770d7f4e21a8",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/tissue_positions.csv",
+      "sha256": "d65f27c39bee1cce01fe480f83436f4f3c4f7fb740e5d1da260ec8cf6d3d331e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/tissue_positions_list.csv",
+      "sha256": "b3005138b58588b1f7bf557212710fc2dc45689ed4b6fc06c5024053650eb121",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/spot_qc_and_coordinates.csv.gz",
+      "sha256": "75e7341be1feca6a42cc326161583a0795632fcb8ab4494a6b46be6ea055bbf4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226214/spatial_display_values.csv.gz",
+      "sha256": "969e9d79522cd52d9acf2716e7b16fc9d2d5cd6025e247e9f0da04a7f5c7d71f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/matrix.mtx.gz",
+      "sha256": "f854c3f2076c508256145d25a35144bfef9fb8e651b9473d9e90532c71a04fbe",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/features.tsv.gz",
+      "sha256": "f5220a5f3dc1003bb62a360e81322edf48d2ac74f7b5fcfae9925a7ce98d1659",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/barcodes.tsv.gz",
+      "sha256": "86e77ecd13f906f5af027616761596e93d9da86293c1342a92d76a3601c5b50b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/tissue_positions.csv",
+      "sha256": "be64d8beb7d41c0e2235df19cedce69ba54b3880e5ef4c2e6cedffcc8cfd0804",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/tissue_positions_list.csv",
+      "sha256": "2fa1a7cb2b9588f8e061bbb407d8dca4b44f54ba5c8c81508020618327133eb1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/spot_qc_and_coordinates.csv.gz",
+      "sha256": "ef3a6378723b42845b96d58b37f924233545492091fb697320de9df43c8083f4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226215/spatial_display_values.csv.gz",
+      "sha256": "d02f120b0e69ccaa9ba75aa033cbad0d8dd963dc5bbbdb07ae1f53aa2161d3a2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/matrix.mtx.gz",
+      "sha256": "bb0c05b308bae3ebf02300e6c1548d7695bef82c354f9ff0e089cee7120eca0f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/features.tsv.gz",
+      "sha256": "dca233c72f8d8740a4095df0fa8718fa93d02a13790d8b68f886b058e99a0d23",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/barcodes.tsv.gz",
+      "sha256": "a47b62836e18a13b52fe98873f8e304ad8e43f45d46fdac5a323478f130d7cda",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/tissue_positions.csv",
+      "sha256": "c32fd22134eaf4635895911eb042d9a24d3fc520913250ccd6ced00f110a6b1c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/tissue_positions_list.csv",
+      "sha256": "c06dd1ebafd1423db4591ae1f43d7cd3d2a54a6c50050d0cebe0740f796b5cc4",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/spot_qc_and_coordinates.csv.gz",
+      "sha256": "0f287ee72252e75285200f7f4d684440d2ccaa48cbdd7a43e51c0b697d401e79",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226216/spatial_display_values.csv.gz",
+      "sha256": "9593e833be92f6386c49f799d14b3d569b9b9ff51dbdeb7857c251b30c202653",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "22"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/matrix.mtx.gz",
+      "sha256": "2f4e600461b9fad9cdbe71a5d082f2c2850ccb057e66f8395da9f33aa62d4973",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/features.tsv.gz",
+      "sha256": "58ee61670fcd11f2f31240ebb594181e29ba2603c6df90886802994dfa430c65",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/barcodes.tsv.gz",
+      "sha256": "aafb161cdefeef0dafeb4fbb54123d83dd7f050a6425a9b583aade1c62c1f8df",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/tissue_positions.csv",
+      "sha256": "37d1da8c51a5b92efea28668bdcd4cd708df2530a50811946991b6fd75355893",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/tissue_positions_list.csv",
+      "sha256": "3cefed79eddf7ed3f42d5399e61c5d10358fc9b9d4336e811b2c12109019602b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/spot_qc_and_coordinates.csv.gz",
+      "sha256": "857fa9a7ee43cdd8524051a1082cb83b3df6c04d3c75ab576bf129f5da29fb88",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226217/spatial_display_values.csv.gz",
+      "sha256": "1f8497caca60c763b10b3dabb7e96a9b8e2fc0713caacf7c67e974a91b4b21a5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/matrix.mtx.gz",
+      "sha256": "825b126c81792dac4c7352416363b0f6dfd6078820603ec67cdda01d76ad6ca7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/features.tsv.gz",
+      "sha256": "6e1479e19be1fdb70adb78c60a8e8989e6b5d3bf242158697e3e5dbaeeaefa9d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/barcodes.tsv.gz",
+      "sha256": "701281ff437c96f0e537d3e2499338a4a5ef3a46126f8a9b84724f7b2f721d59",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/tissue_positions.csv",
+      "sha256": "5cd0486b14ef076416fc8c90b27a5b338dc7501c88f3458d4b9ef83d90fbcd66",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/tissue_positions_list.csv",
+      "sha256": "25dbbd77cc342f0ba775f32d37f7211927f080fe5170e75e5df12a2020c28022",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/spot_qc_and_coordinates.csv.gz",
+      "sha256": "186c62fdcadc434653df68667c0cdc0a2d3161a26ca2a0bacc688c66fb10d20c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226218/spatial_display_values.csv.gz",
+      "sha256": "92e6739904bae6a3488529b5b595e3899a2798b24a29817f8b9cf7869f158e8e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/matrix.mtx.gz",
+      "sha256": "5cf5406604d57ce7e2d1698f20b2b4a3f0cbfbe097d80516e51777e5cde8cc4c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/features.tsv.gz",
+      "sha256": "5eabca86c32c0abe41cf7aaa2562410c667962e0f101f343f6babaa63cefea5d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/barcodes.tsv.gz",
+      "sha256": "8dd423c70b8b3f997255e27429cdb957d05bf97fded5eb99b99dc4167b465c4d",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/tissue_positions.csv",
+      "sha256": "ff71fafe490bebcb9ae7e89a26e58d7bb6a89b1a7a9e0ea58cc9113453b7d945",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/tissue_positions_list.csv",
+      "sha256": "b9d385c6fb57b9d073a9f5b960cad58353c0863c4613eef915f938b16db9d123",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/spot_qc_and_coordinates.csv.gz",
+      "sha256": "6985cce0402b1e4fcdfd892eebf31d5b858d4a784ba3bc83378f9a4f8eecfe1f",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226219/spatial_display_values.csv.gz",
+      "sha256": "68d9894493ab42e9d40b82496db2775b1e6cf4bf98b4a8e2de52e7dc801e99b0",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "23"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/matrix.mtx.gz",
+      "sha256": "82da4f41fc5ce5d1d2a17eb0bbe45536368571c1464ddc34d7b38af5ad950ec7",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/features.tsv.gz",
+      "sha256": "16af1bfaa902693c47cf4c358d6ff03d19591e689017b84a908b538d2c5aec64",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/barcodes.tsv.gz",
+      "sha256": "ccee26736950d41fe347979446767d9d1e823bbc71803ec83dc44d7c2e3e1c83",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/tissue_positions.csv",
+      "sha256": "047633a66901e585edf33722a5408ebae38273190150e51198f8fe07546b9507",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/tissue_positions_list.csv",
+      "sha256": "627acf233723626c84460dbcd7cdbc4da2072b30f24fa8d87b4b7ecd4a6b36f5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/spot_qc_and_coordinates.csv.gz",
+      "sha256": "53d9642f2ee59a2d42516385d0dec75e9acf5d7a5b54c6b2f5ac22562403fa45",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226220/spatial_display_values.csv.gz",
+      "sha256": "29cf8816da244ba8563c8f3d214fc642b0cbaa921a62744b0caca2a2a2e35119",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/matrix.mtx.gz",
+      "sha256": "167ab3af5f13c70f156c8a398f6d09d9b3a12ddffe216cfe30317bd6780bd90c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/features.tsv.gz",
+      "sha256": "51c0d061ed40b14cab08d83894cd2ddc6a817705a085973819279e8e3318854e",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/barcodes.tsv.gz",
+      "sha256": "a50c02ff70aeed4bdb5de521cb7f3c2c8fd42563da5efc50f9a4f9714d866c6c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/tissue_positions.csv",
+      "sha256": "119a8aeb7938b7c816f0663286bb9f31f0cd78fc50b6898ca3ace854e69810ed",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/tissue_positions_list.csv",
+      "sha256": "55ac9ec44863ebc41d65867f183995acf69814631b70a15fb37b82e84b7ef900",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/spot_qc_and_coordinates.csv.gz",
+      "sha256": "654e1b1bf2277385d6b71135687b5fffd02dfff979b906770531972a10499ab1",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226221/spatial_display_values.csv.gz",
+      "sha256": "ece9ccbfd7996166e61fa1ae59454510cfcc7f15fa74e1be9610f8db62d7ab80",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "24"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/matrix.mtx.gz",
+      "sha256": "8481739412a27a594a87c02d0d1cc4b5152864a44f38b96ae97a3b60fabd95e3",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/features.tsv.gz",
+      "sha256": "2c6c7ddde4259f3fa3b77cfec8183fbf35e80245d43cd1f7e3b3606381c3d591",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/barcodes.tsv.gz",
+      "sha256": "1cc5adcfe1b533233ceaf0de51f2a2be41668b6be67b97d00c3e6679c6a93e0b",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/tissue_positions.csv",
+      "sha256": "9b5eb80a4087213805c1f7bcaa1adf9425a93fcae0b3e9d81c2bb8e8571d95ee",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/tissue_positions_list.csv",
+      "sha256": "29a9525bfc49e22aec08f4b683e3c10b334091853a8b1e0bcad04dab79c5c067",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/spot_qc_and_coordinates.csv.gz",
+      "sha256": "f70807914cf58d0fd19eb2ef64ed9daa5be5a13f7ab325d6d32c5d3f6a53d277",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226222/spatial_display_values.csv.gz",
+      "sha256": "656d369715d2a1590bce5a4ce55f5f1cc3058c99725c36e5ccf6c09bd3a39402",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/matrix.mtx.gz",
+      "sha256": "ad77f5c1e89be933e6f432381b0c525fde3d40372f93f41dc6bff453e3e95317",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/features.tsv.gz",
+      "sha256": "7d6568ac3b332574dff6b2e4057dde8c91f559fcdf12006897a4021ce72f39b5",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/barcodes.tsv.gz",
+      "sha256": "a7a4f67561a448370cc839f0095dd761404075eaaba338f9e93d2abd93bdd92c",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/tissue_positions.csv",
+      "sha256": "19e518f769874d6b28dfd84c99ff0fac97aa9d5110e4a54d777445f0ad0ae9e2",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/tissue_positions_list.csv",
+      "sha256": "73b02d99314abd680ebb74b6b78ddd5e81cb118c3b28de1be061b2527a45808a",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/spot_qc_and_coordinates.csv.gz",
+      "sha256": "a4a55d13ab53275ebb75a5d85f3b6f2c7c327bf2be51a527548d739dae38c2db",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_public_20261108/spatial/GSM9226223/spatial_display_values.csv.gz",
+      "sha256": "b0a49ff8d07568593cc32b8899db85b914d9677197443b582a374aea86571780",
+      "study_id": "GSE307534",
+      "unit_ids": [
+        "25"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/sources/public_spatial_manifest_v1.json",
+      "sha256": "36d2ee91d4bc2b8d12723206b0a2710cdfc586763fb9da32bd5916f5fce5c02b",
+      "study_id": "GSE307534_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_SPATIAL_SPEC_V2.md",
+      "sha256": "cd61544fd024fffcb6e291172643fb3930f2e84d5bef906387a4bdbe2e276d2a",
+      "study_id": "GSE307534_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md",
+      "sha256": "74c5858a77a8a5883fcf26d4327a25041f7540b4d21bafe99953e1dd0abacba9",
+      "study_id": "GSE307534_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/section_qc.csv",
+      "sha256": "deef0bbe8b4a3ee2686b23d85f3226364c04be9a2af0276530df83ffa093471c",
+      "study_id": "GSE307534_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_measurements.py",
+      "sha256": "38975f5cc00fbbc866ba0461d4983001731ed8c20e1c2effc24592bcd8d4ad8d",
+      "study_id": "GSE307534_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v1_20261108/receipt.json",
+      "sha256": "dc862f5e3d355f2055eb5ac6f18196f43301a2e20c98ebf4d1fedbd15139e4cc",
+      "study_id": "failed_Pg1_spatial_v1_preservation",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v1_20261108/stderr.log",
+      "sha256": "104e94651c9d94c527281903be51f184c04a89322c7d962866481cba8a259f50",
+      "study_id": "failed_Pg1_spatial_v1_preservation",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_public_spatial_v1_20261108/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "failed_Pg1_spatial_v1_preservation",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_spatial_v2.py",
+      "sha256": "d8990436e5796f87234203a68d33fa1df625214317ffd2f002f0532f37d816b9"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_public_spatial_v2.py",
+      "sha256": "b44578abf14cb85e996eba4a22f7ccf241704da49ecbab3c29eb99d40ceb98ef"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_public_spatial_v2.py",
+      "sha256": "4626c03ca03b4af34b44c5e7ba67176143482ae2cfeb45748c54f3bbef561f15"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/public_spatial_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_qualification.csv",
+    "graph_components.csv",
+    "section_statistics.csv",
+    "patient_statistics.csv",
+    "paired_deltas.csv",
+    "paired_summary.csv",
+    "verification.json",
+    "summary.json",
+    "spatial_paired.png",
+    "spatial_paired.pdf",
+    "spatial_all_patients.pdf",
+    "spatial_example_P1.png",
+    "spatial_example_P2.png",
+    "public_data_rationale.png",
+    "public_data_rationale.pdf",
+    "spots/GSM9226168.csv.gz",
+    "spots/GSM9226169.csv.gz",
+    "spots/GSM9226170.csv.gz",
+    "spots/GSM9226171.csv.gz",
+    "spots/GSM9226172.csv.gz",
+    "spots/GSM9226173.csv.gz",
+    "spots/GSM9226174.csv.gz",
+    "spots/GSM9226175.csv.gz",
+    "spots/GSM9226176.csv.gz",
+    "spots/GSM9226177.csv.gz",
+    "spots/GSM9226178.csv.gz",
+    "spots/GSM9226179.csv.gz",
+    "spots/GSM9226180.csv.gz",
+    "spots/GSM9226181.csv.gz",
+    "spots/GSM9226182.csv.gz",
+    "spots/GSM9226183.csv.gz",
+    "spots/GSM9226184.csv.gz",
+    "spots/GSM9226185.csv.gz",
+    "spots/GSM9226186.csv.gz",
+    "spots/GSM9226187.csv.gz",
+    "spots/GSM9226188.csv.gz",
+    "spots/GSM9226189.csv.gz",
+    "spots/GSM9226190.csv.gz",
+    "spots/GSM9226191.csv.gz",
+    "spots/GSM9226192.csv.gz",
+    "spots/GSM9226193.csv.gz",
+    "spots/GSM9226194.csv.gz",
+    "spots/GSM9226195.csv.gz",
+    "spots/GSM9226196.csv.gz",
+    "spots/GSM9226197.csv.gz",
+    "spots/GSM9226198.csv.gz",
+    "spots/GSM9226199.csv.gz",
+    "spots/GSM9226200.csv.gz",
+    "spots/GSM9226201.csv.gz",
+    "spots/GSM9226202.csv.gz",
+    "spots/GSM9226203.csv.gz",
+    "spots/GSM9226204.csv.gz",
+    "spots/GSM9226205.csv.gz",
+    "spots/GSM9226206.csv.gz",
+    "spots/GSM9226207.csv.gz",
+    "spots/GSM9226208.csv.gz",
+    "spots/GSM9226209.csv.gz",
+    "spots/GSM9226210.csv.gz",
+    "spots/GSM9226211.csv.gz",
+    "spots/GSM9226212.csv.gz",
+    "spots/GSM9226213.csv.gz",
+    "spots/GSM9226214.csv.gz",
+    "spots/GSM9226215.csv.gz",
+    "spots/GSM9226216.csv.gz",
+    "spots/GSM9226217.csv.gz",
+    "spots/GSM9226218.csv.gz",
+    "spots/GSM9226219.csv.gz",
+    "spots/GSM9226220.csv.gz",
+    "spots/GSM9226221.csv.gz",
+    "spots/GSM9226222.csv.gz",
+    "spots/GSM9226223.csv.gz",
+    "failed_spatial_v1/receipt.json",
+    "failed_spatial_v1/stderr.log",
+    "failed_spatial_v1/stdout.log",
+    "failure_preservation.json"
+  ],
+  "amendment_of": "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v1.json",
+  "amendment_reason": "V1 failed before expression on duplicate non-target gene symbols. V2 qualifies unique Ensembl IDs and reproduces original C3 symbol collapse for detected-gene QC, preserving totals and unique target identities; no endpoint or threshold changes."
+}
