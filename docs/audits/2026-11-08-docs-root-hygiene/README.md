@@ -53,7 +53,9 @@ only C7's two artifact-path fields and the updated source-document checksum.
 Existing CRLF serialization in the generated manifest is retained.
 
 No scientific script, validator or numeric output changed, so prior scientific
-archive checks remain valid. [Focused result](validation.json). The branch is
-ready for publication and owner review; no merge was performed.
+archive checks remain valid. [Focused result](validation.json).
+[PR #172](https://github.com/xorca0711/ravel/pull/172) is open for owner review;
+its [checks page](https://github.com/xorca0711/ravel/pull/172/checks) records remote
+validation. No merge was performed.
 
 [Current documentation](../../README.md).

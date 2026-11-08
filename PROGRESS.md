@@ -21,7 +21,10 @@ No biological analysis, raw-cache change or evidence deletion. Validation passed
 167 tests (two skips), 18 claim numeric bindings and the unchanged provenance
 gate against refreshed main `60537cd`. The manifest changes only C7's two path
 fields and the source checksum; scientific scripts and outputs remain unchanged.
-Next: publish for owner review. No external setting or main merge changed.
+[PR #172](https://github.com/xorca0711/ravel/pull/172) is open for owner review;
+[remote checks](https://github.com/xorca0711/ravel/pull/172/checks) record validation
+on the published head. Next: review the path-only changes; merge remains an
+owner decision. No external setting or main merge changed.
 
 ## PR 171 reconciliation after PR 170 merged - 8 November 2026
 
