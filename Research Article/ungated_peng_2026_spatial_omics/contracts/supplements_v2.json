@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.supplements_v2",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which source and assay-definition holds can the owner-supplied Tables S1-S6 resolve or narrow, while preserving exact author cells, namespace distinctions and unresolved spatial identities?",
+  "decision": "Qualify source participation, clinical fields, aggregate TMA nesting and published gene/assay definitions; identify precise remaining inputs for stages 3-6 without fitting expression or spatial models.",
+  "strongest_rival": "Merged-cell or checkmark parsing could invent sample independence, block/core identifiers or wrong clinical joins; MP/species/panel conflation could falsely imply endpoint availability or independent state definitions.",
+  "discriminator": "Cell-linked extraction with bounded merged-range expansion, explicit two-block footnote, separate cohort/program/species/add-on namespaces, aggregate comparison with frozen GEO metadata and a separate openpyxl verifier. Unknown individual core/section/ROI mapping remains unknown.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/RESULTS.md",
+    "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+    "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
+    "Research Article/ungated_peng_2026_spatial_omics/AMENDMENT_V3.md",
+    "RQ_Specified/A12_recipient_context/reports/IL1_COMPONENTS_V1_RESULTS.md",
+    "Research Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner and parent chat supplied and inspected Tables S1-S6 before this freeze. Table schemas, counts, WES 79=Normal24+AAH11+AIS14+MIA4+LUAD26, Xenium participation, TMA totals, list namespaces, two custom add-ons and assay roles were exposed. This execution inspected workbook cells/layouts and prior v3 outcomes; no later freeze erases exposure. Failed v1 exposed all metadata outputs, including A12 list membership, P24/P25 ethnicity wording differences and S5 A333 numeric serial/date conversion. These are retained as exposure, not new confirmation.",
+  "biological_unit": "Patients are biological units; immediate audited units are workbook cells, reported patient/histology groups, aggregate TMA groups and published gene-list entries.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Discovery tables and prior GEO outputs reuse the Peng cohort. Asterisks indicate two samples/tissue blocks, never two independent patients. TMA uses separately reported TMA P# labels; individual core/barcode identity and independence beyond reported cohort provenance are not verified.",
+  "population_and_selection": "Exactly six user-supplied NIHMS2118436 supplementary workbooks S1-S6, hash-matched local ignored copies, prior verified metadata_v3 outputs and frozen A12 feature/response definitions. No new raw assay/library search.",
+  "contrast": "Published platform participation and clinical metadata versus existing GEO record counts/fields; published gene lists and custom add-ons versus fixed A12 component and response membership; source requirements before versus after supplied tables.",
+  "endpoint": "Auditable source-cell ledger, clinical comparisons, participation/count reconciliation, unresolved Xenium block candidates, merge-qualified TMA groups, namespaced gene inventories, published DEG and seqIF metadata, exact A12 list overlap and hold reassessment. Number-format provenance, unresolved non-text gene identity, and byte-identical failed v1 archive.",
+  "methods": "Read OOXML cells, strings, merges and saved formula caches with Python standard library; execute no formulas or author code. Derive checkmark counts using A31 footnote and compare reported totals and prior GEO groups. Expand actual merges only. Preserve leading-zero slide IDs and raw lesion text without parsing parentheses. Exact symbol membership after trimming whitespace only; no ortholog/synonym mapping. Independent bundled openpyxl read checks source cells, merges, joins and arithmetic; no production parser import. Preserve OOXML number-format IDs/codes and workbook date system. Non-text published DEG gene cells receive an unresolved identity flag and blank gene symbol while raw values remain. Independent openpyxl date values are checked against raw serials under the verified Windows epoch; no reverse inference of gene names from dates. Exact copy/hash verification preserves all failed v1 files.",
+  "missingness_and_exclusions": "Blank cells retain blank provenance; a blank participation cell is not marked, not proof of absent tissue. Original/reviewed P7 mapping and P6 VCF identity remain assessed separately. Unknown block/section/core IDs stay empty. Absent from custom add-on is distinct from unmeasured in full assay. Human and mouse lists are separate; DEG summaries are not raw outcomes. S5 Sheet1 A333 has no qualified gene symbol; retain its cDC1 label and published numerical summaries with the unresolved identity flag. P24/P25 ethnicity strings are reported rather than harmonized.",
+  "multiplicity": "Metadata enumeration and exact list membership only; no hypothesis tests, differential-expression reanalysis or favorable endpoint selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite source audit; no effect size, power, biological precision or cell-based patient inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "New source access qualifies published definitions and aggregate provenance, not barcode pathology/ROI geometry, full measured panels, causal mechanism, clone/fate, independent validation or scientific acceptance. Existing A11/A12/A13 unfavorable findings remain.",
+  "stop_rule": "Refuse checksum/schema/duplicate-key ambiguity, unsupported participation marks, overlapping merges or verifier disagreement. Record source conflicts rather than harmonize them. Preserve failed run bytes and use a new contract/version if code or design needs correction. No expression-derived labels, imputed panel genes or fabricated core/library IDs. Require the exposed date-formatted cell to retain serial 45903, format d-mmm and blank gene symbol, plus byte-identical failed-run archive. Date/serial equivalence is not acceptance of a gene identifier.",
+  "inputs": [
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-2.xlsx",
+      "sha256": "43e8e406addcda3180bde3d89ea840e8f4491cf1ee3759ba1f04ad4b0e9ad188",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-3.xlsx",
+      "sha256": "d1c2333ab6031b83fe3cafd2a2fd274e802399c0f54cda50cd37f0238b2158b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-4.xlsx",
+      "sha256": "043ff6c684dfabd24945c5dfc08c9bce913707a978d1971fb7fbb851546ea7b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-5.xlsx",
+      "sha256": "e7271db824aa022c449cc7c6fbdb28d21eaf58db38e03c2fa7a62ac5d7730fcc",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-6.xlsx",
+      "sha256": "a899b9fb564243a5c6b7795e2dcc6b8dfd86c0b8eabcf4798fa9a7e1e36fa090",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-7.xlsx",
+      "sha256": "b76414f18ac29e728f84b2ecc295afbf70dcf04061b263ab85d6757aacd0a53c",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/intake_v1.json",
+      "sha256": "80fab90e10fc14139eac1496f92f6fc49fc67bb565122df0b0ea91b54d389995",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/summary.json",
+      "sha256": "1f75fc7037cee3b49d728f96e5b59d08507afb6beafb77d50acc1cc90e123346",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+      "sha256": "b21642b6020d98f891cf8c7e91b0faabb90d70bd812dd3d3229d336d3bb480b8",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/A12_addon_membership.csv",
+      "sha256": "015fe4c8bf0fd5144819803754efe596f84bef3190bd1976dbfdafbb76aa5d32",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/A12_published_list_overlaps.csv",
+      "sha256": "c32318d9444676fc5944adee539b91141af890962af1442fb20106b158a86321",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/clinical_GEO_comparison.csv",
+      "sha256": "90934934074c0a7662457e5e9b25b6ac2c94cc8a4157f6c37a6e44e7ccbcbaef",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/discovery_clinical.csv",
+      "sha256": "60b03043d4e4eace4df93fa2e2a26b80aafeac04b1c06e9e7c504565cf093138",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/gene_list_inventory.csv",
+      "sha256": "20e53404aa11b29552dd0fc759004516b7daff8ccb498e1636969477b3df8026",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/gene_lists.csv",
+      "sha256": "1ce33e50838ab5bcc2264d5dd6097eb99aec025456a99ccf1cec4863958f6336",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/participation_totals.csv",
+      "sha256": "66b9cfde7861d355a83a51c63e783367ebb033711229a4fe784faf3b7459f5a8",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/platform_participation.csv",
+      "sha256": "0d2ffca3bedb7781db97a66a36d46455ab64b15bf65bcb64f5c36d3b90503a0c",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/published_DEG_summaries.csv",
+      "sha256": "a8060ae40cf0d352c5d13561a12a5fc18ef3191913399da3bc37f155ce40d0a6",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/qualification_issues.csv",
+      "sha256": "b9c3426abe34d1064d2206283c0bb2bbab13422b588415e1a309ddab00fab05e",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/receipt.json",
+      "sha256": "dc2381cc5f4f388dd1f2b5cc0bb66e0a9624dd4bf5a3fd789db60321b16f332c",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/seqIF_COMET_metadata.csv",
+      "sha256": "e03ad5175f6afed54fe1a6cdc0422e19fc88fa2c3b1ba158a9311d78d567f82e",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/sheet_manifest.csv",
+      "sha256": "b5d9ec2965c13aa2ee259fd0653fd142751883b3c6abdb94cedad006dbac1dd5",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/source_cells.csv",
+      "sha256": "7cf7acd568bdfc4e8e25ff2c3c4dcc17ebacc8b0f6aefb70adfdc0d38a45fa95",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/source_manifest.json",
+      "sha256": "acef0b20642d3e3391a00f20a95f5afa654ae5063bf7936f631445706ce59c2a",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/stderr.log",
+      "sha256": "7d926cea8f2513997b5bf82243b0e590bb4361bc5b5c4b88df133463c42b3b0b",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/stdout.log",
+      "sha256": "3a70ce34232bb118a4537820edf2d12f9e1c755ed507bae9022d52064325a3dd",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/summary.json",
+      "sha256": "fa4736bdec6b4ca16c6ee4abc27fbc01b63e8d2da72ec6c4635cdbe1a941d0e8",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/TMA_groups.csv",
+      "sha256": "aabaf1ce95a960e9baebcea7bfec01bbf2bc74a854f005cc2da63c64741cab6c",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/TMA_totals.csv",
+      "sha256": "6fbafc9ecb6d8fdbf094752f0a0074dd17d5cee57bab56ca4d9762e8ae2e0a55",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/verification.json",
+      "sha256": "ae8b7a48538184efab3384485ca8fc9a54c78aef6ae30dc854cb44af29b5ecf0",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/xenium_participation.csv",
+      "sha256": "c166c036c055773f5aef23ae4458e8714dd51a4680c2848a59207a90836783f5",
+      "study_id": "Pg1_failed_supplements_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v2.py",
+      "sha256": "f033c67f04237121480a317d5442e1aa2315b7aaa20e768973b988ce0e8c12be"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_supplements_v2.py",
+      "sha256": "4ac530be9551fa375e2dc0a95906eac49f00bd120d954c91d545b9df166a4845"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_supplements_v2.py",
+      "sha256": "babb46d0e066df9b6544d4f2614d0b4417eba42996145f7c0d0ce37591bfe8cf"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_cells.csv",
+    "sheet_manifest.csv",
+    "source_manifest.json",
+    "discovery_clinical.csv",
+    "clinical_GEO_comparison.csv",
+    "platform_participation.csv",
+    "participation_totals.csv",
+    "xenium_participation.csv",
+    "TMA_groups.csv",
+    "TMA_totals.csv",
+    "gene_lists.csv",
+    "gene_list_inventory.csv",
+    "published_DEG_summaries.csv",
+    "seqIF_COMET_metadata.csv",
+    "A12_addon_membership.csv",
+    "A12_published_list_overlaps.csv",
+    "qualification_issues.csv",
+    "summary.json",
+    "verification.json",
+    "failed_supplements_v1/A12_addon_membership.csv",
+    "failed_supplements_v1/A12_published_list_overlaps.csv",
+    "failed_supplements_v1/clinical_GEO_comparison.csv",
+    "failed_supplements_v1/discovery_clinical.csv",
+    "failed_supplements_v1/gene_list_inventory.csv",
+    "failed_supplements_v1/gene_lists.csv",
+    "failed_supplements_v1/participation_totals.csv",
+    "failed_supplements_v1/platform_participation.csv",
+    "failed_supplements_v1/published_DEG_summaries.csv",
+    "failed_supplements_v1/qualification_issues.csv",
+    "failed_supplements_v1/receipt.json",
+    "failed_supplements_v1/seqIF_COMET_metadata.csv",
+    "failed_supplements_v1/sheet_manifest.csv",
+    "failed_supplements_v1/source_cells.csv",
+    "failed_supplements_v1/source_manifest.json",
+    "failed_supplements_v1/stderr.log",
+    "failed_supplements_v1/stdout.log",
+    "failed_supplements_v1/summary.json",
+    "failed_supplements_v1/TMA_groups.csv",
+    "failed_supplements_v1/TMA_totals.csv",
+    "failed_supplements_v1/verification.json",
+    "failed_supplements_v1/xenium_participation.csv",
+    "failure_preservation.json"
+  ],
+  "amendment_of": "Research Article/ungated_peng_2026_spatial_omics/contracts/supplements_v1.json",
+  "amendment_reason": "Independent reader exposed source S5 Gene A333 as date-formatted numeric serial 45903. Preserve raw serial/style/date system; blank inferred gene symbol and flag unresolved; verify date/serial equivalence separately from gene identity. Byte-archive failed v1. See SUPPLEMENTS_AMENDMENT_V2.md."
+}
