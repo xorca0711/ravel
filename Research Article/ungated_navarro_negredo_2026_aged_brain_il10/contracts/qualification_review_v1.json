@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.qualification_review_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do independently checked metadata arithmetic and source/code cross-references justify a bounded, alias-labeled RNA description?",
+  "decision": "Qualify RNA LogNormalize and original broad annotations for two explicit alias pairs; hold extra WT50/Mut50 dose comparisons and exact downstream-plot reproduction.",
+  "strongest_rival": "Alias ordering, six-library metadata versus eight object conditions, and downstream cell exclusions could be mistaken for verified dose/library identities.",
+  "discriminator": "Python reconstructs all sampled normalized values, checks recovery totals and warning effects, extracts exact archived marker vectors and explicitly grades the code/caption alias evidence.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper figures, captions, published markers, source/animal results and author code exposed. The biological RDS has not been deserialized before this first metadata freeze; earlier acquisition used only opaque byte hashes. V1 exposed object class Seurat and peak operational memory only before version serialization failed; no inventory or normalization results were produced. V2 and warning-review outputs are exposed. Eight aliases, no Micro_types and no mouse-assignment fields are known. No marker-expression results have been summarized.",
+  "biological_unit": "One deposited pool/library per condition; cells nested in the observed pool, not independent mice.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "S1 reports one old-control mouse and two pooled mice in the other main libraries, with no multiplexing. Shared controls serve both dose contrasts. Individual donor assignment requires separate provenance.",
+  "population_and_selection": "All retained cells in the authorized main IL10_svz_seurat.rds and original broad Celltype annotations. No fresh clustering, integration, downsampling or marker-based exclusion.",
+  "contrast": "Verification of stored arithmetic and condition eligibility; no treatment-expression contrasts.",
+  "endpoint": "Independent normalization/recovery checks, warning diagnosis, marker provenance and alias-specific eligibility.",
+  "methods": "Standard-library Python arithmetic independent of R; exact v2/review byte comparison; archived code regex extraction for 28 IL10-related and 20 IFN-related markers; explicit source/caption evidence grades.",
+  "missingness_and_exclusions": "No new exclusions. Missing fields, absent genes/conditions, explicit sparse zeros, duplicate/misaligned barcodes and source discrepancies are reported. A failed required check stops dependent analyses rather than selecting favorable records.",
+  "multiplicity": "Metadata and arithmetic checks only; no inferential P values or confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate. Exact stored recovery counts and bounded numerical tolerance qualify file arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No biological replication, population treatment effect, age interaction, mediation or repair inference. Downstream microglia exclusions and filename changes must remain distinct from broad deposited cells.",
+  "stop_rule": "Stop on any arithmetic, byte-identity or source assertion failure. Unknown aliases remain held; no numeric ordering or accession/barcode join is invented.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/figure_captions.json",
+      "sha256": "89dd6a035cc402f4eec5cb147d92c514b1a26b6f95c6f826f22b9baae99f006f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_source_qualification_v1/source_crosswalk.json",
+      "sha256": "3d2fe9d15234f9facd79a3e25014a8473a3a9d026b0c849c5091ba7f09fe7c2f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/qc.json",
+      "sha256": "91ba22596d2b38007311ca3323f60f4d05750f4d91e1288acbf3f2514e240f23",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/alignment.json",
+      "sha256": "f0ba18cf9d73dfe15d9047a71e775ed4ee1f91ee6ce35408111dc5ebaf7718a3",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/object_inventory.json",
+      "sha256": "01aed1945726415762a799cf1b535483eea2c21439c375cd1db7fd8e6eb3f1ec",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/normalization_samples.tsv",
+      "sha256": "559e41618b28ae3b59721813ae6ad9a5cdccf06362b6d1bb8251586923c4a231",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/normalization.json",
+      "sha256": "40466df1f7cac84150f9acf9156f9c89731c1bc9dd7c5147373d0f6b14a026f1",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/qc.json",
+      "sha256": "91ba22596d2b38007311ca3323f60f4d05750f4d91e1288acbf3f2514e240f23",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/alignment.json",
+      "sha256": "f0ba18cf9d73dfe15d9047a71e775ed4ee1f91ee6ce35408111dc5ebaf7718a3",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/object_inventory.json",
+      "sha256": "01aed1945726415762a799cf1b535483eea2c21439c375cd1db7fd8e6eb3f1ec",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/normalization_samples.tsv",
+      "sha256": "559e41618b28ae3b59721813ae6ad9a5cdccf06362b6d1bb8251586923c4a231",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/normalization.json",
+      "sha256": "40466df1f7cac84150f9acf9156f9c89731c1bc9dd7c5147373d0f6b14a026f1",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/captured_warnings.json",
+      "sha256": "ae2287bfc7d532e5afe7386e32eee1c0efb2e64ad51d722b1f283c1ded921410",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualification_review_v1.py",
+      "sha256": "e75d81ae06b12fe789231deced713f559c61888e9a584c27adf658113846ed63"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualification_review_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "marker_manifest.json",
+    "alias_crosswalk.json",
+    "independent_verification.json",
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Independent qualification review after metadata and warnings became available; finite-pool interpretation retained."
+}

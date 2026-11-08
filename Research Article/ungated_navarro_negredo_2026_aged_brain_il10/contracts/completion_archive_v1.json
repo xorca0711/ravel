@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.completion_archive_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can exact source provenance and verified RNA completion facts be preserved for scoped offline integration?",
+  "decision": "Archive exact input records and collect existing verified facts without new biological calculations.",
+  "strongest_rival": "An export could omit source versions, confuse failed execution with success, or hide remaining scientific holds.",
+  "discriminator": "Byte-for-byte source archive and existing receipt/summary facts; no new endpoint or statistical test.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All preceding metadata and descriptive outputs exposed. This stage only preserves provenance and assembles existing facts.",
+  "biological_unit": "Not applicable for archive; biological summaries retain one observed pool per reported condition.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "S1 reports one old-control mouse and two pooled mice in the other main libraries, with no multiplexing. Shared controls serve both dose contrasts. Individual donor assignment requires separate provenance.",
+  "population_and_selection": "All retained cells in the authorized main IL10_svz_seurat.rds and original broad Celltype annotations. No fresh clustering, integration, downsampling or marker-based exclusion.",
+  "contrast": "Exact source bytes and already verified table rows; no new biological comparison.",
+  "endpoint": "Three exact provenance records and a machine-readable seven-stage completion summary.",
+  "methods": "Copy and SHA-256 verify three source records; copy illustrative existing rows and validation facts; retain complete summary and contrast locators.",
+  "missingness_and_exclusions": "No new exclusions. Missing fields, absent genes/conditions, explicit sparse zeros, duplicate/misaligned barcodes and source discrepancies are reported. A failed required check stops dependent analyses rather than selecting favorable records.",
+  "multiplicity": "Metadata and arithmetic checks only; no inferential P values or confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate. Exact stored recovery counts and bounded numerical tolerance qualify file arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No biological replication, population treatment effect, age interaction, mediation or repair inference. Downstream microglia exclusions and filename changes must remain distinct from broad deposited cells.",
+  "stop_rule": "Stop if source hashes differ, archive membership changes, or descriptive independent verification did not pass.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/figure_captions.json",
+      "sha256": "89dd6a035cc402f4eec5cb147d92c514b1a26b6f95c6f826f22b9baae99f006f",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/resource_choice.json",
+      "sha256": "a94576eae7a5604c64ab1840dd128448643425e3e67deded6b2527c91c0f995a",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/transfer_manifest.json",
+      "sha256": "4622304a4a4b7e7e0ba2c91cd528e4bf94678a452859b0e1aa05dd554c178431",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/independent_verification.json",
+      "sha256": "e93b7be4616c08da04c4a1f4b75e562d01a8f78902b92cb9cddcca98bbe8022d",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/summaries.tsv",
+      "sha256": "720bbe2d7bbd859780f0864896503bf86083b4912b8478759358cb6fa2d6be79",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/scientific_holds.json",
+      "sha256": "2dafe8d53340cf143cd72d37b605e208ae25832b35e5128af1a22c38c8317e9f",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json",
+      "sha256": "d29136d3d519891ee24c26070d9814e4854683c70eb0f6ce3bb1174af8de6b9d",
+      "study_id": "NavarroNegredo2026_completion",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/complete_rna_v1.py",
+      "sha256": "77bf1640cd0d34325afbf50176f9f764f296c694ae5d57a3fade7f2d65b5ef3f"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/complete_rna_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_context/figure_captions.json",
+    "source_context/resource_choice.json",
+    "source_context/transfer_manifest.json",
+    "source_archive_manifest.json",
+    "completion_summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Completion/provenance packaging after successful frozen descriptive execution."
+}

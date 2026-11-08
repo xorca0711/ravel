@@ -1,5 +1,34 @@
 # Current project state
 
+## Navarro pooled RNA execution — 8 November 2026
+
+[RNA results and measured SVGs](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
+and [seven-stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+record completed Nn26-P01 metadata qualification and exposed description.
+The main RDS has eight aliases rather than the six published libraries; extra
+WT50/Mut50 expression comparisons are held. WT5/Mut5 has an indirect main-figure
+dose association; WT1/Mut1 numeric dose remains unverified. Broad microglia do
+not recreate the downstream subcluster exclusion. Mixed marker directions,
+sparse control T cells and absent biological replication remain explicit.
+
+All 306 summaries and 357 contrasts passed 4,245 independent scalar checks.
+The original serializer failure and 192 captured row-name warnings are preserved
+and explained; successful stage receipts verify. Only the authorized main RDS
+and exact small author-code ZIP were acquired. Scoped cloud validation covers
+contracts, frozen code, input identities and receipts. The verified cloud bundle
+is now imported into the scoped desktop branch, retaining the earlier animal
+evidence and all freeze commits. All nine successful Navarro receipts and 101
+receipt-bound working/Git files match their hashes. Repository and base-aware
+provenance checks pass against refreshed main `471d0c2`; the existing 167-test
+run (two skips) remains valid. [Integrated validation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/VALIDATION.md)
+records transfer integrity, 90 report checks and preservation of unrelated work.
+[Primary-source interpretation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md)
+links exact published figures and retained exceptions. Next: source/barcode/dose
+crosswalk only if obtained; WT50/Mut50 contrasts and population inference remain
+held. No further cloud setting or optional acquisition is needed for this run.
+No scientific acceptance, push, publication, author contact, environment-policy
+change or mounted Weft modification occurred.
+
 ## Peng biological review and PR synthesis — 8 November 2026
 
 [Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)

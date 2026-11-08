@@ -1,0 +1,20 @@
+{
+  "held_expression_aliases": [
+    "WT50",
+    "Mut50"
+  ],
+  "held_reason": "Observed extra conditions lack qualified numerical dose/accession mapping to the six reported source libraries.",
+  "other_concentration_numeric_dose_verified": false,
+  "main_figure_pair": "WT5/Mut5; caption-associated 0.02 mg/mL, indirect code/figure cross-reference",
+  "other_pair": "WT1/Mut1; other-concentration code block, not a verified numeric-dose join",
+  "downstream_microglia_exclusion_reproduced": false,
+  "microglia_scope": "Original broad Celltype==Microglia; Micro_types and later Remove exclusion absent.",
+  "hallmark_score_reproduced": false,
+  "hallmark_reason": "Exact external .rda gene membership absent; explicit 20-gene author vector only.",
+  "Figure3E": "Published caption Stat3 versus code Socs3; both reported separately.",
+  "filename_discrepancy_retained": true,
+  "population_P_values_or_CIs_computed": false,
+  "one_pool_per_reported_condition": true,
+  "optional_objects_acquired": false,
+  "scientific_acceptance": "not_assessed"
+}

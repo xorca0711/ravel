@@ -1,10 +1,12 @@
 # RNA execution readiness — 8 November 2026
 
+**Execution addendum (8 November 2026):** the retained runtime and exact RDS were reverified, and frozen metadata/descriptive stages have now executed. See [RNA_RESULTS.md](RNA_RESULTS.md) for actual peak memory, warnings, receipts and scientific holds. The readiness-only state below is historical.
+
 The owner requested a cloud attempt after the local resource check, and guidance
 in the repository-root AGENTS.md for future hardware constraints. This is an
 operational record, not an RNA qualification receipt.
 
-## Current state: runtime and acquisition verified
+## Earlier checkpoint: runtime and acquisition verified
 
 On 8 November 2026 the owner started cloud chat
 `01a1ba3e-f795-73e9-aa71-4c20e962d094` (**Acquire authorized IL10 RDS**) with

@@ -1,0 +1,96 @@
+[
+  {
+    "object_alias": "Control",
+    "recovered_cells": 3365,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "old_vehicle",
+    "comparison_eligible": true,
+    "evidence_strength": "source/code control-label correspondence; no molecular accession join",
+    "caption_associated_dose_mg_per_ml": null
+  },
+  {
+    "object_alias": "Mut1",
+    "recovered_cells": 8391,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "D25K (author Mut alias)",
+    "pair": "WT1/Mut1",
+    "comparison_eligible": true,
+    "caption_associated_dose_mg_per_ml": null,
+    "possible_other_published_dose_mg_per_ml": 0.1,
+    "evidence_strength": "Other-concentration pair in author code lines 107-110. 0.1 mg/mL is a remaining-dose inference, not a verified numerical cell-dose join."
+  },
+  {
+    "object_alias": "Mut5",
+    "recovered_cells": 6162,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "D25K (author Mut alias)",
+    "pair": "WT5/Mut5",
+    "comparison_eligible": true,
+    "caption_associated_dose_mg_per_ml": 0.02,
+    "evidence_strength": "Figure-linked: IL10/2.Microglia.R lines 49-61 selects WT5/Mut5 for main Fig.3; caption Fig.3B states 0.02 mg/mL. Indirect alias-dose cross-reference, not barcode proof."
+  },
+  {
+    "object_alias": "Mut50",
+    "recovered_cells": 4167,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "unresolved additional author-code condition",
+    "comparison_eligible": false,
+    "caption_associated_dose_mg_per_ml": null,
+    "evidence_strength": "WT50/Mut50 are genuinely retained; no established numeric dose, accession or pool-size mapping to the six reported main RNA libraries."
+  },
+  {
+    "object_alias": "WT1",
+    "recovered_cells": 9384,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "WT",
+    "pair": "WT1/Mut1",
+    "comparison_eligible": true,
+    "caption_associated_dose_mg_per_ml": null,
+    "possible_other_published_dose_mg_per_ml": 0.1,
+    "evidence_strength": "Other-concentration pair in author code lines 107-110. 0.1 mg/mL is a remaining-dose inference, not a verified numerical cell-dose join."
+  },
+  {
+    "object_alias": "WT5",
+    "recovered_cells": 7760,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "WT",
+    "pair": "WT5/Mut5",
+    "comparison_eligible": true,
+    "caption_associated_dose_mg_per_ml": 0.02,
+    "evidence_strength": "Figure-linked: IL10/2.Microglia.R lines 49-61 selects WT5/Mut5 for main Fig.3; caption Fig.3B states 0.02 mg/mL. Indirect alias-dose cross-reference, not barcode proof."
+  },
+  {
+    "object_alias": "WT50",
+    "recovered_cells": 3161,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "unresolved additional author-code condition",
+    "comparison_eligible": false,
+    "caption_associated_dose_mg_per_ml": null,
+    "evidence_strength": "WT50/Mut50 are genuinely retained; no established numeric dose, accession or pool-size mapping to the six reported main RNA libraries."
+  },
+  {
+    "object_alias": "Young",
+    "recovered_cells": 8786,
+    "accession_barcode_join_verified": false,
+    "dose_directly_attached_to_cells": false,
+    "true_mouse_key": null,
+    "role": "young_vehicle",
+    "comparison_eligible": true,
+    "evidence_strength": "source/code control-label correspondence; no molecular accession join",
+    "caption_associated_dose_mg_per_ml": null
+  }
+]

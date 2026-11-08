@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.pooled_rna_description_v1",
+  "owner": "Nn26-P01",
+  "contract": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.json",
+  "contract_sha256": "03293307f53091ac29be859406f949e06f911357efcdfe004f0daac3c6bb3ee2",
+  "git_commit": "bdead215f9f9882ab187659c5241f4118ed3dff7",
+  "started_at": "2026-11-08T09:53:21.505924+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/description_pipeline_v1.py",
+    "--config",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.config.json",
+    "--output",
+    "analysis/research/runs/nn26_pooled_rna_description_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+      "sha256": "b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/marker_manifest.json",
+      "sha256": "455e6006fa6300d5ecbb5b329256065d86dcbcf13d4e449e8e5a97725b5d3077",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/qualification.json",
+      "sha256": "82db865f0b24f38331b78614779cf60d5b03643639a7d734ec452826872a9bd6",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/alias_crosswalk.json",
+      "sha256": "2598dfc622571dbde908a370b2de1b1cf107cd40f89cbd347fa48d07de66bda9",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_qualification_review_v1/independent_verification.json",
+      "sha256": "dc25421e756956a53dc6703f70823b67f70c100e5c92d94236de9f89e2dd22bd",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/description_pipeline_v1.py",
+      "sha256": "a1ea4cb19a5e7fd22aa94a27256f8d35dcc061ce7d9297b72a3c2f1cc198c89e"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/describe_rna_v1.R",
+      "sha256": "a0dea133213353b403ebbd72070b076bc617a9d309cd1959ddd6a3bf06ca60ba"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+      "sha256": "5aee79b6e16166b5824198a56f8b6bf4af7820aaf81cf219982f843d75bbbe80"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.config.json",
+      "sha256": "03d6514eb402a8c66bbb1c2627c237b8bc867d435d31a26013d813cc6b2e22b7"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/cell_denominators.tsv",
+      "sha256": "2ab72eeba21c5cc33f40ee7c08ec8437aa5488424a344bd518c374c627248beb"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/selected_entries.tsv.gz",
+      "sha256": "844322f6545a353a627f71cbad39061b603e9a9069f555027de4e7bc3008aefe"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/summaries_R.tsv",
+      "sha256": "c9c76fff38d22b20a2741b9e2b4282d088d0988d99dc5a34f2bea7a3271e935f"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/marker_availability.tsv",
+      "sha256": "fb47c78a44ff0337380827478020737abb8274ea32079651b7cd7e258a380244"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/contrasts_R.tsv",
+      "sha256": "676f61c0599024e1dd6e8f2ca5359e299ccc2fb5e5ff7cbf7562c86804c3e859"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/R_session.txt",
+      "sha256": "dc40466d3b379f76b1d6cfda4ddccf724ac65104559194c5aa9e24daa102fdf6"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/description_scope.json",
+      "sha256": "d432d6520e4cb275b2c506e63876457724df28c9915fa56298a9d98e5ee608d4"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/resource_usage.json",
+      "sha256": "907210466bc26b4989d73cbdfc909e6ac2584fc2a2ab385789133024b8e20c44"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/summaries.tsv",
+      "sha256": "720bbe2d7bbd859780f0864896503bf86083b4912b8478759358cb6fa2d6be79"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/contrasts.tsv",
+      "sha256": "cfcbe930b7cf6a6d0b48fe739fd8860219620fa3146cbecb20e6f73ea3bc58af"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/independent_verification.json",
+      "sha256": "e93b7be4616c08da04c4a1f4b75e562d01a8f78902b92cb9cddcca98bbe8022d"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/scientific_holds.json",
+      "sha256": "2dafe8d53340cf143cd72d37b605e208ae25832b35e5128af1a22c38c8317e9f"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/software_versions.json",
+      "sha256": "d0ff8d011901677b5aff5510133dab9f9832d2db5a9848fe2d89c0e662b0e1fe"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/microglia_markers.svg",
+      "sha256": "9ab2b7d0005ad1c8fde7fae016ffd738a8a78416f2308f56d392215696ebf31f"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/microglia_contrasts.svg",
+      "sha256": "4469559352d836ffc82f0eb58c728aa8d92960e0bd85fe9ea74a637bf7596a49"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/T_cells.svg",
+      "sha256": "38beb7805acf11ed514139a1f98d42006ba88729af59f11b40caacffe7e8abb1"
+    },
+    {
+      "path": "analysis/research/runs/nn26_pooled_rna_description_v1/recovery.svg",
+      "sha256": "56823b8fd5d284e6dc4219c2dda8eb8a57f6c2b4556249379a803c6ecc0a4ea0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T09:53:52.213557+00:00"
+}

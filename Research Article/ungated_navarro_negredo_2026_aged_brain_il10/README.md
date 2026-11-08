@@ -1,7 +1,9 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
-8 November 2026 (Asia/Seoul). **Nn26-P01 source qualification and animal-outcome
-reproduction executed; RNA object qualification pending.** This remains a separate
+**Current RNA status (8 November 2026):** object qualification and bounded pooled RNA description have executed. See [RNA results, measured SVGs and validation](RNA_RESULTS.md), [current stage ledger](STAGE_STATUS.md) and [cloud transfer guide](CLOUD_TRANSFER.md). The earlier paper assessment below predates this RNA execution; its pending statements are historical.
+
+8 November 2026 (Asia/Seoul). **Nn26-P01 source/animal stages, cloud RDS
+qualification and bounded RNA description are complete, with explicit source holds.** This remains a separate
 ungated package linked to Gate 3A/Saxton IL-10, with no scientific acceptance.
 [Current results and figures](RESULTS.md), [stage ledger](STAGE_STATUS.md),
 [candidate dossier](CANDIDATE.md), [literature context](LITERATURE_CONTEXT.md),
@@ -15,7 +17,10 @@ Combined nesting mixes doses/cohorts. [Exact source discrepancies](RESULTS.md#un
 and [cloud readiness](CLOUD_READINESS.md) remain explicit.
 
 The following biological assessment retains the published premises and their
-relationship to existing Ravel questions; current numerical authority is RESULTS.
+relationship to existing Ravel questions. Current numerical authorities are
+[animal results](RESULTS.md) and [RNA results](RNA_RESULTS.md); the
+[dated interpretation](INTERPRETATION_20261108.md) distinguishes published
+findings from same-source observations.
 
 **Assessment: a strong biological companion to Gate 3A Saxton IL-10, with a
 useful but replication-limited single-cell deposit.** It connects cytokine
@@ -174,9 +179,10 @@ as interchangeable. The 2025 Groh and Mason papers were identified as contextual
 leads with different T-cell/microglial consequences, not fully audited here.
 No novelty or laboratory-readiness claim follows from this search.
 
-The [stage ledger](STAGE_STATUS.md) records three frozen and verified runs:
-source qualification, 16 animal panels and a narrow exact-test diagnostic.
-[Current synthesis](RESULTS.md#evidence-map-and-next-decision) retains unfavorable
-results and source discrepancies. S1/S4 are readable; no large matrix or FASTQ
-was downloaded. RNA qualification still needs a suitable authorized executor
-and source/code-alias reconciliation. No external setting or scientific status changed.
+The [stage ledger](STAGE_STATUS.md) records nine successful verified runs,
+including source/animal work and completed cloud qualification/description.
+The failed first metadata execution is preserved separately. The authorized
+main RDS was acquired and qualified; no FASTQ or optional biological object
+was acquired. [RNA synthesis](RNA_RESULTS.md) retains mixed marker directions,
+pooled units and unresolved alias/dose identities. No further environment
+change is needed for this completed run; source holds remain scientific limits.

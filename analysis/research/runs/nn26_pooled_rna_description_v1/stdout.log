@@ -1,0 +1,7 @@
+            used               (Mb) gc trigger                (Mb) limit (Mb)
+Ncells   2333872  124.7000000000000    4566572  243.90000000000001         NA
+Vcells 297471909 2269.5999999999999  983581586 7504.20000000000073      11264
+        max used                (Mb)
+Ncells   2785074  148.80000000000001
+Vcells 821655192 6268.80000000000018
+{"selected_sparse_entries_checked": 195506, "explicit_cell_denominators_checked": 11920, "summary_rows_checked": 306, "contrast_rows_checked": 357, "scalar_arithmetic_checks": 4245, "max_normalization_error_python": 5.329070518200751e-15, "max_scalar_difference_R_vs_Python": 4.001776687800884e-11, "arithmetic_tolerance": 1e-10, "all_checks_passed": true, "method": "Independent Python math.fsum and raw-count normalization from selected sparse entries; implicit zeros retained through full cell denominators. R and Python contrasts independently agree.", "absent_markers": [{"scope": "Microglia", "family": "IFN_related", "gene": "Gbp1"}], "independent_biological_replication": false}

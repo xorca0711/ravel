@@ -1,0 +1,15 @@
+{
+  "method": "LogNormalize",
+  "scale_factor": 10000,
+  "stored_command_names": "NormalizeData.RNA",
+  "parameters_recorded": true,
+  "formula": "log1p(raw_count / RNA library_total * scale_factor)",
+  "sample_cells": 192,
+  "sample_entries": 36810,
+  "sample_nonzero": 13686,
+  "sample_zero": 23124,
+  "max_absolute_error": 8.8817841970012523e-16,
+  "tolerance": 1e-10,
+  "reconstruction_passed": true,
+  "qualification": "Sampled arithmetic validation, not whole-matrix equality and not biological replication."
+}

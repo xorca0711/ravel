@@ -34,3 +34,7 @@ already exposed. This is explicitly **exposed reproduction**.
 The [literature context](LITERATURE_CONTEXT.md) retains source attribution and
 the original search boundary. [Current results](RESULTS.md) and [stage status](STAGE_STATUS.md) link exact
 receipts and figures from the README; frozen evidence is never edited to improve a result.
+
+The [dated post-execution interpretation](INTERPRETATION_20261108.md) connects
+completed RNA and animal results to exact primary figures, retaining same-source
+reuse, discordant markers and source limits. No new RQ or acceptance is created.
