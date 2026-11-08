@@ -205,6 +205,7 @@
       "card": "RESEARCH_QUESTIONS.md#a12",
       "dossier": "docs/research_dossiers/A12.md",
       "evidence": [
+        "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
         "RQ_Specified/A12_recipient_context/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
@@ -1073,6 +1074,19 @@
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANIMAL_AMENDMENT_V2.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md"
       ]
+    },
+    {
+      "id": "Pg1-P01",
+      "plan": "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+      "evidence": [
+        "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
+        "Research Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md",
+        "Research Article/ungated_peng_2026_spatial_omics/RESULTS.md",
+        "Research Article/ungated_peng_2026_spatial_omics/README.md",
+        "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
+        "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
+        "docs/research_reviews/2026-11-08-peng-spatial-reading/README.md"
+      ]
     }
   ],
   "contracts": [
@@ -1261,7 +1275,18 @@
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/reported_description_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/source_qualification_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/animal_reproduction_v1.json",
-    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json"
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v1.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v3.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/supplements_v1.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/supplements_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_cells_v1.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v1.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v3.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_rationale_render_v2.json",
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_source_bindings_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1438,7 +1463,13 @@
     "analysis/research/runs/sx10_gorby_reported_description_v1/receipt.json",
     "analysis/research/runs/nn26_source_qualification_v1/receipt.json",
     "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json",
-    "analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json"
+    "analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json",
+    "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+    "analysis/research/runs/Pg1_supplements_v2_20261108/receipt.json",
+    "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
+    "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
+    "analysis/research/runs/Pg1_public_rationale_v2_20261108/receipt.json",
+    "analysis/research/runs/Pg1_public_source_bindings_v1_20261108/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

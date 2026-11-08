@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.metadata_v1",
+  "owner": "Pg1-P01",
+  "contract": "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v1.json",
+  "contract_sha256": "f498b560c99536eadd5e98195f7b901898e5a51ea421338d8ef97021ca8f584b",
+  "git_commit": "a8c927673a36e020b0d39407b386436283d1912c",
+  "started_at": "2026-11-08T05:38:41.746785+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v1.py",
+    "--output",
+    "analysis/research/runs/Pg1_metadata_v1_20261108"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307534_family.soft.gz",
+      "sha256": "4217586e667c6bfa6b1ea7d3a0f92d05dc74d126bcdf80b4cfe8a3d17a8d6ac9",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE308103_family.soft.gz",
+      "sha256": "345a35b10599bf556dafcf16e2769df367d903e5d2630d1531b6a16ddf0c064a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/GSE307529_family.soft.gz",
+      "sha256": "d7378ac95b9be85c8178b487d776287b929b128a1c3008ee02ba4a8f6ae69479",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v1.json",
+      "sha256": "98765adc6809affd201f1d50e0a3f862439e82dc7216e320caa6db0d9b970c3d",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v2.json",
+      "sha256": "e4303d8788740a66f2c50cedc7bfee769a00708892453f8b5080c8ef67085367",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v3.json",
+      "sha256": "8cc0abfaafd63148dcf482b7d873960737f7de94549f1ec77800eda909e67c1b",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v4.json",
+      "sha256": "5b7e036417ea6f9d1639e420da8a90cedf1dcc495f32df09042487c4b0207737",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v5.json",
+      "sha256": "b69125793d2aa2d5a34ed1cd767f80ed0b80f2a33d4edac5545f5427e3368af8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/acquisition_v6.json",
+      "sha256": "f3997690f2684c19113688243b9d4146b6586ace9b2e163ee092da505c701d12",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/pmc_article.html",
+      "sha256": "3bcdf1b1a6c71187d91ebe5dc5b7c46ae3ab4876d603296dcfa07c5bee45c016",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_15670280.json",
+      "sha256": "39bbf16a56a6c3177264fb564686e416f224ae0e5ef19747c1d249c41a1feb9a",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/zenodo_17172149.json",
+      "sha256": "9f972c738d071924d281eb6ead3a40d25775a51b8651a4baa3550c3ba4532e00",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_repository_tree.json",
+      "sha256": "91b809fbadef72af50cdb0988081414eecf4cd2413194d6eee4adbc622cfb36f",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_1.R",
+      "sha256": "e1f99d9a6f10dbead1a90b9a3ea6d60d827de5b4a5e07933188968bdab083bdc",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/author_Figure_5.R",
+      "sha256": "ba530ea1d1120538c112c3e800de24cbcba92755fc6d95eb5affbd729b3b3455",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_spatial_20261108/geo_spatial_directory.html",
+      "sha256": "fd15e26d8d9db020130a4a0d994041d0bb7fb7f42d02c8a1ca0e691aaece0881",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/sample_inventory.csv",
+      "sha256": "1d68bea6fbd8834c183549d750dd1e99e75d227475eacac9f190a0d3cf1278a8",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/human_sample_links.csv",
+      "sha256": "f830bde07c6d02d17a97a13bccce419ab50ecba59e10a9b5cbb89884df8b8ebb",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/all_series_patient_histology_crosswalk.csv",
+      "sha256": "f49f83d50f5bd0a13c76504c6b89caaf4f2ac33dfcd098f0db55aa6fe610abd7",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/library_qc_and_annotation.csv",
+      "sha256": "b3043f427a355724727af7666c848f0f2aec8f8b7f43e5ad35fc3ebbcc957914",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_demographic_crosswalk.csv",
+      "sha256": "6b923dcea984b9b73a8a3e0ccd478b521715edea851fdd3d9bd962b3e3ad1023",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_crosswalk_validation.json",
+      "sha256": "6b8cb8a0e74903fd2efae876c35028067c0dfa3facf21458f8dd46b227b49660",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv",
+      "sha256": "ca3f319c9a626966d945ee9cb4ca805b7dc0fdf8119d3050a4f9d49680c5ea3c",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/possible_pathology_annotation_members.csv",
+      "sha256": "6c7a24d252f1c0c0a368e8e5b2a5ae83bd10f7546f763a41aec0fb4de81b7950",
+      "study_id": "Peng2026_shared_discovery_or_access_record",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/metadata_v1.py",
+      "sha256": "b4198625cb4600c0babb910e6bde2c4a8851f9f2ee3c2edc3c448e82a20f95e8"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_metadata_v1.py",
+      "sha256": "c4832300af0e81c40b2548655074a1d34688192a215dd283184c556f4616f527"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_metadata_v1.py",
+      "sha256": "2e717d1948c55be8c8e161caa3eaa90c90c07369fd5d190414f9ae00277f0fa9"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/samples.csv",
+      "sha256": "c09a19ee3374a20ea7c5e2b330210f00d47db8afc03067cc28a2803ac5167813"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/patients.csv",
+      "sha256": "c77d058c5b835324a4188b1656765215c25d72658c07e2a5bd84cb87d12d7060"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/crosswalk.csv",
+      "sha256": "adf1af2838a56eb362445bd090d375e10fe716cc7b439729362c430d039a5280"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/prior_inventory_comparison.csv",
+      "sha256": "c419cd1d8d1b364d49d6a2a40c2f06bbb8477215cc6fdac6d854675cda502da7"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/source_manifest.json",
+      "sha256": "7bce6877506b85d7f0e4ef26a746f9826d8443005cd7cf68ce7ec803a6d94197"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/annotation_availability.csv",
+      "sha256": "e57ea5f0244014fc667481343fb29612ee03cdb6cd827b5ddf87a9b7555f55bd"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/author_required_objects.csv",
+      "sha256": "5648a17ad5762928b53b1bdb68c22f3ff8a8fe1b335b6c7e004560145ba0ada5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/join_issues.csv",
+      "sha256": "565a789456b19f683207b73a0b46d7c5c09a9aedcec03ea5f9a550781f71cc30"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v1_20261108/summary.json",
+      "sha256": "2d8b13b90e496efc7f0c6a475df7e8b4e5df14d02212e8e0f3d23648d325ce48"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "error": "Missing file: verification.json",
+  "finished_at": "2026-11-08T05:38:43.068124+00:00"
+}

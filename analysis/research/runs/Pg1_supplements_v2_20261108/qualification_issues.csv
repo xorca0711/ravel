@@ -1,0 +1,30 @@
+issue,source_locator,detail,status
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!D17,P3 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!E17,P4 Normal: table=2; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!F17,P5 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!G17,P6 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!H17,P7 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!I17,P8 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!J17,P9 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!K17,P10 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!L17,P11 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!M17,P12 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!N17,P13 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!O17,P14 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!P17,P15 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!Q17,P16 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!R17,P17 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!S17,P18 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!T17,P19 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!U17,P20 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!V17,P21 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!W17,P22 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!X17,P23 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!Y17,P24 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!Z17,P25 Normal: table=1; GEO=0,aggregate_gap_localized_not_missing_file_identity
+WES_table_deposit_difference,NIHMS2118436-supplement-2.xlsx#Tab 2!E18,P4 AAH: table=2; GEO=1,aggregate_gap_localized_not_missing_file_identity
+P6_WES_file_histology,NIHMS2118436-supplement-2.xlsx#Tab 2!G18,"Table marks P6 AAH; current GEO title/alias agree, linked VCF filename says AIS. Table does not identify the VCF.",file_identity_hold_remains
+P7_original_review,NIHMS2118436-supplement-2.xlsx#Tab 2!H21,Table marks two LUAD blocks; no original category or revised-alias mapping.,historical_review_hold_remains
+TMA_lesion_parentheses,NIHMS2118436-supplement-2.xlsx#Tab 3!G5:G26,Raw lesion text preserved; parenthetical numerals not interpreted as sizes/counts or resolved lesion IDs.,individual_core_lesion_barcode_map_missing
+custom_addon_only,NIHMS2118436-supplement-5.xlsx#Tab 1!A2:D103,Listed add-on genes are not the complete base-plus-addon panel or evidence of measured gene availability.,full_assay_coverage_hold_remains
+published_DEG_non_text_gene,NIHMS2118436-supplement-6.xlsx#Sheet1!A333,stored_value=45903;format=d-mmm;gene identity not inferred from date,original_gene_symbol_requires_source_clarification

@@ -42,7 +42,7 @@ than treated as a second current execution queue. The collection index offers
 biological-topic and contribution-based reading routes; neither replaces IDs or
 assigns scientific acceptance. Frozen source evidence stays with its owner.
 
-The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 21 paper
+The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 22 paper
 packages. The 38 directories under `RQ_Specified/` comprise those 36 homes plus
 two shared/historical workspaces (A5/A11 and Yadav). Physical directories under
 `Research Article/` also include preserved historical entry points, the

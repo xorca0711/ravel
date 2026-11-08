@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.supplements_v1",
+  "owner": "Pg1-P01",
+  "contract": "Research Article/ungated_peng_2026_spatial_omics/contracts/supplements_v1.json",
+  "contract_sha256": "0283f8ab60ce1bbfc6223a84c6fd71e852e9afed02ac7782ec08a80bf771b5bd",
+  "git_commit": "e4abe1b328a3b875bf848ed8dedaf26aab33c13b",
+  "started_at": "2026-11-08T06:45:01.597092+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v1.py",
+    "--output",
+    "analysis/research/runs/Pg1_supplements_v1_20261108"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-2.xlsx",
+      "sha256": "43e8e406addcda3180bde3d89ea840e8f4491cf1ee3759ba1f04ad4b0e9ad188",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-3.xlsx",
+      "sha256": "d1c2333ab6031b83fe3cafd2a2fd274e802399c0f54cda50cd37f0238b2158b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-4.xlsx",
+      "sha256": "043ff6c684dfabd24945c5dfc08c9bce913707a978d1971fb7fbb851546ea7b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-5.xlsx",
+      "sha256": "e7271db824aa022c449cc7c6fbdb28d21eaf58db38e03c2fa7a62ac5d7730fcc",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-6.xlsx",
+      "sha256": "a899b9fb564243a5c6b7795e2dcc6b8dfd86c0b8eabcf4798fa9a7e1e36fa090",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-7.xlsx",
+      "sha256": "b76414f18ac29e728f84b2ecc295afbf70dcf04061b263ab85d6757aacd0a53c",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/intake_v1.json",
+      "sha256": "80fab90e10fc14139eac1496f92f6fc49fc67bb565122df0b0ea91b54d389995",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/summary.json",
+      "sha256": "1f75fc7037cee3b49d728f96e5b59d08507afb6beafb77d50acc1cc90e123346",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+      "sha256": "b21642b6020d98f891cf8c7e91b0faabb90d70bd812dd3d3229d336d3bb480b8",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v1.py",
+      "sha256": "7e8528e3e7828a03f68754c77f01dac5fef7d58b22e923c40cbe49b75bff85a8"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_supplements_v1.py",
+      "sha256": "2c0008d91e9b0489e5a7e9c3fda40009b8246dc90ef7def40aa05ce36730fd15"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_supplements_v1.py",
+      "sha256": "727d748dbc7a2df7d6f0e62ffacd85264c0a02f934cd7db4fa86bd480cbeb2ec"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/source_cells.csv",
+      "sha256": "7cf7acd568bdfc4e8e25ff2c3c4dcc17ebacc8b0f6aefb70adfdc0d38a45fa95"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/sheet_manifest.csv",
+      "sha256": "b5d9ec2965c13aa2ee259fd0653fd142751883b3c6abdb94cedad006dbac1dd5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/source_manifest.json",
+      "sha256": "acef0b20642d3e3391a00f20a95f5afa654ae5063bf7936f631445706ce59c2a"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/discovery_clinical.csv",
+      "sha256": "60b03043d4e4eace4df93fa2e2a26b80aafeac04b1c06e9e7c504565cf093138"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/clinical_GEO_comparison.csv",
+      "sha256": "90934934074c0a7662457e5e9b25b6ac2c94cc8a4157f6c37a6e44e7ccbcbaef"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/platform_participation.csv",
+      "sha256": "0d2ffca3bedb7781db97a66a36d46455ab64b15bf65bcb64f5c36d3b90503a0c"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/participation_totals.csv",
+      "sha256": "66b9cfde7861d355a83a51c63e783367ebb033711229a4fe784faf3b7459f5a8"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/xenium_participation.csv",
+      "sha256": "c166c036c055773f5aef23ae4458e8714dd51a4680c2848a59207a90836783f5"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/TMA_groups.csv",
+      "sha256": "aabaf1ce95a960e9baebcea7bfec01bbf2bc74a854f005cc2da63c64741cab6c"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/TMA_totals.csv",
+      "sha256": "6fbafc9ecb6d8fdbf094752f0a0074dd17d5cee57bab56ca4d9762e8ae2e0a55"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/gene_lists.csv",
+      "sha256": "1ce33e50838ab5bcc2264d5dd6097eb99aec025456a99ccf1cec4863958f6336"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/gene_list_inventory.csv",
+      "sha256": "20e53404aa11b29552dd0fc759004516b7daff8ccb498e1636969477b3df8026"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/published_DEG_summaries.csv",
+      "sha256": "a8060ae40cf0d352c5d13561a12a5fc18ef3191913399da3bc37f155ce40d0a6"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/seqIF_COMET_metadata.csv",
+      "sha256": "e03ad5175f6afed54fe1a6cdc0422e19fc88fa2c3b1ba158a9311d78d567f82e"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/A12_addon_membership.csv",
+      "sha256": "015fe4c8bf0fd5144819803754efe596f84bef3190bd1976dbfdafbb76aa5d32"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/A12_published_list_overlaps.csv",
+      "sha256": "c32318d9444676fc5944adee539b91141af890962af1442fb20106b158a86321"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/qualification_issues.csv",
+      "sha256": "b9c3426abe34d1064d2206283c0bb2bbab13422b588415e1a309ddab00fab05e"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/summary.json",
+      "sha256": "fa4736bdec6b4ca16c6ee4abc27fbc01b63e8d2da72ec6c4635cdbe1a941d0e8"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_supplements_v1_20261108/verification.json",
+      "sha256": "ae8b7a48538184efab3384485ca8fc9a54c78aef6ae30dc854cb44af29b5ecf0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "finished_at": "2026-11-08T06:45:05.865230+00:00"
+}

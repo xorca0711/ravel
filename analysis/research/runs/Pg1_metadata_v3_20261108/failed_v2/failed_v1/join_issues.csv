@@ -1,0 +1,5 @@
+issue,source_locator,detail,held_scope
+missing_specimen_relationships,Tables S1; author manifest,"Exact aliases and consistent demographics do not prove lesion, block, serial-section or same-cell correspondence",specimen-level integration
+P7_original_review_mapping,PMC12980502 Results opening cohort description and Histopathological processing of tissues,Paper reports one precursor revised to LUAD; deposited P7 lesion titles/aliases already say LUAD; original diagnosis and specific revised alias remain unknown,historical histology mapping only
+WES_coverage_difference,PMC12980502 Whole-exome sequencing; GSE307529,Paper total samples=79 versus deposited records; do not fabricate missing normal/control libraries or equate VCF count with original sequenced sample count,WES sampling/denominator reconciliation
+annotation_exports_unavailable,source_manifest.json; annotation_availability.csv,"Definitions recovered, actual barcode pathology/polygons/panels not qualified; publisher route also failed",Stages 3-6 dependent comparisons

@@ -1,7 +1,94 @@
 # Current project state
 
-Update this before stopping work, every session. Current reports and the
-research registry own scientific status; older checkpoints are history.
+## Peng biological review and PR synthesis — 8 November 2026
+
+[Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)
+connect completed source qualification, A12 cell distributions and Pg1-P01/C3
+spatial RNA description to neighboring Choi/Cardoso/Han/Hill/Jaiswal work.
+The LUAD-higher lattice result does not reproduce the paper's early-lesion
+cell-neighborhood endpoint. Existing A11/A13 unfavorable results remain intact.
+Both public numerical branches are complete; original stages 3–6 require author
+exports/qualified joins, and stage 7 needs linked functional measurements beyond
+access approval. No new numerical run, canonical RQ change or human acceptance.
+
+Review documentation is prepared for [PR #173](https://github.com/xorca0711/ravel/pull/173),
+with rationale in prose and measured figures retained. Review validation passed
+18,521 repository checks and the base-aware provenance gate against refreshed
+main `1ff71a1`; 33 unrelated raw files still match HEAD. Both remote workflows
+passed at `1ef5bef`; publication of the review revision triggers its own CI. Next:
+qualify newly received author exports under a new contract when available;
+otherwise retain completed public descriptions and conditional extensions.
+Zenodo request remains user-reported pending/unverified; no merge or author message.
+
+## Public Peng RNA analyses completed — 8 November 2026
+
+[Current results](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
+and [measured figure gallery](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md)
+record both authorized branches. A12 qualifies 75 libraries and retains exact
+old counts for the original 12-patient comparison, with 7,677 independent checks.
+IL1RAP detection increases while positive-cell normalized intensity falls; the
+small co-detection increase attenuates with depth standardization, and candidate
+selection changes the IL1R1 direction. Prior unfavorable outcomes remain intact.
+
+Pg1-P01/C3 completes all 56 Visium sections / 25 patient labels, with 3,782,624
+independent checks. The primary 10-patient LUAD–AAH one-hop RNA contrast is modest
+and smaller after broad RNA-composition adjustment. No cell-contact, state-specific
+or functional IL-1 inference is made. V3 at `bf2f841` preserves both failed attempts
+and reuses 43 verified extracts; feature-symbol and stored-zero corrections changed
+no biological thresholds or endpoints. Metadata binding at `7ee773a` explicitly
+registers both manifests and checks all 131 identities / 542 source-file bindings.
+
+**Presentation preference:** keep biological rationale in prose. Use measured
+plots and actual spatial maps as visual aids; do not display text-box rationale
+diagrams. Earlier rationale renderings are retained only as frozen history.
+PNG/PDF results and the 25-patient map atlas are stored with immutable receipts.
+
+Zenodo access is USER-REPORTED requested, pending and unverified. Original author-
+dependent stages 3–6 and linked functional outcomes remain held. Next: qualify
+received author state/pathology/geometry, exact section/core and full-panel exports
+under new contracts when accessible; do not replay completed descriptions. The
+remaining file-request draft is unsent. The owner-authorized branch is now pushed
+and [PR #173](https://github.com/xorca0711/ravel/pull/173) is open against main;
+analysis delivery commit: `65627dc`. No merge, author message, Notion edit or
+governance change. The owner requests a completion handoff to **Assess paper fit
+with Ravel** for biological-rationale review, comparison with neighboring article
+work, possible extensions, and a job-by-job summary of implications. Final
+delivery checks are recorded in [validation](Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_VALIDATION.md).
+Refreshed main remains `1ff71a1`; unrelated work and canonical identities are preserved.
+
+## Peng supplementary sources qualified; spatial exports held — 8 November 2026
+
+[Current supplement result](Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md)
+qualifies the six owner-supplied Tables S1–S6 with 42,530 independent checks.
+Contract v2 was frozen at `a46a835`. The first source run failed on S5 Gene A333,
+a date-formatted numeric serial; its complete failed archive is retained, and
+that gene identity remains explicitly unresolved. Original workbooks and the
+[previous GEO result](Research%20Article/ungated_peng_2026_spatial_omics/RESULTS.md),
+metadata_v3 receipt and outputs remain unchanged.
+
+S1 resolves participation totals and narrows WES 79-versus-54 to 24 Normal plus
+one P4 AAH block; P6 file identity and P7 original review mapping remain held.
+Discovery Xenium participation and 188 aggregate TMA cores / 19 patient labels
+are qualified, with no invented section/core IDs. Published MP/signature lists,
+two custom add-ons, DEG and antibody/run metadata are source-linked. Add-on
+absence is not unmeasured in the complete assay; overlap with the existing A12
+endpoint is inventoried without a new score or model. Prior unfavorable results
+and all question/claim identities remain unchanged.
+
+Next inputs are actual author barcode/state/pathology exports, ROI polygons and
+transforms, exact section/core manifests, complete base-panel versions and measured
+gene axes. [Revised file request](Research%20Article/ungated_peng_2026_spatial_omics/MISSING_FILE_REQUEST.md)
+is drafted, not sent; it no longer asks for S1–S6. Qualify received exports under a
+new contract before stage 3 alignment, source reproduction, A12 estimation or TMA
+endpoint transport. No additional expression/spatial analysis is eligible from
+these metadata tables alone. S5/S6 do not provide stage 7 longitudinal outcomes.
+
+Work remains local on `codex/peng-spatial-reading-20261108`; refreshed main and
+[delivery checks](Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_VALIDATION.md)
+are recorded with preservation results. Original checkout and unrelated changes
+are preserved. No push, PR, merge, author message, restricted-access request,
+Notion edit, paid compute or NGS run. Restricted Zenodo access is unchanged;
+there is no new external account setting to resolve for this completed intake.
 
 ## Navarro animal stages executed; cloud runtime/acquisition verified — 8 November 2026
 

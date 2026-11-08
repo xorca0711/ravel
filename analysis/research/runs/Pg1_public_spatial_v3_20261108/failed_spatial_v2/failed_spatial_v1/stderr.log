@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\public_spatial_v1.py", line 167, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);args=p.parse_args();main(args.output)
+                                                                                                       ^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\public_spatial_v1.py", line 141, in main
+    frame,q=read_section(item);a=adjacency(frame.array_row,frame.array_col);assert (a-a.T).nnz==0 and not a.diagonal().any()
+            ^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\ravel\.worktrees\peng-spatial-reading-20261108\Research Article\ungated_peng_2026_spatial_omics\scripts\public_spatial_v1.py", line 49, in read_section
+    assert barcodes.is_unique and len(genes)==len(set(genes))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

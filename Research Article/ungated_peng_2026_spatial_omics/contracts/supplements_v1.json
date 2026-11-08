@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pg1-P01.supplements_v1",
+  "owner": "Pg1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which source and assay-definition holds can the owner-supplied Tables S1-S6 resolve or narrow, while preserving exact author cells, namespace distinctions and unresolved spatial identities?",
+  "decision": "Qualify source participation, clinical fields, aggregate TMA nesting and published gene/assay definitions; identify precise remaining inputs for stages 3-6 without fitting expression or spatial models.",
+  "strongest_rival": "Merged-cell or checkmark parsing could invent sample independence, block/core identifiers or wrong clinical joins; MP/species/panel conflation could falsely imply endpoint availability or independent state definitions.",
+  "discriminator": "Cell-linked extraction with bounded merged-range expansion, explicit two-block footnote, separate cohort/program/species/add-on namespaces, aggregate comparison with frozen GEO metadata and a separate openpyxl verifier. Unknown individual core/section/ROI mapping remains unknown.",
+  "evidence_refs": [
+    "Research Article/ungated_peng_2026_spatial_omics/RESULTS.md",
+    "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+    "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
+    "Research Article/ungated_peng_2026_spatial_omics/AMENDMENT_V3.md",
+    "RQ_Specified/A12_recipient_context/reports/IL1_COMPONENTS_V1_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner and parent chat supplied and inspected Tables S1-S6 before this freeze. Table schemas, counts, WES 79=Normal24+AAH11+AIS14+MIA4+LUAD26, Xenium participation, TMA totals, list namespaces, two custom add-ons and assay roles were exposed. This execution inspected workbook cells/layouts and prior v3 outcomes; no later freeze erases exposure.",
+  "biological_unit": "Patients are biological units; immediate audited units are workbook cells, reported patient/histology groups, aggregate TMA groups and published gene-list entries.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Discovery tables and prior GEO outputs reuse the Peng cohort. Asterisks indicate two samples/tissue blocks, never two independent patients. TMA uses separately reported TMA P# labels; individual core/barcode identity and independence beyond reported cohort provenance are not verified.",
+  "population_and_selection": "Exactly six user-supplied NIHMS2118436 supplementary workbooks S1-S6, hash-matched local ignored copies, prior verified metadata_v3 outputs and frozen A12 feature/response definitions. No new raw assay/library search.",
+  "contrast": "Published platform participation and clinical metadata versus existing GEO record counts/fields; published gene lists and custom add-ons versus fixed A12 component and response membership; source requirements before versus after supplied tables.",
+  "endpoint": "Auditable source-cell ledger, clinical comparisons, participation/count reconciliation, unresolved Xenium block candidates, merge-qualified TMA groups, namespaced gene inventories, published DEG and seqIF metadata, exact A12 list overlap and hold reassessment.",
+  "methods": "Read OOXML cells, strings, merges and saved formula caches with Python standard library; execute no formulas or author code. Derive checkmark counts using A31 footnote and compare reported totals and prior GEO groups. Expand actual merges only. Preserve leading-zero slide IDs and raw lesion text without parsing parentheses. Exact symbol membership after trimming whitespace only; no ortholog/synonym mapping. Independent bundled openpyxl read checks source cells, merges, joins and arithmetic; no production parser import.",
+  "missingness_and_exclusions": "Blank cells retain blank provenance; a blank participation cell is not marked, not proof of absent tissue. Original/reviewed P7 mapping and P6 VCF identity remain assessed separately. Unknown block/section/core IDs stay empty. Absent from custom add-on is distinct from unmeasured in full assay. Human and mouse lists are separate; DEG summaries are not raw outcomes.",
+  "multiplicity": "Metadata enumeration and exact list membership only; no hypothesis tests, differential-expression reanalysis or favorable endpoint selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite source audit; no effect size, power, biological precision or cell-based patient inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "New source access qualifies published definitions and aggregate provenance, not barcode pathology/ROI geometry, full measured panels, causal mechanism, clone/fate, independent validation or scientific acceptance. Existing A11/A12/A13 unfavorable findings remain.",
+  "stop_rule": "Refuse checksum/schema/duplicate-key ambiguity, unsupported participation marks, overlapping merges or verifier disagreement. Record source conflicts rather than harmonize them. Preserve failed run bytes and use a new contract/version if code or design needs correction. No expression-derived labels, imputed panel genes or fabricated core/library IDs.",
+  "inputs": [
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-2.xlsx",
+      "sha256": "43e8e406addcda3180bde3d89ea840e8f4491cf1ee3759ba1f04ad4b0e9ad188",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-3.xlsx",
+      "sha256": "d1c2333ab6031b83fe3cafd2a2fd274e802399c0f54cda50cd37f0238b2158b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-4.xlsx",
+      "sha256": "043ff6c684dfabd24945c5dfc08c9bce913707a978d1971fb7fbb851546ea7b0",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-5.xlsx",
+      "sha256": "e7271db824aa022c449cc7c6fbdb28d21eaf58db38e03c2fa7a62ac5d7730fcc",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-6.xlsx",
+      "sha256": "a899b9fb564243a5c6b7795e2dcc6b8dfd86c0b8eabcf4798fa9a7e1e36fa090",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/NIHMS2118436-supplement-7.xlsx",
+      "sha256": "b76414f18ac29e728f84b2ecc295afbf70dcf04061b263ab85d6757aacd0a53c",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/peng_supplements_20261108/intake_v1.json",
+      "sha256": "80fab90e10fc14139eac1496f92f6fc49fc67bb565122df0b0ea91b54d389995",
+      "study_id": "Peng2026_supplementary_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/samples.csv",
+      "sha256": "dec0d15076a05ff93ca54d9de0a85a2a8fac76b35395f2c87837f85350962087",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/summary.json",
+      "sha256": "1f75fc7037cee3b49d728f96e5b59d08507afb6beafb77d50acc1cc90e123346",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
+      "sha256": "b21642b6020d98f891cf8c7e91b0faabb90d70bd812dd3d3229d336d3bb480b8",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+      "study_id": "Peng2026_prior_exposed_metadata_and_A12_definitions",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v1.py",
+      "sha256": "7e8528e3e7828a03f68754c77f01dac5fef7d58b22e923c40cbe49b75bff85a8"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/verify_supplements_v1.py",
+      "sha256": "2c0008d91e9b0489e5a7e9c3fda40009b8246dc90ef7def40aa05ce36730fd15"
+    },
+    {
+      "path": "Research Article/ungated_peng_2026_spatial_omics/scripts/test_supplements_v1.py",
+      "sha256": "727d748dbc7a2df7d6f0e62ffacd85264c0a02f934cd7db4fa86bd480cbeb2ec"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_peng_2026_spatial_omics/scripts/supplements_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_cells.csv",
+    "sheet_manifest.csv",
+    "source_manifest.json",
+    "discovery_clinical.csv",
+    "clinical_GEO_comparison.csv",
+    "platform_participation.csv",
+    "participation_totals.csv",
+    "xenium_participation.csv",
+    "TMA_groups.csv",
+    "TMA_totals.csv",
+    "gene_lists.csv",
+    "gene_list_inventory.csv",
+    "published_DEG_summaries.csv",
+    "seqIF_COMET_metadata.csv",
+    "A12_addon_membership.csv",
+    "A12_published_list_overlaps.csv",
+    "qualification_issues.csv",
+    "summary.json",
+    "verification.json"
+  ],
+  "amendment_of": "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v3.json",
+  "amendment_reason": "Prospective source-addition stage after owner supplied Tables S1-S6. Extends source availability and reassesses holds; previous metadata_v3 code, outputs, contract and receipt remain immutable and are not rerun or replaced."
+}
