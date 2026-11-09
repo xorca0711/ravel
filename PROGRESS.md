@@ -2,6 +2,12 @@
 
 ## Navarro publication and Saxton navigation — 9 November 2026
 
+Published `codex/navarro-aging-fit-20261108` and opened
+[PR #174](https://github.com/xorca0711/ravel/pull/174) against `main`.
+The PR is open for review and has not been merged; its GitHub checks own the
+live publication status. Remaining review includes the scientific limits and
+the existing cloud-fallback policy paragraph described below.
+
 Owner requested publication of the completed paper assessment, metadata audit
 and technical results as a PR targeting main. Refreshed main is `471d0c2` and
 is already an ancestor of the scoped branch; both GitHub connector and CLI
