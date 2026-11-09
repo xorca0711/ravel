@@ -192,7 +192,10 @@ contracts have pre-extension snapshots under the extension metadata/history.
 
 Saxton IL-10 is roadmap paper **7 / Gate 3A**. Its current entry is
 [`gate3_07_saxton_2021_il10/`](../../Research%20Article/gate3_07_saxton_2021_il10/README.md),
-corrected on 8 November. `ungated_saxton_2021_il10/` retains frozen analysis
+with [current results](../../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md)
+and [figure gallery](../../Research%20Article/gate3_07_saxton_2021_il10/FIGURES.md)
+under that same Gate 3A home (navigation completed 9 November).
+`ungated_saxton_2021_il10/` retains frozen analysis
 evidence and historical references; it is not the current classification or entry
 folder. Sx10-P01, all A0-A35 and every other article-local candidate retain their
 identities. These entry corrections do not move evidence, duplicate analyses,

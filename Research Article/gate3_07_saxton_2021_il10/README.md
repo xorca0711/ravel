@@ -2,13 +2,14 @@
 
 **Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../ungated_navarro_negredo_2026_aged_brain_il10/README.md)
 connects published D25K effects in the aged neural niche to this paper's
-myeloid/T-cell selectivity problem. It adds separate functional evidence, not
-replication of the existing super-10/10-DE RNA contrasts. Pooled sequencing,
-missing young-treatment arms and behavioral-statistics access limits are explicit.
-The owner placed this study in a separate ungated package; no adopted RQ.
+myeloid/T-cell selectivity problem. Its completed [animal reproduction](../ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
+and [pooled RNA description](../ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
+retain nonsignificant direct cognition tests, source/dose holds and missing
+young-treatment arms. This is separate evidence, not replication of the existing
+super-10/10-DE RNA contrasts. Navarro remains ungated; Saxton remains Gate 3A.
 
-**Completed technical description, 8 November 2026:** [results](../ungated_saxton_2021_il10/RESULTS.md),
-[three figures](../ungated_saxton_2021_il10/FIGURES.md), [source qualification](../ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md),
+**Completed technical description, 8 November 2026:** [Gate 3A results](RESULTS.md),
+[three figures](FIGURES.md), [source qualification](../ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md),
 [completion/hold ledger](../ungated_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../ungated_saxton_2021_il10/VALIDATION.md).
 10-DE responses are broadly weaker; super-10 has stable mixed target directions.
 CCL1 remains omission-sensitive. Population inference and exact replay are held.
@@ -26,7 +27,9 @@ data. These are exposed source descriptions, not scientific acceptance or mechan
 This is roadmap paper **7, Gate 3A**, in the current
 `gate3_07_saxton_2021_il10` entry folder. The old `ungated_saxton_2021_il10`
 directory preserves frozen analysis evidence; it does not classify this paper
-as ungated. Sx10-P01 and the authorized analysis scope are unchanged.
+as ungated. Current result and gallery entry pages also live in this Gate 3A
+folder (navigation completed 9 November). Sx10-P01 and the authorized analysis
+scope are unchanged.
 
 **Article-local owner Sx10-P01**, registered 8 November 2026 after checking the
 current registry (36 canonical RQs, 38 pre-existing article-local candidates).

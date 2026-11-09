@@ -1,8 +1,13 @@
-> **Historical evidence location.** The current entry is [gate3_07_saxton_2021_il10](../gate3_07_saxton_2021_il10/README.md).
-> The original directory name is retained for frozen provenance, not gate classification.
-> The documentation below is the preserved pre-correction entry; follow the current entry for navigation.
+# Saxton IL-10 — Gate 3A archived evidence
 
-# Saxton 2021 IL-10: activated CD8 RNA source description
+**This paper is Gate 3A, paper 7.** The `ungated_` directory name is historical;
+it is retained because frozen contracts, scripts and receipts bind these paths.
+Use the [current study entry](../gate3_07_saxton_2021_il10/README.md),
+[Gate 3A results](../gate3_07_saxton_2021_il10/RESULTS.md) and
+[Gate 3A figure gallery](../gate3_07_saxton_2021_il10/FIGURES.md).
+The pre-correction study entry below remains as history.
+
+## Preserved study entry: activated CD8 RNA source description
 
 **Completed technical description, 8 November 2026:** [results](RESULTS.md),
 [three figures](FIGURES.md), [source qualification](SOURCE_QUALIFICATION.md),

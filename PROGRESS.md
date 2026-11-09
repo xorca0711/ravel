@@ -1,5 +1,28 @@
 # Current project state
 
+## Navarro publication and Saxton navigation — 9 November 2026
+
+Owner requested publication of the completed paper assessment, metadata audit
+and technical results as a PR targeting main. Refreshed main is `471d0c2` and
+is already an ancestor of the scoped branch; both GitHub connector and CLI
+identities verified as `xorca0711` before publication.
+
+Saxton IL-10 remains **Gate 3A, paper 7**. Its result and gallery navigation now
+use the [Gate 3A home](Research%20Article/gate3_07_saxton_2021_il10/README.md);
+the legacy `ungated_` README explicitly identifies an evidence archive. Frozen
+Saxton files and their paths are preserved. Navarro stays a separate ungated
+package, and its article-index row now reflects completed animal/RNA work.
+
+The PR must retain the direct cognition null tests, mixed RNA markers, unresolved
+alias/dose/donor joins, 38/40 statistic reconciliation and unmatched endpoint
+units/cohorts. The existing AGENTS cloud-fallback paragraph is explicit policy
+review material in this branch; no validator or scientific acceptance changed.
+Pre-push validation passed: 18,754 repository checks, the base-aware research
+gate against `471d0c2`, and 424 focused local links. All 38 non-README Saxton
+package files preserve their content, accounting for existing checkout line
+endings; no frozen scientific file was edited. Prior numerical verification,
+receipt checks and the 167-test suite remain valid for this documentation change.
+
 ## Navarro pooled RNA execution — 8 November 2026
 
 [RNA results and measured SVGs](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
