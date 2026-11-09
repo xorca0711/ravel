@@ -1,0 +1,347 @@
+{
+  "object_class": "Seurat",
+  "object_slots": ["assays", "meta.data", "active.assay", "active.ident", "graphs", "neighbors", "reductions", "images", "project.name", "misc", "version", "commands", "tools"],
+  "object_version": "4.1.3",
+  "default_assay": "SCT",
+  "assays": {
+    "RNA": {
+      "class": "Assay",
+      "slots": ["counts", "data", "scale.data", "key", "assay.orig", "var.features", "meta.features", "misc"],
+      "matrices": {
+        "counts": {
+          "class": "dgCMatrix",
+          "dim": [31053, 51176],
+          "sparse": true,
+          "stored_entries": 97480441
+        },
+        "data": {
+          "class": "dgCMatrix",
+          "dim": [31053, 51176],
+          "sparse": true,
+          "stored_entries": 97480441
+        },
+        "scale.data": {
+          "class": ["matrix", "array"],
+          "dim": [2000, 51176],
+          "sparse": false,
+          "stored_entries": 102352000
+        }
+      }
+    },
+    "SCT": {
+      "class": "SCTAssay",
+      "slots": ["SCTModel.list", "counts", "data", "scale.data", "key", "assay.orig", "var.features", "meta.features", "misc"],
+      "matrices": {
+        "counts": {
+          "class": "dgCMatrix",
+          "dim": [20200, 51176],
+          "sparse": true,
+          "stored_entries": 88123371
+        },
+        "data": {
+          "class": "dgCMatrix",
+          "dim": [20200, 51176],
+          "sparse": true,
+          "stored_entries": 88123371
+        },
+        "scale.data": {
+          "class": ["matrix", "array"],
+          "dim": [3000, 51176],
+          "sparse": false,
+          "stored_entries": 153528000
+        }
+      }
+    }
+  },
+  "metadata_columns": {
+    "orig.ident": {
+      "class": "character",
+      "missing": 0,
+      "unique_values": 8,
+      "levels": ["Control", "WT1", "Mut1", "WT5", "Mut5", "WT50", "Mut50", "Young"]
+    },
+    "nCount_RNA": {
+      "class": "numeric",
+      "missing": 0,
+      "unique_values": 11833,
+      "levels": null,
+      "quantiles": [1001, 2493, 3944, 6227, 47830]
+    },
+    "nFeature_RNA": {
+      "class": "integer",
+      "missing": 0,
+      "unique_values": 4381,
+      "levels": null,
+      "quantiles": [501, 1292, 1764, 2322, 7683]
+    },
+    "percent.mt": {
+      "class": "numeric",
+      "missing": 0,
+      "unique_values": 45347,
+      "levels": null,
+      "quantiles": [0, 1.5931394602326281, 2.2119815668202767, 3.0896513661825789, 9.9939430648092067]
+    },
+    "nCount_SCT": {
+      "class": "numeric",
+      "missing": 0,
+      "unique_values": 2285,
+      "levels": null,
+      "quantiles": [2711, 3451, 3913, 4463, 7472]
+    },
+    "nFeature_SCT": {
+      "class": "integer",
+      "missing": 0,
+      "unique_values": 2462,
+      "levels": null,
+      "quantiles": [479, 1295, 1723, 2110, 3564]
+    },
+    "SCT_snn_res.0.15": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 14,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+    },
+    "seurat_clusters": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 15,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+    },
+    "S.Score": {
+      "class": "numeric",
+      "missing": 0,
+      "unique_values": 45922,
+      "levels": null,
+      "quantiles": [-0.13469444097645764, -0.041346815606788434, -0.023453704335264974, -0.00073612081747377427, 0.9323968959490353]
+    },
+    "G2M.Score": {
+      "class": "numeric",
+      "missing": 0,
+      "unique_values": 51175,
+      "levels": null,
+      "quantiles": [-0.16942463669756092, -0.081185491450789404, -0.056982752741253438, -0.030846608931488807, 1.6089510220493017]
+    },
+    "Phase": {
+      "class": "character",
+      "missing": 0,
+      "unique_values": 3,
+      "levels": ["G1", "G2M", "S"]
+    },
+    "SCT_snn_res.0.1": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 13,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
+    },
+    "Celltype.low": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 12,
+      "levels": ["Microglia", "Endothelial", "Oligodendrocytes", "Neuroblasts", "Astrocytes_qNSCs", "Mural_cells", "aNSCs_NPCs", "Ependymal/Mix", "Macrophages", "T_cells", "Neurons", "Remove", "OPC"]
+    },
+    "SCT_snn_res.0.4": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 23,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+    },
+    "SCT_snn_res.0.3": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 20,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
+    },
+    "SCT_snn_res.0.2": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 15,
+      "levels": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+    },
+    "Celltype": {
+      "class": "factor",
+      "missing": 0,
+      "unique_values": 12,
+      "levels": ["Microglia", "Endothelial", "Oligodendrocytes", "Neuroblasts", "Astrocytes_qNSCs", "Mural_cells", "aNSCs_NPCs", "Remove", "Macrophages", "T_cells", "Ependymal", "Neurons", "OPC"]
+    }
+  },
+  "commands": {
+    "NormalizeData.RNA": {
+      "class": "SeuratCommand",
+      "name": "NormalizeData.RNA",
+      "assay_used": "RNA",
+      "call": "NormalizeData(svz)",
+      "params": {
+        "assay": "RNA",
+        "normalization.method": "LogNormalize",
+        "scale.factor": 10000,
+        "margin": 1,
+        "verbose": true
+      }
+    },
+    "FindVariableFeatures.RNA": {
+      "class": "SeuratCommand",
+      "name": "FindVariableFeatures.RNA",
+      "assay_used": "RNA",
+      "call": "FindVariableFeatures(svz)",
+      "params": {
+        "assay": "RNA",
+        "selection.method": "vst",
+        "loess.span": 0.29999999999999999,
+        "clip.max": "auto",
+        "mean.function": {
+          "class": "function",
+          "content": "not serialized"
+        },
+        "dispersion.function": {
+          "class": "function",
+          "content": "not serialized"
+        },
+        "num.bin": 20,
+        "binning.method": "equal_width",
+        "nfeatures": 2000,
+        "mean.cutoff": [0.10000000000000001, 8],
+        "dispersion.cutoff": [1, null],
+        "verbose": true
+      }
+    },
+    "ScaleData.RNA": {
+      "class": "SeuratCommand",
+      "name": "ScaleData.RNA",
+      "assay_used": "RNA",
+      "call": "ScaleData(svz)",
+      "params": {
+        "features": {
+          "length": 2000,
+          "head": ["Ttr", "Hbb-bs", "Hba-a1", "Hba-a2", "S100a9", "S100a8", "Spp1", "Cxcl13", "Hbb-bt", "Ccl8"]
+        },
+        "assay": "RNA",
+        "model.use": "linear",
+        "use.umi": false,
+        "do.scale": true,
+        "do.center": true,
+        "scale.max": 10,
+        "block.size": 1000,
+        "min.cells.to.block": 3000,
+        "verbose": true
+      }
+    },
+    "SCTransform.RNA": {
+      "class": "SeuratCommand",
+      "name": "SCTransform.RNA",
+      "assay_used": "RNA",
+      "call": "SCTransform(svz)",
+      "params": {
+        "assay": "RNA",
+        "new.assay.name": "SCT",
+        "do.correct.umi": true,
+        "ncells": 5000,
+        "variable.features.n": 3000,
+        "variable.features.rv.th": 1.3,
+        "do.scale": false,
+        "do.center": true,
+        "clip.range": [-42.29538981969548, 42.29538981969548],
+        "conserve.memory": false,
+        "return.only.var.genes": true,
+        "seed.use": 1448145,
+        "verbose": true
+      }
+    },
+    "RunPCA.SCT": {
+      "class": "SeuratCommand",
+      "name": "RunPCA.SCT",
+      "assay_used": "SCT",
+      "call": "RunPCA(svz, verbose = FALSE)",
+      "params": {
+        "assay": "SCT",
+        "npcs": 50,
+        "rev.pca": false,
+        "weight.by.var": true,
+        "verbose": false,
+        "ndims.print": [1, 2, 3, 4, 5],
+        "nfeatures.print": 30,
+        "reduction.name": "pca",
+        "reduction.key": "PC_",
+        "seed.use": 42
+      }
+    },
+    "FindNeighbors.SCT.pca": {
+      "class": "SeuratCommand",
+      "name": "FindNeighbors.SCT.pca",
+      "assay_used": "SCT",
+      "call": "FindNeighbors(svz, dims = 1:20)",
+      "params": {
+        "reduction": "pca",
+        "dims": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "assay": "SCT",
+        "k.param": 20,
+        "return.neighbor": false,
+        "compute.SNN": true,
+        "prune.SNN": 0.066666666666666666,
+        "nn.method": "annoy",
+        "n.trees": 50,
+        "annoy.metric": "euclidean",
+        "nn.eps": 0,
+        "verbose": true,
+        "force.recalc": false,
+        "do.plot": false,
+        "graph.name": ["SCT_nn", "SCT_snn"],
+        "l2.norm": false,
+        "cache.index": false
+      }
+    },
+    "FindClusters": {
+      "class": "SeuratCommand",
+      "name": "FindClusters",
+      "assay_used": "SCT",
+      "call": "FindClusters(svz, resolution = 0.2)",
+      "params": {
+        "graph.name": "SCT_snn",
+        "modularity.fxn": 1,
+        "resolution": 0.20000000000000001,
+        "method": "matrix",
+        "algorithm": 1,
+        "n.start": 10,
+        "n.iter": 10,
+        "random.seed": 0,
+        "group.singletons": true,
+        "verbose": true
+      }
+    },
+    "RunUMAP.SCT.pca": {
+      "class": "SeuratCommand",
+      "name": "RunUMAP.SCT.pca",
+      "assay_used": "SCT",
+      "call": ["RunUMAP(svz, dims = 1:20, min.dist = 0.3, spread = 1.5, ", "    seed.use = 42)"],
+      "params": {
+        "dims": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "reduction": "pca",
+        "assay": "SCT",
+        "slot": "data",
+        "umap.method": "uwot",
+        "return.model": false,
+        "n.neighbors": 30,
+        "n.components": 2,
+        "metric": "cosine",
+        "learning.rate": 1,
+        "min.dist": 0.29999999999999999,
+        "spread": 1.5,
+        "set.op.mix.ratio": 1,
+        "local.connectivity": 1,
+        "repulsion.strength": 1,
+        "negative.sample.rate": 5,
+        "uwot.sgd": false,
+        "seed.use": 42,
+        "angular.rp.forest": false,
+        "densmap": false,
+        "dens.lambda": 2,
+        "dens.frac": 0.29999999999999999,
+        "dens.var.shift": 0.10000000000000001,
+        "verbose": true,
+        "reduction.name": "umap",
+        "reduction.key": "UMAP_"
+      }
+    }
+  },
+  "donor_resembling_fields": "orig.ident",
+  "donor_assignment_provenance": "A column name, pool size, barcode prefix or orig.ident is not individual mouse assignment; source S1 says no multiplexing."
+}

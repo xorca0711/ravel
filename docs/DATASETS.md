@@ -269,6 +269,7 @@ gate does not mean a dataset has no scientific value or does not exist.
 
 | Candidate | Material inspected and current decision | Exact remaining gate / evidence |
 |---|---|---|
+| [PRJNA1365936](https://www.ebi.ac.uk/ena/browser/view/PRJNA1365936); [Zenodo 17594828](https://doi.org/10.5281/zenodo.17594828); [code 18174039](https://doi.org/10.5281/zenodo.18174039) | Nn26-P01 ungated: sources and 16 animal panels audited; main RDS checksum-qualified in cloud (51,176 cells, 31,053 genes). Pooled RNA description complete: 306 summaries, 357 contrasts, 4,245 independent scalar checks | One library/pool per condition; no donor attribution or young treatment arms. Eight aliases exceed six reported main libraries; WT1/Mut1 numeric dose unverified and WT50/Mut50 expression held. No FASTQ/optional object acquired. [Animal results](../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md), [RNA results](../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md), [stage ledger](../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md) |
 | [GSE303646](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303646) | A5 author code, GEO and library metadata; no new expression score | 56 matched libraries and relevant author labels recovered, but barcode-to-state/mouse map and 55-mice/56-libraries reconciliation remain missing. [Recovery](../RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/REPORT.md) |
 | [GSE123902](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123902) | A12 metadata-only gate fails; no matrix opened | Three title-matched normal/tumour pairs, at most four possible pairs; below unchanged ten-pair floor. [Recovery](../RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md) |
 | [GSE148071](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148071) | A12 metadata/source gate fails; no matrix opened | 42 tumour biopsies, no separate matched normal arm. [Recovery](../RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md) |
@@ -818,8 +819,10 @@ objects; the source release and layer must travel with any reuse.
 ### Remaining accession locators
 
 Every identifier in the preserved 544-identifier census appears in this page.
-The merged Saxton sources and screens add 19 identifiers, for 563 source/project
-identifiers represented here; these remain distinct from utilized-dataset counts.
+The merged Saxton sources and screens added 19 identifiers, bringing that
+consolidation to 563 source/project identifiers. The subsequently inspected
+Navarro Negredo project PRJNA1365936 is recorded above; the historical census
+is not a current utilized-dataset count.
 The remaining rows below record aliases, metadata relations and search/literature
 locators that lack a separate executed-use disposition in the reviewed summaries.
 Their linked records show the actual mention; explicit metadata decisions are

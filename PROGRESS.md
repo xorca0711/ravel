@@ -1,5 +1,63 @@
 # Current project state
 
+## Navarro publication and Saxton navigation — 9 November 2026
+
+Published `codex/navarro-aging-fit-20261108` and opened
+[PR #174](https://github.com/xorca0711/ravel/pull/174) against `main`.
+The PR is open for review and has not been merged; its GitHub checks own the
+live publication status. Remaining review includes the scientific limits and
+the existing cloud-fallback policy paragraph described below.
+
+Owner requested publication of the completed paper assessment, metadata audit
+and technical results as a PR targeting main. Refreshed main is `471d0c2` and
+is already an ancestor of the scoped branch; both GitHub connector and CLI
+identities verified as `xorca0711` before publication.
+
+Saxton IL-10 remains **Gate 3A, paper 7**. Its result and gallery navigation now
+use the [Gate 3A home](Research%20Article/gate3_07_saxton_2021_il10/README.md);
+the legacy `ungated_` README explicitly identifies an evidence archive. Frozen
+Saxton files and their paths are preserved. Navarro stays a separate ungated
+package, and its article-index row now reflects completed animal/RNA work.
+
+The PR must retain the direct cognition null tests, mixed RNA markers, unresolved
+alias/dose/donor joins, 38/40 statistic reconciliation and unmatched endpoint
+units/cohorts. The existing AGENTS cloud-fallback paragraph is explicit policy
+review material in this branch; no validator or scientific acceptance changed.
+Pre-push validation passed: 18,754 repository checks, the base-aware research
+gate against `471d0c2`, and 424 focused local links. All 38 non-README Saxton
+package files preserve their content, accounting for existing checkout line
+endings; no frozen scientific file was edited. Prior numerical verification,
+receipt checks and the 167-test suite remain valid for this documentation change.
+
+## Navarro pooled RNA execution — 8 November 2026
+
+[RNA results and measured SVGs](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
+and [seven-stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+record completed Nn26-P01 metadata qualification and exposed description.
+The main RDS has eight aliases rather than the six published libraries; extra
+WT50/Mut50 expression comparisons are held. WT5/Mut5 has an indirect main-figure
+dose association; WT1/Mut1 numeric dose remains unverified. Broad microglia do
+not recreate the downstream subcluster exclusion. Mixed marker directions,
+sparse control T cells and absent biological replication remain explicit.
+
+All 306 summaries and 357 contrasts passed 4,245 independent scalar checks.
+The original serializer failure and 192 captured row-name warnings are preserved
+and explained; successful stage receipts verify. Only the authorized main RDS
+and exact small author-code ZIP were acquired. Scoped cloud validation covers
+contracts, frozen code, input identities and receipts. The verified cloud bundle
+is now imported into the scoped desktop branch, retaining the earlier animal
+evidence and all freeze commits. All nine successful Navarro receipts and 101
+receipt-bound working/Git files match their hashes. Repository and base-aware
+provenance checks pass against refreshed main `471d0c2`; the existing 167-test
+run (two skips) remains valid. [Integrated validation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/VALIDATION.md)
+records transfer integrity, 90 report checks and preservation of unrelated work.
+[Primary-source interpretation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md)
+links exact published figures and retained exceptions. Next: source/barcode/dose
+crosswalk only if obtained; WT50/Mut50 contrasts and population inference remain
+held. No further cloud setting or optional acquisition is needed for this run.
+No scientific acceptance, push, publication, author contact, environment-policy
+change or mounted Weft modification occurred.
+
 ## Peng biological review and PR synthesis — 8 November 2026
 
 [Review and job ledger](Research%20Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md)
@@ -89,6 +147,130 @@ are recorded with preservation results. Original checkout and unrelated changes
 are preserved. No push, PR, merge, author message, restricted-access request,
 Notion edit, paid compute or NGS run. Restricted Zenodo access is unchanged;
 there is no new external account setting to resolve for this completed intake.
+
+## Navarro animal stages executed; cloud runtime/acquisition verified — 8 November 2026
+
+Owner-authorized execution registered **Nn26-P01** in the separate ungated
+package. [Results and figures](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
+and [stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+link three frozen contracts and verified receipts. Public publisher CDN supplied
+valid S1/S4; prior blocked routes are retained. Source audit checked 180 cells;
+16 animal panels passed 657 independent checks. A narrow frozen diagnostic
+verified exact tied-rank options with 34 enumerations and 34 SciPy comparisons.
+
+Direct cognition P=0.1299/0.649 is nonsignificant, separately from reproduced
+chance tests. Neurogenesis comparisons reproduce, including nonsignificant
+D25K/WT; combined nesting mixes doses/cohorts. Exact absolute-tail calculations
+match 38/40 reported direct tests within 0.0001. Open-field formulas omit the
+first listed mouse; its P value and WT/control IFITM3 P remain discrepant.
+No values were removed to force agreement. Stored-scale and mouse-key limits remain.
+
+[Cloud evidence](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md)
+now supersedes the initial network/runtime blocker. The owner's newer cloud
+chat `01a1ba3e-f795-73e9-aa71-4c20e962d094` verified Zenodo access, isolated
+R 4.5.0/Matrix 1.7-3/SeuratObject 5.0.2 and synthetic v3/v5 object checks.
+Only the main RDS was acquired; exact size/MD5 and an independently reread
+SHA-256 passed at 08:38 UTC. The 16 GiB executor retains the file in tmpfs;
+actual loading/peak memory remain untested. Full Seurat is not installed.
+No biological object was opened and the mounted Weft repository was untouched.
+No further setting change is currently evidenced as necessary; a separate
+“Ravel pilot” is not required. Local R/memory limitations remain.
+Next: confirm retained cloud inputs/runtime, transfer scoped Ravel code,
+freeze the hash-bound metadata contract, then qualify the object through the
+repository runner. RNA description remains dependent on that result; optional
+sources have not run and no FASTQ was downloaded. The overall plan is unfinished.
+
+At the owner's request, repository-root AGENTS.md now directs hardware-constrained
+work to verified cloud/remote resources while retaining contracts and access
+boundaries. This policy addition needs explicit review before integration; no
+validator or scientific boundary was weakened. Unrelated checkout work and all
+33 byte-identical historical status paths remain untouched. No push/merge,
+claim promotion or author contact. This Ravel worktree made no external
+configuration change; the owner's separate setup is reflected in the new logs.
+
+Validation passed: 18,341 repository checks, base-aware research gate against
+freshly verified unchanged main `1ff71a1`, compilation, and 167 tests (two skips).
+All three receipts verify; whitespace checks pass. Prior archive/claim verifications
+remain applicable because their inputs/code are unchanged. Local commits retain
+the stages and this handoff; no push or merge.
+
+The owner subsequently authorized completing the RNA stages in the cloud.
+Main `471d0c2` (Peng PR #173) is now integrated locally at `72a266a`, retaining
+both paper packages, all 41 article candidates, and all frozen evidence. This
+resolves the earlier base-aware failure recorded in `cloud_status_gate.log`.
+Validation after reconciliation passed 18,624 repository checks and the research
+gate against `471d0c2`; existing generated SVG/log whitespace was preserved.
+The cloud reverified its runtime and RDS and prepared disk-backed Ravel checkout
+`/workspace/navarro_2026/ravel`. Exact scoped context was transferred without
+publication; metadata and descriptive contracts must be frozen separately there.
+Return frozen code, receipts and compact outputs for local verification and
+synthesis. No new biological result is claimed until those runs finish.
+
+## Navarro metadata follow-up and analysis plan — 8 November 2026
+
+Completed the owner's [metadata scan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md)
+and [stepwise plan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md)
+in the separate ungated package on `codex/navarro-aging-fit-20261108`.
+Recovered experiment-level ages/dates/tissues from all six BioSamples and
+chemistry/platform from four treatment-library records. Methods distinguish
+0.02 mg/mL main RNA/cognition from 0.1 mg/mL olfactory-bulb measurements,
+document randomized cognition allocation and some blinded readouts, and expose
+panel-specific denominator and precision-reporting questions for S4.
+
+No individual mouse assignment, added biological replicate or young treatment
+arm was recovered. S1/S4 remain unread: direct routes returned HTML/403,
+the replacement PMC cloud excludes this manuscript's media, and a normal
+article download reached browser verification. No challenge was bypassed or
+author contacted. Exact sources, access limits and snapshot hashes are in the
+follow-up. No large matrix, numerical biological run, new candidate/contract,
+scientific promotion or external setting change.
+
+Next: recover readable S1/S4 and qualify panel/mouse/cohort/dose mappings, then
+freeze stage-specific contracts before numerical reuse. Prioritize direct
+animal-level outcome comparisons; qualify the main RDS separately for bounded
+within-dose RNA description. Optional auxiliary sources require a specific
+unresolved comparison. This is a plan, not a run authorization or result.
+
+Validation passed: 18,267 repository checks, the research gate against freshly
+fetched main `1ff71a1`, 28 package-local links and four source-snapshot hashes.
+The earlier passing code tests/archive checks remain applicable to this
+documentation-only update. The 33 historical files reported modified by Git
+were verified byte-identical to HEAD and remain unstaged. No push or PR.
+
+## Navarro Negredo aged-brain paper assessed — 8 November 2026
+
+Completed the owner-requested [fit assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md)
+and [data/source audit](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/DATA_USAGE.md)
+on `codex/navarro-aging-fit-20261108`, based on freshly fetched main `1ff71a1`.
+The paper is a strong Saxton IL-10 companion: D25K connects immune selectivity
+to aged-niche neurogenesis/behavior, with distinct assays and interpretation
+limits. The primary IL-10 sequencing pools lack animal-level treatment
+replication and young-treatment arms. Age-associated decline is not a defined
+injury-repair experiment; D25K is absent from Ravel's existing Saxton RNA arms.
+
+Verified PRJNA1365936's 20 run records, the five-object Zenodo manifest, frozen
+author-code archive and a later figure correction. Recovered PMC XML identifies
+S1/S4, but their downloads returned HTML rather than spreadsheets; complete
+between-group behavioral statistics and processed-object metadata remain unread.
+No large matrices, FASTQs, biological reruns, RQ/claim promotions or external
+setting changes. Existing checkout edits and frozen evidence are preserved.
+
+Next if numerical reuse is selected: recover S1/S4 and supplements, qualify the
+object's condition/dose/pool mappings under a new contract, then decide whether
+a bounded within-dose D25K/WT description is informative. The owner selected a separate ungated package; article/topic navigation, the
+outside-roadmap source record and public source register reflect that placement.
+No numerical analysis or new candidate is launched. Validation passed: 18,245
+repository checks, the base-aware research gate, 167 tests (two skips),
+compilation, all required archive verifiers and 18 unchanged claim bindings.
+The initial sandbox temporary-directory failures were resolved by using this
+chat's writable test directory. Fresh-checkout gate failures required restoring
+33 historical files to exact HEAD bytes after confirming only line endings
+differed, plus 15 absent published outputs from an existing hash-locked local
+cache. No historical content or validators changed; byte-preserved files remain
+unstaged if Git's line-ending conversion reports them as modified.
+Main was refreshed and remains `1ff71a1`. Final editorial checks cover the
+separate placement, topic counts, local links and unchanged ordered reading list.
+The package is local; no push, PR, merge or external setting change occurred.
 
 ## Remaining top-level documentation organized — 8 November 2026
 

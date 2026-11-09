@@ -1,0 +1,14 @@
+{
+  "source": "/tmp/navarro_2026/data/IL10_svz_seurat.rds",
+  "execution_path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+  "size_bytes": 2188161276,
+  "sha256": "b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559",
+  "original_preserved": true,
+  "execution_storage": "disk-backed overlay",
+  "original_storage": "tmpfs; remains allocated",
+  "memory_limit_bytes": 17179869184,
+  "r": "4.5.0",
+  "Matrix": "1.7-3",
+  "SeuratObject": "5.0.2",
+  "reason": "Repository runner requires in-root raw input; disk-backed copy permits reclaimable file cache. Original verified copy is preserved."
+}

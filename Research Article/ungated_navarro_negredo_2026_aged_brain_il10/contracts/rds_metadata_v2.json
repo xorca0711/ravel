@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.rds_metadata_v2",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which cells, condition aliases, annotations and RNA layers are actually retained in the main Navarro IL10 Seurat deposit?",
+  "decision": "Determine eligibility and scope for a separately frozen finite-pool RNA description; hold uncertain aliases/layers and retain absent donor provenance.",
+  "strongest_rival": "Mistaken alias-to-dose, cell-population or assay-layer identity could create an apparent ligand difference; one condition pool cannot establish independent mouse replication.",
+  "discriminator": "Compare actual object fields and alignment with immutable S1/source crosswalk and archived author code; independently reconstruct sampled RNA normalization. This cannot recover physically pooled mice.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper figures, captions, published markers, source/animal results and author code exposed. The biological RDS has not been deserialized before this first metadata freeze; earlier acquisition used only opaque byte hashes. V1 exposed object class Seurat and peak operational memory only before version serialization failed; no inventory or normalization results were produced.",
+  "biological_unit": "One deposited pool/library per condition; cells nested in the observed pool, not independent mice.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "S1 reports one old-control mouse and two pooled mice in the other main libraries, with no multiplexing. Shared controls serve both dose contrasts. Individual donor assignment requires separate provenance.",
+  "population_and_selection": "All retained cells in the authorized main IL10_svz_seurat.rds and original broad Celltype annotations. No fresh clustering, integration, downsampling or marker-based exclusion.",
+  "contrast": "Metadata eligibility across every observed condition and broad cell type; no treatment-expression contrasts in this stage.",
+  "endpoint": "Class/slot/layer inventory, barcode/matrix alignment, metadata completeness, cell recovery, QC threshold retention, donor-like fields/provenance and sampled log-normalization arithmetic.",
+  "methods": "R/Matrix/SeuratObject direct sparse slot access. Config fixes condition/annotation fields, deterministic condition-stratified cells and evenly spaced plus nonzero genes. Compare stored RNA data with log1p(count/library_total*recorded scale), tolerance 1e-10. Inventory command parameters and all observed aliases.",
+  "missingness_and_exclusions": "No new exclusions. Missing fields, absent genes/conditions, explicit sparse zeros, duplicate/misaligned barcodes and source discrepancies are reported. A failed required check stops dependent analyses rather than selecting favorable records.",
+  "multiplicity": "Metadata and arithmetic checks only; no inferential P values or confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate. Exact stored recovery counts and bounded numerical tolerance qualify file arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No biological replication, population treatment effect, age interaction, mediation or repair inference. Downstream microglia exclusions and filename changes must remain distinct from broad deposited cells.",
+  "stop_rule": "Stop on source hash mismatch, incompatible sparse layers, barcode/gene misalignment, incomplete required labels, invalid raw counts, or operational limits. Normalization mismatch holds descriptive RNA stage; preserve failures and use a new committed amendment for changes.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+      "sha256": "b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_source_qualification_v1/source_crosswalk.json",
+      "sha256": "3d2fe9d15234f9facd79a3e25014a8473a3a9d026b0c849c5091ba7f09fe7c2f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_source_qualification_v1/s1_mouse_metadata.json",
+      "sha256": "4db61383a2a5e7d6be04ab7493537c4ead092194cfa0b4f5fa47201982ee2caf",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_source_qualification_v1/code_audit.json",
+      "sha256": "e6a60904fb2690dea5d010536cc57b2cc44aad9b116dff56f3afe61331e034b9",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_source_qualification_v1/qualification.json",
+      "sha256": "f8aff8a5faeaa124d657311da410ec5055d9d6305175bbd115ebf88ab81545ac",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/transfer_manifest.json",
+      "sha256": "4622304a4a4b7e7e0ba2c91cd528e4bf94678a452859b0e1aa05dd554c178431",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/figure_captions.json",
+      "sha256": "89dd6a035cc402f4eec5cb147d92c514b1a26b6f95c6f826f22b9baae99f006f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/source_context/resource_choice.json",
+      "sha256": "a94576eae7a5604c64ab1840dd128448643425e3e67deded6b2527c91c0f995a",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+      "sha256": "5aee79b6e16166b5824198a56f8b6bf4af7820aaf81cf219982f843d75bbbe80"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_rds_v2.R",
+      "sha256": "cd007b9bf4448866ea3eead919450b298c97bbd16609093fe3e5d85124ad3cb6"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.config.json",
+      "sha256": "913b77e40a324e737d610b40e856d9749a1ac2db52630cdf9bf9ea9fc20fcaad"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+  "arguments": [
+    "--script",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_rds_v2.R",
+    "--config",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.config.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "object_inventory.json",
+    "alignment.json",
+    "recovery.tsv",
+    "barcode_prefixes.tsv",
+    "qc.json",
+    "normalization_samples.tsv",
+    "normalization.json",
+    "metadata_stage_status.json",
+    "R_session.txt",
+    "resource_usage.json",
+    "load_status.json"
+  ],
+  "amendment_of": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.json",
+  "amendment_reason": "V1 loaded the Seurat object but recursed serializing its numeric_version S3 list. V2 converts that class to its character version before recursive list handling. No sampling, QC, normalization or selection rule changes; failed receipt preserved."
+}

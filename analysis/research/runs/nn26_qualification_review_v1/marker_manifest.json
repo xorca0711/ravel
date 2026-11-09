@@ -1,0 +1,82 @@
+{
+  "vectors": {
+    "il10": {
+      "genes": [
+        "Il10ra",
+        "Il10rb",
+        "Jak1",
+        "Tyk2",
+        "Stat3",
+        "Socs3",
+        "Hmox1",
+        "Blvra",
+        "Blvrb",
+        "Bcl3",
+        "Etv3",
+        "Nfil3",
+        "Sbno2",
+        "Cdkn2d",
+        "Il1a",
+        "Il1b",
+        "Il6",
+        "Tnf",
+        "Tgfb1",
+        "Nfkbia",
+        "Ccl3",
+        "Ccl4",
+        "H2-Aa",
+        "H2-Eb1",
+        "H2-DMa",
+        "H2-Oa",
+        "H2-Ob",
+        "Cd86"
+      ],
+      "source_member": "PalomaNavarro-TargetingImmuneCellsSVZ-c08010b/IL10/2.Microglia.R",
+      "source_sha256": "2b5a1fe7e5178d9c7663421bbb993515a7ff61f862c3bcf99a04c28a2008ab5d",
+      "line_start": 295,
+      "line_end": 298,
+      "interpretation": "Individual transcript markers; no combined score or common favorable direction."
+    },
+    "ifng": {
+      "genes": [
+        "Stat1",
+        "Bst2",
+        "Isg15",
+        "Ifit1",
+        "Ifit2",
+        "Ifit3",
+        "Ifitm3",
+        "Ifitm1",
+        "Ifi27l2a",
+        "Ifi27",
+        "Irf2",
+        "Irf5",
+        "Irf7",
+        "Irf9",
+        "B2m",
+        "H2-K1",
+        "H2-D1",
+        "Ccl5",
+        "Gbp1",
+        "Adar"
+      ],
+      "source_member": "PalomaNavarro-TargetingImmuneCellsSVZ-c08010b/IL10/2.Microglia.R",
+      "source_sha256": "2b5a1fe7e5178d9c7663421bbb993515a7ff61f862c3bcf99a04c28a2008ab5d",
+      "line_start": 338,
+      "line_end": 338,
+      "interpretation": "Individual transcript markers; no combined score or common favorable direction."
+    },
+    "tcell_primary": {
+      "genes": [
+        "Ifng",
+        "Gzmb"
+      ],
+      "source_member": "PalomaNavarro-TargetingImmuneCellsSVZ-c08010b/IL10/3.Tcells.R",
+      "source_locator": "gene vector line 40; Gzmb-positive selection lines 66-70; published Fig.3K",
+      "interpretation": "All original T_cells; separately report Gzmb-positive subset with all-T denominator."
+    }
+  },
+  "hallmark_rda_present": false,
+  "hallmark_limit": "Exact Fig.4C hallmark score is not reproduced or replaced with a current gene set.",
+  "Figure3E_discrepancy": "Code plots Socs3; supplied published caption names Stat3. Both remain separate explicit markers."
+}

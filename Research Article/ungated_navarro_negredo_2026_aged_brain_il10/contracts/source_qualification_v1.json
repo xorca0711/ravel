@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.source_qualification_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which source, dose, pool and panel mappings are recoverable for the exposed Navarro IL-10 reproduction?",
+  "decision": "Qualify panel-wise animal reproduction and identify exact holds for subsequent RNA object qualification.",
+  "strongest_rival": "Source or dose misidentification and mistaken mouse independence would turn source values into unsupported comparisons.",
+  "discriminator": "Join ENA, BioSample, S1 and author code at experiment/library level; inspect workbook schemas and discrepancies without estimating treatment effects.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper Figures 1-7, correction, author code, S1 metadata and S4 individual values and P values were read before this freeze on 2026-11-08. No unexposed confirmation.",
+  "biological_unit": "Mouse for animal panels; pool/library for main RNA; source row is traceability only.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells and technical sections are nested; main RNA has one library per condition. Animal assay overlap cannot be reconstructed from row order.",
+  "population_and_selection": "Public source metadata and workbooks for aged male mouse IL-10 interventions; no new data selection based on significance.",
+  "contrast": "Metadata qualification of D25K, WT and vehicle at each reported exposure; young vehicle is contextual.",
+  "endpoint": "Source identities, worksheet inventory, pool counts, dose crosswalk, code-exclusion locators and feasibility decisions.",
+  "methods": "Parse original XLSX with openpyxl, raw OOXML for independent S1 cell verification, XML metadata and ENA TSV; preserve disagreements and code-alias unknowns.",
+  "missingness_and_exclusions": "Empty metadata rows omitted; absent fields remain unknown; no expression values or biological outcomes are filtered or estimated.",
+  "multiplicity": "Not applicable to source identity and feasibility checks; no inferential tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata audit has no biological effect precision claim or invented effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful metadata recovery cannot establish hidden donor labels, independent replication, causality or scientific acceptance.",
+  "stop_rule": "Fail on malformed workbook or duplicate run; unresolved identities hold only dependent numerical contrasts.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/source_v1/biosample.xml",
+      "sha256": "8cbd89be8c5f089e9ce224e6971a72b428ccef944b19111ba0349b275328dee4",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/ena.tsv",
+      "sha256": "4bf8c10d285379bab4c9958dad887581ad3f0228ca4da502157c5577da3d5b31",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/paper.xml",
+      "sha256": "75c65f97aa3cd4c05d4b16d60f53a9fd570d65250a439faadf9ce4baf3b91037",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/retrievals.json",
+      "sha256": "ed8b4f8f21979ea2ea2d307e8f9b5f1b09b6babef56fda4ce4e53d097297e9d9",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/S1.xlsx",
+      "sha256": "aeba769ca40d1e9b52796078f865bdcacdf2915978df32a8c54b206f7c4a4cda",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/sra.xml",
+      "sha256": "52e5e9bf6f6759d654160060bd09d8ca3211b26d086d4f883353fb24ab9c5f30",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/zenodo.json",
+      "sha256": "eec7b9ab0eb16034fc36e643c79c709c4e040f2988857e1cea2a220c15df44bb",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_sources_v1.py",
+      "sha256": "92fb0527b525e855ac57f244c33fa8522d066107898d44df5a7a044bb9cbd459"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_sources_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "s1_mouse_metadata.json",
+    "workbook_inventory.json",
+    "source_crosswalk.json",
+    "code_audit.json",
+    "qualification.json",
+    "validation.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed metadata stage after owner authorized technical execution and S1/S4 became readable."
+}

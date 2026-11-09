@@ -1063,6 +1063,22 @@
       ]
     },
     {
+      "id": "Nn26-P01",
+      "plan": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+      "evidence": [
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANIMAL_AMENDMENT_V2.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_TRANSFER.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md"
+      ]
+    },
+    {
       "id": "Pg1-P01",
       "plan": "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
       "evidence": [
@@ -1260,6 +1276,9 @@
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/coinput_qualification_v2.json",
     "Research Article/gate3_08_saxton_2021_il22/priming_extension_20261108/priming_qualification_v2.json",
     "Research Article/ungated_saxton_2021_il10/extensions_20261108/contracts/reported_description_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/source_qualification_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/animal_reproduction_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v1.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v2.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/metadata_v3.json",
@@ -1270,7 +1289,14 @@
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v2.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_spatial_v3.json",
     "Research Article/ungated_peng_2026_spatial_omics/contracts/public_rationale_render_v2.json",
-    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_source_bindings_v1.json"
+    "Research Article/ungated_peng_2026_spatial_omics/contracts/public_source_bindings_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v2.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_review_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/failure_preservation_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/qualification_review_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1445,12 +1471,21 @@
     "analysis/research/runs/sx10_coinput_qualification_v2/receipt.json",
     "analysis/research/runs/sx22_priming_qualification_v2/receipt.json",
     "analysis/research/runs/sx10_gorby_reported_description_v1/receipt.json",
+    "analysis/research/runs/nn26_source_qualification_v1/receipt.json",
+    "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json",
+    "analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json",
     "analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json",
     "analysis/research/runs/Pg1_supplements_v2_20261108/receipt.json",
     "analysis/research/runs/A12_public_cells_v1_20261108/receipt.json",
     "analysis/research/runs/Pg1_public_spatial_v3_20261108/receipt.json",
     "analysis/research/runs/Pg1_public_rationale_v2_20261108/receipt.json",
-    "analysis/research/runs/Pg1_public_source_bindings_v1_20261108/receipt.json"
+    "analysis/research/runs/Pg1_public_source_bindings_v1_20261108/receipt.json",
+    "analysis/research/runs/nn26_rds_metadata_v2/receipt.json",
+    "analysis/research/runs/nn26_rds_metadata_review_v1/receipt.json",
+    "analysis/research/runs/nn26_failure_preservation_v1/receipt.json",
+    "analysis/research/runs/nn26_qualification_review_v1/receipt.json",
+    "analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json",
+    "analysis/research/runs/nn26_completion_archive_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

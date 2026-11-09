@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.tie_diagnostic_v2",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does exact tied-rank enumeration explain reported versus reproduced direct-test discrepancies without changing observations?",
+  "decision": "Resolve calculation conventions where possible and preserve any remaining source discrepancy.",
+  "strongest_rival": "Attrition, mislabeled panels/scales, mixed doses, shared normalization and absent stable mouse IDs can overstate treatment evidence.",
+  "discriminator": "Separate direct group tests from chance tests; preserve all 16 declared endpoint blocks, dose-specific nesting, original denominators and arithmetic discrepancies.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANIMAL_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All original data and v1 numerical results exposed before v2. GraphPad official tie documentation read after discrepancies were seen. Diagnostic amendment, not confirmation.",
+  "biological_unit": "Individual mouse within each panel as documented by legends; source coordinates are not cross-assay mouse identities.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Sections averaged within mice. Two neurogenesis/FACS blocks retained. Combined nesting reuses high/low cohorts with WT only high. Cognition panels share original cohort but have different attrition; no per-mouse task join.",
+  "population_and_selection": "All available numerical observations in 16 predeclared S4 panels/ranges under original seven-stage priorities; aged males with contextual young controls.",
+  "contrast": "D25K-Control, WT-Control, D25K-WT where arms exist; reported Young-Control and RIPR-Control. Dose/cohort descriptions separated from mixed-dose aggregate reproduction.",
+  "endpoint": "Reconciled direct-test probabilities and exact method differences; no new effect estimates.",
+  "methods": "Exact integer dynamic programming for all reported direct contrasts. Preserve pooled average tied ranks and sample sizes. Two-sided doubled smaller inclusive tail and absolute-distance tail are both output. Independent brute enumeration and SciPy permutation validation when allocations <=50000.",
+  "missingness_and_exclusions": "Blank source cells are missing. Exclude only declared summary rows. Preserve published attrition without invented mouse IDs. No dropping data to match a P value or cached mean; ambiguities remain findings.",
+  "multiplicity": "Unadjusted published tests reproduced; no new familywise discovery/equivalence decision. Predeclared unreported comparisons are diagnostic only.",
+  "precision_status": "unknown",
+  "precision_basis": "No justified effect margin or numerical precision basis recovered. No post-hoc power; ambiguous scales and shared normalizers limit further uncertainty claims.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reproduction, not independent replication. No WT cognition, mediation, age interaction, injury repair or unsupported physical-unit conversion. No cross-panel row matching.",
+  "stop_rule": "Fail if label-allocation totals or independent calculations disagree. Retain residual discrepancies; never alter source values, rounding or selected rows.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+      "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/contrasts.csv",
+      "sha256": "050738f2814154b6880c0191557e07577e8daf1002ecc11cad779fc88726fc1a",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+      "sha256": "4654da313a683502a57886c57e25a0aee4276a2f3a02f1a603706c240a511646"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "exact_rank_reconciliation.csv",
+    "diagnostic.json"
+  ],
+  "amendment_of": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/animal_reproduction_v1.json",
+  "amendment_reason": "V1 tie approximation differed from reported P values. Official GraphPad documentation describes exact tied-rank calculations; assess all reported contrasts, not only favorable ones."
+}

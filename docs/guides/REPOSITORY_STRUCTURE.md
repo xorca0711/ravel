@@ -42,10 +42,11 @@ than treated as a second current execution queue. The collection index offers
 biological-topic and contribution-based reading routes; neither replaces IDs or
 assigns scientific acceptance. Frozen source evidence stays with its owner.
 
-The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 21 paper
+The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 22 paper
 packages. The 38 directories under `RQ_Specified/` comprise those 36 homes plus
-two shared/historical workspaces (A5/A11 and Yadav); the 23 under `Research Article/` comprise 21
-paper packages, the cross-study specificity module and the Primary source archive.
+two shared/historical workspaces (A5/A11 and Yadav). Physical directories under
+`Research Article/` also include preserved historical entry points, the
+cross-study specificity module and the Primary source archive.
 These supporting directories do not create extra RQs or papers. Topic changes
 update navigation rather than moving evidence into status or theme folders.
 The [4 November architecture audit](../audits/2026-11-04-topic-navigation/README.md)
@@ -191,7 +192,10 @@ contracts have pre-extension snapshots under the extension metadata/history.
 
 Saxton IL-10 is roadmap paper **7 / Gate 3A**. Its current entry is
 [`gate3_07_saxton_2021_il10/`](../../Research%20Article/gate3_07_saxton_2021_il10/README.md),
-corrected on 8 November. `ungated_saxton_2021_il10/` retains frozen analysis
+with [current results](../../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md)
+and [figure gallery](../../Research%20Article/gate3_07_saxton_2021_il10/FIGURES.md)
+under that same Gate 3A home (navigation completed 9 November).
+`ungated_saxton_2021_il10/` retains frozen analysis
 evidence and historical references; it is not the current classification or entry
 folder. Sx10-P01, all A0-A35 and every other article-local candidate retain their
 identities. These entry corrections do not move evidence, duplicate analyses,

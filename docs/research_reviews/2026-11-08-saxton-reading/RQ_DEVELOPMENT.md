@@ -1,5 +1,13 @@
 # Where the completed Saxton analyses can lead
 
+**Related aged-niche evidence, 8 November:** the owner-requested
+[Navarro Negredo 2026 assessment](../../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md) identifies
+Fig. 5's directly tested T-cell/IFN contribution to WT IL-10 responses in
+microglia. Treat that loop as a published premise. D25K is not an arm of the
+repository's Saxton RNA source, and this study does not supply either held
+interaction below. The age-by-ligand and injury-repair comparisons remain
+unmeasured; no current hypothesis or numerical result is changed.
+
 8 November 2026. **Article-local development under Sx10-P01 and Sx22-P01; no new
 accepted RQ.** The [three-route execution record](EXTENSION_EXECUTION.md) now
 supplements the original results at `16627aa` and the
