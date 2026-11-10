@@ -1,0 +1,14 @@
+{
+  "assertions": "passed",
+  "live_stop_sequence": [
+    "blocked",
+    "completed"
+  ],
+  "model_tool_calls": 0,
+  "non_message_item_types": [
+    "hookPrompt"
+  ],
+  "report_field_note": "tool_items includes non-message hookPrompt items, not only tool calls",
+  "temporary_checkout_removed": true,
+  "evidence_retained": "C:\\Users\\dream\\AppData\\Local\\Temp\\ravel-hooks-stop-test-a2lr_dbw\\live-stop-report.json"
+}

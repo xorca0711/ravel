@@ -6,7 +6,6 @@ import shutil
 import subprocess
 import sys
 import tempfile
-import tomllib
 import unittest
 
 HERE = Path(__file__).resolve().parent
@@ -150,7 +149,7 @@ class SessionTests(unittest.TestCase):
 
     def test_actual_config_command_runs_with_spaces_and_nested_cwd(self):
         self.write("tools/codex/research_session.py", (HERE / "research_session.py").read_text(encoding="utf-8"))
-        config = tomllib.loads((HERE.parents[1] / ".codex/config.toml").read_text(encoding="utf-8"))
+        config = json.loads((HERE.parents[1] / ".codex/hooks.json").read_text(encoding="utf-8"))
         handler = config["hooks"]["SessionStart"][0]["hooks"][0]
         command = handler["command_windows"] if sys.platform == "win32" else handler["command"]
         event = self.event(cwd=str(self.root / "RQ_Specified/Q1"), session_id=self.temp.name)
@@ -158,6 +157,16 @@ class SessionTests(unittest.TestCase):
                                 cwd=event["cwd"], capture_output=True, timeout=20)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(json.loads(result.stdout)["hookSpecificOutput"]["hookEventName"], "SessionStart")
+
+    def test_other_checkout_without_implementation_is_a_noop(self):
+        config = json.loads((HERE.parents[1] / ".codex/hooks.json").read_text(encoding="utf-8"))
+        handler = config["hooks"]["SessionStart"][0]["hooks"][0]
+        command = handler["command_windows"] if sys.platform == "win32" else handler["command"]
+        result = subprocess.run(command, shell=True, input=json.dumps(self.event()), text=True,
+                                cwd=self.root, capture_output=True, timeout=20)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(result.stdout), {})
+        self.assertFalse((self.root / "tools").exists())
 
     def test_malformed_event_reports_unavailability_without_verdict(self):
         result = subprocess.run([sys.executable, str(HERE / "research_session.py")],

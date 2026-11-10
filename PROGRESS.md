@@ -1,5 +1,50 @@
 # Current project state
 
+## Ravel hooks activated and declarations consolidated - 10 November 2026
+
+The owner approved both hooks and then explicitly approved the separate
+single-source configuration cleanup. The branch now uses `.codex/hooks.json`
+without inline duplicates. Its non-overwriting installer returned
+`already-installed`; root declarations, trust and main's preexisting PROGRESS edit
+were preserved. All 25 focused tests passed.
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md#approved-consolidation-and-live-validation-9-10-november-2026)
+links actual host events for startup, compaction/reinjection, and a one-review Stop
+continuation in a disposable worktree. Post-cleanup discovery still reports exactly
+two trusted hooks, and a fresh read-only session received the preparation context
+and completed Stop. Repository validation passed 18,555 checks; the analysis suite
+passed 167 tests with 2 skips, and the checkout integrity gate passed. The
+[validation log](tools/codex/evals/validation_2026-11-10.json) preserves a failed
+comparison with current main: 144 findings concern newer Navarro assets absent
+from this older branch. Reconcile those commits before integration; this hook
+cleanup did not remove research files or weaken the gate.
+
+Live disk resume remains unverified because the test sessions were ephemeral.
+The earlier interrupted gate result is not claimed as a pass. Remote main was
+refreshed to `14449c0`; this local branch has not been rebased or merged onto it.
+No biological analysis, scientific acceptance, policy weakening, push or merge.
+
+
+## Ravel hook discovery repaired; trust pending - 8 November 2026
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md#live-discovery-repair-8-november-2026)
+records the diagnosed worktree/root-checkout mismatch. Codex reads linked-worktree
+hook definitions from the main checkout; branch-local declarations alone were
+ignored. A non-overwriting installer creates only missing root declarations, and
+the launcher safely does nothing in checkouts without the implementation.
+
+The [live Desktop host response](tools/codex/evals/discovery_2026-11-08.json) now
+lists both hooks without warnings/errors. Both remain untrusted, and actual
+startup/resume/compaction/Stop execution is not verified. All 23 focused tests
+passed. No biological analysis, scientific gate, trust store or permission
+setting changed. Main's preexisting PROGRESS edit remains untouched.
+
+A later configuration cleanup was denied before execution pending explicit
+approval for the persistent setup. Do not retry it or grant hook trust without
+that approval. Next: finish single-source cleanup, normal hook review, then real
+lifecycle validation. No push, merge or activation claim.
+
+
 ## Remote main CI retry passed — 8 November 2026
 
 The failing Repository checks badge on main 471d0c2 came from HTTP 504 while

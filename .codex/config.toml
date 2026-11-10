@@ -1,23 +1,4 @@
-# Project-local assistance. Does not change model, permissions or trust.
+# Project-local assistance. Hook declarations have one source: hooks.json.
+# Does not change model, permissions or trust.
 [features]
 hooks = true
-
-[[hooks.SessionStart]]
-matcher = "^(startup|resume|clear|compact|fork)$"
-
-[[hooks.SessionStart.hooks]]
-type = "command"
-command = '''python3 -c "import pathlib,runpy,subprocess; runpy.run_path(str(pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'),run_name='__main__')"'''
-command_windows = '''python -c "import pathlib,runpy,subprocess; runpy.run_path(str(pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'),run_name='__main__')"'''
-timeout = 20
-additionalContextLimit = 6500
-statusMessage = "Loading Ravel research context"
-
-[[hooks.Stop]]
-
-[[hooks.Stop.hooks]]
-type = "command"
-command = '''python3 -c "import pathlib,runpy,subprocess; runpy.run_path(str(pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'),run_name='__main__')"'''
-command_windows = '''python -c "import pathlib,runpy,subprocess; runpy.run_path(str(pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'),run_name='__main__')"'''
-timeout = 20
-statusMessage = "Checking changed research documents"
