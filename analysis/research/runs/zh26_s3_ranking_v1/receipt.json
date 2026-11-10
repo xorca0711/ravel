@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.S3.ranking_sensitivity_v1",
+  "owner": "Zh26-P01",
+  "contract": "Research Article/gate3_11_zhang_2026_nk/contracts/S3.ranking_sensitivity_v1.json",
+  "contract_sha256": "3c5d1fc8ab20245019781694f5b44157f645ac81eb886659c3f02459ade8bf7f",
+  "git_commit": "b0bb255c0decf8082d2f65811130139ce70993a9",
+  "started_at": "2026-11-10T04:29:22.326329+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.py",
+    "--output",
+    "analysis/research/runs/zh26_s3_ranking_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+      "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+      "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/coverage.csv",
+      "sha256": "16426b48099256377640b70cc84d62a85c9e22aa92272c3ba2687aaf7fe92337",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gene_sets.csv",
+      "sha256": "2c66c31f8799f61c69b4fcce17a8c26f2b179bdf0d56eca193fe3d1b8d87379c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "sha256": "8171d4d6104909e58cdf5cb55f6bbdb1e4b161e5495dd69636ba8147531fa2d8",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "sha256": "5a82a94ec67af9d579c775b92f034531afb1140ef3068efbea196a2d7d0f1d4d",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "accb7c38c4b7e1d5638c0c08de7eb176bde8654a7464f54f15ed5c3a8373f167",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "ee37989ef7745b146c2bf5670c42c28fa0d11ba7a11ee11ee6bc5d7f66f61ebf",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/receipt.json",
+      "sha256": "aa2a731c66daf9c4713c99135dc9eefd9217bf794b463c9dcad0c80046b6ebc5",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/runtime_settings.txt",
+      "sha256": "8d2b673dde0739542b3f7bbc951224adb9061d8625bc3f190c38d988f19d3bae",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/R_session.txt",
+      "sha256": "68d709feb499a66552fc825bd6b1bb10e6c6d8fdb7718794a01a241eee013f92",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stderr.log",
+      "sha256": "04ca78d9171232f2b40107b9ee269f1c564b4f2929a93158ac223cb611ef67b9",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/comparison.json",
+      "sha256": "44ccb434fa057eab95f227aadceea12263b6ef3c86f1971f21ec8cfb5c42066c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/source_comparison.csv",
+      "sha256": "3f91ff77e861483c5d367271edd84aed79b30c0d493bbd8e53ad2118459315cb",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
+      "sha256": "5730f32d3d1bf44c66aca2623c3621dc3aa4035202d48b48ccb1b8cd1c136fb5",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.py",
+      "sha256": "e57fd68f024809ef85d6f9cf6cead10dd55d288d4020ef2163860f19475663c2"
+    },
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.R",
+      "sha256": "2091134d2b534492483d20bd302a8b3e5ccb47eceb743bfe27b5e262bd5c5148"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "926faf860ce6d9d6a65979b1b105b7e71a4eb3a5cfe545a1431b97b68d2d01ca"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "3ca54b509176cb733a7c2a9226056ec5691274330fbff357a780a60449f6a0ec"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/gsea_t_itdt_vs_pbs.csv",
+      "sha256": "4f184e03e8e731111c0f15d75f8172d6525f63d710766c55219174742f62a8c4"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/gsea_t_itdt_acd4_vs_itdt.csv",
+      "sha256": "f58cf6c7a241d659c1d5d92e76dac3aba58be521cae49fdefcc69483ff86c935"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/R_session.txt",
+      "sha256": "ef8671836bae8a0a6fe410014ef4d4f2476f72e843d37c1ddfa008b17cdd31e9"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/ranking_comparison.csv",
+      "sha256": "26f0e939361d4ae0c717da71ddaa60e2c9ea2407c82b0bc4e661b8f946014abb"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/summary.json",
+      "sha256": "ab55dceec2dee020dba234d59db270bdf8803096933edea80ccc44e48f408d31"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_ranking_v1/ranking_sensitivity.png",
+      "sha256": "724009a678278d529af1523c6442cb66e0c25b2d6fd5be47d6afe1aafb9e7a9f"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-10T04:29:42.210779+00:00"
+}

@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\block_sensitivity_v1.py", line 73, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\block_sensitivity_v1.py", line 57, in main
+    (out/'summary.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

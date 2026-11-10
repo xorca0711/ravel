@@ -1,5 +1,176 @@
 # Current project state
 
+## A36 incorporation into open PR #177 — 10 November 2026
+
+The owner requested incorporating the completed A36 work into the currently open PR. Live GitHub lookup identified [PR #177](https://github.com/xorca0711/ravel/pull/177), head `2ead479fbc7409a62d3529178967b4395226ff8c`, containing the Zhang NK package. Main remains `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Integration preserves that exact PR head and A36 head `fc28f9452ac65880a87151f8159635a56e8ac507` as parents. Both publication routes authenticate as xorca0711.
+
+Only PROGRESS and the registry overlapped. Both checkpoint histories and the union of registered candidates, contracts and receipts are retained. Zhang sources/results, failed-run archives, A36 frozen outputs and all previous evidence remain unchanged. A36's biological illustration and the owner-requested AGENTS.md figure guidance are included. The canonical sequence change from A0–A35 to A0–A36 remains an explicit review item; no scientific threshold, provenance check or acceptance boundary is relaxed.
+
+Combined repository validation passes 19,214 checks; base-aware governance passes against both main and the previous PR head. All 130 nonshared Zhang files and the A36 evidence are preserved; 37 checkout-only line-ending conversions were restored from exact committed blobs. The seven added A36/cloud commits have verified Xorca attribution, with the integration commit checked before publication. Existing analysis/session/archive checks remain applicable; CI exercises the final combined tree. Frozen TSV empty-field delimiters and R sessionInfo whitespace are retained.
+
+The owner-authorized publication target is the existing PR branch, codex/zhang-nk-plan-20261110, using a normal fast-forward push. The PR description covers both packages and flags the A36 registration/figure-guidance review items. Live PR head and checks own remote status; no merge to main is requested. Next: review the combined PR and its CI. Later neuronal survival and age modification remain unestimated; no biological rerun is part of integration.
+
+## A36 illustrated and eligible stages executed — 10 November 2026
+
+Owner-authorized [A36](RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) is registered with its card, dossier, literature context, stage plan and galleries. The owner clarified the visual correction as diagram style: the displayed image now depicts the relevant biology and unresolved later-neuron endpoint, matching neighboring RQs. The original SVG and selected-image provenance are retained. At the owner's explicit request, AGENTS.md now prohibits text-heavy card/workflow boxes as the primary RQ hypothesis illustration and directs future figures to show biology, comparison and uncertainty. The working hypothesis is unchanged.
+
+Both eligible computational stages are complete. [Results](RQ_Specified/A36_aged_il10_sustained_neuronal_output/RESULTS.md) retains 4,316 source/representation checks and 1,344 exact-matrix arithmetic checks across 11,955 cells. Mut5 has lower Bst2/Isg15/Ifitm3 means than WT5, while Stat1's aggregate mean is near unchanged and detection is higher. Representation partly offsets within-bin differences; both treatment aliases remain above Control for all four aggregate means. These are pooled original-bin descriptions, without purified NSC, mouse-effect or survival inference.
+
+The authorized cloud input and result-return transfers are complete. All 85 pieces, whole bundle, new file hashes and local receipt verification pass; the retained RDS was preserved. Cloud freezes `19ed556`/`89d77ce` and local commits use Xorca author/committer attribution. Current desktop documents, guide and full registry were preserved during integration. [Validation](RQ_Specified/A36_aged_il10_sustained_neuronal_output/VALIDATION.md) records runtime preparation, transfer limits and preserved diagnostics.
+
+The final integrated repository passes 19,085 checks. Earlier 175 analysis tests (two existing skips), 25 hook tests and archive/claim checks remain valid; numerical implementation did not change on return. The final base-aware gate passes against refreshed, unchanged main `1a6769f`. Work stays on the scoped branch; nothing pushed. Unrelated work and all earlier RQs/Nn26-P01 evidence remain preserved. Next biological work requires an eligible post-exposure birthdated-output source or qualified experiment; actual timing, exposure cessation, biological-unit linkage and precision inputs remain unresolved. Age modification requires matched treatment contrasts at both ages. No further RNA score or scientific acceptance is implied.
+
+## Navarro RQ registration and technical execution authorized — 10 November 2026
+
+The owner explicitly requested a separate technical chat to add the new RQ to
+the current register, specify each analysis, execute the supported stages and
+organize the new RQ folder. Current main remains `1a6769f`; the register ends at
+A35, so A36 is available subject to rechecking before registration. The question
+concerns later surviving neuronal output after transient D25K versus WT IL-10
+and vehicle in the aged SVZ–olfactory-bulb lineage, with early progenitor response
+kept distinct. Registration is owner-authorized; findings remain unaccepted.
+
+The technical chat will own edits and execution in the existing scoped worktree
+`X:/GitHub/ravel/.worktrees/navarro-question-development-20261110`, branch
+`codex/navarro-question-development-20261110`, preserving the local assessment
+and all current evidence. First qualify the added comparison against Fig. S6 /
+Table S3, then specify and freeze any informative recipient-state representation
+and within-state RNA screen. Investigate sources for later survival and age
+modification separately; absent required measurements hold those dependent
+estimates, not all useful upstream work. Local/remote execution must retain the
+verified xorca0711 identity, exact input hashes and repository runner/receipts.
+Next: register the RQ and its guide/dossier/plan, execute eligible stages, then
+synthesize results and remaining evidence requirements in the new RQ folder.
+
+## Navarro biological extension assessment — 10 November 2026
+
+Read the full current AGENTS, project reasoning skill, research governance,
+decision workflow and literature workflow before developing extensions. Refreshed
+main is `1a6769f`, with PR #176 merged. CLI and connector identities are verified
+as `xorca0711`. Work is isolated on `codex/navarro-question-development-20261110`;
+existing worktrees and their unrelated changes remain untouched.
+
+The [article-local assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md)
+connects the completed findings to recipient neural responses and sustained
+neuronal output. A bounded primary-literature pass adds differentiation/survival
+precedents and the Nissen 2026 recipient IFNAR experiment, with access and model
+limits. The proposed first extension separates recipient-state representation
+from within-state RNA response; its exact contrast must first be checked against
+Fig. S6/Table S3 and qualified neural identities, beyond published broad-bin pathways.
+The provisional RQ concerns later surviving neuronal output after transient
+D25K versus WT/vehicle exposure. Age modification is a separate matched
+young/old treatment contrast, not supplied by young vehicle reference alone.
+
+README, candidate, literature context and result entrypoints now distinguish
+this biological progression from completed execution. No numerical analysis,
+dataset acquisition, global RQ, accepted hypothesis or claim grade was added.
+Frozen results and original unfavorable comparisons remain unchanged. Next:
+review the proposed comparison and closest supplementary overlap; any numerical
+screen needs a new scoped contract and neural-identity qualification. Later
+survival/function requires its own measurements, without blocking an informative
+partial RNA screen. Repository validation passes (18,937 checks), and base-aware
+research governance passes against unchanged remote main `1a6769f`. The initial
+gate found checkout-only line endings and missing cached published outputs:
+21 files were restored from receipt-matching Git blobs and 15 outputs copied
+from a receipt-verified cache. No validator or scientific artifact content was
+changed. The final diff contains only the local assessment, owning documentation
+and its registry evidence link. No publication is requested for this assessment.
+
+## Zhang publication and folder audit — 10 November 2026
+
+The owner requested commit, push and PR creation. The folder
+`Research Article/gate3_11_zhang_2026_nk` is correct: stable paper 11, Gate 3B,
+DOI `10.1126/sciimmunol.adx4411`. The stale `ROADMAP.json` null folder and
+not-started statuses are reconciled to the completed package; no folder move,
+paper renumbering, D1 gate opening or scientific acceptance is implied.
+Publication uses branch `codex/zhang-nk-plan-20261110` targeting main; merge
+remains a separate owner decision. CLI and connector both verify `xorca0711`,
+and every introduced commit has the verified Xorca author/committer attribution.
+The publication diff is scoped to the Zhang package, its recorded runs and
+shared navigation/source registers. Private notes and raw downloads stay local.
+The [validation record](Research%20Article/gate3_11_zhang_2026_nk/VALIDATION.md)
+owns pre-publication checks; GitHub CI owns the eventual remote status. Remaining
+scientific analyses and their exact input requirements are unchanged below.
+After the naming correction, 19,051 repository checks and base-aware research
+governance pass against refreshed main `1a6769f`; numerical evidence is unchanged.
+
+## Zhang NK biological review and access follow-up — 10 November 2026
+
+Reviewed all six completed figures and the distinction between pooled NK RNA,
+phenotype, protein/signaling, killing and tumor outcomes. The
+[dated interpretation/access note](Research%20Article/gate3_11_zhang_2026_nk/INTERPRETATION_AND_ACCESS_V1.md)
+preserves stable source-panel directions, ranking-sensitive IFN-gamma significance,
+bulk-state alternatives and figure-label discrepancies. Personal DuPage fit and
+training notes remain private; no new RQ or scientific acceptance was created.
+
+NCBI/ENA records identify all nine libraries and 18 paired FASTQ files, about
+11.9 GB compressed; one 16-byte gzip range request succeeded. This enables
+planning an adapted count comparison, not an exact published count/voom replay:
+original annotation/count/length/processing provenance remains unqualified.
+Exact next work is a separate exposed-data contract, source/reference and
+runtime qualification before any count run. No bulk reads were downloaded.
+Functional supplement requests and ordinary browser navigation hit reCAPTCHA;
+PMC's replacement cloud inventory contains this manuscript's text/metadata only.
+Obtain the official binaries, then qualify each panel's units and identities;
+do not hold independent descriptive work for unrelated missing identities.
+Exact GSEA P replay still lacks original runtime/random-stream provenance.
+
+Completed numerical runs and immutable outputs are untouched. Public-source
+responses are retained locally with URLs/hashes in the addendum. Both GitHub
+routes verified `xorca0711`; no author contact, publication, external setting or
+governance change occurred. Against refreshed main `1a6769f`, 19,048 repository
+checks and base-aware research governance pass. Numerical evidence is unchanged;
+valid prior analysis/session/archive checks were reused. The addendum records
+verification and the exact next actions.
+
+## Zhang 2026 released RNA reproduction and sensitivity — 10 November 2026
+
+Completed the qualified Zh26-P01 stages in the existing scoped worktree;
+[current results, five verified receipts and exact holds](Research%20Article/gate3_11_zhang_2026_nk/RESULTS.md)
+and the [six-figure guide](Research%20Article/gate3_11_zhang_2026_nk/FIGURES.md)
+own the evidence. All three 12,708-gene released contrast tables reproduce.
+Fixed source-panel directions survive each block omission. Enrichment ES/NES,
+sizes and leading-edge sets match; Monte Carlo P values are not exact, and
+IFN-gamma second-contrast BH changes from 0.1201 to 0.001024 under the
+prespecified moderated-t ranking. Negative, mixed and unestimated outcomes remain.
+
+Count reanalysis needs qualified counts/annotation/length provenance. Numeric
+functional work needs the actual supplemental data and cohort/gating identities;
+the recovered PMC links returned challenge pages. Exact GSEA P replay needs
+source runtime/backend provenance. S4 source-grounded synthesis and S5 decision
+are complete; no new RQ, target ranking or acceptance was created. Four failed
+runs and their corrected successors are preserved, without refitting completed
+calculations merely to repair reports. CLI/Git identities were verified; no
+push, merge, author contact, personal-note edit or governance change occurred.
+The original main checkout and all other RQs remain untouched. Against refreshed
+main `1a6769f`, 19,039 repository checks, 175 analysis tests (two skips), 25 session
+tests, archive/claim checks and base-aware governance pass. A sixth metadata
+receipt verifies the exact failure archive. Runtime details and preservation
+are in the package's [validation record](Research%20Article/gate3_11_zhang_2026_nk/VALIDATION.md).
+
+## Zhang 2026 paper review and analysis plan — 10 November 2026
+
+Recovered the clean planning worktree at current main `1a6769f` and completed
+[paper interpretation, source reconciliation, literature context and reviewed plan](Research%20Article/gate3_11_zhang_2026_nk/README.md).
+Zh26-P01 is an article-local reproduction/measurement candidate, not a new
+canonical RQ or scientific acceptance. The owner reports reading complete.
+The original D1 lung gate and all existing RQs/evidence remain unchanged.
+
+The released TPM/limma-trend pipeline differs from the published count/voom
+methods; enrichment ranking and figure labels also need explicit reconciliation.
+S0 will qualify source versions, matrix semantics, sample/block joins, supplements
+and runtime before a separately frozen replay. No biological analysis ran here.
+Publisher access returned 403; complete supplements/count inputs remain
+unqualified, not proven absent. Personal lab-fit notes remain private.
+
+CLI and GitHub connector identities were verified as `xorca0711`; effective
+Git author/committer are Xorca with the existing GitHub-mapped email. No external
+settings, outreach, publication or scientific acceptance changed. Validation
+and technical-session handoff status are recorded in the package's
+[review](Research%20Article/gate3_11_zhang_2026_nk/REVIEW_AND_HANDOFF.md).
+Exact next work: execute S0 under the research contract/runner, then proceed
+through qualified stages with the stated holds and retain all outcomes.
+
 ## Ravel integration into existing PR #176 - 10 November 2026
 
 The owner requested adding the completed Ravel session-assistance work to

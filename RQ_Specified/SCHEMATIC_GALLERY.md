@@ -219,3 +219,9 @@ All 36 questions have qualitative biological illustrations. A33–A35 were added
 ![A35: qualitative proposed comparison](A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.png)
 
 [Question](A35_treg_igfbp4_source_igf_response/README.md) · [Context](A35_treg_igfbp4_source_igf_response/LITERATURE_CONTEXT.md). Biological matte illustration; [8 November review](../Research%20Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md). No measured result is depicted.
+
+## A36 — Transient exposure and later neuronal output
+
+![A36 qualitative comparison](A36_aged_il10_sustained_neuronal_output/schematics/A36_gpt_matte_v2.png)
+
+[Question](A36_aged_il10_sustained_neuronal_output/README.md) · [Context](A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md). Qualitative v1; no measured result.

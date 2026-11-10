@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A36.source_representation_v1",
+  "owner": "A36",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which published comparisons and broad recipient representations qualify a useful A36 partial screen?",
+  "decision": "Reuse published pathway results; qualify original combined bins and denominators for a bounded within-bin/representation comparison, while holding later survival and fine NSC identities.",
+  "strongest_rival": "Wrong alias/dose mapping, conflating broad annotations with purified NSCs, and capture/pooling differences can misidentify the available comparison.",
+  "discriminator": "Audit exact S3 comparison labels and annotation Methods; reconcile retained recovery tables and compare captured fractions with explicit all-cell and three-lineage-bin denominators. This does not estimate mouse treatment effects.",
+  "evidence_refs": [
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/PLAN.md",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, S6, S3 comparison labels and selected enrichment rows, all original recovery values and earlier RNA/animal findings were inspected before this freeze. No confirmation or unexposed source claim.",
+  "biological_unit": "Source table row and one observed condition library/pool; individual mouse-to-cell mapping unavailable.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nested in condition pools; old-control shared across contrasts. Reused source tables and metadata-review products are the same evidence lineage.",
+  "population_and_selection": "All 96 alias-by-original-bin source rows retained for audit; descriptive contrasts use Young, Control, WT5 and Mut5 and unchanged original cell types. Three lineage-associated bins explicitly named in plan.",
+  "contrast": "Mut5-WT5, Mut5-Control, WT5-Control, Young-Control reference; no other-dose expression or age interaction.",
+  "endpoint": "Source comparison/annotation eligibility, captured counts and fractions, published S3 rows with exact locators.",
+  "methods": "Read exact source workbooks with openpyxl, verify first ten S3 columns from raw ZIP/OOXML independently, reconcile prior recovery receipts, integer totals and Fraction arithmetic, render denominator-explicit representation figure. Do not rerun enrichment or biological models.",
+  "missingness_and_exclusions": "No cell removal or relabeling; all source bins retained. Unsupported aliases excluded only from new contrasts, not erased. Source enrichment is not absence testing. Missing downstream measurements explicitly held.",
+  "multiplicity": "Report every declared representation contrast; source P values are archived as published values, not new inference. No cell-resampled tests or selection by significance.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite observed source/pool descriptions. Exact integer and rational checks verify arithmetic; no population uncertainty is identifiable.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No tissue census, purified NSC identity, population effect, independent replication, fate, secretion, IFN type, survival, maturation, age modification or injury repair.",
+  "stop_rule": "Stop on source hash, duplicate/join, total, OOXML or arithmetic mismatch. Preserve failed receipt; code/design correction requires new version. Do not change source values to agree.",
+  "inputs": [
+    {
+      "path": "raw_data/a36/source_v1/paper.xml",
+      "sha256": "75c65f97aa3cd4c05d4b16d60f53a9fd570d65250a439faadf9ce4baf3b91037",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S1.xlsx",
+      "sha256": "aeba769ca40d1e9b52796078f865bdcacdf2915978df32a8c54b206f7c4a4cda",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S3.xlsx",
+      "sha256": "b50a10abd73f3d97185b47bc6da9b4f35c6571a04d010bbf42052a7a182b1aa4",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/supplement.pdf",
+      "sha256": "9b6ea15dd3e5e16b8cdde0b2ec9db5d19ae62b57c8158ee2d50dd9f03260d0bf",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/zenodo.json",
+      "sha256": "eec7b9ab0eb16034fc36e643c79c709c4e040f2988857e1cea2a220c15df44bb",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/ena.tsv",
+      "sha256": "4bf8c10d285379bab4c9958dad887581ad3f0228ca4da502157c5577da3d5b31",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/retrievals.json",
+      "sha256": "e05c1b38cc1a51eb799257544055580d653f1bb80b45b4972102282720f6bd2f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/source_representation_v1.py",
+      "sha256": "4b6a9c0b9911c8896d0b39cf8b12bb1d4de8e7f0154d33752272cf68e17d2c08"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/source_representation_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "input_manifest.json",
+    "representation.tsv",
+    "representation_contrasts.tsv",
+    "S3_source_rows.tsv",
+    "source_overlap.json",
+    "annotation_source.json",
+    "feasibility.json",
+    "representation.png",
+    "independent_verification.json",
+    "software_versions.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed A36 source/representation execution after owner registration authorization."
+}

@@ -560,6 +560,19 @@
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
         "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
       ]
+    },
+    {
+      "id": "A36",
+      "card": "RESEARCH_QUESTIONS.md#a36",
+      "dossier": "docs/research_dossiers/A36.md",
+      "evidence": [
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/PLAN.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/RESULTS.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/FIGURES.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -1077,7 +1090,8 @@
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_TRANSFER.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md",
-        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md"
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md"
       ]
     },
     {
@@ -1091,6 +1105,21 @@
         "Research Article/ungated_peng_2026_spatial_omics/SOURCE_RECOVERY.md",
         "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
         "docs/research_reviews/2026-11-08-peng-spatial-reading/README.md"
+      ]
+    },
+    {
+      "id": "Zh26-P01",
+      "plan": "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_11_zhang_2026_nk/README.md",
+        "Research Article/gate3_11_zhang_2026_nk/PAPER_REVIEW.md",
+        "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+        "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_11_zhang_2026_nk/REVIEW_AND_HANDOFF.md",
+        "Research Article/gate3_11_zhang_2026_nk/RESULTS.md",
+        "Research Article/gate3_11_zhang_2026_nk/FIGURES.md",
+        "Research Article/gate3_11_zhang_2026_nk/VALIDATION.md",
+        "Research Article/gate3_11_zhang_2026_nk/INTERPRETATION_AND_ACCESS_V1.md"
       ]
     }
   ],
@@ -1301,7 +1330,19 @@
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/public_source_followup_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
-    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json"
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/source_representation_v1.json",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/recipient_screen_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v3.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S1.reproduction_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.ranking_sensitivity_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/failure_archive_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1493,7 +1534,15 @@
     "analysis/research/runs/nn26_completion_archive_v1/receipt.json",
     "analysis/research/runs/nn26_public_source_followup_v1/receipt.json",
     "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json",
-    "analysis/research/runs/nn26_human_context_description_v1/receipt.json"
+    "analysis/research/runs/nn26_human_context_description_v1/receipt.json",
+    "analysis/research/runs/a36_source_representation_v1/receipt.json",
+    "analysis/research/runs/a36_recipient_screen_v1/receipt.json",
+    "analysis/research/runs/zh26_s0_qualification_v3/receipt.json",
+    "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
+    "analysis/research/runs/zh26_s3_block_v2/receipt.json",
+    "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
+    "analysis/research/runs/zh26_s3_ranking_v1/receipt.json",
+    "analysis/research/runs/zh26_failure_archive_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
@@ -1875,6 +1924,16 @@
       "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
       "schematic_sha256": "0c17392c56c22f7e86521836d55de5010729aaff3a18591c0bd68010d5522842",
       "hypothesis_sha256": "1c92ab7ab16073ca7dcbc599345a189255058ddf597b4d2b40d640e9904b4b3f"
+    },
+    {
+      "question": "A36",
+      "context": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+      "schematic": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/schematics/A36_gpt_matte_v2.png",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "fcf1c39bcc8849013b3800a2d7c798faa887b371",
+      "schematic_sha256": "17984396a646c0f2e5d3c5311133ce0a5e381e513c73bc6632bd94ccaef5fc80",
+      "hypothesis_sha256": "f948a3606995150928f3759768b184d8adcb3e42040b4dcd432ac8b6aaa90ae4"
     }
   ],
   "question_raster_provenance": [
@@ -2345,6 +2404,19 @@
       "prompt": "RQ_Specified/A35_treg_igfbp4_source_igf_response/schematics/A35_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "607330b1b38660b6f528f7a5466ddf5e2653839df115a5c15a942a2dadea4108",
       "review_record": "Research Article/gate3_09_dupage_2015/rq_derivation/FIGURE_REVIEW_20261108.md"
+    },
+    {
+      "question": "A36",
+      "kind": "qualitative_raster_illustration",
+      "image": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/schematics/A36_gpt_matte_v2.png",
+      "image_sha256": "17984396a646c0f2e5d3c5311133ce0a5e381e513c73bc6632bd94ccaef5fc80",
+      "source_schematic": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/schematics/hypothesis_v1.svg",
+      "source_schematic_sha256": "31617556ace742b7fc7e771a22330663ace373e4eb0152200f043fc34d3682b8",
+      "hypothesis_sha256": "f948a3606995150928f3759768b184d8adcb3e42040b4dcd432ac8b6aaa90ae4",
+      "source_revision": "fcf1c39bcc8849013b3800a2d7c798faa887b371",
+      "prompt": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/schematics/A36_gpt_matte_v2.prompt.txt",
+      "prompt_sha256": "4621a7e9dbde7904b1611144576d4d2df9cbdb6c9d2392ce7f5cf3fedd595b3f",
+      "review_record": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/FIGURE_REVIEW_20261110.md"
     }
   ]
 }

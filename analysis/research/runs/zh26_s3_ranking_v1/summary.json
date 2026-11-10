@@ -1,0 +1,159 @@
+{
+  "independent_ES_checks": 472,
+  "max_independent_ES_error": 1.745270594710746e-13,
+  "ES_sign_changes": [
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_CARDIAC_MUSCLE_CONTRACTION"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_HEDGEHOG_SIGNALING_PATHWAY"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_OXIDATIVE_PHOSPHORYLATION"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_PARKINSONS_DISEASE"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_FATTY_ACID_METABOLISM"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_HOMOLOGOUS_RECOMBINATION"
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "KEGG_MISMATCH_REPAIR"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_PANTOTHENATE_AND_COA_BIOSYNTHESIS"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_CARDIAC_MUSCLE_CONTRACTION"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_OXIDATIVE_PHOSPHORYLATION"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_DNA_REPLICATION"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_OTHER_GLYCAN_DEGRADATION"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_PARKINSONS_DISEASE"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_BASE_EXCISION_REPAIR"
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "KEGG_BUTANOATE_METABOLISM"
+    }
+  ],
+  "source_selected_panels": [
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+      "logFC_ES": 0.551106950634495,
+      "moderated_t_ES": 0.520157724372256,
+      "logFC_NES": 1.84639284067045,
+      "moderated_t_NES": 1.77686743579029,
+      "logFC_BH": 1.54614560790303e-08,
+      "moderated_t_BH": 1.08775479267413e-08,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 62,
+      "leading_edge_union": 90
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "HALLMARK_IL2_STAT5_SIGNALING",
+      "logFC_ES": 0.518197898348725,
+      "moderated_t_ES": 0.518112352825745,
+      "logFC_NES": 1.72925515898849,
+      "moderated_t_NES": 1.76282600023358,
+      "logFC_BH": 6.50629558516704e-06,
+      "moderated_t_BH": 3.53656278836987e-08,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 79,
+      "leading_edge_union": 91
+    },
+    {
+      "contrast": "itdt_vs_pbs",
+      "pathway": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+      "logFC_ES": 0.448021063559481,
+      "moderated_t_ES": 0.481603671431506,
+      "logFC_NES": 1.50355895291474,
+      "moderated_t_NES": 1.64849255221922,
+      "logFC_BH": 0.00162039742837788,
+      "moderated_t_BH": 3.86629465892709e-06,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 60,
+      "leading_edge_union": 76
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "HALLMARK_IL2_STAT5_SIGNALING",
+      "logFC_ES": -0.519050230283371,
+      "moderated_t_ES": -0.539452264106045,
+      "logFC_NES": -1.96360409801441,
+      "moderated_t_NES": -2.05577639121637,
+      "logFC_BH": 1.97174392527848e-10,
+      "moderated_t_BH": 2.03805741361729e-14,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 61,
+      "leading_edge_union": 81
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+      "logFC_ES": -0.504791691597389,
+      "moderated_t_ES": -0.527970144817048,
+      "logFC_NES": -1.91989422561994,
+      "moderated_t_NES": -2.02171101133966,
+      "logFC_BH": 6.54122320485384e-10,
+      "moderated_t_BH": 2.03805741361729e-14,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 72,
+      "leading_edge_union": 94
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "pathway": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+      "logFC_ES": -0.33207559070434,
+      "moderated_t_ES": -0.38185357380217,
+      "logFC_NES": -1.26620798728261,
+      "moderated_t_NES": -1.46579569623386,
+      "logFC_BH": 0.120079973342219,
+      "moderated_t_BH": 0.0010243791222834,
+      "ES_sign_agrees": true,
+      "leading_edge_overlap": 56,
+      "leading_edge_union": 66
+    }
+  ],
+  "interpretation": "Exposed ranking-dependence diagnostic on identical genes and pathways; source P thresholds are not new confirmatory decisions; no independent replication."
+}

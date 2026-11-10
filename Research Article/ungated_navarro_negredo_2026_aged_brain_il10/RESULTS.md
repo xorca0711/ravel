@@ -1,5 +1,12 @@
 # Nn26-P01 — source and animal-outcome reproduction
 
+**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+
+**Question-development review, 10 November:** the
+[extension assessment](QUESTION_DEVELOPMENT_20261110.md) distinguishes these
+early endpoints from a proposed later-survival comparison. It preserves the
+direct null comparisons and does not infer a D25K advantage from them.
+
 **10 November follow-up:** [new residual-statistic diagnostics](followup_20261110/README.md#2-residual-animal-test-diagnostics)
 retain the two unmatched comparisons and original values. The source refresh
 and distinct public human-cell analysis are in the same dated report. Earlier

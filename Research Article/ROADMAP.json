@@ -11,7 +11,8 @@
     "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed",
     "reconciled_with_main": "2026-10-03; 0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f",
     "nb5_status_updated": "2026-10-03; bounded exposed analysis and six figure plates executed; source discrepancies and branch holds retained; scientific acceptance pending",
-    "portfolio_extension_review": "2026-10-07; docs/portfolio_extensions/2026-10-07/README.md; exposed grouped extension scan, no owner reading or scientific acceptance changes"
+    "portfolio_extension_review": "2026-10-07; docs/portfolio_extensions/2026-10-07/README.md; exposed grouped extension scan, no owner reading or scientific acceptance changes",
+    "zhang_2026_status_updated": "2026-11-10; stable paper 11 / Gate 3B folder reconciled to completed Zh26-P01 package; numerical reproduction is not scientific acceptance; separate D1 lung gate unchanged"
   },
   "companion_atlases": [
     {
@@ -407,9 +408,9 @@
       "role": "current direction: selective intratumoral Treg perturbation reshapes NK and conventional CD4 T-cell activity; tumour-immunology branch, not lung-repair evidence unless the cells and programmes are present",
       "extract": [],
       "datasets": [],
-      "folder": null,
-      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
-      "trial_status": "not started"
+      "folder": "gate3_11_zhang_2026_nk",
+      "note_status": "owner read; paper review and biological interpretation completed 2026-11-10; separate D1 lung gate unchanged",
+      "trial_status": "released TPM RNA reproduction and bounded block/ranking sensitivity completed 2026-11-10; count-model and functional reconstruction unresolved; see gate3_11_zhang_2026_nk/RESULTS.md and INTERPRETATION_AND_ACCESS_V1.md"
     },
     {
       "order": 12,

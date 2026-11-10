@@ -1,6 +1,6 @@
 # Research question homes
 
-All **36 canonical questions (A0–A35)** have a dedicated home here. Folder presence
+All **37 canonical questions (A0–A36)** have a dedicated home here. Folder presence
 does not imply completed analysis, scientific acceptance or experimental readiness.
 The [canonical register](../RESEARCH_QUESTIONS.md) owns identity; the
 [registry](../analysis/research/registry.json) binds each home, context and figure.
@@ -59,7 +59,7 @@ does not automatically create a new active analysis task.
 
 <a id="all-33-current-questions"></a>
 <a id="current-questions"></a>
-## All 36 current questions
+## All 37 current questions
 
 | ID | Biological question → what current evidence changes | Question home | Dossier and package | Topic tags |
 |---|---|---|---|---|
@@ -99,6 +99,7 @@ does not automatically create a new active analysis task.
 | [A33](../RESEARCH_QUESTIONS.md#a33) | TIGIT-responsive AREG output → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A33_ezh2_tigit_areg_output/README.md) | [Dossier](../docs/research_dossiers/A33.md) · [Plan](A33_ezh2_tigit_areg_output/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [A34](../RESEARCH_QUESTIONS.md#a34) | CCR2 movement and fitness → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A34_ezh2_ccr2_movement_fitness/README.md) | [Dossier](../docs/research_dossiers/A34.md) · [Plan](A34_ezh2_ccr2_movement_fitness/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [A35](../RESEARCH_QUESTIONS.md#a35) | IGFBP4 source and IGF response → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A35_treg_igfbp4_source_igf_response/README.md) | [Dossier](../docs/research_dossiers/A35.md) · [Plan](A35_treg_igfbp4_source_igf_response/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
+| [A36](../RESEARCH_QUESTIONS.md#a36) | Transient D25K and later neuronal output → captured representation is mixed; later survival remains unestimated. | [RQ home](A36_aged_il10_sustained_neuronal_output/README.md) | [Dossier](../docs/research_dossiers/A36.md) · [Plan](A36_aged_il10_sustained_neuronal_output/PLAN.md) | [Ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 
 ## Shared and historical source work
 
@@ -150,3 +151,7 @@ Update the owning README, local literature context and registry together when a 
 ## DuPage-derived question development — 7 November 2026
 
 The [article derivation record](../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md) records the A33–A35 overlap scan, literature correction and archived Figure 4. The source paper owns this shared record; only A33–A35 add new question homes. Measured screening figures remain in the article gallery.
+
+## Navarro-derived later-output question — 10 November 2026
+
+[A36](A36_aged_il10_sustained_neuronal_output/README.md) owns the transient-exposure/later-neuronal-output comparison and its qualified upstream screen. [Plan](A36_aged_il10_sustained_neuronal_output/PLAN.md) · [Results](A36_aged_il10_sustained_neuronal_output/RESULTS.md). Owner-authorized registration is not scientific acceptance.

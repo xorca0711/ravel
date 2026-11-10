@@ -1,0 +1,57 @@
+[
+  {
+    "path": "raw_data/a36/source_v1/paper.xml",
+    "bytes": 351145,
+    "sha256": "75c65f97aa3cd4c05d4b16d60f53a9fd570d65250a439faadf9ce4baf3b91037"
+  },
+  {
+    "path": "raw_data/a36/source_v1/S1.xlsx",
+    "bytes": 7159661,
+    "sha256": "aeba769ca40d1e9b52796078f865bdcacdf2915978df32a8c54b206f7c4a4cda"
+  },
+  {
+    "path": "raw_data/a36/source_v1/S3.xlsx",
+    "bytes": 97761,
+    "sha256": "b50a10abd73f3d97185b47bc6da9b4f35c6571a04d010bbf42052a7a182b1aa4"
+  },
+  {
+    "path": "raw_data/a36/source_v1/S4.xlsx",
+    "bytes": 103671,
+    "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6"
+  },
+  {
+    "path": "raw_data/a36/source_v1/code_v1.zip",
+    "bytes": 46370,
+    "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481"
+  },
+  {
+    "path": "raw_data/a36/source_v1/supplement.pdf",
+    "bytes": 7194902,
+    "sha256": "9b6ea15dd3e5e16b8cdde0b2ec9db5d19ae62b57c8158ee2d50dd9f03260d0bf"
+  },
+  {
+    "path": "raw_data/a36/source_v1/zenodo.json",
+    "bytes": 5743,
+    "sha256": "eec7b9ab0eb16034fc36e643c79c709c4e040f2988857e1cea2a220c15df44bb"
+  },
+  {
+    "path": "raw_data/a36/source_v1/ena.tsv",
+    "bytes": 2167,
+    "sha256": "4bf8c10d285379bab4c9958dad887581ad3f0228ca4da502157c5577da3d5b31"
+  },
+  {
+    "path": "raw_data/a36/source_v1/retrievals.json",
+    "bytes": 667,
+    "sha256": "e05c1b38cc1a51eb799257544055580d653f1bb80b45b4972102282720f6bd2f"
+  },
+  {
+    "path": "analysis/research/runs/nn26_rds_metadata_v2/recovery.tsv",
+    "bytes": 4703,
+    "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b"
+  },
+  {
+    "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+    "bytes": 4703,
+    "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b"
+  }
+]

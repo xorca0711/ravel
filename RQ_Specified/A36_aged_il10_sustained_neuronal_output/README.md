@@ -1,0 +1,42 @@
+# A36 — Transient IL-10 exposure and later neuronal output
+
+**Organizing biological question:** In the aged SVZ–olfactory-bulb lineage, does a defined transient D25K exposure increase later surviving neuronal output relative to WT IL-10 and vehicle, and how does that compare with the early progenitor response?
+
+Registered on 10 November 2026 at the owner's explicit request. This is a proposed duration/endpoint extension, not scientific acceptance. [Canonical card](../../RESEARCH_QUESTIONS.md#a36) · [Dossier](../../docs/research_dossiers/A36.md) · [Literature context](LITERATURE_CONTEXT.md) · [Stepwise plan](PLAN.md) · [Results](RESULTS.md) · [Gallery](FIGURES.md) · [Validation](VALIDATION.md).
+
+## Literature and visual hypothesis
+
+Navarro et al. (2026), Fig. 5, already test the immune/IFN premise; Fig. 6 measures neural-marker endpoints after one week of infusion. Direct D25K–WT neural-marker superiority was not established by the repository's source reproduction. Early progenitor recovery need not imply later survival. Direct progenitor effects and chronic IL-10 survival findings make exposure duration and endpoint separation consequential; they do not predict a guaranteed D25K advantage.
+
+![A36 qualitative hypothesis and endpoint boundaries](schematics/A36_gpt_matte_v2.png)
+
+Qualitative proposed comparison, with no measured counts or effect sizes. The anatomy inset is schematic context; the dashed endpoint link is untested. [Figure review and provenance](FIGURE_REVIEW_20261110.md). The [context](LITERATURE_CONTEXT.md) separates primary results, same-source reanalysis and unmeasured links.
+
+## What the source audit changes
+
+Table S3 already includes interferon-related enrichment in engineered-IL-10 astrocyte/qNSC comparisons. Fig. S6 contains age clocks and whole-niche PCA. Neither is a new residual-IFN discovery here. The added descriptive question is whether broad-bin representation and within-bin RNA differences contribute together to a measured recipient pattern. The source explicitly cannot separate astrocytes/qNSCs or aNSCs/NPCs. Within-bin is therefore not within a purified NSC state.
+
+The screen can change the population/measurement decision for later work. It cannot estimate survival, identify IFN type, show secretion, establish maturation or prove immune mediation. Recovered-cell fractions are not tissue abundance. All outcome exposure is retained; a new freeze does not make these data unexposed.
+
+## Current work and next decision
+
+Both eligible computational stages are complete and receipt-verified. The source/representation stage passed 4,316 checks; Mut5 has a larger astrocyte/qNSC share but smaller progenitor and neuroblast shares than WT5 among three captured lineage bins. These fractions do not estimate tissue abundance.
+
+The exact-matrix RNA stage passed 1,344 arithmetic checks across 11,955 cells in four original bins. Bst2, Isg15 and Ifitm3 means are lower in Mut5 than WT5; across the three lineage-associated bins, representation partly offsets the negative within-bin terms. Stat1's aggregate mean is near unchanged and its detection is higher. Both treatment aliases retain higher aggregate means than Control for all four markers. The result therefore narrows a uniform attenuation/restoration account, while preserving a bounded recipient RNA difference. Within-bin mixture and condition-pool variation remain unresolved.
+
+The next biological decision concerns absolute early output versus later birthdated survival after verified exposure cessation, with qualified cell identities and actual biological units. The [stage plan](PLAN.md) records the missing interval, assay, variance and sample-size inputs. [Results](RESULTS.md) links both receipts, all contrasts and the exact later-output/age-modification holds. Additional RNA scores would not supply the missing endpoint.
+
+Nn26-P01 remains the [originating reproduction package](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md). Its frozen inputs, outputs and receipts stay in place. A25 owns cortical microglial age structure; A26/A27 own CD8 repertoire comparisons; Sx10-P01 owns ligand/dose/co-input selectivity. A36 does not replace any of them.
+
+## Workspace map
+
+| Location | Purpose |
+|---|---|
+| [PLAN.md](PLAN.md) | Steps, methods, informative outcomes and exact dependencies |
+| [LITERATURE_CONTEXT.md](LITERATURE_CONTEXT.md) | Primary-source overlap, contrary evidence, search/access log |
+| [RESULTS.md](RESULTS.md) | Current findings, immutable receipt links and remaining estimates |
+| [FIGURES.md](FIGURES.md) | Qualitative illustration and measured-result navigation |
+| `contracts/`, `scripts/` | Versioned frozen specifications and implementation |
+| `analysis/research/runs/a36_*` | Immutable governed execution products, linked here |
+
+No claim grade, human retain/reject decision, animal protocol or laboratory readiness is inferred.

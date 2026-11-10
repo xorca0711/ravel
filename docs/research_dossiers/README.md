@@ -4,7 +4,7 @@
 
 [Biological topic map](../guides/RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#all-33-current-questions).
 
-**Current navigation:** all [36 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
+**Current navigation:** all [37 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
 
 **Historical review coverage:** the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) retain their dated scope. They are not the current 33-question inventory.
 
@@ -16,7 +16,7 @@ The [3 October source-mapping closeout](source_mapping_closeout_2026-10-03/READM
 records the bounded recovery task and the work deferred at that checkpoint.
 Current owner pages record subsequent reviews and remaining evidence limits.
 
-All 36 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, proposed A31 from the Nb4-P09 functional-endpoint extension, and proposed A32 from Yd1-P02's joint matrix/mature-output question. Registration is not acceptance.
+All 37 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, proposed A31 from the Nb4-P09 functional-endpoint extension, and proposed A32 from Yd1-P02's joint matrix/mature-output question. Registration is not acceptance.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
 analysis is not an experiment-ready hypothesis. Published background and
@@ -73,6 +73,7 @@ scientific-design level; they are not laboratory procedures.
 | A30 | CSF-associated effector RNA → paired association remains in narrower observed-state support; activation exclusion, local induction and regulatory equivalence are not established. | [Evidence and next discriminator](A30.md) |
 | A31 | GRIA1 fibroblast response → alveolar expression and heterogeneous partners nominate conditional RNA contexts, including CNIH3; acute function remains unmeasured. | [Evidence and proposed baseline](A31.md) |
 | A32 | Myeloid ARG1 and recovery → supported myeloid/matrix RNA contexts coexist with unsupported epithelial contrasts; matrix reduction cannot stand in for regeneration. | [Evidence and next discriminator](A32.md) |
+| A36 | Transient IL-10 and later neuronal output → mixed captured representation, later survival unestimated. | [Evidence and next discriminator](A36.md) |
 
 ## Nb5 review and proposed registrations
 
@@ -125,3 +126,7 @@ analysis eligibility and bench readiness.
 ## Continued qualification after integration
 
 The [current continuation](continuation_2026-10-03/README.md) records normal-checkout alignment, 12 newly qualified source records, the A17 numerical kernel/specification and proposed package refinements. Use [remaining work](../history/planning/REMAINING_WORK.md) for the unresolved scientific and resource dependencies.
+
+## 10 November registration
+
+[A36](A36.md) develops transient D25K exposure and later surviving neuronal output in aged SVZ–olfactory-bulb lineage. The originating Nn26-P01 reproduction and all earlier RQ identities remain intact.

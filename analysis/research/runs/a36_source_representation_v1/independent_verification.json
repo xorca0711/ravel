@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "same_source_not_replication": true,
+  "recovery_rows": 96,
+  "recovery_and_fraction_checks": 156,
+  "S3_OOXML_scalar_checks": 4160,
+  "retained_total_cells": 51176,
+  "verification": "Separate receipt table equality, integer totals, Fraction arithmetic, direct ZIP/OOXML versus openpyxl reading."
+}

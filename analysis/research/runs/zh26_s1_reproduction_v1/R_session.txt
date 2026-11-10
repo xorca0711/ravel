@@ -1,0 +1,23 @@
+R version 4.3.3 (2024-02-29 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 11 x64 (build 26300)
+
+Matrix products: default
+
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Seoul
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] edgeR_3.42.4 limma_3.58.1
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3  Rcpp_1.0.14     splines_4.3.3   grid_4.3.3     
+[5] locfit_1.5-9.12 lattice_0.22-5  statmod_1.5.0  

@@ -1,5 +1,12 @@
 # Nn26-P01 — qualified pooled RNA description
 
+**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+
+**Question-development review, 10 November:** the
+[extension assessment](QUESTION_DEVELOPMENT_20261110.md) considers a qualified
+recipient-compartment screen and later neuronal output. Existing RNA does not
+establish that proposed explanation; frozen measurements below are unchanged.
+
 **10 November follow-up:** [refreshed public sources and separate human-cell
 context](followup_20261110/README.md) retain the original Navarro dose/pool holds.
 New donor-paired human data involve another agonist and do not supply D25K,
