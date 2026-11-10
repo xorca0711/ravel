@@ -1,5 +1,13 @@
 # Execution ledger — 8 November 2026
 
+**10 November follow-up:** the original seven-stage scope below remains complete
+within its holds. The owner-authorized [source/statistic follow-up and separate
+human-cell context](followup_20261110/README.md) have also executed under three
+new frozen contracts. Two new public GEO matrices were qualified; 540 human RNA
+measurements, 540 paired contrasts and 180 summaries passed 1,368 arithmetic
+checks. Navarro identity gaps and two unmatched statistics remain held. This
+does not change the original study's biological units or claim authority.
+
 Candidate **Nn26-P01**, ungated. Current authority: [RNA results](RNA_RESULTS.md)
 and [earlier animal results](RESULTS.md). Execution is not scientific acceptance.
 All numerical work remains exposed reproduction/description.

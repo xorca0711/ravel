@@ -4,6 +4,11 @@ Read `AI_CONTEXT.md`, `PROGRESS.md`, and `docs/RESEARCH_GOVERNANCE.md` before su
 Use `analysis/research/registry.json` to locate the current question card, dossier and evidence.
 Do not infer current state from an old checkout, an old plan or a chat summary.
 
+For substantive research work, apply the project `ravel-research-reasoning` skill.
+Project lifecycle assistance is documented in [the session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md).
+If hooks are unavailable, follow the same decision workflow manually; hook output
+does not grant permissions or scientific acceptance.
+
 ## State and preservation
 
 - At the start of repository work and before account-dependent writes, verify the actual GitHub login used by each CLI, connector or browser route is `xorca0711`. The remote URL and AI-host login are not identity evidence. The `chubyeon` identity is reserved for AI-agent hosting services; preserve that host session and do not reuse it for external services.

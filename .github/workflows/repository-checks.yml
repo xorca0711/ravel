@@ -21,6 +21,8 @@ jobs:
         run: python -m compileall -q -x '[/\\]\.tools[/\\]' analysis "Research Article" RQ_Specified
       - name: Test evidence and provenance contracts
         run: python -m unittest discover -s analysis/tests -q
+      - name: Test project session assistance
+        run: python -m unittest discover -s tools/codex -p 'test_*.py' -q
       - name: Check generated claim manifest and summaries
         run: python analysis/scripts/claim_contract.py --check
       - name: Verify tracked Nb1 evidence

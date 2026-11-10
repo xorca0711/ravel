@@ -1,0 +1,57 @@
+{
+  "host": "0.167.0-alpha.3.2",
+  "after_root_install": {
+    "id": 2,
+    "result": {
+      "data": [
+        {
+          "cwd": "X:\\GitHub\\ravel\\.worktrees\\ravel-session-reasoning-20261108",
+          "hooks": [
+            {
+              "key": "X:\\GitHub\\ravel\\.codex\\hooks.json:session_start:0:0",
+              "eventName": "sessionStart",
+              "handlerType": "command",
+              "command": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+              "async": false,
+              "matcher": "^(startup|resume|clear|compact|fork)$",
+              "timeoutSec": 20,
+              "statusMessage": "Loading Ravel research context",
+              "additionalContextLimit": 6500,
+              "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+              "source": "project",
+              "pluginId": null,
+              "environmentId": null,
+              "displayOrder": 0,
+              "enabled": true,
+              "isManaged": false,
+              "currentHash": "sha256:0804b0e41f144352cceb694cbde57017ab8b90422e507e2d350654c759cf34b8",
+              "trustStatus": "untrusted"
+            },
+            {
+              "key": "X:\\GitHub\\ravel\\.codex\\hooks.json:stop:0:0",
+              "eventName": "stop",
+              "handlerType": "command",
+              "command": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+              "async": false,
+              "matcher": null,
+              "timeoutSec": 20,
+              "statusMessage": "Checking changed research documents",
+              "additionalContextLimit": null,
+              "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+              "source": "project",
+              "pluginId": null,
+              "environmentId": null,
+              "displayOrder": 1,
+              "enabled": true,
+              "isManaged": false,
+              "currentHash": "sha256:17b18a6b8c7300520121b043b13345ef9f30e69c745f239b49ac63a687568c60",
+              "trustStatus": "untrusted"
+            }
+          ],
+          "warnings": [],
+          "errors": []
+        }
+      ]
+    }
+  }
+}

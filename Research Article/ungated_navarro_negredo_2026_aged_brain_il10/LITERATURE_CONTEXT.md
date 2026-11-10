@@ -1,5 +1,14 @@
 # Literature context for Nn26-P01
 
+**10 November source expansion:** [Canaria et al. (2026)](https://doi.org/10.1038/s41586-026-11176-1),
+Fig. 2g–h and Data availability, link human RNA selectivity to GSE318914/GSE318915.
+The [dated follow-up](followup_20261110/README.md) records actual searches,
+access limits, downloaded sources and donor-paired results. The T-cell GZMB
+pattern is consistent with the already published selectivity premise in this
+different agonist/context; IFNG remains mixed. This is same-source description
+of the new human study, not a new mechanism or D25K aged-brain replication.
+The original Navarro literature review below remains its historical record.
+
 8 November 2026. This execution retains the comparison in the prior
 [fit review](README.md) and [dated search/access record](DATA_USAGE.md#search-and-access-log).
 It does not propose novelty, a new mechanism or a laboratory experiment.

@@ -1,0 +1,15 @@
+endpoint,comparison,n_a,n_b,ties,method,applicable,p_value,p_reported,matches_reported_rounding,source
+open_field,D25K-Control,15,13,True,exact_tied_absolute_tail,True,0.5941630771301656,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,exact_tied_doubled_inclusive_tail,True,0.5942180686156995,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,asymptotic_tie_corrected_with_continuity,True,0.5962339913966814,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,asymptotic_tie_corrected_no_continuity,True,0.5803594272439431,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,normal_ignoring_ties_no_continuity,False,0.5804112384153828,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,normal_ignoring_ties_with_continuity,False,0.5962842667380814,0.59942,False,Figure 7!I16
+open_field,D25K-Control,15,13,True,scipy_exact_untied_reference,False,0.6177255265187691,0.59942,False,Figure 7!I16
+ifitm3,WT-Control,6,6,False,exact_tied_absolute_tail,True,0.025974025974025976,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,exact_tied_doubled_inclusive_tail,True,0.025974025974025976,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,asymptotic_tie_corrected_with_continuity,True,0.030638987937703265,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,asymptotic_tie_corrected_no_continuity,True,0.024974679293054237,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,normal_ignoring_ties_no_continuity,True,0.024974679293054237,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,normal_ignoring_ties_with_continuity,True,0.030638987937703265,0.0173,False,Figure 4!G17
+ifitm3,WT-Control,6,6,False,scipy_exact_untied_reference,True,0.025974025974025976,0.0173,False,Figure 4!G17

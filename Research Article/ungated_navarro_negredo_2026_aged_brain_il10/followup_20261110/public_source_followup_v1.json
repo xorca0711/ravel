@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.public_source_followup_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do refreshed source records resolve Navarro identity holds, and do the new human GEO matrices qualify for a separate donor-paired context description?",
+  "decision": "Resolve only evidence-supported joins; retain aged-brain holds and qualify external data by source, units and matrix semantics.",
+  "strongest_rival": "Shared alias labels or donor IDs across different studies could be mistaken for a verified dose mapping or replication of D25K effects.",
+  "discriminator": "Exact source versions and semantic BioSample comparison; explicit GSM-library descriptions; all matrix headers, integer counts, unique genes and complete donor strata.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Navarro outcomes and diagnostics were exposed previously. New Nature/GEO study title, reported direction, sample characteristics and matrix headers were read before freeze; no expression contrast has been calculated.",
+  "biological_unit": "Reported within-series human donor for possible later context; pooled mouse library for original Navarro. This stage qualifies metadata only.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Human treatment/time/activation samples are nested in donor. Repeated D1/D2/D3 labels across GEO series are not a cross-study person join.",
+  "population_and_selection": "Exact public metadata snapshots and complete supplied gene-count matrices for GSE318914 and GSE318915; original Navarro source records.",
+  "contrast": "Original versus refreshed source identity; declared sample design versus count-matrix columns. No gene-expression contrasts.",
+  "endpoint": "Source versions, sample/library joins, matrix dimensions/count integrity, donor strata and explicit eligibility/holds.",
+  "methods": "Parse exact frozen XML/JSON/TSV/SOFT inputs; require unchanged Navarro source versions for an unchanged-source disposition; validate every matrix row and sample join before any external description.",
+  "missingness_and_exclusions": "No sample or gene filtering. Missing donor/library/marker identity, duplicate features, negative/noninteger counts or incomplete treatment strata stop the dependent description.",
+  "multiplicity": "Metadata and arithmetic checks only; no inferential P values or confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate. Exact stored recovery counts and bounded numerical tolerance qualify file arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No biological replication, population treatment effect, age interaction, mediation or repair inference. Downstream microglia exclusions and filename changes must remain distinct from broad deposited cells.",
+  "stop_rule": "Stop if source identities change unexpectedly, counts or joins fail, or a requested marker symbol maps to multiple or no feature IDs. Never invent an alias or donor join.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/biosample_current.xml",
+      "sha256": "298229e50ba6d3f069a9dfaeb3b0b33be93d645a3147757f64abfb2ca9dad898",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/ena_current.tsv",
+      "sha256": "6f4c6af100fdd12f9cfd7a0912c9028a6976e214f6c02f2dfa15cff408338c8c",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/github_current.json",
+      "sha256": "4609e4684de668e6c075ada1448da595446729573901c2908049efcde462a35c",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/zenodo_latest_data.json",
+      "sha256": "8ebd517dfb1bb310176f18c1dd42158530deb680c3a960e80bcd0fe9b9f82102",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/zenodo_latest_code.json",
+      "sha256": "4d3d0a458f467c74ff11a1a2090c95d41ac8f2a8bcfa25067fbd19aaee521bbf",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/additional_bioprojects.json",
+      "sha256": "442204967e02a39487984c2cad26a2b6481dd5560a1e0df75efdddfdcd621854",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/geo_candidates.json",
+      "sha256": "3f2ecd6f72e2bf766612881049afdf863c546a929fac003b23ba2426913577f2",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/retrieval_manifest.json",
+      "sha256": "d7ae740a64684ac485ebeb7e1b9d3aa59333870e637c3336483076340c0980f7",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/additional_retrieval_manifest.json",
+      "sha256": "dd69fd93cf47161739b9d6efc9c65d39b362c8a47ae5ba33a8ed1f9508c1d4ad",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318914_family.soft.gz",
+      "sha256": "e26a61de8f253684387d9fb97c6dfa1c1f84630a7d8abc6a95102d68eb5c600e",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318915_family.soft.gz",
+      "sha256": "fa08c56c58b405cab7150384d90a44d5e7a4bd7b313c04fcf2fff9f7bd93d043",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318914_PBMC_Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "47e6455cc5a0bdb0b19b223747cdf6b9633e92ab2f8e7f139430ac673c6cbb34",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318915_Tcell.Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "ba52b21922aa6306eb1cbabcc255e3e1943f7ef9f70e5b147aa075a782b3736d",
+      "study_id": "Public_source_refresh_20261110",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/source_v1/biosample.xml",
+      "sha256": "8cbd89be8c5f089e9ce224e6971a72b428ccef944b19111ba0349b275328dee4",
+      "study_id": "NavarroNegredo2026_original_snapshot",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/qualify_public_sources_v1.py",
+      "sha256": "9bff99ccca3793cb5494723bb7ce93c4e944192d2aae08b25b124f024f7558ea"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/metadata_inputs_v1.json",
+      "sha256": "bd4141fbc94c047fc1c85b15a32312b7cf3af72450a6e69f10a3b46793dc1651"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/qualify_public_sources_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_refresh.json",
+    "public_deposit_qualification.json",
+    "input_manifest.json",
+    "public_sample_crosswalk.csv",
+    "library_sizes.csv",
+    ".gitattributes"
+  ],
+  "amendment_of": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/qualification_review_v1.json",
+  "amendment_reason": "Owner-authorized remaining-work follow-up and public sourcing after the completed Navarro run. Adds dated external-source qualification without revising prior evidence."
+}

@@ -1,6 +1,53 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
-**Current RNA status (8 November 2026):** object qualification and bounded pooled RNA description have executed. See [RNA results, measured SVGs and validation](RNA_RESULTS.md), [current stage ledger](STAGE_STATUS.md) and [cloud transfer guide](CLOUD_TRANSFER.md). The earlier paper assessment below predates this RNA execution; its pending statements are historical.
+**Current status — 10 November 2026:** the original seven-stage analysis and
+the owner-requested remaining-work follow-up have executed within their recorded
+limits. This remains **Nn26-P01**, a separate ungated companion to Gate 3A/Saxton.
+Execution does not establish scientific acceptance or a new mechanism.
+
+[Latest follow-up results](followup_20261110/README.md) ·
+[Figure gallery](FIGURES.md) · [Animal results](RESULTS.md) ·
+[Pooled mouse RNA](RNA_RESULTS.md) · [Stage ledger](STAGE_STATUS.md)
+
+## Current findings and limits
+
+- Animal/source reproduction retains 16 panels and 40 direct comparisons.
+  Thirty-eight exact-rank statistics reconcile; the two residuals remain
+  unresolved after a new fixed-convention and workbook-formula audit.
+- Direct cognition tests remain nonsignificant; neural-marker comparisons do
+  not establish D25K superiority over WT. Combined nesting mixes doses.
+- The main RNA object supports bounded pooled descriptions. Eight aliases versus
+  six published libraries, uncertain doses, missing individual mouse assignment,
+  downstream cell exclusions and the original hallmark file remain explicit holds.
+- Newly sourced GSE318914/GSE318915 provide a **separate human-cell context**:
+  108 libraries with three reported donors per series. Five fixed markers yield
+  540 measurements and 540 paired contrasts. T-cell GZMB directions are
+  consistent for IL-10–PBS and agonist–IL-10; IFNG directions are mixed.
+  The different engineered agonist is not D25K and does not supply aging or repair data.
+
+## Folder map
+
+| Purpose | Read / use |
+|---|---|
+| Current follow-up, remaining holds and new public-data results | [followup_20261110/README.md](followup_20261110/README.md) |
+| All original and new figures, separated by evidence type | [Figure gallery](FIGURES.md) |
+| Original animal and pooled RNA evidence | [RESULTS](RESULTS.md), [RNA_RESULTS](RNA_RESULTS.md), [STAGE_STATUS](STAGE_STATUS.md) |
+| Biological question, published premises and interpretation | [CANDIDATE](CANDIDATE.md), [LITERATURE_CONTEXT](LITERATURE_CONTEXT.md), [8 November interpretation](INTERPRETATION_20261108.md) |
+| Original plan and diagnostic amendments | [ANALYSIS_PLAN](ANALYSIS_PLAN.md), [animal v2 amendment](ANIMAL_AMENDMENT_V2.md), [metadata v2 correction](METADATA_AMENDMENT_V2.md) |
+| Dated follow-up plans and executable stages | [Follow-up plan](followup_20261110/PLAN.md), [human-context plan](followup_20261110/HUMAN_CONTEXT_PLAN_V1.md), [follow-up files](followup_20261110/) |
+| Original source/access history | [DATA_USAGE](DATA_USAGE.md), [METADATA_FOLLOWUP](METADATA_FOLLOWUP.md); later recovery/execution supersedes their old pending notes |
+| New public-source access and exact input hashes | [SOURCE_ACCESS](followup_20261110/SOURCE_ACCESS.md) |
+| Original frozen code/configuration | [contracts](contracts/), [scripts](scripts/), [config](config/); retained at original paths |
+| Validation, cloud transfer and byte preservation | [VALIDATION](VALIDATION.md), [CLOUD_TRANSFER](CLOUD_TRANSFER.md), [PORTABILITY](PORTABILITY.md); [CLOUD_READINESS](CLOUD_READINESS.md) is historical |
+
+New follow-up plans, contracts and scripts are grouped in `followup_20261110/`.
+Immutable outputs remain under `analysis/research/runs/`; raw downloaded inputs
+remain ignored. Historical files retain their provenance paths. No additional
+routine run is queued: further affected comparisons need the specific source
+information or study designs listed in the latest report.
+
+<details>
+<summary>Original paper assessment and 8 November execution notes (historical)</summary>
 
 8 November 2026 (Asia/Seoul). **Nn26-P01 source/animal stages, cloud RDS
 qualification and bounded RNA description are complete, with explicit source holds.** This remains a separate
@@ -186,3 +233,5 @@ main RDS was acquired and qualified; no FASTQ or optional biological object
 was acquired. [RNA synthesis](RNA_RESULTS.md) retains mixed marker directions,
 pooled units and unresolved alias/dose identities. No further environment
 change is needed for this completed run; source holds remain scientific limits.
+
+</details>

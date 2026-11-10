@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.human_context_description_v1",
+  "owner": "Nn26-P01",
+  "contract": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
+  "contract_sha256": "7df51a14aa22cc57c4060cc2c95671f9f3056d318cc445c063e70cccc14a38b6",
+  "git_commit": "8b6aef4e1c82b988b80bd6b67e2e988c1453979b",
+  "started_at": "2026-11-10T02:00:44.896480+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/describe_human_context_v1.py",
+    "--output",
+    "analysis/research/runs/nn26_human_context_description_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318914_PBMC_Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "47e6455cc5a0bdb0b19b223747cdf6b9633e92ab2f8e7f139430ac673c6cbb34",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318915_Tcell.Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "ba52b21922aa6306eb1cbabcc255e3e1943f7ef9f70e5b147aa075a782b3736d",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_public_source_followup_v1/public_sample_crosswalk.csv",
+      "sha256": "aae0dfee850508aa9db50b777ec61ed52df72b9db7ad2c5eeceebb60e4a6cb61",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_public_source_followup_v1/public_deposit_qualification.json",
+      "sha256": "c5192676a6555493e9d8e43fe50ad7883ede2a51f4ea7d875ef9d24cf6743b94",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/describe_human_context_v1.py",
+      "sha256": "faf0cb8ce2a17b3da1cf10b8e3b1720c8a544174296f6d97e0a9944ca9ccb4e6"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/measurements.csv",
+      "sha256": "80f0bd627db92cda1e5ea78faef1775c929412247bdab8dbd965cba1a04dadf1"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/paired_contrasts.csv",
+      "sha256": "8fe29488a0af912bba1ccde3ed1663e94180871b2ef0ef6821b461ab01bcce9a"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/contrast_summaries.csv",
+      "sha256": "98d58ea7909c74141c6c85aebdbe471a144d9dbaa0c8e679c3c080a75e01e666"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/human_context_medians.png",
+      "sha256": "3dc28ee74f5c67b2e9bfc654785dcda6b81b9a9346c3909a939442454bada9f1"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/human_context_medians.svg",
+      "sha256": "74080f47b322aa7e5b924f250b6f7bdd61f6e551c1ae095656a186e9ed5053a5"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/human_context_donors.png",
+      "sha256": "bdc1fc887625e26c2a8dd8662bdaf234a6c7a8c0eb82d4bfef33fb227f2b40b0"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/human_context_donors.svg",
+      "sha256": "a14190819e648308c2940580fe262d8804b46100fb7864b08343b76b486359d2"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/verification.json",
+      "sha256": "54e8336d1a3d27d6ebaeccb113ca998735a1ee24d5239058578f425f414e0359"
+    },
+    {
+      "path": "analysis/research/runs/nn26_human_context_description_v1/.gitattributes",
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-10T02:00:52.192916+00:00"
+}

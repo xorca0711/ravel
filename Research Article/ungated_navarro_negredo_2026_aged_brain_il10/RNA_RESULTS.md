@@ -1,5 +1,11 @@
 # Nn26-P01 — qualified pooled RNA description
 
+**10 November follow-up:** [refreshed public sources and separate human-cell
+context](followup_20261110/README.md) retain the original Navarro dose/pool holds.
+New donor-paired human data involve another agonist and do not supply D25K,
+aged-brain or mouse-level replication. This original report and its outputs are
+otherwise retained; use the combined [Figure gallery](FIGURES.md) for navigation.
+
 8 November 2026. The main deposited object and a separate exposed descriptive
 stage have executed under frozen Ravel contracts. **The data support a bounded
 description of observed condition aliases, with specific dose/source holds.**

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.residual_diagnostics_v3",
+  "owner": "Nn26-P01",
+  "contract": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
+  "contract_sha256": "10731061d1ddd4537777807b6ec32598f18eaf35190287b004324fb3dd645a10",
+  "git_commit": "557eb98cdc3c458501928583304d78d38bce407c",
+  "started_at": "2026-11-10T01:56:15.520908+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.py",
+    "--output",
+    "analysis/research/runs/nn26_residual_diagnostics_v3"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_original_S4",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+      "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_tie_diagnostic_v2/exact_rank_reconciliation.csv",
+      "sha256": "40c3de3f497a4955715b875d04675a4889f48e1bceefe51cd7bf74118f331e1c",
+      "study_id": "NavarroNegredo2026_prior_diagnostic",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.py",
+      "sha256": "c4c5d3d41254184d27c5f34d9ed5b7fdfd24987d483998ac42c35b2689e7b50d"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/reproduce_animals_v1.py",
+      "sha256": "ac6d06f4fab00cdb3b7f200c2c0b82e7b8bcb3cce5390695bfecb069f7938ac8"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+      "sha256": "4654da313a683502a57886c57e25a0aee4276a2f3a02f1a603706c240a511646"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/config/animal_panels_v1.json",
+      "sha256": "56283c81d1911604e65b3746cbc42e020a92d2592e10810d22cfe5bc9d140d25"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nn26_residual_diagnostics_v3/test_conventions.csv",
+      "sha256": "b2dfa91a3d7e5767839584e22e45f1e98cc8a5307695365c360905a6a0a8dbf2"
+    },
+    {
+      "path": "analysis/research/runs/nn26_residual_diagnostics_v3/diagnostic.json",
+      "sha256": "5459c4c4029b2fa0daf7515454bdec8943e0e0af25d36b813c5a4d16ca163a4a"
+    },
+    {
+      "path": "analysis/research/runs/nn26_residual_diagnostics_v3/.gitattributes",
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-10T01:56:25.935848+00:00"
+}
