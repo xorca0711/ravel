@@ -5,6 +5,10 @@ Figures are newly styled displays of receipt-bound calculations, not pixel
 copies of published panels. All were visually inspected. The source-panel
 choices are exposed; none was selected from a favorable new screen.
 
+See the [biological reading guide](INTERPRETATION_AND_ACCESS_V1.md) for what each
+display supports, how it connects to the functional experiments, and which
+remaining analyses have accessible inputs. All displayed figures are unchanged.
+
 ## Content crosswalk
 
 | Released file | Final-paper content locator | Reconstructed display |

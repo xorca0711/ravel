@@ -2,7 +2,8 @@
 
 10 November 2026. Stable reading paper **11**, Gate 3B.
 Owner reports reading complete. **Released RNA reproduction and bounded sensitivity complete;
-count-model and functional-data reconstruction remain held.**
+raw-read access is verified, while count-model qualification and functional-data
+reconstruction remain unfinished.**
 Article-local candidate **Zh26-P01** concerns reproducibility and measurement;
 it does not create a global RQ or scientific acceptance.
 
@@ -25,6 +26,14 @@ depends on ranking. The [current result](RESULTS.md) records all outcomes,
 verified receipts and exact holds. These results narrow uncertainty about the
 RNA measurement without resolving bulk-state mixture or the paper/code model
 disagreement.
+
+The [biological reading and access review](INTERPRETATION_AND_ACCESS_V1.md)
+explains all six figures and their relationship to the paper's functional
+experiments. Public SRA/ENA reads now provide a feasible route to an adapted
+count comparison; they do not recover the authors' original annotation or
+count-processing provenance. Supplement downloads still encounter a browser
+challenge, and PMC's replacement cloud service provides this manuscript's text
+but no supplementary binaries. Holds apply to those dependent steps only.
 
 ## Literature context and visual argument
 
@@ -55,7 +64,8 @@ crosswalks. These measurements remain distinct from the qualitative diagram.
 ## Read in this order
 
 1. [Current result, stage dispositions and exact holds](RESULTS.md).
-2. [Figure guide](FIGURES.md) and [execution validation](VALIDATION.md).
+2. [Biological interpretation and access](INTERPRETATION_AND_ACCESS_V1.md),
+   [figure guide](FIGURES.md) and [execution validation](VALIDATION.md).
 3. [Paper interpretation](PAPER_REVIEW.md) and [source review](SOURCE_REVIEW.md).
 4. [Preserved plan](ANALYSIS_PLAN.md) and [planning handoff](REVIEW_AND_HANDOFF.md).
 

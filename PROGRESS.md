@@ -1,5 +1,34 @@
 # Current project state
 
+## Zhang NK biological review and access follow-up — 10 November 2026
+
+Reviewed all six completed figures and the distinction between pooled NK RNA,
+phenotype, protein/signaling, killing and tumor outcomes. The
+[dated interpretation/access note](Research%20Article/gate3_11_zhang_2026_nk/INTERPRETATION_AND_ACCESS_V1.md)
+preserves stable source-panel directions, ranking-sensitive IFN-gamma significance,
+bulk-state alternatives and figure-label discrepancies. Personal DuPage fit and
+training notes remain private; no new RQ or scientific acceptance was created.
+
+NCBI/ENA records identify all nine libraries and 18 paired FASTQ files, about
+11.9 GB compressed; one 16-byte gzip range request succeeded. This enables
+planning an adapted count comparison, not an exact published count/voom replay:
+original annotation/count/length/processing provenance remains unqualified.
+Exact next work is a separate exposed-data contract, source/reference and
+runtime qualification before any count run. No bulk reads were downloaded.
+Functional supplement requests and ordinary browser navigation hit reCAPTCHA;
+PMC's replacement cloud inventory contains this manuscript's text/metadata only.
+Obtain the official binaries, then qualify each panel's units and identities;
+do not hold independent descriptive work for unrelated missing identities.
+Exact GSEA P replay still lacks original runtime/random-stream provenance.
+
+Completed numerical runs and immutable outputs are untouched. Public-source
+responses are retained locally with URLs/hashes in the addendum. Both GitHub
+routes verified `xorca0711`; no author contact, publication, external setting or
+governance change occurred. Against refreshed main `1a6769f`, 19,048 repository
+checks and base-aware research governance pass. Numerical evidence is unchanged;
+valid prior analysis/session/archive checks were reused. The addendum records
+verification and the exact next actions.
+
 ## Zhang 2026 released RNA reproduction and sensitivity — 10 November 2026
 
 Completed the qualified Zh26-P01 stages in the existing scoped worktree;

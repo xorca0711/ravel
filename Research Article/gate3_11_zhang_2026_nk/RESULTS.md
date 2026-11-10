@@ -4,6 +4,12 @@
 replication or scientific acceptance.** [Figure guide](FIGURES.md) ·
 [reviewed plan](ANALYSIS_PLAN.md) · [validation](VALIDATION.md).
 
+The dated [interpretation/access addendum](INTERPRETATION_AND_ACCESS_V1.md)
+explains these figures and narrows the next steps after fresh public-source
+inspection: raw reads are accessible for a separately qualified adapted count
+comparison; exact count/voom provenance and functional supplement acquisition
+remain unresolved. Numerical findings and frozen evidence below are unchanged.
+
 ## What this work changed
 
 The released TPM/limma-trend analysis is numerically reproducible. Every field

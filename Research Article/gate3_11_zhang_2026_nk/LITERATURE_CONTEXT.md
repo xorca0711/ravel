@@ -6,6 +6,12 @@ Purpose: source reproduction and contextual interpretation of Zhang 2026.
 This bounded update reuses the [7 November DuPage review](../gate3_09_dupage_2015/LITERATURE_CONTEXT.md);
 it does not certify novelty or laboratory readiness.
 
+The subsequent [interpretation/access addendum](INTERPRETATION_AND_ACCESS_V1.md)
+connects all six completed figures to Zhang's exact functional panels and the
+older Gasteiger precedent. It reuses this literature scan and records fresh
+source-access checks, including a working raw-read route and bounded supplement
+access failures. It adds no new mechanism or independent replication claim.
+
 ## Published starting point
 
 | Primary source / version | Exact locator and access | Role in this comparison |
