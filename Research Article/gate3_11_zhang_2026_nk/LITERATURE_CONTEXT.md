@@ -75,10 +75,13 @@ cytokine flux, cellular fate, killing or clinical benefit.
 
 ## Hypothesis schematic
 
-The [README](README.md#literature-context-and-visual-argument) contains a
-qualitative Mermaid map of the published premise, measurement comparison,
-validity threat and decisions. This article-local candidate has no canonical
-question-guide image; no new measured figure is claimed.
+The [README's measured figures](README.md#measured-figures) now display all six
+completed analyses, with captions distinguishing transcript measurements from
+functional endpoints. Its [biological interpretation](README.md#biological-interpretation-and-literature-context)
+connects the published premise, comparison, validity threats and next decision.
+The earlier procedural Mermaid map was replaced in this entrypoint by the
+existing measured evidence; this article-local candidate has no canonical
+question-guide image, and no new figure or biological hypothesis was generated.
 
 ## Next literature check
 
