@@ -16,7 +16,8 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-from .path_migrations import entries as migration_entries, migration_errors, resolve_historical
+from .path_migrations import (MANIFEST as MIGRATION_MANIFEST, entries as migration_entries,
+                              migration_errors, resolve_historical)
 
 SCIENTIFIC_ROOTS = ('analysis/', 'Research Article/', 'RQ_Specified/')
 # Keep the historical repository identity for hash-bound illustrations.
@@ -586,6 +587,12 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         except subprocess.CalledProcessError:
             previous=None
         if previous is not None:
+            # Push bases may already contain the relocation, unlike the PR base.
+            # Use only that revision's retained, validated map for its Git blobs.
+            base_migrations = {}
+            if not relocation_errors and git(root, 'ls-tree', '--name-only', base, '--', MIGRATION_MANIFEST).strip():
+                base_map = json.loads(git(root, 'show', f'{base}:{MIGRATION_MANIFEST}'))
+                base_migrations = {item['from']: item for item in base_map['files']}
             for preview in previous.get('question_raster_provenance', []):
                 try:
                     if sha256(within(root, preview['image'])) != preview['image_sha256']:
@@ -609,7 +616,11 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
                     if path not in index[kind]:
                         errors.append(f'Registered {kind} cannot be removed: {path}')
                     try:
-                        saved=git(root,'show',f'{base}:{path}')
+                        migration = base_migrations.get(path)
+                        saved_path = migration['to'] if migration else path
+                        saved=git(root,'show',f'{base}:{saved_path}')
+                        if migration and hashlib.sha256(saved).hexdigest() != migration['sha256']:
+                            raise ResearchError(f'Prior migrated file hash mismatch: {saved_path}')
                         frozen=kind=='receipts' or json.loads(saved).get('status')=='frozen'
                         if frozen and saved.replace(b'\r\n',b'\n') != within(root,path).read_bytes().replace(b'\r\n',b'\n'):
                             errors.append(f'Frozen {kind} changed: {path}; create a versioned amendment')

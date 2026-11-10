@@ -29,6 +29,18 @@ No new external input is required. Commit `2a18539` is pushed and
 [PR #175](https://github.com/xorca0711/ravel/pull/175) is open against main.
 GitHub maps both author and committer of that commit to `xorca0711`; the PR was
 also created by `xorca0711`. Live PR checks own the remote validation status.
+The owner then identified a failed push-triggered governance check on `2558f3f`:
+PR checks passed, but a push base after migration still looked up nine frozen
+contracts at their retired paths. The first delivery incorrectly treated only
+the PR-triggered runs as the complete check state. The follow-up resolves Git
+blobs through the base revision's retained migration map, verifies its exact
+hash before assessing frozen status, and adds before/after-base and tampered-base
+regressions. Validation must cover both push and PR events at the final commit;
+it must not filter the status audit to pull-request runs alone.
+The follow-up full suite passes: 175 tests, two existing skips, including eight
+migration tests. Research-gate checks also pass against both main `14449c0` and
+the post-migration push base `2558f3f`. Frozen artifacts, contracts, receipts and
+numerical results remain unchanged by this correction.
 Next step is explicit owner review of the validator/governance extension before merge.
 External account and branch protection settings remain unchanged.
 

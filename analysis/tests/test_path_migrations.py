@@ -116,6 +116,34 @@ class PathMigrationTests(unittest.TestCase):
         self.save()
         self.assertTrue(any('immutable' in e for e in migration_errors(self.root, accepted)))
 
+    def commit_migration(self):
+        self.git('add', '.')
+        self.git('-c', 'user.name=Synthetic Test', '-c', 'user.email=test@example.invalid',
+                 'commit', '-qm', 'synthetic relocation')
+        return self.git('rev-parse', 'HEAD')
+
+    def test_gate_accepts_bases_before_and_after_contract_migration(self):
+        self.freeze()
+        self.move('contract.json', 'canonical/contract.json')
+        self.move('analysis/run.py', 'analysis/canonical/run.py')
+        migrated_base = self.commit_migration()
+        self.assertEqual(check_registry(self.root, base=self.base), [])
+        self.assertEqual(check_registry(self.root, base=migrated_base), [])
+
+    def test_base_contract_blob_must_match_accepted_migration_hash(self):
+        self.freeze()
+        self.move('contract.json', 'canonical/contract.json')
+        self.commit_migration()
+        target = self.root/'canonical/contract.json'
+        original = target.read_bytes()
+        modified = json.loads(original)
+        modified['status'] = 'draft'
+        target.write_text(json.dumps(modified), encoding='utf-8')
+        corrupted_base = self.commit_migration()
+        target.write_bytes(original)
+        errors = check_registry(self.root, base=corrupted_base)
+        self.assertTrue(any('Prior migrated file hash mismatch' in e for e in errors), errors)
+
     def test_migrated_code_or_contract_cannot_execute(self):
         self.freeze()
         self.move('analysis/run.py', 'analysis/canonical/run.py')

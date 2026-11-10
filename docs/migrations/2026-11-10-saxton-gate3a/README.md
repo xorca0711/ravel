@@ -53,6 +53,17 @@ checkout-only differences were restored from unchanged Git blobs; 15 published
 outputs were copied from a locally cached version only after lock-hash checks.
 No scientific computation was repeated and no integrity check was bypassed.
 
+The first publication's PR-triggered checks passed, but its push-triggered
+governance check failed when comparing against an already migrated base. The
+historical comparison now reads each contract/receipt at the path recorded by
+that base revision's retained migration map and verifies the exact mapped hash
+before interpreting frozen status. Additional regressions cover bases before
+and after the migration and reject a tampered base blob, including a changed
+status field. Both push and PR events must be checked for the final revision.
+The follow-up full suite passes 175 tests (two existing skips), including eight
+migration tests; local research-gate checks pass against both `14449c0` (main)
+and `2558f3f` (post-migration push base).
+
 Repository AGENTS now requires verification of the actual `xorca0711` service
 identity and effective Xorca author/committer attribution, including cloud
 executors, imported commits and handoffs. Existing merged history is preserved.
