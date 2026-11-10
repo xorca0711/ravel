@@ -1,5 +1,10 @@
 # Review and technical handoff
 
+**Execution follow-through:** see the [current result](RESULTS.md),
+[figure guide](FIGURES.md) and [validation](VALIDATION.md). The planning review
+and initial handoff below remain historical; they do not describe the current
+execution status or replace the new versioned contracts and receipts.
+
 10 November 2026. Authoring-agent scientific/technical review of
 [plan v1](ANALYSIS_PLAN.md). This is not independent human review or acceptance.
 

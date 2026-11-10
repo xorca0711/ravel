@@ -1522,7 +1522,8 @@
     "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
     "analysis/research/runs/zh26_s3_block_v2/receipt.json",
     "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
-    "analysis/research/runs/zh26_s3_ranking_v1/receipt.json"
+    "analysis/research/runs/zh26_s3_ranking_v1/receipt.json",
+    "analysis/research/runs/zh26_failure_archive_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

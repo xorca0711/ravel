@@ -1,5 +1,30 @@
 # Current project state
 
+## Zhang 2026 released RNA reproduction and sensitivity — 10 November 2026
+
+Completed the qualified Zh26-P01 stages in the existing scoped worktree;
+[current results, five verified receipts and exact holds](Research%20Article/gate3_11_zhang_2026_nk/RESULTS.md)
+and the [six-figure guide](Research%20Article/gate3_11_zhang_2026_nk/FIGURES.md)
+own the evidence. All three 12,708-gene released contrast tables reproduce.
+Fixed source-panel directions survive each block omission. Enrichment ES/NES,
+sizes and leading-edge sets match; Monte Carlo P values are not exact, and
+IFN-gamma second-contrast BH changes from 0.1201 to 0.001024 under the
+prespecified moderated-t ranking. Negative, mixed and unestimated outcomes remain.
+
+Count reanalysis needs qualified counts/annotation/length provenance. Numeric
+functional work needs the actual supplemental data and cohort/gating identities;
+the recovered PMC links returned challenge pages. Exact GSEA P replay needs
+source runtime/backend provenance. S4 source-grounded synthesis and S5 decision
+are complete; no new RQ, target ranking or acceptance was created. Four failed
+runs and their corrected successors are preserved, without refitting completed
+calculations merely to repair reports. CLI/Git identities were verified; no
+push, merge, author contact, personal-note edit or governance change occurred.
+The original main checkout and all other RQs remain untouched. Against refreshed
+main `1a6769f`, 19,039 repository checks, 175 analysis tests (two skips), 25 session
+tests, archive/claim checks and base-aware governance pass. A sixth metadata
+receipt verifies the exact failure archive. Runtime details and preservation
+are in the package's [validation record](Research%20Article/gate3_11_zhang_2026_nk/VALIDATION.md).
+
 ## Zhang 2026 paper review and analysis plan — 10 November 2026
 
 Recovered the clean planning worktree at current main `1a6769f` and completed

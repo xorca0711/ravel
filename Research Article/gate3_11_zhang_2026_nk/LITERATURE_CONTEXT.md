@@ -26,8 +26,14 @@ No paper count is treated as a count of independent replications.
 ## Repository observation
 
 [SOURCE_REVIEW.md](SOURCE_REVIEW.md) records disagreement among the published
-RNA methods, older GEO description and executable code. No Zhang numerical
-effect has yet been computed in Ravel. Existing [DuPage results](../gate3_09_dupage_2015/RESULTS.md)
+RNA methods, older GEO description and executable code. The subsequent
+[released-code reproduction and sensitivities](RESULTS.md) reconstruct all
+three RNA tables, preserve fixed-panel directions under block omission, and
+identify ranking-sensitive IFN-gamma enrichment. Zhang et al. Figure 3 already
+reports the corresponding transcript pattern; Figures 6–7 supply separate
+functional/signaling premises. This is shared-source reproduction, not a new
+mechanism or independent support. The comparison has not changed, so the
+completed literature search below was not rerun. Existing [DuPage results](../gate3_09_dupage_2015/RESULTS.md)
 and [candidate follow-up](../gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
 retain mixed context dependence and unit limits; they are not Zhang predictions.
 

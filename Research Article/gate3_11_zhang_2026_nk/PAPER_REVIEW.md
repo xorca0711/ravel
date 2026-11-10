@@ -67,7 +67,11 @@ is an appropriate paper-specific input here.
 movement/fitness and IGFBP4 source/response questions. Zh26-P01 owns source
 reproducibility of NK RNA. No canonical question is merged, retired or promoted.
 
-**Next decision:** qualify the available inputs and replay the source analysis.
-A reproducible RNA pattern strengthens confidence in that measurement, while
-method sensitivity narrows its interpretation. Neither outcome alone adjudicates
-the whole functional mechanism or identifies a new therapeutic target.
+**Current execution interpretation:** the [released RNA replay](RESULTS.md)
+reproduces the Figure 3 source tables and narrows measurement uncertainty.
+Fixed-panel directions survive block omission, while enrichment P values and
+the IFN-gamma threshold-based description depend on computational/ranking
+choices. These observations are already tied to Zhang's reported transcript
+patterns, not a new circuit. Count-model reconciliation and numerical functional
+reconstruction require the exact inputs listed in the result report. Neither
+outcome adjudicates the whole functional mechanism or identifies a new target.

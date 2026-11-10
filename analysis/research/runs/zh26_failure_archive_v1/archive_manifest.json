@@ -1,0 +1,228 @@
+{
+  "operation": "Byte-preserving metadata archive, not successful biological execution.",
+  "failed_runs": [
+    "zh26_s0_qualification_v1",
+    "zh26_s0_qualification_v2",
+    "zh26_s3_block_v1",
+    "zh26_s2_enrichment_v1"
+  ],
+  "original_receipts_rewritten": false,
+  "files": [
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v1/receipt.json",
+      "archive_path": "zh26_s0_qualification_v1/receipt.json",
+      "sha256": "ee6428379aae5b41e6b4eb885151ccdc56a449f50d9644d1584e201b23e64ee3",
+      "bytes": 11167,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "80881e83bc7eedf6c43c863720320fbc5d02082b"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v1/source_manifest.json",
+      "archive_path": "zh26_s0_qualification_v1/source_manifest.json",
+      "sha256": "1da22882717d0f52c43aeae45e33f5da5864537d63562fedc3afd1a6f1292aa3",
+      "bytes": 12006,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "80881e83bc7eedf6c43c863720320fbc5d02082b"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v1/stderr.log",
+      "archive_path": "zh26_s0_qualification_v1/stderr.log",
+      "sha256": "bcfeed0eb00a02a81751fdf42cc3a79e0614f1dec5c271434a49486b52ddd674",
+      "bytes": 460,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "80881e83bc7eedf6c43c863720320fbc5d02082b"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v1/stdout.log",
+      "archive_path": "zh26_s0_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "80881e83bc7eedf6c43c863720320fbc5d02082b"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v2/receipt.json",
+      "archive_path": "zh26_s0_qualification_v2/receipt.json",
+      "sha256": "6218a279f5e2b6f803886087a6458c24d31cf82449660e8d4f22598626967ac0",
+      "bytes": 12715,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "de4a3098a1466543d2567f052c5c394ec0697134"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v2/sample_crosswalk.csv",
+      "archive_path": "zh26_s0_qualification_v2/sample_crosswalk.csv",
+      "sha256": "26f64d620e358e8a76205661c0315fec8b303b515d980173490f9f6321556fe5",
+      "bytes": 2118,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "de4a3098a1466543d2567f052c5c394ec0697134"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v2/source_manifest.json",
+      "archive_path": "zh26_s0_qualification_v2/source_manifest.json",
+      "sha256": "1da22882717d0f52c43aeae45e33f5da5864537d63562fedc3afd1a6f1292aa3",
+      "bytes": 12006,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "de4a3098a1466543d2567f052c5c394ec0697134"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v2/stderr.log",
+      "archive_path": "zh26_s0_qualification_v2/stderr.log",
+      "sha256": "2a09c109276ab5d44fd8986e9eeee8dd4bd1b521588a3a4202ecb4b61ef714e1",
+      "bytes": 526,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "de4a3098a1466543d2567f052c5c394ec0697134"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s0_qualification_v2/stdout.log",
+      "archive_path": "zh26_s0_qualification_v2/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "de4a3098a1466543d2567f052c5c394ec0697134"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/fixed_panel_stability.csv",
+      "archive_path": "zh26_s3_block_v1/fixed_panel_stability.csv",
+      "sha256": "a01eee21beffffcb7e94da6825a8bdcd62474d5ca5d5ed65f263d3be5c6bb2d7",
+      "bytes": 7736,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/gene_stability.csv",
+      "archive_path": "zh26_s3_block_v1/gene_stability.csv",
+      "sha256": "ff7796a871acf0fbdeabcb28ceb8bbd107194c9a205fdbaa66a04b9a2745e9c5",
+      "bytes": 3425355,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/leave_one_block_out.csv",
+      "archive_path": "zh26_s3_block_v1/leave_one_block_out.csv",
+      "sha256": "ad74c06ab333947c548ad3eabbb9ff643a7367476a3f08483d59405468fd8049",
+      "bytes": 4115786,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/R_session.txt",
+      "archive_path": "zh26_s3_block_v1/R_session.txt",
+      "sha256": "e0f45abdf3fcfe9dac15e8a4a2d50d385edb592a0200158b90efb43c796c5dcc",
+      "bytes": 475,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/receipt.json",
+      "archive_path": "zh26_s3_block_v1/receipt.json",
+      "sha256": "cda86d9ffe89bd6e98bd2ce5dba1126acdfcae45703cb52ebb00074f787fc579",
+      "bytes": 4352,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/stderr.log",
+      "archive_path": "zh26_s3_block_v1/stderr.log",
+      "sha256": "c3226fd8ff364686da75ff9e78e156d9b0a13381397ff75d6c2257ce50d2445a",
+      "bytes": 1893,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s3_block_v1/stdout.log",
+      "archive_path": "zh26_s3_block_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "b4b8bcb05e9ade3560c49fa90e57a23da348072e"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/coverage.csv",
+      "archive_path": "zh26_s2_enrichment_v1/coverage.csv",
+      "sha256": "16426b48099256377640b70cc84d62a85c9e22aa92272c3ba2687aaf7fe92337",
+      "bytes": 30067,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/gene_sets.csv",
+      "archive_path": "zh26_s2_enrichment_v1/gene_sets.csv",
+      "sha256": "2c66c31f8799f61c69b4fcce17a8c26f2b179bdf0d56eca193fe3d1b8d87379c",
+      "bytes": 796277,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "archive_path": "zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "sha256": "8171d4d6104909e58cdf5cb55f6bbdb1e4b161e5495dd69636ba8147531fa2d8",
+      "bytes": 70084,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "archive_path": "zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "sha256": "5a82a94ec67af9d579c775b92f034531afb1140ef3068efbea196a2d7d0f1d4d",
+      "bytes": 69842,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/R_session.txt",
+      "archive_path": "zh26_s2_enrichment_v1/R_session.txt",
+      "sha256": "68d709feb499a66552fc825bd6b1bb10e6c6d8fdb7718794a01a241eee013f92",
+      "bytes": 1141,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "archive_path": "zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "accb7c38c4b7e1d5638c0c08de7eb176bde8654a7464f54f15ed5c3a8373f167",
+      "bytes": 317434,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "archive_path": "zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "ee37989ef7745b146c2bf5670c42c28fa0d11ba7a11ee11ee6bc5d7f66f61ebf",
+      "bytes": 310867,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/receipt.json",
+      "archive_path": "zh26_s2_enrichment_v1/receipt.json",
+      "sha256": "aa2a731c66daf9c4713c99135dc9eefd9217bf794b463c9dcad0c80046b6ebc5",
+      "bytes": 7103,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/runtime_settings.txt",
+      "archive_path": "zh26_s2_enrichment_v1/runtime_settings.txt",
+      "sha256": "8d2b673dde0739542b3f7bbc951224adb9061d8625bc3f190c38d988f19d3bae",
+      "bytes": 194,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/stderr.log",
+      "archive_path": "zh26_s2_enrichment_v1/stderr.log",
+      "sha256": "04ca78d9171232f2b40107b9ee269f1c564b4f2929a93158ac223cb611ef67b9",
+      "bytes": 1008,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    },
+    {
+      "original_path": "analysis/research/runs/zh26_s2_enrichment_v1/stdout.log",
+      "archive_path": "zh26_s2_enrichment_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_status": "execution_failed",
+      "original_freeze_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827"
+    }
+  ]
+}

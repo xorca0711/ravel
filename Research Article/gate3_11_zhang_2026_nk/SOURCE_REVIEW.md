@@ -1,5 +1,12 @@
 # Source inventory and reconciliation
 
+**Current execution:** [S0 qualification and subsequent results](RESULTS.md)
+supersede the feasibility status below. GEO/GitHub TPM values and sample/block
+joins are qualified; released-code reproduction and bounded sensitivity ran.
+PMC supplement locators were recovered, but downloads returned HTML challenges.
+The current supplied PDF has a different hash and is recorded separately.
+The planning snapshot below is retained as prior exposure and source history.
+
 Inspected 10 November 2026, Asia/Seoul. Repository base:
 `1a6769fc3d808ccf6b27aed3ecedc71341026f33`.
 This is a reading/source inspection; no matrix analysis or numerical run occurred.
