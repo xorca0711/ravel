@@ -34,10 +34,21 @@ Live readiness confirmed the exact read-only RDS and 16 GiB cgroup. The temporar
 
 The owner separately authorized return of the exact 1,043,052-byte derived-result bundle after automatic review required that payload approval. Its SHA-256 is `f1df4e91ae9a5024ea3cb44cdd281f811e6c20c35b4e4e6807cd1f7c154e7d39`; manifest SHA-256 is `b6cdeb1a7d7dbfc338cdda212cd6520811f6bc70b174645b9784ee633d307254`. All 85 transport pieces and assembled bytes verify. New result/report files match cloud Git blobs and manifest hashes. Import/freeze `19ed556` and result commit `89d77ce` both use Xorca for author/committer. Current desktop documents, guide and full registry were retained when resolving the overlap; only the new recipient receipt was added to existing registration.
 
-Fourteen trailing-whitespace lines in frozen R `sessionInfo()` output are preserved byte-for-byte. They are the only intended whitespace-check exception; trimming them would invalidate the receipt. No biological output, frozen script or contract was edited.
+Fourteen trailing-whitespace lines in frozen R `sessionInfo()` output are preserved byte-for-byte. In the recipient-import diff they are the only whitespace-check exception; trimming them would invalidate the receipt. No biological output, frozen script or contract was edited.
 
 ## Owner-requested figure guidance
 
 The owner clarified the correction as diagram style and requested AGENTS.md guidance for succeeding RQs. The selected biological PNG, prompt, source SVG and unchanged hypothesis are bound by existing provenance rules. The [review](FIGURE_REVIEW_20261110.md) records neighboring references, actual-image inspection and the narrow glyph correction. The first raster validation found a missing per-question review-table locator; adding that required locator made the unchanged gate pass. No validator was relaxed.
 
 AGENTS.md now asks future primary RQ illustrations to depict the relevant biology, comparison and uncertainty, instead of text-heavy cards/workflow boxes. This explicit instruction change remains visible for review and does not change analysis or claim authority. The integrated repository passes 19,085 checks. The final base-aware governance check passes against refreshed, unchanged main `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Earlier analysis/hook/archive checks remain valid because the returned numerical implementation is unchanged; no biological rerun was performed.
+
+
+## Incorporation into existing PR #177
+
+The owner requested incorporation into the open [PR #177](https://github.com/xorca0711/ravel/pull/177). Its Zhang head was `2ead479fbc7409a62d3529178967b4395226ff8c`; the A36 integration head was `fc28f9452ac65880a87151f8159635a56e8ac507`. Both histories are preserved. Only PROGRESS.md and the registry conflicted; their checkpoint histories and candidate/contract/receipt entries are combined. Nn26-P01 retains every earlier evidence link plus the already-added question-development note.
+
+All 130 nonshared PR files match the existing Zhang commit exactly. Windows checkout conversion required restoring 37 of those files from their exact Git blobs, without changing scientific contents. All A36 files outside the shared progress/registry records remain preserved. Seven previously introduced A36/cloud commits have the required Xorca author/committer attribution.
+
+The combined repository passes 19,214 checks. Base-aware checks against unchanged main and the prior PR head both pass with no errors. Earlier analysis/session/archive checks remain applicable to their unchanged code; CI will exercise the integrated tree. No biological analysis is rerun.
+
+The complete A36 addition also has trailing tabs in frozen representation TSVs: those delimit empty final fields and are required to retain their column counts. Exact bytes match the earlier A36 commit. These structural tabs and the 14 frozen R sessionInfo whitespace lines are retained rather than invalidating existing receipts. No scientific validator or acceptance boundary is weakened.

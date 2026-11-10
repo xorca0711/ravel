@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\qualify_v1.py", line 165, in <module>
+    main()
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\qualify_v1.py", line 95, in main
+    assert [x[''] for x in metadata] == samples, 'Matrix/metadata sample order disagreement'
+            ~^^^^
+KeyError: ''

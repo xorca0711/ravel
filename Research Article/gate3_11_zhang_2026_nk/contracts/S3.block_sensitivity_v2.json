@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.S3.block_sensitivity_v2",
+  "owner": "Zh26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "How sensitive are the two main reproduced NK transcript contrasts and all fixed panels to omitting one reported experiment block?",
+  "decision": "Describe direction and magnitude dependence on each of three blocks without inventing a robustness cutoff; enrichment-ranking sensitivity remains a separate dependent stage.",
+  "strongest_rival": "A mean transcript difference may depend strongly on one experimental block or pooled-preparation composition.",
+  "discriminator": "Omit rep1, rep2 and rep3 separately, retain the qualified full-data feature universe, refit the same additive blocked design, and independently calculate balanced within-block differences.",
+  "evidence_refs": [
+    "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+    "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+    "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All S1 contrasts and source-panel outputs were inspected before this freeze, including exact concordance and overall source thresholds. This is exposed sensitivity, never confirmation. v1 coefficient calculation completed before this reporting amendment; no direction or magnitude conclusions were inspected before v2 freeze.",
+  "biological_unit": "Sorted pooled NK preparation/library; reported experimental replicate is a block.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine named libraries; constituent animal IDs, exact pool sizes and cross-assay animal reuse remain unknown. Replicate denotes experiment/day, not repeated mouse.",
+  "population_and_selection": "All released NK input libraries and features from GSE287581 and pinned author commit 61ac9a440ba3f9db754ff8b8ad5008b450e647c0.",
+  "contrast": "Source/sample qualification for ITDT minus PBS and ITDT+aCD4 minus ITDT, with the released third contrast retained for later replay.",
+  "endpoint": "Full and leave-one-block-out transcript coefficients for every retained feature and the fixed published panels.",
+  "methods": "limma lmFit and contrasts.fit on unchanged S1 log2(TPM+0.5) values and fixed 12,708-feature universe. Each refit has two blocks and six libraries, four design columns and two residual degrees of freedom. Independent NumPy means verify every coefficient within absolute 1e-8. No empirical Bayes P value or new significance testing in this diagnostic.",
+  "missingness_and_exclusions": "Only the named entire block is omitted per refit; no result-based filtering or extra sources. The initial full-data gene filter is held fixed.",
+  "multiplicity": "No inferential tests or selected favorable subsets; report all genes and all source panels.",
+  "precision_status": "unknown",
+  "precision_basis": "Only three reported blocks and unknown animal membership; source-model P values are reproduced but no new population precision or biological power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Reproduction of exposed pooled-library TPM transcript differences; not independent replication, count-based voom reconstruction, NK killing, secretion, signaling or mediation.",
+  "stop_rule": "Fail sample joins, design rank or independent arithmetic; retain direction reversals and weak patterns without expanding the analysis to obtain a positive result.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/logTPM.csv",
+      "sha256": "b4335ab16fb606eda6cbcdd87f1bb3341862f3ffc3ce4cae48bdd2575e457c78",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.csv",
+      "sha256": "130b13de2fff064bbc9df58f9962623e65deb609cb595f370294086f79e5bbe1",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+      "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+      "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/comparison.json",
+      "sha256": "86b69549ec98c213cb316deabfdff930ee1a4325dfcc5098463db0692a3c1b3f",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
+      "sha256": "f18439a00ad4760c1c7e224ef20863414f12f6f7ebb0cff8a3aef3331fe0e34f",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/input_files/sample_info_NK.csv",
+      "sha256": "01df6c91012969fb8cb83262262965527b45a86b35214d4ef35c2e4f11a74447",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/fixed_panel_stability.csv",
+      "sha256": "a01eee21beffffcb7e94da6825a8bdcd62474d5ca5d5ed65f263d3be5c6bb2d7",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/gene_stability.csv",
+      "sha256": "ff7796a871acf0fbdeabcb28ceb8bbd107194c9a205fdbaa66a04b9a2745e9c5",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/leave_one_block_out.csv",
+      "sha256": "ad74c06ab333947c548ad3eabbb9ff643a7367476a3f08483d59405468fd8049",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/receipt.json",
+      "sha256": "cda86d9ffe89bd6e98bd2ce5dba1126acdfcae45703cb52ebb00074f787fc579",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/R_session.txt",
+      "sha256": "e0f45abdf3fcfe9dac15e8a4a2d50d385edb592a0200158b90efb43c796c5dcc",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/stderr.log",
+      "sha256": "c3226fd8ff364686da75ff9e78e156d9b0a13381397ff75d6c2257ce50d2445a",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang_S3_failed_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/block_sensitivity_v2.py",
+      "sha256": "a5235a40863cff82acf72a29fb1a6ae09d2231e47b40986b984f32d2ac4efb47"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_11_zhang_2026_nk/scripts/block_sensitivity_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "leave_one_block_out.csv",
+    "gene_stability.csv",
+    "fixed_panel_stability.csv",
+    "summary.json",
+    "block_stability.png",
+    "R_session.txt"
+  ],
+  "amendment_of": "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v1.json",
+  "amendment_reason": "v1 computed and independently checked every coefficient, then failed JSON serialization of a NumPy int64. Preserve v1; v2 reuses its exact numeric output without refitting, converts the count to a native integer, and completes the report and figure."
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.S2.enrichment_v1",
+  "owner": "Zh26-P01",
+  "contract": "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v1.json",
+  "contract_sha256": "cfd3c7a879c03303068bbc796b46f19fce461afceb0fa2cbf31d41f021bf9f61",
+  "git_commit": "1bea2b54a37aba12bbf8dd80fec9a4b020f4a827",
+  "started_at": "2026-11-10T04:25:40.418812+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.py",
+    "--output",
+    "analysis/research/runs/zh26_s2_enrichment_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+      "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+      "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/comparison.json",
+      "sha256": "86b69549ec98c213cb316deabfdff930ee1a4325dfcc5098463db0692a3c1b3f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
+      "sha256": "f18439a00ad4760c1c7e224ef20863414f12f6f7ebb0cff8a3aef3331fe0e34f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/README.md",
+      "sha256": "86ef3e78346210fcefdd54671ffbbc11ca7641bc5385a0526854213b204d0719",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_vs_pbs.Rmd",
+      "sha256": "24395b44816eedabe493d19cf16b69024fe730232b35f029153a562567c6bc1d",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_acd4_vs_itdt.Rmd",
+      "sha256": "68a2b5e356d4c68b390c001ab111439112642eafa9b92da71eeb242be66b1c08",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_vs_pbs.csv",
+      "sha256": "e34c805005ae26d6c5f5eaa78ffdc9fb6078d5450b8d0fc6f98ddab04ab3e414",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_acd4_vs_itdt.csv",
+      "sha256": "e288e7d756660f2a09d0f60a37fe4a1b3a221d782f7c9fdb4052649ebe8bc5a2",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/msigdbr_7.5.1.tar.gz",
+      "sha256": "dc30487bdf3594425ae9faec1ca0d7d0cd7278f4f177689133f92880e74acaca",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/msigdbr_7.5.1.zip",
+      "sha256": "40eb987fff8e5f9770377d8a1b833ff064fb5ff6d89121514488fc09f571ff64",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/sources.json",
+      "sha256": "ddab404d3e93c05d73c6bb63789022716aa2d2e51fee2f55b8e46fc310db8500",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.py",
+      "sha256": "f9cada7568be2d3567f55758f820b87d3161caee458f48eb79d394ca2c952ecc"
+    },
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.R",
+      "sha256": "c768cfe3f66dceb226c375983c0863e049e8658830098ea47d18604ed616a072"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gene_sets.csv",
+      "sha256": "2c66c31f8799f61c69b4fcce17a8c26f2b179bdf0d56eca193fe3d1b8d87379c"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "ee37989ef7745b146c2bf5670c42c28fa0d11ba7a11ee11ee6bc5d7f66f61ebf"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "accb7c38c4b7e1d5638c0c08de7eb176bde8654a7464f54f15ed5c3a8373f167"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "sha256": "5a82a94ec67af9d579c775b92f034531afb1140ef3068efbea196a2d7d0f1d4d"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "sha256": "8171d4d6104909e58cdf5cb55f6bbdb1e4b161e5495dd69636ba8147531fa2d8"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/coverage.csv",
+      "sha256": "16426b48099256377640b70cc84d62a85c9e22aa92272c3ba2687aaf7fe92337"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/R_session.txt",
+      "sha256": "68d709feb499a66552fc825bd6b1bb10e6c6d8fdb7718794a01a241eee013f92"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/runtime_settings.txt",
+      "sha256": "8d2b673dde0739542b3f7bbc951224adb9061d8625bc3f190c38d988f19d3bae"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "error": "Missing file: source_comparison.csv",
+  "finished_at": "2026-11-10T04:26:04.521076+00:00"
+}

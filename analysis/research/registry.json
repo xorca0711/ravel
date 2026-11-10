@@ -1106,6 +1106,21 @@
         "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
         "docs/research_reviews/2026-11-08-peng-spatial-reading/README.md"
       ]
+    },
+    {
+      "id": "Zh26-P01",
+      "plan": "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_11_zhang_2026_nk/README.md",
+        "Research Article/gate3_11_zhang_2026_nk/PAPER_REVIEW.md",
+        "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+        "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_11_zhang_2026_nk/REVIEW_AND_HANDOFF.md",
+        "Research Article/gate3_11_zhang_2026_nk/RESULTS.md",
+        "Research Article/gate3_11_zhang_2026_nk/FIGURES.md",
+        "Research Article/gate3_11_zhang_2026_nk/VALIDATION.md",
+        "Research Article/gate3_11_zhang_2026_nk/INTERPRETATION_AND_ACCESS_V1.md"
+      ]
     }
   ],
   "contracts": [
@@ -1317,7 +1332,17 @@
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
     "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/source_representation_v1.json",
-    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/recipient_screen_v1.json"
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/recipient_screen_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v3.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S1.reproduction_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.ranking_sensitivity_v1.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/failure_archive_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1511,7 +1536,13 @@
     "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json",
     "analysis/research/runs/nn26_human_context_description_v1/receipt.json",
     "analysis/research/runs/a36_source_representation_v1/receipt.json",
-    "analysis/research/runs/a36_recipient_screen_v1/receipt.json"
+    "analysis/research/runs/a36_recipient_screen_v1/receipt.json",
+    "analysis/research/runs/zh26_s0_qualification_v3/receipt.json",
+    "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
+    "analysis/research/runs/zh26_s3_block_v2/receipt.json",
+    "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
+    "analysis/research/runs/zh26_s3_ranking_v1/receipt.json",
+    "analysis/research/runs/zh26_failure_archive_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

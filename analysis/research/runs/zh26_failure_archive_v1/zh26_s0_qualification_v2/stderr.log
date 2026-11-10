@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\qualify_v2.py", line 165, in <module>
+    main()
+  File "X:\GitHub\ravel\.worktrees\zhang-nk-plan-20261110\Research Article\gate3_11_zhang_2026_nk\scripts\qualify_v2.py", line 114, in main
+    assert rank == 5 and equal_values, 'Source identity or design qualification failed'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Source identity or design qualification failed
