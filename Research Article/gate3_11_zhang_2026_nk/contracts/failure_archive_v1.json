@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.failure_archive_v1",
+  "owner": "Zh26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Are the four failed Zhang execution/reporting attempts preserved exactly with their true status and partial outcomes?",
+  "decision": "Retain public failed evidence through a verified metadata archive before retiring the original locations from tracked delivery; never relabel a failed scientific run as executed.",
+  "strongest_rival": "Incomplete archival or rewritten failure receipts could hide unfavorable results, implementation failures or actual prior outcome exposure.",
+  "discriminator": "Require each original failure status, copy every file byte-for-byte, and verify each SHA-256 with an explicit original-to-archive path map.",
+  "evidence_refs": [
+    "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+    "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+    "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, code and headers were inspected during planning and acquisition. No treatment-effect calculations preceded this metadata freeze. Supplied PDF hash differs from planning and is recorded as a separate version.",
+  "biological_unit": "Sorted pooled NK preparation/library; reported experimental replicate is a block.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine named libraries; constituent animal IDs, exact pool sizes and cross-assay animal reuse remain unknown. Replicate denotes experiment/day, not repeated mouse.",
+  "population_and_selection": "All released NK input libraries and features from GSE287581 and pinned author commit 61ac9a440ba3f9db754ff8b8ad5008b450e647c0.",
+  "contrast": "Source/sample qualification for ITDT minus PBS and ITDT+aCD4 minus ITDT, with the released third contrast retained for later replay.",
+  "endpoint": "Byte identity, original execution status, freeze revision and complete failed-run file inventory.",
+  "methods": "Enumerate the four named run directories only, require execution_failed and Zh26-P01, copy all files into the new runner-owned directory and verify exact SHA-256 equality.",
+  "missingness_and_exclusions": "No file excluded and no source file or receipt rewritten; abort on a directory or unexpected successful run.",
+  "multiplicity": "Not applicable to byte-preserving metadata archival.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact byte comparisons have no biological variance or effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archive execution success establishes preservation only; the embedded scientific receipts remain failed and do not acquire scientific acceptance.",
+  "stop_rule": "Abort on status/owner mismatch or changed bytes; preserve original files until verified archival completes.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v1/receipt.json",
+      "sha256": "ee6428379aae5b41e6b4eb885151ccdc56a449f50d9644d1584e201b23e64ee3",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v1/source_manifest.json",
+      "sha256": "1da22882717d0f52c43aeae45e33f5da5864537d63562fedc3afd1a6f1292aa3",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v1/stderr.log",
+      "sha256": "bcfeed0eb00a02a81751fdf42cc3a79e0614f1dec5c271434a49486b52ddd674",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v2/receipt.json",
+      "sha256": "6218a279f5e2b6f803886087a6458c24d31cf82449660e8d4f22598626967ac0",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v2/sample_crosswalk.csv",
+      "sha256": "26f64d620e358e8a76205661c0315fec8b303b515d980173490f9f6321556fe5",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v2/source_manifest.json",
+      "sha256": "1da22882717d0f52c43aeae45e33f5da5864537d63562fedc3afd1a6f1292aa3",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v2/stderr.log",
+      "sha256": "2a09c109276ab5d44fd8986e9eeee8dd4bd1b521588a3a4202ecb4b61ef714e1",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s0_qualification_v2/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/fixed_panel_stability.csv",
+      "sha256": "a01eee21beffffcb7e94da6825a8bdcd62474d5ca5d5ed65f263d3be5c6bb2d7",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/gene_stability.csv",
+      "sha256": "ff7796a871acf0fbdeabcb28ceb8bbd107194c9a205fdbaa66a04b9a2745e9c5",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/leave_one_block_out.csv",
+      "sha256": "ad74c06ab333947c548ad3eabbb9ff643a7367476a3f08483d59405468fd8049",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/R_session.txt",
+      "sha256": "e0f45abdf3fcfe9dac15e8a4a2d50d385edb592a0200158b90efb43c796c5dcc",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/receipt.json",
+      "sha256": "cda86d9ffe89bd6e98bd2ce5dba1126acdfcae45703cb52ebb00074f787fc579",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/stderr.log",
+      "sha256": "c3226fd8ff364686da75ff9e78e156d9b0a13381397ff75d6c2257ce50d2445a",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s3_block_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/coverage.csv",
+      "sha256": "16426b48099256377640b70cc84d62a85c9e22aa92272c3ba2687aaf7fe92337",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gene_sets.csv",
+      "sha256": "2c66c31f8799f61c69b4fcce17a8c26f2b179bdf0d56eca193fe3d1b8d87379c",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "sha256": "8171d4d6104909e58cdf5cb55f6bbdb1e4b161e5495dd69636ba8147531fa2d8",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "sha256": "5a82a94ec67af9d579c775b92f034531afb1140ef3068efbea196a2d7d0f1d4d",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/R_session.txt",
+      "sha256": "68d709feb499a66552fc825bd6b1bb10e6c6d8fdb7718794a01a241eee013f92",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "accb7c38c4b7e1d5638c0c08de7eb176bde8654a7464f54f15ed5c3a8373f167",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "ee37989ef7745b146c2bf5670c42c28fa0d11ba7a11ee11ee6bc5d7f66f61ebf",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/receipt.json",
+      "sha256": "aa2a731c66daf9c4713c99135dc9eefd9217bf794b463c9dcad0c80046b6ebc5",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/runtime_settings.txt",
+      "sha256": "8d2b673dde0739542b3f7bbc951224adb9061d8625bc3f190c38d988f19d3bae",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stderr.log",
+      "sha256": "04ca78d9171232f2b40107b9ee269f1c564b4f2929a93158ac223cb611ef67b9",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang_failed_run_preservation",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/archive_failures_v1.py",
+      "sha256": "4c23277fb69de927e7dd52c0ac2007e6714b17bed774582fe53fa65cb7a89fe3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_11_zhang_2026_nk/scripts/archive_failures_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "zh26_s0_qualification_v1/receipt.json",
+    "zh26_s0_qualification_v1/source_manifest.json",
+    "zh26_s0_qualification_v1/stderr.log",
+    "zh26_s0_qualification_v1/stdout.log",
+    "zh26_s0_qualification_v2/receipt.json",
+    "zh26_s0_qualification_v2/sample_crosswalk.csv",
+    "zh26_s0_qualification_v2/source_manifest.json",
+    "zh26_s0_qualification_v2/stderr.log",
+    "zh26_s0_qualification_v2/stdout.log",
+    "zh26_s3_block_v1/fixed_panel_stability.csv",
+    "zh26_s3_block_v1/gene_stability.csv",
+    "zh26_s3_block_v1/leave_one_block_out.csv",
+    "zh26_s3_block_v1/R_session.txt",
+    "zh26_s3_block_v1/receipt.json",
+    "zh26_s3_block_v1/stderr.log",
+    "zh26_s3_block_v1/stdout.log",
+    "zh26_s2_enrichment_v1/coverage.csv",
+    "zh26_s2_enrichment_v1/gene_sets.csv",
+    "zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+    "zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+    "zh26_s2_enrichment_v1/R_session.txt",
+    "zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+    "zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+    "zh26_s2_enrichment_v1/receipt.json",
+    "zh26_s2_enrichment_v1/runtime_settings.txt",
+    "zh26_s2_enrichment_v1/stderr.log",
+    "zh26_s2_enrichment_v1/stdout.log",
+    "archive_manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Existing governance requires failed assets to be bound as outputs of a successful metadata archive, not merely inputs to successor contracts. No validator or governance change."
+}
