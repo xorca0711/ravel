@@ -1,0 +1,23 @@
+[
+  {
+    "contrast": "itdt_vs_pbs",
+    "tested_genes": 12708,
+    "BH_lt_0.05": 87,
+    "source_display_up": 73,
+    "source_display_down": 6
+  },
+  {
+    "contrast": "itdt_acd4_vs_pbs",
+    "tested_genes": 12708,
+    "BH_lt_0.05": 1,
+    "source_display_up": 0,
+    "source_display_down": 1
+  },
+  {
+    "contrast": "itdt_acd4_vs_itdt",
+    "tested_genes": 12708,
+    "BH_lt_0.05": 152,
+    "source_display_up": 7,
+    "source_display_down": 120
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 1e-07,
+  "tolerance_basis": "Conservative float64/15-significant-digit CSV comparison; not an effect margin.",
+  "all_genes_all_fields": [
+    {
+      "contrast": "itdt_vs_pbs",
+      "shared_genes": 12708,
+      "missing": [],
+      "excess": [],
+      "fields": {
+        "logFC": {
+          "max_absolute_difference": 1.021405182655144e-14,
+          "outside_tolerance": 0
+        },
+        "AveExpr": {
+          "max_absolute_difference": 1.0658141036401503e-14,
+          "outside_tolerance": 0
+        },
+        "t": {
+          "max_absolute_difference": 9.947598300641403e-14,
+          "outside_tolerance": 0
+        },
+        "P.Value": {
+          "max_absolute_difference": 1.8984813721090177e-14,
+          "outside_tolerance": 0
+        },
+        "adj.P.Val": {
+          "max_absolute_difference": 1.9984014443252818e-14,
+          "outside_tolerance": 0
+        },
+        "B": {
+          "max_absolute_difference": 5.995204332975845e-14,
+          "outside_tolerance": 0
+        }
+      }
+    },
+    {
+      "contrast": "itdt_acd4_vs_pbs",
+      "shared_genes": 12708,
+      "missing": [],
+      "excess": [],
+      "fields": {
+        "logFC": {
+          "max_absolute_difference": 9.992007221626409e-15,
+          "outside_tolerance": 0
+        },
+        "AveExpr": {
+          "max_absolute_difference": 1.0658141036401503e-14,
+          "outside_tolerance": 0
+        },
+        "t": {
+          "max_absolute_difference": 3.9968028886505635e-14,
+          "outside_tolerance": 0
+        },
+        "P.Value": {
+          "max_absolute_difference": 2.0095036745715333e-14,
+          "outside_tolerance": 0
+        },
+        "adj.P.Val": {
+          "max_absolute_difference": 5.10702591327572e-15,
+          "outside_tolerance": 0
+        },
+        "B": {
+          "max_absolute_difference": 1.0658141036401503e-14,
+          "outside_tolerance": 0
+        }
+      }
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "shared_genes": 12708,
+      "missing": [],
+      "excess": [],
+      "fields": {
+        "logFC": {
+          "max_absolute_difference": 1.021405182655144e-14,
+          "outside_tolerance": 0
+        },
+        "AveExpr": {
+          "max_absolute_difference": 1.0658141036401503e-14,
+          "outside_tolerance": 0
+        },
+        "t": {
+          "max_absolute_difference": 3.9968028886505635e-14,
+          "outside_tolerance": 0
+        },
+        "P.Value": {
+          "max_absolute_difference": 1.6986412276764895e-14,
+          "outside_tolerance": 0
+        },
+        "adj.P.Val": {
+          "max_absolute_difference": 1.7985612998927536e-14,
+          "outside_tolerance": 0
+        },
+        "B": {
+          "max_absolute_difference": 3.9968028886505635e-14,
+          "outside_tolerance": 0
+        }
+      }
+    }
+  ],
+  "independent_checks": [
+    {
+      "contrast": "itdt_vs_pbs",
+      "independent_numpy_OLS_max_error": 5.54833956556422e-14,
+      "BH_max_error": 3.219646771412954e-15
+    },
+    {
+      "contrast": "itdt_acd4_vs_pbs",
+      "independent_numpy_OLS_max_error": 5.2013948703688584e-14,
+      "BH_max_error": 9.992007221626409e-16
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "independent_numpy_OLS_max_error": 4.96269692007445e-14,
+      "BH_max_error": 1.942890293094024e-15
+    }
+  ],
+  "block_correction_max_error": 9.769962616701378e-14,
+  "source_concordant": true
+}
