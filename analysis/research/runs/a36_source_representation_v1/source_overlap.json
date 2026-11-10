@@ -1,0 +1,26 @@
+{
+  "comparisons": {
+    "aNSCs_NPCs": [
+      "Engineered IL10 vs control",
+      "RIPR vs control",
+      "WT IL10 vs control"
+    ],
+    "astrocytes_qNSCs": [
+      "Engineered IL10 vs control",
+      "RIPR vs control",
+      "WT IL10 vs control"
+    ],
+    "Oligodendrocytes": [
+      "Engineered IL10 vs control",
+      "RIPR vs control",
+      "WT IL10 vs control"
+    ]
+  },
+  "direct_D25K_WT_table": false,
+  "published_residual_IFN_locators": [
+    "astrocytes_qNSCs!A104:J105"
+  ],
+  "S6": "A/B: cell-type age clocks; C-E: whole-niche PCA; F: DG IBA1-associated STAT1 after behavior, not birthdated survival.",
+  "source_annotation_limit": "Methods explicitly cannot separate astrocytes/qNSCs or aNSCs/NPCs.",
+  "added_scope": "Broad-bin representation/within-bin RNA decomposition; not a purified-state or new IFN mechanism claim."
+}

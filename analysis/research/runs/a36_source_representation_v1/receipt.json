@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A36.source_representation_v1",
+  "owner": "A36",
+  "contract": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/source_representation_v1.json",
+  "contract_sha256": "e01cfa6c21a93173270c22a6fc8f52278b9519f14c3e75eccceb8c477ea449eb",
+  "git_commit": "6ce40d72a23211e9bc815f10519f19db0fbfbf2b",
+  "started_at": "2026-11-10T04:33:46.843820+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/source_representation_v1.py",
+    "--output",
+    "analysis/research/runs/a36_source_representation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/a36/source_v1/paper.xml",
+      "sha256": "75c65f97aa3cd4c05d4b16d60f53a9fd570d65250a439faadf9ce4baf3b91037",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S1.xlsx",
+      "sha256": "aeba769ca40d1e9b52796078f865bdcacdf2915978df32a8c54b206f7c4a4cda",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S3.xlsx",
+      "sha256": "b50a10abd73f3d97185b47bc6da9b4f35c6571a04d010bbf42052a7a182b1aa4",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/code_v1.zip",
+      "sha256": "32a26233f686adc621fb8da27d68bb7935395ba44be0380cb27b3325277c1481",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/supplement.pdf",
+      "sha256": "9b6ea15dd3e5e16b8cdde0b2ec9db5d19ae62b57c8158ee2d50dd9f03260d0bf",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/zenodo.json",
+      "sha256": "eec7b9ab0eb16034fc36e643c79c709c4e040f2988857e1cea2a220c15df44bb",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/ena.tsv",
+      "sha256": "4bf8c10d285379bab4c9958dad887581ad3f0228ca4da502157c5577da3d5b31",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/a36/source_v1/retrievals.json",
+      "sha256": "e05c1b38cc1a51eb799257544055580d653f1bb80b45b4972102282720f6bd2f",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_v2/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/source_representation_v1.py",
+      "sha256": "4b6a9c0b9911c8896d0b39cf8b12bb1d4de8e7f0154d33752272cf68e17d2c08"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/input_manifest.json",
+      "sha256": "8e7f807cae6e93e0820b917c355664acec9e03fd14fd23d28e5c0774853214c2"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/representation.tsv",
+      "sha256": "0aab179b9a060492c98e1579fe1a0f2d99f377e57ece2cca3a2c994d6797a3a7"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/representation_contrasts.tsv",
+      "sha256": "4ce2d82d270813bcc4420e79fb0f43ae216e296c73b8f43fab4a8cd006ce379d"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/S3_source_rows.tsv",
+      "sha256": "d51a3e7e4f8b650d4d830251fd3c5a7773997c421d54a08d565cfb909b9656b6"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/source_overlap.json",
+      "sha256": "ddabaff72c7866eef07e349df3be2349082e15d1721bc07584370a686a899c14"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/annotation_source.json",
+      "sha256": "b699683db3f2877ed4e41d4edcf5e76c6765f6234f0b27357414c06f3607f20b"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/feasibility.json",
+      "sha256": "d906187d094b8fd413dfc88435da8cdb5508dafef9e79193eddab5f73ea2fd12"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/representation.png",
+      "sha256": "6e5fd21959f056889b30d9d4e93aa017d1359cb681d64938442bd5ea11344c55"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/independent_verification.json",
+      "sha256": "996fb097c9cb8a65d42e5795b54da17dedb7308dc56e039a0a896bd219aa2577"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/software_versions.json",
+      "sha256": "96efb75c6655786887964ceeccead38d2c89d4e200a29a303178ee6e8bfbb8da"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-10T04:33:55.914531+00:00"
+}

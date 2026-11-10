@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    "Young",
+    "Control",
+    "WT5",
+    "Mut5"
+  ],
+  "celltypes": [
+    "Astrocytes_qNSCs",
+    "aNSCs_NPCs",
+    "Neuroblasts",
+    "Oligodendrocytes"
+  ],
+  "lineage_bins": [
+    "Astrocytes_qNSCs",
+    "aNSCs_NPCs",
+    "Neuroblasts"
+  ],
+  "ifn_genes": [
+    "Stat1",
+    "Bst2",
+    "Isg15",
+    "Ifitm3"
+  ],
+  "genes": [
+    "Stat1",
+    "Bst2",
+    "Isg15",
+    "Ifitm3",
+    "Gfap",
+    "Slc1a3",
+    "Sox2",
+    "Egfr",
+    "Ascl1",
+    "Mki67",
+    "Top2a",
+    "Dcx",
+    "Dlx2",
+    "Rbfox3",
+    "Sox10",
+    "Mbp"
+  ],
+  "contrasts": [
+    [
+      "Mut5",
+      "WT5"
+    ],
+    [
+      "Mut5",
+      "Control"
+    ],
+    [
+      "WT5",
+      "Control"
+    ],
+    [
+      "Young",
+      "Control"
+    ]
+  ],
+  "rds_path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+  "recovery_table": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+  "scale_factor": 10000,
+  "tolerance": 1e-10,
+  "bounded_launcher": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+  "R_script": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/recipient_extract_v1.R"
+}
