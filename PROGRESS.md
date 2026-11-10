@@ -1,5 +1,28 @@
 # Current project state
 
+## Zhang 2026 paper review and analysis plan — 10 November 2026
+
+Recovered the clean planning worktree at current main `1a6769f` and completed
+[paper interpretation, source reconciliation, literature context and reviewed plan](Research%20Article/gate3_11_zhang_2026_nk/README.md).
+Zh26-P01 is an article-local reproduction/measurement candidate, not a new
+canonical RQ or scientific acceptance. The owner reports reading complete.
+The original D1 lung gate and all existing RQs/evidence remain unchanged.
+
+The released TPM/limma-trend pipeline differs from the published count/voom
+methods; enrichment ranking and figure labels also need explicit reconciliation.
+S0 will qualify source versions, matrix semantics, sample/block joins, supplements
+and runtime before a separately frozen replay. No biological analysis ran here.
+Publisher access returned 403; complete supplements/count inputs remain
+unqualified, not proven absent. Personal lab-fit notes remain private.
+
+CLI and GitHub connector identities were verified as `xorca0711`; effective
+Git author/committer are Xorca with the existing GitHub-mapped email. No external
+settings, outreach, publication or scientific acceptance changed. Validation
+and technical-session handoff status are recorded in the package's
+[review](Research%20Article/gate3_11_zhang_2026_nk/REVIEW_AND_HANDOFF.md).
+Exact next work: execute S0 under the research contract/runner, then proceed
+through qualified stages with the stated holds and retain all outcomes.
+
 ## Ravel integration into existing PR #176 - 10 November 2026
 
 The owner requested adding the completed Ravel session-assistance work to
