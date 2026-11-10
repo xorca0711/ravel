@@ -1,0 +1,159 @@
+{
+  "sheet": "IL-10_concentration_Exp1",
+  "headers": [
+    "gene",
+    "p_val",
+    "avg_log2FC",
+    "pct.1",
+    "pct.2",
+    "p_val_adj",
+    "cluster",
+    null
+  ],
+  "declared_marker_rows": [
+    {
+      "row": 1282,
+      "values": [
+        "Sox10",
+        0,
+        -0.433686562615611,
+        0.006,
+        0.196,
+        0,
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 1453,
+      "values": [
+        "Dlx2",
+        0,
+        -0.545755530621863,
+        0.011,
+        0.178,
+        0,
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 1524,
+      "values": [
+        "Dcx",
+        0,
+        -0.611459591506157,
+        0.015,
+        0.182,
+        0,
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 1691,
+      "values": [
+        "Sox2",
+        0,
+        -0.944243508516823,
+        0.018,
+        0.373,
+        0,
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 1822,
+      "values": [
+        "Mbp",
+        0,
+        -2.2867370567436,
+        0.104,
+        0.328,
+        0,
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 2204,
+      "values": [
+        "Slc1a3",
+        "8.76955165454181e-17",
+        -0.773266918585441,
+        0.327,
+        0.245,
+        "1.77144943421745e-12",
+        "Microglia",
+        null
+      ]
+    },
+    {
+      "row": 8271,
+      "values": [
+        "Gfap",
+        0,
+        0.514986391870005,
+        0.198,
+        0.013,
+        0,
+        "Astrocytes_qNSCs",
+        null
+      ]
+    },
+    {
+      "row": 11318,
+      "values": [
+        "Top2a",
+        0,
+        2.82440215033022,
+        0.76,
+        0.018,
+        0,
+        "aNSCs_NPCs",
+        null
+      ]
+    },
+    {
+      "row": 11326,
+      "values": [
+        "Mki67",
+        0,
+        2.21157383110341,
+        0.713,
+        0.012,
+        0,
+        "aNSCs_NPCs",
+        null
+      ]
+    },
+    {
+      "row": 11347,
+      "values": [
+        "Ascl1",
+        0,
+        1.75807087529556,
+        0.599,
+        0.012,
+        0,
+        "aNSCs_NPCs",
+        null
+      ]
+    },
+    {
+      "row": 11436,
+      "values": [
+        "Egfr",
+        0,
+        1.11933426536411,
+        0.496,
+        0.028,
+        0,
+        "aNSCs_NPCs",
+        null
+      ]
+    }
+  ],
+  "rule": "Original deposited labels only. Marker values cannot define new states or independent validation."
+}

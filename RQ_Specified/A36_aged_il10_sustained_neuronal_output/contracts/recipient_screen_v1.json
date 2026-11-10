@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A36.recipient_screen_v1",
+  "owner": "A36",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do broad recipient-bin representation and within-bin RNA differences contribute to finite-pool main-alias contrasts?",
+  "decision": "Refine population and measurement choice for the later-output question; retain mixture and within-bin components without asserting a purified-state response or survival effect.",
+  "strongest_rival": "Unresolved within-bin mixture, pooled biological units, sampling and indirect dose association can explain the observed RNA pattern.",
+  "discriminator": "Exact symmetric decomposition of each of four prespecified marker means/detection across three original lineage-associated bins; separate oligodendrocyte description. Components can coexist or oppose and do not establish causal mediation.",
+  "evidence_refs": [
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/PLAN.md",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully EXPOSED. Prior immune RNA and animal results, paper/S6/S3, all recovered-bin counts and A36 source_representation_v1 results were inspected. Source Table S3 already reports residual engineered-IL10 IFN enrichment. New freeze preserves exposure.",
+  "biological_unit": "Source table row and one observed condition library/pool; individual mouse-to-cell mapping unavailable.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nested in condition pools; old-control shared across contrasts. Reused source tables and metadata-review products are the same evidence lineage.",
+  "population_and_selection": "Unchanged original Astrocytes_qNSCs, aNSCs_NPCs, Neuroblasts and Oligodendrocytes in Young, Control, WT5, Mut5. No thresholds, relabeling, reclustering, resampling or new QC exclusions. Exactly 16 declared genes.",
+  "contrast": "Mut5-WT5, Mut5-Control, WT5-Control, Young-Control reference; no other-dose expression or age interaction.",
+  "endpoint": "Per-gene stored log-normalized RNA mean and raw detection; broad-bin recovery; symmetric representation and within-bin arithmetic contributions to three-lineage-bin pooled marker differences.",
+  "methods": "Hash-bound sparse R extraction from original RNA counts/data with complete cell and library-total denominators; independent Python log1p(10000*count/total) reconstruction and math.fsum summaries; symmetric decomposition checked against directly pooled sparse entries. Identity/context genes describe original labels only. No new IFN score or enrichment.",
+  "missingness_and_exclusions": "Absent gene remains NA, zero counts remain in denominator, empty bin yields undefined decomposition rather than silently dropping it. WT50/Mut50 and WT1/Mut1 excluded from this new main-pair question. All unfavorable/mixed markers retained.",
+  "multiplicity": "All 16 genes and four contrasts retained. Four IFN-associated genes each decomposed for mean and detection. No P values, confidence intervals or population inference.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite observed source/pool descriptions. Exact integer and rational checks verify arithmetic; no population uncertainty is identifiable.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No tissue census, purified NSC identity, population effect, independent replication, fate, secretion, IFN type, survival, maturation, age modification or injury repair.",
+  "stop_rule": "Stop on hash, dimension, barcode, denominator, normalized-scale or arithmetic mismatch. R process limits: 12 GiB RSS, 15 GiB cgroup, 1800 s. Preserve failed run; any code/design correction needs new version. Verify sufficient live executor resources before launch.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/IL10_svz_seurat.rds",
+      "sha256": "b1fa0ce7c6ff19e5d207caff9548e5ec2dacd5a3cdb4fa0fc01b5874a15d2559",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_rds_metadata_review_v1/recovery.tsv",
+      "sha256": "4703e48a6f5974811b3c1e3ec09d36d250d40ae3f8ca08376aa7d988d12b460b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/source_overlap.json",
+      "sha256": "ddabaff72c7866eef07e349df3be2349082e15d1721bc07584370a686a899c14",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/a36_source_representation_v1/annotation_source.json",
+      "sha256": "b699683db3f2877ed4e41d4edcf5e76c6765f6234f0b27357414c06f3607f20b",
+      "study_id": "NavarroNegredo2026_PRJNA1365936",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/recipient_pipeline_v1.py",
+      "sha256": "42a1b3a21442b7f6eaaff22361cba345bfd2253f791b5b83a798169c83e3583d"
+    },
+    {
+      "path": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/recipient_extract_v1.R",
+      "sha256": "43c00d1f1c54f26d516a5ca34bc207e919f7398a4960d8f76a2165918ae7082f"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+      "sha256": "5aee79b6e16166b5824198a56f8b6bf4af7820aaf81cf219982f843d75bbbe80"
+    },
+    {
+      "path": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/recipient_screen_v1.config.json",
+      "sha256": "d3dd3ffabfa0c21251c8466c078f19a23cbd072933f4224617d3d6b21c61a701"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/scripts/recipient_pipeline_v1.py",
+  "arguments": [
+    "--config",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/recipient_screen_v1.config.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_denominators.tsv",
+    "selected_entries.tsv.gz",
+    "summaries_R.tsv",
+    "marker_availability.tsv",
+    "R_session.txt",
+    "resource_usage.json",
+    "summaries.tsv",
+    "contrasts.tsv",
+    "decomposition.tsv",
+    "decomposition.png",
+    "recipient_markers.png",
+    "independent_verification.json",
+    "scope.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New exposed recipient stage following source qualification; no original Nn26 contract is amended."
+}
