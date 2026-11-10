@@ -3,8 +3,9 @@
 8 November 2026. Owner-requested plan following the [paper fit review](README.md)
 and [metadata follow-up](METADATA_FOLLOWUP.md). This is the current sequence for
 possible numerical reuse, superseding the README's initial object-first
-suggestion. **Execution status is now in [STAGE_STATUS.md](STAGE_STATUS.md): source and
-animal stages executed under Nn26-P01; RNA stages remain pending.** This original
+suggestion. **Status clarified 10 November 2026: [STAGE_STATUS.md](STAGE_STATUS.md)
+records completion of the authorized source, animal and bounded RNA stages
+under Nn26-P01, with explicit holds and no new eligible optional acquisition.** This original
 sequence does not itself confer scientific acceptance. Frozen contracts and
 receipts are linked from [RESULTS.md](RESULTS.md).
 
@@ -218,10 +219,17 @@ separate from a successful run receipt.
 
 ## Current handoff
 
-**S1/S4 have now been recovered and the animal stage executed.** Follow
-[RESULTS.md](RESULTS.md) and [STAGE_STATUS.md](STAGE_STATUS.md) for direct tests,
-source discrepancies and pending RNA work. The next dependency is a suitable
-executor for main-object qualification, followed by resolving actual code/dose
-aliases and layers before any within-dose RNA description. No age
-interaction, repair claim, hidden replicate or definitive cognitive superiority
-over WT can be manufactured by further analysis of these deposits.
+**10 November owner-requested extension:** the [bounded follow-up](followup_20261110/README.md)
+has executed source refresh, residual-statistic diagnostics and a separately
+qualified human-cell context comparison. It preserves the completed original
+sequence below and its explicit holds; the new source is not a replacement
+for the absent aged-brain design.
+
+**The authorized analysis is complete within the recorded source/design limits.**
+Follow [animal results](RESULTS.md), [RNA results](RNA_RESULTS.md) and
+[STAGE_STATUS.md](STAGE_STATUS.md) for completed work and explicit holds.
+Further affected comparisons depend on a verified alias/dose/accession and
+downstream-cell crosswalk; population effects need independent biological units.
+No additional computation is required to close this plan. Age modification,
+injury repair and mediation require the new designs described in Step 7;
+they are not unfinished stages of the present analysis.

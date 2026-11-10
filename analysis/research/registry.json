@@ -1075,7 +1075,9 @@
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_TRANSFER.md",
-        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md"
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md"
       ]
     },
     {
@@ -1490,7 +1492,8 @@
     "analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json",
     "analysis/research/runs/nn26_completion_archive_v1/receipt.json",
     "analysis/research/runs/nn26_public_source_followup_v1/receipt.json",
-    "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json"
+    "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json",
+    "analysis/research/runs/nn26_human_context_description_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

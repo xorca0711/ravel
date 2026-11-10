@@ -1,5 +1,9 @@
 # Integrated execution validation — 8 November 2026
 
+**Later validation:** the [10 November follow-up record](followup_20261110/VALIDATION.md)
+covers the three additional stages, public human-cell data and organized gallery.
+The original integration record below remains historical.
+
 The [seven-stage ledger](STAGE_STATUS.md) records the completed authorized scope
 and scientific holds. The cloud run is imported into the isolated desktop branch
 `codex/navarro-aging-fit-20261108`; this is local integration, not publication or

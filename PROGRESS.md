@@ -1,5 +1,41 @@
 # Current project state
 
+## Navarro remaining-work follow-up and organization — 10 November 2026
+
+Current integration base is main `6b7f9a0` after PR #175 merged. The owner
+authorized remaining jobs, relevant new public data, folder organization and
+publication. Three new Nn26-P01 stages executed under committed contracts:
+[source refresh, residual diagnostics and human-cell context](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md).
+Source snapshots are unchanged for the original Navarro identity questions;
+both residual animal statistics remain unmatched. All 40 affected original
+observations were verified without deletions or rounding changes.
+
+New public GSE318914/GSE318915 matrices and SOFT records were acquired and
+qualified: 108 libraries, 19,984 deposited protein-coding genes and three
+reported donors per series, without a cross-series donor join. The separate
+five-marker description retained 540 measurements, 540 paired contrasts and
+180 summaries; 1,368 arithmetic checks passed. Both new figures were visually
+inspected. T-cell GZMB directions are consistent for the predefined IL-10–PBS
+and agonist–IL-10 contrasts; IFNG directions are mixed. This is a different
+human-cell agonist context, not D25K aged-brain replication or repair evidence.
+
+All three new receipts verify. Original analyses, raw source values, failed
+runs and frozen paths remain intact. The ungated study home now has a grouped
+folder map, a dated follow-up folder and a combined ten-figure gallery; older
+assessment text is retained in a historical expandable section. Plans, dossier,
+literature context and result entrypoints link the current scope and exact holds.
+
+CLI/connector identities are `xorca0711`; new freeze commits use verified Xorca
+author and committer identities. No author contact or scientific acceptance
+occurred. All required local checks pass against refreshed main `6b7f9a0`,
+including 175 tests (two existing skips), repository links/data, claim and archive
+checks, and base-aware research governance. The [validation record](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/VALIDATION.md)
+records scope and preservation. Delivery uses
+`codex/navarro-gallery-wording-20261110`; its associated PR owns publication and
+live CI status, covering both push and pull-request events. Next is owner review
+before merge. Further scientific comparisons require the explicit source
+corrections or new designs in the follow-up report.
+
 ## Saxton physical migration and identity checks — 10 November 2026
 
 PR #174 is merged; this work starts from refreshed main `14449c0` on

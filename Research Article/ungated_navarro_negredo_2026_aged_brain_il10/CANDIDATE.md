@@ -38,3 +38,11 @@ receipts and figures from the README; frozen evidence is never edited to improve
 The [dated post-execution interpretation](INTERPRETATION_20261108.md) connects
 completed RNA and animal results to exact primary figures, retaining same-source
 reuse, discordant markers and source limits. No new RQ or acceptance is created.
+
+The owner's [10 November follow-up](followup_20261110/README.md) refreshes source
+eligibility and diagnoses the two residual animal statistics. It also adds a
+separate five-marker, within-series donor-paired human context from newly sourced
+GSE318914/GSE318915. Its measured question, units, validity threats and exposed
+scope are in the [frozen context plan](followup_20261110/HUMAN_CONTEXT_PLAN_V1.md).
+The different agonist and peripheral human cells cannot replace the missing
+D25K/aged-brain comparisons or upgrade this candidate's claim grade.
