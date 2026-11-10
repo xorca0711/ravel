@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.residual_diagnostics_v3",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can fixed rank-test conventions or the source workbook explain the two residual open-field and IFITM3 discrepancies without changing observations?",
+  "decision": "Narrow possible source/software explanations and explicitly retain any unresolved reported-statistic mismatch.",
+  "strongest_rival": "Attrition, mislabeled panels/scales, mixed doses, shared normalization and absent stable mouse IDs can overstate treatment evidence.",
+  "discriminator": "Two previously identified residuals; immutable S4 coordinates, independent pairwise U, exact v2 cross-check, complete untied exact P support and workbook formula audit.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All original data, v1/v2 diagnostics and the two residual endpoints were exposed before this amendment. No new endpoint selection from current results; no confirmatory inference.",
+  "biological_unit": "Individual mouse within each panel as documented by legends; source coordinates are not cross-assay mouse identities.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Sections averaged within mice. Two neurogenesis/FACS blocks retained. Combined nesting reuses high/low cohorts with WT only high. Cognition panels share original cohort but have different attrition; no per-mouse task join.",
+  "population_and_selection": "All original listed observations in open-field D25K/control and IFITM3 WT/control only; no row omissions, rounding changes or invented mouse IDs.",
+  "contrast": "Two residual reported direct comparisons; method-convention comparison, not a new efficacy analysis.",
+  "endpoint": "Method-specific probabilities, reported-rounding agreement, exact-probability attainability and formula/cached-value discrepancies.",
+  "methods": "Fixed exact tied-rank tails, tie-corrected normal approximation with/without continuity, diagnostic tie-ignoring normal/exact references with applicability flags; enumerate full untied exact support at observed n/m. Raw OOXML verifies source values and openpyxl reads cached/formula cells.",
+  "missingness_and_exclusions": "Blank source cells are missing. Exclude only declared summary rows. Preserve published attrition without invented mouse IDs. No dropping data to match a P value or cached mean; ambiguities remain findings.",
+  "multiplicity": "No new discoveries or selection of a favorable test. Every fixed convention reported; inapplicable tie-ignoring conventions labelled. Matching a rounded P is not proof of author settings.",
+  "precision_status": "unknown",
+  "precision_basis": "No justified effect margin or numerical precision basis recovered. No post-hoc power; ambiguous scales and shared normalizers limit further uncertainty claims.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reproduction, not independent replication. No WT cognition, mediation, age interaction, injury repair or unsupported physical-unit conversion. No cross-panel row matching.",
+  "stop_rule": "Stop on source-coordinate, U-statistic or prior-exact-value disagreement. Do not search exclusions or alter values. Preserve unresolved mismatches.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/source_v1/S4.xlsx",
+      "sha256": "ab39bf7af9e6a7c1278e43fe86d4e5a2a09d16395caaf80500ce482420c3cbc6",
+      "study_id": "NavarroNegredo2026_original_S4",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+      "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c",
+      "study_id": "NavarroNegredo2026_same_animal_values",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_tie_diagnostic_v2/exact_rank_reconciliation.csv",
+      "sha256": "40c3de3f497a4955715b875d04675a4889f48e1bceefe51cd7bf74118f331e1c",
+      "study_id": "NavarroNegredo2026_prior_diagnostic",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.py",
+      "sha256": "c4c5d3d41254184d27c5f34d9ed5b7fdfd24987d483998ac42c35b2689e7b50d"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/reproduce_animals_v1.py",
+      "sha256": "ac6d06f4fab00cdb3b7f200c2c0b82e7b8bcb3cce5390695bfecb069f7938ac8"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+      "sha256": "4654da313a683502a57886c57e25a0aee4276a2f3a02f1a603706c240a511646"
+    },
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/config/animal_panels_v1.json",
+      "sha256": "56283c81d1911604e65b3746cbc42e020a92d2592e10810d22cfe5bc9d140d25"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "test_conventions.csv",
+    "diagnostic.json",
+    ".gitattributes"
+  ],
+  "amendment_of": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json",
+  "amendment_reason": "After outcome exposure, owner requested the two remaining discrepancies be pursued; bounded source/software diagnostic only, preserving v1/v2 and original observations."
+}
