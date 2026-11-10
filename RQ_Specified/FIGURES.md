@@ -93,4 +93,4 @@ A22 now has [one current identity–amount diagnostic figure](A22_epithelial_ide
 
 ## A36 — Aged IL-10 and later neuronal output
 
-[Question gallery](A36_aged_il10_sustained_neuronal_output/FIGURES.md) · [Current results](A36_aged_il10_sustained_neuronal_output/RESULTS.md). Originating frozen figures remain in Nn26-P01.
+[Question gallery](A36_aged_il10_sustained_neuronal_output/FIGURES.md) · [Current results](A36_aged_il10_sustained_neuronal_output/RESULTS.md). Includes the biological hypothesis illustration, measured representation, recipient-marker and decomposition figures. Originating frozen figures remain in Nn26-P01.

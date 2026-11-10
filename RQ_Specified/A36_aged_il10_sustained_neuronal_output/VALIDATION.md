@@ -6,14 +6,14 @@
 
 | Check | Result |
 |---|---|
-| GitHub CLI identity; new local author/committer | `xorca0711`; both commits `6ce40d7` and `0c8f133` use `Xorca <dreamtree071@gmail.com>` for both roles |
+| GitHub CLI identity; new local author/committer | `xorca0711`; local and imported A36 commits use `Xorca <dreamtree071@gmail.com>` for both roles |
 | Source stage preflight, governed execution, receipt verification | Passed; exact retained/new input hashes preserved |
 | Source/representation independent verification | 156 recovery/fraction checks and 4,160 S3 raw-OOXML comparisons; no biological rerun or inferred independent replication |
 | Analysis tests | 175 passed with two existing skips; sandbox temporary-directory permission failure resolved by approved rerun |
 | Hook tests | 25 passed |
 | Compile, claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive checks | Passed; no raw biological rerun |
 | Canonical-sequence targeted rejection test | Passed after authorized A36 registration; still rejects missing, duplicate, reordered and unregistered IDs |
-| Repository validation | 19,043 checks passed at this checkpoint; final integration will be checked after cloud return |
+| Repository validation | 19,085 checks passed after cloud integration and figure replacement |
 | Measured representation and qualitative diagram | Rendered and visually inspected; denominators and interpretation limits visible |
 
 The canonical-sequence validator and its focused fixture change from A0–A35 to A0–A36. This is an explicit review item implementing the owner's registration request; no validation requirement, scientific threshold, acceptance state or protected setting is weakened. The extra-ID rejection now tests A37. All historical entries remain required.
@@ -30,6 +30,14 @@ The source search reuses valid same-day reading and adds exact S6/Table S3 inspe
 
 The owner explicitly authorized resuming the existing cloud chat, then approved the exact 22,932-byte archive and destination after automatic review initially rejected that transfer. The approved archive hash is `527a0e4f376cdf49f50bb60bb4f2342feda58a96eb862f06f22c1b505b397b55`. It contains code/docs/contracts and two public-source-derived JSON files, no credentials or raw cells. The retained RDS was rehashed in place rather than downloaded again. All six reused local cache files also match hashes in prior frozen Nn26-P01 contracts.
 
-Live readiness confirmed the exact read-only RDS and 16 GiB cgroup. The temporary runtime had expired; effective author/committer initially used the AI-host identity. The execution instruction requires isolated runtime restoration and explicit Xorca author/committer verification before any new commit. Connector GitHub identity is `xorca0711`; a forbidden CLI identity request is not verified authentication. No CLI account-dependent write, host-session change, Weft edit, author contact or push is authorized.
+Live readiness confirmed the exact read-only RDS and 16 GiB cgroup. The temporary runtime was restored in an isolated cloud directory, with SeuratObject rebuilt at the same version against the restored R/Matrix. The frozen stage completed once and its receipt verifies locally. All 1,344 arithmetic checks passed; original labels and full zero denominators were preserved. Both returned measured figures were inspected locally. [Cloud execution](CLOUD_EXECUTION.md) and [runtime provenance](CLOUD_RUNTIME.md) retain preparation failures, package identities and the nonfatal font-cache message.
 
-The frozen recipient job is not yet represented as executed in this checkpoint. On return, verify its exact source/code/output hashes and attribution, import the scoped bundle without replacing the desktop registry, inspect figures and update this record with final integration checks. Failure requires preservation and a new version, not changes to frozen v1.
+The owner separately authorized return of the exact 1,043,052-byte derived-result bundle after automatic review required that payload approval. Its SHA-256 is `f1df4e91ae9a5024ea3cb44cdd281f811e6c20c35b4e4e6807cd1f7c154e7d39`; manifest SHA-256 is `b6cdeb1a7d7dbfc338cdda212cd6520811f6bc70b174645b9784ee633d307254`. All 85 transport pieces and assembled bytes verify. New result/report files match cloud Git blobs and manifest hashes. Import/freeze `19ed556` and result commit `89d77ce` both use Xorca for author/committer. Current desktop documents, guide and full registry were retained when resolving the overlap; only the new recipient receipt was added to existing registration.
+
+Fourteen trailing-whitespace lines in frozen R `sessionInfo()` output are preserved byte-for-byte. They are the only intended whitespace-check exception; trimming them would invalidate the receipt. No biological output, frozen script or contract was edited.
+
+## Owner-requested figure guidance
+
+The owner clarified the correction as diagram style and requested AGENTS.md guidance for succeeding RQs. The selected biological PNG, prompt, source SVG and unchanged hypothesis are bound by existing provenance rules. The [review](FIGURE_REVIEW_20261110.md) records neighboring references, actual-image inspection and the narrow glyph correction. The first raster validation found a missing per-question review-table locator; adding that required locator made the unchanged gate pass. No validator was relaxed.
+
+AGENTS.md now asks future primary RQ illustrations to depict the relevant biology, comparison and uncertainty, instead of text-heavy cards/workflow boxes. This explicit instruction change remains visible for review and does not change analysis or claim authority. The integrated repository passes 19,085 checks. The final base-aware governance check passes against refreshed, unchanged main `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Earlier analysis/hook/archive checks remain valid because the returned numerical implementation is unchanged; no biological rerun was performed.
