@@ -82,3 +82,27 @@ revision above. `git diff --check` passed. Main was fetched again at delivery
 and remained unchanged. Valid test/archive results were reused; no biological
 calculation was rerun for final documentation. The final delivery is local to
 the scoped branch and requires owner authorization before publication or merge.
+
+## Owner-requested publication and folder audit
+
+The owner subsequently authorized commit, push and PR creation. The canonical
+roadmap identifies this exact DOI/PMID as stable paper 11 in Gate 3B, matching
+the package and the existing `gate3_07`, `gate3_08`, `gate3_09` naming convention.
+The folder is retained. The roadmap's stale null folder and not-started states
+are corrected to the completed article-local work; the independent D1 gate and
+scientific acceptance are unchanged.
+
+Both CLI and connector authenticate as `xorca0711`. All 13 existing publication
+commits have Xorca author and committer identities with the previously verified
+email; new navigation commits receive the same effective-identity check.
+The changed paths are confined to the Zhang package/runs and shared progress,
+article/source/registry navigation. Targeted credential-pattern/private-note
+checks found no matches in the publication text. The largest new tracked file
+is about 4.1 MB; raw downloads, full FASTQs and private fit notes remain local.
+No frozen calculation, output, contract, validator or governance rule changed
+during this naming audit. Live PR checks and final head determine remote status.
+
+After the roadmap correction, repository validation passes **19,051 checks**
+and base-aware research governance returns `ok: true`, with no errors, against
+refreshed main `1a6769f`. Whitespace checks pass. The unchanged analysis/session/
+archive checks above remain applicable; no biological rerun was needed.

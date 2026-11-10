@@ -1,5 +1,23 @@
 # Current project state
 
+## Zhang publication and folder audit — 10 November 2026
+
+The owner requested commit, push and PR creation. The folder
+`Research Article/gate3_11_zhang_2026_nk` is correct: stable paper 11, Gate 3B,
+DOI `10.1126/sciimmunol.adx4411`. The stale `ROADMAP.json` null folder and
+not-started statuses are reconciled to the completed package; no folder move,
+paper renumbering, D1 gate opening or scientific acceptance is implied.
+Publication uses branch `codex/zhang-nk-plan-20261110` targeting main; merge
+remains a separate owner decision. CLI and connector both verify `xorca0711`,
+and every introduced commit has the verified Xorca author/committer attribution.
+The publication diff is scoped to the Zhang package, its recorded runs and
+shared navigation/source registers. Private notes and raw downloads stay local.
+The [validation record](Research%20Article/gate3_11_zhang_2026_nk/VALIDATION.md)
+owns pre-publication checks; GitHub CI owns the eventual remote status. Remaining
+scientific analyses and their exact input requirements are unchanged below.
+After the naming correction, 19,051 repository checks and base-aware research
+governance pass against refreshed main `1a6769f`; numerical evidence is unchanged.
+
 ## Zhang NK biological review and access follow-up — 10 November 2026
 
 Reviewed all six completed figures and the distinction between pooled NK RNA,

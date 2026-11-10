@@ -7,6 +7,10 @@ reconstruction remain unfinished.**
 Article-local candidate **Zh26-P01** concerns reproducibility and measurement;
 it does not create a global RQ or scientific acceptance.
 
+The folder follows the existing Gate 3 convention: `gate3_11` denotes Gate 3
+and stable paper number 11. The roadmap's more specific assignment is **3B**;
+the prefix does not imply that the separate D1 lung-analysis gate has opened.
+
 ## Organizing question
 
 How does local immune regulation limit NK-mediated tumor control, and what
