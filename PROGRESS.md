@@ -1,5 +1,16 @@
 # Current project state
 
+
+## A36 registered; source stage executed, RNA executor restoring — 10 November 2026
+
+Owner-authorized [A36](RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now owns transient D25K exposure and later surviving neuronal output in aged SVZ–olfactory-bulb lineage. Canonical card, guide, dossier, literature context, stage plan and indexes are added; A25/A26/A27/Sx10-P01 and Nn26-P01 remain distinct. Work stays in the scoped navarro-question-development worktree. Main was refreshed at `1a6769f`; local freezes are `6ce40d7` and `0c8f133`, both Xorca author/committer. Nothing pushed.
+
+[Source/representation results](RQ_Specified/A36_aged_il10_sustained_neuronal_output/RESULTS.md) passed 4,316 independent source/arithmetic checks. S6/Table S3 already report broad neural/glial pathway patterns, including residual engineered-IL10 astrocyte/qNSC IFN enrichment. Captured Mut5–WT5 lineage-bin fractions are mixed; they do not establish tissue abundance or purified NSC response. The bounded source search found no eligible later post-withdrawal birthdated comparison. Exact later-output/age-modification inputs and a measurement plan are recorded without invented interval, sample size or effect margin.
+
+The exact recipient RNA decomposition is frozen but not yet executed. Local R/memory is insufficient. Owner explicitly authorized resuming the existing cloud chat and the precise 22,932-byte code/docs/source-JSON transfer after automatic egress review required it. Cloud reverified the read-only RDS; the temporary runtime had expired and effective commit attribution reverted to host defaults. Scoped runtime and identity restoration are in progress; no scientific hold is inferred from this executor issue. Next: execute/verify the frozen recipient stage, import exact outputs and correct-attribution commit, update synthesis, refresh main and finish full integration checks.
+
+Required analysis tests pass (175, two existing skips), as do all 25 hook tests and retained archive/claim checks. Sandbox temp-directory denial was resolved by an approved test rerun. Repository validation passes 19,043 checks and the base-aware gate passes against unchanged main; final cloud integration remains. A new unvalidated schematic draft lacked the gate's literal illustrative-purpose label and was corrected before acceptance, without altering numerical evidence or existing accepted guides.
+
 ## Navarro RQ registration and technical execution authorized — 10 November 2026
 
 The owner explicitly requested a separate technical chat to add the new RQ to

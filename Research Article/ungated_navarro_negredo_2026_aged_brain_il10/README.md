@@ -1,5 +1,7 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
+**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+
 **Biological question for development:** when does selective immune modulation
 restore neuronal production in an aging niche, and which part of the response
 limits sustained recovery? The [10 November extension assessment](QUESTION_DEVELOPMENT_20261110.md)

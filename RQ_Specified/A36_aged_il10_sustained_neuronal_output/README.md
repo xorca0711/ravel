@@ -2,7 +2,7 @@
 
 **Organizing biological question:** In the aged SVZ–olfactory-bulb lineage, does a defined transient D25K exposure increase later surviving neuronal output relative to WT IL-10 and vehicle, and how does that compare with the early progenitor response?
 
-Registered on 10 November 2026 at the owner's explicit request. This is a proposed duration/endpoint extension, not scientific acceptance. [Canonical card](../../RESEARCH_QUESTIONS.md#a36) · [Dossier](../../docs/research_dossiers/A36.md) · [Literature context](LITERATURE_CONTEXT.md) · [Stepwise plan](PLAN.md) · [Results](RESULTS.md) · [Gallery](FIGURES.md).
+Registered on 10 November 2026 at the owner's explicit request. This is a proposed duration/endpoint extension, not scientific acceptance. [Canonical card](../../RESEARCH_QUESTIONS.md#a36) · [Dossier](../../docs/research_dossiers/A36.md) · [Literature context](LITERATURE_CONTEXT.md) · [Stepwise plan](PLAN.md) · [Results](RESULTS.md) · [Gallery](FIGURES.md) · [Validation](VALIDATION.md).
 
 ## Literature and visual hypothesis
 
@@ -20,7 +20,7 @@ The screen can change the population/measurement decision for later work. It can
 
 ## Current work and next decision
 
-The [stage plan](PLAN.md) defines local source/representation qualification, a conditional exact-matrix RNA decomposition, later-output source feasibility, and conditional age modification. [Results](RESULTS.md) owns actual execution status and exact holds. Later surviving output remains a separate biological endpoint even if all eligible computational stages finish.
+The source/representation stage executed with 4,316 verification checks; Mut5 has a larger astrocyte/qNSC share but smaller progenitor and neuroblast shares than WT5 among three captured lineage bins. These fractions do not estimate tissue abundance. The [stage plan](PLAN.md) defines source/representation qualification, a conditional exact-matrix RNA decomposition, later-output source feasibility, and conditional age modification. [Results](RESULTS.md) owns actual execution status and exact holds. Later surviving output remains a separate biological endpoint even if all eligible computational stages finish.
 
 Nn26-P01 remains the [originating reproduction package](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md). Its frozen inputs, outputs and receipts stay in place. A25 owns cortical microglial age structure; A26/A27 own CD8 repertoire comparisons; Sx10-P01 owns ligand/dose/co-input selectivity. A36 does not replace any of them.
 

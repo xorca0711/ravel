@@ -1,5 +1,7 @@
 # Nn26-P01 — deposited outcome reproduction and dose-specific qualification
 
+**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+
 Registered 8 November 2026 following the owner's explicit execution request.
 This article-local candidate remains **ungated** and separate from Sx10-P01.
 No global A ID, acceptance decision or claim grade is assigned.

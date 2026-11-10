@@ -59,7 +59,7 @@ does not automatically create a new active analysis task.
 
 <a id="all-33-current-questions"></a>
 <a id="current-questions"></a>
-## All 36 current questions
+## All 37 current questions
 
 | ID | Biological question → what current evidence changes | Question home | Dossier and package | Topic tags |
 |---|---|---|---|---|
@@ -99,6 +99,7 @@ does not automatically create a new active analysis task.
 | [A33](../RESEARCH_QUESTIONS.md#a33) | TIGIT-responsive AREG output → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A33_ezh2_tigit_areg_output/README.md) | [Dossier](../docs/research_dossiers/A33.md) · [Plan](A33_ezh2_tigit_areg_output/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [A34](../RESEARCH_QUESTIONS.md#a34) | CCR2 movement and fitness → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A34_ezh2_ccr2_movement_fitness/README.md) | [Dossier](../docs/research_dossiers/A34.md) · [Plan](A34_ezh2_ccr2_movement_fitness/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [A35](../RESEARCH_QUESTIONS.md#a35) | IGFBP4 source and IGF response → exposed RNA context motivates a distinct proposed comparison; function remains unmeasured. | [RQ home](A35_treg_igfbp4_source_igf_response/README.md) | [Dossier](../docs/research_dossiers/A35.md) · [Plan](A35_treg_igfbp4_source_igf_response/PLAN.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
+| [A36](../RESEARCH_QUESTIONS.md#a36) | Transient D25K and later neuronal output → captured representation is mixed; later survival remains unestimated. | [RQ home](A36_aged_il10_sustained_neuronal_output/README.md) | [Dossier](../docs/research_dossiers/A36.md) · [Plan](A36_aged_il10_sustained_neuronal_output/PLAN.md) | [Ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 
 ## Shared and historical source work
 

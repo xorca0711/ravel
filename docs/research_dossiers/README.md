@@ -73,6 +73,7 @@ scientific-design level; they are not laboratory procedures.
 | A30 | CSF-associated effector RNA → paired association remains in narrower observed-state support; activation exclusion, local induction and regulatory equivalence are not established. | [Evidence and next discriminator](A30.md) |
 | A31 | GRIA1 fibroblast response → alveolar expression and heterogeneous partners nominate conditional RNA contexts, including CNIH3; acute function remains unmeasured. | [Evidence and proposed baseline](A31.md) |
 | A32 | Myeloid ARG1 and recovery → supported myeloid/matrix RNA contexts coexist with unsupported epithelial contrasts; matrix reduction cannot stand in for regeneration. | [Evidence and next discriminator](A32.md) |
+| A36 | Transient IL-10 and later neuronal output → mixed captured representation, later survival unestimated. | [Evidence and next discriminator](A36.md) |
 
 ## Nb5 review and proposed registrations
 

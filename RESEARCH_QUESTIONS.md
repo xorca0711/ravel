@@ -1,5 +1,7 @@
 # Research questions
 
+**Current registration — 10 November 2026:** owner-authorized [A36](#a36) brings the register to **37 questions, A0–A36**. It owns transient D25K exposure and later surviving neuronal output; source reproduction stays with Nn26-P01. Registration is not acceptance.
+
 **Registration update — 7 November 2026:** the owner requested distinct homes for the three DuPage routes after overlap and literature review. Proposed **A33–A35** bring the register to **36 questions, A0–A35**. [Derivation, overlap and corrections](Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md). Dp1-P01 keeps the frozen source evidence; A0–A32 and all scientific acceptance states are preserved. Earlier dated counts remain historical.
 
 **Current reading guide — 4 November 2026:** the [RQ index](RQ_Specified/README.md)
@@ -165,6 +167,7 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A33](#a33) | Does Ezh2 loss alter the AREG response to TIGIT engagement in activated Tregs? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A33_ezh2_tigit_areg_output/README.md) |
 | [A34](#a34) | Which movement and fitness responses accompany Ezh2-associated CCR2 reduction in Tregs? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md) |
 | [A35](#a35) | Does the Ezh2-associated Igfbp4 RNA difference yield intact Treg-derived protein that modulates native-IGF response? | Exposed DuPage/Peeters RNA context; response not measured | Proposed; [current home](RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md) |
+| [A36](#a36) | Does transient D25K increase later surviving neuronal output in aged SVZ–OB lineage? | Exposed source/representation screen; later output unestimated | Registered for development; [current home](RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,

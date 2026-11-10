@@ -22,7 +22,8 @@ def check_research_layout(root: Path, result) -> None:
     # Registration checks exact identity/order, not biological acceptance.
     # A32 is the proposed myeloid ARG1 joint matrix/epithelial effect question.
     # A33-A35 are the owner-requested proposed DuPage Treg questions.
-    result.equal(ids, [f'A{i}' for i in range(36)], 'canonical question sequence')
+    # A36 is the owner-authorized transient IL-10/later neuronal-output question.
+    result.equal(ids, [f'A{i}' for i in range(37)], 'canonical question sequence')
     result.require(not (paper / 'DERIVED_RESEARCH_QUESTIONS.md').exists(),
                    'duplicate current paper-local RQ register')
     roadmap = json.loads((root / 'Research Article/ROADMAP.json').read_text(encoding='utf-8'))

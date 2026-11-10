@@ -24,7 +24,7 @@ Use independent integer/rational arithmetic to verify sums, joins and fraction d
 
 ## 4. Conditional exact-matrix recipient screen
 
-Only after steps 2–3 establish an informative question, use the retained 51,176-cell/31,053-gene main RDS with exact SHA-256. Original labels define strata independently of this screen's IFN marker values. Do not create finer identities from the response being tested. Keep the combined source bins and a separate oligodendrocyte context; do not claim an NSC-specific response.
+Only after steps 2–3 establish an informative question, use the retained 51,176-cell/31,053-gene main RDS with exact SHA-256. Use original deposited labels fixed before this screen; construct no new strata from its IFN outcomes. The source clustering/annotation remains data-derived and is not independent identity validation. Do not create finer identities from the response being tested. Keep the combined source bins and a separate oligodendrocyte context; do not claim an NSC-specific response.
 
 Measure per-gene mean stored RNA LogNormalize(10,000), raw-count detection and recovery for Young, Control, WT5 and Mut5. Prespecified IFN-associated markers are Stat1, Bst2, Isg15 and Ifitm3, already exposed in Nn26-P01. Identity/context markers are Gfap, Slc1a3, Sox2, Egfr, Ascl1, Mki67, Top2a, Dcx, Dlx2, Rbfox3, Sox10 and Mbp. These describe annotation plausibility and cell-cycle context; no threshold relabeling, independent identity validation, aggregate IFN score or functional interpretation follows. Absent features remain NA, not zero.
 
