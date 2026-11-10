@@ -4,6 +4,19 @@ Registered 8 November 2026 following the owner's explicit execution request.
 This article-local candidate remains **ungated** and separate from Sx10-P01.
 No global A ID, acceptance decision or claim grade is assigned.
 
+## Proposed biological development — 10 November 2026
+
+The owner requested plausible extensions and a possible RQ after applying the
+current research instructions. The [assessment](QUESTION_DEVELOPMENT_20261110.md)
+connects completed source reproduction to recipient neural responses and later
+surviving neuronal output. It proposes a qualified partial RNA screen and a
+separate duration/endpoint question; it does not amend executed contracts or
+register a new RQ. An age-by-treatment contrast is needed for age modification,
+while an aged-context effect question can stand on its own. Existing A25/A26/A27
+and Sx10-P01 retain their distinct comparisons and evidence.
+
+## Executed candidate scope
+
 The organizing question, work types, comparisons, biological units, endpoints,
 validity threats, exposure and stop rules are in the [seven-stage plan](ANALYSIS_PLAN.md).
 This is published-result reproduction and bounded description, not a new

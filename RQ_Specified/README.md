@@ -1,6 +1,6 @@
 # Research question homes
 
-All **36 canonical questions (A0–A35)** have a dedicated home here. Folder presence
+All **37 canonical questions (A0–A36)** have a dedicated home here. Folder presence
 does not imply completed analysis, scientific acceptance or experimental readiness.
 The [canonical register](../RESEARCH_QUESTIONS.md) owns identity; the
 [registry](../analysis/research/registry.json) binds each home, context and figure.
@@ -150,3 +150,7 @@ Update the owning README, local literature context and registry together when a 
 ## DuPage-derived question development — 7 November 2026
 
 The [article derivation record](../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md) records the A33–A35 overlap scan, literature correction and archived Figure 4. The source paper owns this shared record; only A33–A35 add new question homes. Measured screening figures remain in the article gallery.
+
+## Navarro-derived later-output question — 10 November 2026
+
+[A36](A36_aged_il10_sustained_neuronal_output/README.md) owns the transient-exposure/later-neuronal-output comparison and its qualified upstream screen. [Plan](A36_aged_il10_sustained_neuronal_output/PLAN.md) · [Results](A36_aged_il10_sustained_neuronal_output/RESULTS.md). Owner-authorized registration is not scientific acceptance.

@@ -1783,3 +1783,19 @@ predictions. [Strict extension review](RQ_Specified/A23_slc34a2_transition_homeo
 **Next comparison.** Ezh2-deficient and matched-control lineage-identified Tregs under common activation, separating locus-specific RNA, cell-associated protein and intact supernatant protein. If source and assay qualify, compare Treg-restricted IGFBP4 reduction with matched control under defined native-IGF and IL-2 exposure.
 
 **Boundary.** State composition, non-Treg source, serum carryover and proteolysis can dissociate RNA from intact extracellular protein. An effect on recipient cells or general viability can mimic a Treg-autonomous functional effect. Independent mice/preparations are the intended units, with nested aliquots. Model, timing and precision remain unresolved. Registration does not supply scientific acceptance or experimental readiness.
+
+<a id="a36"></a>
+
+### A36. Does transient D25K exposure increase later surviving neuronal output in aged SVZ–olfactory-bulb lineage?
+
+**Owner-authorized registration, 10 November 2026.** [Home](RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) · [Dossier](docs/research_dossiers/A36.md) · [Literature](RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md) · [Results](RQ_Specified/A36_aged_il10_sustained_neuronal_output/RESULTS.md).
+
+**Hypothesis and biology.** After a defined transient exposure in aged SVZ–olfactory-bulb lineage, D25K may increase later surviving birthdated neuronal output relative to WT IL-10 and vehicle in a way not adequately described by early progenitor abundance alone. Similar later output with both ligands, an early-only response, differential survival and direct progenitor effects remain alternatives; they can coexist.
+
+**Current evidence.** Navarro Fig. 5 already tests immune/IFN contributions, and Fig. 6 measures one-week neural markers. Direct D25K–WT neural-marker superiority remains unestablished. Table S3 already reports broad neural/glial pathway responses, including residual astrocyte/qNSC IFN enrichment under engineered IL-10. Current pooled RNA cannot separate the combined neural source labels or establish later survival.
+
+**Contribution and overlap.** A duration/endpoint extension with a bounded upstream representation/within-bin screen to refine population and measurement choice. Nn26-P01 retains source reproduction; A25/A26/A27 and Sx10-P01 retain distinct comparisons. No independent replication is created by reusing their sources.
+
+**Next comparison.** Direct D25K, WT IL-10 and vehicle contrasts with documented transient exposure, early progenitor response and later birthdated neuronal survival/output. Independent mice are the units; cells and sections are nested. Existing broad-bin representation and marker differences can inform design without supplying this later endpoint.
+
+**Boundary.** Similar ligand benefits, early-only changes, direct neural effects, capture and within-bin mixture remain alternatives. Later interval, exposure specification, meaningful effect and sample-size rationale are unresolved. Young vehicle cannot identify age modification; physiological aging is not a lesion. Registration and execution do not establish scientific acceptance.

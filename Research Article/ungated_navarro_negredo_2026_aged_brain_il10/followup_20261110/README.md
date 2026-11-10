@@ -5,6 +5,11 @@
 [Frozen follow-up plan](PLAN.md) · [Original animal results](../RESULTS.md) ·
 [Original pooled RNA results](../RNA_RESULTS.md) · [Validation](VALIDATION.md)
 
+The later [question-development assessment](../QUESTION_DEVELOPMENT_20261110.md)
+uses these completed results to consider recipient responses and sustained
+neuronal output. It launches no new numerical stage and leaves this report's
+findings and limitations intact.
+
 **The bounded follow-up is executed.** Public-source refresh did not resolve
 Navarro's alias/dose/donor gaps. Additional diagnostics preserve the two
 unmatched animal statistics. Newly sourced human GEO matrices support a separate

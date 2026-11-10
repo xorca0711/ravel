@@ -1,15 +1,17 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
-**Current status — 10 November 2026:** the original seven-stage analysis and
-the owner-requested remaining-work follow-up have executed within their recorded
-limits. This remains **Nn26-P01**, a separate ungated companion to Gate 3A/Saxton.
-Execution does not establish scientific acceptance or a new mechanism.
+**Biological question for development:** when does selective immune modulation
+restore neuronal production in an aging niche, and which part of the response
+limits sustained recovery? The [10 November extension assessment](QUESTION_DEVELOPMENT_20261110.md)
+distinguishes this organizing purpose from completed reproduction and proposed
+future comparisons. This remains **Nn26-P01**, a separate ungated companion to
+Gate 3A/Saxton; no new global RQ or scientific acceptance is recorded.
 
 [Latest follow-up results](followup_20261110/README.md) ·
 [Figure gallery](FIGURES.md) · [Animal results](RESULTS.md) ·
 [Pooled mouse RNA](RNA_RESULTS.md) · [Stage ledger](STAGE_STATUS.md)
 
-## Current findings and limits
+## What the completed work changed
 
 - Animal/source reproduction retains 16 panels and 40 direct comparisons.
   Thirty-eight exact-rank statistics reconcile; the two residuals remain
@@ -25,10 +27,21 @@ Execution does not establish scientific acceptance or a new mechanism.
   consistent for IL-10–PBS and agonist–IL-10; IFNG directions are mixed.
   The different engineered agonist is not D25K and does not supply aging or repair data.
 
+The published T-cell/IFN mechanism remains a premise. Existing results leave
+the recipient neural response and sustained neuronal output unresolved. The
+proposed next paper extension would distinguish state representation from
+within-state neural/glial RNA responses, after checking whether the published
+supplements already answer that contrast. The possible RQ asks about later surviving neuronal
+output following transient D25K versus WT IL-10/vehicle exposure. These are
+proposals, with informative contrary outcomes and exact limits in the assessment.
+The original seven-stage analysis and three follow-up stages are executed;
+biological resolution remains separate from execution completion.
+
 ## Folder map
 
 | Purpose | Read / use |
 |---|---|
+| Biological progression, plausible extensions and provisional RQ | [Question development](QUESTION_DEVELOPMENT_20261110.md) |
 | Current follow-up, remaining holds and new public-data results | [followup_20261110/README.md](followup_20261110/README.md) |
 | All original and new figures, separated by evidence type | [Figure gallery](FIGURES.md) |
 | Original animal and pooled RNA evidence | [RESULTS](RESULTS.md), [RNA_RESULTS](RNA_RESULTS.md), [STAGE_STATUS](STAGE_STATUS.md) |
@@ -43,8 +56,9 @@ Execution does not establish scientific acceptance or a new mechanism.
 New follow-up plans, contracts and scripts are grouped in `followup_20261110/`.
 Immutable outputs remain under `analysis/research/runs/`; raw downloaded inputs
 remain ignored. Historical files retain their provenance paths. No additional
-routine run is queued: further affected comparisons need the specific source
-information or study designs listed in the latest report.
+routine run is queued. The proposed partial RNA screen needs its own qualified
+scope/contract; later survival, age modification and repair comparisons each
+need the specific additional evidence named in the extension assessment.
 
 <details>
 <summary>Original paper assessment and 8 November execution notes (historical)</summary>

@@ -1,5 +1,10 @@
 # Nn26-P01 — qualified pooled RNA description
 
+**Question-development review, 10 November:** the
+[extension assessment](QUESTION_DEVELOPMENT_20261110.md) considers a qualified
+recipient-compartment screen and later neuronal output. Existing RNA does not
+establish that proposed explanation; frozen measurements below are unchanged.
+
 **10 November follow-up:** [refreshed public sources and separate human-cell
 context](followup_20261110/README.md) retain the original Navarro dose/pool holds.
 New donor-paired human data involve another agonist and do not supply D25K,

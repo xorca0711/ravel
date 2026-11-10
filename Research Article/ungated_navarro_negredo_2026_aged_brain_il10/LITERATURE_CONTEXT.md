@@ -1,5 +1,14 @@
 # Literature context for Nn26-P01
 
+**Question-development review — 10 November 2026:** the
+[current assessment](QUESTION_DEVELOPMENT_20261110.md) connects the one-week
+Navarro endpoints to direct progenitor effects, exposure duration and later
+survival. Perez-Asensio (2013), Pereira (2015), Sanchez-Molina (2022) and Nissen
+(2026) provide specific precedents and contrary contexts, with exact read/access
+limits recorded there. These papers do not establish the proposed aged-D25K
+explanation. The recommended partial screen and possible later-output RQ remain
+proposals; the following reproduction/source records retain their dated scope.
+
 **10 November source expansion:** [Canaria et al. (2026)](https://doi.org/10.1038/s41586-026-11176-1),
 Fig. 2g–h and Data availability, link human RNA selectivity to GSE318914/GSE318915.
 The [dated follow-up](followup_20261110/README.md) records actual searches,
@@ -38,9 +47,11 @@ The 8 November follow-up queries were
 Public publisher CDN retrieval, rather than search hits, supplied readable S1/S4.
 No browser challenge was bypassed and no author was contacted.
 
-The next informative comparisons are those already in the plan: direct
+At the original 8 November planning checkpoint, the next comparisons were direct
 animal-level D25K/control cognition tests, neurogenesis and nesting contrasts,
 then within-dose RNA description if the object and its aliases qualify.
+These bounded stages have since executed; current biological development is
+in the assessment linked above.
 Reproduced contrary or null results limit the corresponding claim. Neither a
 reanalysis nor the source paper counts as independent replication of itself.
 

@@ -560,6 +560,19 @@
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
         "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
       ]
+    },
+    {
+      "id": "A36",
+      "card": "RESEARCH_QUESTIONS.md#a36",
+      "dossier": "docs/research_dossiers/A36.md",
+      "evidence": [
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/PLAN.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/RESULTS.md",
+        "RQ_Specified/A36_aged_il10_sustained_neuronal_output/FIGURES.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -1077,7 +1090,8 @@
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_TRANSFER.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md",
         "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md",
-        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md"
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md",
+        "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md"
       ]
     },
     {
@@ -1301,7 +1315,8 @@
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/public_source_followup_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
-    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json"
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
+    "RQ_Specified/A36_aged_il10_sustained_neuronal_output/contracts/source_representation_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1875,6 +1890,16 @@
       "source_revision": "4ae13c09383c9afbd350e662094d0655bd7fe347",
       "schematic_sha256": "0c17392c56c22f7e86521836d55de5010729aaff3a18591c0bd68010d5522842",
       "hypothesis_sha256": "1c92ab7ab16073ca7dcbc599345a189255058ddf597b4d2b40d640e9904b4b3f"
+    },
+    {
+      "question": "A36",
+      "context": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md",
+      "schematic": "RQ_Specified/A36_aged_il10_sustained_neuronal_output/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "1a6769fc3d808ccf6b27aed3ecedc71341026f33",
+      "schematic_sha256": "50363f70ec2f05ac18c4b2566f6fcc784ee6a1ce76d3159226ee16e484d358aa",
+      "hypothesis_sha256": "f948a3606995150928f3759768b184d8adcb3e42040b4dcd432ac8b6aaa90ae4"
     }
   ],
   "question_raster_provenance": [

@@ -1,5 +1,61 @@
 # Current project state
 
+## Navarro RQ registration and technical execution authorized — 10 November 2026
+
+The owner explicitly requested a separate technical chat to add the new RQ to
+the current register, specify each analysis, execute the supported stages and
+organize the new RQ folder. Current main remains `1a6769f`; the register ends at
+A35, so A36 is available subject to rechecking before registration. The question
+concerns later surviving neuronal output after transient D25K versus WT IL-10
+and vehicle in the aged SVZ–olfactory-bulb lineage, with early progenitor response
+kept distinct. Registration is owner-authorized; findings remain unaccepted.
+
+The technical chat will own edits and execution in the existing scoped worktree
+`X:/GitHub/ravel/.worktrees/navarro-question-development-20261110`, branch
+`codex/navarro-question-development-20261110`, preserving the local assessment
+and all current evidence. First qualify the added comparison against Fig. S6 /
+Table S3, then specify and freeze any informative recipient-state representation
+and within-state RNA screen. Investigate sources for later survival and age
+modification separately; absent required measurements hold those dependent
+estimates, not all useful upstream work. Local/remote execution must retain the
+verified xorca0711 identity, exact input hashes and repository runner/receipts.
+Next: register the RQ and its guide/dossier/plan, execute eligible stages, then
+synthesize results and remaining evidence requirements in the new RQ folder.
+
+## Navarro biological extension assessment — 10 November 2026
+
+Read the full current AGENTS, project reasoning skill, research governance,
+decision workflow and literature workflow before developing extensions. Refreshed
+main is `1a6769f`, with PR #176 merged. CLI and connector identities are verified
+as `xorca0711`. Work is isolated on `codex/navarro-question-development-20261110`;
+existing worktrees and their unrelated changes remain untouched.
+
+The [article-local assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md)
+connects the completed findings to recipient neural responses and sustained
+neuronal output. A bounded primary-literature pass adds differentiation/survival
+precedents and the Nissen 2026 recipient IFNAR experiment, with access and model
+limits. The proposed first extension separates recipient-state representation
+from within-state RNA response; its exact contrast must first be checked against
+Fig. S6/Table S3 and qualified neural identities, beyond published broad-bin pathways.
+The provisional RQ concerns later surviving neuronal output after transient
+D25K versus WT/vehicle exposure. Age modification is a separate matched
+young/old treatment contrast, not supplied by young vehicle reference alone.
+
+README, candidate, literature context and result entrypoints now distinguish
+this biological progression from completed execution. No numerical analysis,
+dataset acquisition, global RQ, accepted hypothesis or claim grade was added.
+Frozen results and original unfavorable comparisons remain unchanged. Next:
+review the proposed comparison and closest supplementary overlap; any numerical
+screen needs a new scoped contract and neural-identity qualification. Later
+survival/function requires its own measurements, without blocking an informative
+partial RNA screen. Repository validation passes (18,937 checks), and base-aware
+research governance passes against unchanged remote main `1a6769f`. The initial
+gate found checkout-only line endings and missing cached published outputs:
+21 files were restored from receipt-matching Git blobs and 15 outputs copied
+from a receipt-verified cache. No validator or scientific artifact content was
+changed. The final diff contains only the local assessment, owning documentation
+and its registry evidence link. No publication is requested for this assessment.
+
 ## Ravel integration into existing PR #176 - 10 November 2026
 
 The owner requested adding the completed Ravel session-assistance work to
