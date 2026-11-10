@@ -332,7 +332,7 @@
       ],
       "folder": "gate3_07_saxton_2021_il10",
       "note_status": "Main Results, Figures 3-5 and relevant RNA methods read 2026-11-08; S9 source access held.",
-      "trial_status": "Owner-authorized finite-library RNA description and sensitivity completed 2026-11-08. Donor inference and exact replay held; see article results/ledger. Current Gate3A/paper7 entry folder corrected 2026-11-08; frozen evidence remains under the historical ungated_saxton_2021_il10 path."
+      "trial_status": "Owner-authorized finite-library RNA description and sensitivity completed 2026-11-08. Donor inference and exact replay held; see article results/ledger. Full Gate3A/paper7 package physically consolidated under gate3_07_saxton_2021_il10 on 2026-11-10; exact historical paths and bytes are recorded in analysis/research/path_migrations.json."
     },
     {
       "order": 8,
@@ -783,7 +783,7 @@
     "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
     "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis.",
     "damani_yokota_2026": "Current entry: ungated_damani_yokota_2026, outside the ordered roadmap. Frozen evidence remains under gate2_DY1_damani_yokota_2026; that historical prefix is not a Gate 2 assignment. Entry corrected 2026-11-08.",
-    "saxton_2021_il10": "Current entry: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Frozen evidence remains under ungated_saxton_2021_il10; that historical prefix does not classify this paper as ungated. Entry corrected 2026-11-08."
+    "saxton_2021_il10": "Full current package: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Former ungated directory retired 2026-11-10 by a byte-preserving migration; original contract and receipt references remain auditable through the exact file map."
   },
   "current_reading_queue": {
     "updated": "2026-10-04",

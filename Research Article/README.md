@@ -25,8 +25,9 @@ owner-authorized finite-library scope. Their ledgers retain population/function
 and exact-replay holds. IL-10 remains existing paper 7; no new roadmap member.
 Its [study](gate3_07_saxton_2021_il10/README.md), result and
 [gallery](gate3_07_saxton_2021_il10/FIGURES.md) entries are under Gate 3A.
-The old `ungated_saxton_2021_il10/` folder is a frozen evidence archive, not a
-second ungated paper package.
+The full evidence package was physically moved into that folder on 10 November;
+the [migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md)
+preserves exact historical provenance. There is no separate ungated Saxton folder.
 
 ## Browse by biological topic
 

@@ -92,9 +92,9 @@ derived author assets. They should not all be called independent scRNA cohorts.
 
 | Source / product | Recorded use | Unit, qualification and evidence |
 |---|---|---|
-| GSE160332 / PRJNA672965 | Sx10 activated human CD8 RNA qualification and finite-library descriptions | Eight libraries with explicit arm joins and aligned counts/FPKM; donor/preparation identities remain unknown. [Source qualification](../Research%20Article/ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md), [current results](../Research%20Article/ungated_saxton_2021_il10/RESULTS.md). The modeling preprint reuses this source; it is not independent validation. |
+| GSE160332 / PRJNA672965 | Sx10 activated human CD8 RNA qualification and finite-library descriptions | Eight libraries with explicit arm joins and aligned counts/FPKM; donor/preparation identities remain unknown. [Source qualification](../Research%20Article/gate3_07_saxton_2021_il10/SOURCE_QUALIFICATION.md), [current results](../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md). The modeling preprint reuses this source; it is not independent validation. |
 | GSE160217, reused colon libraries | Sx22 acute Osmr RNA extension | Six existing PBS/WT/B3 colon libraries; no IFN-priming arm or independent replication. [Extension result](../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md). |
-| GSE146438 / Gorby deposited comparison workbooks | Sx10 description of 36 fixed target records across twelve author comparison tables | Reported estimates only; common-expression-matrix qualification failed and remains held. Source codes D85/D93/D36 lack an independently recovered donor crosswalk. No population inference or certification of upstream normalization. [Current result and amendment](../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md). |
+| GSE146438 / Gorby deposited comparison workbooks | Sx10 description of 36 fixed target records across twelve author comparison tables | Reported estimates only; common-expression-matrix qualification failed and remains held. Source codes D85/D93/D36 lack an independently recovered donor crosswalk. No population inference or certification of upstream normalization. [Current result and amendment](../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md). |
 
 ### Additional source families
 
@@ -497,7 +497,7 @@ cells were invalid/non-numeric; the narrower reported-estimate use above is a
 separate amended endpoint. The following candidates did not qualify for the
 specified interactions. Inspection depth is retained in each recorded reason.
 
-**Sx10 engineered IL10 × IL18** — [current result](../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md); [frozen source screen](../analysis/research/runs/sx10_coinput_qualification_v2/source_candidates.csv).
+**Sx10 engineered IL10 × IL18** — [current result](../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md); [frozen source screen](../analysis/research/runs/sx10_coinput_qualification_v2/source_candidates.csv).
 
 | Source | Recorded comparison-specific disposition |
 |---|---|

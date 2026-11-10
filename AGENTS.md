@@ -6,6 +6,10 @@ Do not infer current state from an old checkout, an old plan or a chat summary.
 
 ## State and preservation
 
+- At the start of repository work and before account-dependent writes, verify the actual GitHub login used by each CLI, connector or browser route is `xorca0711`. The remote URL and AI-host login are not identity evidence. The `chubyeon` identity is reserved for AI-agent hosting services; preserve that host session and do not reuse it for external services.
+- Before agent-authored commits, inspect effective `git var GIT_AUTHOR_IDENT` and `git var GIT_COMMITTER_IDENT`, including environment and worktree overrides. Use `Xorca` with an email verified to map to `xorca0711`; GitHub authentication and commit attribution are separate checks. Do not infer another service's login or email from the `xorca` alias.
+- Apply these checks in every cloud/remote executor and include them in technical-chat handoffs. Before publishing, audit author and committer attribution for every newly introduced agent-authored commit, including imported bundles. Preserve historical and merged commits unless the owner explicitly authorizes an attribution/history correction. Let the user enter any required password, MFA or recovery information; never copy credentials between services.
+
 - Inspect HEAD, upstream and working-tree changes before editing. Fetch the requested base when network access is available; otherwise state its last verified revision.
 - Work on a scoped branch/worktree. Preserve unrelated, staged, untracked and ignored work. Never reset, clean, stash, delete or move someone else's work to obtain a clean state.
 - Inspect the reconciliation record before retiring an old worktree. Do not mistake local untracked paths for new work: they may already exist on main.

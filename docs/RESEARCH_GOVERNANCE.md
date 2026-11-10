@@ -163,6 +163,24 @@ restricted runtime are needed where arbitrary local writes must be prevented.
 
 ## CI and changes to existing work
 
+### Byte-preserving archive relocation — 10 November 2026
+
+The owner requested the physical Saxton IL-10 archive move to its existing
+Gate 3A home. [Migration record](migrations/2026-11-10-saxton-gate3a/README.md)
+and [exact file map](../analysis/research/path_migrations.json) describe the
+change. This validator extension requires explicit owner review in the PR;
+agent checks do not constitute that review or scientific acceptance.
+
+Each mapping binds one old path, one new path, an exact SHA-256 and the original
+Git revision. The gate verifies both the Git blob and destination bytes, source
+revision ancestry, absence of the old file, and preservation of accepted map
+entries. It rejects ambiguous/chained maps and unsafe paths. Only an exact move
+of an already approved scientific asset qualifies for the existing allowance;
+no directory or changed file is exempted. Frozen records retain their original
+paths and hashes. These references resolve for verification only. The runner
+refuses migrated contracts/code/inputs; future execution needs new versioned
+contracts and code. Existing receipts and the historical baseline are unchanged.
+
 The research gate checks all canonical IDs and dossier sections, references,
 registered prospective contracts, recorded outputs, and historical artifact
 hashes. Its change check requires new or modified scientific code, configuration,

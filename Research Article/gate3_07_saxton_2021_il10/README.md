@@ -9,8 +9,8 @@ young-treatment arms. This is separate evidence, not replication of the existing
 super-10/10-DE RNA contrasts. Navarro remains ungated; Saxton remains Gate 3A.
 
 **Completed technical description, 8 November 2026:** [Gate 3A results](RESULTS.md),
-[three figures](FIGURES.md), [source qualification](../ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md),
-[completion/hold ledger](../ungated_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../ungated_saxton_2021_il10/VALIDATION.md).
+[three figures](FIGURES.md), [source qualification](../gate3_07_saxton_2021_il10/SOURCE_QUALIFICATION.md),
+[completion/hold ledger](../gate3_07_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../gate3_07_saxton_2021_il10/VALIDATION.md).
 10-DE responses are broadly weaker; super-10 has stable mixed target directions.
 CCL1 remains omission-sensitive. Population inference and exact replay are held.
 
@@ -19,17 +19,19 @@ were already reported by Saxton et al. (2021), Fig. 5, using the same source.
 The [dated attribution review](../../docs/research_reviews/2026-11-08-saxton-reading/POST_RESULT_LITERATURE.md)
 also verifies that a 2026 modeling preprint's public code reuses GSE160332.
 The [development dossier and diagram](../../docs/research_reviews/2026-11-08-saxton-reading/RQ_DEVELOPMENT.md)
-now link the [completed extension plans, Gorby description and IL-18 source screen](../ungated_saxton_2021_il10/extensions_20261108/RESULTS.md).
+now link the [completed extension plans, Gorby description and IL-18 source screen](../gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md).
 The Gorby reported estimates do not reproduce the opposing IFNG/GZMB pattern at
 either dose; the IL-18 interaction remains held for missing matched response
 data. These are exposed source descriptions, not scientific acceptance or mechanism.
 
-This is roadmap paper **7, Gate 3A**, in the current
-`gate3_07_saxton_2021_il10` entry folder. The old `ungated_saxton_2021_il10`
-directory preserves frozen analysis evidence; it does not classify this paper
-as ungated. Current result and gallery entry pages also live in this Gate 3A
-folder (navigation completed 9 November). Sx10-P01 and the authorized analysis
-scope are unchanged.
+This is roadmap paper **7, Gate 3A**. Since 10 November 2026, the complete
+paper package and frozen analysis evidence physically reside in
+`gate3_07_saxton_2021_il10`. The old `ungated_saxton_2021_il10` directory has
+been retired. The [migration record](../../docs/migrations/2026-11-10-saxton-gate3a/README.md)
+documents exact file preservation and historical-path verification. The
+[archived entry page](ARCHIVED_UNGATED_ENTRY.md) retains its original wording.
+Sx10-P01 and the authorized analysis scope are unchanged. Historical scripts
+are preserved for audit; future execution requires new versioned contracts.
 
 **Article-local owner Sx10-P01**, registered 8 November 2026 after checking the
 current registry (36 canonical RQs, 38 pre-existing article-local candidates).
@@ -47,8 +49,8 @@ Published mixed super-10 effects and weak 10-DE responses are already exposed
 reproduction targets. General attenuation, source-selected targets, donor and
 processing confounding are consequential alternatives.
 
-[Literature and source context](../ungated_saxton_2021_il10/LITERATURE_CONTEXT.md) ·
-[Assay evidence map](../ungated_saxton_2021_il10/SOURCE_EVIDENCE.md). The supplied Science paper and companion
+[Literature and source context](../gate3_07_saxton_2021_il10/LITERATURE_CONTEXT.md) ·
+[Assay evidence map](../gate3_07_saxton_2021_il10/SOURCE_EVIDENCE.md). The supplied Science paper and companion
 IL-22 paper were read previously. This is shared-source reanalysis, not independent
 replication or a causal STAT model. RNA does not measure myeloid suppression,
 pSTAT activity, secretion, killing, persistence or protection.
