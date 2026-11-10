@@ -8,9 +8,9 @@ Registered on 10 November 2026 at the owner's explicit request. This is a propos
 
 Navarro et al. (2026), Fig. 5, already test the immune/IFN premise; Fig. 6 measures neural-marker endpoints after one week of infusion. Direct D25K–WT neural-marker superiority was not established by the repository's source reproduction. Early progenitor recovery need not imply later survival. Direct progenitor effects and chronic IL-10 survival findings make exposure duration and endpoint separation consequential; they do not predict a guaranteed D25K advantage.
 
-![A36 qualitative hypothesis and endpoint boundaries](schematics/hypothesis_v1.svg)
+![A36 qualitative hypothesis and endpoint boundaries](schematics/A36_gpt_matte_v2.png)
 
-Qualitative proposed comparison, with no measured counts, effect sizes or inferred lineage arrows. The [context](LITERATURE_CONTEXT.md) separates primary results, same-source reanalysis and unmeasured links.
+Qualitative proposed comparison, with no measured counts or effect sizes. The anatomy inset is schematic context; the dashed endpoint link is untested. [Figure review and provenance](FIGURE_REVIEW_20261110.md). The [context](LITERATURE_CONTEXT.md) separates primary results, same-source reanalysis and unmeasured links.
 
 ## What the source audit changes
 

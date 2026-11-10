@@ -2,7 +2,7 @@
 
 ## Qualitative question
 
-![Proposed A36 comparison](schematics/hypothesis_v1.svg)
+![Proposed A36 comparison](schematics/A36_gpt_matte_v2.png)
 
 Qualitative illustration only. [Literature and boundaries](LITERATURE_CONTEXT.md).
 

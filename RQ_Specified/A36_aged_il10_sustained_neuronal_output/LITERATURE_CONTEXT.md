@@ -36,9 +36,9 @@ A sustained direct D25K advantage would support a bounded later-output benefit, 
 
 ## Hypothesis schematic
 
-![A36 qualitative comparison](schematics/hypothesis_v1.svg)
+![A36 qualitative comparison](schematics/A36_gpt_matte_v2.png)
 
-This versioned qualitative illustration separates current one-week observations from proposed post-exposure measurements, shows contrary outcomes and leaves unknown timing/precision explicit. It contains no measured results and certifies neither novelty nor laboratory readiness.
+This versioned biological illustration shows the neural niche, early progenitor response and proposed later birthdated-neuron endpoint, with a dashed unresolved link and alternative outcomes. Timing and precision remain unspecified. It contains no measured results and certifies neither novelty nor laboratory readiness.
 
 ## Next literature check
 

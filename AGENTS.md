@@ -64,6 +64,15 @@ not replace the research contract, change claim authority or guarantee complianc
 - Apply these literature annotations prospectively to analyses being interpreted or revisited; do not silently reopen the whole portfolio. Add a dated interpretation note or versioned addendum linked from the current result entrypoint, literature context and README/dossier; do not edit a hash-bound historical result to add the link. Preserve frozen numerical results, contracts and historical interpretations, and do not rerun an analysis solely to add attribution. Keep any proposed RQ development separate from human scientific acceptance.
 - Maintain the local literature-context note, dossier and illustrated README together; use the registry's question guide. Reuse valid prior scans, refresh when the comparison or evidence changes, and link the context in prospective numerical contracts. No search or schematic certifies novelty or laboratory readiness.
 
+## RQ hypothesis illustrations
+
+- For a new or revised RQ hypothesis figure, inspect neighboring RQ illustrations (for example A33–A35) and depict the relevant cells, tissue or molecules, the biological comparison and the unresolved relationship with concise labels.
+- Do not use text-heavy square/rectangular cards or a workflow of colored boxes as the primary hypothesis illustration. Keep procedural steps and analysis checklists in the plan; use tables and measured plots where their content calls for them.
+- Mark proposed links and alternatives visibly. Do not invent a mechanism, anatomical detail or measured effect to fill the drawing. Preserve versioned artwork and its provenance when replacing the displayed figure.
+
+These figure-style instructions were requested by the owner on 10 November 2026.
+They do not change question scope, analysis contracts or claim authority.
+
 ## Delivery
 
 - Keep tool output and handoffs concise. Batch independent reads, reuse valid checks and avoid duplicate audits. Run additional checks when a change or unresolved risk justifies them.
