@@ -1,0 +1,236 @@
+[
+  {
+    "url": "https://api.github.com/repos/wagnerlab-berkeley/itdt_rna_seq_data/git/trees/61ac9a440ba3f9db754ff8b8ad5008b450e647c0?recursive=1",
+    "path": "raw_data/zhang_2026/source_v1/author_tree.json",
+    "reused": true,
+    "sha256": "cd1aac1f8981aab7254de4e652659cf9f8a4c8225ace4d4e2b13a41a499cf2d7",
+    "bytes": 11405
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/README.md",
+    "path": "raw_data/zhang_2026/source_v1/author/README.md",
+    "reused": true,
+    "sha256": "86ef3e78346210fcefdd54671ffbbc11ca7641bc5385a0526854213b204d0719",
+    "bytes": 1278,
+    "git_blob_verified": "70abd2254b3e0b3c9e43c006fe2a2991bcf053c4"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/input_files/NK_kallisto_tpm.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/input_files/NK_kallisto_tpm.csv",
+    "reused": true,
+    "sha256": "2bdd0b54e9b9543f18154d699d8c74ab61a1c8cee7a5a049109734745f416c83",
+    "bytes": 2123532,
+    "git_blob_verified": "0c81d6e2107ad99c796049cbac85c59ae7016aea"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/input_files/sample_info_NK.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/input_files/sample_info_NK.csv",
+    "reused": true,
+    "sha256": "01df6c91012969fb8cb83262262965527b45a86b35214d4ef35c2e4f11a74447",
+    "bytes": 224,
+    "git_blob_verified": "6e49e4bc896ec0af0bd0ab15370161effc7be8af"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/output_files/gsea_results_std_itdt_acd4_vs_itdt.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_acd4_vs_itdt.csv",
+    "reused": true,
+    "sha256": "e288e7d756660f2a09d0f60a37fe4a1b3a221d782f7c9fdb4052649ebe8bc5a2",
+    "bytes": 70956,
+    "git_blob_verified": "6f1cc5f2d5fb8b8cbe7da3caf114ab25b21dfd6f"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/output_files/gsea_results_std_itdt_vs_pbs.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_vs_pbs.csv",
+    "reused": true,
+    "sha256": "e34c805005ae26d6c5f5eaa78ffdc9fb6078d5450b8d0fc6f98ddab04ab3e414",
+    "bytes": 70746,
+    "git_blob_verified": "e03829bb059ce8c807a16741086a5676c98766d2"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/output_files/itdt_acd4_vs_itdt_nk.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/output_files/itdt_acd4_vs_itdt_nk.csv",
+    "reused": true,
+    "sha256": "4649df5fd09ebc90ea0dd4ceefd8f5aacf65ac044934774165aac048602944c9",
+    "bytes": 1482711,
+    "git_blob_verified": "d1bc49045109258fec0affd40a106757ea5f9693"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/output_files/itdt_acd4_vs_pbs_nk.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/output_files/itdt_acd4_vs_pbs_nk.csv",
+    "reused": true,
+    "sha256": "a181743fd49bdcb52bab02f0d63b2c1e9d0156c60de7d659a317c180b206a5fd",
+    "bytes": 1484585,
+    "git_blob_verified": "19a130f2fae20d14c3507b934e0b169d324e9aa3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/output_files/itdt_vs_pbs_nk.csv",
+    "path": "raw_data/zhang_2026/source_v1/author/output_files/itdt_vs_pbs_nk.csv",
+    "reused": true,
+    "sha256": "69211f78050397c48c76a6fa71a7f32ac39191b7c372bdfdbf65f64ba4e0e2eb",
+    "bytes": 1467955,
+    "git_blob_verified": "fb5b21f6f06e61d31b491dd0cd3e73683397c7cd"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/de_genes_overlap_upset_plot.ipynb",
+    "path": "raw_data/zhang_2026/source_v1/author/src/de_genes_overlap_upset_plot.ipynb",
+    "reused": true,
+    "sha256": "28f0c8649e341b65ceb958f83fde9d7b80da65ea100f15b2fd6b3370ce5ba7ce",
+    "bytes": 1209419,
+    "git_blob_verified": "0495809e052dc7a47ff08349441ad8b4e3c581fd"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/gsea_itdt_acd4_vs_itdt.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_acd4_vs_itdt.Rmd",
+    "reused": true,
+    "sha256": "68a2b5e356d4c68b390c001ab111439112642eafa9b92da71eeb242be66b1c08",
+    "bytes": 5883,
+    "git_blob_verified": "e8259d828aa40f8c389925bf127bf1d3e685699d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/gsea_itdt_vs_pbs.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_vs_pbs.Rmd",
+    "reused": true,
+    "sha256": "24395b44816eedabe493d19cf16b69024fe730232b35f029153a562567c6bc1d",
+    "bytes": 5847,
+    "git_blob_verified": "65b15f05b8352d968ff790e088f89ba73e422bf3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/gsea_scatter.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/gsea_scatter.Rmd",
+    "reused": true,
+    "sha256": "643df422579cca385094ebbbc2e60bd83cd2f4a054077ce7b163ff155cad19a4",
+    "bytes": 2723,
+    "git_blob_verified": "48b7984214c7fee5db21ba6ce5f6affa4048fd9e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/limma_nk.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/limma_nk.Rmd",
+    "reused": true,
+    "sha256": "9b7bd1486792759b15d3665625c3018c4b813bb0a15defaa51384d42d6a3223f",
+    "bytes": 14642,
+    "git_blob_verified": "87f0d6435f8bf5e854c33517a2497716176296a3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/line_plot.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/line_plot.Rmd",
+    "reused": true,
+    "sha256": "e21faf20732880c18e74446467a3bbf3d9c1b839ac8fb840334d7d5fad93a5bd",
+    "bytes": 4023,
+    "git_blob_verified": "ecca7be62edbad6fed36a1a732b4f39d030db3a0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/itdt_rna_seq_data/61ac9a440ba3f9db754ff8b8ad5008b450e647c0/src/nk_pca.Rmd",
+    "path": "raw_data/zhang_2026/source_v1/author/src/nk_pca.Rmd",
+    "reused": true,
+    "sha256": "8659b3d2627899d7a9918cb3aeab334a209a89c3d791e2b542aabb34895c2bc7",
+    "bytes": 4602,
+    "git_blob_verified": "3f6486a75d87894910800237fc1b89648d3d1bd9"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE287nnn/GSE287581/soft/GSE287581_family.soft.gz",
+    "path": "raw_data/zhang_2026/source_v1/geo/GSE287581_family.soft.gz",
+    "reused": true,
+    "sha256": "eef0ae83d9f5843f405222265edeff80ccaf87da09504c8b4f382aa5af5ccdaa",
+    "bytes": 3112
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE287nnn/GSE287581/suppl/GSE287581_transposed_kallisto_NK_only.csv.gz",
+    "path": "raw_data/zhang_2026/source_v1/geo/GSE287581_transposed_kallisto_NK_only.csv.gz",
+    "reused": true,
+    "sha256": "d0237a12074a8391257ee378069d59810b4a3d8d09c5c2f92315eff2cba9338e",
+    "bytes": 747723
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13334847/",
+    "path": "raw_data/zhang_2026/source_v1/pmc/article.html",
+    "reused": true,
+    "sha256": "33623b26e26291debafa7b405d83ff31210ae2134365841a6aa3ebbda38264a4",
+    "bytes": 297357
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13334847",
+    "intended_path": "raw_data\\zhang_2026\\source_v1\\pmc\\oa.xml",
+    "error": "404 Client Error: Not Found for url: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13334847",
+    "retrieved_utc": "2026-11-10T04:01:53.956363+00:00"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13334847/bin/NIHMS2180395-supplement-All_supplemental_Tables.xlsx",
+    "path": "raw_data/zhang_2026/source_v1/pmc/All_supplemental_Tables.xlsx",
+    "reused": true,
+    "sha256": "2094a74f433902f830dbdad833176dafffc174afd3d8daf33b1d7f3d2f85b013",
+    "bytes": 1817,
+    "format_verified": false,
+    "qualified_input": false,
+    "access_result": "HTML challenge response, not the requested scientific file"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13334847/bin/NIHMS2180395-supplement-Supp__Figures_and_Materials.pdf",
+    "path": "raw_data/zhang_2026/source_v1/pmc/Supp__Figures_and_Materials.pdf",
+    "reused": true,
+    "sha256": "81de132e3013adc90a58f61cb918817ba5fdb27dcdcc7db33bdc05f68f3e1e2e",
+    "bytes": 1817,
+    "format_verified": false,
+    "qualified_input": false,
+    "access_result": "HTML challenge response, not the requested scientific file"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13334847/bin/NIHMS2180395-supplement-Datafiles_S1-S17.pdf",
+    "path": "raw_data/zhang_2026/source_v1/pmc/Datafiles_S1-S17.pdf",
+    "reused": true,
+    "sha256": "1638a76b46eeacff684fca8dcd25fbc1603aebc4289233f8119375056895df7a",
+    "bytes": 21448,
+    "format_verified": false,
+    "qualified_input": false,
+    "access_result": "HTML challenge response, not the requested scientific file"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13334847/bin/NIHMS2180395-supplement-MDAR_Reproducibility_Checklist.pdf",
+    "path": "raw_data/zhang_2026/source_v1/pmc/MDAR_Reproducibility_Checklist.pdf",
+    "reused": true,
+    "sha256": "f5db50d289c4759201336dff8f3db55ccf11749fca04f96a640e68bccf127cb2",
+    "bytes": 21486,
+    "format_verified": false,
+    "qualified_input": false,
+    "access_result": "HTML challenge response, not the requested scientific file"
+  },
+  {
+    "path": "raw_data/zhang_2026/source_v1/prior/supplied_paper.pdf",
+    "origin": "supplied local asset",
+    "planning_sha256": "05e9193c9ff71924063e6bfbadbbb826120c167a635aa7d1750ef1d3f8539273",
+    "planning_hash_matches": false,
+    "sha256": "473c4e89ee0b6abdedf9ab6e1ba0ecb184283ecac42c4df0d9cb6f1856fa1a8e",
+    "bytes": 1527929,
+    "retrieved_utc": "2026-11-10T04:01:53.956363+00:00",
+    "format_verified": true
+  },
+  {
+    "path": "raw_data/zhang_2026/source_v1/prior/prior_geo.soft.gz",
+    "origin": "supplied local asset",
+    "planning_sha256": "eef0ae83d9f5843f405222265edeff80ccaf87da09504c8b4f382aa5af5ccdaa",
+    "planning_hash_matches": true,
+    "sha256": "eef0ae83d9f5843f405222265edeff80ccaf87da09504c8b4f382aa5af5ccdaa",
+    "bytes": 3112,
+    "retrieved_utc": "2026-11-10T04:01:53.956363+00:00"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC13334847",
+    "status": 404,
+    "path": "raw_data/zhang_2026/source_v1/pmc/oa_current.xml",
+    "sha256": "c7e277a2362b57700db5e26b4e7c583779fd72591cb983b96d0bb6d7dd8d0a85",
+    "bytes": 48716,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_utc": "2026-11-10T04:03:22.531422+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13334847/supplementaryFiles",
+    "status": 200,
+    "path": "raw_data/zhang_2026/source_v1/pmc/europepmc_supplements.zip",
+    "sha256": "1031a664ad0a6b214b0f02e80cb40a71ccf7373dc99ca76634a5306391958c3a",
+    "bytes": 297,
+    "content_type": "application/xml",
+    "retrieved_utc": "2026-11-10T04:03:24.115209+00:00",
+    "format_verified": false,
+    "access_result": "API reports article is not open access; not a ZIP",
+    "qualified_input": false
+  }
+]
