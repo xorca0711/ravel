@@ -1,5 +1,23 @@
 # Current project state
 
+## A36 scoped cloud recipient execution — 10 November 2026
+
+The owner-authorized frozen recipient stage executed once on the isolated
+cloud branch `codex/a36-recipient-screen-20261110`, based on main `1a6769f`.
+Import/freeze `19ed556` preserves all 14 transferred file hashes, with Xorca as
+both author and committer. The exact input preflight and successful receipt
+verify; 1,344 arithmetic checks passed across 11,955 retained cells. Both
+declared figures were inspected. [Cloud handoff](RQ_Specified/A36_aged_il10_sustained_neuronal_output/CLOUD_EXECUTION.md)
+records mixed marker/detection directions, source limits, restored runtime and
+the unchanged frozen memory limits. No later neuronal output was measured.
+
+Parent integration owns current docs, the corrected qualitative guide and full
+registry/checks; this sparse executor does not replace those or claim complete
+repository validation. Preserve its exact v1, successful receipt and outputs.
+Earlier Navarro evidence, original read-only RDS, host session and Weft remain
+untouched. Nothing was pushed or published; no new biological object or optional
+source was acquired.
+
 ## Ravel integration into existing PR #176 - 10 November 2026
 
 The owner requested adding the completed Ravel session-assistance work to

@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    "Young",
+    "Control",
+    "WT5",
+    "Mut5"
+  ],
+  "original_bins": [
+    "Astrocytes_qNSCs",
+    "aNSCs_NPCs",
+    "Neuroblasts",
+    "Oligodendrocytes"
+  ],
+  "no_relabeling": true,
+  "no_population_inference": true,
+  "no_later_survival_endpoint": true,
+  "python": "3.12.14",
+  "matplotlib": "3.10.8"
+}

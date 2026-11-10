@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "cells": 11955,
+  "sparse_entries": 39655,
+  "summary_and_decomposition_checks": 1344,
+  "max_log_reconstruction_error": 5.329070518200751e-15,
+  "same_source_not_replication": true,
+  "methods": "R summaries compared with Python math.fsum reconstructed from integer counts and complete cell denominators; decomposition sum checked against independently pooled entries."
+}
