@@ -9,7 +9,7 @@ unfavorable result retained. The [extension plans and execution](EXTENSION_EXECU
 now record completed source screens and a Gorby three-target description;
 the two numerical interactions remain held. No accepted RQ is created.
 
-**Execution follow-through:** [IL-10 completed results and holds](../../../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
+**Execution follow-through:** [IL-10 completed results and holds](../../../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md)
 and [IL-22 Osmr results](../../../Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
 now own the numerical status. The planning record below remains historical.
 

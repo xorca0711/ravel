@@ -33,3 +33,5 @@ jobs:
           fi
       - name: Exercise contract rejection and execution behavior
         run: python -m unittest discover -s analysis/tests -p test_research_governance.py -q
+      - name: Exercise exact archive relocation and replay refusal
+        run: python -m unittest discover -s analysis/tests -p test_path_migrations.py -q

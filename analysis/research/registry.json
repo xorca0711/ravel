@@ -1051,15 +1051,15 @@
       "id": "Sx10-P01",
       "plan": "Research Article/gate3_07_saxton_2021_il10/README.md",
       "evidence": [
-        "Research Article/ungated_saxton_2021_il10/SOURCE_EVIDENCE.md",
-        "Research Article/ungated_saxton_2021_il10/LITERATURE_CONTEXT.md",
-        "Research Article/ungated_saxton_2021_il10/SOURCE_QUALIFICATION.md",
-        "Research Article/ungated_saxton_2021_il10/RESULTS.md",
-        "Research Article/ungated_saxton_2021_il10/FIGURES.md",
-        "Research Article/ungated_saxton_2021_il10/COMPLETION_LEDGER.md",
-        "Research Article/ungated_saxton_2021_il10/VALIDATION.md",
-        "Research Article/ungated_saxton_2021_il10/extensions_20261108/PLAN.md",
-        "Research Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md"
+        "Research Article/gate3_07_saxton_2021_il10/SOURCE_EVIDENCE.md",
+        "Research Article/gate3_07_saxton_2021_il10/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_07_saxton_2021_il10/SOURCE_QUALIFICATION.md",
+        "Research Article/gate3_07_saxton_2021_il10/RESULTS.md",
+        "Research Article/gate3_07_saxton_2021_il10/FIGURES.md",
+        "Research Article/gate3_07_saxton_2021_il10/COMPLETION_LEDGER.md",
+        "Research Article/gate3_07_saxton_2021_il10/VALIDATION.md",
+        "Research Article/gate3_07_saxton_2021_il10/extensions_20261108/PLAN.md",
+        "Research Article/gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md"
       ]
     },
     {
@@ -1502,7 +1502,10 @@
     "analysis/lib/research_layout.py",
     "analysis/scripts/restore_published_outputs.py",
     "analysis/tests/test_published_output_restore.py",
-    "analysis/research/published_outputs/choi_figure1_v1.json"
+    "analysis/research/published_outputs/choi_figure1_v1.json",
+    "analysis/lib/path_migrations.py",
+    "analysis/tests/test_path_migrations.py",
+    "analysis/research/path_migrations.json"
   ],
   "question_guides": [
     {

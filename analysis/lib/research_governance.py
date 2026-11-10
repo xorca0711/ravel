@@ -16,6 +16,9 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
+from .path_migrations import (MANIFEST as MIGRATION_MANIFEST, entries as migration_entries,
+                              migration_errors, resolve_historical)
+
 SCIENTIFIC_ROOTS = ('analysis/', 'Research Article/', 'RQ_Specified/')
 # Keep the historical repository identity for hash-bound illustrations.
 REPOSITORY_SOURCE_PREFIXES = (
@@ -63,7 +66,13 @@ def within(root: Path, relative: str, *, exists=True) -> Path:
     if not target.is_relative_to(root.resolve()):
         raise ResearchError(f'Path escapes root: {relative}')
     if exists and not target.is_file():
-        raise ResearchError(f'Missing file: {relative}')
+        try:
+            migrated = resolve_historical(root, relative)
+        except (ValueError, OSError) as exc:
+            raise ResearchError(str(exc)) from exc
+        if migrated is None:
+            raise ResearchError(f'Missing file: {relative}')
+        return migrated
     return target
 
 
@@ -196,6 +205,12 @@ def execute(root: Path, contract_path: str, run_id: str) -> Path:
     errors = contract_errors(root, c, check_inputs=True)
     if errors:
         raise ResearchError('\n'.join(errors))
+    # Migration preserves historical verification, not executable path semantics.
+    migrated = {p for item in migration_entries(root) for p in (item['from'], item['to'])}
+    execution_paths = {contract_path, c.get('entrypoint')} | {
+        a['path'] for a in c.get('code', []) + c.get('inputs', [])}
+    if execution_paths & migrated:
+        raise ResearchError('Migrated archive cannot be replayed; create a new versioned contract and code')
     if contract_path not in read_json(root/'analysis/research/registry.json')['contracts']:
         raise ResearchError('Execution requires a registered contract')
     if c.get('status') != 'frozen':
@@ -491,7 +506,8 @@ def question_raster_errors(root: Path, index: dict, illustrations: set[str]) -> 
 
 
 def check_registry(root: Path, *, base: str | None = None) -> list[str]:
-    errors=[]
+    relocation_errors = migration_errors(root, base)
+    errors=list(relocation_errors)
     index=read_json(root/'analysis/research/registry.json')
     guide_errors, illustrations = question_guide_errors(root, index)
     errors.extend(guide_errors)
@@ -553,6 +569,9 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         paths=git(root,'diff','--name-only','--diff-filter=ACDMRTUXB',base,'--').decode().splitlines()
         paths+=git(root,'ls-files','--others','--exclude-standard').decode().splitlines()
         approved=set(index['infrastructure_paths'])|set(index['contracts'])|set(index['receipts'])|bound_code|bound_outputs|illustrations
+        # Only exact byte-preserving moves of already approved assets qualify.
+        if not relocation_errors:
+            approved.update(item['to'] for item in migration_entries(root) if item['from'] in approved)
         for path in set(paths):
             if path.startswith(SCIENTIFIC_ROOTS) and Path(path).suffix.lower() in ASSET_SUFFIXES and path not in approved:
                 errors.append(f'Unregistered scientific asset change: {path}')
@@ -568,6 +587,12 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         except subprocess.CalledProcessError:
             previous=None
         if previous is not None:
+            # Push bases may already contain the relocation, unlike the PR base.
+            # Use only that revision's retained, validated map for its Git blobs.
+            base_migrations = {}
+            if not relocation_errors and git(root, 'ls-tree', '--name-only', base, '--', MIGRATION_MANIFEST).strip():
+                base_map = json.loads(git(root, 'show', f'{base}:{MIGRATION_MANIFEST}'))
+                base_migrations = {item['from']: item for item in base_map['files']}
             for preview in previous.get('question_raster_provenance', []):
                 try:
                     if sha256(within(root, preview['image'])) != preview['image_sha256']:
@@ -591,7 +616,11 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
                     if path not in index[kind]:
                         errors.append(f'Registered {kind} cannot be removed: {path}')
                     try:
-                        saved=git(root,'show',f'{base}:{path}')
+                        migration = base_migrations.get(path)
+                        saved_path = migration['to'] if migration else path
+                        saved=git(root,'show',f'{base}:{saved_path}')
+                        if migration and hashlib.sha256(saved).hexdigest() != migration['sha256']:
+                            raise ResearchError(f'Prior migrated file hash mismatch: {saved_path}')
                         frozen=kind=='receipts' or json.loads(saved).get('status')=='frozen'
                         if frozen and saved.replace(b'\r\n',b'\n') != within(root,path).read_bytes().replace(b'\r\n',b'\n'):
                             errors.append(f'Frozen {kind} changed: {path}; create a versioned amendment')

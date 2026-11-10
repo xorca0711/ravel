@@ -194,9 +194,9 @@ Saxton IL-10 is roadmap paper **7 / Gate 3A**. Its current entry is
 [`gate3_07_saxton_2021_il10/`](../../Research%20Article/gate3_07_saxton_2021_il10/README.md),
 with [current results](../../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md)
 and [figure gallery](../../Research%20Article/gate3_07_saxton_2021_il10/FIGURES.md)
-under that same Gate 3A home (navigation completed 9 November).
-`ungated_saxton_2021_il10/` retains frozen analysis
-evidence and historical references; it is not the current classification or entry
-folder. Sx10-P01, all A0-A35 and every other article-local candidate retain their
+under that same Gate 3A home. The complete frozen evidence package was physically
+moved there on 10 November; the old `ungated_saxton_2021_il10/` folder is retired.
+The [migration record](../migrations/2026-11-10-saxton-gate3a/README.md) documents
+byte preservation and historical-path verification. Sx10-P01, all A0-A35 and every other article-local candidate retain their
 identities. These entry corrections do not move evidence, duplicate analyses,
 change reading order or authorize a scientific gate transition.

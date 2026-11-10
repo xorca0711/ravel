@@ -1,6 +1,52 @@
 # Current project state
 
-## Navarro publication and Saxton navigation — 9 November 2026
+## Saxton physical migration and identity checks — 10 November 2026
+
+PR #174 is merged; this work starts from refreshed main `14449c0` on
+`codex/saxton-path-identity-20261110`. The owner requested physical folder
+migration and account/commit-identity checks, followed by a commit and PR.
+All 39 legacy Saxton IL-10 files now reside under the existing
+[Gate 3A home](Research%20Article/gate3_07_saxton_2021_il10/README.md), with exact
+Git bytes retained. [Migration record](docs/migrations/2026-11-10-saxton-gate3a/README.md)
+and [file map](analysis/research/path_migrations.json) explain archived references,
+strict validation and the prohibition on replaying migrated contracts.
+Current links, registry evidence and roadmap text use the canonical folder.
+Navarro remains ungated; no biological analysis or claim status changed.
+
+Repository AGENTS now requires verified `xorca0711` service identity, effective
+Xorca author and committer attribution, and an audit of every new agent-authored
+commit including remote/cloud bundles. Existing merged history is preserved.
+The CLI login and effective Git identities were verified before this work.
+The full suite passes (173 tests, two existing skips), including six synthetic
+migration tests. Base-aware research provenance, repository links/data,
+compilation, claim contract and Nb1/Nb4/A16/A23/A22–A23 archive checks pass against
+refreshed main `14449c0`. Initial checks caught a malformed-contract guard
+regression, a stale link, Windows checkout/fixture line endings and receipt-bound
+root attributes; all are resolved. Root attributes remain unchanged; new rules
+are package-local. Twenty-one checkout-only differences were restored from
+unchanged Git blobs, and 15 published outputs copied from a hash-verified cache.
+No new external input is required. Commit `2a18539` is pushed and
+[PR #175](https://github.com/xorca0711/ravel/pull/175) is open against main.
+GitHub maps both author and committer of that commit to `xorca0711`; the PR was
+also created by `xorca0711`. Live PR checks own the remote validation status.
+The owner then identified a failed push-triggered governance check on `2558f3f`:
+PR checks passed, but a push base after migration still looked up nine frozen
+contracts at their retired paths. The first delivery incorrectly treated only
+the PR-triggered runs as the complete check state. The follow-up resolves Git
+blobs through the base revision's retained migration map, verifies its exact
+hash before assessing frozen status, and adds before/after-base and tampered-base
+regressions. Validation must cover both push and PR events at the final commit;
+it must not filter the status audit to pull-request runs alone.
+The follow-up full suite passes: 175 tests, two existing skips, including eight
+migration tests. Research-gate checks also pass against both main `14449c0` and
+the post-migration push base `2558f3f`. Frozen artifacts, contracts, receipts and
+numerical results remain unchanged by this correction.
+Next step is explicit owner review of the validator/governance extension before merge.
+External account and branch protection settings remain unchanged.
+
+## Historical checkpoint: Navarro publication and Saxton navigation — 9 November 2026
+
+This checkpoint predates the merge of PR #174 and the physical migration above.
 
 Published `codex/navarro-aging-fit-20261108` and opened
 [PR #174](https://github.com/xorca0711/ravel/pull/174) against `main`.
@@ -442,7 +488,7 @@ preservation paths remain untouched.
 
 [Technical handoff and validation](docs/research_reviews/2026-11-08-saxton-reading/EXECUTION_HANDOFF.md)
 links the completed [IL-22 Osmr result](Research%20Article/gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md)
-and [IL-10 RNA result](Research%20Article/ungated_saxton_2021_il10/RESULTS.md).
+and [IL-10 RNA result](Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md).
 Osmr is lower under B3 than WT across bounded checks; B3-PBS is small and sensitive.
 The IL-10 fixed-panel description supports weaker 10-DE and mixed super-10 effects;
 CCL1 remains omission-sensitive. These are exposed finite-library RNA results,

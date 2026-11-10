@@ -6,8 +6,8 @@ acceptance, structure redesign or laboratory result is claimed.
 
 | Direction | Established plan | Executed work and disposition |
 |---|---|---|
-| IL-10 output transport | [Route 1 and source amendment](../../../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/PLAN.md) | Workbook qualification failed a common-matrix requirement; narrower table qualification and fixed three-target description completed. [Results and figure](../../../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/RESULTS.md). |
-| IL-10 ligand × IL-18 | [Route 2](../../../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/PLAN.md#route-2-does-ligand-choice-alter-the-il-18-response-increment) | Two public candidates screened; no qualified matched human CD8 variant × IL-18 source. Interaction held. |
+| IL-10 output transport | [Route 1 and source amendment](../../../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/PLAN.md) | Workbook qualification failed a common-matrix requirement; narrower table qualification and fixed three-target description completed. [Results and figure](../../../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md). |
+| IL-10 ligand × IL-18 | [Route 2](../../../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/PLAN.md#route-2-does-ligand-choice-alter-the-il-18-response-increment) | Two public candidates screened; no qualified matched human CD8 variant × IL-18 source. Interaction held. |
 | IL-22 B3 × IFNα priming | [Plan](../../../Research%20Article/gate3_08_saxton_2021_il22/priming_extension_20261108/PLAN.md) | Sixteen GSE records retained, with related records distinguished. No qualified epithelial factorial source. [Screen result and missing evidence](../../../Research%20Article/gate3_08_saxton_2021_il22/priming_extension_20261108/RESULTS.md). |
 
 ## Biological implication
@@ -32,7 +32,7 @@ acute B3/Osmr evidence remains unchanged.
 Plans/initial source contracts were frozen at `b886c7c`. The first workbook
 qualification was retained as ineligible. A Windows line-ending issue between
 working bytes and committed JSON bytes was documented and repaired with scoped
-exact-byte attributes, not with a relaxed validator. [Correction](../../../Research%20Article/ungated_saxton_2021_il10/extensions_20261108/FREEZE_CORRECTION.md).
+exact-byte attributes, not with a relaxed validator. [Correction](../../../Research%20Article/gate3_07_saxton_2021_il10/extensions_20261108/FREEZE_CORRECTION.md).
 Final checking found that the root attribute file is itself a historical Choi
 dependency. Its exact original bytes were restored and equivalent rules moved
 into the two new Saxton folders; the correction record retains this failed check.

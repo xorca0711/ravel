@@ -41,7 +41,7 @@ The earlier recent-primary scan and its full-text access gaps remain applicable.
 
 ## Repository observation
 
-The [IL-10 result](../../../Research%20Article/ungated_saxton_2021_il10/RESULTS.md)
+The [IL-10 result](../../../Research%20Article/gate3_07_saxton_2021_il10/RESULTS.md)
 reports super-10 above WT for IFNG/IL18RAP and below WT for GZMB/IL22/SOCS3
 through all prespecified scale/omission cases. 10-DE is broadly closer to PBS;
 CCL1's super-10 contrast is unstable. These were exposed, published targets.
