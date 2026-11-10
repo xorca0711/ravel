@@ -25,8 +25,11 @@ regression, a stale link, Windows checkout/fixture line endings and receipt-boun
 root attributes; all are resolved. Root attributes remain unchanged; new rules
 are package-local. Twenty-one checkout-only differences were restored from
 unchanged Git blobs, and 15 published outputs copied from a hash-verified cache.
-No new external input is required. Delivery targets a PR to main; next step is
-explicit owner review of the validator/governance extension before merge.
+No new external input is required. Commit `2a18539` is pushed and
+[PR #175](https://github.com/xorca0711/ravel/pull/175) is open against main.
+GitHub maps both author and committer of that commit to `xorca0711`; the PR was
+also created by `xorca0711`. Live PR checks own the remote validation status.
+Next step is explicit owner review of the validator/governance extension before merge.
 External account and branch protection settings remain unchanged.
 
 ## Historical checkpoint: Navarro publication and Saxton navigation — 9 November 2026
