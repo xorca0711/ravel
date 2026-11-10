@@ -1,5 +1,24 @@
 # Current project state
 
+## Ravel integration into existing PR #176 - 10 November 2026
+
+The owner requested adding the completed Ravel session-assistance work to
+[PR #176](https://github.com/xorca0711/ravel/pull/176), retaining its Navarro
+source follow-up, residual diagnostics and donor-paired human context. The
+integration preserves PR head `a7073a1` and local-main merge `eb096c1` as parents.
+Only this progress log conflicted; both checkpoint histories are retained below.
+The original portfolio and Navarro worktrees remain untouched. Direct main
+publication was rejected by branch protection; no protection or trust settings
+were changed. This integration updates the existing PR branch, not remote main.
+
+The [PR integration validation record](tools/codex/evals/pr176_integration_2026-11-10.json)
+records preservation and checks against both the PR push base and main base.
+The combined tree passes 175 analysis tests (two existing skips), 25 hook
+tests and 18,923 repository checks, plus integrity and both base comparisons.
+No biological analysis, receipt, frozen contract, scientific claim or decision
+is changed. Live CI for the final PR head owns remote verification status;
+merging the PR into main still requires owner authorization.
+
 ## Navarro remaining-work follow-up and organization — 10 November 2026
 
 Current integration base is main `6b7f9a0` after PR #175 merged. The owner
@@ -35,6 +54,31 @@ records scope and preservation. Delivery uses
 live CI status, covering both push and pull-request events. Next is owner review
 before merge. Further scientific comparisons require the explicit source
 corrections or new designs in the follow-up report.
+
+## Local-main integration of Ravel session assistance - 10 November 2026
+
+At the owner's request, the Ravel hook work and its Peng/A12 framing-repair
+ancestor are integrated into local main from refreshed remote main `6b7f9a0`,
+in `X:/GitHub/ravel/.worktrees/ravel-main-integration-20261110`. Main's newer
+Navarro/Saxton work is retained: no upstream paths were removed, and all 148
+Navarro paths retain their exact Git blobs. The only merge conflict was this
+progress log; both checkpoint histories remain below. The original portfolio
+checkout and its private uncommitted changes remain untouched. Nothing was pushed.
+
+[Integration evidence](tools/codex/evals/merge_2026-11-10.json) records all required
+checks, including successful integrity and provenance checks against current main.
+The analysis suite passes 175 tests with 2 skips, and all 25 hook tests pass.
+The [live main-checkout smoke test](tools/codex/evals/merge_live_2026-11-10.json)
+confirms exactly two trusted hooks, preparation-context delivery and Stop completion.
+Live disk resume remains unverified.
+
+Initial gate failures were checkout line endings: 21 files were restored from
+unchanged Git blobs and A12's specification through its existing CRLF rule, all
+matching recorded receipt hashes. Fifteen absent published outputs were copied
+only after verifying the unchanged lock. No biological run, contract, validator,
+attribute rule, claim grade or trust setting changed. Earlier missing-Navarro
+findings below describe the old branch before integration; the new passing gates
+do not erase that history. Remote publication remains a separate action.
 
 ## Saxton physical migration and identity checks — 10 November 2026
 
@@ -139,6 +183,114 @@ crosswalk only if obtained; WT50/Mut50 contrasts and population inference remain
 held. No further cloud setting or optional acquisition is needed for this run.
 No scientific acceptance, push, publication, author contact, environment-policy
 change or mounted Weft modification occurred.
+
+## Historical checkpoint: Ravel hooks before main integration - 10 November 2026
+
+The owner approved both hooks and then explicitly approved the separate
+single-source configuration cleanup. The branch now uses `.codex/hooks.json`
+without inline duplicates. Its non-overwriting installer returned
+`already-installed`; root declarations, trust and main's preexisting PROGRESS edit
+were preserved. All 25 focused tests passed.
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md#approved-consolidation-and-live-validation-9-10-november-2026)
+links actual host events for startup, compaction/reinjection, and a one-review Stop
+continuation in a disposable worktree. Post-cleanup discovery still reports exactly
+two trusted hooks, and a fresh read-only session received the preparation context
+and completed Stop. Repository validation passed 18,555 checks; the analysis suite
+passed 167 tests with 2 skips, and the checkout integrity gate passed. The
+[validation log](tools/codex/evals/validation_2026-11-10.json) preserves a failed
+comparison with current main: 144 findings concern newer Navarro assets absent
+from this older branch. Reconcile those commits before integration; this hook
+cleanup did not remove research files or weaken the gate.
+
+Live disk resume remains unverified because the test sessions were ephemeral.
+The earlier interrupted gate result is not claimed as a pass. Remote main was
+refreshed to `14449c0`; this local branch has not been rebased or merged onto it.
+No biological analysis, scientific acceptance, policy weakening, push or merge.
+
+
+## Ravel hook discovery repaired; trust pending - 8 November 2026
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md#live-discovery-repair-8-november-2026)
+records the diagnosed worktree/root-checkout mismatch. Codex reads linked-worktree
+hook definitions from the main checkout; branch-local declarations alone were
+ignored. A non-overwriting installer creates only missing root declarations, and
+the launcher safely does nothing in checkouts without the implementation.
+
+The [live Desktop host response](tools/codex/evals/discovery_2026-11-08.json) now
+lists both hooks without warnings/errors. Both remain untrusted, and actual
+startup/resume/compaction/Stop execution is not verified. All 23 focused tests
+passed. No biological analysis, scientific gate, trust store or permission
+setting changed. Main's preexisting PROGRESS edit remains untouched.
+
+A later configuration cleanup was denied before execution pending explicit
+approval for the persistent setup. Do not retry it or grant hook trust without
+that approval. Next: finish single-source cleanup, normal hook review, then real
+lifecycle validation. No push, merge or activation claim.
+
+
+## Remote main CI retry passed — 8 November 2026
+
+The failing Repository checks badge on main 471d0c2 came from HTTP 504 while
+downloading the hash-locked Choi archive; subsequent checks were skipped.
+After verifying the GitHub identity as xorca0711, the failed job was retried once.
+[The same run](https://github.com/xorca0711/ravel/actions/runs/42465816677) then
+completed successfully (retry job 128723760203). No code, lock, scientific output
+or validation requirement changed. This does not integrate the local Peng repair
+or session-assistance commits. The root checkout's unrelated PROGRESS.md edit was
+preserved, and all 27 registered worktrees had no unresolved Git index entries.
+
+## Ravel session assistance implemented; activation unresolved — 8 November 2026
+
+The [session guide](docs/governance/CODEX_SESSION_ASSISTANCE.md) documents the new
+project reasoning skill, startup/resume/compaction context and bounded synthesis
+reminder. The implementation reuses current scientific governance; no biological
+analysis, claim promotion or frozen-evidence change follows. CI includes the new
+hook tests, and hook/skill paths have explicit code ownership.
+
+All 16 deterministic lifecycle tests and the skill-format validator passed.
+The [approved hypothetical trial](tools/codex/evals/REVIEW_2026-11-08.md) addressed
+all eight cases adequately on implementing-agent review. It also found no live
+startup preparation block. The local API returned no discovered hooks with either
+documented configuration representation; the cause remains unresolved. Normal
+hook trust and Desktop startup/resume/compaction delivery are not verified.
+
+Final repository validation passed 18,542 checks; the base-aware provenance gate
+also passed. A final fetch confirmed origin/main remains 471d0c2. Fifteen absent
+published outputs were restored only after
+matching their recorded hashes, with no numerical rerun or validator changes.
+
+Computer Use was stopped by the user with Escape. No further UI action was taken
+and Mir was not messaged. Next: diagnose live host hook discovery, use normal trust
+review, and observe startup plus resume/compaction delivery. The scoped branch is
+codex/ravel-session-reasoning-20261108, based on the Peng repair at 481c67c; main
+and other worktrees do not acquire these files until integration. No push or merge.
+
+## Peng biological framing repaired — 8 November 2026
+
+The [focused repair record](docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
+now records applied fixes against main `471d0c2`. Peng's current entrypoint and
+plan start from epithelial populations, pathological location and inflammatory
+surroundings, then distinguish abundance, arrangement and within-state questions.
+A12's README/context/dossier integrate the new RNA distributions into the existing
+predictive argument; completion banners no longer lead the question. A meaningful
+composition result is not counted as proof of A12's beyond-mixture increment.
+
+All measured results, unfavorable findings, registered hypotheses and illustrations
+are preserved. The numerical portion of the public result report and A12 tables
+match their pre-edit text. No new scientific run, global RQ or claim grade follows.
+The existing AGENTS.md requirements were applied; governance and validators are
+unchanged. The previous review's checkout hash failure is retained in the repair
+record; exact-byte restoration and 15 hash-verified archived outputs resolved the
+checkout-only failures. All 12 focused preservation checks, 18,531 repository
+checks and the base-aware research provenance gate passed. A final fetch verified
+that origin/main remains `471d0c2`; no biological analysis was rerun.
+
+Next scientific work remains a qualified comparison locating which states and
+regions carry the pattern, with the exact missing author exports retained as
+holds. Independent prediction, functional reception and later output have separate
+requirements. Zenodo access remains user-reported requested, pending/unverified.
+The owner authorized a local commit of this repair; no push or merge is requested.
 
 ## Peng biological review and PR synthesis — 8 November 2026
 

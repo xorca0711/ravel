@@ -1,0 +1,269 @@
+{
+  "status": "validated_for_pr_branch_update",
+  "pr": 176,
+  "pr_head_before": "a7073a10b5d1e4dfb8523338d0a20f2b01d8531c",
+  "main_base": "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6",
+  "ravel_merge": "eb096c17ad5e0b701cffbd0a1952e61a96c1dbd6",
+  "preservation": {
+    "pr_paths": 52,
+    "all_pr_paths_except_progress_exact": true,
+    "navarro_paths": 57,
+    "all_navarro_blobs_exact": true,
+    "removed_paths": [],
+    "modified_existing_paths": [
+      ".github/CODEOWNERS",
+      ".github/workflows/repository-checks.yml",
+      "AGENTS.md",
+      "PROGRESS.md",
+      "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+      "RQ_Specified/A12_recipient_context/README.md",
+      "Research Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md",
+      "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+      "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
+      "Research Article/ungated_peng_2026_spatial_omics/README.md",
+      "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
+      "docs/research_dossiers/A12.md"
+    ],
+    "locked_outputs_verified": 16,
+    "missing_outputs_copied": 15,
+    "receipt_bound_checkout_hashes_verified": 22,
+    "navarro_and_nn26_run_paths": 189,
+    "all_navarro_and_nn26_run_blobs_exact": true
+  },
+  "checks": [
+    {
+      "name": "compile_python",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "seconds": 10.61,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "analysis_tests",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 23.51,
+      "result": "passed",
+      "tail": "----------------------------------------------------------------------\nRan 175 tests in 22.768s\n\nOK (skipped=2)\n"
+    },
+    {
+      "name": "hook_tests",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/codex",
+        "-p",
+        "test_*.py",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 16.05,
+      "result": "passed",
+      "tail": "----------------------------------------------------------------------\nRan 25 tests in 15.761s\n\nOK\n"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.41,
+      "result": "passed",
+      "tail": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "name": "nb1_evidence",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.88,
+      "result": "passed",
+      "tail": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested.\n"
+    },
+    {
+      "name": "nb4_archive",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/scripts/verify_archive.py"
+      ],
+      "exit_code": 0,
+      "seconds": 5.14,
+      "result": "passed",
+      "tail": "Package passed: JSON, output hashes, original code/config, 348 coverage rows, discrepancy retention, 12 workbook schemas, Table 7 dimensions and local links.\nNb4 archive passed: 20 run records, 164 output hashes, archived code, configuration hashes and local documentation links.\n"
+    },
+    {
+      "name": "a16_stage1",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.24,
+      "result": "passed",
+      "tail": "{\n  \"scope\": \"Archived provenance and table consistency; no raw-data rerun or biological validation.\",\n  \"checks\": 1867,\n  \"failures\": [],\n  \"summary\": {\n    \"C3_entries\": 9,\n    \"C3_below_40_controls\": 7,\n    \"C3_above_all_sampled_controls\": 4,\n    \"C1_positive_k10\": 8,\n    \"C5_primary_thinning_rows_below_floor\": 4\n  },\n  \"unverified\": [\n    \"Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.\",\n    \"Recorded inputs and numerical computations were not independently replayed by this table verifier.\",\n    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"\n  ]\n}\n"
+    },
+    {
+      "name": "a23_external",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/08_verify_external_current.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.84,
+      "result": "passed",
+      "tail": "A23 verification PASS: historical gallery snapshot, source/output hashes, selection counts, barcode coverage, marker/assay arithmetic\n"
+    },
+    {
+      "name": "a22_a23_extensions",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/verify_a22_a23_extensions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.62,
+      "result": "passed",
+      "tail": "Extension verification PASS: receipts, fixed folds, no target leakage, error arithmetic, selection recovery and coverage gates (tracked inputs only)\n"
+    },
+    {
+      "name": "validate_repository",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "seconds": 34.27,
+      "result": "passed",
+      "tail": "Repository validation passed: 18923 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    },
+    {
+      "name": "research_gate",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 55.59,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "research_gate_main_base",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6"
+      ],
+      "exit_code": 0,
+      "seconds": 47.36,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "research_gate_pr_push_base",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "a7073a10b5d1e4dfb8523338d0a20f2b01d8531c"
+      ],
+      "exit_code": 0,
+      "seconds": 47.28,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "diff_check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 2,
+      "seconds": 0.08,
+      "result": "failed",
+      "tail": "tegration_2026-11-10.json:188: trailing whitespace.\n+    {\ntools/codex/evals/pr176_integration_2026-11-10.json:189: trailing whitespace.\n+      \"name\": \"research_gate_pr_push_base\",\ntools/codex/evals/pr176_integration_2026-11-10.json:190: trailing whitespace.\n+      \"command\": [\ntools/codex/evals/pr176_integration_2026-11-10.json:191: trailing whitespace.\n+        \"C:\\\\Users\\\\dream\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-arm64\\\\python.exe\",\ntools/codex/evals/pr176_integration_2026-11-10.json:192: trailing whitespace.\n+        \"analysis/scripts/research_gate.py\",\ntools/codex/evals/pr176_integration_2026-11-10.json:193: trailing whitespace.\n+        \"check\",\ntools/codex/evals/pr176_integration_2026-11-10.json:194: trailing whitespace.\n+        \"--base\",\ntools/codex/evals/pr176_integration_2026-11-10.json:195: trailing whitespace.\n+        \"a7073a10b5d1e4dfb8523338d0a20f2b01d8531c\"\ntools/codex/evals/pr176_integration_2026-11-10.json:196: trailing whitespace.\n+      ],\ntools/codex/evals/pr176_integration_2026-11-10.json:197: trailing whitespace.\n+      \"exit_code\": 0,\ntools/codex/evals/pr176_integration_2026-11-10.json:198: trailing whitespace.\n+      \"seconds\": 47.28,\ntools/codex/evals/pr176_integration_2026-11-10.json:199: trailing whitespace.\n+      \"result\": \"passed\",\ntools/codex/evals/pr176_integration_2026-11-10.json:200: trailing whitespace.\n+      \"tail\": \"{\\n  \\\"ok\\\": true,\\n  \\\"errors\\\": []\\n}\\n\"\ntools/codex/evals/pr176_integration_2026-11-10.json:201: trailing whitespace.\n+    }\ntools/codex/evals/pr176_integration_2026-11-10.json:202: trailing whitespace.\n+  ],\n"
+    },
+    {
+      "name": "staged_diff_check",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "seconds": 0.08,
+      "result": "failed",
+      "tail": "_peng_2026_spatial_omics/PLAN.md\",\ntools/codex/evals/pr176_integration_2026-11-10.json:22: trailing whitespace.\n+      \"Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md\",\ntools/codex/evals/pr176_integration_2026-11-10.json:23: trailing whitespace.\n+      \"Research Article/ungated_peng_2026_spatial_omics/README.md\",\ntools/codex/evals/pr176_integration_2026-11-10.json:24: trailing whitespace.\n+      \"Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md\",\ntools/codex/evals/pr176_integration_2026-11-10.json:25: trailing whitespace.\n+      \"docs/research_dossiers/A12.md\"\ntools/codex/evals/pr176_integration_2026-11-10.json:26: trailing whitespace.\n+    ],\ntools/codex/evals/pr176_integration_2026-11-10.json:27: trailing whitespace.\n+    \"locked_outputs_verified\": 16,\ntools/codex/evals/pr176_integration_2026-11-10.json:28: trailing whitespace.\n+    \"missing_outputs_copied\": 15,\ntools/codex/evals/pr176_integration_2026-11-10.json:29: trailing whitespace.\n+    \"receipt_bound_checkout_hashes_verified\": 22\ntools/codex/evals/pr176_integration_2026-11-10.json:30: trailing whitespace.\n+  },\ntools/codex/evals/pr176_integration_2026-11-10.json:31: trailing whitespace.\n+  \"checks\": [],\ntools/codex/evals/pr176_integration_2026-11-10.json:32: trailing whitespace.\n+  \"logs\": \"C:\\\\Users\\\\dream\\\\AppData\\\\Local\\\\Temp\\\\ravel-pr176-validation-5r23xgqq\",\ntools/codex/evals/pr176_integration_2026-11-10.json:33: trailing whitespace.\n+  \"started_at_utc\": \"2026-11-10T02:23:13.341231+00:00\"\ntools/codex/evals/pr176_integration_2026-11-10.json:34: trailing whitespace.\n+}\n"
+    },
+    {
+      "name": "diff_check_recheck",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "staged_diff_check_recheck",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "validate_repository_final",
+      "command": [
+        "python",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.73,
+      "result": "passed",
+      "tail": "Repository validation passed: 18923 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    }
+  ],
+  "logs": "C:\\Users\\dream\\AppData\\Local\\Temp\\ravel-pr176-validation-5r23xgqq",
+  "started_at_utc": "2026-11-10T02:23:13.341231+00:00",
+  "report_format_fix": "The generated integration report initially used Windows CRLF bytes, which failed whitespace checks. Only this new report was rewritten with LF; historical scientific files and attributes were unchanged."
+}

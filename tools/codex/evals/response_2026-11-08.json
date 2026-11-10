@@ -1,0 +1,52 @@
+{
+  "startup_context_observed": {
+    "research_preparation_block": false,
+    "direct_context": "Ravel AGENTS.md instructions and a skill listing were supplied directly, but no distinct Ravel research preparation block was observed.",
+    "files_opened": [
+      ".agents/skills/ravel-research-reasoning/SKILL.md",
+      "tools/codex/evals/cases.json"
+    ]
+  },
+  "cases": [
+    {
+      "id": "partial_access",
+      "next_justified_action": "Check public matrix semantics and patient/library mappings, then scope eligible RNA or population comparisons using patients as biological units and the existing contract workflow; hold only comparisons requiring restricted ROI polygons.",
+      "interpretation_limit": "These inputs may support qualified transcriptomic or population descriptions, but cannot establish polygon-dependent spatial relationships or functional output."
+    },
+    {
+      "id": "population_and_increment",
+      "next_justified_action": "Retain abundance tracking as relevant to the paper's population question, and separately determine whether existing evidence answers A12's predictive increment question or an eligible comparison accounting for mixture is needed.",
+      "interpretation_limit": "Population association does not establish within-state change, measured inflammatory surroundings, or predictive information beyond mixture; abundance tracking alone also does not prove that increment is absent."
+    },
+    {
+      "id": "adequate_effect_question",
+      "next_justified_action": "Report the randomized mutant-versus-control effect on the stated organism-level phenotype with uncertainty and relevant validity limits; rescue and pathway time-course experiments are not prerequisites for that aim.",
+      "interpretation_limit": "The estimate concerns the tested contrast and conditions, without establishing a particular molecular mechanism or rescue specificity."
+    },
+    {
+      "id": "synthesis_after_result",
+      "next_justified_action": "Revise the current README, context and dossier to reflect the weakened within-state explanation and plausible population-context explanation, preserve historical evidence, explain the next informative decision, and update PROGRESS.md with required checks.",
+      "interpretation_limit": "Successful execution does not establish biological resolution or human scientific acceptance, and a plausible population-context explanation remains unproven."
+    },
+    {
+      "id": "shared_source",
+      "next_justified_action": "Describe the agreement as convergent analyses of shared GEO samples, explicitly recording sample overlap and what additional spatial information the new analysis contributes.",
+      "interpretation_limit": "This is shared-source corroboration, not independent biological replication, and shared biases remain possible."
+    },
+    {
+      "id": "prior_exposure",
+      "next_justified_action": "Record outcome exposure and signature selection, retain the frozen same-data rerun as exploratory, and reserve confirmation for a prospectively specified comparison using genuinely unexposed evidence.",
+      "interpretation_limit": "Freezing after selection does not erase exposure or make same-data performance an unbiased confirmatory result."
+    },
+    {
+      "id": "negative_result",
+      "next_justified_action": "Summarize the mixed epithelial and unfavorable fibroblast results with their uncertainty and implications, preserving both comparisons and existing question IDs without starting another signature search.",
+      "interpretation_limit": "Neither result supports a favorable claim, but neither automatically establishes absence of every relevant biological effect."
+    },
+    {
+      "id": "maintenance",
+      "next_justified_action": "Make the scoped import-path fix, run its targeted test and applicable repository checks, and record completion without biological analyses or a portfolio literature refresh.",
+      "interpretation_limit": "This validates software behavior only and adds no scientific evidence or revised biological interpretation."
+    }
+  ]
+}

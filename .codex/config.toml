@@ -1,0 +1,4 @@
+# Project-local assistance. Hook declarations have one source: hooks.json.
+# Does not change model, permissions or trust.
+[features]
+hooks = true

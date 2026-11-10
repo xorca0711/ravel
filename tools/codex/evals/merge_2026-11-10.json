@@ -1,0 +1,400 @@
+{
+  "status": "validated_for_local_main_merge",
+  "base_main": "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6",
+  "feature_commit": "32460513124c6167770beab53c57bdf7b3c25e5a",
+  "worktree": "X:\\GitHub\\ravel\\.worktrees\\ravel-main-integration-20261110",
+  "preservation": {
+    "upstream_paths": 8576,
+    "removed_upstream_paths": [],
+    "unchanged_upstream_blobs": 8564,
+    "modified_upstream_paths": [
+      ".github/CODEOWNERS",
+      ".github/workflows/repository-checks.yml",
+      "AGENTS.md",
+      "PROGRESS.md",
+      "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+      "RQ_Specified/A12_recipient_context/README.md",
+      "Research Article/ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md",
+      "Research Article/ungated_peng_2026_spatial_omics/PLAN.md",
+      "Research Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md",
+      "Research Article/ungated_peng_2026_spatial_omics/README.md",
+      "Research Article/ungated_peng_2026_spatial_omics/RQ_CONNECTIONS.md",
+      "docs/research_dossiers/A12.md"
+    ],
+    "navarro_paths_unchanged": 148,
+    "published_output_members_verified": 16,
+    "missing_cached_outputs_restored": 15,
+    "original_root_untouched": true
+  },
+  "identity": {
+    "github_login": "xorca0711",
+    "effective_author_and_committer": "Xorca",
+    "email_mapping_verified_via_commit": "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6"
+  },
+  "checks": [
+    {
+      "name": "compile_python",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "seconds": 14.19,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "analysis_tests",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 24.84,
+      "result": "passed",
+      "tail": "----------------------------------------------------------------------\nRan 175 tests in 23.903s\n\nOK (skipped=2)\n"
+    },
+    {
+      "name": "hook_tests",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/codex",
+        "-p",
+        "test_*.py",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 16.25,
+      "result": "passed",
+      "tail": "----------------------------------------------------------------------\nRan 25 tests in 15.938s\n\nOK\n"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.67,
+      "result": "passed",
+      "tail": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "name": "nb1_evidence",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.3,
+      "result": "passed",
+      "tail": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested.\n"
+    },
+    {
+      "name": "nb4_archive",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/scripts/verify_archive.py"
+      ],
+      "exit_code": 0,
+      "seconds": 5.91,
+      "result": "passed",
+      "tail": "Package passed: JSON, output hashes, original code/config, 348 coverage rows, discrepancy retention, 12 workbook schemas, Table 7 dimensions and local links.\nNb4 archive passed: 20 run records, 164 output hashes, archived code, configuration hashes and local documentation links.\n"
+    },
+    {
+      "name": "a16_stage1",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.27,
+      "result": "passed",
+      "tail": "{\n  \"scope\": \"Archived provenance and table consistency; no raw-data rerun or biological validation.\",\n  \"checks\": 1867,\n  \"failures\": [],\n  \"summary\": {\n    \"C3_entries\": 9,\n    \"C3_below_40_controls\": 7,\n    \"C3_above_all_sampled_controls\": 4,\n    \"C1_positive_k10\": 8,\n    \"C5_primary_thinning_rows_below_floor\": 4\n  },\n  \"unverified\": [\n    \"Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.\",\n    \"Recorded inputs and numerical computations were not independently replayed by this table verifier.\",\n    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"\n  ]\n}\n"
+    },
+    {
+      "name": "a23_external",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/08_verify_external_current.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.91,
+      "result": "passed",
+      "tail": "A23 verification PASS: historical gallery snapshot, source/output hashes, selection counts, barcode coverage, marker/assay arithmetic\n"
+    },
+    {
+      "name": "a22_a23_extensions",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/verify_a22_a23_extensions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.56,
+      "result": "passed",
+      "tail": "Extension verification PASS: receipts, fixed folds, no target leakage, error arithmetic, selection recovery and coverage gates (tracked inputs only)\n"
+    },
+    {
+      "name": "validate_repository",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "seconds": 39.0,
+      "result": "passed",
+      "tail": "Repository validation passed: 18803 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    },
+    {
+      "name": "research_gate",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check"
+      ],
+      "exit_code": 1,
+      "seconds": 62.33,
+      "result": "failed",
+      "tail": ".json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.S3.regulatory_context_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v2.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py\",\n    \"analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a5_source_v1.py\",\n    \"analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a17_recoverability_v1.py\",\n    \"analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a25_models_v1.py\",\n    \"analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a30_join_v1.py\",\n    \"analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/render_results_v1.py\",\n    \"analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/render_results_v1.py\",\n    \"analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a12_source_v1.py\",\n    \"analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json: Receipt hash mismatch: Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md\",\n    \"analysis/research/runs/A12_il1_components_v1_20261103/receipt.json: Receipt hash mismatch: docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json\",\n    \"analysis/research/runs/dupage_s0_qualification_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py\",\n    \"analysis/research/runs/dupage_s1_reconstruction_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s1_reconstruct_v1.py\",\n    \"analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py\",\n    \"analysis/research/runs/dupage_s3_regulatory_context_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py\",\n    \"analysis/research/runs/dupage_target_screen_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py\",\n    \"analysis/research/runs/dupage_target_screen_v2/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py\",\n    \"analysis/research/runs/dupage_target_figures_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py\"\n  ]\n}\n"
+    },
+    {
+      "name": "research_gate_main_base",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6"
+      ],
+      "exit_code": 1,
+      "seconds": 48.69,
+      "result": "failed",
+      "tail": ".json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.S3.regulatory_context_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_screen_v2.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py\",\n    \"Research Article/gate3_09_dupage_2015/contracts/Dp1.target_figures_v1.json: Hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py\",\n    \"analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a5_source_v1.py\",\n    \"analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a17_recoverability_v1.py\",\n    \"analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a25_models_v1.py\",\n    \"analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a30_join_v1.py\",\n    \"analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/render_results_v1.py\",\n    \"analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/render_results_v1.py\",\n    \"analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json: Recorded contract changed\",\n    \"analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json: Receipt hash mismatch: analysis/cut_fill_20261103/a12_source_v1.py\",\n    \"analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json: Receipt hash mismatch: Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md\",\n    \"analysis/research/runs/A12_il1_components_v1_20261103/receipt.json: Receipt hash mismatch: docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json\",\n    \"analysis/research/runs/dupage_s0_qualification_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py\",\n    \"analysis/research/runs/dupage_s1_reconstruction_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s1_reconstruct_v1.py\",\n    \"analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py\",\n    \"analysis/research/runs/dupage_s3_regulatory_context_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py\",\n    \"analysis/research/runs/dupage_target_screen_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py\",\n    \"analysis/research/runs/dupage_target_screen_v2/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py\",\n    \"analysis/research/runs/dupage_target_figures_v1/receipt.json: Receipt hash mismatch: Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py\"\n  ]\n}\n"
+    },
+    {
+      "name": "diff_check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "staged_diff_check",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.09,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "research_gate_recheck",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 24.56,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "research_gate_main_base_recheck",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "6b7f9a0eecfdf7e46efb0305e0efcd4b9b2b9ad6"
+      ],
+      "exit_code": 0,
+      "seconds": 50.44,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "validate_repository_final",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "seconds": 5.22,
+      "result": "passed",
+      "tail": "Repository validation passed: 18805 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    }
+  ],
+  "logs": "C:\\Users\\dream\\AppData\\Local\\Temp\\ravel-main-merge-validation-g1jz13oe",
+  "started_at_utc": "2026-11-10T01:53:07.931796+00:00",
+  "checkout_byte_restoration": {
+    "reason": "Receipt-verified Windows line-ending restoration only. 21 unchanged Git blobs and one existing eol=crlf checkout rule. No source logic, contract, validator or attributes changed.",
+    "backup": "C:\\Users\\dream\\AppData\\Local\\Temp\\ravel-main-checkout-bytes-gcgeb4vk",
+    "count": 22,
+    "files": [
+      {
+        "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+        "method": "unchanged Git blob",
+        "before_sha256": "2e66d665fff1230639ab7020c6de2aa3d1bc611c47c54f85327af3a075355c3f",
+        "receipt_verified_sha256": "6747f5a74e2d9ad61ab2efb87fcd068d1229392e78030ae1a6a693e06dd41a53"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/s0_qualify_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "bb084d07afe126d2bf05f6e8362ca6f187508f5a1bb5e911228e6dea1001f196",
+        "receipt_verified_sha256": "65b903e0d3c28ee7f5469edc508b70abfbc6fcd2bb14b10d0c9e7c88f484a09b"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/s1_reconstruct_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "aefe1a83548c92034718b26e85ed1c566e219189fa9ce57ae3171ba865950c3d",
+        "receipt_verified_sha256": "830cd78114beb854d68c32ee85d6d94c2a5c72e76832e552b915b54810900f76"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/s2_state_contrast_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "4ea94c13b8255b904575a8f5024d643abbf837f60e4c591894c5d3a858c5079e",
+        "receipt_verified_sha256": "e47ecb6a27b64ff16b3c4e5cb35fd121740ebdba39f3bb02687f1ce2bcefa31d"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/s3_regulatory_context_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "c8b43b1a51ffa6f3db643d9550168a7257bd90d6e412022b76df6dc9a05b4332",
+        "receipt_verified_sha256": "0e6992098058c0e323027a6b666e7ca485e5a3743e8ba098caae633ed2c4d7a4"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/target_figures_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "4e3c48ec15e01dabd3b3ce369bd4796ae938c1735f17304877abe37f0127d1bf",
+        "receipt_verified_sha256": "66083095698d81068d9cb3a8c4d871e99b99a78db17e53be3f3d2975abce75f3"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "e37e85c63371a58bdd54b5c2de1ea889830b4a8c838d8967dabd73ebc20dbd69",
+        "receipt_verified_sha256": "45c08472086b3b7f7faa727239a09045c473336cf2970ad6e95d82e5f7ba71d9"
+      },
+      {
+        "path": "Research Article/gate3_09_dupage_2015/scripts/target_screen_v2.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "9e8a55cad36a98418d073c2ece4b422ab572e2c78e0e2d43481534463f592228",
+        "receipt_verified_sha256": "4691d08594fb6d7e41f72f321e0e014464f35e39a103cc3dd7724dbac50bf956"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a12_source_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "892120a732f7bb3bb3ac8f9353796136da617b777dadea65de0071d50f9edae3",
+        "receipt_verified_sha256": "1721e0031ad598599a40c3f4c8c373f2e45f7242c28636b2a06b3b5dcfc3ee82"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a12_source_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "44c293187bd7494238a65b47ac17fd6a8074788f4d9502167a0fa4913b6177b9",
+        "receipt_verified_sha256": "aed690523bfec1526c065fe3a836a4b58594720fbffcc10d3e422b9c67af94af"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a17_figure_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "fbe1f703f193d9e1dfecad897bfc73b3f0b743d6a29952307073474c7d28454d",
+        "receipt_verified_sha256": "8421ff39636826a8313720666d47b4a77756170c6a5653646676022f7fa3d10d"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a17_recoverability_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "2c2df70ffa72333892242ead23c3b57d1707850a596192f9e35b35ae42824460",
+        "receipt_verified_sha256": "f4ee48e3efa93a5e8a09e6b180c661c097ea5ee9022c1c7ebee4b168c9c956b9"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a17_recoverability_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "67f844efe6f6944f8a8f6d1b116119017c23a5130489066f8d452b2f34085803",
+        "receipt_verified_sha256": "f9f4a10270609f89b5ad33f64ecbde8f35a0cadde588b99a7efba86c672b2bf6"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a25_figure_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "748d54670c47fe5af64e48d80d1b0b53195b8a2cb144cbfca24b9d48962f6b2d",
+        "receipt_verified_sha256": "7e59247545df4f7e85bf6a7cc2b016b5b19e0e4e4b0ab0eb6cfff93b920686d6"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a25_models_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "3a3bf855639591f1accfd3f3e5f4f45999e628db9a71807411ebad9464c9772f",
+        "receipt_verified_sha256": "697026c3c131124f4dc495e57539d54aeb68678c3021a1683b87151cb474f939"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a25_models_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "707aa26e8e37ee6329878eeed384733cebb9262d23395e4ec70221119653c49c",
+        "receipt_verified_sha256": "7beac527ac3f6e3d643fc6213acc5c31d3037726851ac780ad7e258862f81d04"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a30_join_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "cc90c05d1a16f2ea7763633414af801160ad1cbaa629095746c1d8b5b9a7b2b1",
+        "receipt_verified_sha256": "dae6bb9f2a32756bd719d344bcd0e21ecdc1c07ab0f9dcf95ed4ae2b8e0e8171"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a30_join_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "b4a6e13df3e200bf7e2b8aa4b58b69dfbc1698114a57c2968b5792e45b4a1bc3",
+        "receipt_verified_sha256": "cbf232d10243f50f07f325733bbebc4624af70a58da902236d77dbc130d5290f"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a5_source_v1.json",
+        "method": "unchanged Git blob",
+        "before_sha256": "01f5e670f915a2fa722724c6128ffdc1e2aef344ab929794dfaa497f8f528db5",
+        "receipt_verified_sha256": "5857bacd6b27ef31deddf521cafde7927f4763a8d35a2d386484ecfa7588ad7d"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/a5_source_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "42f0f708f7beaffacb47d7222c713d5982d4b5357b6401800aaeb86d3cfaf229",
+        "receipt_verified_sha256": "f5c436bc8c75685f36e8c108d212ac309cba5a894d5bc181a062a517c351ac0d"
+      },
+      {
+        "path": "analysis/cut_fill_20261103/render_results_v1.py",
+        "method": "unchanged Git blob",
+        "before_sha256": "1ab80ae1fa73b1c30bb37ca52e8521720a831b7a74b0f6d48b2c0f3fd6e90f37",
+        "receipt_verified_sha256": "569bad619fd28e6950b62ae5eeefb4a40f8293b2ced70b06fa4df771f35e43a9"
+      },
+      {
+        "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+        "method": "existing eol=crlf checkout rule",
+        "before_sha256": "51b7f12b61f12146e07c3b9621aa9beb8710f4ddbfe23fbd97499d5070a65739",
+        "receipt_verified_sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f"
+      }
+    ]
+  },
+  "live_smoke": {
+    "status": "passed",
+    "evidence": "tools/codex/evals/merge_live_2026-11-10.json",
+    "live_resume": "unverified"
+  }
+}

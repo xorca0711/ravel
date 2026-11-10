@@ -1,5 +1,19 @@
 # Peng 2026: pathology, epithelial states and inflammatory neighborhoods
 
+## Organizing biological question
+
+How do alveolar epithelial states, their pathological locations and local
+inflammatory neighborhoods relate across the sampled lung lesion contexts?
+Peng's contribution to Ravel is to connect these levels: which populations are
+present, how they are arranged, and whether comparable epithelial states differ
+with their surroundings. These explanations can coexist. Cross-sectional
+association does not establish progression, direction of influence or later fate.
+
+A12 owns the narrower question of recipient information beyond its specified
+ligand/mixture comparison. A composition-associated pattern can be informative
+about tissue biology without establishing that A12 increment. A1/A8/A14 retain
+the distinct questions about state, mature output and withdrawal.
+
 **Ungated source paper, designated by the owner on 8 November 2026.** This means
 outside the ordered reading roadmap; scientific source and execution checks still
 apply. Article-local **Pg1-P01** owns source/annotation qualification and bounded
@@ -13,13 +27,27 @@ proinflammatory niches in progression of lung precursor lesions*. Published onli
 supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
 provides searchable methods and links to additional spreadsheet tables.
 
-**Current public-data work:** [Candidate-cell results and spatial execution](PUBLIC_DATA_RESULTS.md)
-add narrowly scoped description from existing public matrices. Both branches are complete: A12 retains exact old-count parity, and all 56
-Visium sections have independently verified lattice measurements. The small
-co-detection/spatial associations depend on depth and candidate/composition
-choices; no functional IL-1 reception is established. [Figure gallery](PUBLIC_DATA_FIGURES.md) stores measured plots and spatial maps. Biological rationale remains in prose,
-following the owner’s presentation direction. These do not replace author pathology/state reproduction.
-The owner reports Zenodo access requested; approval is pending and unverified.
+## What the completed work changes
+
+The earlier A12 pilot supported an exploratory epithelial predictive branch and
+an unfavorable fibroblast comparison. In the same twelve patients, the new cell
+description separates more frequent IL1RAP detection from lower intensity among
+positive nuclei. IL1R1 direction changes with candidate selection, and joint
+detection attenuates with depth standardization. This restricts a uniform
+receptor-upregulation interpretation; it does not establish which cell population
+or receptor process produces the original predictive gain.
+
+The Visium branch adds adjacent-spot RNA organization to C3's whole-section
+summaries. The patient-paired LUAD–AAH IL1B–CLDN4 contrast is heterogeneous and
+smaller with broad RNA-composition covariates. That makes the biological carriers
+of the pattern the next question: population abundance, arrangement, within-state
+variation, or some combination. Adjustment may remove relevant tissue biology;
+it is not a test that distinguishes biological signal from technical noise.
+
+[Exact results and denominators](PUBLIC_DATA_RESULTS.md) and the
+[measured figure gallery](PUBLIC_DATA_FIGURES.md) retain all patients, sensitivities
+and unfavorable outcomes. These are exposed, shared-source descriptions; neither
+algebraically explains the earlier prediction gain or establishes IL-1 reception.
 
 **Coordinating review:** [Biological synthesis and job status](BIOLOGICAL_REVIEW.md)
 compares the completed work with C3, Choi, Cardoso, Han, Hill and Jaiswal, and
@@ -27,10 +55,29 @@ separates access-dependent follow-ups from new functional measurements. The
 LUAD-higher Visium RNA association is a different endpoint from Peng's early-lesion
 cell neighborhoods; it is not a reproduction of that directional result.
 
-[Supplied Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the
-[185-record GEO audit](RESULTS.md) remain preserved. Author barcode/state labels,
-ROI geometry, exact section/core maps and full measured panels remain missing
-for the original within-state spatial extension and TMA transport.
+## Next biological decision
+
+First locate which qualified states and pathological regions carry the pattern.
+An abundance difference would describe changing populations; a difference in
+arrangement among comparable populations would support a spatial-context branch;
+variation within comparable epithelial states would motivate A12's narrower
+recipient-context comparison. None alone establishes a causal niche effect.
+These are distinct questions, not compulsory stages of one mechanistic cascade.
+
+Author labels, geometry and exact section/core joins are needed for the planned
+pathology-resolved comparisons. [The plan](PLAN.md) retains those input-dependent
+holds. TMA transport additionally needs a compatible full panel and patient/core
+structure; later fate needs linked measurements. Source access does not replace
+the biological comparison or supply those functional outcomes.
+
+## Evidence and execution status
+
+Both authorized public branches are complete: 75 cell libraries qualified with
+the original 12-patient A12 comparison retained; all 56 Visium sections described.
+[Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the [185-record GEO audit](RESULTS.md)
+remain preserved. The owner reports Zenodo access requested; approval is pending
+and unverified. The [framing repair](../../docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
+integrates these findings without changing frozen comparisons or claim grades.
 
 | Read next | Purpose |
 |---|---|
@@ -44,6 +91,9 @@ for the original within-state spatial extension and TMA transport.
 | [Paper and reading-note assessment](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md) | Figure-level reasoning, note corrections, actual literature search |
 
 ## Question and contribution
+
+This section specifies the **source-qualification subtask** under the organizing
+biological question above; it is not a replacement for the article's purpose.
 
 Can author-defined pathology, epithelial state and measured spatial context be
 joined at a defensible sample level, sufficiently to distinguish a within-state

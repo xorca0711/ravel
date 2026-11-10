@@ -1,15 +1,35 @@
 # Stepwise plan: Pg1-P01 and existing-question extensions
 
-## Authorized public-data branches — prospective amendment, 8 November
+## Biological purpose and decision
 
-The owner reports Zenodo access requested, approval pending. Continue accessible
-public data now: **A**, existing A12 cell-level candidate configuration, then **B**,
-Pg1-P01/C3 lattice-based Visium RNA organization. See [fixed cell specification](PUBLIC_CELLS_SPEC_V1.md)
+The paper-level purpose is to relate epithelial populations, pathological
+location and inflammatory neighborhoods across sampled lesion contexts. The
+completed public branches add RNA distributions and adjacent-spot organization;
+they have not assigned these patterns to author states or pathological regions.
+The next biological decision is what carries the association:
+
+| Possible explanation | Informative comparison after relevant source qualification | Consequence |
+|---|---|---|
+| Changing population abundance | Patient-level state/pathology composition, retaining abundance as an endpoint | Describes a population-context contribution; does not establish A12's beyond-mixture increment. |
+| Different arrangement among comparable populations | Qualified cell/region neighborhoods with population abundance and density distinguished | Motivates a spatial-organization interpretation without proving signaling or direction of influence. |
+| Different RNA within comparable epithelial states | A12's stated endpoint within qualified state/pathology strata | Could support a narrower recipient-context association; absence/attenuation restricts that reading, not all niche biology. |
+
+These explanations can coexist. The table clarifies the rationale of original
+stages 3–5; it does not authorize an additional analysis or alter their frozen
+predecessors. TMA transport, independent prediction and later functional output
+answer different questions. [Current synthesis](README.md) owns interpretation;
+the source-qualification subtask and its required inputs are specified below.
+
+## Completed public-data branches — 8 November amendment and execution record
+
+The owner reports Zenodo access requested, approval pending. Both authorized
+public branches are complete: **A**, A12 cell-level candidate RNA distributions,
+and **B**, Pg1-P01/C3 lattice-based Visium RNA organization. See [fixed cell specification](PUBLIC_CELLS_SPEC_V1.md)
 and [targeted literature/context](PUBLIC_DATA_CONTEXT.md). These new exposed
 descriptions use existing public counts; they do not relax author-dependent stages
 3–6 or replace pathology with expression scores. The historical statement that
 tables alone do not enable expression work remains true. Branch A has executed with 7,677 independent checks and exact old-count parity.
-Branch B now has its [fixed lattice specification](PUBLIC_SPATIAL_SPEC_V1.md)
+Branch B used its [fixed lattice specification](PUBLIC_SPATIAL_SPEC_V1.md)
 and registered input-bound contract. V1 stopped on feature-symbol identity before
 expression; [v2](PUBLIC_SPATIAL_SPEC_V2.md) restores the original C3 symbol-level
 QC representation without changing targets, thresholds or the spatial estimand.
@@ -40,6 +60,9 @@ original within-state A12 spatial calculation. The two authorized public-data
 branches above have narrower, distinct endpoints.
 
 ## Purpose, comparison and limits
+
+The following defines the **source-recovery subtask**, whose metadata endpoint
+supports rather than replaces the biological purpose above.
 
 Pg1-P01 asks whether author sample, pathology and ROI definitions can be recovered
 and joined sufficiently for faithful spatial reproduction. The comparison is
