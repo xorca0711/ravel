@@ -1,0 +1,199 @@
+{
+  "status": "integration_blocked",
+  "time_utc": "2026-11-10T01:16:32.510225+00:00",
+  "head": "3b8ede124b9393e62928f09b4f7034de26c11865",
+  "refreshed_origin_main": "14449c0deb3bfcc3ed43bf7f3066cad726d2a7a3",
+  "merge_base": "471d0c2f8b3b5fef287aea5173325436901fceac",
+  "logs": "C:\\Users\\dream\\AppData\\Local\\Temp\\ravel-hook-validation-9ifdskw3",
+  "focused_hook_tests": {
+    "result": "passed",
+    "tests": 25,
+    "seconds": 22.508,
+    "note": "Executed after final code edits, before documentation-only updates; not repeated."
+  },
+  "checks": [
+    {
+      "name": "compile_python",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "seconds": 1.62,
+      "result": "passed",
+      "tail": ""
+    },
+    {
+      "name": "analysis_tests",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 16.5,
+      "result": "passed",
+      "tail": "----------------------------------------------------------------------\nRan 167 tests in 15.281s\n\nOK (skipped=2)\n"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.52,
+      "result": "passed",
+      "tail": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "name": "nb1_evidence",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.92,
+      "result": "passed",
+      "tail": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested.\n"
+    },
+    {
+      "name": "nb4_archive",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/scripts/verify_archive.py"
+      ],
+      "exit_code": 0,
+      "seconds": 6.36,
+      "result": "passed",
+      "tail": "Package passed: JSON, output hashes, original code/config, 348 coverage rows, discrepancy retention, 12 workbook schemas, Table 7 dimensions and local links.\nNb4 archive passed: 20 run records, 164 output hashes, archived code, configuration hashes and local documentation links.\n"
+    },
+    {
+      "name": "a16_stage1",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.26,
+      "result": "passed",
+      "tail": "{\n  \"scope\": \"Archived provenance and table consistency; no raw-data rerun or biological validation.\",\n  \"checks\": 1867,\n  \"failures\": [],\n  \"summary\": {\n    \"C3_entries\": 9,\n    \"C3_below_40_controls\": 7,\n    \"C3_above_all_sampled_controls\": 4,\n    \"C1_positive_k10\": 8,\n    \"C5_primary_thinning_rows_below_floor\": 4\n  },\n  \"unverified\": [\n    \"Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.\",\n    \"Recorded inputs and numerical computations were not independently replayed by this table verifier.\",\n    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"\n  ]\n}\n"
+    },
+    {
+      "name": "a23_external",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/08_verify_external_current.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.89,
+      "result": "passed",
+      "tail": "A23 verification PASS: historical gallery snapshot, source/output hashes, selection counts, barcode coverage, marker/assay arithmetic\n"
+    },
+    {
+      "name": "a22_a23_extensions",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/verify_a22_a23_extensions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.78,
+      "result": "passed",
+      "tail": "Extension verification PASS: receipts, fixed folds, no target leakage, error arithmetic, selection recovery and coverage gates (tracked inputs only)\n"
+    },
+    {
+      "name": "validate_repository",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "seconds": 37.95,
+      "result": "passed",
+      "tail": "Repository validation passed: 18555 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    },
+    {
+      "name": "research_gate",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 86.34,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "research_gate_current_main",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "14449c0deb3bfcc3ed43bf7f3066cad726d2a7a3"
+      ],
+      "exit_code": 1,
+      "seconds": 76.09,
+      "result": "failed",
+      "tail": "1.json\",\n    \"Registered contracts cannot be removed: Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json\",\n    \"Cannot verify prior contracts: Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json: Missing file: Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_source_qualification_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_source_qualification_v1/receipt.json: Missing file: analysis/research/runs/nn26_source_qualification_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_animal_reproduction_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_animal_reproduction_v1/receipt.json: Missing file: analysis/research/runs/nn26_animal_reproduction_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json: Missing file: analysis/research/runs/nn26_tie_diagnostic_v2/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_rds_metadata_v2/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_rds_metadata_v2/receipt.json: Missing file: analysis/research/runs/nn26_rds_metadata_v2/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_rds_metadata_review_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_rds_metadata_review_v1/receipt.json: Missing file: analysis/research/runs/nn26_rds_metadata_review_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_failure_preservation_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_failure_preservation_v1/receipt.json: Missing file: analysis/research/runs/nn26_failure_preservation_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_qualification_review_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_qualification_review_v1/receipt.json: Missing file: analysis/research/runs/nn26_qualification_review_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json: Missing file: analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json\",\n    \"Registered receipts cannot be removed: analysis/research/runs/nn26_completion_archive_v1/receipt.json\",\n    \"Cannot verify prior receipts: analysis/research/runs/nn26_completion_archive_v1/receipt.json: Missing file: analysis/research/runs/nn26_completion_archive_v1/receipt.json\"\n  ]\n}\n"
+    },
+    {
+      "name": "diff_check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.11,
+      "result": "passed",
+      "tail": "warning: in the working copy of '.codex/config.toml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'PROGRESS.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/governance/CODEX_SESSION_ASSISTANCE.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'tools/codex/test_research_session.py', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    {
+      "name": "research_gate_branch_base",
+      "command": [
+        "C:\\Users\\dream\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "471d0c2f8b3b5fef287aea5173325436901fceac"
+      ],
+      "exit_code": 0,
+      "seconds": 72.41,
+      "result": "passed",
+      "tail": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    }
+  ],
+  "integration_note": "Current-main comparison remains failed: this older branch lacks newer Navarro contracts and receipts added after its merge base. No research files were removed by the hook cleanup. The branch-base result does not override the current-main failure.",
+  "final_ref_check": {
+    "origin_main": "14449c0deb3bfcc3ed43bf7f3066cad726d2a7a3",
+    "unchanged_since_gate": true
+  },
+  "root_preservation": {
+    "unchanged": true,
+    "sha256": {
+      ".codex/config.toml": "3e6c38d82b8854b0696bc746a7be31423e38cd06c433876c64301c4ead87978f",
+      ".codex/hooks.json": "cdb83ec9a7bd87f7a6b084d6dfa852900838aa1ab29131abf8199a35a6a8048e",
+      "PROGRESS.md": "d2d8964ce2e8fc7dc561b1c69c804bf53e0085d9d9217a4453993b2dafd810ac"
+    }
+  },
+  "final_documentation_validation": {
+    "result": "passed",
+    "checks": 18555,
+    "diff_check": "passed"
+  },
+  "completed_at_utc": "2026-11-10T01:23:26.532595+00:00"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ravel Research Reasoning"
+  short_description: "Connect biological questions, evidence and decisions"
+  default_prompt: "Use $ravel-research-reasoning to connect the current Ravel evidence to the next justified research decision."
+policy:
+  allow_implicit_invocation: true

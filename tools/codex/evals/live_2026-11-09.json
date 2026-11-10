@@ -1,0 +1,365 @@
+{
+  "time_utc": "2026-11-09T00:58:35.894185+00:00",
+  "host": "0.167.0-alpha.3.2",
+  "thread_id": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+  "ephemeral": true,
+  "cwd": "X:\\GitHub\\ravel\\.worktrees\\ravel-session-reasoning-20261108",
+  "discovery": {
+    "id": 2,
+    "result": {
+      "data": [
+        {
+          "cwd": "X:\\GitHub\\ravel\\.worktrees\\ravel-session-reasoning-20261108",
+          "hooks": [
+            {
+              "key": "X:\\GitHub\\ravel\\.codex\\hooks.json:session_start:0:0",
+              "eventName": "sessionStart",
+              "handlerType": "command",
+              "command": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+              "async": false,
+              "matcher": "^(startup|resume|clear|compact|fork)$",
+              "timeoutSec": 20,
+              "statusMessage": "Loading Ravel research context",
+              "additionalContextLimit": 6500,
+              "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+              "source": "project",
+              "pluginId": null,
+              "environmentId": null,
+              "displayOrder": 0,
+              "enabled": true,
+              "isManaged": false,
+              "currentHash": "sha256:0804b0e41f144352cceb694cbde57017ab8b90422e507e2d350654c759cf34b8",
+              "trustStatus": "trusted"
+            },
+            {
+              "key": "X:\\GitHub\\ravel\\.codex\\hooks.json:stop:0:0",
+              "eventName": "stop",
+              "handlerType": "command",
+              "command": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+              "async": false,
+              "matcher": null,
+              "timeoutSec": 20,
+              "statusMessage": "Checking changed research documents",
+              "additionalContextLimit": null,
+              "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+              "source": "project",
+              "pluginId": null,
+              "environmentId": null,
+              "displayOrder": 1,
+              "enabled": true,
+              "isManaged": false,
+              "currentHash": "sha256:17b18a6b8c7300520121b043b13345ef9f30e69c745f239b49ac63a687568c60",
+              "trustStatus": "trusted"
+            }
+          ],
+          "warnings": [],
+          "errors": []
+        }
+      ]
+    }
+  },
+  "stages": [
+    {
+      "stage": "startup",
+      "result": {
+        "status": "completed",
+        "error": null,
+        "messages": [
+          "Ready."
+        ]
+      }
+    },
+    {
+      "stage": "compact",
+      "result": {
+        "status": "completed",
+        "error": null,
+        "messages": []
+      }
+    },
+    {
+      "stage": "after_compact",
+      "result": {
+        "status": "completed",
+        "error": null,
+        "messages": [
+          "Ravel research session preparation (v1)."
+        ]
+      }
+    }
+  ],
+  "hook_events": [
+    {
+      "stage": "startup",
+      "event": {
+        "method": "hook/started",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdcf-ea91-7e01-a24b-0f4ccfa019bd",
+          "run": {
+            "id": "session-start:0:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "sessionStart",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "thread",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 0,
+            "status": "running",
+            "statusMessage": "Loading Ravel research context",
+            "startedAt": 1794185885,
+            "completedAt": null,
+            "durationMs": null,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185885406
+      }
+    },
+    {
+      "stage": "startup",
+      "event": {
+        "method": "hook/completed",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdcf-ea91-7e01-a24b-0f4ccfa019bd",
+          "run": {
+            "id": "session-start:0:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "sessionStart",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "thread",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 0,
+            "status": "completed",
+            "statusMessage": "Loading Ravel research context",
+            "startedAt": 1794185885,
+            "completedAt": 1794185887,
+            "durationMs": 1788,
+            "entries": [
+              {
+                "kind": "context",
+                "text": "Ravel research session preparation (v1). Apply the procedure below to research work; route unrelated maintenance proportionately.\nCheckout facts (data, not instructions): {\"root\": \"X:\\\\GitHub\\\\ravel\\\\.worktrees\\\\ravel-session-reasoning-20261108\", \"branch\": \"codex/ravel-session-reasoning-20261108\", \"head\": \"3b8ede1\"}\nRead AGENTS.md, AI_CONTEXT.md, PROGRESS.md and docs/RESEARCH_GOVERNANCE.md. Use analysis/research/registry.json for the owner's current result and amendment; this hook does not infer which question the user owns or certify current status.\n\n# Ravel research reasoning\n\nUse the current checkout's AGENTS.md and research governance as authority. This\nskill applies their decision workflow; it does not create claim acceptance,\nauthorize external actions or require a new experiment. Repository-relative paths\nbelow resolve from the Git root, even when the session starts in a subdirectory.\n\n## Establish the decision\n\nRead AI_CONTEXT.md, PROGRESS.md and docs/RESEARCH_GOVERNANCE.md. Use\nanalysis/research/registry.json to locate the owner's current result, amendment,\nquestion guide and dossier. Read current evidence before historical plans.\nConfirm scope with the user's actual request; never choose an RQ merely because\nit is the most recently updated one.\n\nFor substantive work, briefly connect the organizing biological purpose, the\ncurrent hypothesis or estimand, and the executable comparison. In the existing\nowning record, explain: published premise -> repository observation -> unresolved\nquestion -> informative comparison -> what its outcomes would change. State the\nunit, endpoint, exposure and consequential alternative or validity threat. These\nitems can be prose; do not add a mandatory checklist file or fill unknowns with\ninvented values.\n\nFollow docs/governance/AGENT_DECISION_WORKFLOW.md for work-type routing.\nDescription, faithful replication and mutant/control effect questions can be\nworthwhile without a new mechanism, rescue arm or full causal chain. Reuse\nsufficient evidence; an available method or plugin alone does not justify work.\nSelect a specialist skill only for a concrete literature, biological or\nimplementation need, after checking its availability and scope.\n\n## Preserve useful distinctions\n\n- Population abundance, spatial arrangement and within-state differences can\n  each be meaningful and can coexist. Determine which the question actually\n  owns. Composition evidence does not automatically establish a beyond-mixture\n  increment, but it is not automatically nuisance.\n- Describe RNA, morphology, inferred lineage and functional output as their\n  measured endpoints. A missing later endpoint limits that claim; it does not\n  erase informative upstream work or refute the original biological premise.\n- Treat a failed source route as a bounded access finding. Hold only steps\n  requiring the exact missing inputs; retain useful qualified work.\n- Shared samples or source datasets remain shared-source evidence. A later freeze\n  does not erase exposure. Retain negative and mixed results and existing RQ IDs.\n- Follow docs/governance/LITERATURE_WORKFLOW.md when materially developing a\n  question. Reuse valid prior reading and distinguish published findings from\n  repository observations and proposed explanations.\n\nNew numerical work uses the existing contract/preflight/runner. This skill\ndoes not loosen eligibility or change historical outputs. Metadata recovery and\nexploration retain their own permitted scope.\n\n## Interpret and deliver\n\nAfter a substantive step, state what narrowed, weakened, stayed mixed or remained\nunestimated, and why the next decision follows. If there is no informative next\nstep, say so. Revise the current README/context/dossier as appropriate, rather\nthan stacking completion notices ahead of the argument; retain historical and\nhash-bound records. Explain when a current interpretation remains valid.\n\nReview the changed reasoning for purpose drift, blanket source holds, discarded\npopulation explanations, RNA-to-function leaps and missing unfavorable results.\nExecution completion and biological resolution are separate. Use required\nrepository checks and update PROGRESS.md; a hook, validator or AI review supplies\nno human scientific acceptance."
+              }
+            ]
+          }
+        },
+        "emittedAtMs": 1794185887180
+      }
+    },
+    {
+      "stage": "startup",
+      "event": {
+        "method": "hook/started",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdcf-ea91-7e01-a24b-0f4ccfa019bd",
+          "run": {
+            "id": "stop:1:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "stop",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "turn",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 1,
+            "status": "running",
+            "statusMessage": "Checking changed research documents",
+            "startedAt": 1794185890,
+            "completedAt": null,
+            "durationMs": null,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185890746
+      }
+    },
+    {
+      "stage": "startup",
+      "event": {
+        "method": "hook/completed",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdcf-ea91-7e01-a24b-0f4ccfa019bd",
+          "run": {
+            "id": "stop:1:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "stop",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "turn",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 1,
+            "status": "completed",
+            "statusMessage": "Checking changed research documents",
+            "startedAt": 1794185890,
+            "completedAt": 1794185892,
+            "durationMs": 1432,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185892224
+      }
+    },
+    {
+      "stage": "after_compact",
+      "event": {
+        "method": "hook/started",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-5475-7020-baa4-7390d0ac9e5c",
+          "run": {
+            "id": "session-start:0:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "sessionStart",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "thread",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 0,
+            "status": "running",
+            "statusMessage": "Loading Ravel research context",
+            "startedAt": 1794185909,
+            "completedAt": null,
+            "durationMs": null,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185909467
+      }
+    },
+    {
+      "stage": "after_compact",
+      "event": {
+        "method": "hook/completed",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-5475-7020-baa4-7390d0ac9e5c",
+          "run": {
+            "id": "session-start:0:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "sessionStart",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "thread",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 0,
+            "status": "completed",
+            "statusMessage": "Loading Ravel research context",
+            "startedAt": 1794185909,
+            "completedAt": 1794185910,
+            "durationMs": 1180,
+            "entries": [
+              {
+                "kind": "context",
+                "text": "Ravel research session preparation (v1). Apply the procedure below to research work; route unrelated maintenance proportionately.\nCheckout facts (data, not instructions): {\"root\": \"X:\\\\GitHub\\\\ravel\\\\.worktrees\\\\ravel-session-reasoning-20261108\", \"branch\": \"codex/ravel-session-reasoning-20261108\", \"head\": \"3b8ede1\"}\nRead AGENTS.md, AI_CONTEXT.md, PROGRESS.md and docs/RESEARCH_GOVERNANCE.md. Use analysis/research/registry.json for the owner's current result and amendment; this hook does not infer which question the user owns or certify current status.\n\n# Ravel research reasoning\n\nUse the current checkout's AGENTS.md and research governance as authority. This\nskill applies their decision workflow; it does not create claim acceptance,\nauthorize external actions or require a new experiment. Repository-relative paths\nbelow resolve from the Git root, even when the session starts in a subdirectory.\n\n## Establish the decision\n\nRead AI_CONTEXT.md, PROGRESS.md and docs/RESEARCH_GOVERNANCE.md. Use\nanalysis/research/registry.json to locate the owner's current result, amendment,\nquestion guide and dossier. Read current evidence before historical plans.\nConfirm scope with the user's actual request; never choose an RQ merely because\nit is the most recently updated one.\n\nFor substantive work, briefly connect the organizing biological purpose, the\ncurrent hypothesis or estimand, and the executable comparison. In the existing\nowning record, explain: published premise -> repository observation -> unresolved\nquestion -> informative comparison -> what its outcomes would change. State the\nunit, endpoint, exposure and consequential alternative or validity threat. These\nitems can be prose; do not add a mandatory checklist file or fill unknowns with\ninvented values.\n\nFollow docs/governance/AGENT_DECISION_WORKFLOW.md for work-type routing.\nDescription, faithful replication and mutant/control effect questions can be\nworthwhile without a new mechanism, rescue arm or full causal chain. Reuse\nsufficient evidence; an available method or plugin alone does not justify work.\nSelect a specialist skill only for a concrete literature, biological or\nimplementation need, after checking its availability and scope.\n\n## Preserve useful distinctions\n\n- Population abundance, spatial arrangement and within-state differences can\n  each be meaningful and can coexist. Determine which the question actually\n  owns. Composition evidence does not automatically establish a beyond-mixture\n  increment, but it is not automatically nuisance.\n- Describe RNA, morphology, inferred lineage and functional output as their\n  measured endpoints. A missing later endpoint limits that claim; it does not\n  erase informative upstream work or refute the original biological premise.\n- Treat a failed source route as a bounded access finding. Hold only steps\n  requiring the exact missing inputs; retain useful qualified work.\n- Shared samples or source datasets remain shared-source evidence. A later freeze\n  does not erase exposure. Retain negative and mixed results and existing RQ IDs.\n- Follow docs/governance/LITERATURE_WORKFLOW.md when materially developing a\n  question. Reuse valid prior reading and distinguish published findings from\n  repository observations and proposed explanations.\n\nNew numerical work uses the existing contract/preflight/runner. This skill\ndoes not loosen eligibility or change historical outputs. Metadata recovery and\nexploration retain their own permitted scope.\n\n## Interpret and deliver\n\nAfter a substantive step, state what narrowed, weakened, stayed mixed or remained\nunestimated, and why the next decision follows. If there is no informative next\nstep, say so. Revise the current README/context/dossier as appropriate, rather\nthan stacking completion notices ahead of the argument; retain historical and\nhash-bound records. Explain when a current interpretation remains valid.\n\nReview the changed reasoning for purpose drift, blanket source holds, discarded\npopulation explanations, RNA-to-function leaps and missing unfavorable results.\nExecution completion and biological resolution are separate. Use required\nrepository checks and update PROGRESS.md; a hook, validator or AI review supplies\nno human scientific acceptance."
+              }
+            ]
+          }
+        },
+        "emittedAtMs": 1794185910638
+      }
+    },
+    {
+      "stage": "after_compact",
+      "event": {
+        "method": "hook/started",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-5475-7020-baa4-7390d0ac9e5c",
+          "run": {
+            "id": "stop:1:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "stop",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "turn",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 1,
+            "status": "running",
+            "statusMessage": "Checking changed research documents",
+            "startedAt": 1794185914,
+            "completedAt": null,
+            "durationMs": null,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185914469
+      }
+    },
+    {
+      "stage": "after_compact",
+      "event": {
+        "method": "hook/completed",
+        "params": {
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-5475-7020-baa4-7390d0ac9e5c",
+          "run": {
+            "id": "stop:1:X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "eventName": "stop",
+            "handlerType": "command",
+            "executionMode": "sync",
+            "scope": "turn",
+            "sourcePath": "X:\\GitHub\\ravel\\.codex\\hooks.json",
+            "source": "project",
+            "displayOrder": 1,
+            "status": "completed",
+            "statusMessage": "Checking changed research documents",
+            "startedAt": 1794185914,
+            "completedAt": 1794185915,
+            "durationMs": 1408,
+            "entries": []
+          }
+        },
+        "emittedAtMs": 1794185915889
+      }
+    }
+  ],
+  "compact_events": [
+    {
+      "stage": "compact",
+      "event": {
+        "method": "item/started",
+        "params": {
+          "item": {
+            "type": "contextCompaction",
+            "id": "01a1bdd0-124f-7f31-a74b-dde1402c5c7d",
+            "startedAtMs": 1794185892431,
+            "completedAtMs": null
+          },
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-118e-7b13-a6b5-919edf7a2a2d",
+          "startedAtMs": 1794185892431
+        },
+        "emittedAtMs": 1794185892433
+      }
+    },
+    {
+      "stage": "compact",
+      "event": {
+        "method": "item/completed",
+        "params": {
+          "item": {
+            "type": "contextCompaction",
+            "id": "01a1bdd0-124f-7f31-a74b-dde1402c5c7d",
+            "startedAtMs": 1794185892431,
+            "completedAtMs": 1794185909353
+          },
+          "threadId": "01a1bdcf-e79a-74b3-95bb-c615742b6845",
+          "turnId": "01a1bdd0-118e-7b13-a6b5-919edf7a2a2d",
+          "completedAtMs": 1794185909353
+        },
+        "emittedAtMs": 1794185909353
+      }
+    }
+  ],
+  "baseline_state": {
+    "head": "3b8ede124b9393e62928f09b4f7034de26c11865",
+    "dirty": {}
+  },
+  "unverified": [
+    "resume",
+    "changed-document Stop continuation"
+  ]
+}

@@ -1,18 +1,5 @@
 # A12: recipient context beyond ligand RNA
 
-**Public-cell result, 8 November:** The [fixed cell-level description](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md)
-qualifies 75 libraries and reproduces the original 12-patient AT2 counts exactly.
-IL1RAP detection increases on average while its positive-cell normalized intensity
-falls. The small co-detection increase attenuates after depth standardization, and
-IL1R1 detection changes direction in broader epithelial candidates. These results
-keep mixture/selection alternatives central; no intrinsic within-state regulation,
-receptor assembly or stronger signaling is established. [Context/search refresh](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md)
-and [measured figure gallery](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md).
-Original predictive results, including unfavorable fibroblast outcomes, and the
-registered hypothesis/illustration remain unchanged.
-
-**Source qualification, 8 November:** [Peng Tables S1–S6 are now qualified](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md). Patient/platform and aggregate TMA metadata, human/mouse signatures and two custom add-ons are explicit; source-linked checks identify feature overlap with the fixed A12 endpoint. Add-on absence is not full-assay absence. Author state/pathology exports, geometry, exact section/core maps and measured panels remain unqualified, so the within-state A12 extension is unestimated. The prior 185-record GEO result, P6 WES hold, A12 estimand, unfavorable fibroblast result and claim status are unchanged.
-
 <a id="organizing-biological-question"></a>
 
 ## Organizing Biological Q
@@ -30,7 +17,7 @@ inhibitory configuration, different epithelial populations, or broader inflammat
 Choosing a mechanistic axis and functional consequence remains separate from this
 exploratory predictive compartment narrowing.
 
-Current synthesis: 4 November 2026. [Question card](../../RESEARCH_QUESTIONS.md#a12)
+Current synthesis: 8 November 2026, integrating the public-cell follow-up. [Question card](../../RESEARCH_QUESTIONS.md#a12)
 · [Literature context](LITERATURE_CONTEXT.md) · [Dossier](../../docs/research_dossiers/A12.md).
 
 **Literature annotation, 8 November 2026:** Peng et al. (2026), Figs. 4D and
@@ -90,6 +77,28 @@ the right column belongs to A13 and is not additional A12 evidence. Lower error
 is better. The bottom panels reuse the same 12 held-out patients; overlapping
 training sets are not independent validation cohorts.
 
+### What the public-cell follow-up changes
+
+The [8 November cell description](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md) retains
+these original twelve patients and exact prior counts. IL1RAP detection rises
+by 2.45 percentage points while positive-nucleus intensity falls; IL1R1 detection
+is mixed and changes direction with candidate selection. IL1R1/IL1RAP joint
+detection rises by 1.01 points, attenuating to 0.16 under the depth sensitivity.
+This narrows a uniform receptor-upregulation account of the RNA pattern. It
+leaves unresolved whether different epithelial populations or expression within
+a population carry the pattern, and does not decompose the prior predictive gain.
+These are exposed descriptions, not a new predictive fit or independent validation.
+
+That distinction supplies a biological branch point: does the recipient-associated
+RNA occur in a changed population mixture or within comparable epithelial states?
+A population-associated result can inform the broader Peng tissue-context question;
+it would not establish A12's additional information beyond its specified mixture
+comparison. Concordant within-state RNA could motivate a receptor-context branch,
+while still leaving protein activity and IL-1 dependence unmeasured. The transferred
+labels cannot independently settle that comparison. [Measured figures](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_FIGURES.md)
+and the [source/context review](../../Research%20Article/ungated_peng_2026_spatial_omics/PUBLIC_DATA_CONTEXT.md) retain denominators,
+selection limits and the already completed literature search.
+
 ## Does the evidence warrant the narrowing?
 
 **Rationale verdict: supported exploratory predictive narrowing, with an
@@ -113,20 +122,28 @@ the gain is biological versus technical or sampling variation.
 
 ## What the result changes and the next decision
 
-The unfavorable fibroblast comparison is retained, so the next decision follows
-the epithelial gain: does an independently supported epithelial configuration
-carry predictive information beyond composition and general inflammation?
-Concordant evidence within a qualified epithelial context would strengthen that
-interpretation. Dependence on state mixture, ambiguous labels or general
-inflammation would narrow it to a contextual predictor. Neither outcome alone
-establishes IL-1-dependent function.
+The unfavorable fibroblast comparison remains. The epithelial gain and new RNA
+distributions motivate a specific intermediate comparison: are the receptor and
+accessory RNA differences carried by different epithelial populations, or retained
+within independently supported state/pathology strata? The new description makes
+a uniform increase less defensible but has not estimated this within-state contrast.
+A pattern carried by population abundance would inform the broader tissue question
+without establishing A12's beyond-mixture claim; a retained within-state pattern
+would motivate further recipient-context work. Either can coexist with other
+inflammatory inputs and neither establishes IL-1-dependent function.
 
-The [23-patient/75-library CSC intake](../../docs/research_reviews/2026-11-03-tool-assisted-screening-review/A12_SOURCE_INTAKE.md)
-establishes that cell-level counts and annotations exist. It is metadata/source
-work, not a completed rerun or validation. Some candidate genes participated in
-healthy-reference label transfer; exact joins and independently supported state
-definitions remain prerequisites for a within-state comparison. No malignant-state
-classifier or prediction refit was authorized by that intake.
+Independent fixed-procedure prediction remains a separate test of generalization.
+No score refit, new state classifier or mandatory functional-assay sequence is
+introduced by this interpretation repair.
+
+The [earlier source intake](../../docs/research_reviews/2026-11-03-tool-assisted-screening-review/A12_SOURCE_INTAKE.md) established availability; the subsequent
+public-cell run qualified library/count joins and described the original patient
+contrast. [Peng Tables S1–S6](../../Research%20Article/ungated_peng_2026_spatial_omics/SUPPLEMENTS_RESULTS.md) add participation,
+signature and add-on-panel definitions. Neither provides the missing independent
+state/pathology mapping or full measured panels. Some candidate genes participated
+in healthy-reference label transfer; author annotations and endpoint independence
+still require qualification for the planned within-state comparison. Add-on
+absence is not full-panel absence, and P6 WES identity remains a separate hold.
 
 [Independent fixed-procedure replication](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md)
 remains held at its unchanged patient/state/count gate. Functional IL-1 dependence

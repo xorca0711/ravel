@@ -1,0 +1,33 @@
+{
+  "description": "Ravel session assistance. Review these hooks normally before use.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "^(startup|resume|clear|compact|fork)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+            "command_windows": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+            "timeout": 20,
+            "additionalContextLimit": 6500,
+            "statusMessage": "Loading Ravel research context"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+            "command_windows": "python -c \"import pathlib,runpy,subprocess; p=pathlib.Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'tools/codex/research_session.py'; runpy.run_path(str(p),run_name='__main__') if p.is_file() else print('{}')\"",
+            "timeout": 20,
+            "statusMessage": "Checking changed research documents"
+          }
+        ]
+      }
+    ]
+  }
+}
