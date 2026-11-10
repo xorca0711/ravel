@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.S2.enrichment_v1",
+  "owner": "Zh26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can the released logFC-ranked NK enrichment family, leading edges and selected curves be reconstructed with the pinned gene-set package?",
+  "decision": "Separate exact deterministic enrichment-score and membership concordance from stochastic NES/P discrepancies; support only transcript-set association.",
+  "strongest_rival": "Different source versions or mistaken biological units could make a visually similar reconstruction appear faithful.",
+  "discriminator": "Replay all Hallmark and C2 CP:KEGG pathways from msigdbr 7.5.1, compare all source rows and leading edges, and independently reconstruct weighted running-sum scores in NumPy.",
+  "evidence_refs": [
+    "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+    "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+    "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published enrichment outcomes and source scripts/exports are exposed. Local S1 and S3 block diagnostics are known; no local enrichment output calculated before this contract.",
+  "biological_unit": "Sorted pooled NK preparation/library; reported experimental replicate is a block.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine named libraries; constituent animal IDs, exact pool sizes and cross-assay animal reuse remain unknown. Replicate denotes experiment/day, not repeated mouse.",
+  "population_and_selection": "All released NK input libraries and features from GSE287581 and pinned author commit 61ac9a440ba3f9db754ff8b8ad5008b450e647c0.",
+  "contrast": "Source/sample qualification for ITDT minus PBS and ITDT+aCD4 minus ITDT, with the released third contrast retained for later replay.",
+  "endpoint": "Enrichment score, normalized score, source Monte Carlo P, within-family BH adjustment, leading-edge genes and pathway coverage.",
+  "methods": "fgsea 1.26.0; msigdbr 7.5.1 and babelgene 22.9; uppercase gene identifiers; AveExpr>1; descending logFC; seed42 per contrast; gseaParam1, scoreType std, minSize0, maxSizeInf, nPermSimple3000. SerialParam explicitly replaces an undocumented source backend. CLI_NO_THREAD=true disables a progress-display thread to avoid Windows ARM shutdown failure, without changing numerical algorithms. ES independent and source comparisons use absolute1e-8; report every stochastic NES/P/log2err difference with no invented agreement threshold.",
+  "missingness_and_exclusions": "Source AveExpr filter only; reject duplicate uppercase symbols; unique pathway/gene memberships as released; report missing/excess pathways and full coverage.",
+  "multiplicity": "Preserve fgsea BH adjustment over the complete tested Hallmark+KEGG family for each contrast; the three displayed pathways are source-selected and exposed.",
+  "precision_status": "unknown",
+  "precision_basis": "Only three reported blocks and unknown animal membership; source-model P values are reproduced but no new population precision or biological power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Reproduction of exposed pooled-library TPM transcript differences; not independent replication, count-based voom reconstruction, NK killing, secretion, signaling or mediation.",
+  "stop_rule": "Fail API/runtime, duplicate IDs or independent ES checks. Preserve any source pathway/ES/leading-edge discrepancy. No newer gene-set replacement or significance-selected display.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+      "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+      "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/comparison.json",
+      "sha256": "86b69549ec98c213cb316deabfdff930ee1a4325dfcc5098463db0692a3c1b3f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
+      "sha256": "f18439a00ad4760c1c7e224ef20863414f12f6f7ebb0cff8a3aef3331fe0e34f",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/README.md",
+      "sha256": "86ef3e78346210fcefdd54671ffbbc11ca7641bc5385a0526854213b204d0719",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_vs_pbs.Rmd",
+      "sha256": "24395b44816eedabe493d19cf16b69024fe730232b35f029153a562567c6bc1d",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/src/gsea_itdt_acd4_vs_itdt.Rmd",
+      "sha256": "68a2b5e356d4c68b390c001ab111439112642eafa9b92da71eeb242be66b1c08",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_vs_pbs.csv",
+      "sha256": "e34c805005ae26d6c5f5eaa78ffdc9fb6078d5450b8d0fc6f98ddab04ab3e414",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/source_v1/author/output_files/gsea_results_std_itdt_acd4_vs_itdt.csv",
+      "sha256": "e288e7d756660f2a09d0f60a37fe4a1b3a221d782f7c9fdb4052649ebe8bc5a2",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/msigdbr_7.5.1.tar.gz",
+      "sha256": "dc30487bdf3594425ae9faec1ca0d7d0cd7278f4f177689133f92880e74acaca",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/msigdbr_7.5.1.zip",
+      "sha256": "40eb987fff8e5f9770377d8a1b833ff064fb5ff6d89121514488fc09f571ff64",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/zhang_2026/runtime_v1/sources.json",
+      "sha256": "ddab404d3e93c05d73c6bb63789022716aa2d2e51fee2f55b8e46fc310db8500",
+      "study_id": "Zhang2026_GSE287581_and_MSIGDB7.5.1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.py",
+      "sha256": "f9cada7568be2d3567f55758f820b87d3161caee458f48eb79d394ca2c952ecc"
+    },
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.R",
+      "sha256": "c768cfe3f66dceb226c375983c0863e049e8658830098ea47d18604ed616a072"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_11_zhang_2026_nk/scripts/enrichment_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_sets.csv",
+    "ranks_itdt_vs_pbs.csv",
+    "ranks_itdt_acd4_vs_itdt.csv",
+    "gsea_itdt_vs_pbs.csv",
+    "gsea_itdt_acd4_vs_itdt.csv",
+    "coverage.csv",
+    "R_session.txt",
+    "runtime_settings.txt",
+    "source_comparison.csv",
+    "comparison.json",
+    "enrichment.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial enrichment replay after S1 all-field concordance and successful pinned package/API exit with documented CLI progress-thread workaround."
+}

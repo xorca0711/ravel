@@ -1,0 +1,21 @@
+{
+  "independent_arithmetic_checks": 76248,
+  "max_error": 1.176836406102666e-14,
+  "global_summary": [
+    {
+      "contrast": "itdt_vs_pbs",
+      "genes": 12708,
+      "all_three_signs_agree": 7693,
+      "some_sign_change": 5015
+    },
+    {
+      "contrast": "itdt_acd4_vs_itdt",
+      "genes": 12708,
+      "all_three_signs_agree": 8909,
+      "some_sign_change": 3799
+    }
+  ],
+  "fixed_panel_rows": 54,
+  "fixed_panel_sign_changes": [],
+  "interpretation": "Two blocks retained per omission, residual df=2. Magnitude/direction diagnostic on the fixed full-data feature set; no significance testing, population CI or stability cutoff."
+}
