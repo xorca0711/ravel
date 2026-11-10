@@ -1,0 +1,88 @@
+[
+  {
+    "series": "GSE318914",
+    "samples": 72,
+    "genes": 19984,
+    "donors": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "treatments": [
+      "IL-10",
+      "IL-10-Fc",
+      "PBS",
+      "ms-IL10R agonist"
+    ],
+    "paired_strata": 18,
+    "marker_ids": {
+      "STAT3": [
+        "ENSG00000168610.16"
+      ],
+      "SOCS3": [
+        "ENSG00000184557.4"
+      ],
+      "TNF": [
+        "ENSG00000232810.4"
+      ],
+      "IFNG": [
+        "ENSG00000111537.5"
+      ],
+      "GZMB": [
+        "ENSG00000100453.13"
+      ]
+    },
+    "count_semantics": "nonnegative integer featureCounts; all columns explicitly joined by Sample_description Library name",
+    "eligibility": "within-series donor-paired human context only",
+    "not_supplied": [
+      "D25K",
+      "aged brain",
+      "young/old treatment factorial",
+      "injury recovery",
+      "cross-series donor identity"
+    ]
+  },
+  {
+    "series": "GSE318915",
+    "samples": 36,
+    "genes": 19984,
+    "donors": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "treatments": [
+      "IL-10",
+      "IL-10-Fc",
+      "PBS",
+      "ms-IL10R agonist"
+    ],
+    "paired_strata": 9,
+    "marker_ids": {
+      "STAT3": [
+        "ENSG00000168610.16"
+      ],
+      "SOCS3": [
+        "ENSG00000184557.4"
+      ],
+      "TNF": [
+        "ENSG00000232810.4"
+      ],
+      "IFNG": [
+        "ENSG00000111537.5"
+      ],
+      "GZMB": [
+        "ENSG00000100453.13"
+      ]
+    },
+    "count_semantics": "nonnegative integer featureCounts; all columns explicitly joined by Sample_description Library name",
+    "eligibility": "within-series donor-paired human context only",
+    "not_supplied": [
+      "D25K",
+      "aged brain",
+      "young/old treatment factorial",
+      "injury recovery",
+      "cross-series donor identity"
+    ]
+  }
+]

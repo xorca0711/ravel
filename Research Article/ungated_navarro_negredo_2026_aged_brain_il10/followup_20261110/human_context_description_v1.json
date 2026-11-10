@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.human_context_description_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "In each deposited human-cell context and time, what are the donor-paired directions of five prespecified RNA markers under IL-10, IL-10-Fc and the myeloid-selective IL-10R agonist relative to PBS and IL-10?",
+  "decision": "Describe whether the human donor patterns are consistent, mixed or discordant with the exposed selective-response premise, without treating this different agonist/context as D25K aged-brain replication.",
+  "strongest_rival": "Bulk composition, activation/time effects, donor heterogeneity, compositional normalization and the RNA/function gap can explain or qualify apparent selectivity.",
+  "discriminator": "All five fixed markers, every deposited time/condition/donor, four predefined paired contrasts and explicit disagreement/zeros, without cell-based tests or post-result marker selection.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/PLAN.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/HUMAN_CONTEXT_PLAN_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published Navarro and new human-study directions, sample metadata, full matrix integrity and unique marker identities were exposed before this freeze. No unexposed confirmation; this is a separate contextual description.",
+  "biological_unit": "Reported donor within each GEO series, matched across treatment within time and PBMC activation condition.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Three donor labels per series, repeatedly sampled across treatments/time and PBMC activation. D1/D2/D3 labels are never joined across series; six unique people are not claimed.",
+  "population_and_selection": "All 72 PBMC and 36 T-cell libraries and all deposited times/activation strata; five prespecified uniquely annotated markers. Unknown donor age/sex and selection limit transport.",
+  "contrast": "IL-10 minus PBS; IL-10-Fc minus PBS; ms-IL10R agonist minus PBS; ms-IL10R agonist minus IL-10, separately by series, condition, time and donor.",
+  "endpoint": "Raw RNA counts, deposited-matrix CPM, log2(CPM+1), each donor-paired difference, median/range and sign counts. RNA is not secretion or tissue function.",
+  "methods": "Sum every deposited feature for each column denominator. Transform selected markers by log2(1+1e6*count/sum). Match the explicit within-series donor/time/condition keys; show all pairs and three-donor medians/ranges. No P values or confidence intervals.",
+  "missingness_and_exclusions": "No sample filtering or exclusion of zero-expression markers. Missing/duplicate sample, donor pair or gene-symbol identity stops the stage; all prespecified contrasts retained.",
+  "multiplicity": "No inferential discovery family, P values or optimized composite scores. Five markers and all four contrasts are fixed before execution; complete outputs retained.",
+  "precision_status": "unknown",
+  "precision_basis": "Three reported donors per series, with no justified target population margin or precision basis. Ranges describe the observed donors, not population uncertainty.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Different human peripheral-cell experiment and different engineered agonist, not D25K/aged-brain replication. No age interaction, repair, mediation, universal suppression or cross-series donor identity claim.",
+  "stop_rule": "Stop on source/qualification mismatch, incomplete within-stratum donor matching, ambiguous marker ID, nonpositive denominator or independent arithmetic disagreement. Retain mixed or unfavorable results.",
+  "inputs": [
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318914_PBMC_Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "47e6455cc5a0bdb0b19b223747cdf6b9633e92ab2f8e7f139430ac673c6cbb34",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/navarro_2026/followup_20261110/GSE318915_Tcell.Gene_Expression_Count.featureCounts.txt.gz",
+      "sha256": "ba52b21922aa6306eb1cbabcc255e3e1943f7ef9f70e5b147aa075a782b3736d",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_public_source_followup_v1/public_sample_crosswalk.csv",
+      "sha256": "aae0dfee850508aa9db50b777ec61ed52df72b9db7ad2c5eeceebb60e4a6cb61",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nn26_public_source_followup_v1/public_deposit_qualification.json",
+      "sha256": "c5192676a6555493e9d8e43fe50ad7883ede2a51f4ea7d875ef9d24cf6743b94",
+      "study_id": "Human_IL10R_context_2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/describe_human_context_v1.py",
+      "sha256": "faf0cb8ce2a17b3da1cf10b8e3b1720c8a544174296f6d97e0a9944ca9ccb4e6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/describe_human_context_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "measurements.csv",
+    "paired_contrasts.csv",
+    "contrast_summaries.csv",
+    "human_context_medians.png",
+    "human_context_medians.svg",
+    "human_context_donors.png",
+    "human_context_donors.svg",
+    "verification.json",
+    ".gitattributes"
+  ],
+  "amendment_of": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/public_source_followup_v1.json",
+  "amendment_reason": "The qualified public deposits have explicit donor/library matching and unique fixed-marker rows; owner authorized proceeding with relevant new public data. This context branch leaves all Navarro holds intact."
+}

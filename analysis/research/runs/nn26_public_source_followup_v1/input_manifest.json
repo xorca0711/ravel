@@ -1,0 +1,72 @@
+[
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/biosample_current.xml",
+    "sha256": "298229e50ba6d3f069a9dfaeb3b0b33be93d645a3147757f64abfb2ca9dad898",
+    "bytes": 11950
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/ena_current.tsv",
+    "sha256": "6f4c6af100fdd12f9cfd7a0912c9028a6976e214f6c02f2dfa15cff408338c8c",
+    "bytes": 2656
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/github_current.json",
+    "sha256": "4609e4684de668e6c075ada1448da595446729573901c2908049efcde462a35c",
+    "bytes": 7086
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/zenodo_latest_data.json",
+    "sha256": "8ebd517dfb1bb310176f18c1dd42158530deb680c3a960e80bcd0fe9b9f82102",
+    "bytes": 5743
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/zenodo_latest_code.json",
+    "sha256": "4d3d0a458f467c74ff11a1a2090c95d41ac8f2a8bcfa25067fbd19aaee521bbf",
+    "bytes": 4211
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/additional_bioprojects.json",
+    "sha256": "442204967e02a39487984c2cad26a2b6481dd5560a1e0df75efdddfdcd621854",
+    "bytes": 821
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/geo_candidates.json",
+    "sha256": "3f2ecd6f72e2bf766612881049afdf863c546a929fac003b23ba2426913577f2",
+    "bytes": 780
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/retrieval_manifest.json",
+    "sha256": "d7ae740a64684ac485ebeb7e1b9d3aa59333870e637c3336483076340c0980f7",
+    "bytes": 4054
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/additional_retrieval_manifest.json",
+    "sha256": "dd69fd93cf47161739b9d6efc9c65d39b362c8a47ae5ba33a8ed1f9508c1d4ad",
+    "bytes": 2672
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/GSE318914_family.soft.gz",
+    "sha256": "e26a61de8f253684387d9fb97c6dfa1c1f84630a7d8abc6a95102d68eb5c600e",
+    "bytes": 5997
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/GSE318915_family.soft.gz",
+    "sha256": "fa08c56c58b405cab7150384d90a44d5e7a4bd7b313c04fcf2fff9f7bd93d043",
+    "bytes": 4295
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/GSE318914_PBMC_Gene_Expression_Count.featureCounts.txt.gz",
+    "sha256": "47e6455cc5a0bdb0b19b223747cdf6b9633e92ab2f8e7f139430ac673c6cbb34",
+    "bytes": 2208470
+  },
+  {
+    "path": "raw_data/navarro_2026/followup_20261110/GSE318915_Tcell.Gene_Expression_Count.featureCounts.txt.gz",
+    "sha256": "ba52b21922aa6306eb1cbabcc255e3e1943f7ef9f70e5b147aa075a782b3736d",
+    "bytes": 1261280
+  },
+  {
+    "path": "raw_data/navarro_2026/source_v1/biosample.xml",
+    "sha256": "8cbd89be8c5f089e9ce224e6971a72b428ccef944b19111ba0349b275328dee4",
+    "bytes": 11949
+  }
+]

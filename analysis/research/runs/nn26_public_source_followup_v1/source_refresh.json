@@ -1,0 +1,353 @@
+{
+  "checked_date": "2026-11-10 Asia/Seoul",
+  "biosample_attributes_unchanged": true,
+  "biosample_attributes": {
+    "SAMN53298929": {
+      "strain": "C57Bl/6 NIA",
+      "age": "22-25 months",
+      "dev_stage": "Old",
+      "collection_date": "2019-11-04",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "brain"
+    },
+    "SAMN53298930": {
+      "strain": "C57Bl/6 NIA",
+      "age": "22-25 months",
+      "dev_stage": "Old",
+      "collection_date": "2019-11-04",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "lung"
+    },
+    "SAMN53298931": {
+      "strain": "C57Bl/6 NIA",
+      "age": "24-25 months",
+      "dev_stage": "Old",
+      "collection_date": "2021-04-28",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "subventricular zone"
+    },
+    "SAMN53298932": {
+      "strain": "C57Bl/6 NIA",
+      "age": "24 months",
+      "dev_stage": "Old",
+      "collection_date": "2020-09-23",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "subventricular zone"
+    },
+    "SAMN53298933": {
+      "strain": "C57Bl/6 NIA",
+      "age": "mixed",
+      "dev_stage": "mixed",
+      "collection_date": "2023-05-25",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "subventricular zone"
+    },
+    "SAMN53298934": {
+      "strain": "C57Bl/6 NIA",
+      "age": "27 months",
+      "dev_stage": "Old",
+      "collection_date": "2022-12-14",
+      "geo_loc_name": "USA: Stanford",
+      "sex": "male",
+      "tissue": "subventricular zone"
+    }
+  },
+  "ena_runs": [
+    {
+      "run_accession": "SRR36091742",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298931",
+      "experiment_accession": "SRX31137332",
+      "library_name": "SVZ_Exp1_Control_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091744",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298930",
+      "experiment_accession": "SRX31137330",
+      "library_name": "Old_Lung_Tcells_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of T cells"
+    },
+    {
+      "run_accession": "SRR36091737",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298932",
+      "experiment_accession": "SRX31137337",
+      "library_name": "SVZ_Exp2_Control_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091739",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298931",
+      "experiment_accession": "SRX31137335",
+      "library_name": "SVZ_Exp1_RIPR_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091741",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298931",
+      "experiment_accession": "SRX31137333",
+      "library_name": "SVZ_Exp1_Control_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091745",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298934",
+      "experiment_accession": "SRX31137329",
+      "library_name": "SVZ_WT_IL10_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091751",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137323",
+      "library_name": "SVZ_IL10_WT_high_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091746",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298934",
+      "experiment_accession": "SRX31137328",
+      "library_name": "SVZ_control_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091749",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137325",
+      "library_name": "SVZ_IL10_WT_low_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091752",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137322",
+      "library_name": "SVZ_IL10_old_control_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091754",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298932",
+      "experiment_accession": "SRX31137320",
+      "library_name": "SVZ_Exp2_RIPR_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091755",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298929",
+      "experiment_accession": "SRX31137319",
+      "library_name": "Old_Brain_Tcells_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of T cells"
+    },
+    {
+      "run_accession": "SRR36091743",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298930",
+      "experiment_accession": "SRX31137331",
+      "library_name": "Old_Lung_Tcells_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of T cells"
+    },
+    {
+      "run_accession": "SRR36091748",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137326",
+      "library_name": "SVZ_IL10_Mut_low_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091738",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298932",
+      "experiment_accession": "SRX31137336",
+      "library_name": "SVZ_Exp2_Control_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091740",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298931",
+      "experiment_accession": "SRX31137334",
+      "library_name": "SVZ_Exp1_RIPR_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091747",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137327",
+      "library_name": "SVZ_IL10_young_control_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091750",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298933",
+      "experiment_accession": "SRX31137324",
+      "library_name": "SVZ_IL10_Mut_high_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091753",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298932",
+      "experiment_accession": "SRX31137321",
+      "library_name": "SVZ_Exp2_RIPR_TCR",
+      "library_strategy": "AMPLICON",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of SVZ"
+    },
+    {
+      "run_accession": "SRR36091756",
+      "study_accession": "PRJNA1365936",
+      "sample_accession": "SAMN53298929",
+      "experiment_accession": "SRX31137318",
+      "library_name": "Old_Brain_Tcells_GEX",
+      "library_strategy": "RNA-Seq",
+      "sample_title": "",
+      "experiment_title": "HiSeq X Ten sequencing: sc-RNA-seq of T cells"
+    }
+  ],
+  "author_commit": {
+    "sha": "c08010bb29f0cb9b56143a25f6a2b1c28692cf70",
+    "date": "2026-01-07T13:43:55Z"
+  },
+  "author_tree_paths": [
+    "IL10",
+    "IL10/1.Seurat.R",
+    "IL10/2.Microglia.R",
+    "IL10/3.Tcells.R",
+    "IL10/4.Inflammation_score.R",
+    "IL10/5.Aging_clocks.R",
+    "ImmuneCells",
+    "ImmuneCells/BrainvsLung_Tcells.R",
+    "ImmuneCells/Merged_datasets.R",
+    "ImmuneCells/Microglia_FC.R",
+    "ImmuneCells/Microglia_heatmap.R",
+    "ImmuneCells/Microglia_violins.R",
+    "ImmuneCells/Tcell_scores.R",
+    "ImmuneCells/Tcells_Heatmap_10x.R",
+    "README.md",
+    "RIPR",
+    "RIPR/1.Seurat.R",
+    "RIPR/2.Microglia.R",
+    "RIPR/3.Tcells.R",
+    "RIPR/4.Aging_clocks.R"
+  ],
+  "latest_data_record": 17594828,
+  "latest_code_record": 18174039,
+  "zenodo_files": [
+    {
+      "key": "Brain_lung_Tcells_seurat.rds",
+      "size": 358711664,
+      "checksum": "md5:60eb27b2792d8ba2cca70b6191afcbb8"
+    },
+    {
+      "key": "IL10_svz_seurat.rds",
+      "size": 2188161276,
+      "checksum": "md5:ce9bf02e41665e00e11cd1b262114506"
+    },
+    {
+      "key": "RIPR1_svz_tcr_seurat.rds",
+      "size": 1152793853,
+      "checksum": "md5:fa55d44bf877a6f9f2388f6ae8ec0226"
+    },
+    {
+      "key": "RIPR2_svz_tcr_seurat.rds",
+      "size": 91648576,
+      "checksum": "md5:ebe36056c228e5404a2d3623831375be"
+    },
+    {
+      "key": "WT_IL10_svz_seurat.rds",
+      "size": 402864310,
+      "checksum": "md5:2fe6f04c6025694ec9340e73ec996295"
+    }
+  ],
+  "additional_bioproject_search": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "1365936"
+    ],
+    "translationset": [],
+    "translationstack": [
+      {
+        "term": "D25K[All Fields]",
+        "field": "All Fields",
+        "count": "1",
+        "explode": "N"
+      },
+      {
+        "term": "IL10[All Fields]",
+        "field": "All Fields",
+        "count": "394",
+        "explode": "N"
+      },
+      {
+        "term": "subventricular[All Fields]",
+        "field": "All Fields",
+        "count": "261",
+        "explode": "N"
+      },
+      "AND",
+      "GROUP",
+      "OR"
+    ],
+    "querytranslation": "D25K[All Fields] OR (IL10[All Fields] AND subventricular[All Fields])"
+  },
+  "alias_dose_join": "unresolved; public metadata refresh does not link eight object aliases to six main libraries",
+  "donor_assignment": "no main-object per-mouse demultiplexing established",
+  "exact_downstream_microglia_and_hallmark": "unchanged holds; no new author code or rda in the inspected tree"
+}

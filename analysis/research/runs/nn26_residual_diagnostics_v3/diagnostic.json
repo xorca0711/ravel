@@ -1,0 +1,84 @@
+{
+  "analysis": "Nn26-P01.residual_diagnostics_v3",
+  "source_values_verified": 40,
+  "observations_changed": false,
+  "exclusions_searched": false,
+  "rounding_of_observations": false,
+  "audits": [
+    {
+      "endpoint": "open_field",
+      "comparison": "D25K-Control",
+      "observed_group_sizes": [
+        15,
+        13
+      ],
+      "rank_u": 85.5,
+      "ties": true,
+      "reported_p": 0.59942,
+      "reported_rounding_digits": 5,
+      "any_applicable_convention_matches": false,
+      "untied_exact_reported_value_attainable_at_observed_n": false,
+      "untied_support_applicable": false,
+      "source_statistics_cell": 0.59942
+    },
+    {
+      "endpoint": "ifitm3",
+      "comparison": "WT-Control",
+      "observed_group_sizes": [
+        6,
+        6
+      ],
+      "rank_u": 32.0,
+      "ties": false,
+      "reported_p": 0.0173,
+      "reported_rounding_digits": 4,
+      "any_applicable_convention_matches": false,
+      "untied_exact_reported_value_attainable_at_observed_n": false,
+      "untied_support_applicable": true,
+      "source_statistics_cell": "young vs old=0.0087; old vs WT IL-10=0.0173; old vs IL-10*=0.6095; WT IL-10. vs IL-10*=0.019"
+    }
+  ],
+  "open_field_formula_audit": [
+    {
+      "group": "Control",
+      "cell": "Figure 7!D109",
+      "formula": "=AVERAGE(D95:D108)",
+      "cached_value": 2022.8333333333333,
+      "complete_observation_range": "D94:D106",
+      "complete_observation_n": 13,
+      "complete_mean": 1987.0,
+      "first_listed_value": 1557.0
+    },
+    {
+      "group": "Control",
+      "cell": "Figure 7!D110",
+      "formula": "=_xlfn.STDEV.S(D95:D108)/SQRT(COUNT(D95:D108))",
+      "cached_value": 153.67191702067123,
+      "complete_observation_range": "D94:D106",
+      "complete_observation_n": 13,
+      "complete_mean": 1987.0,
+      "first_listed_value": 1557.0
+    },
+    {
+      "group": "D25K",
+      "cell": "Figure 7!E109",
+      "formula": "=AVERAGE(E95:E108)",
+      "cached_value": 1918,
+      "complete_observation_range": "E94:E108",
+      "complete_observation_n": 15,
+      "complete_mean": 1940.3333333333333,
+      "first_listed_value": 2253.0
+    },
+    {
+      "group": "D25K",
+      "cell": "Figure 7!E110",
+      "formula": "=_xlfn.STDEV.S(E95:E108)/SQRT(COUNT(E95:E108))",
+      "cached_value": 110.5071724587828,
+      "complete_observation_range": "E94:E108",
+      "complete_observation_n": 15,
+      "complete_mean": 1940.3333333333333,
+      "first_listed_value": 2253.0
+    }
+  ],
+  "interpretation": "Diagnostic conventions only. No candidate method replaces v1/v2, and no population or repair claim is added."
+}

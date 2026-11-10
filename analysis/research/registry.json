@@ -1298,7 +1298,8 @@
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json",
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/public_source_followup_v1.json",
-    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json"
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1487,7 +1488,9 @@
     "analysis/research/runs/nn26_failure_preservation_v1/receipt.json",
     "analysis/research/runs/nn26_qualification_review_v1/receipt.json",
     "analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json",
-    "analysis/research/runs/nn26_completion_archive_v1/receipt.json"
+    "analysis/research/runs/nn26_completion_archive_v1/receipt.json",
+    "analysis/research/runs/nn26_public_source_followup_v1/receipt.json",
+    "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
