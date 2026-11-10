@@ -1,0 +1,9 @@
+item,source,disposition
+model,"paper log-CPM/voom; released log2(TPM+0.5), limma-trend",Released reproduction only; count branch held
+blocking,GEO treatment-only text; paper/code experimental replicate,Use released rank-5 blocked design
+GSEA ranking,paper adjusted P; comments signed -log10(P); executable logFC,Replay logFC; signed moderated t is separate sensitivity
+figures,code preprint names differ from final panels; TPM heatmaps labelled log2CPM,Content crosswalk; label measured TPM transform
+Zenodo locator,supplied paper ref89 and PMC manuscript ref95 point to bioRxiv DOI 10.1101/2025.06.26.661417,No verified archive accession; GitHub pinned source remains qualified
+supplements,"PMC lists XLSX tables plus PDF figures, data S1-S17 and MDAR","Located, not acquired: challenge HTML; no raw FCS/worksheet qualification"
+functional labels,supplied Figure5 caption F/G versus axes; Figure6J Tconv FOXP3-positive legend,Retain ambiguity; no numeric functional extraction
+PDF version,current supplied PDF hash differs; 16 pages versus recorded 15,Preserve new version with exact hash; first-page article identity verified

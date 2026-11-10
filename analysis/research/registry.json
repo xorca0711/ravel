@@ -1315,7 +1315,8 @@
     "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v1.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v2.json",
-    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v3.json"
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S0.qualification_v3.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S1.reproduction_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1507,7 +1508,8 @@
     "analysis/research/runs/nn26_completion_archive_v1/receipt.json",
     "analysis/research/runs/nn26_public_source_followup_v1/receipt.json",
     "analysis/research/runs/nn26_residual_diagnostics_v3/receipt.json",
-    "analysis/research/runs/nn26_human_context_description_v1/receipt.json"
+    "analysis/research/runs/nn26_human_context_description_v1/receipt.json",
+    "analysis/research/runs/zh26_s0_qualification_v3/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
