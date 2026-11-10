@@ -1320,7 +1320,8 @@
     "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v1.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S3.block_sensitivity_v2.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v1.json",
-    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v2.json"
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v2.json",
+    "Research Article/gate3_11_zhang_2026_nk/contracts/S3.ranking_sensitivity_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1515,7 +1516,8 @@
     "analysis/research/runs/nn26_human_context_description_v1/receipt.json",
     "analysis/research/runs/zh26_s0_qualification_v3/receipt.json",
     "analysis/research/runs/zh26_s1_reproduction_v1/receipt.json",
-    "analysis/research/runs/zh26_s3_block_v2/receipt.json"
+    "analysis/research/runs/zh26_s3_block_v2/receipt.json",
+    "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

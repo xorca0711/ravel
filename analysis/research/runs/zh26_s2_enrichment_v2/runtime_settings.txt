@@ -1,0 +1,3 @@
+CLI_NO_THREAD=true disables only cli progress tick thread (Windows ARM workaround).
+BiocParallel::SerialParam; seed=42 for each contrast; source parallel backend not reported.
+babelgene 22.9

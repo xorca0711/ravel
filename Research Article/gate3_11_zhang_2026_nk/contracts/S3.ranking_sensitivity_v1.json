@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.S3.ranking_sensitivity_v1",
+  "owner": "Zh26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "How do the fixed NK pathway associations depend on ranking by signed moderated t instead of released logFC?",
+  "decision": "Describe ranking dependence across the same full pathway family and the three source-selected panels; do not rank new targets or reinterpret RNA as signaling.",
+  "strongest_rival": "Fold-change ranking may privilege noisy large coefficients, while moderated-statistic ranking weights precision differently in only three pooled blocks.",
+  "discriminator": "Replace only the rank statistic with signed moderated t from the unchanged S1 fit; preserve exact S2 genes, gene sets, seed, fgsea settings and serial backend.",
+  "evidence_refs": [
+    "Research Article/gate3_11_zhang_2026_nk/ANALYSIS_PLAN.md",
+    "Research Article/gate3_11_zhang_2026_nk/SOURCE_REVIEW.md",
+    "Research Article/gate3_11_zhang_2026_nk/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All S1 contrasts, block stability and S2 enrichment/source comparison were inspected before this freeze. The original published outcomes and pathways are exposed; this is sensitivity, never independent confirmation.",
+  "biological_unit": "Sorted pooled NK preparation/library; reported experimental replicate is a block.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine named libraries; constituent animal IDs, exact pool sizes and cross-assay animal reuse remain unknown. Replicate denotes experiment/day, not repeated mouse.",
+  "population_and_selection": "All released NK input libraries and features from GSE287581 and pinned author commit 61ac9a440ba3f9db754ff8b8ad5008b450e647c0.",
+  "contrast": "Source/sample qualification for ITDT minus PBS and ITDT+aCD4 minus ITDT, with the released third contrast retained for later replay.",
+  "endpoint": "Pathway ES/NES direction, adjusted P, leading-edge overlap and full-family ranking differences.",
+  "methods": "fgsea 1.26.0 with identical S2 memberships and AveExpr>1 universe; signed S1 moderated t sorted descending, no absolute-value ranking. Seed42 per contrast and original nPermSimple3000; SerialParam and CLI_NO_THREAD true. Independent weighted running-sum checks at absolute1e-8. Retain unestimated P/NES as null; do not increase permutations. No numerical robustness cutoff.",
+  "missingness_and_exclusions": "No changed genes, pathways or samples relative to S2; reject universe mismatch and duplicate uppercase identifiers; retain every unfavorable or unestimated result.",
+  "multiplicity": "BH correction within the full same Hallmark+KEGG family per contrast; source-selected panels remain exposed, with no new significance threshold.",
+  "precision_status": "unknown",
+  "precision_basis": "Only three reported blocks and unknown animal membership; source-model P values are reproduced but no new population precision or biological power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Reproduction of exposed pooled-library TPM transcript differences; not independent replication, count-based voom reconstruction, NK killing, secretion, signaling or mediation.",
+  "stop_rule": "Fail universe, API or independent ES checks; no expansion if the fixed sensitivity cannot change interpretation.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+      "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+      "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/coverage.csv",
+      "sha256": "16426b48099256377640b70cc84d62a85c9e22aa92272c3ba2687aaf7fe92337",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gene_sets.csv",
+      "sha256": "2c66c31f8799f61c69b4fcce17a8c26f2b179bdf0d56eca193fe3d1b8d87379c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_acd4_vs_itdt.csv",
+      "sha256": "8171d4d6104909e58cdf5cb55f6bbdb1e4b161e5495dd69636ba8147531fa2d8",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/gsea_itdt_vs_pbs.csv",
+      "sha256": "5a82a94ec67af9d579c775b92f034531afb1140ef3068efbea196a2d7d0f1d4d",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_acd4_vs_itdt.csv",
+      "sha256": "accb7c38c4b7e1d5638c0c08de7eb176bde8654a7464f54f15ed5c3a8373f167",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/ranks_itdt_vs_pbs.csv",
+      "sha256": "ee37989ef7745b146c2bf5670c42c28fa0d11ba7a11ee11ee6bc5d7f66f61ebf",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/receipt.json",
+      "sha256": "aa2a731c66daf9c4713c99135dc9eefd9217bf794b463c9dcad0c80046b6ebc5",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/runtime_settings.txt",
+      "sha256": "8d2b673dde0739542b3f7bbc951224adb9061d8625bc3f190c38d988f19d3bae",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/R_session.txt",
+      "sha256": "68d709feb499a66552fc825bd6b1bb10e6c6d8fdb7718794a01a241eee013f92",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stderr.log",
+      "sha256": "04ca78d9171232f2b40107b9ee269f1c564b4f2929a93158ac223cb611ef67b9",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/comparison.json",
+      "sha256": "44ccb434fa057eab95f227aadceea12263b6ef3c86f1971f21ec8cfb5c42066c",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/source_comparison.csv",
+      "sha256": "3f91ff77e861483c5d367271edd84aed79b30c0d493bbd8e53ad2118459315cb",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
+      "sha256": "5730f32d3d1bf44c66aca2623c3621dc3aa4035202d48b48ccb1b8cd1c136fb5",
+      "study_id": "Zhang2026_GSE287581",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.py",
+      "sha256": "e57fd68f024809ef85d6f9cf6cead10dd55d288d4020ef2163860f19475663c2"
+    },
+    {
+      "path": "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.R",
+      "sha256": "2091134d2b534492483d20bd302a8b3e5ccb47eceb743bfe27b5e262bd5c5148"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_11_zhang_2026_nk/scripts/ranking_sensitivity_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "ranks_itdt_vs_pbs.csv",
+    "ranks_itdt_acd4_vs_itdt.csv",
+    "gsea_t_itdt_vs_pbs.csv",
+    "gsea_t_itdt_acd4_vs_itdt.csv",
+    "R_session.txt",
+    "ranking_comparison.csv",
+    "summary.json",
+    "ranking_sensitivity.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate signed-statistic sensitivity after source ES/NES, size and leading-edge agreement. Source Monte Carlo P values differ and remain an explicit exact-replay limit."
+}
