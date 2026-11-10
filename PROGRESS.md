@@ -1,5 +1,29 @@
 # Current project state
 
+## Zhang paper README made explicit — 10 November 2026
+
+The owner requested visible screening/analysis details and a format consistent
+with previously read papers. Compared the DuPage 2015 and Saxton IL-10
+entrypoints, then reorganized the [Zhang README](Research%20Article/gate3_11_zhang_2026_nk/README.md)
+around biological purpose, input/units/comparisons, the executed S0–S5 ledger,
+contrast counts, all six measured figures with captions/table links, biological
+interpretation, remaining work and provenance. The README explicitly distinguishes
+source-selected panel/ranking checks from a new target-discovery screen, which
+was not run. The local literature-context navigation now points to the measured
+gallery and biological interpretation. Existing detailed results, frozen outputs
+and other paper READMEs are unchanged.
+
+PR #177 merged at main `6fb5e58`, including the separate A36 integration.
+This documentation follow-up starts from that exact main on
+`codex/zhang-readme-20261110`; A36 and all existing evidence are preserved.
+Remaining scientific analyses retain their exact input/identity requirements.
+Publication follows the owner's existing commit/push/PR authorization; no merge
+or new biological run is part of this correction.
+Validation passes 19,253 repository checks after correcting the obsolete
+literature-note anchor; base-aware research governance passes against `6fb5e58`.
+All six embedded figures resolve. The diff contains only the paper README,
+its literature-context navigation and this progress record.
+
 ## A36 incorporation into open PR #177 — 10 November 2026
 
 The owner requested incorporating the completed A36 work into the currently open PR. Live GitHub lookup identified [PR #177](https://github.com/xorca0711/ravel/pull/177), head `2ead479fbc7409a62d3529178967b4395226ff8c`, containing the Zhang NK package. Main remains `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Integration preserves that exact PR head and A36 head `fc28f9452ac65880a87151f8159635a56e8ac507` as parents. Both publication routes authenticate as xorca0711.
