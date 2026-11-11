@@ -21,6 +21,14 @@ sequencing, RNA–chromatin comparisons, and accessible spatial, imaging,
 perturbation and clonal measurements. Each study retains its own biological
 units, measured endpoints and interpretation limits.
 
+**Research interests** · Inflammation-driven cell plasticity ·
+epithelial–immune–stromal crosstalk · cell-state stability and persistence ·
+tissue repair and pathological remodelling.
+
+**Related interests** · Epigenetic regulation and inflammatory memory · cell
+fate and lineage dynamics. Lineage tracing is an approach to studying cell
+fate, and clonal evolution is a focus of the cancer branch.
+
 Previously named `scRNA_seq`; the
 [migration record](docs/migrations/2026-10-07-ravel/README.md) documents the rename
 and preservation of historical evidence.
