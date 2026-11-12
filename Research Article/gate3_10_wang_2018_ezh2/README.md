@@ -1,16 +1,20 @@
 # Wang 2018: EZH2, activated Tregs and tumor immunity
 
 12 November 2026. **The adapted day-four RNA analysis is complete at the
-deposited-library level.** The linked measurement plan is complete for
-checkpoint review. The article-local owner is Wang18-P01.
+deposited-library level.** The linked measurement plan is complete and has
+passed agent specification review. The article-local owner is Wang18-P01.
 
-[Results and measured figures](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
+[Four-figure gallery](FIGURES.md) · [Results](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
+· [Biological implications and RQ connections](BIOLOGICAL_INTERPRETATION_V1.md)
+· [Neighboring-paper flow and remaining gaps](RQ_FOLLOWUP_REVIEW_20261112.md#neighboring-article-flow-and-revisited-gaps)
 · [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
 · [F2 ranking sensitivity](F2_RESULTS_V1.md)
 · [F3 measurement plan](F3_MEASUREMENT_PLAN_V1.md) · [Stage and review status](FOLLOWUP_STATUS_20261112.md)
 · [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
 · [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
 · [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
+
+The subsequent [public-data gap review](PUBLIC_GAP_REVIEW_20261112.md) updates A33–A35's assay qualification without adding a functional estimate. The [Bockman full-main-paper review](BOCKMAN_FULL_READ_20261112.md) revises the conditional tumor extension around EZH2 perturbation, viable Treg recovery and DC function; depletion biology already established by Bockman remains a premise.
 
 ## Biological purpose
 
@@ -103,7 +107,7 @@ a general biological program are different tasks.
 | S5 | Reconcile the RNA with published function | Published assays integrated. Per-animal functional inputs were not located. |
 | F1 | Check original sample and analysis records | Source audit complete. Signal2Noise and a facility filename prefix were recovered. Exact replay, population inference and functional reconstruction remain held. |
 | F2 | Check the effect of the source-named rank metric | All 50 sets compared. Inflammatory and culture-state themes retained their directions. Agent checkpoint passed. |
-| F3 | Specify the linked recovery and within-observed-state RNA comparison | Analysis-ready measurement plan and literature addendum complete. Checkpoint review pending. |
+| F3 | Specify the linked recovery and within-observed-state RNA comparison | Analysis-ready measurement plan and literature addendum complete. Agent specification review passed; execution inputs remain unqualified. |
 
 F3 specifies a two-group comparison linking viable lineage recovery, current
 FOXP3 state and matched whole-lineage and FOXP3-positive Il10 RNA. DuPage's

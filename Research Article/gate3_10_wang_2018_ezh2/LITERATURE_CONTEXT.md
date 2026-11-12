@@ -1,13 +1,17 @@
 # Literature context and source access: Wang 2018
 
 Review dates **11–12 November 2026, Asia/Seoul**. The first pass framed source
-reproduction. The technical pass recovered the publisher supplement and audited
+reproduction. The [biological interpretation](BIOLOGICAL_INTERPRETATION_V1.md)
+separates established premises, the reanalysis increment and the implications
+for A33–A35 without changing their hypotheses. The technical pass recovered the publisher supplement and audited
 the day-four RNA source. [Entry point](README.md) · [Results](RESULTS_V1.md).
 
 The coordinating agent's same-day literature pass is preserved in the
 [F3 addendum](F3_LITERATURE_ADDENDUM_20261112.md), with its original query
 strings, panel locators and access boundaries. It informs the
 [linked recovery and state-resolved RNA plan](F3_MEASUREMENT_PLAN_V1.md).
+
+The [neighboring-paper review](RQ_FOLLOWUP_REVIEW_20261112.md#neighboring-article-flow-and-revisited-gaps) revisits the A33–A35 plans against DuPage/Peeters/Panetti, Zhang, Saxton and Yadav. It distinguishes gaps already covered from model/linkage specifications and an optional A33 paired-output bridge; the later [public-source audit](public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md) resolves assay/model precedents, while the [Bockman full read](BOCKMAN_FULL_READ_20261112.md) revises the tumor extension. Their [checkpoint review](PUBLIC_GAP_REVIEW_20261112.md) separates published evidence from remaining functional measurements.
 
 ## Published premise and repository observation
 

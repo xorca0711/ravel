@@ -19,7 +19,7 @@ are the coordinating agent's searches. [Current literature context](LITERATURE_C
 
 The [Wang adaptation](RESULTS_V1.md) found lower Il10/Tgfb1 and positive
 inflammatory ranks alongside negative cell-cycle and positive apoptosis
-ranks. [F2](F2_RESULTS_V1.md) preserved these directions under Signal2Noise,
+ranks. [F2](F2_RESULTS_V1.md) preserved these set-score directions under Signal2Noise,
 with sign reversals elsewhere in the collection. Both analyses reuse the
 published libraries. Their coexisting RNA patterns motivate a linked
 measurement validation and bounded context extension. Recording viable

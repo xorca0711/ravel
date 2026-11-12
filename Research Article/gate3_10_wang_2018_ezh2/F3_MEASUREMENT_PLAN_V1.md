@@ -1,7 +1,8 @@
 # F3 day-four recovery and state-resolved RNA measurement plan
 
 12 November 2026. Article-local owner **Wang18-P01**. This is a specification
-for a future comparison, pending checkpoint review and input qualification.
+for a future comparison. Its agent specification review passed at `5f8caee`;
+input qualification remains required before execution.
 The completed public-data work is the [Wang reconstruction](RESULTS_V1.md)
 and [F2 ranking sensitivity](F2_RESULTS_V1.md). The
 [literature addendum](F3_LITERATURE_ADDENDUM_20261112.md) traces the closest

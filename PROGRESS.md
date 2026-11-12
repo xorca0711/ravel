@@ -1,6 +1,66 @@
 # Current project state
 
-## Wang F3 measurement plan complete for review — 12 November 2026
+## A33–A35 public gaps reviewed; tumor extension revised — 12 November 2026
+
+The [public-gap review](Research%20Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md)
+separates resolved model/assay precedents from unmeasured functional contrasts.
+The existing technical analysis chat completed the
+[source audit](Research%20Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md):
+Wang S4D supplies an inducible-loss engagement precedent; Panetti's key AREG
+endpoint is cellular staining; Loyher qualifies CCR2 detection with specific
+ligand binding; Bonfiglio supplies broader CD4 movement context; Bilbao supplies
+native-IGF recipient competence. None supplies the required joint Ezh2 response
+and biological-unit crosswalk for a new A33–A35 numerical estimate. Partial
+sources remain useful within their stated scope; no generic atlas rerun followed.
+
+Updated all three dossiers, plans, literature contexts and illustrated
+entrypoint prose, retaining hypotheses and figures. A33 now explicitly qualifies
+extracellular AREG separately from cellular induction. A34 validates receptor
+detection and considers general movement competence before CCR2 attribution.
+A35 retains intact Treg-derived protein before endogenous IGFBP4 contribution;
+native-ligand competence alone does not supply that source or effect.
+
+Read Bockman's full 34-page author manuscript and visually inspected all main
+figures. The [full-read record and revised extension](Research%20Article/gate3_10_wang_2018_ezh2/BOCKMAN_FULL_READ_20261112.md)
+correct the earlier broad cDC2-dependence shorthand: either cDC subtype can
+support treated-tumor control; CD8 contribution differs at the distal site.
+The extension adds a defined EZH2 intervention/DC-functional comparison with
+viable Treg recovery, not rediscovery of local depletion or CD4 involvement.
+Wang's own depletion comparison is retained as prior art. Main-paper access was
+recovered through Undermind and NCBI EFetch; seven supplements and cross-paper
+animal linkage remain unresolved. Raw reading files are ignored and hash-bound
+in the read record; no raw numerical experiment was reconstructed.
+
+Next steps: source-specific engagement and assay qualification in the revised
+plans; a new numerical contract only for a qualified, decision-relevant source.
+Actual model access, assay performance, biological-unit variance and precision
+remain experimental prerequisites. A33–A35 functional comparisons and the tumor
+extension are unexecuted. S1–S5/F1–F3 dispositions remain unchanged; F3 is a
+measurement specification. No hypothesis/claim promotion, new RQ, author contact
+or experimental scheduling occurred.
+
+Working tree: `codex/wang-ezh2-execution-20261112`, HEAD `5f8caee`, scoped
+worktree `.worktrees/wang-ezh2-execution-20261112`. GitHub CLI verified as
+`xorca0711`; refreshed `origin/main` was `30a4a7b`. Parent pending edits and
+all frozen contracts/results were preserved. Undermind's verified
+`dreamtree071@gmail.com` account now has a literature workspace for public PDF
+retrieval; no external scientific result was published. Verification: repository validation passed 19,677 checks (including the complete gallery); the research gate
+passed against freshly fetched `origin/main` (`30a4a7b`); whitespace checks
+passed. A targeted preservation check confirmed unchanged contracts, receipts,
+figure provenance and A33–A35 working hypotheses. The technical chat's bounded
+read-only review found no decision-changing G1 integration error or blanket
+source hold. These checks do not confer biological acceptance. The owner requested commit, push and PR. The new [Wang figure gallery](Research%20Article/gate3_10_wang_2018_ezh2/FIGURES.md) embeds all four generated analysis figures at their unchanged run paths, and the article index now links it. Gallery completeness and the research gate passed against `30a4a7b`. Publication is the remaining delivery step.
+
+## Wang public-data follow-up complete and reviewed — 12 November 2026
+
+The [biological interpretation](Research%20Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md)
+separates published findings from the robustness/context evidence added here.
+Wang narrows A33's RNA-to-output interpretation and A34's transferability,
+and adds a consistent RNA context for A35 source/protein qualification.
+Their functional comparisons remain unexecuted. All S1–S5/F1–F3 stages have
+recorded dispositions; S5 is synthesis and F3 is a reviewed specification.
+No hypothesis, acceptance state or frozen analysis changed. Main was refreshed
+and remains `30a4a7b`.
 
 The user selected public data plus an analysis-ready measurement plan. The
 [F3 specification](Research%20Article/gate3_10_wang_2018_ezh2/F3_MEASUREMENT_PLAN_V1.md)
@@ -12,15 +72,18 @@ The [literature addendum](Research%20Article/gate3_10_wang_2018_ezh2/F3_LITERATU
 incorporates the coordinating agent's dated pass and preserves read limits.
 
 The [stage record](Research%20Article/gate3_10_wang_2018_ezh2/FOLLOWUP_STATUS_20261112.md)
-records passed F1/F2 agent checkpoints and pending F3 review. The assessed
+records passed F1/F2 checkpoints and the F3 agent specification review at
+`5f8caee`, against refreshed integration base `30a4a7b`. No blocking issue
+was found for the selected public-data and measurement-plan scope. The assessed
 public data do not link recovery and state-resolved RNA. Future work needs
 qualified genotype/control and lineage measurements, linked counts and RNA,
 design support and justified precision. Original source recovery, exact replay
 and functional reconstruction retain separate input holds. This was
 documentation only. The author request remains unsent and scientific acceptance
-is unassessed.
+is unassessed. Final review documentation passed repository validation
+(19,428 checks) and whitespace checks; no biological analysis was rerun.
 
-## Wang F2 ranking sensitivity complete — 12 November 2026
+## Historical checkpoint: Wang F2 ranking sensitivity — 12 November 2026
 
 The supervising agent passed the [F1 documentary source checkpoint](Research%20Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md#f1-review-checkpoint)
 at `9d9d241`. The governed [F2 result and figure](Research%20Article/gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md)
@@ -37,7 +100,7 @@ inference, exact S3 replay and functional reconstruction remain held. F2 is
 ready for checkpoint review. No F3, author contact or external settings change
 occurred. Scientific acceptance remains unassessed.
 
-## Wang F1 source follow-up complete — 12 November 2026
+## Historical checkpoint: Wang F1 source follow-up — 12 November 2026
 
 The [F1 audit](Research%20Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md)
 recovered the original S3B Signal2Noise label and confirmed the shared
