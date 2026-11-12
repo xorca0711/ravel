@@ -1,5 +1,24 @@
 # Current project state
 
+## Current documentation reconciled — 12 November 2026
+
+Reviewed GitHub main `e7e6823` and based this documentation change on the
+published README-keyword commit `107ba77`. The README now connects the
+original inflammatory lung repair question to Ravel's broader study scope.
+The registry contains 37 questions and 42 article-local candidates. The topic
+map covers all 37 question homes and 23 paper packages, including Zhang; both
+schematic galleries reflect A36. Current indexes use a stable question anchor.
+
+The article index and roadmap distinguish owner reading, executed paper
+analyses and the separate Niethamer/S1 and D1 eligibility holds. Wang 2018's
+reading is documented; its dedicated analysis remains unrun on this baseline.
+The separate Wang worktree carries its developing paper package. Historical
+queues remain dated, and frozen evidence and compatibility locators remain
+available. This documentation review starts no biological rerun.
+Repository validation (19,274 checks), topic and gallery coverage checks, and
+the base-aware provenance gate against `e7e6823` passed. The cleanup is local
+on `codex/current-docs-hygiene-20261112`.
+
 ## Zhang paper README made explicit — 10 November 2026
 
 The owner requested visible screening/analysis details and a format consistent

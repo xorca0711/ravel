@@ -59,6 +59,7 @@ does not automatically create a new active analysis task.
 
 <a id="all-33-current-questions"></a>
 <a id="current-questions"></a>
+<a id="current-questions"></a>
 ## All 37 current questions
 
 | ID | Biological question → what current evidence changes | Question home | Dossier and package | Topic tags |
@@ -120,7 +121,7 @@ The [Yadav follow-up package](Yadav_followups_20261031/README.md) retains Wg-P06
 ## Article-local connections
 
 These recently registered owners remain distinct from the canonical rows.
-The registry retains all 41 article-local candidates, including older Nb4/Nb5/Wg/Wp
+The registry retains all 42 article-local candidates, including older Nb4/Nb5/Wg/Wp
 families. An ID is not acceptance or evidence of a completed mechanism.
 
 | Owner | Current plan / relation to canonical questions |

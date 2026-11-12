@@ -1,8 +1,10 @@
 # Documentation index
 
-**Updated 8 November 2026.** The current registry contains 36 canonical questions,
-39 retained article-local candidates and 20 paper packages. Current owner reports
-supply findings and next comparisons; dated reviews retain their original scope.
+The [research registry](../analysis/research/registry.json) owns the question and
+candidate inventory. The [article index](../Research%20Article/README.md) lists
+paper packages, including sources outside the reading roadmap. Current owner
+reports supply findings and next comparisons. Dated reviews describe their
+original checkpoints.
 
 ## Current entry points
 
@@ -31,7 +33,7 @@ supply findings and next comparisons; dated reviews retain their original scope.
 | Measurement definitions and reusable templates | [measurement contracts](RQ_MEASUREMENT_CONTRACTS.md), [templates](templates/), [research pipeline](research_pipeline/) | Follow each document's scope; no automatic analysis authorization |
 | Portfolio reading | [Representative summary](portfolio/PORTFOLIO_SUMMARY.md), [reading guide](PORTFOLIO.md) | Presentation of selected work; current collection indexes remain authoritative |
 
-## What changed in this organization
+## November 2026 documentation migrations
 
 The former source supplement is incorporated into `DATASETS.md` and archived.
 Twenty existing documents now live under planning, reviews, source-inventory

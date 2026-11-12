@@ -9,7 +9,7 @@ the [project state](../PROGRESS.md) owns the current handoff.
 - [Studies and figure galleries](#studies-with-executed-analyses)
 - [Ungated source papers](#ungated-source-papers)
 - [Reading order and status](#order-and-status)
-- [Reading permissions and dated decisions](#current-reading-decision-1-october-2026)
+- [Reading and analysis status](#reading-and-analysis-status)
 - [Earlier index checkpoints](INDEX_HISTORY_2026-11-02.md)
 - [3 November unfinished-work, metadata-screening and structure audit](../docs/audits/2026-11-03-article-rq-screening/README.md)
 
@@ -19,20 +19,10 @@ grade. Source-study findings, repository reproduction and proposed RQs retain
 their own owners, biological units and interpretation limits. Historical entry,
 withdrawal and reading-order decisions remain in [DEVELOPMENT](../DEVELOPMENT.md).
 
-**Saxton completion, 8 November:** [IL-10 RNA results — Gate 3A, paper 7](gate3_07_saxton_2021_il10/RESULTS.md)
-and [IL-22 Osmr results](gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md) complete the
-owner-authorized finite-library scope. Their ledgers retain population/function
-and exact-replay holds. IL-10 remains existing paper 7; no new roadmap member.
-Its [study](gate3_07_saxton_2021_il10/README.md), result and
-[gallery](gate3_07_saxton_2021_il10/FIGURES.md) entries are under Gate 3A.
-The full evidence package was physically moved into that folder on 10 November;
-the [migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md)
-preserves exact historical provenance. There is no separate ungated Saxton folder.
-
 ## Browse by biological topic
 
-[The shared topic map](../docs/guides/RESEARCH_TOPICS.md) connects all 22 paper packages
-to the 36 question homes. The study inventory has a separate topic-tag column;
+[The shared topic map](../docs/guides/RESEARCH_TOPICS.md) connects paper packages
+to the question homes. The study inventory has a separate topic-tag column;
 reading status, analysis status and interpretation remain in their existing
 columns and owning reports. Shared tags do not establish a paper-to-RQ evidence
 link or independent replication.
@@ -52,24 +42,24 @@ membership; it does not imply acceptance or waive source/analysis eligibility.
 | **Peng 2026 — ungated (Pg1)** | [Biological review and job status](ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md) · [Public results](ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md): completed A12 cell and Visium lattice descriptions; neighboring-paper comparisons and conditional extensions; author-dependent reproduction still held. |
 | **Murthy 2022 — ungated** | [Atlas source and gallery](ungated_murthy_2022/README.md); deposited atlas analysed, roadmap study note not written. |
 
-## Current reading decision, 1 October 2026
+<a id="current-reading-decision-1-october-2026"></a>
 
-The permissions below originate in the 1 October decision. Current paper-specific
-reading and execution status is in [Order and status](#order-and-status) and the
-owning reports. DuPage and its candidate follow-up merged in PR #167 on
-7 November; this does not change Niethamer/S1 or D1 eligibility.
+## Reading and analysis status
 
+Use [Order and status](#order-and-status) for owner reading records and the
+[study index](#studies-with-executed-analyses) for results and remaining source
+requirements. Literature exploration is open across the branches. The
+paper-specific Saxton, DuPage and Zhang analyses have executed within their
+documented scopes. The separate Niethamer/S1 cytokine-phase and D1 lung-Treg
+pilots remain unrun and retain their own eligibility requirements.
 
-Reading and analysis now have separate readiness rules. The foundation,
-2C and 2N packages support synthesis; they are no longer a reason to postpone
-all wider reading. **3A and 3B are open for literature exploration, while
-Niethamer/S1 and D1 remain unrun and their data gates remain unmet.** W1 is
-animal-level pseudobulk, not Compass flux inference. A12/A13 exploratory
-results do not substitute for S1/D1 or establish a cytokine/Treg mechanism.
+The [Saxton IL-10 migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md)
+preserves the earlier source paths. Paper 7 now lives in its Gate 3A package.
 
-The 1 October comparison queue below is historical, not an instruction to
-repeat completed reading or analyses. Stable paper numbers and the historical
-full order remain below; current owner reports determine what remains open.
+### Historical comparison queue — 1 October 2026
+
+This table records the earlier sequence. The current paper entries below
+record later reading and execution.
 
 | Step | Read or review | Output that makes the next choice useful |
 |---|---|---|
@@ -77,12 +67,9 @@ full order remain below; current owner reports determine what remains open.
 | First comparison round | Yadav (16), Wheeler (X1), Dhillon-Richardson (X2), Saxton IL-22 (8), DuPage EZH2 (9) | One short evidence card per paper, comparing repair biology, immune-state regulation and functional/computational methods |
 | Follow the strongest question | Compass (15), IL-10 (7), Zhang (11), Mu (X3), Ma (X4), then Wang (10) as relevant | Choose based on the biological uncertainty and the work desired, not only on available datasets |
 
-Current evidence: use the Nb2, Nb3 and Nb4 packages in this checkout. Their completed analyses do not establish scientific acceptance or remove functional evidence gaps.
-
 ### 2X: cross-field literature comparison
 
-New literature references have X identifiers so papers 1–16 and global RQ IDs
-are not renumbered. These are reading candidates, not owner-completed notes
+The X identifiers preserve stable paper and global question IDs. These are reading candidates, not owner-completed notes
 or newly authorized analysis workspaces. Public source checks: 1 October 2026.
 
 | ID | Paper | Question to carry back to the lung work | Boundary |
@@ -122,6 +109,7 @@ linked in each study's gallery.
 | [Saxton 2021: IL-10 CD8 RNA — Gate 3A](gate3_07_saxton_2021_il10/README.md) | [Completed adapted source description](gate3_07_saxton_2021_il10/RESULTS.md); mixed super-10 responses, 10-DE attenuation and exact unit/replay holds | [Three RNA figures](gate3_07_saxton_2021_il10/FIGURES.md) | [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Saxton 2021: IL-22 and recipient context](gate3_08_saxton_2021_il22/README.md) | [Completed Osmr extension](gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md), [reviewed colon RNA description](gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md), prior source/QC and external feasibility; no causal STAT, population or functional inference | [Combined gallery with the Osmr extension](gate3_08_saxton_2021_il22/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [DuPage 2015: Ezh2 and activated Treg identity](gate3_09_dupage_2015/README.md) | [S0–S6 results](gate3_09_dupage_2015/RESULTS.md); [exploratory target screen](gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md), 32 coding candidates; functional validation pending | [Target-screen portfolio](gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md); [original measured gallery](gate3_09_dupage_2015/README.md#measured-figures) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
+| [Zhang 2026: local Treg control of NK responses](gate3_11_zhang_2026_nk/README.md) | [Released RNA replay and bounded sensitivity](gate3_11_zhang_2026_nk/RESULTS.md); exact count-model and functional reconstruction remain open | [Six measured figures](gate3_11_zhang_2026_nk/FIGURES.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [Damani-Yokota 2026: macrophage immune history (ungated)](ungated_damani_yokota_2026/README.md) | [Analysis inventory and synthesis](gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md); baseline diagnostics, human descriptions and external measurement references with explicit source/design holds | [13 current plates and original archive](gate2_DY1_damani_yokota_2026/FIGURES.md) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) |
 | [Wang 2025: PGAM and Th17 pathogenicity](gate2_W2_wagner_Th17_PGAM/README.md) | [Claim-by-claim reproduction outcome](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026) across seven governed runs: single cell ([Wp-R1](gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)), bulk ([Wp-R3](gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md)), human reuse ([Wp-R4](gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md)), a Compass version-and-input sensitivity ([Wp-R2](gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md)) and the branch pair ([Wp-P01](gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md), [Wp-P03](gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)). | [Current and historical figures](gate2_W2_wagner_Th17_PGAM/FIGURES.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) |
 | [Wagner 2021: Th17 differentiation and metabolic scores](gate2_W1_wagner_th17_autoimmunity/README.md) | [R1 scores](gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md): 48-hour IL-17A–GFP-positive mouse cells, Th17p (IL-1β/IL-6/IL-23) versus Th17n (TGF-β1/IL-6). [Initial R3 RNA](gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md): paired control/DFMO cultures at 68 hours. | [Eight-plate gallery](gate2_W1_wagner_th17_autoimmunity/FIGURES.md); [Figure 3 d/q table](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-3-which-reaction-scores-differ); [Figure 5 axis guide](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-5-exact-axes-and-symbols); [source-aligned PCA/programs](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-6-source-aligned-rna-programs); [direct genotype interactions](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-7-direct-jmjd3-by-dfmo-rna-interactions) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) |
@@ -167,8 +155,8 @@ explain both this archive and the cross-study specificity module.
 | 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | IL-10 response heterogeneity in activated CD8 RNA | [Authorized bounded source work](gate3_07_saxton_2021_il10/README.md); historical gate does not block this scope | Main Results/Figures3-5 and RNA methods read; S9 access held | [Completed RNA description and sensitivity](gate3_07_saxton_2021_il10/RESULTS.md); donor inference and exact replay held |
 | 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | Context-dependent IL-22 signaling, transcription and measured protective/inflammatory outcomes | [Sx22 results and ledger](gate3_08_saxton_2021_il22/README.md) | Figures3-7 and RNA methods reviewed 8 November; source corrections retained | Fixed Osmr extension completed 8 November; R1/X1-X3/E1a reviewed; Q1-Q4 colon RNA description and three figures reviewed; population inference, exact replay, signaling/function and linked persistence retain specific holds; Niethamer/S1 remains separately gated |
 | 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | [Dp1 paper package](gate3_09_dupage_2015/README.md) | owner reading complete 2026-11-07; annotated PDF and notes reviewed | S0–S6 complete within stated scope; target screen and [candidate follow-up](gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md) executed. GSE262130 supplies selected rlog context, not independent validation. Protein/function and unit holds remain; Niethamer/D1 separately gated. |
-| 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
-| 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | [Paper package](gate3_11_zhang_2026_nk/README.md) | owner read; released RNA replay and bounded sensitivity completed 2026-11-10; separate D1 gate unchanged | [Results and exact holds](gate3_11_zhang_2026_nk/RESULTS.md); [six figures](gate3_11_zhang_2026_nk/FIGURES.md) |
+| 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | — | Owner Results and Discussion notes documented by 11 November 2026 | Dedicated analysis unrun on this baseline; Niethamer/D1 is a separate pilot |
+| 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | [Paper package](gate3_11_zhang_2026_nk/README.md) | owner read; paper review recorded 2026-11-10 | Released RNA replay and bounded sensitivity completed 2026-11-10. [Results and exact holds](gate3_11_zhang_2026_nk/RESULTS.md); [six figures](gate3_11_zhang_2026_nk/FIGURES.md) |
 
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
 folder names normally carry it. England uses branch 2C item 2 (`gate2_C2`, stable order 12),
@@ -208,7 +196,7 @@ DOIs and PMIDs were verified against PubMed on 2026-09-09.
 ## Gate rules carried over from the roadmap
 
 **Historical rules from the original reading/pilot roadmap.** The later
-[reading permissions](#current-reading-decision-1-october-2026) separate open
+[reading and analysis status](#reading-and-analysis-status) separate open
 literature exploration from analysis eligibility. Current per-paper reports
 record authorized work; these dated rules do not restart completed pilots or
 revoke later permissions. Niethamer/S1 and D1 retain their own existing gates.

@@ -3,23 +3,21 @@
 [![Repository checks](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-Ravel combines critical reading of primary literature, reproduction of accessible
-findings and reanalysis of public biological data. It investigates cellular states
-and molecular programmes in tissue homeostasis, injury, repair, ageing and disease,
-using unresolved findings to develop testable research questions.
+Ravel grew out of a question about lung repair after influenza. How do inflammatory
+signals from immune and stromal cells shape the states that alveolar epithelial
+cells enter after injury, and what determines whether those states lead to
+functional repair or persistent remodelling?
 
-The portfolio follows how a question changes with evidence: the published premise,
-the comparison worth making, its result and the next uncertainty. A useful outcome
-can narrow a biological context, reveal a failed generalization or establish a
-measurement limit. Positive findings, mixed results and justified stops are part
-of that scientific progression; they do not all imply a new causal mechanism.
-
-The project began with lung single-cell and multiome studies. Its scope now
-follows the papers and questions under investigation across relevant tissues,
-organisms and experimental contexts. Analyses include single-cell and bulk RNA
+The project uses critical reading of primary literature and reanalysis of public
+data to investigate cell identity, signalling and function across tissues and
+experimental contexts. Analyses include single-cell and bulk RNA
 sequencing, RNA–chromatin comparisons, and accessible spatial, imaging,
 perturbation and clonal measurements. Each study retains its own biological
 units, measured endpoints and interpretation limits.
+
+Each study starts with a published finding and a defined comparison. Positive,
+mixed and unfavorable results can narrow the biological context, reveal a failed
+generalization or identify a measurement needed to answer the next question.
 
 **Research interests** · Inflammation-driven cell plasticity ·
 epithelial–immune–stromal crosstalk · cell-state stability and persistence ·
@@ -38,10 +36,10 @@ and preservation of historical evidence.
 | What you need | Where to start |
 |---|---|
 | Browse related biological topics across questions and papers | [Topic map](docs/guides/RESEARCH_TOPICS.md) |
-| Questions, biological rationale and proposed comparisons | [All 36 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
+| Questions, biological rationale and proposed comparisons | [Question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
 | Public-data use, local deposits and eligibility | [Single source register](docs/DATASETS.md) |
-| Current results and remaining work | [Project state](PROGRESS.md) · [Current question findings](RQ_Specified/README.md#all-33-current-questions) |
+| Current results and remaining work | [Project state](PROGRESS.md) · [Current question findings](RQ_Specified/README.md#current-questions) |
 | Evidence grades, corrections and negative results | [Claim summary](docs/CLAIM_SUMMARY.md) · [Full register](CLAIMS.md) · [Negative results](docs/NEGATIVE_RESULTS.md) |
 | Reproduction and research development | [Reproducibility](REPRODUCIBILITY.md) · [Research governance](docs/RESEARCH_GOVERNANCE.md) · [Documentation index](docs/README.md) |
 

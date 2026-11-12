@@ -5,8 +5,8 @@
     "reading_order_last_checked": "2026-10-01",
     "dupage_2015_status_updated": "2026-11-07; merged PR #167 at 32ab85e; S0-S6, target screen and GSE262130 candidate follow-up executed within descriptive scope; current owning reports retain limits",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
-    "analysis_status_updated": "2026-10-07",
-    "analysis_status_basis": "PROGRESS.md; docs/audits/2026-10-07-repository-readiness/REPORT.md; current linked Wg/Wp result reports; owner reading statuses unchanged",
+    "analysis_status_updated": "2026-11-12 (navigation and reading-status reconciliation)",
+    "analysis_status_basis": "Current paper reports and PROGRESS.md for execution, with owner reading records tracked separately. The 2026-10-07 readiness report remains a historical checkpoint.",
     "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
     "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed",
     "reconciled_with_main": "2026-10-03; 0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f",
@@ -64,8 +64,8 @@
     "2C": "Choi axis: papers 5, 12, 13; synthesize completed analyses and remaining functional questions",
     "2N": "Nabhan: papers 6, 14; owner reading complete, Nb2/Nb3 analyses available with limits",
     "2W": "Wagner branch: papers 16, 15 and 17. Wg (2021) source/RNA analyses and Wp (2025 PGAM) R0–R4 have run within declared limits. Wp corrected current reports supersede affected raw-penalty and human-normalization summaries. Niethamer W1 remains a separate analysis.",
-    "3A": "Saxton: reading open 2026-10-01, papers 8 then 7; analysis gated",
-    "3B": "DuPage: reading open 2026-10-01, papers 9 then 11; paper 10 optional next; analysis gated",
+    "3A": "Saxton: papers 8 and 7 have reading records and bounded executed source analyses. Niethamer/S1 is a separate gated pilot.",
+    "3B": "DuPage 2015 (9), Wang 2018 (10) and Zhang 2026 (11) have reading records. Dedicated source analyses for 9 and 11 have executed within their stated scope; Niethamer/D1 is a separate gated pilot.",
     "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4"
   },
   "reading_order": [
@@ -391,8 +391,8 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
-      "trial_status": "not started"
+      "note_status": "owner Results and Discussion notes documented by 2026-11-11",
+      "trial_status": "dedicated analysis unrun on this baseline; Niethamer/D1 is separate"
     },
     {
       "order": 11,
@@ -409,7 +409,7 @@
       "extract": [],
       "datasets": [],
       "folder": "gate3_11_zhang_2026_nk",
-      "note_status": "owner read; paper review and biological interpretation completed 2026-11-10; separate D1 lung gate unchanged",
+      "note_status": "owner read; paper review recorded 2026-11-10",
       "trial_status": "released TPM RNA reproduction and bounded block/ranking sensitivity completed 2026-11-10; count-model and functional reconstruction unresolved; see gate3_11_zhang_2026_nk/RESULTS.md and INTERPRETATION_AND_ACCESS_V1.md"
     },
     {
@@ -787,6 +787,7 @@
     "saxton_2021_il10": "Full current package: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Former ungated directory retired 2026-11-10 by a byte-preserving migration; original contract and receipt references remain auditable through the exact file map."
   },
   "current_reading_queue": {
+    "status": "historical; see the individual paper entries for current reading and analysis status",
     "updated": "2026-10-04",
     "spine_refresh": [
       14,

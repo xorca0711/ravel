@@ -1,6 +1,9 @@
 # Repository structure and label scope
 
-**Current scope — 8 November 2026:** 36 canonical questions (A0–A35) and 39 retained article-local candidates. A32 develops Yd1-P02; A33–A35 develop Dp1-P01; registration does not imply scientific acceptance. The [registry](../../analysis/research/registry.json) and [question homes](../../RQ_Specified/README.md) own the current inventory.
+The [registry](../../analysis/research/registry.json) and
+[question homes](../../RQ_Specified/README.md) own the current inventory.
+The [article index](../../Research%20Article/README.md) records reading,
+execution and source eligibility by paper.
 
 Navigation and label scope reconciled 7 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
@@ -8,10 +11,10 @@ protocols, original trial names and immutable run records remain historical evid
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md) | One current register, A0–A35; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md) | One current register; proposed refinements link to evidence dossiers and source studies |
 | Topic-based navigation | [Biological topic map](RESEARCH_TOPICS.md), with matching RQ/article index tags | Overlapping biological scope; one stable home per owner. Tags are separate from current findings, reading status and execution status. |
-| Question homes | `RQ_Specified/A<id>_<topic>/` for all 36 RQs | README starts with Organizing Biological Q, then Literature context & visual hypothesis; local context, plan and schematics. Add analysis subdirectories only where work exists; link paper-owned and frozen evidence. |
-| Full scientific argument | `docs/research_dossiers/A<id>.md` | All 36 dossiers retain hypotheses, alternatives and experimental bridges; each links its question home. |
+| Question homes | `RQ_Specified/A<id>_<topic>/` | README starts with Organizing Biological Q, then Literature context & visual hypothesis; local context, plan and schematics. Add analysis subdirectories only where work exists; link paper-owned and frozen evidence. |
+| Full scientific argument | `docs/research_dossiers/A<id>.md` | Dossiers retain hypotheses, alternatives and experimental bridges; each links its question home. |
 | Qualitative RQ illustrations | [RQ schematic gallery](../../RQ_Specified/SCHEMATIC_GALLERY.md) and each home’s `schematics/` | Registered qualitative SVG or current matte PNG with provenance; separate from measured-result figures. |
 | Shared question figures | [analysis/figures/rq/README.md](../../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](../RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -30,7 +33,10 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../../PROGRESS.md), [AI_CONTEXT.md](../../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](../RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](../research_dossiers/README.md) develop all 36 questions; the registry locates their evidence and the 39 retained article-local candidates; their IDs do not automatically become canonical RQs.
+See [research governance](../RESEARCH_GOVERNANCE.md) for authority, contract
+and immutable evidence rules. [Dossiers](../research_dossiers/README.md) develop
+canonical questions. The registry distinguishes their evidence from article-local
+candidates.
 
 The question README is the reader's current scientific entrypoint: biological
 purpose, published premise, performed comparison, actual result, changed
@@ -42,9 +48,9 @@ than treated as a second current execution queue. The collection index offers
 biological-topic and contribution-based reading routes; neither replaces IDs or
 assigns scientific acceptance. Frozen source evidence stays with its owner.
 
-The [topic map](RESEARCH_TOPICS.md) spans all 36 question homes and 22 paper
-packages. The 38 directories under `RQ_Specified/` comprise those 36 homes plus
-two shared/historical workspaces (A5/A11 and Yadav). Physical directories under
+The [topic map](RESEARCH_TOPICS.md) spans the question homes and paper packages.
+`RQ_Specified/` also contains two shared or historical workspaces (A5/A11 and
+Yadav). Physical directories under
 `Research Article/` also include preserved historical entry points, the
 cross-study specificity module and the Primary source archive.
 These supporting directories do not create extra RQs or papers. Topic changes
@@ -57,7 +63,7 @@ directories were moved. Dp1-P01 remains the article-local source owner; its thre
 
 ## Identifier namespaces
 
-- `A0`–`A35` identify the current repository-wide question cards. A15–A18
+- A-series IDs identify the repository-wide question cards. A15–A18
   retain their pending proposals; A19–A21 derive from Nb2 and A22–A23 from Nb3.
   Registration is not biological acceptance or confirmatory readiness.
   Figures use the associated question ID, with panel/group suffixes where needed.
