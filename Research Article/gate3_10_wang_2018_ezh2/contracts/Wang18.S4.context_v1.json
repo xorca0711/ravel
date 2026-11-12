@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S4.context_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the directions of five exposed Treg RNAs transfer across the available, distinct EZH2 contexts?",
+  "decision": "Identify direction concordance or discordance across specified contexts; do not nominate or validate targets.",
+  "strongest_rival": "Differences in alleles, sorting, controls, culture and recovered states can produce discordance without a causal context interaction.",
+  "discriminator": "Compare exact symbols across source-specific point estimates and retain available omission ranges; this cannot estimate a genotype-by-context interaction across sources.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_10_wang_2018_ezh2/CONTEXT_AMENDMENT_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results, Wang S1–S3 and existing Dp1/Peeters results including the five candidate directions are known. Exposed lookup of fixed panel; no target nomination.",
+  "biological_unit": "Deposited RNA libraries summarized separately in three studies. Mouse/pool nesting not established across all sources.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Reuse of previously frozen library contrasts; no asserted biological independence or pooling across studies.",
+  "population_and_selection": "Wang day-four activated CD62L-high starting mouse Tregs, DuPage mouse CD62L-high/low Tregs, and Peeters freshly sorted and day-four cultured mouse Tregs.",
+  "contrast": "Wang fl/fl minus pooled or +/+ controls; DuPage CD62L-high and -low KO-minus-HET; Peeters fresh and day-four gain-minus-WT.",
+  "endpoint": "Fixed panel of relative transcript-abundance directions within each source scale.",
+  "methods": "Python 3.12.10 standard library exact case-sensitive unique Wang/DuPage symbol and Peeters contrast-key join. Preserve source estimates and existing sensitivity ranges, compare only directions.",
+  "missingness_and_exclusions": "No new candidate or proxy. Stop if any fixed candidate or required contrast is absent or lacks unique eligible support.",
+  "multiplicity": "Descriptive outputs only; no gene-level or set-level tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No sampling uncertainty is estimated for the finite deposited libraries.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No animal-population inference, cell-state or functional effect, tumor specificity or independent replication.",
+  "stop_rule": "Do not add human tissue datasets or a new functional run absent a fit-for-purpose comparison. Do not pool magnitudes or estimate a cross-study interaction.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/gene_sensitivity.tsv",
+      "sha256": "e9003ca2cb868b26e1210006136622288684815a368a50a5c9ac18d6535c30e9",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+      "sha256": "4af983414f097eb90132ffbe0cd0b59db7097ee77831dd5b0d9328f35345db47",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/interaction.tsv",
+      "sha256": "ce49040775cfbf9ac7b119d33f60c3f54865b7d595294d23508b8e83dbae879e",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json",
+      "sha256": "72379d5aff015e7493047162e0779442a8eb19b5d11a66adf2860e5db9ef38a0",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_candidate_followup_v1/contrasts.tsv",
+      "sha256": "b0a163e6f114c548ea1fd7b42f1a1ec3d2cb12c42d7a15c2002a01d715ed4ae9",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_candidate_followup_v1/receipt.json",
+      "sha256": "bbe6cf1b27bceeb9720bc1c25d3e04ead4f9507890c02ff3d52efdddab26f04d",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/context_v1.py",
+      "sha256": "989f5a636c10abb2c8b1e702cb029cf8ca56ee2b209c5821e7c612c338fd4c82"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_10_wang_2018_ezh2/scripts/context_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "context_directions.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "S3 indicates distinct inflammatory and cell-cycle rank patterns. A fixed panel assesses whether RNA directions transfer across the previously examined contexts."
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S3.breadth_v1",
+  "owner": "Wang18-P01",
+  "contract": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S3.breadth_v1.json",
+  "contract_sha256": "17f06c680b70824cfc6435ae2529220967113f15c6866df21fbda9acc48615f1",
+  "git_commit": "67bea75bed01ebbefde5067fd61324983e3897b3",
+  "started_at": "2026-11-12T03:32:51.993940+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+    "--output",
+    "analysis/research/runs/wang18_s3_breadth_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+      "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+      "study_id": "Ensembl78",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
+      "sha256": "3428c2e96b7f4b6e25fa1487375faf9073f924c7ba55bbe6f2e26de3f61ea132",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/receipt.json",
+      "sha256": "bd7bc3651c11e36893fa241f19128aa00cfe2ae389375460db8ef2098a76c362",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+      "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/mh.all.v2025.1.Mm.symbols.gmt",
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "study_id": "MSigDB-2025.1.Mm",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+      "sha256": "53332ca6ebb9f989b7aef1bde878127c08f3540615350ab0a0189cf356ff563b"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/gene_sensitivity.tsv",
+      "sha256": "e9003ca2cb868b26e1210006136622288684815a368a50a5c9ac18d6535c30e9"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/hallmark_scores.tsv",
+      "sha256": "47acfed6c4534107791c9981d65c9f9c4e058bd266f56c0aebfc7981c3e83d36"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/hallmark_patterns.png",
+      "sha256": "6acf10b515822750e964de587ff9d0eb4abdedf3afad26591c2f188aef308a91"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T03:32:58.634592+00:00"
+}
