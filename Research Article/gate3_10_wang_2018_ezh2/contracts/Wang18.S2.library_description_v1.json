@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S2.library_description_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the nine deposited day-four libraries differ in relative RNA abundance across deficient and control groups?",
+  "decision": "Quantify the published anchors and the complete adapted contrast; assess whether excluding the lone fl/+ library changes direction.",
+  "strongest_rival": "Biological-unit dependence, culture selection and unknown genotype-correlated blocks can produce the observed group pattern.",
+  "discriminator": "Show separate library values and the pooled versus +/+ comparison. Neither identifies mouse relationships, a batch effect, or uniform within-cell regulation.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_10_wang_2018_ezh2/SOURCE_QUALIFICATION.md",
+    "Research Article/gate3_10_wang_2018_ezh2/EXECUTION_AMENDMENT_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published S3B–C outcomes and Dp1 directions are known. GEO/ENA/BioSample identities, source methods and the count header have been inspected. Subsequent stages explicitly record additional exposure.",
+  "biological_unit": "Deposited day-4 bulk RNA library; source mouse or pool unit is unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine unique BioSample and library/run accessions. Mouse/pool reuse and processing blocks are unresolved. Wang article and GEO reanalysis are shared-source evidence.",
+  "population_and_selection": "C57BL/6 initially CD62L-high Tregs cultured for 96 hours with CD3/CD28 stimulation and IL-2. Viable recovered cell composition after culture is unresolved.",
+  "contrast": "Four fl/fl libraries minus all five deposited controls, with +/+ only (four libraries) as sensitivity.",
+  "endpoint": "Log2 ratio of group means of normalized RNA counts, per-library normalized anchor reads, and sample PCA.",
+  "methods": "Python 3.12.10, numpy 2.5.1 and matplotlib 3.11.1. Size factors from positive-all-libraries gene geometric means and per-library median ratios, centered at geometric mean one. Pseudocount 0.5 in each group mean. Exact Ensembl release 78 stable IDs; mark nonunique symbols. PCA on centered log2(normalized reads + 1) of rank-eligible genes.",
+  "missingness_and_exclusions": "Keep all 43,432 rows, identify zeros and low counts. Blank contrast for all-zero rows. Rank eligibility is count >=10 in at least four libraries. No sample exclusions from the primary comparison.",
+  "multiplicity": "Descriptive outputs only; no gene-level or set-level tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No sampling uncertainty is estimated for the finite deposited libraries.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No animal-population inference, cell-state or functional effect, tumor specificity or independent replication.",
+  "stop_rule": "Stop on inconsistent source/group identity, absent normalization reference or unmappable published anchors. No population inference without verified units and design.",
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+      "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+      "study_id": "Ensembl78",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
+      "sha256": "3428c2e96b7f4b6e25fa1487375faf9073f924c7ba55bbe6f2e26de3f61ea132",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "complete_contrast.tsv",
+    "anchor_values.tsv",
+    "library_coordinates.tsv",
+    "summary.json",
+    "library_overview.png",
+    "anchor_libraries.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First descriptive execution. S1 found a mixed control and did not verify independent biological units; use the prospectively amended descriptive route in EXECUTION_AMENDMENT_V1.md."
+}

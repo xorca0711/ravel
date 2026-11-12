@@ -1,6 +1,6 @@
 # A33: literature context
 
-Current synthesis: 8 November 2026; underlying literature searches/read checks: 7 November. Source revision `4ae13c09383c9afbd350e662094d0655bd7fe347`. This revision reorganizes the existing bounded review and completed results; it does not claim a new exhaustive search. [Question](README.md) · [Dossier](../../docs/research_dossiers/A33.md).
+Current synthesis: 12 November 2026; underlying review: 7 November, with a [bounded Wang-informed refresh](../../Research%20Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md). Source revisions: original review `4ae13c0`, Wang evidence `5f8caee`; refreshed integration base `30a4a7b`. Search queries, exact locators, versions and access limits are recorded in the refresh; this is not an exhaustive novelty assessment. [Question](README.md) · [Dossier](../../docs/research_dossiers/A33.md).
 
 ## Published starting point
 
@@ -14,6 +14,10 @@ Publication versions, source identity and detailed read/access history are recor
 
 ## Repository observation
 
+Wang adds lower Tigit and Prdm1 but higher Areg RNA after four days of culture. All three directions persist in the recorded strict-control and library-omission checks. This strengthens the reason to separate basal abundance from the TIGIT-evoked AREG response; it neither confirms nor falsifies the registered smaller-response prediction. [Wang table](../../analysis/research/runs/wang18_s4_context_v1/context_directions.tsv) · [Interpretation](../../Research%20Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md).
+
+Wang uses four deficient and five deposited-control libraries, with a four-library +/+ sensitivity. Mouse/pool and processing assignments remain unresolved, and the supplement disagrees with deposited control labels. The five-gene panel was outcome-exposed. Its different source scales permit descriptive direction checks, not a pooled effect, population inference or independent biological replication.
+
 Lower Tigit and Prdm1 RNA in DuPage KO-low Tregs motivates an output-response question. The follow-up makes that question more specific: the two transcripts reverse direction between fresh and cultured EZH2-gain samples, while Areg does not follow their cultured decrease. No AREG secretion or response deficit has yet been measured.
 
 [DuPage coding screen](../../Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md) · [executed gain-context follow-up](../../Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md). The [question-page table](README.md#evidence-analyses-and-next-steps) shows candidate-specific values and unfavorable anchors. DuPage values are differences of mean log2(FPKM + 1), from 11 retained libraries; Peeters values are mean published rlog differences, from 12 libraries (three/group) in an author-selected matrix. These are different units and populations, not comparable effect magnitudes. Animals/pools and pairing remain unverified. Library-omission stability is not a confidence interval or independent replication.
@@ -26,9 +30,17 @@ All original DuPage outcomes and relevant published narratives were exposed. The
 
 ## What this question could add
 
+The neighboring-paper review adds an optional comparison of AREG responsiveness and conventional-T-cell suppression in aliquots from the same Treg preparations. Their relationship under Ezh2 loss remains unmeasured; AREG alone is not tissue repair. The primary response hypothesis is unchanged. The [12 November neighboring-paper pass](../../Research%20Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md#neighboring-article-flow-and-revisited-gaps) records DuPage/Peeters/Wang/Panetti, Zhang, Saxton and Yadav flows, the earlier Bockman lead and source-access limits; the later full-main-paper review below supersedes that access state. Published premises remain separate from this proposed comparison.
+
+The 12 November refresh rechecked Panetti Figures 5d–e, 6h–l and Extended Data 8 against the proposed activation-context extension. Activation dependence itself is published; whether it modifies the Ezh2 genotype difference in evoked output remains untested. Access remains the reused full primary review plus refreshed indexed Results/legends, not a new full supplement read. [Search/version/access record](../../Research%20Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md#bounded-literature-refresh).
+
 A context/boundary test of whether Ezh2 loss changes a receptor-evoked output, rather than another expression association. This can be informative even if the published TIGIT mechanism is reproduced. PRDM1 is a conditional mediator question, not a second independently selected target.
 
 A2 and A9 concern epithelial AREG delivery and fibroblast recipient competence. A33 concerns receptor-evoked output from Tregs under Ezh2 perturbation, with no recipient-repair claim. A12 concerns IL-1 recipient context, not this source response.
+
+## Public-source qualification, 12 November 2026
+
+Panetti Figure 6h measures cellular AREG induction with transport/shedding inhibitors, not extracellular release. Public evidence qualifies a stimulation comparison; the Ezh2-conditioned extracellular response remains unmeasured. See [Panetti Figures 6h–i and stimulation Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC12571903/). The [technical audit](../../Research%20Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md) records versions, searches, sample crosswalks and access boundaries. The [review and revised sequence](../../Research%20Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md) retain useful published precedents while holding only unsupported comparisons. Wang S4D resolves an acute established-Treg model precedent, not actual implementation or paired RNA/protein/recovery measurements. Bockman's [completed full-main-paper read](../../Research%20Article/gate3_10_wang_2018_ezh2/BOCKMAN_FULL_READ_20261112.md) supersedes the earlier abstract-only tumor lead without creating a result for this RQ.
 
 ## Current hypothesis and rival
 
@@ -37,6 +49,8 @@ Under a common, demonstrably responsive activation context, Ezh2-deficient murin
 Different activation history, receptor availability, cell selection or loss, and accessory/Fc effects can alter the response. A response deficit does not alone identify PRDM1 mediation.
 
 ## What the comparison would teach
+
+First qualify surface TIGIT and a responsive AREG release assay under a common activation context. In matched aliquots, retain basal/reagent-control output, the engagement-minus-control response and absolute viable lineage recovery. Estimate the genotype difference between those two within-preparation responses. A higher basal output can coexist with a smaller inducible increment; neither should be hidden by reporting only fold induction or a final-cell-normalized value. Accessory/Fc effects and source attribution remain assay requirements. See the plan for the conditional activation-context extension; PRDM1 mediation and recipient repair require separate evidence. The [conditional extension](PLAN.md#conditional-extension) is a proposed comparison, not a result or a new RQ.
 
 The immediate decision is whether the engagement-minus-control AREG response differs between genotypes under a common responsive activation context. A retained response would narrow the interpretation toward context or expression differences; an output deficit would justify asking whether receptor availability, general cell fitness or PRDM1 contributes. Measuring a genotype response effect does not require proving the entire pathway first.
 
@@ -50,6 +64,8 @@ Independent mice/preparations define units, with nested aliquots/wells. Model av
 
 ## Reading the registered illustration
 
+The existing illustration still depicts the unexecuted comparison. Wang adds RNA context, not measured receptor/protein amounts or functional outcomes; the working hypothesis and versioned artwork are unchanged.
+
 The upper inset is the published activation-dependent premise. The two Tregs depict a proposed genotype comparison, not measured receptor amounts or equal output. The central double-headed arrow denotes comparison only. AREG dots and cell counts are qualitative; PRDM1 mediation and recipient repair remain untested. Anatomical, cell and protein glyphs are illustrative, not measured counts or molecular structures. The drawing cannot resolve the source and functional uncertainties described above.
 
 ## Hypothesis schematic
@@ -60,4 +76,4 @@ GPT-generated matte illustration, 8 November 2026. The upper inset is the publis
 
 ## Next literature check
 
-The [7 November query/access record](../../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md#search-record) distinguishes completed reads from uninspected leads and incomplete methods. Reuse this bounded review until the model, perturbation or endpoint changes. Before executable design, retrieve the closest remaining methods/supplement needed for that exact comparison; source-wide absence or experimental readiness is not established by partial access.
+The [7 November query/access record](../../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md#search-record) distinguishes completed reads from uninspected leads and incomplete methods. The 12 November refresh qualifies the conditional extensions; refresh again when the actual model, perturbation or endpoint changes. Before executable design, retrieve the closest remaining methods/supplement needed for that exact comparison; source-wide absence or experimental readiness is not established by partial access.

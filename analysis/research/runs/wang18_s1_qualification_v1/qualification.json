@@ -1,0 +1,14 @@
+{
+  "libraries": 9,
+  "genes": 43432,
+  "genotype_counts": {
+    "deficient": 4,
+    "flox_het": 1,
+    "wild_type": 4
+  },
+  "all_zero_genes": 20593,
+  "annotation": "Ensembl GRCm38 release 78",
+  "count_scale": "uniquely assigned STAR counts aggregated by gene per GEO",
+  "biological_independence": "unknown",
+  "eligible_scope": "deposited-library description with control-allele sensitivity"
+}

@@ -1,5 +1,271 @@
 # Current project state
 
+## A33–A35 public gaps reviewed; tumor extension revised — 12 November 2026
+
+The [public-gap review](Research%20Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md)
+separates resolved model/assay precedents from unmeasured functional contrasts.
+The existing technical analysis chat completed the
+[source audit](Research%20Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md):
+Wang S4D supplies an inducible-loss engagement precedent; Panetti's key AREG
+endpoint is cellular staining; Loyher qualifies CCR2 detection with specific
+ligand binding; Bonfiglio supplies broader CD4 movement context; Bilbao supplies
+native-IGF recipient competence. None supplies the required joint Ezh2 response
+and biological-unit crosswalk for a new A33–A35 numerical estimate. Partial
+sources remain useful within their stated scope; no generic atlas rerun followed.
+
+Updated all three dossiers, plans, literature contexts and illustrated
+entrypoint prose, retaining hypotheses and figures. A33 now explicitly qualifies
+extracellular AREG separately from cellular induction. A34 validates receptor
+detection and considers general movement competence before CCR2 attribution.
+A35 retains intact Treg-derived protein before endogenous IGFBP4 contribution;
+native-ligand competence alone does not supply that source or effect.
+
+Read Bockman's full 34-page author manuscript and visually inspected all main
+figures. The [full-read record and revised extension](Research%20Article/gate3_10_wang_2018_ezh2/BOCKMAN_FULL_READ_20261112.md)
+correct the earlier broad cDC2-dependence shorthand: either cDC subtype can
+support treated-tumor control; CD8 contribution differs at the distal site.
+The extension adds a defined EZH2 intervention/DC-functional comparison with
+viable Treg recovery, not rediscovery of local depletion or CD4 involvement.
+Wang's own depletion comparison is retained as prior art. Main-paper access was
+recovered through Undermind and NCBI EFetch; seven supplements and cross-paper
+animal linkage remain unresolved. Raw reading files are ignored and hash-bound
+in the read record; no raw numerical experiment was reconstructed.
+
+Next steps: source-specific engagement and assay qualification in the revised
+plans; a new numerical contract only for a qualified, decision-relevant source.
+Actual model access, assay performance, biological-unit variance and precision
+remain experimental prerequisites. A33–A35 functional comparisons and the tumor
+extension are unexecuted. S1–S5/F1–F3 dispositions remain unchanged; F3 is a
+measurement specification. No hypothesis/claim promotion, new RQ, author contact
+or experimental scheduling occurred.
+
+Working branch: `codex/wang-ezh2-execution-20261112`, scoped worktree
+`.worktrees/wang-ezh2-execution-20261112`; numerical execution and F3
+specification ended at `5f8caee`. GitHub CLI verified as
+`xorca0711`; refreshed `origin/main` was `30a4a7b`. Parent pending edits and
+all frozen contracts/results were preserved. Undermind's verified
+`dreamtree071@gmail.com` account now has a literature workspace for public PDF
+retrieval; no external scientific result was published. Verification: repository validation passed 19,677 checks (including the complete gallery); the research gate
+passed against freshly fetched `origin/main` (`30a4a7b`); whitespace checks
+passed. A targeted preservation check confirmed unchanged contracts, receipts,
+figure provenance and A33–A35 working hypotheses. The technical chat's bounded
+read-only review found no decision-changing G1 integration error or blanket
+source hold. These checks do not confer biological acceptance. The [Wang figure gallery](Research%20Article/gate3_10_wang_2018_ezh2/FIGURES.md)
+embeds all four generated analysis figures at their unchanged run paths, and
+the article index now links it. Gallery completeness and the research gate
+passed against `30a4a7b`.
+
+At the owner's request, committed the interpretation, A33–A35 plans and complete
+gallery as `53e5dd5`, pushed the analysis branch, and opened
+[PR #181](https://github.com/xorca0711/ravel/pull/181) against `main`. The PR links
+the gallery and records source/functional limits. All introduced commits were
+audited for Xorca author and committer attribution to the verified GitHub
+identity. No merge was requested or performed; GitHub CI/review is separate
+from the local checks above.
+
+## Wang public-data follow-up complete and reviewed — 12 November 2026
+
+The [biological interpretation](Research%20Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md)
+separates published findings from the robustness/context evidence added here.
+Wang narrows A33's RNA-to-output interpretation and A34's transferability,
+and adds a consistent RNA context for A35 source/protein qualification.
+Their functional comparisons remain unexecuted. All S1–S5/F1–F3 stages have
+recorded dispositions; S5 is synthesis and F3 is a reviewed specification.
+No hypothesis, acceptance state or frozen analysis changed. Main was refreshed
+and remains `30a4a7b`.
+
+The user selected public data plus an analysis-ready measurement plan. The
+[F3 specification](Research%20Article/gate3_10_wang_2018_ezh2/F3_MEASUREMENT_PLAN_V1.md)
+defines a two-group day-four comparison of absolute viable lineage recovery,
+current FOXP3 state and matched total-lineage and FOXP3-positive Il10 RNA.
+It records biological units, nested wells, stable joins, denominator and
+assay checks, estimands, informative outcomes and prerequisites to freeze.
+The [literature addendum](Research%20Article/gate3_10_wang_2018_ezh2/F3_LITERATURE_ADDENDUM_20261112.md)
+incorporates the coordinating agent's dated pass and preserves read limits.
+
+The [stage record](Research%20Article/gate3_10_wang_2018_ezh2/FOLLOWUP_STATUS_20261112.md)
+records passed F1/F2 checkpoints and the F3 agent specification review at
+`5f8caee`, against refreshed integration base `30a4a7b`. No blocking issue
+was found for the selected public-data and measurement-plan scope. The assessed
+public data do not link recovery and state-resolved RNA. Future work needs
+qualified genotype/control and lineage measurements, linked counts and RNA,
+design support and justified precision. Original source recovery, exact replay
+and functional reconstruction retain separate input holds. This was
+documentation only. The author request remains unsent and scientific acceptance
+is unassessed. Final review documentation passed repository validation
+(19,428 checks) and whitespace checks; no biological analysis was rerun.
+
+## Historical checkpoint: Wang F2 ranking sensitivity — 12 November 2026
+
+The supervising agent passed the [F1 documentary source checkpoint](Research%20Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md#f1-review-checkpoint)
+at `9d9d241`. The governed [F2 result and figure](Research%20Article/gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md)
+use the verified GSEA v3.0 Signal2Noise formula on the original normalized-count
+scale. TNF/NF-κB, inflammatory response, proliferation and apoptosis Hallmarks
+retain their directions under pooled and +/+ controls and every one-library
+omission. Glycolysis, heme metabolism and WNT/β-catenin signaling reverse
+relative to S3. The full table preserves every set and omission.
+
+The independent calculation matched 950 F2 scores and all primary leading
+edges. F2 strengthens the descriptive inflammatory pattern and leaves the
+viable-recovery and state-composition measurement decision intact. Population
+inference, exact S3 replay and functional reconstruction remain held. F2 is
+ready for checkpoint review. No F3, author contact or external settings change
+occurred. Scientific acceptance remains unassessed.
+
+## Historical checkpoint: Wang F1 source follow-up — 12 November 2026
+
+The [F1 audit](Research%20Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md)
+recovered the original S3B Signal2Noise label and confirmed the shared
+submission's sample identifiers. SRA original filenames expose the
+`DuPage_667` prefix for a facility-manifest lookup. Public records leave
+mouse/pool nesting, processing blocks, the S3C control-label discrepancy
+and exact panel inputs unresolved. The deposited-library description
+remains supported. Population inference, exact replay and functional
+reconstruction are held.
+
+The [author request draft](Research%20Article/gate3_10_wang_2018_ezh2/F1_AUTHOR_REQUEST_DRAFT.md)
+specifies the sample sheet and panel files needed to reassess eligibility.
+No contact, external settings change, raw-read download, numerical rerun
+or F2 work occurred. The next checkpoint is review of F1 and a decision
+on seeking the original records. Source-state and viable-recovery
+measurements remain separate needs. Refreshed integration base `30a4a7b`.
+
+## Wang EZH2/Treg execution reviewed — 12 November 2026
+
+The [execution review](Research%20Article/gate3_10_wang_2018_ezh2/REVIEW_20261112.md)
+found no blocking issue within the declared descriptive scope at `e1c3750`,
+against refreshed main `30a4a7b`. A separate calculation matched all nine library
+totals/size factors and 154 anchor/context contrasts; the source, scripts and
+three figures were reviewed. Frozen analyses remain unchanged. The source-driven
+amendments and closure of the optional human branch are justified. Stronger
+inference still needs the source crosswalk or linked recovery/state measurements;
+within-state conditioning alone would not identify a direct genotype effect.
+Repository validation and whitespace checks passed. No new numerical study,
+external setting change or acceptance decision was made.
+
+[Results, figures, tables and receipts](Research%20Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md)
+cover the source review, S1–S4 execution and S5 integration. GSE114298 supplies
+nine libraries (four fl/fl, four +/+ and one fl/+). Supplement S3C labels all
+controls fl/+. The source does not identify mouse/pool relationships or processing
+blocks. The adapted day-four contrast recovered lower Il10/Tgfb1, higher Il2 and
+positive inflammatory ranks. Cell-cycle ranks were lower and apoptosis ranks higher.
+The exposed five-gene mouse panel found reciprocal Igfbp4 RNA directions and fragile
+Ccr2 transfer. Existing functional findings retain their original scopes.
+
+Exact replay needs the authors' panel crosswalk, normalization and GSEA ranking/ID
+mapping. Population inference needs verified mouse/pool and batch records. A
+follow-up within recovered Treg states would need linked absolute viable recovery
+and state measurements. Per-animal FCS and tumor trajectories with cohort
+crosswalks were not located. The human tissue branch was closed because it cannot
+resolve this cultured genotype contrast. Scientific acceptance remains unassessed.
+
+Execution moved to the scoped `codex/wang-ezh2-execution-20261112` worktree on
+refreshed main `907a29c`, carrying the planning changes forward. The completed
+branch was then merged with main `30a4a7b`, preserving the freeze commits. The original
+planning tree and root edits were preserved. GitHub resolved both commit roles to
+`xorca0711`. The inherited p001 receipt now verifies locally after restoring the
+exact ignored outputs from the original checkout by recorded SHA-256. No
+publication or external setting change occurred.
+
+## Wang technical execution authorized — 12 November 2026
+
+The owner requested a separate technical chat to execute the Wang plan and adjust
+follow-up stages using preceding results. The handoff starts with the existing
+uncommitted paper package in this isolated worktree; original-root edits remain
+preserved. GitHub CLI identity is verified as `xorca0711`. Refreshed remote main
+is now `907a29c`, newer than this worktree's `e7e6823`; the execution chat must
+reconcile the latest base before substantive edits and retain the planning work.
+
+Authorized scope is source recovery/qualification, governed execution of supported
+stages, prospective amendments where results justify them, and documented
+interpretation/figures. Existing acceptance boundaries remain. Later stages are
+conditional on informative comparisons, not a requirement to obtain positive
+results. This chat has run no new analysis. The execution chat owns the next
+source/eligibility record, contract freezes and results; no external setting or
+publication action is part of this dispatch.
+
+## Wang 2018 interpretation and stepwise plan — 11 November 2026
+
+Reviewed the owner's supplied Notion parent, Results and Discussion pages and
+the stored Wang main paper; inspected relevant Peeters text and reused current
+Dp1/Zhang source reviews and results. A bounded primary-literature scan adds
+Goswami's existing checkpoint-combination precedent and Hou's effector-cell/timing
+boundary. Private note ancestry and personal planning are not copied into the repo.
+
+The new [Wang package](Research%20Article/gate3_10_wang_2018_ezh2/README.md)
+separates abundance, lineage-marker stability, cytokine capacity and tumor outcomes.
+Its [plan](Research%20Article/gate3_10_wang_2018_ezh2/ANALYSIS_PLAN.md) proceeds
+from source/unit qualification to day-4 RNA reproduction and sensitivity, with
+conditional context comparison and functional follow-up. Figure 7's contribution
+beyond the tested depletion comparator is retained as published evidence; the
+incomplete inflammatory RNA response and acute/developmental differences remain.
+The [literature record](Research%20Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md)
+distinguishes completed reads, reused reviews and remaining access gaps.
+
+Planning is complete. Next: recover the Wang supplement and qualify GSE114298
+counts, sample/control identities, pooling and blocks before freezing S1–S3
+contracts. No numerical analysis, new RQ, acceptance decision, Notion edit or
+publication occurred; existing RQs and the separate D1 gate are preserved.
+Work remains on the isolated Wang branch based on refreshed main `e7e6823`;
+the original checkout's unrelated edits remain untouched. No external settings
+changed. The prior missing p001 archived output remains outside this task.
+Repository validation passes 19,272 checks and the final diff is documentation
+only. The base-aware provenance check reports exactly the previously identified
+missing p001 descriptive-summary.json; no new error is reported. Prior passing
+tests and archive checks remain applicable because numerical/code content did
+not change. The three new planning documents and index/progress edits are local,
+uncommitted and unpublished.
+
+## Wang 2018 reading and source-fit check — 11 November 2026
+
+Owner completed *Targeting EZH2 Reprograms Intratumoral Regulatory T Cells to
+Enhance Cancer Immunity* and asked whether its expression-data availability fits
+Ravel. This is a reading/source assessment, with no new numerical result or RQ.
+The [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6094952/) reports its own RNA
+data in GSE114298 (Data and Software Availability; Figures S3B–S3C).
+[GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298) lists four
+Ezh2-deficient and five WT biological replicates of mouse Tregs activated for
+four days with anti-CD3/CD28 and IL-2, a processed count file and raw reads in SRA.
+These are bulk in-vitro transcriptomes, not a single-cell intratumoral perturbation
+atlas. Figure 2D–E separately reuses human expression data from De Simone and
+Plitas. Search date: 11 November 2026; exact-title plus RNA/GEO search, followed
+by accession verification against indexed primary article and GEO records.
+Direct NCBI page opens returned browser challenges; input files were not downloaded
+or audited, so sample independence, pairing, pooling and batch remain unqualified.
+
+Ravel's paper-driven scope includes this functional/epigenetic study. Its published
+tumor experiments motivate whether Ezh2 loss changes activated Treg RNA; the
+deposited comparison can support a bounded reproduction of that RNA contrast.
+The experimental preparation is the reported replicate; mouse linkage still
+requires source qualification. Culture-state/selection differences are relevant
+alternatives to uniform within-cell reprogramming. RNA alone cannot establish
+tumor specificity, suppressive function or cancer control. Existing
+[Dp1 results](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
+already show context-dependent RNA signs, making context fidelity material;
+the Wang dataset has not been analyzed here or established as independent validation.
+The assessment supports retaining the paper's biological relevance, without a
+human claim-acceptance decision. Reading status is updated; the historical D1
+gate is preserved. A separate analysis would first qualify samples/counts and
+specify the source-reproduction scope through the existing contract workflow.
+
+Documentation uses refreshed main `e7e6823` in an isolated worktree; the original
+checkout's PROGRESS edits are preserved. GitHub CLI identity verified as
+`xorca0711`. No external settings changed and no publication was requested.
+Repository validation passes 19,255 checks; claim bindings, saved Nb1/A16 evidence,
+175 analysis tests (two existing skips) and compilation pass. The first test
+attempt hit sandbox temporary-folder permissions; the unrestricted rerun passed.
+The provenance check exposed checkout line-ending differences. Registered files
+were restored using committed bytes or the line-ending representation matching
+their existing recorded hashes; no historical content or expected hash was revised.
+Rechecking all 219 contracts and 198 receipts narrowed the failures to a Wg
+contract line ending (subsequently corrected and its receipt verified) and an
+existing incomplete archive: the p001_figure1_v1_f001_d56ee41e13cd4327 receipt
+requires descriptive-summary.json, absent from this fresh checkout and the base
+Git tree. The full provenance gate therefore is not green. Recovery of that
+unrelated archived output remains outside this reading task. The scientific
+assessment is complete; no biological rerun is needed. The final content diff
+contains only this progress note and the article-index reading/source update.
+
 ## Compass figure selected for the methods panel — 12 November 2026
 
 Compared source-table LIANA and labelled PAGA network previews at README

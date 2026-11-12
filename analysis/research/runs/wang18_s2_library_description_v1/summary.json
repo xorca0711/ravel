@@ -1,0 +1,17 @@
+{
+  "rows": 43432,
+  "count_status": {
+    "eligible": 13961,
+    "all_zero": 20593,
+    "low_count": 8878
+  },
+  "mapping": {
+    "unique": 43287,
+    "ambiguous": 145
+  },
+  "reference_genes": 14257,
+  "variance_PC1_PC2": [
+    0.4171869446505378,
+    0.17236189972355195
+  ]
+}

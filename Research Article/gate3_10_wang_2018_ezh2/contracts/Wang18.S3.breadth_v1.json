@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S3.breadth_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Are the deposited deficient day-four libraries shifted across inflammatory RNA sets, and how sensitive are set scores and genes to individual libraries, control allele and scale?",
+  "decision": "Assess whether S3B themes coexist with mixed cytokines and alternative culture-state programs and whether the next bounded comparison is informative.",
+  "strongest_rival": "Rank changes may reflect sparse genes, a single library, control allele or differing recovered state mixture.",
+  "discriminator": "Use all fifty mouse Hallmarks, coverage and leading edges, strict +/+ and alternate scale/rank, and drop each library with fixed size factors. Bulk composition and independence remain unresolved.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_10_wang_2018_ezh2/SOURCE_QUALIFICATION.md",
+    "Research Article/gate3_10_wang_2018_ezh2/EXECUTION_AMENDMENT_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published S3B–C and Dp1 patterns known. S1 qualified sample identity and unknown units. The S2 summaries and anchor directions have been read; the S3 universe, rankings and sensitivity choices were written in the amendment before S2. No adapted Hallmark scores inspected.",
+  "biological_unit": "Deposited day-4 bulk RNA library; source mouse or pool unit is unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine unique BioSample and library/run accessions. Mouse/pool reuse and processing blocks are unresolved. Wang article and GEO reanalysis are shared-source evidence.",
+  "population_and_selection": "C57BL/6 initially CD62L-high Tregs cultured for 96 hours with CD3/CD28 stimulation and IL-2. Viable recovered cell composition after culture is unresolved.",
+  "contrast": "Deficient minus pooled control. Compare strict +/+ control, log-scale mean difference, total-depth normalization and each one-library omission.",
+  "endpoint": "Signed weighted running-sum score and leading edge for each measurable mouse Hallmark, with library omission ranges for rank-eligible genes and sets.",
+  "methods": "Use S2 data and software versions. Confirm recomputed S2 effects and eligibility. Unique exact Ensembl release 78 symbol within matrix; rank log2 mean-ratio, stable ID tie-break; at least ten matched genes and at least one nonmember. Score maximal absolute departure of weighted running sum (absolute rank value weights, uniform if all zero). Sensitivity uses mean log2(norm+1) difference, strict +/+, and counts per library-total scaled to geometric mean depth. Keep universe and median-ratio factors fixed for leave-one-library checks.",
+  "missingness_and_exclusions": "Report unmatched, nonunique and low-count members as outside the ranked universe. Hold set estimates below ten matches. No new exclusion of libraries or Hallmarks.",
+  "multiplicity": "Descriptive outputs only; no gene-level or set-level tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No sampling uncertainty is estimated for the finite deposited libraries.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No animal-population inference, cell-state or functional effect, tumor specificity or independent replication.",
+  "stop_rule": "Stop on mismatch with frozen S2, duplicate set definition or missing published themes; where design remains unknown limit to descriptive score and leverage.",
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+      "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+      "study_id": "Ensembl78",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
+      "sha256": "3428c2e96b7f4b6e25fa1487375faf9073f924c7ba55bbe6f2e26de3f61ea132",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/receipt.json",
+      "sha256": "bd7bc3651c11e36893fa241f19128aa00cfe2ae389375460db8ef2098a76c362",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+      "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/mh.all.v2025.1.Mm.symbols.gmt",
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "study_id": "MSigDB-2025.1.Mm",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+      "sha256": "53332ca6ebb9f989b7aef1bde878127c08f3540615350ab0a0189cf356ff563b"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_sensitivity.tsv",
+    "hallmark_scores.tsv",
+    "hallmark_patterns.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial adapted breadth stage frozen after the finite-library S2 result, using the rules set in the pre-S2 amendment."
+}

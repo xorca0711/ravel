@@ -530,7 +530,12 @@
         "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
         "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
-        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md"
       ]
     },
     {
@@ -544,7 +549,12 @@
         "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
         "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
-        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md"
       ]
     },
     {
@@ -558,7 +568,12 @@
         "Research Article/gate3_09_dupage_2015/rq_derivation/README.md",
         "Research Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md",
         "Research Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md",
-        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md"
+        "Research Article/gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md"
       ]
     },
     {
@@ -1121,6 +1136,31 @@
         "Research Article/gate3_11_zhang_2026_nk/VALIDATION.md",
         "Research Article/gate3_11_zhang_2026_nk/INTERPRETATION_AND_ACCESS_V1.md"
       ]
+    },
+    {
+      "id": "Wang18-P01",
+      "plan": "Research Article/gate3_10_wang_2018_ezh2/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_10_wang_2018_ezh2/README.md",
+        "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_10_wang_2018_ezh2/SOURCE_QUALIFICATION.md",
+        "Research Article/gate3_10_wang_2018_ezh2/EXECUTION_AMENDMENT_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/CONTEXT_AMENDMENT_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F3_LITERATURE_ADDENDUM_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F3_MEASUREMENT_PLAN_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/FOLLOWUP_STATUS_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/BIOLOGICAL_INTERPRETATION_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RQ_FOLLOWUP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/public_gap_followup_20261112/G1_SOURCE_AUDIT_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/BOCKMAN_FULL_READ_20261112.md",
+        "Research Article/gate3_10_wang_2018_ezh2/FIGURES.md"
+      ]
     }
   ],
   "contracts": [
@@ -1342,7 +1382,12 @@
     "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v1.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S2.enrichment_v2.json",
     "Research Article/gate3_11_zhang_2026_nk/contracts/S3.ranking_sensitivity_v1.json",
-    "Research Article/gate3_11_zhang_2026_nk/contracts/failure_archive_v1.json"
+    "Research Article/gate3_11_zhang_2026_nk/contracts/failure_archive_v1.json",
+    "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S1.qualification_v1.json",
+    "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S2.library_description_v1.json",
+    "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S3.breadth_v1.json",
+    "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S4.context_v1.json",
+    "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.F2.signal2noise_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1542,7 +1587,12 @@
     "analysis/research/runs/zh26_s3_block_v2/receipt.json",
     "analysis/research/runs/zh26_s2_enrichment_v2/receipt.json",
     "analysis/research/runs/zh26_s3_ranking_v1/receipt.json",
-    "analysis/research/runs/zh26_failure_archive_v1/receipt.json"
+    "analysis/research/runs/zh26_failure_archive_v1/receipt.json",
+    "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
+    "analysis/research/runs/wang18_s2_library_description_v1/receipt.json",
+    "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+    "analysis/research/runs/wang18_s4_context_v1/receipt.json",
+    "analysis/research/runs/wang18_f2_signal2noise_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
