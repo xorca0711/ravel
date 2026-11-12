@@ -4,6 +4,11 @@ Review dates **11–12 November 2026, Asia/Seoul**. The first pass framed source
 reproduction. The technical pass recovered the publisher supplement and audited
 the day-four RNA source. [Entry point](README.md) · [Results](RESULTS_V1.md).
 
+The coordinating agent's same-day literature pass is preserved in the
+[F3 addendum](F3_LITERATURE_ADDENDUM_20261112.md), with its original query
+strings, panel locators and access boundaries. It informs the
+[linked recovery and state-resolved RNA plan](F3_MEASUREMENT_PLAN_V1.md).
+
 ## Published premise and repository observation
 
 Wang's main Results and Figures 5–7 distinguish Foxp3 instability, cytokine
@@ -101,3 +106,10 @@ persistence each require different measurements. Wang already addresses some
 of these at the functional level; the plan identifies exact residual questions
 instead of claiming that RNA alone fills them. New experiments are conditional,
 with actual unit, timing, assay and precision still to be qualified.
+
+The F3 comparison asks whether a lower total-lineage Il10 contrast accompanies
+different viable recovery or FOXP3-state representation, and whether its
+direction extends to recovered FOXP3-positive descendants. The linked
+preparation-level readouts address the selected-survivor constraint in
+DuPage Figure 6 and keep division, loss, RNA and secretion as separate
+measurements. [F3 literature and plan](F3_LITERATURE_ADDENDUM_20261112.md).

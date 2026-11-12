@@ -1,11 +1,13 @@
 # Wang 2018: EZH2, activated Tregs and tumor immunity
 
 12 November 2026. **The adapted day-four RNA analysis is complete at the
-deposited-library level.** The article-local owner is Wang18-P01.
+deposited-library level.** The linked measurement plan is complete for
+checkpoint review. The article-local owner is Wang18-P01.
 
 [Results and measured figures](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
 · [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
 · [F2 ranking sensitivity](F2_RESULTS_V1.md)
+· [F3 measurement plan](F3_MEASUREMENT_PLAN_V1.md) · [Stage and review status](FOLLOWUP_STATUS_20261112.md)
 · [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
 · [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
 · [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
@@ -100,12 +102,16 @@ a general biological program are different tasks.
 | S4 | Compare activation contexts | Fixed five-gene mouse panel completed. Human tissue association branch closed for this question. |
 | S5 | Reconcile the RNA with published function | Published assays integrated. Per-animal functional inputs were not located. |
 | F1 | Check original sample and analysis records | Source audit complete. Signal2Noise and a facility filename prefix were recovered. Exact replay, population inference and functional reconstruction remain held. |
-| F2 | Check the effect of the source-named rank metric | All 50 sets compared. Inflammatory and culture-state themes retained their directions. Ready for checkpoint review. |
+| F2 | Check the effect of the source-named rank metric | All 50 sets compared. Inflammatory and culture-state themes retained their directions. Agent checkpoint passed. |
+| F3 | Specify the linked recovery and within-observed-state RNA comparison | Analysis-ready measurement plan and literature addendum complete. Checkpoint review pending. |
 
-The next discriminator, if matched material becomes available, is whether the
-RNA shift persists within the same recovered Treg state when viable recovery
-and state composition are measured. The immediate follow-up decision is
-whether to seek existing author records using the
-[local draft request](F1_AUTHOR_REQUEST_DRAFT.md), after checkpoint review.
+F3 specifies a two-group comparison linking viable lineage recovery, current
+FOXP3 state and matched whole-lineage and FOXP3-positive Il10 RNA. DuPage's
+early-division/later-loss evidence and Sarmento's secretion precedent motivate
+the measurement boundaries. The [literature addendum](F3_LITERATURE_ADDENDUM_20261112.md)
+documents how the linked comparison differs from those precedents. Future
+inference requires verified units, assays, overlap and precision. The
+[unsent author request](F1_AUTHOR_REQUEST_DRAFT.md) addresses separate
+historical source and replay gaps.
 [Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
 [Context amendment](CONTEXT_AMENDMENT_V1.md).

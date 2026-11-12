@@ -1,5 +1,25 @@
 # Current project state
 
+## Wang F3 measurement plan complete for review — 12 November 2026
+
+The user selected public data plus an analysis-ready measurement plan. The
+[F3 specification](Research%20Article/gate3_10_wang_2018_ezh2/F3_MEASUREMENT_PLAN_V1.md)
+defines a two-group day-four comparison of absolute viable lineage recovery,
+current FOXP3 state and matched total-lineage and FOXP3-positive Il10 RNA.
+It records biological units, nested wells, stable joins, denominator and
+assay checks, estimands, informative outcomes and prerequisites to freeze.
+The [literature addendum](Research%20Article/gate3_10_wang_2018_ezh2/F3_LITERATURE_ADDENDUM_20261112.md)
+incorporates the coordinating agent's dated pass and preserves read limits.
+
+The [stage record](Research%20Article/gate3_10_wang_2018_ezh2/FOLLOWUP_STATUS_20261112.md)
+records passed F1/F2 agent checkpoints and pending F3 review. The assessed
+public data do not link recovery and state-resolved RNA. Future work needs
+qualified genotype/control and lineage measurements, linked counts and RNA,
+design support and justified precision. Original source recovery, exact replay
+and functional reconstruction retain separate input holds. This was
+documentation only. The author request remains unsent and scientific acceptance
+is unassessed.
+
 ## Wang F2 ranking sensitivity complete — 12 November 2026
 
 The supervising agent passed the [F1 documentary source checkpoint](Research%20Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md#f1-review-checkpoint)
