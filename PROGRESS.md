@@ -39,8 +39,9 @@ extension are unexecuted. S1–S5/F1–F3 dispositions remain unchanged; F3 is a
 measurement specification. No hypothesis/claim promotion, new RQ, author contact
 or experimental scheduling occurred.
 
-Working tree: `codex/wang-ezh2-execution-20261112`, HEAD `5f8caee`, scoped
-worktree `.worktrees/wang-ezh2-execution-20261112`. GitHub CLI verified as
+Working branch: `codex/wang-ezh2-execution-20261112`, scoped worktree
+`.worktrees/wang-ezh2-execution-20261112`; numerical execution and F3
+specification ended at `5f8caee`. GitHub CLI verified as
 `xorca0711`; refreshed `origin/main` was `30a4a7b`. Parent pending edits and
 all frozen contracts/results were preserved. Undermind's verified
 `dreamtree071@gmail.com` account now has a literature workspace for public PDF
@@ -49,7 +50,18 @@ passed against freshly fetched `origin/main` (`30a4a7b`); whitespace checks
 passed. A targeted preservation check confirmed unchanged contracts, receipts,
 figure provenance and A33–A35 working hypotheses. The technical chat's bounded
 read-only review found no decision-changing G1 integration error or blanket
-source hold. These checks do not confer biological acceptance. The owner requested commit, push and PR. The new [Wang figure gallery](Research%20Article/gate3_10_wang_2018_ezh2/FIGURES.md) embeds all four generated analysis figures at their unchanged run paths, and the article index now links it. Gallery completeness and the research gate passed against `30a4a7b`. Publication is the remaining delivery step.
+source hold. These checks do not confer biological acceptance. The [Wang figure gallery](Research%20Article/gate3_10_wang_2018_ezh2/FIGURES.md)
+embeds all four generated analysis figures at their unchanged run paths, and
+the article index now links it. Gallery completeness and the research gate
+passed against `30a4a7b`.
+
+At the owner's request, committed the interpretation, A33–A35 plans and complete
+gallery as `53e5dd5`, pushed the analysis branch, and opened
+[PR #181](https://github.com/xorca0711/ravel/pull/181) against `main`. The PR links
+the gallery and records source/functional limits. All introduced commits were
+audited for Xorca author and committer attribution to the verified GitHub
+identity. No merge was requested or performed; GitHub CI/review is separate
+from the local checks above.
 
 ## Wang public-data follow-up complete and reviewed — 12 November 2026
 
