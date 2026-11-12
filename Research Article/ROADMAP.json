@@ -389,10 +389,12 @@
       "pmid": "29898397",
       "role": "extension: Treg-state reprogramming and the surrounding immune ecosystem",
       "extract": [],
-      "datasets": [],
-      "folder": null,
-      "note_status": "owner Results and Discussion notes documented by 2026-11-11",
-      "trial_status": "dedicated analysis unrun on this baseline; Niethamer/D1 is separate"
+      "datasets": [
+        "GSE114298"
+      ],
+      "folder": "gate3_10_wang_2018_ezh2",
+      "note_status": "owner reading complete; publisher supplement and RNA source audited",
+      "trial_status": "Wang18-P01 adapted library description, breadth and fixed mouse panel executed; exact replay and functional reconstruction held; Niethamer/D1 is separate"
     },
     {
       "order": 11,

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S4.context_v1",
+  "owner": "Wang18-P01",
+  "contract": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S4.context_v1.json",
+  "contract_sha256": "6f5870e9e3faf9b13787407b80a5173d20419c1b48acd3df231f333eee836db8",
+  "git_commit": "a0774eb323e439596a7135326b25e0b403bb181b",
+  "started_at": "2026-11-12T03:35:54.684717+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_10_wang_2018_ezh2/scripts/context_v1.py",
+    "--output",
+    "analysis/research/runs/wang18_s4_context_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/gene_sensitivity.tsv",
+      "sha256": "e9003ca2cb868b26e1210006136622288684815a368a50a5c9ac18d6535c30e9",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+      "sha256": "4af983414f097eb90132ffbe0cd0b59db7097ee77831dd5b0d9328f35345db47",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/interaction.tsv",
+      "sha256": "ce49040775cfbf9ac7b119d33f60c3f54865b7d595294d23508b8e83dbae879e",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_s2_state_contrast_v1/receipt.json",
+      "sha256": "72379d5aff015e7493047162e0779442a8eb19b5d11a66adf2860e5db9ef38a0",
+      "study_id": "GSE58998",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_candidate_followup_v1/contrasts.tsv",
+      "sha256": "b0a163e6f114c548ea1fd7b42f1a1ec3d2cb12c42d7a15c2002a01d715ed4ae9",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/dupage_candidate_followup_v1/receipt.json",
+      "sha256": "bbe6cf1b27bceeb9720bc1c25d3e04ead4f9507890c02ff3d52efdddab26f04d",
+      "study_id": "GSE262130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/context_v1.py",
+      "sha256": "989f5a636c10abb2c8b1e702cb029cf8ca56ee2b209c5821e7c612c338fd4c82"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wang18_s4_context_v1/context_directions.tsv",
+      "sha256": "d56367549d530f64293f148f56732fc3139e155a107b202273f3f75b830f20e7"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T03:35:55.219028+00:00"
+}

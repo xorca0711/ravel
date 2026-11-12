@@ -1,10 +1,10 @@
 # Wang 2018: EZH2, activated Tregs and tumor immunity
 
-11 November 2026. **Source interpretation and proposed analysis plan. No numerical
-analysis has run.** Owner reading is complete. This package does not register a
-new canonical RQ or change the separate Niethamer/D1 gate.
+12 November 2026. **The adapted day-four RNA analysis is complete at the
+deposited-library level.** The article-local owner is Wang18-P01.
 
-[Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
+[Results and measured figures](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
+· [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
 · [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
 · [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
 
@@ -16,17 +16,20 @@ abundance or composition of the Treg population? These processes can coexist.
 Wang's interventions and functional measurements address parts of this question;
 the deposited RNA comparison addresses a narrower transcriptional component.
 
-The immediate executable question is: **which transcript-abundance differences
-between Ezh2-deficient and control Treg preparations are reproducible after four
-days of activation, and how complete is the reported inflammatory shift?** Its
-contribution is source reproduction and sensitivity assessment. A tumor-specific
-mechanism, time trajectory or new target does not follow automatically.
+The four Ezh2-deficient day-four libraries showed lower Il10 and Tgfb1 and
+higher Il2 than the deposited controls, with the same directions under strict
++/+ controls. TNF/NF-κB and inflammatory ranks stayed positive across the
+tested sensitivities. Lower E2F/G2M ranks and higher apoptosis ranks leave a
+specific unresolved question about the proportions and viable recovery of
+activated states. Bulk RNA measures the resulting library mixture. Sparse
+cytokine RNA and overlapping library values limit the interpretation of the
+full inflammatory response. [Results and figures](RESULTS_V1.md).
 
 ## What the paper establishes, and what needs qualification
 
-The table refers to the published experiments, not new repository results.
-Main-text Results, legends and methods were read from the stored paper. Supplement
-plots and their RNA-specific methods have not yet been recovered in this task.
+The table refers to the published experiments. The main article and publisher
+supplement were recovered, including the RNA methods and S3B–C.
+[Panel-level evidence and dependent holds](RESULTS_V1.md#s5--what-the-rna-changes-add-to-the-functional-evidence).
 
 | Evidence | Implication | Boundary that matters for the plan |
 |---|---|---|
@@ -47,13 +50,12 @@ See the [literature record](LITERATURE_CONTEXT.md).
 
 ## Available source and missing inputs
 
-GEO lists bulk mouse RNA-seq, four Ezh2-deficient and five WT biological
-replicates, after four days of anti-CD3/CD28 activation with IL-2. The main paper
-specifies starting CD62L-positive naive Tregs. GEO lists a processed count file
-and raw SRA reads. The actual count file, sample sheets and supplementary RNA
-methods have not been audited here. A reported biological replicate is not yet
-a verified individual mouse: pooling, donor reuse, sex, genotype/control details,
-batch and any paired preparation remain to be established.
+The count matrix, GEO, ENA and BioSample identify four fl/fl, four +/+, and one
+fl/+ libraries. Figure S3C labels its five control points fl/+. Mouse/pool
+membership, sex, age and processing blocks remain unresolved. The analysis
+uses the deposited allele labels and describes relative RNA without estimating
+animal-population uncertainty. Exact replay requires the authors' panel
+crosswalk, normalization and GSEA mapping/ranking.
 
 These are not deposited intratumoral single-cell perturbation measurements.
 The four-versus-five comparison has neither an unactivated baseline nor matched
@@ -66,8 +68,11 @@ tissue-by-genotype or time-by-genotype interaction by itself.
 found context-dependent signs across unmatched loss/gain sources. Tigit, Prdm1
 and Ccr2 were higher in the Peeters fresh gain context but lower after culture;
 Igfbp4 was lower in both. These are transformed-expression descriptions, not
-comparable effect sizes or proof of an inverse mechanism. A33–A35 retain their
-existing ownership; Wang can provide a later, separately qualified context check.
+comparable effect sizes or proof of an inverse mechanism. Wang's five-gene
+direction comparison found reciprocal Igfbp4 directions across the compared
+loss/gain settings, a fragile Ccr2 direction, and concordant Areg increases in
+Wang loss and Peeters gain. The contrasts retain separate scales and designs.
+[Fixed-panel comparison](RESULTS_V1.md#s4--five-exposed-genes-across-separate-activation-contexts).
 
 [Zhang's current RNA results](../gate3_11_zhang_2026_nk/RESULTS.md) concern sorted
 NK preparations after local Treg depletion. They are a complementary recipient
@@ -75,18 +80,20 @@ comparison, not another measurement of Wang's Treg state. Their block/ranking
 sensitivity also demonstrates why reproducing a selected panel and establishing
 a general biological program are different tasks.
 
-## Proposed order and present status
+## Execution and next decision
 
 | Stage | Purpose | Current status |
 |---|---|---|
-| S0 | Separate published perturbation, abundance, lineage and functional evidence | Main-text/notes synthesis complete; supplementary detail pending |
-| S1 | Qualify GSE114298 inputs, sample identities and model eligibility | Proposed; must precede numerical work |
-| S2 | Reproduce the day-4 genotype RNA contrast | Conditional on S1; no results |
-| S3 | Test breadth and sensitivity of the inflammatory/suppressive description | Conditional on S2; retain partial and unfavorable outcomes |
-| S4 | Compare activation contexts and optionally the original human source contrast | Optional, question-dependent extension; sources stay separate |
-| S5 | Integrate with the published functional evidence and select any justified follow-up | Reading synthesis can proceed independently of RNA holds |
+| S0 | Separate published abundance, lineage and functional evidence | Supplement and functional evidence ledger complete |
+| S1 | Qualify counts, genotypes and units | Nine libraries verified. Mouse/pool identity remains unknown. |
+| S2 | Reconstruct the cultured RNA contrast | Adapted library description completed. Population inference and exact replay held. |
+| S3 | Assess breadth and sensitivity | All 50 adapted mouse Hallmarks and the eligible gene universe reported. |
+| S4 | Compare activation contexts | Fixed five-gene mouse panel completed. Human tissue association branch closed for this question. |
+| S5 | Reconcile the RNA with published function | Published assays integrated. Per-animal functional inputs were not located. |
 
-The [plan](ANALYSIS_PLAN.md) specifies comparisons, outputs and decisions. Start
-with S1, then S2–S3 if qualified. S4 is not an automatic expansion queue. Any
-numerical stage needs a registered article owner, frozen source/code contract,
-preflight and runner under [research governance](../../docs/RESEARCH_GOVERNANCE.md).
+The next discriminator, if matched material becomes available, is whether the
+RNA shift persists within the same recovered Treg state when viable recovery
+and state composition are measured. The available inputs support closing the
+current execution without a new functional or human analysis.
+[Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
+[Context amendment](CONTEXT_AMENDMENT_V1.md).

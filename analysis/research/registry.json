@@ -1130,7 +1130,8 @@
         "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
         "Research Article/gate3_10_wang_2018_ezh2/SOURCE_QUALIFICATION.md",
         "Research Article/gate3_10_wang_2018_ezh2/EXECUTION_AMENDMENT_V1.md",
-        "Research Article/gate3_10_wang_2018_ezh2/CONTEXT_AMENDMENT_V1.md"
+        "Research Article/gate3_10_wang_2018_ezh2/CONTEXT_AMENDMENT_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md"
       ]
     }
   ],
@@ -1560,7 +1561,8 @@
     "analysis/research/runs/zh26_failure_archive_v1/receipt.json",
     "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
     "analysis/research/runs/wang18_s2_library_description_v1/receipt.json",
-    "analysis/research/runs/wang18_s3_breadth_v1/receipt.json"
+    "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+    "analysis/research/runs/wang18_s4_context_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

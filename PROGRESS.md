@@ -1,5 +1,129 @@
 # Current project state
 
+## Wang EZH2/Treg technical execution complete — 12 November 2026
+
+[Results, figures, tables and receipts](Research%20Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md)
+cover the source review, S1–S4 execution and S5 integration. GSE114298 supplies
+nine libraries (four fl/fl, four +/+ and one fl/+). Supplement S3C labels all
+controls fl/+. The source does not identify mouse/pool relationships or processing
+blocks. The adapted day-four contrast recovered lower Il10/Tgfb1, higher Il2 and
+positive inflammatory ranks. Cell-cycle ranks were lower and apoptosis ranks higher.
+The exposed five-gene mouse panel found reciprocal Igfbp4 RNA directions and fragile
+Ccr2 transfer. Existing functional findings retain their original scopes.
+
+Exact replay needs the authors' panel crosswalk, normalization and GSEA ranking/ID
+mapping. Population inference needs verified mouse/pool and batch records. A
+follow-up within recovered Treg states would need linked absolute viable recovery
+and state measurements. Per-animal FCS and tumor trajectories with cohort
+crosswalks were not located. The human tissue branch was closed because it cannot
+resolve this cultured genotype contrast. Scientific acceptance remains unassessed.
+
+Execution moved to the scoped `codex/wang-ezh2-execution-20261112` worktree on
+refreshed main `907a29c`, carrying the planning changes forward. The original
+planning tree and root edits were preserved. GitHub resolved both commit roles to
+`xorca0711`. The inherited p001 receipt now verifies locally after restoring the
+exact ignored outputs from the original checkout by recorded SHA-256. No
+publication or external setting change occurred.
+
+## Wang technical execution authorized — 12 November 2026
+
+The owner requested a separate technical chat to execute the Wang plan and adjust
+follow-up stages using preceding results. The handoff starts with the existing
+uncommitted paper package in this isolated worktree; original-root edits remain
+preserved. GitHub CLI identity is verified as `xorca0711`. Refreshed remote main
+is now `907a29c`, newer than this worktree's `e7e6823`; the execution chat must
+reconcile the latest base before substantive edits and retain the planning work.
+
+Authorized scope is source recovery/qualification, governed execution of supported
+stages, prospective amendments where results justify them, and documented
+interpretation/figures. Existing acceptance boundaries remain. Later stages are
+conditional on informative comparisons, not a requirement to obtain positive
+results. This chat has run no new analysis. The execution chat owns the next
+source/eligibility record, contract freezes and results; no external setting or
+publication action is part of this dispatch.
+
+## Wang 2018 interpretation and stepwise plan — 11 November 2026
+
+Reviewed the owner's supplied Notion parent, Results and Discussion pages and
+the stored Wang main paper; inspected relevant Peeters text and reused current
+Dp1/Zhang source reviews and results. A bounded primary-literature scan adds
+Goswami's existing checkpoint-combination precedent and Hou's effector-cell/timing
+boundary. Private note ancestry and personal planning are not copied into the repo.
+
+The new [Wang package](Research%20Article/gate3_10_wang_2018_ezh2/README.md)
+separates abundance, lineage-marker stability, cytokine capacity and tumor outcomes.
+Its [plan](Research%20Article/gate3_10_wang_2018_ezh2/ANALYSIS_PLAN.md) proceeds
+from source/unit qualification to day-4 RNA reproduction and sensitivity, with
+conditional context comparison and functional follow-up. Figure 7's contribution
+beyond the tested depletion comparator is retained as published evidence; the
+incomplete inflammatory RNA response and acute/developmental differences remain.
+The [literature record](Research%20Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md)
+distinguishes completed reads, reused reviews and remaining access gaps.
+
+Planning is complete. Next: recover the Wang supplement and qualify GSE114298
+counts, sample/control identities, pooling and blocks before freezing S1–S3
+contracts. No numerical analysis, new RQ, acceptance decision, Notion edit or
+publication occurred; existing RQs and the separate D1 gate are preserved.
+Work remains on the isolated Wang branch based on refreshed main `e7e6823`;
+the original checkout's unrelated edits remain untouched. No external settings
+changed. The prior missing p001 archived output remains outside this task.
+Repository validation passes 19,272 checks and the final diff is documentation
+only. The base-aware provenance check reports exactly the previously identified
+missing p001 descriptive-summary.json; no new error is reported. Prior passing
+tests and archive checks remain applicable because numerical/code content did
+not change. The three new planning documents and index/progress edits are local,
+uncommitted and unpublished.
+
+## Wang 2018 reading and source-fit check — 11 November 2026
+
+Owner completed *Targeting EZH2 Reprograms Intratumoral Regulatory T Cells to
+Enhance Cancer Immunity* and asked whether its expression-data availability fits
+Ravel. This is a reading/source assessment, with no new numerical result or RQ.
+The [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6094952/) reports its own RNA
+data in GSE114298 (Data and Software Availability; Figures S3B–S3C).
+[GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298) lists four
+Ezh2-deficient and five WT biological replicates of mouse Tregs activated for
+four days with anti-CD3/CD28 and IL-2, a processed count file and raw reads in SRA.
+These are bulk in-vitro transcriptomes, not a single-cell intratumoral perturbation
+atlas. Figure 2D–E separately reuses human expression data from De Simone and
+Plitas. Search date: 11 November 2026; exact-title plus RNA/GEO search, followed
+by accession verification against indexed primary article and GEO records.
+Direct NCBI page opens returned browser challenges; input files were not downloaded
+or audited, so sample independence, pairing, pooling and batch remain unqualified.
+
+Ravel's paper-driven scope includes this functional/epigenetic study. Its published
+tumor experiments motivate whether Ezh2 loss changes activated Treg RNA; the
+deposited comparison can support a bounded reproduction of that RNA contrast.
+The experimental preparation is the reported replicate; mouse linkage still
+requires source qualification. Culture-state/selection differences are relevant
+alternatives to uniform within-cell reprogramming. RNA alone cannot establish
+tumor specificity, suppressive function or cancer control. Existing
+[Dp1 results](Research%20Article/gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
+already show context-dependent RNA signs, making context fidelity material;
+the Wang dataset has not been analyzed here or established as independent validation.
+The assessment supports retaining the paper's biological relevance, without a
+human claim-acceptance decision. Reading status is updated; the historical D1
+gate is preserved. A separate analysis would first qualify samples/counts and
+specify the source-reproduction scope through the existing contract workflow.
+
+Documentation uses refreshed main `e7e6823` in an isolated worktree; the original
+checkout's PROGRESS edits are preserved. GitHub CLI identity verified as
+`xorca0711`. No external settings changed and no publication was requested.
+Repository validation passes 19,255 checks; claim bindings, saved Nb1/A16 evidence,
+175 analysis tests (two existing skips) and compilation pass. The first test
+attempt hit sandbox temporary-folder permissions; the unrestricted rerun passed.
+The provenance check exposed checkout line-ending differences. Registered files
+were restored using committed bytes or the line-ending representation matching
+their existing recorded hashes; no historical content or expected hash was revised.
+Rechecking all 219 contracts and 198 receipts narrowed the failures to a Wg
+contract line ending (subsequently corrected and its receipt verified) and an
+existing incomplete archive: the p001_figure1_v1_f001_d56ee41e13cd4327 receipt
+requires descriptive-summary.json, absent from this fresh checkout and the base
+Git tree. The full provenance gate therefore is not green. Recovery of that
+unrelated archived output remains outside this reading task. The scientific
+assessment is complete; no biological rerun is needed. The final content diff
+contains only this progress note and the article-index reading/source update.
+
 ## Current documentation reconciled — 12 November 2026
 
 Reviewed GitHub main `e7e6823` and based this documentation change on the

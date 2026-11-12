@@ -5,6 +5,11 @@ the stored main paper, current Dp1/Zhang evidence and a bounded primary-literatu
 scan. This document authorizes no numerical run by itself. No canonical RQ,
 frozen contract, analysis result or scientific acceptance is created.
 
+The owner authorized execution on 12 November 2026. The sections below
+preserve the original plan. The [S2–S3 amendment](EXECUTION_AMENDMENT_V1.md)
+and [S4 amendment](CONTEXT_AMENDMENT_V1.md) govern the adaptations after
+qualification. The [completed report](RESULTS_V1.md) links all four receipts.
+
 ## Purpose, comparison and exposure
 
 The biological purpose is to understand how EZH2 perturbation changes the
