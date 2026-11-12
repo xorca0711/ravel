@@ -19,7 +19,8 @@ crosswalks were not located. The human tissue branch was closed because it canno
 resolve this cultured genotype contrast. Scientific acceptance remains unassessed.
 
 Execution moved to the scoped `codex/wang-ezh2-execution-20261112` worktree on
-refreshed main `907a29c`, carrying the planning changes forward. The original
+refreshed main `907a29c`, carrying the planning changes forward. The completed
+branch was then merged with main `30a4a7b`, preserving the freeze commits. The original
 planning tree and root edits were preserved. GitHub resolved both commit roles to
 `xorca0711`. The inherited p001 receipt now verifies locally after restoring the
 exact ignored outputs from the original checkout by recorded SHA-256. No
@@ -123,6 +124,17 @@ Git tree. The full provenance gate therefore is not green. Recovery of that
 unrelated archived output remains outside this reading task. The scientific
 assessment is complete; no biological rerun is needed. The final content diff
 contains only this progress note and the article-index reading/source update.
+
+## Compass figure selected for the methods panel — 12 November 2026
+
+Compared source-table LIANA and labelled PAGA network previews at README
+size. Following the owner's preference, the sixth slot uses the existing
+[Compass plot](Research%20Article/gate2_W2_wagner_Th17_PGAM/FIGURES.md#figure-5-pgam-keeps-the-published-negative-sign-but-is-not-the-most-distinctive-reaction)
+from the paper package renderer. The first five previews retain their
+existing order. Network drafts are outside the repository diff. No numerical
+analysis or figure regeneration is required.
+Repository validation, the six-preview check and the base-aware provenance
+gate passed against `907a29c`.
 
 ## Current documentation reconciled — 12 November 2026
 
