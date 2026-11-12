@@ -5,6 +5,7 @@ deposited-library level.** The article-local owner is Wang18-P01.
 
 [Results and measured figures](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
 · [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
+· [F2 ranking sensitivity](F2_RESULTS_V1.md)
 · [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
 · [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
 · [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
@@ -25,6 +26,11 @@ specific unresolved question about the proportions and viable recovery of
 activated states. Bulk RNA measures the resulting library mixture. Sparse
 cytokine RNA and overlapping library values limit the interpretation of the
 full inflammatory response. [Results and figures](RESULTS_V1.md).
+
+The F2 sensitivity kept those inflammatory, cell-cycle and apoptosis
+directions under the source-named Signal2Noise metric. Three other Hallmarks
+reversed direction, so rank robustness applies to specific themes.
+[F2 results and measured comparison](F2_RESULTS_V1.md).
 
 ## What the paper establishes, and what needs qualification
 
@@ -94,11 +100,12 @@ a general biological program are different tasks.
 | S4 | Compare activation contexts | Fixed five-gene mouse panel completed. Human tissue association branch closed for this question. |
 | S5 | Reconcile the RNA with published function | Published assays integrated. Per-animal functional inputs were not located. |
 | F1 | Check original sample and analysis records | Source audit complete. Signal2Noise and a facility filename prefix were recovered. Exact replay, population inference and functional reconstruction remain held. |
+| F2 | Check the effect of the source-named rank metric | All 50 sets compared. Inflammatory and culture-state themes retained their directions. Ready for checkpoint review. |
 
 The next discriminator, if matched material becomes available, is whether the
 RNA shift persists within the same recovered Treg state when viable recovery
 and state composition are measured. The immediate follow-up decision is
 whether to seek existing author records using the
-[local draft request](F1_AUTHOR_REQUEST_DRAFT.md).
+[local draft request](F1_AUTHOR_REQUEST_DRAFT.md), after checkpoint review.
 [Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
 [Context amendment](CONTEXT_AMENDMENT_V1.md).

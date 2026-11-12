@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.F2.signal2noise_v1",
+  "owner": "Wang18-P01",
+  "contract": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.F2.signal2noise_v1.json",
+  "contract_sha256": "1a1f0b2b189625b1aba65b8a31d52fb64e52a3feb66b22bdf5ca85054ba67042",
+  "git_commit": "1e5a62942f0401da27648787ae782f5caaaef5c0",
+  "started_at": "2026-11-12T04:23:32.784664+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_10_wang_2018_ezh2/scripts/signal2noise_v1.py",
+    "--output",
+    "analysis/research/runs/wang18_f2_signal2noise_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/sample_manifest.tsv",
+      "sha256": "13fb2cbbbd0b8c5d01e15bf157cf91085608999faa6482eb2f7fbf6463921723",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/library_coordinates.tsv",
+      "sha256": "65f86241a5637593510dd6498fcffdf4b35ff7be73b125aebf1f46a0dbfb914f",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+      "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/hallmark_scores.tsv",
+      "sha256": "47acfed6c4534107791c9981d65c9f9c4e058bd266f56c0aebfc7981c3e83d36",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+      "sha256": "4af983414f097eb90132ffbe0cd0b59db7097ee77831dd5b0d9328f35345db47",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/mh.all.v2025.1.Mm.symbols.gmt",
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "study_id": "MSigDB-2025.1.Mm",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md",
+      "sha256": "a394e1099971705c16d4f7814a0ad0de871ffbaece8100621571d4e9887ed06c",
+      "study_id": "GSEA-Desktop-v3.0",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/signal2noise_v1.py",
+      "sha256": "800432c59da0368f6e69f06f6f8472f52091a03fcbb0f1fc1627f35ba3fffaab"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+      "sha256": "53332ca6ebb9f989b7aef1bde878127c08f3540615350ab0a0189cf356ff563b"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wang18_f2_signal2noise_v1/hallmark_signal2noise.tsv",
+      "sha256": "e22efa3503b3655a7817cb1c1ec95792423dabcff56fb689686f5b6cf2eb155b"
+    },
+    {
+      "path": "analysis/research/runs/wang18_f2_signal2noise_v1/ranking_diagnostics.json",
+      "sha256": "186ff573a47d5b01aed6745564ebbc82a7558fd8916d79192e46f6072d2358a5"
+    },
+    {
+      "path": "analysis/research/runs/wang18_f2_signal2noise_v1/signal2noise_overview.png",
+      "sha256": "58bc7b19d8cebb88b76f5e9ee582da9aee4a51e484f6627a149af2510a7500d2"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T04:23:34.947644+00:00"
+}

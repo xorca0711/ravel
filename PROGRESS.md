@@ -1,5 +1,22 @@
 # Current project state
 
+## Wang F2 ranking sensitivity complete — 12 November 2026
+
+The supervising agent passed the [F1 documentary source checkpoint](Research%20Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md#f1-review-checkpoint)
+at `9d9d241`. The governed [F2 result and figure](Research%20Article/gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md)
+use the verified GSEA v3.0 Signal2Noise formula on the original normalized-count
+scale. TNF/NF-κB, inflammatory response, proliferation and apoptosis Hallmarks
+retain their directions under pooled and +/+ controls and every one-library
+omission. Glycolysis, heme metabolism and WNT/β-catenin signaling reverse
+relative to S3. The full table preserves every set and omission.
+
+The independent calculation matched 950 F2 scores and all primary leading
+edges. F2 strengthens the descriptive inflammatory pattern and leaves the
+viable-recovery and state-composition measurement decision intact. Population
+inference, exact S3 replay and functional reconstruction remain held. F2 is
+ready for checkpoint review. No F3, author contact or external settings change
+occurred. Scientific acceptance remains unassessed.
+
 ## Wang F1 source follow-up complete — 12 November 2026
 
 The [F1 audit](Research%20Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md)

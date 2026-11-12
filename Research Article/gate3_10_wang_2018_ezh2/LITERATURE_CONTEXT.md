@@ -79,6 +79,12 @@ figure detail and access checks for associated material. The submitted
 FASTQ filenames give a facility lookup key. The additional records supply
 no evidence of mouse/pool allocation or independent allele verification.
 
+The [F2 adaptation](F2_RESULTS_V1.md) uses the source-named Signal2Noise
+metric with the same counts and modern mouse Hallmarks as the existing
+repository result. The inflammatory themes retain their directions.
+Three other set directions change with ranking, and the original Wang
+normalization, mapping and run inputs remain unresolved.
+
 ## Current estimand, alternatives and informative outcomes
 
 The supported estimand is the day-four deficient-minus-control relative RNA

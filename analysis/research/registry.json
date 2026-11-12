@@ -1134,7 +1134,8 @@
         "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
         "Research Article/gate3_10_wang_2018_ezh2/REVIEW_20261112.md",
         "Research Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md",
-        "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md"
+        "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md",
+        "Research Article/gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md"
       ]
     }
   ],
@@ -1566,7 +1567,8 @@
     "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
     "analysis/research/runs/wang18_s2_library_description_v1/receipt.json",
     "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
-    "analysis/research/runs/wang18_s4_context_v1/receipt.json"
+    "analysis/research/runs/wang18_s4_context_v1/receipt.json",
+    "analysis/research/runs/wang18_f2_signal2noise_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
