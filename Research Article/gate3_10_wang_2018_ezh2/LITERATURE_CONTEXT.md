@@ -30,7 +30,7 @@ Igfbp4 RNA directions but discordant or fragile transfer for other genes.
 
 | Source/version | Exact relevant locator | Use and access limit |
 |---|---|---|
-| [Wang et al. 2018, final article](https://doi.org/10.1016/j.celrep.2018.05.050) and [publisher supplement](https://ars.els-cdn.com/content/image/1-s2.0-S2211124718307964-mmc1.pdf) | Figures 1–7, supplement p. 2 and Figure S3 p. 5, Data and Software Availability | Relevant legends and methods read. S3 was visually inspected. The supplement supplies culture and Java GSEA details; exact normalization, ranking, mapping and the panel/sample crosswalk remain unresolved. |
+| [Wang et al. 2018, final article](https://doi.org/10.1016/j.celrep.2018.05.050) and [publisher supplement](https://ars.els-cdn.com/content/image/1-s2.0-S2211124718307964-mmc1.pdf) | Figures 1–7, supplement p. 2 and Figure S3 p. 5, Data and Software Availability | Relevant legends and methods read. F1 inspected the original S3B graphic and found the Signal2Noise rank label. Exact expression inputs, mapping, full settings, and S3C normalization and panel/sample crosswalk remain unresolved. |
 | [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298), GEO files, BioSample and ENA | Nine GSMs, deposited GRCm38.78 counts, nine SRR runs | Count matrix and complete sample crosswalk verified. GEO's WT label contains four +/+ and one fl/+ library. Mouse/pool linkage and processing blocks remain unknown. |
 | [DuPage et al. 2015](https://doi.org/10.1016/j.immuni.2015.01.007) and [current Dp1 source review](../gate3_09_dupage_2015/SOURCE_REVIEW.md) | Activated-Treg maintenance premise; existing S0–S3 and candidate follow-up | Reused the current repository source review, amendment and exposed results. Stored PDF located in the same collection; no new full reread or numerical rerun. |
 | [Peeters et al. 2024, final article](https://doi.org/10.1016/j.celrep.2024.114724) | Figures 4–5: activation/migration and EAE; Figures 6–7: H3K27me3/transcriptomic context | Stored PDF text, relevant legends and methods excerpts read; current Dp1 reanalysis reused. Hyperactive EZH2 can improve immune suppression in an autoimmune setting. Gain is not an interchangeable inverse of cultured loss; chromatin changes are not a uniform global on/off switch. |
@@ -72,6 +72,12 @@ Europe PMC XML, ENA runs, BioSample records and the public article data statemen
 The [source ledger](SOURCE_QUALIFICATION.md) records exact URLs, versions, sizes,
 hash bindings and failed routes. Per-animal FCS and longitudinal tumor
 measurements with cohort crosswalks were not located in these routes.
+
+The [F1 source audit](F1_SOURCE_AUDIT_20261112.md) adds NCBI and ENA
+experiment XML, BioProject, the GEO file inventory, the supplementary
+figure detail and access checks for associated material. The submitted
+FASTQ filenames give a facility lookup key. The additional records supply
+no evidence of mouse/pool allocation or independent allele verification.
 
 ## Current estimand, alternatives and informative outcomes
 

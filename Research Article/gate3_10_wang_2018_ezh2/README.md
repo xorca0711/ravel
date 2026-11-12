@@ -4,6 +4,7 @@
 deposited-library level.** The article-local owner is Wang18-P01.
 
 [Results and measured figures](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
+· [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
 · [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
 · [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
 · [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
@@ -54,8 +55,10 @@ The count matrix, GEO, ENA and BioSample identify four fl/fl, four +/+, and one
 fl/+ libraries. Figure S3C labels its five control points fl/+. Mouse/pool
 membership, sex, age and processing blocks remain unresolved. The analysis
 uses the deposited allele labels and describes relative RNA without estimating
-animal-population uncertainty. Exact replay requires the authors' panel
-crosswalk, normalization and GSEA mapping/ranking.
+animal-population uncertainty. F1 recovered the original S3B Signal2Noise
+ranking label and SRA filename prefix `DuPage_667`. The public records
+still lack the panel crosswalk, normalization, exact GSEA inputs and
+mouse/pool and processing assignments. [F1 source audit](F1_SOURCE_AUDIT_20261112.md).
 
 These are not deposited intratumoral single-cell perturbation measurements.
 The four-versus-five comparison has neither an unactivated baseline nor matched
@@ -90,10 +93,12 @@ a general biological program are different tasks.
 | S3 | Assess breadth and sensitivity | All 50 adapted mouse Hallmarks and the eligible gene universe reported. |
 | S4 | Compare activation contexts | Fixed five-gene mouse panel completed. Human tissue association branch closed for this question. |
 | S5 | Reconcile the RNA with published function | Published assays integrated. Per-animal functional inputs were not located. |
+| F1 | Check original sample and analysis records | Source audit complete. Signal2Noise and a facility filename prefix were recovered. Exact replay, population inference and functional reconstruction remain held. |
 
 The next discriminator, if matched material becomes available, is whether the
 RNA shift persists within the same recovered Treg state when viable recovery
-and state composition are measured. The available inputs support closing the
-current execution without a new functional or human analysis.
+and state composition are measured. The immediate follow-up decision is
+whether to seek existing author records using the
+[local draft request](F1_AUTHOR_REQUEST_DRAFT.md).
 [Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
 [Context amendment](CONTEXT_AMENDMENT_V1.md).

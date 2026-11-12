@@ -1,6 +1,35 @@
 # Current project state
 
-## Wang EZH2/Treg technical execution complete — 12 November 2026
+## Wang F1 source follow-up complete — 12 November 2026
+
+The [F1 audit](Research%20Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md)
+recovered the original S3B Signal2Noise label and confirmed the shared
+submission's sample identifiers. SRA original filenames expose the
+`DuPage_667` prefix for a facility-manifest lookup. Public records leave
+mouse/pool nesting, processing blocks, the S3C control-label discrepancy
+and exact panel inputs unresolved. The deposited-library description
+remains supported. Population inference, exact replay and functional
+reconstruction are held.
+
+The [author request draft](Research%20Article/gate3_10_wang_2018_ezh2/F1_AUTHOR_REQUEST_DRAFT.md)
+specifies the sample sheet and panel files needed to reassess eligibility.
+No contact, external settings change, raw-read download, numerical rerun
+or F2 work occurred. The next checkpoint is review of F1 and a decision
+on seeking the original records. Source-state and viable-recovery
+measurements remain separate needs. Refreshed integration base `30a4a7b`.
+
+## Wang EZH2/Treg execution reviewed — 12 November 2026
+
+The [execution review](Research%20Article/gate3_10_wang_2018_ezh2/REVIEW_20261112.md)
+found no blocking issue within the declared descriptive scope at `e1c3750`,
+against refreshed main `30a4a7b`. A separate calculation matched all nine library
+totals/size factors and 154 anchor/context contrasts; the source, scripts and
+three figures were reviewed. Frozen analyses remain unchanged. The source-driven
+amendments and closure of the optional human branch are justified. Stronger
+inference still needs the source crosswalk or linked recovery/state measurements;
+within-state conditioning alone would not identify a direct genotype effect.
+Repository validation and whitespace checks passed. No new numerical study,
+external setting change or acceptance decision was made.
 
 [Results, figures, tables and receipts](Research%20Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md)
 cover the source review, S1–S4 execution and S5 integration. GSE114298 supplies
