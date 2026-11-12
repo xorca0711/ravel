@@ -1,5 +1,16 @@
 # Current project state
 
+## Compass figure selected for the methods panel — 12 November 2026
+
+Compared source-table LIANA and labelled PAGA network previews at README
+size. Following the owner's preference, the sixth slot uses the existing
+[Compass plot](Research%20Article/gate2_W2_wagner_Th17_PGAM/FIGURES.md#figure-5-pgam-keeps-the-published-negative-sign-but-is-not-the-most-distinctive-reaction)
+from the paper package renderer. The first five previews retain their
+existing order. Network drafts are outside the repository diff. No numerical
+analysis or figure regeneration is required.
+Repository validation, the six-preview check and the base-aware provenance
+gate passed against `907a29c`.
+
 ## Current documentation reconciled — 12 November 2026
 
 Reviewed GitHub main `e7e6823` and based this documentation change on the
