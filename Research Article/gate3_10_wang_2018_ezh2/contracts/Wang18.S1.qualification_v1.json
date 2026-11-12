@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S1.qualification_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which deposited Wang count libraries and control alleles support day-4 Treg RNA description?",
+  "decision": "Qualify library-level descriptions or hold depending on exact source identity and count semantics.",
+  "strongest_rival": "An incorrect accession/column crosswalk or pooling hidden behind unique run accessions would misstate the comparison.",
+  "discriminator": "Require GEO count column, GSM, SRX, BioSample genotype and ENA SRR identity. Check integer count semantics and preserve unknown mouse allocation.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/ANALYSIS_PLAN.md",
+    "Research Article/gate3_10_wang_2018_ezh2/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_10_wang_2018_ezh2/SOURCE_QUALIFICATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published S3B–C outcomes and Dp1 directions are known. GEO/ENA/BioSample identities, source methods and the count header have been inspected. Subsequent stages explicitly record additional exposure.",
+  "biological_unit": "Deposited day-4 bulk RNA library; source mouse or pool unit is unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine unique BioSample and library/run accessions. Mouse/pool reuse and processing blocks are unresolved. Wang article and GEO reanalysis are shared-source evidence.",
+  "population_and_selection": "C57BL/6 initially CD62L-high Tregs cultured for 96 hours with CD3/CD28 stimulation and IL-2. Viable recovered cell composition after culture is unresolved.",
+  "contrast": "No biological contrast in S1; compare metadata identities across the nine count columns.",
+  "endpoint": "Library crosswalk, per-library count and detection totals, and matrix qualification.",
+  "methods": "Exact one-to-one joins across count header, GEO SOFT, ENA and BioSample; require unique stable Ensembl identifiers and nonnegative integer rows; summarize without inspecting genotype effects.",
+  "missingness_and_exclusions": "Retain all nine libraries and all genes, including zeros. No mouse or batch imputation.",
+  "multiplicity": "Descriptive outputs only; no gene-level or set-level tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No sampling uncertainty is estimated for the finite deposited libraries.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No animal-population inference, cell-state or functional effect, tumor specificity or independent replication.",
+  "stop_rule": "Stop on malformed count data, duplicate identifiers or a failed source join; unresolved biological independence holds statistical inference.",
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_manifest.tsv",
+    "library_qc.tsv",
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective metadata execution after retrieval and identity-only source review."
+}
