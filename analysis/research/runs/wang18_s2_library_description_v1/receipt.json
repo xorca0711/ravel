@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S2.library_description_v1",
+  "owner": "Wang18-P01",
+  "contract": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S2.library_description_v1.json",
+  "contract_sha256": "a99b7eb9720de8f917a5892b317d7bced657b9e5570117e05d17125ac5105ecf",
+  "git_commit": "6d8f0bbb99def7ce3c4ffcb88928f3816d911975",
+  "started_at": "2026-11-12T03:30:58.449558+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+    "--output",
+    "analysis/research/runs/wang18_s2_library_description_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+      "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+      "study_id": "Ensembl78",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/receipt.json",
+      "sha256": "3428c2e96b7f4b6e25fa1487375faf9073f924c7ba55bbe6f2e26de3f61ea132",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+      "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/anchor_values.tsv",
+      "sha256": "cf70ab9b3f06f6f5a372e91b7a9a9e32b0de7c2401c7d753e8940987efb9ef87"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/library_coordinates.tsv",
+      "sha256": "65f86241a5637593510dd6498fcffdf4b35ff7be73b125aebf1f46a0dbfb914f"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/summary.json",
+      "sha256": "5452b769babfa2bb35c319fb505c9f294039559acc156a95c0ea023cf7f1e7a2"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/library_overview.png",
+      "sha256": "5f456f1fc1bffdcbe21a91ba8692bbcadf3f38c03edd3d46d7840702d6c89e48"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/anchor_libraries.png",
+      "sha256": "b38fa87f05a661634243f5428666cb85310af2ed94e78b86f81ea091dd0f0c36"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T03:31:06.087174+00:00"
+}
