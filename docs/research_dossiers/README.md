@@ -1,12 +1,12 @@
 # Research development index
 
-**7 November additions:** [A33](A33.md), [A34](A34.md), [A35](A35.md) develop distinct DuPage-derived Treg comparisons. [Derivation and literature correction](../../Research%20Article/gate3_09_dupage_2015/rq_derivation/README.md). Earlier review coverage is historical.
+**Recent additions.** [A33](A33.md), [A34](A34.md) and [A35](A35.md) develop distinct DuPage-derived Treg comparisons. [A36](A36.md) develops the Navarro-derived question about later neuronal output after transient IL-10 exposure. The [question homes](../../RQ_Specified/README.md#current-questions) link their current evidence.
 
-[Biological topic map](../guides/RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#all-33-current-questions).
+[Biological topic map](../guides/RESEARCH_TOPICS.md) · [Current RQ findings](../../RQ_Specified/README.md#current-questions).
 
 **Current navigation:** all [37 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
 
-**Historical review coverage:** the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) retain their dated scope. They are not the current 33-question inventory.
+**Historical review coverage.** The [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) describe the October checkpoint.
 
 **Specificity and novelty applied:** [3 October source comparison](../history/reviews/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 

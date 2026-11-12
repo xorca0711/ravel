@@ -1,6 +1,6 @@
 # Research-question figure gallery
 
-All 36 questions have qualitative biological illustrations. A33–A35 were added and reviewed on 8 November; the earlier A0–A32 artwork is preserved. These are qualitative question diagrams, not measured results or scientific acceptance. Each owning page displays only its selected matte image.
+All 37 questions (A0–A36) have qualitative biological illustrations. Each owning page displays its selected image. Measured results appear in the [result figure index](FIGURES.md).
 
 [Question index](README.md) · [Publication and review record](../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Searchable HTML](SCHEMATIC_GALLERY.html)
 
@@ -224,4 +224,4 @@ All 36 questions have qualitative biological illustrations. A33–A35 were added
 
 ![A36 qualitative comparison](A36_aged_il10_sustained_neuronal_output/schematics/A36_gpt_matte_v2.png)
 
-[Question](A36_aged_il10_sustained_neuronal_output/README.md) · [Context](A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md). Qualitative v1; no measured result.
+[Question](A36_aged_il10_sustained_neuronal_output/README.md) · [Context](A36_aged_il10_sustained_neuronal_output/LITERATURE_CONTEXT.md). Qualitative v2.
