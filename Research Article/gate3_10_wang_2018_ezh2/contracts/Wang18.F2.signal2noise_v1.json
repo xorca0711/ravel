@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.F2.signal2noise_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the same deposited day-four libraries retain their inflammatory and alternative culture-state Hallmark patterns under the source-named Signal2Noise rank metric?",
+  "decision": "Check ranking dependence in the existing finite-library description. Preserve any reversals or omission-sensitive directions before the F2 review.",
+  "strongest_rival": "Positive ranks may depend on ranking formula, library leverage, genotype-associated processing or the relative abundance of surviving cell states.",
+  "discriminator": "Hold normalized-count input, universe, symbol mapping, Hallmark release and weighted running-sum algorithm fixed. Compare log2 mean ratio with Signal2Noise and assess allele restriction and every single-library omission.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/RESULTS_V1.md",
+    "Research Article/gate3_10_wang_2018_ezh2/F1_SOURCE_AUDIT_20261112.md",
+    "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published S3B–C and repository S1–S4 outcomes known. F1 identified the Signal2Noise label, orientation and zero crossing in the source. Formula and settings were fixed before viewing F2 rankings and outcomes.",
+  "biological_unit": "Deposited day-4 bulk RNA library; source mouse or pool unit is unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine unique BioSample and library/run accessions. Mouse/pool reuse and processing blocks are unresolved. Wang article and GEO reanalysis are shared-source evidence.",
+  "population_and_selection": "C57BL/6 initially CD62L-high Tregs cultured for 96 hours with CD3/CD28 stimulation and IL-2. Viable recovered cell composition after culture is unresolved.",
+  "contrast": "Four deficient libraries minus all five deposited controls and minus the four +/+ controls. Every included library is omitted in turn within each contrast.",
+  "endpoint": "Signed descriptive weighted Hallmark enrichment scores, covered members and leading edges; omission scores and ranges, with no tests.",
+  "methods": "Python 3.12.10, NumPy 2.5.1 and matplotlib 3.11.1. Signal2Noise follows the mean branch of GSEA Desktop v3.0 (60835bf6ff0869f2072b30e0551c170dc9b319e2): arithmetic mean difference divided by sum of sample SDs (n-1), each floored at 0.20*abs(group mean), or 0.20 at zero mean. Keep S2 count scale and factors fixed, recompute ranking within each subset, sort signed scores descending with exact ties ascending Ensembl ID. Apply the same S3 weighted running sum using absolute rank-score weights, with at least ten matched members. No additional transforms, permutations or NES.",
+  "missingness_and_exclusions": "Preserve S3 exact case-sensitive unique-symbol and count eligibility universe. Keep all 50 sets, display coverage/status and hold if coverage below floor. Omission configurations keep at least three deposited libraries per group; no biological independence is asserted.",
+  "multiplicity": "Descriptive outputs only; no gene-level or set-level tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No sampling uncertainty is estimated for the finite deposited libraries.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No animal-population inference, cell-state or functional effect, tumor specificity or independent replication.",
+  "stop_rule": "Stop on a manifest, coverage or unit mismatch, nonfinite metric or fewer than three libraries in either group. Hold population inference and exact replay pending original panel inputs and biological design.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/sample_manifest.tsv",
+      "sha256": "13fb2cbbbd0b8c5d01e15bf157cf91085608999faa6482eb2f7fbf6463921723",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/library_coordinates.tsv",
+      "sha256": "65f86241a5637593510dd6498fcffdf4b35ff7be73b125aebf1f46a0dbfb914f",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+      "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236",
+      "study_id": "GSE114298",
+      "unit_ids": [
+        "GSM3138951",
+        "GSM3138952",
+        "GSM3138953",
+        "GSM3138954",
+        "GSM3138955",
+        "GSM3138956",
+        "GSM3138957",
+        "GSM3138958",
+        "GSM3138959"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/hallmark_scores.tsv",
+      "sha256": "47acfed6c4534107791c9981d65c9f9c4e058bd266f56c0aebfc7981c3e83d36",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s3_breadth_v1/receipt.json",
+      "sha256": "4af983414f097eb90132ffbe0cd0b59db7097ee77831dd5b0d9328f35345db47",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/mh.all.v2025.1.Mm.symbols.gmt",
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "study_id": "MSigDB-2025.1.Mm",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/F2_METHOD_V1.md",
+      "sha256": "a394e1099971705c16d4f7814a0ad0de871ffbaece8100621571d4e9887ed06c",
+      "study_id": "GSEA-Desktop-v3.0",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/signal2noise_v1.py",
+      "sha256": "800432c59da0368f6e69f06f6f8472f52091a03fcbb0f1fc1627f35ba3fffaab"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/breadth_v1.py",
+      "sha256": "53332ca6ebb9f989b7aef1bde878127c08f3540615350ab0a0189cf356ff563b"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/describe_v1.py",
+      "sha256": "43c429dd4e1b020cad3a08363952a971727d693e06e9ff7f49101b57aa601eb4"
+    },
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_10_wang_2018_ezh2/scripts/signal2noise_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "hallmark_signal2noise.tsv",
+    "ranking_diagnostics.json",
+    "signal2noise_overview.png"
+  ],
+  "amendment_of": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S3.breadth_v1.json",
+  "amendment_reason": "F1 verified the original plot labels Signal2Noise. This source-informed adaptation freezes a ranking sensitivity on the original S2 count scale and S3 universe rather than altering the existing results."
+}
