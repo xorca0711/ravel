@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18.S1.qualification_v1",
+  "owner": "Wang18-P01",
+  "contract": "Research Article/gate3_10_wang_2018_ezh2/contracts/Wang18.S1.qualification_v1.json",
+  "contract_sha256": "25b7ffe3fd73b80fb1b85b82502adc413c9da4cba502144ec8ff45a7f6333485",
+  "git_commit": "98f1558b6cf1a2232ba211187339def6708708a4",
+  "started_at": "2026-11-12T03:29:00.277743+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+    "--output",
+    "analysis/research/runs/wang18_s1_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wang_20261112/GSE114298_counts.STARMOUSE.GEO_05_08_2018.txt.gz",
+      "sha256": "7bfe38a8c0cf0475341d2307c6aed714c6897e5d21d6d83b92edbc969a56b36a",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/GSE114298_family.soft.gz",
+      "sha256": "36fbaedd75a1ee477a024b906b7a3f1ce31ff51cd34aac43154bec32e22f3333",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/PRJNA470833-ENA.tsv",
+      "sha256": "f884806a87a3f559e6f20d7dd50f1f917ccff2d5d1b51cb7b10826a41293fb3e",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wang_20261112/biosamples.xml",
+      "sha256": "6d15efa7a2db1ebfd140fd9764820b8dc55cbb8969a590bc43796ea054bab152",
+      "study_id": "GSE114298",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_10_wang_2018_ezh2/scripts/qualify_v1.py",
+      "sha256": "bed914c3c995edf6ee28baaec9575cde8ce1889da2c7dc4764b5634222129cba"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/sample_manifest.tsv",
+      "sha256": "13fb2cbbbd0b8c5d01e15bf157cf91085608999faa6482eb2f7fbf6463921723"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/library_qc.tsv",
+      "sha256": "4fa8a4d154d30242660b786f65afde3eb0f641ecf39d55094286397e590750da"
+    },
+    {
+      "path": "analysis/research/runs/wang18_s1_qualification_v1/qualification.json",
+      "sha256": "57b5e2dd115273146446443b03f07072d73e296f5a6fdf2ace76148de66051dd"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T03:29:01.278611+00:00"
+}
