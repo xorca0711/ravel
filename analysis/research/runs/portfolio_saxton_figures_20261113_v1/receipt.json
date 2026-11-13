@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22-P01.portfolio_archive_20261113_v1",
+  "owner": "Sx22-P01",
+  "contract": "analysis/research/contracts/Sx22-P01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "90770ec08df2ef98bbc2c90b03b56a4e4387bcc77f6477e481341f38f2cbeede",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:32.278410+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/saxton/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_saxton_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/structure_osmr.png",
+      "sha256": "2c24f0130331bea4e9324d51a7c63cc3ebdd9aa646f1f2762fb8ede33bb63d43",
+      "study_id": "saxton_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/structure_osmr.pdf",
+      "sha256": "558bb80c8ac3163c00c3a9e2adcec6db98f300ba34089854ed1745432291cb59",
+      "study_id": "saxton_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/6weo_complex.png",
+      "sha256": "29998e09bdabcc2a429b2416ab824948fe2761f8a667710fe728acf05f0d825a",
+      "study_id": "saxton_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/6weo_interface.png",
+      "sha256": "ea92566bd378b3b4c812af7eee9baec443e98b3536bbef6959b84e0ee8f7f679",
+      "study_id": "saxton_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/render_6weo.cxc",
+      "sha256": "f5a9136c7c35e0412c9598907ce8a82c75608d78c1485c745631b0ca72ba0b3b",
+      "study_id": "saxton_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/saxton/import_manifest.json",
+      "sha256": "1436fc681313692aa5891661e0a3b2f1c877f551f2184c816d57dccd5c131021",
+      "study_id": "saxton_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/structure_osmr.png",
+      "sha256": "2c24f0130331bea4e9324d51a7c63cc3ebdd9aa646f1f2762fb8ede33bb63d43"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/structure_osmr.pdf",
+      "sha256": "558bb80c8ac3163c00c3a9e2adcec6db98f300ba34089854ed1745432291cb59"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/6weo_complex.png",
+      "sha256": "29998e09bdabcc2a429b2416ab824948fe2761f8a667710fe728acf05f0d825a"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/6weo_interface.png",
+      "sha256": "ea92566bd378b3b4c812af7eee9baec443e98b3536bbef6959b84e0ee8f7f679"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/render_6weo.cxc",
+      "sha256": "f5a9136c7c35e0412c9598907ce8a82c75608d78c1485c745631b0ca72ba0b3b"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_saxton_figures_20261113_v1/manifest.json",
+      "sha256": "3939eb0e907f69fc9e291162ccab4b2e395cbe5fd0d268d99d30f0cf686ce0d9"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:33.216401+00:00"
+}

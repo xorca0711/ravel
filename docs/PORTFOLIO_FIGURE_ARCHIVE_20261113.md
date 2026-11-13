@@ -12,18 +12,26 @@ Saxton IL-22/IL-10 and Gorby source figures already present in the repository ar
 
 ## Article galleries
 
-- [gate1_02_choi_2020](../Research Article/gate1_02_choi_2020/portfolio_figures_20261113/README.md): 1 displays.
-- [gate1_01_niethamer_2025](../Research Article/gate1_01_niethamer_2025/portfolio_figures_20261113/README.md): 1 displays.
-- [gate2_N1_nabhan_2023](../Research Article/gate2_N1_nabhan_2023/portfolio_figures_20261113/README.md): 4 displays.
-- [gate2_N2_nabhan_2026](../Research Article/gate2_N2_nabhan_2026/portfolio_figures_20261113/README.md): 5 displays.
-- [gate3_09_dupage_2015](../Research Article/gate3_09_dupage_2015/portfolio_figures_20261113/README.md): 4 displays.
-- [gate3_10_wang_2018_ezh2](../Research Article/gate3_10_wang_2018_ezh2/portfolio_figures_20261113/README.md): 1 displays.
-- [gate3_11_zhang_2026_nk](../Research Article/gate3_11_zhang_2026_nk/portfolio_figures_20261113/README.md): 1 displays.
-- [gate2_W1_wagner_th17_autoimmunity](../Research Article/gate2_W1_wagner_th17_autoimmunity/portfolio_figures_20261113/README.md): 3 displays.
-- [gate2_W2_wagner_Th17_PGAM](../Research Article/gate2_W2_wagner_Th17_PGAM/portfolio_figures_20261113/README.md): 1 displays.
-- [gate2_W3_yadav_2025](../Research Article/gate2_W3_yadav_2025/portfolio_figures_20261113/README.md): 3 displays.
-- [gate3_08_saxton_2021_il22](../Research Article/gate3_08_saxton_2021_il22/portfolio_figures_20261113/README.md): 3 displays.
-- [ungated_navarro_negredo_2026_aged_brain_il10](../Research Article/ungated_navarro_negredo_2026_aged_brain_il10/portfolio_figures_20261113/README.md): 4 displays.
+- [gate1_02_choi_2020](../Research%20Article/gate1_02_choi_2020/portfolio_figures_20261113/README.md): 1 displays.
+- [gate1_01_niethamer_2025](../Research%20Article/gate1_01_niethamer_2025/portfolio_figures_20261113/README.md): 1 displays.
+- [gate2_N1_nabhan_2023](../Research%20Article/gate2_N1_nabhan_2023/portfolio_figures_20261113/README.md): 4 displays.
+- [gate2_N2_nabhan_2026](../Research%20Article/gate2_N2_nabhan_2026/portfolio_figures_20261113/README.md): 5 displays.
+- [gate3_09_dupage_2015](../Research%20Article/gate3_09_dupage_2015/portfolio_figures_20261113/README.md): 4 displays.
+- [gate3_10_wang_2018_ezh2](../Research%20Article/gate3_10_wang_2018_ezh2/portfolio_figures_20261113/README.md): 1 displays.
+- [gate3_11_zhang_2026_nk](../Research%20Article/gate3_11_zhang_2026_nk/portfolio_figures_20261113/README.md): 1 displays.
+- [gate2_W1_wagner_th17_autoimmunity](../Research%20Article/gate2_W1_wagner_th17_autoimmunity/portfolio_figures_20261113/README.md): 3 displays.
+- [gate2_W2_wagner_Th17_PGAM](../Research%20Article/gate2_W2_wagner_Th17_PGAM/portfolio_figures_20261113/README.md): 1 displays.
+- [gate2_W3_yadav_2025](../Research%20Article/gate2_W3_yadav_2025/portfolio_figures_20261113/README.md): 3 displays.
+- [gate3_08_saxton_2021_il22](../Research%20Article/gate3_08_saxton_2021_il22/portfolio_figures_20261113/README.md): 3 displays.
+- [ungated_navarro_negredo_2026_aged_brain_il10](../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/portfolio_figures_20261113/README.md): 4 displays.
+
+## Figures already present
+
+- [Saxton IL-10 and Gorby gallery](../Research%20Article/gate3_07_saxton_2021_il10/FIGURES.md).
+- [IL-22 response reference](../analysis/research/runs/sx22_program_description_v1/amplitude_reference.png) and [Osmr source figure](../analysis/research/runs/sx22_osmr_v1/osmr.pdf).
+- [Full Navarro and human-cell context gallery](../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md).
+
+These remain at their existing paths; the archive adds only the different approved display versions.
 
 ## Archive runs
 

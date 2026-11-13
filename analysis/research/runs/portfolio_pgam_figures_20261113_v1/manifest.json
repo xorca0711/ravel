@@ -1,0 +1,83 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Wp-R01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "figure2_pgam_v1",
+      "title": "PGAM perturbation context",
+      "caption": "Presentation of the existing PGAM RNA comparison, retaining source contrasts and sensitivity qualifications. Expression patterns do not establish pathogenic function or independent replication.",
+      "article_home": "Research Article/gate2_W2_wagner_Th17_PGAM",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/wp_compass_orientation_v3/reaction_correlations.csv",
+          "sha256": "1850aa266425ebf13be9095bd5a844038382f34f56eea11dc1586e439ae17671",
+          "analysis_commit": "60f21ee24be19a1dac7ddb649aaa98565c921dda"
+        },
+        {
+          "path": "analysis/research/runs/wp_compass_orientation_v3/pool_scores.csv",
+          "sha256": "07ef73992b3107d9108936a395a06f2d2b1311bdcb5077567e08d550c79eb8ee",
+          "analysis_commit": "60f21ee24be19a1dac7ddb649aaa98565c921dda"
+        },
+        {
+          "path": "analysis/research/runs/wp_compass_orientation_v3/receipt.json",
+          "sha256": "0ec87bdc566efd9401f4a7ffbd1620b72585b86127567989a81791068c4b7b06",
+          "analysis_commit": "60f21ee24be19a1dac7ddb649aaa98565c921dda"
+        },
+        {
+          "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_shift.csv",
+          "sha256": "dee8cbbdd93aec6b8572c2cb92a062c36f5e5697bd727d9410a0c87dbaae7e5d",
+          "analysis_commit": "23e328678dd48decbeccd687af322c850e47b2fd"
+        },
+        {
+          "path": "analysis/research/runs/wp_e3_global_shift_v1/receipt.json",
+          "sha256": "96ca12d19451c2fa61a61c8eec18902f77a033f742a61ca31fd4ef10212be04c",
+          "analysis_commit": "23e328678dd48decbeccd687af322c850e47b2fd"
+        },
+        {
+          "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+          "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+          "analysis_commit": "72d304137a867752209d2ebb8f037b078106bac0"
+        },
+        {
+          "path": "analysis/research/runs/wp_bulk_contrasts_v1/receipt.json",
+          "sha256": "97f957e96faca9e0bbc3a4200fbbf897be9ef5eb054837e86b0108ae4b5854d2",
+          "analysis_commit": "72d304137a867752209d2ebb8f037b078106bac0"
+        }
+      ],
+      "files": [
+        {
+          "name": "figure2_pgam_v1.png",
+          "sha256": "fba924c4bdeb3b6d6f81c3c4c8aef02c1c66cfda0085239fe9120fadce48c898",
+          "bytes": 653120
+        },
+        {
+          "name": "figure2_pgam_v1.pdf",
+          "sha256": "8b9467ebc8d0721c22000aacede4f90343ec0bbb09ea719f7a1f5b30acafc434",
+          "bytes": 145222
+        },
+        {
+          "name": "figure2_pgam_v1.svg",
+          "sha256": "f1b23b5d480c11bec02ab41a1c2f529581056bfe3ec9e35f158135dda3951792",
+          "bytes": 246749
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "output": "figure2_pgam_v1.png",
+      "sha256": "fba924c4bdeb3b6d6f81c3c4c8aef02c1c66cfda0085239fe9120fadce48c898"
+    },
+    {
+      "output": "figure2_pgam_v1.pdf",
+      "sha256": "8b9467ebc8d0721c22000aacede4f90343ec0bbb09ea719f7a1f5b30acafc434"
+    },
+    {
+      "output": "figure2_pgam_v1.svg",
+      "sha256": "f1b23b5d480c11bec02ab41a1c2f529581056bfe3ec9e35f158135dda3951792"
+    }
+  ]
+}

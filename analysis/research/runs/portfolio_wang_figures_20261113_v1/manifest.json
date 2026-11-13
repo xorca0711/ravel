@@ -1,0 +1,89 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Wang18-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "inflammatory_rna",
+      "title": "Inflammatory RNA patterns and target sensitivity",
+      "caption": "Reconstructed enrichment curves use the frozen ranks and original gene-set membership. The selected Hallmark display and Il10/Foxp3 measurements retain all deposited libraries. No new enrichment test or normalized enrichment score is introduced; selection is exposed.",
+      "article_home": "Research Article/gate3_10_wang_2018_ezh2",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/wang18_s3_breadth_v1/hallmark_scores.tsv",
+          "sha256": "47acfed6c4534107791c9981d65c9f9c4e058bd266f56c0aebfc7981c3e83d36",
+          "analysis": "Wang18.S3.breadth_v1",
+          "revision": "67bea75bed01ebbefde5067fd61324983e3897b3"
+        },
+        {
+          "path": "analysis/research/runs/wang18_s3_breadth_v1/gene_sensitivity.tsv",
+          "sha256": "e9003ca2cb868b26e1210006136622288684815a368a50a5c9ac18d6535c30e9",
+          "analysis": "Wang18.S3.breadth_v1",
+          "revision": "67bea75bed01ebbefde5067fd61324983e3897b3"
+        },
+        {
+          "path": "analysis/research/runs/wang18_s2_library_description_v1/complete_contrast.tsv",
+          "sha256": "6b4bb45422668b1136b46a54aea9a59db2822802f796047899802f844b329236",
+          "analysis": "Wang18.S2.library_description_v1",
+          "revision": "6d8f0bbb99def7ce3c4ffcb88928f3816d911975"
+        },
+        {
+          "path": "analysis/research/runs/wang18_f2_signal2noise_v1/hallmark_signal2noise.tsv",
+          "sha256": "e22efa3503b3655a7817cb1c1ec95792423dabcff56fb689686f5b6cf2eb155b",
+          "analysis": "Wang18.F2.signal2noise_v1",
+          "revision": "1e5a62942f0401da27648787ae782f5caaaef5c0"
+        },
+        {
+          "path": "analysis/research/runs/wang18_s2_library_description_v1/anchor_values.tsv",
+          "sha256": "cf70ab9b3f06f6f5a372e91b7a9a9e32b0de7c2401c7d753e8940987efb9ef87",
+          "analysis": "Wang18.S2.library_description_v1",
+          "revision": "6d8f0bbb99def7ce3c4ffcb88928f3816d911975"
+        },
+        {
+          "path": "analysis/research/runs/wang18_s1_qualification_v1/sample_manifest.tsv",
+          "sha256": "13fb2cbbbd0b8c5d01e15bf157cf91085608999faa6482eb2f7fbf6463921723",
+          "analysis": "Wang18.S1.qualification_v1",
+          "revision": "98f1558b6cf1a2232ba211187339def6708708a4"
+        },
+        {
+          "path": "raw_data/wang_20261112/mh.all.v2025.1.Mm.symbols.gmt",
+          "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+          "analysis": "Wang18.S3.breadth_v1 input"
+        }
+      ],
+      "files": [
+        {
+          "name": "inflammatory_rna.png",
+          "sha256": "bb6eed10bfe845e5742912d56e8044227e51afdf48044174977bc899f6c20028",
+          "bytes": 487105
+        },
+        {
+          "name": "inflammatory_rna.pdf",
+          "sha256": "7ad0d3314ea1eb93a305095ac472770702a5b3247c71d39995fc57dabf430eea",
+          "bytes": 98257
+        },
+        {
+          "name": "inflammatory_rna.svg",
+          "sha256": "e82bfd2a57c6f2bd546dda5c01205333c881c53534cdec1a6c4da23c278a4831",
+          "bytes": 120419
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "output": "inflammatory_rna.png",
+      "sha256": "bb6eed10bfe845e5742912d56e8044227e51afdf48044174977bc899f6c20028"
+    },
+    {
+      "output": "inflammatory_rna.pdf",
+      "sha256": "7ad0d3314ea1eb93a305095ac472770702a5b3247c71d39995fc57dabf430eea"
+    },
+    {
+      "output": "inflammatory_rna.svg",
+      "sha256": "e82bfd2a57c6f2bd546dda5c01205333c881c53534cdec1a6c4da23c278a4831"
+    }
+  ]
+}

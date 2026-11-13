@@ -1,0 +1,483 @@
+{
+  "purpose": "Upstream records for already-generated chromatin figures; these local scientific runs are not registered as new executions by this archive.",
+  "records": [
+    {
+      "schema_version": 1,
+      "analysis_id": "Dp1.peeters_chromatin_context_v1",
+      "contract": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/Dp1.peeters_chromatin_context_v1.json",
+      "contract_sha256": "7c9c1b89572801aa1696ee6deebcfa18b13498a75933ec61e21e47cd82f90249",
+      "git_commit": "1a720aae3b3a1b76970256ffec3f2d35335a7adb",
+      "inputs": [
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158010_WT_A.bw",
+          "sha256": "e74e0b0dffc20a9ce3e28ac6281e7422241a0de3e4fbb089cbfcf1dfd546e7c8",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158013_WT_N.bw",
+          "sha256": "e92db540d4efd00262d701eba556bbe1a6e98c1fa75599d083a1fedec34d082f",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158016_Ezh2-Y641F_N.bw",
+          "sha256": "e722f95911ecd3fd85854c0d481db1cb6329b5915d06cdc48b42704ee694b2f9",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158019_Ezh2-Y641F_A.bw",
+          "sha256": "2b559dab8ca72eff8c657680301134eb4d33ffb26720e055c13a326dedaa840b",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158022_IGG_N.bw",
+          "sha256": "e8b26fd0311ddbc0e65354cc237be2fb29cfcfa972f54380d63c772695ab31a4",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158023_IGG_A.bw",
+          "sha256": "4ff4b62f0247e6f54d6485dd70e1763206c129929188d127878eb353187bebd9",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSE262129.soft.gz",
+          "sha256": "bf0a252aef292d8315c962e9fddd53e9ebe578c5923ddb4b815dc8cc12bdcb27",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "metadata",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSE262129-filelist.txt",
+          "sha256": "0969ab0716930540d318a11436bc500fd78c41b14cbaed8252f82c171e5ef355",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "metadata",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSE262130.soft.gz",
+          "sha256": "cb77d61cadad4b8e48ad7ab879843053e5a567c7033e0a2ef5e30af380b37682",
+          "study_id": "GSE262130",
+          "unit_ids": [],
+          "role": "metadata",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+          "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+          "study_id": "Ensembl78",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/mm10.chrom.sizes",
+          "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+          "study_id": "UCSC-mm10",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/peeters.xml",
+          "sha256": "b313ef60819483898a68c5765dde2dd626767c4efdf0a8557cfb95843cfde0ac",
+          "study_id": "PMID39264807",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "analysis/research/runs/dupage_candidate_followup_v1/contrasts.tsv",
+          "sha256": "b0a163e6f114c548ea1fd7b42f1a1ec3d2cb12c42d7a15c2002a01d715ed4ae9",
+          "study_id": "GSE262130",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "analysis/research/runs/dupage_candidate_followup_v1/receipt.json",
+          "sha256": "bbe6cf1b27bceeb9720bc1c25d3e04ead4f9507890c02ff3d52efdddab26f04d",
+          "study_id": "GSE262130",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/runtime_manifest_v1.json",
+          "sha256": "91553be5e68cfb8a75b0d546c7e168c33942672ae9d5bba49472a3e0db76608c",
+          "study_id": "gmod-bbi12.2.0",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/runtime/package-lock.json",
+          "sha256": "794fe66d70c86e23efc5588170e29ff576a7da22dd218744c1b31eb618e61978",
+          "study_id": "gmod-bbi12.2.0",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        }
+      ],
+      "code": [
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/locus_context_v1.py",
+          "sha256": "e0b37ae1ba7c9871afd79383a20d8d7c2038b4ee756d90d9f77d5022c1e2d572"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/read_bigwig_v1.cjs",
+          "sha256": "caf29ab6e22a9c56e1d2d6696e5f7b72e2bdb3b22bb48e41ed5ae9ffcb07b324"
+        }
+      ],
+      "status": "executed",
+      "outputs": [
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/source_manifest.tsv",
+          "sha256": "a26af434560e7d6a21b6db20ada120e0365ca305d55365b0d19b015952efe4c1"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+          "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/bigwig_request.json",
+          "sha256": "12309cbc38927040fb1450daf1dc4cd395435885a34eeebcab96b3196cf4a705"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/native_intervals.tsv",
+          "sha256": "26440b93ba5fdaa0a7c873b71733bbba5e3529426bd1dd31b23054e1b8e85e98"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/bigwig_headers.json",
+          "sha256": "ae6d75fd1ab74fc1fcfea5a3376766fda5577768842cab72a80cfcf006a3271f"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/window_signal.tsv",
+          "sha256": "f1c283c5ad6e9748b48675dd6fb3b4911f1737d6944f9dbccae83d4df15005b3"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+          "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+          "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/summary.json",
+          "sha256": "cda461734ea63c80553f4329fa0c9674b22521642676c064dce7e88e3d5052eb"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/candidate_loci.png",
+          "sha256": "c7665401bdc255b2ca354083f22aeabfec4b476886bb6f39796037ee6195b1d4"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/candidate_loci.svg",
+          "sha256": "7cf84493c7d8c1aed5e8a677c191cff3935578b844f9ba8ccaa1d747181a561a"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/candidate_loci.pdf",
+          "sha256": "9f9f8380a7d6ed7597bd29b3ae09eeecf115040782497f83b09427bb858bf83e"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/chromatin_rna_context.png",
+          "sha256": "d3b9d88e11f1e8621105513e6cc77be09e6c17355b1ec1924494ea14511c484c"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/chromatin_rna_context.svg",
+          "sha256": "7f30dd5626c698b30a24baeb488d77e7ee2057bf4735058d9a9ff2c7c02df0cd"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/chromatin_rna_context.pdf",
+          "sha256": "c4b81d5a70803a6e7a65388dcf87fc3b6ec04736485b5504722a1ff09aa9b312"
+        }
+      ],
+      "exit_code": 0
+    },
+    {
+      "schema_version": 1,
+      "analysis_id": "Dp1.peeters_genome_reference_v1",
+      "contract": "Research Article/gate3_09_dupage_2015/genome_reference_20261113/Dp1.peeters_genome_reference_v1.json",
+      "contract_sha256": "0d4d117df7c0820001c920020453c997fc633cfe4be2306f8c89e5f17290ad0d",
+      "git_commit": "cecf3f3e25bfccf7d903c92ee1ff35e852a12789",
+      "inputs": [
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158010_WT_A.bw",
+          "sha256": "e74e0b0dffc20a9ce3e28ac6281e7422241a0de3e4fbb089cbfcf1dfd546e7c8",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158013_WT_N.bw",
+          "sha256": "e92db540d4efd00262d701eba556bbe1a6e98c1fa75599d083a1fedec34d082f",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158016_Ezh2-Y641F_N.bw",
+          "sha256": "e722f95911ecd3fd85854c0d481db1cb6329b5915d06cdc48b42704ee694b2f9",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158019_Ezh2-Y641F_A.bw",
+          "sha256": "2b559dab8ca72eff8c657680301134eb4d33ffb26720e055c13a326dedaa840b",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158022_IGG_N.bw",
+          "sha256": "e8b26fd0311ddbc0e65354cc237be2fb29cfcfa972f54380d63c772695ab31a4",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSM8158023_IGG_A.bw",
+          "sha256": "4ff4b62f0247e6f54d6485dd70e1763206c129929188d127878eb353187bebd9",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "discovery",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSE262129.soft.gz",
+          "sha256": "bf0a252aef292d8315c962e9fddd53e9ebe578c5923ddb4b815dc8cc12bdcb27",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "metadata",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/GSE262129-filelist.txt",
+          "sha256": "0969ab0716930540d318a11436bc500fd78c41b14cbaed8252f82c171e5ef355",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "metadata",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/Mus_musculus.GRCm38.78.gtf.gz",
+          "sha256": "5b2f88b3e647247ccfee3fa295188479f2750ca03f64c76d08ea133f5cd88c34",
+          "study_id": "Ensembl78",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/mm10.chrom.sizes",
+          "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+          "study_id": "UCSC-mm10",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/peeters.xml",
+          "sha256": "b313ef60819483898a68c5765dde2dd626767c4efdf0a8557cfb95843cfde0ac",
+          "study_id": "PMID39264807",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/runtime_manifest_v1.json",
+          "sha256": "91553be5e68cfb8a75b0d546c7e168c33942672ae9d5bba49472a3e0db76608c",
+          "study_id": "gmod-bbi12.2.0",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "raw_data/peeters_chromatin_20261112/runtime/package-lock.json",
+          "sha256": "794fe66d70c86e23efc5588170e29ff576a7da22dd218744c1b31eb618e61978",
+          "study_id": "gmod-bbi12.2.0",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+          "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/window_signal.tsv",
+          "sha256": "f1c283c5ad6e9748b48675dd6fb3b4911f1737d6944f9dbccae83d4df15005b3",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/receipt.json",
+          "sha256": "ecd07d77d1cf4ddff282ab93b873aadfadb8ff45dbf8f40e48d05ea78ab92254",
+          "study_id": "GSE262129",
+          "unit_ids": [],
+          "role": "context",
+          "independence": "unknown",
+          "exposure": "exposed"
+        }
+      ],
+      "code": [
+        {
+          "path": "Research Article/gate3_09_dupage_2015/genome_reference_20261113/genome_reference_v1.py",
+          "sha256": "c255e032665d72114f8085fdaaae41b114a6380bd07f909341e9bb146d85627b"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/genome_reference_20261113/reference_reader_v1.cjs",
+          "sha256": "ad3ed97c2f390238b28f2f733512b7981bdfacc79f99c9a5d98295d1bebc49da"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/locus_context_v1.py",
+          "sha256": "e0b37ae1ba7c9871afd79383a20d8d7c2038b4ee756d90d9f77d5022c1e2d572"
+        },
+        {
+          "path": "Research Article/gate3_09_dupage_2015/chromatin_extension_20261112/runtime_manifest_v1.json",
+          "sha256": "91553be5e68cfb8a75b0d546c7e168c33942672ae9d5bba49472a3e0db76608c"
+        }
+      ],
+      "status": "executed",
+      "outputs": [
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/annotation_universe.tsv",
+          "sha256": "467dbe56fd41e429aead4c13935f222136a58962d4169a0646d55f21edbbbf5f"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/source_manifest.tsv",
+          "sha256": "a26af434560e7d6a21b6db20ada120e0365ca305d55365b0d19b015952efe4c1"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/extraction_request.json",
+          "sha256": "44161ae4e7ee519e8516867e6b93ba4115c48c76a27206f668d0648b921e71a9"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/window_signal.tsv",
+          "sha256": "1b107f316fa0ac2ecf7bd842e4210ab7c455d0c8c0dad4361dc951085d156ce8"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/audit_intervals.tsv",
+          "sha256": "fb523fd0fe92eed90e6e415c910c41add8ff31c0addbd828ee2c14e698ebbb9a"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/chunk_audit.tsv",
+          "sha256": "b7c17d408e92dcc7de813cd6c2e435819fb270f8a10da17f82ecc2dcf46b0994"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/bigwig_headers.json",
+          "sha256": "b6a20337c69eaa16b80838d865b0e0eace40aebd4109e85f603b3022d7b0d2da"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/coverage_eligibility.tsv",
+          "sha256": "9ca51107e5432411dc8dfc42c66897f9ea2d35ffa00a2606b9fff209d2c5ba8e"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+          "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+          "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+          "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+          "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/summary.json",
+          "sha256": "a9c69ca3b5b1eeed35314357c6634badd03917a4f2c341067441dac111b19ca7"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_signal.png",
+          "sha256": "a88be761774a3b31154b4d89d0c44394f99000cd30f516d15718e7b2e58b2d62"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_signal.svg",
+          "sha256": "b6b016a854f5c169699f179b035b227774ed8ddd579fa83930be3b35080c7578"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_signal.pdf",
+          "sha256": "9b892d99280b698e5bac273ae579436a606da048a19754d09ad8cbaded5b4f01"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.png",
+          "sha256": "6b87fdfeee8e61f53486208f79ed9db46b0a83ce87d9f890d3175f41e0fc8d38"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.svg",
+          "sha256": "c1de54a05da35dd425b9229f26b2201efee49ca984f3215854007a75f6b8b0e0"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.pdf",
+          "sha256": "92d7f508768602f9615620a77d488b4523d1223ef39af807aad7fdd9c16ed7a0"
+        }
+      ],
+      "exit_code": 0
+    }
+  ]
+}

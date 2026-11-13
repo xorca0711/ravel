@@ -1,0 +1,401 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Yd1-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "yadav_cell_context_v5",
+      "title": "Cell annotation and candidate eligibility",
+      "caption": "Source annotations and marker support are retained; broad cell classes are not verified lineages. Differences in captured cell numbers remain relevant to interpretation.",
+      "article_home": "Research Article/gate2_W3_yadav_2025",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/observations.csv",
+          "sha256": "6b42b98efb336eedc27207dfa080e63a615d6efaf95247de77f1cd501cf3a9b6",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/group_summaries.csv",
+          "sha256": "693dfa413406ac17eda0559e9816bb22d3e7620e767b02c931572711440ce620",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/contrasts.csv",
+          "sha256": "067aa2aadc9735247db3e739ae96eed899013a903f9c0b0c1c84bade92185aa3",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
+          "sha256": "92f0aafa91785f6e80679aa993b569da265140366be48bee2c75b72a691a1f37",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/observations.csv",
+          "sha256": "27a786a5aaf02c60313554b509fd1c152b322312cc3bf0ef01a00548eb5d88ec",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/group_summaries.csv",
+          "sha256": "d4aa724deb155397687f2a9b9153d1e9c931ebaad459048c4dedf0520c496cfb",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/contrasts.csv",
+          "sha256": "6baf157fca29942ac79236341e1b76b9cccd0278757fb3560b6416b430845353",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
+          "sha256": "cb90ab704b99c8325df4824438ec7ba156d0ff456b5494ef7426b9f7b51c68c8",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/observations.csv",
+          "sha256": "9532841cde672c1a5412114946cfdd3f44a45e7659763f59b90d9d26bf8babd4",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/group_summaries.csv",
+          "sha256": "7488c98c3195970815d8e649919b21b844813324eda05d3755b71464cc140139",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/contrasts.csv",
+          "sha256": "d291bd30f217de7c7f385789446352a82a8c67cea166be03026b68f2c437d58c",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
+          "sha256": "9b4fd9bd3a9bb39c4725f8f84a8d3ea75ff8ab779b573cd0252b1e63c57daff7",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/composition.csv",
+          "sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639",
+          "receipt_sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/marker_support.csv",
+          "sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a",
+          "receipt_sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+          "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+          "receipt_sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+          "sha256": "6c8f600ee4d2818f9dc348f213d70a872f21406fddb0a4f7b8e2a6e4b04d4c77"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/target_attribution.csv",
+          "sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01",
+          "receipt_sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/independent_verification.json",
+          "sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96",
+          "receipt_sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/receipt.json",
+          "sha256": "cd2106de33663dd60f5dd0a338e4db58d150e24044c7baa35c866efe75d90993"
+        }
+      ],
+      "files": [
+        {
+          "name": "yadav_cell_context_v5.png",
+          "sha256": "9cf05d9da8387fe147c68e1ee3241eea751e054d91b627b75bb2194c0026242e",
+          "bytes": 347776
+        },
+        {
+          "name": "yadav_cell_context_v5.pdf",
+          "sha256": "0688a763d05de985ca58cfff7b945093d7739dfe4dad15176c9af06e09370e9a",
+          "bytes": 59304
+        },
+        {
+          "name": "yadav_cell_context_v5.svg",
+          "sha256": "a2477e20f1937ebf68830b1341bc074f33511b6d0bba81c969b31df5532fa08e",
+          "bytes": 140950
+        }
+      ]
+    },
+    {
+      "id": "figure1_yadav_v1",
+      "title": "Yadav functional and RNA observations",
+      "caption": "Previously archived measurements and contrasts are assembled for comparison. Reused source observations are not an independent replication; molecular scores do not establish tissue repair.",
+      "article_home": "Research Article/gate2_W3_yadav_2025",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/observations.csv",
+          "sha256": "6b42b98efb336eedc27207dfa080e63a615d6efaf95247de77f1cd501cf3a9b6",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/group_summaries.csv",
+          "sha256": "693dfa413406ac17eda0559e9816bb22d3e7620e767b02c931572711440ce620",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/contrasts.csv",
+          "sha256": "067aa2aadc9735247db3e739ae96eed899013a903f9c0b0c1c84bade92185aa3",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
+          "sha256": "92f0aafa91785f6e80679aa993b569da265140366be48bee2c75b72a691a1f37",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/observations.csv",
+          "sha256": "27a786a5aaf02c60313554b509fd1c152b322312cc3bf0ef01a00548eb5d88ec",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/group_summaries.csv",
+          "sha256": "d4aa724deb155397687f2a9b9153d1e9c931ebaad459048c4dedf0520c496cfb",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/contrasts.csv",
+          "sha256": "6baf157fca29942ac79236341e1b76b9cccd0278757fb3560b6416b430845353",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
+          "sha256": "cb90ab704b99c8325df4824438ec7ba156d0ff456b5494ef7426b9f7b51c68c8",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/observations.csv",
+          "sha256": "9532841cde672c1a5412114946cfdd3f44a45e7659763f59b90d9d26bf8babd4",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/group_summaries.csv",
+          "sha256": "7488c98c3195970815d8e649919b21b844813324eda05d3755b71464cc140139",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/contrasts.csv",
+          "sha256": "d291bd30f217de7c7f385789446352a82a8c67cea166be03026b68f2c437d58c",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
+          "sha256": "9b4fd9bd3a9bb39c4725f8f84a8d3ea75ff8ab779b573cd0252b1e63c57daff7",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/composition.csv",
+          "sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639",
+          "receipt_sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/marker_support.csv",
+          "sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a",
+          "receipt_sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+          "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+          "receipt_sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+          "sha256": "6c8f600ee4d2818f9dc348f213d70a872f21406fddb0a4f7b8e2a6e4b04d4c77"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/target_attribution.csv",
+          "sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01",
+          "receipt_sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/independent_verification.json",
+          "sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96",
+          "receipt_sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/receipt.json",
+          "sha256": "cd2106de33663dd60f5dd0a338e4db58d150e24044c7baa35c866efe75d90993"
+        }
+      ],
+      "files": [
+        {
+          "name": "figure1_yadav_v1.png",
+          "sha256": "60403fc2d248869f3794c6638248775c26f1ba19e95b977d55ce8555d0c3489f",
+          "bytes": 309409
+        },
+        {
+          "name": "figure1_yadav_v1.pdf",
+          "sha256": "6769a99033a6d0b980dbbba8274ec01c8a8db7dd2747d4310becab2ec354e2ee",
+          "bytes": 41994
+        },
+        {
+          "name": "figure1_yadav_v1.svg",
+          "sha256": "f18466425591b92cfd22cb4deca373b3b28440e070ff41a3eafd43a2297e3154",
+          "bytes": 57292
+        }
+      ]
+    },
+    {
+      "id": "yadav_inclusion_v5",
+      "title": "Candidate inclusion sensitivity",
+      "caption": "Existing sample-aware summaries and inclusion alternatives are retained, including the Il6 sign reversal. Two deposited libraries limit population inference; no alternative was selected to improve the result.",
+      "article_home": "Research Article/gate2_W3_yadav_2025",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/observations.csv",
+          "sha256": "6b42b98efb336eedc27207dfa080e63a615d6efaf95247de77f1cd501cf3a9b6",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/group_summaries.csv",
+          "sha256": "693dfa413406ac17eda0559e9816bb22d3e7620e767b02c931572711440ce620",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/contrasts.csv",
+          "sha256": "067aa2aadc9735247db3e739ae96eed899013a903f9c0b0c1c84bade92185aa3",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
+          "sha256": "92f0aafa91785f6e80679aa993b569da265140366be48bee2c75b72a691a1f37",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/observations.csv",
+          "sha256": "27a786a5aaf02c60313554b509fd1c152b322312cc3bf0ef01a00548eb5d88ec",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/group_summaries.csv",
+          "sha256": "d4aa724deb155397687f2a9b9153d1e9c931ebaad459048c4dedf0520c496cfb",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/contrasts.csv",
+          "sha256": "6baf157fca29942ac79236341e1b76b9cccd0278757fb3560b6416b430845353",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
+          "sha256": "cb90ab704b99c8325df4824438ec7ba156d0ff456b5494ef7426b9f7b51c68c8",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/observations.csv",
+          "sha256": "9532841cde672c1a5412114946cfdd3f44a45e7659763f59b90d9d26bf8babd4",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/group_summaries.csv",
+          "sha256": "7488c98c3195970815d8e649919b21b844813324eda05d3755b71464cc140139",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/contrasts.csv",
+          "sha256": "d291bd30f217de7c7f385789446352a82a8c67cea166be03026b68f2c437d58c",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
+          "sha256": "9b4fd9bd3a9bb39c4725f8f84a8d3ea75ff8ab779b573cd0252b1e63c57daff7",
+          "analysis_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/composition.csv",
+          "sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639",
+          "receipt_sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/marker_support.csv",
+          "sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a",
+          "receipt_sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+          "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+          "receipt_sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+          "sha256": "6c8f600ee4d2818f9dc348f213d70a872f21406fddb0a4f7b8e2a6e4b04d4c77"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/target_attribution.csv",
+          "sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01",
+          "receipt_sha256": "87681b38ff35250b2a8a21af3e882a745b6f9b308f55e7e5cee7a9d5e2035c01"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/independent_verification.json",
+          "sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96",
+          "receipt_sha256": "c37cbd6ae37e75d2907abc44b66083a2f8680e2b1c90efbe93c1d5305a44fa96"
+        },
+        {
+          "path": "analysis/research/runs/Yd1_extension_x1_v1/receipt.json",
+          "sha256": "cd2106de33663dd60f5dd0a338e4db58d150e24044c7baa35c866efe75d90993"
+        }
+      ],
+      "files": [
+        {
+          "name": "yadav_inclusion_v5.png",
+          "sha256": "292dd68674dc659bdfcd330d41f10efc7e2803e50ea7a38f7ed56c9246de4f6a",
+          "bytes": 293921
+        },
+        {
+          "name": "yadav_inclusion_v5.pdf",
+          "sha256": "552edfc2b2261193af3a53d82f9c7c05ca4ca2dac20f2f7599c9c80a1954ba8f",
+          "bytes": 31236
+        },
+        {
+          "name": "yadav_inclusion_v5.svg",
+          "sha256": "4da1ef624dc7df9b145ec12321177595e75cfd8802a3b02f54ce583580ed377e",
+          "bytes": 31116
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "output": "yadav_cell_context_v5.png",
+      "sha256": "9cf05d9da8387fe147c68e1ee3241eea751e054d91b627b75bb2194c0026242e"
+    },
+    {
+      "output": "yadav_cell_context_v5.pdf",
+      "sha256": "0688a763d05de985ca58cfff7b945093d7739dfe4dad15176c9af06e09370e9a"
+    },
+    {
+      "output": "yadav_cell_context_v5.svg",
+      "sha256": "a2477e20f1937ebf68830b1341bc074f33511b6d0bba81c969b31df5532fa08e"
+    },
+    {
+      "output": "figure1_yadav_v1.png",
+      "sha256": "60403fc2d248869f3794c6638248775c26f1ba19e95b977d55ce8555d0c3489f"
+    },
+    {
+      "output": "figure1_yadav_v1.pdf",
+      "sha256": "6769a99033a6d0b980dbbba8274ec01c8a8db7dd2747d4310becab2ec354e2ee"
+    },
+    {
+      "output": "figure1_yadav_v1.svg",
+      "sha256": "f18466425591b92cfd22cb4deca373b3b28440e070ff41a3eafd43a2297e3154"
+    },
+    {
+      "output": "yadav_inclusion_v5.png",
+      "sha256": "292dd68674dc659bdfcd330d41f10efc7e2803e50ea7a38f7ed56c9246de4f6a"
+    },
+    {
+      "output": "yadav_inclusion_v5.pdf",
+      "sha256": "552edfc2b2261193af3a53d82f9c7c05ca4ca2dac20f2f7599c9c80a1954ba8f"
+    },
+    {
+      "output": "yadav_inclusion_v5.svg",
+      "sha256": "4da1ef624dc7df9b145ec12321177595e75cfd8802a3b02f54ce583580ed377e"
+    }
+  ]
+}

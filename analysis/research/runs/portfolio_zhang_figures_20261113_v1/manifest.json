@@ -1,0 +1,53 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Zh26-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "nk_circuit_rna",
+      "title": "Published immune circuit and deposited NK RNA",
+      "caption": "Panel A summarizes published functional dependencies (Zhang et al., Figures 5-7), not direct cellular contacts or an RNA-derived mechanism. Panels B-C retain the existing NK RNA contrasts and library values; nine pooled libraries do not establish individual-animal replication.",
+      "article_home": "Research Article/gate3_11_zhang_2026_nk",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.csv",
+          "sha256": "130b13de2fff064bbc9df58f9962623e65deb609cb595f370294086f79e5bbe1"
+        },
+        {
+          "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_vs_pbs_nk.csv",
+          "sha256": "7942d9e93a1708592f0d2253aa80a79e2b19e2bfc7733025273c0b518bebd47f"
+        },
+        {
+          "path": "analysis/research/runs/zh26_s1_reproduction_v1/itdt_acd4_vs_itdt_nk.csv",
+          "sha256": "52ee57864c45f0acdd723dfe954b303cd7ab9a1e2cbe7526a3e43efbabec5d2c"
+        }
+      ],
+      "files": [
+        {
+          "name": "nk_circuit_rna.png",
+          "sha256": "a64032946ea5b1cf333cf56f9cd2685951a45b522b089573163fa6c66b2cc91a",
+          "bytes": 356375
+        },
+        {
+          "name": "nk_circuit_rna.pdf",
+          "sha256": "79492f44a39ab2b495ba670c904b481b4a5305cd327b3bc33229f72027787225",
+          "bytes": 108929
+        }
+      ],
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13334847/",
+      "primary_locators": "Figures 5-7 and RNA methods; assessed 2026-11-13"
+    }
+  ],
+  "assets": [
+    {
+      "output": "nk_circuit_rna.png",
+      "sha256": "a64032946ea5b1cf333cf56f9cd2685951a45b522b089573163fa6c66b2cc91a"
+    },
+    {
+      "output": "nk_circuit_rna.pdf",
+      "sha256": "79492f44a39ab2b495ba670c904b481b4a5305cd327b3bc33229f72027787225"
+    }
+  ]
+}

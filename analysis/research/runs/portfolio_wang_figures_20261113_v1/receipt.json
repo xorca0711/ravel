@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18-P01.portfolio_archive_20261113_v1",
+  "owner": "Wang18-P01",
+  "contract": "analysis/research/contracts/Wang18-P01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "f89b2ffd5cd58623a96405e1b62d5e57f342d8f18ba699dab3b0141344e93bcc",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:25.120313+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/wang/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_wang_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.png",
+      "sha256": "bb6eed10bfe845e5742912d56e8044227e51afdf48044174977bc899f6c20028",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.pdf",
+      "sha256": "7ad0d3314ea1eb93a305095ac472770702a5b3247c71d39995fc57dabf430eea",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.svg",
+      "sha256": "e82bfd2a57c6f2bd546dda5c01205333c881c53534cdec1a6c4da23c278a4831",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/import_manifest.json",
+      "sha256": "9f53af58297270cccc33b0d221f3aa1d52cff777786a81e48b780a2f94ffc173",
+      "study_id": "wang_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_wang_figures_20261113_v1/inflammatory_rna.png",
+      "sha256": "bb6eed10bfe845e5742912d56e8044227e51afdf48044174977bc899f6c20028"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wang_figures_20261113_v1/inflammatory_rna.pdf",
+      "sha256": "7ad0d3314ea1eb93a305095ac472770702a5b3247c71d39995fc57dabf430eea"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wang_figures_20261113_v1/inflammatory_rna.svg",
+      "sha256": "e82bfd2a57c6f2bd546dda5c01205333c881c53534cdec1a6c4da23c278a4831"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wang_figures_20261113_v1/manifest.json",
+      "sha256": "d9dc581762c446ae5823c423f5cacafac694f973a7ac3596cbe8e71d7b5ef970"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:26.103314+00:00"
+}

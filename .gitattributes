@@ -261,6 +261,3 @@ analysis/research/runs/g1_a11_capacity_qualification_v1/** -text
 
 # Preserve exact draft Weft pilot source/config/runtime bytes across platforms.
 "Research Article/gate1_02_choi_2020/weft_pilot_v1/**" -text whitespace=cr-at-eol
-
-# Preserve byte-bound public figure archive runner.
-analysis/scripts/archive_portfolio_figures.py -text whitespace=cr-at-eol

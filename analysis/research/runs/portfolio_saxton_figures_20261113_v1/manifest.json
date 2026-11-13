@@ -1,0 +1,94 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Sx22-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "structure_osmr",
+      "title": "IL-22 design sites and Osmr RNA",
+      "caption": "Published S45E, Q116A, K124A and Q128A design sites mapped onto the experimental Super-22a structure (6WEO), alongside six deposited whole-colon libraries and omission/scale sensitivity. This is a structure-based illustration, not a binding-affinity prediction or a demonstration of OSM responsiveness.",
+      "article_home": "Research Article/gate3_08_saxton_2021_il22",
+      "source_files": [],
+      "files": [
+        {
+          "name": "structure_osmr.png",
+          "sha256": "2c24f0130331bea4e9324d51a7c63cc3ebdd9aa646f1f2762fb8ede33bb63d43",
+          "bytes": 293398
+        },
+        {
+          "name": "structure_osmr.pdf",
+          "sha256": "558bb80c8ac3163c00c3a9e2adcec6db98f300ba34089854ed1745432291cb59",
+          "bytes": 374905
+        }
+      ],
+      "extraction": {
+        "source_document_sha256": "a55ded7cdc21320f170b8f1449010bf5da425c8a2430162558f5b5b8c138b21e",
+        "page_1_based": 6,
+        "bounds_pt_from_top_left": [
+          58,
+          137,
+          553,
+          486
+        ],
+        "raster_dpi": 288,
+        "method": "Exact rendered crop of approved public-data figure region; no numerical changes."
+      }
+    },
+    {
+      "id": "6weo_complex",
+      "title": "Experimental IL-22 receptor complex",
+      "caption": "ChimeraX 1.12 rendering of experimental Super-22a structure PDB 6WEO. Purple sites correspond to the published substitution positions. Not a novel predicted structure or calculated affinity.",
+      "article_home": "Research Article/gate3_08_saxton_2021_il22",
+      "source_files": [],
+      "files": [
+        {
+          "name": "6weo_complex.png",
+          "sha256": "29998e09bdabcc2a429b2416ab824948fe2761f8a667710fe728acf05f0d825a",
+          "bytes": 243154
+        }
+      ],
+      "primary_source": "https://www.rcsb.org/structure/6WEO",
+      "coordinate_sha256": "8a0c883c427b6d519f0f93f5a5afda830ec279e67865db350108cf398ed6f75f"
+    },
+    {
+      "id": "6weo_interface",
+      "title": "IL-22 interface close-up",
+      "caption": "ChimeraX 1.12 rendering of experimental Super-22a structure PDB 6WEO. Purple sites correspond to the published substitution positions. Not a novel predicted structure or calculated affinity.",
+      "article_home": "Research Article/gate3_08_saxton_2021_il22",
+      "source_files": [],
+      "files": [
+        {
+          "name": "6weo_interface.png",
+          "sha256": "ea92566bd378b3b4c812af7eee9baec443e98b3536bbef6959b84e0ee8f7f679",
+          "bytes": 564627
+        }
+      ],
+      "primary_source": "https://www.rcsb.org/structure/6WEO",
+      "coordinate_sha256": "8a0c883c427b6d519f0f93f5a5afda830ec279e67865db350108cf398ed6f75f"
+    }
+  ],
+  "assets": [
+    {
+      "output": "structure_osmr.png",
+      "sha256": "2c24f0130331bea4e9324d51a7c63cc3ebdd9aa646f1f2762fb8ede33bb63d43"
+    },
+    {
+      "output": "structure_osmr.pdf",
+      "sha256": "558bb80c8ac3163c00c3a9e2adcec6db98f300ba34089854ed1745432291cb59"
+    },
+    {
+      "output": "6weo_complex.png",
+      "sha256": "29998e09bdabcc2a429b2416ab824948fe2761f8a667710fe728acf05f0d825a"
+    },
+    {
+      "output": "6weo_interface.png",
+      "sha256": "ea92566bd378b3b4c812af7eee9baec443e98b3536bbef6959b84e0ee8f7f679"
+    },
+    {
+      "output": "render_6weo.cxc",
+      "sha256": "f5a9136c7c35e0412c9598907ce8a82c75608d78c1485c745631b0ca72ba0b3b"
+    }
+  ]
+}

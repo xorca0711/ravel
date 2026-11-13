@@ -1,0 +1,31 @@
+open 6weo.cif
+hide #1 atoms
+hide #1 cartoons
+cartoon /D,B,E
+color /D #16837E target c
+color /B #496C9B target c
+color /E #BB7140 target c
+set bgColor white
+lighting soft
+camera ortho
+show /D,B,E@CA atoms
+view /D,B,E
+hide /D,B,E@CA atoms
+turn y 30
+show /D:45,116,124,128 atoms
+style /D:45,116,124,128 stick
+color /D:45,116,124,128 #672F83 target a
+save 6weo_complex.png width 1500 height 1500 supersample 2
+view /D:45,116,124,128
+zoom 0.8
+lighting depthCue false
+show /E:78,109,197 atoms
+style /E:78,109,197 stick
+color /E:78,109,197 #BB7140 target a
+label /D:45 residues text "45" color #52226A height 1.4 bgColor white onTop true
+label /D:116 residues text "116" color #52226A height 1.4 bgColor white onTop true
+label /D:124 residues text "124" color #52226A height 1.4 bgColor white onTop true
+label /D:128 residues text "128" color #52226A height 1.4 bgColor white onTop true
+save 6weo_interface.png width 1500 height 1500 supersample 2
+
+

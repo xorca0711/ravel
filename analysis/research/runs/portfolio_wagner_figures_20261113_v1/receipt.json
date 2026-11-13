@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.portfolio_archive_20261113_v1",
+  "owner": "Wg-R01",
+  "contract": "analysis/research/contracts/Wg-R01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "e14279d69953641916b73996b9b2055365df1065573864190c73f71377173c94",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:27.959528+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/wagner/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_wagner_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.png",
+      "sha256": "1b2e903a14038c71f452547837d2ae17576dcefbf308f1a7784073f664190629",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.pdf",
+      "sha256": "238f8d7180030c5e5713afc2a80560651ea9640a44413da37c410ae02d2e9882",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.svg",
+      "sha256": "f45ae655f25ac783e3293bc86269fa901f2f9581cf0a2fc3ad402500a76b7dcc",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.png",
+      "sha256": "5e903607d079f5ce16ebfaa804b332855d4b4e4f9ccb5b95cc5e5b93cf554c15",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.pdf",
+      "sha256": "a1767579eb965e20e9c9baba0053972ce1abf612f2d3849e47c56bae88a965e0",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.svg",
+      "sha256": "287ca66371df0639f24a81d13d56da210b2b9b5b427552c5c62e216bf08afbe2",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.png",
+      "sha256": "68201a39fab1408c493198ea7874abf17cab45462945a1f41429a70ea6740356",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.pdf",
+      "sha256": "823e71ef8355aefd7b6172ed829c6364a6665c456244931b607e2ed47deb122a",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.svg",
+      "sha256": "cc086c84203092fd3450c1df906434c3a363decef164a154a3498f26e6b8ee44",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/import_manifest.json",
+      "sha256": "0a12bc5924162768e2d24a5a7b5f3c7c424ff3b83ab2b79c50dee751b27ff3f7",
+      "study_id": "wagner_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_polyamine_context_v2.png",
+      "sha256": "1b2e903a14038c71f452547837d2ae17576dcefbf308f1a7784073f664190629"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_polyamine_context_v2.pdf",
+      "sha256": "238f8d7180030c5e5713afc2a80560651ea9640a44413da37c410ae02d2e9882"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_polyamine_context_v2.svg",
+      "sha256": "f45ae655f25ac783e3293bc86269fa901f2f9581cf0a2fc3ad402500a76b7dcc"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_reactions_v5.png",
+      "sha256": "5e903607d079f5ce16ebfaa804b332855d4b4e4f9ccb5b95cc5e5b93cf554c15"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_reactions_v5.pdf",
+      "sha256": "a1767579eb965e20e9c9baba0053972ce1abf612f2d3849e47c56bae88a965e0"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_reactions_v5.svg",
+      "sha256": "287ca66371df0639f24a81d13d56da210b2b9b5b427552c5c62e216bf08afbe2"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_rna_v2.png",
+      "sha256": "68201a39fab1408c493198ea7874abf17cab45462945a1f41429a70ea6740356"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_rna_v2.pdf",
+      "sha256": "823e71ef8355aefd7b6172ed829c6364a6665c456244931b607e2ed47deb122a"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/wg_rna_v2.svg",
+      "sha256": "cc086c84203092fd3450c1df906434c3a363decef164a154a3498f26e6b8ee44"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_wagner_figures_20261113_v1/manifest.json",
+      "sha256": "98dc03c344d9549be742d63f3a5372bcaa4293bd45b600486305c49042e5445d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:28.994757+00:00"
+}

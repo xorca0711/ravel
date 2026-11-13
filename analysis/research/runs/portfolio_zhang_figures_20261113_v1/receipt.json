@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.portfolio_archive_20261113_v1",
+  "owner": "Zh26-P01",
+  "contract": "analysis/research/contracts/Zh26-P01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "e7942cec86b50adf34d8417d15993ac7dae5b8397f75a9ad38a1d917731aee6b",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:26.574766+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/zhang/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_zhang_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/nk_circuit_rna.png",
+      "sha256": "a64032946ea5b1cf333cf56f9cd2685951a45b522b089573163fa6c66b2cc91a",
+      "study_id": "zhang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/nk_circuit_rna.pdf",
+      "sha256": "79492f44a39ab2b495ba670c904b481b4a5305cd327b3bc33229f72027787225",
+      "study_id": "zhang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/import_manifest.json",
+      "sha256": "453582bbb32031c734f8d24843ae89742ab0aa88cc0f3fd31733c89a559eefee",
+      "study_id": "zhang_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_zhang_figures_20261113_v1/nk_circuit_rna.png",
+      "sha256": "a64032946ea5b1cf333cf56f9cd2685951a45b522b089573163fa6c66b2cc91a"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_zhang_figures_20261113_v1/nk_circuit_rna.pdf",
+      "sha256": "79492f44a39ab2b495ba670c904b481b4a5305cd327b3bc33229f72027787225"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_zhang_figures_20261113_v1/manifest.json",
+      "sha256": "26e0eb88c55b6144af89790ba39affc684468aa020538d5dcdddc9cb08e01206"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:27.487636+00:00"
+}
