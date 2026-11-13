@@ -81,3 +81,7 @@ and [Wnt source/response in this cohort](../gate1_03_nabhan_2018/README.md#figur
 ## Question literature and visual companions
 
 - [A3: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A3.md)
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

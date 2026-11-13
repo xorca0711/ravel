@@ -250,3 +250,7 @@ remain intact.
 **Next:** review the [completed qualification and eligible-job ledger](SOURCE_QUALIFICATION.md),
 then select and freeze the first bounded functional/RNA jobs. Missing unit maps
 remain holds. No scientific acceptance or policy change is requested.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

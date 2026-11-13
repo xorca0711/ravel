@@ -48,3 +48,7 @@ independent table arithmetic. [Repository validation](metadata/repository_valida
 checks contracts and links. The earlier [planning validation](metadata/validation.json)
 is retained as history. Raw inputs, full private notes and the annotated PDF are
 not tracked; compact tables, figures, source hashes and scripts are retained.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

@@ -111,3 +111,7 @@ the work. [AM01](ANALYSIS_AMENDMENT_V2.md) records the prospective adapted S3
 mapping. Original plans remain readable; public raw inputs are ignored and
 private reading material was not tracked. Local commits only; no push, PR,
 external message or wet-lab execution.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

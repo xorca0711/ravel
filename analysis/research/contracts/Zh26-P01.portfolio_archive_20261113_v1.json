@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Zh26-P01.portfolio_archive_20261113_v1",
+  "owner": "Zh26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "Research Article/gate3_11_zhang_2026_nk/FIGURES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/nk_circuit_rna.png",
+      "sha256": "a64032946ea5b1cf333cf56f9cd2685951a45b522b089573163fa6c66b2cc91a",
+      "study_id": "zhang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/nk_circuit_rna.pdf",
+      "sha256": "79492f44a39ab2b495ba670c904b481b4a5305cd327b3bc33229f72027787225",
+      "study_id": "zhang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/zhang/import_manifest.json",
+      "sha256": "453582bbb32031c734f8d24843ae89742ab0aa88cc0f3fd31733c89a559eefee",
+      "study_id": "zhang_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/zhang/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "nk_circuit_rna.png",
+    "nk_circuit_rna.pdf",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}

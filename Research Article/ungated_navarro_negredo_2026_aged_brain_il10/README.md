@@ -251,3 +251,7 @@ pooled units and unresolved alias/dose identities. No further environment
 change is needed for this completed run; source holds remain scientific limits.
 
 </details>
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

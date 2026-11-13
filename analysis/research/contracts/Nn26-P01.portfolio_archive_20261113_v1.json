@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nn26-P01.portfolio_archive_20261113_v1",
+  "owner": "Nn26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md",
+    "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_rna.png",
+      "sha256": "a6d71b4775beaae1324107f9cfcc0173dcaa9cce51a5d273597dcad90ab9cfde",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_rna.pdf",
+      "sha256": "d894180021fd162c6e4b5d16aab12a3f38817f368a0986943ef2bd9d1814f9aa",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_neural.png",
+      "sha256": "e5f3e7b9ced8c48d8b434c8e0a4f94ca0578bb4888f74671ee25b9821d333394",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_neural.pdf",
+      "sha256": "08873144e2e48aff14616e2217fa9e28d84967f9b52f4c16d81a4a39f8cc5a70",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_behavior.png",
+      "sha256": "90d4531a865c86f935bb65534fae7a483d4de0ab316961b378aabcc6b1b4f23b",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/aged_brain_behavior.pdf",
+      "sha256": "86a6f62e316e99dc2598d4592fa519d93dec967b3d00b014bcbaf534845ac6c3",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/human_il10_context.png",
+      "sha256": "627aad595a1530b3da53623b4d0c9bd81848b8f4568cd356c40414a6560b81fc",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/human_il10_context.pdf",
+      "sha256": "bc9dd50fd2ab9c50ea6768b0d2a5bc1762b101b94803080c02afd7084325c776",
+      "study_id": "navarro_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/navarro/import_manifest.json",
+      "sha256": "9507ff3ea68b0fb97bbcd9fa4068d68f37e531a5509e04f2139d91c5c8908e9c",
+      "study_id": "navarro_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/navarro/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "aged_brain_rna.png",
+    "aged_brain_rna.pdf",
+    "aged_brain_neural.png",
+    "aged_brain_neural.pdf",
+    "aged_brain_behavior.png",
+    "aged_brain_behavior.pdf",
+    "human_il10_context.png",
+    "human_il10_context.pdf",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}

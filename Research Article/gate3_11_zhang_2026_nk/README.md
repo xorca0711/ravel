@@ -197,3 +197,7 @@ convention; the roadmap subgate is 3B. Paper-specific NK work does not open the
 separate Niethamer/D1 lung Treg-separability gate. Raw downloads and personal
 lab-fit/outreach notes remain outside the public repository. Numerical completion
 does not confer scientific acceptance.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

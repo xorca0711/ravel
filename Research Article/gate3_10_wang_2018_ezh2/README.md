@@ -119,3 +119,7 @@ inference requires verified units, assays, overlap and precision. The
 historical source and replay gaps.
 [Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
 [Context amendment](CONTEXT_AMENDMENT_V1.md).
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

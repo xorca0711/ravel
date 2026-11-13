@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.portfolio_archive_20261113_v1",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.png",
+      "sha256": "1b2e903a14038c71f452547837d2ae17576dcefbf308f1a7784073f664190629",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.pdf",
+      "sha256": "238f8d7180030c5e5713afc2a80560651ea9640a44413da37c410ae02d2e9882",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_polyamine_context_v2.svg",
+      "sha256": "f45ae655f25ac783e3293bc86269fa901f2f9581cf0a2fc3ad402500a76b7dcc",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.png",
+      "sha256": "5e903607d079f5ce16ebfaa804b332855d4b4e4f9ccb5b95cc5e5b93cf554c15",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.pdf",
+      "sha256": "a1767579eb965e20e9c9baba0053972ce1abf612f2d3849e47c56bae88a965e0",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_reactions_v5.svg",
+      "sha256": "287ca66371df0639f24a81d13d56da210b2b9b5b427552c5c62e216bf08afbe2",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.png",
+      "sha256": "68201a39fab1408c493198ea7874abf17cab45462945a1f41429a70ea6740356",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.pdf",
+      "sha256": "823e71ef8355aefd7b6172ed829c6364a6665c456244931b607e2ed47deb122a",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/wg_rna_v2.svg",
+      "sha256": "cc086c84203092fd3450c1df906434c3a363decef164a154a3498f26e6b8ee44",
+      "study_id": "wagner_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wagner/import_manifest.json",
+      "sha256": "0a12bc5924162768e2d24a5a7b5f3c7c424ff3b83ab2b79c50dee751b27ff3f7",
+      "study_id": "wagner_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/wagner/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "wg_polyamine_context_v2.png",
+    "wg_polyamine_context_v2.pdf",
+    "wg_polyamine_context_v2.svg",
+    "wg_reactions_v5.png",
+    "wg_reactions_v5.pdf",
+    "wg_reactions_v5.svg",
+    "wg_rna_v2.png",
+    "wg_rna_v2.pdf",
+    "wg_rna_v2.svg",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}
