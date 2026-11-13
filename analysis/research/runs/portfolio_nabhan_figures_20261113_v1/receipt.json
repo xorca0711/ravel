@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A22.portfolio_archive_20261113_v1",
+  "owner": "A22",
+  "contract": "analysis/research/contracts/A22.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "83d3dfaea52fc1b35eb8ee218f4a4a735fc23c3080506b2913f91c25899f2df3",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:20.845297+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/nabhan/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_nabhan_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/choi.png",
+      "sha256": "1325300b6dcfda43f994850dc1938d025a30990ba1f02ec4c8549a057beeaa2e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niethamer.png",
+      "sha256": "00350a972c5e3d7c24079d88ce6fb72717b9886709f896f2848dd7f086f1f314",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/receptors.png",
+      "sha256": "116ddababd14adce0bcb5ccfacdd435fc84fba05fd3e87ca4cf833ffac247c26",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/bulk_labeled.png",
+      "sha256": "e375bfd3ec9bb91bd5aa99c14b38728ca10770220b33100e1c6b8fa9fa2169b5",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_pca.png",
+      "sha256": "5722a90c3cb75a79b3b06b053054df9f91fdbfffc74e0b26fc21471fcc8dbd8e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_landscape.png",
+      "sha256": "00e5f150d22070698e90210405690ed9412045f9da961bc52f31fd69e1720d70",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche.png",
+      "sha256": "05ecd4f016911804a84ddd2de299f49401603cc287ab4aa37664284d290931c4",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_count.png",
+      "sha256": "e11f677cf2e0ff0c37ad0b8858ab8b81a0514b56756a765e5982032d5532fb9c",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_coverage.png",
+      "sha256": "c143ef602a9acf4317fe260c25279d179f1980728946a42a57e105e6e580bb35",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_prediction.png",
+      "sha256": "dc3662f98b936d645445daa81364192d5203a54cb3003a1ea67a7fb5798c1183",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.png",
+      "sha256": "e215d71caeab64407bef1204076d575088917fb5930b569c128830bb28833cd1",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.pdf",
+      "sha256": "b71f4f93757af4657ff64fc16c2abd9deb11e76b401f723f7a4845191821e99b",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.svg",
+      "sha256": "b5e537c77a25d950d1c19912b9ec0f52e485d98fbe3f22f366a2bdf0c776d44e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/import_manifest.json",
+      "sha256": "318de15fe2b91adaf55edcb45cd3df7e536c0585413d1bd9aa2c337d5861dc1d",
+      "study_id": "nabhan_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/choi.png",
+      "sha256": "1325300b6dcfda43f994850dc1938d025a30990ba1f02ec4c8549a057beeaa2e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niethamer.png",
+      "sha256": "00350a972c5e3d7c24079d88ce6fb72717b9886709f896f2848dd7f086f1f314"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/receptors.png",
+      "sha256": "116ddababd14adce0bcb5ccfacdd435fc84fba05fd3e87ca4cf833ffac247c26"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/bulk_labeled.png",
+      "sha256": "e375bfd3ec9bb91bd5aa99c14b38728ca10770220b33100e1c6b8fa9fa2169b5"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/wnt_pca.png",
+      "sha256": "5722a90c3cb75a79b3b06b053054df9f91fdbfffc74e0b26fc21471fcc8dbd8e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niche_landscape.png",
+      "sha256": "00e5f150d22070698e90210405690ed9412045f9da961bc52f31fd69e1720d70"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niche.png",
+      "sha256": "05ecd4f016911804a84ddd2de299f49401603cc287ab4aa37664284d290931c4"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niche_count.png",
+      "sha256": "e11f677cf2e0ff0c37ad0b8858ab8b81a0514b56756a765e5982032d5532fb9c"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niche_coverage.png",
+      "sha256": "c143ef602a9acf4317fe260c25279d179f1980728946a42a57e105e6e580bb35"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/niche_prediction.png",
+      "sha256": "dc3662f98b936d645445daa81364192d5203a54cb3003a1ea67a7fb5798c1183"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/wnt_receptor_context.png",
+      "sha256": "e215d71caeab64407bef1204076d575088917fb5930b569c128830bb28833cd1"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/wnt_receptor_context.pdf",
+      "sha256": "b71f4f93757af4657ff64fc16c2abd9deb11e76b401f723f7a4845191821e99b"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/wnt_receptor_context.svg",
+      "sha256": "b5e537c77a25d950d1c19912b9ec0f52e485d98fbe3f22f366a2bdf0c776d44e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_nabhan_figures_20261113_v1/manifest.json",
+      "sha256": "60b15728fe4c0982c81819864ae1bd2ef888e490e6bd00f2de9b0f9c8cc79e0d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:21.971921+00:00"
+}

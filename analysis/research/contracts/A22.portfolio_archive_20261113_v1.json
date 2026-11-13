@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A22.portfolio_archive_20261113_v1",
+  "owner": "A22",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+    "Research Article/gate2_N1_nabhan_2023/README.md",
+    "Research Article/gate1_02_choi_2020/README.md",
+    "Research Article/gate1_01_niethamer_2025/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/choi.png",
+      "sha256": "1325300b6dcfda43f994850dc1938d025a30990ba1f02ec4c8549a057beeaa2e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niethamer.png",
+      "sha256": "00350a972c5e3d7c24079d88ce6fb72717b9886709f896f2848dd7f086f1f314",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/receptors.png",
+      "sha256": "116ddababd14adce0bcb5ccfacdd435fc84fba05fd3e87ca4cf833ffac247c26",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/bulk_labeled.png",
+      "sha256": "e375bfd3ec9bb91bd5aa99c14b38728ca10770220b33100e1c6b8fa9fa2169b5",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_pca.png",
+      "sha256": "5722a90c3cb75a79b3b06b053054df9f91fdbfffc74e0b26fc21471fcc8dbd8e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_landscape.png",
+      "sha256": "00e5f150d22070698e90210405690ed9412045f9da961bc52f31fd69e1720d70",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche.png",
+      "sha256": "05ecd4f016911804a84ddd2de299f49401603cc287ab4aa37664284d290931c4",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_count.png",
+      "sha256": "e11f677cf2e0ff0c37ad0b8858ab8b81a0514b56756a765e5982032d5532fb9c",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_coverage.png",
+      "sha256": "c143ef602a9acf4317fe260c25279d179f1980728946a42a57e105e6e580bb35",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/niche_prediction.png",
+      "sha256": "dc3662f98b936d645445daa81364192d5203a54cb3003a1ea67a7fb5798c1183",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.png",
+      "sha256": "e215d71caeab64407bef1204076d575088917fb5930b569c128830bb28833cd1",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.pdf",
+      "sha256": "b71f4f93757af4657ff64fc16c2abd9deb11e76b401f723f7a4845191821e99b",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/wnt_receptor_context.svg",
+      "sha256": "b5e537c77a25d950d1c19912b9ec0f52e485d98fbe3f22f366a2bdf0c776d44e",
+      "study_id": "nabhan_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/nabhan/import_manifest.json",
+      "sha256": "318de15fe2b91adaf55edcb45cd3df7e536c0585413d1bd9aa2c337d5861dc1d",
+      "study_id": "nabhan_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/nabhan/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "choi.png",
+    "niethamer.png",
+    "receptors.png",
+    "bulk_labeled.png",
+    "wnt_pca.png",
+    "niche_landscape.png",
+    "niche.png",
+    "niche_count.png",
+    "niche_coverage.png",
+    "niche_prediction.png",
+    "wnt_receptor_context.png",
+    "wnt_receptor_context.pdf",
+    "wnt_receptor_context.svg",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}

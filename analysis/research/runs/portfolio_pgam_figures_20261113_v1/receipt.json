@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.portfolio_archive_20261113_v1",
+  "owner": "Wp-R01",
+  "contract": "analysis/research/contracts/Wp-R01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "4c66b74b0399f07ed421db51d1e1e1d01a50da7b7181b23e1c2d56dca3efc48e",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:29.415896+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/pgam/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_pgam_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/pgam/figure2_pgam_v1.png",
+      "sha256": "fba924c4bdeb3b6d6f81c3c4c8aef02c1c66cfda0085239fe9120fadce48c898",
+      "study_id": "pgam_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/pgam/figure2_pgam_v1.pdf",
+      "sha256": "8b9467ebc8d0721c22000aacede4f90343ec0bbb09ea719f7a1f5b30acafc434",
+      "study_id": "pgam_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/pgam/figure2_pgam_v1.svg",
+      "sha256": "f1b23b5d480c11bec02ab41a1c2f529581056bfe3ec9e35f158135dda3951792",
+      "study_id": "pgam_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/pgam/import_manifest.json",
+      "sha256": "57ab9a3fd3df664cdb2e34f0fab410f2211d18f6e3335ce5c642da9130ef593d",
+      "study_id": "pgam_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_pgam_figures_20261113_v1/figure2_pgam_v1.png",
+      "sha256": "fba924c4bdeb3b6d6f81c3c4c8aef02c1c66cfda0085239fe9120fadce48c898"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_pgam_figures_20261113_v1/figure2_pgam_v1.pdf",
+      "sha256": "8b9467ebc8d0721c22000aacede4f90343ec0bbb09ea719f7a1f5b30acafc434"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_pgam_figures_20261113_v1/figure2_pgam_v1.svg",
+      "sha256": "f1b23b5d480c11bec02ab41a1c2f529581056bfe3ec9e35f158135dda3951792"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_pgam_figures_20261113_v1/manifest.json",
+      "sha256": "da4e06fb81ee5c1b2d77cfcca7d6bffae8dc757bd8ea18766e206b095d2caefa"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:30.361952+00:00"
+}

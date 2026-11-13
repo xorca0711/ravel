@@ -1,0 +1,286 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Nn26-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "aged_brain_rna",
+      "title": "Microglial and T-cell RNA context",
+      "caption": "Full 28-gene mixed IL-10-related and 20-gene IFN marker sets; absent Gbp1 remains grey. T-cell Gzmb table separates detection from all-cell and positive-cell means. One library per condition and unresolved mouse pooling prevent mouse-population inference.",
+      "article_home": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10",
+      "source_files": [],
+      "files": [
+        {
+          "name": "aged_brain_rna.png",
+          "sha256": "a6d71b4775beaae1324107f9cfcc0173dcaa9cce51a5d273597dcad90ab9cfde",
+          "bytes": 263538
+        },
+        {
+          "name": "aged_brain_rna.pdf",
+          "sha256": "d894180021fd162c6e4b5d16aab12a3f38817f368a0986943ef2bd9d1814f9aa",
+          "bytes": 307679
+        }
+      ],
+      "extraction": {
+        "source_document_sha256": "a55ded7cdc21320f170b8f1449010bf5da425c8a2430162558f5b5b8c138b21e",
+        "page_1_based": 10,
+        "bounds_pt_from_top_left": [
+          58,
+          190,
+          553,
+          607
+        ],
+        "raster_dpi": 288,
+        "method": "Exact rendered crop of approved public-data figure region; no numerical changes."
+      },
+      "related_repository_assets": [
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/cell_denominators.tsv",
+          "sha256": "2ab72eeba21c5cc33f40ee7c08ec8437aa5488424a344bd518c374c627248beb"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/contrasts.tsv",
+          "sha256": "cfcbe930b7cf6a6d0b48fe739fd8860219620fa3146cbecb20e6f73ea3bc58af"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/contrasts_R.tsv",
+          "sha256": "676f61c0599024e1dd6e8f2ca5359e299ccc2fb5e5ff7cbf7562c86804c3e859"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/description_scope.json",
+          "sha256": "d432d6520e4cb275b2c506e63876457724df28c9915fa56298a9d98e5ee608d4"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/independent_verification.json",
+          "sha256": "e93b7be4616c08da04c4a1f4b75e562d01a8f78902b92cb9cddcca98bbe8022d"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/marker_availability.tsv",
+          "sha256": "fb47c78a44ff0337380827478020737abb8274ea32079651b7cd7e258a380244"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/receipt.json",
+          "sha256": "d29136d3d519891ee24c26070d9814e4854683c70eb0f6ce3bb1174af8de6b9d"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/resource_usage.json",
+          "sha256": "907210466bc26b4989d73cbdfc909e6ac2584fc2a2ab385789133024b8e20c44"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/scientific_holds.json",
+          "sha256": "2dafe8d53340cf143cd72d37b605e208ae25832b35e5128af1a22c38c8317e9f"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/software_versions.json",
+          "sha256": "d0ff8d011901677b5aff5510133dab9f9832d2db5a9848fe2d89c0e662b0e1fe"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/summaries.tsv",
+          "sha256": "720bbe2d7bbd859780f0864896503bf86083b4912b8478759358cb6fa2d6be79"
+        },
+        {
+          "path": "analysis/research/runs/nn26_pooled_rna_description_v1/summaries_R.tsv",
+          "sha256": "c9c76fff38d22b20a2741b9e2b4282d088d0988d99dc5a34f2bea7a3271e935f"
+        }
+      ]
+    },
+    {
+      "id": "aged_brain_neural",
+      "title": "Immune protein and neural-marker measurements",
+      "caption": "Source-normalized FACS means and every deposited mouse neural-marker value. Sections are averaged within mouse; density units remain unresolved. These neural markers do not establish functional integration or lesion repair.",
+      "article_home": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10",
+      "source_files": [],
+      "files": [
+        {
+          "name": "aged_brain_neural.png",
+          "sha256": "e5f3e7b9ced8c48d8b434c8e0a4f94ca0578bb4888f74671ee25b9821d333394",
+          "bytes": 192584
+        },
+        {
+          "name": "aged_brain_neural.pdf",
+          "sha256": "08873144e2e48aff14616e2217fa9e28d84967f9b52f4c16d81a4a39f8cc5a70",
+          "bytes": 202947
+        }
+      ],
+      "extraction": {
+        "source_document_sha256": "a55ded7cdc21320f170b8f1449010bf5da425c8a2430162558f5b5b8c138b21e",
+        "page_1_based": 11,
+        "bounds_pt_from_top_left": [
+          58,
+          137,
+          553,
+          464
+        ],
+        "raster_dpi": 288,
+        "method": "Exact rendered crop of approved public-data figure region; no numerical changes."
+      },
+      "related_repository_assets": [
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/chance_tests.csv",
+          "sha256": "80b7f676e8437c4fe9d3caf8ce527ed7895e0d7ad16a30a31961a2c88bf1d179"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/contrasts.csv",
+          "sha256": "050738f2814154b6880c0191557e07577e8daf1002ecc11cad779fc88726fc1a"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+          "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json",
+          "sha256": "967397f07692cba08cac3d7d25506451327e1ea9ad87c9bfda4a574285caa083"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/results.json",
+          "sha256": "e9855414dca156ab2eb383cb638b25b662bb0a5aa964bec2c6fe212ce6dafd6d"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/source_mean_reconciliation.csv",
+          "sha256": "d5a727ede35562c6eb7d8b9ed2efa51a598f2775000b1dafa63aeaade0be0e85"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/summaries.csv",
+          "sha256": "c3ea27a7c7e7f5d6d21dce2ed19474e83e11d813a23940d50b9e3cc224ebe995"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/validation.json",
+          "sha256": "c2163a16506f4affe4e92c048accf58ec978493ceab1857a0a41da2c4bff5204"
+        }
+      ]
+    },
+    {
+      "id": "aged_brain_behavior",
+      "title": "Separate behavioral cohorts",
+      "caption": "Exact rank-test summaries for distinct dose-specific infusion cohorts. Cognition has no WT comparator. These endpoints are not a single composite recovery score; original source discrepancies remain documented.",
+      "article_home": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10",
+      "source_files": [],
+      "files": [
+        {
+          "name": "aged_brain_behavior.png",
+          "sha256": "90d4531a865c86f935bb65534fae7a483d4de0ab316961b378aabcc6b1b4f23b",
+          "bytes": 101897
+        },
+        {
+          "name": "aged_brain_behavior.pdf",
+          "sha256": "86a6f62e316e99dc2598d4592fa519d93dec967b3d00b014bcbaf534845ac6c3",
+          "bytes": 109261
+        }
+      ],
+      "extraction": {
+        "source_document_sha256": "a55ded7cdc21320f170b8f1449010bf5da425c8a2430162558f5b5b8c138b21e",
+        "page_1_based": 11,
+        "bounds_pt_from_top_left": [
+          58,
+          577,
+          553,
+          682
+        ],
+        "raster_dpi": 288,
+        "method": "Exact rendered crop of approved public-data figure region; no numerical changes."
+      },
+      "related_repository_assets": [
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/chance_tests.csv",
+          "sha256": "80b7f676e8437c4fe9d3caf8ce527ed7895e0d7ad16a30a31961a2c88bf1d179"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/contrasts.csv",
+          "sha256": "050738f2814154b6880c0191557e07577e8daf1002ecc11cad779fc88726fc1a"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/observations.csv",
+          "sha256": "1557d730580cfa5c662060f2a669bd8e24ed9150b13345411aa5df0d14f2b21c"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/receipt.json",
+          "sha256": "967397f07692cba08cac3d7d25506451327e1ea9ad87c9bfda4a574285caa083"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/results.json",
+          "sha256": "e9855414dca156ab2eb383cb638b25b662bb0a5aa964bec2c6fe212ce6dafd6d"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/source_mean_reconciliation.csv",
+          "sha256": "d5a727ede35562c6eb7d8b9ed2efa51a598f2775000b1dafa63aeaade0be0e85"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/summaries.csv",
+          "sha256": "c3ea27a7c7e7f5d6d21dce2ed19474e83e11d813a23940d50b9e3cc224ebe995"
+        },
+        {
+          "path": "analysis/research/runs/nn26_animal_reproduction_v1/validation.json",
+          "sha256": "c2163a16506f4affe4e92c048accf58ec978493ceab1857a0a41da2c4bff5204"
+        }
+      ]
+    },
+    {
+      "id": "human_il10_context",
+      "title": "Human-cell IL-10 context",
+      "caption": "Selected endpoints from the completed five-marker analysis. Lines retain within-series donor pairs; T-cell and PBMC times differ and donor identifiers do not establish cross-series matching. Canaria uses a different engineered agonist, not D25K or an aged-brain replication.",
+      "article_home": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10",
+      "source_files": [],
+      "files": [
+        {
+          "name": "human_il10_context.png",
+          "sha256": "627aad595a1530b3da53623b4d0c9bd81848b8f4568cd356c40414a6560b81fc",
+          "bytes": 239518
+        },
+        {
+          "name": "human_il10_context.pdf",
+          "sha256": "bc9dd50fd2ab9c50ea6768b0d2a5bc1762b101b94803080c02afd7084325c776",
+          "bytes": 234581
+        }
+      ],
+      "extraction": {
+        "source_document_sha256": "a55ded7cdc21320f170b8f1449010bf5da425c8a2430162558f5b5b8c138b21e",
+        "page_1_based": 12,
+        "bounds_pt_from_top_left": [
+          58,
+          201,
+          553,
+          486
+        ],
+        "raster_dpi": 288,
+        "method": "Exact rendered crop of approved public-data figure region; no numerical changes."
+      },
+      "related_repository_assets": []
+    }
+  ],
+  "assets": [
+    {
+      "output": "aged_brain_rna.png",
+      "sha256": "a6d71b4775beaae1324107f9cfcc0173dcaa9cce51a5d273597dcad90ab9cfde"
+    },
+    {
+      "output": "aged_brain_rna.pdf",
+      "sha256": "d894180021fd162c6e4b5d16aab12a3f38817f368a0986943ef2bd9d1814f9aa"
+    },
+    {
+      "output": "aged_brain_neural.png",
+      "sha256": "e5f3e7b9ced8c48d8b434c8e0a4f94ca0578bb4888f74671ee25b9821d333394"
+    },
+    {
+      "output": "aged_brain_neural.pdf",
+      "sha256": "08873144e2e48aff14616e2217fa9e28d84967f9b52f4c16d81a4a39f8cc5a70"
+    },
+    {
+      "output": "aged_brain_behavior.png",
+      "sha256": "90d4531a865c86f935bb65534fae7a483d4de0ab316961b378aabcc6b1b4f23b"
+    },
+    {
+      "output": "aged_brain_behavior.pdf",
+      "sha256": "86a6f62e316e99dc2598d4592fa519d93dec967b3d00b014bcbaf534845ac6c3"
+    },
+    {
+      "output": "human_il10_context.png",
+      "sha256": "627aad595a1530b3da53623b4d0c9bd81848b8f4568cd356c40414a6560b81fc"
+    },
+    {
+      "output": "human_il10_context.pdf",
+      "sha256": "bc9dd50fd2ab9c50ea6768b0d2a5bc1762b101b94803080c02afd7084325c776"
+    }
+  ]
+}

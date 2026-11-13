@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.portfolio_archive_20261113_v1",
+  "owner": "Yd1-P01",
+  "contract": "analysis/research/contracts/Yd1-P01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "6adb9ea9ee4232618af06b0c71dc3de7d90a525e67ed8582388a3ef8c639e306",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:30.785645+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/yadav/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_yadav_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_cell_context_v5.png",
+      "sha256": "9cf05d9da8387fe147c68e1ee3241eea751e054d91b627b75bb2194c0026242e",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_cell_context_v5.pdf",
+      "sha256": "0688a763d05de985ca58cfff7b945093d7739dfe4dad15176c9af06e09370e9a",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_cell_context_v5.svg",
+      "sha256": "a2477e20f1937ebf68830b1341bc074f33511b6d0bba81c969b31df5532fa08e",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/figure1_yadav_v1.png",
+      "sha256": "60403fc2d248869f3794c6638248775c26f1ba19e95b977d55ce8555d0c3489f",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/figure1_yadav_v1.pdf",
+      "sha256": "6769a99033a6d0b980dbbba8274ec01c8a8db7dd2747d4310becab2ec354e2ee",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/figure1_yadav_v1.svg",
+      "sha256": "f18466425591b92cfd22cb4deca373b3b28440e070ff41a3eafd43a2297e3154",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_inclusion_v5.png",
+      "sha256": "292dd68674dc659bdfcd330d41f10efc7e2803e50ea7a38f7ed56c9246de4f6a",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_inclusion_v5.pdf",
+      "sha256": "552edfc2b2261193af3a53d82f9c7c05ca4ca2dac20f2f7599c9c80a1954ba8f",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/yadav_inclusion_v5.svg",
+      "sha256": "4da1ef624dc7df9b145ec12321177595e75cfd8802a3b02f54ce583580ed377e",
+      "study_id": "yadav_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/yadav/import_manifest.json",
+      "sha256": "2f63cce75e76727bc2e44e0ff218cc76eebc08fd4dbbdf7a624589a286f66b77",
+      "study_id": "yadav_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_cell_context_v5.png",
+      "sha256": "9cf05d9da8387fe147c68e1ee3241eea751e054d91b627b75bb2194c0026242e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_cell_context_v5.pdf",
+      "sha256": "0688a763d05de985ca58cfff7b945093d7739dfe4dad15176c9af06e09370e9a"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_cell_context_v5.svg",
+      "sha256": "a2477e20f1937ebf68830b1341bc074f33511b6d0bba81c969b31df5532fa08e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/figure1_yadav_v1.png",
+      "sha256": "60403fc2d248869f3794c6638248775c26f1ba19e95b977d55ce8555d0c3489f"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/figure1_yadav_v1.pdf",
+      "sha256": "6769a99033a6d0b980dbbba8274ec01c8a8db7dd2747d4310becab2ec354e2ee"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/figure1_yadav_v1.svg",
+      "sha256": "f18466425591b92cfd22cb4deca373b3b28440e070ff41a3eafd43a2297e3154"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_inclusion_v5.png",
+      "sha256": "292dd68674dc659bdfcd330d41f10efc7e2803e50ea7a38f7ed56c9246de4f6a"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_inclusion_v5.pdf",
+      "sha256": "552edfc2b2261193af3a53d82f9c7c05ca4ca2dac20f2f7599c9c80a1954ba8f"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/yadav_inclusion_v5.svg",
+      "sha256": "4da1ef624dc7df9b145ec12321177595e75cfd8802a3b02f54ce583580ed377e"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_yadav_figures_20261113_v1/manifest.json",
+      "sha256": "904d01496b554089ca5dc14fac520514b7f132bf9e5421d85aa93a39c7ee9669"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:31.836824+00:00"
+}

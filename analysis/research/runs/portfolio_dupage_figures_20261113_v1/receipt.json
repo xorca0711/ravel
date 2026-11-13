@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1-P01.portfolio_archive_20261113_v1",
+  "owner": "Dp1-P01",
+  "contract": "analysis/research/contracts/Dp1-P01.portfolio_archive_20261113_v1.json",
+  "contract_sha256": "ff65b102645d4c4c6ba786d95a7d8b8c80936d3cffd6da0d5317d66779b103ac",
+  "git_commit": "94f9e4458971fef20bffa44296c603eacd5a4c08",
+  "started_at": "2026-11-13T03:23:22.578578+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/archive_portfolio_figures.py",
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/dupage/import_manifest.json",
+    "--output",
+    "analysis/research/runs/portfolio_dupage_figures_20261113_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.png",
+      "sha256": "b8841de3db3d16f894ecc93ceb17e81cba1d4425f355ec65c40b36d26fefbe53",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.pdf",
+      "sha256": "e6bea2ec421dfafc78fb05e1cdc0b1f87e04be58d8d1782553e1327e860690f2",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.svg",
+      "sha256": "166c2fa0956528839cd0ea2529d1490cdaf4eefdf696ee0373c724ad8d10e8b8",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_loci.png",
+      "sha256": "c4887e3f4ff32c216cd3cb04836a03126fe3fe7ab3a8a58c9f07afff26bffd0f",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_loci.pdf",
+      "sha256": "691c2373f2e2843db6a9a16a7d4ebcc64a260d3d3429fdcb0e33071287ab0269",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_rna_context.png",
+      "sha256": "edce8ae4cd24e97a673938ffa6bf419362c7d4d413085d28698fce7938dc1443",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_rna_context.pdf",
+      "sha256": "580bf156303c802b2a0d7ea579de0c699f9366f8424d3425505b8ed61d0552e6",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.png",
+      "sha256": "bcae0c1ba2c524c89ce5f7bed2071443e7d5d7cdd0ea107ffb906abb6ee54395",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.pdf",
+      "sha256": "7ffb001470079b20831ff9301a280828a49b49bea041ec64f1c5d2f31940ae31",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.svg",
+      "sha256": "98c9cbd70df89861bb83cefdbe82daa9927d1b5f2b36f624f2ea4562efedc8b2",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+      "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+      "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+      "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+      "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+      "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+      "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+      "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/peeters_run_records.json",
+      "sha256": "6dfacc52684979df7bdc2608b2760343ba5df11c278140851b9253441b6a3ec1",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/import_manifest.json",
+      "sha256": "0fc1789a4a6dc1f6a49e8c7e4fc629bb0632fe9853b169e656d66eb7a4f8ec76",
+      "study_id": "dupage_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/ezh2_rna_context.png",
+      "sha256": "b8841de3db3d16f894ecc93ceb17e81cba1d4425f355ec65c40b36d26fefbe53"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/ezh2_rna_context.pdf",
+      "sha256": "e6bea2ec421dfafc78fb05e1cdc0b1f87e04be58d8d1782553e1327e860690f2"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/ezh2_rna_context.svg",
+      "sha256": "166c2fa0956528839cd0ea2529d1490cdaf4eefdf696ee0373c724ad8d10e8b8"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_loci.png",
+      "sha256": "c4887e3f4ff32c216cd3cb04836a03126fe3fe7ab3a8a58c9f07afff26bffd0f"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_loci.pdf",
+      "sha256": "691c2373f2e2843db6a9a16a7d4ebcc64a260d3d3429fdcb0e33071287ab0269"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_rna_context.png",
+      "sha256": "edce8ae4cd24e97a673938ffa6bf419362c7d4d413085d28698fce7938dc1443"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_rna_context.pdf",
+      "sha256": "580bf156303c802b2a0d7ea579de0c699f9366f8424d3425505b8ed61d0552e6"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_reference.png",
+      "sha256": "bcae0c1ba2c524c89ce5f7bed2071443e7d5d7cdd0ea107ffb906abb6ee54395"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_reference.pdf",
+      "sha256": "7ffb001470079b20831ff9301a280828a49b49bea041ec64f1c5d2f31940ae31"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/chromatin_reference.svg",
+      "sha256": "98c9cbd70df89861bb83cefdbe82daa9927d1b5f2b36f624f2ea4562efedc8b2"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+      "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+      "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+      "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+      "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+      "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+      "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+      "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/supporting_data/peeters_run_records.json",
+      "sha256": "6dfacc52684979df7bdc2608b2760343ba5df11c278140851b9253441b6a3ec1"
+    },
+    {
+      "path": "analysis/research/runs/portfolio_dupage_figures_20261113_v1/manifest.json",
+      "sha256": "9afb749b83d7f79830d6b0c63cf2fc7cf003953768ceac743efce3bcc3f6b570"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-13T03:23:24.676083+00:00"
+}

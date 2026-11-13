@@ -216,3 +216,7 @@ in the first organoid pass; the chain through primed AT2), one is saturated
 (Krt8 and Cldn4 co-detection), and the first annotation rule missed AT1 and
 the organoid stromal cluster through a disclosed defect, corrected beside it
 without moving a threshold. Nothing is tested: one library per condition.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

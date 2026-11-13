@@ -1,0 +1,254 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Dp1-P01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "ezh2_rna_context",
+      "title": "EZH2 perturbation across Treg contexts",
+      "caption": "All 11,614 shared loci provide the background for 32 previously examined candidates. The separate gain-of-function comparison uses Peeters RNA estimates. Context dependence is descriptive; candidate selection followed prior outcome exposure.",
+      "article_home": "Research Article/gate3_09_dupage_2015",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/dupage_s1_reconstruction_v1/gene_contrasts.tsv",
+          "sha256": "d055485a7039ea8319d7e9a8bed5964d1eb6fa288a61505f78931a9ca9ba0bb1",
+          "analysis": "Dp1.S1.reconstruction_v1",
+          "revision": "d89067a951b1decc5c39ecc4b44dc3a61181e1b3"
+        },
+        {
+          "path": "analysis/research/runs/dupage_target_figures_v1/figure_source_values.tsv",
+          "sha256": "1086e959e9e1fc807c67bc6c6b3d1feb1a5fa804779098dfe8c430db312820fe",
+          "analysis": "Dp1.target_figures_v1",
+          "revision": "6c4ad83bc0398311e58ac6e9afcb369a31cd0eb7"
+        },
+        {
+          "path": "analysis/research/runs/dupage_candidate_followup_v1/contrasts.tsv",
+          "sha256": "b0a163e6f114c548ea1fd7b42f1a1ec3d2cb12c42d7a15c2002a01d715ed4ae9",
+          "analysis": "Dp1.candidate_followup_v1",
+          "revision": "8f7fa76256e777d471760f111eb1721f42d86d5f"
+        }
+      ],
+      "files": [
+        {
+          "name": "ezh2_rna_context.png",
+          "sha256": "b8841de3db3d16f894ecc93ceb17e81cba1d4425f355ec65c40b36d26fefbe53",
+          "bytes": 617768
+        },
+        {
+          "name": "ezh2_rna_context.pdf",
+          "sha256": "e6bea2ec421dfafc78fb05e1cdc0b1f87e04be58d8d1782553e1327e860690f2",
+          "bytes": 173404
+        },
+        {
+          "name": "ezh2_rna_context.svg",
+          "sha256": "166c2fa0956528839cd0ea2529d1490cdaf4eefdf696ee0373c724ad8d10e8b8",
+          "bytes": 166132
+        }
+      ]
+    },
+    {
+      "id": "chromatin_loci",
+      "title": "H3K27me3 profiles at Tigit and Areg",
+      "caption": "Figure 5. Two illustrative loci from the five-candidate extension. Exact deposited 100-bp profiles, with the same vertical scale across states within each gene. Tigit and Areg were selected after viewing results to illustrate different chromatin/RNA relationships; all five candidates appear in Figure 6. Shading marks the annotated 5-prime boundary +/-5 kb, not a measured regulatory element. Tracks were already yeast-spike scaled and smoothed in the source; no further smoothing or background subtraction was applied. Each line is an aggregate deposited track. WT IgG supplies background context; no gain-specific IgG is available. A missing 100-bp IgG bin in the Areg flank remains missing and lies outside both summary windows.",
+      "article_home": "Research Article/gate3_09_dupage_2015",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+          "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+          "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+          "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884"
+        }
+      ],
+      "files": [
+        {
+          "name": "chromatin_loci.png",
+          "sha256": "c4887e3f4ff32c216cd3cb04836a03126fe3fe7ab3a8a58c9f07afff26bffd0f",
+          "bytes": 546017
+        },
+        {
+          "name": "chromatin_loci.pdf",
+          "sha256": "691c2373f2e2843db6a9a16a7d4ebcc64a260d3d3429fdcb0e33071287ab0269",
+          "bytes": 126433
+        }
+      ],
+      "upstream_status": "The Peeters chromatin extension was frozen locally and was not on origin/main at archive creation. Supporting values and original run records are retained here; this import is not a new analysis or independent replication."
+    },
+    {
+      "id": "chromatin_rna_context",
+      "title": "Five candidates under both WT assignments",
+      "caption": "Figure 6. All fixed candidates, both WT assignments. (A) Prior gain-minus-WT RNA estimates in rlog units. (B-C) Log2 ratios of length-weighted aggregate-track means over the annotated gene body and 5-prime boundary +/-5 kb. Filled circles follow GEO; open diamonds swap the two WT state assignments, with gain and IgG unchanged. Connecting segments represent label sensitivity, not uncertainty intervals. RNA and chromatin are joined by gene and experimental context, without a verified mouse/aliquot match. No population significance test is implied.",
+      "article_home": "Research Article/gate3_09_dupage_2015",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+          "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+          "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+          "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884"
+        }
+      ],
+      "files": [
+        {
+          "name": "chromatin_rna_context.png",
+          "sha256": "edce8ae4cd24e97a673938ffa6bf419362c7d4d413085d28698fce7938dc1443",
+          "bytes": 137130
+        },
+        {
+          "name": "chromatin_rna_context.pdf",
+          "sha256": "580bf156303c802b2a0d7ea579de0c699f9366f8424d3425505b8ed61d0552e6",
+          "bytes": 72463
+        }
+      ],
+      "upstream_status": "The Peeters chromatin extension was frozen locally and was not on origin/main at archive creation. Supporting values and original run records are retained here; this import is not a new analysis or independent replication."
+    },
+    {
+      "id": "chromatin_reference",
+      "title": "Candidates within 21,529 gene windows",
+      "caption": "Figure 7. Five candidates within a broader H3K27me3 reference. [4] (A-D) WT versus EZH2 Y641F signal across 21,529 complete protein-coding gene windows. Rows retain both WT assignments; columns compare fresh and day-four Tregs. (E) Log2(gain/WT) window-mean ratios on a shared scale. Windows span the annotated outer 5-prime boundary +/-5 kb (GRCm38.78); 490 of 22,019 eligible windows lacked complete coverage. Insets retain every window, including values outside the enlarged main views. Aggregate tracks do not supply biological replication; no new normalization or significance test was applied.",
+      "article_home": "Research Article/gate3_09_dupage_2015",
+      "source_files": [
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/summary.json",
+          "sha256": "a9c69ca3b5b1eeed35314357c6634badd03917a4f2c341067441dac111b19ca7"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+          "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+          "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+          "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.png",
+          "sha256": "6b87fdfeee8e61f53486208f79ed9db46b0a83ce87d9f890d3175f41e0fc8d38"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.pdf",
+          "sha256": "92d7f508768602f9615620a77d488b4523d1223ef39af807aad7fdd9c16ed7a0"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/reference_difference.svg",
+          "sha256": "c1de54a05da35dd425b9229f26b2201efee49ca984f3215854007a75f6b8b0e0"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/receipt.json",
+          "sha256": "2b5539045673042a91e5850463aadaa90a0f54d6710a3f4616dd85c3c37c1909"
+        },
+        {
+          "path": "analysis/research/runs/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+          "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd"
+        }
+      ],
+      "files": [
+        {
+          "name": "chromatin_reference.png",
+          "sha256": "bcae0c1ba2c524c89ce5f7bed2071443e7d5d7cdd0ea107ffb906abb6ee54395",
+          "bytes": 993648
+        },
+        {
+          "name": "chromatin_reference.pdf",
+          "sha256": "7ffb001470079b20831ff9301a280828a49b49bea041ec64f1c5d2f31940ae31",
+          "bytes": 436473
+        },
+        {
+          "name": "chromatin_reference.svg",
+          "sha256": "98c9cbd70df89861bb83cefdbe82daa9927d1b5f2b36f624f2ea4562efedc8b2",
+          "bytes": 721074
+        }
+      ],
+      "upstream_status": "The Peeters chromatin extension was frozen locally and was not on origin/main at archive creation. Supporting values and original run records are retained here; this import is not a new analysis or independent replication."
+    }
+  ],
+  "assets": [
+    {
+      "output": "ezh2_rna_context.png",
+      "sha256": "b8841de3db3d16f894ecc93ceb17e81cba1d4425f355ec65c40b36d26fefbe53"
+    },
+    {
+      "output": "ezh2_rna_context.pdf",
+      "sha256": "e6bea2ec421dfafc78fb05e1cdc0b1f87e04be58d8d1782553e1327e860690f2"
+    },
+    {
+      "output": "ezh2_rna_context.svg",
+      "sha256": "166c2fa0956528839cd0ea2529d1490cdaf4eefdf696ee0373c724ad8d10e8b8"
+    },
+    {
+      "output": "chromatin_loci.png",
+      "sha256": "c4887e3f4ff32c216cd3cb04836a03126fe3fe7ab3a8a58c9f07afff26bffd0f"
+    },
+    {
+      "output": "chromatin_loci.pdf",
+      "sha256": "691c2373f2e2843db6a9a16a7d4ebcc64a260d3d3429fdcb0e33071287ab0269"
+    },
+    {
+      "output": "chromatin_rna_context.png",
+      "sha256": "edce8ae4cd24e97a673938ffa6bf419362c7d4d413085d28698fce7938dc1443"
+    },
+    {
+      "output": "chromatin_rna_context.pdf",
+      "sha256": "580bf156303c802b2a0d7ea579de0c699f9366f8424d3425505b8ed61d0552e6"
+    },
+    {
+      "output": "chromatin_reference.png",
+      "sha256": "bcae0c1ba2c524c89ce5f7bed2071443e7d5d7cdd0ea107ffb906abb6ee54395"
+    },
+    {
+      "output": "chromatin_reference.pdf",
+      "sha256": "7ffb001470079b20831ff9301a280828a49b49bea041ec64f1c5d2f31940ae31"
+    },
+    {
+      "output": "chromatin_reference.svg",
+      "sha256": "98c9cbd70df89861bb83cefdbe82daa9927d1b5f2b36f624f2ea4562efedc8b2"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+      "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+      "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+      "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+      "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+      "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+      "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9"
+    },
+    {
+      "output": "supporting_data/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+      "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd"
+    },
+    {
+      "output": "supporting_data/peeters_run_records.json",
+      "sha256": "6dfacc52684979df7bdc2608b2760343ba5df11c278140851b9253441b6a3ec1"
+    }
+  ]
+}

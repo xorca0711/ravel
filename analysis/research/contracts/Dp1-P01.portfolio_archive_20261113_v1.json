@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Dp1-P01.portfolio_archive_20261113_v1",
+  "owner": "Dp1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "Research Article/gate3_09_dupage_2015/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.png",
+      "sha256": "b8841de3db3d16f894ecc93ceb17e81cba1d4425f355ec65c40b36d26fefbe53",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.pdf",
+      "sha256": "e6bea2ec421dfafc78fb05e1cdc0b1f87e04be58d8d1782553e1327e860690f2",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/ezh2_rna_context.svg",
+      "sha256": "166c2fa0956528839cd0ea2529d1490cdaf4eefdf696ee0373c724ad8d10e8b8",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_loci.png",
+      "sha256": "c4887e3f4ff32c216cd3cb04836a03126fe3fe7ab3a8a58c9f07afff26bffd0f",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_loci.pdf",
+      "sha256": "691c2373f2e2843db6a9a16a7d4ebcc64a260d3d3429fdcb0e33071287ab0269",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_rna_context.png",
+      "sha256": "edce8ae4cd24e97a673938ffa6bf419362c7d4d413085d28698fce7938dc1443",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_rna_context.pdf",
+      "sha256": "580bf156303c802b2a0d7ea579de0c699f9366f8424d3425505b8ed61d0552e6",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.png",
+      "sha256": "bcae0c1ba2c524c89ce5f7bed2071443e7d5d7cdd0ea107ffb906abb6ee54395",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.pdf",
+      "sha256": "7ffb001470079b20831ff9301a280828a49b49bea041ec64f1c5d2f31940ae31",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/chromatin_reference.svg",
+      "sha256": "98c9cbd70df89861bb83cefdbe82daa9927d1b5f2b36f624f2ea4562efedc8b2",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+      "sha256": "b0dca12cdf63115a9f38b192cd3885421c8aafda76d23cd858fe99e917ad3266",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+      "sha256": "5e02ae963bd204ae90e22932669e713f6974accd05af887881b4c403d65e8a9c",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+      "sha256": "c158e7921c59245f364eba01979877e997eb6f9cd34309dd4dfddffe98d56884",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+      "sha256": "df3cd4376be87650c526c4229938557b6caf96393b985ddefb33a54c497a3cbc",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+      "sha256": "3127a5e60d64f459176c3ebd8c2a63765c9fc81544e0bc1d29a52eb9d505f886",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+      "sha256": "27aa692cd0d1bb10dfd16d39208be4703243ac37601e931b289484e8a20d8eb9",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+      "sha256": "af7aac890db9f1f99d95583dd6f6e39662e9292b2e26294b6fbabc7566d483dd",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/supporting_data/peeters_run_records.json",
+      "sha256": "6dfacc52684979df7bdc2608b2760343ba5df11c278140851b9253441b6a3ec1",
+      "study_id": "dupage_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/dupage/import_manifest.json",
+      "sha256": "0fc1789a4a6dc1f6a49e8c7e4fc629bb0632fe9853b169e656d66eb7a4f8ec76",
+      "study_id": "dupage_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/dupage/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "ezh2_rna_context.png",
+    "ezh2_rna_context.pdf",
+    "ezh2_rna_context.svg",
+    "chromatin_loci.png",
+    "chromatin_loci.pdf",
+    "chromatin_rna_context.png",
+    "chromatin_rna_context.pdf",
+    "chromatin_reference.png",
+    "chromatin_reference.pdf",
+    "chromatin_reference.svg",
+    "supporting_data/dupage_peeters_chromatin_context_v1/track_profiles.tsv",
+    "supporting_data/dupage_peeters_chromatin_context_v1/locus_windows.tsv",
+    "supporting_data/dupage_peeters_chromatin_context_v1/contrast_context.tsv",
+    "supporting_data/dupage_peeters_genome_reference_v1/candidate_reference.tsv",
+    "supporting_data/dupage_peeters_genome_reference_v1/difference_summary.tsv",
+    "supporting_data/dupage_peeters_genome_reference_v1/signal_summary.tsv",
+    "supporting_data/dupage_peeters_genome_reference_v1/gene_contrasts.tsv",
+    "supporting_data/peeters_run_records.json",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}

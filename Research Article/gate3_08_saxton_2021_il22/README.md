@@ -238,3 +238,7 @@ and a concise review handoff listing commit, contracts, receipts and holds.
 Independent review belongs to the originating review chat; technical completion
 does not create human scientific acceptance. No external publication, author
 contact or bench work is part of this launch.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

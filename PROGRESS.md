@@ -1,5 +1,10 @@
 # Current project state
 
+## 2026-11-13 — Approved portfolio figure archive
+
+Archived 31 approved public-data displays (70 image/vector/support assets) across 12 article galleries for the Nabhan, Saxton, DuPage and Wagner preparation. Nine frozen metadata imports preserve exact bytes; no biological analyses were rerun. G-SURF microscopy and personal outreach documents remain private. Peeters supporting values and portable local-run records are included with their not-yet-integrated status explicit. See [archive overview](docs/PORTFOLIO_FIGURE_ARCHIVE_20261113.md). All nine receipts, 178 analysis tests (one skipped), 25 session tests, compilation, claim/evidence checks, repository validation and the full research gate passed. Windows checkout-only byte/path issues were resolved without scientific edits; locked public outputs were restored from a verified local copy. Uploaded in [PR #182](https://github.com/xorca0711/ravel/pull/182); review and merge remain pending.
+
+
 ## A33–A35 public gaps reviewed; tumor extension revised — 12 November 2026
 
 The [public-gap review](Research%20Article/gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md)

@@ -91,3 +91,7 @@ Read [the correction report](CORRECTIONS_2026-10-07.md) first, then the
 Reading and design development can continue. New numerical work requires an
 eligible comparison and a new frozen contract. Source reuse is not independent
 replication, and no owner retain/reject or claim-grade decision is inferred.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

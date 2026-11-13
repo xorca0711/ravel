@@ -88,3 +88,7 @@ require their own frozen code, input hashes, methods and qualified environment. 
 [literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md) govern execution.
 No global A identifier, claim grade, laboratory protocol or owner retain/reject
 decision is created here. Private PI/placement planning remains outside Git.
+
+## Additional display archive
+
+[Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

@@ -1,0 +1,353 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "A22",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "choi",
+      "title": "Choi",
+      "caption": "Figure 3. Epithelial annotations and RNA markers. (A) UMAP of 11,683 retained cells. (B) Dot area indicates gene detection within annotations. (C) Expression in 10,399 cells from four alveolar-labeled groups, normalized to 10,000 counts and log1p-transformed, including zeros. (D) Fractions among all retained cells. hAT2, AT2-like; cAT2, cycling AT2; DATP, damage-associated transient progenitor. Club/airway* is an exclusion annotation.",
+      "article_home": "Research Article/gate1_02_choi_2020",
+      "files": [
+        {
+          "name": "choi.png",
+          "sha256": "1325300b6dcfda43f994850dc1938d025a30990ba1f02ec4c8549a057beeaa2e",
+          "bytes": 208166
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation/d2b_umap_states.png",
+          "sha256": "5f1056b3a12eca0fd6a94cefb16f495d9c88a35dad41d25849233e89ad6436d4"
+        },
+        {
+          "path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery/d2_umap_states_and_libraries.png",
+          "sha256": "dbe7be02ae367698ad74453608ce3ba410b0c0284ff5d3f1420d5aaded457486"
+        },
+        {
+          "path": "Research Article/gate1_02_choi_2020/trials/d5b_corrected_annotation/d5b_umap_states.png",
+          "sha256": "38d62d9fedfc9b4134fc4ad829aaeca935fd834559af0f7df4ae3cde92e6346b"
+        },
+        {
+          "path": "Research Article/gate1_02_choi_2020/trials/d5_organoids/d5_umap_states_and_treatment.png",
+          "sha256": "9ab69d58775ce088fb06e55b899aff22806262f137e908369a30cb084682737b"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niethamer",
+      "title": "Niethamer",
+      "caption": "Figure 4. Transitional occupancy and AT1 RNA distributions. (A) Transitional labels among 5,694 selected alveolar cells; each point is one animal. (B-E) Raw-count detection above zero for four genes within broad AT1-labeled cells, retaining all 25 animals. (F-G) Empirical cumulative distributions for Nnat and Gpm6a; one curve per animal, colored by harvest. Expression is log1p(count × 10,000 / total cell UMI), including zeros. The two distribution plots were selected after inspecting the results.",
+      "article_home": "Research Article/gate1_01_niethamer_2025",
+      "files": [
+        {
+          "name": "niethamer.png",
+          "sha256": "00350a972c5e3d7c24079d88ce6fb72717b9886709f896f2848dd7f086f1f314",
+          "bytes": 197986
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate1_01_niethamer_2025/GSE262927/regeneration_focus/figures/transitional_timecourse.png",
+          "sha256": "076fa09283aec6bfd64f36f7cfc8ed860bfd9816ee7f82c789c0d4f857d6eca1"
+        },
+        {
+          "path": "Research Article/gate1_01_niethamer_2025/GSE262927/regeneration_focus/figures/UMAP_alveolar_AT1_score.png",
+          "sha256": "d9717a1e9985712ea677c42d8bac58480fa48e2cf36244013ada8bdf1b6f91d2"
+        },
+        {
+          "path": "Research Article/gate1_01_niethamer_2025/GSE262927/regeneration_focus/figures/UMAP_alveolar_transitional_score.png",
+          "sha256": "7b776fcbeaff2bbdb54703bd1f192966adb59af2cfabb76a743795d76e653412"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "receptors",
+      "title": "Receptors",
+      "caption": "Figure 5. Human epithelial receptor context. Rows are source-defined states; row numbers identify eligible participant/sample units. Each unit/state has at least 50 cells, with at least three units per row. Color is log10(1 + median counts per million); dot area is median detection. Ctrl, control; IPF, idiopathic pulmonary fibrosis; Trans., transitional. These RNA measurements describe receptor context and do not predict agonist response.",
+      "article_home": "Research Article/gate2_N1_nabhan_2023",
+      "files": [
+        {
+          "name": "receptors.png",
+          "sha256": "116ddababd14adce0bcb5ccfacdd435fc84fba05fd3e87ca4cf833ffac247c26",
+          "bytes": 79458
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/atlas_v1/figures/01_receptor_context.png",
+          "sha256": "4b6c1a12c702b58a83363c002b8d6662482a3a5af74f63d011bd46fe14fb61a5"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/atlas_v1/figures/02_receptor_depth500.png",
+          "sha256": "3ca1967c4dcca9a93bcc09ce3539d4fa6912e17d44a56a678649812b131bf5e3"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "bulk_labeled",
+      "title": "Bulk Labeled",
+      "caption": "Approved presentation view of the existing article analysis; source units and limitations remain as documented in the linked article.",
+      "article_home": "Research Article/gate2_N1_nabhan_2023",
+      "files": [
+        {
+          "name": "bulk_labeled.png",
+          "sha256": "e375bfd3ec9bb91bd5aa99c14b38728ca10770220b33100e1c6b8fa9fa2169b5",
+          "bytes": 127215
+        }
+      ],
+      "related_repository_assets": [],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "wnt_pca",
+      "title": "Wnt Pca",
+      "caption": "Figure 6. Expression patterns and library structure. (A) Gene-wise z scores; three libraries per source condition. Colors compare expression within each gene. CHIR is a GSK3 inhibitor used to modulate Wnt pathway activity. (B) PCA of all 18 libraries: PC1, 49.96%; PC2, 17.32% of variance. Colors identify conditions; labels mark separated libraries by accession suffix.",
+      "article_home": "Research Article/gate2_N1_nabhan_2023",
+      "files": [
+        {
+          "name": "wnt_pca.png",
+          "sha256": "5722a90c3cb75a79b3b06b053054df9f91fdbfffc74e0b26fc21471fcc8dbd8e",
+          "bytes": 52598
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/bulk_v1/figures/02_bulk_pca.png",
+          "sha256": "0131d1387e75f56af1f66513261c56ffde43165e266964d4042c2ca8375c2bad"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niche_landscape",
+      "title": "Niche Landscape",
+      "caption": "Figure 7. Screen-wide context and the NKX2-1 comparison. Left: 195 shared target contrasts; each point is a target. Axes show plate-adjusted coefficients versus combined references in mean log2(TMM counts per million + 0.5) marker-panel units. Right: scores from 31 plate-1 technical wells: 19 TIGIT, eight tdTomato, and four NKX2-1-targeted wells. AT2 scores use mouse RNA; chemokine and wound-marker scores use human fibroblast RNA. TMM denotes trimmed mean of M values normalization.",
+      "article_home": "Research Article/gate2_N2_nabhan_2026",
+      "files": [
+        {
+          "name": "niche_landscape.png",
+          "sha256": "00e5f150d22070698e90210405690ed9412045f9da961bc52f31fd69e1720d70",
+          "bytes": 42349
+        }
+      ],
+      "related_repository_assets": [],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niche",
+      "title": "Niche",
+      "caption": "Figure 7. Screen-wide context and the NKX2-1 comparison. Left: 195 shared target contrasts; each point is a target. Axes show plate-adjusted coefficients versus combined references in mean log2(TMM counts per million + 0.5) marker-panel units. Right: scores from 31 plate-1 technical wells: 19 TIGIT, eight tdTomato, and four NKX2-1-targeted wells. AT2 scores use mouse RNA; chemokine and wound-marker scores use human fibroblast RNA. TMM denotes trimmed mean of M values normalization.",
+      "article_home": "Research Article/gate2_N2_nabhan_2026",
+      "files": [
+        {
+          "name": "niche.png",
+          "sha256": "05ecd4f016911804a84ddd2de299f49401603cc287ab4aa37664284d290931c4",
+          "bytes": 44963
+        }
+      ],
+      "related_repository_assets": [],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niche_count",
+      "title": "Niche Count",
+      "caption": "Figure 8. Imaging context and prediction diagnostics. Left and center: day-14 organoid counts and image-area coverage for the 31 well identifiers in Figure 7. Right: relative reduction in equal-target mean squared prediction error after adding AT2 identity to an imaging/read-depth baseline, using 672 noncontrol wells and 201 targets. Positive values mean lower error; negative values mean worse prediction.",
+      "article_home": "Research Article/gate2_N2_nabhan_2026",
+      "files": [
+        {
+          "name": "niche_count.png",
+          "sha256": "e11f677cf2e0ff0c37ad0b8858ab8b81a0514b56756a765e5982032d5532fb9c",
+          "bytes": 14732
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/Nb3_R1_imaging.pdf",
+          "sha256": "499a2bf68f703be5fd3e61ba3edbf80a25a503f436b518f275d174f5c4f66335"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/Nb3_R1_imaging.png",
+          "sha256": "54c5975d7a1bd9d55d3b56ed6b97ec518433dba46e8f10ed1f92bc3b01cb81ab"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.pdf",
+          "sha256": "016a65f599db017f591dde389d544c760c0a686a9850942af243dd35d0bfe2e8"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.png",
+          "sha256": "7d1d860f06536a3620531360b1d4b4318e6e82985420476f1a502d9434d7b187"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.svg",
+          "sha256": "87bbb9e004afd3c924617bd0c9df8d867ee6d1410715c2c1de4ed1a1150c1e56"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niche_coverage",
+      "title": "Niche Coverage",
+      "caption": "Figure 8. Imaging context and prediction diagnostics. Left and center: day-14 organoid counts and image-area coverage for the 31 well identifiers in Figure 7. Right: relative reduction in equal-target mean squared prediction error after adding AT2 identity to an imaging/read-depth baseline, using 672 noncontrol wells and 201 targets. Positive values mean lower error; negative values mean worse prediction.",
+      "article_home": "Research Article/gate2_N2_nabhan_2026",
+      "files": [
+        {
+          "name": "niche_coverage.png",
+          "sha256": "c143ef602a9acf4317fe260c25279d179f1980728946a42a57e105e6e580bb35",
+          "bytes": 14763
+        }
+      ],
+      "related_repository_assets": [
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/Nb3_R1_imaging.pdf",
+          "sha256": "499a2bf68f703be5fd3e61ba3edbf80a25a503f436b518f275d174f5c4f66335"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/Nb3_R1_imaging.png",
+          "sha256": "54c5975d7a1bd9d55d3b56ed6b97ec518433dba46e8f10ed1f92bc3b01cb81ab"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.pdf",
+          "sha256": "016a65f599db017f591dde389d544c760c0a686a9850942af243dd35d0bfe2e8"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.png",
+          "sha256": "7d1d860f06536a3620531360b1d4b4318e6e82985420476f1a502d9434d7b187"
+        },
+        {
+          "path": "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/Nb3_F01_imaging.svg",
+          "sha256": "87bbb9e004afd3c924617bd0c9df8d867ee6d1410715c2c1de4ed1a1150c1e56"
+        }
+      ],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "niche_prediction",
+      "title": "Niche Prediction",
+      "caption": "Figure 8. Imaging context and prediction diagnostics. Left and center: day-14 organoid counts and image-area coverage for the 31 well identifiers in Figure 7. Right: relative reduction in equal-target mean squared prediction error after adding AT2 identity to an imaging/read-depth baseline, using 672 noncontrol wells and 201 targets. Positive values mean lower error; negative values mean worse prediction.",
+      "article_home": "Research Article/gate2_N2_nabhan_2026",
+      "files": [
+        {
+          "name": "niche_prediction.png",
+          "sha256": "dc3662f98b936d645445daa81364192d5203a54cb3003a1ea67a7fb5798c1183",
+          "bytes": 19567
+        }
+      ],
+      "related_repository_assets": [],
+      "source_trace_limit": "The approved presentation image is preserved exactly. Related article assets are navigation context; the original crop/replot recipe was not recovered and is not asserted to be independently reproduced here."
+    },
+    {
+      "id": "wnt_receptor_context",
+      "title": "Alternate Wnt composite",
+      "caption": "Earlier approved five-panel display of saved bulk RNA, PCA, direct effects, human receptor context and mouse within-unit differences. Not an additional analysis or independent validation; the current full portfolio separates these views. Culture independence remains unresolved and no selected bulk gene passes the per-contrast genome-wide FDR threshold.",
+      "article_home": "Research Article/gate2_N1_nabhan_2023",
+      "source_files": [
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/metadata/source_panel_membership.tsv",
+          "sha256": "af89360b0aca95a839487cf8d577f77523d48b8bfe8398b079626dc04968587a"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/metadata/samples.tsv",
+          "sha256": "c9bbd84bf9e9b0e6bfcd447fa5074a86022df57f6baa28ad51a1f41ac728c398"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/bulk_v1/tables/source_panel_expression.tsv",
+          "sha256": "26125d9d455bf59cf90bd55af1dd5b53492b5b4a7a153a1ebd4b1c7663d7cd88"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/bulk_v1/tables/pca_coordinates.tsv",
+          "sha256": "ae8c985308eff0d0c2051fb975f60705599944f133c828b4b0e295cd84221d02"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/bulk_v1/tables/source_and_lead_effects.tsv",
+          "sha256": "e7a1b17fc45ae9fb380c5f34cb1ebd19fc255aa56f3bbf7dd729ad83ed3220fb"
+        },
+        {
+          "path": "Research Article/gate2_N1_nabhan_2023/trials/atlas_v1/tables/state_summary.tsv.gz",
+          "sha256": "66b32ca28123fdde4bb7cc608e0d964b501c909013db7f28be4d38ac750e82f2"
+        },
+        {
+          "path": "analysis/trials/extension_v1/tables/mouse_within_unit_differences.tsv",
+          "sha256": "89cb0ecf6daf1ba7636467a4a2766907ed341c1af86b182c53edd43c9a1521e1"
+        }
+      ],
+      "files": [
+        {
+          "name": "wnt_receptor_context.png",
+          "sha256": "e215d71caeab64407bef1204076d575088917fb5930b569c128830bb28833cd1",
+          "bytes": 596355
+        },
+        {
+          "name": "wnt_receptor_context.pdf",
+          "sha256": "b71f4f93757af4657ff64fc16c2abd9deb11e76b401f723f7a4845191821e99b",
+          "bytes": 65300
+        },
+        {
+          "name": "wnt_receptor_context.svg",
+          "sha256": "b5e537c77a25d950d1c19912b9ec0f52e485d98fbe3f22f366a2bdf0c776d44e",
+          "bytes": 162520
+        }
+      ],
+      "display_status": "approved alternate layout; not the current full-portfolio layout"
+    }
+  ],
+  "assets": [
+    {
+      "output": "choi.png",
+      "sha256": "1325300b6dcfda43f994850dc1938d025a30990ba1f02ec4c8549a057beeaa2e"
+    },
+    {
+      "output": "niethamer.png",
+      "sha256": "00350a972c5e3d7c24079d88ce6fb72717b9886709f896f2848dd7f086f1f314"
+    },
+    {
+      "output": "receptors.png",
+      "sha256": "116ddababd14adce0bcb5ccfacdd435fc84fba05fd3e87ca4cf833ffac247c26"
+    },
+    {
+      "output": "bulk_labeled.png",
+      "sha256": "e375bfd3ec9bb91bd5aa99c14b38728ca10770220b33100e1c6b8fa9fa2169b5"
+    },
+    {
+      "output": "wnt_pca.png",
+      "sha256": "5722a90c3cb75a79b3b06b053054df9f91fdbfffc74e0b26fc21471fcc8dbd8e"
+    },
+    {
+      "output": "niche_landscape.png",
+      "sha256": "00e5f150d22070698e90210405690ed9412045f9da961bc52f31fd69e1720d70"
+    },
+    {
+      "output": "niche.png",
+      "sha256": "05ecd4f016911804a84ddd2de299f49401603cc287ab4aa37664284d290931c4"
+    },
+    {
+      "output": "niche_count.png",
+      "sha256": "e11f677cf2e0ff0c37ad0b8858ab8b81a0514b56756a765e5982032d5532fb9c"
+    },
+    {
+      "output": "niche_coverage.png",
+      "sha256": "c143ef602a9acf4317fe260c25279d179f1980728946a42a57e105e6e580bb35"
+    },
+    {
+      "output": "niche_prediction.png",
+      "sha256": "dc3662f98b936d645445daa81364192d5203a54cb3003a1ea67a7fb5798c1183"
+    },
+    {
+      "output": "wnt_receptor_context.png",
+      "sha256": "e215d71caeab64407bef1204076d575088917fb5930b569c128830bb28833cd1"
+    },
+    {
+      "output": "wnt_receptor_context.pdf",
+      "sha256": "b71f4f93757af4657ff64fc16c2abd9deb11e76b401f723f7a4845191821e99b"
+    },
+    {
+      "output": "wnt_receptor_context.svg",
+      "sha256": "b5e537c77a25d950d1c19912b9ec0f52e485d98fbe3f22f366a2bdf0c776d44e"
+    }
+  ]
+}

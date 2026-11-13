@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wang18-P01.portfolio_archive_20261113_v1",
+  "owner": "Wang18-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which finalized public-data figure displays are absent from the current repository archive?",
+  "decision": "Publish exact approved display files with source links, retaining scientific qualifications and excluding private microscopy.",
+  "strongest_rival": "A display could be misattributed to another source, duplicate an existing artifact, or be mistaken for new independent evidence.",
+  "discriminator": "Match source manifests and output hashes, retain article ownership and explicit exposed selection; byte identity cannot validate the upstream biological interpretation.",
+  "evidence_refs": [
+    "Research Article/gate3_10_wang_2018_ezh2/FIGURES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All images and biological outcomes were viewed before this archival freeze. The freeze controls copying only, not prospective scientific estimation.",
+  "biological_unit": "Not applicable to byte-preserving metadata import; upstream figure units remain in captions and article evidence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These are alternate displays of existing source observations. No new biological unit, independent sample or replication is added.",
+  "population_and_selection": "Approved final public-data figures selected from the outreach work; private G-SURF images, personal documents and rejected drafts excluded.",
+  "contrast": "Exact pre-existing figure bytes before versus after archive copying; no new biological comparison.",
+  "endpoint": "SHA-256 identity of each copied asset and complete association with its declared figure/source record.",
+  "methods": "Hash-check explicit staged files, copy bytes without modification, recheck hashes and emit a portable public manifest.",
+  "missingness_and_exclusions": "Exclude missing, mismatched or private sources. Unresolved upstream sample labels and incomplete biological units remain unresolved.",
+  "multiplicity": "No statistical tests are run; prior figure selection was exposed and is recorded in the archive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This metadata stage checks exact file identity and does not estimate biological effect precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Archival verification establishes byte identity, not correctness, novelty, experimental competence or independent replication of the underlying analyses.",
+  "stop_rule": "Stop on any missing file, hash mismatch, duplicate output or escaped path; do not substitute a figure or alter scientific outputs.",
+  "inputs": [
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.png",
+      "sha256": "bb6eed10bfe845e5742912d56e8044227e51afdf48044174977bc899f6c20028",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.pdf",
+      "sha256": "7ad0d3314ea1eb93a305095ac472770702a5b3247c71d39995fc57dabf430eea",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/inflammatory_rna.svg",
+      "sha256": "e82bfd2a57c6f2bd546dda5c01205333c881c53534cdec1a6c4da23c278a4831",
+      "study_id": "wang_public_figure_archive",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/portfolio_figure_import_20261113/wang/import_manifest.json",
+      "sha256": "9f53af58297270cccc33b0d221f3aa1d52cff777786a81e48b780a2f94ffc173",
+      "study_id": "wang_display_provenance",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/archive_portfolio_figures.py",
+      "sha256": "b890161e8d43cc12d3389ffdc2aab73a07cf0381d6a8aae5c071e7f96d3ce3fe"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/archive_portfolio_figures.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/portfolio_figure_import_20261113/wang/import_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "inflammatory_rna.png",
+    "inflammatory_rna.pdf",
+    "inflammatory_rna.svg",
+    "manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial byte-preserving archive of previously reviewed displays; no new scientific analysis or retroactive prospective claim."
+}

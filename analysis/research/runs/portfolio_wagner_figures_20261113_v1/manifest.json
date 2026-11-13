@@ -1,0 +1,119 @@
+{
+  "archive_date": "2026-11-13",
+  "base_commit": "fdd615cb12700d696be07642e8ada6de5abb7aca",
+  "owner": "Wg-R01",
+  "scope": "Existing public-data figure displays; byte-preserving archive, not a new biological analysis. G-SURF microscopy and personal outreach documents are excluded.",
+  "prior_outcome_exposure": "exposed",
+  "figures": [
+    {
+      "id": "wg_polyamine_context_v2",
+      "title": "Polyamine pathway context",
+      "caption": "Explanatory pathway context drawn for the existing Wagner reanalysis. The diagram does not add measured flux or establish causal links from RNA.",
+      "article_home": "Research Article/gate2_W1_wagner_th17_autoimmunity",
+      "source_files": [],
+      "files": [
+        {
+          "name": "wg_polyamine_context_v2.png",
+          "sha256": "1b2e903a14038c71f452547837d2ae17576dcefbf308f1a7784073f664190629",
+          "bytes": 81314
+        },
+        {
+          "name": "wg_polyamine_context_v2.pdf",
+          "sha256": "238f8d7180030c5e5713afc2a80560651ea9640a44413da37c410ae02d2e9882",
+          "bytes": 25291
+        },
+        {
+          "name": "wg_polyamine_context_v2.svg",
+          "sha256": "f45ae655f25ac783e3293bc86269fa901f2f9581cf0a2fc3ad402500a76b7dcc",
+          "bytes": 5114
+        }
+      ]
+    },
+    {
+      "id": "wg_reactions_v5",
+      "title": "Compass reaction-score context",
+      "caption": "Fourteen reaction rows correspond to thirteen meta-reactions across four pathway contexts. Compass scores describe transcriptome-constrained reaction potential, not measured metabolic flux; cells are not independent animal replicates.",
+      "article_home": "Research Article/gate2_W1_wagner_th17_autoimmunity",
+      "source_files": [],
+      "files": [
+        {
+          "name": "wg_reactions_v5.png",
+          "sha256": "5e903607d079f5ce16ebfaa804b332855d4b4e4f9ccb5b95cc5e5b93cf554c15",
+          "bytes": 449820
+        },
+        {
+          "name": "wg_reactions_v5.pdf",
+          "sha256": "a1767579eb965e20e9c9baba0053972ce1abf612f2d3849e47c56bae88a965e0",
+          "bytes": 44641
+        },
+        {
+          "name": "wg_reactions_v5.svg",
+          "sha256": "287ca66371df0639f24a81d13d56da210b2b9b5b427552c5c62e216bf08afbe2",
+          "bytes": 59353
+        }
+      ]
+    },
+    {
+      "id": "wg_rna_v2",
+      "title": "DFMO transcriptomic context",
+      "caption": "Fixed contrasts and source RNA estimates are shown without new tests. No selected gene passes the stated per-contrast multiple-testing threshold. RNA is not metabolic flux or immune function.",
+      "article_home": "Research Article/gate2_W1_wagner_th17_autoimmunity",
+      "source_files": [],
+      "files": [
+        {
+          "name": "wg_rna_v2.png",
+          "sha256": "68201a39fab1408c493198ea7874abf17cab45462945a1f41429a70ea6740356",
+          "bytes": 477057
+        },
+        {
+          "name": "wg_rna_v2.pdf",
+          "sha256": "823e71ef8355aefd7b6172ed829c6364a6665c456244931b607e2ed47deb122a",
+          "bytes": 73515
+        },
+        {
+          "name": "wg_rna_v2.svg",
+          "sha256": "cc086c84203092fd3450c1df906434c3a363decef164a154a3498f26e6b8ee44",
+          "bytes": 155353
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "output": "wg_polyamine_context_v2.png",
+      "sha256": "1b2e903a14038c71f452547837d2ae17576dcefbf308f1a7784073f664190629"
+    },
+    {
+      "output": "wg_polyamine_context_v2.pdf",
+      "sha256": "238f8d7180030c5e5713afc2a80560651ea9640a44413da37c410ae02d2e9882"
+    },
+    {
+      "output": "wg_polyamine_context_v2.svg",
+      "sha256": "f45ae655f25ac783e3293bc86269fa901f2f9581cf0a2fc3ad402500a76b7dcc"
+    },
+    {
+      "output": "wg_reactions_v5.png",
+      "sha256": "5e903607d079f5ce16ebfaa804b332855d4b4e4f9ccb5b95cc5e5b93cf554c15"
+    },
+    {
+      "output": "wg_reactions_v5.pdf",
+      "sha256": "a1767579eb965e20e9c9baba0053972ce1abf612f2d3849e47c56bae88a965e0"
+    },
+    {
+      "output": "wg_reactions_v5.svg",
+      "sha256": "287ca66371df0639f24a81d13d56da210b2b9b5b427552c5c62e216bf08afbe2"
+    },
+    {
+      "output": "wg_rna_v2.png",
+      "sha256": "68201a39fab1408c493198ea7874abf17cab45462945a1f41429a70ea6740356"
+    },
+    {
+      "output": "wg_rna_v2.pdf",
+      "sha256": "823e71ef8355aefd7b6172ed829c6364a6665c456244931b607e2ed47deb122a"
+    },
+    {
+      "output": "wg_rna_v2.svg",
+      "sha256": "cc086c84203092fd3450c1df906434c3a363decef164a154a3498f26e6b8ee44"
+    }
+  ]
+}
