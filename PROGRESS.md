@@ -2,7 +2,24 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current result: [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
+18 November current qualification: [S3Q v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md)
+ran from frozen setup `230b354`; preflight, receipt integrity and 1,789 independent
+checks passed. Final research gate, 20,125 repository checks and whitespace
+passed against refreshed main `d0429d0`. All eight dictionaries agree; chr1–19/X/Y/M match mm10 lengths,
+while 44 noncanonical accession-style aliases remain unmapped. All eight bounded
+queries were readable. Stored header minima are zero and means range 0.846–1.569;
+these do not establish signal units. Exact original retained-region reproduction
+remains unresolved. No biological accessibility contrast has run.
+
+The coordinator reviewed S3Q and approved a separate prospective adaptation:
+relative ranks of exact signal means in annotation-based protein-coding TSS-proxy
+windows on chr1–19/X, ±1 kb primary and ±2 kb sensitivity. The preview has 21,760
+unique windows/21,775 genes. Finish S3Q checks/local commit, then prepare amendment,
+method, artificial tests and a frozen new contract before execution. Preserve
+noncoding/distal omissions, unknown preprocessing/units, ranking constraints,
+many-gene mappings and source exposure. S5/S6 follow; no publishing is authorized.
+
+Preserved S4B result:  [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
 ran from frozen setup `d547951` under `Nk17-P01`, retaining all frozen S4 values,
 qualification and six examples. Alternative baseline references change about 15%
 of W6 and 17% of W12 union adjusted signs; baseline intersections remain similar.
@@ -30,15 +47,9 @@ mm10 chromosome dictionary is saved. An ordinary urllib certificate failure for
 the UCSC reference was resolved using normal Windows curl TLS; no setting changed.
 
 The [S3Q metadata specification](Research%20Article/ungated_naik_2017_inflammatory_memory/S3Q_METHOD_V1.md)
-and contract bind 19 inputs, three scripts and six expected outputs. Syntax and
-input preflight passed; no research-track header or signal query has run yet.
-Freeze/commit, then execute only source/header/dictionary and fixed 100-base
-readability qualification. Reuse the coordinator's original-source coverage:
-MOESM9 has pathway source data rather than coordinates; this bounded finding is
-not proof of universal absence. No repeated workbook or broad paper scan is needed.
-The paper's Z-score description does not itself establish the deposited scale.
-Return a concrete S3 method/estimand for review before biological comparison;
-retain the plan's within-track-only boundary if between-track scales are unresolved.
+and six outputs are preserved; the receipt is now registered. The newly approved
+rank endpoint requires an explicit amendment and does not relax the original
+plan's unresolved between-track magnitude/retained-region boundary.
 Cowley 2026 is existing longevity/CpG/demethylation/H2A.Z prior art supplied by the
 coordinator, with reused data explicit. Its D6/D30 FASTQs are from GSE171596, so
 its later 934-domain set is not the original Naik coordinate universe. Its private

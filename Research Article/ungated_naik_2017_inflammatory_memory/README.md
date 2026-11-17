@@ -170,10 +170,12 @@ and all four panels without numerical revision and authorized S3 preparation and
 source qualification. S3 biological comparison and S5 integration have not run. All original and
 alternative outcomes remain side by side, with unchanged example selection.
 The original eight D6/D30 tracks and a tested supported project-local reader are
-[prepared](S3_RUNTIME_V1.md). [S3Q metadata qualification](S3Q_METHOD_V1.md) has
-passed input preflight and awaits setup freeze/execution. Return its source/header,
-scale and region findings with a concrete S3 estimand for review before biological
-execution. Installation and source transfer supply no chromatin comparison.
+[prepared](S3_RUNTIME_V1.md). [S3Q qualification](S3Q_RESULTS_V1.md) is complete and
+coordinator-reviewed: core mm10 chromosomes are compatible, 44 noncanonical aliases
+remain unmapped, and scale/original-region semantics remain unresolved. A distinct
+TSS-proxy relative-rank adaptation is approved for prospective implementation;
+its new contract will retain source, processing, ranking and biological limits.
+No biological accessibility contrast has run yet.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower

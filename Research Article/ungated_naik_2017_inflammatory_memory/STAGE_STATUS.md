@@ -47,7 +47,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: persistent accessibility | [Runtime/transfer preparation](S3_RUNTIME_V1.md) complete; eight original tracks acquired; [S3Q metadata specification](S3Q_METHOD_V1.md) preflight passed | Freeze/execute metadata qualification, then return a concrete S3 method for review before biological comparison |
+| S3: persistent accessibility | [S3Q result](S3Q_RESULTS_V1.md) complete and coordinator-reviewed; distinct TSS-proxy rank adaptation approved | Preserve S3Q, then new amendment/specification/tests/frozen contract and governed adapted run; exact retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
@@ -74,8 +74,8 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-S4B is preserved at `8d7f644`. The immediate action is S3Q metadata setup
-freeze/commit and governed qualification; a biological S3 comparison remains pending.
+S4B is preserved at `8d7f644`. S3Q is complete; finish its required checks and
+local commit, then implement the approved, explicitly amended S3 rank endpoint.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
