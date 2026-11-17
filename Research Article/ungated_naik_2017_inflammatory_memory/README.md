@@ -173,9 +173,12 @@ The original eight D6/D30 tracks and a tested supported project-local reader are
 [prepared](S3_RUNTIME_V1.md). [S3Q qualification](S3Q_RESULTS_V1.md) is complete and
 coordinator-reviewed: core mm10 chromosomes are compatible, 44 noncanonical aliases
 remain unmapped, and scale/original-region semantics remain unresolved. A distinct
-TSS-proxy relative-rank adaptation is approved for prospective implementation;
-its new contract will retain source, processing, ranking and biological limits.
-No biological accessibility contrast has run yet.
+TSS-proxy relative-rank adaptation is approved for governed execution. Its
+[amendment](S3_AMENDMENT_V1.md), [method](S3_METHOD_V1.md), six code files and
+registered contract are prepared; 12,238 artificial checks and the toy-reader
+test passed without reading real window outcomes. Next: freeze the setup commit,
+run, verify all coordinates/ranks/contrasts and a predetermined exact-mean subset,
+inspect the figures and return S3 for review. No adapted accessibility result exists yet.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower

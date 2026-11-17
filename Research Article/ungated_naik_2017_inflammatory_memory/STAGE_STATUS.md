@@ -32,8 +32,11 @@ baseline-reference sensitivity after S4 preservation at `628631e`. The
 3,938,436 independent checks and verified receipt integrity. The coordinator
 reviewed its [result](S4B_RESULTS_V1.md), specification, actual verification and
 all four panels without numerical revision and authorized S3 preparation/source
-qualification. This is not human scientific acceptance or approval of a biological
-S3 numerical run; its concrete method must return for review first.
+qualification. That review did not approve a biological S3 run. After completed S3Q at
+`6f4fdf0`, the coordinator separately approved the narrower rank adaptation for
+implementation and governed execution; the [amendment](S3_AMENDMENT_V1.md) and
+[method](S3_METHOD_V1.md) preserve the original retained-region boundary. This
+is agent progression review, not human scientific acceptance.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -47,7 +50,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: persistent accessibility | [S3Q result](S3Q_RESULTS_V1.md) complete and coordinator-reviewed; distinct TSS-proxy rank adaptation approved | Preserve S3Q, then new amendment/specification/tests/frozen contract and governed adapted run; exact retained-region reproduction remains unresolved |
+| S3: accessibility | [S3Q](S3Q_RESULTS_V1.md) preserved at `6f4fdf0`; approved [TSS-proxy rank method](S3_METHOD_V1.md) implemented with 12,238 artificial checks and a registered frozen contract | Commit setup after preflight, execute and independently verify the adapted endpoint; exact retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
@@ -74,8 +77,9 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-S4B is preserved at `8d7f644`. S3Q is complete; finish its required checks and
-local commit, then implement the approved, explicitly amended S3 rank endpoint.
+S4B is preserved at `8d7f644`, S3Q at `6f4fdf0`. The approved adapted S3
+implementation has passed its artificial tests. Complete preflight/setup commit,
+then run the new contract, verify all outputs and figures and return for review.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -88,10 +92,10 @@ qualified scope and stage review. None was resumed during recovery.
    assignment, matching or biological validation.
 3. The pinned local reader and all eight original D6/D30 tracks are prepared,
    with source/date/size/hash records and a successful upstream toy-file check.
-   Qualify mm10 dictionaries and deposited signal semantics under S3Q;
-   the paper's Z-score method alone does not establish the BigWig scale. Original
-   region availability and background filtering remain to be resolved. Return a
-   concrete S3 estimand and adaptation limits before biological numerical execution.
+   S3Q qualified the canonical mm10 dictionaries while leaving deposited units and
+   original-region semantics unresolved. The separately approved amendment now
+   permits the finite relative-rank comparison under its frozen specification;
+   it does not establish absolute accessibility or original memory domains.
 4. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
    stages. Broader source/functional qualification remains incomplete; the
    restricted extraction has not been retried. Retain negative and mixed outcomes.

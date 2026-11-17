@@ -118,7 +118,13 @@ Published premise → smaller but heterogeneous baseline RNA contrasts in the
 qualified S2 libraries → unresolved distinction between baseline offsets and
 later history-associated wound transcription → completed bounded S4 contrasts
 and exposed marker QC → S4B demonstrates baseline-reference dependence, narrowing
-the RNA interpretation before separate S3 accessibility qualification. Adjusted W6/W12 correlation
+the RNA interpretation. Completed [S3Q](S3Q_RESULTS_V1.md) qualifies canonical
+chromosomes but leaves deposited units/original domains unresolved. The approved
+[S3 adaptation](S3_AMENDMENT_V1.md) now asks about relative ordering near
+annotation-based protein-coding boundaries; it does not reproduce distal domains
+or establish retained accessibility. Its all-window comparisons and width
+sensitivity can describe stable, mixed or width-dependent finite-source patterns.
+No real adapted window outcomes were read at specification. Adjusted W6/W12 correlation
 shares the same estimated baseline and is not independent temporal corroboration.
 Repair remains unmeasured. S4B preserves frozen S4 values and every reference;
 the alternative-minus-primary shift is identical at both times by construction.

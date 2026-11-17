@@ -2,22 +2,21 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current qualification: [S3Q v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md)
-ran from frozen setup `230b354`; preflight, receipt integrity and 1,789 independent
-checks passed. Final research gate, 20,125 repository checks and whitespace
-passed against refreshed main `d0429d0`. All eight dictionaries agree; chr1–19/X/Y/M match mm10 lengths,
-while 44 noncanonical accession-style aliases remain unmapped. All eight bounded
-queries were readable. Stored header minima are zero and means range 0.846–1.569;
-these do not establish signal units. Exact original retained-region reproduction
-remains unresolved. No biological accessibility contrast has run.
+18 November current step: S3Q is preserved at `6f4fdf0` after coordinator review,
+1,789 independent checks, the research gate and 20,125 repository checks against
+main `d0429d0`. Its qualified canonical chromosomes and unknown deposited scale
+remain the input boundary; original retained-region reproduction is unresolved.
 
-The coordinator reviewed S3Q and approved a separate prospective adaptation:
-relative ranks of exact signal means in annotation-based protein-coding TSS-proxy
-windows on chr1–19/X, ±1 kb primary and ±2 kb sensitivity. The preview has 21,760
-unique windows/21,775 genes. Finish S3Q checks/local commit, then prepare amendment,
-method, artificial tests and a frozen new contract before execution. Preserve
-noncoding/distal omissions, unknown preprocessing/units, ranking constraints,
-many-gene mappings and source exposure. S5/S6 follow; no publishing is authorized.
+The approved [S3 amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_AMENDMENT_V1.md)
+and [method](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md)
+now implement exact-mean relative ranks in annotation-based protein-coding TSS
+proxies on chr1–19/X, ±1 kb primary and ±2 kb sensitivity. All 21,760 unique
+windows/21,775 genes and eight libraries will be retained. Artificial verification
+passed 12,238 checks, tamper detection and toy-reader missingness checks; no real
+adapted window outcome has been read. The registered frozen contract binds 23
+inputs, six code files and 17 outputs. Commit the setup after preflight, execute
+through the runner, verify/read the actual figures, register and preserve results,
+then return S3 for review before S5/S6. No publication is authorized.
 
 Preserved S4B result:  [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
 ran from frozen setup `d547951` under `Nk17-P01`, retaining all frozen S4 values,
