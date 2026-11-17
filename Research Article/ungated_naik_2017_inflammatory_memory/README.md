@@ -5,15 +5,16 @@ Naik Results/Discussion notes. It follows Ravel's established paper-driven
 biological research workflow across tissues, organisms and molecular layers.
 Inflammatory memory is this paper's topic, not a change to the project's identity.
 This source sits outside the ordered roadmap; existing gates and RQs retain
-their status. No Naik numerical analysis has run in Ravel, no global RQ is
-allocated, and no scientific acceptance is implied.
+their status. S1M molecular metadata qualification is complete; no gene-effect
+comparison has run, no global RQ is allocated, and no scientific acceptance is implied.
 
-The owner has now authorized the bounded [S1M molecular metadata stage](S1M_CONTEXT_V1.md)
-under article-local owner `Nk17-P01`. V1 verified accession joins and count
-structure, but left compact condition/time titles unclassified. The
-[v2 amendment](S1M_AMENDMENT_V2.md) is prepared for committed execution.
-No expression comparison has run. The earlier service restrictions and recovery
-record remain intact.
+**18 November S1M result:** the [current qualification and S2 handoff](S1M_RESULTS_V2.md)
+joins 28 molecular libraries and qualifies 16 count tables with 47,729 common
+versioned gene IDs. Within-time RNA history contrasts are structurally supported;
+cross-time platform/layout differences and exact pool/pairing uncertainty limit
+interpretation. Article-local owner `Nk17-P01`, both contracts and receipts are
+registered. V1's incomplete title parsing and the [v2 amendment](S1M_AMENDMENT_V2.md)
+remain preserved, together with the earlier service restrictions and recovery record.
 
 **Organizing question:** after inflammation resolves, what remains in epithelial
 stem cells, and how does that history alter a subsequent tissue-damage response?
@@ -77,14 +78,15 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 [checkpoint](STAGE_STATUS.md) records the incomplete stages and exact next work.
 No numerical result or scientific stopping conclusion follows from this failure.
 
-S0 has an initial evidence map. S1 has a preliminary accession inventory, with
-pool/run linkage, assay comparability and source-data availability still to
-qualify. S2–S6 are proposed, not executed. The next concrete deliverable is a
-claim-to-source/contrast map covering the paper's molecular and functional
-evidence, with a sample/assay crosswalk and a justified first numerical scope.
-The separate bioinformatics study session supplies no task dependencies or
-execution restrictions here. Register an article-local owner and freeze the
-applicable contract before future Ravel numerical work.
+S0 has an initial evidence map. S1M now supplies the molecular accession/run
+crosswalk and processed-count qualification, with exact pool membership and
+cross-assay pairing unresolved. Broader S1 source/functional qualification and
+S2–S6 remain unfinished. The next decision is parent review of the two proposed
+S2 contrasts: D6 and D30 prior-inflammation versus their respective controls,
+using separate descriptive library-level comparisons unless pool independence
+is sufficiently qualified for inference. The separate bioinformatics study
+session supplies no task dependencies or execution restrictions here. Any S2
+execution requires its own prospective contract and stage authorization.
 
 Remote inspection on 17 November found main at
 [`d0429d0`](https://github.com/xorca0711/ravel/commit/d0429d0205fab3e079ea949d0cb0b3a0c1a4a4be),

@@ -7,6 +7,13 @@ novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
 
 ## Published starting point
 
+18 November source-qualification update: [S1M's current report](S1M_RESULTS_V2.md)
+qualifies the deposited molecular records and count structure, retaining
+cross-time platform/layout differences and unresolved exact pool/pairing maps.
+It adds no gene effect or independent replication and does not change the
+published premise below. No new literature search or paper-method extraction
+was performed in S1M; proposed D6/D30 within-time RNA comparisons await parent review.
+
 | Primary source/version | Exact locator and access | What it changes here |
 |---|---|---|
 | [Naik 2017](https://doi.org/10.1038/nature24271), final paper plus [2018 correction](https://doi.org/10.1038/s41586-018-0229-5) | Supplied annotated PDF; main Results, Figs. 1–5 and relevant Methods/extended-data legends; Figs. 2–5 visually inspected. Correction replaces duplicated Fig. 2g image. | Mouse epidermal history, persistent ATAC and repair recall are established premises. Keep RNA, accessibility and wound/function evidence distinct. |

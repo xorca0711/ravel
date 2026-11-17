@@ -1,0 +1,304 @@
+{
+  "stage": "S1M",
+  "analysis_id": "Nk17-P01.s1m_metadata_v2",
+  "geo_samples": 28,
+  "sra_experiments": 28,
+  "ena_runs": 28,
+  "biosample_records": 28,
+  "count_files": 16,
+  "assay_counts": {
+    "RNA-seq": 16,
+    "ATAC-seq": 12
+  },
+  "metadata_join_issues": [],
+  "label_qualification_issues": [],
+  "unjoined_sra_experiments": [],
+  "unjoined_ena_runs": [],
+  "count_structure_failures": [],
+  "common_gene_ids": 47729,
+  "union_gene_ids": 47729,
+  "all_count_id_orders_identical": true,
+  "groups": [
+    {
+      "assay": "ATAC-seq",
+      "day": "180",
+      "wound_hours": "",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2652415",
+        "GSM2652416"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "ATAC-seq",
+      "day": "180",
+      "wound_hours": "",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2652413",
+        "GSM2652414"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "ATAC-seq",
+      "day": "30",
+      "wound_hours": "",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2441005",
+        "GSM2441006"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "ATAC-seq",
+      "day": "30",
+      "wound_hours": "",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2441007",
+        "GSM2441008"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "ATAC-seq",
+      "day": "6",
+      "wound_hours": "",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2441001",
+        "GSM2441002"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "ATAC-seq",
+      "day": "6",
+      "wound_hours": "",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2441003",
+        "GSM2441004"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440989",
+        "GSM2440990"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440991",
+        "GSM2440992"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "12",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440997",
+        "GSM2440998"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "12",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440999",
+        "GSM2441000"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "6",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440993",
+        "GSM2440994"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "30",
+      "wound_hours": "6",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440995",
+        "GSM2440996"
+      ],
+      "platforms": [
+        "GPL17021"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "6",
+      "wound_hours": "",
+      "history": "control",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440985",
+        "GSM2440986"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "6",
+      "wound_hours": "",
+      "history": "prior_inflammation",
+      "libraries": 2,
+      "gsm": [
+        "GSM2440987",
+        "GSM2440988"
+      ],
+      "platforms": [
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    }
+  ],
+  "inference_limit": "Metadata qualification only; no gene effects or independently verified animal/pool pairing."
+}
