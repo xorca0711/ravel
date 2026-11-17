@@ -206,11 +206,16 @@ actual S3 outputs and both figures without requesting revision.
 The [S5 proposal](S5_PROPOSAL_V1.md) was prepared during extraction under separate
 coordinator authorization. It retains source reuse, shared-baseline coupling and
 separate functional units, including the F1e source/caption count discrepancy.
-S3 is preserved at `8ada940`. No S5 biological computation has run. The approved
-[S5M method](S5M_METHOD_V1.md) passed 8,903 artificial checks and input preflight;
-its registered frozen contract binds 17 inputs/five scripts/13 outputs. Freeze
-the setup commit, execute and verify, then return S5M for review before S5F. Preserve ATAC zero flags because
-changes in other windows/tie mass can change the rank even of a constant local zero.
+S3 is preserved at `8ada940`. [S5M v1](S5M_RESULTS_V1.md) ran from
+`03d42af`; its arithmetic check passed, but coordinator review found that the
+aggregate zero flag also included adjustment ranges crossing zero. The v1
+warning summary and anchor display are not accepted. The authorized
+[v2 amendment](S5M_AMENDMENT_V2.md) separates raw-count zeros from range inclusion,
+preserves all original source fields and copies every association/covariance
+value unchanged. Four artificial tests and raw-count-based verification are
+implemented; freeze and execute the bounded correction before S5M review/S5F.
+Preserve ATAC zero flags because changes in other windows/tie mass can change
+the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower

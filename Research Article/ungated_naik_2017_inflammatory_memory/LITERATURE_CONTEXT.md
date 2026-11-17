@@ -135,8 +135,11 @@ boundary-proxy pattern neither reproduces nor refutes that domain-level finding.
 The Larsen/Cowley premises above do not directly explain these proxy ranks or
 establish a novel mechanism. The remaining molecular association and distinct
 functional endpoints motivate the [preparatory S5 proposal](S5_PROPOSAL_V1.md),
-with source reuse, baseline components and sensitivity outcomes retained. S5 has
-not run and cannot be chosen from partial S3 output. The coordinator's bounded
+with source reuse, baseline components and sensitivity outcomes retained.
+[S5M v1](S5M_RESULTS_V1.md) executed but its aggregate warning conflated count
+zeros and zero-containing contrast ranges. The [v2 correction](S5M_AMENDMENT_V2.md)
+preserves all molecular results and separates those meanings before review.
+No functional S5F analysis has run. The coordinator's bounded
 Figure 5c read also records increased IL-1beta protein without increased Il1b
 transcript in Naik 2017. Weak RNA association would not alone refute that
 published protein/functional premise; it is a distinct endpoint, not a new
