@@ -22,7 +22,11 @@ requesting a revision. S2 ran from frozen setup commit `d4bf26d`; its
 [result](S2_RESULTS_V1.md), 15 outputs and registered receipt are complete.
 Independent arithmetic and receipt integrity checks passed. The coordinator then
 reviewed S2's result and all three figures without requesting numerical revision,
-and authorized bounded S4 after the S2 local commit. S4 has not run.
+and authorized bounded S4 after the S2 local commit. S2 was committed at
+`5bf472e`, with PDF exports at `7eecc71`. The [S4 specification](S4_METHOD_V1.md),
+code and contract are now prepared; synthetic checks and input preflight passed.
+The prospective review added shared-baseline correlation limits and an unadjusted
+correlation diagnostic. S4 has not run; setup commit and governed execution follow.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -37,7 +41,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete and coordinator-reviewed without numerical revision | Preserve reviewed result and finish required local checks/commit |
 | S3: persistent accessibility | Not started | Separate source/region qualification after S4 review |
-| S4: recall RNA | Authorized next; not run | Freeze common-scale baseline-adjusted description and exposed marker QC before execution |
+| S4: recall RNA | Method/code/contract prepared; synthetic checks and input preflight passed; no real effects calculated | Commit the common-scale specification, then run and verify; return for review before S3/S5 |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
@@ -62,7 +66,7 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is final S2 checks/commit, then the authorized S4 specification.
+The immediate action is the S4 setup commit and governed execution.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.

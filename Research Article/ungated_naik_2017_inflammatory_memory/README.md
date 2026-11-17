@@ -118,14 +118,19 @@ verification and receipt integrity check passed. The coordinator then reviewed
 the result and all three figures without requesting numerical changes. This
 agent review supplies no human scientific acceptance.
 
-The authorized next bounded stage is S4 recall RNA: qualify the saved D30 baseline
-and 6/12-hour wound libraries together, then specify history/control differences
-after accounting for the baseline offset. The smaller yet heterogeneous S2
+The authorized next bounded stage is S4 recall RNA. Its
+[prospective specification](S4_METHOD_V1.md), code and 17-input contract are
+prepared; analytical/full synthetic checks and input preflight passed. It will
+compare the saved D30 baseline and 6/12-hour wound libraries using one common
+normalization scale and retain history/control differences before and after
+accounting for the baseline offset. The smaller yet heterogeneous S2
 baseline effects make that distinction informative. Shared post-D6 platform/layout
 metadata does not establish equal preparation batches or pairing. S3 ATAC source/
 region qualification remains a separate later comparison. Neither stage has run;
 each requires its own reviewed scope and prospective contract. S4 will include
 prespecified exposed Xist/Y-linked marker QC without assigning sex or pairing.
+Adjusted W6/W12 correlations share a subtracted baseline; unadjusted correlations
+will be shown beside them, without claiming independent temporal corroboration.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower

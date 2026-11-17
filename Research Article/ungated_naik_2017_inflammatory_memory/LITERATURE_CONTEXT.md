@@ -73,7 +73,9 @@ qualified S2 libraries → unresolved distinction between baseline offsets and
 later history-associated wound transcription → proposed bounded S4 contrasts,
 with separate S3 accessibility qualification → determine which molecular
 association is supported while keeping repair unmeasured. After reviewing S2,
-the coordinator authorized bounded S4; it is not yet executed or frozen.
+the coordinator authorized bounded S4. Its [prospective method](S4_METHOD_V1.md)
+is prepared, including shared-baseline correlation limits and an exposed marker
+QC check against recorded metadata. S4 has not yet executed.
 The [plan](ANALYSIS_PLAN.md) remains
 the historical intended sequence; the [current result](S2_RESULTS_V1.md) owns
 the updated decision and limits.

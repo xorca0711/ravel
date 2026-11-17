@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s4_recall_description_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do finite-library wound-associated history/control relative RNA differences at 6 and 12 hours exceed or differ from the recovered D30 baseline history/control offset?",
+  "decision": "Describe baseline, post-wound and baseline-adjusted relative RNA contrasts, their library spread and bounded normalization/expression sensitivity; carry exposed marker QC forward and return after S4 for coordinator review before S3/S5.",
+  "strongest_rival": "Baseline versus wound-edge compartment/selection, pooled-preparation heterogeneity, unknown batch/animal overlap and normalization assumptions can generate apparent recall differences. Shared subtraction of the baseline can induce adjusted W6/W12 correlation.",
+  "discriminator": "A common 12-library reference, retained baseline/post-wound components and within-history wound/baseline contrasts, all 16 unpaired library-combination ranges, joint total-count sensitivity, comparison union/baseline-intersection summaries and unadjusted/adjusted cross-time correlations. Exposed Xist/Y-marker QC is compared only with recorded metadata.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published findings and S2 D6/D30 effects, selected examples and Xist heterogeneity were viewed before this specification. S1M qualified all 12 S4 count structures and source labels. Prospective marker identity lookup used the existing M9 annotation and saved GEO characteristics, not new marker counts. Coordinator added the shared-baseline correlation caveat and unadjusted correlation diagnostic before any S4 effect calculation. Synthetic tests use explicitly artificial counts only; no freeze erases prior exposure.",
+  "biological_unit": "Two deposited libraries per history/phase group for description; the paper reports duplicate pooled preparations. Exact animal membership, overlap, batches and longitudinal pairing are unverified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Twelve libraries in six groups; genes and reads are nested measurements/features. No replicate-suffix matching or extra animal/pool replicates are invented. Both adjusted wound contrasts share the same estimated baseline.",
+  "population_and_selection": "Exactly GSM2440989-GSM2441000, all HiSeq2500/single, over all 47729 common ordered versioned IDs. Per-comparison expression unions and baseline intersections are prespecified; no response-ranked gene universe or outcome-based library exclusion.",
+  "contrast": "For W6 and W12, log2((mean_history_wound+1)/(mean_control_wound+1)) minus log2((mean_history_B0+1)/(mean_control_B0+1)); retain both components and each history group wound/B0 contrast under one common normalized count scale.",
+  "endpoint": "Continuous finite-library regularized and defined unregularized relative RNA contrasts, raw/normalized per-library counts, low/zero flags, all-combination spread and exposed marker consistency. No population p-values, CI, equivalence, recovery/kinetic/repair class, sex assignment or exclusion.",
+  "methods": "Joint MOR across 12 libraries: all-positive gene geometric reference, exponential median log ratios, factors centered to geometric mean one. Joint total-count/geometric-mean-total scaling is the sole normalization sensitivity; retain CPM. Report arithmetic means, phase H/C log ratios, adjusted differences, within-history wound/B0 ratios, all four phase and group-response combinations and all 16 adjusted combinations. CPM>=1 in >=2/4 qualifies each phase. Summarize all genes, phase/baseline union and intersection; compare W6/W12 in global union and all-three intersection with unadjusted and adjusted Pearson/Spearman and the shared-baseline caveat. Computational tie tolerance 1e-10. Fixed Xist/Ddx3y/Eif2s3y/Kdm5d/Uty QC; six prespecified signed-extreme/discordance/spread examples; three PNG/PDF figures. Independent stdlib verification includes all numerical fields, joins, markers, selection rules, core summary fractions and correlations.",
+  "missingness_and_exclusions": "All genes/libraries retained in compressed complete tables; undefined unregularized estimates are NA. Individual/group/phase zeros and low group means flagged. Missing/ambiguous exact marker annotation is reported; no substitute, sex assignment, matching, exclusion or batch correction. Empty opposite-direction example slot remains explicitly empty.",
+  "multiplicity": "No inferential tests. Aggregate descriptive fractions/correlations treat genes as features, not independent replicates. Selected examples illustrate prespecified ranks and are not discovery or population prevalence estimates.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite library-combination ranges are not CIs or independent effect replicates. No power/effect margin is invented; 1e-10 is computational only.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "RNA is relative abundance, not absolute abundance, chromatin retention, a response rate or repair. Shared platform/layout does not resolve compartment/composition, exact pool membership or batch effects. Cross-time adjusted correlation shares baseline estimation error and is not independent temporal corroboration. Marker consistency with recorded female labels does not authorize sex assignment/exclusion or inferred pairing.",
+  "stop_rule": "Require committed frozen contract/code and matching input hashes. Fail on nonunique joins, unexpected source identity, gene/order/structure mismatch, empty reference set, nonfinite normalization or failed independent verification. Preserve failed real runs and amend a new version. Finish/register/commit S4 and return for coordinator review before S3/S5; do not retry held broad methods extraction or change safeguards.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4_rna_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s4_recall_description_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_effects.tsv.gz",
+    "gene_values.tsv.gz",
+    "sample_qc.tsv",
+    "sample_correlation.tsv",
+    "marker_qc.tsv",
+    "selected_cases.tsv",
+    "summary.json",
+    "annotation_coverage.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_sample_marker_qc.png",
+    "fig01_sample_marker_qc.pdf",
+    "fig02_recall_effects.png",
+    "fig02_recall_effects.pdf",
+    "fig03_library_examples.png",
+    "fig03_library_examples.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective S4 after coordinator-reviewed S2 and explicit authorization; shared-baseline diagnostic added before freeze. Earlier restriction/failure history preserved; no frozen S2 artifact changed.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "7c2fd95426c94a4cd1b8ba864c54f7eee7aa7a198b1885da9fd234ce3c5b42ae",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "ff7114f598bd8035dd02449d2948ea32c8aa51acad403e56b9271d970e0b8396",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "92e9582792cce7565543f57784f2e8b72de7677a949da3d312931a325f50d856",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "a7b31269dbd8aea441547fcf6964d1a4f1a52f72602b092a37e101fba4ab40ad",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "4cd3588f10a7e64270527c37df61366d87473f227cfa830d464baa2b9fe05cc6",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "b9b2e8ed0c67076da687719079b692bc03cefd3dcd2ead650e22ebd513f3b2fc",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "ada36b51d98578d5e2ff284732f7624f34cd9b933f90b56db786bc58911995af",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "2c9df583c9d460854b9e621b8d6247f1d22505b0785d933c39b0c9c232c1ba30",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "b2cfbf5636542d198ee14aab07eef337fd096273afca97c0388cb458e803dc75",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "9a0f1a57508b0c61b0066e30d74b52f96355f6cb163ec57dc75aecc5c5b1f12f",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "2610ea5aeabb916d96cf7f282f7f1b11b61f8edf5527bda0068762e9340318e4",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "1310f7ce3073fdbcb822696c59ab11486f8357c70bfe2173e480f3ec4a617b00",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/PAPER_REVIEW.md",
+      "sha256": "318b2dea2aec695fe37010a1246cb1083d4f2bd323c1be2d0ef83fdaf7b704ce",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/acquisition_gencode_m9.json",
+      "sha256": "4b547e7b0a2dfa20a7c0f8cbf60b8755c1b5157ff39bb35866cecab925237ad3",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md",
+      "sha256": "ab00b80e3c515b0217bef485bf69cf5cd376287f90730cd2b0233257636da893",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4_rna_v1.py",
+      "sha256": "eb55b5dad4f641d3aabf4820d0970621a13016f6abac8d0311eaef6a0a4d488f"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4_plot_v1.py",
+      "sha256": "df77eab3e20cd410357f5217b4ed76f3b595cfeb2f70f87fa388621375b22ab5"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4_verify_v1.py",
+      "sha256": "1847388662e12e5a42448b6ec6bd451c12e357ab21bceaeb4c2c4de74e23f406"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s4_pipeline_v1.py",
+      "sha256": "e58565421004ca1dc57489f0ec9ac5c1e74bd36455636b68f1087e7990547936"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s2_rna_v1.py",
+      "sha256": "b6611f3f7ab8cd95c01e43f75f675e37b984a53dcd2174f564fc9b16d36ac15f"
+    }
+  ]
+}

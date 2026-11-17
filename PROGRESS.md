@@ -2,32 +2,31 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current result: [S2 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
-completed from frozen setup `d4bf26d` under article-local `Nk17-P01`. Eight D6/D30
-libraries retain all 47,729 gene IDs. Absolute D30 effects are smaller for 82.58%
-of 13,452 union-qualified genes and 83.65% of 12,052 both-time-qualified genes;
-the latter comparison narrows the low/zero-D30 artifact explanation. D30
-directions remain heterogeneous across libraries and normalization. D6 is acute
-inflamed, D30 recovered baseline; their platform/layout difference prevents
-isolating recovery. No population inference, pairing or resolved/persistent
-classes are asserted. The [README](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md)
-links three visually reviewed figures and the full measurement limits.
+18 November current work: authorized [S4 specification](Research%20Article/ungated_naik_2017_inflammatory_memory/S4_METHOD_V1.md)
+is prepared under `Nk17-P01`, after coordinator-reviewed S2. It uses the 12
+D30 baseline/6-hour/12-hour libraries on one joint reference scale, retaining
+baseline/post-wound components, adjusted effects, all 16 unpaired combinations,
+expression unions/baseline intersections and exposed Xist/Y-marker QC. The
+prospective review added unadjusted versus adjusted correlations because both
+adjusted profiles share the same estimated baseline. No sex assignment, pairing,
+sample exclusion, population inference or repair/kinetic claim is authorized.
 
-Input preflight, governed execution and receipt integrity passed; the independent
-implementation passed 3,006,967 checks (maximum scaled error `7.1054e-15`). The
-12-input/four-code contract and 15 outputs are preserved. No real S2 run failed;
-the pre-freeze synthetic tie issue is recorded in the method. No held extraction
-was retried, frozen artifact overwritten or external account setting changed.
-The coordinator reviewed S2 and all figures without numerical revision and
-authorized bounded S4 next: common-scale baseline-adjusted recall RNA with
-prespecified exposed Xist/Y-linked marker QC. Finish S2 checks/commit, then
-freeze S4 before execution; return after S4 for review before S3/S5. S3–S6 and
-broader S1 remain incomplete. No next-stage calculation, push, PR or publication
-was performed; no human scientific acceptance.
-Final validation passed against refreshed main `d0429d0`: research gate, 20,041
-repository checks, 237 affected-document local links and whitespace. All four
-existing branch commits use verified Xorca author/committer attribution; GitHub
-CLI identity was rechecked as `xorca0711`. No remote integration change was found.
+Analytical and final full synthetic checks passed: 7,255,847 checks, 60 marker
+rows and maximum scaled error `2.1102e-15`. The 17-input/five-code/16-output
+contract passed input preflight. No real S4 effects or new marker counts have
+been calculated. Next: commit the specification, execute through the runner,
+verify/register, review figures and update current interpretation; return for
+coordinator review before S3/S5. The held extraction was not retried; no frozen
+artifact, safeguard or external setting changed. No push/PR/publication.
+
+Reviewed S2 checkpoint: [result](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
+committed at `5bf472e`, PDF exports at `7eecc71`. Smaller D30 absolute effects
+occur for 82.58% of union-qualified and 83.65% of both-time-qualified genes,
+with heterogeneous residual directions and cross-time platform/layout limits.
+Its independent arithmetic verification, full research gate against `d0429d0`,
+20,041 repository checks, 237 document links and whitespace passed. All local
+commits use verified Xorca attribution; GitHub CLI is `xorca0711`. S2 coordinator
+review requested no numerical revision and supplies no human scientific acceptance.
 
 Earlier S1M checkpoint: [v2 qualification](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md)
 was coordinator-reviewed without revision and committed at `e838747`. Its 28
