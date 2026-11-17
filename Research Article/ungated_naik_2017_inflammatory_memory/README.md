@@ -72,6 +72,11 @@ evidence changes, rather than from a requirement to complete every available met
 
 ## Current disposition and immediate next step
 
+The coordinator completed S1M review without a revision and the owner authorized
+the [S2 finite-library method](S2_METHOD_V1.md). Its contract/code are prepared
+and input preflight has passed; S2 execution follows the setup commit. D6 is
+the acute inflamed condition, and D30 the recovered-baseline history comparison.
+
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower
 host-cell/non-infectious-repair continuation also failed before execution. The
@@ -81,10 +86,10 @@ No numerical result or scientific stopping conclusion follows from this failure.
 S0 has an initial evidence map. S1M now supplies the molecular accession/run
 crosswalk and processed-count qualification, with exact pool membership and
 cross-assay pairing unresolved. Broader S1 source/functional qualification and
-S2–S6 remain unfinished. The next decision is parent review of the two proposed
-S2 contrasts: D6 and D30 prior-inflammation versus their respective controls,
-using separate descriptive library-level comparisons unless pool independence
-is sufficiently qualified for inference. The separate bioinformatics study
+S2–S6 remain unfinished. Next is the authorized S2 execution: D6 acute inflamed
+and D30 prior-inflammation versus their respective controls, using separate
+descriptive library-level comparisons. This stage makes no population inference;
+a separately justified inferential reproduction remains possible. The separate bioinformatics study
 session supplies no task dependencies or execution restrictions here. Any S2
 execution requires its own prospective contract and stage authorization.
 

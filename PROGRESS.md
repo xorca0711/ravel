@@ -9,6 +9,14 @@ authorized committing the reviewed S1M records and proceeding to a separate S2
 contract for exactly the eight D6/D30 libraries, using finite-library descriptive
 effects without population p-values or invented pairing. D6 is acute inflamed;
 D30 is recovered-baseline history. No S2 calculation has run at this checkpoint.
+S1M was committed at `e838747`. The prospective [S2 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_METHOD_V1.md)
+and four code/test files are prepared. Synthetic end-to-end verification passed
+3,006,967 arithmetic/flag checks after a pre-freeze floating-point tie issue was
+recorded and addressed with an explicit computational tolerance. The exact M9
+annotation completed at 23,972,104 bytes with a recorded SHA-256. The frozen S2
+contract binds 12 inputs, four code/test files and 15 expected outputs; input
+preflight passed. Commit and runner execution are next. No research-library
+effects have been calculated at this setup checkpoint.
 
 18 November stage handoff: [S1M v2 qualification and proposed S2 contrasts](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md)
 is complete under article-local `Nk17-P01`: 28 library/experiment/run/BioSample

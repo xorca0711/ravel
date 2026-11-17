@@ -30,7 +30,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S0: paper map | Initial reading map and corrections available in [PAPER_REVIEW.md](PAPER_REVIEW.md); source qualification remains incomplete | Tie each retained claim to eligible public inputs and its actual endpoint |
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete and coordinator-reviewed; pool/pairing and cross-time technical limits retained | Preserve reviewed outputs and receipt registration in Git |
-| S2: acute/recovered-baseline RNA | Authorized finite-library description; not calculated | Freeze/commit a separate eight-library contract before execution |
+| S2: acute/recovered-baseline RNA | [Method/code](S2_METHOD_V1.md), exact annotation and frozen contract prepared; synthetic checks and input preflight passed | Commit the specification and execute through the research runner; research effects not yet calculated |
 | S3–S5: later molecular comparisons | Not started | Review S2 before selecting the next bounded stage |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
