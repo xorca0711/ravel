@@ -1,5 +1,92 @@
 # Current project state
 
+## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
+
+Current bounded assignment: the owner authorized [S1M molecular metadata qualification](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_CONTEXT_V1.md)
+using saved GEO/SRA/ENA/BioSample records and count-table structure. Article-local
+owner `Nk17-P01` and prospective code/contract are being prepared; no S1M run is
+claimed yet. Setup commits are authorized locally. Effective author/committer
+are Xorca, and GitHub commit records map the configured email to `xorca0711` for
+both roles. No push or publication is authorized. Earlier service restrictions
+remain recorded; this limited task does not resolve or retry blocked extraction.
+Next: freeze/commit, preflight, run and verify S1M, then return for parent review.
+
+Earlier recovery-only checkpoint: all 36 acquisition-record files match their saved
+SHA-256 hashes and byte counts. The ignored source directory retains 41 files,
+including two acquisition records and three PDF-derived files without recorded
+acquisition hashes. Targeted searches found no Naik owner registration, contract,
+script, receipt or result. See the [recovery audit](Research%20Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md)
+for scope, current hashes and the preserved three-failure service history.
+Freshly fetched main and local HEAD remain `d0429d0`; GitHub CLI identity was
+verified as `xorca0711`. The five existing article drafts and saved inputs were
+retained. The originating chat reviewed the completed checkpoint and found no
+recovery revision necessary. No scientific work resumed. Next: a supported
+resolution of the service restriction is required before blocked work resumes.
+Recovery validation: 18 local documentation links, whitespace and conflict checks
+passed; all 51 monitored input and protected-document files remained byte-identical.
+
+Execution checkpoint: the owner authorized a separate technical session with
+stage-by-stage review and result-guided continuation. The service failed with an
+automatic content restriction during S1; a narrower host-cell RNA/ATAC and
+non-infectious repair continuation also failed before execution. No Naik numerical
+analysis, contract or receipt was produced. See the
+[stage checkpoint](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
+After a supported resolution, the pending work is completion and review of the
+qualified source/unit map, followed by a prospective contract for the first
+eligible comparison. Further extensions have not been evaluated or ruled out.
+An owner-requested `proceed` retry subsequently
+resumed source/schema inspection briefly, then returned the same content
+restriction at 14:24:11 UTC on 17 November; S1 remains incomplete. No fragmentation
+or new-session attempt was made to bypass that restriction, and no safeguard or
+external account/protection setting changed.
+
+Prepared the [Naik package](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md)
+from the owner's paper notes, annotated final PDF/correction, existing GEO
+metadata and a bounded primary-literature scan. The
+[plan](Research%20Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md)
+separates source qualification, RNA resolution, accessibility persistence, recall
+RNA, cross-assay interpretation and a conditional follow-up. Arozamena,
+DuPage/Wang and A1 supplied current pipeline/evidence limits; Larsen 2021 is a
+direct mechanistic precedent. No biological rerun, new global RQ, candidate
+registration, claim promotion or Notion edit occurred. The parent checkout's
+existing PROGRESS changes were preserved.
+
+Owner scope correction: the separate bioinformatics study session is independent
+of Ravel. Removed its fixed-axis PCA exercise, learner-run restrictions and
+D30-first handoff from this package. The plan now follows the established
+paper-driven research progression, including result-guided analyses and
+literature-qualified question development. Prior outcome exposure remains
+recorded; project identity, existing RQs and scientific standards are unchanged.
+Rechecked framing against current AGENTS.md and the DuPage, Wang and Arozamena
+packages: explicit biological argument versus computational order, source-panel
+anchors, outcome-to-next-decision updates at every stage, and a distinct
+functional evidence bridge. Procedural steps remain in the plan's table rather
+than serving as a hypothesis illustration.
+
+Remote main was fetched at `d0429d0`; both main CI workflows passed and no open
+PRs were found. PR #182 is merged despite its older progress wording below.
+Work is local on `codex/naik-memory-plan-20261117` in the corresponding worktree.
+Pending that resolution: qualify the paper's claim/source map, molecular and
+functional inputs, and whole-study pool/run/assay relationships, then scope the first informative
+numerical contract. Exact raw-read replay retains a single-end/paired-read discrepancy;
+cross-assay pairing and independent pool identities need source qualification.
+Web challenge/redirect failures are bounded access findings, with local source
+fallbacks recorded. No external account or protection settings changed.
+Original plan-stage validation: 19,930 repository checks, 178 analysis tests
+(one skipped), compilation, claim and archived-evidence checks, and the full
+base-aware research gate passed.
+The 25-test session suite had five subcase failures in one startup-path test due
+to sandbox temporary-directory capitalization; rerunning that unchanged test
+from a consistently cased temporary path passed all five subcases. No code,
+assertion, validator or governance change was made. Fifteen missing published
+assets were restored from hash-verified local copies (all 16 locked members
+verified), without rerunning analyses or replacing existing evidence. Final
+fetch still resolved main to `d0429d0`; delivery is an uncommitted local draft.
+For the subsequent scope-only revision, changed-document links, Markdown scope
+and whitespace were checked against the same refreshed base. Prior code,
+scientific-asset and governance checks remain applicable; no biological rerun
+or redundant unchanged-code test run was needed.
+
 ## 2026-11-13 — Approved portfolio figure archive
 
 Archived 31 approved public-data displays (70 image/vector/support assets) across 12 article galleries for the Nabhan, Saxton, DuPage and Wagner preparation. Nine frozen metadata imports preserve exact bytes; no biological analyses were rerun. G-SURF microscopy and personal outreach documents remain private. Peeters supporting values and portable local-run records are included with their not-yet-integrated status explicit. See [archive overview](docs/PORTFOLIO_FIGURE_ARCHIVE_20261113.md). All nine receipts, 178 analysis tests (one skipped), 25 session tests, compilation, claim/evidence checks, repository validation and the full research gate passed. Windows checkout-only byte/path issues were resolved without scientific edits; locked public outputs were restored from a verified local copy. Uploaded in [PR #182](https://github.com/xorca0711/ravel/pull/182); review and merge remain pending.

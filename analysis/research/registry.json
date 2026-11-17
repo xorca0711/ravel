@@ -1161,6 +1161,18 @@
         "Research Article/gate3_10_wang_2018_ezh2/BOCKMAN_FULL_READ_20261112.md",
         "Research Article/gate3_10_wang_2018_ezh2/FIGURES.md"
       ]
+    },
+    {
+      "id": "Nk17-P01",
+      "plan": "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/ungated_naik_2017_inflammatory_memory/README.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/PAPER_REVIEW.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/S1M_CONTEXT_V1.md"
+      ]
     }
   ],
   "contracts": [
@@ -1396,7 +1408,8 @@
     "analysis/research/contracts/Wp-R01.portfolio_archive_20261113_v1.json",
     "analysis/research/contracts/Yd1-P01.portfolio_archive_20261113_v1.json",
     "analysis/research/contracts/Sx22-P01.portfolio_archive_20261113_v1.json",
-    "analysis/research/contracts/Nn26-P01.portfolio_archive_20261113_v1.json"
+    "analysis/research/contracts/Nn26-P01.portfolio_archive_20261113_v1.json",
+    "analysis/research/contracts/Nk17-P01.s1m_metadata_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
