@@ -31,6 +31,39 @@ The selected later studies are independent publications, not automatically
 independent validation of the proposed skin comparison. Dataset/animal reuse
 must be checked before any pooled or cross-study quantitative claim.
 
+### Bounded coordinator update — 18 November 2026
+
+The coordinator supplied primary indexed excerpts for Cowley et al., Science
+2026, **Distinctive DNA sequence features define epigenetic longevity of
+inflammatory memory** ([DOI](https://doi.org/10.1126/science.adz6830),
+[PMC record](https://pmc.ncbi.nlm.nih.gov/articles/PMC13295011/)). Locators are
+Figures 1/S1, 4–6, the ATAC library/sequencing Methods and data availability.
+Longevity, CpG/demethylation and H2A.Z are therefore existing close prior art to
+carry into S6, not newly unexamined mechanisms. This technical chat is reusing
+that bounded read rather than claiming an independent search/full supplement audit.
+It does not explain or resolve the S4/S4B baseline marker discrepancy.
+
+The Methods assign Cowley's D6/D30 FASTQs to Larsen **GSE171596**. Data availability
+also identifies reused **GSE92967**, alongside new ATAC **GSE299177**. The later
+934-domain set cannot be assumed to be the original Naik 2017 coordinate universe,
+and reused datasets supply no independent replication of their own observations.
+The coordinator inspected the author's public repository at commit
+[`f251102`](https://github.com/dpeerlab/persistent-epigenetic-memory/tree/f2511024b0dcf7be5d47454ee170594d7b79d35b):
+its notebook constructs a later D6/D30/M12 replicable-peak universe and refers to
+private `D30_memory.bed` paths; no matching deposited BED was found in that complete
+repository tree. [Zenodo archive](https://doi.org/10.5281/zenodo.18057635) resolves
+to v0.1.1 record 18057636. No external notebook code was executed.
+
+Data S2 remains the primary subset-table locator, but its direct response was
+HTML rather than Excel in the coordinator's attempt. OA-manifest 404, Europe PMC
+XML timeout and institutional-PDF 403 are bounded route findings, not evidence
+that coordinates never exist. These routes are not repeated here. For the
+original Naik source, the coordinator found MOESM9 contains F3d pathway binomial
+p-values and an empty sheet, not coordinates; targeted reporting-PDF headings
+identified no coordinate table. S3 must preserve that limited coverage and the
+unresolved original universe. A new comparison/novelty claim still requires its
+own qualified evidence and prospective method.
+
 ## Repository observation
 
 The governed S2 description now shows smaller absolute D30 history/control RNA

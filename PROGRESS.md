@@ -21,22 +21,28 @@ gate against refreshed main `d0429d0`, all 20,105 repository checks and whitespa
 passed. Preserve the local result commit, then continue S3 in this same worktree;
 all stages are not yet complete. No real S4B run failed; frozen S4 is unchanged.
 
-S3 next: supported pinned reader in an ignored project-local environment; eight
-original D6/D30 BigWigs with URL/date/size/hash records and preserved partials;
-source/header/mm10 dictionary, deposited scale and region availability checks.
-The coordinator HEAD-verified total track size as 6,679,503,736 bytes; X: has
-about 81 GB free. No tracks are downloaded yet. Actual WSL is aarch64/glibc 2.43,
-Python 3.14.4, with no compiler, pip or existing reader. Official pybbi 0.4.2 has a
-CPython 3.13 aarch64 wheel. Project-local Python 3.13.18, pybbi 0.4.2 and NumPy
-2.5.5 installed successfully from pinned distributions; imports passed. Reader
-smoke testing and original-track acquisition/header qualification are next.
-No global installs or independent study environment changes are needed. Missing
-preinstallation is a runtime preparation issue, not a scientific source hold.
-The paper's per-base Z-score method does not establish the deposited BigWig scale;
-exact background filtering and original region availability require qualification.
-Return a concrete S3 method/estimand for review before a biological numerical run.
-The coordinator is separately checking a Cowley 2026 coordinate/prior-art lead;
-this chat has not independently verified it and will not duplicate that search.
+S4B is preserved in local commit `8d7f644`. S3 preparation now has a working
+[project-local reader](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_RUNTIME_V1.md)
+and all eight original D6/D30 BigWigs: 6,679,503,736 bytes, source URLs/dates/sizes
+and local SHA-256 values recorded. Two concurrent transfers completed without
+track failure/resume; raw reads and D180 were not downloaded. The canonical UCSC
+mm10 chromosome dictionary is saved. An ordinary urllib certificate failure for
+the UCSC reference was resolved using normal Windows curl TLS; no setting changed.
+
+The [S3Q metadata specification](Research%20Article/ungated_naik_2017_inflammatory_memory/S3Q_METHOD_V1.md)
+and contract bind 19 inputs, three scripts and six expected outputs. Syntax and
+input preflight passed; no research-track header or signal query has run yet.
+Freeze/commit, then execute only source/header/dictionary and fixed 100-base
+readability qualification. Reuse the coordinator's original-source coverage:
+MOESM9 has pathway source data rather than coordinates; this bounded finding is
+not proof of universal absence. No repeated workbook or broad paper scan is needed.
+The paper's Z-score description does not itself establish the deposited scale.
+Return a concrete S3 method/estimand for review before biological comparison;
+retain the plan's within-track-only boundary if between-track scales are unresolved.
+Cowley 2026 is existing longevity/CpG/demethylation/H2A.Z prior art supplied by the
+coordinator, with reused data explicit. Its D6/D30 FASTQs are from GSE171596, so
+its later 934-domain set is not the original Naik coordinate universe. Its private
+BED paths and bounded supplement access failures do not recover that universe.
 No restricted broad extraction, safeguards change, push, PR, Notion edit or
 external inquiry/publication was performed.
 

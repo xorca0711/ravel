@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s3q_track_qualification_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Are the eight original deposited D6/D30 ATAC tracks correctly joined, locally readable and compatible with mm10 chromosome lengths, and which scale/coordinate uncertainties remain?",
+  "decision": "Qualify source/header/readability inputs and precise unresolved semantics before proposing a biological S3 comparison for coordinator review; perform no between-track signal comparison.",
+  "strongest_rival": "Compatible BigWig structure and chromosome dictionaries may be mistaken for established signal normalization, original region identity or biological independence. Stored summaries cannot identify the full processing transform.",
+  "discriminator": "Verify frozen source/acquisition joins, exact chromosome lengths against UCSC mm10, supported-reader headers and one prespecified bounded query. Reuse coordinator original-coordinate coverage rather than repeat broad source scans.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published accessibility conclusions, S1M and all S2/S4/S4B results were already viewed. Original BigWigs were downloaded and hashed before this specification, but no research-track header/signal query was made. The supported reader was tested on a pinned upstream toy fixture only. Coordinator supplied bounded original-coordinate and paper-method findings; the technical chat has not repeated those scans. No freeze erases prior exposure.",
+  "biological_unit": "Eight deposited ATAC libraries, two per D6/D30 history/control group. Source-reported biological replication and pooled preparations remain positive evidence; exact membership, overlap and cross-assay mapping are unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The same original GSE92967 source underlies the published claim. Chromosomes, intervals and stored summary fields are file metadata/features, not biological replicates. No matching is inferred from R1/R2 labels.",
+  "population_and_selection": "Exactly GSM2441001-GSM2441008 and their saved GEO/S1M source records; D180, raw reads, other studies and new workbook scans excluded. All track chromosomes retained in metadata outputs.",
+  "contrast": "No biological contrast. Check accession/file identity, dictionary and header consistency; the fixed chr1:10000000-10000100 query only tests readability and missingness shape.",
+  "endpoint": "File identities, exact bytes and bound hashes, chromosome names/lengths, stored header summaries/zoom metadata and bounded-query finite/missing counts; unresolved signal scale and region definition are explicit.",
+  "methods": "Windows standard-library wrapper verifies SOFT/crosswalk/acquisition joins and invokes a frozen WSL reader with Python 3.13.18, pybbi 0.4.2 and NumPy 2.5.5. Reader obtains BigWig type, chromosome dictionary, stored header and zoom levels and one fixed 100-base chr1 query with missing=NaN; it retains only query length and finite/missing counts. Compare every chromosome with the canonical mm10 dictionary and retain missing/mismatched/extra names. No signal difference, transformed rank, retained-region classification or new biological run. Independent stdlib verification checks identity, dictionary/summary consistency and query boundaries.",
+  "missingness_and_exclusions": "All eight tracks and all stored chromosomes retained. Missing/incompatible chromosomes are recorded rather than relabelled. An unqueryable chr1 is flagged; missing signal is NaN, never silently zero-imputed. No source is reassigned or excluded after seeing header values.",
+  "multiplicity": "No inferential tests, gene/region screening or population prevalence. Metadata counts do not provide biological replication.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata qualification has no biological effect margin, sampling precision or power calculation. A finite 100-base smoke query does not independently decode every data block.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Header compatibility cannot establish deposited normalization, fragment dispersion, original memory-domain coordinates or causal/functional memory. The source paper Z-score description alone is insufficient to label the .bw scale. If between-track scale stays unresolved, preserve the plan boundary of within-track visualization only until a separately reviewed method exists.",
+  "stop_rule": "Require frozen committed contract/code and matching input hashes. Fail on source identity/hash mismatch, unsupported runtime, malformed reader output or failed independent verification. Record genome compatibility failures explicitly. Preserve failed real runs. Return a concrete S3 method/estimand for review before any biological numerical comparison; no restricted broad source extraction or safeguard changes.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3q_tracks_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s3q_track_qualification_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_identity.tsv",
+    "header_metadata.json",
+    "chromosome_dictionary.tsv",
+    "qualification.json",
+    "runtime.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New authorized metadata-only S3 qualification after reviewed and committed S4B; preserved source acquisition and supported runtime preparation precede the first research-track header query.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441001_CTRL_Day6_mm10_ATAC_Rep_1_.bw",
+      "sha256": "50be6a146989388901f33d48b5c99a6647cc9db8c98b8369eb0b11a489c04649",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441002_CTRL_Day6_mm10_ATAC_Rep_2_.bw",
+      "sha256": "08469b3ea53df347cf22516afada162c4ffbb8d5d23861d377f1a58b6c89633a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441003_IMQ_Day6_mm10_ATAC_Rep_1_.bw",
+      "sha256": "ec08ec638a7dd82fa96ac33c75f1548197579d98430672d208ebba923589a4d2",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441004_IMQ_Day6_mm10_ATAC_Rep_2_.bw",
+      "sha256": "2e9d6a572e7ed8ab570ed18ab081d6d872152642ab150a69c1787d3eb0eebd0c",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441005_Control_Day30_mm10_ATAC_Rep_1_.bw",
+      "sha256": "510b406ff09cf71c9b94fd7558c42bf8700e326887588890b75ce6b545f36a5b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441006_Control_Day30_mm10_ATAC_Rep_2_.bw",
+      "sha256": "4468521f3227b7b6b21471f56148f65b619792faed046fe0fb66df75f35fd240",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441007_PostInflamed_Day30_mm10_ATAC_Rep_1_.bw",
+      "sha256": "ed1aae301d961572505a1ac05e039de6d83ecd39f55efccc314ad67e99a8a97d",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441008_PostInflamed_Day30_mm10_ATAC_Rep_2_.bw",
+      "sha256": "8818cad26cb7e09ea4f1b4a314aa03bb357bb011614badafb9ab5208ee9d1618",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/acquisition_manifest_v1.json",
+      "sha256": "76ae97f738e25d202483581dbc0ad0232ca3138d139feb1a5919ac18d25ad23d",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/acquisition_transfer_spec_v1.json",
+      "sha256": "a1afa077c67ad3dcf1b3230b62b16686966383bf0b52d95f3b87aa65f7dd9f86",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/mm10.chrom.sizes",
+      "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+      "study_id": "UCSC_mm10",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/mm10_reference_acquisition.json",
+      "sha256": "29e7247b6478dd924589ffa66f2c793fbac09f6fb899333188d81100b6db3920",
+      "study_id": "UCSC_mm10",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSE92967_family.soft.gz",
+      "sha256": "55f0cf164a8fcdb13351e709809b1d33d1ae61ea3199d56b1db0d921f4d04fc8",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/runtime_smoke.json",
+      "sha256": "178699b3beaea1b29e4eb0e761ee12303f4f9804295ba340c0ab6da0a7a84c67",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/wheels_manifest.json",
+      "sha256": "e1017682df9cb972b658a6bac6e8e07823437360526da2ac4fe6bc18c18c4c5b",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/uv_acquisition.json",
+      "sha256": "9854c2fbcdfab96ad8976ede15412e168a7c6ba99cfefe1a165431b8d4736bfa",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md",
+      "sha256": "c5958523bcf29b12f99697604aecf15804ff9987131cdc927ff35eb84d39b808",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3q_tracks_v1.py",
+      "sha256": "b9d4af9e233d72d9dfaa9fbd9e8c8b2b86b531c17f8359f67973315542d71ddc"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3q_reader_v1.py",
+      "sha256": "78f2ca07b37bbf3a37d8828cc6da7ebaaffc6885bf3fcc19b95b493e9c3d3470"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3q_verify_v1.py",
+      "sha256": "d82c138568a93c8c90f5df953f5a68fdd307dad4e8fc3bc7ae65d2f7a1f53490"
+    }
+  ]
+}

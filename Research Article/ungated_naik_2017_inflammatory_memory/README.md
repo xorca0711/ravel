@@ -169,10 +169,11 @@ receipt integrity passed. The coordinator reviewed its [result](S4B_RESULTS_V1.m
 and all four panels without numerical revision and authorized S3 preparation and
 source qualification. S3 biological comparison and S5 integration have not run. All original and
 alternative outcomes remain side by side, with unchanged example selection.
-Prepare the original eight D6/D30 tracks, source/header and scale qualification,
-and a concrete S3 estimand for review before biological execution. A supported
-project-local reader is being prepared; installation does not supply a region
-definition or chromatin comparison.
+The original eight D6/D30 tracks and a tested supported project-local reader are
+[prepared](S3_RUNTIME_V1.md). [S3Q metadata qualification](S3Q_METHOD_V1.md) has
+passed input preflight and awaits setup freeze/execution. Return its source/header,
+scale and region findings with a concrete S3 estimand for review before biological
+execution. Installation and source transfer supply no chromatin comparison.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower

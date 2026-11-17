@@ -47,7 +47,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: persistent accessibility | Preparation/source qualification authorized; biological comparison not started | Install supported local reader, acquire eight original D6/D30 tracks, qualify identity/chromosomes/scale/region sources, then return concrete method for review |
+| S3: persistent accessibility | [Runtime/transfer preparation](S3_RUNTIME_V1.md) complete; eight original tracks acquired; [S3Q metadata specification](S3Q_METHOD_V1.md) preflight passed | Freeze/execute metadata qualification, then return a concrete S3 method for review before biological comparison |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
@@ -74,8 +74,8 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is S4B local preservation and authorized S3 preparation and
-source qualification; S4B integration checks have passed.
+S4B is preserved at `8d7f644`. The immediate action is S3Q metadata setup
+freeze/commit and governed qualification; a biological S3 comparison remains pending.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -86,9 +86,9 @@ qualified scope and stage review. None was resumed during recovery.
 2. Preserve S4B's primary and both reference outcomes, fixed qualification and
    original examples. Reference dependence is not a corrected baseline, sex
    assignment, matching or biological validation.
-3. Prepare a pinned reader in an ignored project-local environment and acquire
-   only the eight original D6/D30 tracks with source/date/size/hash records and
-   preserved partials. Qualify mm10 dictionaries and deposited signal semantics;
+3. The pinned local reader and all eight original D6/D30 tracks are prepared,
+   with source/date/size/hash records and a successful upstream toy-file check.
+   Qualify mm10 dictionaries and deposited signal semantics under S3Q;
    the paper's Z-score method alone does not establish the BigWig scale. Original
    region availability and background filtering remain to be resolved. Return a
    concrete S3 estimand and adaptation limits before biological numerical execution.
