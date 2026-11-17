@@ -2,41 +2,40 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November continuation: the coordinator completed S1M review without requiring
-a revision, based on the result/outputs, label logic and selected GEO/BioSample
-fields. This is agent review, not human scientific acceptance. The owner
-authorized committing the reviewed S1M records and proceeding to a separate S2
-contract for exactly the eight D6/D30 libraries, using finite-library descriptive
-effects without population p-values or invented pairing. D6 is acute inflamed;
-D30 is recovered-baseline history. No S2 calculation has run at this checkpoint.
-S1M was committed at `e838747`. The prospective [S2 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_METHOD_V1.md)
-and four code/test files are prepared. Synthetic end-to-end verification passed
-3,006,967 arithmetic/flag checks after a pre-freeze floating-point tie issue was
-recorded and addressed with an explicit computational tolerance. The exact M9
-annotation completed at 23,972,104 bytes with a recorded SHA-256. The frozen S2
-contract binds 12 inputs, four code/test files and 15 expected outputs; input
-preflight passed. Commit and runner execution are next. No research-library
-effects have been calculated at this setup checkpoint.
+18 November current result: [S2 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
+completed from frozen setup `d4bf26d` under article-local `Nk17-P01`. Eight D6/D30
+libraries retain all 47,729 gene IDs. Absolute D30 effects are smaller for 82.58%
+of 13,452 union-qualified genes and 83.65% of 12,052 both-time-qualified genes;
+the latter comparison narrows the low/zero-D30 artifact explanation. D30
+directions remain heterogeneous across libraries and normalization. D6 is acute
+inflamed, D30 recovered baseline; their platform/layout difference prevents
+isolating recovery. No population inference, pairing or resolved/persistent
+classes are asserted. The [README](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md)
+links three visually reviewed figures and the full measurement limits.
 
-18 November stage handoff: [S1M v2 qualification and proposed S2 contrasts](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md)
-is complete under article-local `Nk17-P01`: 28 library/experiment/run/BioSample
-joins and 16 integer count tables with 47,729 common ordered versioned gene IDs.
-V2 setup commit `399ef62` preceded execution; its receipt is verified and registered.
-V1 (`b5f96ec`) and its incomplete compact-title grouping remain preserved under
-the [v2 amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_AMENDMENT_V2.md).
-D6 RNA is HiSeq 4000/paired; D30/recall RNA is HiSeq 2500/single. Within-time
-history comparisons share platform/layout; cross-time interpretation and exact
-pool membership/pairing remain qualified. No gene effects, inference or S2 run.
-Effective author/committer are verified Xorca for `xorca0711`; no push/publication.
-Earlier service restrictions remain recorded and blocked extraction was not retried.
-Next: parent review of S1M and the proposed separate D6/D30 descriptive contrasts,
-then a separately frozen S2 contract if assigned. Broader S1 and S2–S6 remain open.
-Final validation: full research gate against refreshed main `d0429d0`, 19,994
-repository checks and 53 affected-document links passed. Synthetic parser and
-independent accession/count-structure checks passed; coordinator spot-checks
-reported no join revision, without constituting human scientific acceptance.
-V2 outputs/receipt registration and current interpretation updates remain local
-and uncommitted for parent review; both setup commits use verified Xorca identity.
+Input preflight, governed execution and receipt integrity passed; the independent
+implementation passed 3,006,967 checks (maximum scaled error `7.1054e-15`). The
+12-input/four-code contract and 15 outputs are preserved. No real S2 run failed;
+the pre-freeze synthetic tie issue is recorded in the method. No held extraction
+was retried, frozen artifact overwritten or external account setting changed.
+The coordinator reviewed S2 and all figures without numerical revision and
+authorized bounded S4 next: common-scale baseline-adjusted recall RNA with
+prespecified exposed Xist/Y-linked marker QC. Finish S2 checks/commit, then
+freeze S4 before execution; return after S4 for review before S3/S5. S3–S6 and
+broader S1 remain incomplete. No next-stage calculation, push, PR or publication
+was performed; no human scientific acceptance.
+Final validation passed against refreshed main `d0429d0`: research gate, 20,041
+repository checks, 237 affected-document local links and whitespace. All four
+existing branch commits use verified Xorca author/committer attribution; GitHub
+CLI identity was rechecked as `xorca0711`. No remote integration change was found.
+
+Earlier S1M checkpoint: [v2 qualification](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md)
+was coordinator-reviewed without revision and committed at `e838747`. Its 28
+library/experiment/run/BioSample joins and 16 compatible count tables support
+the bounded S2 route, with exact pool/pairing limits retained. S1M v1 (`b5f96ec`),
+v2 setup (`399ef62`) and the [amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_AMENDMENT_V2.md)
+remain historical. Its research gate, 19,994 repository checks and 53 document
+links passed against `d0429d0`. Author/committer are verified Xorca for `xorca0711`.
 
 Earlier recovery-only checkpoint: all 36 acquisition-record files match their saved
 SHA-256 hashes and byte counts. The ignored source directory retains 41 files,

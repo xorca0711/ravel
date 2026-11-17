@@ -10,9 +10,11 @@ novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
 18 November source-qualification update: [S1M's current report](S1M_RESULTS_V2.md)
 qualifies the deposited molecular records and count structure, retaining
 cross-time platform/layout differences and unresolved exact pool/pairing maps.
-It adds no gene effect or independent replication and does not change the
-published premise below. No new literature search or paper-method extraction
-was performed in S1M; proposed D6/D30 within-time RNA comparisons await parent review.
+S1M added no gene effect or independent replication. The subsequent
+[S2 v1 result](S2_RESULTS_V1.md) supplies a finite-library RNA description without
+changing the published premise below. No new mechanistic literature scan or
+paper-method extraction was performed in S1M/S2. S2 separately checked official
+normalization and GENCODE documentation, recorded in its [method](S2_METHOD_V1.md).
 
 | Primary source/version | Exact locator and access | What it changes here |
 |---|---|---|
@@ -29,9 +31,16 @@ must be checked before any pooled or cross-study quantitative claim.
 
 ## Repository observation
 
-No governed Naik RNA/ATAC result exists here at this checkpoint. Published
-outcomes and prior inspection of four D6 RNA profiles establish exposure, not
-a Ravel measurement or an analysis prerequisite.
+The governed S2 description now shows smaller absolute D30 history/control RNA
+effects than D6 acute-inflamed/control effects for 82.58% of 13,452 union-qualified
+genes and 83.65% of 12,052 both-time-qualified genes. The latter sensitivity makes
+union-only low/zero D30 rows an insufficient explanation of the broad pattern.
+It does not remove cross-time platform/layout differences, bulk composition or
+preparation uncertainty. D30 library-combination ranges frequently span zero,
+and selected large effects can be dominated by a single library. No ATAC or
+recall comparison has run. Prior published-result/D6-profile exposure and this
+new outcome exposure remain explicit; neither a freeze nor arithmetic verification
+creates independent biological replication.
 The current [Arozamena synthesis](../ungated_arozamena_2026_inflammatory_memory/README.md)
 reports mixed RNA directions, QC sensitivity and region-dependent accessibility;
 state/function attribution remains unresolved. The
@@ -41,10 +50,11 @@ supplies a tested universal memory mechanism for Naik.
 
 ## What this question could add
 
-The immediate contribution is transparent shared-source reproduction and
-measurement qualification: distinguish recovery of baseline RNA from retained
-accessibility and baseline-adjusted recall transcription, including discordant
-cases. It is not discovery that epithelial inflammatory memory exists. A later
+The immediate contribution is transparent shared-source description and
+measurement qualification. S2 narrows the baseline RNA component; retained
+accessibility and baseline-adjusted recall transcription remain unmeasured here,
+including their discordant cases. It is not discovery that epithelial
+inflammatory memory exists. A later
 boundary or mechanistic extension requires the specified source/model and a
 comparison beyond the closest published experiment.
 
@@ -58,11 +68,15 @@ independent pools or explicitly descriptive libraries. Selection of epithelial
 subpopulations/clones, ongoing cues and sampling/processing differences are
 consequential alternatives, not automatically mutually exclusive explanations.
 
-Published premise → no Naik result yet, with neighboring source limitations
-informing qualification → unresolved source-qualified persistence/recall
-relationship → staged RNA/ATAC comparisons
-→ decide which molecular association is supported and what function remains
-unmeasured. The [plan](ANALYSIS_PLAN.md) supplies the exact intended contrasts.
+Published premise → smaller but heterogeneous baseline RNA contrasts in the
+qualified S2 libraries → unresolved distinction between baseline offsets and
+later history-associated wound transcription → proposed bounded S4 contrasts,
+with separate S3 accessibility qualification → determine which molecular
+association is supported while keeping repair unmeasured. After reviewing S2,
+the coordinator authorized bounded S4; it is not yet executed or frozen.
+The [plan](ANALYSIS_PLAN.md) remains
+the historical intended sequence; the [current result](S2_RESULTS_V1.md) owns
+the updated decision and limits.
 
 ## What the comparison would teach
 
@@ -81,7 +95,9 @@ The [README](README.md) explains the biological argument and the
 hypothesis has been adopted. A biological illustration is pending a justified
 candidate and would depict the cells, comparison and unresolved relationship
 under AGENTS.md; a workflow diagram is not used as its hypothesis illustration.
-No measured figure or provenance exemption is created here.
+The [README measured-figure section](README.md#measured-rna-evidence) now displays
+S2 data figures from the frozen script and receipt. They do not depict or certify
+a new mechanistic hypothesis; no provenance exemption is created here.
 
 ## Next literature check
 

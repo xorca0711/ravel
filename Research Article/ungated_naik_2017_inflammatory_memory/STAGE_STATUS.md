@@ -1,6 +1,6 @@
 # Naik execution checkpoint
 
-17 November 2026. The owner authorized a separate technical analysis session,
+18 November 2026. The owner authorized a separate technical analysis session,
 review after each completed stage, revisions where warranted, and continuation
 through informative extensions. The independent bioinformatics study remains
 outside this package.
@@ -17,7 +17,12 @@ extraction. On 18 November the coordinator reviewed the S1M result, v2 outputs,
 label logic and selected GEO/BioSample records and requested no revision. This
 is coordinator review, not human scientific acceptance. The owner authorized S2's
 finite-library descriptive D6 acute-inflamed/control and D30 history/control
-comparisons; S2 contract preparation is next and no S2 calculation has run.
+comparisons. The coordinator also reviewed its prospective method/code without
+requesting a revision. S2 ran from frozen setup commit `d4bf26d`; its
+[result](S2_RESULTS_V1.md), 15 outputs and registered receipt are complete.
+Independent arithmetic and receipt integrity checks passed. The coordinator then
+reviewed S2's result and all three figures without requesting numerical revision,
+and authorized bounded S4 after the S2 local commit. S4 has not run.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -29,9 +34,11 @@ limited to the molecular metadata task. The service restriction remains recorded
 |---|---|---|
 | S0: paper map | Initial reading map and corrections available in [PAPER_REVIEW.md](PAPER_REVIEW.md); source qualification remains incomplete | Tie each retained claim to eligible public inputs and its actual endpoint |
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
-| S1M: molecular metadata | V2 complete and coordinator-reviewed; pool/pairing and cross-time technical limits retained | Preserve reviewed outputs and receipt registration in Git |
-| S2: acute/recovered-baseline RNA | [Method/code](S2_METHOD_V1.md), exact annotation and frozen contract prepared; synthetic checks and input preflight passed | Commit the specification and execute through the research runner; research effects not yet calculated |
-| S3–S5: later molecular comparisons | Not started | Review S2 before selecting the next bounded stage |
+| S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
+| S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete and coordinator-reviewed without numerical revision | Preserve reviewed result and finish required local checks/commit |
+| S3: persistent accessibility | Not started | Separate source/region qualification after S4 review |
+| S4: recall RNA | Authorized next; not run | Freeze common-scale baseline-adjusted description and exposed marker QC before execution |
+| S5: modality integration | Not started | Requires eligible RNA and accessibility results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
 The initial technical turn failed during source qualification. A narrower
@@ -55,19 +62,22 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is the authorized S2 contract and descriptive execution.
+The immediate action is final S2 checks/commit, then the authorized S4 specification.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
 
-1. Review S1M's qualified accession/run/assay references and remaining exact
-   pool/preparation, cross-assay and source/functional measurement limits. Keep
-   the confirmed D6 RNA layout discrepancy scoped to exact raw-read replay;
-   other S1 branches were not completed by this molecular metadata stage.
-2. Review the source report and select a supported first comparison. Record
-   exposure and register/freeze/commit its contract before numerical execution.
-3. Continue the [analysis plan](ANALYSIS_PLAN.md) with a result and interpretation
-   review after every completed stage; retain negative and mixed outcomes.
+1. Preserve S2's reviewed all-gene/union/both-time summaries and all three figures. Keep
+   D30 zero/low-count mechanics, cross-time platform/layout differences, exact
+   pool/preparation uncertainty and selected-example bias visible.
+2. Qualify the authorized S4's saved D30 baseline and 6/12-hour wound libraries,
+   record exposure and freeze/commit a separate contract before calculation.
+   Compare post-wound history differences with baseline offsets without invented
+   pairing. Include prespecified exposed marker QC without automatic sex
+   assignment/exclusion. Return after S4 for coordinator review before S3/S5.
+3. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
+   stages. Broader source/functional qualification remains incomplete; the
+   restricted extraction has not been retried. Retain negative and mixed outcomes.
 
 This is an unfinished execution checkpoint. It is **not** a finding that further
 extension analyses are uninformative or unavailable. No claim grade, canonical
