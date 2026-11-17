@@ -1166,6 +1166,7 @@
       "id": "Nk17-P01",
       "plan": "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/README.md",
@@ -1636,7 +1637,8 @@
     "analysis/research/runs/portfolio_navarro_figures_20261113_v1/receipt.json",
     "analysis/research/runs/naik2017_s1m_metadata_v1/receipt.json",
     "analysis/research/runs/naik2017_s1m_metadata_v2/receipt.json",
-    "analysis/research/runs/naik2017_s2_rna_description_v1/receipt.json"
+    "analysis/research/runs/naik2017_s2_rna_description_v1/receipt.json",
+    "analysis/research/runs/naik2017_s4_recall_description_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

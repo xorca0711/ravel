@@ -5,18 +5,29 @@ Naik Results/Discussion notes. It follows Ravel's established paper-driven
 biological research workflow across tissues, organisms and molecular layers.
 Inflammatory memory is this paper's topic, not a change to the project's identity.
 This source sits outside the ordered roadmap; existing gates and RQs retain
-their status. S1M metadata qualification and S2 descriptive RNA analysis are
-complete; no global RQ is allocated or scientific acceptance implied.
+their status. S1M qualification, S2 baseline RNA and S4 recall RNA descriptions
+are complete; no global RQ is allocated or scientific acceptance implied.
 
-**Current result:** [S2 v1](S2_RESULTS_V1.md) describes eight D6/D30 libraries over
-all 47,729 deposited gene IDs. Among 13,452 genes qualified at either time,
-82.58% have a smaller absolute D30 history/control effect; the fraction is
-83.65% among 12,052 genes qualified at both times. Median absolute log2 effects
-are 0.538 at D6 versus 0.146 at D30 in the union, and 0.504 versus 0.134 in the
-both-time subset. The broad pattern therefore survives this low/zero-count
-qualification sensitivity. It does not classify genes as biologically resolved.
-D30 directions remain uncertain: 73.68% of union genes have a four-library-
-combination range spanning/touching zero, and 11.75% change sign with normalization.
+**Current result:** [S4 v1](S4_RESULTS_V1.md) separates post-wound history/control
+RNA differences from the D30 baseline offset on one common 12-library scale.
+Absolute post-wound differences exceed baseline for 53.72% of the W6 and 46.71%
+of the W12 expression unions; about 82% of adjusted library-combination ranges
+include zero. Normalization changes 13.67%/19.29% of adjusted signs. Similar
+findings remain in baseline expression intersections. This is a mixed relative
+RNA description, with no inference of uniform amplification, kinetics or repair.
+
+Prespecified marker QC identifies two baseline libraries with near-zero Xist
+and substantial counts for four Y-linked genes despite uniform recorded female
+metadata. Both baseline histories contain this profile; the discrepancy limits
+interpretation but alone does not prove every history contrast biased. No sex
+assignment, pairing, exclusion or correction was made. The authorized next
+S4B sensitivity will assess baseline-reference dependence with S4 values fixed.
+
+The preceding [S2 result](S2_RESULTS_V1.md) found smaller absolute D30 differences
+for 82.58% of 13,452 union-qualified genes and 83.65% of 12,052 both-time-qualified
+genes. Those source measurements remain unchanged; the new baseline QC adds a
+further limitation to their biological interpretation, not a resolved/persistent
+gene classification. All 47,729 deposited gene IDs remain in both stages.
 
 [S1M](S1M_RESULTS_V2.md) owns the accession/unit qualification. D6 is **acute
 inflamed**, not recovered baseline; D30 is recovered-baseline history. Within-time
@@ -54,6 +65,11 @@ describes computational order, not a cellular trajectory or established causal c
   Residual gene differences are heterogeneous and sometimes driven by one
   library or zeros. Neither attenuation nor a small group mean establishes
   equivalence, absolute RNA recovery, intrinsic regulatory memory or repair.
+- S4 decomposes baseline and post-wound contrasts and exposes a source/marker
+  discrepancy. Adjusted W6/W12 correlations share baseline estimation error:
+  global-union Pearson correlation rises from 0.641 unadjusted to 0.805 adjusted,
+  which is not independent temporal corroboration. Negative adjusted effects can
+  coexist with increases in both histories; component contrasts remain essential.
 - The annotated version-of-record PDF includes a correction to Figure 2g.
   Figure 3 reports pooled ATAC preparations; Figure 4 and the final RNA Methods
   report four animals per condition in duplicate. Manuscript wording differs.
@@ -71,15 +87,25 @@ describes computational order, not a cellular trajectory or established causal c
 
 ## Measured RNA evidence
 
-![D6 and D30 continuous RNA effects and normalization sensitivity](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig02_effect_profiles.png)
+![S4 baseline components, adjusted recall effects and normalization sensitivity](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.png)
 
-Figure 2 shows the union-qualified gene universe. D6 and D30 are separate
-cross-sectional contrasts, with two deposited libraries per group. The
-[result table](S2_RESULTS_V1.md#continuous-effects-and-expression-qualification)
-also displays all genes and the both-time sensitivity: union-only zero/low D30
-counts can mechanically reduce regularized effects, and qualification is not
-proof of reliable expression in each history group. No gene-based p-values,
-confidence intervals or longitudinal pairing are used.
+S4 Figure 2 retains baseline/post-wound components and the comparison-specific
+union/intersection sensitivities. Both adjusted profiles subtract the same
+estimated baseline; the figure and [result](S4_RESULTS_V1.md) retain that
+correlation limitation. With two libraries/group, all-combination ranges remain
+spread diagnostics, not confidence intervals or paired trajectories. Expression
+qualification is not reliable expression in each history group or identity validation.
+
+| S4 measured figure | What to inspect | Export |
+|---|---|---|
+| [1. Library and marker QC](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig01_sample_marker_qc.png) | The two baseline Xist/Y profiles, preserved source labels and common normalization | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig01_sample_marker_qc.pdf) |
+| [2. Recall components](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.png) | Baseline offsets, mixed adjusted effects, shared-baseline correlation and normalization sensitivity | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.pdf) |
+| [3. Selected library examples](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig03_library_examples.png) | Positive/negative adjustments, sparse baselines, Iigp1 direction discordance and Xist spread | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig03_library_examples.pdf) |
+
+S4's complete [marker table](../../analysis/research/runs/naik2017_s4_recall_description_v1/marker_qc.tsv)
+and [verification](../../analysis/research/runs/naik2017_s4_recall_description_v1/verification.json)
+support the readout; validation supplies no biological acceptance. Earlier S2
+figures remain available below, with their original method and receipt.
 
 | Measured figure | What to inspect | Export |
 |---|---|---|
@@ -112,25 +138,19 @@ evidence changes, rather than from a requirement to complete every available met
 
 ## Current disposition and immediate next step
 
-The coordinator reviewed S1M and the prospective S2 method without requesting a
-revision. S2 ran from frozen setup commit `d4bf26d`; its independent arithmetic
-verification and receipt integrity check passed. The coordinator then reviewed
-the result and all three figures without requesting numerical changes. This
-agent review supplies no human scientific acceptance.
+S1M and S2 are coordinator-reviewed and committed. S4 ran from frozen setup
+`840bca3`; independent verification passed 7,255,847 checks, including all marker
+rows and shared-baseline correlation diagnostics. The coordinator reviewed its
+numerical/visual outputs without requesting numerical revision and authorized
+bounded S4B after preserving S4. This agent review supplies no human scientific
+acceptance.
 
-The authorized next bounded stage is S4 recall RNA. Its
-[prospective specification](S4_METHOD_V1.md), code and 17-input contract are
-prepared; analytical/full synthetic checks and input preflight passed. It will
-compare the saved D30 baseline and 6/12-hour wound libraries using one common
-normalization scale and retain history/control differences before and after
-accounting for the baseline offset. The smaller yet heterogeneous S2
-baseline effects make that distinction informative. Shared post-D6 platform/layout
-metadata does not establish equal preparation batches or pairing. S3 ATAC source/
-region qualification remains a separate later comparison. Neither stage has run;
-each requires its own reviewed scope and prospective contract. S4 will include
-prespecified exposed Xist/Y-linked marker QC without assigning sex or pairing.
-Adjusted W6/W12 correlations share a subtracted baseline; unadjusted correlations
-will be shown beside them, without claiming independent temporal corroboration.
+S4B will compare the primary two-library/group baseline with one-library/group
+references GSM2440992/2440990 and GSM2440991/2440989, while retaining frozen S4
+normalization, wound means, qualification and selected examples. These observed
+marker-profile choices are not sex strata, matched animals, exclusions or a
+replacement baseline. A new prospective contract/run is required. Return after
+S4B for coordinator review before S3 ATAC or S5 integration; neither has run.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower
@@ -139,7 +159,7 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 No numerical result or scientific stopping conclusion follows from this failure.
 
 S0 has an initial evidence map. Broader S1 source/functional qualification and
-S3–S6 remain unfinished. The separately authorized S1M and S2 work did not retry
+S3/S5/S6 and S4B remain unfinished. The separately authorized molecular work did not retry
 the restricted extraction. S2 makes no population inference; a separately
 justified inferential reproduction remains possible. The independent
 bioinformatics study supplies no task dependencies or execution restrictions here.

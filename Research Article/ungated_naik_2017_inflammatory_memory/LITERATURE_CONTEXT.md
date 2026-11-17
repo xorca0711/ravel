@@ -11,9 +11,10 @@ novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
 qualifies the deposited molecular records and count structure, retaining
 cross-time platform/layout differences and unresolved exact pool/pairing maps.
 S1M added no gene effect or independent replication. The subsequent
-[S2 v1 result](S2_RESULTS_V1.md) supplies a finite-library RNA description without
-changing the published premise below. No new mechanistic literature scan or
-paper-method extraction was performed in S1M/S2. S2 separately checked official
+[S2 baseline](S2_RESULTS_V1.md) and [S4 recall](S4_RESULTS_V1.md) results supply
+finite-library RNA descriptions without changing the published premise below.
+No new mechanistic literature scan or paper-method extraction was performed
+in these stages. S2 separately checked official
 normalization and GENCODE documentation, recorded in its [method](S2_METHOD_V1.md).
 
 | Primary source/version | Exact locator and access | What it changes here |
@@ -37,8 +38,14 @@ genes and 83.65% of 12,052 both-time-qualified genes. The latter sensitivity mak
 union-only low/zero D30 rows an insufficient explanation of the broad pattern.
 It does not remove cross-time platform/layout differences, bulk composition or
 preparation uncertainty. D30 library-combination ranges frequently span zero,
-and selected large effects can be dominated by a single library. No ATAC or
-recall comparison has run. Prior published-result/D6-profile exposure and this
+and selected large effects can be dominated by a single library. S4 now separates
+baseline offsets from post-wound history contrasts: absolute post-wound effects
+exceed baseline for 53.72% at W6 and 46.71% at W12 in their expression unions.
+About 82% of adjusted library-combination ranges include zero; normalization and
+baseline marker heterogeneity remain consequential. Two baseline libraries have
+near-zero Xist/substantial Y-marker counts despite recorded female metadata;
+both histories contain this profile. No identity reassignment or correction was
+made. No ATAC comparison has run. Prior published-result/D6-profile exposure and this
 new outcome exposure remain explicit; neither a freeze nor arithmetic verification
 creates independent biological replication.
 The current [Arozamena synthesis](../ungated_arozamena_2026_inflammatory_memory/README.md)
@@ -51,9 +58,9 @@ supplies a tested universal memory mechanism for Naik.
 ## What this question could add
 
 The immediate contribution is transparent shared-source description and
-measurement qualification. S2 narrows the baseline RNA component; retained
-accessibility and baseline-adjusted recall transcription remain unmeasured here,
-including their discordant cases. It is not discovery that epithelial
+measurement qualification. S2 and S4 narrow the baseline and baseline-adjusted
+recall RNA components, with discordant cases and unresolved marker/source
+heterogeneity retained. Accessibility remains unmeasured here. It is not discovery that epithelial
 inflammatory memory exists. A later
 boundary or mechanistic extension requires the specified source/model and a
 comparison beyond the closest published experiment.
@@ -70,15 +77,16 @@ consequential alternatives, not automatically mutually exclusive explanations.
 
 Published premise → smaller but heterogeneous baseline RNA contrasts in the
 qualified S2 libraries → unresolved distinction between baseline offsets and
-later history-associated wound transcription → proposed bounded S4 contrasts,
-with separate S3 accessibility qualification → determine which molecular
-association is supported while keeping repair unmeasured. After reviewing S2,
-the coordinator authorized bounded S4. Its [prospective method](S4_METHOD_V1.md)
-is prepared, including shared-baseline correlation limits and an exposed marker
-QC check against recorded metadata. S4 has not yet executed.
+later history-associated wound transcription → completed bounded S4 contrasts
+and exposed marker QC → test baseline-reference dependence in authorized S4B,
+with separate S3 accessibility qualification later. Adjusted W6/W12 correlation
+shares the same estimated baseline and is not independent temporal corroboration.
+Repair remains unmeasured. S4B has not executed; it will retain frozen S4 values
+and observed-profile references without treating them as verified sex strata.
 The [plan](ANALYSIS_PLAN.md) remains
 the historical intended sequence; the [current result](S2_RESULTS_V1.md) owns
-the updated decision and limits.
+the updated decision and limits. [S4's current result](S4_RESULTS_V1.md) owns
+the next baseline-reference decision; no new mechanism or novelty claim follows.
 
 ## What the comparison would teach
 

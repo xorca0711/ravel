@@ -23,10 +23,11 @@ requesting a revision. S2 ran from frozen setup commit `d4bf26d`; its
 Independent arithmetic and receipt integrity checks passed. The coordinator then
 reviewed S2's result and all three figures without requesting numerical revision,
 and authorized bounded S4 after the S2 local commit. S2 was committed at
-`5bf472e`, with PDF exports at `7eecc71`. The [S4 specification](S4_METHOD_V1.md),
-code and contract are now prepared; synthetic checks and input preflight passed.
-The prospective review added shared-baseline correlation limits and an unadjusted
-correlation diagnostic. S4 has not run; setup commit and governed execution follow.
+`5bf472e`, with PDF exports at `7eecc71`. S4 then ran from setup `840bca3`;
+see the [current result](S4_RESULTS_V1.md). Its independent verification passed
+7,255,847 checks and receipt integrity passed. The coordinator reviewed numerical/
+visual outputs without requesting revision and authorized a separate bounded S4B
+baseline-reference sensitivity after S4 preservation. S4B has not started.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -39,9 +40,10 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S0: paper map | Initial reading map and corrections available in [PAPER_REVIEW.md](PAPER_REVIEW.md); source qualification remains incomplete | Tie each retained claim to eligible public inputs and its actual endpoint |
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
-| S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete and coordinator-reviewed without numerical revision | Preserve reviewed result and finish required local checks/commit |
-| S3: persistent accessibility | Not started | Separate source/region qualification after S4 review |
-| S4: recall RNA | Method/code/contract prepared; synthetic checks and input preflight passed; no real effects calculated | Commit the common-scale specification, then run and verify; return for review before S3/S5 |
+| S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
+| S3: persistent accessibility | Not started | Separate source/region qualification after S4B review |
+| S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; numerical/visual coordinator review requested no revision | Preserve actual results, metadata discrepancy and shared-baseline limits in the local commit |
+| S4B: baseline-reference sensitivity | Authorized; not started | New prospective contract using frozen S4 outputs, no size-factor refit or sample reclassification |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
@@ -66,19 +68,18 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is the S4 setup commit and governed execution.
+The immediate action is S4 documentation/checks/commit, then the authorized S4B specification.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
 
-1. Preserve S2's reviewed all-gene/union/both-time summaries and all three figures. Keep
-   D30 zero/low-count mechanics, cross-time platform/layout differences, exact
-   pool/preparation uncertainty and selected-example bias visible.
-2. Qualify the authorized S4's saved D30 baseline and 6/12-hour wound libraries,
-   record exposure and freeze/commit a separate contract before calculation.
-   Compare post-wound history differences with baseline offsets without invented
-   pairing. Include prespecified exposed marker QC without automatic sex
-   assignment/exclusion. Return after S4 for coordinator review before S3/S5.
+1. Preserve S4's complete output and the recorded female/marker inconsistency.
+   Both baseline histories contain the discrepant profile; this neither proves
+   every history contrast biased nor proves the discrepancy cancels.
+2. Freeze/commit S4B to compare the primary baseline with references 992/990 and
+   991/989 under unchanged S4 normalization, wound means and gene qualification.
+   Retain every reference and the already-selected S4 examples; no sex strata,
+   matching, exclusions or preferred correction. Return after S4B for review.
 3. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
    stages. Broader source/functional qualification remains incomplete; the
    restricted extraction has not been retried. Retain negative and mixed outcomes.
