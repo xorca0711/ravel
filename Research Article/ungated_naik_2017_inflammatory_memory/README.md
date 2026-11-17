@@ -6,9 +6,16 @@ biological research workflow across tissues, organisms and molecular layers.
 Inflammatory memory is this paper's topic, not a change to the project's identity.
 This source sits outside the ordered roadmap; existing gates and RQs retain
 their status. S1M qualification, S2 baseline RNA and S4 recall RNA descriptions
-are complete; no global RQ is allocated or scientific acceptance implied.
+and S4B reference sensitivity are complete; no global RQ is allocated or scientific acceptance implied.
 
-**Current result:** [S4 v1](S4_RESULTS_V1.md) separates post-wound history/control
+**Current result:** [S4B v1](S4B_RESULTS_V1.md) holds S4 normalization, wound means
+and qualification fixed while changing only the observed baseline reference.
+Adjusted signs change for about 15% of the W6 union and 17% of the W12 union;
+similar sensitivity remains in baseline-expression intersections. Col1a2's W12
+adjustment changes direction under one reference. Neither alternative is a
+preferred correction, verified sex stratum or matched sample comparison.
+
+The preserved [S4 v1](S4_RESULTS_V1.md) separates post-wound history/control
 RNA differences from the D30 baseline offset on one common 12-library scale.
 Absolute post-wound differences exceed baseline for 53.72% of the W6 and 46.71%
 of the W12 expression unions; about 82% of adjusted library-combination ranges
@@ -20,8 +27,8 @@ Prespecified marker QC identifies two baseline libraries with near-zero Xist
 and substantial counts for four Y-linked genes despite uniform recorded female
 metadata. Both baseline histories contain this profile; the discrepancy limits
 interpretation but alone does not prove every history contrast biased. No sex
-assignment, pairing, exclusion or correction was made. The authorized next
-S4B sensitivity will assess baseline-reference dependence with S4 values fixed.
+assignment, pairing, exclusion or correction was made. S4B now demonstrates
+numerical baseline-reference dependence without identifying its biological cause.
 
 The preceding [S2 result](S2_RESULTS_V1.md) found smaller absolute D30 differences
 for 82.58% of 13,452 union-qualified genes and 83.65% of 12,052 both-time-qualified
@@ -70,6 +77,10 @@ describes computational order, not a cellular trajectory or established causal c
   global-union Pearson correlation rises from 0.641 unadjusted to 0.805 adjusted,
   which is not independent temporal corroboration. Negative adjusted effects can
   coexist with increases in both histories; component contrasts remain essential.
+- S4B adds reference dependence: median absolute shifts of about 0.11 log2 units
+  accompany 15–17% union sign changes. Two one-library references diagnose
+  sensitivity without correcting source identity or replacing the primary result.
+  The shift is identical at W6/W12 for each gene by construction, not replication.
 - The annotated version-of-record PDF includes a correction to Figure 2g.
   Figure 3 reports pooled ATAC preparations; Figure 4 and the final RNA Methods
   report four animals per condition in duplicate. Manuscript wording differs.
@@ -86,6 +97,14 @@ describes computational order, not a cellular trajectory or established causal c
   maintain accessible regions is not, by itself, a new mechanistic contribution.
 
 ## Measured RNA evidence
+
+![S4B observed baseline-reference sensitivity](../../analysis/research/runs/naik2017_s4b_baseline_reference_v1/fig01_baseline_reference.png)
+
+[S4B result and caption](S4B_RESULTS_V1.md) ·
+[PDF](../../analysis/research/runs/naik2017_s4b_baseline_reference_v1/fig01_baseline_reference.pdf).
+All four panels retain the primary result and frozen gene universes. Colours show
+within-panel log density; axis and colour ranges differ between panels. The two
+alternative references each have one library per history and assign no sex or matching.
 
 ![S4 baseline components, adjusted recall effects and normalization sensitivity](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.png)
 
@@ -145,12 +164,15 @@ numerical/visual outputs without requesting numerical revision and authorized
 bounded S4B after preserving S4. This agent review supplies no human scientific
 acceptance.
 
-S4B will compare the primary two-library/group baseline with one-library/group
-references GSM2440992/2440990 and GSM2440991/2440989, while retaining frozen S4
-normalization, wound means, qualification and selected examples. These observed
-marker-profile choices are not sex strata, matched animals, exclusions or a
-replacement baseline. A new prospective contract/run is required. Return after
-S4B for coordinator review before S3 ATAC or S5 integration; neither has run.
+S4B ran from frozen setup `d547951`; 3,938,436 independent arithmetic checks and
+receipt integrity passed. The coordinator reviewed its [result](S4B_RESULTS_V1.md)
+and all four panels without numerical revision and authorized S3 preparation and
+source qualification. S3 biological comparison and S5 integration have not run. All original and
+alternative outcomes remain side by side, with unchanged example selection.
+Prepare the original eight D6/D30 tracks, source/header and scale qualification,
+and a concrete S3 estimand for review before biological execution. A supported
+project-local reader is being prepared; installation does not supply a region
+definition or chromatin comparison.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower
@@ -159,7 +181,7 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 No numerical result or scientific stopping conclusion follows from this failure.
 
 S0 has an initial evidence map. Broader S1 source/functional qualification and
-S3/S5/S6 and S4B remain unfinished. The separately authorized molecular work did not retry
+S3/S5/S6 remain unfinished. The separately authorized molecular work did not retry
 the restricted extraction. S2 makes no population inference; a separately
 justified inferential reproduction remains possible. The independent
 bioinformatics study supplies no task dependencies or execution restrictions here.

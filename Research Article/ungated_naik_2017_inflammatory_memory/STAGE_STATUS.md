@@ -28,8 +28,12 @@ see the [current result](S4_RESULTS_V1.md). Its independent verification passed
 7,255,847 checks and receipt integrity passed. The coordinator reviewed numerical/
 visual outputs without requesting revision and authorized a separate bounded S4B
 baseline-reference sensitivity after S4 preservation at `628631e`. The
-[S4B specification](S4B_METHOD_V1.md), contract and synthetic test are prepared;
-input preflight passed, but no real S4B calculation has run at this setup checkpoint.
+[S4B specification](S4B_METHOD_V1.md) was frozen at `d547951` and executed with
+3,938,436 independent checks and verified receipt integrity. The coordinator
+reviewed its [result](S4B_RESULTS_V1.md), specification, actual verification and
+all four panels without numerical revision and authorized S3 preparation/source
+qualification. This is not human scientific acceptance or approval of a biological
+S3 numerical run; its concrete method must return for review first.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -43,9 +47,9 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: persistent accessibility | Not started | Separate source/region qualification after S4B review |
+| S3: persistent accessibility | Preparation/source qualification authorized; biological comparison not started | Install supported local reader, acquire eight original D6/D30 tracks, qualify identity/chromosomes/scale/region sources, then return concrete method for review |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
-| S4B: baseline-reference sensitivity | [V1 specification](S4B_METHOD_V1.md) and artificial tests prepared; input preflight passed | Freeze/commit and run the new contract using frozen S4 outputs; no size-factor refit or sample reclassification |
+| S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
@@ -70,7 +74,8 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is S4B setup freeze/commit, followed by governed execution.
+The immediate action is S4B local preservation and authorized S3 preparation and
+source qualification; S4B integration checks have passed.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -78,11 +83,16 @@ qualified scope and stage review. None was resumed during recovery.
 1. Preserve S4's complete output and the recorded female/marker inconsistency.
    Both baseline histories contain the discrepant profile; this neither proves
    every history contrast biased nor proves the discrepancy cancels.
-2. Freeze/commit S4B to compare the primary baseline with references 992/990 and
-   991/989 under unchanged S4 normalization, wound means and gene qualification.
-   Retain every reference and the already-selected S4 examples; no sex strata,
-   matching, exclusions or preferred correction. Return after S4B for review.
-3. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
+2. Preserve S4B's primary and both reference outcomes, fixed qualification and
+   original examples. Reference dependence is not a corrected baseline, sex
+   assignment, matching or biological validation.
+3. Prepare a pinned reader in an ignored project-local environment and acquire
+   only the eight original D6/D30 tracks with source/date/size/hash records and
+   preserved partials. Qualify mm10 dictionaries and deposited signal semantics;
+   the paper's Z-score method alone does not establish the BigWig scale. Original
+   region availability and background filtering remain to be resolved. Return a
+   concrete S3 estimand and adaptation limits before biological numerical execution.
+4. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
    stages. Broader source/functional qualification remains incomplete; the
    restricted extraction has not been retried. Retain negative and mixed outcomes.
 

@@ -2,43 +2,51 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current result: [S4 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md)
-ran from frozen setup `840bca3` under `Nk17-P01`. In the W6/W12 expression unions,
-absolute post-wound history differences exceed baseline for 53.72%/46.71%; about
-82% of adjusted library-combination ranges include zero. Baseline intersections
-retain the mixed pattern. Shared-baseline correlation and normalization sensitivity
-remain explicit; these describe relative RNA, not kinetics, repair or equivalence.
+18 November current result: [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
+ran from frozen setup `d547951` under `Nk17-P01`, retaining all frozen S4 values,
+qualification and six examples. Alternative baseline references change about 15%
+of W6 and 17% of W12 union adjusted signs; baseline intersections remain similar.
+Median absolute reference shifts are about 0.11 log2 units. Col1a2's W12 direction
+changes under one reference. Neither one-library reference is adopted as a
+correction, sex stratum or matched comparison. The per-gene shift is identical
+at both times by construction, not independent temporal evidence.
 
-Marker QC confirms two baseline libraries (GSM2440989/991) with near-zero Xist
-and substantial Y-marker counts despite recorded female metadata. Both histories
-contain the discrepancy: it neither proves every history contrast biased nor
-proves cancellation. No identity assignment, matching, exclusion or correction.
-The coordinator reviewed the result/outputs/all figures without numerical revision
-and authorized bounded S4B: hold S4 normalization, wound means and gene qualification
-fixed while comparing primary and two observed-profile baseline references.
+S4B preflight, governed execution and receipt integrity passed; eight outputs
+and the receipt are registered. Independent arithmetic passed 3,938,436 checks
+(maximum scaled error `8.8818e-16`). All four figure panels were visually checked.
+The coordinator reviewed the report/specification/verification/figure without
+requesting numerical revision and authorized S3 preparation/source qualification.
+This is agent progression review, not human scientific acceptance. S4B's research
+gate against refreshed main `d0429d0`, all 20,105 repository checks and whitespace
+passed. Preserve the local result commit, then continue S3 in this same worktree;
+all stages are not yet complete. No real S4B run failed; frozen S4 is unchanged.
 
-S4 preflight, runner and receipt integrity passed; the registered run retains 16
-outputs. Actual independent verification passed 7,255,847 checks (60 marker rows;
-maximum scaled error `1.0658e-14`). No real S4 run failed or frozen artifact changed.
-S4 is preserved in local commit `628631e`. S4B's [prospective method](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_METHOD_V1.md)
-and contract bind eight frozen S4 inputs, three new code/test files and eight
-outputs. Its 64-gene artificial fixture passed 6,384 independent checks and
-rejected deliberately corrupted summary output; no real S4B calculation has run.
-Input preflight passed. Freeze/commit this setup, then execute S4B and return
-for review before S3/S5/S6. S3 acquisition alone is
-separately permitted if storage/runtime qualify; no ATAC calculation is authorized
-at this checkpoint. The held extraction was not retried; no safeguards/settings
-or external publication changed. Final S4 checks passed against refreshed main
-`d0429d0`: research gate, 20,077 repository checks, 249 local links and whitespace.
-S3 acquisition was not started: X: has about 81 GB free, but BigWig reading is
-not yet qualified (no pyBigWig in Windows/default WSL, no UCSC reader on that WSL
-PATH; NGS compute lists only local, and its SSH inspector does not inspect local).
-This is a runtime-qualification limit, not a source-access or scientific finding.
-The coordinator clarified that a reproducible project-local dependency install
-is authorized after S4B. Inspect WSL architecture/Python/build compatibility and
-prepare a supported pinned reader in this worktree's ignored environment; avoid
-global installs and preserve the independent study environment. No custom BigWig
-parser is required or authorized as a substitute for a supported dependency.
+S3 next: supported pinned reader in an ignored project-local environment; eight
+original D6/D30 BigWigs with URL/date/size/hash records and preserved partials;
+source/header/mm10 dictionary, deposited scale and region availability checks.
+The coordinator HEAD-verified total track size as 6,679,503,736 bytes; X: has
+about 81 GB free. No tracks are downloaded yet. Actual WSL is aarch64/glibc 2.43,
+Python 3.14.4, with no compiler, pip or existing reader. Official pybbi 0.4.2 has a
+CPython 3.13 aarch64 wheel. Project-local Python 3.13.18, pybbi 0.4.2 and NumPy
+2.5.5 installed successfully from pinned distributions; imports passed. Reader
+smoke testing and original-track acquisition/header qualification are next.
+No global installs or independent study environment changes are needed. Missing
+preinstallation is a runtime preparation issue, not a scientific source hold.
+The paper's per-base Z-score method does not establish the deposited BigWig scale;
+exact background filtering and original region availability require qualification.
+Return a concrete S3 method/estimand for review before a biological numerical run.
+The coordinator is separately checking a Cowley 2026 coordinate/prior-art lead;
+this chat has not independently verified it and will not duplicate that search.
+No restricted broad extraction, safeguards change, push, PR, Notion edit or
+external inquiry/publication was performed.
+
+Preserved [S4 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md)
+ran from setup `840bca3`, was coordinator-reviewed and committed at `628631e`.
+Its 7,255,847 independent checks, receipt integrity, full research gate against
+`d0429d0`, 20,077 repository checks, 249 local links and whitespace passed.
+Mixed relative RNA effects, shared-baseline correlation and unresolved recorded
+female/Xist/Y-marker discrepancy remain explicit. These establish no kinetics,
+repair, identity assignment or equivalence.
 
 Reviewed S2 checkpoint: [result](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
 committed at `5bf472e`, PDF exports at `7eecc71`. Smaller D30 absolute effects

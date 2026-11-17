@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": 3938436,
+  "genes": 47729,
+  "selected_cases": 6,
+  "maximum_scaled_error": 8.881784197001252e-16,
+  "computational_tolerance": 1e-10,
+  "implementation": "independent stdlib arithmetic from frozen S4 values; no analysis helper imported",
+  "scope": "all copied fields, baseline and adjusted arithmetic, NA/zero/low flags, shift identity, quantiles, fractions, fixed selection and reference identities",
+  "independent_biological_replication": false
+}
