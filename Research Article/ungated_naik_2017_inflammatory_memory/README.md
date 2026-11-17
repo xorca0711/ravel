@@ -206,8 +206,10 @@ actual S3 outputs and both figures without requesting revision.
 The [S5 proposal](S5_PROPOSAL_V1.md) was prepared during extraction under separate
 coordinator authorization. It retains source reuse, shared-baseline coupling and
 separate functional units, including the F1e source/caption count discrepancy.
-No S5 computation has run. S5M is approved after S3 preservation under its own
-frozen contract; return S5M for review before S5F. Preserve ATAC zero flags because
+S3 is preserved at `8ada940`. No S5 biological computation has run. The approved
+[S5M method](S5M_METHOD_V1.md) passed 8,903 artificial checks and input preflight;
+its registered frozen contract binds 17 inputs/five scripts/13 outputs. Freeze
+the setup commit, execute and verify, then return S5M for review before S5F. Preserve ATAC zero flags because
 changes in other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service

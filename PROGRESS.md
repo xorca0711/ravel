@@ -17,16 +17,19 @@ are registered. Entrypoint runtime was 827.11 seconds, peak extractor RSS 72.02 
 outputs 21.06 MiB. No real run failed; no source/window was excluded or imputed.
 The full research gate against refreshed main `d0429d0`, 20,170 repository
 checks, 380 local links, expected-output tracking and whitespace checks passed.
-Preserve this completed stage locally before S5M. The coordinator reviewed actual S3 outputs and both
+S3 is preserved at local commit `8ada940`. The coordinator reviewed actual S3 outputs and both
 figures without requesting revision and authorized S5M after S3 preservation.
 
 The coordinator authorized preparatory [S5 framing](Research%20Article/ungated_naik_2017_inflammatory_memory/S5_PROPOSAL_V1.md)
 during extraction. It preserves S2/S4 shared D30 libraries, shared-baseline coupling,
 all width/reference outcomes and functional panel-specific units/Ns. F1e tongue
 source counts 5/4, 4/4, 6/6 conflict with caption n=4; preserve that discrepancy.
-No S5 calculation or contract exists yet. S5M is now approved for its own frozen
-contract after S3 preservation; return S5M for review before S5F execution. S6
-remains. Preserve ATAC zero-mean/encoded-zero flags: even constant local zeros
+The approved [S5M method](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_METHOD_V1.md)
+is implemented; 8,903 artificial checks, tamper detection and all 312/96 declared
+association/covariance rows passed without real biological inputs. Its registered
+frozen contract binds 17 inputs, five code files and 13 outputs; preflight passed.
+Next: preserve the setup commit, governed run, independent verification/figure
+inspection and report, then return S5M for review before S5F. S6 remains. Preserve ATAC zero-mean/encoded-zero flags: even constant local zeros
 can acquire different ranks when the rest of the universe/tie mass changes.
 S3Q is preserved at `6f4fdf0`; original normalization/domain limits and historical
 source-restriction records remain. No publication or external inquiry is authorized.
