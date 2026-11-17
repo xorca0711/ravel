@@ -99,7 +99,9 @@ supplies a tested universal memory mechanism for Naik.
 The immediate contribution is transparent shared-source description and
 measurement qualification. S2 and S4 narrow the baseline and baseline-adjusted
 recall RNA components, with discordant cases and unresolved marker/source
-heterogeneity retained. Accessibility remains unmeasured here. It is not discovery that epithelial
+heterogeneity retained. [S3](S3_RESULTS_V1.md) now adds relative ordering near
+annotation-based protein-coding boundaries, not original retained-domain counts.
+It is not discovery that epithelial
 inflammatory memory exists. A later
 boundary or mechanistic extension requires the specified source/model and a
 comparison beyond the closest published experiment.
@@ -124,7 +126,21 @@ chromosomes but leaves deposited units/original domains unresolved. The approved
 annotation-based protein-coding boundaries; it does not reproduce distal domains
 or establish retained accessibility. Its all-window comparisons and width
 sensitivity can describe stable, mixed or width-dependent finite-source patterns.
-No real adapted window outcomes were read at specification. Adjusted W6/W12 correlation
+No real adapted window outcomes were read at specification. Its completed
+[S3 result](S3_RESULTS_V1.md) finds primary median absolute displacements of
+3.067/1.995 pp at D6/D30, smaller D30 displacement in 61.88% of windows, mixed
+directions/library ranges and about 15% width sign sensitivity. Naik 2017 Figure 3
+already reports persistent accessibility in its own region universe; this narrower
+boundary-proxy pattern neither reproduces nor refutes that domain-level finding.
+The Larsen/Cowley premises above do not directly explain these proxy ranks or
+establish a novel mechanism. The remaining molecular association and distinct
+functional endpoints motivate the [preparatory S5 proposal](S5_PROPOSAL_V1.md),
+with source reuse, baseline components and sensitivity outcomes retained. S5 has
+not run and cannot be chosen from partial S3 output. The coordinator's bounded
+Figure 5c read also records increased IL-1beta protein without increased Il1b
+transcript in Naik 2017. Weak RNA association would not alone refute that
+published protein/functional premise; it is a distinct endpoint, not a new
+mechanistic explanation established by our proxy ranks. Adjusted W6/W12 correlation
 shares the same estimated baseline and is not independent temporal corroboration.
 Repair remains unmeasured. S4B preserves frozen S4 values and every reference;
 the alternative-minus-primary shift is identical at both times by construction.
@@ -153,7 +169,8 @@ hypothesis has been adopted. A biological illustration is pending a justified
 candidate and would depict the cells, comparison and unresolved relationship
 under AGENTS.md; a workflow diagram is not used as its hypothesis illustration.
 The [README measured-figure section](README.md#measured-rna-evidence) now displays
-S2 data figures from the frozen script and receipt. They do not depict or certify
+S2/S4/S4B data figures; the preceding TSS-proxy section displays S3 measured
+figures from their frozen scripts and receipts. They do not depict or certify
 a new mechanistic hypothesis; no provenance exemption is created here.
 
 ## Next literature check

@@ -6,9 +6,18 @@ biological research workflow across tissues, organisms and molecular layers.
 Inflammatory memory is this paper's topic, not a change to the project's identity.
 This source sits outside the ordered roadmap; existing gates and RQs retain
 their status. S1M qualification, S2 baseline RNA and S4 recall RNA descriptions
-and S4B reference sensitivity are complete; no global RQ is allocated or scientific acceptance implied.
+and S4B reference sensitivity are complete. The adapted S3 rank endpoint is also
+executed, verified and coordinator-reviewed; no global RQ or scientific acceptance is implied.
 
-**Current result:** [S4B v1](S4B_RESULTS_V1.md) holds S4 normalization, wound means
+**Current result:** [S3 v1](S3_RESULTS_V1.md) describes relative signal ordering
+near 21,760 annotation-based protein-coding TSS proxies. Primary median absolute
+rank contrasts are 3.067 pp at D6 and 1.995 at D30; 61.88% of windows have smaller
+D30 displacement. Directions and library spread remain mixed, and about 15% of
+signs change with window width. Original memory-domain counts, absolute opening
+and causal persistence remain unestimated. The result passed 2,788,974 independent
+checks and 608 exact-mean rereads; both figures were reviewed.
+
+The preceding [S4B v1](S4B_RESULTS_V1.md) holds S4 normalization, wound means
 and qualification fixed while changing only the observed baseline reference.
 Adjusted signs change for about 15% of the W6 union and 17% of the W12 union;
 similar sensitivity remains in baseline-expression intersections. Col1a2's W12
@@ -38,8 +47,10 @@ gene classification. All 47,729 deposited gene IDs remain in both stages.
 
 [S1M](S1M_RESULTS_V2.md) owns the accession/unit qualification. D6 is **acute
 inflamed**, not recovered baseline; D30 is recovered-baseline history. Within-time
-comparisons share platform/layout, while cross-time technical differences and
-exact pool/pairing uncertainty remain. Owner `Nk17-P01`, contracts and receipts
+RNA comparisons share platform/layout, while RNA cross-time technical
+differences and exact pool/pairing uncertainty remain. All eight S3 ATAC
+libraries instead share HiSeq4000/paired-end platform/layout; unknown processing
+and pool/assay matching still limit their interpretation. Owner `Nk17-P01`, contracts and receipts
 are registered. Incomplete S1M v1 parsing, its [amendment](S1M_AMENDMENT_V2.md)
 and the earlier service/recovery history remain preserved.
 
@@ -67,6 +78,11 @@ describes computational order, not a cellular trajectory or established causal c
 
 ## What the current evidence changes
 
+- S3 adds a qualified relative-ordering measurement in a protein-coding boundary
+  universe. Smaller aggregate D30 displacement survives the two widths, while
+  individual signs/magnitudes and library support can vary. Aim2's positive D30
+  average has a cross-library range including zero; Iigp1 is width-sensitive.
+  None reconstructs the published distal retained-domain classification.
 - The S2 distribution supports smaller recovered-baseline relative RNA contrasts
   within this source, including the both-time expression-qualified subset.
   Residual gene differences are heterogeneous and sometimes driven by one
@@ -95,6 +111,18 @@ describes computational order, not a cellular trajectory or established causal c
 - Larsen 2021 already investigates establishment, maintenance and recall in this
   system. Rediscovering AP-1 enrichment or proposing that homeostatic factors
   maintain accessible regions is not, by itself, a new mechanistic contribution.
+
+## Measured TSS-proxy evidence
+
+![S3 continuous rank contrasts and window-width sensitivity](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.png)
+
+[S3 result and captions](S3_RESULTS_V1.md) ·
+[Overview PDF](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.pdf) ·
+[All fixed example libraries](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.png) ·
+[Examples PDF](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.pdf).
+Colours show within-panel log counts with separate scales. Ranks describe relative
+ordering; every library's mean rank is fixed. Xist is explicitly unassayed in this
+protein-coding universe. Both widths, all libraries and original means remain saved.
 
 ## Measured RNA evidence
 
@@ -164,21 +192,23 @@ numerical/visual outputs without requesting numerical revision and authorized
 bounded S4B after preserving S4. This agent review supplies no human scientific
 acceptance.
 
-S4B ran from frozen setup `d547951`; 3,938,436 independent arithmetic checks and
-receipt integrity passed. The coordinator reviewed its [result](S4B_RESULTS_V1.md)
-and all four panels without numerical revision and authorized S3 preparation and
-source qualification. S3 biological comparison and S5 integration have not run. All original and
-alternative outcomes remain side by side, with unchanged example selection.
-The original eight D6/D30 tracks and a tested supported project-local reader are
-[prepared](S3_RUNTIME_V1.md). [S3Q qualification](S3Q_RESULTS_V1.md) is complete and
-coordinator-reviewed: core mm10 chromosomes are compatible, 44 noncanonical aliases
-remain unmapped, and scale/original-region semantics remain unresolved. A distinct
-TSS-proxy relative-rank adaptation is approved for governed execution. Its
-[amendment](S3_AMENDMENT_V1.md), [method](S3_METHOD_V1.md), six code files and
-registered contract are prepared; 12,238 artificial checks and the toy-reader
-test passed without reading real window outcomes. Next: freeze the setup commit,
-run, verify all coordinates/ranks/contrasts and a predetermined exact-mean subset,
-inspect the figures and return S3 for review. No adapted accessibility result exists yet.
+S4B ran from frozen setup `d547951`; 3,938,436 independent checks and receipt
+integrity passed. Coordinator review authorized S3 preparation. S3Q at `6f4fdf0`
+qualified core chromosomes while leaving 44 noncanonical aliases and deposited
+scale/original-region semantics unresolved. The separately approved
+[amendment](S3_AMENDMENT_V1.md) and [method](S3_METHOD_V1.md) were frozen at
+`28a62d9`; the adapted [S3 result](S3_RESULTS_V1.md) is now executed, independently
+verified and registered, with all prior evidence preserved. The research gate,
+20,170 repository checks and 380 local links passed. Local preservation precedes
+the authorized S5M run; the coordinator reviewed
+actual S3 outputs and both figures without requesting revision.
+
+The [S5 proposal](S5_PROPOSAL_V1.md) was prepared during extraction under separate
+coordinator authorization. It retains source reuse, shared-baseline coupling and
+separate functional units, including the F1e source/caption count discrepancy.
+No S5 computation has run. S5M is approved after S3 preservation under its own
+frozen contract; return S5M for review before S5F. Preserve ATAC zero flags because
+changes in other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower
@@ -187,7 +217,7 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 No numerical result or scientific stopping conclusion follows from this failure.
 
 S0 has an initial evidence map. Broader S1 source/functional qualification and
-S3/S5/S6 remain unfinished. The separately authorized molecular work did not retry
+the original retained-region reproduction and S5/S6 remain unfinished. The separately authorized molecular work did not retry
 the restricted extraction. S2 makes no population inference; a separately
 justified inferential reproduction remains possible. The independent
 bioinformatics study supplies no task dependencies or execution restrictions here.

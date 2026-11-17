@@ -50,10 +50,10 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: accessibility | [S3Q](S3Q_RESULTS_V1.md) preserved at `6f4fdf0`; approved [TSS-proxy rank method](S3_METHOD_V1.md) implemented with 12,238 artificial checks and a registered frozen contract | Commit setup after preflight, execute and independently verify the adapted endpoint; exact retained-region reproduction remains unresolved |
+| S3: accessibility | [Adapted v1 result](S3_RESULTS_V1.md) executed from `28a62d9`; 2,788,974 independent checks, 608 exact mean rereads and receipt integrity passed; figures reviewed | Coordinator-reviewed without numerical/figure revision; finish local preservation, then S5M; original retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
-| S5: modality integration | Not started | Requires eligible RNA and accessibility results |
+| S5: molecular integration / separate functional sources | [Proposal](S5_PROPOSAL_V1.md) prepared during S3 extraction; no S5 calculation or contract | S5M approved after S3 preservation; freeze its contract and return results for review before S5F |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
 The initial technical turn failed during source qualification. A narrower
@@ -77,9 +77,12 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-S4B is preserved at `8d7f644`, S3Q at `6f4fdf0`. The approved adapted S3
-implementation has passed its artificial tests. Complete preflight/setup commit,
-then run the new contract, verify all outputs and figures and return for review.
+S4B is preserved at `8d7f644`, S3Q at `6f4fdf0`. Adapted S3 ran from frozen
+setup `28a62d9`; its outputs, independent verification and two reviewed figures
+are complete and registered. Coordinator review requested no numerical or figure
+revision. The research gate, 20,170 repository checks and 380 local links passed.
+Preserve S3 locally, then execute the approved
+S5M under a new frozen contract and return for review before S5F.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -94,11 +97,13 @@ qualified scope and stage review. None was resumed during recovery.
    with source/date/size/hash records and a successful upstream toy-file check.
    S3Q qualified the canonical mm10 dictionaries while leaving deposited units and
    original-region semantics unresolved. The separately approved amendment now
-   permits the finite relative-rank comparison under its frozen specification;
+   produced the finite relative-rank result under its frozen specification;
    it does not establish absolute accessibility or original memory domains.
 4. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
-   stages. Broader source/functional qualification remains incomplete; the
-   restricted extraction has not been retried. Retain negative and mixed outcomes.
+   stages. The S5 proposal uses coordinator-qualified source cells and Ns,
+   preserving F1e tongue counts 5/4, 4/4, 6/6 despite caption n=4. S5 source
+   qualification/contract execution remains pending; no restricted extraction
+   was retried. Retain negative and mixed outcomes.
 
 This is an unfinished execution checkpoint. It is **not** a finding that further
 extension analyses are uninformative or unavailable. No claim grade, canonical

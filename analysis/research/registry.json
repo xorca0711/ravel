@@ -1166,6 +1166,7 @@
       "id": "Nk17-P01",
       "plan": "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/ungated_naik_2017_inflammatory_memory/S3_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
@@ -1186,7 +1187,8 @@
         "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_METHOD_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S3_RUNTIME_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S3_AMENDMENT_V1.md",
-        "Research Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md"
+        "Research Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md",
+        "Research Article/ungated_naik_2017_inflammatory_memory/S5_PROPOSAL_V1.md"
       ]
     }
   ],
@@ -1650,7 +1652,8 @@
     "analysis/research/runs/naik2017_s2_rna_description_v1/receipt.json",
     "analysis/research/runs/naik2017_s4_recall_description_v1/receipt.json",
     "analysis/research/runs/naik2017_s4b_baseline_reference_v1/receipt.json",
-    "analysis/research/runs/naik2017_s3q_track_qualification_v1/receipt.json"
+    "analysis/research/runs/naik2017_s3q_track_qualification_v1/receipt.json",
+    "analysis/research/runs/naik2017_s3_tss_rank_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

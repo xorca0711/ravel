@@ -1,0 +1,2 @@
+X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s3_rank_v1.py:160: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  signal = pd.read_csv(output / 'window_signal.tsv.gz', sep='\t', float_precision='round_trip')

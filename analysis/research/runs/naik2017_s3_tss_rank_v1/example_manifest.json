@@ -1,0 +1,65 @@
+[
+  {
+    "gene_id": "ENSMUSG00000037860.15",
+    "gene_name": "Aim2",
+    "selection_reason": "published anchor; not newly selected",
+    "plot_slot": 1,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000075605.3",
+    "gene_name": "2300005B03Rik",
+    "selection_reason": "W6 maximum signed adjusted effect",
+    "plot_slot": 2,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000029661.16",
+    "gene_name": "Col1a2",
+    "selection_reason": "W6 minimum signed adjusted effect",
+    "plot_slot": 3,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000039775.7",
+    "gene_name": "Defb3",
+    "selection_reason": "W12 maximum signed adjusted effect",
+    "plot_slot": 4,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000066756.5",
+    "gene_name": "Igfl3",
+    "selection_reason": "W12 minimum signed adjusted effect",
+    "plot_slot": 5,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000054072.11",
+    "gene_name": "Iigp1",
+    "selection_reason": "Strongest opposite W6/W12 adjusted directions",
+    "plot_slot": 6,
+    "eligible": true,
+    "annotation_gene_type": "protein_coding",
+    "status": "assayed_TSS_proxy"
+  },
+  {
+    "gene_id": "ENSMUSG00000086503.3",
+    "gene_name": "Xist",
+    "selection_reason": "Widest adjusted library-combination range",
+    "plot_slot": 7,
+    "eligible": false,
+    "annotation_gene_type": "lincRNA",
+    "status": "unassayed_non_protein_coding"
+  }
+]

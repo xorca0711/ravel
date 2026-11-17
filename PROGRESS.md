@@ -2,21 +2,34 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current step: S3Q is preserved at `6f4fdf0` after coordinator review,
-1,789 independent checks, the research gate and 20,125 repository checks against
-main `d0429d0`. Its qualified canonical chromosomes and unknown deposited scale
-remain the input boundary; original retained-region reproduction is unresolved.
+18 November current result: [S3 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_RESULTS_V1.md)
+ran from frozen setup `28a62d9` under the approved TSS-proxy rank amendment.
+All 21,760 unique windows/21,775 genes and eight original libraries are retained.
+Primary median absolute rank contrasts are 3.067 pp at D6 and 1.995 at D30;
+61.88% have smaller D30 displacement. Four-library ranges often include zero,
+and changing width changes about 15% of signs. This is relative ordering in a
+protein-coding boundary universe, not absolute opening or original memory domains.
 
-The approved [S3 amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_AMENDMENT_V1.md)
-and [method](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md)
-now implement exact-mean relative ranks in annotation-based protein-coding TSS
-proxies on chr1–19/X, ±1 kb primary and ±2 kb sensitivity. All 21,760 unique
-windows/21,775 genes and eight libraries will be retained. Artificial verification
-passed 12,238 checks, tamper detection and toy-reader missingness checks; no real
-adapted window outcome has been read. The registered frozen contract binds 23
-inputs, six code files and 17 outputs. Commit the setup after preflight, execute
-through the runner, verify/read the actual figures, register and preserve results,
-then return S3 for review before S5/S6. No publication is authorized.
+Independent verification passed 2,788,974 checks (maximum scaled error 4.2633e-14);
+608 predetermined interval-weighted mean rereads agreed exactly. Both figures
+were visually reviewed and receipt integrity passed; 17 outputs and the receipt
+are registered. Entrypoint runtime was 827.11 seconds, peak extractor RSS 72.02 MiB,
+outputs 21.06 MiB. No real run failed; no source/window was excluded or imputed.
+The full research gate against refreshed main `d0429d0`, 20,170 repository
+checks, 380 local links, expected-output tracking and whitespace checks passed.
+Preserve this completed stage locally before S5M. The coordinator reviewed actual S3 outputs and both
+figures without requesting revision and authorized S5M after S3 preservation.
+
+The coordinator authorized preparatory [S5 framing](Research%20Article/ungated_naik_2017_inflammatory_memory/S5_PROPOSAL_V1.md)
+during extraction. It preserves S2/S4 shared D30 libraries, shared-baseline coupling,
+all width/reference outcomes and functional panel-specific units/Ns. F1e tongue
+source counts 5/4, 4/4, 6/6 conflict with caption n=4; preserve that discrepancy.
+No S5 calculation or contract exists yet. S5M is now approved for its own frozen
+contract after S3 preservation; return S5M for review before S5F execution. S6
+remains. Preserve ATAC zero-mean/encoded-zero flags: even constant local zeros
+can acquire different ranks when the rest of the universe/tie mass changes.
+S3Q is preserved at `6f4fdf0`; original normalization/domain limits and historical
+source-restriction records remain. No publication or external inquiry is authorized.
 
 Preserved S4B result:  [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
 ran from frozen setup `d547951` under `Nk17-P01`, retaining all frozen S4 values,

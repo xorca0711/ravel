@@ -1,0 +1,11 @@
+{"event": "library_complete", "gsm": "GSM2441001", "windows": 43520, "elapsed_seconds": 99.37263462199917, "peak_rss_mib": 71.14453125}
+{"event": "library_complete", "gsm": "GSM2441002", "windows": 43520, "elapsed_seconds": 199.76211577500362, "peak_rss_mib": 71.14453125}
+{"event": "library_complete", "gsm": "GSM2441003", "windows": 43520, "elapsed_seconds": 300.9442951329984, "peak_rss_mib": 71.14453125}
+{"event": "library_complete", "gsm": "GSM2441004", "windows": 43520, "elapsed_seconds": 395.643197549005, "peak_rss_mib": 71.14453125}
+{"event": "library_complete", "gsm": "GSM2441005", "windows": 43520, "elapsed_seconds": 493.7301301760017, "peak_rss_mib": 71.14453125}
+{"event": "library_complete", "gsm": "GSM2441006", "windows": 43520, "elapsed_seconds": 590.246733881002, "peak_rss_mib": 72.01953125}
+{"event": "library_complete", "gsm": "GSM2441007", "windows": 43520, "elapsed_seconds": 688.1808245240027, "peak_rss_mib": 72.01953125}
+{"event": "library_complete", "gsm": "GSM2441008", "windows": 43520, "elapsed_seconds": 784.3225026680011, "peak_rss_mib": 72.01953125}
+{"readback_checks": 608, "maximum_scaled_error": 0.0}
+{"status": "passed", "checks": 2788974, "genes": 21775, "windows_per_width": 21760, "exact_readback_checks": 608, "maximum_scaled_error": 4.263256414560601e-14, "computational_tolerance": 1e-10, "scope": "independent GTF parsing, all mappings/ranks/contrasts/summaries and fixed examples; separately reread interval-weighted means on predetermined subset", "independent_binary_decoder": false, "independent_biological_replication": false}
+{"analysis_id": "Nk17-P01.s3_tss_rank_v1", "windows_per_width": 21760, "genes": 21775, "derived_bytes_before_receipt": 22091629, "analysis_elapsed_seconds": 827.1089999999967, "status": "completed_descriptive_rank_endpoint"}

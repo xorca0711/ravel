@@ -1,0 +1,15 @@
+{
+  "host_python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+  "numpy": "2.5.1",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.1",
+  "elapsed_seconds_before_final_verification": 813.4530000000086,
+  "analysis_wall_budget_seconds": 7200,
+  "reader": {
+    "python": "3.13.18",
+    "pybbi": "0.4.2",
+    "numpy": "2.5.5",
+    "peak_rss_limit_mib": 2048
+  },
+  "stochastic_steps": "none"
+}
