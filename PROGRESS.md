@@ -20,8 +20,12 @@ fixed while comparing primary and two observed-profile baseline references.
 S4 preflight, runner and receipt integrity passed; the registered run retains 16
 outputs. Actual independent verification passed 7,255,847 checks (60 marker rows;
 maximum scaled error `1.0658e-14`). No real S4 run failed or frozen artifact changed.
-Finish S4 integration checks/local commit, then freeze and execute S4B under its
-own contract; return after S4B for review before S3/S5. S3 acquisition alone is
+S4 is preserved in local commit `628631e`. S4B's [prospective method](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_METHOD_V1.md)
+and contract bind eight frozen S4 inputs, three new code/test files and eight
+outputs. Its 64-gene artificial fixture passed 6,384 independent checks and
+rejected deliberately corrupted summary output; no real S4B calculation has run.
+Input preflight passed. Freeze/commit this setup, then execute S4B and return
+for review before S3/S5/S6. S3 acquisition alone is
 separately permitted if storage/runtime qualify; no ATAC calculation is authorized
 at this checkpoint. The held extraction was not retried; no safeguards/settings
 or external publication changed. Final S4 checks passed against refreshed main
@@ -30,6 +34,11 @@ S3 acquisition was not started: X: has about 81 GB free, but BigWig reading is
 not yet qualified (no pyBigWig in Windows/default WSL, no UCSC reader on that WSL
 PATH; NGS compute lists only local, and its SSH inspector does not inspect local).
 This is a runtime-qualification limit, not a source-access or scientific finding.
+The coordinator clarified that a reproducible project-local dependency install
+is authorized after S4B. Inspect WSL architecture/Python/build compatibility and
+prepare a supported pinned reader in this worktree's ignored environment; avoid
+global installs and preserve the independent study environment. No custom BigWig
+parser is required or authorized as a substitute for a supported dependency.
 
 Reviewed S2 checkpoint: [result](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
 committed at `5bf472e`, PDF exports at `7eecc71`. Smaller D30 absolute effects

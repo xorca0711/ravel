@@ -27,7 +27,9 @@ and authorized bounded S4 after the S2 local commit. S2 was committed at
 see the [current result](S4_RESULTS_V1.md). Its independent verification passed
 7,255,847 checks and receipt integrity passed. The coordinator reviewed numerical/
 visual outputs without requesting revision and authorized a separate bounded S4B
-baseline-reference sensitivity after S4 preservation. S4B has not started.
+baseline-reference sensitivity after S4 preservation at `628631e`. The
+[S4B specification](S4B_METHOD_V1.md), contract and synthetic test are prepared;
+input preflight passed, but no real S4B calculation has run at this setup checkpoint.
 
 The earlier recovery-only review on 17 November verified the saved-file hashes and local
 artifact inventory; see [RECOVERY_CHECKPOINT.md](RECOVERY_CHECKPOINT.md). It did
@@ -42,8 +44,8 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
 | S3: persistent accessibility | Not started | Separate source/region qualification after S4B review |
-| S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; numerical/visual coordinator review requested no revision | Preserve actual results, metadata discrepancy and shared-baseline limits in the local commit |
-| S4B: baseline-reference sensitivity | Authorized; not started | New prospective contract using frozen S4 outputs, no size-factor refit or sample reclassification |
+| S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
+| S4B: baseline-reference sensitivity | [V1 specification](S4B_METHOD_V1.md) and artificial tests prepared; input preflight passed | Freeze/commit and run the new contract using frozen S4 outputs; no size-factor refit or sample reclassification |
 | S5: modality integration | Not started | Requires eligible RNA and accessibility results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
@@ -68,7 +70,7 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-The immediate action is S4 documentation/checks/commit, then the authorized S4B specification.
+The immediate action is S4B setup freeze/commit, followed by governed execution.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
