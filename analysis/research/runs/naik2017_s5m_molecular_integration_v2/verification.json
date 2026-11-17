@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": 12361838,
+  "gene_records": 47729,
+  "raw_count_libraries": 16,
+  "raw_count_zero_semantics_verified": true,
+  "v1_false_positive_count_flags": 13983,
+  "byte_preserved_files": [
+    "gene_atac.tsv.gz",
+    "association_results.tsv",
+    "covariance_identity.tsv",
+    "fig01_associations.png",
+    "fig01_associations.pdf"
+  ],
+  "all_other_source_fields_and_eligibility_unchanged": true,
+  "numerical_coefficients_recomputed": false,
+  "independent_biological_replication": false,
+  "analysis_id": "Nk17-P01.s5m_molecular_integration_v2"
+}

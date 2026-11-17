@@ -50,10 +50,10 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S1: sources and units | Molecular branch qualified with limits; broader source/functional qualification remains incomplete | Preserve the earlier restriction and qualify only separately permitted remaining work |
 | S1M: molecular metadata | V2 complete, coordinator-reviewed and committed at `e838747`; pool/pairing and cross-time technical limits retained | Preserve frozen outputs and their interpretation limits |
 | S2: acute/recovered-baseline RNA | [V1 result](S2_RESULTS_V1.md) complete, coordinator-reviewed and committed | Preserve frozen results; new S4 marker QC limits baseline interpretation |
-| S3: accessibility | [Adapted v1 result](S3_RESULTS_V1.md) executed from `28a62d9`; 2,788,974 independent checks, 608 exact mean rereads and receipt integrity passed; figures reviewed | Coordinator-reviewed without numerical/figure revision; finish local preservation, then S5M; original retained-region reproduction remains unresolved |
+| S3: accessibility | [Adapted v1 result](S3_RESULTS_V1.md) executed from `28a62d9`; 2,788,974 independent checks, 608 exact mean rereads and receipt integrity passed; figures reviewed | Coordinator-reviewed and preserved at `8ada940`; original retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
-| S5: molecular integration / separate functional sources | [S5M v1](S5M_RESULTS_V1.md) executed; coordinator found an aggregate zero-flag semantic defect despite arithmetic verification | [V2 amendment](S5M_AMENDMENT_V2.md) separates count zeros/range inclusion; freeze/run corrected flags with exact numerical preservation, then review before S5F |
+| S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) ran from `26d23e8`; 12,361,838 exact raw-count/preservation checks and receipt integrity passed; corrected anchor figure inspected | Coordinator-reviewed without numerical/figure revision; preserve locally, then freeze/execute authorized S5F; retain defective v1 and all original numerical results |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
 The initial technical turn failed during source qualification. A narrower
@@ -81,9 +81,12 @@ S4B is preserved at `8d7f644`, S3Q at `6f4fdf0`. Adapted S3 ran from frozen
 setup `28a62d9`; its outputs, independent verification and two reviewed figures
 are complete and registered. Coordinator review requested no numerical or figure
 revision. The research gate, 20,170 repository checks and 380 local links passed.
-S3 is preserved at `8ada940`. S5M v1 ran from `03d42af` but failed semantic
-review of its aggregate zero flag. Preserve v1, freeze the bounded v2 amendment,
-execute through the runner and return corrected actual outputs before S5F. The later functional-source additions remain preparatory.
+S3 is preserved at `8ada940`. S5M v1's aggregate-warning defect is preserved;
+v2 ran from `26d23e8` and passed 12,361,838 exact checks. Its coefficients,
+covariances and ATAC table are unchanged; the corrected figure was inspected.
+The coordinator reviewed v2 without numerical/figure revision and authorized
+S5F after local preservation. Freeze its exact source-cell/endpoint/group/N map
+and implementation under a separate exposed contract before calculation. The later functional-source additions remain preparatory.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.

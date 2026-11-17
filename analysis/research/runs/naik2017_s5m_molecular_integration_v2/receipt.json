@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s5m_molecular_integration_v2",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s5m_molecular_integration_v2.json",
+  "contract_sha256": "29e72e09c9c150862daa7247b1fde9075a855714c86d10eaa9a3fc5ac368e5d6",
+  "git_commit": "26d23e8af952177b57d4937a245294a9b3f23328",
+  "started_at": "2026-11-17T18:20:27.978409+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5m_correct_flags_v2.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s5m_molecular_integration_v2.json",
+    "--output",
+    "analysis/research/runs/naik2017_s5m_molecular_integration_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/gene_join.tsv.gz",
+      "sha256": "98420573a70643e7c4b34437dace2263b91e80562faa769967d4bf02b3f2433c",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/gene_atac.tsv.gz",
+      "sha256": "d3e7cf0bb5e06a98ae6495222a7922067d9486ec4ccfce0b11dbe583e92894dd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/association_results.tsv",
+      "sha256": "45a539282ad70e54300f2c61431896d04448787af8375213d5ebdbf9d0d936ee",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/covariance_identity.tsv",
+      "sha256": "1f7823a3f0f84cd658d0bdc9e8db6d35ca39095c2d08e07dfd8a1960603fdea4",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/universe_summary.json",
+      "sha256": "2a5fe33b4c6a075108b5cec6978646b00fbcb9a7614c5074f05aec471dbc323b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/anchor_manifest.json",
+      "sha256": "9d3d183c88dfa23d8f7e7246ef588c8be69bee06a46a4b238f2ce86e681a0407",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/anchor_values.tsv",
+      "sha256": "7ea202d6d48da34db98f71ba1fc72320ff05c163e54edb8d9c5b34d8385b637e",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/runtime.json",
+      "sha256": "e77722990d2674cbfa000c630036bf0ab9b56853626dd1f1adeac50de8a9d139",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/verification.json",
+      "sha256": "e65f94b2e013d4f599756bcd8bf6688023683d16620240fefeab9086a6de2336",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/fig01_associations.png",
+      "sha256": "cda2b414a6ae74d978c0757e3fa11adfc3bf6432309b66744b7251abbe90dbf0",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/fig01_associations.pdf",
+      "sha256": "2ec460dcbd6def47f0b2d8f30a8c0383a82a6561ed370e46cbc454ae0a562532",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/fig02_published_anchors.png",
+      "sha256": "7f7e3715be84170900fe40e549399d91b6cc43049f7973dbc408757fbcca692a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/fig02_published_anchors.pdf",
+      "sha256": "86a37d94eff022ffc4874272b1d2e6c7e2649f13aa331ed655f86227f9ae48bc",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v1/receipt.json",
+      "sha256": "2071726bdeb7d627dde5d579888e58050994930ccdd1365a6402a6fb5a39cb45",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "7c2fd95426c94a4cd1b8ba864c54f7eee7aa7a198b1885da9fd234ce3c5b42ae",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "ff7114f598bd8035dd02449d2948ea32c8aa51acad403e56b9271d970e0b8396",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "92e9582792cce7565543f57784f2e8b72de7677a949da3d312931a325f50d856",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "a7b31269dbd8aea441547fcf6964d1a4f1a52f72602b092a37e101fba4ab40ad",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "4cd3588f10a7e64270527c37df61366d87473f227cfa830d464baa2b9fe05cc6",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "b9b2e8ed0c67076da687719079b692bc03cefd3dcd2ead650e22ebd513f3b2fc",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "ada36b51d98578d5e2ff284732f7624f34cd9b933f90b56db786bc58911995af",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "2c9df583c9d460854b9e621b8d6247f1d22505b0785d933c39b0c9c232c1ba30",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "b2cfbf5636542d198ee14aab07eef337fd096273afca97c0388cb458e803dc75",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "9a0f1a57508b0c61b0066e30d74b52f96355f6cb163ec57dc75aecc5c5b1f12f",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "2610ea5aeabb916d96cf7f282f7f1b11b61f8edf5527bda0068762e9340318e4",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "1310f7ce3073fdbcb822696c59ab11486f8357c70bfe2173e480f3ec4a617b00",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5M_METHOD_V1.md",
+      "sha256": "033ed945f45092c90515be9b06044bc91cd6fe20478a763e4eabe0bfd63b9feb",
+      "study_id": "RAVEL_METHOD",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V1.md",
+      "sha256": "49fb481b831d25d9d63bc8f380b615d59289422ad8890e1b13f306eb4c887f16",
+      "study_id": "RAVEL_METHOD",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5M_AMENDMENT_V2.md",
+      "sha256": "b15e57ab2b7f5c6643ce214d33a3e1a42706c17df3dbb8cbfb162573b5070d2e",
+      "study_id": "RAVEL_METHOD",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/contracts/Nk17-P01.s5m_molecular_integration_v1.json",
+      "sha256": "530e7cb538cf896cd93495605c42f8288f70aee79f654838bef9714f1e21f851",
+      "study_id": "RAVEL_CONTRACT",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5m_correct_flags_v2.py",
+      "sha256": "5b6d0d08ac129abe6b8e921cb9fbeb15dd494c1e9e8ce6a88f33f6e5351b7210"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5m_plot_flags_v2.py",
+      "sha256": "4e7755c6219bc1f6947104583cf5b6911825c0de0dbe8f4d5dfdb25ed6a13c92"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5m_verify_flags_v2.py",
+      "sha256": "e4ed2ebda56a5b32bb7984f1f79486dbb7b6cd9443b4d9accef2f304841e0df2"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s5m_flags_v2.py",
+      "sha256": "4a99c07e0017472008e56b915cbb868461fe009f9161227e1634d85cbf3c33ee"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/gene_join.tsv.gz",
+      "sha256": "cc9fbfdcbd1ff6eb017366460c9e39c9c5bd0d3f1aaddc8089e19e9e2e69907e"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/gene_atac.tsv.gz",
+      "sha256": "d3e7cf0bb5e06a98ae6495222a7922067d9486ec4ccfce0b11dbe583e92894dd"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/association_results.tsv",
+      "sha256": "45a539282ad70e54300f2c61431896d04448787af8375213d5ebdbf9d0d936ee"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/covariance_identity.tsv",
+      "sha256": "1f7823a3f0f84cd658d0bdc9e8db6d35ca39095c2d08e07dfd8a1960603fdea4"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/universe_summary.json",
+      "sha256": "36cbe3cf0afc343366ca03c6d5e0938f6571158a263b3b9c082c7c2fdd3873bf"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/anchor_manifest.json",
+      "sha256": "e23d44613254b8f5ca4724bdabd94db49c273e4d4c5ac2589847bcac98fc4a51"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/anchor_values.tsv",
+      "sha256": "9c7ea89e29540a79b9e69755ec10fe9a8be337390115fbcd39433178d3fb2d6c"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/runtime.json",
+      "sha256": "f9a9a7e2cf1efa1953046c0576fa7a4d5df7a119db212bb3a7270f6e5a67b30d"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/verification.json",
+      "sha256": "8848a1567757ac753e65b033f182911b079eafb9cf7bf06eda7b2a6255acf8ad"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig01_associations.png",
+      "sha256": "cda2b414a6ae74d978c0757e3fa11adfc3bf6432309b66744b7251abbe90dbf0"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig01_associations.pdf",
+      "sha256": "2ec460dcbd6def47f0b2d8f30a8c0383a82a6561ed370e46cbc454ae0a562532"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig02_published_anchors.png",
+      "sha256": "a9b1ccfa01cf833a6497465b4b6b2114e32e4274b614ad115125fd1e59bf39d0"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig02_published_anchors.pdf",
+      "sha256": "c1ae7e57c4f6fc069fba3809643b3e7ec0f08184a2c8163b0b8498a1e6ea593c"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/flag_correction_audit.json",
+      "sha256": "39fba82cd78e9d0387654e1cdc19ab37cf87a4e869d9ed6dffe21c313c52fe40"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-17T18:21:11.839095+00:00"
+}

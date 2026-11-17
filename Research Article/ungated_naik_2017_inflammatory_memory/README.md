@@ -7,15 +7,25 @@ Inflammatory memory is this paper's topic, not a change to the project's identit
 This source sits outside the ordered roadmap; existing gates and RQs retain
 their status. S1M qualification, S2 baseline RNA and S4 recall RNA descriptions
 and S4B reference sensitivity are complete. The adapted S3 rank endpoint is also
-executed, verified and coordinator-reviewed; no global RQ or scientific acceptance is implied.
+executed, verified and coordinator-reviewed. S5M v2 is corrected and independently
+verified and coordinator-reviewed; no global RQ or scientific acceptance is implied.
 
-**Current result:** [S3 v1](S3_RESULTS_V1.md) describes relative signal ordering
-near 21,760 annotation-based protein-coding TSS proxies. Primary median absolute
-rank contrasts are 3.067 pp at D6 and 1.995 at D30; 61.88% of windows have smaller
-D30 displacement. Directions and library spread remain mixed, and about 15% of
-signs change with window width. Original memory-domain counts, absolute opening
-and causal persistence remain unestimated. The result passed 2,788,974 independent
-checks and 608 exact-mean rereads; both figures were reviewed.
+**Current result:** [S5M v2](S5M_RESULTS_V2.md) retains all 312 finite
+RNA–ATAC associations and 96 covariance components. Primary ±1 kb MOR Pearson
+is 0.425 at D6 and 0.144 at D30; recall associations are small. Negative adjusted
+associations subtract a larger positive baseline covariance from a smaller
+positive post-wound covariance, so they do not show chromatin repression.
+The corrected warning distinguishes actual count zeros (2 of 11,007 primary
+genes) from adjustment ranges including zero (9,966). All original source fields,
+qualifications and coefficients are preserved; 12,361,838 exact checks passed.
+The defective v1 display remains historical. Coordinator review requested no
+numerical/figure revision and authorized S5F after local preservation.
+
+The preceding [S3 v1](S3_RESULTS_V1.md) describes relative ordering near 21,760
+protein-coding boundary proxies. Primary median absolute contrasts are 3.067 pp
+at D6 and 1.995 at D30, with mixed directions/library spread and about 15% width
+sign sensitivity. Original domains, absolute opening and causal persistence
+remain unestimated.
 
 The preceding [S4B v1](S4B_RESULTS_V1.md) holds S4 normalization, wound means
 and qualification fixed while changing only the observed baseline reference.
@@ -78,6 +88,12 @@ describes computational order, not a cellular trajectory or established causal c
 
 ## What the current evidence changes
 
+- S5M connects the measured RNA and TSS-proxy descriptions: acute alignment is
+  larger than recovered/recall alignment, with baseline subtraction shaping the
+  small adjusted associations. Shared libraries, baseline coupling and differing
+  biological layers remain limits. The next informative step is separate source
+  evidence for functional endpoints, not a new combined memory score. Naik Fig5c
+  already reports IL-1beta protein without an Il1b transcript increase.
 - S3 adds a qualified relative-ordering measurement in a protein-coding boundary
   universe. Smaller aggregate D30 displacement survives the two widths, while
   individual signs/magnitudes and library support can vary. Aim2's positive D30
@@ -111,6 +127,16 @@ describes computational order, not a cellular trajectory or established causal c
 - Larsen 2021 already investigates establishment, maintenance and recall in this
   system. Rediscovering AP-1 enrichment or proposing that homeostatic factors
   maintain accessible regions is not, by itself, a new mechanistic contribution.
+
+## Measured RNA–ATAC integration
+
+![All finite RNA–ATAC associations](../../analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig01_associations.png)
+
+All widths, universes, normalization contexts, statistics and baseline references
+remain on one fixed coefficient scale. Gene features are dependent, and shared
+source libraries are not replication. [S5M result and covariance components](S5M_RESULTS_V2.md)
+and [corrected fixed-anchor figure](../../analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig02_published_anchors.png)
+retain the distinct RNA, ATAC, count-zero and range-inclusion meanings.
 
 ## Measured TSS-proxy evidence
 
@@ -199,23 +225,20 @@ scale/original-region semantics unresolved. The separately approved
 [amendment](S3_AMENDMENT_V1.md) and [method](S3_METHOD_V1.md) were frozen at
 `28a62d9`; the adapted [S3 result](S3_RESULTS_V1.md) is now executed, independently
 verified and registered, with all prior evidence preserved. The research gate,
-20,170 repository checks and 380 local links passed. Local preservation precedes
-the authorized S5M run; the coordinator reviewed
-actual S3 outputs and both figures without requesting revision.
+20,170 repository checks and 380 local links passed. S3 is preserved at
+`8ada940`; coordinator review requested no numerical or figure revision.
 
 The [S5 proposal](S5_PROPOSAL_V1.md) was prepared during extraction under separate
 coordinator authorization. It retains source reuse, shared-baseline coupling and
 separate functional units, including the F1e source/caption count discrepancy.
-S3 is preserved at `8ada940`. [S5M v1](S5M_RESULTS_V1.md) ran from
-`03d42af`; its arithmetic check passed, but coordinator review found that the
-aggregate zero flag also included adjustment ranges crossing zero. The v1
-warning summary and anchor display are not accepted. The authorized
-[v2 amendment](S5M_AMENDMENT_V2.md) separates raw-count zeros from range inclusion,
-preserves all original source fields and copies every association/covariance
-value unchanged. Four artificial tests and raw-count-based verification are
-implemented; freeze and execute the bounded correction before S5M review/S5F.
-Preserve ATAC zero flags because changes in other windows/tie mass can change
-the rank even of a constant local zero.
+[S5M v1](S5M_RESULTS_V1.md) ran from `03d42af`; coordinator review identified
+an aggregate zero-flag semantic defect. The authorized [v2 amendment](S5M_AMENDMENT_V2.md)
+was frozen at `26d23e8` and has now executed with raw-count semantic verification.
+All coefficients, covariance records, ATAC values and Figure 1 are byte-identical;
+corrected Figure 2 was visually inspected. [Actual v2 results](S5M_RESULTS_V2.md)
+were reviewed without numerical/figure revision; S5F is authorized after local
+preservation. Preserve ATAC zero flags because changes in
+other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service
 returned an automatic content restriction during source qualification; a narrower
@@ -224,7 +247,7 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 No numerical result or scientific stopping conclusion follows from this failure.
 
 S0 has an initial evidence map. Broader S1 source/functional qualification and
-the original retained-region reproduction and S5/S6 remain unfinished. The separately authorized molecular work did not retry
+the original retained-region reproduction and S5F/S6 remain unfinished. The separately authorized molecular work did not retry
 the restricted extraction. S2 makes no population inference; a separately
 justified inferential reproduction remains possible. The independent
 bioinformatics study supplies no task dependencies or execution restrictions here.

@@ -2,24 +2,33 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current checkpoint: [S5M v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V1.md)
-ran from `03d42af` and passed 18,810,969 numerical/copy checks, but coordinator
-review identified a semantic error: the aggregate count-zero warning included
-S4 adjustment ranges containing zero. The verifier repeated that field-name
-heuristic. V1 is preserved and not accepted; no coefficient or eligibility change
-is indicated by data-flow inspection.
+18 November current result: [S5M v2](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md)
+ran from frozen correction setup `26d23e8`. It separates raw count zeros from
+adjustment ranges including zero: only 2/11,007 primary genes have any count
+zero, while 9,966 have a range including zero. All five paper-selected anchors
+have count-zero false. V1's semantic failure and all original outputs remain
+preserved; no eligibility or numerical coefficient changed.
 
-The authorized [v2 amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_AMENDMENT_V2.md)
-uses an explicit count-field allowlist and a separately named range flag. The
-independent verifier reads all 16 original raw-count files and checks every
-unchanged source field, universe and coefficient. Four artificial tests and
-247 independent fixture checks passed, including positive counts/range crossing,
-actual zeros and tamper rejection. Preflight passed for 34 inputs/four code
-files/14 outputs; the research gate against refreshed main `d0429d0`, 20,197
-repository checks, 106 affected-document links and v1 output tracking passed.
-Freeze the input-bound contract/code, run the bounded correction and inspect
-the corrected anchor figure; return actual S5M for coordinator
-review before S5F. S6 remains. No real v2 correction has run at this checkpoint.
+Independent verification passed 12,361,838 exact checks using 16 original raw-count
+files, all copied gene/anchor fields and five byte-preserved files. All 312
+coefficients/96 covariance rows, ATAC table and Figure 1 are unchanged; the
+coordinator's Figure 1 review is reused. Corrected Figure 2 was visually inspected,
+and receipt integrity passed. V2 took 42.110 seconds; run files total 43,796,108
+bytes. No real v2 run failed or upstream biological analysis was rerun.
+
+Primary ±1 kb MOR Pearson is 0.425 at D6 and 0.144 at D30. Small negative
+adjusted recall associations arise from larger positive baseline than post-wound
+covariance components, not demonstrated repression. All universes/widths/reference
+and normalization alternatives remain in the report and figures. The coordinator
+reviewed the complete report, audit, raw-count verification and corrected figure
+without numerical/figure revision. S5F is authorized after this local preservation;
+freeze the exact source-cell/endpoint/group/N map and implementation before its
+own exposed run, then return actual S5F for review. S6 remains.
+
+The v2 result research gate passed against refreshed main `d0429d0`, with 20,221
+repository checks, 111 affected-document links, all 17 expected run/log files
+tracked and whitespace checks passed. The reviewed stray PDF-link plus was
+removed. All local agent commits retain verified Xorca author/committer identity.
 
 S3 is preserved at `8ada940`; coordinator review requested no numerical/figure
 revision. Its 2,788,974 independent checks, 608 exact mean rereads, research gate

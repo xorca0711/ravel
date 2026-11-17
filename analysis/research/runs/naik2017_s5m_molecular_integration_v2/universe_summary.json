@@ -1,0 +1,70 @@
+{
+  "universes": {
+    "primary": {
+      "genes": 11007,
+      "unique_anchors": 11005,
+      "additional_gene_mappings": 2,
+      "inverse_multiplicity_weight_sum": 11005.0,
+      "rna_any_low_or_regularization_genes": 2,
+      "atac_zero_flags": {
+        "1000_D6": {
+          "any_zero_mean_genes": 23,
+          "all_zero_mean_genes": 3
+        },
+        "1000_D30": {
+          "any_zero_mean_genes": 33,
+          "all_zero_mean_genes": 5
+        },
+        "2000_D6": {
+          "any_zero_mean_genes": 10,
+          "all_zero_mean_genes": 3
+        },
+        "2000_D30": {
+          "any_zero_mean_genes": 11,
+          "all_zero_mean_genes": 4
+        }
+      },
+      "rna_any_count_zero_genes": 2,
+      "rna_any_adjustment_range_includes_zero_genes": 9966,
+      "range_includes_zero_without_count_zero_genes": 9964
+    },
+    "all_mapped": {
+      "genes": 21775,
+      "unique_anchors": 21760,
+      "additional_gene_mappings": 15,
+      "inverse_multiplicity_weight_sum": 21760.0,
+      "rna_any_low_or_regularization_genes": 8844,
+      "atac_zero_flags": {
+        "1000_D6": {
+          "any_zero_mean_genes": 1278,
+          "all_zero_mean_genes": 582
+        },
+        "1000_D30": {
+          "any_zero_mean_genes": 1487,
+          "all_zero_mean_genes": 570
+        },
+        "2000_D6": {
+          "any_zero_mean_genes": 839,
+          "all_zero_mean_genes": 448
+        },
+        "2000_D30": {
+          "any_zero_mean_genes": 903,
+          "all_zero_mean_genes": 440
+        }
+      },
+      "rna_any_count_zero_genes": 8991,
+      "rna_any_adjustment_range_includes_zero_genes": 20302,
+      "range_includes_zero_without_count_zero_genes": 11615
+    }
+  },
+  "finite_feature_description_only": true,
+  "independent_biological_replication": false,
+  "gene_records": 47729,
+  "atac_status_counts": {
+    "unassayed_non_protein_coding": 25672,
+    "assayed_TSS_proxy": 21775,
+    "unassayed_chromosome": 196,
+    "unassayed_annotation": 86
+  },
+  "analysis_id": "Nk17-P01.s5m_molecular_integration_v2"
+}
