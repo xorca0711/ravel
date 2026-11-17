@@ -9,7 +9,9 @@ outside this package.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
-the existing contract/runner. It is in contract/code preparation, not executed.
+the existing contract/runner. V1 ran and verified accession joins/count structure,
+but compact title grouping was incomplete. The [v2 amendment](S1M_AMENDMENT_V2.md)
+is prepared; v1 remains immutable and registered.
 This does not resolve the previous restriction or authorize the blocked source
 extraction. S1M will stop for parent review before S2.
 
@@ -23,7 +25,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 |---|---|---|
 | S0: paper map | Initial reading map and corrections available in [PAPER_REVIEW.md](PAPER_REVIEW.md); source qualification remains incomplete | Tie each retained claim to eligible public inputs and its actual endpoint |
 | S1: sources and units | Incomplete; the technical service returned an automatic content restriction before a stage report or numerical run | Complete the molecular and non-infectious repair source crosswalk when the service permits this work |
-| S1M: molecular metadata | Authorized; prospective contract/code preparation | Execute the committed metadata contract, verify source qualifications, then return for parent review |
+| S1M: molecular metadata | V1 joins/structure verified; title grouping incomplete; v2 prepared | Execute the committed v2 metadata contract, verify source qualifications, then return for parent review |
 | S2–S5: numerical comparisons | Not started; no numerical-comparison contract, receipt or result is claimed | Review S1M before scoping the first comparison and its separate contract |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 

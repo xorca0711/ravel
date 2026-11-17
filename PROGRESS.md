@@ -4,12 +4,14 @@
 
 Current bounded assignment: the owner authorized [S1M molecular metadata qualification](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_CONTEXT_V1.md)
 using saved GEO/SRA/ENA/BioSample records and count-table structure. Article-local
-owner `Nk17-P01` and prospective code/contract are being prepared; no S1M run is
-claimed yet. Setup commits are authorized locally. Effective author/committer
+owner `Nk17-P01` and v1 code/contract were committed at `b5f96ec`; the verified,
+registered v1 run established joins/structure but did not classify compact titles.
+The [v2 amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_AMENDMENT_V2.md)
+is prepared and retains v1 unchanged. Setup commits are authorized locally. Effective author/committer
 are Xorca, and GitHub commit records map the configured email to `xorca0711` for
 both roles. No push or publication is authorized. Earlier service restrictions
 remain recorded; this limited task does not resolve or retry blocked extraction.
-Next: freeze/commit, preflight, run and verify S1M, then return for parent review.
+Next: commit, preflight, run and verify S1M v2, then return for parent review.
 
 Earlier recovery-only checkpoint: all 36 acquisition-record files match their saved
 SHA-256 hashes and byte counts. The ignored source directory retains 41 files,

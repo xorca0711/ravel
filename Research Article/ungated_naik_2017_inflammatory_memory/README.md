@@ -9,9 +9,11 @@ their status. No Naik numerical analysis has run in Ravel, no global RQ is
 allocated, and no scientific acceptance is implied.
 
 The owner has now authorized the bounded [S1M molecular metadata stage](S1M_CONTEXT_V1.md)
-under article-local owner `Nk17-P01`. Contract/code preparation is in progress;
-no S1M run is yet claimed. This uses saved molecular records and count-table
-structure. The earlier service restrictions and recovery record remain intact.
+under article-local owner `Nk17-P01`. V1 verified accession joins and count
+structure, but left compact condition/time titles unclassified. The
+[v2 amendment](S1M_AMENDMENT_V2.md) is prepared for committed execution.
+No expression comparison has run. The earlier service restrictions and recovery
+record remain intact.
 
 **Organizing question:** after inflammation resolves, what remains in epithelial
 stem cells, and how does that history alter a subsequent tissue-damage response?
