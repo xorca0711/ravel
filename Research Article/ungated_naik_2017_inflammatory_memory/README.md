@@ -6,14 +6,26 @@ existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
 paper-driven workflow. Execution and coordinator review confer no human
 scientific acceptance.
 
-**Current research decision:** [S6 synthesis v2](S6_DECISION_V2.md) closes the
-reviewed Naik extensions and defines the next informative comparison. The completed
-work qualifies shared-source measurements and their interpretation; it does not
-yet establish an independent biological result or a new memory mechanism.
-The [S7 method](S7_HAMDAN_RESPONSE_METHOD_V1.md) asks whether Hamdan's post-challenge
-RNA differences also support larger responses after subtracting concurrent-control
-differences within each of two donors. The concrete method/contract, exact map and constructed tests passed
-coordinator review; source execution is authorized after frozen setup. No Hamdan gene effects have run.
+**Current result:** [S7 Hamdan response contrasts](S7_RESULTS_V1.md) executed from
+frozen `a7be7f8` with 15,807,848 independent checks and receipt integrity passed.
+All 64,253 genes are exported. Under primary MOR, 36.29%/31.80% of post-positive
+records in patients 4/83 have negative response interaction A after subtracting
+the concurrent-control contrast. The distinction persists without raw zero counts
+(45.50%/37.45% within those post-positive strata). Normalization changes its extent;
+positive A can also describe less repression. This is a finite-source response
+estimand result, not a patient-population, causal memory, kinetics or repair claim.
+
+The [final S6/S7 synthesis](S6_SYNTHESIS_V3.md) records the original S0–S6
+disposition, completed justified extensions and the precise unresolved routes.
+The coordinator reviewed the full S7 result and all six actual panels without
+revision. This bounded assignment is complete with local preservation and passed checks;
+no automatic score, pathway, cohort or raw-read pipeline is added.
+
+![S7 complete donor-specific response decomposition](../../analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.png)
+
+All eligible genes are displayed; density counts genes, not independent patients.
+The full report retains both raw-zero strata and both normalizations. The
+[pre-execution rationale](S6_DECISION_V2.md) remains unchanged.
 
 The latest measured [S6C D180 result](S6C_RESULTS_V1.md) retains the exact S3
 universe: median absolute rank difference 2.167 pp (D30 1.995, D6 3.067), only
@@ -234,13 +246,15 @@ and the reports own their exact historical setup/results/reviews. S6C and its
 separate failed-launch archive are preserved at `3c60839`. No frozen historical
 script, result, source contract or unfavorable observation was overwritten.
 
-The reviewed [S7 contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
-binds nine inputs, five Python files plus source-map configuration and ten expected outputs. Fourteen
-constructed-data tests and 3,578 independent checks pass; the synthetic figure
-was inspected. Source preflight, the research gate and 20,416 repository checks
-pass. Coordinator review authorizes freezing/committing accepted hashes and
-governed real-source execution. Full results and the
-actual figure must return for review. There is no S7 run receipt yet.
+The [S7 frozen contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
+binds nine inputs and six execution dependencies (five Python files plus the exact
+map). Ten outputs and the executed receipt are registered. The full actual six-
+panel figure was inspected; the complete report retains all full/stratified sign
+tables, zeros, quantiles and normalizations. Runtime 519.572 seconds; main/verifier
+peaks 376.570/177.273 MiB. Coordinator full-result/figure review is complete.
+Final research gate, 20,462 repository checks, receipt integrity and whitespace
+passed against refreshed main `d0429d0`; the local preservation commit completes
+this bounded assignment. No new scientific analysis is queued.
 
 Original retained domains, exact animal/culture joins, track scale and EDF6g
 mapping remain specific unresolved comparisons. They do not justify a blanket

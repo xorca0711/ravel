@@ -7,30 +7,27 @@ outside this package.
 
 ## Current disposition
 
-[S6C](S6C_RESULTS_V1.md) completed from frozen `7563cdf` in fresh retry1, with
-7,009,534 independent checks, 296 exact-mean readbacks and receipt integrity
-passed. The complete report and both actual figures were coordinator-reviewed
-without revision. The original attempt failed before header/signal reading at sandbox WSL
-access and is separately preserved byte-for-byte, retaining its failed receipt.
-The retry changed no scientific code, input, interpretation rule or governance.
+[S7](S7_RESULTS_V1.md) completed from frozen setup `a7be7f8`, with 15,807,848
+independent checks (maximum scaled error 7.06527e-15), receipt integrity and actual
+six-panel figure inspection passed. All 64,253 source rows remain; distribution
+eligibility is 35,259/35,034 by donor. MOR P-positive/A-negative fractions are
+36.29%/31.80%, persisting in the no-raw-zero strata. The report retains all full
+and raw-zero-stratified sign tables, constituent responses, both normalizations,
+quantiles and finite-library ranges. It is a relative-RNA descriptive result,
+not a patient-population, kinetics, mechanism or function claim.
 
-[S6B](S6B_RESULTS_V1.md) is coordinator-reviewed/preserved at `ba5afa4`; its
-191,370 checks and figure passed, with no repetition of the specific S4 baseline
-marker pattern in these D6 sources. Sex, confounding and matching remain unresolved.
-[S6A](S6A_RESULTS_V1.md) is reviewed/preserved at `ccc91cd`; EDF6g biological
-mapping is held for exact workbook/primary-figure/summary discrepancies, with no
-relabeling or refit. All other prior frozen measurements remain intact.
+Ten outputs plus receipt/logs are registered. Runtime 519.572 seconds; main and
+verifier peaks 376.570/177.273 MiB. No failed scientific attempt or scientific
+code/input change occurred. The setup's source-map registration issue was resolved
+using the existing exact configuration-binding pattern, without validator changes.
+Full actual-result/figure coordinator review is complete without revision.
+[Final S6/S7 synthesis](S6_SYNTHESIS_V3.md) records the original S0–S6 disposition,
+completed S6A–C/S7 extensions and specific unresolved routes. Final gate, 20,462 repository checks, receipt integrity and whitespace passed
+against refreshed main `d0429d0`; local preservation closes this scope.
 
-S6C and the byte-preserving failed-launch archive are committed at `3c60839`.
-The [current S6 synthesis](S6_DECISION_V2.md) was reviewed as a suitable rationale.
-The [S7 Hamdan method](S7_HAMDAN_RESPONSE_METHOD_V1.md) is approved for implementation
-and constructed tests with the prospective raw-count-zero strata addition.
-The reviewed contract now binds nine inputs, five Python files plus source-map configuration and ten outputs;
-preflight passes. Fourteen constructed tests and 3,578 independent checks passed,
-with a synthetic six-panel preview inspected. No Hamdan source effect or run exists.
-Final concrete-contract review passed. Preflight, research gate and 20,416
-repository checks passed; freeze/commit and governed execution are authorized. All actual results
-must return for review; no patient-population, kinetics or function inference.
+S6C and its failure archive remain at `3c60839`, S6B at `ba5afa4`, S6A at
+`ccc91cd`. EDF6g mapping, source/pooling and proxy limitations remain specific;
+all earlier frozen outputs, unsuccessful routes and mixed results are preserved.
 
 ## Historical milestones
 
@@ -102,24 +99,18 @@ not be treated as proof that all libraries lack biological independence; the
 assay-specific biological-unit mapping still requires qualification. The current
 S1M report now owns the molecular accession and platform/layout findings.
 
-## Exact remaining work
+## Final delivery and bounded closure
 
-1. Freeze/commit the reviewed [S7 contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json),
-   exact source map and constructed verification record. Source-row order,
-   concurrent controls, metadata discrepancies and raw-zero strata are fixed in
-   the method; no actual gene effects have been inspected during preparation.
-2. Approval is recorded; after the setup commit, use the research runner with
-   a fresh run ID, independently verify all outputs, inspect the actual figure and
-   report the full donor/method/zero-stratum results for review. No extra score,
-   pathway or cohort follows automatically from an unfavorable result.
-3. Preserve the S6A EDF6g identity hold, S4/S4B source/reference uncertainty and all
-   S3/S6C proxy/zero/width/platform/pooling limits. Original retained-region or
-   raw-read alternatives require their own qualified design/resources. A1 and
-   Arz1 ownership remains unchanged; no molecular-to-function join is invented.
+The scientific work, coordinator actual-result review and required final checks
+in this staged scope are complete; the local preservation commit captures the
+full result and final synthesis.
+No biological rerun, new score, pathway, cohort or raw-read pipeline is queued.
+The [final synthesis](S6_SYNTHESIS_V3.md) keeps original-domain/source-label/
+pool-matching and phenotype/culture/time joins as separate unresolved routes;
+it does not declare all further biology exhausted. A1/Arz1 and all RQs remain.
 
-The current S6 synthesis supplies a justified bounded next comparison, not human
-scientific acceptance or a finding that all further research is exhausted.
-Earlier numerical results are not rerun for this documentation update.
+Execution, arithmetic verification and coordinator review do not create human
+scientific acceptance or promote a claim grade. Publication is outside scope.
 
 ## Usage-limit interruption and resumption — 18–19 November 2026
 

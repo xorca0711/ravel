@@ -1,6 +1,6 @@
 # Current project state
 
-## 2026-11-19 — Naik S6 synthesis and concrete Hamdan S7 draft
+## 2026-11-19 — Naik S6/S7 final synthesis and local preservation
 
 Owner `Nk17-P01`; active worktree `.worktrees/naik-memory-plan-20261117`, branch
 `codex/naik-memory-plan-20261117`. GitHub CLI identity is verified `xorca0711`;
@@ -8,30 +8,37 @@ effective author/committer is Xorca <dreamtree071@gmail.com>. Main was freshly
 fetched at `d0429d0`; unrelated root work remains untouched. Local stage review
 is authorized; it does not constitute human scientific acceptance.
 
-[S6 current synthesis](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V2.md)
-connects the completed Naik observations with qualified later primary literature.
-The current contribution is shared-source reconstruction and measurement/contrast
-qualification, not an independent biological discovery or new memory mechanism.
-The coordinator reviewed this rationale and approved implementation/constructed
-tests for the bounded Hamdan response interaction, adding prospective sign-table
-strata defined solely by any versus no raw-count zeros. Both full eligible tables
-and all unfavorable records remain. The next endpoint is 24-hour RNA response
-magnitude within each donor, not speed, causal memory or repair function.
+[Final S6/S7 synthesis](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md)
+records the original S0–S6 disposition separately from completed justified
+S6A–C/S7 extensions. The bounded staged assignment is complete with an informative
+response-estimand comparison, preserved mixed outcomes and precise unresolved
+routes. This progressed beyond copying panels while remaining exposed shared-
+source analysis; no new mechanism, independent biological replication, human
+claim acceptance or conclusion that all future biology is exhausted.
+Pre-execution S6 v2 and all historical/frozen evidence remain unchanged.
 
-[S7 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_RESPONSE_METHOD_V1.md)
-and [reviewed contract](analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
-are concrete: exact sixteen concurrent-control/shared-challenge libraries from
-patients 4/83; per-donor MOR plus total-count sensitivity; group-mean-then-log
-P/B/R_I/R_NI/A; distinct raw/contrast/range zeros; all-gene outputs and two donors
-reported separately. Nine hashed inputs, five Python files plus source-map configuration and ten expected
-outputs are registered. Fourteen constructed tests and 3,578 independent checks
-pass (maximum scaled error 2.02718e-15), with a synthetic figure inspected. Draft
-source preflight passes. No actual Hamdan gene effect or run receipt exists.
-Concrete contract/source-map/test review passed with no further scientific
-revision. Research gate and 20,416 repository checks passed. The first gate found
-a missing execution-configuration binding for the unchanged source map; the
-existing S6A binding pattern resolved it, with no validator/method change.
-Freeze/commit and governed execution are now authorized.
+[S7 actual results](Research%20Article/ungated_naik_2017_inflammatory_memory/S7_RESULTS_V1.md)
+executed from frozen setup `a7be7f8` in `naik2017_s7_hamdan_response_v1`.
+All 64,253 source genes are exported (35,259/35,034 eligible per donor). Primary
+P-positive/A-negative fractions are 36.29%/31.80%; no-raw-zero strata retain the
+distinction at 45.50%/37.45% of their P-positive rows. Both normalizations, all
+joint sign tables/denominators, constituent responses and unfavorable records
+remain. No phenotype join, patient-population, kinetics or mechanism claim.
+
+15,807,848 independent checks passed (maximum scaled error 7.06527e-15), plus
+receipt integrity and actual six-panel figure inspection. Ten expected outputs
+and the receipt are registered. Runtime 519.572 seconds; main/verifier peaks
+376.570/177.273 MiB, within declared bounds. No failed scientific attempt occurred.
+The frozen setup passed fourteen constructed tests, 3,578 independent fixture
+checks, preflight, research gate and 20,416 repository checks. A missing source-
+map execution binding was corrected by the existing S6A pattern before freeze;
+no validator/method change. The coordinator read the complete actual report, all
+four donor/method combinations and raw-zero strata, source/factors, receipt/
+verification/resources, and inspected all six actual panels without revision.
+Final research gate against freshly fetched main `d0429d0`, all 20,462 repository
+checks (including links), receipt integrity and whitespace passed. Full outputs
+and final synthesis are retained by this local preservation change; Git history
+and the final delivery identify the commit.
 
 [S6C D180](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md)
 and its separate failed-launch archive are reviewed/preserved at `3c60839`.
@@ -55,15 +62,17 @@ without relabeling/refitting. Earlier frozen S5F/S5M/S3/S4B/S4/S2/S1M evidence,
 failures and negative/mixed results remain in the linked
 [stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
 
-Exact next step: freeze/commit the accepted S7 package and run once in a fresh
-directory under the existing runner; concrete approval is recorded. Return full numerical/visual results for review. No new score,
-pathway, scratch digitization, RNA-to-function model or global RQ is authorized.
-A1/Arz1 ownership, original-domain/pool/source-label uncertainties and all RQs
-remain intact. Missing phenotype/culture/time joins hold only their dependent
-functional comparison. No biological rerun is needed for these documentation edits.
+Delivery scope is complete: checked S7 outputs and final synthesis are preserved
+locally with the reverified `xorca0711` CLI and Xorca author/committer attribution.
+The final handback supplies commit/base/checks and precise limits. No scientific
+work remains in the authorized bounded comparison.
+No extra score, pathway, cohort, scratch digitization, RNA-to-function model or
+global RQ is opened. A1/Arz1 ownership and all RQs remain. Original-domain,
+source-label, pool/animal and phenotype/culture/time joins are specifically held;
+qualified descriptive work is not erased. No biological rerun for documentation.
 The independent learning exercise is not a dependency. Historical source/usage
-interruptions remain separate in the recovery record. No publication, external
-inquiry, account settings or protected governance changes.
+interruptions remain separate in the recovery record. Local commits only: no push, PR, merge, Notion write, external inquiry, account
+settings or protected governance changes.
 
 ## 2026-11-13 — Approved portfolio figure archive
 

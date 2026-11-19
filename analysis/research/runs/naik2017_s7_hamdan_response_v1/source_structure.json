@@ -1,0 +1,240 @@
+{
+  "source_gene_count": 64253,
+  "annotation_columns": [
+    "GeneId",
+    "Chromosome",
+    "Start",
+    "End",
+    "Length",
+    "GeneName",
+    "GeneBiotype"
+  ],
+  "source_columns": [
+    "115_NI_1",
+    "115_NI_2",
+    "115_NI_3",
+    "115_PI_1",
+    "115_PI_2",
+    "115_PI_3",
+    "13_NI_1",
+    "13_NI_2",
+    "13_NI_3",
+    "13_PI_1",
+    "13_PI_2",
+    "13_PI_3",
+    "3_NI_1",
+    "3_NI_2",
+    "3_NI_3",
+    "3_PI_1",
+    "3_PI_2",
+    "3_PI_3",
+    "4_NI_1",
+    "4_NI_2",
+    "4_NI_3",
+    "4_PI_1",
+    "4_PI_2",
+    "4_PI_3",
+    "83_NI_1",
+    "83_NI_2",
+    "83_NI_3",
+    "83_PI_1",
+    "83_PI_2",
+    "83_PI_3",
+    "8_NI_1",
+    "8_NI_2",
+    "8_NI_3",
+    "8_PI_1",
+    "8_PI_2",
+    "8_PI_3",
+    "4_NI_TNF100_1",
+    "4_NI_TNF100_2",
+    "4_NI_TNF10_1",
+    "4_NI_TNF10_2",
+    "4_NI_control_1",
+    "4_NI_control_2",
+    "4_PI_TNF100_1",
+    "4_PI_TNF100_2",
+    "4_PI_TNF10_1",
+    "4_PI_TNF10_2",
+    "4_PI_control_1",
+    "4_PI_control_2",
+    "83_NI-1_TNF10",
+    "83_NI-2_TNF10",
+    "83_NI_Control_1",
+    "83_NI_Control_2",
+    "83_PI-1_TNF10",
+    "83_PI-2_TNF10",
+    "83_PI_Control_1",
+    "83_PI_Control_2"
+  ],
+  "excluded_columns": [
+    {
+      "column": "115_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_TNF100_1",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_NI_TNF100_2",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_PI_TNF100_1",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_PI_TNF100_2",
+      "reason": "patient4_only_higher_challenge"
+    }
+  ],
+  "patients": [
+    "4",
+    "83"
+  ],
+  "selected_library_count": 16,
+  "all_gene_rows_exported": true,
+  "culture_pairing": "unknown",
+  "platform_discrepancy": "GEO HiSeq4000; paper NextSeq2000"
+}

@@ -8,16 +8,17 @@ novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
 
 ## Current progression after S6
 
-[S6 v2](S6_DECISION_V2.md) is the current source-grounded synthesis after reviewed
-S6A/B/C; [S6 v1](S6_DECISION_V1.md) and the dated stage notes below preserve their
+[Final S6/S7 synthesis](S6_SYNTHESIS_V3.md) is the current source-grounded
+disposition after reviewed S6A/B/C and S7; [S6 v2](S6_DECISION_V2.md), [S6 v1](S6_DECISION_V1.md) and the dated stage notes below preserve their
 original exposure and decisions. The completed contribution is shared-source
 reconstruction plus explicit measurement/contrast qualification, not a new memory
-mechanism or independent biological replication. The supported next question is
-the [Hamdan concurrent-control response interaction](S7_HAMDAN_RESPONSE_METHOD_V1.md),
-prepared under the same article-local owner. The coordinator reviewed S6 and
+mechanism or independent biological replication. The completed supported extension is the
+[Hamdan concurrent-control response interaction](S7_RESULTS_V1.md), under the
+same article-local owner. The coordinator reviewed S6 and
 approved S7 implementation/constructed tests, adding raw-count-zero strata before
-execution. The concrete contract/source-map/implementation review subsequently passed;
-freeze/commit and governed execution are authorized after setup checks.
+execution. The concrete contract/source-map/implementation review subsequently passed.
+[S7 results](S7_RESULTS_V1.md) now supply the bounded source-specific decomposition;
+all prior source/interpretation records below retain their historical meaning.
 
 ## Published starting point
 
@@ -487,3 +488,27 @@ Arz1 within-state/composition ownership. Missing exact phenotype/culture/time
 joins hold a molecular-to-function model specifically; they do not erase the
 qualified RNA comparison or authorize scratch digitization/refitting. No new
 canonical RQ or human retain/reject decision is made.
+
+## S7 result interpretation — 19 November 2026
+
+[S7](S7_RESULTS_V1.md) used the reviewed explicit response interaction in both
+Hamdan donors without reproducing exact STEM inputs/membership. Under primary
+MOR, negative A occurs in 36.29%/31.80% of the respective donor's positive post-
+challenge P records. It also occurs without any observed raw count zero
+(45.50%/37.45% of P-positive records within those strata). Thus the distinction
+is not confined to rows containing raw zeros; low abundance, pseudocount,
+normalization and composition limits remain. Both normalizations and every gene
+are retained. A-positive records include less repression as well as induction.
+This all-gene relative-expression description cannot refute the published selected
+STEM programmes, consensus peaks or functional experiments. A=P−B shares terms
+with P; the plotted relation is not an independent association test.
+
+Published enhanced recall → Naik baseline/reference dependence → explicit
+Hamdan per-donor concurrent-control decomposition → observed response-meaning
+and normalization sensitivity. This is the justified measurement/estimand
+extension; it supplies no new epigenetic mechanism, response speed or linked
+repair prediction. Exact phenotype/culture/time joins and within-state versus
+composition remain missing biological discriminators for those further claims.
+No new RQ, score, cohort or pathway search is opened by this result. The coordinator completed full actual-result/figure review without revision.
+The [final synthesis](S6_SYNTHESIS_V3.md) closes the supported bounded comparison
+while retaining those precise unresolved biological/source routes.

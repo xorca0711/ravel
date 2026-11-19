@@ -1,0 +1,17 @@
+patient	history	condition	replicate_suffix	key	gsm	column	title	platform
+4	NI	0	1	NI0_1	GSM8643398	4_NI_control_1	Subject 4 Noninflamed Control Rep 1	GPL20301
+4	NI	0	2	NI0_2	GSM8643399	4_NI_control_2	Subject 4 Noninflamed Control Rep 2	GPL20301
+4	NI	T	1	NIT_1	GSM8643396	4_NI_TNF10_1	Subject 4 Noninflamed + Treated with TNF10 Rep 1	GPL20301
+4	NI	T	2	NIT_2	GSM8643397	4_NI_TNF10_2	Subject 4 Noninflamed + Treated with TNF10 Rep 2	GPL20301
+4	I	0	1	I0_1	GSM8643407	4_PI_control_1	Subject 4 Inflamed Control Rep 1	GPL20301
+4	I	0	2	I0_2	GSM8643408	4_PI_control_2	Subject 4 Inflamed Control Rep 2	GPL20301
+4	I	T	1	IT_1	GSM8643405	4_PI_TNF10_1	Subject 4 Inflamed + Treated with TNF10 Rep 1	GPL20301
+4	I	T	2	IT_2	GSM8643406	4_PI_TNF10_2	Subject 4 Inflamed + Treated with TNF10 Rep 2	GPL20301
+83	NI	0	1	NI0_1	GSM8643414	83_NI_Control_1	Subject 83 Noninflamed Control Rep 1	GPL20301
+83	NI	0	2	NI0_2	GSM8643415	83_NI_Control_2	Subject 83 Noninflamed Control Rep 2	GPL20301
+83	NI	T	1	NIT_1	GSM8643409	83_NI-1_TNF10	Subject 83 Noninflamed + Treated with TNF10 Rep 1	GPL20301
+83	NI	T	2	NIT_2	GSM8643410	83_NI-2_TNF10	Subject 83 Noninflamed + Treated with TNF10 Rep 2	GPL20301
+83	I	0	1	I0_1	GSM8643421	83_PI_Control_1	Subject 83 Inflamed Control Rep 1	GPL20301
+83	I	0	2	I0_2	GSM8643422	83_PI_Control_2	Subject 83 Inflamed Control Rep 2	GPL20301
+83	I	T	1	IT_1	GSM8643416	83_PI-1_TNF10	Subject 83 Inflamed + Treated with TNF10 Rep 1	GPL20301
+83	I	T	2	IT_2	GSM8643417	83_PI-2_TNF10	Subject 83 Inflamed + Treated with TNF10 Rep 2	GPL20301
