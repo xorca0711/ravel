@@ -15,6 +15,8 @@
 
 ### What can be recovered from the deposits
 
+The table below records the initial planning inspection. The completed [S0 audit](s0/CHECKPOINT.md) and [panel manifest](s0/PANEL_ELIGIBILITY.md) give the current eligibility decisions, including the six donor identities, clone-name overlaps, tissue lookup coverage and lesion-count discrepancies.
+
 | Source inspected | Verified contents | Remaining qualification |
 |---|---|---|
 | [Source Data Fig. 1](https://pmc-oa-opendata.s3.amazonaws.com/PMC13083248.1/41586_2026_10258_MOESM7_ESM.xlsx) and [Extended Data Fig. 1](https://pmc-oa-opendata.s3.amazonaws.com/PMC13083248.1/41586_2026_10258_MOESM10_ESM.xlsx) | Workbook sheets and headers. Fig. 1k,l provide FOS/CD44 protein measurements, including sample and protocol day. Extended Data contains injury and recovery context. | Recover animal identities and denominators per panel. Fig. 1l's workbook does not supply its AP-1 motif-score curve. |

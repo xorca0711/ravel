@@ -1166,6 +1166,8 @@
       "id": "Ng26-P01",
       "plan": "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+        "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
         "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
         "Research Article/ungated_nagaraja_2026_colitis_memory/README.md"
       ]
@@ -1713,7 +1715,8 @@
     "analysis/research/runs/naik2017_distal_m24_metadata_v1/receipt.json",
     "analysis/research/runs/naik2017_distal_m24_outcome_v1/receipt.json",
     "analysis/research/runs/naik2017_distal_m24_baseline_v1/receipt.json",
-    "analysis/research/runs/ng26_s0_v2/receipt.json"
+    "analysis/research/runs/ng26_s0_v2/receipt.json",
+    "analysis/research/runs/ng26_s0_keys_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

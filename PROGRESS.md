@@ -1,8 +1,8 @@
 # Current project state
 
-## 2026-11-19 — Nagaraja colitis-memory analysis plan
+## 2026-11-19 — Nagaraja S0 source and unit qualification
 
-The [Nagaraja package](Research%20Article/ungated_nagaraja_2026_colitis_memory/README.md) links the paper, source qualification and a staged plan for mouse tissue recovery, clonal AP-1 accessibility and early adenoma growth. No numerical analysis has run. Next, qualify the Fig. 1 protein denominators, tissue cell-to-mouse score map and organoid cell-to-clone-to-line map before freezing the first eligible comparison.
+The [S0 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md) qualifies the 19 FOS/CD44 mouse records and all six organoid donor lines. Four scored clone names cross histories. Original tissue chromVAR scores and stem/progenitor labels remain unresolved; individual histology areas lack mouse keys. The first audit stopped on an export suffix and is archived. The amended audit and independent key reconciliation completed. Await stage review before freezing the proposed three-versus-three protein comparison. [Panel dispositions](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md)
 
 ## 2026-11-19 — Naik mouse skin distal chromatin extension
 
