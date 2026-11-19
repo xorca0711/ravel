@@ -2,12 +2,9 @@
 
 ## Organizing biological question
 
-How do alveolar epithelial states, their pathological locations and local
-inflammatory neighborhoods relate across the sampled lung lesion contexts?
-Peng's contribution to Ravel is to connect these levels: which populations are
-present, how they are arranged, and whether comparable epithelial states differ
-with their surroundings. These explanations can coexist. Cross-sectional
-association does not establish progression, direction of influence or later fate.
+How are alveolar epithelial states arranged within the inflammatory neighborhoods of human lung lesions? Peng and colleagues counted neighboring cells and found IL1B-high macrophages enriched around specified epithelial populations in early lesions. The location of those cells is central to the finding. [Paper, Fig. 5D–F and J–K](https://doi.org/10.1016/j.ccell.2025.10.004)
+
+Ravel asked a related question at a coarser scale. Across ten patients with paired lung adenocarcinoma and atypical adenomatous hyperplasia sections, adjacent Visium spots showed a higher average IL1B–CLDN4 RNA association in adenocarcinoma. The difference shrank after accounting for broad cell composition. Both population abundance and spatial arrangement could contribute, and the sections provide no time course of progression. [Spatial results](PUBLIC_DATA_RESULTS.md) · [Comparison with the paper’s cell neighborhoods](BIOLOGICAL_REVIEW.md)
 
 A12 owns the narrower question of recipient information beyond its specified
 ligand/mixture comparison. A composition-associated pattern can be informative

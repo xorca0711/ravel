@@ -1,5 +1,16 @@
 # Kadur Lakshminarasimha Murthy et al. 2022, the source paper of GSE178360
 
+## A branch point between alveolar and airway epithelium
+
+In the human distal lung, Murthy and colleagues identified a transient AT0 state with two possible outcomes.
+
+- **Alveolar route** — AT2 through AT0 to an alveolar type 1 cell.
+- **Airway route** — AT2 through AT0 to a terminal or respiratory bronchiole secretory cell.
+
+Tissue localization, RNA trajectories and human organoid differentiation supplied different pieces of that lineage argument. [Paper, Fig. 3 and Extended Data Fig. 11](https://doi.org/10.1038/s41586-022-04541-3)
+
+Ravel’s atlas of three healthy donors identified an epithelial group expressing both *SFTPC* and *SCGB3A2*. Reference mapping assigned AT0 to only 75 of its 328 cells. The markers locate candidates for closer inspection, while the sampled transcriptomes leave both descendant fates unobserved. [Three-donor atlas](GSE178360/README.md) · [Reference-label comparison](../gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_summary.md)
+
 ## Read this study
 
 | To understand | Read |

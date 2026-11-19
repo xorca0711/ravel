@@ -1,5 +1,17 @@
 # Gate 1, paper 1: Niethamer et al. 2025 (GSE262927)
 
+## When each lung compartment proliferates
+
+Niethamer and colleagues traced dividing cells during mouse lung repair. Immune cells proliferated first, epithelium and mesenchyme followed, and the endothelial wave came last. The order is visible when each compartment is followed across harvests. [Paper, Fig. 2F](https://doi.org/10.1016/j.stem.2024.12.002)
+
+| Peak among sampled harvests | Highest median fraction of Ki67-traced cells per animal in Ravel |
+|---|---|
+| Day 6 | Myeloid |
+| Day 11 | Epithelial, mesenchymal and lymphoid |
+| Day 19 | Endothelial |
+
+Four of five lineages followed the published order. Lymphoid cells peaked at day 11, alongside epithelium and mesenchyme. [Per-animal phase comparison](GSE262927/phase_timecourse/README.md)
+
 Current figure corrections: [categorical time axes and annotation comparison](GSE262927/figure_revision_20260929/README.md). Earlier run assets remain preserved as historical outputs.
 
 ## Read this study

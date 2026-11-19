@@ -1,5 +1,11 @@
 # Arozamena 2026: deposited RNA and accessibility comparisons
 
+## What the intestine retains from an earlier injury
+
+Arozamena and colleagues found that previously injured intestinal epithelium regenerated more effectively after a second injury. The repeat-irradiation comparison measures regeneration, while the molecular profiles ask what persists in intestinal stem cells and their progeny. [Paper, Fig. 2 and Fig. 5d–e](https://doi.org/10.1038/s41467-026-79014-6)
+
+Ravel found that even the direction of an accessibility difference can depend on where it is measured. In the deposited LGR5 library relative to its control, *Tiam1* fragment counts were lower near the transcription start site and higher across the gene body under every tested filtering and weighting choice. The deposited records leave those molecular measurements unlinked to later regeneration in the same animals. [Paired RNA and accessibility results](ACCESSIBILITY_RESULTS.md)
+
 1 November 2026. Article-local candidate **Arz1-P01**, proposed and outcome-exposed.
 The owner requested source qualification through the existing technical chat,
 every eligible extension, originating review and updates to PR #157. This package

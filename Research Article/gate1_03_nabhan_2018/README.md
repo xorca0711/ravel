@@ -1,5 +1,11 @@
 # Nabhan 2018: Wnt niche biology and public-data analysis
 
+## A niche the size of a neighboring cell
+
+In intact mouse alveoli, Nabhan and colleagues imaged individual Wnt-expressing fibroblasts touching or lying close to Axin2-positive AT2 stem cells. Their perturbations linked local Wnt signaling to maintenance of AT2 identity. [Paper, Fig. 2g–l and Fig. 5i](https://doi.org/10.1126/science.aam6603)
+
+Ravel revisited the 47 deposited mesenchymal cells. Among cells expressing Wnt5a, the fraction also expressing Pdgfra ranged from 72% to 90% as the detection threshold changed. The overlap is reproducible in this sample. Its exact frequency depends on the cutoff, and the cells’ original neighbors can only be identified in the imaging. [Source expression and threshold comparison](source_reproduction/README.md)
+
 ## Read this study
 
 | To understand | Read |

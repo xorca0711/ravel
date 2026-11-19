@@ -1,16 +1,16 @@
 # Nb3 — Nabhan 2026: alveolar stem-cell identity and the fibroblast niche
 
+## How epithelial identity shapes the fibroblast niche
+
+Nabhan and colleagues grew mouse AT2 cells with human fibroblasts, allowing RNA from the two compartments to be read separately. After epithelial *Nkx2-1* perturbation, fibroblasts lost part of their lung-associated chemokine program. Across the screen, organoid number and size also responded differently, making growth alone an incomplete readout of niche identity. [Paper, Figs. 2 and 4](https://doi.org/10.1073/pnas.2606113123)
+
+Ravel recovered the direction of the lower AT2 and fibroblast chemokine markers across the tested analysis choices. Agreement with the authors’ full differential-expression results was better for the mouse compartment. The human table remains numerically unresolved, and bulk wells cannot distinguish changes within fibroblasts from changes in which fibroblasts were present. [Reproduction review](reports/REPRODUCTION_REVIEW.md) · [Marker follow-up](reports/FOLLOWUP_RESULTS.md)
+
 *Mapping the dialogue: Decoding alveolar stem–niche interactions.* Nabhan et al.,
 PNAS 123, e2606113123. [Paper](https://doi.org/10.1073/pnas.2606113123).
 Gate **2N, item 2**; stable roadmap paper **14**; analysis ID **Nb3**.
 The owner completed reading and authorized reproduction and extensions.
 The corrected folder label is `gate2_N2_nabhan_2026`.
-
-The paper asks how changes in AT2 epithelial identity and growth reshape the
-fibroblast niche. Imaging and species-separated bulk RNA from mixed organoids
-connect epithelial perturbations to both compartments. The reproduction tests
-selected growth, identity and niche responses; the extensions ask which
-patterns justify hypotheses about repair and communication.
 
 **Updated 1 October 2026: partial reproduction, descriptive extensions and
 follow-up complete.** Eleven original figures plus one external E5 pilot figure

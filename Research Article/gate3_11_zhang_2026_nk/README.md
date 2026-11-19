@@ -2,11 +2,9 @@
 
 ## Organizing biological question
 
-How does local immune regulation limit NK-mediated tumor control, and which
-parts of the published RNA evidence can be reconstructed from the deposited
-data? [Zhang et al. (2026)](https://doi.org/10.1126/sciimmunol.adx4411) already
-report a local cDC2/CD4/IL-2-associated NK response. This package tests the
-reproducibility and analysis dependence of their pooled NK transcript contrasts.
+How does local Treg depletion change NK cells in a tumour? Zhang and colleagues linked the NK response to conventional type 2 dendritic cells, CD4 T cells and IL-2. Their RNA experiment compared NK cells after local Treg depletion with controls and asked what changed when CD4 cells were depleted as well. [Paper, Fig. 3 and Figs. 6–7](https://doi.org/10.1126/sciimmunol.adx4411)
+
+Ravel reproduced the authors’ differential-expression results from nine pooled NK libraries. At 5% FDR, 87 genes differed after Treg depletion versus control. With both Tregs and CD4 cells depleted, one gene differed from control. These comparisons establish how closely the released RNA analysis can be reconstructed. Direct evidence about NK-mediated tumour killing comes from separate experiments. [RNA results and block sensitivity](RESULTS.md)
 
 **Completed 10 November 2026:** source qualification, released RNA reproduction,
 pathway enrichment, block/ranking sensitivity and source-grounded biological

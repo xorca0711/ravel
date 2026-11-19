@@ -1,5 +1,11 @@
 # Nabhan 2023: Nb2 receptor-selective regeneration analysis
 
+## Receptor choice changes what the epithelium can produce
+
+Nabhan and colleagues found that activating either Fzd5 or Fzd6 supported alveolar epithelial growth. The distinction emerged in airway-derived progenitors, where only the Fzd6 agonist promoted an alveolar fate. An increase in organoid growth alone would have missed that distinction. [Paper, Figs. 3 and 5–7](https://doi.org/10.1016/j.cell.2023.05.022)
+
+Ravel recovered higher Wnt-response and AT2 RNA panel scores with both agonists than after withdrawal in the deposited AT2 organoid libraries. These cultures start with a different cell population from the airway fate experiment. Their RNA supports a shared transcriptional response while leaving the lineage comparison to the published experiments. [Bulk RNA results](RESULTS.md)
+
 **Chronological RQ review, 1 October 2026:** [later analyses and existing A19-A21 framing](RQ_RETROSPECTIVE_REVIEW.md).
 
 **Gate 2N, item N1; stable paper ID 6; namespace Nb2.** The owner completed reading

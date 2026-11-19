@@ -1,5 +1,11 @@
 # Yu, Lee, Choi_Min and Choi 2026: IL-1beta and stem-cell plasticity
 
+## One inflammatory signal across different niches
+
+Yu and colleagues review how IL-1β can support epithelial repair after injury and accompany persistent plasticity in fibrosis and cancer. Their lung examples make the distinction concrete. A transient progenitor can contribute to repair, while sustained exposure can impede maturation. The review draws those links from experiments in different tissues and disease settings. [Review](https://pubmed.ncbi.nlm.nih.gov/42497497/) · [Primary studies behind sections 3.1 and 4.1](SOURCE_SYNTHESIS.md)
+
+Ravel tested one prediction across two human pulmonary fibrosis cohorts. An expression score combining macrophage IL1B and fibroblast receptor RNA barely differed from controls in one cohort and was higher in the other. The two cohorts therefore differ even at the level of RNA compatibility. Neither measures how much IL-1β reached fibroblasts. [Cohort comparison](EVIDENCE_REVIEW.md)
+
 ## Read this study
 
 | To understand | Read |

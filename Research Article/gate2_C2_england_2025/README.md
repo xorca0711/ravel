@@ -1,5 +1,11 @@
 # England et al. 2025: mutant AT2 cells and the repair programme
 
+## When a repair state supports clone growth
+
+England and colleagues traced Kras-mutant AT2 clones and found that clones expanded at different rates. In tissue and organoid experiments, mutant cells retained features of a regenerative state. Inhibiting NF-κB later changed their differentiation, linking sustained signaling to persistence of that state. [Paper, Figs. 1–4 and 7](https://doi.org/10.1016/j.stem.2025.01.011)
+
+Ravel found that a permissive AT1 marker rule also counted many cells in AT2 clusters. The fraction called AT1-like therefore depends on how the state is defined. The deposited RNA can describe mixed identities, while the paper’s functional experiments carry the evidence for differentiation. [State and maturation results](EVIDENCE_REVIEW.md#state-and-maturation)
+
 **Subsequent evidence — 7 October 2026:** The [source-parameter ascertainment extension](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) now separates founder, retained-clone and expected-cell fractions. At week 4, 8% fast founders yield 8.24% of retained size>=2 clones and 95.01% of expected retained cells under the fixed model. This is a mathematical ratio of expectations, not measured tissue composition or a fitted founder-versus-switching result.
 
 [England et al., *Cell Stem Cell* 32, 375–390.e9](https://doi.org/10.1016/j.stem.2025.01.011).
