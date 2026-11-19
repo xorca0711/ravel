@@ -154,3 +154,28 @@ resource failure triggers a specific feasibility review, not a source-wide
 absence claim. Return the verified result and figures for coordinator review
 before final S6 synthesis. Preserve original-domain, processing and individual-
 animal/mapping limits; no external inquiry, publication or human claim acceptance.
+
+## Implementation checkpoint before freeze
+
+19 November: S6B is reviewed and preserved at `ba5afa4`. Seven constructed-source
+tests passed, including 14,235 independent fixture checks (maximum scaled error
+1.24701e-14). Tests cover complete source membership, metadata/hash/length drift,
+unchanged window/mapping/anchor identities, exact ties, local-zero versus rank-zero
+and range-zero semantics, missing/duplicate/nonfinite signal, full coverage, all
+summary arithmetic and tampering. A required chromosome mismatch in the last of
+four artificial headers caused zero signal fetches and preserved the failed
+qualification record. Both artificial layouts were inspected. Figure labels
+explicitly distinguish acute D6 from D30/D180 prior inflammation and unresolved
+pool membership. No real D180 window signal was read for these tests.
+
+The implementation binds seventeen inputs and eight code dependencies (five new
+scripts plus three immutable S3 helper modules). It preserves twenty-one declared
+outputs: exact windows/mapping copies, source manifest, all headers and ordered
+qualification, verification-window manifest, all D180 means/zeros and progress,
+interval readbacks/progress, complete twelve-library effects, D180 diagnostics,
+summary, all five anchor identities/values, two PNG/PDF pairs, runtime and
+independent verification. Existing S3 values remain bit-for-bit equal as decoded
+floats in the combined export. A single exposed contract precedes all dependent
+source qualification and extraction; header success alone is not full signal
+qualification. Extraction completion and independent interval checks supply the
+separate full-window coverage result.

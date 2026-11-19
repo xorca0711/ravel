@@ -23,7 +23,10 @@ figure and complete report were coordinator-reviewed without revision.
 The specific S4 baseline marker pattern was not repeated in these four D6
 libraries; no sex assignment, exclusion, correction or pairing was inferred.
 Result-stage research gate against refreshed main `d0429d0`, all 20,366 repository
-checks and whitespace passed. Local preservation precedes approved D180 work.
+checks and whitespace passed. The reviewed S6B result is preserved at `ba5afa4`.
+S6C implementation/contract is prepared: 17 inputs, eight code dependencies,
+21 declared outputs; seven artificial tests (14,235 independent fixture checks)
+and both artificial layouts passed. Exact contract freeze precedes the real run.
 
 The [S6C exact-S3 D180 method](S6C_D180_METHOD_V1.md) was coordinator-approved
 without revision for implementation, tests, freeze and execution after D6.

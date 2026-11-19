@@ -11,15 +11,21 @@ retained. Independent verification passed 191,370 checks (maximum scaled error
 1.18728e-16), receipt integrity passed, and the actual figure was inspected.
 The coordinator reviewed the complete report, all twenty rows and actual figure
 without revision. The result research gate against refreshed main `d0429d0`, all
-20,366 repository checks and whitespace passed. Preserve locally, then continue
-the approved D180 implementation/freeze/run.
+20,366 repository checks and whitespace passed. S6B is preserved at `ba5afa4`; its frozen
+setup was `f92cf21`. Approved D180 implementation is now prepared.
 
 The [S6C D180 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md)
 was coordinator-reviewed without revision and approved for implementation,
 tests, freeze and governed execution after D6. It retains the exact S3 universe,
-widths/rank semantics and all five fixed anchors. One exposed contract will
-qualify source/header/dictionary before dependent extraction. No D180 window
-signal has been read. Final S6 must also assess justified progression beyond
+widths/rank semantics and all five fixed anchors. The new exposed contract binds seventeen inputs and eight code dependencies,
+with twenty-one declared outputs. Seven artificial tests passed, including
+14,235 independent fixture checks (maximum scaled error 1.24701e-14), and
+both artificial figure layouts were inspected. Exact source/header/dictionary
+qualification precedes extraction; the last-track mismatch fixture performed
+zero signal fetches. Input preflight, setup research gate against main `d0429d0`,
+all 20,367 repository checks and whitespace passed. No actual D180 window signal
+has been read. Next: frozen commit, governed run, independent readbacks/
+verification, actual figure/result review and preservation. Final S6 must also assess justified progression beyond
 shared-source reproduction: published finding → repository observation →
 unresolved question → informative comparison, using the qualified later primary
 literature. Completing D6/D180 alone does not settle that decision. Prepare a
