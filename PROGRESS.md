@@ -2,50 +2,32 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-19 November current checkpoint: [S5F v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md)
-has executed from frozen setup `ff0ed97`, with 35 endpoints, 83 groups and all
-38 declared contrasts. Independent ZIP/XML/Decimal verification passed 13,821
-checks (maximum scaled error 1.32857e-14); 18 outputs and receipt are registered.
-All five actual figures and numerical contrasts were coordinator-reviewed without
-revision. Complete report review also requested no further change. The research
-gate against refreshed main `d0429d0`, all 20,267 repository checks, 308 local
-links and whitespace passed; all 21 run files including five PDFs are tracked.
-The result is preserved with this checkpoint. No earlier molecular analysis
-was rerun. Agent progression review supplies no human scientific acceptance.
+19 November current checkpoint: reviewed S5F is preserved at `2514379`; the
+[S6 assessment](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md)
+and approved [S6A design](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md)
+were preserved at `fcb0357`. S6A implementation, exact source map and exposed
+contract are now prepared for preflight/freeze before execution. All six artificial
+tests passed, including exact area-floor and missing-baseline cases; the main
+fixture passed 1,930 independent checks (maximum scaled error 3.62027e-17).
+The coordinator-requested floor guard distinguishes structural day-0 zeros,
+all-contributing-record zeros, cancellation and NA. At an observed area floor,
+nonzero baseline-adjusted values are not persisting repair differences.
 
-The source results retain longer PI tongues/day-10 outgrowth alongside mixed
-EdU contrasts. F5g reported OE effects are +0.30 under Ig and +0.16 under
-anti-IL1R1 (difference −0.14 day^-1); equal OE+anti/Ctrl+Ig means do not establish
-complete blockade. Normalization references count spreadsheet entries, not
-biological cells. Source/caption N discrepancies and unknown matching remain.
-Naik Fig. 5c already reports the transcript/protein distinction; no new mechanism
-or human scientific acceptance is asserted.
+No actual S6A area effect has been calculated. The complete approved grid remains
+62 endpoints, 228 group/day records and 166 contrast/day rows. EDF6f day10 WT
+and dependent contrasts stay NA; EDF6g within-Ig and within-anti comparisons
+remain separate. Input-bound preflight and research gate against refreshed main `d0429d0` passed,
+as did all 20,308 repository checks and whitespace. Next: preserve the frozen
+setup commit, governed run, independent verification, actual figure review and
+completed report review.
 
-S5F is preserved at `2514379`. The [S6 assessment](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md)
-and [S6A daily-area design](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md)
-are prepared for coordinator review. No new extension means, contrasts, marker
-profiles or ranks have been calculated. The first proposed comparison includes
-all six panels/days, raw area contrasts and explicit day-0 components. EDF6g
-area Ns 3/4/3/4 differ from main summary Ns 3/3/4/4; EDF6f day 10 has no WT
-records, so dependent contrasts must remain NA. Both caption-N sources are retained.
-
-Fixed five-marker D6 QC and D180 using the frozen S3 universe/widths/ranks/all
-five anchors remain separate candidates. D180's four HiSeq2500 paired-end tracks
-returned HTTP 200 headers, totaling 3,118,510,945 bytes, but are not downloaded
-or reader-qualified. D6/D30 ATAC uses HiSeq4000. Saved ENA metadata lists all
-12 raw ATAC runs (38,256,018,859 compressed bytes); full workflow resources are
-unbudgeted, not declared impossible. Original-domain coordinates remain an
-unresolved specific input. The bounded 19 November literature refresh and
-actual access/version limits are in the current literature context.
-
-S6A assessment/design/literature review is complete without revision; the
-coordinator authorized implementation and governed execution. The S6 document
-gate against `d0429d0`, 20,299 repository checks, 313 links and whitespace passed.
-Next: exact source map/code/artificial tests, registered input-bound contract,
-preflight and frozen local setup before execution. Four D180 track downloads
-and hashes are also authorized in a new ignored folder, with bounded transfers;
-D180 effects still require their own reviewed contract. No new numerical
-extension has run yet.
+[D180 acquisition](Research%20Article/ungated_naik_2017_inflammatory_memory/D180_ACQUISITION_V1.md)
+completed: four original BigWigs, 3,118,510,945 bytes, matched expected lengths
+and recorded SHA-256 hashes. No reader/chromosome qualification or D180 effects
+yet. D180 effects and fixed five-marker D6 QC need their separate reviewed
+contracts. Original retained-domain coordinates and cross-time platform/record
+matching limits remain. No earlier analysis was rerun; no publication or human
+scientific acceptance follows. This analysis sequence remains unfinished.
 
 The prior technical turn ended at an account usage limit; owner continuation
 after the 19 November 12:20 KST reset is recorded separately from the older

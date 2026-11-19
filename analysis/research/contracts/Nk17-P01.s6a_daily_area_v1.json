@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6a_daily_area_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Across all supplied EDF5e/f and EDF6d-g days, what do raw within-condition wound-area contrasts and their day-0 components show about the finite comparisons underlying the published repair summaries?",
+  "decision": "Retain all six panels, 62 panel/day endpoints, 228 group/day summaries and 166 contrast/day rows, including NA, area floors, mixed directions and source-N discrepancies. Return verified actual figures/report for coordinator review before subsequent extension execution. No claim promotion or complete-blockade inference.",
+  "strongest_rival": "Day-0 area offsets, changing observed coverage, unknown record-to-animal and column trajectory identities, and differing caption/main-summary Ns can make group contrasts or baseline-subtracted floor values appear to reflect persisting repair differences.",
+  "discriminator": "Use every supplied day and the exact source-coordinate map. Compare PI minus Ctrl within WT/KO or inhibitor backgrounds, and OE minus Ctrl within Ig and anti-IL1R1; then compare those within-condition effects. Retain raw means as primary, medians as full-grid sensitivity, and explicit day-0 subtraction. Distinguish true all-record area floors, zero by cancellation, structural day-0 zeros and missing groups. Independent ZIP/XML/Decimal reconstruction verifies every result.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6A_SOURCE_MAP_V1.json",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published curves and fitted summaries, S5F results, source qualification and full group/day occupancy were already exposed. The 19 November source map reads headers, labels, day cells and numeric/blank presence only. No actual S6A mean or contrast was calculated by this implementation before freeze. Six tests and layout previews used constructed values only. Coordinator reviewed the design and requested an exact-zero area-floor interpretation guard before freeze. This remains exposed shared-source description.",
+  "biological_unit": "Published captions identify biologically independent animals, but exact animal IDs, source-record aggregation, column trajectories, cross-day matching and which area records entered each reported fit are unqualified. Computational unit is a numeric area record within panel/group/day; only finite-source description is permitted.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "All measurements reuse Naik 2017 source data. Days, panels, technical records and contrasts are not new independent animals or independent replication. Contrasts share groups, and all later day-0 adjustments reuse the same baseline. Unknown daily animal membership and changing coverage preclude paired trajectories or within-animal changes.",
+  "population_and_selection": "All source cells and blank slots in S6A_SOURCE_MAP_V1 for EDF5e days0-10, EDF5f days0-9, EDF6d days0-8, EDF6e days0-9, EDF6f/g days0-10. Preserve 62 endpoints/228 group-days/166 contrast-days, complete column ranges and expected missingness. No imputation, panel/day selection, inferred animals, altered Ns or pooling.",
+  "contrast": "Per day: EDF5e/6e/6f PI-Ctrl within WT and KO, then KO effect minus WT effect; EDF6d PI-Ctrl without and with YVAD, then with-minus-without; EDF5f OE-Ctrl; EDF6g OE-Ctrl within Ig and anti-IL1R1, then anti-minus-Ig effects. Same vectors applied to means and medians. Adjusted C(d)-C(0) is secondary; raw C(d) remains primary.",
+  "endpoint": "Remaining wound area in mm^2. Positive within-condition treatment-minus-control area contrast means larger area remaining, opposite to a positive fitted decay-rate advantage. Not instantaneous speed, fitted k, time to closure, normalized percentage closure, memory storage or repair mechanism.",
+  "methods": "S6A_DAILY_AREA_DESIGN_V1 and exact source map specify full grid, source slots, headers, expected Ns/missing cells, contrast coefficients and caption guards. Read-only openpyxl produces mean, median, min, max and sample SD with n1 SD NA/n0 statistics NA; store every source observation, group baseline component and contrast. Each contributing group with n>0 and all exact-zero values defines an area-floor contrast; available adjustment there is minus the baseline. No near-zero threshold. Independent stdlib ZIP/XML and 50-digit Decimal verify all tables, coefficient meanings, S5F main-caption/rate Ns, floor flags and metadata with 1e-10 scaled numerical tolerance. Four figures in PNG/PDF display all data/contrasts/baseline-adjusted contrasts/coverage.",
+  "missingness_and_exclusions": "Blanks remain missing and measured zeros remain zero. A labelled all-blank group/day differs from a day not supplied. All required current groups must exist for raw contrast; current and baseline groups must exist for adjustment, with exact NA reasons retained. EDF6f day10 WT and effect-difference contrasts are NA while KO may remain available. Reject unexpected occupancy, headers/day/units/group labels, formulas, booleans, nonnumeric or nonfinite values. No source/caption reconciliation by deletion.",
+  "multiplicity": "All 166 declared contrast/day rows, medians, baseline components and missing/floor cases retained without significance selection. No p-values, CIs, equivalence margins, independent-comparison count or pooled time/panel estimator.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite supplied-record reconstruction. Sample SD describes observed record dispersion only; singleton SD and empty-group summaries are NA. No population uncertainty, animal-level variance, power or fitted-rate uncertainty is inferred. Arithmetic tolerance is not a biological margin.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Day-0 subtraction is a difference of observed group summaries, not ANCOVA, corrected kinetics or within-animal change. All day0 adjusted zeros are structural; where every contributing measured area is zero, raw contrast is zero and adjusted contrast equals minus day0, so nonzero adjustment is not persisting repair advantage or residual rate difference. Unknown record/animal membership, changing coverage and caption Ns remain. Finite shared-source contrasts establish neither complete blockade, equivalence, pathway independence nor chromatin memory maintenance.",
+  "stop_rule": "Require committed frozen contract, design, map and code with matching source hashes. Stop on source identity/header/unit/day/group/occupancy disagreement or independent verification failure; retain failed runs. Expected missing groups remain NA rather than dropping all panels. Never overwrite prior evidence, refit k, infer trajectories, force caption Ns or select a favorable day. Return complete actual report/figures for coordinator review. D180 effects and D6 marker values require separate reviewed contracts; no publication/external inquiry.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_reconstruct_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6a_daily_area_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_cells.tsv",
+    "observations.tsv",
+    "groups.tsv",
+    "group_baseline_components.tsv",
+    "contrasts.tsv",
+    "metadata.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_daily_area_groups.png",
+    "fig01_daily_area_groups.pdf",
+    "fig02_raw_area_contrasts.png",
+    "fig02_raw_area_contrasts.pdf",
+    "fig03_day0_components.png",
+    "fig03_day0_components.pdf",
+    "fig04_source_coverage.png",
+    "fig04_source_coverage.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate approved daily-area extension after preserved S5F at 2514379 and reviewed S6 assessment/design at fcb0357. Adds all supplied EDF5/6 area days with raw and day0 components; does not revise or rerun S5F or prior molecular stages.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM16_ESM.xlsx",
+      "sha256": "58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM17_ESM.xlsx",
+      "sha256": "196ca23b612207b032a497022fdd8292aa58e5b206d005bcfa27aa6d3fba2fe4",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_SOURCE_MAP_V1.json",
+      "sha256": "024ccb9749deddb7d78a51a05b296cd9d5c862a174a002383374b1bb33039996",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt",
+      "sha256": "96aca458077196106c3c0c36b7c269017b4a8500092c14e2c8bacdd59d45246f",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md",
+      "sha256": "4eb27c50795a101849cd59555185b06adea1fe44b4e391e4d4fd3acf6a8a29be",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md",
+      "sha256": "b93cd184647c098a40268cabbc1cd169a1170e985c17081a08502b9b6e5ad2b4",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/groups.tsv",
+      "sha256": "9b87a28999e95f40898f089f4a28b21cb1feebdfb3b411e2926d936060d16611",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/receipt.json",
+      "sha256": "f6cd8a09c44113e586ef4ae24823576dc8ec1edecc41055539192124b8c23af1",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_reconstruct_v1.py",
+      "sha256": "eaf934588830d593955252bbc784f070d255bbc709fcf3ce2caf031608aea8de"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_verify_v1.py",
+      "sha256": "bb08ec07ef336d6f1e06a670ef593ef0ae58003c8b6a733113816c908cebbdd9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_plot_v1.py",
+      "sha256": "381d3c80432ec303133d9e437f914ac7a7bc93a5616219122af2cb85fea4b2a3"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s6a_reconstruct_v1.py",
+      "sha256": "f1e6eeb4b6b8ce9b032555343ee145583fa88ac8a524a7e7fbcfe49ba8519794"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+      "sha256": "517c3274e7e447a489420c4a028ca30f68df70bca657073adbe4531529a5d729"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_verify_v1.py",
+      "sha256": "cb84f1ffbbb7e27b646dd6b1afaea13cf62caf1402b3fdc487ab1d7c8ae87efa"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_SOURCE_MAP_V1.json",
+      "sha256": "024ccb9749deddb7d78a51a05b296cd9d5c862a174a002383374b1bb33039996"
+    }
+  ]
+}

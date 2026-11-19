@@ -15,8 +15,13 @@ report was then reviewed without further revision. The research gate against
 `d0429d0`, 20,267 repository checks and 308 local links passed. Preserve S5F
 locally at `2514379`. The [S6 assessment](S6_DECISION_V1.md) and
 [S6A prospective design](S6A_DAILY_AREA_DESIGN_V1.md) were reviewed without revision.
-S6A implementation and governed execution are authorized. D180 acquisition only
-is also authorized; effect extraction needs a separate reviewed contract.
+S6A implementation and governed execution are authorized. Its exact map and
+contract are prepared for preflight/freeze; six artificial tests passed. No actual
+S6A contrast has run. The exact-zero area-floor guard prevents baseline-subtracted
+floor values being interpreted as persistent repair differences. Four D180 tracks
+are now [acquired with hashes](D180_ACQUISITION_V1.md); reader/chromosome
+qualification and effects have not run. Effect extraction and D6 marker QC need
+separate reviewed contracts.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and

@@ -1,7 +1,7 @@
 # S6A prospective design: all supplied daily wound-area comparisons
 
 19 November 2026. Owner `Nk17-P01`. **Coordinator-approved for implementation
-and governed execution; a committed frozen contract is still required.** The completed
+and governed execution; freeze this version with the exact contract/code before running.** The completed
 [S5F result](S5F_RESULTS_V1.md) and [S6 assessment](S6_DECISION_V1.md) motivate
 this exposed descriptive extension. No new daily-area mean or contrast has been
 calculated. Existing paper curves, S5F summaries and group/day occupancy are
@@ -123,6 +123,16 @@ healing of a fixed cohort. Day-0 adjusted values are exactly zero by constructio
 and provide no evidence of biological equivalence. If any required current or
 baseline group is missing, retain NA and the exact missing-group reason.
 
+Flag separately every contrast/day at which **each contributing group has at
+least one measured record and all its measured areas are exactly zero**. At that
+observed area floor, `C(d) = 0` and the available adjusted contrast is mechanically
+`A(d) = -C(0)` (also for medians). A nonzero adjusted value there is not a persisting
+repair advantage or residual rate difference. Missing records are not zeros;
+contrast cancellation among nonzero groups is not an area floor. No near-zero
+threshold is introduced. Show the actual floor cases alongside structural day-0
+zeros and mark floor points in the adjusted figure. This coordinator-requested
+interpretation clarification precedes freeze and changes no estimand or day grid.
+
 In particular, EDF6f day 10 has no WT data: its WT history contrast and
 KO-minus-WT contrast, raw and baseline-adjusted, must be NA. The KO contrast
 may still be described. Do not drop the entire endpoint or fill WT with zero.
@@ -172,3 +182,27 @@ mixed and unsupported outcomes. Coordinator design review is complete; implement
 register, preflight and freeze a separate exposed contract before numerical work.
 The [literature context](LITERATURE_CONTEXT.md#s6-targeted-literature-refresh--19-november-2026)
 and S6 assessment must be evidence references in that contract.
+
+
+## Implementation checkpoint before freeze
+
+The exact [source map](S6A_SOURCE_MAP_V1.json) contains 62 endpoints, 228 group/day
+records and 166 contrast/day rows. The six artificial tests passed, including
+exact-zero floors, missing baselines, nonzero cancellation and a tiny positive
+area that must not qualify as zero. The primary fixture passed 1,930 independent
+source/arithmetic checks (maximum scaled error 3.62027e-17). Tampered floor flags
+are rejected. These tests used constructed workbooks only. An earlier artificial
+tamper test exposed an uncaught Decimal parse exception; the verifier now raises
+an explicit assertion for a nonnumeric numeric-output field and remains fail-closed.
+All four artificial layouts rendered; adjusted and coverage layouts were visually
+inspected. The known day-10 NA notice was moved from the plotting area to the
+panel title to prevent overlap. All four actual figures still require post-run review.
+
+The contract binds eight source/context inputs and seven code/config dependencies,
+including the immutable S5F reader helpers. It expects these sixteen outputs:
+`source_cells.tsv`, `observations.tsv`, `groups.tsv`,
+`group_baseline_components.tsv`, `contrasts.tsv`, `metadata.json`, `runtime.json`,
+`verification.json`, and PNG/PDF pairs named `fig01_daily_area_groups`,
+`fig02_raw_area_contrasts`, `fig03_day0_components`, `fig04_source_coverage`.
+The new run ID is `naik2017_s6a_daily_area_v1`; the runner separately saves its
+receipt and logs. No earlier analysis is rerun.

@@ -20,7 +20,11 @@ no further revision; S5F is preserved at `2514379`. The [S6 assessment](S6_DECIS
 now proposes the [all-panel daily-area design](S6A_DAILY_AREA_DESIGN_V1.md) first,
 with fixed D6 marker QC and D180 proxy durability retained as separate candidates.
 The design is coordinator-approved for implementation and governed execution;
-no extension effects have been calculated.
+the exact map/contract and six passing artificial tests are ready for freeze.
+No extension effects have been calculated. The explicit area-floor guard prevents
+nonzero baseline-subtracted values at all-zero observed areas from being called
+persisting repair differences. [Four D180 tracks are acquired](D180_ACQUISITION_V1.md)
+with hashes; their reader qualification and separate effect contract remain next.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
