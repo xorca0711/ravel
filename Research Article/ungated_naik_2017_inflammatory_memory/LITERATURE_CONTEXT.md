@@ -218,3 +218,36 @@ when they bear on the result being interpreted or a proposed follow-up. Refresh
 the precise contrast as Naik evidence develops; this is research grounding,
 not a separate study timetable. No automatic portfolio expansion or full-dataset
 acquisition follows from these leads.
+
+## Bounded functional-source qualification — 19 November 2026
+
+Following reviewed S5M v2 at `7051b45`, the coordinator authorized the original
+S5F scope plus F4h and F5a/b/c. The [S5F method](S5F_METHOD_V1.md) and
+[source map](S5F_SOURCE_MAP_V1.json) bind the three saved version-of-record
+MOESM7/10/11 workbooks. The supplied final-PDF Figure 1/4/5 captions at saved
+text lines 338–366/895–923/1153–1181 provide endpoint-specific Ns and animal-unit
+evidence; exact source cells retain discrepant Ns and unknown record aggregation.
+The axes at lines 185/329, 803/894 and 1059/1150–1152 explicitly identify rate
+constant k in day^-1. Workbook unit omission therefore does not prevent the
+qualified rate comparison. No broad source search or methods extraction was
+repeated. This is source qualification, not an additional primary study or
+independent replication. Actual functional-source results remain pending.
+
+A separate coordinator source check on 19 November recovered MOESM16 (SHA-256
+`58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec`)
+and MOESM17 (`196ca23b612207b032a497022fdd8292aa58e5b206d005bcfa27aa6d3fba2fe4`).
+The coordinator reports EDF5e/f wound-area sheets for Aim2KO/OE and EDF6d/e/f/g
+for YVAD, Il18KO, Il1r1KO and OE-by-blockade. Saved Nature link titles misnumber
+these as ExtendedData10/11; workbook sheet names and supplied PDF identify EDF5/6.
+Only labels/dimensions have been qualified by that source check, not effects,
+animal IDs, column trajectories or fit constraints. These are bounded S6 leads
+after S5F review; no extension calculation is assigned. The current main-figure
+workbooks supply the assigned fitted summaries, so their limits must not be
+phrased as global unavailability of raw wound-area records.
+
+The coordinator's subsequent EDF6g occupancy qualification records columns
+B:D / E:H / I:K / L:O as Ctrl+Ig / Ctrl+anti / Aim2OE+Ig / Aim2OE+anti, with
+3/4/3/4 numeric records at every day 0–10. Main F5g fitted-summary N is 3/3/4/4.
+This additional mismatch is retained as an S6 qualification issue; it does not
+justify swapping labels, overwriting the published summary or assuming complete
+animal trajectories. The coordinator has not calculated raw-area effects.

@@ -237,7 +237,10 @@ was frozen at `26d23e8` and has now executed with raw-count semantic verificatio
 All coefficients, covariance records, ATAC values and Figure 1 are byte-identical;
 corrected Figure 2 was visually inspected. [Actual v2 results](S5M_RESULTS_V2.md)
 were reviewed without numerical/figure revision; S5F is authorized after local
-preservation. Preserve ATAC zero flags because changes in
+preservation at `7051b45`. The [S5F method](S5F_METHOD_V1.md) now maps 35 endpoints,
+83 groups and 38 contrasts, with raw/reference/summary distinctions and exact
+source/caption Ns. Four artificial tests and 700 independent XML/Decimal checks
+passed. Freeze S5F separately before calculation. Preserve ATAC zero flags because changes in
 other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service

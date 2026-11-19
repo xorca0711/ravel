@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s5f_functional_sources_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What do the supplied finite wound-repair, outgrowth, proliferation, normalized-expression, activity and protein source measurements show under their own history/perturbation comparisons?",
+  "decision": "Retain every assigned endpoint/group/contrast, source/caption N discrepancy and unfavorable result. Return actual S5F outputs and figures for coordinator review, then continue S6 and justified extensions. No molecular mediation, equivalence or biological acceptance.",
+  "strongest_rival": "Unknown source-record aggregation/matching, sparse daily records, caption-versus-source N discrepancies and normalized reference constants could be misread as individual biological measurements or population precision. Comparing OE plus blockade only to an untreated control can confound the within-blockade OE effect.",
+  "discriminator": "Freeze all 35 endpoints, 83 groups and 38 explicit contrasts by source coordinate and header. Keep source records, fixed qPCR references and reported Mean/SE/N separate. Reconstruct individual source-record deletion influence only for eligible record-based contrasts. For F5g compare OE effects within both blockade backgrounds before their difference. Independently read XLSX ZIP/XML and use Decimal arithmetic.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5F_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5F_SOURCE_MAP_V1.json",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5_PROPOSAL_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published findings, source values and fitted summaries were exposed through prior coordinator review and bounded technical source qualification on 19 November 2026. Exact requested source cells, headers, Ns and PDF caption/axis locators were inspected before freeze. The four artificial tests read only constructed workbooks. No actual S5F contrast was calculated by this implementation before freeze; prior exposure is retained.",
+  "biological_unit": "Figure 1/4/5 captions explicitly identify n as biologically independent animals, and F1g labels source rows biological replicates. Some exact source-record aggregation, animal IDs, technical nesting and cross-panel matching remain unknown; F5f has three source records per group despite three technical replicates per animal in the caption. Finite record/summary contrasts only.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Shared Naik 2017 source study, not independent replication of molecular stages. Unknown individual animal links across conditions, days, assays and panels. F1b sparse columns do not establish trajectories; F5f averaging/matching is undocumented; common-control contrasts and difference-of-effects reuse their groups. No pairing, pooling or new animal N.",
+  "population_and_selection": "Only exact cells in S5F_SOURCE_MAP_V1: 35 endpoints and 83 groups from MOESM7/10/11. All finite source observations and blank slots retained. Explicit all-1 normalization-reference groups remain references. No outcome threshold, source/caption reconciliation by deletion, panel winner selection or imputation.",
+  "contrast": "Twenty record-based and eighteen reported-rate contrasts: PI minus Ctrl for each declared within-endpoint/time comparison; F5f both cytokines minus Ctrl and direct IL1beta minus IL18; history effects within each genetic/inhibitor background and their difference; F4h OE minus Ctrl; F5g OE effects within control-Ig and anti-IL1R1 and their difference. F1b daily area is observation/mean/missingness display only.",
+  "endpoint": "Distinct source units: wound area mm^2, tongue length micrometers, EdU percentage/percentage-point difference, day5/day10 outgrowth mm, normalized expression fold/arbitrary units, CASP1 U/g total protein, cytokine pg/g total protein and reported fitted rate constant day^-1 qualified from final-PDF axes. Not division rate, instantaneous migration speed, raw control variance, chromatin memory maintenance or causal molecular mediation.",
+  "methods": "S5F_METHOD_V1 and the complete source map define all cells/header guards/Ns/coefficients. Main read-only openpyxl extraction preserves blanks and zeros. Record groups retain mean/median/source extrema/sample SD, with empirical SD NA for normalization references and singletons. Reported groups retain Mean/SE/N only. Contrasts are fixed linear combinations of means and, for records, medians. Delete each nonreference source record once when its contributing group remains nonempty; save all influence values/range as a diagnostic, never CI. No individual-rate fits, SE combination or inference. Independent standard-library ZIP/XML parser and 50-digit Decimal verification reconstruct every source cell, N, group statistic, contrast and deletion; scaled computational tolerance 1e-10. Five distinct PNG/PDF figures retain all assigned endpoints.",
+  "missingness_and_exclusions": "Every intended blank slot is retained separately from numeric zero. Fail changed headers/labels, formulas, nonnumeric/nonfinite outcomes, wrong expected Ns, negative reported SE or noninteger N, altered fixed reference constants and failed independent checks. No imputation or forced caption N. Only deletion diagnostics omit a removal that would empty a group; normalized references are never deleted. All original source records remain.",
+  "multiplicity": "All 38 declared contrasts and all endpoint/source discrepancies retained without significance selection. No p-values, confidence intervals, equivalence tests, independent comparison count or cross-panel meta-analysis. Source medians and deletion ranges are descriptive, not additional confirmation.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite source-record and reported-summary reconstruction only. Source-reported SE is retained without deriving contrast SE, individual-rate distributions, power or population intervals. Source/animal aggregation and matching uncertainties remain. The 1e-10 tolerance is arithmetic only.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Functional source perturbation comparisons concern measured repair responses, not chromatin-memory establishment/maintenance or molecular mediation. Loss of history advantage does not imply loss of all repair. RNA, normalized qPCR reference, protein, activity, outgrowth, labeling percentage and fitted rate remain distinct. Published animal-unit evidence is preserved, while unknown aggregation/N discrepancies limit this reconstruction. Exact source Ns and any unfavorable contrasts remain visible.",
+  "stop_rule": "Require committed frozen contract, method, source map/code and matching source hashes. Fail unexpected cells/headers/units/Ns, formula/nonfinite outcome, wrong reference constants or independent verification; preserve failed runs. Do not refit source trajectories, pair records, combine SEs, infer variance from all-1 references, relax Ns or overwrite prior outputs. Return completed S5F for review before S6/extension execution. No broad restricted-source retry, external publication or account/billing changes.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s5f_functional_sources_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_cells.tsv",
+    "observations.tsv",
+    "groups.tsv",
+    "contrasts.tsv",
+    "deletion_diagnostics.tsv",
+    "metadata.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_tongue_edu.png",
+    "fig01_tongue_edu.pdf",
+    "fig02_outgrowth.png",
+    "fig02_outgrowth.pdf",
+    "fig03_expression_activity_protein.png",
+    "fig03_expression_activity_protein.pdf",
+    "fig04_reported_rates.png",
+    "fig04_reported_rates.pdf",
+    "fig05_daily_wound_area.png",
+    "fig05_daily_wound_area.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separately authorized exposed S5F after reviewed S5M v2 preservation at 7051b45. Exact source scope includes the original proposal and coordinator-qualified F4h/F5a/F5b/F5c additions; no upstream reruns.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM7_ESM.xlsx",
+      "sha256": "b7eeaedf36b09d4ab9e2cb778bd2e66f888f99ce3d5eb10fcad988d18a11ed43",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM10_ESM.xlsx",
+      "sha256": "33b1232b94e95d38d42062ca8e7ea174b7fdaad93fb2e8edb759c5f306969be1",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM11_ESM.xlsx",
+      "sha256": "8f80255f15432b4ee163bfe08c8a15ba49ead3feef47975d73fb82f7141a05cf",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_SOURCE_MAP_V1.json",
+      "sha256": "b10b827a6c8554b1dc4c60d5935d1896ce7b4924685fcb6a29427f13cce20421",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt",
+      "sha256": "96aca458077196106c3c0c36b7c269017b4a8500092c14e2c8bacdd59d45246f",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_METHOD_V1.md",
+      "sha256": "ac0af73cf6a1851009ae95be42d7454a4bd77df80e6be029d0d0ab14224ae396",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md",
+      "sha256": "7b003c68eae80f3eec43e94c06aa47bcd09fb4395efb31edf4be3d556ea88eaa",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/receipt.json",
+      "sha256": "bc185c9f0ca6d5e0dc0eea4f3a58c1657b8e1c4ec4b664fb4522df64504097ac",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+      "sha256": "517c3274e7e447a489420c4a028ca30f68df70bca657073adbe4531529a5d729"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_verify_v1.py",
+      "sha256": "cb84f1ffbbb7e27b646dd6b1afaea13cf62caf1402b3fdc487ab1d7c8ae87efa"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_plot_v1.py",
+      "sha256": "c8552d93376d8b3541d4580926f5157d532f1701bce0796aab42280bdc116167"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s5f_reconstruct_v1.py",
+      "sha256": "504c02df03d1737f94c4bae3c45a50af873da29158cd3da4f110c65dd240328f"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_SOURCE_MAP_V1.json",
+      "sha256": "b10b827a6c8554b1dc4c60d5935d1896ce7b4924685fcb6a29427f13cce20421"
+    }
+  ]
+}

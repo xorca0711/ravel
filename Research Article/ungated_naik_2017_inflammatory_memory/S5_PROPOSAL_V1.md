@@ -1,13 +1,14 @@
 # S5 proposal: connect molecular descriptions with functional evidence
 
-18 November 2026. **S5M is coordinator-reviewed and authorized after S3 finalization;
-S5F remains prepared for later review/assignment after the S5M result.**
-Prepared while the frozen S3 run was extracting signals, without viewing partial
-S3 effects or selecting integration results. The coordinator subsequently reviewed
-completed S3 and this proposal without numerical revision. Freeze S5M code/contract
-after preserving S3; do not execute S5F before S5M result review. Owner remains `Nk17-P01`.
-This uses the coordinator's bounded 18 November source/caption review and supplied
-S5 framing, not a new broad literature or workbook search.
+Prepared 18 November 2026; progression updated 19 November. **S5M v2 is
+coordinator-reviewed and preserved at `7051b45`; S5F is now authorized.**
+The original preparation below remains the exposed rationale. The exact current
+S5F specification is [S5F_METHOD_V1.md](S5F_METHOD_V1.md) and its
+[complete cell/endpoint/group/N/contrast map](S5F_SOURCE_MAP_V1.json), incorporating
+the coordinator-qualified F4h and F5a/b/c additions. It binds separate endpoint
+units and all source/caption discrepancies; no new RQ or acceptance is implied.
+The bounded source map was checked against the saved workbooks and supplied
+final-PDF Figure 1/4/5 captions/axes on 19 November. No broad source retry.
 
 ## Purpose and decisions
 
@@ -134,10 +135,12 @@ area and a fitted decay parameter remain different measured endpoints.
 
 ## Before execution and delivery
 
-After S3 preservation: implement and test the approved S5M specification, freeze
-its code/contract, and return the actual result for review before S5F. For later
-S5F, qualify only the exact remaining source fields, implement edge-case tests and
-freeze its separate code/contract. Both stages require
+S5M v2 has completed review and preservation. S5F now has the explicit 35-endpoint,
+83-group, 38-contrast map, with tested separate source readers/arithmetic. Freeze
+its own code/contract before calculation. The final-PDF axes qualify fitted rate
+constants as day^-1 despite the omitted workbook unit. The additional F4h and
+F5a/b/c cells, normalization references and discrepancies are detailed in the
+current S5F method; its frozen map owns exact execution choices. Both stages require
 preflight and execute through the runner. Independently verify all joins, source
 cells, denominators, contrasts, covariance identity and leverage calculations;
 inspect the actual figures. Preserve mixed/negative outcomes and source limits.

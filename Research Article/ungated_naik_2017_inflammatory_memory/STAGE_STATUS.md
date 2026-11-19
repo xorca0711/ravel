@@ -53,7 +53,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S3: accessibility | [Adapted v1 result](S3_RESULTS_V1.md) executed from `28a62d9`; 2,788,974 independent checks, 608 exact mean rereads and receipt integrity passed; figures reviewed | Coordinator-reviewed and preserved at `8ada940`; original retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
-| S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) ran from `26d23e8`; 12,361,838 exact raw-count/preservation checks and receipt integrity passed; corrected anchor figure inspected | Coordinator-reviewed without numerical/figure revision; preserve locally, then freeze/execute authorized S5F; retain defective v1 and all original numerical results |
+| S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) coordinator-reviewed and preserved at `7051b45`; [S5F method](S5F_METHOD_V1.md) and exact 35-endpoint/83-group/38-contrast map prepared; four tests/700 independent fixture checks passed | Freeze the separate S5F contract/code, run and independently verify all assigned source comparisons, inspect actual figures and return S5F for review |
 | S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
 
 The initial technical turn failed during source qualification. A narrower
@@ -85,8 +85,9 @@ S3 is preserved at `8ada940`. S5M v1's aggregate-warning defect is preserved;
 v2 ran from `26d23e8` and passed 12,361,838 exact checks. Its coefficients,
 covariances and ATAC table are unchanged; the corrected figure was inspected.
 The coordinator reviewed v2 without numerical/figure revision and authorized
-S5F after local preservation. Freeze its exact source-cell/endpoint/group/N map
-and implementation under a separate exposed contract before calculation. The later functional-source additions remain preparatory.
+S5F after local preservation at `7051b45`. Its exact source-cell/endpoint/group/N
+map and implementation are prepared and tested; freeze a separate exposed
+contract before calculation. The later functional-source additions remain preparatory.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -112,3 +113,15 @@ qualified scope and stage review. None was resumed during recovery.
 This is an unfinished execution checkpoint. It is **not** a finding that further
 extension analyses are uninformative or unavailable. No claim grade, canonical
 question, governance boundary, frozen evidence or external publication changed.
+
+## Usage-limit interruption and resumption — 18–19 November 2026
+
+The technical session stopped at an account usage limit after preserving S5M v2
+at `7051b45`. The coordinator reported the 19 November 12:20 KST reset had passed
+and relayed the owner's instruction to continue at approximately 12:22 KST.
+The scoped worktree was clean; `xorca0711`/Xorca identity and main `d0429d0` were
+reverified on resumption. This interruption is separate from the earlier content
+restriction and supplies no source-availability or scientific conclusion.
+No earlier analysis is rerun, settled approval reopened, or account/billing
+setting changed. S5F continues in the same worktree; actual results need review
+before S6 and justified extensions.

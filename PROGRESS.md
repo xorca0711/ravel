@@ -2,40 +2,54 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-18 November current result: [S5M v2](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md)
-ran from frozen correction setup `26d23e8`. It separates raw count zeros from
-adjustment ranges including zero: only 2/11,007 primary genes have any count
-zero, while 9,966 have a range including zero. All five paper-selected anchors
-have count-zero false. V1's semantic failure and all original outputs remain
-preserved; no eligibility or numerical coefficient changed.
+19 November current checkpoint: [S5F](Research%20Article/ungated_naik_2017_inflammatory_memory/S5F_METHOD_V1.md)
+is authorized after coordinator-reviewed S5M v2 preservation at `7051b45`.
+The exact source map contains 35 endpoints, 83 groups and 38 contrasts, including
+F4h and F5a/b/c. Original workbook cells/Ns and final-PDF captions were checked;
+PDF axes qualify fitted rate constants as day^-1 despite omitted workbook units.
+Normalized all-1 controls remain references, source records remain distinct from
+undocumented animal matching, and every source/caption N discrepancy is retained.
 
-Independent verification passed 12,361,838 exact checks using 16 original raw-count
-files, all copied gene/anchor fields and five byte-preserved files. All 312
-coefficients/96 covariance rows, ATAC table and Figure 1 are unchanged; the
-coordinator's Figure 1 review is reused. Corrected Figure 2 was visually inspected,
-and receipt integrity passed. V2 took 42.110 seconds; run files total 43,796,108
-bytes. No real v2 run failed or upstream biological analysis was rerun.
+Four artificial tests and 700 independent ZIP/XML/Decimal checks passed (maximum
+scaled error 8.16485e-17). A workbook handle error found by formula-rejection
+handling was corrected before the passing rerun. No real S5F calculation has run.
+Preflight passed for eight inputs, four Python files plus the exact source-map
+configuration and 18 outputs. Repository validation passed 20,232 checks and
+103 affected-document links. The setup research gate initially rejected the
+map as an unregistered scientific asset because it was input-bound only; its
+same immutable hash is now also registered as a code/config dependency. The
+full gate rerun passed against refreshed main `d0429d0`; the already-passed
+20,232 repository checks and 103 local-link checks remain valid.
+Next: freeze its separate exposed contract/code, run, independently verify and
+inspect all five actual figures; return completed S5F for coordinator review,
+then continue S6 and justified extensions. Do not rerun earlier molecular stages.
+The coordinator separately recovered small MOESM16/17 wound-area source workbooks
+for EDF5/6. They are S6 qualification leads only; no numerical extension is yet
+assigned. The present rate limit concerns these assigned main-figure summaries,
+not global absence of raw wound-area records. In the coordinator-qualified EDF6g
+area sheet, Ctrl+Ig / Ctrl+anti / OE+Ig / OE+anti have 3/4/3/4 numeric records on
+every day 0–10, versus main F5g rate-summary N 3/3/4/4. Preserve this additional
+source discrepancy for S6; do not swap groups or rewrite reported summaries.
 
-Primary ±1 kb MOR Pearson is 0.425 at D6 and 0.144 at D30. Small negative
-adjusted recall associations arise from larger positive baseline than post-wound
-covariance components, not demonstrated repression. All universes/widths/reference
-and normalization alternatives remain in the report and figures. The coordinator
-reviewed the complete report, audit, raw-count verification and corrected figure
-without numerical/figure revision. S5F is authorized after this local preservation;
-freeze the exact source-cell/endpoint/group/N map and implementation before its
-own exposed run, then return actual S5F for review. S6 remains.
+The prior technical turn ended at an account usage limit. The coordinator relayed
+the owner's continuation after the stated 19 November 12:20 KST reset; this is
+separate from the older content restriction. The scoped worktree was clean on
+resumption, GitHub was reverified as `xorca0711` and author/committer as Xorca,
+and refreshed main remains `d0429d0`. No account/billing or publication change.
 
-The v2 result research gate passed against refreshed main `d0429d0`, with 20,221
-repository checks, 111 affected-document links, all 17 expected run/log files
-tracked and whitespace checks passed. The reviewed stray PDF-link plus was
-removed. All local agent commits retain verified Xorca author/committer identity.
+Preserved [S5M v2](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md)
+corrects count-zero/range semantics with 12,361,838 exact raw-count/preservation
+checks. Its coefficients and covariances remain unchanged; all figures were
+reviewed. The result gate, 20,221 repository checks and 111 local links passed.
+Primary RNA–ATAC association is larger at D6 than D30; negative adjusted
+covariance reflects baseline subtraction, not demonstrated repression.
 
 S3 is preserved at `8ada940`; coordinator review requested no numerical/figure
 revision. Its 2,788,974 independent checks, 608 exact mean rereads, research gate
 against `d0429d0`, 20,170 repository checks and 380 local links passed. Original
 domain/normalization limits, zero-tie rank interpretation and the earlier source
 restriction remain. S3Q is preserved at `6f4fdf0`. The preparatory S5F additions
-retain panel-specific units/Ns and await corrected S5M review. No publication,
+retain panel-specific units/Ns and are included in the authorized current S5F map. No publication,
 external inquiry or safeguard change is authorized.
 
 Preserved S4B result:  [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
