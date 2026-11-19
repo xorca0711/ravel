@@ -150,3 +150,6 @@ analysis/research/runs/wp_compass_sensitivity_v1*/pool_expression.tsv
 # New checkpointed P001 attempt outputs stay private/ignored until reviewed.
 /analysis/research/runs/p001_metadata_v1_*/
 /analysis/research/runs/p001_figure1_v1_*/
+
+# S0 v2 archives these original failed metadata-run files byte for byte.
+/analysis/research/runs/ng26_s0_v1/
