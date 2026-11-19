@@ -334,3 +334,37 @@ The [S6 assessment](S6_DECISION_V1.md) retains original-domain recovery and raw-
 processing as separately qualified options. The exact public D180 headers and
 raw-read metadata demonstrate availability leads, not ready or independently
 replicated biological analyses. None of these candidates changes an RQ's status.
+
+
+## S6A result interpretation — 19 November 2026
+
+[S6A v1](S6A_RESULTS_V1.md) now reconstructs all supplied daily areas underlying
+Naik et al. (2017) Figs. 4g/h and 5b/d–g, Extended Data Figs. 5e/f and 6d–g.
+These are the same published repair experiments, not independent support for a
+new mechanism. Raw WT/standalone-OE directions, mixed altered-background values,
+day-0 offsets and changing record coverage refine the finite source description.
+The completed analysis contains 16 structural day-0 adjusted zeros but no
+contrast where every contributing group's measured areas are all zero. The
+prospective floor guard remains valid; nonzero baseline-subtracted values at
+such a floor could not establish persistent repair advantage.
+
+A targeted original-source audit changes the EDF6g interpretation. Its exact
+MOESM17 merged headers place Ctrl+Anti-IL1R1 at E2:H2 and Aim2OE+Control Ig at
+I2:K2, with daily Ns3/4/3/4 in full source order. The supplied final PDF page15,
+Extended Data Fig. 6g, labels the low-area curve Aim2OE Isotype, whereas the
+literal workbook labels assign the low-area series to Ctrl+Anti-IL1R1. Related
+main fitted-summary Ns are3/3/4/4. The coordinator visually checked the original
+panel and merged headers on 19 November; the report retains exact locators and
+the local source-rendering hash. No pixel fit, group swap or repaired result was
+computed. A middle-label interchange is only an unverified provenance hypothesis.
+**Hold this panel's biological interpretation for authoritative mapping.** This
+source-level inconsistency neither proves an Aim2-induced repair reversal nor
+refutes the published biology, and does not invalidate the other five panels.
+The current README/report carry the hold; frozen S5F/S6A measurements are intact.
+
+The earlier bounded literature refresh remains relevant to endpoint distinctions.
+Walton's oral closure/remodeling result does not resolve Naik's group mapping;
+Larsen/Cowley mechanistic premises do not repair a source identity. No new RQ,
+mechanistic contribution, source contact or public correction is asserted. Next
+are the approved fixed D6 marker consistency check and a separately qualified
+D180 proxy comparison, each under its own exposed contract.

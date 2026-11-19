@@ -2,32 +2,35 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-19 November current checkpoint: reviewed S5F is preserved at `2514379`; the
-[S6 assessment](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md)
-and approved [S6A design](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md)
-were preserved at `fcb0357`. S6A implementation, exact source map and exposed
-contract are now prepared for preflight/freeze before execution. All six artificial
-tests passed, including exact area-floor and missing-baseline cases; the main
-fixture passed 1,930 independent checks (maximum scaled error 3.62027e-17).
-The coordinator-requested floor guard distinguishes structural day-0 zeros,
-all-contributing-record zeros, cancellation and NA. At an observed area floor,
-nonzero baseline-adjusted values are not persisting repair differences.
+19 November current checkpoint: [S6A v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
+executed from frozen setup `8155411`, preserving 62 endpoints, 228 group/days
+and 166 contrast/days (two required EDF6f day10 NA rows). Independent ZIP/XML/
+Decimal verification passed 27,894 checks (maximum scaled error 3.06e-15);
+receipt integrity passed. Sixteen outputs plus receipt/logs are registered.
+All four actual figures and numerical implementation were coordinator-reviewed
+without revision; full result-report review is now complete without further
+revision. Result-stage research gate against refreshed main `d0429d0`, all 20,334
+repository checks (including local links) and whitespace passed; local
+preservation remains next.
 
-No actual S6A area effect has been calculated. The complete approved grid remains
-62 endpoints, 228 group/day records and 166 contrast/day rows. EDF6f day10 WT
-and dependent contrasts stay NA; EDF6g within-Ig and within-anti comparisons
-remain separate. Input-bound preflight and research gate against refreshed main `d0429d0` passed,
-as did all 20,308 repository checks and whitespace. Next: preserve the frozen
-setup commit, governed run, independent verification, actual figure review and
-completed report review.
+EDF6g biological interpretation is held: exact workbook headers conflict with
+the final PDF page15/Extended Data Fig.6g curve labels and main-summary Ns.
+Literal-label within-anti OE area is positive on all days1–10, but this source
+inconsistency is not an Aim2 repair reversal or refutation of the published
+biology. No groups were swapped or outputs repaired. The other five panels
+remain interpretable within finite-source limits. There are 16 structural day0
+adjusted zeros and no all-contributing-record area-floor contrast. All earlier
+frozen results remain unchanged, including S5F at `2514379`.
 
-[D180 acquisition](Research%20Article/ungated_naik_2017_inflammatory_memory/D180_ACQUISITION_V1.md)
-completed: four original BigWigs, 3,118,510,945 bytes, matched expected lengths
-and recorded SHA-256 hashes. No reader/chromosome qualification or D180 effects
-yet. D180 effects and fixed five-marker D6 QC need their separate reviewed
-contracts. Original retained-domain coordinates and cross-time platform/record
-matching limits remain. No earlier analysis was rerun; no publication or human
-scientific acceptance follows. This analysis sequence remains unfinished.
+The setup preflight/research gate against refreshed main `d0429d0`, all 20,308
+repository checks and whitespace passed. Result-stage checks have passed; preserve locally, then continue. After S6A closure, the coordinator authorized exact five-marker × four-D6-
+library QC: frozen S2 factors, original metadata, no sex assignment/exclusion/
+correction/new marker or pairing. Prepare/freeze its separate exposed contract
+and return actual results for review. [D180 acquisition](Research%20Article/ungated_naik_2017_inflammatory_memory/D180_ACQUISITION_V1.md)
+is complete (four files; 3,118,510,945 bytes). Metadata qualification can be
+prepared under its own contract; D180 effects require a separately reviewed
+method. No D180 effects/new D6 marker values have run. Final S6 synthesis remains
+unfinished; no external inquiry, publication or human scientific acceptance.
 
 The prior technical turn ended at an account usage limit; owner continuation
 after the 19 November 12:20 KST reset is recorded separately from the older

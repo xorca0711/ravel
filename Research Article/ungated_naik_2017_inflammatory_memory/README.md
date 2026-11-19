@@ -6,25 +6,39 @@ existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
 paper-driven workflow. Execution and coordinator review confer no human
 scientific acceptance.
 
-**Current result:** [S5F v1](S5F_RESULTS_V1.md) reconstructs 35 functional/source
-endpoints and all 38 declared contrasts. PI epithelial tongues and day-10
-outgrowth are larger in the supplied records; EdU differences vary by day.
-Reported history advantages change with Aim2, CASP1 and IL1R1 perturbations,
-while the Il18KO contrast remains positive. In the separate F5g comparison,
-Aim2 OE effects are +0.30 under Ig and +0.16 under anti-IL1R1 (difference −0.14
-day^-1). Equality of OE+anti to Ctrl+Ig does not demonstrate complete blockade.
-Source/caption N discrepancies and normalized reference semantics remain
-explicit. All 13,821 independent checks passed; all five figures were inspected.
-Coordinator stage review of the complete report, figures and numbers requested
-no further revision; S5F is preserved at `2514379`. The [S6 assessment](S6_DECISION_V1.md)
-now proposes the [all-panel daily-area design](S6A_DAILY_AREA_DESIGN_V1.md) first,
-with fixed D6 marker QC and D180 proxy durability retained as separate candidates.
-The design is coordinator-approved for implementation and governed execution;
-the exact map/contract and six passing artificial tests are ready for freeze.
-No extension effects have been calculated. The explicit area-floor guard prevents
-nonzero baseline-subtracted values at all-zero observed areas from being called
-persisting repair differences. [Four D180 tracks are acquired](D180_ACQUISITION_V1.md)
-with hashes; their reader qualification and separate effect contract remain next.
+**Current result:** [S6A v1](S6A_RESULTS_V1.md) preserves all six daily-area
+panels, 62 endpoints, 228 group/day summaries and 166 contrast/day rows. Its
+27,894 independent checks and receipt integrity passed; all four actual figures
+were visually reviewed by the technical session and coordinator without a
+numerical or figure revision request. WT and standalone Aim2-OE area comparisons
+retain mostly consistent post-wound directions; altered-background and day-0
+comparisons expose mixed values and baseline dependence.
+
+**EDF6g biological interpretation is held.** Its explicit workbook headers,
+published Extended Data Fig. 6g (supplied final PDF page15) and fitted summaries
+have an unreconciled group-label/source discrepancy. Literal-label anti-IL1R1
+OE−Ctrl area is positive on all days1–10, whereas [S5F](S5F_RESULTS_V1.md) retains
+a positive reported decay-rate advantage. This is a provenance issue, not proof
+that Aim2 reverses repair or refutes the published biology. No groups were
+swapped, fits rerun or frozen outputs repaired. The other five panels retain
+their finite-source interpretation. See the report's exact header ranges and
+primary-figure audit. Source/caption Ns and missing EDF6f WT day10 stay explicit.
+
+![All daily area contrasts; EDF6g source identity unresolved](../../analysis/research/runs/naik2017_s6a_daily_area_v1/fig02_raw_area_contrasts.png)
+
+Every panel/day is retained. **EDF6g uses literal workbook labels; its biological
+mapping is on hold.** Positive values mean larger area remaining. Day-0 subtraction
+is a secondary group-summary comparison, not corrected kinetics; the sixteen
+adjusted day-0 zeros are structural. No actual all-contributing-record area-floor
+contrast occurred. [Complete source, baseline and coverage figures](S6A_RESULTS_V1.md#figures-and-verification).
+
+S5F is preserved at `2514379`; its mixed EdU, separate outgrowth/activity/protein
+endpoints and reference/N qualifications remain. The [S6 assessment](S6_DECISION_V1.md)
+now leads to the approved bounded five-marker D6 source QC, followed by separately
+qualified D180 proxies. [Four D180 tracks are acquired](D180_ACQUISITION_V1.md)
+with hashes; reader qualification and a separate reviewed effect method remain.
+No new D6 marker values or D180 effects have been calculated. S6 synthesis and
+human scientific decisions remain unfinished.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
@@ -238,11 +252,12 @@ receipt are registered; 13,821 independent ZIP/XML/Decimal checks passed. All
 five figures were reviewed by the technical session and coordinator without a
 revision request; final report review is complete. The research gate, 20,267
 repository checks and 308 local links passed. The [S6 assessment](S6_DECISION_V1.md)
-and [approved S6A design](S6A_DAILY_AREA_DESIGN_V1.md) now specify the first
-extension, all source days and missingness rules. Implement/test and freeze the
-separate contract before governed execution.
-The three candidates to assess are recovered EDF5/6 daily areas, fixed five-marker
-D6 RNA QC, and the frozen S3 endpoint at D180. Preserve ATAC zero flags because
+and [approved S6A design](S6A_DAILY_AREA_DESIGN_V1.md) led to the frozen setup
+`8155411` and [executed S6A result](S6A_RESULTS_V1.md). All four figures and numerical
+implementation were coordinator-reviewed without requested revision. The EDF6g
+source-identity hold is carried into the current interpretation; complete report
+review is complete without further revision. Fixed five-marker D6 QC is approved in principle within the
+specified scope; D180 metadata qualification can be prepared separately. Preserve ATAC zero flags because
 other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service

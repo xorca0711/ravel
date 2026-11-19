@@ -7,21 +7,24 @@ outside this package.
 
 ## Current disposition
 
-S5F has executed from frozen setup `ff0ed97`: [actual results](S5F_RESULTS_V1.md),
-18 outputs and receipt are registered. Independent ZIP/XML/Decimal verification
-passed 13,821 checks. All five figures, exact method/map and 38 contrasts were
-coordinator-reviewed without numerical or figure revision. The final result
-report was then reviewed without further revision. The research gate against
-`d0429d0`, 20,267 repository checks and 308 local links passed. Preserve S5F
-locally at `2514379`. The [S6 assessment](S6_DECISION_V1.md) and
-[S6A prospective design](S6A_DAILY_AREA_DESIGN_V1.md) were reviewed without revision.
-S6A implementation and governed execution are authorized. Its exact map and
-contract are prepared for preflight/freeze; six artificial tests passed. No actual
-S6A contrast has run. The exact-zero area-floor guard prevents baseline-subtracted
-floor values being interpreted as persistent repair differences. Four D180 tracks
-are now [acquired with hashes](D180_ACQUISITION_V1.md); reader/chromosome
-qualification and effects have not run. Effect extraction and D6 marker QC need
-separate reviewed contracts.
+[S6A v1](S6A_RESULTS_V1.md) executed from frozen setup `8155411`. Its 62
+endpoints/228 group-days/166 contrast-days, independent 27,894 checks and receipt
+integrity passed; all four actual figures and the numerical implementation were
+coordinator-reviewed without revision. Complete report review is also complete
+without further revision.
+EDF6g has an unresolved original-header versus published-figure/source-summary
+label discrepancy: hold its biological mapping, preserve literal-label outputs,
+and do not swap groups. The other five panels retain their descriptive scope.
+S5F remains preserved at `2514379`; earlier results are unchanged.
+
+Next: close S6A with required checks and local preservation; report review is complete.
+The coordinator approved the bounded D6 five-marker × four-library QC scope in
+principle and authorized faithful implementation, exposed contract, freeze and
+run after S6A closure; return its actual results for review. No sex assignment,
+exclusions, correction, new marker selection, upstream rerun or pairing.
+[Four D180 tracks are acquired](D180_ACQUISITION_V1.md); a metadata contract for
+header/dictionary/readability qualification may be prepared. D180 effects still
+need their separate reviewed method and contract. Final S6 synthesis is unfinished.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
@@ -70,7 +73,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) reviewed and preserved at `7051b45`; [S5F v1](S5F_RESULTS_V1.md) executed from `ff0ed97`, 13,821 independent checks passed, all figures reviewed | Stage review and required checks passed; preserve locally and retain source-N/reference limits |
-| S6: extension decision | [Assessment](S6_DECISION_V1.md) completed for daily areas, fixed D6 marker QC and frozen D180 proxies; [S6A daily-area design](S6A_DAILY_AREA_DESIGN_V1.md) prepared | S6A design approved without revision: implement/test, freeze and execute under a new contract; D180 acquisition only also authorized |
+| S6: extension decision | [S6A result](S6A_RESULTS_V1.md) executed and independently verified; exact EDF6g source-identity issue retained | Complete report review/preservation, then approved fixed D6 QC; prepare D180 metadata qualification before its separate effect-method review |
 
 The initial technical turn failed during source qualification. A narrower
 continuation limited to public host-cell RNA/ATAC data and non-infectious repair

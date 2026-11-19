@@ -11,6 +11,17 @@ and hashing are separately authorized; D180 effect extraction still needs its
 own reviewed contract. The subsequent [acquisition checkpoint](D180_ACQUISITION_V1.md)
 records all four completed files and hashes; reader qualification remains next.
 
+Current checkpoint after that prospective assessment: [S6A v1](S6A_RESULTS_V1.md)
+has executed from `8155411` with 27,894 independent checks. All four figures and
+numerical implementation and complete report were coordinator-reviewed without
+further revision. Its EDF6g biological mapping is held because explicit
+worksheet labels conflict with the original published curve and source-summary
+counts. Other panels remain descriptive. The table below preserves the assessment
+made before S6A execution. The coordinator subsequently approved the exact fixed
+five-marker/four-library D6 QC scope for faithful implementation, contract/freeze
+and execution after closing S6A. D180 header/dictionary/readability qualification
+may be prepared under a metadata contract; its effects still need method review.
+
 ## What the completed sequence leaves unresolved
 
 The organizing question remains how inflammatory history alters a later
