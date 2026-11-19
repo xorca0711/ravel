@@ -7,3 +7,6 @@
 # Original public-spatial failures are retained byte-exact within the successful v3 run.
 /Pg1_public_spatial_v1_20261108/
 /Pg1_public_spatial_v2_20261108/
+
+# The verified ng26_s0_v2 archive preserves the first failed audit.
+/ng26_s0_v1/
