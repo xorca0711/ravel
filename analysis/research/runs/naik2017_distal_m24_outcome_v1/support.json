@@ -1,0 +1,198 @@
+{
+  "cutpoints": {
+    "s3_D6_log2FoldChange": [
+      1.2247967800000001,
+      1.981410939,
+      2.848257298
+    ],
+    "width_bp": [
+      466.0,
+      631.0,
+      851.0
+    ]
+  },
+  "strata": [
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "Memory": 16,
+      "Resolved": 88,
+      "overlap_units": 16,
+      "weight_per_class": 0.03411513859275053
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "Memory": 18,
+      "Resolved": 71,
+      "overlap_units": 18,
+      "weight_per_class": 0.03837953091684435
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "Memory": 16,
+      "Resolved": 72,
+      "overlap_units": 16,
+      "weight_per_class": 0.03411513859275053
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "Memory": 35,
+      "Resolved": 78,
+      "overlap_units": 35,
+      "weight_per_class": 0.07462686567164178
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "Memory": 25,
+      "Resolved": 78,
+      "overlap_units": 25,
+      "weight_per_class": 0.053304904051172705
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "Memory": 29,
+      "Resolved": 62,
+      "overlap_units": 29,
+      "weight_per_class": 0.06183368869936034
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "Memory": 54,
+      "Resolved": 59,
+      "overlap_units": 54,
+      "weight_per_class": 0.11513859275053305
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "Memory": 60,
+      "Resolved": 26,
+      "overlap_units": 26,
+      "weight_per_class": 0.05543710021321962
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "Memory": 53,
+      "Resolved": 48,
+      "overlap_units": 48,
+      "weight_per_class": 0.1023454157782516
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "Memory": 52,
+      "Resolved": 52,
+      "overlap_units": 52,
+      "weight_per_class": 0.11087420042643924
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "Memory": 58,
+      "Resolved": 34,
+      "overlap_units": 34,
+      "weight_per_class": 0.07249466950959488
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "Memory": 78,
+      "Resolved": 19,
+      "overlap_units": 19,
+      "weight_per_class": 0.04051172707889126
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "Memory": 51,
+      "Resolved": 34,
+      "overlap_units": 34,
+      "weight_per_class": 0.07249466950959488
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "Memory": 75,
+      "Resolved": 35,
+      "overlap_units": 35,
+      "weight_per_class": 0.07462686567164178
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "Memory": 83,
+      "Resolved": 17,
+      "overlap_units": 17,
+      "weight_per_class": 0.03624733475479744
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "Memory": 88,
+      "Resolved": 11,
+      "overlap_units": 11,
+      "weight_per_class": 0.023454157782515993
+    }
+  ],
+  "total_overlap_units": 469,
+  "classes": {
+    "Memory": {
+      "full": 791,
+      "shared": 791,
+      "excluded": 0,
+      "regional_Kish_ESS": 597.4692169190771
+    },
+    "Resolved": {
+      "full": 784,
+      "shared": 784,
+      "excluded": 0,
+      "regional_Kish_ESS": 588.5492630579386
+    }
+  },
+  "balance": [
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "full_mean",
+      "Memory": 2.5578151066738304,
+      "Resolved": 1.6839883693584186,
+      "difference": 0.8738267373154118,
+      "full_pooled_within_class_sd": 0.9836892191197872,
+      "standardized_difference": 0.8883158627044004
+    },
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "overlap_weighted_mean",
+      "Memory": 2.1834922622583104,
+      "Resolved": 2.091655106910533,
+      "difference": 0.09183715534777726,
+      "full_pooled_within_class_sd": 0.9836892191197872,
+      "standardized_difference": 0.09335992868759287
+    },
+    {
+      "covariate": "width_bp",
+      "method": "full_mean",
+      "Memory": 750.9077117572692,
+      "Resolved": 622.4515306122449,
+      "difference": 128.4561811450243,
+      "full_pooled_within_class_sd": 302.77488067356626,
+      "standardized_difference": 0.4242630064266066
+    },
+    {
+      "covariate": "width_bp",
+      "method": "overlap_weighted_mean",
+      "Memory": 665.1392082320131,
+      "Resolved": 649.5279522812293,
+      "difference": 15.611255950783743,
+      "full_pooled_within_class_sd": 302.77488067356626,
+      "standardized_difference": 0.05156060475048082
+    }
+  ],
+  "weighted_status": "estimable"
+}
