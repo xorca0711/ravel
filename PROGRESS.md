@@ -1,5 +1,11 @@
 # Current project state
 
+## 2026-11-19 — Study findings at the start of each article README
+
+Revised the 25 current paper entries in the [article index](Research%20Article/README.md). Each opening pairs a published finding and figure or source passage with a measured Ravel result and its biological limit. [Cardoso](Research%20Article/gate2_05_cardoso_2026/README.md) leads with the spatial cascade, [Murthy](Research%20Article/ungated_murthy_2022/README.md) with two possible epithelial fates, and [Peng](Research%20Article/ungated_peng_2026_spatial_omics/README.md) with the difference between cell neighborhoods and adjacent tissue spots. The Damani–Yokota opening is in its current ungated entry. All numerical results come from existing reports.
+
+Checked all 25 opening-to-paper references and local result links. Repository validation, the provenance check against main, the evidence verifiers and the analysis tests passed. The session-hook tests failed on Windows path handling and passed on Ubuntu, the CI platform. The branch is ready for editorial review.
+
 ## 2026-11-19 — Naik mouse skin distal chromatin extension
 
 Under `Nk17-P01`, the [source scan](Research%20Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s Memory and Resolved coordinates and traced selection, accession reuse and eligible recovery pools. The [24-month comparison](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) found a +0.117 fragment-CPM difference between the two class changes in two post-IMQ and two age-matched control pools. After balancing acute induction and width it was +0.121 CPM. With [day-6 accessibility ranks from all four original vehicle-control libraries](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md), it was +0.116 CPM on shared support. The coordinator reviewed the source qualification, registered metadata verification, frozen designs, measured results and figure.

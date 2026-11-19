@@ -2,9 +2,9 @@
 
 ## Organizing Biological Q
 
-How does Ezh2 help activated regulatory T cells retain their transcriptional
-identity, and which part of that regulation can explain their subsequent loss
-from inflamed tissues?
+How does Ezh2 help activated regulatory T cells retain their identity? DuPage and colleagues found reduced Foxp3 retention after Ezh2 loss and fewer antigen-specific Tregs later in inflamed tissue. Lineage reporters and the timing of the tissue measurements distinguish loss of identity from loss of cells. [Paper, Figs. 5 and 7](https://doi.org/10.1016/j.immuni.2015.01.007)
+
+Ravel revisited the Fig. 6 RNA comparison in surviving Foxp3-positive cells. Ezh2 knockout versus heterozygote differences were slightly larger overall in the CD62L-low group, but omitting one library at a time could reverse which group had the larger difference. The RNA gives mixed support for a broadly activation-specific effect and leaves the cause of later tissue loss open. [Reconstruction](S1_RESULT.md) · [Library-omission results](S2_RESULT.md)
 
 **7 November 2026: S0–S6 disposition complete.** S0–S3 were executed within
 qualified descriptive scope; S4 was not informative for another numerical run;

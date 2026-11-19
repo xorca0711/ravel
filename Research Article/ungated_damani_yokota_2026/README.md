@@ -1,5 +1,11 @@
 # Damani–Yokota 2026 — ungated (DY1)
 
+## A macrophage population can return to baseline and still differ in state
+
+Damani–Yokota and colleagues observed a transient expansion of nerve- and airway-associated lung macrophages after type 2 inflammation. Their numbers returned toward baseline, yet profiles of sorted macrophages still differed with immune history. Counting cells and measuring their state therefore answer different questions. [Paper, Extended Data Fig. 1b and Fig. 4](https://doi.org/10.1038/s41586-026-11060-y)
+
+Ravel examined a separate comparison in human pulmonary fibrosis. The matrix-associated macrophage RNA panel remained higher across donor and gene omissions, while the smaller FABP4-panel contrast changed sign when *FABP4* itself was omitted. The human cohorts support a matrix-associated expression difference. Their disease labels leave prior immune history unknown. [Human comparisons and sensitivity results](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+
 **Roadmap classification: ungated**, outside the ordered reading roadmap.
 This is the current article entry folder, corrected on 8 November 2026. DY1-P01
 and DY1-P02 retain their identities. The older `gate2_DY1_damani_yokota_2026`

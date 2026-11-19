@@ -1,5 +1,19 @@
 # Yadav 2025: source evidence and article-local synthesis
 
+## How myeloid cells support fibroblast collagen production
+
+Yadav and colleagues linked myeloid arginase activity to the availability of ornithine for fibroblasts in lung fibrosis. The coculture experiment asks the most direct question here. When arginase is inhibited, can adding ornithine restore collagen production? [Paper, Fig. 3 and Supplementary Fig. 3C](https://doi.org/10.1172/JCI188734)
+
+Ravel recovered three distinct results in the source data.
+
+| Comparison | What changed |
+|---|---|
+| Coculture with arginase inhibition | Ornithine supplementation partly restored mean COL1A1 staining. |
+| Mouse lungs with arginase inhibition | Mean ornithine concentration was lower. |
+| Mouse lungs with myeloid *Arg1* deletion | The interval for the hydroxyproline difference included zero. |
+
+These assays leave open how much myeloid-derived substrate reaches collagen in vivo. [Coculture and mouse results](TECHNICAL_RESULTS.md)
+
 **Registration crosswalk — 2 November 2026:** Yd1-P02 now develops as proposed
 [A32](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md). This package retains its historical source plans,
 contracts, runs and outcomes; none is relabelled as an A32 effect. Earlier

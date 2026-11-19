@@ -1,5 +1,11 @@
 # Nb5 mouse ageing atlas analysis development
 
+## What changes with age inside a tissue?
+
+The Tabula Muris Senis atlas followed two quantities across mouse age groups. It measured which cell types each tissue sample contained and how much RNA cells of each type expressed. In the bladder, the balance of mesenchymal and urothelial cells shifted with age. [Paper, Fig. 2e](https://doi.org/10.1038/s41586-020-2496-1)
+
+Ravel found an example where these changes point in opposite directions. In the sampled lungs, the older mice had lower *Il1b* RNA overall. Changing cell-type proportions contributed a decrease, while changes within the same annotated types contributed an increase. The total alone hides that distinction. [Mouse-level lung and bladder comparisons](EXTENSION_RESULTS.md)
+
 **3 November A25 continuation:** the [bounded male-cortex held-out model comparison](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md)
 is complete. Gain over the endpoint mixture does not consistently exceed flexible
 continuous age in both middle-age mice; no distinct-state claim follows. The

@@ -1,5 +1,11 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+## Which colon responses persist under 22-B3?
+
+Saxton and colleagues compared wild-type IL-22 with the 22-B3 variant. In mouse colon, B3 retained much of the tissue-protection gene response while inducing less of the selected interferon response. The paper tested tissue protection separately in functional assays. [Paper, Figs. 6–7](https://doi.org/10.1016/j.immuni.2021.03.008)
+
+In Ravel’s direct B3 versus wild-type comparison, both RNA panels declined. The decrease was larger for the seven interferon genes than for the six tissue-protection genes. Broadening the interferon gene set made the distinction smaller. The evidence for selectivity therefore depends partly on which genes represent each response. [Colon RNA reassessment](reassessment_v1/RESULTS.md)
+
 **Completed Osmr follow-up, 8 November 2026:** [results](osmr_v1/RESULTS.md) and
 [figure](osmr_v1/FIGURES.md) show lower B3 than WT Osmr RNA across all specified
 scales/omissions; B3-PBS is small and sensitive. This is bulk RNA, not OSM response.

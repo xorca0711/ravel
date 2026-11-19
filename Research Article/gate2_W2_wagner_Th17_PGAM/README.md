@@ -1,5 +1,11 @@
 # Wang, Wagner et al. 2025: PGAM restrains Th17 pathogenicity
 
+## Does the RNA-based screen recover PGAM?
+
+Wang and colleagues identified PGAM, a glycolytic enzyme, through a negative association between its predicted activity and a Th17 pathogenicity score. Reducing PGAM increased inflammatory cytokine secretion, providing a functional test of the prediction. [Paper, Fig. 1A–B and F–G](https://doi.org/10.1016/j.celrep.2025.115799)
+
+Ravel’s corrected Compass analysis illustrates why those two observations deserve separate attention. With substitute inputs, the PGAM score correlated **positively** with the pathogenicity score in pools from two animals. This analysis did not recover the screening association. The secretion and animal experiments remain the authors’ evidence for the biological effect. [Corrected score orientation and result](CORRECTIONS_2026-10-07.md)
+
 **Subsequent 7 October A30 extension:** [observed common-state and activation support](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) is now qualified. The restricted association loses donors and cell coverage; floor-five uncertainty crosses zero. Corrected pooled Wp/R4/M3 evidence remains a different estimand, and no function or new PGAM mechanism is inferred.
 
 **Current status — 7 October 2026:** R0–R4 and selected extensions have executed; R5 is closed without numerical execution. A28–A30 are registered proposals. The [current correction report](CORRECTIONS_2026-10-07.md) supersedes the affected Compass and human-score summaries. A30 v3 remains a bounded RNA association, not activation exclusion, residency or preserved regulatory function.

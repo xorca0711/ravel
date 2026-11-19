@@ -1,5 +1,11 @@
 # Wang 2018: EZH2, activated Tregs and tumor immunity
 
+## What changes in the Tregs that remain in a tumour?
+
+Wang and colleagues used lineage tracing to distinguish Tregs that lost FOXP3 from those that retained it after Ezh2 deletion. Even the FOXP3-retaining cells changed which cytokines they could produce on restimulation. This gives altered function a place alongside changes in Treg abundance as an explanation for tumour control. [Paper, Figs. 5–6](https://doi.org/10.1016/j.celrep.2018.05.050)
+
+Ravel recovered the published directions for three genes in a separate day-four culture comparison. Ezh2-deficient libraries had lower *Il10* and *Tgfb1* RNA and higher *Il2*. These culture measurements leave open which cytokines the surviving Tregs release in the tumour. [Day-four RNA and comparison with Fig. S3C](RESULTS_V1.md)
+
 12 November 2026. **The adapted day-four RNA analysis is complete at the
 deposited-library level.** The linked measurement plan is complete and has
 passed agent specification review. The article-local owner is Wang18-P01.

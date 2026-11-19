@@ -1,5 +1,11 @@
 # Nb4: Travaglini, Nabhan et al. 2020 human lung atlas
 
+## Which fibroblasts contribute to a lung RNA signal?
+
+Travaglini and colleagues mapped cell types across the human lung. Their atlas distinguished alveolar from adventitial fibroblasts and localized them to different anatomical niches. That distinction changes how an expression difference between lung samples can be interpreted. [Paper, Fig. 1e–f](https://doi.org/10.1038/s41586-020-2922-4)
+
+In the two source donors with sufficient 10x coverage for Ravel’s comparison, adventitial cells made up roughly 75% and 9% of the sampled fibroblasts. The donor ratio of mean *C3* RNA per cell was 4.92 with those observed proportions and 1.27 with equal subtype weights. Much of the apparent difference depended on which fibroblasts were sampled. [Donor and subtype comparison](reports/RQ_SEQUENCE_RESULTS.md)
+
 **7 October P09 extension:** [fixed sensory-gene expression and transport](../../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md) is executed. Separate-gene enrichment and assay-sensitive co-detection support proposed [A31](../../RQ_Specified/A31_gria1_fibroblast_response/README.md); acute glutamate response remains unmeasured. [Full package/candidate audit](../../docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md).
 
 **Gate 2N, item N3 · source analysis complete; broader proposal plans structured 3 October 2026.**
