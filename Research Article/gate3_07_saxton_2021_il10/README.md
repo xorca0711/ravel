@@ -7,11 +7,17 @@
 ## Published findings
 
 ```text
-IL-10 signaling in distinct recipient populations
-  ├─ Monocytes and macrophages → suppression of inflammatory activation
-  └─ Activated CD8 T cells     → variant- and gene-dependent responses
+IL-10 engages IL-10Rα and the shared IL-10Rβ subunit on different immune cells
+  ├─ Monocytes and macrophages respond at a lower signaling threshold.
+  │  The partial agonist 10-DE retains suppression of inflammatory cytokine production
+  │  and activation markers in the myeloid assays.
+  └─ Activated CD8 T cells have a different threshold for stimulation.
+       Wild-type IL-10 induces an effector response. The weaker agonist gives a smaller
+       response, while stronger agonism can enhance selected effector outputs.
+       RNA profiles, phospho-STAT3 and restimulation proteins are distinct measurements.
 
-Implication: a variant can retain myeloid suppression with weaker T-cell stimulation.
+Implication: receptor engagement can preserve myeloid immunoregulation while reducing
+             CD8 stimulation. Response depends on the recipient and the endpoint.
 ```
 
 Myeloid assays measured suppression of activation. In separate experiments, activated human CD8 cells were profiled after treatment with wild-type IL-10 and variants. [Paper, Figs. 4–5](https://doi.org/10.1126/science.abc8433)

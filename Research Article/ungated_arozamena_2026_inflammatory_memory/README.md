@@ -7,14 +7,21 @@
 ## Published findings
 
 ```text
-Initial intestinal injury → epithelial recovery → second injury
-  ├─ Recovered stem cells and progeny → persistent RNA and accessibility differences
-  └─ Repeat-injury comparison         → enhanced regenerative response
+Intestinal irradiation → recovery of the epithelium → second radiation injury
+  ├─ Two routes replenish crypts: surviving Lgr5+ stem cells and progenitors arising
+  │  through dedifferentiation of Krt20-lineage cells.
+  ├─ After recovery, both lineages and their progeny retain molecular evidence of the
+  │  first injury. Single-cell RNA and chromatin accessibility resolve differences
+  │  between the lineage histories that a bulk crypt average would combine.
+  └─ Re-exposure reveals enhanced regeneration. Organoids derived from primed tissue
+     retain DNA-repair and chromatin-remodeling programs outside the original niche.
+     Inflammatory stimulation alone only partly reproduces the in vivo response.
 
-Implication: injury history can alter a later tissue response after initial recovery.
+Implication: more than one epithelial lineage can carry an injury history into later
+             repair. A particular accessible region still needs its own functional test.
 ```
 
-Repeat irradiation tested the regenerative response to a second injury. RNA and chromatin measurements characterized persisting changes in intestinal stem cells and their progeny. [Paper, Fig. 2 and Fig. 5d–e](https://doi.org/10.1038/s41467-026-79014-6)
+Repeat irradiation tested the regenerative response to a second injury. RNA and chromatin measurements characterized persisting changes in intestinal stem cells and their progeny. [Paper, Fig. 2 and Fig. 5d–e](https://doi.org/10.1038/s41467-026-79014-6) · [Stem-cell origins and organoid persistence, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC13714302/)
 
 ## Ravel analyses and results
 
@@ -220,7 +227,7 @@ and later function unresolved.
 
 This can supply a bounded epithelial measurement reference relevant to
 [A1](../../docs/research_dossiers/A1.md) and the assay/composition problem in
-[DY1-P02](../gate2_DY1_damani_yokota_2026/rq_discordance/README.md). Its potential
+[DY1-P02](../ungated_damani_yokota_2026/rq_discordance/README.md). Its potential
 history/output connection is relevant to [A14](../../docs/research_dossiers/A14.md)
 and [A8](../../docs/research_dossiers/A8.md), conditional on actual linkage.
 It does not establish an IL-22 mechanism, alveolar repair, or the NAM

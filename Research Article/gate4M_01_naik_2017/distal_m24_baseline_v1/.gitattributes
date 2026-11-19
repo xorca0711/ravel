@@ -1,0 +1,8 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Exact archived bytes recorded in the path migration manifest.
+"METHOD_V1.md" -text !eol whitespace=cr-at-eol
+"baseline.py" -text !eol whitespace=cr-at-eol
+"test_baseline.py" -text !eol whitespace=cr-at-eol

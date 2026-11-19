@@ -68,7 +68,7 @@ and its context/dossier say that the heterogeneous panel restricts the
 supports a narrower statement: the five regulator **transcripts are not all
 uniformly maintained** in these six libraries. It does not measure regulator
 activity, and the mechanistic axis has not been specified to require concordant
-contemporary transcript abundance. The [DY1 question](../../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md#working-hypothesis-and-alternatives)
+contemporary transcript abundance. The [DY1 question](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md#working-hypothesis-and-alternatives)
 already allows different regulatory and transcriptional phases.
 
 The surrounding caveats prevent an explicit claim that the mechanism was refuted,

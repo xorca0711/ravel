@@ -7,19 +7,26 @@
 ## Published findings
 
 ```text
-Type 2 inflammation → transient expansion of nerve- and airway-associated macrophages
-  ├─ Recovery of population size toward baseline
-  └─ Persistent molecular differences in the recovered macrophage population
+Type 2 inflammatory history in mouse lung nerve- and airway-associated macrophages (NAMs)
+  ├─ Cell numbers expand during the initial response and then return toward baseline.
+  ├─ At the recovered baseline, sorted NAMs still differ from control NAMs.
+  │    RNA: late Stat6 and Egr2 transcripts are lower in the reported comparison.
+  │    ATAC: selected regulatory regions near Stat6 remain more accessible.
+  │    RNA and chromatin came from separate bulk preparations: the two directions
+  │    describe populations and cannot be assigned to the same individual cell.
+  └─ The study assesses lung tissue tolerance in a separate later experiment.
+     Tolerance concerns host tissue damage and recovery; counts and chromatin
+     accessibility alone cannot measure that outcome.
 
-Implication: a recovered cell count can coexist with a history-associated macrophage
-             state.
+Implication: the size of a resident macrophage population can recover while its
+             molecular history and its association with later tissue responses persist.
 ```
 
 Nerve- and airway-associated macrophage abundance returned toward baseline after its initial expansion. Molecular profiling of sorted macrophages revealed a persistent association with inflammatory history. [Paper, Extended Data Fig. 1b and Fig. 4](https://doi.org/10.1038/s41586-026-11060-y)
 
 ## Ravel analyses and results
 
-Ravel examined a separate comparison in human pulmonary fibrosis. The matrix-associated macrophage RNA panel remained higher across donor and gene omissions, while the smaller FABP4-panel contrast changed sign when *FABP4* itself was omitted. The human cohorts support a matrix-associated expression difference. Their disease labels leave prior immune history unknown. [Human comparisons and sensitivity results](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+Ravel examined a separate comparison in human pulmonary fibrosis. The matrix-associated macrophage RNA panel remained higher across donor and gene omissions, while the smaller FABP4-panel contrast changed sign when *FABP4* itself was omitted. The human cohorts support a matrix-associated expression difference. Their disease labels leave prior immune history unknown. [Human comparisons and sensitivity results](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
 
 <details>
 <summary>Additional analysis results</summary>
@@ -29,7 +36,7 @@ Ravel examined a separate comparison in human pulmonary fibrosis. The matrix-ass
 ### Analysis status
 
 The earlier platform rejection is a historical execution event, preserved in
-[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md). It does not establish that all mouse-data tasks are
+[CLOSEOUT](CLOSEOUT.md). It does not establish that all mouse-data tasks are
 prohibited. The current assessment separates permissible completed work, missing
 data/design prerequisites and inference limits. No qualified original job remains queued; the original numerical sequence is not
 claimed fully reproduced. Newly completed DY1-P02 extensions are listed separately below.
@@ -46,8 +53,8 @@ claimed fully reproduced. Newly completed DY1-P02 extensions are listed separate
 | 7: Human/recipient context | Primary 78-donor and external 12-IPF/9-control exposed descriptions, clinical/annotation/source sensitivities and negative/imprecise findings completed | Exact author NAM/model unavailable; external SELENOP mapping absent; subsets below frozen donor minimum remain non-estimable. RNA/composition is not activity, spatial signaling or recovery. |
 | 8: Current-evidence synthesis | Paper/repository evidence and missing discriminators integrated; existing RQ notes retained | Complete synthesis does not establish the regulatory–ARG1–epithelial causal chain, laboratory readiness or scientific acceptance. Required linked functional endpoints remain missing. |
 
-The [detailed record](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md) supplies job-level requirements,
-receipt hashes and review evidence. The [methods/input assessment](../gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+The [detailed record](JOB_ASSESSMENT_2026-10-30.md) supplies job-level requirements,
+receipt hashes and review evidence. The [methods/input assessment](METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
 records source availability. The plan changed only to separate technical QC,
 biological effect estimation and current-evidence synthesis because they have
 different evidentiary requirements. No missing effect was replaced with a proxy
@@ -62,7 +69,7 @@ disease; ARG1 is sparse. Donors, not cells, are the units. See the
 
 ## Data and methods
 
-The mouse baseline assays and the human disease cohorts provide separate comparisons. Human sensitivity analyses examined donor and gene omissions. [Source design and data limitations](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+The mouse baseline assays and the human disease cohorts provide separate comparisons. Human sensitivity analyses examined donor and gene omissions. [Source design and data limitations](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
 
 ## Interpretation and open questions
 
@@ -98,8 +105,8 @@ evidence. Separate bulk-ATAC composition remains unresolved.
 The analysis chat completed five frozen runs: external count/source qualification,
 a descriptive RNA-ATAC benchmark, a synthetic detection-label diagnostic,
 temporal-source qualification and an RNA-only source-average description.
-The [full results](../gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserve all outcomes.
-The coordinating [review](../gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md) checked their designs,
+The [full results](rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserve all outcomes.
+The coordinating [review](rq_discordance/REVIEW.md) checked their designs,
 receipts, hashes, saved arithmetic and figures. The [E1-E6 record](rq_discordance/README.md#extension-execution-and-remaining-holds)
 records every completion and exact remaining limitation.
 
@@ -111,8 +118,8 @@ strengthen measurement discipline; they do not validate NAM memory, the regulato
 axis or ARG1 mediation. Original count/unit/state holds remain, and no canonical
 RQ or scientific acceptance is created.
 
-The [literature context](../gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md) now links successful
-source qualification and the [assay-specific temporal review](../gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md).
+The [literature context](rq_discordance/LITERATURE_CONTEXT.md) now links successful
+source qualification and the [assay-specific temporal review](rq_discordance/E6_SOURCE_REVIEW.md).
 Plan changes kept all eligible ATAC regions and separated supported RNA-only
 arithmetic from missing matched temporal evidence. No eligible extension is left
 queued in the current assessment.
@@ -123,17 +130,15 @@ queued in the current assessment.
 
 | Study materials | Location |
 |---|---|
-| Data and design | [Sources and study design](../gate2_DY1_damani_yokota_2026/source_metadata/) |
-| Computational methods | [Analysis code](../gate2_DY1_damani_yokota_2026/scripts/) |
-| Results | [Study results](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md) |
-| Figures | [Figures and captions](../gate2_DY1_damani_yokota_2026/FIGURES.md) |
+| Data and design | [Sources and study design](source_metadata/) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md) |
+| Figures | [Figures and captions](FIGURES.md) |
 
 ### Study context and analysis history
 
 **Roadmap classification: ungated**, outside the ordered reading roadmap.
-This is the current article entry folder, corrected on 8 November 2026. DY1-P01
-and DY1-P02 retain their identities. The older `gate2_DY1_damani_yokota_2026`
-directory stores the frozen evidence linked below; its prefix is historical.
+This folder holds the study, its source evidence and both article-local questions, DY1-P01 and DY1-P02. The [file migration record](../../analysis/research/path_migrations.json) identifies the original location of each frozen reference.
 
 30 October 2026. Current disposition of the [original stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md).
 This article package owns paper reproduction and article-local descriptions; it
@@ -142,15 +147,15 @@ creates no canonical A-series question or scientific acceptance.
 The study concerns N. brasiliensis-associated type-2 immune history in lung
 macrophages, separate baseline bulk RNA/ATAC, baseline and later IAV-challenge
 scRNA, STAT6–EGR2–PPARγ/RXRA associations, ARG1 and human disease context.
-The [job-by-job assessment](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md) records each completed
+The [job-by-job assessment](JOB_ASSESSMENT_2026-10-30.md) records each completed
 substep and the specific reason for every remaining hold.
 
-Three existing [baseline diagnostics](../gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md) are complete:
+Three existing [baseline diagnostics](BASELINE_QC_RESULTS_2026-10-30.md) are complete:
 six exon-file/eight peak-file structural QC, full baseline sparse integrity and
 CMO signal inventory, and an adapted six-library exon-profile PCA. Previously
-completed [78-donor human observations](../gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md) and
-[21-donor external descriptions](../gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md) remain reviewed evidence.
-The [published evidence matrix](../gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md)
+completed [78-donor human observations](HUMAN_RESULTS.md) and
+[21-donor external descriptions](HUMAN_EXTERNAL_RESULTS.md) remain reviewed evidence.
+The [published evidence matrix](PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md)
 separates paper findings from repository observations and mechanistic claims.
 
 ![Fixed six-library exon-bin diagnostic, not author PCA or biological effect inference](../../analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png)
@@ -158,18 +163,18 @@ separates paper findings from repository observations and mechanistic claims.
 The subsequent [F1–F4 follow-ups](rq_discordance/README.md#authorized-follow-ups-after-e1e6)
 are now assessed through the existing technical chat: representation, cofactor
 reference and human-panel robustness runs completed and passed
-[independent review](../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md). The paired
+[independent review](rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md). The paired
 source remains numerically held on access/files/identities. The
-[follow-up results](../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) preserve all
+[follow-up results](rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) preserve all
 mixed and unfavorable findings; original-stage holds below remain unchanged.
 
-The [complete analysis inventory and synthesis](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+The [complete analysis inventory and synthesis](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
 connects reproduction, human branches and extensions to the remaining question.
 
-The [figure gallery](../gate2_DY1_damani_yokota_2026/FIGURES.md) organizes thirteen current plates by question,
+The [figure gallery](FIGURES.md) organizes thirteen current plates by question,
 with all ten original PNGs preserved. Four new presentation derivatives include
 [vector formats and a four-page PDF](../../analysis/research/runs/DY1_presentation_figures_v1/DY1_presentation_plates_v1.pdf).
-The [figure review](../gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md) records source parity, layout checks
+The [figure review](FIGURE_REVIEW_2026-10-30.md) records source parity, layout checks
 and the distinction between technical completion and scientific acceptance.
 
 <a id="architecture-and-evidence-boundaries"></a>
@@ -194,8 +199,8 @@ fate, delivery, cessation/reception, reserve or focal protein-output endpoints.
 ### Documentation and validation
 
 This historical heading preserves earlier links. The original close-out is
-[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md); current status is the completion record above, followed
-by the [job assessment](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md). Historical outputs remain
-unchanged. See also [artifact inventory](../gate2_DY1_damani_yokota_2026/ARTIFACT_INVENTORY.md),
-[human validation](../gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md), [literature context](../gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md),
-[source-v2 results](../gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md) and [governance](../../docs/RESEARCH_GOVERNANCE.md).
+[CLOSEOUT](CLOSEOUT.md); current status is the completion record above, followed
+by the [job assessment](JOB_ASSESSMENT_2026-10-30.md). Historical outputs remain
+unchanged. See also [artifact inventory](ARTIFACT_INVENTORY.md),
+[human validation](HUMAN_VALIDATION.md), [literature context](LITERATURE_CONTEXT.md),
+[source-v2 results](SOURCE_V2_RESULTS.md) and [governance](../../docs/RESEARCH_GOVERNANCE.md).

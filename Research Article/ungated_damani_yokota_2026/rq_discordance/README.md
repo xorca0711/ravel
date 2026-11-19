@@ -1,8 +1,7 @@
 # DY1-P02: interpreting late RNA–ATAC discordance
 
 **Ungated Damani–Yokota source; candidate DY1-P02.** This is the current question entry.
-[Article overview](../README.md). Linked contracts, detailed results and figures
-retain their original evidence paths. No question or result is reclassified.
+[Article overview](../README.md). The study folder contains the contracts, detailed results and figures. No question or result is reclassified.
 
 **External measurement reference, 1 November 2026:** the [Arozamena package](../../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) supplies reviewed intestinal RNA weighting/QC and paired four-locus region/count-definition sensitivities. Its paired multiome design differs from DY1's bulk RNA/separate bulk ATAC and scRNA composition evidence. It does not establish NAM memory, STAT6–EGR2–PPARgamma/RXRA regulation or ARG1 mediation; the current DY1 question and holds remain unchanged.
 
@@ -11,7 +10,7 @@ This develops the unresolved regulatory question in DY1-P01 into a specific
 baseline measurement/model-discrimination question. It is not a new canonical
 A-series RQ, a discovery of the STAT6–PPARγ pathway, or a claim of novelty.
 
-The [article figure gallery](../../gate2_DY1_damani_yokota_2026/FIGURES.md) links the reference, synthetic,
+The [article figure gallery](../FIGURES.md) links the reference, synthetic,
 representation, cofactor and human-sensitivity figures to their frozen data.
 Its four new presentation plates change display only; the completion and hold
 record below remains the authority for eligible analysis.
@@ -39,9 +38,9 @@ PPARγ/RXRA-related observations in separate bulk preparations. The initial
 scRNA-versus-ATAC wording should therefore be corrected: scRNA adds state and
 composition information, while the highlighted discrepancy is bulk RNA versus
 separate bulk ATAC. Exact figure locators are in the
-[published evidence matrix](../../gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md).
+[published evidence matrix](../PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md).
 
-Our [baseline diagnostics](../../gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md) establish file
+Our [baseline diagnostics](../BASELINE_QC_RESULTS_2026-10-30.md) establish file
 integrity and an adapted sample profile; they do not estimate the gene/peak
 effects or exclude mixture. The human descriptions show annotation-sensitive
 RNA panels and weak within-disease recipient coupling; they do not test this
@@ -49,7 +48,7 @@ mouse axis. The unresolved question is whether there is a reliable cross-assay
 pattern to explain before assigning a regulatory mechanism to it.
 
 Earlier PPARγ memory and EGR2 relay studies are premises. The bounded
-[literature refresh](../../gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md) adds a non-infectious cross-assay
+[literature refresh](LITERATURE_CONTEXT.md) adds a non-infectious cross-assay
 reference and retains cofactor-dependent regulation as an alternative. The
 contribution would be measurement validation and model discrimination in the NAM
 context; published general mechanisms do not become new because the cell label changes.
@@ -99,8 +98,8 @@ contract decisions, not post hoc choices made to maximize discordance.
 
 The owner authorized external qualification and every eligible E1-E6 extension.
 The separate analysis chat completed five frozen runs. Its
-[full results report](../../gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserves every outcome. The coordinating
-[review](../../gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md) checked prospective numerical designs, code, receipts, all
+[full results report](EXTENSION_RESULTS_2026-10-30.md) preserves every outcome. The coordinating
+[review](REVIEW.md) checked prospective numerical designs, code, receipts, all
 input/output hashes and saved results. No currently qualified extension is queued.
 Completed reference work does not complete the held original NAM comparisons.
 
@@ -157,9 +156,9 @@ and apply annotation only during joining; distinguish a source-defined descripti
 comparison from unknown pairing/batch inference; separate eligible RNA-only E6
 arithmetic from unavailable matched temporal evidence. The unrelated muscle RNA
 subseries was not substituted for cultured memory RNA. The
-[source-method assessment](../../gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md),
-[temporal input assessment](../../gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md) and
-[temporal literature review](../../gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md) retain exact qualifications.
+[source-method assessment](SOURCE_METHODS_2026-10-30.md),
+[temporal input assessment](TEMPORAL_INPUTS_2026-10-30.md) and
+[temporal literature review](E6_SOURCE_REVIEW.md) retain exact qualifications.
 
 <a id="what-the-possible-outcomes-would-teach"></a>
 
@@ -192,10 +191,10 @@ registered canonical SVG is pending any authorized canonical development.
 
 ## Authorized follow-ups after E1–E6
 
-The owner subsequently authorized the [feasibility proposals](../../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
+The owner subsequently authorized the [feasibility proposals](FOLLOWUP_FEASIBILITY_2026-10-30.md)
 through the existing technical chat. Three numerical jobs are complete; public-source
 assessment of F3 is complete with a specific numerical hold. See the
-[results](../../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) and [independent review](../../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md).
+[results](FOLLOWUP_RESULTS_2026-10-30.md) and [independent review](FOLLOWUP_REVIEW_2026-10-30.md).
 
 | Step | Current status | Finding or exact remaining requirement |
 |---|---|---|
@@ -236,13 +235,13 @@ external papers/files; their access limits remain recorded. No numerical result
 or human scientific acceptance was created.
 
 The earlier technical framing review remains historical. The
-[E1–E6 execution review](../../gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md) covers its five runs; the later
-[F1–F4 review](../../gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md) covers the three additional runs and
+[E1–E6 execution review](REVIEW.md) covers its five runs; the later
+[F1–F4 review](FOLLOWUP_REVIEW_2026-10-30.md) covers the three additional runs and
 F3 source assessment. Both preserve their stated biological limits.
 
 ## Literature-informed screening scope — 3 November 2026
 
-The owner-authorized [DY1-P02 fixed identity-target specification](../../gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](../../gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.
+The owner-authorized [DY1-P02 fixed identity-target specification](IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.
 
 ![Governed descriptive screening result](../../../analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/identity_targets.png)
 

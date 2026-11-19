@@ -1,8 +1,14 @@
 # Current project state
 
+## 2026-11-19 — Paper folders and published findings
+
+The [Gate 4M sequence](Research%20Article/README.md#gate-4-topic-centered-reading) now has three paper folders, starting with Naik, followed by Nagaraja and Cowley. The [ungated Damani–Yokota package](Research%20Article/ungated_damani_yokota_2026/README.md) contains both article-local questions and the evidence formerly filed under Gate 2. Across the two physical moves, 242 tracked files were relocated and 217 historical references received exact SHA-256 mappings. One Naik script used explicitly attributed CRLF checkout bytes in its frozen contract. The migration test checks the originating Git attributes as well as the destination hash.
+
+All 27 paper entries now open with a source-linked diagram distinguishing the study design, observed biological relationships and key implication. The Nagaraja and Cowley entries identify published materials and the existing shared-source comparison. Repository validation passed 20,833 checks, all 217 staged archive hashes matched, and the base-aware research gate passed against `9323967`. The next integration step is owner review of the path migration and its checkout-byte validation.
+
 ## 2026-11-19 — Article package structure and Gate 4 thematic reading
 
-Reorganized the [current paper packages](Research%20Article/README.md#article-package-structure) around published scientific diagrams, Ravel results, study methods, interpretation, and a common index of source data, code, results and figures. The folder-wide review covered 666 tracked Markdown files and revised headings or terminology in 206 supporting documents. All 25 overview diagrams, package-resource links and 1,561 pre-existing heading or anchor targets in the revised Markdown passed the structural check. Repository validation passed 20,815 checks. Historical analysis locations remain available. [Gate 4M](Research%20Article/gate4_M_epigenetic_inflammatory_memory/README.md) starts topic-centered reading with the selected papers by Nagaraja, Naik and Cowley. Naik's original package also contains the existing comparison based on Cowley's distal-region classes. Topic selection does not change study completion or scientific evidence grades.
+Reorganized the [current paper packages](Research%20Article/README.md#article-package-structure) around published scientific diagrams, Ravel results, study methods, interpretation, and a common index of source data, code, results and figures. The folder-wide review covered 666 tracked Markdown files and revised headings or terminology in 206 supporting documents. All 25 overview diagrams, package-resource links and 1,561 pre-existing heading or anchor targets in the revised Markdown passed the structural check. Repository validation passed 20,815 checks. Historical analysis locations remain available. [Gate 4M](Research%20Article/README.md#gate-4-topic-centered-reading) starts topic-centered reading with the selected papers by Nagaraja, Naik and Cowley. Naik's original package also contains the existing comparison based on Cowley's distal-region classes. Topic selection does not change study completion or scientific evidence grades.
 
 ## 2026-11-19 — Study findings at the start of each article README
 
@@ -12,15 +18,15 @@ Checked all 25 opening-to-paper references and local result links. Repository va
 
 ## 2026-11-19 — Naik mouse skin distal chromatin extension
 
-Under `Nk17-P01`, the [source scan](Research%20Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s Memory and Resolved coordinates and traced selection, accession reuse and eligible recovery pools. The [24-month comparison](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) found a +0.117 fragment-CPM difference between the two class changes in two post-IMQ and two age-matched control pools. After balancing acute induction and width it was +0.121 CPM. With [day-6 accessibility ranks from all four original vehicle-control libraries](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md), it was +0.116 CPM on shared support. The coordinator reviewed the source qualification, registered metadata verification, frozen designs, measured results and figure.
+Under `Nk17-P01`, the [source scan](Research%20Article/gate4M_01_naik_2017/DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s Memory and Resolved coordinates and traced selection, accession reuse and eligible recovery pools. The [24-month comparison](Research%20Article/gate4M_01_naik_2017/distal_m24_outcome_v1/RESULTS_V1.md) found a +0.117 fragment-CPM difference between the two class changes in two post-IMQ and two age-matched control pools. After balancing acute induction and width it was +0.121 CPM. With [day-6 accessibility ranks from all four original vehicle-control libraries](Research%20Article/gate4M_01_naik_2017/distal_m24_baseline_v1/RESULTS_V1.md), it was +0.116 CPM on shared support. The coordinator reviewed the source qualification, registered metadata verification, frozen designs, measured results and figure.
 
-The [paper overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) and [figure gallery](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) link the completed comparison. The original Naik coordinate universe, animal-level pairing, cell-state composition and individual-cell persistence remain unresolved. A genome-wide comparison based solely on acute peak selection would need a distinct question and comparator. The reviewed extension is published for review in [PR #185](https://github.com/xorca0711/ravel/pull/185) from `codex/naik-skin-distal`.
+The [paper overview](Research%20Article/gate4M_01_naik_2017/README.md) and [figure gallery](Research%20Article/gate4M_01_naik_2017/FIGURES.md) link the completed comparison. The original Naik coordinate universe, animal-level pairing, cell-state composition and individual-cell persistence remain unresolved. A genome-wide comparison based solely on acute peak selection would need a distinct question and comparator. The reviewed extension is published for review in [PR #185](https://github.com/xorca0711/ravel/pull/185) from `codex/naik-skin-distal`.
 
 The full-branch Git whitespace check flags 6,300 final tabs in the receipt-bound baseline interval table. Each tab delimits an empty final error field on a successfully read interval. The figure gallery and the five documentation edits pass their link and whitespace checks.
 
 ## 2026-11-19 — Naik paper overview and figure gallery
 
-The [Naik overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) now opens with the epidermal-memory question and presents measured comparisons in biological order. The [figure gallery](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) collects all 24 current figures with PDF exports. The [article index](Research%20Article/README.md#figure-galleries) links the completed synthesis and gallery.
+The [Naik overview](Research%20Article/gate4M_01_naik_2017/README.md) now opens with the epidermal-memory question and presents measured comparisons in biological order. The [figure gallery](Research%20Article/gate4M_01_naik_2017/FIGURES.md) collects all 24 current figures with PDF exports. The [article index](Research%20Article/README.md#figure-galleries) links the completed synthesis and gallery.
 
 The next decision for `Nk17-P01` is whether published distal-region definitions and biologically comparable recovery samples support a chromatin comparison. The overview specifies the literature and deposit checks before numerical work. The original domains, absolute ATAC scale and animal-to-library mapping remain unresolved.
 
@@ -32,7 +38,7 @@ effective author/committer is Xorca <dreamtree071@gmail.com>. Main was freshly
 fetched at `d0429d0`; unrelated root work remains untouched. Local stage review
 is authorized; it does not constitute human scientific acceptance.
 
-[Final S6/S7 synthesis](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md)
+[Final S6/S7 synthesis](Research%20Article/gate4M_01_naik_2017/S6_SYNTHESIS_V3.md)
 records the original S0–S6 disposition separately from completed justified
 S6A–C/S7 extensions. The bounded staged assignment is complete with an informative
 response-estimand comparison, preserved mixed outcomes and precise unresolved
@@ -41,7 +47,7 @@ source analysis; no new mechanism, independent biological replication, human
 claim acceptance or conclusion that all future biology is exhausted.
 Pre-execution S6 v2 and all historical/frozen evidence remain unchanged.
 
-[S7 actual results](Research%20Article/ungated_naik_2017_inflammatory_memory/S7_RESULTS_V1.md)
+[S7 actual results](Research%20Article/gate4M_01_naik_2017/S7_RESULTS_V1.md)
 executed from frozen setup `a7be7f8` in `naik2017_s7_hamdan_response_v1`.
 All 64,253 source genes are exported (35,259/35,034 eligible per donor). Primary
 P-positive/A-negative fractions are 36.29%/31.80%; no-raw-zero strata retain the
@@ -64,7 +70,7 @@ checks (including links), receipt integrity and whitespace passed. Full outputs
 and final synthesis are retained by this local preservation change; Git history
 and the final delivery identify the commit.
 
-[S6C D180](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md)
+[S6C D180](Research%20Article/gate4M_01_naik_2017/S6C_RESULTS_V1.md)
 and its separate failed-launch archive are reviewed/preserved at `3c60839`.
 Successful frozen setup `7563cdf` produced the exact S3 universe in retry1:
 median abs D180 2.166919 pp versus D30 1.995151 and D6 3.067122; 45.55% shrink
@@ -76,15 +82,15 @@ byte-for-byte under its separate governed metadata receipt, and remains failed.
 The approved retry changed no scientific code/input or safeguard. Result gate
 against main `d0429d0`, 20,389 repository checks and whitespace passed.
 
-[S6B D6 QC](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md)
+[S6B D6 QC](Research%20Article/gate4M_01_naik_2017/S6B_RESULTS_V1.md)
 is reviewed/preserved at `ba5afa4`: the specific S4 baseline marker pattern is
 not repeated; sex/confounding/RNA–ATAC pairing remain unresolved. All twenty rows,
-191,370 checks and figure are retained. [S6A](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
+191,370 checks and figure are retained. [S6A](Research%20Article/gate4M_01_naik_2017/S6A_RESULTS_V1.md)
 is reviewed/preserved at `ccc91cd`: all six panels and 27,894 checks remain;
 EDF6g biological mapping is held for exact workbook/final-PDF/summary conflicts,
 without relabeling/refitting. Earlier frozen S5F/S5M/S3/S4B/S4/S2/S1M evidence,
 failures and negative/mixed results remain in the linked
-[stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
+[stage record](Research%20Article/gate4M_01_naik_2017/STAGE_STATUS.md).
 
 Delivery scope is complete: checked S7 outputs and final synthesis are preserved
 locally with the reverified `xorca0711` CLI and Xorca author/committer attribution.
@@ -1943,7 +1949,7 @@ Two actual numerical comparisons completed under freeze `94f6efb`:
 show mixed transitional identity RNA, with Klf4/5 above activated AT2 but no
 single destination assignment (24 primary mice; ten common reference mice).
 Basal support remains below floor; this panel does not explain the fixed Guo result.
-[DY1 six-target reference](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md)
+[DY1 six-target reference](Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md)
 shows co-increased Irf4/Pparg RNA under WT IL4 and heterogeneous mapped-region
 point differences; no NAM mechanism or replication/refutation of alveolar IL13.
 

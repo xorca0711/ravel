@@ -7,11 +7,16 @@
 ## Published findings
 
 ```text
-Intratumoral Tregs → local regulation of cDC2 and CD4 T-cell responses
-  └─ Treg depletion → CD4- and IL-2-associated NK response
-       └─ Concurrent CD4 depletion → attenuation of the observed NK RNA response
+CD8-resistant mouse tumours: local Tregs restrain a dendritic cell–CD4–NK circuit
+  Intratumoral Treg depletion → release of suppression on conventional type 2 DCs
+    └─ cDC2-dependent activation of conventional CD4 T cells → increased IL-2 supply
+         └─ NK cells acquire an effector program and contribute to tumour control.
+              ├─ CD4 codepletion attenuates the NK-cell transcriptional response.
+              └─ Functional comparisons identify NK-dependent control in MHC-I-deficient
+                 tumours and in selected MHC-I-positive tumours bearing NKG2D ligands.
 
-Implication: NK activity in the tumour depends on the surrounding immune-cell circuit.
+Implication: tumour susceptibility to NK cells depends on local antigen-presenting
+             and helper cells as well as the activating ligands present on the tumour.
 ```
 
 The authors compared intratumoral Treg depletion with the combined depletion of Tregs and CD4 cells. Their NK RNA profiles and separate functional measurements addressed different links in the proposed circuit. [Paper, Fig. 3 and Figs. 6–7](https://doi.org/10.1126/sciimmunol.adx4411)
