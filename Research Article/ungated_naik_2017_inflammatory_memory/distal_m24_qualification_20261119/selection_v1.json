@@ -1,0 +1,47 @@
+{
+  "owner": "Nk17-P01",
+  "step": "Source qualification before numerical contract",
+  "date": "2026-11-19",
+  "step1_commit": "0e45d58",
+  "prior_exposure": "Cowley Fig. 1 including M24, published selection rules, and Step 1 source-file inspection. No local M24 research-interval signal examined.",
+  "source": {
+    "workbook": "Cowley Data S2",
+    "sha256": "937b7ff04de985d8fe583119ec2d62fb035b9a5dc4307dc104b11ed07af42d9a",
+    "primary_classes": [
+      "Memory",
+      "Resolved"
+    ],
+    "expected_counts": {
+      "Memory": 934,
+      "Resolved": 933,
+      "Unchanged": 934
+    },
+    "unit": "Complete unique deposited S2 BED-like interval"
+  },
+  "annotation": {
+    "assembly": "GRCm38/mm10",
+    "source": "GENCODE mouse release M9 comprehensive annotation GTF",
+    "chromosomes": "chr1 through chr19 plus chrX, the entire S2 coordinate inventory",
+    "eligible": "Every transcript feature on eligible chromosomes on either strand, every biotype and tag. Coordinates require a valid strand and chromosome bounds.",
+    "tss": "One-based GTF transcript start on + or end on -, minus 1 for zero-based TSS base t.",
+    "promoter": "[max(0,t-2000), min(chromosome_length,t+2001)), including the TSS base and the bases exactly 2000 bp away on both sides.",
+    "distal": "The entire S2 half-open interval has zero intersecting bases with the union of all eligible transcript promoters. Boundary-touching is allowed."
+  },
+  "late_time": "M24",
+  "control": [
+    "GSM9034861",
+    "GSM9034862"
+  ],
+  "post_IMQ": [
+    "GSM9034863",
+    "GSM9034864"
+  ],
+  "expected_bytes": [
+    126382442,
+    126758529,
+    133608734,
+    133895300
+  ],
+  "allowed": "Full file hashes and lengths, header/chromosome dictionaries, non-value structural reads at prospectively located probes disjoint from all S2 rows, and source-level D6 covariate overlap. No M24 measurement at any S2 interval or effect estimation.",
+  "probe_rule": "Use the first 10 kb of chr1, chr2 and chrX, plus 10 kb starting at 5, 25 and 50 Mb on each. Skip any candidate overlapping any S2 interval. Query exact stored intervals for presence, explicit-zero and absent-base counts only. No adaptive location choices."
+}
