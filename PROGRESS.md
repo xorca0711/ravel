@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-19 — Nagaraja colitis-memory analysis plan
+
+The [Nagaraja package](Research%20Article/ungated_nagaraja_2026_colitis_memory/README.md) links the paper, source qualification and a staged plan for mouse tissue recovery, clonal AP-1 accessibility and early adenoma growth. No numerical analysis has run. Next, qualify the Fig. 1 protein denominators, tissue cell-to-mouse score map and organoid cell-to-clone-to-line map before freezing the first eligible comparison.
+
 ## 2026-11-19 — Naik mouse skin distal chromatin extension
 
 Under `Nk17-P01`, the [source scan](Research%20Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s Memory and Resolved coordinates and traced selection, accession reuse and eligible recovery pools. The [24-month comparison](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) found a +0.117 fragment-CPM difference between the two class changes in two post-IMQ and two age-matched control pools. After balancing acute induction and width it was +0.121 CPM. With [day-6 accessibility ranks from all four original vehicle-control libraries](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md), it was +0.116 CPM on shared support. The coordinator reviewed the source qualification, registered metadata verification, frozen designs, measured results and figure.
