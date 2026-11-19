@@ -8,7 +8,7 @@ Naik and colleagues found that previously inflamed mouse skin re-epithelialized 
 
 **Ravel result.** Acute RNA differences generally diminished by day 30. Accessibility ranks near annotated gene starts also shifted less at day 30 than during acute inflammation, but almost half of the windows reversed the direction of their history–control difference between days 30 and 180. The published distal memory regions and these gene-start windows measure different parts of the epigenome. The original distal regions remain the important unresolved comparison.
 
-**Status.** The staged analysis and S7 extension are complete under article-local candidate `Nk17-P01`, outside the ordered roadmap. [Final synthesis](S6_SYNTHESIS_V3.md) · [Figure guide](FIGURES.md) · [Literature context](LITERATURE_CONTEXT.md)
+**Status.** The staged analysis and S7 extension are complete under article-local candidate `Nk17-P01`, outside the ordered roadmap. [Final synthesis](S6_SYNTHESIS_V3.md) · [Figure gallery](FIGURES.md) · [Literature context](LITERATURE_CONTEXT.md)
 
 ## Data and comparisons
 
@@ -30,6 +30,8 @@ Naik and colleagues found that previously inflamed mouse skin re-epithelialized 
 | Human RNA response (S7) | Among genes with higher post-TNF RNA in inflamed-derived organoids, 36.29% in donor 4 and 31.80% in donor 83 had a smaller signed TNF response after accounting for concurrent controls. Baseline differences can therefore change the reading of a post-challenge comparison. Each percentage describes genes within one donor. [S7 results and denominators](S7_RESULTS_V1.md) |
 
 ## Measured figures
+
+Three figures are shown here alongside the findings they support. The [figure gallery](FIGURES.md) includes these three and the other 21 figures, with captions and PDF exports.
 
 ![Distribution of history–control ATAC rank differences across fixed windows at day 180, with earlier days and window-width sensitivity](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/fig01_D180_universe.png)
 

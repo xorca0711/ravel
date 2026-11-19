@@ -1,4 +1,4 @@
-# Naik 2017 — measured figures
+# Naik 2017 — figure gallery
 
 These 24 figures follow the comparisons in the [paper overview](README.md). Each section links its result and each image has a PDF export. The [final synthesis](S6_SYNTHESIS_V3.md) connects the mouse molecular and functional comparisons with the separate human RNA analysis.
 
