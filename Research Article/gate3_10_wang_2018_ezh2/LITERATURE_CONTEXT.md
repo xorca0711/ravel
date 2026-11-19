@@ -33,7 +33,7 @@ the remaining question of whether the RNA response persists within the same
 recovered Treg state once recovery and composition are measured. The fixed
 Wang/DuPage/Peeters panel reinforces context dependence, with reciprocal
 Igfbp4 RNA directions but discordant or fragile transfer for other genes.
-[Stage results and evidence ledger](RESULTS_V1.md).
+[Stage results and evidence record](RESULTS_V1.md).
 
 ## Primary sources and actual reading depth
 
@@ -78,7 +78,7 @@ filename, GEO GSM and SRA identifiers, the paper title with S3/GSEA and
 supplement terms, and the DOI with `FlowRepository source data FCS tumor
 measurements`. It checked the publisher supplement, the GEO file routes,
 Europe PMC XML, ENA runs, BioSample records and the public article data statement.
-The [source ledger](SOURCE_QUALIFICATION.md) records exact URLs, versions, sizes,
+The [source record](SOURCE_QUALIFICATION.md) records exact URLs, versions, sizes,
 hash bindings and failed routes. Per-animal FCS and longitudinal tumor
 measurements with cohort crosswalks were not located in these routes.
 

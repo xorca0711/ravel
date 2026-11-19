@@ -1,40 +1,32 @@
-# DuPage 2015: activation and maintenance of Treg identity
+# DuPage et al. (2015) — Ezh2 and regulatory T-cell identity after activation
 
-## Organizing Biological Q
+<a id="dupage-2015-activation-and-maintenance-of-treg-identity"></a>
 
-How does Ezh2 help activated regulatory T cells retain their identity? DuPage and colleagues found reduced Foxp3 retention after Ezh2 loss and fewer antigen-specific Tregs later in inflamed tissue. Lineage reporters and the timing of the tissue measurements distinguish loss of identity from loss of cells. [Paper, Figs. 5 and 7](https://doi.org/10.1016/j.immuni.2015.01.007)
+<a id="organizing-biological-q"></a>
+
+## Published findings
+
+```text
+Treg activation → increased Ezh2 expression
+  └─ Ezh2 loss
+       ├─ Weaker Foxp3 retention in lineage-labelled cells
+       └─ Reduced Treg representation later in inflamed tissue
+
+Implication: Ezh2 contributes to activated Treg identity and tissue persistence.
+```
+
+Lineage reporters resolved FOXP3 retention after *Ezh2* loss. Measurements after antigen priming followed Treg representation in inflamed tissue. [Paper, Figs. 5 and 7](https://doi.org/10.1016/j.immuni.2015.01.007)
+
+## Ravel analyses and results
 
 Ravel revisited the Fig. 6 RNA comparison in surviving Foxp3-positive cells. Ezh2 knockout versus heterozygote differences were slightly larger overall in the CD62L-low group, but omitting one library at a time could reverse which group had the larger difference. The RNA gives mixed support for a broadly activation-specific effect and leaves the cause of later tissue loss open. [Reconstruction](S1_RESULT.md) · [Library-omission results](S2_RESULT.md)
 
-**7 November 2026: S0–S6 disposition complete.** S0–S3 were executed within
-qualified descriptive scope; S4 was not informative for another numerical run;
-S5–S6 completed the functional evidence map and next-question synthesis.
-**Dp1-P01** remains article-local, paper **9**, Gate **3B**. That S0–S6 checkpoint created no canonical RQ or claim promotion.
-The later owner-requested A33–A35 registrations are linked below; no human
-scientific acceptance is inferred.
+<details>
+<summary>Additional analysis results</summary>
 
-[Current results and S4–S6](RESULTS.md) · [Stage ledger](STAGE_STATUS.md) ·
-[Original plan](ANALYSIS_PLAN.md) · [Prospective amendment](ANALYSIS_AMENDMENT_V2.md) ·
-[Source review](SOURCE_REVIEW.md) · [Literature context](LITERATURE_CONTEXT.md) ·
-[Validation](VALIDATION.md)
+<a id="what-the-screening-changed"></a>
 
-**New exploratory follow-up:** [32-candidate screen and proposed experiments](TARGET_SCREEN_RESULT.md)
-· [Measured-result gallery, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
-Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_20261107.md)
-before choosing an experimental comparison.
-The [three candidate records](CANDIDATE_FOLLOWUP.md) separate source qualification
-from the [prospective numerical follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md).
-**Executed follow-up:** [candidate results and two new figures](CANDIDATE_ANALYSIS_RESULT_V1.md).
-Tigit/Prdm1/Ccr2 gain effects reverse across fresh/cultured contexts; Igfbp4
-retains a reciprocal direction. This is descriptive cross-context evidence.
-This DuPage-first screen is independent of the owner's optional Zhang reading
-direction, but reuses the same exposed DuPage samples; it is not replication.
-
-## Current question development
-
-[A33–A35](rq_derivation/README.md) now have distinct proposed RQ homes for TIGIT-responsive AREG output, CCR2 movement/fitness and IGFBP4 source/IGF response. Dp1-P01 retains the source analyses. The [reframing audit](rq_derivation/README.md#reframing-audit-what-recurred-and-what-held-up) records the corrected mechanistic wording and missed CCR2 background precedent. Registration is not acceptance or target validation. Proposal illustrations are separate from the measured gallery.
-
-## What the screening changed
+### Screening results
 
 | Stage | Result or disposition | Consequence |
 |---|---|---|
@@ -51,7 +43,28 @@ CD62L states are observed after perturbation, and profiled cells remain
 Foxp3-positive. This is shared-source exposed reconstruction, not independent
 replication. Sign counts and omission ranges are not tests or confidence intervals.
 
-## Literature context & visual hypothesis
+</details>
+
+## Data and methods
+
+The RNA comparison used sorted Foxp3-positive Tregs from knockout and heterozygous mice, stratified by CD62L. The sorted populations are activation-associated states. [Assay sources](SOURCE_REVIEW.md) · [RNA reconstruction](S1_RESULT.md)
+
+## Interpretation and open questions
+
+The ordering of the genotype differences across activation states changes with library omission. Identity loss and impaired survival could both affect later Treg representation.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="current-question-development"></a>
+
+### Related research questions
+
+[A33–A35](rq_derivation/README.md) now have distinct proposed RQ homes for TIGIT-responsive AREG output, CCR2 movement/fitness and IGFBP4 source/IGF response. Dp1-P01 retains the source analyses. The [reframing audit](rq_derivation/README.md#reframing-audit-what-recurred-and-what-held-up) records the corrected mechanistic wording and missed CCR2 background precedent. Registration is not acceptance or target validation. Proposal illustrations are separate from the measured gallery.
+
+<a id="literature-context--visual-hypothesis"></a>
+
+### Related literature and hypotheses
 
 ```mermaid
 flowchart TD
@@ -69,21 +82,9 @@ a different activation context and mm9 loci. No matched DuPage KO chromatin was
 measured. The 2024 EZH2 gain-of-function and 2026 KDM6B papers constrain
 generalization; see [literature context](LITERATURE_CONTEXT.md).
 
-## Measured figures
+<a id="next-biological-decision"></a>
 
-![S1 reconstruction](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.png)
-
-[S1 PDF](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.pdf) · [Tables/methods/receipt](S1_RESULT.md)
-
-![S2 sensitivity](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.png)
-
-[S2 PDF](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.pdf) · [Tables/methods/receipt](S2_RESULT.md)
-
-![S3 chromatin context](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.png)
-
-[S3 PDF](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.pdf) · [Mappings/methods/receipt](S3_RESULT.md)
-
-## Next biological decision
+### Outstanding research questions
 
 **Owner-requested follow-up completed:** the [DuPage-first target screen](TARGET_SCREEN_RESULT.md)
 qualified a separate protein-coding view after finding small-RNA-label dominance
@@ -102,7 +103,60 @@ see [S6](RESULTS.md#s6--defensible-next-scientific-decision).
 The original Niethamer/D1 lung-Treg gate remains separate and unmet. A30's paired
 human compartment RNA comparison and all other canonical questions are unchanged.
 
-## Execution history
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_REVIEW.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS.md) |
+| Figures | [Figures and captions](TARGET_SCREEN_FIGURES.md) |
+
+### Study context and analysis history
+
+**7 November 2026: S0–S6 disposition complete.** S0–S3 were executed within
+qualified descriptive scope; S4 was not informative for another numerical run;
+S5–S6 completed the functional evidence map and next-question synthesis.
+**Dp1-P01** remains article-local, paper **9**, Gate **3B**. That S0–S6 checkpoint created no canonical RQ or claim promotion.
+The later owner-requested A33–A35 registrations are linked below; no human
+scientific acceptance is inferred.
+
+[Current results and S4–S6](RESULTS.md) · [Stage record](STAGE_STATUS.md) ·
+[Original plan](ANALYSIS_PLAN.md) · [Prospective amendment](ANALYSIS_AMENDMENT_V2.md) ·
+[Source review](SOURCE_REVIEW.md) · [Literature context](LITERATURE_CONTEXT.md) ·
+[Validation](VALIDATION.md)
+
+**New exploratory follow-up:** [32-candidate screen and proposed experiments](TARGET_SCREEN_RESULT.md)
+· [Measured-result gallery, with PDF/SVG downloads](TARGET_SCREEN_FIGURES.md).
+Read the [biological review and current qualifications](BIOLOGICAL_REVIEW_20261107.md)
+before choosing an experimental comparison.
+The [three candidate records](CANDIDATE_FOLLOWUP.md) separate source qualification
+from the [prospective numerical follow-up](CANDIDATE_ANALYSIS_PLAN_V1.md).
+**Executed follow-up:** [candidate results and two new figures](CANDIDATE_ANALYSIS_RESULT_V1.md).
+Tigit/Prdm1/Ccr2 gain effects reverse across fresh/cultured contexts; Igfbp4
+retains a reciprocal direction. This is descriptive cross-context evidence.
+This DuPage-first screen is independent of the owner's optional Zhang reading
+direction, but reuses the same exposed DuPage samples; it is not replication.
+
+### Measured figures
+
+![S1 reconstruction](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.png)
+
+[S1 PDF](../../analysis/research/runs/dupage_s1_reconstruction_v1/reconstruction.pdf) · [Tables/methods/receipt](S1_RESULT.md)
+
+![S2 sensitivity](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.png)
+
+[S2 PDF](../../analysis/research/runs/dupage_s2_state_contrast_v1/state_dependence.pdf) · [Tables/methods/receipt](S2_RESULT.md)
+
+![S3 chromatin context](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.png)
+
+[S3 PDF](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.pdf) · [Mappings/methods/receipt](S3_RESULT.md)
+
+<a id="execution-history"></a>
+
+### Analysis history and provenance
 
 Execution authorization superseded the planning-only scope, with all stages
 ultimately kept in one technical chat. Four frozen contracts, immutable receipts,
@@ -112,6 +166,8 @@ mapping. Original plans remain readable; public raw inputs are ignored and
 private reading material was not tracked. Local commits only; no push, PR,
 external message or wet-lab execution.
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

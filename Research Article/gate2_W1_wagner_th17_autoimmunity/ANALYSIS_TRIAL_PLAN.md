@@ -1,9 +1,11 @@
-# Execution structure and next handoff
+<a id="execution-structure-and-next-handoff"></a>
+
+# Analysis design and remaining comparisons
 
 **Current checkpoint:** R0/R1 and paired plus model-based R3 have executed.
 Read the [pre-RQ evidence disposition](PRE_RQ_EVIDENCE.md), [model results](MODEL_RESULTS.md)
 and [handoff](HANDOFF_2026-10-04.md). R2/R4/R5 qualification closes with numerical
-holds. The table below is the historical plan, not the current execution ledger.
+holds. The table below is the historical plan, not the current execution record.
 
 The original structure below was a documentation-stage plan.
 Do not interpret planned filenames as existing artifacts. The registered owner

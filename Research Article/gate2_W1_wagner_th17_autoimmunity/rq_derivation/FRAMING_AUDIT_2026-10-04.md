@@ -14,7 +14,9 @@ with A1, not an established regulatory mechanism or adopted A1 specification.
 P01/P02 are explicitly supporting measurement questions. The earlier summary
 of four biological cards was too coarse to communicate these distinctions.
 
-## Which merged standards were checked
+<a id="which-merged-standards-were-checked"></a>
+
+## Assessment criteria
 
 | Merged PR / current authority | Requirement used in this audit |
 |---|---|
@@ -101,7 +103,7 @@ the existing workflow. No new documentation category or gate exemption is needed
 
 ## Evidence and limits of this check
 
-The same-day [search/reading ledger](SOURCES_AND_GROUNDING.md),
+The same-day [search/reading record](SOURCES_AND_GROUNDING.md),
 [precedent audit](../PRECEDENT_REVIEW.md) and
 [pre-derivation update](../pre_rq_review/LITERATURE_UPDATE.md) are reused for
 unchanged biology. They separate exact published experiments, local exposed

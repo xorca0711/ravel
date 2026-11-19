@@ -7,7 +7,7 @@ draft. Existing public RNA work proceeds under [separate bounded branches](PUBLI
 
 This is the retained planning-stage source-reading/access record. The subsequent
 [completed metadata qualification](RESULTS.md) provides the frozen crosswalk,
-source ledger, filename conflicts and exact remaining holds through the
+source record, filename conflicts and exact remaining holds through the
 [research contract and runner](../../docs/RESEARCH_GOVERNANCE.md). All source
 outcomes already inspected, including earlier C3 results, are outcome-exposed.
 The later Figure 5 code retrieval and publisher HTTP 403 route are recorded in

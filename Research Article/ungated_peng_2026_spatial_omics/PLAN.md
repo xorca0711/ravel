@@ -76,14 +76,14 @@ metadata task. The paper, notes and reused results have already been seen.
 
 ## Execution sequence
 
-The [post-execution job ledger](BIOLOGICAL_REVIEW.md#job-by-job-status-and-implication)
+The [post-execution job record](BIOLOGICAL_REVIEW.md#job-by-job-status-and-implication)
 marks each original stage as complete, partial or held and records both completed
 public branches. Its [extension comparison](BIOLOGICAL_REVIEW.md#possible-extensions-and-their-decision-value)
 distinguishes author-export requirements from new functional measurements.
 
 | Step | Work and owner | Deliverable and decision |
 |---|---|---|
-| 0 — source ledger | Pg1-P01: reuse recovered public metadata, previous C3 inventories and source access receipts. Record version/URL/hash; verify downloads are their claimed format. | Source manifest with successful, restricted, unresolved and failed routes. GEO v3 and supplement v2 manifests complete for received sources; new access only for a named remaining gap. |
+| 0 — source record | Pg1-P01: reuse recovered public metadata, previous C3 inventories and source access receipts. Record version/URL/hash; verify downloads are their claimed format. | Source manifest with successful, restricted, unresolved and failed routes. GEO v3 and supplement v2 manifests complete for received sources; new access only for a named remaining gap. |
 | 1 — sample joins | Pg1-P01: parse the three GEO SOFT records; compare exact author library aliases, GSMs and demographics with existing crosswalks. Qualify WES separately; reconcile S1 if obtained. | `samples.csv`, `crosswalk.csv`, `join_issues.csv`, `summary.json`. One row per actual library/section, no fabricated Xenium records. Accept patient-level matches at that level only; unresolved specimen relationships stay unknown. |
 | 2 — pathology/ROI recovery | Pg1-P01: inspect documented public supplemental/author products and existing member inventories. Obtain permitted exports if available; distinguish published definitions from actual geometry/labels. | Annotation inventory and schema, exact recovered files, missing-data specification. If exports are inaccessible, retain the hold on region-specific analysis while completing metadata work. Do not repeatedly download the known 9.4 GB archive. |
 | 3 — coordinate and annotation qualification | Pg1-P01, conditional on exports: check sample/barcode uniqueness, polygon membership, units/orientation, image dimensions, transforms, label dictionaries, QC and category totals against author figures. | A bounded alignment/QC report with overlays from measured data, exact disagreements and exclusion counts. Failures hold only affected sections/analyses. No score-derived replacement for missing pathology. |

@@ -11,7 +11,7 @@ memberships, with three expression scales and six single-library omissions.
 [Three direct RNA figures](FIGURES.md) passed [originating review](ORIGINATING_REVIEW.md).
 Population inference, exact author-method replay, signaling/function reconstruction
 and linked recipient/persistence analyses retain the specific holds in the
-[current article ledger](../COMPLETION_LEDGER.md).
+[current article record](../COMPLETION_LEDGER.md).
 
 The selected IFN panel has a more negative direct B3-WT median than the selected
 tissue-protection panel (-1.345 versus -0.459 on log2(CPM+1)). Both broad IFN sets
@@ -81,7 +81,9 @@ Both PBS contrasts share controls, and the estimated axes contain noise. Fit
 residuals, gene-wise correlations or a collection of genes do not supply an
 independent biological test or exclude cell-composition explanations.
 
-## Prospective job-by-job plan
+<a id="prospective-job-by-job-plan"></a>
+
+## Original prospective analysis plan
 
 | Job | Concrete work | Current eligibility and boundary |
 |---|---|---|

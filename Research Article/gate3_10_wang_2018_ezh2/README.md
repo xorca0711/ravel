@@ -1,50 +1,27 @@
-# Wang 2018: EZH2, activated Tregs and tumor immunity
+# Wang et al. (2018) — EZH2 and regulatory T-cell function in tumours
 
-## What changes in the Tregs that remain in a tumour?
+<a id="wang-2018-ezh2-activated-tregs-and-tumor-immunity"></a>
 
-Wang and colleagues used lineage tracing to distinguish Tregs that lost FOXP3 from those that retained it after Ezh2 deletion. Even the FOXP3-retaining cells changed which cytokines they could produce on restimulation. This gives altered function a place alongside changes in Treg abundance as an explanation for tumour control. [Paper, Figs. 5–6](https://doi.org/10.1016/j.celrep.2018.05.050)
+<a id="what-changes-in-the-tregs-that-remain-in-a-tumour"></a>
 
-Ravel recovered the published directions for three genes in a separate day-four culture comparison. Ezh2-deficient libraries had lower *Il10* and *Tgfb1* RNA and higher *Il2*. These culture measurements leave open which cytokines the surviving Tregs release in the tumour. [Day-four RNA and comparison with Fig. S3C](RESULTS_V1.md)
+## Published findings
 
-12 November 2026. **The adapted day-four RNA analysis is complete at the
-deposited-library level.** The linked measurement plan is complete and has
-passed agent specification review. The article-local owner is Wang18-P01.
+```text
+Ezh2 perturbation in tumour-associated Tregs
+  ├─ Lineage-labelled cells → loss of FOXP3 in a subset
+  └─ FOXP3-retaining cells → altered cytokine capacity on restimulation
 
-[Four-figure gallery](FIGURES.md) · [Results](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
-· [Biological implications and RQ connections](BIOLOGICAL_INTERPRETATION_V1.md)
-· [Neighboring-paper flow and remaining gaps](RQ_FOLLOWUP_REVIEW_20261112.md#neighboring-article-flow-and-revisited-gaps)
-· [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
-· [F2 ranking sensitivity](F2_RESULTS_V1.md)
-· [F3 measurement plan](F3_MEASUREMENT_PLAN_V1.md) · [Stage and review status](FOLLOWUP_STATUS_20261112.md)
-· [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
-· [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
-· [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
+Implication: changes in surviving Tregs can accompany changes in their abundance.
+```
 
-The subsequent [public-data gap review](PUBLIC_GAP_REVIEW_20261112.md) updates A33–A35's assay qualification without adding a functional estimate. The [Bockman full-main-paper review](BOCKMAN_FULL_READ_20261112.md) revises the conditional tumor extension around EZH2 perturbation, viable Treg recovery and DC function; depletion biology already established by Bockman remains a premise.
+Tumour lineage tracing distinguished loss of FOXP3 from changes in cytokine production upon restimulation of FOXP3-retaining cells. [Paper, Figs. 5–6](https://doi.org/10.1016/j.celrep.2018.05.050)
 
-## Biological purpose
+<details>
+<summary>Detailed published evidence</summary>
 
-How does disrupting EZH2 change activated Treg behavior, and what distinguishes
-reduced suppression, active support of antitumor immunity, and changes in the
-abundance or composition of the Treg population? These processes can coexist.
-Wang's interventions and functional measurements address parts of this question;
-the deposited RNA comparison addresses a narrower transcriptional component.
+<a id="what-the-paper-establishes-and-what-needs-qualification"></a>
 
-The four Ezh2-deficient day-four libraries showed lower Il10 and Tgfb1 and
-higher Il2 than the deposited controls, with the same directions under strict
-+/+ controls. TNF/NF-κB and inflammatory ranks stayed positive across the
-tested sensitivities. Lower E2F/G2M ranks and higher apoptosis ranks leave a
-specific unresolved question about the proportions and viable recovery of
-activated states. Bulk RNA measures the resulting library mixture. Sparse
-cytokine RNA and overlapping library values limit the interpretation of the
-full inflammatory response. [Results and figures](RESULTS_V1.md).
-
-The F2 sensitivity kept those inflammatory, cell-cycle and apoptosis
-directions under the source-named Signal2Noise metric. Three other Hallmarks
-reversed direction, so rank robustness applies to specific themes.
-[F2 results and measured comparison](F2_RESULTS_V1.md).
-
-## What the paper establishes, and what needs qualification
+### Published evidence and interpretation limits
 
 The table refers to the published experiments. The main article and publisher
 supplement were recovered, including the RNA methods and S3B–C.
@@ -67,7 +44,22 @@ Checkpoint-associated EZH2 induction is proposed in Wang's Discussion; related
 anti–CTLA-4 combination work was already reported by Goswami et al. (2018).
 See the [literature record](LITERATURE_CONTEXT.md).
 
-## Available source and missing inputs
+</details>
+
+## Ravel analyses and results
+
+Ravel recovered the published directions for three genes in a separate day-four culture comparison. Ezh2-deficient libraries had lower *Il10* and *Tgfb1* RNA and higher *Il2*. These culture measurements leave open which cytokines the surviving Tregs release in the tumour. [Day-four RNA and comparison with Fig. S3C](RESULTS_V1.md)
+
+## Data and methods
+
+The deposited RNA measures a separate day-four culture experiment. Ravel summarized library-level directions and single-library sensitivity for the source genes. [Source qualification](SOURCE_QUALIFICATION.md) · [Day-four comparison](RESULTS_V1.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+<a id="available-source-and-missing-inputs"></a>
+
+### Data availability and sample identities
 
 The count matrix, GEO, ENA and BioSample identify four fl/fl, four +/+, and one
 fl/+ libraries. Figure S3C labels its five control points fl/+. Mouse/pool
@@ -83,7 +75,40 @@ The four-versus-five comparison has neither an unactivated baseline nor matched
 tumor/non-tumor arms, so it cannot estimate an activation-by-genotype,
 tissue-by-genotype or time-by-genotype interaction by itself.
 
-## Connection to existing repository evidence
+</details>
+
+## Interpretation and open questions
+
+The culture RNA supports changes in cytokine transcripts. Which cytokines surviving tumour Tregs release in situ and which contribute to tumour control remain functional questions.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+### Biological purpose
+
+How does disrupting EZH2 change activated Treg behavior, and what distinguishes
+reduced suppression, active support of antitumor immunity, and changes in the
+abundance or composition of the Treg population? These processes can coexist.
+Wang's interventions and functional measurements address parts of this question;
+the deposited RNA comparison addresses a narrower transcriptional component.
+
+The four Ezh2-deficient day-four libraries showed lower Il10 and Tgfb1 and
+higher Il2 than the deposited controls, with the same directions under strict
++/+ controls. TNF/NF-κB and inflammatory ranks stayed positive across the
+tested sensitivities. Lower E2F/G2M ranks and higher apoptosis ranks leave a
+specific unresolved question about the proportions and viable recovery of
+activated states. Bulk RNA measures the resulting library mixture. Sparse
+cytokine RNA and overlapping library values limit the interpretation of the
+full inflammatory response. [Results and figures](RESULTS_V1.md).
+
+The F2 sensitivity kept those inflammatory, cell-cycle and apoptosis
+directions under the source-named Signal2Noise metric. Three other Hallmarks
+reversed direction, so rank robustness applies to specific themes.
+[F2 results and measured comparison](F2_RESULTS_V1.md).
+
+<a id="connection-to-existing-repository-evidence"></a>
+
+### Relationship to prior studies
 
 [Dp1's current follow-up](../gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
 found context-dependent signs across unmatched loss/gain sources. Tigit, Prdm1
@@ -101,11 +126,13 @@ comparison, not another measurement of Wang's Treg state. Their block/ranking
 sensitivity also demonstrates why reproducing a selected panel and establishing
 a general biological program are different tasks.
 
-## Execution and next decision
+<a id="execution-and-next-decision"></a>
+
+### Analytical scope and remaining questions
 
 | Stage | Purpose | Current status |
 |---|---|---|
-| S0 | Separate published abundance, lineage and functional evidence | Supplement and functional evidence ledger complete |
+| S0 | Separate published abundance, lineage and functional evidence | Supplement and functional evidence record complete |
 | S1 | Qualify counts, genotypes and units | Nine libraries verified. Mouse/pool identity remains unknown. |
 | S2 | Reconstruct the cultured RNA contrast | Adapted library description completed. Population inference and exact replay held. |
 | S3 | Assess breadth and sensitivity | All 50 adapted mouse Hallmarks and the eligible gene universe reported. |
@@ -126,6 +153,37 @@ historical source and replay gaps.
 [Execution amendment](EXECUTION_AMENDMENT_V1.md) ·
 [Context amendment](CONTEXT_AMENDMENT_V1.md).
 
-## Additional display archive
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_QUALIFICATION.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS_V1.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
+
+12 November 2026. **The adapted day-four RNA analysis is complete at the
+deposited-library level.** The linked measurement plan is complete and has
+passed agent specification review. The article-local owner is Wang18-P01.
+
+[Four-figure gallery](FIGURES.md) · [Results](RESULTS_V1.md) · [Source qualification](SOURCE_QUALIFICATION.md)
+· [Biological implications and RQ connections](BIOLOGICAL_INTERPRETATION_V1.md)
+· [Neighboring-paper flow and remaining gaps](RQ_FOLLOWUP_REVIEW_20261112.md#neighboring-article-flow-and-revisited-gaps)
+· [Execution review](REVIEW_20261112.md) · [F1 source audit](F1_SOURCE_AUDIT_20261112.md)
+· [F2 ranking sensitivity](F2_RESULTS_V1.md)
+· [F3 measurement plan](F3_MEASUREMENT_PLAN_V1.md) · [Stage and review status](FOLLOWUP_STATUS_20261112.md)
+· [Stepwise analysis plan](ANALYSIS_PLAN.md) · [Literature and access record](LITERATURE_CONTEXT.md)
+· [Wang et al., Cell Reports 2018](https://doi.org/10.1016/j.celrep.2018.05.050)
+· [GSE114298](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114298)
+
+The subsequent [public-data gap review](PUBLIC_GAP_REVIEW_20261112.md) updates A33–A35's assay qualification without adding a functional estimate. The [Bockman full-main-paper review](BOCKMAN_FULL_READ_20261112.md) revises the conditional tumor extension around EZH2 perturbation, viable Treg recovery and DC function; depletion biology already established by Bockman remains a premise.
+
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

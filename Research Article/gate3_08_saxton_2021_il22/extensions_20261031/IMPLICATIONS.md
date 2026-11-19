@@ -1,4 +1,6 @@
-# What this work contributes
+<a id="what-this-work-contributes"></a>
+
+# Contribution of the analysis
 
 31 October 2026. This note separates the paper's findings, the repository's
 completed review and conditional research directions. It does not adopt a new

@@ -1,4 +1,6 @@
-# Yadav technical review ledger
+<a id="yadav-technical-review-ledger"></a>
+
+# Yadav technical review
 
 ## First source checkpoint — 30 October 2026
 
@@ -30,7 +32,7 @@ The six-library inventory proves data identity/structure, not independent animal
 ## Authorized next checkpoint
 
 1. Freeze separate exposed source-value reconstruction contracts covering the
-   existing F1-F5 ledger, keeping assay/endpoint and unit distinctions. F2 may
+   existing F1-F5 record, keeping assay/endpoint and unit distinctions. F2 may
    include 6G separately. Describe raw points, observed condition means/differences
    and missingness; use documented donor-combination labels only. F1 slice-level
    summaries are not patient effects. F3 may use unpaired source-animal contrasts
@@ -43,7 +45,7 @@ The six-library inventory proves data identity/structure, not independent animal
    from nonintegrated counts, with composition/capture and unknown preparation
    limits. No cell-based population tests or inference of independent preparations.
 4. Return a committed checkpoint, receipts, figures, independent numerical checks
-   and the updated per-job ledger before further context/extension decisions.
+   and the updated per-job record before further context/extension decisions.
 
 Still held: PCLS patient-level effects/precision, preparation-population RNA DE,
 raw-normalizer reconstruction, raw spatial analysis and flux/routing claims.
@@ -113,7 +115,7 @@ Additional label tuning is not justified by the bounded descriptive aim.
 - Step 6: article-local Wg-P06/thesis synthesis preserving current hypothesis/rival
   and canonical RQs; separate published premise, source reanalysis and unresolved
   substrate balance/epithelial-function bridge. No novelty or bench-readiness claim.
-- Return a complete F1-F5/R1/S1/C1/synthesis ledger, including all failed attempts,
+- Return a complete F1-F5/R1/S1/C1/synthesis record, including all failed attempts,
   exact external/design reopening evidence and any feasible authorized work left.
 
 Patient slice/row maps and independent coculture preparation identities remain
@@ -140,7 +142,7 @@ source finding is not accepted here before artifact review.
 Execution: `54daedccfab6be75ec5e378dfa3b3819502bffdd`.
 S1 freeze: `294a28b` (full revision in its receipt).
 Current fetched main: `28fb61015f9b921f591e41ff26010a960c305947`.
-[Final job ledger](CONTEXT_AND_SYNTHESIS.md) · [Source audit](SPATIAL_CONTEXT_AUDIT.md).
+[Final job record](CONTEXT_AND_SYNTHESIS.md) · [Source audit](SPATIAL_CONTEXT_AUDIT.md).
 
 Reviewed the complete source audit, portability matrix, synthesis and F1-F5/R1/S1/
 C1 dispositions against the original six-step scope and unchanged Wg-P06 card.

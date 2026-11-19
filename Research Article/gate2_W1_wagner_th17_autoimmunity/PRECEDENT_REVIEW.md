@@ -9,7 +9,9 @@ Published-source interpretation is separated from the repository's
 [first metadata result](RESULTS.md). All six branches remain proposed; this
 bounded review neither accepts a global RQ nor certifies novelty.
 
-## Comparison and decision ledger
+<a id="comparison-and-decision-ledger"></a>
+
+## Comparisons and scientific decisions
 
 | Branch | Closest inspected comparison and strongest rival | What remains informative | Contribution / readiness |
 |---|---|---|---|
@@ -20,7 +22,7 @@ bounded review neither accepts a global RQ nor certifies novelty.
 | P05 | Choi tests IL-1 withdrawal and glycolysis; the AHR organoid study measures fibroblast response and AT1 spheroid output. Persistent input and stromal change remain rivals. | An early feature linked to later absolute lineage-supported mature output in the same independent preparations, beyond baseline state and continued exposure. | Conditional predictive extension. Feature, model, interval and functional assay remain unspecified. |
 | P06 | Yadav tests myeloid ARG1/ornithine supply, recipient proline/collagen and OAT dependence. Hamanaka provides a distinct human fibroblast arginine context. | A nominated, biologically justified boundary comparison of measured supply and recipient routing under different compartments or media. | Broad supply-versus-use question already directly tested; exact boundary extension remains unspecified. |
 
-No Wg biological effect was computed for this ledger. Prior source outcomes and
+No Wg biological effect was computed for this record. Prior source outcomes and
 the owner's notes were already exposed. The six cards retain their units,
 endpoints, alternatives, decisions and stop conditions; none is prioritized.
 
@@ -145,7 +147,7 @@ Europe PMC citation lists: 449 Wagner and 555 Choi records were retrieved.
 This continuation screened titles for method/metabolism/lineage and
 transitional/stromal links and examined the close sources above; it did **not**
 read all 1,004 citing papers. Citation counts are coverage facts, not support.
-Reviews/search snippets were discovery aids, not the basis of the ledger.
+Reviews/search snippets were discovery aids, not the basis of the record.
 
 ## Stop point and explicit remaining work
 

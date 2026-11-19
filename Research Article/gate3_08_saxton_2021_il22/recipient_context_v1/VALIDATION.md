@@ -1,4 +1,6 @@
-# E1a execution and handoff
+<a id="e1a-execution-and-handoff"></a>
+
+# E1a analysis results
 
 31 October 2026 (Asia/Seoul).
 

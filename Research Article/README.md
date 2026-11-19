@@ -1,14 +1,13 @@
 # Research articles and reading roadmap
 
-This index owns paper discovery, reading status, source analyses and gallery
-navigation. Start with a study overview, then its current result/hold ledger and
-local gallery. The [question index](../RQ_Specified/README.md) owns derived RQs;
-the [project state](../PROGRESS.md) owns the current handoff.
+This index lists papers by topic and reading sequence, with links to each study’s findings, methods and figures. The [question index](../RQ_Specified/README.md) lists derived research questions. The [project summary](../PROGRESS.md) records recent work.
 
+- [Gate 4 topic-centered reading](#gate-4-topic-centered-reading)
+- [Article package structure](#article-package-structure)
 - [Biological topic map](../docs/guides/RESEARCH_TOPICS.md)
-- [Studies and figure galleries](#studies-with-executed-analyses)
-- [Ungated source papers](#ungated-source-papers)
-- [Reading order and status](#order-and-status)
+- [Studies and figure galleries](#studies-with-ravel-analyses)
+- [Studies outside the reading sequence](#studies-outside-the-reading-sequence)
+- [Reading sequence and study status](#reading-sequence-and-study-status)
 - [Reading and analysis status](#reading-and-analysis-status)
 - [Earlier index checkpoints](INDEX_HISTORY_2026-11-02.md)
 - [3 November unfinished-work, metadata-screening and structure audit](../docs/audits/2026-11-03-article-rq-screening/README.md)
@@ -19,7 +18,9 @@ grade. Source-study findings, repository reproduction and proposed RQs retain
 their own owners, biological units and interpretation limits. Historical entry,
 withdrawal and reading-order decisions remain in [DEVELOPMENT](../DEVELOPMENT.md).
 
-## Browse by biological topic
+<a id="browse-by-biological-topic"></a>
+
+## Biological topics
 
 [The shared topic map](../docs/guides/RESEARCH_TOPICS.md) connects paper packages
 to the question homes. The study inventory has a separate topic-tag column;
@@ -29,14 +30,19 @@ link or independent replication.
 
 [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Tissue ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) · [Growth/clones](../docs/guides/RESEARCH_TOPICS.md#growth-clonal-dynamics)
 
-## Ungated source papers
+## Gate 4 topic-centered reading
+
+Gate 4 groups papers by biological interest across tissues, methods and study designs. Its first topic is [4M — Epigenetic & Inflammatory Memory](gate4_M_epigenetic_inflammatory_memory/README.md), with Nagaraja (2026), Naik (2017) and Cowley (2026). Naik’s existing paper package and the source-specific analyses remain at their established paths. The topic index distinguishes paper selection from existing Ravel analysis.
+
+<a id="ungated-source-papers"></a>
+
+## Studies outside the reading sequence
 
 These sources are outside the ordered reading roadmap. Ungated describes roadmap
 membership; it does not imply acceptance or waive source/analysis eligibility.
 
 | Source | Scope and current entry point |
 |---|---|
-| **Naik 2017 — ungated** | [Inflammatory memory in epidermal stem cells](ungated_naik_2017_inflammatory_memory/README.md). [S0–S7 synthesis](ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md), [24-month distal accessibility](ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) and [day-6 baseline sensitivity](ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md). |
 | **Navarro Negredo 2026 — ungated** | [Aged-brain IL-10 study](ungated_navarro_negredo_2026_aged_brain_il10/README.md); separate Nn26-P01 package linked to Saxton. [Source/16-panel animal reproduction](ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md) and [qualified pooled RNA results](ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md) are complete within the [stage ledger's limits](ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md). [Figure gallery](ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md) and [10 November source/statistic follow-up with separate human-cell context](ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md). Direct cognition tests are nonsignificant; dose/donor identities and population inference remain held. |
 | **Damani–Yokota 2026 — ungated (DY1)** | [Study and current disposition](ungated_damani_yokota_2026/README.md); source reproduction, article-local comparisons and explicit holds. The historical `gate2_DY1_...` directory is retained because frozen contracts and receipts bind it; it is not a Gate 2 assignment. |
 | **Arozamena 2026 — ungated (Arz1)** | [Source qualification and paired descriptions](ungated_arozamena_2026_inflammatory_memory/README.md); original state/function questions retain their data limits. |
@@ -57,7 +63,9 @@ pilots remain unrun and retain their own eligibility requirements.
 The [Saxton IL-10 migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md)
 preserves the earlier source paths. Paper 7 now lives in its Gate 3A package.
 
-### Historical comparison queue — 1 October 2026
+<a id="historical-comparison-queue--1-october-2026"></a>
+
+### Historical comparison sequence — 1 October 2026
 
 This table records the earlier sequence. The current paper entries below
 record later reading and execution.
@@ -85,7 +93,9 @@ question remains interesting outside the original tissue. PI matching,
 personal reflection and contact planning stay in private Notion, consistent
 with the earlier removal of outreach planning from this repository.
 
-## Studies with executed analyses
+<a id="studies-with-executed-analyses"></a>
+
+## Studies with Ravel analyses
 
 Start with a study overview, then use its evidence report and gallery. Source
 paper findings, repository reanalyses and proposed research questions are
@@ -106,7 +116,7 @@ linked in each study's gallery.
 | [Yadav 2025: myeloid-mesenchymal metabolism](gate2_W3_yadav_2025/README.md) | [Functional/RNA reconstruction](gate2_W3_yadav_2025/TECHNICAL_RESULTS.md), [extension synthesis](gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md) and exact spatial/unit/function holds; Wg-P06 and A32 retain separate scopes | [Article gallery](gate2_W3_yadav_2025/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) |
 | [Travaglini/Nabhan 2020: human lung atlas (Nb4)](gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) | [Source and RQ sequence](gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md); later P09 expression work supports the proposed A31 functional question | [Article gallery](gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) |
 | [Tabula Muris Senis: ageing atlas (Nb5)](gate2_N4_nabhan_aging_atlas_2020/README.md) | [Completed extensions and holds](gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md); later A25 held-out model comparison has a mixed result | [Source gallery](gate2_N4_nabhan_aging_atlas_2020/FIGURES.md) and [extension gallery](gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md); A25 result remains [RQ-owned](../RQ_Specified/A25_microglial_midlife_configuration/README.md) | [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Tissue ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
-| [Naik 2017 — epidermal inflammatory memory (ungated)](ungated_naik_2017_inflammatory_memory/README.md) | [Mouse distal chromatin at 24 months](ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md), [RNA and repair evidence](ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md) and [human within-donor RNA responses](ungated_naik_2017_inflammatory_memory/S7_RESULTS_V1.md) | [Figure gallery (25 figures)](ungated_naik_2017_inflammatory_memory/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
+| [Naik 2017 — epidermal inflammatory memory (4M)](ungated_naik_2017_inflammatory_memory/README.md) | [Mouse distal chromatin at 24 months](ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md), [RNA and repair evidence](ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md) and [human within-donor RNA responses](ungated_naik_2017_inflammatory_memory/S7_RESULTS_V1.md) | [Figure gallery (25 figures)](ungated_naik_2017_inflammatory_memory/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
 | [Arozamena 2026: intestinal history (ungated)](ungated_arozamena_2026_inflammatory_memory/README.md) | [Reviewed RNA](ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md) and [paired four-locus results](ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md), fixed sensitivities and exact state/function holds | [Article gallery](ungated_arozamena_2026_inflammatory_memory/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
 | [Saxton 2021: IL-10 CD8 RNA — Gate 3A](gate3_07_saxton_2021_il10/README.md) | [Completed adapted source description](gate3_07_saxton_2021_il10/RESULTS.md); mixed super-10 responses, 10-DE attenuation and exact unit/replay holds | [Three RNA figures](gate3_07_saxton_2021_il10/FIGURES.md) | [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Saxton 2021: IL-22 and recipient context](gate3_08_saxton_2021_il22/README.md) | [Completed Osmr extension](gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md), [reviewed colon RNA description](gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md), prior source/QC and external feasibility; no causal STAT, population or functional inference | [Combined gallery with the Osmr extension](gate3_08_saxton_2021_il22/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
@@ -139,7 +149,9 @@ The [Primary source archive](Primary/README.md) stores source material, not an
 additional study. [Shared workspace roles](../docs/guides/RESEARCH_TOPICS.md#shared-workspaces-and-source-archives)
 explain both this archive and the cross-study specificity module.
 
-## Order and status
+<a id="order-and-status"></a>
+
+## Reading sequence and study status
 
 | # | Gate | Paper | DOI | PMID | Role in the roadmap | Folder | Study note | Analysis trial |
 |--:|---|---|---|---|---|---|---|---|
@@ -167,7 +179,9 @@ and Yu uses branch 2C item 3 (`gate2_C3`, stable order 13). The row order above 
 16 were added on 2026-09-15 (see the re-ranking bullet below), and paper 17 on 2026-10-04
 at the owner's request after reading it.
 
-### Methods references, read at the backbone step that uses them
+<a id="methods-references-read-at-the-backbone-step-that-uses-them"></a>
+
+### Methodological references by analysis stage
 
 Not gated papers: each is read when the backbone step it supports is built.
 Identifiers verified against PubMed on 2026-09-15.
@@ -196,7 +210,9 @@ Sikkema trial S2 targets it.
 
 DOIs and PMIDs were verified against PubMed on 2026-09-09.
 
-## Gate rules carried over from the roadmap
+<a id="gate-rules-carried-over-from-the-roadmap"></a>
+
+## Reading and analysis criteria
 
 **Historical rules from the original reading/pilot roadmap.** The later
 [reading and analysis status](#reading-and-analysis-status) separate open
@@ -234,21 +250,39 @@ revoke later permissions. Niethamer/S1 and D1 retain their own existing gates.
   `ROADMAP.json`. Papers in 2C and 2N are read while interpreting the pilot
   figures, as before; 2W is read alongside proposal W1.
 
-## Folder contract
+<a id="folder-contract"></a>
+
+## Article package structure
+
+All paper READMEs use the same five sections. Each opens with a plain-text diagram of the **published** biological relationships, study comparison or reference model and its central implication. A review can map competing contexts, and an atlas can map populations or anatomical compartments.
+
+| Section | Contents |
+|---|---|
+| Published findings | Paper-specific diagram, decisive observation and primary figure or source passage |
+| Ravel analyses and results | Source reanalysis or extension, observed directions, and mixed or unresolved findings |
+| Data and methods | Samples, biological units, assays, comparisons and methods reports |
+| Interpretation and open questions | Biological interpretation, alternative explanations and unresolved measurements |
+| Figures and supporting documentation | Measured figures, study reports, annotations, references and analysis history |
+
+Paper titles and subtitles use descriptive academic noun phrases. Each section links the relevant material at its existing location. Topic indices such as 4M group readings and link the relevant paper packages.
+
+### Research article directory
 
 ```
 Research Article/
   README.md                       this index
   ROADMAP.json                    the same table, machine-readable
   gateG_NN_firstauthor_year/       G is 1, 2 (any Gate 2 branch), 3A or 3B
-    README.md                     study note: five questions, plus the extracts the roadmap names for that paper
+    README.md                     published findings, Ravel results, methods, interpretation and figures
     *.json                        parameters and decision criteria extracted from the paper, reviewable
     PIPELINE_FRAMING.md           (when a paper is a methods reference) what this repository adopts, adapts, declines
     ANALYSIS_TRIAL_PLAN.md        pre-registered trial(s): rule, threshold, dataset, success and failure criteria, outcome
     trials/                       trial scripts and their logged artefacts (small tables and JSON are tracked)
     <accession>/                  the deposit itself, when this paper produced it (paper 1 holds GSE262927)
   ungated_firstauthor_year/       a source paper outside the ordered roadmap
-    README.md                     source overview and authorized analysis scope; reading status is recorded separately
+    README.md                     paper overview with the same five sections
+  gate4_M_epigenetic_inflammatory_memory/
+    README.md                     Gate 4M topic index and selected papers
 ```
 
 Reading/workflow statuses in `ROADMAP.json` describe progress, not evidence
@@ -257,7 +291,9 @@ linked question report. An executed analysis needs a report and logged artifacts
 in its paper or question workspace; a plan alone is not a result. Each run
 records its freeze or exposed-data amendment and interpretation limits.
 
-## Local, untracked material
+<a id="local-untracked-material"></a>
+
+## Local source materials
 
 The PDFs and supplementary files for the roadmap papers live in the owner's
 external thesis-study folder (organised by gate) and, for the earlier

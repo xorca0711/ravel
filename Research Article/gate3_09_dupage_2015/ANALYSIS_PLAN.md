@@ -1,7 +1,7 @@
 # Dp1-P01: stepwise analysis and biological aims
 
 Version 1, 7 November 2026. **Original prospective planning record, retained.**
-Current execution is in [RESULTS](RESULTS.md), [ledger](STAGE_STATUS.md) and
+Current execution is in [RESULTS](RESULTS.md), [record](STAGE_STATUS.md) and
 [AM01](ANALYSIS_AMENDMENT_V2.md). Planning-only statements below are historical.
 The owner's subsequent DuPage-first target-screen follow-up is specified in
 [TARGET_SCREEN_PLAN_V1](TARGET_SCREEN_PLAN_V1.md); it preserves this original
@@ -86,7 +86,7 @@ per-sample tables support a common gene-level comparison.
 biological effect estimate. **Threat:** misidentified comparator, pseudoreplicates
 or incompatible feature definitions.
 
-**Output:** manifest, source hashes, exclusion ledger and an explicit route:
+**Output:** manifest, source hashes, exclusion record and an explicit route:
 
 - Common per-sample features qualified: S1 can describe the retained libraries.
 - Only four merged estimates qualified: restrict S1 to group-level source

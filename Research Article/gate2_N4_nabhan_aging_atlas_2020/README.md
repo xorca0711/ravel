@@ -1,10 +1,44 @@
-# Nb5 mouse ageing atlas analysis development
+# Tabula Muris Consortium (2020) — Cell composition and gene expression in ageing tissues
 
-## What changes with age inside a tissue?
+<a id="nb5-mouse-ageing-atlas-analysis-development"></a>
 
-The Tabula Muris Senis atlas followed two quantities across mouse age groups. It measured which cell types each tissue sample contained and how much RNA cells of each type expressed. In the bladder, the balance of mesenchymal and urothelial cells shifted with age. [Paper, Fig. 2e](https://doi.org/10.1038/s41586-020-2496-1)
+<a id="what-changes-with-age-inside-a-tissue"></a>
+
+## Published findings
+
+```text
+Ageing tissue
+  ├─ Relative abundance of sampled cell types changes
+  └─ Expression within a given cell type can also change
+       ↳ Both contributions enter the tissue-wide RNA measurement
+
+Implication: tissue averages can conceal opposing changes across biological levels.
+```
+
+In the bladder, the balance of mesenchymal and urothelial cells shifted across age groups. The atlas also reported gene-expression differences within cell types. [Paper, Fig. 2e](https://doi.org/10.1038/s41586-020-2496-1)
+
+## Ravel analyses and results
 
 Ravel found an example where these changes point in opposite directions. In the sampled lungs, the older mice had lower *Il1b* RNA overall. Changing cell-type proportions contributed a decrease, while changes within the same annotated types contributed an increase. The total alone hides that distinction. [Mouse-level lung and bladder comparisons](EXTENSION_RESULTS.md)
+
+## Data and methods
+
+The atlas contains mouse tissues sampled at different ages. Ravel compared lung and bladder using mouse-level summaries and common cell annotations. [Data sources and coverage](DATASETS.md) · [Age comparisons](EXTENSION_RESULTS.md)
+
+## Interpretation and open questions
+
+The lung *Il1b* example shows opposing contributions from representation and within-type RNA. Other organs and genes can have different patterns, and captured fractions do not establish absolute tissue abundance.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](EXTENSION_COMPLETION.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **3 November A25 continuation:** the [bounded male-cortex held-out model comparison](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md)
 is complete. Gain over the endpoint mixture does not consistently exceed flexible
@@ -12,7 +46,7 @@ continuous age in both middle-age mice; no distinct-state claim follows. The
 older unrun-model statements below and in the completion audit are historical
 for this bounded scope. New outputs and figures remain [A25-owned](../../RQ_Specified/A25_microglial_midlife_configuration/README.md).
 
-**7 October A25 extension:** [source-cluster regional/sex occupancy](../../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) is executed; regional heterogeneity and sex-support holds remain. This does not complete the distinct-state/mixture model. [Full branch ledger](../../docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md).
+**7 October A25 extension:** [source-cluster regional/sex occupancy](../../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) is executed; regional heterogeneity and sex-support holds remain. This does not complete the distinct-state/mixture model. [Full branch record](../../docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md).
 
 **Current status, 3 October 2026:** [bounded agent scientific review and routing](rq_review/README.md)
 are complete. P01/P02/P04/P06 are registered as proposed A24/A25/A26/A27;

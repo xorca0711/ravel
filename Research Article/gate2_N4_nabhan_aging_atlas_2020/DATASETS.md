@@ -5,7 +5,7 @@ adds the official S3 brain object and full/raw atlas metadata. Its count-valued
 brain layer differs from the earlier normalized Figshare objects described below.
 
 **Current execution:** see [results and amendments](RESULTS.md), [figures](FIGURES.md)
-and [execution ledger](EXECUTION_VALIDATION.md). The planning text below records
+and [execution record](EXECUTION_VALIDATION.md). The planning text below records
 pre-execution choices and is retained; it does not override current evidence.
 
 Checked 3 October 2026. These are source-directory observations for planning,

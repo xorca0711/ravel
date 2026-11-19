@@ -1,7 +1,7 @@
 # Nabhan hypotheses: source reproduction and new questions
 
 Status on 29 September 2026: **initial analyses executed; hypotheses remain unvalidated**.
-See [results](RESULTS.md), the [stage ledger](metadata/stage_status.tsv), and the
+See [results](RESULTS.md), the [stage record](metadata/stage_status.tsv), and the
 execution update within each candidate card.
 The later [branch execution and candidate interpretations](branch_analysis/README.md)
 remain paper-local. The subsequent [overall synthesis](RQ_DERIVATION.md) derives
@@ -46,7 +46,11 @@ including discriminating comparisons, current-data limits and later primary lite
 It preserves these identifiers and distinguishes Hippo kinase signaling from
 YAP/TAZ-associated output. No new hypothesis is promoted by that roadmap.
 
-### Nb2-N1 — Does a withdrawal interval permit differentiation after expansion?
+<a id="nb2-n1--does-a-withdrawal-interval-permit-differentiation-after-expansion"></a>
+
+### Nb2-N1 — Differentiation following a withdrawal interval
+
+Does a withdrawal interval permit differentiation after expansion?
 
 **Origin:** owner item 1; P1 Discussion p.14. **Hypothesis:** transient receptor
 agonism expands an AT2 pool, and a subsequent off-period permits a greater mature
@@ -62,7 +66,11 @@ a transcriptional lead; it has no intermittent Fzd schedule or mature endpoint.
 
 **Nb2 execution update:** The six bulk conditions recover source panel directions but do not test intermittent scheduling or later mature outcome. Timing/preparation discrepancies remain; N1 needs a schedule-linked outcome design. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N2 — Does the receptor-level Hippo-associated response preserve plasticity?
+<a id="nb2-n2--does-the-receptor-level-hippo-associated-response-preserve-plasticity"></a>
+
+### Nb2-N2 — Hippo-associated receptor responses and epithelial plasticity
+
+Does the receptor-level Hippo-associated response preserve plasticity?
 
 **Origin:** owner item 2; P1 pp.9/14. **Hypothesis:** receptor agonism elicits a
 YAP/TEAD-associated component absent or weaker with downstream CHIR, and this
@@ -79,7 +87,11 @@ the present RNA/imaging experiments cannot be paired by assumption.
 
 **Nb2 execution update:** Fzd5–CHIR has a coherent three-gene Hippo-associated direction (+1.870 mean log2CPM; all9 cross-arm library differences positive). Fzd6 is heterogeneous; individual genes do not pass genome-wide FDR. Metabolic enrichment is correlation-sensitive. This is a measured RNA premise, not YAP activity or bipotency. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N3 — Does the starting epithelial state change the response to Wnt activation?
+<a id="nb2-n3--does-the-starting-epithelial-state-change-the-response-to-wnt-activation"></a>
+
+### Nb2-N3 — Initial epithelial state and response to Wnt activation
+
+Does the starting epithelial state change the response to Wnt activation?
 
 **Origin:** owner item 3; P1 Discussion p.14. **Hypothesis:** comparable receptor
 activation has different effects on expansion and maturation in AT2, transitional
@@ -94,7 +106,11 @@ state interaction. **Links:** A1/A4/A8. Pseudotime alone cannot establish respon
 
 **Nb2 execution update:** Human receptor context differs across author states, but only one IPF participant passes the50-cell transitional-AT2 floor. FZD6 remains above FZD1 in all3 eligible KRT5−/KRT17+ participants after depth sensitivity. Treatment-by-state response remains unmeasured. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N4 — Does sustained Fzd5 loss provoke compensation?
+<a id="nb2-n4--does-sustained-fzd5-loss-provoke-compensation"></a>
+
+### Nb2-N4 — Compensation during sustained Fzd5 loss
+
+Does sustained Fzd5 loss provoke compensation?
 
 **Origin:** owner item 4; P1 pp.6/14. **Hypothesis:** after verified Fzd5 loss,
 alternative receptor/regulatory activity partially restores growth over time.
@@ -109,7 +125,11 @@ cells. **Home:** Nb2 branch; methodological link to A1, without repurposing its 
 
 **Nb2 execution update:** The functional audit recovered no deletion-linked genotype/protein/growth table. Agonist RNA cannot distinguish compensation from incomplete editing or selection. Keep the source65% editing limitation as a primary rival. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N5 — Does receptor use help explain divergent Wnt fate outputs?
+<a id="nb2-n5--does-receptor-use-help-explain-divergent-wnt-fate-outputs"></a>
+
+### Nb2-N5 — Receptor use and Wnt-associated fate outcomes
+
+Does receptor use help explain divergent Wnt fate outputs?
 
 **Origin:** owner item 5; P1 Discussion p.14. **Hypothesis:** receptor/context
 combinations help determine alveolar, basal or ciliated outcomes and canonical
@@ -124,7 +144,11 @@ to recipient-context A12 is conceptual, not evidence of the same IL-1 mechanism.
 
 **Nb2 execution update:** Captured airway and alveolar states differ in FZD5/6 context; ciliated cells show substantially more FZD6 than FZD5. This does not establish receptor routing, canonical versus PCP output, or founding lineage. No endogenous response is inferred from coexpression. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N6 — Does fibroblast Fzd1 have a context-dependent repair/fibrosis role?
+<a id="nb2-n6--does-fibroblast-fzd1-have-a-context-dependent-repairfibrosis-role"></a>
+
+### Nb2-N6 — Fibroblast Fzd1 in repair and fibrosis
+
+Does fibroblast Fzd1 have a context-dependent repair/fibrosis role?
 
 **Origin:** owner item 6; P1 pp.3/14–15. **Hypothesis:** Fzd1-associated fibroblast
 responses differ between resolving injury and persistent matrix-producing states,
@@ -139,7 +163,11 @@ for niche and matrix endpoints; neither existing question establishes Fzd1 signa
 
 **Nb2 execution update:** Five eligible IPF myofibroblast participants support FZD1/2/7 profiles, but only one control passes the same floor. The post-run ECM association is shared in direction with FZD7 and is unadjusted at n=5. Unique FZD1 function and acute-versus-persistent outcome remain open. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N7 — Does endothelial Fzd4 support alveolar capillary regeneration?
+<a id="nb2-n7--does-endothelial-fzd4-support-alveolar-capillary-regeneration"></a>
+
+### Nb2-N7 — Endothelial Fzd4 and alveolar capillary regeneration
+
+Does endothelial Fzd4 support alveolar capillary regeneration?
 
 **Origin:** owner item 7; P1 Discussion p.14 and ref.97. **Hypothesis:** Fzd4-dependent
 signaling contributes to capillary progenitor response and functional vascular repair.
@@ -154,7 +182,11 @@ no existing A-series question is relabeled to claim ownership.
 
 **Nb2 execution update:** At mouse day42, Fzd4 is prominent in CAP1/CAP2 and arterial/venous endothelium. This supports the broad-endothelial-identity rival; it does not isolate capillary progenitor function. Source labels remain CAP1/CAP2, with no inferred gCap functional identity. See the [bulk](trials/bulk_v1/REPORT.md), [atlas](trials/atlas_v1/REPORT.md) and [functional](FUNCTIONAL_SOURCE_AUDIT.md) reports.
 
-### Nb2-N8 — Is a physiological canonical Fzd6 input present in a defined context?
+<a id="nb2-n8--is-a-physiological-canonical-fzd6-input-present-in-a-defined-context"></a>
+
+### Nb2-N8 — Physiological context of canonical Fzd6 signaling
+
+Is a physiological canonical Fzd6 input present in a defined context?
 
 **Origin:** owner's extra question; P1 Results p.7. **Hypothesis:** a context-dependent
 endogenous input/co-receptor arrangement can engage Fzd6 in a canonical response.

@@ -10,7 +10,9 @@ actual figures and the complete result report were coordinator-reviewed without
 further numerical, figure or report revision. S6A stage review is complete;
 execution and agent review are not human scientific acceptance.
 
-## What this comparison changed
+<a id="what-this-comparison-changed"></a>
+
+## Implications of the comparison
 
 The organizing question is how prior inflammation changes a later epithelial
 response. Naik et al. (2017), Figs. 4g/h and 5b/d–g with Extended Data Figs. 5e/f

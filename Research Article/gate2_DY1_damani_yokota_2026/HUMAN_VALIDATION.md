@@ -1,4 +1,6 @@
-# Human continuation validation and handoff
+<a id="human-continuation-validation-and-handoff"></a>
+
+# Human-data analysis and validation
 
 29 October 2026. Completed scope: the separately permitted, exposed human
 observational continuation and its bounded external RNA comparison. Execution
@@ -95,7 +97,7 @@ No external publication, service write or remote setting changed.
 ## Remaining scope and next step
 
 The [primary report](HUMAN_RESULTS.md), [external report](HUMAN_EXTERNAL_RESULTS.md)
-and current [article ledger](README.md) separate completed measured RNA findings
+and current [article record](README.md) separate completed measured RNA findings
 from remaining holds. Exact author NAM clusters/model are unavailable; the full
 external requested gene set has a SELENOP identity-marker mapping hold. External
 Vanderbilt and recipient correlations below the fixed donor minimum stay

@@ -19,7 +19,7 @@ The subsequent cloud RNA stage is complete; see its addendum above and the
 [dated combined interpretation](INTERPRETATION_20261108.md). This is exposed same-source
 reproduction, not independent replication or scientific acceptance.
 The [candidate dossier](CANDIDATE.md), [plan](ANALYSIS_PLAN.md),
-[literature context](LITERATURE_CONTEXT.md) and [stage ledger](STAGE_STATUS.md)
+[literature context](LITERATURE_CONTEXT.md) and [stage record](STAGE_STATUS.md)
 separate purpose, published premises and remaining work.
 
 ## Main finding

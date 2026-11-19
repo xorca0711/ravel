@@ -104,7 +104,9 @@ If the question/discriminator is later changed, follow
 Effect margin, precision, physiological exposure range and bench readiness remain
 unknown. Reduced collagen cannot be relabeled epithelial regeneration.
 
-## Full completion and hold ledger
+<a id="full-completion-and-hold-ledger"></a>
+
+## Completed analyses and outstanding requirements
 
 | Job | Available work completed | Stronger work held / reopening evidence |
 | --- | --- | --- |

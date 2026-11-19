@@ -2,7 +2,9 @@
 
 At 24 months, the post-IMQ pools had higher mean accessibility across the 791 distal Memory regions and lower mean accessibility across the 784 distal Resolved regions than the naïve pools. Together these differences widened the Memory–Resolved gap by **0.11697 fragment CPM**. The gap widened in each of the four possible post-IMQ versus naïve pool comparisons. [Figure (PNG)](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/m24_distal.png) · [Figure (PDF)](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/m24_distal.pdf)
 
-## How much did each class contribute?
+<a id="how-much-did-each-class-contribute"></a>
+
+## Contributions of the two region classes
 
 Each entry below is the mean of the two post-IMQ pool summaries minus the mean of the two naïve pool summaries, in fragment CPM. The gap is the Memory change minus the Resolved change. The primary summary gives equal weight to each region's full-width mean signal. The median uses the median of those region means within each class and pool. [Frozen method](METHOD_V1.md) · [Exact changes](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/history_changes.tsv)
 
@@ -28,7 +30,9 @@ Each entry below is the mean of the two post-IMQ pool summaries minus the mean o
 
 The four comparisons reuse the same pools. In the first comparison both class means rose. In the last, the Memory mean rose slightly while its median fell by 0.01269 CPM. The positive aggregate median gap change therefore coexists with variation across pool comparisons and summary measures. [All pool summaries](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/pool_summaries.tsv) · [All cross-pool contrasts](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/cross_pool.tsv)
 
-## What does the weighting resolve?
+<a id="what-does-the-weighting-resolve"></a>
+
+## Interpretation of the weighted comparison
 
 Both classes occurred in all 16 D6 induction-by-width strata. Weighting retained all regions, with regional effective sample sizes of 597.47 for Memory and 588.55 for Resolved. The standardized class difference fell from 0.888 to 0.093 for D6 log2 fold change and from 0.424 to 0.052 for width. The late gap change persisted at this improved balance. Residual within-stratum differences and D6 control accessibility remain unresolved. The deposited baseMean combines conditions and times. [Stratum support and balance](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/support.json) · [Regional weights](../../../analysis/research/runs/naik2017_distal_m24_outcome_v1/region_weights.tsv)
 

@@ -1,4 +1,6 @@
-# Job-level technical eligibility reassessment
+<a id="job-level-technical-eligibility-reassessment"></a>
+
+# Technical eligibility by analysis
 
 1 November 2026 (Asia/Seoul). Owner **Sx22-P01**. This is the requested initial
 source/runtime/governance assessment, **not authorization or execution of biological
@@ -46,7 +48,7 @@ The [recovery record](../RECOVERY_SCOPE_2026-10-31.md) documents two failed turn
 in the original technical chat and says the service did not identify the
 triggering item. No R2/R3 result was produced. Thus the recorded failure was
 prompt-level, not an identified R2a, R2b or R3a–c model failure. The older
-[ledger](../COMPLETION_LEDGER.md) applied a broad execution hold during the bounded
+[record](../COMPLETION_LEDGER.md) applied a broad execution hold during the bounded
 recovery; its historical wording is preserved rather than silently rewritten.
 
 No job-specific service refusal occurred in this reassessment's read-only file
@@ -80,7 +82,9 @@ stop that dependent work; do not disguise the context or route around the refusa
   qualification of literal Figure 6 memberships and an existing public-release
   GMT cache, as recorded below.
 
-## R2/R3 eligibility by job
+<a id="r2r3-eligibility-by-job"></a>
+
+## R2 and R3 analytical eligibility
 
 All rows below remain **unexecuted in this phase**. “Source-ready” means a
 prospective descriptive job can be specified from existing evidence; it does

@@ -2,7 +2,7 @@
 
 31 October 2026, Asia/Seoul. Owner **Yd1-P01**; technical review pending.
 [Plan](README.md) · [External feasibility/design return](EXTERNAL_FEASIBILITY.md) ·
-[Execution ledger](EXECUTION_LEDGER.md).
+[Execution record](EXECUTION_LEDGER.md).
 
 The fibroblast-like Il6 KO-versus-WT RNA description depends on the fixed
 mixed-cell inclusion choice: its primary mean difference changes sign under both
@@ -39,7 +39,7 @@ small new metadata and versioned author code. The
 [qualification checks](../../../analysis/research/runs/Yd1_extension_x0_v1/qualification_checks.json)
 verify all 11 original Yadav receipts and their output hashes without rerunning
 their analyses. The [panel map](../../../analysis/research/runs/Yd1_extension_x0_v1/panel_groups.csv)
-and [rectangular cell/blank ledger](../../../analysis/research/runs/Yd1_extension_x0_v1/panel_cells.csv)
+and [rectangular cell/blank record](../../../analysis/research/runs/Yd1_extension_x0_v1/panel_cells.csv)
 cover all 213 positions across sheets 4c, 4d and 6c–6f, including 111 numeric observations.
 No source zero became missing, and no blank became zero.
 
@@ -194,5 +194,5 @@ then succeeded, with both attempt receipts preserved. The publisher challenge
 page is recorded as failed content access despite HTTP 200.
 
 Validation and the fresh integration-base check are recorded in the execution
-ledger. No claim grade, scientific retain/reject decision, canonical question,
+record. No claim grade, scientific retain/reject decision, canonical question,
 governance rule, Notion content or remote repository state was changed.

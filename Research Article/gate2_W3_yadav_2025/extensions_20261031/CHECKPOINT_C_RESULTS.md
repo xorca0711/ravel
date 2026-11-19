@@ -59,7 +59,7 @@ biological absence, protein abundance or equivalent sensitivity across sources.
 Wigerblad target coverage remains unknown because no separate small feature
 export was found in its inspected GEO listing.
 
-The [26-row retention/state/denominator ledger](../../../analysis/research/runs/Yd1_extension_c_v1/state_denominator_coverage.csv)
+The [26-row retention/state/denominator record](../../../analysis/research/runs/Yd1_extension_c_v1/state_denominator_coverage.csv)
 preserves unknown fields as blank:
 
 - **Gupta:** GEO explicitly describes raw feature/barcode matrices. The large raw
@@ -150,7 +150,7 @@ No challenge was bypassed or failed content called a complete paper read.
 Primary indexed sections were read; unrelated search hits were discarded.
 No other atlas study, expression input, raw read, new classifier or outreach was
 used. [Literature context](LITERATURE_CONTEXT.md) and the
-[execution ledger](EXECUTION_LEDGER.md) distinguish these reads from unresolved
+[execution record](EXECUTION_LEDGER.md) distinguish these reads from unresolved
 source work.
 
 X0–X2 remain reviewed complete in their descriptive scope. X3's author-object

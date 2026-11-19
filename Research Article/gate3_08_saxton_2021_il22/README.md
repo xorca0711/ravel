@@ -1,10 +1,44 @@
-# Saxton 2021 IL-22: source reproduction and recipient-context analysis
+# Saxton et al. (2021) — Tissue protection and inflammatory signaling by IL-22
 
-## Which colon responses persist under 22-B3?
+<a id="saxton-2021-il-22-source-reproduction-and-recipient-context-analysis"></a>
 
-Saxton and colleagues compared wild-type IL-22 with the 22-B3 variant. In mouse colon, B3 retained much of the tissue-protection gene response while inducing less of the selected interferon response. The paper tested tissue protection separately in functional assays. [Paper, Figs. 6–7](https://doi.org/10.1016/j.immuni.2021.03.008)
+<a id="which-colon-responses-persist-under-22-b3"></a>
+
+## Published findings
+
+```text
+Wild-type IL-22 and 22-B3 in mouse colon
+  ├─ Tissue-protection panel → much of the induced RNA response retained with B3
+  └─ Interferon panel        → weaker induction with B3
+
+Implication: protective and inflammatory readouts can differ in their sensitivity to
+             IL-22.
+```
+
+The authors compared wild-type IL-22 and 22-B3 in mouse colon using interferon- and tissue-protection-associated RNA panels. Functional assays assessed tissue protection separately. [Paper, Figs. 6–7](https://doi.org/10.1016/j.immuni.2021.03.008)
+
+## Ravel analyses and results
 
 In Ravel’s direct B3 versus wild-type comparison, both RNA panels declined. The decrease was larger for the seven interferon genes than for the six tissue-protection genes. Broadening the interferon gene set made the distinction smaller. The evidence for selectivity therefore depends partly on which genes represent each response. [Colon RNA reassessment](reassessment_v1/RESULTS.md)
+
+## Data and methods
+
+Six colon RNA libraries were compared at six hours. Ravel calculated direct B3 versus wild-type contrasts and tested how strongly the result depended on gene-set membership. [RNA methods](reassessment_v1/METHODS.md)
+
+## Interpretation and open questions
+
+The selected interferon panel showed greater attenuation, but broader interferon sets reduced that difference. Bulk colon RNA does not identify the responding cells or establish sustained tissue protection.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_AUDIT.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](reassessment_v1/RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **Completed Osmr follow-up, 8 November 2026:** [results](osmr_v1/RESULTS.md) and
 [figure](osmr_v1/FIGURES.md) show lower B3 than WT Osmr RNA across all specified
@@ -46,7 +80,7 @@ categories nor amplitude residuals measure STAT activity or tissue protection.
 [Results and exact values](reassessment_v1/RESULTS.md) ·
 [Methods](reassessment_v1/METHODS.md) · [Literature context](reassessment_v1/LITERATURE_CONTEXT.md) ·
 [Originating review](reassessment_v1/ORIGINATING_REVIEW.md) ·
-[Current completion/hold ledger](COMPLETION_LEDGER.md).
+[Current completion/hold record](COMPLETION_LEDGER.md).
 
 The [combined figure gallery](FIGURES.md) now contains **three direct colon RNA
 figures**, two source-QC figures and one external Choi feasibility figure.
@@ -68,13 +102,13 @@ Saxton's results. PNG/SVG formats do not count as separate figures.
 | E1-E2 / Q8 | E1a/X3 bounded work complete; animal-resolved recipient-response and cessation-to-later-function joins remain unqualified |
 | D1 / Q9 | Numerical and visual review, current report, gallery and status integration complete; scientific acceptance remains unassessed |
 
-The [ledger](COMPLETION_LEDGER.md) identifies each hold's exact reopening evidence.
+The [record](COMPLETION_LEDGER.md) identifies each hold's exact reopening evidence.
 No current content refusal occurred. Two original prompt-level service failures
 remain historical records with no triggering job identified; this completion
 does not declare unrestricted service clearance. No validators or scientific
 acceptance rules were weakened. Canonical RQs are unchanged.
 
-## Earlier recovery and extensions
+### Earlier recovery and extensions
 
 [PR #155](https://github.com/xorca0711/ravel/pull/155) merged recovery, X1-X3 and
 E1a at `41dc127`; [PR #156](https://github.com/xorca0711/ravel/pull/156) added
@@ -89,7 +123,9 @@ specified and does not silently replay its held numerical plans.
 [E1a observed transcripts](recipient_context_v1/RESULTS.md) ·
 [Original source feasibility](SOURCE_FEASIBILITY.md).
 
-## Historical plan (retained verbatim below)
+<a id="historical-plan-retained-verbatim-below"></a>
+
+### Original analysis plan
 
 31 October 2026. Stable reading ID **8**, Gate **3A**; execution namespace
 **Sx22** (checked absent from the current registry). The owner explicitly requested
@@ -109,7 +145,8 @@ remains unrun and gated; all unit, exposure, source and contract requirements st
 apply. The earlier reading-only review remains a historical checkpoint. Owner
 reading is partial (abstract/introduction/discussion), not certified complete.
 
-## Biological purpose
+
+#### Biological purpose
 
 Determine what the deposited evidence supports about separating selected
 inflammatory and protective responses to WT IL-22 and the published 22-B3 variant,
@@ -131,7 +168,9 @@ unexposed confirmation. Published gene panels are reproduction targets, not an
 independently chosen validation set. Source reanalysis is not new biological
 replication. Unfavorable and imprecise findings are retained.
 
-## Stepwise execution ledger
+<a id="stepwise-execution-ledger"></a>
+
+#### Analysis stages and eligibility
 
 The technical session owns status updates, contracts and immutable results. A
 stage is complete only with linked evidence, or a specific hold after proportionate
@@ -148,7 +187,7 @@ held. Lack of an interesting effect is never a hold or a reason to expand scope.
 | **R5 — functional outcome reconstruction** | Reconstruct eligible Fig. 7 contrasts separately for intestinal, pancreatic and systemic outputs | Original survival/viability, crypt, serum injury and inflammatory endpoints; correct animal/organoid hierarchy | Preserve assay units, timing, SD/SEM conventions and nesting. No pooled repair score, chronic-safety claim or mature-alveolar interpretation. Missing source units produce a panel-specific hold | Source audit ready; numerical work conditional |
 | **E1 — epithelial recipient-state extension** | Qualify one closest existing epithelial injury/recovery cohort before considering a new source; compare prespecified states/time groups within its design | Il22ra1/Il10rb and qualified response-transcript context at animal/donor level | Verify cell state, sample identity, independence and comparators before an exploratory contract. Cell fractions and within-state expression are separate endpoints. Stop at expression context without ligand perturbation evidence | Source qualification authorized; numerical work conditional |
 | **E2 — persistence and recovery discriminator** | Compare the paper's acute evidence with the 2025 OSMR/withdrawal result, older priming evidence and current A14/A19 limits | Source/design qualification for verified cessation, later response and functional recovery | A memory or recovery-effect analysis needs actual linked longitudinal/withdrawal and functional measurements. Literature comparison can complete without that dataset; do not substitute an acute gene score | Bounded literature/source assessment ready; empirical analysis held pending qualifying data |
-| **D1 — synthesis, figures and review handoff** | Reconcile every step with original claims and existing RQ evidence | Evidence/status ledger, results, figure gallery and interpretation boundaries | Separate executed, reviewed and accepted statuses; source-data and rendering checks plus independent review. Record exact reopening evidence for every hold | Follows available stage returns |
+| **D1 — synthesis, figures and review handoff** | Reconcile every step with original claims and existing RQ evidence | Evidence/status record, results, figure gallery and interpretation boundaries | Separate executed, reviewed and accepted statuses; source-data and rendering checks plus independent review. Record exact reopening evidence for every hold | Follows available stage returns |
 
 R0/R1 establish the RNA analysis before R2. R4/R5 source audits can continue if
 RNA access is delayed. E1 must not turn into an unrestricted atlas search. Start
@@ -156,7 +195,9 @@ with the current registry and existing qualified cohorts; if none answers its
 bounded comparison, record why and qualify at most the closest alternative before
 changing scope. Never rerun older frozen analyses just to create a new figure.
 
-## Meaning of possible results
+<a id="meaning-of-possible-results"></a>
+
+#### Interpretation of possible outcomes
 
 - Retained barrier-associated RNA together with reduced inflammatory RNA would
   reproduce a transcriptional distinction in this source. It would not prove
@@ -173,7 +214,7 @@ changing scope. Never rerun older frozen analyses just to create a new figure.
   autonomous persistence in that setting. Persisting RNA without a linked recovery
   endpoint does not establish altered regenerative competence.
 
-## Literature premises and extension limits
+#### Literature premises and extension limits
 
 Reuse the [31 October reading review](../../docs/research_reviews/2026-10-31-saxton-il22/README.md)
 for the unchanged main-paper premises and completed search record. The full IL-22
@@ -193,7 +234,9 @@ pass for that exact comparison under the [literature workflow](../../docs/govern
 Record actual dates, queries, versions, correction checks and read versus
 uninspected leads. Do not claim novelty or completed searches in advance.
 
-## Repository placement and existing questions
+<a id="repository-placement-and-existing-questions"></a>
+
+#### Relationship to prior studies
 
 This folder owns reproduction, basic article-local questions, source reports and
 the gallery. Use `config/`, `scripts/` and `tests/` as needed; actual immutable run
@@ -221,7 +264,9 @@ analysis. Inspect current results/amendments and dossier before extending:
   source descriptions are context, not independent IL-22 validation or eligible
   substitute data. Do not reopen its closed work without new qualifying evidence.
 
-## Execution and review contract
+<a id="execution-and-review-contract"></a>
+
+#### Analysis and review criteria
 
 Follow AGENTS.md, current PROGRESS, research governance and the registry. Inspect
 HEAD/main/dirty state and use a separate managed checkout before edits. Freeze and
@@ -239,12 +284,14 @@ or preserve only favorable analyses.
 For each eligible result, produce a readable source-linked figure and caption
 stating contrast, units, biological n, uncertainty and limit. Reuse the neighboring
 paper gallery style without modifying its frozen figures. End with `RESULTS.md`,
-`FIGURES.md`, this updated ledger, source/literature context, targeted validation
+`FIGURES.md`, this updated record, source/literature context, targeted validation
 and a concise review handoff listing commit, contracts, receipts and holds.
 Independent review belongs to the originating review chat; technical completion
 does not create human scientific acceptance. No external publication, author
 contact or bench work is part of this launch.
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

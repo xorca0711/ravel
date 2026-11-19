@@ -57,7 +57,8 @@
     "stop_rule": "Read one paper to answer one defined question, write an evidence/limitation/interest card, then choose the next. Literature exploration is open independently of an analysis gate; do not infer owner reading from an executed analysis.",
     "gate_3A_condition": "Reading open. Niethamer/S1 remains unrun; a new cytokine-phase analysis needs eligible animal-level data and a prespecified contrast. W1 or A12 does not establish a cytokine-specific mechanism.",
     "gate_3B_condition": "Reading open. Niethamer/D1 remains unrun; Treg analysis needs a verified external cohort, separable Tregs and independent biological units. Current lung/HLCA coverage has not passed that gate.",
-    "gate_2X_condition": "Literature-only comparison branch. A paper, one-page evidence card and a question may justify a separate feasibility review; they do not authorize a new numerical run or claim."
+    "gate_2X_condition": "Literature-only comparison branch. A paper, one-page evidence card and a question may justify a separate feasibility review; they do not authorize a new numerical run or claim.",
+    "gate_4_scope": "Reading proceeds by topic. Paper membership identifies a reading selection. Reading completion and numerical analysis are recorded separately for each paper."
   },
   "gates": {
     "1": "foundation references with executed analyses; review remaining interpretation questions as needed",
@@ -66,7 +67,9 @@
     "2W": "Wagner branch: papers 16, 15 and 17. Wg (2021) source/RNA analyses and Wp (2025 PGAM) R0–R4 have run within declared limits. Wp corrected current reports supersede affected raw-penalty and human-normalization summaries. Niethamer W1 remains a separate analysis.",
     "3A": "Saxton: papers 8 and 7 have reading records and bounded executed source analyses. Niethamer/S1 is a separate gated pilot.",
     "3B": "DuPage 2015 (9), Wang 2018 (10) and Zhang 2026 (11) have reading records. Dedicated source analyses for 9 and 11 have executed within their stated scope; Niethamer/D1 is a separate gated pilot.",
-    "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4"
+    "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4",
+    "4": "Topic-centered reading organized around a biological research interest.",
+    "4M": "Epigenetic & Inflammatory Memory: persistent epithelial changes after inflammation, subsequent repair and disease susceptibility."
   },
   "reading_order": [
     1,
@@ -91,7 +94,8 @@
     "1",
     "2",
     "3A",
-    "3B"
+    "3B",
+    "4M"
   ],
   "reranking_2026_09_15": {
     "source": "the owner's re-ranking of the reading order",
@@ -882,5 +886,34 @@
       "trial_status": "not started",
       "scope": "literature comparison; no analysis workspace or global RQ assigned"
     }
-  ]
+  ],
+  "topic_reading": {
+    "4M": {
+      "gate": "4",
+      "title": "Epigenetic & Inflammatory Memory",
+      "index": "gate4_M_epigenetic_inflammatory_memory/README.md",
+      "selection_date": "2026-11-19",
+      "papers": [
+        {
+          "author": "Nagaraja et al.",
+          "year": 2026,
+          "title": "Epigenetic memory of colitis promotes tumour growth",
+          "doi": "10.1038/s41586-026-10258-4"
+        },
+        {
+          "author": "Naik et al.",
+          "year": 2017,
+          "title": "Inflammatory memory sensitizes skin epithelial stem cells to tissue damage",
+          "doi": "10.1038/nature24271",
+          "existing_package": "ungated_naik_2017_inflammatory_memory/README.md"
+        },
+        {
+          "author": "Cowley et al.",
+          "year": 2026,
+          "title": "Distinctive DNA sequence features define epigenetic longevity of inflammatory memory",
+          "doi": "10.1126/science.adz6830"
+        }
+      ]
+    }
+  }
 }

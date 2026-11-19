@@ -160,7 +160,7 @@ PDF/figure locators and render provenance for the literature audit. Temporary
 page images are review aids from the supplied hash-verified PDF, not new repository
 figures or reconstructed data. The newly scoped R2a/R3a-R3c descriptions are
 Figures 4–6 above. Population inference, exact replay and numerical R4/R5/E1/E2
-remain specifically held in the [current completion ledger](COMPLETION_LEDGER.md).
+remain specifically held in the [current completion record](COMPLETION_LEDGER.md).
 E1a and QC figures do not complete those analyses. Earlier frozen outputs remain
 unchanged.
 

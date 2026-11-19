@@ -212,7 +212,9 @@ reviewed adaptation; it would not reconstruct all three runs or the author's
 state-resolved analysis. No raw-read reprocessing or coordinate remapping is
 proposed just to force eligibility.
 
-## Resources, preservation and handoff
+<a id="resources-preservation-and-handoff"></a>
+
+## Source materials and preservation
 
 The four HDF5 files total about 219 MB; the three compressed MatrixMarket matrices
 about 195 MB, plus small feature/barcode files. Existing Python 3.12.10, NumPy

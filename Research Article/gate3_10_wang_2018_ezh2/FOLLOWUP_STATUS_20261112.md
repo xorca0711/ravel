@@ -9,7 +9,7 @@ and [S4 amendment](CONTEXT_AMENDMENT_V1.md) record the prospective decisions.
 
 | Stage | Delivered scope and disposition |
 |---|---|
-| S0 | Published evidence ledger completed for RNA, lineage, recovery proxies and function. Figure 7 addresses residual deficient Tregs versus its particular depletion comparator. [Evidence ledger](RESULTS_V1.md#s5--what-the-rna-changes-add-to-the-functional-evidence). |
+| S0 | Published evidence record completed for RNA, lineage, recovery proxies and function. Figure 7 addresses residual deficient Tregs versus its particular depletion comparator. [Evidence record](RESULTS_V1.md#s5--what-the-rna-changes-add-to-the-functional-evidence). |
 | S1 | Nine deposited libraries linked across count columns, GEO, ENA and BioSample. The source documents mixed control alleles. Mouse/pool and block identity remain unresolved. [Qualification](SOURCE_QUALIFICATION.md). |
 | S2 | Adapted finite-library RNA contrast completed with pooled and strict +/+ controls. Exact normalization and S3C library-to-dot mapping remain unavailable. [Day-four results](RESULTS_V1.md#s1s2--the-released-counts-reproduce-the-published-anchor-directions). |
 | S3 | Adapted modern mouse Hallmark scores, coverage and sensitivity completed. The published S3B directions were recovered under the adapted ranking. [Breadth results](RESULTS_V1.md#s3--inflammatory-ranks-rise-alongside-opposing-culture-state-patterns). |

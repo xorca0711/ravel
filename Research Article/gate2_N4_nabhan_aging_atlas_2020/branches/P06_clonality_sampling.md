@@ -74,7 +74,7 @@ is outside the initial plan and would require a separate contract.
 First outcome-exposed pass completed 3 October 2026. Corrected T-cell joins, within-mouse clone fractions and common-depth expectation executed. B-cell assembly analysis, source denominator version, tissue selection and immune function remain unresolved.
 
 Read the [current result and amendments](../RESULTS.md),
-[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+[figures](../FIGURES.md) and [execution record](../EXECUTION_VALIDATION.md)
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.

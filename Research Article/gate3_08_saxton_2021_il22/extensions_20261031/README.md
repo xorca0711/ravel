@@ -27,7 +27,7 @@ an animal-level response or functional-recovery comparison.
 [Originating review](REVIEW.md) passed and the handoff is integrated locally.
 [Implications and conditional scientific branches](IMPLICATIONS.md) distinguish
 the published findings, completed audits and unexecuted biological questions.
-The prospective ledger below retains its initial readiness labels as history.
+The prospective record below retains its initial readiness labels as history.
 
 | Job | Completed work | Remaining limit |
 |---|---|---|
@@ -38,13 +38,15 @@ The prospective ledger below retains its initial readiness labels as history.
 Both metadata contracts and their code were committed before execution; the
 resulting runs retain their original receipts. Documentary X3 reading has no
 invented numerical receipt. R1, root
-attributes, governance, canonical hypotheses and the original recovery ledger
+attributes, governance, canonical hypotheses and the original recovery record
 remain unchanged. R2/R3 and the other excluded biological analyses remain held.
 The originating chat's final handoff review passed; human scientific acceptance
 remains unassessed. The technical handoff itself made no push or PR mutation;
 the later originating-chat publication is recorded above.
 
-## Why these extensions
+<a id="why-these-extensions"></a>
+
+## Rationale for the extensions
 
 The [reviewed results](../RESULTS.md) establish intact source files and a
 reproducible QC record. They do not estimate treatment effects or establish
@@ -65,7 +67,9 @@ The new work addresses three concrete gaps left by recovery. It is deliberately
 limited to source identity, annotation and endpoint linkage. These audits can
 support a feasibility decision even when an effect analysis cannot proceed.
 
-## Prospective job ledger (historical initial status)
+<a id="prospective-job-ledger-historical-initial-status"></a>
+
+## Original prospective analysis plan
 
 | Job | Question and increment | Unit / measured endpoint | Completion rule and limit | Initial status |
 |---|---|---|---|---|
@@ -124,12 +128,14 @@ and a qualified comparison with meaningful biological units and endpoints. This
 extension does not revise the current A14/A19 dossiers or their registered
 hypotheses merely to attach this paper to them.
 
-## Handoff requirements
+<a id="handoff-requirements"></a>
+
+## Materials for subsequent analysis
 
 Use a scoped technical branch/worktree, preserve earlier work, and return a clean
 local commit with results, source/access manifest, every-job disposition and
 required validation. Update this README and link the new evidence from the article
-README, retaining the original recovery ledger. Do not change governance,
+README, retaining the original recovery record. Do not change governance,
 validators, root attributes, historical evidence or claim grades. No push, PR
 mutation, merge, author contact or Notion write is part of the technical handoff.
 The originating chat independently reviews the result before integration.

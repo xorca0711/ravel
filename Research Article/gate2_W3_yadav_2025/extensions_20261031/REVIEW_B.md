@@ -90,7 +90,7 @@ Small metadata/feature/state exports may be acquired. Do not download a complete
 atlas, raw sequencing reads or expression matrices before an exact design and
 resource review. Keep X3/X4 holds and update the provisional matrix with actual
 source eligibility only. Return one clean checkpoint-C commit with contracts,
-receipts, source maps, design or holds, and the remaining X0-X6 ledger.
+receipts, source maps, design or holds, and the remaining X0-X6 record.
 
 ## Targeted source trace and validation
 
@@ -108,7 +108,7 @@ browser-text routes challenged access, and the two Europe PMC full-text XML
 attempts returned HTTP 500. `checkpoint_c_primary_access.json` preserves those
 attempts. Do not describe either complete paper as freshly read by the reviewer.
 
-Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Both ledger histories
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Both record histories
 are preserved in local integration. Required repository/current-base checks passed: 12,211 repository checks and the current-main research gate
 returned `ok: true`, no errors. Valid prior tests were reused. No remote
 publication, external outreach, Notion write, canonical change or gate relaxation.

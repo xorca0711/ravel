@@ -6,7 +6,9 @@ The separate [Bockman full-main-paper review](BOCKMAN_FULL_READ_20261112.md)
 owns the revised tumor extension. This checkpoint is source qualification and
 question development, not a new biological analysis or a laboratory protocol.
 
-## What public evidence resolved, narrowed and left unmeasured
+<a id="what-public-evidence-resolved-narrowed-and-left-unmeasured"></a>
+
+## Public evidence and unresolved endpoints
 
 | Decision | Resolved or narrowed by this audit | Still requires compatible source records or experiments |
 |---|---|---|

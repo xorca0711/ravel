@@ -8,7 +8,9 @@ The [registration correction](METADATA_REGISTRATION_V1.md) supersedes the delive
 
 The coordinator chose the complete Data S2 classes and a common promoter exclusion before file acquisition and eligibility counts, recorded in commit `3027143`. The outcome question is how strongly these *previously defined* classes differ in a late history-associated accessibility comparison. D6/D30 selected Memory and Resolved, and the eligible peak universe also included M12. M24 contributed neither peak discovery nor class selection. Cowley Fig. 1 already exposed the late trajectories. Source qualification supports a shared-study description. It supplies no independent cohort, causal enhancer test or evidence that a molecular state explains repair. [Step 1 report](../DISTAL_SKIN_SOURCE_SCAN_20261119.md) · [Cowley Fig. 1 and bulk ATAC Methods](https://doi.org/10.1126/science.adz6830)
 
-## Which regions enter the comparison?
+<a id="which-regions-enter-the-comparison"></a>
+
+## Genomic regions in the comparison
 
 | Data S2 class | Deposited | Overlaps a transcript promoter | Distal | Primary | Unique D6 S3 coordinate joins before exclusion |
 |---|---:|---:|---:|---:|---:|
@@ -22,7 +24,9 @@ We reused the complete **GENCODE M9 comprehensive reference-chromosome GTF**, GR
 
 For a transcript with one-based inclusive GTF bounds `[s,e]`, the zero-based TSS base `t` equals `s−1` on the positive strand or `e−1` on the negative strand. The promoter is `[max(0,t−2000), min(chromosome_length,t+2001))`, including the TSS and both bases exactly 2 kb away. A full S2 interval `[a,b)` is distal only when it shares zero bases with every promoter. Ends that touch without sharing a base pass. Eligible TSSs formed 51,104 merged promoter intervals. Three equivalent checks agreed for every S2 row: promoter union overlap, TSSs in the expanded interval and nearest distance from any included peak base. The manifest retains that distance and the number of overlapping transcript promoters. Distal includes intragenic and intergenic regions and makes no gene-target assignment. [Annotation and join procedure](qualify_regions.py)
 
-## Can the classes be compared at similar D6 strength?
+<a id="can-the-classes-be-compared-at-similar-d6-strength"></a>
+
+## Comparability of region classes at matched day-6 accessibility
 
 | Published or coordinate covariate | Distal Memory median [Q1, Q3] | Distal Resolved median [Q1, Q3] |
 |---|---:|---:|
@@ -34,7 +38,9 @@ There is overlap in acute induction and pooled abundance, with substantial imbal
 
 S3 supplies the authors’ D6 log2 fold change, SE, Wald statistic and adjusted P. Its baseMean is the mean normalized count across the fitted object. The notebook restricts that object to six groups (D6/D30/M12 × naïve/history, four pools each), then calls the D6 contrast with `sub=FALSE`. Thus baseMean includes post-exposure and later samples. It is unsuitable as a D6 naïve abundance measure or strictly pre-recovery adjustment. The S3 summaries cannot recover group-specific D6 normalized counts, variance across control pools or overlap at a true D6 control baseline. A matched secondary description would have to state its smaller target and covariates. Matching on D6 induction alone tests sensitivity to acute strength. A genuine baseline-matched analysis needs per-library D6 counts over the same fixed intervals or a separately qualified reconstruction. [Author notebook](https://github.com/dpeerlab/persistent-epigenetic-memory/blob/f2511024b0dcf7be5d47454ee170594d7b79d35b/ATAC_preprocessing/notebooks/Bulk_ATAC_BWA_MACS3peaks_DESeq2.ipynb) · [DESeq2 baseMean definition](https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
-## Which late libraries and which signal?
+<a id="which-late-libraries-and-which-signal"></a>
+
+## Late-time-point libraries and signal definitions
 
 | M24 group | GEO | ENA run | BioSample | Complete bytes |
 |---|---|---|---|---:|
@@ -49,7 +55,9 @@ The four GEO-declared HTTPS objects returned full HTTP 200 responses, matching t
 
 GEO identifies individual BigWigs as CPM on GRCm38. The pinned generator uses paired fragments of 10–600 bp, applies +4/−5 bp endpoint shifts and exports base coverage divided by the number of retained fragments times one million. Its normalized file is distinct from its cut-site and unnormalized fragment files. This supports a future endpoint of **per-library mean CPM coverage over the full interval width**, retaining explicit zeros. The deposited track does not supply raw fragments or reproduce the paper’s merged RPKM heatmaps from Fig. 1B. Exact historical software builds and a BAM-to-track regeneration were not verified. [CPM generator](https://github.com/dpeerlab/persistent-epigenetic-memory/blob/f2511024b0dcf7be5d47454ee170594d7b79d35b/ATAC_preprocessing/base_scripts/s5_bigwig.sh) · [GEO sample](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9034861)
 
-## What a future reader must distinguish
+<a id="what-a-future-reader-must-distinguish"></a>
+
+## Interpretive distinctions
 
 All four files have a matching BigWig lead/trailer signature, version 4, compressed primary data, eight zoom levels and identical 66-contig dictionaries. All 20 eligible chromosomes match UCSC mm10 by exact name and length. ChrY and chrM also match directly. Each of the other 44 unused scaffolds has one UCSC name with the same accession stem and length. A **header anomaly** affects all four: the raw binary total-summary count `basesCovered` is 3,817,419,287 to 3,900,932,695, greater than the 2,730,871,774 bases in the dictionary. The pybbi reader returns the identical header field. Its cause is unresolved. Do not use that field or a zoom summary as the actual covered length, interval denominator, or reason to fill gaps. [Header and probe evidence](../../../analysis/research/runs/naik2017_distal_m24_metadata_v1/track_structure.json)
 

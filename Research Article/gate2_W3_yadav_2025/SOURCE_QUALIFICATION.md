@@ -131,7 +131,9 @@ preparations or matched contrasts. All animal/preparation/pairing fields therefo
 remain unknown. Library-level descriptions can proceed after review, while
 population differential-expression inference and paired preparation models remain held.
 
-### Functional and spatial source-value ledger
+<a id="functional-and-spatial-source-value-ledger"></a>
+
+### Functional and spatial source measurements
 
 Counts below are supplied measurements. “Reported” biological units come from the
 publication, not from newly recovered specimen IDs. Workbook cells have uniform
@@ -153,7 +155,9 @@ formatting does not provide a concealed donor map.
 | `6g!B2:D5,E2:G5` | IL-6 pg/mL, two donor groups, three technical replicates per condition. | Two distinct blood/lung donor combinations by legend. Reuse of the same physical donors across Figs. 5 and 6 is not documented; do not pool. |
 | `5b!A2:B10` | Published 25-micrometre probability ratios; nine values per category. | Nine patients and a paired comparison are stated in the legend and plotted. No patient IDs or explicit workbook row-to-patient key. Marginal source summaries are available; a rowwise paired reconstruction needs pairing confirmation. |
 
-### Per-job completion, eligibility and holds
+<a id="per-job-completion-eligibility-and-holds"></a>
+
+### Analysis completion and eligibility
 
 All **eligible** jobs below still await review and their own frozen numerical
 contract. “Held” names the stronger job that cannot be justified from current data.

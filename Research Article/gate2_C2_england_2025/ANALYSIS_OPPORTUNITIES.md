@@ -8,7 +8,7 @@ complete bounded follow-through on that review. Original numerical reports and
 contracts remain unchanged.
 
 **Written 28 September 2026**, from a second reading of the paper and its STAR Methods against the
-deposited material. This is a scoping ledger, not a results file: it records which of the paper's
+deposited material. This is a scoping record, not a results file: it records which of the paper's
 claims can still be interrogated with what was released, which are closed, and which are blocked and
 on what. Results live in [RESULTS_BATCH1.md](RESULTS_BATCH1.md),
 [RESULTS_CONTINUATION.md](RESULTS_CONTINUATION.md) and [RESULTS_FOLLOWUP.md](RESULTS_FOLLOWUP.md).
@@ -24,7 +24,9 @@ evidence. Double-positive staining alone does not establish interconversion.
 Deposited filtered matrices lack spliced/unspliced layers; any re-quantified
 velocity analysis would remain model-dependent, not lineage ground truth.
 
-## Claim-by-claim ledger
+<a id="claim-by-claim-ledger"></a>
+
+## Evidence by claim
 
 | # | Source claim (figure) | Evidence type in paper | Deposited material | Our status |
 | --- | --- | --- | --- | --- |

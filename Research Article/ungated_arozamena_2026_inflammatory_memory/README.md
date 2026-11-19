@@ -1,36 +1,88 @@
-# Arozamena 2026: deposited RNA and accessibility comparisons
+# Arozamena et al. (2026) — Intestinal epithelial memory after injury
 
-## What the intestine retains from an earlier injury
+<a id="arozamena-2026-deposited-rna-and-accessibility-comparisons"></a>
 
-Arozamena and colleagues found that previously injured intestinal epithelium regenerated more effectively after a second injury. The repeat-irradiation comparison measures regeneration, while the molecular profiles ask what persists in intestinal stem cells and their progeny. [Paper, Fig. 2 and Fig. 5d–e](https://doi.org/10.1038/s41467-026-79014-6)
+<a id="what-the-intestine-retains-from-an-earlier-injury"></a>
+
+## Published findings
+
+```text
+Initial intestinal injury → epithelial recovery → second injury
+  ├─ Recovered stem cells and progeny → persistent RNA and accessibility differences
+  └─ Repeat-injury comparison         → enhanced regenerative response
+
+Implication: injury history can alter a later tissue response after initial recovery.
+```
+
+Repeat irradiation tested the regenerative response to a second injury. RNA and chromatin measurements characterized persisting changes in intestinal stem cells and their progeny. [Paper, Fig. 2 and Fig. 5d–e](https://doi.org/10.1038/s41467-026-79014-6)
+
+## Ravel analyses and results
 
 Ravel found that even the direction of an accessibility difference can depend on where it is measured. In the deposited LGR5 library relative to its control, *Tiam1* fragment counts were lower near the transcription start site and higher across the gene body under every tested filtering and weighting choice. The deposited records leave those molecular measurements unlinked to later regeneration in the same animals. [Paired RNA and accessibility results](ACCESSIBILITY_RESULTS.md)
 
-1 November 2026. Article-local candidate **Arz1-P01**, proposed and outcome-exposed.
-The owner requested source qualification through the existing technical chat,
-every eligible extension, originating review and updates to PR #157. This package
-owns the new paper's evidence; the [Saxton connection note](../gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md)
-owns its motivation. Neither a new canonical RQ nor human scientific acceptance
-is created. [Literature/source context](LITERATURE_CONTEXT.md).
+<details>
+<summary>Additional analysis results</summary>
 
-**Reviewed RNA result:** the eight selected targets show mixed accession-specific
-directions. GSE329778 LGR5 changes from a -0.506 panel median before RNA QC to
-+0.556 after RNA QC; retention is 635 of 6,921 barcodes. This is selection
-sensitivity, not a recovered true direction or a test of the paper's ISC-specific
-claim. [Results](RNA_RESULTS.md) · [Figure gallery](FIGURES.md) ·
-[Originating review](ORIGINATING_REVIEW.md) · [Existing-RQ context](RQ_CONNECTIONS.md).
+### Reproducibility and current evidence
 
-**Reviewed paired result:** all 128 four-locus RNA/fragment cases completed in
-GSE329778. LGR5 Tiam1 has negative TSS-window but positive gene-body differences
-under every fixed QC/weight choice. Some RNA directions also change with selection.
-The two explicit fragment-count definitions change the largest contrast by
-0.00270523 log2(CPM+1), with no sign changes in their 64 paired comparisons;
-this does not establish biological equivalence or physical molecule identities.
-[Accessibility results](ACCESSIBILITY_RESULTS.md). Four reviewed figure plates
-are available. These finite-library measurements leave within-state regulation
-and later function unresolved.
+Metadata v1/v2, RNA v1, held accessibility v1, completed accessibility v2 and the
+render-only primary correction have separate frozen contracts and receipts.
+[Originating review](ORIGINATING_REVIEW.md) records independent audits and their
+limits. The [gallery](FIGURES.md) uses the corrected primary rendering without
+overwriting the original figure or changing any measurement.
 
-## Question, source and intended contribution
+Raw inputs remain ignored under `raw_data/Arz1` in the technical worktree
+`C:/Users/dream/.codex/worktrees/saxton-metadata-recovery-20261031/ravel`.
+They were not duplicated into the review checkout. Public source URLs, versions,
+byte sizes and hashes are recorded in [intake](sources/intake_v1.json), the
+source reports and versioned contracts. A new checkout must reacquire or otherwise
+provide those exact inputs and pass input preflight before any new versioned run;
+do not replay a historical run over its frozen outputs.
+
+</details>
+
+## Data and methods
+
+Ravel compared the deposited LGR5 or KRT20 libraries with their shared control. Fragment counts were summarized near gene starts and across gene bodies. [Source identities](SOURCE_QUALIFICATION.md) · [Matched RNA and accessibility comparisons](ACCESSIBILITY_RESULTS.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+### Comparison and interpretation limits
+
+The tissue is intestinal epithelium. Source-qualified accession/condition records
+define four separate RNA contrasts; two third-deposit contrasts reuse CTRL for
+paired RNA/fragments. Deposited barcodes are nested observations, and the finite
+library is the descriptive unit. Reported pooling does not establish independent
+mouse/preparation identities. Run numbering, sorting/genotype and reference
+metadata contradictions remain recorded in the source reports.
+
+Primary candidate measurements are source-qualified state proportions and
+within-state RNA/accessibility summaries. The main alternatives are composition,
+lineage selection/survival, library/processing effects, mismatched assays and
+continued niche input. These can coexist with within-state differences. Gene
+expression is not signal activity; accessibility is not occupancy or memory;
+cell-level pairing is not independent biological replication. Later functional
+outcomes require actual sample/animal/preparation joins, not shared group names.
+
+The completed adaptations use post-minus-control log2(CPM+1) differences under
+separately frozen RNA and accessibility contracts. RNA uses all-source gene depth;
+fragments use canonical nuclear source-record depth under the same counting
+definition as each numerator. TSS windows are annotation-defined proxies, not
+validated promoters or the author's consensus peaks. RNA-only QC omits ATAC QC.
+Unknown independent units restrict interpretation to finite-library description.
+No population p-values/FDR or certainty claims are supplied by a large cell count.
+
+</details>
+
+## Interpretation and open questions
+
+The sign reversal across *Tiam1* regions limits any single claim about locus accessibility. The deposited records do not connect an individual molecular profile to that animal’s later regeneration.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+### Question, source and intended contribution
 
 **In the deposited intestinal data, can the reported post-injury RNA/accessibility
 pattern be attributed descriptively to differences within comparable epithelial
@@ -72,32 +124,9 @@ keeping the other comparisons fixed. Both definitions completed and passed
 independent raw-source review. Neither certifies physical molecule identities;
 all mixed and unfavorable outcomes are retained.
 
-## Comparison and interpretation limits
+<a id="stepwise-disposition-ledger"></a>
 
-The tissue is intestinal epithelium. Source-qualified accession/condition records
-define four separate RNA contrasts; two third-deposit contrasts reuse CTRL for
-paired RNA/fragments. Deposited barcodes are nested observations, and the finite
-library is the descriptive unit. Reported pooling does not establish independent
-mouse/preparation identities. Run numbering, sorting/genotype and reference
-metadata contradictions remain recorded in the source reports.
-
-Primary candidate measurements are source-qualified state proportions and
-within-state RNA/accessibility summaries. The main alternatives are composition,
-lineage selection/survival, library/processing effects, mismatched assays and
-continued niche input. These can coexist with within-state differences. Gene
-expression is not signal activity; accessibility is not occupancy or memory;
-cell-level pairing is not independent biological replication. Later functional
-outcomes require actual sample/animal/preparation joins, not shared group names.
-
-The completed adaptations use post-minus-control log2(CPM+1) differences under
-separately frozen RNA and accessibility contracts. RNA uses all-source gene depth;
-fragments use canonical nuclear source-record depth under the same counting
-definition as each numerator. TSS windows are annotation-defined proxies, not
-validated promoters or the author's consensus peaks. RNA-only QC omits ATAC QC.
-Unknown independent units restrict interpretation to finite-library description.
-No population p-values/FDR or certainty claims are supplied by a large cell count.
-
-## Stepwise disposition ledger
+### Analysis stages and eligibility
 
 | Job | Scope and decision | Current disposition / exact reopening evidence |
 |---|---|---|
@@ -123,23 +152,9 @@ timed molecular-to-functional unit links; matching group labels cannot supply th
 Missing records are reported only for the inspected coverage, not declared absent
 from every possible source.
 
-## Reproducibility and current evidence
+<a id="execution-and-ownership"></a>
 
-Metadata v1/v2, RNA v1, held accessibility v1, completed accessibility v2 and the
-render-only primary correction have separate frozen contracts and receipts.
-[Originating review](ORIGINATING_REVIEW.md) records independent audits and their
-limits. The [gallery](FIGURES.md) uses the corrected primary rendering without
-overwriting the original figure or changing any measurement.
-
-Raw inputs remain ignored under `raw_data/Arz1` in the technical worktree
-`C:/Users/dream/.codex/worktrees/saxton-metadata-recovery-20261031/ravel`.
-They were not duplicated into the review checkout. Public source URLs, versions,
-byte sizes and hashes are recorded in [intake](sources/intake_v1.json), the
-source reports and versioned contracts. A new checkout must reacquire or otherwise
-provide those exact inputs and pass input preflight before any new versioned run;
-do not replay a historical run over its frozen outputs.
-
-## Execution and ownership
+### Analysis provenance
 
 Existing technical chat: `01a191d5-e0e2-70d2-92e0-97272f85ce11`. It owns source
 records/manifests, qualification reports, scripts/tests/contracts and new immutable
@@ -162,7 +177,46 @@ context masking, access-control bypass or replacement-chat workaround is allowed
 Continue independent permissible work and document the exact evidence needed
 to reopen held steps. Execution completion is not scientific acceptance.
 
-## Relation to existing RQs
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_QUALIFICATION.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](ACCESSIBILITY_RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
+
+1 November 2026. Article-local candidate **Arz1-P01**, proposed and outcome-exposed.
+The owner requested source qualification through the existing technical chat,
+every eligible extension, originating review and updates to PR #157. This package
+owns the new paper's evidence; the [Saxton connection note](../gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md)
+owns its motivation. Neither a new canonical RQ nor human scientific acceptance
+is created. [Literature/source context](LITERATURE_CONTEXT.md).
+
+**Reviewed RNA result:** the eight selected targets show mixed accession-specific
+directions. GSE329778 LGR5 changes from a -0.506 panel median before RNA QC to
++0.556 after RNA QC; retention is 635 of 6,921 barcodes. This is selection
+sensitivity, not a recovered true direction or a test of the paper's ISC-specific
+claim. [Results](RNA_RESULTS.md) · [Figure gallery](FIGURES.md) ·
+[Originating review](ORIGINATING_REVIEW.md) · [Existing-RQ context](RQ_CONNECTIONS.md).
+
+**Reviewed paired result:** all 128 four-locus RNA/fragment cases completed in
+GSE329778. LGR5 Tiam1 has negative TSS-window but positive gene-body differences
+under every fixed QC/weight choice. Some RNA directions also change with selection.
+The two explicit fragment-count definitions change the largest contrast by
+0.00270523 log2(CPM+1), with no sign changes in their 64 paired comparisons;
+this does not establish biological equivalence or physical molecule identities.
+[Accessibility results](ACCESSIBILITY_RESULTS.md). Four reviewed figure plates
+are available. These finite-library measurements leave within-state regulation
+and later function unresolved.
+
+<a id="relation-to-existing-rqs"></a>
+
+### Related research questions
 
 This can supply a bounded epithelial measurement reference relevant to
 [A1](../../docs/research_dossiers/A1.md) and the assay/composition problem in

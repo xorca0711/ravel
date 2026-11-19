@@ -50,7 +50,9 @@ figure regeneration or biological rerun was needed. The combination of stable
 selected directions and ranking-sensitive significance is the result; neither
 part should be omitted to simplify the story.
 
-## How the paper's functional figures complement the RNA
+<a id="how-the-papers-functional-figures-complement-the-rna"></a>
+
+## Relationship between functional assays and RNA measurements
 
 **Figures 1–2** connect local Treg depletion to tumor control and test cellular
 requirements in the studied mouse models. The biological implication is that

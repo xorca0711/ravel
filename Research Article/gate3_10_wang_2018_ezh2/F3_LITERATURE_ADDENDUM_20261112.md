@@ -7,7 +7,9 @@ Peeters evidence, and the existing Wang paper package. The searches below
 are the coordinating agent's searches. [Current literature context](LITERATURE_CONTEXT.md) ·
 [Measurement plan](F3_MEASUREMENT_PLAN_V1.md).
 
-## What the closest studies already measured
+<a id="what-the-closest-studies-already-measured"></a>
+
+## Measurements in related studies
 
 | Primary source and reading depth | Consequence for the proposed comparison |
 |---|---|

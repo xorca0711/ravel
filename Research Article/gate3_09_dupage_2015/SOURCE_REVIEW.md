@@ -134,7 +134,9 @@ header/archive inspection is not a numerical research run or a receipt.
   found in the inspected GSE58998 supplement listing. This is a listing-level
   limit, not a source-wide claim of nonexistence.
 
-## Exposure and next action
+<a id="exposure-and-next-action"></a>
+
+## Prior exposure and outstanding measurements
 
 The owner and reviewing agent have read the published outcomes; the agent also
 inspected file headers and literature results. This is exposed reproduction /

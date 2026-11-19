@@ -22,7 +22,7 @@ before these proposals. Subsequent freezing cannot make them confirmatory.
 | Stage | Work completed here | Remaining work |
 |---|---|---|
 | Derive proposals | Eight cards distinguish observation, gap, rival, prediction, biological unit and endpoint | Review the proposed biological scope; no automatic promotion |
-| Check novelty and independent evidence | Targeted primary-source review and public deposit inspection in the [source ledger](SOURCES.md) | Exact cell-to-animal mapping, overlap and endpoint qualification before external analysis; novelty is provisional |
+| Check novelty and independent evidence | Targeted primary-source review and public deposit inspection in the [source record](SOURCES.md) | Exact cell-to-animal mapping, overlap and endpoint qualification before external analysis; novelty is provisional |
 | Ground only consequential uncertainties | Source/design review changed the microglial, bladder and repertoire framing; [grounding decisions](GROUNDING.md) specify the next discriminators | P02 state/mixture model remains unrun; no new numerical biological analysis was needed to prepare these proposals |
 | Scientific review | A [review packet](REVIEW.md) is ready for the owner or designated scientific reviewer | Decisions and authority remain unrecorded; global registration has not begun |
 

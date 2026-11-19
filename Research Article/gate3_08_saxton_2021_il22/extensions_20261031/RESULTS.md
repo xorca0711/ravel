@@ -98,7 +98,9 @@ workbook index and uninspected items. No point values, effects, decay rates or
 functional estimates were extracted. The earlier "supplement not assessed"
 status is superseded only for these named materials and locators.
 
-## What these extensions change
+<a id="what-these-extensions-change"></a>
+
+## Implications of the extensions
 
 Annotation and public-record identity are more explicit, and the companion's
 withdrawal panel can now be located and described directly. They do not establish
@@ -111,5 +113,5 @@ new targets or experimental conditions.
 R2/R3 retain their **platform-policy execution holds** despite available counts.
 Numerical R4/R5 and E1/E2 also remain outside this task, with their existing
 source/design limits. No canonical RQ, hypothesis, claim grade, governance rule,
-root attribute or R1 artifact changed. The original recovery ledger remains
+root attribute or R1 artifact changed. The original recovery record remains
 historical. Technical completion here does not create human acceptance.

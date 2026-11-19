@@ -1,4 +1,8 @@
-# Nb2-N1 candidate: does a biological off-period permit maturation between bouts?
+<a id="nb2-n1-candidate-does-a-biological-off-period-permit-maturation-between-bouts"></a>
+
+# Nb2-N1 — Maturation during stimulus withdrawal
+
+Does a biological off-period permit maturation between bouts?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

@@ -1,10 +1,134 @@
-# Damani–Yokota 2026 — ungated (DY1)
+# Damani–Yokota et al. (2026) — Inflammatory history and lung macrophage state
 
-## A macrophage population can return to baseline and still differ in state
+<a id="damaniyokota-2026--ungated-dy1"></a>
 
-Damani–Yokota and colleagues observed a transient expansion of nerve- and airway-associated lung macrophages after type 2 inflammation. Their numbers returned toward baseline, yet profiles of sorted macrophages still differed with immune history. Counting cells and measuring their state therefore answer different questions. [Paper, Extended Data Fig. 1b and Fig. 4](https://doi.org/10.1038/s41586-026-11060-y)
+<a id="a-macrophage-population-can-return-to-baseline-and-still-differ-in-state"></a>
+
+## Published findings
+
+```text
+Type 2 inflammation → transient expansion of nerve- and airway-associated macrophages
+  ├─ Recovery of population size toward baseline
+  └─ Persistent molecular differences in the recovered macrophage population
+
+Implication: a recovered cell count can coexist with a history-associated macrophage
+             state.
+```
+
+Nerve- and airway-associated macrophage abundance returned toward baseline after its initial expansion. Molecular profiling of sorted macrophages revealed a persistent association with inflammatory history. [Paper, Extended Data Fig. 1b and Fig. 4](https://doi.org/10.1038/s41586-026-11060-y)
+
+## Ravel analyses and results
 
 Ravel examined a separate comparison in human pulmonary fibrosis. The matrix-associated macrophage RNA panel remained higher across donor and gene omissions, while the smaller FABP4-panel contrast changed sign when *FABP4* itself was omitted. The human cohorts support a matrix-associated expression difference. Their disease labels leave prior immune history unknown. [Human comparisons and sensitivity results](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+
+<details>
+<summary>Additional analysis results</summary>
+
+<a id="completion-ledger"></a>
+
+### Analysis status
+
+The earlier platform rejection is a historical execution event, preserved in
+[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md). It does not establish that all mouse-data tasks are
+prohibited. The current assessment separates permissible completed work, missing
+data/design prerequisites and inference limits. No qualified original job remains queued; the original numerical sequence is not
+claimed fully reproduced. Newly completed DY1-P02 extensions are listed separately below.
+
+| Stage | Completed | Specific remaining hold |
+|---|---|---|
+| 0: Source and units | V1 provenance, V2 corrected labels, source-local feature records, current baseline file hashes and raw CMO signal inventory | Deposited-library/tag → independent-pool and overlap map, validated cell assignments and condition/library/batch support are unresolved. Published pooling statements do not supply the crosswalk. |
+| 1: Baseline RNA/ATAC QC | Six exon files share 406,850 ordered features; 143,437 all-zero rows. Eight peak files pass limited basic format checks. Fixed six-library logCPM/SVD diagnostic completed. | Exact gene-count semantics and author filtering/VST/PCA remain unresolved. ATAC lacks qualified common-region counts/read-level QC, reconciled pipeline version and author-excluded sample identity/rationale. No gene/peak effects or outlier removal. |
+| 2: RNA/accessibility discordance | Assay distinction and published-direction evidence matrix completed | Numerical discordance requires qualified assay effects/uncertainty, compatible annotation and declared peak→gene rules. No paired RNA–ATAC map; significance mismatch alone is not poising. |
+| 3: Composition/within-state RNA | Both baseline matrices fully scanned: 67,983,499 entries; sparse accounting and 12 CMO signal rows checked | Raw signal is not cell assignment or pool identity. Qualified state labels, biological units, denominator and common-state/condition support remain missing; no decomposition fitted. |
+| 4: Regulatory association | Primary precedents and STAT6/EGR2/PPARγ/RXRA measurement boundaries reviewed | Motif/target tests depend on qualified effects, annotation/backgrounds and context-qualified target/binding resources. Late RNA, motifs and external ChIP do not establish activity, local occupancy or a temporal relay. |
+| 5: History-by-condition host-RNA response | Original descriptive interaction estimand and separate-unit design retained | Data/design hold: unresolved cell/condition/unit/batch support, eligible shared states and target sets. No interaction estimate. A single later endpoint cannot distinguish kinetics or supply individual longitudinal linkage. |
+| 6: ARG1/context | Published functional-design limits, context-dependent literature and captured-human RNA attribution completed | Mouse state attribution depends on held contrasts. Unlinked omics/functional cohorts cannot support mediation; genotype effect in trained animals is distinct from a training-specific interaction. NAM/AM targeting and enzyme/output limits remain. |
+| 7: Human/recipient context | Primary 78-donor and external 12-IPF/9-control exposed descriptions, clinical/annotation/source sensitivities and negative/imprecise findings completed | Exact author NAM/model unavailable; external SELENOP mapping absent; subsets below frozen donor minimum remain non-estimable. RNA/composition is not activity, spatial signaling or recovery. |
+| 8: Current-evidence synthesis | Paper/repository evidence and missing discriminators integrated; existing RQ notes retained | Complete synthesis does not establish the regulatory–ARG1–epithelial causal chain, laboratory readiness or scientific acceptance. Required linked functional endpoints remain missing. |
+
+The [detailed record](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md) supplies job-level requirements,
+receipt hashes and review evidence. The [methods/input assessment](../gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+records source availability. The plan changed only to separate technical QC,
+biological effect estimation and current-evidence synthesis because they have
+different evidentiary requirements. No missing effect was replaced with a proxy
+claim or inferred independent replicate.
+
+Human results remain mixed: higher matrix-panel RNA transports directionally;
+FABP4 depends on annotation; pooled recipient coupling is not stable within
+disease; ARG1 is sparse. Donors, not cells, are the units. See the
+[independent human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
+
+</details>
+
+## Data and methods
+
+The mouse baseline assays and the human disease cohorts provide separate comparisons. Human sensitivity analyses examined donor and gene omissions. [Source design and data limitations](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+
+## Interpretation and open questions
+
+The human matrix-associated panel is more robust than the FABP4 panel. Disease groups alone cannot identify the prior immune exposure of individual donors.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+### Candidate DY1-P01
+
+Can deposited bulk and single-cell measurements reproduce persistent NAM
+RNA/accessibility associations and distinguish RNA composition from within-state
+differences? The baseline and separate later-condition comparisons have unresolved
+source-specific unit, state and technical support. Libraries, cells, exon bins
+and peaks are measured objects, not automatically independent biological units.
+Qualified independently collected pools can be units without naming each mouse.
+
+The paper, figures and prior repository results were exposed before these
+contracts. Endpoints remain RNA counts, called intervals and annotations; none
+alone is TF activity, secretion, fate or mature repair function. The key published
+discrepancy is bulk RNA versus separate bulk ATAC. scRNA addresses composition and
+within-state RNA; it does not supply within-state ATAC in those separate samples.
+
+<a id="dy1-p02-executed-reference-extensions-and-original-holds"></a>
+
+### DY1-P02 reference comparisons and inference limits
+
+The owner-requested [RNA-ATAC discordance dossier](rq_discordance/README.md)
+asks whether the late baseline pattern is interpretable under measurement/mapping
+and RNA-composition sensitivity, and consistent with independent STAT6-EGR2-PPARgamma/RXRA
+evidence. Separate bulk-ATAC composition remains unresolved.
+
+The analysis chat completed five frozen runs: external count/source qualification,
+a descriptive RNA-ATAC benchmark, a synthetic detection-label diagnostic,
+temporal-source qualification and an RNA-only source-average description.
+The [full results](../gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserve all outcomes.
+The coordinating [review](../gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md) checked their designs,
+receipts, hashes, saved arithmetic and figures. The [E1-E6 record](rq_discordance/README.md#extension-execution-and-remaining-holds)
+records every completion and exact remaining limitation.
+
+The reference has mixed RNA-ATAC directions (about 56% same sign over full mapped
+rows, about 63% in the nearest-TSS subset). Synthetic examples show substantial
+detection-label mismatch even with equal truths. Repeated-stimulation RNA averages
+also retain mixed responses and provide no replicate variance. These results
+strengthen measurement discipline; they do not validate NAM memory, the regulatory
+axis or ARG1 mediation. Original count/unit/state holds remain, and no canonical
+RQ or scientific acceptance is created.
+
+The [literature context](../gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md) now links successful
+source qualification and the [assay-specific temporal review](../gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md).
+Plan changes kept all eligible ATAC regions and separated supported RNA-only
+arithmetic from missing matched temporal evidence. No eligible extension is left
+queued in the current assessment.
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](../gate2_DY1_damani_yokota_2026/source_metadata/) |
+| Computational methods | [Analysis code](../gate2_DY1_damani_yokota_2026/scripts/) |
+| Results | [Study results](../gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md) |
+| Figures | [Figures and captions](../gate2_DY1_damani_yokota_2026/FIGURES.md) |
+
+### Study context and analysis history
 
 **Roadmap classification: ungated**, outside the ordered reading roadmap.
 This is the current article entry folder, corrected on 8 November 2026. DY1-P01
@@ -48,83 +172,9 @@ with all ten original PNGs preserved. Four new presentation derivatives include
 The [figure review](../gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md) records source parity, layout checks
 and the distinction between technical completion and scientific acceptance.
 
-## Candidate DY1-P01
+<a id="architecture-and-evidence-boundaries"></a>
 
-Can deposited bulk and single-cell measurements reproduce persistent NAM
-RNA/accessibility associations and distinguish RNA composition from within-state
-differences? The baseline and separate later-condition comparisons have unresolved
-source-specific unit, state and technical support. Libraries, cells, exon bins
-and peaks are measured objects, not automatically independent biological units.
-Qualified independently collected pools can be units without naming each mouse.
-
-The paper, figures and prior repository results were exposed before these
-contracts. Endpoints remain RNA counts, called intervals and annotations; none
-alone is TF activity, secretion, fate or mature repair function. The key published
-discrepancy is bulk RNA versus separate bulk ATAC. scRNA addresses composition and
-within-state RNA; it does not supply within-state ATAC in those separate samples.
-
-## Completion ledger
-
-The earlier platform rejection is a historical execution event, preserved in
-[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md). It does not establish that all mouse-data tasks are
-prohibited. The current assessment separates permissible completed work, missing
-data/design prerequisites and inference limits. No qualified original job remains queued; the original numerical sequence is not
-claimed fully reproduced. Newly completed DY1-P02 extensions are listed separately below.
-
-| Stage | Completed | Specific remaining hold |
-|---|---|---|
-| 0: Source and units | V1 provenance, V2 corrected labels, source-local feature records, current baseline file hashes and raw CMO signal inventory | Deposited-library/tag → independent-pool and overlap map, validated cell assignments and condition/library/batch support are unresolved. Published pooling statements do not supply the crosswalk. |
-| 1: Baseline RNA/ATAC QC | Six exon files share 406,850 ordered features; 143,437 all-zero rows. Eight peak files pass limited basic format checks. Fixed six-library logCPM/SVD diagnostic completed. | Exact gene-count semantics and author filtering/VST/PCA remain unresolved. ATAC lacks qualified common-region counts/read-level QC, reconciled pipeline version and author-excluded sample identity/rationale. No gene/peak effects or outlier removal. |
-| 2: RNA/accessibility discordance | Assay distinction and published-direction evidence matrix completed | Numerical discordance requires qualified assay effects/uncertainty, compatible annotation and declared peak→gene rules. No paired RNA–ATAC map; significance mismatch alone is not poising. |
-| 3: Composition/within-state RNA | Both baseline matrices fully scanned: 67,983,499 entries; sparse accounting and 12 CMO signal rows checked | Raw signal is not cell assignment or pool identity. Qualified state labels, biological units, denominator and common-state/condition support remain missing; no decomposition fitted. |
-| 4: Regulatory association | Primary precedents and STAT6/EGR2/PPARγ/RXRA measurement boundaries reviewed | Motif/target tests depend on qualified effects, annotation/backgrounds and context-qualified target/binding resources. Late RNA, motifs and external ChIP do not establish activity, local occupancy or a temporal relay. |
-| 5: History-by-condition host-RNA response | Original descriptive interaction estimand and separate-unit design retained | Data/design hold: unresolved cell/condition/unit/batch support, eligible shared states and target sets. No interaction estimate. A single later endpoint cannot distinguish kinetics or supply individual longitudinal linkage. |
-| 6: ARG1/context | Published functional-design limits, context-dependent literature and captured-human RNA attribution completed | Mouse state attribution depends on held contrasts. Unlinked omics/functional cohorts cannot support mediation; genotype effect in trained animals is distinct from a training-specific interaction. NAM/AM targeting and enzyme/output limits remain. |
-| 7: Human/recipient context | Primary 78-donor and external 12-IPF/9-control exposed descriptions, clinical/annotation/source sensitivities and negative/imprecise findings completed | Exact author NAM/model unavailable; external SELENOP mapping absent; subsets below frozen donor minimum remain non-estimable. RNA/composition is not activity, spatial signaling or recovery. |
-| 8: Current-evidence synthesis | Paper/repository evidence and missing discriminators integrated; existing RQ notes retained | Complete synthesis does not establish the regulatory–ARG1–epithelial causal chain, laboratory readiness or scientific acceptance. Required linked functional endpoints remain missing. |
-
-The [detailed ledger](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md) supplies job-level requirements,
-receipt hashes and review evidence. The [methods/input assessment](../gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
-records source availability. The plan changed only to separate technical QC,
-biological effect estimation and current-evidence synthesis because they have
-different evidentiary requirements. No missing effect was replaced with a proxy
-claim or inferred independent replicate.
-
-Human results remain mixed: higher matrix-panel RNA transports directionally;
-FABP4 depends on annotation; pooled recipient coupling is not stable within
-disease; ARG1 is sparse. Donors, not cells, are the units. See the
-[independent human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
-
-## DY1-P02: executed reference extensions and original holds
-
-The owner-requested [RNA-ATAC discordance dossier](rq_discordance/README.md)
-asks whether the late baseline pattern is interpretable under measurement/mapping
-and RNA-composition sensitivity, and consistent with independent STAT6-EGR2-PPARgamma/RXRA
-evidence. Separate bulk-ATAC composition remains unresolved.
-
-The analysis chat completed five frozen runs: external count/source qualification,
-a descriptive RNA-ATAC benchmark, a synthetic detection-label diagnostic,
-temporal-source qualification and an RNA-only source-average description.
-The [full results](../gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserve all outcomes.
-The coordinating [review](../gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md) checked their designs,
-receipts, hashes, saved arithmetic and figures. The [E1-E6 ledger](rq_discordance/README.md#extension-execution-and-remaining-holds)
-records every completion and exact remaining limitation.
-
-The reference has mixed RNA-ATAC directions (about 56% same sign over full mapped
-rows, about 63% in the nearest-TSS subset). Synthetic examples show substantial
-detection-label mismatch even with equal truths. Repeated-stimulation RNA averages
-also retain mixed responses and provide no replicate variance. These results
-strengthen measurement discipline; they do not validate NAM memory, the regulatory
-axis or ARG1 mediation. Original count/unit/state holds remain, and no canonical
-RQ or scientific acceptance is created.
-
-The [literature context](../gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md) now links successful
-source qualification and the [assay-specific temporal review](../gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md).
-Plan changes kept all eligible ATAC regions and separated supported RNA-only
-arithmetic from missing matched temporal evidence. No eligible extension is left
-queued in the current assessment.
-
-## Architecture and evidence boundaries
+### Assay design and inference limits
 
 The canonical directory is `Research Article/`. Article numerical outputs remain
 here and in registered run folders. Existing A1/A2/A8/A14/A19/A22 retain their
@@ -139,10 +189,12 @@ live in their own folders:
 No RQ is promoted or retired; article observations do not supply their missing
 fate, delivery, cessation/reception, reserve or focal protein-output endpoints.
 
-## Completion ledger: documentation close-out
+<a id="completion-ledger-documentation-close-out"></a>
+
+### Documentation and validation
 
 This historical heading preserves earlier links. The original close-out is
-[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md); current status is the completion ledger above, followed
+[CLOSEOUT](../gate2_DY1_damani_yokota_2026/CLOSEOUT.md); current status is the completion record above, followed
 by the [job assessment](../gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md). Historical outputs remain
 unchanged. See also [artifact inventory](../gate2_DY1_damani_yokota_2026/ARTIFACT_INVENTORY.md),
 [human validation](../gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md), [literature context](../gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md),

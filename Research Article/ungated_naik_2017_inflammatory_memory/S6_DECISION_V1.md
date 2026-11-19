@@ -22,7 +22,9 @@ five-marker/four-library D6 QC scope for faithful implementation, contract/freez
 and execution after closing S6A. D180 header/dictionary/readability qualification
 may be prepared under a metadata contract; its effects still need method review.
 
-## What the completed sequence leaves unresolved
+<a id="what-the-completed-sequence-leaves-unresolved"></a>
+
+## Remaining questions after the analysis sequence
 
 The organizing question remains how inflammatory history alters a later
 epithelial response after apparent recovery. [S2](S2_RESULTS_V1.md) describes

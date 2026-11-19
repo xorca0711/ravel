@@ -24,7 +24,9 @@ observation, not a repository finding.
 | Fig. S4; main p. 8 | Human reuse of GEO GSE138266: CD4 T cells pseudobulked by donor and tissue; both modules up in MS blood and CSF, EGCG signature up in MS blood only, N1/P1/P4 higher in MS blood | Wp-R4: rebuild the donor-level pseudobulk and re-test, with an activation score as a competing explanation | Both modules moving together is consistent with generalised T-cell activation; this cohort is the only donor-level unit in the paper |
 | Fig. 4A–4J, S5; main pp. 8–10 | Adoptive-transfer EAE: DHEA-treated Th17p reduces peak severity without changing incidence or lesion counts; EGCG-treated Th17n induces EAE (10 of 12 versus 0 of 12, Fisher p = 1.1 × 10⁻⁴), raises CNS lesions (p = 0.0093), raises MOG-recall IL-17/IL-17F/IL-22/IL-6, and is the only group with Wallerian degeneration | None. No animal-level numeric data deposited | This is the only functional outcome in the paper; it is CNS autoimmunity after transfer of drug-exposed cells, not a within-tissue PGAM manipulation |
 
-## What is not available
+<a id="what-is-not-available"></a>
+
+## Unavailable source materials
 
 The Excel supplements are not in the supplied supplemental PDF, which carries
 legends and Table S2 only, but **all five were recovered on 4 October 2026** from

@@ -74,7 +74,9 @@ This partition is internal to GSE290297 and is deliberately independent of the
 Gaublomme modules used elsewhere in the package, so the module-level readouts in
 section 3 are not circular with respect to Table S1.
 
-## 3. What the inhibitors do to the two gene groups
+<a id="3-what-the-inhibitors-do-to-the-two-gene-groups"></a>
+
+## Inhibitor effects on the two gene sets
 
 Distribution of log2FC within each gene group, `Div.1` gate (medians; the
 non-significant group is the centring control, because both drugs shift the whole

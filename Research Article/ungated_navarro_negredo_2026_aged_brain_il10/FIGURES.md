@@ -1,7 +1,7 @@
 # Navarro Negredo 2026 — figure gallery
 
 [Study overview](README.md) · [RNA results and interpretation](RNA_RESULTS.md) ·
-[Animal-outcome results](RESULTS.md) · [Stage ledger](STAGE_STATUS.md) ·
+[Animal-outcome results](RESULTS.md) · [Stage record](STAGE_STATUS.md) ·
 [Validation](VALIDATION.md) · [10 November follow-up](followup_20261110/README.md)
 
 This gallery gathers four original animal-outcome figures, four original pooled

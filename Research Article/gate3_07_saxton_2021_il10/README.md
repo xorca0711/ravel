@@ -1,10 +1,86 @@
-# Saxton 2021 IL-10 — Gate 3A (paper 7)
+# Saxton et al. (2021) — Cell-type selectivity of IL-10 responses
 
-## IL-10 has different effects on myeloid cells and T cells
+<a id="saxton-2021-il-10--gate-3a-paper-7"></a>
 
-Saxton and colleagues found that IL-10 variants could retain suppression of myeloid activation while eliciting a weaker response in activated CD8 T cells. The evidence comes from separate myeloid functional assays and lymphocyte measurements. [Paper, Figs. 4–5](https://doi.org/10.1126/science.abc8433)
+<a id="il-10-has-different-effects-on-myeloid-cells-and-t-cells"></a>
+
+## Published findings
+
+```text
+IL-10 signaling in distinct recipient populations
+  ├─ Monocytes and macrophages → suppression of inflammatory activation
+  └─ Activated CD8 T cells     → variant- and gene-dependent responses
+
+Implication: a variant can retain myeloid suppression with weaker T-cell stimulation.
+```
+
+Myeloid assays measured suppression of activation. In separate experiments, activated human CD8 cells were profiled after treatment with wild-type IL-10 and variants. [Paper, Figs. 4–5](https://doi.org/10.1126/science.abc8433)
+
+## Ravel analyses and results
 
 Ravel revisited the activated human CD8 RNA in Fig. 5. The 10-DE response was generally weaker than wild-type IL-10. For super-10, the direction depended on the gene. *IFNG* was higher than with wild type, while *GZMB* was lower across the tested scales and library omissions. The eight RNA libraries do not resolve myeloid suppression or CD8 killing. [Gene-level comparisons](RESULTS.md)
+
+## Data and methods
+
+Eight deposited human CD8 RNA libraries span the treatment groups. Myeloid suppression, T-cell phospho-signaling and cytokine release were measured in distinct source assays. [Assay and figure references](SOURCE_EVIDENCE.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+<a id="prospective-execution"></a>
+
+### Analysis design
+
+Qualify explicit GEO treatment attributes and GEO/BioSample/SRA joins; suffixes
+are not donor IDs. Preserve all eight libraries and stable-ID rows. Unknown donor
+or preparation identity holds population inference, not finite-library description.
+Freeze metadata/QC and then a separate fixed-target/response-pattern contract
+before each runner stage. Retain failures, negative results and omission cases.
+Follow the current reports for execution rather than treating this plan as a queue.
+
+</details>
+
+## Interpretation and open questions
+
+The mixed super-10 gene directions limit a uniform amplification model. The CD8 libraries alone leave donor-specific responses, killing and myeloid suppression unresolved.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+### Biological purpose
+
+The organizing question is separation of myeloid suppression from lymphocyte
+stimulation. This deposit measures only activated human CD8 RNA after 24-hour
+treatment. Does 10-DE mainly weaken the WT transcriptional response, and does
+super-10 amplify it uniformly or alter particular relative gene responses?
+Published mixed super-10 effects and weak 10-DE responses are already exposed
+reproduction targets. General attenuation, source-selected targets, donor and
+processing confounding are consequential alternatives.
+
+[Literature and source context](../gate3_07_saxton_2021_il10/LITERATURE_CONTEXT.md) ·
+[Assay evidence map](../gate3_07_saxton_2021_il10/SOURCE_EVIDENCE.md). The supplied Science paper and companion
+IL-22 paper were read previously. This is shared-source reanalysis, not independent
+replication or a causal STAT model. RNA does not measure myeloid suppression,
+pSTAT activity, secretion, killing, persistence or protection.
+
+Sx22-P01 owns the distinct mouse colon IL-22 comparisons; Sx10-P01 does not merge
+that evidence or any global RQ. A28/A29 concern Th17/metabolic effector questions,
+A26/A27 concern age/repertoire-state CD8 questions, and A1/A3 concern transitions/
+history; none is replaced by this acute IL-10 source comparison. Shared biological
+themes are navigation, not a new global hypothesis or independent evidence.
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_QUALIFICATION.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../ungated_navarro_negredo_2026_aged_brain_il10/README.md)
 connects published D25K effects in the aged neural niche to this paper's
@@ -16,7 +92,7 @@ super-10/10-DE RNA contrasts. Navarro remains ungated; Saxton remains Gate 3A.
 
 **Completed technical description, 8 November 2026:** [Gate 3A results](RESULTS.md),
 [three figures](FIGURES.md), [source qualification](../gate3_07_saxton_2021_il10/SOURCE_QUALIFICATION.md),
-[completion/hold ledger](../gate3_07_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../gate3_07_saxton_2021_il10/VALIDATION.md).
+[completion/hold record](../gate3_07_saxton_2021_il10/COMPLETION_LEDGER.md) and [verification](../gate3_07_saxton_2021_il10/VALIDATION.md).
 10-DE responses are broadly weaker; super-10 has stable mixed target directions.
 CCL1 remains omission-sensitive. Population inference and exact replay are held.
 
@@ -44,34 +120,3 @@ current registry (36 canonical RQs, 38 pre-existing article-local candidates).
 No A number, roadmap promotion, scientific acceptance or ligand-design work is
 created. The package owns the GSE160332 source description under the
 [authorized staged plan](../../docs/research_reviews/2026-11-08-saxton-reading/IL10_ANALYSIS_PLAN.md).
-
-## Biological purpose
-
-The organizing question is separation of myeloid suppression from lymphocyte
-stimulation. This deposit measures only activated human CD8 RNA after 24-hour
-treatment. Does 10-DE mainly weaken the WT transcriptional response, and does
-super-10 amplify it uniformly or alter particular relative gene responses?
-Published mixed super-10 effects and weak 10-DE responses are already exposed
-reproduction targets. General attenuation, source-selected targets, donor and
-processing confounding are consequential alternatives.
-
-[Literature and source context](../gate3_07_saxton_2021_il10/LITERATURE_CONTEXT.md) ·
-[Assay evidence map](../gate3_07_saxton_2021_il10/SOURCE_EVIDENCE.md). The supplied Science paper and companion
-IL-22 paper were read previously. This is shared-source reanalysis, not independent
-replication or a causal STAT model. RNA does not measure myeloid suppression,
-pSTAT activity, secretion, killing, persistence or protection.
-
-Sx22-P01 owns the distinct mouse colon IL-22 comparisons; Sx10-P01 does not merge
-that evidence or any global RQ. A28/A29 concern Th17/metabolic effector questions,
-A26/A27 concern age/repertoire-state CD8 questions, and A1/A3 concern transitions/
-history; none is replaced by this acute IL-10 source comparison. Shared biological
-themes are navigation, not a new global hypothesis or independent evidence.
-
-## Prospective execution
-
-Qualify explicit GEO treatment attributes and GEO/BioSample/SRA joins; suffixes
-are not donor IDs. Preserve all eight libraries and stable-ID rows. Unknown donor
-or preparation identity holds population inference, not finite-library description.
-Freeze metadata/QC and then a separate fixed-target/response-pattern contract
-before each runner stage. Retain failures, negative results and omission cases.
-Follow the current reports for execution rather than treating this plan as a queue.

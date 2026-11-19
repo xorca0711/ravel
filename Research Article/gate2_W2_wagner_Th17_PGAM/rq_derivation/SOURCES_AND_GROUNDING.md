@@ -67,7 +67,9 @@ None of the three is described as novel, and no absence of a search hit is
 treated as novelty. Published Th17 plasticity, glycolytic control of Th17
 differentiation and CSF T-cell compartmentalisation remain **premises**.
 
-## What is not available
+<a id="what-is-not-available"></a>
+
+## Unavailable source materials
 
 No independent Th17 nutrient dataset qualified: [Wp-E5](../E5_RESULTS.md)
 screened 114 series, failed 64 on record-level rules and deferred 50 to record

@@ -16,7 +16,9 @@ Qualification and execution status must not be conflated.
 The paragraphs below retain the earlier qualification checkpoint; the linked
 result supplies the completed gain-context analysis and updated interpretation.
 
-## What the completed screen supports
+<a id="what-the-completed-screen-supports"></a>
+
+## Supported screening results
 
 The coding screen provides a finite, auditable set of genes for further reading.
 It does not resolve the mixed broad state result or validate a causal target.

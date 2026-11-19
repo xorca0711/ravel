@@ -1,25 +1,33 @@
-# Navarro Negredo 2026 — ungated: aged-brain IL-10
+# Navarro Negredo et al. (2026) — Aged neural niches and IL-10 responses
 
-## Neural markers and behavior after IL-10 treatment in aged mice
+<a id="navarro-negredo-2026--ungated-aged-brain-il-10"></a>
 
-Navarro Negredo and colleagues reported that treatment with the IL-10 variant D25K altered inflammatory programs in the aged brain and increased measures of neurogenesis. They also asked whether treated mice performed better on memory tasks. Those outcomes require separate comparisons. [Paper, Figs. 6G–J and 7G–H](https://doi.org/10.1016/j.immuni.2026.01.016) · [Published correction](https://doi.org/10.1016/j.immuni.2026.06.019)
+<a id="neural-markers-and-behavior-after-il-10-treatment-in-aged-mice"></a>
+
+## Published findings
+
+```text
+Aged neural niche → altered T-cell and microglial inflammatory programs
+  └─ IL-10 variant treatment
+       ├─ Neural markers → increased measures of neurogenesis
+       └─ Memory tasks   → above-chance performance in treated mice
+
+Implication: the study relates immune modulation in aged mice to neurogenesis and
+             memory-task performance.
+```
+
+Neural-marker counts and behavioral tests measured different outcomes after treatment in aged mice. Figures 6G–J quantify neurogenesis markers. Figures 7G–H report the memory-task comparisons. [Paper, Figs. 6G–J and 7G–H](https://doi.org/10.1016/j.immuni.2026.01.016) · [Published correction](https://doi.org/10.1016/j.immuni.2026.06.019)
+
+## Ravel analyses and results
 
 Ravel recovered more newly labelled neurons in the olfactory bulb of D25K-treated mice than in vehicle controls. In the behavioral tests, D25K-treated mice performed above chance, but the direct D25K versus vehicle differences were inconclusive for both Y-maze discrimination and novel-object recognition. The behavioral findings therefore depend on which comparison is used. Sustained production of surviving neurons remains a separate question. [Animal results for Fig. 7G–H](RESULTS.md)
 
-**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+<details>
+<summary>Additional analysis results</summary>
 
-**Biological question for development:** when does selective immune modulation
-restore neuronal production in an aging niche, and which part of the response
-limits sustained recovery? The [10 November extension assessment](QUESTION_DEVELOPMENT_20261110.md)
-distinguishes this organizing purpose from completed reproduction and proposed
-future comparisons. This remains **Nn26-P01**, a separate ungated companion to
-Gate 3A/Saxton; no new global RQ or scientific acceptance is recorded.
+<a id="what-the-completed-work-changed"></a>
 
-[Latest follow-up results](followup_20261110/README.md) ·
-[Figure gallery](FIGURES.md) · [Animal results](RESULTS.md) ·
-[Pooled mouse RNA](RNA_RESULTS.md) · [Stage ledger](STAGE_STATUS.md)
-
-## What the completed work changed
+### Results by comparison
 
 - Animal/source reproduction retains 16 panels and 40 direct comparisons.
   Thirty-eight exact-rank statistics reconcile; the two residuals remain
@@ -45,7 +53,46 @@ proposals, with informative contrary outcomes and exact limits in the assessment
 The original seven-stage analysis and three follow-up stages are executed;
 biological resolution remains separate from execution completion.
 
-## Folder map
+</details>
+
+## Data and methods
+
+Animal-level neural-marker and behavioral measurements were recovered from the source tables. Comparing treated mice with vehicle controls addresses a different question from testing performance against chance. [Animal data and tests](RESULTS.md)
+
+## Interpretation and open questions
+
+The direct behavioral comparisons were inconclusive. The duration of the neuronal response and its relationship to behavior remain open.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATA_USAGE.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+<details>
+<summary>Supporting records and figures</summary>
+
+### Study context and analysis history
+
+**A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
+
+**Biological question for development:** when does selective immune modulation
+restore neuronal production in an aging niche, and which part of the response
+limits sustained recovery? The [10 November extension assessment](QUESTION_DEVELOPMENT_20261110.md)
+distinguishes this organizing purpose from completed reproduction and proposed
+future comparisons. This remains **Nn26-P01**, a separate ungated companion to
+Gate 3A/Saxton; no new global RQ or scientific acceptance is recorded.
+
+[Latest follow-up results](followup_20261110/README.md) ·
+[Figure gallery](FIGURES.md) · [Animal results](RESULTS.md) ·
+[Pooled mouse RNA](RNA_RESULTS.md) · [Stage record](STAGE_STATUS.md)
+
+<a id="folder-map"></a>
+
+### Study materials
 
 | Purpose | Read / use |
 |---|---|
@@ -68,13 +115,15 @@ routine run is queued. The proposed partial RNA screen needs its own qualified
 scope/contract; later survival, age modification and repair comparisons each
 need the specific additional evidence named in the extension assessment.
 
+
+
 <details>
 <summary>Original paper assessment and 8 November execution notes (historical)</summary>
 
 8 November 2026 (Asia/Seoul). **Nn26-P01 source/animal stages, cloud RDS
 qualification and bounded RNA description are complete, with explicit source holds.** This remains a separate
 ungated package linked to Gate 3A/Saxton IL-10, with no scientific acceptance.
-[Current results and figures](RESULTS.md), [stage ledger](STAGE_STATUS.md),
+[Current results and figures](RESULTS.md), [stage record](STAGE_STATUS.md),
 [candidate dossier](CANDIDATE.md), [literature context](LITERATURE_CONTEXT.md),
 [original data audit](DATA_USAGE.md), [metadata follow-up](METADATA_FOLLOWUP.md),
 and [seven-stage plan](ANALYSIS_PLAN.md).
@@ -105,7 +154,10 @@ changes the Fig. 2K color labels and replaces the duplicated WT IL-10 image in
 Fig. 4J; the authors state the original quantitative analysis and conclusions
 were unaffected. Cite the correction alongside these panels.
 
-## What it contributes biologically
+
+<a id="what-it-contributes-biologically"></a>
+
+#### Biological interpretation
 
 Navarro Negredo et al. (2026), Figs. 1–5, place the Saxton selectivity problem
 inside an aged tissue. Aged brain niches contain more T cells and altered
@@ -132,7 +184,9 @@ reported neurogenesis/nesting endpoints (Fig. 2; Results referring to S2K–M;
 Fig. 7C). “Exhaustion” marker reduction or immune activation should not be
 assumed to benefit the tissue.
 
-## Aging, damage and repair are distinct comparisons
+<a id="aging-damage-and-repair-are-distinct-comparisons"></a>
+
+#### Ageing, injury and repair comparisons
 
 This study addresses **physiological aging-associated decline and its partial
 functional improvement**. It does not impose a defined stroke, toxin or other
@@ -153,7 +207,9 @@ The useful framing for Ravel is: **how does an aged immune environment alter
 the net consequence of a cytokine intervention for a regenerative niche?**
 This is an organizing direction, not an adopted new RQ or a claim of novelty.
 
-## How strong are the different endpoints?
+<a id="how-strong-are-the-different-endpoints"></a>
+
+#### Evidence by endpoint
 
 | Evidence | What was measured | What should be retained in Ravel |
 |---|---|---|
@@ -179,7 +235,9 @@ reproduces the direct tests and shows that neither establishes a significant
 D25K-versus-vehicle difference. No causal chain from SVZ neurogenesis to cognition
 was demonstrated; the paper explicitly leaves the mediating cells unresolved.
 
-## Exact relationship to the repository
+<a id="exact-relationship-to-the-repository"></a>
+
+#### Relationship to prior studies
 
 | Current repository evidence | Relationship to this paper | What it does not resolve |
 |---|---|---|
@@ -199,7 +257,9 @@ The paper also does not introduce “immune regulation of aging” to an otherwi
 age-free portfolio. Its value is connecting existing themes to a tested
 engineered cytokine and a richer set of phenotypic readouts.
 
-## Sensible use and next decision
+<a id="sensible-use-and-next-decision"></a>
+
+#### Interpretation and remaining questions
 
 **Owner-selected placement:** a separate ungated paper package, outside the
 ordered reading roadmap, with a cross-link to Gate 3A/Saxton IL-10. Its datasets
@@ -237,7 +297,9 @@ this dataset with Saxton, or treating cell-level P values as animal replication.
 The source inventory and existing code already establish the relevant design
 limits without a costly biological rerun.
 
-## Literature boundary and remaining work
+<a id="literature-boundary-and-remaining-work"></a>
+
+#### Published evidence and unresolved questions
 
 The [dated source log](DATA_USAGE.md#search-and-access-log) records the bounded
 2024–2026 context search, older direct precedents, access limits and versions.
@@ -248,7 +310,7 @@ as interchangeable. The 2025 Groh and Mason papers were identified as contextual
 leads with different T-cell/microglial consequences, not fully audited here.
 No novelty or laboratory-readiness claim follows from this search.
 
-The [stage ledger](STAGE_STATUS.md) records nine successful verified runs,
+The [stage record](STAGE_STATUS.md) records nine successful verified runs,
 including source/animal work and completed cloud qualification/description.
 The failed first metadata execution is preserved separately. The authorized
 main RDS was acquired and qualified; no FASTQ or optional biological object
@@ -258,6 +320,10 @@ change is needed for this completed run; source holds remain scientific limits.
 
 </details>
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.
+
+</details>

@@ -71,7 +71,7 @@ contrasts and interaction intervals, with identity/mixture sensitivities.
 First outcome-exposed pass completed 3 October 2026. Fixed markers compared descriptively within distinct resident populations. Homologous identity, source overlap and prior art remain prerequisites for a shared-program claim.
 
 Read the [current result and amendments](../RESULTS.md),
-[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+[figures](../FIGURES.md) and [execution record](../EXECUTION_VALIDATION.md)
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.

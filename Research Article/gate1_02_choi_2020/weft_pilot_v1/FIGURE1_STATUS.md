@@ -48,7 +48,7 @@ and fresh read-only restores all matched. The checkpoint records a reservation h
 local scientific review has not modified or released that coordinator reservation;
 byte integrity and agent review do not establish biological validity or acceptance.
 
-Historical recovery context: Root independently verified the separate after-run ledger backup, its unchanged
+Historical recovery context: Root independently verified the separate after-run record backup, its unchanged
 21-event parent prefix, all 24 events, two scientific rows including the earlier
 metadata job, database/schema/integrity and read-only restoration. Its SHA-256 is
 `82e461d5ab42e04368aabef7778f7658b57a3e6e81388439f31a7ea42c123b19`.
@@ -65,7 +65,7 @@ preserves the mount failure, disk hold and owner-approved cleanup.
 Next: integrate the owner-approved complete-output receipt/CI change in PR #149
 after the latest checks. Publication and independent recovery are verified, with
 no rerun or validator change. The owner's descriptive-only retention leaves all
-scientific limitations unchanged; no coordinator-ledger transition is implied.
+scientific limitations unchanged; no coordinator-record transition is implied.
 
 ## Publication dependency
 

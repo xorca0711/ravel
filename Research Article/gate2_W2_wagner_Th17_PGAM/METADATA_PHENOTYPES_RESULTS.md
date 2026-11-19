@@ -16,7 +16,9 @@ receipt
 [analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json](../../analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json).
 `verify` returned `{"ok": true, "errors": []}`.
 
-## Why these three, and how they relate to the E list
+<a id="why-these-three-and-how-they-relate-to-the-e-list"></a>
+
+## Rationale for the three selected extensions
 
 The [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) listed nine candidates. Three of
 them — E1 (does score instability reach the reaction ranking), E2 (is the

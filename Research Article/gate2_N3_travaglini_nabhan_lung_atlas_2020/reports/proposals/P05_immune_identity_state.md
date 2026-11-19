@@ -1,6 +1,6 @@
 # Nb4-P05: reproducible myeloid identities versus recurring states
 
-**Status: planned.** [Master contract](README.md) · [source ledger](SOURCES.md).
+**Status: planned.** [Master contract](README.md) · [source record](SOURCES.md).
 S01 discovery; full myeloid S03 or qualified source studies from S04 for normal
 validation; S05/S06 for a separate IPF extension.
 

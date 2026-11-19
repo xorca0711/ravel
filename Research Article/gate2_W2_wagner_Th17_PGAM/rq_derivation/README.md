@@ -26,7 +26,9 @@ is stated on each card and cannot be undone by a later freeze.
 | [Wp-Q2](Q2_biosynthetic_demand.md) | Does PGAM restriction raise effector output through phosphoenolpyruvate, through relieved biosynthetic demand, or through stress? | [Wp-E3](../E3_RESULTS.md), [Wp-R3](../R3_RESULTS.md), [Wp-P02](../branches/P02_serine_one_carbon_direction.md) | proposed |
 | [Wp-Q3](Q3_csf_compartment.md) | Is the elevated pro-inflammatory module in human CSF T cells compartment-specific or a correlate of local activation? | [Wp-M3](../METADATA_PHENOTYPES_RESULTS.md), [Wp-R4](../R4_RESULTS.md) | proposed |
 
-## Why these three and not the others
+<a id="why-these-three-and-not-the-others"></a>
+
+## Rationale for the three selected comparisons
 
 The package holds nine listed extension candidates and six branch cards. Most
 are not question material, and the reasons differ:

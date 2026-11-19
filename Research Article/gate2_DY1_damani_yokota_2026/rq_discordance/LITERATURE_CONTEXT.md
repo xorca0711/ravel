@@ -31,7 +31,7 @@ The [reviewed separate A3 RNA-context result, 4 November 2026](../../../RQ_Speci
 
 The new source does not supply DY1's missing original assay/preparation matching or convert the earlier averaged repeat-stimulation ratios into individual maintenance trajectories. Unknown control harvest alignment, batch/preparation sharing and compositional/length effects preclude inferring a withdrawal/maintenance mechanism from this comparison. A matched-time/preparation discriminator remains separate from protein/activity and effector-function evidence. The original DY1 results and A3 registered hypothesis remain unchanged; no new analysis is implied by this source connection.
 
-The [current job ledger](../JOB_ASSESSMENT_2026-10-30.md) supersedes old blanket
+The [current job record](../JOB_ASSESSMENT_2026-10-30.md) supersedes old blanket
 execution wording. Baseline integrity and sample geometry are computed; mouse
 gene/peak effect estimates, state decomposition and axis tests are not. Human
 matrix-associated RNA is directionally consistent across two exposed cohorts,
@@ -39,7 +39,9 @@ while annotation-sensitive FABP4, imprecise external covariance, sparse ARG1 and
 weak within-disease recipient coupling are retained. None measures this mouse
 regulatory relationship or establishes mature epithelial fate.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 The contribution is a baseline measurement/model-discrimination analysis:
 determine whether an interpretable mismatch remains, then assess its consistency
@@ -61,7 +63,9 @@ baseline history/control assay contrasts; independently collected preparations
 are the intended units, with exact deposited source-to-pool mapping unresolved.
 No individual longitudinal or paired multiome structure is inferred.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 A robust pattern would support model consistency, while a pattern removed by
 valid measurement/mapping choices would reduce the need for that explanation.
@@ -145,7 +149,7 @@ files before numerical use. Published mechanisms remain premises, and repeated
 use of these source data remains shared-source reanalysis. See the
 [current dossier](README.md) and [independent review](REVIEW.md) for execution
 status and remaining inference limits; the earlier feasibility language is not
-the current run ledger.
+the current run record.
 
 ## Post-extension feasibility refresh — 30 October 2026
 

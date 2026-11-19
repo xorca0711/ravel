@@ -165,4 +165,4 @@ FFPE versus fixed-cell protocol/probe/normalization joins and early-IPF specimen
 identity remain unqualified. No native-only substitute comparison was performed.
 X6 is now the [provisional matrix](PROVISIONAL_X6_MATRIX.md); X3/X5 remain pending
 where actual state support or expression would be needed. The
-[ledger](EXECUTION_LEDGER.md) records final base, preservation and validation.
+[record](EXECUTION_LEDGER.md) records final base, preservation and validation.

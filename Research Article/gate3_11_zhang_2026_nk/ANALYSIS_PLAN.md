@@ -56,7 +56,7 @@ preflight.
    Preserve package/gene-set versions; test needed dependencies and the source
    API surface before declaring replay feasible.
 
-**Deliverables:** source manifest, sample crosswalk, discrepancy ledger,
+**Deliverables:** source manifest, sample crosswalk, discrepancy record,
 runtime report and source-qualified stage dispositions under the repository
 runner. **Decision:** allow S1/S2 for a qualified TPM source; allow a count
 sensitivity only with qualified counts and annotation. Unknown animal membership

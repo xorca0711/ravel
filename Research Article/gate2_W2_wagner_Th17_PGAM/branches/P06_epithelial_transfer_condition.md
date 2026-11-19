@@ -42,7 +42,9 @@ repository rather than new:
    transfer than when this card was written, not more. Importing an unqualified
    score into a lung question would add a number without adding evidence.
 
-## What would make it a question
+<a id="what-would-make-it-a-question"></a>
+
+## Requirements for a testable question
 
 All four of these, stated in advance:
 
