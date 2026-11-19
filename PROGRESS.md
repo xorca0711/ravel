@@ -14,6 +14,16 @@ without revision. The result research gate against refreshed main `d0429d0`, all
 20,366 repository checks and whitespace passed. S6B is preserved at `ba5afa4`; its frozen
 setup was `f92cf21`. Approved D180 implementation is now prepared.
 
+S6C was frozen at `7563cdf`. The first attempt failed at local WSL path
+translation (`Wsl/E_ACCESSDENIED` in the default sandbox), before any header or
+window-signal read. Its eight files were retained intact for governed failure
+archival; no failed receipt is relabeled as successful. The same frozen contract,
+inputs and code are now executing in fresh run `naik2017_s6c_d180_proxy_v1_retry1`
+using the approved local WSL access route. All four headers qualified: required
+20 chromosome lengths match mm10; complete 66-entry dictionaries match S3.
+Extraction is in progress. A metadata-only exact failure-preservation contract
+is prepared; no governance or scientific design changed.
+
 The [S6C D180 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md)
 was coordinator-reviewed without revision and approved for implementation,
 tests, freeze and governed execution after D6. It retains the exact S3 universe,

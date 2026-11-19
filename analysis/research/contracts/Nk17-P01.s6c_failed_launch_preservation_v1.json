@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6c_failed_launch_preservation_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "How is the actual failed pre-signal WSL launch preserved separately from the D180 retry without relabeling it as successful?",
+  "decision": "Archive every failed-launch file byte-for-byte, retain its execution_failed receipt and exact setup revision, and distinguish local WSL access failure from source unavailability or biological results. This performs no signal reading or analysis.",
+  "strongest_rival": "Discarding, overwriting or registering a failed launch as a successful scientific execution would conceal its actual status and partial outputs.",
+  "discriminator": "Copy all eight actual failed-run files and a separate observed-access diagnostic; compare every input/output SHA-256 and retain original receipt bytes/status. Record original path, archive path, size and digest. Header/window signal files must be absent in the failed source.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The first frozen D180 attempt failed at wslpath before any header or research-window signal read. Failure logs/status and partial preparation artifacts are exposed. Read-only diagnostic confirmed sandbox Wsl/E_ACCESSDENIED and a successful approved local WSL translation outside the sandbox. The unchanged frozen D180 contract is retrying in a new directory; this metadata archive never reruns it.",
+  "biological_unit": "Execution files and provenance records; no biological measurement or inferential unit is estimated.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Byte copies of one existing failed launch are the same records, not independent runs or biological evidence. The separate retry retains its own receipt and timing.",
+  "population_and_selection": "All eight files from the actual failed-launch directory, plus the separately labeled observed-access diagnostic; no selective omission or status repair.",
+  "contrast": "Exact input-versus-archived byte identity and unchanged failed status; no biological comparison.",
+  "endpoint": "Recorded failed status, original frozen revision, original/archived paths, byte lengths and SHA-256 values.",
+  "methods": "Standard-library file copies and independent source/destination SHA-256 equality, with guards requiring the exact failed analysis ID/status/exit code and no header or window-signal file in that source. Save one archive manifest and all original file bytes under failed_launch_v1.",
+  "missingness_and_exclusions": "No omission, renaming of internal receipt fields, scientific reconstruction or overwritten source. Stop if any input/hash changes, destination exists, unexpected successful status or evidence of header/window-signal output.",
+  "multiplicity": "Not applicable to exact metadata preservation. No statistical tests or scientific acceptance.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact byte hashes and file counts, not biological precision or a numerical effect margin.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful archival means the failure was preserved. It does not make the failed D180 execution successful, assess source signal, establish scientific validity or weaken any runtime or provenance gate.",
+  "stop_rule": "Freeze this metadata contract/code and match every input hash before copying. Refuse unexpected status/ID/exit code, existing destinations or source/output hash disagreement. Preserve the source and any partial archive. Do not modify the failed receipt, original D180 contract/code or governing validators.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_preserve_failure_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6c_failed_launch_preservation_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "failed_launch_v1/anchor_manifest.json",
+    "failed_launch_v1/gene_window_map.tsv.gz",
+    "failed_launch_v1/receipt.json",
+    "failed_launch_v1/source_manifest.json",
+    "failed_launch_v1/stderr.log",
+    "failed_launch_v1/stdout.log",
+    "failed_launch_v1/verification_windows.tsv",
+    "failed_launch_v1/windows.tsv",
+    "failed_launch_v1/launch_diagnostic_v1.json",
+    "failure_archive_manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate metadata-only preservation of the real WSL access failure; no change to the already frozen scientific analysis or its retry.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/anchor_manifest.json",
+      "sha256": "aaddc690dfe1ed9c461a448440a57c7bc7b98976d69656ad6ce23ebf32582097",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/receipt.json",
+      "sha256": "71239b6b6f8d727a7f0ed9711dd16dbd725ac53d18d8f234220c52d0636789c4",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/source_manifest.json",
+      "sha256": "0614823469f4fc905bb6e7925d8833c4d10756b4c2f5b7dc69812051d11c69f0",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/stderr.log",
+      "sha256": "a8b2fb6651a942f1a67c40817bc9055bb756f86d0d46fa09348ec376908dc743",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/verification_windows.tsv",
+      "sha256": "77aac5a7a6c13343374041275c2759decd15e96ec761b7d57336081e0c27db8d",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_preparation/launch_diagnostic_v1.json",
+      "sha256": "b39f878575294a329bb394331194efccda00e685d3433b5591303463703cf702",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_preserve_failure_v1.py",
+      "sha256": "c4dadbf98d4ae9ea73fc97bd621a84e3b25e404ac7fd408554ebc05deaf16107"
+    }
+  ]
+}
