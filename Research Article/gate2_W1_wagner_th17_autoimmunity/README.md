@@ -1,5 +1,11 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
+## From a metabolic prediction to a T-cell phenotype
+
+Wagner and colleagues used Compass to identify metabolic differences between pathogenic and nonpathogenic mouse Th17 cells. Measurements of polyamine metabolism and perturbations of that pathway connected the predictions to cytokine production and regulatory T-cell gene expression. [Paper, Figs. 4–6](https://doi.org/10.1016/j.cell.2021.05.045)
+
+Ravel revisited the culture RNA. After polyamine synthesis was inhibited with DFMO, the Th17 gene program shifted lower and the Treg program higher in two source experiments, including in the JMJD3-deficient condition. Whether individual cells acquired stable suppressive function remains open. [Animal-blocked RNA comparisons](MODEL_RESULTS.md)
+
 **Later Wg-P06 context — 3 November 2026:** the [Yadav source/extension package](../gate2_W3_yadav_2025/README.md)
 and [three-plan follow-up workspace](../../RQ_Specified/Yadav_followups_20261031/README.md)
 now carry completed bounded source work and precise remaining substrate/routing

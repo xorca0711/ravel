@@ -1,5 +1,11 @@
 # Study note: Choi, Lee et al. 2020, Inflammatory signals induce AT2 cell-derived damage-associated transient progenitors that mediate alveolar regeneration
 
+## A transient step in alveolar repair
+
+After mouse lung injury, IL-1β from interstitial macrophages helps AT2 cells enter a damage-associated transient progenitor (DATP) state. Lineage tracing connected DATPs to new AT1 cells. In organoids, sustained IL-1β impaired the last step into mature AT1 cells. The timing of inflammation changes what DATP accumulation means for repair. [Choi et al., Figs. 2–3 and 7A–H](https://doi.org/10.1016/j.stem.2020.06.020)
+
+In Ravel’s reconstruction of Fig. 1C, DATP-labelled cells rose from 0.4% at baseline to 18.7% at day 14 and fell to 8.9% at day 28. The classifier recovered no distinct primed AT2 group. The deposited RNA thus captures the transient peak more clearly than the intermediate state preceding it. [Figure 1 comparison](weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+
 ## Read this study
 
 | To understand | Read |

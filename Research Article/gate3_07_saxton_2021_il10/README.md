@@ -1,5 +1,11 @@
 # Saxton 2021 IL-10 — Gate 3A (paper 7)
 
+## IL-10 has different effects on myeloid cells and T cells
+
+Saxton and colleagues found that IL-10 variants could retain suppression of myeloid activation while eliciting a weaker response in activated CD8 T cells. The evidence comes from separate myeloid functional assays and lymphocyte measurements. [Paper, Figs. 4–5](https://doi.org/10.1126/science.abc8433)
+
+Ravel revisited the activated human CD8 RNA in Fig. 5. The 10-DE response was generally weaker than wild-type IL-10. For super-10, the direction depended on the gene. *IFNG* was higher than with wild type, while *GZMB* was lower across the tested scales and library omissions. The eight RNA libraries do not resolve myeloid suppression or CD8 killing. [Gene-level comparisons](RESULTS.md)
+
 **Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../ungated_navarro_negredo_2026_aged_brain_il10/README.md)
 connects published D25K effects in the aged neural niche to this paper's
 myeloid/T-cell selectivity problem. Its completed [animal reproduction](../ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)

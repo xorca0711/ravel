@@ -1,5 +1,11 @@
 # Navarro Negredo 2026 — ungated: aged-brain IL-10
 
+## Neural markers and behavior after IL-10 treatment in aged mice
+
+Navarro Negredo and colleagues reported that treatment with the IL-10 variant D25K altered inflammatory programs in the aged brain and increased measures of neurogenesis. They also asked whether treated mice performed better on memory tasks. Those outcomes require separate comparisons. [Paper, Figs. 6G–J and 7G–H](https://doi.org/10.1016/j.immuni.2026.01.016) · [Published correction](https://doi.org/10.1016/j.immuni.2026.06.019)
+
+Ravel recovered more newly labelled neurons in the olfactory bulb of D25K-treated mice than in vehicle controls. In the behavioral tests, D25K-treated mice performed above chance, but the direct D25K versus vehicle differences were inconclusive for both Y-maze discrimination and novel-object recognition. The behavioral findings therefore depend on which comparison is used. Sustained production of surviving neurons remains a separate question. [Animal results for Fig. 7G–H](RESULTS.md)
+
 **A36 registered, 10 November 2026:** the owner-authorized [later-neuronal-output question](../../RQ_Specified/A36_aged_il10_sustained_neuronal_output/README.md) now has its own plan, source/representation run and results. Nn26-P01 remains the originating reproduction; the earlier extension assessment and all frozen findings remain historical evidence. Registration is not scientific acceptance.
 
 **Biological question for development:** when does selective immune modulation

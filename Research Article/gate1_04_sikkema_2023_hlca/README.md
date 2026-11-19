@@ -1,5 +1,11 @@
 # Study note: Sikkema et al. 2023, An integrated cell atlas of the lung in health and disease (HLCA)
 
+## How confidently can a lung cell be named?
+
+Sikkema and colleagues combined 14 healthy human lung datasets into a reference and used it to annotate cells from other studies. The benchmark asked whether integration preserved cell identities across datasets. The reference then allowed an incoming cell to receive a broad label even when a fine subtype was uncertain. [Paper, Fig. 1 and Supplementary Fig. 1](https://doi.org/10.1038/s41591-023-02327-2)
+
+Ravel tested a specific label in Murthy’s distal-lung data. Marker scoring gave different answers for a candidate AT0 group depending on the scoring rule. Of the 328 cells in that group, reference mapping assigned 75 to AT0, 126 to AT2 and 117 to “Unknown.” The distinction matters if the group is used to estimate AT0 abundance. [Mapping results](trials/s2_reference_mapping/s2_summary.md) · [Marker comparison](trials/s3_hlca_marker_annotation/s3_summary.md)
+
 ## Read this study
 
 | To understand | Read |

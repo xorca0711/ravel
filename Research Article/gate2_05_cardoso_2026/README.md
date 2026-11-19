@@ -1,5 +1,14 @@
 # Study note: Cardoso, Lee et al. 2026, Early fibrotic niches establish tumour-permissive microenvironments
 
+## How a mutant AT2 cell changes its neighborhood
+
+Kras-mutant AT2 cells enter a DATP-like state and produce Areg. Nearby alveolar fibroblasts respond through EGFR and acquire a fibrotic program.
+
+- Fibrotic fibroblasts occupy tumour cores and borders. Their tenascin C signals to alveolar macrophages through TLR4.
+- A distinct inflammatory fibroblast population first appears at the tumour periphery at week 4. Macrophage-derived IL-1β contributes to that response. [Paper, Figs. 1–3](https://doi.org/10.1038/s41586-026-10399-6) · [Full cascade and evidence by link](#source-context)
+
+Deleting *Areg* in mutant AT2 cells reduced fibrotic fibroblasts in vivo (Fig. 4e–g). Ravel asked how readily RNA alone would nominate that ligand. AREG ranked first among prespecified canonical ligands for EGFR in all four resources containing those exact pairs. Its broader rank depended on the resource. [Paper, Fig. 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC13149335/#Fig4) · [Corrected ligand comparison](../../analysis/corrections/ligand/RESULTS.md)
+
 ## Read this study
 
 | To understand | Read |
