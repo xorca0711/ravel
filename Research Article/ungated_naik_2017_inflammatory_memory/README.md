@@ -37,8 +37,11 @@ endpoints and reference/N qualifications remain. The [S6 assessment](S6_DECISION
 now leads to the approved bounded five-marker D6 source QC, followed by separately
 qualified D180 proxies. [Four D180 tracks are acquired](D180_ACQUISITION_V1.md)
 with hashes; reader qualification and a separate reviewed effect method remain.
-No new D6 marker values or D180 effects have been calculated. S6 synthesis and
-human scientific decisions remain unfinished.
+The [S6B D6 QC method](S6B_D6_QC_METHOD_V1.md) and contract/code are ready for
+freeze after five passing artificial tests. The [S6C D180 method](S6C_D180_METHOD_V1.md)
+was coordinator-approved without revision for implementation and governed
+execution after D6. No new D6 marker values or D180 effects have
+been calculated. S6 synthesis and human scientific decisions remain unfinished.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR

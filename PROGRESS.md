@@ -2,6 +2,27 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
+19 November latest setup: S6A complete report/figures were coordinator-reviewed
+without further revision and preserved at `ccc91cd`. The approved
+[S6B D6 QC method](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_D6_QC_METHOD_V1.md),
+eight-input exposed contract and three scripts are prepared for freeze. Five
+artificial tests passed (477 independent fixture checks, maximum scaled error
+1.04349e-16), its artificial layout was reviewed, and input preflight passed.
+The setup research gate against main `d0429d0`, all 20,347 repository checks
+(including local links), and whitespace passed. No actual new D6 five-marker
+profile has run. Next: freeze commit, governed run, independent verification,
+actual figure/result review and local preservation.
+
+The [S6C D180 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md)
+was coordinator-reviewed without revision and is approved for implementation,
+tests, freeze and governed execution after D6. It retains the S3 universe, widths,
+rank and zero semantics, D180-versus-D30/D6 finite comparisons and all five
+fixed paper anchors. A single future contract will save fail-closed source/header/
+dictionary qualification before dependent extraction. No D180 signal has been
+read; four original tracks remain acquired/hash-recorded. Exact input/code
+freeze and fail-closed qualification precede D180 effects. Final S6 synthesis
+remains unfinished.
+
 19 November current checkpoint: [S6A v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
 executed from frozen setup `8155411`, preserving 62 endpoints, 228 group/days
 and 166 contrast/days (two required EDF6f day10 NA rows). Independent ZIP/XML/
