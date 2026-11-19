@@ -13,8 +13,10 @@ passed 13,821 checks. All five figures, exact method/map and 38 contrasts were
 coordinator-reviewed without numerical or figure revision. The final result
 report was then reviewed without further revision. The research gate against
 `d0429d0`, 20,267 repository checks and 308 local links passed. Preserve S5F
-locally, then prepare S6 and the first supported extension's prospective design. No new
-numerical extension is authorized before that design review.
+locally at `2514379`. The [S6 assessment](S6_DECISION_V1.md) and
+[S6A prospective design](S6A_DAILY_AREA_DESIGN_V1.md) were reviewed without revision.
+S6A implementation and governed execution are authorized. D180 acquisition only
+is also authorized; effect extraction needs a separate reviewed contract.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
@@ -63,7 +65,7 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
 | S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) reviewed and preserved at `7051b45`; [S5F v1](S5F_RESULTS_V1.md) executed from `ff0ed97`, 13,821 independent checks passed, all figures reviewed | Stage review and required checks passed; preserve locally and retain source-N/reference limits |
-| S6: extension decision | Three candidates assigned for assessment: EDF5/6 daily areas, fixed five-marker D6 QC, frozen S3 ranks at D180 | Assess what each changes, source qualification and limits; prepare first supported design for review before any extension calculation |
+| S6: extension decision | [Assessment](S6_DECISION_V1.md) completed for daily areas, fixed D6 marker QC and frozen D180 proxies; [S6A daily-area design](S6A_DAILY_AREA_DESIGN_V1.md) prepared | S6A design approved without revision: implement/test, freeze and execute under a new contract; D180 acquisition only also authorized |
 
 The initial technical turn failed during source qualification. A narrower
 continuation limited to public host-cell RNA/ATAC data and non-infectious repair

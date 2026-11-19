@@ -271,3 +271,66 @@ B:D / E:H / I:K / L:O as Ctrl+Ig / Ctrl+anti / Aim2OE+Ig / Aim2OE+anti, with
 This additional mismatch is retained as an S6 qualification issue; it does not
 justify swapping labels, overwriting the published summary or assuming complete
 animal trajectories. The coordinator has not calculated raw-area effects.
+
+## S6 targeted literature refresh — 19 November 2026
+
+The reviewed [S5F result](S5F_RESULTS_V1.md), preserved at `2514379`, motivates
+[S6's three-candidate assessment](S6_DECISION_V1.md) and the
+[first daily-area design](S6A_DAILY_AREA_DESIGN_V1.md). The contribution is
+shared-source reconstruction and a finite within-condition/day-0 decomposition.
+Naik's published perturbation and durability premises are retained. No original
+repair-effect discovery, new memory mechanism or independent replication is
+claimed. No new area effect, D6 five-marker profile or D180 rank was calculated.
+
+The closest experiment remains Naik 2017 Figs. 4g–h and 5b,d–g with the same
+source animals/records. The final-PDF EDF5e/f and EDF6d–g captions (saved text
+2644–2662 and 2755–2771) qualify area endpoints and animal language while adding
+caption-N discrepancies. The PDF body has some different extended-panel labels;
+source sheet identity and the actual captions govern this bounded map. The
+current [PMC manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC5808576/) was
+checked as a separately labelled source version; it does not replace the supplied
+final PDF. F5g's finite within-anti contrast motivates checking all daily areas,
+not rejecting the published pathway or claiming residual pathway independence.
+
+The 17–18 November Larsen/Cowley/Hamdan/other source review remains valid for
+unchanged establishment, durability and endpoint premises above. The refresh
+searched broadly beyond that bibliography for the exact repair/AIM2/IL1R1
+relationship, boundaries and recent work (2024–2026 terms), alongside unrestricted
+older precedents and an explicit 17–19 November interval query. Primary results:
+
+| Source and version | Actual read and exact locator | Consequence / access limit |
+|---|---|---|
+| [Walton et al. 2026](https://doi.org/10.1038/s41419-026-08804-z), published 28 April; indexed version of record 15 June 2026 | Publisher [article-in-press PDF](https://www.nature.com/articles/s41419-026-08804-z_reference.pdf), abstract, Results “Dynamics of epithelial structure…” (PDF pp. 7–8), keratin discussion and Fig. 5 legend (pp. 34–35); this is the explicitly marked unedited version | Mouse oral wounds close before cellular/keratin states return to baseline. This supports keeping area closure separate from complete epithelial homeostasis; it neither explains the Naik contrast nor tests IL1R1 dependence. Final-version figure equivalence was not audited. Publisher HTML redirected to inaccessible sign-in; PMC returned a challenge. [Crossmark](https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41419-026-08804-z) indexed the document as current. |
+| [Levra Levron et al. 2023](https://doi.org/10.1038/s41556-023-01120-0), version of record 20 April 2023 | Publisher-indexed abstract/introduction and metadata; direct HTML/figure finds redirected to inaccessible sign-in | A spatial priming precedent outside the original injury is a later mechanism/context lead. Full figure/method overlap was not audited here, so it is not evidence resolving Naik's anonymous source units or an execution prerequisite for S6A. |
+
+Actual web-search queries (19 November 2026; no domain restriction):
+
+1. `"AIM2" "IL1R1" "wound" "memory"`
+2. `"AIM2" "IL-1" keratinocyte wound healing 2024 2025 2026`
+3. `epithelial inflammatory memory wound repair persistent chromatin 2025 2026`
+4. `"inflammatory memory" "wound" "impaired" epithelium`
+5. `"AIM2" "wound" after:2026-11-17 before:2026-11-20`
+6. `"Tissue memory relies on stem cell priming in distal undamaged areas" PMC`
+7. `"s41419-026-08804-z"`
+8. `"s41419-026-08804-z" correction retraction`
+9. `"s41556-023-01120-0" correction retraction`
+
+Searches also returned already-covered Arozamena/Nagaraja/Cowley and unrelated
+infection/inflammatory-disease reviews. They were not counted as independent
+support or used to expand this non-infectious repair comparison. No systematic
+citation graph or new full reference traversal was completed. An interval query
+returning older pages is not evidence that no newer study exists. Correction
+searches and indexed Crossmark do not certify absence of all later updates.
+No previously failed Cowley supplement route or restricted broad extraction was
+retried. Stop this refresh at the closest comparison and stated endpoint limits;
+a new mechanistic claim would require deeper, source-specific review.
+
+The informative outcomes are now explicit: all-day area contrasts can support,
+narrow or reverse the finite fitted-summary pattern; day-0 components and
+coverage can reveal alternative explanations without correcting animal-level
+bias. D6 QC can localize or broaden source uncertainty. D180 fixed-proxy ranks
+can refine durability but introduce a HiSeq2500-versus-4000 cross-time limit.
+The [S6 assessment](S6_DECISION_V1.md) retains original-domain recovery and raw-read
+processing as separately qualified options. The exact public D180 headers and
+raw-read metadata demonstrate availability leads, not ready or independently
+replicated biological analyses. None of these candidates changes an RQ's status.

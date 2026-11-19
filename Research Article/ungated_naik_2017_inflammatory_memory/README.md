@@ -16,7 +16,11 @@ day^-1). Equality of OE+anti to Ctrl+Ig does not demonstrate complete blockade.
 Source/caption N discrepancies and normalized reference semantics remain
 explicit. All 13,821 independent checks passed; all five figures were inspected.
 Coordinator stage review of the complete report, figures and numbers requested
-no further revision. S6 and prospective extension review remain pending.
+no further revision; S5F is preserved at `2514379`. The [S6 assessment](S6_DECISION_V1.md)
+now proposes the [all-panel daily-area design](S6A_DAILY_AREA_DESIGN_V1.md) first,
+with fixed D6 marker QC and D180 proxy durability retained as separate candidates.
+The design is coordinator-approved for implementation and governed execution;
+no extension effects have been calculated.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
@@ -229,8 +233,10 @@ preservation at `7051b45`. S5F ran from frozen setup `ff0ed97`, with 35 endpoint
 receipt are registered; 13,821 independent ZIP/XML/Decimal checks passed. All
 five figures were reviewed by the technical session and coordinator without a
 revision request; final report review is complete. The research gate, 20,267
-repository checks and 308 local links passed. Prepare the S6 decision and first
-supported extension's prospective design for review before execution.
+repository checks and 308 local links passed. The [S6 assessment](S6_DECISION_V1.md)
+and [approved S6A design](S6A_DAILY_AREA_DESIGN_V1.md) now specify the first
+extension, all source days and missingness rules. Implement/test and freeze the
+separate contract before governed execution.
 The three candidates to assess are recovered EDF5/6 daily areas, fixed five-marker
 D6 RNA QC, and the frozen S3 endpoint at D180. Preserve ATAC zero flags because
 other windows/tie mass can change the rank even of a constant local zero.

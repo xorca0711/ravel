@@ -21,15 +21,31 @@ biological cells. Source/caption N discrepancies and unknown matching remain.
 Naik Fig. 5c already reports the transcript/protein distinction; no new mechanism
 or human scientific acceptance is asserted.
 
-Next, continue S6 after S5F preservation. The coordinator
-assigned assessment of (1) six recovered EDF5e/f and EDF6d–g daily-area tables,
-(2) fixed five-marker D6 RNA QC and (3) D180 with the frozen S3 universe, widths,
-rank endpoint and all five paper anchors. Prepare the first supported extension's
-prospective design for review; do not execute an extension before that review.
-EDF6g area counts are 3/4/3/4 at every day 0–10, versus main F5g summary N
-3/3/4/4. Preserve the discrepancy without relabelling. Main summary limitations
-are not global absence of area records; original-domain/raw-read options need
-their own actual source/resource assessment.
+S5F is preserved at `2514379`. The [S6 assessment](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md)
+and [S6A daily-area design](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md)
+are prepared for coordinator review. No new extension means, contrasts, marker
+profiles or ranks have been calculated. The first proposed comparison includes
+all six panels/days, raw area contrasts and explicit day-0 components. EDF6g
+area Ns 3/4/3/4 differ from main summary Ns 3/3/4/4; EDF6f day 10 has no WT
+records, so dependent contrasts must remain NA. Both caption-N sources are retained.
+
+Fixed five-marker D6 QC and D180 using the frozen S3 universe/widths/ranks/all
+five anchors remain separate candidates. D180's four HiSeq2500 paired-end tracks
+returned HTTP 200 headers, totaling 3,118,510,945 bytes, but are not downloaded
+or reader-qualified. D6/D30 ATAC uses HiSeq4000. Saved ENA metadata lists all
+12 raw ATAC runs (38,256,018,859 compressed bytes); full workflow resources are
+unbudgeted, not declared impossible. Original-domain coordinates remain an
+unresolved specific input. The bounded 19 November literature refresh and
+actual access/version limits are in the current literature context.
+
+S6A assessment/design/literature review is complete without revision; the
+coordinator authorized implementation and governed execution. The S6 document
+gate against `d0429d0`, 20,299 repository checks, 313 links and whitespace passed.
+Next: exact source map/code/artificial tests, registered input-bound contract,
+preflight and frozen local setup before execution. Four D180 track downloads
+and hashes are also authorized in a new ignored folder, with bounded transfers;
+D180 effects still require their own reviewed contract. No new numerical
+extension has run yet.
 
 The prior technical turn ended at an account usage limit; owner continuation
 after the 19 November 12:20 KST reset is recorded separately from the older
