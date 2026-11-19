@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s2_fig2i_audit_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which released clone distribution is actually drawn in Fig. 2i, and does the published display convention explain the reported two-sided P?",
+  "decision": "Resolve the Fig. 2i denominator and t-test discrepancy if supported by physical marks. Otherwise retain the discrepancy. S2 only.",
+  "strongest_rival": "Figure display clipping and different clone eligibility may account for the caption and P discrepancies. A visually close distribution cannot identify individual clone labels or establish the authors' t-test input.",
+  "discriminator": "Count independent two-dimensional glyphs by history, calibrate scores at actual axis ticks and compare sorted plotted versus released values and crossbars. Report all prespecified tests.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "analysis/research/runs/ng26_s0_keys_v1/receipt.json",
+    "analysis/research/contracts/Ng26-P01.s2_v1.json",
+    "analysis/research/runs/ng26_s2_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "After primary S2, all Fig. 2h-i release results and the difference between full and >=5 high fractions were known. Inspection found 123 vector circle paths in the Fig. 2i plot, axes labelled beyond +/-1.5, tick/crossbar geometry and P=0.038. Sorted point comparisons and clipped t-tests have not been computed.",
+  "biological_unit": "One plotted symbol per displayed clone statistic; release history-by-clone observations nest within six donor lines. Plot symbol counts do not increase the number of independent mice.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "4,815 scored memberships from 4,193 unique cells, 585 cells in multiple scored clones. Tokens can cross lines/histories. Verified six donors, one per line, no pairing. Reused data are not independent validation.",
+  "population_and_selection": "All four-cubic filled circle paths inside Fig. 2i on PDF page 4; compare against the full released and >=5-membership (history, clone) tables from the frozen S2 run. The y-axis explicitly clips the tails.",
+  "contrast": "Within-history rank-level calibration and crossbar differences, only when counts agree. Three descriptive Welch and equal-variance comparisons apply to raw, display-clipped and glyph-estimated values for the equal-size comparison.",
+  "endpoint": "Per-history glyph count and calibrated median crossbar; rank-level source and clipped scores, per-score discrepancies and conventional two-sided t-test readbacks.",
+  "methods": "Recover circle centers by vector geometry with PyMuPDF. Separate history by x position and calibrate y with the zero and +/-1 ticks. Compare sorted distributions (no per-clone identities in PDF), clip only the released values used for comparison with the display at +/-1.5. Report discrepancies on the score scale; absolute 0.015 is a prechosen graphics tolerance of <0.5 PDF pt. Compare P to three-decimal published precision, preserving all variants. Provenance of the author test still requires a test script or inputs.",
+  "missingness_and_exclusions": "No count matching by dropping extra points from a group. No extrapolation of out-of-range tail values from the graphical cap. Crossbar and rank matching do not assign clone identity.",
+  "multiplicity": "Graphical fidelity audit and two two-sided test conventions on three fixed inputs; no new biological hypothesis tests.",
+  "precision_status": "unknown",
+  "precision_basis": "PDF coordinates given in points. One unit of accessibility spans about 30 PDF pt; discrepancy tolerance 0.015 score is for graphics calibration only.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A reproduced printed P or matched distribution identifies a compatible convention, not the original executable or proof of an independent history effect.",
+  "stop_rule": "Stop on ambiguous geometry or calibration. Preserve unmatched quantiles or P; do not search additional thresholds, transforms or tests.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fos_clones.tsv",
+      "sha256": "63105c325fe7b3efc148657ec3318ad9923523bd1601ae8c6a30b5a4f34f3cdd",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/check_panel_i.py",
+      "sha256": "99021e4869357110c7624a82ea23935ea662d4d20a8a9ac130756346a1d80a4b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/check_panel_i.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "panel_counts.tsv",
+    "ranked_glyphs.tsv",
+    "panel_tests.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate exposed figure-discrepancy diagnostic. Retains the original S2 contract and run."
+}
