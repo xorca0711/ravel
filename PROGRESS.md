@@ -1,8 +1,8 @@
 # Current project state
 
-## 2026-11-19 — Nagaraja S0 source and unit qualification
+## 2026-11-19 — Nagaraja S1 recovery readback
 
-The [S0 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md) qualifies the 19 FOS/CD44 mouse records and all six organoid donor lines. Four scored clone names cross histories. Original tissue chromVAR scores and stem/progenitor labels remain unresolved; individual histology areas lack mouse keys. The first audit stopped on an export suffix and is archived. The amended audit and independent key reconciliation completed. Await stage review before freezing the proposed three-versus-three protein comparison. [Panel dispositions](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md)
+The [S1 figure and results](Research%20Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) give a mouse-weighted early-recovery FOS/CD44 difference of +16.42 percentage points (three mice per group), nine author-summary Fos motif deltas, and the released RNA injury-gene union. Of 260 injury-up genes, 19 still met the up threshold at recovery; 141 lacked adjusted P values and 15 were absent. The published 246-gene set, exact Fig. 1i fraction and extended chromatin curve remain unresolved. Both [S0 source qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md) and S1 are locally preserved. Await review before the proposed S2 organoid clone-dispersion replay.
 
 ## 2026-11-19 — Article package structure and Gate 4 thematic reading
 

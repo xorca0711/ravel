@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s1_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s1_v1.json",
+  "contract_sha256": "e94d0abb3c654e150be792946c7371373d8d598da88405f378022f7174c5e7af",
+  "git_commit": "6df7086234c4bf919d1d198592ce7164ec3a554a",
+  "started_at": "2026-11-19T12:55:08.230433+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s1/readback.py",
+    "analysis/research/runs/ng26_s1_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm7.xlsx",
+      "sha256": "fd568f90b67969ae2975e4460835affa3efd0eb7f79d40a0fc082f677e90484c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [
+        "Chronic injury replicate 1",
+        "Chronic injury replicate 2",
+        "Acute injury replicate 1",
+        "Acute injury replicate 2",
+        "Early recovery replicate 1",
+        "Control replicate 1",
+        "Early recovery replicate 2",
+        "Early recovery replicate 3",
+        "Control replicate 2",
+        "Control replicate 3",
+        "79d recovery replicate 1",
+        "79d recovery replicate 2",
+        "102d recovery replicate 1",
+        "102d recovery replicate 2",
+        "102d recovery replicate 3",
+        "102d recovery replicate 4",
+        "50d recovery replicate 1",
+        "50d recovery replicate 2",
+        "50d recovery replicate 3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm1.pdf",
+      "sha256": "afe7d0174e1d62447e3de99e700c17d473b4a3aa3d988b907c4ab955ce47ec4e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/01_diff_genes.R",
+      "sha256": "79d854fe34918ffe1339927aca9e5d7238d9f37e6851e74a3260d563217da549",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/02a_diff_motifs.R",
+      "sha256": "df7b958b8a45026370440e0ef574358c13cb48f1acdd70677eacd70e5c6e1845",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/readback.py",
+      "sha256": "8c3fbeb5a2a41c5f2bb284b65272c165166955183ddd0df1832f8aee62682008"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback.py",
+      "sha256": "c25eafdc8c8dd85591d24ff53687f92bd848693e81462ea61185d55aac247ccb"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_mice.tsv",
+      "sha256": "cc464d37c2d35efaa03b0c6faf110222598628495f0047e4ebb85c6837db9dc7"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_stages.tsv",
+      "sha256": "01586e592ed78bc0f5e1400e0dfe178dae169a0a0bda0a03d7cf533e1ce2f0b3"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_primary.tsv",
+      "sha256": "52a8270da4a0a41810f07ee4f83a3bc5620b5372b639cf48a1c8d3d851dde7fc"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_motif_by_state.tsv",
+      "sha256": "01163d29a88880b293d3cc7526e415cc4b3f3dd98f42a0e3d769e3fb7b303fad"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/rna_stages.tsv",
+      "sha256": "3958dc792fd20563b2380c0af3eb39b09979e5ac4c7edcf30dd63ac40ac2d751"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/rna_injury_union.tsv",
+      "sha256": "29abfb21ee65416f57448865e823a2eb82ce96877697c296632539d14010c092"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/rna_fig1f_markers.tsv",
+      "sha256": "5940ca997b30798a7110b47246b08bfd2f4c69cf5d96a6190a206fb02c56f7c4"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fig1_recovery.png",
+      "sha256": "c1eb0d6923eb97cf3dd31c61adf1b5ddd546ff96823532e8f21f7eaa57a4cad8"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fig1_recovery.pdf",
+      "sha256": "36b1d81fecdef4dbaed666bc6bd1bd8a60a68ebb21113fa8509de3ffa9c8fade"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T12:55:19.012086+00:00"
+}

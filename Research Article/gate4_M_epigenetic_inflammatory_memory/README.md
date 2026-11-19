@@ -16,6 +16,8 @@ Nagaraja connects prior colitis to clonal growth after tumour initiation. Naik c
 
 ## Existing Ravel analyses
 
+The [Nagaraja mouse-colon readback](../ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) compares FOS staining across mice and shows the deposited motif and RNA summaries separately. The early-recovery staining difference was +16.42 percentage points versus control, with three mice per group.
+
 The [Naik study](../ungated_naik_2017_inflammatory_memory/README.md) retains its original analysis directory. Its [24-month distal-region comparison](../ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) uses Cowley’s published Memory and Resolved classes. That comparison reuses source data and addresses chromatin accessibility. It does not measure the wound or tumour endpoints.
 
 The three entries record the initial reading selection on 19 November 2026. The [article index](../README.md#gate-4-topic-centered-reading) and [machine-readable roadmap](../ROADMAP.json) locate this topic alongside the existing reading branches.

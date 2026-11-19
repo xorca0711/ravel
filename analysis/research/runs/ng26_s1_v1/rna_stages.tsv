@@ -1,0 +1,4 @@
+stage	sheet_genes	sheet_finite_padj	sheet_up	sheet_down	injury_union	union_present	union_up	union_down	union_threshold_not_met	union_unavailable_padj	union_unavailable_lfc	union_absent	union_n_finite_lfc	union_median_log2FC
+Colitis_acute	13440	11876	67	51	260	252	67	0	180	5	0	8	252	-0.0426591580891052
+Colitis_chronic	13919	9601	198	36	260	250	198	0	42	10	0	10	250	1.3296443901272599
+Colitis_recovered	13682	3867	62	102	260	245	19	1	84	141	0	15	245	-0.131731352654711

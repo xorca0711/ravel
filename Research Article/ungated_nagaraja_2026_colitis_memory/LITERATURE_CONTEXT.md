@@ -13,6 +13,10 @@
 | Nanki found recurrent somatic mutations and clonal selection in human ulcerative colitis epithelium. [Primary paper](https://doi.org/10.1038/s41586-019-1844-5) | Genetic selection is a plausible alternative for persistent clone-associated features. The Nagaraja score and lineage barcode alone cannot identify the contribution of somatic genotype. |
 | Naik and Cowley examined epidermal inflammatory memory. Ravel's 24-month result is a difference in accessibility between **region classes in mouse epidermal pools**. [Naik](https://doi.org/10.1038/nature24271) · [Cowley](https://doi.org/10.1126/science.adz6830) · [Ravel estimate](../ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md) | Nagaraja changes the resolution at which persistence can be tested. A chromatin signal in a tissue pool leaves open how many cells carry it and whether related cells share it. |
 
+### What S1 recovered from Figure 1
+
+Nagaraja et al. already reported higher FOS staining at early recovery alongside a stem-cell motif shift and attenuation of the injury transcriptional response (Fig. 1d,e,g,k,l). The [S1 result](s1/RESULTS.md) measures the staining difference from those same mice (+16.42 percentage points) and reads the deposited stage and state summaries. The released Table 1 thresholds give a 260-gene injury union versus the published 246. The 14 exclusion identities and many recovery adjusted P values are unresolved. This shared-source readback supports the protein contrast and qualifies the RNA interpretation. [Primary paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC13083248/#Fig1)
+
 ### What can be recovered from the deposits
 
 The table below records the initial planning inspection. The completed [S0 audit](s0/CHECKPOINT.md) and [panel manifest](s0/PANEL_ELIGIBILITY.md) give the current eligibility decisions, including the six donor identities, clone-name overlaps, tissue lookup coverage and lesion-count discrepancies.
