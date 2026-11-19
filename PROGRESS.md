@@ -1,8 +1,16 @@
 # Current project state
 
-## 2026-11-19 — Naik paper overview and figure guide
+## 2026-11-19 — Naik mouse skin distal chromatin extension
 
-The [Naik overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) now opens with the epidermal-memory question and presents measured comparisons in biological order. The [figure guide](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) collects all 24 current figures with PDF exports. The [article index](Research%20Article/README.md#figure-galleries) links the completed synthesis and gallery.
+Under `Nk17-P01`, the [source scan](Research%20Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s Memory and Resolved coordinates and traced selection, accession reuse and eligible recovery pools. The [24-month comparison](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md) found a +0.117 fragment-CPM difference between the two class changes in two post-IMQ and two age-matched control pools. After balancing acute induction and width it was +0.121 CPM. With [day-6 accessibility ranks from all four original vehicle-control libraries](Research%20Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/RESULTS_V1.md), it was +0.116 CPM on shared support. The coordinator reviewed the source qualification, registered metadata verification, frozen designs, measured results and figure.
+
+The [paper overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) and [figure gallery](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) link the completed comparison. The original Naik coordinate universe, animal-level pairing, cell-state composition and individual-cell persistence remain unresolved. A genome-wide comparison based solely on acute peak selection would need a distinct question and comparator. The reviewed extension is published for review in [PR #185](https://github.com/xorca0711/ravel/pull/185) from `codex/naik-skin-distal`.
+
+The full-branch Git whitespace check flags 6,300 final tabs in the receipt-bound baseline interval table. Each tab delimits an empty final error field on a successfully read interval. The figure gallery and the five documentation edits pass their link and whitespace checks.
+
+## 2026-11-19 — Naik paper overview and figure gallery
+
+The [Naik overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) now opens with the epidermal-memory question and presents measured comparisons in biological order. The [figure gallery](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) collects all 24 current figures with PDF exports. The [article index](Research%20Article/README.md#figure-galleries) links the completed synthesis and gallery.
 
 The next decision for `Nk17-P01` is whether published distal-region definitions and biologically comparable recovery samples support a chromatin comparison. The overview specifies the literature and deposit checks before numerical work. The original domains, absolute ATAC scale and animal-to-library mapping remain unresolved.
 

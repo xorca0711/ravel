@@ -1,0 +1,54 @@
+{
+  "historical_commit": "b8156c4f466982c560d43133b8483060492f44d0",
+  "historical_artifact_checks": {
+    "selection_v1.json": {
+      "source_git_blob_sha256": "5c6c5bafca0dac14ca1c47d6aa6d1d880669d7e3bcd981546cc757edf41a4a38",
+      "output_sha256": "5c6c5bafca0dac14ca1c47d6aa6d1d880669d7e3bcd981546cc757edf41a4a38",
+      "identical": true
+    },
+    "regions.tsv": {
+      "source_git_blob_sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "output_sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "identical": true
+    },
+    "samples.tsv": {
+      "source_git_blob_sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "output_sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "identical": true
+    },
+    "region_qualification.json": {
+      "source_git_blob_sha256": "f534f077c64099ef59462f7b106ab914eb81ecaf6209c4a6629a84a89d77833b",
+      "output_sha256": "f534f077c64099ef59462f7b106ab914eb81ecaf6209c4a6629a84a89d77833b",
+      "identical": true
+    },
+    "source_receipts.json": {
+      "source_git_blob_sha256": "31c1021d3814df243c4dcb4c2d5956659399f13c26c2cd063a67543f974c7601",
+      "output_sha256": "31c1021d3814df243c4dcb4c2d5956659399f13c26c2cd063a67543f974c7601",
+      "identical": true
+    },
+    "track_structure.json": {
+      "source_git_blob_sha256": "9d4361f22c9962ec8bb41285453fb4b9fdb964bd59c6c4c771d25acc4f3e6e4b",
+      "output_sha256": "9d4361f22c9962ec8bb41285453fb4b9fdb964bd59c6c4c771d25acc4f3e6e4b",
+      "identical": true
+    }
+  },
+  "historical_report_sha256": "958d53f28b73cabfd025452b95d14182e41b0ad17588823aa466ca8b9ef4d8f8",
+  "source_region_count": 2801,
+  "primary_count": {
+    "Memory": 791,
+    "Resolved": 784
+  },
+  "off_region_probe_queries": 48,
+  "research_interval_queries": 0,
+  "technical_verification": "Exposed metadata reproduction, exact canonical Git bytes",
+  "host_python": "3.12.10",
+  "host_numpy": "2.5.1",
+  "host_openpyxl": "3.1.5",
+  "structural_reader": {
+    "python": "3.13.18",
+    "system": "Linux",
+    "machine": "aarch64",
+    "pybbi": "0.4.2",
+    "numpy": "2.5.5"
+  }
+}

@@ -1,0 +1,1858 @@
+{
+  "reader": {
+    "python": "3.13.18",
+    "system": "Linux",
+    "machine": "aarch64",
+    "pybbi": "0.4.2",
+    "numpy": "2.5.5"
+  },
+  "sparse_fixture": {
+    "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+    "chrom": "1",
+    "start0": 0,
+    "end0": 4,
+    "stored_bp": 3,
+    "absent_bp": 1,
+    "absent_returned_nan": true
+  },
+  "skipped_overlapping_probes": [],
+  "same_dictionary": true,
+  "tracks": {
+    "GSM9034861": {
+      "header": {
+        "version": 4,
+        "isCompressed": true,
+        "isSwapped": 0,
+        "primaryDataSize": 123474415,
+        "zoomLevels": 8,
+        "chromCount": 66,
+        "basesCovered": 3817419287,
+        "sum_chromosome_lengths": 2730871774
+      },
+      "zoom_reductions": [
+        33780,
+        135120,
+        540480,
+        2161920,
+        8647680,
+        34590720,
+        138362880,
+        553451520
+      ],
+      "chromosome_sizes": {
+        "chr1": 195471971,
+        "chr2": 182113224,
+        "chr3": 160039680,
+        "chr4": 156508116,
+        "chr5": 151834684,
+        "chr6": 149736546,
+        "chr7": 145441459,
+        "chr8": 129401213,
+        "chr9": 124595110,
+        "chr10": 130694993,
+        "chr11": 122082543,
+        "chr12": 120129022,
+        "chr13": 120421639,
+        "chr14": 124902244,
+        "chr15": 104043685,
+        "chr16": 98207768,
+        "chr17": 94987271,
+        "chr18": 90702639,
+        "chr19": 61431566,
+        "chrX": 171031299,
+        "chrY": 91744698,
+        "chrM": 16299,
+        "GL456210.1": 169725,
+        "GL456211.1": 241735,
+        "GL456212.1": 153618,
+        "GL456213.1": 39340,
+        "GL456216.1": 66673,
+        "GL456219.1": 175968,
+        "GL456221.1": 206961,
+        "GL456233.1": 336933,
+        "GL456239.1": 40056,
+        "GL456350.1": 227966,
+        "GL456354.1": 195993,
+        "GL456359.1": 22974,
+        "GL456360.1": 31704,
+        "GL456366.1": 47073,
+        "GL456367.1": 42057,
+        "GL456368.1": 20208,
+        "GL456370.1": 26764,
+        "GL456372.1": 28664,
+        "GL456378.1": 31602,
+        "GL456379.1": 72385,
+        "GL456381.1": 25871,
+        "GL456382.1": 23158,
+        "GL456383.1": 38659,
+        "GL456385.1": 35240,
+        "GL456387.1": 24685,
+        "GL456389.1": 28772,
+        "GL456390.1": 24668,
+        "GL456392.1": 23629,
+        "GL456393.1": 55711,
+        "GL456394.1": 24323,
+        "GL456396.1": 21240,
+        "JH584292.1": 14945,
+        "JH584293.1": 207968,
+        "JH584294.1": 191905,
+        "JH584295.1": 1976,
+        "JH584296.1": 199368,
+        "JH584297.1": 205776,
+        "JH584298.1": 184189,
+        "JH584299.1": 953012,
+        "JH584300.1": 182347,
+        "JH584301.1": 259875,
+        "JH584302.1": 155838,
+        "JH584303.1": 158099,
+        "JH584304.1": 114452
+      },
+      "unused_aliases_matching_accession_and_length": {
+        "GL456210.1": "chr1_GL456210_random",
+        "GL456211.1": "chr1_GL456211_random",
+        "GL456212.1": "chr1_GL456212_random",
+        "GL456213.1": "chr1_GL456213_random",
+        "GL456216.1": "chr4_GL456216_random",
+        "GL456219.1": "chr7_GL456219_random",
+        "GL456221.1": "chr1_GL456221_random",
+        "GL456233.1": "chrX_GL456233_random",
+        "GL456239.1": "chrUn_GL456239",
+        "GL456350.1": "chr4_GL456350_random",
+        "GL456354.1": "chr5_GL456354_random",
+        "GL456359.1": "chrUn_GL456359",
+        "GL456360.1": "chrUn_GL456360",
+        "GL456366.1": "chrUn_GL456366",
+        "GL456367.1": "chrUn_GL456367",
+        "GL456368.1": "chrUn_GL456368",
+        "GL456370.1": "chrUn_GL456370",
+        "GL456372.1": "chrUn_GL456372",
+        "GL456378.1": "chrUn_GL456378",
+        "GL456379.1": "chrUn_GL456379",
+        "GL456381.1": "chrUn_GL456381",
+        "GL456382.1": "chrUn_GL456382",
+        "GL456383.1": "chrUn_GL456383",
+        "GL456385.1": "chrUn_GL456385",
+        "GL456387.1": "chrUn_GL456387",
+        "GL456389.1": "chrUn_GL456389",
+        "GL456390.1": "chrUn_GL456390",
+        "GL456392.1": "chrUn_GL456392",
+        "GL456393.1": "chrUn_GL456393",
+        "GL456394.1": "chrUn_GL456394",
+        "GL456396.1": "chrUn_GL456396",
+        "JH584292.1": "chr4_JH584292_random",
+        "JH584293.1": "chr4_JH584293_random",
+        "JH584294.1": "chr4_JH584294_random",
+        "JH584295.1": "chr4_JH584295_random",
+        "JH584296.1": "chr5_JH584296_random",
+        "JH584297.1": "chr5_JH584297_random",
+        "JH584298.1": "chr5_JH584298_random",
+        "JH584299.1": "chr5_JH584299_random",
+        "JH584300.1": "chrY_JH584300_random",
+        "JH584301.1": "chrY_JH584301_random",
+        "JH584302.1": "chrY_JH584302_random",
+        "JH584303.1": "chrY_JH584303_random",
+        "JH584304.1": "chrUn_JH584304"
+      },
+      "dictionary_matches_ucsc": 22,
+      "nonmatching": {
+        "GL456210.1": [
+          169725,
+          null
+        ],
+        "GL456211.1": [
+          241735,
+          null
+        ],
+        "GL456212.1": [
+          153618,
+          null
+        ],
+        "GL456213.1": [
+          39340,
+          null
+        ],
+        "GL456216.1": [
+          66673,
+          null
+        ],
+        "GL456219.1": [
+          175968,
+          null
+        ],
+        "GL456221.1": [
+          206961,
+          null
+        ],
+        "GL456233.1": [
+          336933,
+          null
+        ],
+        "GL456239.1": [
+          40056,
+          null
+        ],
+        "GL456350.1": [
+          227966,
+          null
+        ],
+        "GL456354.1": [
+          195993,
+          null
+        ],
+        "GL456359.1": [
+          22974,
+          null
+        ],
+        "GL456360.1": [
+          31704,
+          null
+        ],
+        "GL456366.1": [
+          47073,
+          null
+        ],
+        "GL456367.1": [
+          42057,
+          null
+        ],
+        "GL456368.1": [
+          20208,
+          null
+        ],
+        "GL456370.1": [
+          26764,
+          null
+        ],
+        "GL456372.1": [
+          28664,
+          null
+        ],
+        "GL456378.1": [
+          31602,
+          null
+        ],
+        "GL456379.1": [
+          72385,
+          null
+        ],
+        "GL456381.1": [
+          25871,
+          null
+        ],
+        "GL456382.1": [
+          23158,
+          null
+        ],
+        "GL456383.1": [
+          38659,
+          null
+        ],
+        "GL456385.1": [
+          35240,
+          null
+        ],
+        "GL456387.1": [
+          24685,
+          null
+        ],
+        "GL456389.1": [
+          28772,
+          null
+        ],
+        "GL456390.1": [
+          24668,
+          null
+        ],
+        "GL456392.1": [
+          23629,
+          null
+        ],
+        "GL456393.1": [
+          55711,
+          null
+        ],
+        "GL456394.1": [
+          24323,
+          null
+        ],
+        "GL456396.1": [
+          21240,
+          null
+        ],
+        "JH584292.1": [
+          14945,
+          null
+        ],
+        "JH584293.1": [
+          207968,
+          null
+        ],
+        "JH584294.1": [
+          191905,
+          null
+        ],
+        "JH584295.1": [
+          1976,
+          null
+        ],
+        "JH584296.1": [
+          199368,
+          null
+        ],
+        "JH584297.1": [
+          205776,
+          null
+        ],
+        "JH584298.1": [
+          184189,
+          null
+        ],
+        "JH584299.1": [
+          953012,
+          null
+        ],
+        "JH584300.1": [
+          182347,
+          null
+        ],
+        "JH584301.1": [
+          259875,
+          null
+        ],
+        "JH584302.1": [
+          155838,
+          null
+        ],
+        "JH584303.1": [
+          158099,
+          null
+        ],
+        "JH584304.1": [
+          114452,
+          null
+        ]
+      },
+      "missing_reference_contigs": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "probes": [
+        {
+          "chrom": "chr1",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 6411,
+          "stored_nonzero_bp": 3589,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 8286,
+          "stored_nonzero_bp": 1714,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 8359,
+          "stored_nonzero_bp": 1641,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 5977,
+          "stored_nonzero_bp": 4023,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 5531,
+          "stored_nonzero_bp": 4469,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 6324,
+          "stored_nonzero_bp": 3676,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 8419,
+          "stored_nonzero_bp": 1581,
+          "absent_bp": 0
+        }
+      ]
+    },
+    "GSM9034862": {
+      "header": {
+        "version": 4,
+        "isCompressed": true,
+        "isSwapped": 0,
+        "primaryDataSize": 123839185,
+        "zoomLevels": 8,
+        "chromCount": 66,
+        "basesCovered": 3832501779,
+        "sum_chromosome_lengths": 2730871774
+      },
+      "zoom_reductions": [
+        33510,
+        134040,
+        536160,
+        2144640,
+        8578560,
+        34314240,
+        137256960,
+        549027840
+      ],
+      "chromosome_sizes": {
+        "chr1": 195471971,
+        "chr2": 182113224,
+        "chr3": 160039680,
+        "chr4": 156508116,
+        "chr5": 151834684,
+        "chr6": 149736546,
+        "chr7": 145441459,
+        "chr8": 129401213,
+        "chr9": 124595110,
+        "chr10": 130694993,
+        "chr11": 122082543,
+        "chr12": 120129022,
+        "chr13": 120421639,
+        "chr14": 124902244,
+        "chr15": 104043685,
+        "chr16": 98207768,
+        "chr17": 94987271,
+        "chr18": 90702639,
+        "chr19": 61431566,
+        "chrX": 171031299,
+        "chrY": 91744698,
+        "chrM": 16299,
+        "GL456210.1": 169725,
+        "GL456211.1": 241735,
+        "GL456212.1": 153618,
+        "GL456213.1": 39340,
+        "GL456216.1": 66673,
+        "GL456219.1": 175968,
+        "GL456221.1": 206961,
+        "GL456233.1": 336933,
+        "GL456239.1": 40056,
+        "GL456350.1": 227966,
+        "GL456354.1": 195993,
+        "GL456359.1": 22974,
+        "GL456360.1": 31704,
+        "GL456366.1": 47073,
+        "GL456367.1": 42057,
+        "GL456368.1": 20208,
+        "GL456370.1": 26764,
+        "GL456372.1": 28664,
+        "GL456378.1": 31602,
+        "GL456379.1": 72385,
+        "GL456381.1": 25871,
+        "GL456382.1": 23158,
+        "GL456383.1": 38659,
+        "GL456385.1": 35240,
+        "GL456387.1": 24685,
+        "GL456389.1": 28772,
+        "GL456390.1": 24668,
+        "GL456392.1": 23629,
+        "GL456393.1": 55711,
+        "GL456394.1": 24323,
+        "GL456396.1": 21240,
+        "JH584292.1": 14945,
+        "JH584293.1": 207968,
+        "JH584294.1": 191905,
+        "JH584295.1": 1976,
+        "JH584296.1": 199368,
+        "JH584297.1": 205776,
+        "JH584298.1": 184189,
+        "JH584299.1": 953012,
+        "JH584300.1": 182347,
+        "JH584301.1": 259875,
+        "JH584302.1": 155838,
+        "JH584303.1": 158099,
+        "JH584304.1": 114452
+      },
+      "unused_aliases_matching_accession_and_length": {
+        "GL456210.1": "chr1_GL456210_random",
+        "GL456211.1": "chr1_GL456211_random",
+        "GL456212.1": "chr1_GL456212_random",
+        "GL456213.1": "chr1_GL456213_random",
+        "GL456216.1": "chr4_GL456216_random",
+        "GL456219.1": "chr7_GL456219_random",
+        "GL456221.1": "chr1_GL456221_random",
+        "GL456233.1": "chrX_GL456233_random",
+        "GL456239.1": "chrUn_GL456239",
+        "GL456350.1": "chr4_GL456350_random",
+        "GL456354.1": "chr5_GL456354_random",
+        "GL456359.1": "chrUn_GL456359",
+        "GL456360.1": "chrUn_GL456360",
+        "GL456366.1": "chrUn_GL456366",
+        "GL456367.1": "chrUn_GL456367",
+        "GL456368.1": "chrUn_GL456368",
+        "GL456370.1": "chrUn_GL456370",
+        "GL456372.1": "chrUn_GL456372",
+        "GL456378.1": "chrUn_GL456378",
+        "GL456379.1": "chrUn_GL456379",
+        "GL456381.1": "chrUn_GL456381",
+        "GL456382.1": "chrUn_GL456382",
+        "GL456383.1": "chrUn_GL456383",
+        "GL456385.1": "chrUn_GL456385",
+        "GL456387.1": "chrUn_GL456387",
+        "GL456389.1": "chrUn_GL456389",
+        "GL456390.1": "chrUn_GL456390",
+        "GL456392.1": "chrUn_GL456392",
+        "GL456393.1": "chrUn_GL456393",
+        "GL456394.1": "chrUn_GL456394",
+        "GL456396.1": "chrUn_GL456396",
+        "JH584292.1": "chr4_JH584292_random",
+        "JH584293.1": "chr4_JH584293_random",
+        "JH584294.1": "chr4_JH584294_random",
+        "JH584295.1": "chr4_JH584295_random",
+        "JH584296.1": "chr5_JH584296_random",
+        "JH584297.1": "chr5_JH584297_random",
+        "JH584298.1": "chr5_JH584298_random",
+        "JH584299.1": "chr5_JH584299_random",
+        "JH584300.1": "chrY_JH584300_random",
+        "JH584301.1": "chrY_JH584301_random",
+        "JH584302.1": "chrY_JH584302_random",
+        "JH584303.1": "chrY_JH584303_random",
+        "JH584304.1": "chrUn_JH584304"
+      },
+      "dictionary_matches_ucsc": 22,
+      "nonmatching": {
+        "GL456210.1": [
+          169725,
+          null
+        ],
+        "GL456211.1": [
+          241735,
+          null
+        ],
+        "GL456212.1": [
+          153618,
+          null
+        ],
+        "GL456213.1": [
+          39340,
+          null
+        ],
+        "GL456216.1": [
+          66673,
+          null
+        ],
+        "GL456219.1": [
+          175968,
+          null
+        ],
+        "GL456221.1": [
+          206961,
+          null
+        ],
+        "GL456233.1": [
+          336933,
+          null
+        ],
+        "GL456239.1": [
+          40056,
+          null
+        ],
+        "GL456350.1": [
+          227966,
+          null
+        ],
+        "GL456354.1": [
+          195993,
+          null
+        ],
+        "GL456359.1": [
+          22974,
+          null
+        ],
+        "GL456360.1": [
+          31704,
+          null
+        ],
+        "GL456366.1": [
+          47073,
+          null
+        ],
+        "GL456367.1": [
+          42057,
+          null
+        ],
+        "GL456368.1": [
+          20208,
+          null
+        ],
+        "GL456370.1": [
+          26764,
+          null
+        ],
+        "GL456372.1": [
+          28664,
+          null
+        ],
+        "GL456378.1": [
+          31602,
+          null
+        ],
+        "GL456379.1": [
+          72385,
+          null
+        ],
+        "GL456381.1": [
+          25871,
+          null
+        ],
+        "GL456382.1": [
+          23158,
+          null
+        ],
+        "GL456383.1": [
+          38659,
+          null
+        ],
+        "GL456385.1": [
+          35240,
+          null
+        ],
+        "GL456387.1": [
+          24685,
+          null
+        ],
+        "GL456389.1": [
+          28772,
+          null
+        ],
+        "GL456390.1": [
+          24668,
+          null
+        ],
+        "GL456392.1": [
+          23629,
+          null
+        ],
+        "GL456393.1": [
+          55711,
+          null
+        ],
+        "GL456394.1": [
+          24323,
+          null
+        ],
+        "GL456396.1": [
+          21240,
+          null
+        ],
+        "JH584292.1": [
+          14945,
+          null
+        ],
+        "JH584293.1": [
+          207968,
+          null
+        ],
+        "JH584294.1": [
+          191905,
+          null
+        ],
+        "JH584295.1": [
+          1976,
+          null
+        ],
+        "JH584296.1": [
+          199368,
+          null
+        ],
+        "JH584297.1": [
+          205776,
+          null
+        ],
+        "JH584298.1": [
+          184189,
+          null
+        ],
+        "JH584299.1": [
+          953012,
+          null
+        ],
+        "JH584300.1": [
+          182347,
+          null
+        ],
+        "JH584301.1": [
+          259875,
+          null
+        ],
+        "JH584302.1": [
+          155838,
+          null
+        ],
+        "JH584303.1": [
+          158099,
+          null
+        ],
+        "JH584304.1": [
+          114452,
+          null
+        ]
+      },
+      "missing_reference_contigs": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "probes": [
+        {
+          "chrom": "chr1",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 5451,
+          "stored_nonzero_bp": 4549,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 6540,
+          "stored_nonzero_bp": 3460,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 7307,
+          "stored_nonzero_bp": 2693,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 5461,
+          "stored_nonzero_bp": 4539,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 4348,
+          "stored_nonzero_bp": 5652,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 6061,
+          "stored_nonzero_bp": 3939,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 8292,
+          "stored_nonzero_bp": 1708,
+          "absent_bp": 0
+        }
+      ]
+    },
+    "GSM9034863": {
+      "header": {
+        "version": 4,
+        "isCompressed": true,
+        "isSwapped": 0,
+        "primaryDataSize": 130546831,
+        "zoomLevels": 8,
+        "chromCount": 66,
+        "basesCovered": 3896633139,
+        "sum_chromosome_lengths": 2730871774
+      },
+      "zoom_reductions": [
+        31920,
+        127680,
+        510720,
+        2042880,
+        8171520,
+        32686080,
+        130744320,
+        522977280
+      ],
+      "chromosome_sizes": {
+        "chr1": 195471971,
+        "chr2": 182113224,
+        "chr3": 160039680,
+        "chr4": 156508116,
+        "chr5": 151834684,
+        "chr6": 149736546,
+        "chr7": 145441459,
+        "chr8": 129401213,
+        "chr9": 124595110,
+        "chr10": 130694993,
+        "chr11": 122082543,
+        "chr12": 120129022,
+        "chr13": 120421639,
+        "chr14": 124902244,
+        "chr15": 104043685,
+        "chr16": 98207768,
+        "chr17": 94987271,
+        "chr18": 90702639,
+        "chr19": 61431566,
+        "chrX": 171031299,
+        "chrY": 91744698,
+        "chrM": 16299,
+        "GL456210.1": 169725,
+        "GL456211.1": 241735,
+        "GL456212.1": 153618,
+        "GL456213.1": 39340,
+        "GL456216.1": 66673,
+        "GL456219.1": 175968,
+        "GL456221.1": 206961,
+        "GL456233.1": 336933,
+        "GL456239.1": 40056,
+        "GL456350.1": 227966,
+        "GL456354.1": 195993,
+        "GL456359.1": 22974,
+        "GL456360.1": 31704,
+        "GL456366.1": 47073,
+        "GL456367.1": 42057,
+        "GL456368.1": 20208,
+        "GL456370.1": 26764,
+        "GL456372.1": 28664,
+        "GL456378.1": 31602,
+        "GL456379.1": 72385,
+        "GL456381.1": 25871,
+        "GL456382.1": 23158,
+        "GL456383.1": 38659,
+        "GL456385.1": 35240,
+        "GL456387.1": 24685,
+        "GL456389.1": 28772,
+        "GL456390.1": 24668,
+        "GL456392.1": 23629,
+        "GL456393.1": 55711,
+        "GL456394.1": 24323,
+        "GL456396.1": 21240,
+        "JH584292.1": 14945,
+        "JH584293.1": 207968,
+        "JH584294.1": 191905,
+        "JH584295.1": 1976,
+        "JH584296.1": 199368,
+        "JH584297.1": 205776,
+        "JH584298.1": 184189,
+        "JH584299.1": 953012,
+        "JH584300.1": 182347,
+        "JH584301.1": 259875,
+        "JH584302.1": 155838,
+        "JH584303.1": 158099,
+        "JH584304.1": 114452
+      },
+      "unused_aliases_matching_accession_and_length": {
+        "GL456210.1": "chr1_GL456210_random",
+        "GL456211.1": "chr1_GL456211_random",
+        "GL456212.1": "chr1_GL456212_random",
+        "GL456213.1": "chr1_GL456213_random",
+        "GL456216.1": "chr4_GL456216_random",
+        "GL456219.1": "chr7_GL456219_random",
+        "GL456221.1": "chr1_GL456221_random",
+        "GL456233.1": "chrX_GL456233_random",
+        "GL456239.1": "chrUn_GL456239",
+        "GL456350.1": "chr4_GL456350_random",
+        "GL456354.1": "chr5_GL456354_random",
+        "GL456359.1": "chrUn_GL456359",
+        "GL456360.1": "chrUn_GL456360",
+        "GL456366.1": "chrUn_GL456366",
+        "GL456367.1": "chrUn_GL456367",
+        "GL456368.1": "chrUn_GL456368",
+        "GL456370.1": "chrUn_GL456370",
+        "GL456372.1": "chrUn_GL456372",
+        "GL456378.1": "chrUn_GL456378",
+        "GL456379.1": "chrUn_GL456379",
+        "GL456381.1": "chrUn_GL456381",
+        "GL456382.1": "chrUn_GL456382",
+        "GL456383.1": "chrUn_GL456383",
+        "GL456385.1": "chrUn_GL456385",
+        "GL456387.1": "chrUn_GL456387",
+        "GL456389.1": "chrUn_GL456389",
+        "GL456390.1": "chrUn_GL456390",
+        "GL456392.1": "chrUn_GL456392",
+        "GL456393.1": "chrUn_GL456393",
+        "GL456394.1": "chrUn_GL456394",
+        "GL456396.1": "chrUn_GL456396",
+        "JH584292.1": "chr4_JH584292_random",
+        "JH584293.1": "chr4_JH584293_random",
+        "JH584294.1": "chr4_JH584294_random",
+        "JH584295.1": "chr4_JH584295_random",
+        "JH584296.1": "chr5_JH584296_random",
+        "JH584297.1": "chr5_JH584297_random",
+        "JH584298.1": "chr5_JH584298_random",
+        "JH584299.1": "chr5_JH584299_random",
+        "JH584300.1": "chrY_JH584300_random",
+        "JH584301.1": "chrY_JH584301_random",
+        "JH584302.1": "chrY_JH584302_random",
+        "JH584303.1": "chrY_JH584303_random",
+        "JH584304.1": "chrUn_JH584304"
+      },
+      "dictionary_matches_ucsc": 22,
+      "nonmatching": {
+        "GL456210.1": [
+          169725,
+          null
+        ],
+        "GL456211.1": [
+          241735,
+          null
+        ],
+        "GL456212.1": [
+          153618,
+          null
+        ],
+        "GL456213.1": [
+          39340,
+          null
+        ],
+        "GL456216.1": [
+          66673,
+          null
+        ],
+        "GL456219.1": [
+          175968,
+          null
+        ],
+        "GL456221.1": [
+          206961,
+          null
+        ],
+        "GL456233.1": [
+          336933,
+          null
+        ],
+        "GL456239.1": [
+          40056,
+          null
+        ],
+        "GL456350.1": [
+          227966,
+          null
+        ],
+        "GL456354.1": [
+          195993,
+          null
+        ],
+        "GL456359.1": [
+          22974,
+          null
+        ],
+        "GL456360.1": [
+          31704,
+          null
+        ],
+        "GL456366.1": [
+          47073,
+          null
+        ],
+        "GL456367.1": [
+          42057,
+          null
+        ],
+        "GL456368.1": [
+          20208,
+          null
+        ],
+        "GL456370.1": [
+          26764,
+          null
+        ],
+        "GL456372.1": [
+          28664,
+          null
+        ],
+        "GL456378.1": [
+          31602,
+          null
+        ],
+        "GL456379.1": [
+          72385,
+          null
+        ],
+        "GL456381.1": [
+          25871,
+          null
+        ],
+        "GL456382.1": [
+          23158,
+          null
+        ],
+        "GL456383.1": [
+          38659,
+          null
+        ],
+        "GL456385.1": [
+          35240,
+          null
+        ],
+        "GL456387.1": [
+          24685,
+          null
+        ],
+        "GL456389.1": [
+          28772,
+          null
+        ],
+        "GL456390.1": [
+          24668,
+          null
+        ],
+        "GL456392.1": [
+          23629,
+          null
+        ],
+        "GL456393.1": [
+          55711,
+          null
+        ],
+        "GL456394.1": [
+          24323,
+          null
+        ],
+        "GL456396.1": [
+          21240,
+          null
+        ],
+        "JH584292.1": [
+          14945,
+          null
+        ],
+        "JH584293.1": [
+          207968,
+          null
+        ],
+        "JH584294.1": [
+          191905,
+          null
+        ],
+        "JH584295.1": [
+          1976,
+          null
+        ],
+        "JH584296.1": [
+          199368,
+          null
+        ],
+        "JH584297.1": [
+          205776,
+          null
+        ],
+        "JH584298.1": [
+          184189,
+          null
+        ],
+        "JH584299.1": [
+          953012,
+          null
+        ],
+        "JH584300.1": [
+          182347,
+          null
+        ],
+        "JH584301.1": [
+          259875,
+          null
+        ],
+        "JH584302.1": [
+          155838,
+          null
+        ],
+        "JH584303.1": [
+          158099,
+          null
+        ],
+        "JH584304.1": [
+          114452,
+          null
+        ]
+      },
+      "missing_reference_contigs": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "probes": [
+        {
+          "chrom": "chr1",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 6940,
+          "stored_nonzero_bp": 3060,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 7262,
+          "stored_nonzero_bp": 2738,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 7413,
+          "stored_nonzero_bp": 2587,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 7541,
+          "stored_nonzero_bp": 2459,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 6585,
+          "stored_nonzero_bp": 3415,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 7470,
+          "stored_nonzero_bp": 2530,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 8903,
+          "stored_nonzero_bp": 1097,
+          "absent_bp": 0
+        }
+      ]
+    },
+    "GSM9034864": {
+      "header": {
+        "version": 4,
+        "isCompressed": true,
+        "isSwapped": 0,
+        "primaryDataSize": 130815285,
+        "zoomLevels": 8,
+        "chromCount": 66,
+        "basesCovered": 3900932695,
+        "sum_chromosome_lengths": 2730871774
+      },
+      "zoom_reductions": [
+        31800,
+        127200,
+        508800,
+        2035200,
+        8140800,
+        32563200,
+        130252800,
+        521011200
+      ],
+      "chromosome_sizes": {
+        "chr1": 195471971,
+        "chr2": 182113224,
+        "chr3": 160039680,
+        "chr4": 156508116,
+        "chr5": 151834684,
+        "chr6": 149736546,
+        "chr7": 145441459,
+        "chr8": 129401213,
+        "chr9": 124595110,
+        "chr10": 130694993,
+        "chr11": 122082543,
+        "chr12": 120129022,
+        "chr13": 120421639,
+        "chr14": 124902244,
+        "chr15": 104043685,
+        "chr16": 98207768,
+        "chr17": 94987271,
+        "chr18": 90702639,
+        "chr19": 61431566,
+        "chrX": 171031299,
+        "chrY": 91744698,
+        "chrM": 16299,
+        "GL456210.1": 169725,
+        "GL456211.1": 241735,
+        "GL456212.1": 153618,
+        "GL456213.1": 39340,
+        "GL456216.1": 66673,
+        "GL456219.1": 175968,
+        "GL456221.1": 206961,
+        "GL456233.1": 336933,
+        "GL456239.1": 40056,
+        "GL456350.1": 227966,
+        "GL456354.1": 195993,
+        "GL456359.1": 22974,
+        "GL456360.1": 31704,
+        "GL456366.1": 47073,
+        "GL456367.1": 42057,
+        "GL456368.1": 20208,
+        "GL456370.1": 26764,
+        "GL456372.1": 28664,
+        "GL456378.1": 31602,
+        "GL456379.1": 72385,
+        "GL456381.1": 25871,
+        "GL456382.1": 23158,
+        "GL456383.1": 38659,
+        "GL456385.1": 35240,
+        "GL456387.1": 24685,
+        "GL456389.1": 28772,
+        "GL456390.1": 24668,
+        "GL456392.1": 23629,
+        "GL456393.1": 55711,
+        "GL456394.1": 24323,
+        "GL456396.1": 21240,
+        "JH584292.1": 14945,
+        "JH584293.1": 207968,
+        "JH584294.1": 191905,
+        "JH584295.1": 1976,
+        "JH584296.1": 199368,
+        "JH584297.1": 205776,
+        "JH584298.1": 184189,
+        "JH584299.1": 953012,
+        "JH584300.1": 182347,
+        "JH584301.1": 259875,
+        "JH584302.1": 155838,
+        "JH584303.1": 158099,
+        "JH584304.1": 114452
+      },
+      "unused_aliases_matching_accession_and_length": {
+        "GL456210.1": "chr1_GL456210_random",
+        "GL456211.1": "chr1_GL456211_random",
+        "GL456212.1": "chr1_GL456212_random",
+        "GL456213.1": "chr1_GL456213_random",
+        "GL456216.1": "chr4_GL456216_random",
+        "GL456219.1": "chr7_GL456219_random",
+        "GL456221.1": "chr1_GL456221_random",
+        "GL456233.1": "chrX_GL456233_random",
+        "GL456239.1": "chrUn_GL456239",
+        "GL456350.1": "chr4_GL456350_random",
+        "GL456354.1": "chr5_GL456354_random",
+        "GL456359.1": "chrUn_GL456359",
+        "GL456360.1": "chrUn_GL456360",
+        "GL456366.1": "chrUn_GL456366",
+        "GL456367.1": "chrUn_GL456367",
+        "GL456368.1": "chrUn_GL456368",
+        "GL456370.1": "chrUn_GL456370",
+        "GL456372.1": "chrUn_GL456372",
+        "GL456378.1": "chrUn_GL456378",
+        "GL456379.1": "chrUn_GL456379",
+        "GL456381.1": "chrUn_GL456381",
+        "GL456382.1": "chrUn_GL456382",
+        "GL456383.1": "chrUn_GL456383",
+        "GL456385.1": "chrUn_GL456385",
+        "GL456387.1": "chrUn_GL456387",
+        "GL456389.1": "chrUn_GL456389",
+        "GL456390.1": "chrUn_GL456390",
+        "GL456392.1": "chrUn_GL456392",
+        "GL456393.1": "chrUn_GL456393",
+        "GL456394.1": "chrUn_GL456394",
+        "GL456396.1": "chrUn_GL456396",
+        "JH584292.1": "chr4_JH584292_random",
+        "JH584293.1": "chr4_JH584293_random",
+        "JH584294.1": "chr4_JH584294_random",
+        "JH584295.1": "chr4_JH584295_random",
+        "JH584296.1": "chr5_JH584296_random",
+        "JH584297.1": "chr5_JH584297_random",
+        "JH584298.1": "chr5_JH584298_random",
+        "JH584299.1": "chr5_JH584299_random",
+        "JH584300.1": "chrY_JH584300_random",
+        "JH584301.1": "chrY_JH584301_random",
+        "JH584302.1": "chrY_JH584302_random",
+        "JH584303.1": "chrY_JH584303_random",
+        "JH584304.1": "chrUn_JH584304"
+      },
+      "dictionary_matches_ucsc": 22,
+      "nonmatching": {
+        "GL456210.1": [
+          169725,
+          null
+        ],
+        "GL456211.1": [
+          241735,
+          null
+        ],
+        "GL456212.1": [
+          153618,
+          null
+        ],
+        "GL456213.1": [
+          39340,
+          null
+        ],
+        "GL456216.1": [
+          66673,
+          null
+        ],
+        "GL456219.1": [
+          175968,
+          null
+        ],
+        "GL456221.1": [
+          206961,
+          null
+        ],
+        "GL456233.1": [
+          336933,
+          null
+        ],
+        "GL456239.1": [
+          40056,
+          null
+        ],
+        "GL456350.1": [
+          227966,
+          null
+        ],
+        "GL456354.1": [
+          195993,
+          null
+        ],
+        "GL456359.1": [
+          22974,
+          null
+        ],
+        "GL456360.1": [
+          31704,
+          null
+        ],
+        "GL456366.1": [
+          47073,
+          null
+        ],
+        "GL456367.1": [
+          42057,
+          null
+        ],
+        "GL456368.1": [
+          20208,
+          null
+        ],
+        "GL456370.1": [
+          26764,
+          null
+        ],
+        "GL456372.1": [
+          28664,
+          null
+        ],
+        "GL456378.1": [
+          31602,
+          null
+        ],
+        "GL456379.1": [
+          72385,
+          null
+        ],
+        "GL456381.1": [
+          25871,
+          null
+        ],
+        "GL456382.1": [
+          23158,
+          null
+        ],
+        "GL456383.1": [
+          38659,
+          null
+        ],
+        "GL456385.1": [
+          35240,
+          null
+        ],
+        "GL456387.1": [
+          24685,
+          null
+        ],
+        "GL456389.1": [
+          28772,
+          null
+        ],
+        "GL456390.1": [
+          24668,
+          null
+        ],
+        "GL456392.1": [
+          23629,
+          null
+        ],
+        "GL456393.1": [
+          55711,
+          null
+        ],
+        "GL456394.1": [
+          24323,
+          null
+        ],
+        "GL456396.1": [
+          21240,
+          null
+        ],
+        "JH584292.1": [
+          14945,
+          null
+        ],
+        "JH584293.1": [
+          207968,
+          null
+        ],
+        "JH584294.1": [
+          191905,
+          null
+        ],
+        "JH584295.1": [
+          1976,
+          null
+        ],
+        "JH584296.1": [
+          199368,
+          null
+        ],
+        "JH584297.1": [
+          205776,
+          null
+        ],
+        "JH584298.1": [
+          184189,
+          null
+        ],
+        "JH584299.1": [
+          953012,
+          null
+        ],
+        "JH584300.1": [
+          182347,
+          null
+        ],
+        "JH584301.1": [
+          259875,
+          null
+        ],
+        "JH584302.1": [
+          155838,
+          null
+        ],
+        "JH584303.1": [
+          158099,
+          null
+        ],
+        "JH584304.1": [
+          114452,
+          null
+        ]
+      },
+      "missing_reference_contigs": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "probes": [
+        {
+          "chrom": "chr1",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 6345,
+          "stored_nonzero_bp": 3655,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 6994,
+          "stored_nonzero_bp": 3006,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr1",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 7188,
+          "stored_nonzero_bp": 2812,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 6068,
+          "stored_nonzero_bp": 3932,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 5529,
+          "stored_nonzero_bp": 4471,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chr2",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 6933,
+          "stored_nonzero_bp": 3067,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 0,
+          "end0": 10000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 5000000,
+          "end0": 5010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 25000000,
+          "end0": 25010000,
+          "explicit_zero_bp": 10000,
+          "stored_nonzero_bp": 0,
+          "absent_bp": 0
+        },
+        {
+          "chrom": "chrX",
+          "start0": 50000000,
+          "end0": 50010000,
+          "explicit_zero_bp": 8246,
+          "stored_nonzero_bp": 1754,
+          "absent_bp": 0
+        }
+      ]
+    }
+  }
+}

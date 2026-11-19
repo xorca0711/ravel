@@ -1,0 +1,96 @@
+{
+  "libraries": {
+    "SRX2448172": {
+      "distinct": 1575,
+      "zero_regions": 0,
+      "largest_tie": 1,
+      "regions_in_ties": 0,
+      "mean_rpm_quantiles": [
+        0.00024529266299615644,
+        0.03563246730351506,
+        0.06462649644367424,
+        0.11476151078814992,
+        0.6899828406521166
+      ]
+    },
+    "SRX2448173": {
+      "distinct": 1570,
+      "zero_regions": 6,
+      "largest_tie": 6,
+      "regions_in_ties": 6,
+      "mean_rpm_quantiles": [
+        0.0,
+        0.021388106670830534,
+        0.039554256475024634,
+        0.07738825218359155,
+        0.7350464355087641
+      ]
+    },
+    "SRX10528425": {
+      "distinct": 1575,
+      "zero_regions": 1,
+      "largest_tie": 1,
+      "regions_in_ties": 0,
+      "mean_rpm_quantiles": [
+        0.0,
+        0.02177485558274306,
+        0.037252941322148826,
+        0.0753174846878632,
+        0.7076161738640319
+      ]
+    },
+    "SRX10528426": {
+      "distinct": 1575,
+      "zero_regions": 0,
+      "largest_tie": 1,
+      "regions_in_ties": 0,
+      "mean_rpm_quantiles": [
+        0.0025971994970436438,
+        0.018603552966229966,
+        0.03621827783131034,
+        0.07988605466827679,
+        0.7122537290508096
+      ]
+    }
+  },
+  "correlations": [
+    {
+      "first": "SRX2448172",
+      "second": "SRX2448173",
+      "spearman": 0.850086942604183,
+      "mean_absolute_rank_difference": 0.11434779541446208
+    },
+    {
+      "first": "SRX2448172",
+      "second": "SRX10528425",
+      "spearman": 0.8010689814145072,
+      "mean_absolute_rank_difference": 0.13389206349206348
+    },
+    {
+      "first": "SRX2448172",
+      "second": "SRX10528426",
+      "spearman": 0.8011907756542979,
+      "mean_absolute_rank_difference": 0.13502726127488035
+    },
+    {
+      "first": "SRX2448173",
+      "second": "SRX10528425",
+      "spearman": 0.8150962188994288,
+      "mean_absolute_rank_difference": 0.13108510959939532
+    },
+    {
+      "first": "SRX2448173",
+      "second": "SRX10528426",
+      "spearman": 0.8269350376531425,
+      "mean_absolute_rank_difference": 0.12566994205089443
+    },
+    {
+      "first": "SRX10528425",
+      "second": "SRX10528426",
+      "spearman": 0.9220568096690878,
+      "mean_absolute_rank_difference": 0.08241793902746285
+    }
+  ],
+  "consensus_distinct": 1373,
+  "status": "estimable"
+}

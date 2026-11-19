@@ -1,0 +1,61 @@
+# Can D6 control accessibility account for the M24 class difference?
+
+**Step 5 source qualification and frozen method for review.** A four-library diagnostic is feasible on the same 791 distal Memory and 784 distal Resolved intervals. ChIP-Atlas distributes one uniformly processed mm10 ATAC read-coverage BigWig for each original Cowley D6 control library. Within each library we can rank the same regions, then test how balancing the four-library mean rank changes the previously observed M24 comparison. Real regional coverage, rank variation, shared support and the resulting M24 contrast await the reviewed run. [Source fingerprints and frozen contract](../../../analysis/research/contracts/Nk17-P01.distal_m24_baseline_v1.json)
+
+## Source qualification on 19 November 2026
+
+GEO records specify six days of control Vanicream on mouse backskin. These are IMQ-naïve D6 vehicle controls sampled in vivo. The original Naik mm10 BigWigs remain cached (835,873,561 and 854,487,327 bytes), with unassigned deposited units. The new Larsen WT control supplements are ten-column MACS peak BEDs. A peak score or an uncalled interval cannot give full-width depth. Cowley Data S1 gives sequencing QC, S2 coordinates, S3–S5 differential summaries and S6 annotations. The notebook refers to a local four-control count object; its publicly inspected code and GEO series yielded no per-library D6 signal matrix. The published baseMean incorporates multiple conditions and times. [Naik source qualification](../S3Q_RESULTS_V1.md) · [Larsen GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171596) · [Cowley source audit and run-count joins](../DISTAL_SKIN_SOURCE_SCAN_20261119.md)
+
+| Cowley D6 control | Source pool | GEO / ENA run | ChIP-Atlas mm10 | Data S1 reads / archive read pairs |
+|---|---|---|---|---:|
+| Rep 1 | Naik 1 | GSM2441001 / SRR5133569 | [SRX2448172](https://chip-atlas.org/view?id=SRX2448172) | 80,997,768 / 40,498,884 |
+| Rep 2 | Naik 2 | GSM2441002 / SRR5133570 | [SRX2448173](https://chip-atlas.org/view?id=SRX2448173) | 85,592,384 / 42,796,192 |
+| Rep 3 | Larsen 1 | GSM5229061 / SRR14159909 | [SRX10528425](https://chip-atlas.org/view?id=SRX10528425) | 232,226,266 / 116,113,133 |
+| Rep 4 | Larsen 2 | GSM5229062 / SRR14159910 | [SRX10528426](https://chip-atlas.org/view?id=SRX10528426) | 203,511,512 / 101,755,756 |
+
+Each archive experiment page joins the GSM, treatment, assay, reported read count and mm10 BigWig URL. The complete four files total 2,183,951,239 bytes. Binary type, byte length, SHA-256 and the header chromosome dictionary were checked separately for each. All four agree with the qualified mm10 chr1–19/X lengths. The files are locally fingerprinted archive downloads. The archive describes deduplicated mapped-read depth in RPM. Its public production script exports positive-depth bedGraph with `genomecov -bg`, then passes that file directly to `bedGraphToBigWig`. The four headers report different sparse covered-base totals. Header sparsity alone cannot establish zero semantics. The processing documentation, direct conversion and experiment-to-file joins provide that evidence. The exact per-experiment command transcript is unavailable in the inspected material. [Producer methods](https://github.com/inutano/chip-atlas/wiki#2-primary-processing) · [Producer code, lines 305–314](https://github.com/shinyaoki/chipatlas/blob/9b6608f6340683f36e1f09c6ebedffa88836f950/sh/sraTailor.sh#L305-L314) · [bedtools depth encoding](https://bedtools.readthedocs.io/en/latest/content/tools/genomecov.html) · [ChIP-Atlas publication](https://doi.org/10.1093/nar/gkae358)
+
+## Frozen baseline and support rules
+
+1. Recheck the four immutable files and their dictionaries. On each interval use clipped primary records, a separate occupancy mask and an independent unbinned fetch with missing and out-of-bounds sentinels. On an in-bounds, declared chromosome, an uncovered position in this specific positive-depth export contributes zero **mapped-read depth** only when the native record mask and unbinned fetch agree on omission. Count implicit and explicitly stored zero bases separately. Sum over the entire interval width. An entirely unrecorded valid window has zero deposited depth. Ambiguous encoding, material evidence of extra masking, invalid coordinates or records, overlapping records, negative/nonfinite stored values, read errors and disagreement require a hold. Save all obtainable library diagnostics. This encoding applies only to the four named archive files.
+2. Within each D6 library rank the 1,575 full-width means across both classes together, using centered percentile midranks `(average one-based rank − 0.5)/1,575`. Equal finite means, including zeros, share their exact average rank. Retain each library's raw mean, rank, zero/tie counts, largest tie, signal quantiles, and the six pairwise Spearman correlations and mean absolute rank differences. Average all four ranks equally. Sum the integer rank numerators before dividing, so equal consensus values cannot diverge through summation order. A constant library or consensus holds the endpoint. Disagreement across nonconstant libraries remains visible.
+3. Reuse the original 16 induction-by-width cells and weights. Add one pooled consensus-rank quartile axis with type-7 cuts and ties assigned to the higher bin. Report all 64 cells, both class counts and the smaller count in each. Give each class the same cell mass proportional to that smaller count, distributed equally across its members. A cell missing a class has zero mass. Preserve all 1,575 rows. Hold the outcome if fewer than two baseline bins carry shared mass. Report the retained region counts, original mass retained, regional Kish effective sizes, largest weight, change in the distribution of weights, and original strata still represented. Compare class mean differences for induction, width, each control rank and consensus under unweighted, original, restricted and new weights. Use one pooled full-cohort within-class SD per covariate; a zero SD leaves the standardized difference undefined. Thin support or residual imbalance limits interpretation even when arithmetic is feasible.
+4. Reuse the 6,300 saved M24 full-width fragment-CPM values after the baseline checks. For each class compute post-IMQ minus naïve using the two pool summaries per history, then subtract the Resolved change from the Memory change. Retain the four pools and four cross-pool comparisons for each weighting. First reproduce the frozen D6/width result. On the newly supported regions renormalize the original weights within each class to isolate the contribution of support restriction. Apply the new three-way weights on that same support to isolate redistribution. These two signed differences sum to the total change from the old target. Report attenuation, persistence, reversal or limited support as observed. No post-result alternative binning, cohort, track choice or equivalence threshold is specified. [Step 4 results](../distal_m24_outcome_v1/RESULTS_V1.md) · [Frozen implementation](baseline.py)
+
+## Exposure and interpretation
+
+Cowley Fig. 1 showed the late trajectories. Class membership, D6 covariates and the M12 contribution to ascertainment are known. Step 4 at `cb55c05` exposed all M24 interval values and gap changes of +0.116973 (full mean), +0.073155 (median) and +0.121493 fragment CPM (D6/width-weighted mean). This sensitivity asks whether the contrast persists among regions comparable on the four observed D6 control rankings. It can change because the supported regions or their weights change. Control ranks measure relative deposited signal under a common archive processing method. The D6 arms belong to the original experiments and contributed to discovery. They do not supply paired baselines for M24 mice. Pooling, sorted-cell composition, residual within-bin differences and unknown animal membership limit any maintenance or repair interpretation. [Cowley Fig. 1 and Methods](https://doi.org/10.1126/science.adz6830)
+
+Seven synthetic tests passed in the pinned reader runtime. A sparse software fixture distinguishes stored bases from zero-depth omissions. Constructed ties, constant or opposed rank profiles, one-sided strata, source failure and stale M24 joins exercise the holds. With constructed data the old, restricted and new gap changes were −7.75, −3.50 and −2.00 CPM. A separate four-copy artificial track fixture exercised 6,300 control-window reads and the full calculation, then stopped before ranking when a source was damaged. No real baseline window has been queried or new M24 change computed. [Synthetic tests](test_baseline.py)
+
+## Restore the source manifest in a clean checkout
+
+The four experiment pages above document the accession joins. Each direct mm10 file and its SHA-256 appear below. The local source manifest also binds byte counts and chromosome dictionaries. The contract uses an identical copy in the source cache. The first packaging candidate stored it beside this document. The scientific method, code, test fixtures and four input hashes are identical across the packaging correction.
+
+| Direct archive file | SHA-256 of complete bytes |
+|---|---|
+| [SRX2448172.bw](https://chip-atlas.dbcls.jp/data/mm10/eachData/bw/SRX2448172.bw) | `4f24659224691264f30ebcca8ebf0f6d23ffbf99aab8af5c3181f71ffb5e0dec` |
+| [SRX2448173.bw](https://chip-atlas.dbcls.jp/data/mm10/eachData/bw/SRX2448173.bw) | `faf243c64b31670cf4d173db0cf9a8887b36d48e721ea46eaf76b6e222a45e2a` |
+| [SRX10528425.bw](https://chip-atlas.dbcls.jp/data/mm10/eachData/bw/SRX10528425.bw) | `54547144af4efa666a4ae809b8945d71e4c841c6497fe04c682752b7c4d30dc2` |
+| [SRX10528426.bw](https://chip-atlas.dbcls.jp/data/mm10/eachData/bw/SRX10528426.bw) | `8fabcd81416260d6ebd28b7807350697afd7764d49c7ff90fd21e0b0bc39f505` |
+
+The immutable source is commit `fee8ab7f87bc4f81e295631753a64c078ddff186`, path `Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/SOURCES_V1.json`, Git blob `dd64511d55e06f5d77ec4020f3338d0cf43e0664`, SHA-256 `970f1130a8b1f17ac98e090582af1a672d780aa6b44c8b1580ce4c694884c13e`. Preserve this ancestor when transferring the branch, or transfer the exact bound manifest with the four source files. From the repository root, the following Python restores the original bytes without text conversion and checks any existing copy.
+
+```python
+import hashlib
+import subprocess
+from pathlib import Path
+
+commit = "fee8ab7f87bc4f81e295631753a64c078ddff186"
+source = "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/SOURCES_V1.json"
+blob = subprocess.check_output(["git", "rev-parse", f"{commit}:{source}"], text=True).strip()
+assert blob == "dd64511d55e06f5d77ec4020f3338d0cf43e0664"
+data = subprocess.check_output(["git", "cat-file", "blob", blob])
+assert hashlib.sha256(data).hexdigest() == "970f1130a8b1f17ac98e090582af1a672d780aa6b44c8b1580ce4c694884c13e"
+out = Path("raw_data/naik_distal_baseline_chipatlas_20261119/SOURCES_V1.json")
+out.parent.mkdir(parents=True, exist_ok=True)
+if not out.exists():
+    with out.open("xb") as stream:
+        stream.write(data)
+assert out.read_bytes() == data
+```

@@ -1,0 +1,1101 @@
+{
+  "cutpoints": [
+    0.2706349206349207,
+    0.483968253968254,
+    0.7255555555555555
+  ],
+  "strata": [
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "baseline_bin": 1,
+      "Memory": 0,
+      "Resolved": 6,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "baseline_bin": 2,
+      "Memory": 1,
+      "Resolved": 19,
+      "overlap": 1,
+      "new_mass": 0.002531645569620253
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "baseline_bin": 3,
+      "Memory": 7,
+      "Resolved": 32,
+      "overlap": 7,
+      "new_mass": 0.017721518987341773
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "baseline_bin": 4,
+      "Memory": 8,
+      "Resolved": 31,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "baseline_bin": 1,
+      "Memory": 0,
+      "Resolved": 8,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "baseline_bin": 2,
+      "Memory": 2,
+      "Resolved": 18,
+      "overlap": 2,
+      "new_mass": 0.005063291139240506
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "baseline_bin": 3,
+      "Memory": 3,
+      "Resolved": 17,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "baseline_bin": 4,
+      "Memory": 13,
+      "Resolved": 28,
+      "overlap": 13,
+      "new_mass": 0.03291139240506329
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "baseline_bin": 1,
+      "Memory": 0,
+      "Resolved": 9,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "baseline_bin": 2,
+      "Memory": 3,
+      "Resolved": 14,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "baseline_bin": 3,
+      "Memory": 2,
+      "Resolved": 17,
+      "overlap": 2,
+      "new_mass": 0.005063291139240506
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "baseline_bin": 4,
+      "Memory": 11,
+      "Resolved": 32,
+      "overlap": 11,
+      "new_mass": 0.027848101265822784
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "baseline_bin": 1,
+      "Memory": 0,
+      "Resolved": 4,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "baseline_bin": 2,
+      "Memory": 8,
+      "Resolved": 7,
+      "overlap": 7,
+      "new_mass": 0.017721518987341773
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "baseline_bin": 3,
+      "Memory": 5,
+      "Resolved": 13,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "baseline_bin": 4,
+      "Memory": 22,
+      "Resolved": 54,
+      "overlap": 22,
+      "new_mass": 0.05569620253164557
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "baseline_bin": 1,
+      "Memory": 2,
+      "Resolved": 17,
+      "overlap": 2,
+      "new_mass": 0.005063291139240506
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "baseline_bin": 2,
+      "Memory": 3,
+      "Resolved": 31,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "baseline_bin": 3,
+      "Memory": 11,
+      "Resolved": 15,
+      "overlap": 11,
+      "new_mass": 0.027848101265822784
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "baseline_bin": 4,
+      "Memory": 9,
+      "Resolved": 15,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "baseline_bin": 1,
+      "Memory": 5,
+      "Resolved": 21,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "baseline_bin": 2,
+      "Memory": 4,
+      "Resolved": 20,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "baseline_bin": 3,
+      "Memory": 8,
+      "Resolved": 13,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "baseline_bin": 4,
+      "Memory": 12,
+      "Resolved": 8,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "baseline_bin": 1,
+      "Memory": 2,
+      "Resolved": 16,
+      "overlap": 2,
+      "new_mass": 0.005063291139240506
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "baseline_bin": 2,
+      "Memory": 9,
+      "Resolved": 13,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "baseline_bin": 3,
+      "Memory": 17,
+      "Resolved": 21,
+      "overlap": 17,
+      "new_mass": 0.043037974683544304
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "baseline_bin": 4,
+      "Memory": 26,
+      "Resolved": 9,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "baseline_bin": 1,
+      "Memory": 3,
+      "Resolved": 5,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "baseline_bin": 2,
+      "Memory": 4,
+      "Resolved": 7,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "baseline_bin": 3,
+      "Memory": 18,
+      "Resolved": 9,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "baseline_bin": 4,
+      "Memory": 35,
+      "Resolved": 5,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "baseline_bin": 1,
+      "Memory": 9,
+      "Resolved": 17,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "baseline_bin": 2,
+      "Memory": 18,
+      "Resolved": 18,
+      "overlap": 18,
+      "new_mass": 0.04556962025316456
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "baseline_bin": 3,
+      "Memory": 15,
+      "Resolved": 10,
+      "overlap": 10,
+      "new_mass": 0.02531645569620253
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "baseline_bin": 4,
+      "Memory": 11,
+      "Resolved": 3,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "baseline_bin": 1,
+      "Memory": 4,
+      "Resolved": 26,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "baseline_bin": 2,
+      "Memory": 14,
+      "Resolved": 14,
+      "overlap": 14,
+      "new_mass": 0.035443037974683546
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "baseline_bin": 3,
+      "Memory": 21,
+      "Resolved": 9,
+      "overlap": 9,
+      "new_mass": 0.02278481012658228
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "baseline_bin": 4,
+      "Memory": 13,
+      "Resolved": 3,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "baseline_bin": 1,
+      "Memory": 8,
+      "Resolved": 21,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "baseline_bin": 2,
+      "Memory": 12,
+      "Resolved": 8,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "baseline_bin": 3,
+      "Memory": 23,
+      "Resolved": 3,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "baseline_bin": 4,
+      "Memory": 15,
+      "Resolved": 2,
+      "overlap": 2,
+      "new_mass": 0.005063291139240506
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "baseline_bin": 1,
+      "Memory": 10,
+      "Resolved": 4,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "baseline_bin": 2,
+      "Memory": 13,
+      "Resolved": 4,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "baseline_bin": 3,
+      "Memory": 39,
+      "Resolved": 8,
+      "overlap": 8,
+      "new_mass": 0.020253164556962026
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "baseline_bin": 4,
+      "Memory": 16,
+      "Resolved": 3,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "baseline_bin": 1,
+      "Memory": 24,
+      "Resolved": 28,
+      "overlap": 24,
+      "new_mass": 0.060759493670886074
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "baseline_bin": 2,
+      "Memory": 19,
+      "Resolved": 5,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "baseline_bin": 3,
+      "Memory": 7,
+      "Resolved": 1,
+      "overlap": 1,
+      "new_mass": 0.002531645569620253
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "baseline_bin": 4,
+      "Memory": 1,
+      "Resolved": 0,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "baseline_bin": 1,
+      "Memory": 29,
+      "Resolved": 25,
+      "overlap": 25,
+      "new_mass": 0.06329113924050633
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "baseline_bin": 2,
+      "Memory": 32,
+      "Resolved": 10,
+      "overlap": 10,
+      "new_mass": 0.02531645569620253
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "baseline_bin": 3,
+      "Memory": 13,
+      "Resolved": 0,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "baseline_bin": 4,
+      "Memory": 1,
+      "Resolved": 0,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "baseline_bin": 1,
+      "Memory": 33,
+      "Resolved": 10,
+      "overlap": 10,
+      "new_mass": 0.02531645569620253
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "baseline_bin": 2,
+      "Memory": 34,
+      "Resolved": 3,
+      "overlap": 3,
+      "new_mass": 0.007594936708860759
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "baseline_bin": 3,
+      "Memory": 13,
+      "Resolved": 4,
+      "overlap": 4,
+      "new_mass": 0.010126582278481013
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "baseline_bin": 4,
+      "Memory": 3,
+      "Resolved": 0,
+      "overlap": 0,
+      "new_mass": 0.0
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "baseline_bin": 1,
+      "Memory": 43,
+      "Resolved": 5,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "baseline_bin": 2,
+      "Memory": 25,
+      "Resolved": 1,
+      "overlap": 1,
+      "new_mass": 0.002531645569620253
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "baseline_bin": 3,
+      "Memory": 15,
+      "Resolved": 5,
+      "overlap": 5,
+      "new_mass": 0.012658227848101266
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "baseline_bin": 4,
+      "Memory": 5,
+      "Resolved": 0,
+      "overlap": 0,
+      "new_mass": 0.0
+    }
+  ],
+  "overlap_units": 395,
+  "classes": {
+    "Memory": {
+      "full": 791,
+      "retained": 768,
+      "old_mass_retained": 0.9820054204022913,
+      "old_to_new_total_variation": 0.21030436519287837,
+      "weight_diagnostics": {
+        "D6_width": {
+          "maximum": 0.0021321961620469083,
+          "regional_ESS": 597.4692169190771
+        },
+        "D6_width_on_retained_regions": {
+          "maximum": 0.0021712672025511084,
+          "regional_ESS": 582.0052417791484
+        },
+        "D6_width_baseline": {
+          "maximum": 0.002531645569620253,
+          "regional_ESS": 508.5608484402204
+        }
+      }
+    },
+    "Resolved": {
+      "full": 784,
+      "retained": 757,
+      "old_mass_retained": 0.9852581025589224,
+      "old_to_new_total_variation": 0.1869852283333743,
+      "weight_diagnostics": {
+        "D6_width": {
+          "maximum": 0.0021321961620469083,
+          "regional_ESS": 588.5492630579386
+        },
+        "D6_width_on_retained_regions": {
+          "maximum": 0.00216409908886732,
+          "regional_ESS": 574.3401912121105
+        },
+        "D6_width_baseline": {
+          "maximum": 0.002531645569620253,
+          "regional_ESS": 526.729696429671
+        }
+      }
+    }
+  },
+  "balance": [
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "unweighted",
+      "Memory": 2.5578151066738304,
+      "Resolved": 1.6839883693584186,
+      "difference": 0.8738267373154118,
+      "full_pooled_sd": 0.9836892191197872,
+      "standardized": 0.8883158627044004
+    },
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "D6_width",
+      "Memory": 2.1834922622583104,
+      "Resolved": 2.091655106910533,
+      "difference": 0.09183715534777726,
+      "full_pooled_sd": 0.9836892191197872,
+      "standardized": 0.09335992868759287
+    },
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 2.1637418598852913,
+      "Resolved": 2.1078160608066114,
+      "difference": 0.055925799078679894,
+      "full_pooled_sd": 0.9836892191197872,
+      "standardized": 0.056853117825894986
+    },
+    {
+      "covariate": "s3_D6_log2FoldChange",
+      "method": "D6_width_baseline",
+      "Memory": 2.2148014750717846,
+      "Resolved": 2.075149984345853,
+      "difference": 0.13965149072593164,
+      "full_pooled_sd": 0.9836892191197872,
+      "standardized": 0.1419670847372841
+    },
+    {
+      "covariate": "width_bp",
+      "method": "unweighted",
+      "Memory": 750.9077117572692,
+      "Resolved": 622.4515306122449,
+      "difference": 128.4561811450243,
+      "full_pooled_sd": 302.77488067356626,
+      "standardized": 0.4242630064266066
+    },
+    {
+      "covariate": "width_bp",
+      "method": "D6_width",
+      "Memory": 665.1392082320131,
+      "Resolved": 649.5279522812293,
+      "difference": 15.611255950783743,
+      "full_pooled_sd": 302.77488067356626,
+      "standardized": 0.05156060475048082
+    },
+    {
+      "covariate": "width_bp",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 666.8416520687551,
+      "Resolved": 648.663420914426,
+      "difference": 18.178231154329183,
+      "full_pooled_sd": 302.77488067356626,
+      "standardized": 0.06003876911416526
+    },
+    {
+      "covariate": "width_bp",
+      "method": "D6_width_baseline",
+      "Memory": 667.4806871921213,
+      "Resolved": 651.9158192164929,
+      "difference": 15.564867975628431,
+      "full_pooled_sd": 302.77488067356626,
+      "standardized": 0.05140739529317011
+    },
+    {
+      "covariate": "SRX2448172",
+      "method": "unweighted",
+      "Memory": 0.5229141332049044,
+      "Resolved": 0.4768812763200518,
+      "difference": 0.046032856884852646,
+      "full_pooled_sd": 0.2879389436779964,
+      "standardized": 0.1598702012893797
+    },
+    {
+      "covariate": "SRX2448172",
+      "method": "D6_width",
+      "Memory": 0.5650527045447139,
+      "Resolved": 0.4228154153556034,
+      "difference": 0.1422372891891105,
+      "full_pooled_sd": 0.2879389436779964,
+      "standardized": 0.49398420155411554
+    },
+    {
+      "covariate": "SRX2448172",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 0.5623239775218525,
+      "Resolved": 0.4262135998551618,
+      "difference": 0.1361103776666907,
+      "full_pooled_sd": 0.2879389436779964,
+      "standardized": 0.47270569214459457
+    },
+    {
+      "covariate": "SRX2448172",
+      "method": "D6_width_baseline",
+      "Memory": 0.49870126551843297,
+      "Resolved": 0.4997935320179465,
+      "difference": -0.00109226649951355,
+      "full_pooled_sd": 0.2879389436779964,
+      "standardized": -0.003793396216438987
+    },
+    {
+      "covariate": "SRX2448173",
+      "method": "unweighted",
+      "Memory": 0.49762566973692124,
+      "Resolved": 0.5023955296404277,
+      "difference": -0.004769859903506424,
+      "full_pooled_sd": 0.2888486711986258,
+      "standardized": -0.01651335241984356
+    },
+    {
+      "covariate": "SRX2448173",
+      "method": "D6_width",
+      "Memory": 0.5481684843558181,
+      "Resolved": 0.4366817202351073,
+      "difference": 0.11148676412071079,
+      "full_pooled_sd": 0.2888486711986258,
+      "standardized": 0.38596945472547217
+    },
+    {
+      "covariate": "SRX2448173",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 0.5466782251811192,
+      "Resolved": 0.43989620703396254,
+      "difference": 0.10678201814715665,
+      "full_pooled_sd": 0.2888486711986258,
+      "standardized": 0.36968152806120536
+    },
+    {
+      "covariate": "SRX2448173",
+      "method": "D6_width_baseline",
+      "Memory": 0.4876536904188799,
+      "Resolved": 0.5111182109879511,
+      "difference": -0.023464520569071168,
+      "full_pooled_sd": 0.2888486711986258,
+      "standardized": -0.08123464951976833
+    },
+    {
+      "covariate": "SRX10528425",
+      "method": "unweighted",
+      "Memory": 0.527332089177854,
+      "Resolved": 0.47242387431162935,
+      "difference": 0.05490821486622466,
+      "full_pooled_sd": 0.2875492704023295,
+      "standardized": 0.19095237066468254
+    },
+    {
+      "covariate": "SRX10528425",
+      "method": "D6_width",
+      "Memory": 0.5909098278949816,
+      "Resolved": 0.3909491865077316,
+      "difference": 0.19996064138725,
+      "full_pooled_sd": 0.2875492704023295,
+      "standardized": 0.6953961006664062
+    },
+    {
+      "covariate": "SRX10528425",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 0.5912021907000152,
+      "Resolved": 0.3942350899868448,
+      "difference": 0.19696710071317042,
+      "full_pooled_sd": 0.2875492704023295,
+      "standardized": 0.6849855693863542
+    },
+    {
+      "covariate": "SRX10528425",
+      "method": "D6_width_baseline",
+      "Memory": 0.5258152427738025,
+      "Resolved": 0.46882762782653775,
+      "difference": 0.056987614947264786,
+      "full_pooled_sd": 0.2875492704023295,
+      "standardized": 0.19818382730559386
+    },
+    {
+      "covariate": "SRX10528426",
+      "method": "unweighted",
+      "Memory": 0.5058362932193526,
+      "Resolved": 0.4941115970197603,
+      "difference": 0.011724696199592322,
+      "full_pooled_sd": 0.28879896849978653,
+      "standardized": 0.04059812353381376
+    },
+    {
+      "covariate": "SRX10528426",
+      "method": "D6_width",
+      "Memory": 0.569937887521677,
+      "Resolved": 0.4097924616776546,
+      "difference": 0.16014542584402236,
+      "full_pooled_sd": 0.28879896849978653,
+      "standardized": 0.5545221531639256
+    },
+    {
+      "covariate": "SRX10528426",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 0.5695438835912804,
+      "Resolved": 0.41262098724712143,
+      "difference": 0.15692289634415896,
+      "full_pooled_sd": 0.28879896849978653,
+      "standardized": 0.5433637701662184
+    },
+    {
+      "covariate": "SRX10528426",
+      "method": "D6_width_baseline",
+      "Memory": 0.5068341826358718,
+      "Resolved": 0.4839184636452425,
+      "difference": 0.022915718990629275,
+      "full_pooled_sd": 0.28879896849978653,
+      "standardized": 0.07934834085339267
+    },
+    {
+      "covariate": "baseline_consensus",
+      "method": "unweighted",
+      "Memory": 0.5134270463347581,
+      "Resolved": 0.4864530693229673,
+      "difference": 0.02697397701179083,
+      "full_pooled_sd": 0.2701825921755814,
+      "standardized": 0.0998361026688998
+    },
+    {
+      "covariate": "baseline_consensus",
+      "method": "D6_width",
+      "Memory": 0.5685172260792977,
+      "Resolved": 0.4150596959440242,
+      "difference": 0.15345753013527347,
+      "full_pooled_sd": 0.2701825921755814,
+      "standardized": 0.5679771183613016
+    },
+    {
+      "covariate": "baseline_consensus",
+      "method": "D6_width_on_retained_regions",
+      "Memory": 0.5674370692485667,
+      "Resolved": 0.41824147103077264,
+      "difference": 0.1491955982177941,
+      "full_pooled_sd": 0.2701825921755814,
+      "standardized": 0.5522028529537446
+    },
+    {
+      "covariate": "baseline_consensus",
+      "method": "D6_width_baseline",
+      "Memory": 0.5047510953367468,
+      "Resolved": 0.49091445861941946,
+      "difference": 0.013836636717327322,
+      "full_pooled_sd": 0.2701825921755814,
+      "standardized": 0.05121216954027674
+    }
+  ],
+  "original_strata": [
+    {
+      "D6_bin": 1,
+      "width_bin": 1,
+      "prior_mass": {
+        "Memory": 0.03411513859275053,
+        "Resolved": 0.03411513859275053
+      },
+      "prior_mass_retained": {
+        "Memory": 0.03411513859275053,
+        "Resolved": 0.03178910641597209
+      },
+      "new_mass": 0.04050632911392405
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 2,
+      "prior_mass": {
+        "Memory": 0.038379530916844345,
+        "Resolved": 0.038379530916844366
+      },
+      "prior_mass_retained": {
+        "Memory": 0.038379530916844345,
+        "Resolved": 0.03405507672903091
+      },
+      "new_mass": 0.04556962025316456
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 3,
+      "prior_mass": {
+        "Memory": 0.03411513859275053,
+        "Resolved": 0.03411513859275054
+      },
+      "prior_mass_retained": {
+        "Memory": 0.03411513859275053,
+        "Resolved": 0.029850746268656712
+      },
+      "new_mass": 0.04050632911392405
+    },
+    {
+      "D6_bin": 1,
+      "width_bin": 4,
+      "prior_mass": {
+        "Memory": 0.07462686567164178,
+        "Resolved": 0.0746268656716418
+      },
+      "prior_mass_retained": {
+        "Memory": 0.07462686567164178,
+        "Resolved": 0.07079984691924991
+      },
+      "new_mass": 0.08607594936708861
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 1,
+      "prior_mass": {
+        "Memory": 0.053304904051172705,
+        "Resolved": 0.053304904051172726
+      },
+      "prior_mass_retained": {
+        "Memory": 0.053304904051172705,
+        "Resolved": 0.053304904051172726
+      },
+      "new_mass": 0.06329113924050633
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 2,
+      "prior_mass": {
+        "Memory": 0.06183368869936033,
+        "Resolved": 0.06183368869936033
+      },
+      "prior_mass_retained": {
+        "Memory": 0.06183368869936033,
+        "Resolved": 0.06183368869936033
+      },
+      "new_mass": 0.06329113924050633
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 3,
+      "prior_mass": {
+        "Memory": 0.11513859275053304,
+        "Resolved": 0.11513859275053306
+      },
+      "prior_mass_retained": {
+        "Memory": 0.11513859275053304,
+        "Resolved": 0.11513859275053306
+      },
+      "new_mass": 0.09367088607594937
+    },
+    {
+      "D6_bin": 2,
+      "width_bin": 4,
+      "prior_mass": {
+        "Memory": 0.05543710021321963,
+        "Resolved": 0.05543710021321961
+      },
+      "prior_mass_retained": {
+        "Memory": 0.05543710021321963,
+        "Resolved": 0.05543710021321961
+      },
+      "new_mass": 0.053164556962025315
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 1,
+      "prior_mass": {
+        "Memory": 0.1023454157782516,
+        "Resolved": 0.1023454157782516
+      },
+      "prior_mass_retained": {
+        "Memory": 0.1023454157782516,
+        "Resolved": 0.1023454157782516
+      },
+      "new_mass": 0.10126582278481013
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 2,
+      "prior_mass": {
+        "Memory": 0.11087420042643922,
+        "Resolved": 0.11087420042643922
+      },
+      "prior_mass_retained": {
+        "Memory": 0.11087420042643922,
+        "Resolved": 0.11087420042643922
+      },
+      "new_mass": 0.0759493670886076
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 3,
+      "prior_mass": {
+        "Memory": 0.0724946695095949,
+        "Resolved": 0.07249466950959488
+      },
+      "prior_mass_retained": {
+        "Memory": 0.0724946695095949,
+        "Resolved": 0.07249466950959488
+      },
+      "new_mass": 0.053164556962025315
+    },
+    {
+      "D6_bin": 3,
+      "width_bin": 4,
+      "prior_mass": {
+        "Memory": 0.04051172707889127,
+        "Resolved": 0.04051172707889125
+      },
+      "prior_mass_retained": {
+        "Memory": 0.04051172707889127,
+        "Resolved": 0.04051172707889125
+      },
+      "new_mass": 0.04810126582278481
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 1,
+      "prior_mass": {
+        "Memory": 0.07249466950959489,
+        "Resolved": 0.07249466950959488
+      },
+      "prior_mass_retained": {
+        "Memory": 0.07107320540156362,
+        "Resolved": 0.07249466950959488
+      },
+      "new_mass": 0.0759493670886076
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 2,
+      "prior_mass": {
+        "Memory": 0.07462686567164178,
+        "Resolved": 0.07462686567164178
+      },
+      "prior_mass_retained": {
+        "Memory": 0.06069651741293533,
+        "Resolved": 0.07462686567164178
+      },
+      "new_mass": 0.08860759493670886
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 3,
+      "prior_mass": {
+        "Memory": 0.036247334754797446,
+        "Resolved": 0.03624733475479744
+      },
+      "prior_mass_retained": {
+        "Memory": 0.03493719012510597,
+        "Resolved": 0.03624733475479744
+      },
+      "new_mass": 0.043037974683544304
+    },
+    {
+      "D6_bin": 4,
+      "width_bin": 4,
+      "prior_mass": {
+        "Memory": 0.023454157782515986,
+        "Resolved": 0.023454157782515986
+      },
+      "prior_mass_retained": {
+        "Memory": 0.02212153518123667,
+        "Resolved": 0.023454157782515986
+      },
+      "new_mass": 0.027848101265822784
+    }
+  ],
+  "shared_baseline_bins": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "shared_three_way_cells": 55,
+  "old_cells_with_new_mass": 16,
+  "status": "estimable"
+}

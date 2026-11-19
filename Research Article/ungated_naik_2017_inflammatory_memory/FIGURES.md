@@ -1,6 +1,6 @@
-# Naik 2017 — measured figures
+# Naik 2017 — figure gallery
 
-These 24 figures follow the comparisons in the [paper overview](README.md). Each section links its result and each image has a PDF export. The [final synthesis](S6_SYNTHESIS_V3.md) connects the mouse molecular and functional comparisons with the separate human RNA analysis.
+These 25 figures follow the comparisons in the [paper overview](README.md). Each section links its result and each image has a PDF export. The [final synthesis](S6_SYNTHESIS_V3.md) connects the mouse molecular and functional comparisons with the separate human RNA analysis.
 
 ## Acute and recovered-baseline RNA
 
@@ -185,6 +185,12 @@ The two donors are analyzed individually. The reported fractions count genes wit
 ![RNA response decomposition in two donors](../../analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.png)
 
 Read the post-challenge difference alongside the change from concurrent controls. Gene density, normalization and raw-zero strata are described in the result. [PDF](../../analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.pdf)
+
+## Distal mouse epidermal accessibility at 24 months
+
+![Accessibility at distal Memory and Resolved regions in each 24-month mouse skin pool, with the history contrast before and after acute-induction and width weighting](../../analysis/research/runs/naik2017_distal_m24_outcome_v1/m24_distal.png)
+
+Read the left column across the four pools, then the right column for the difference between the two class changes. Open circles reuse the same two pools per group in all four cross-group comparisons. The separate day-6 control-rank sensitivity is reported in the linked result tables. [PDF](../../analysis/research/runs/naik2017_distal_m24_outcome_v1/m24_distal.pdf) · [M24 result](distal_m24_outcome_v1/RESULTS_V1.md) · [Control-rank sensitivity](distal_m24_baseline_v1/RESULTS_V1.md)
 
 ## Earlier molecular figures
 
