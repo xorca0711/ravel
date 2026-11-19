@@ -2,40 +2,41 @@
 
 ## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
 
-19 November current checkpoint: [S5F](Research%20Article/ungated_naik_2017_inflammatory_memory/S5F_METHOD_V1.md)
-is authorized after coordinator-reviewed S5M v2 preservation at `7051b45`.
-The exact source map contains 35 endpoints, 83 groups and 38 contrasts, including
-F4h and F5a/b/c. Original workbook cells/Ns and final-PDF captions were checked;
-PDF axes qualify fitted rate constants as day^-1 despite omitted workbook units.
-Normalized all-1 controls remain references, source records remain distinct from
-undocumented animal matching, and every source/caption N discrepancy is retained.
+19 November current checkpoint: [S5F v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md)
+has executed from frozen setup `ff0ed97`, with 35 endpoints, 83 groups and all
+38 declared contrasts. Independent ZIP/XML/Decimal verification passed 13,821
+checks (maximum scaled error 1.32857e-14); 18 outputs and receipt are registered.
+All five actual figures and numerical contrasts were coordinator-reviewed without
+revision. Complete report review also requested no further change. The research
+gate against refreshed main `d0429d0`, all 20,267 repository checks, 308 local
+links and whitespace passed; all 21 run files including five PDFs are tracked.
+The result is preserved with this checkpoint. No earlier molecular analysis
+was rerun. Agent progression review supplies no human scientific acceptance.
 
-Four artificial tests and 700 independent ZIP/XML/Decimal checks passed (maximum
-scaled error 8.16485e-17). A workbook handle error found by formula-rejection
-handling was corrected before the passing rerun. No real S5F calculation has run.
-Preflight passed for eight inputs, four Python files plus the exact source-map
-configuration and 18 outputs. Repository validation passed 20,232 checks and
-103 affected-document links. The setup research gate initially rejected the
-map as an unregistered scientific asset because it was input-bound only; its
-same immutable hash is now also registered as a code/config dependency. The
-full gate rerun passed against refreshed main `d0429d0`; the already-passed
-20,232 repository checks and 103 local-link checks remain valid.
-Next: freeze its separate exposed contract/code, run, independently verify and
-inspect all five actual figures; return completed S5F for coordinator review,
-then continue S6 and justified extensions. Do not rerun earlier molecular stages.
-The coordinator separately recovered small MOESM16/17 wound-area source workbooks
-for EDF5/6. They are S6 qualification leads only; no numerical extension is yet
-assigned. The present rate limit concerns these assigned main-figure summaries,
-not global absence of raw wound-area records. In the coordinator-qualified EDF6g
-area sheet, Ctrl+Ig / Ctrl+anti / OE+Ig / OE+anti have 3/4/3/4 numeric records on
-every day 0–10, versus main F5g rate-summary N 3/3/4/4. Preserve this additional
-source discrepancy for S6; do not swap groups or rewrite reported summaries.
+The source results retain longer PI tongues/day-10 outgrowth alongside mixed
+EdU contrasts. F5g reported OE effects are +0.30 under Ig and +0.16 under
+anti-IL1R1 (difference −0.14 day^-1); equal OE+anti/Ctrl+Ig means do not establish
+complete blockade. Normalization references count spreadsheet entries, not
+biological cells. Source/caption N discrepancies and unknown matching remain.
+Naik Fig. 5c already reports the transcript/protein distinction; no new mechanism
+or human scientific acceptance is asserted.
 
-The prior technical turn ended at an account usage limit. The coordinator relayed
-the owner's continuation after the stated 19 November 12:20 KST reset; this is
-separate from the older content restriction. The scoped worktree was clean on
-resumption, GitHub was reverified as `xorca0711` and author/committer as Xorca,
-and refreshed main remains `d0429d0`. No account/billing or publication change.
+Next, continue S6 after S5F preservation. The coordinator
+assigned assessment of (1) six recovered EDF5e/f and EDF6d–g daily-area tables,
+(2) fixed five-marker D6 RNA QC and (3) D180 with the frozen S3 universe, widths,
+rank endpoint and all five paper anchors. Prepare the first supported extension's
+prospective design for review; do not execute an extension before that review.
+EDF6g area counts are 3/4/3/4 at every day 0–10, versus main F5g summary N
+3/3/4/4. Preserve the discrepancy without relabelling. Main summary limitations
+are not global absence of area records; original-domain/raw-read options need
+their own actual source/resource assessment.
+
+The prior technical turn ended at an account usage limit; owner continuation
+after the 19 November 12:20 KST reset is recorded separately from the older
+content restriction. GitHub identity is `xorca0711`, effective attribution is
+Xorca, and refreshed main remains `d0429d0`. No account/billing, safeguards,
+external inquiry or publication settings changed. This remains an unfinished
+analysis sequence; retain the actual mixed results and all frozen evidence.
 
 Preserved [S5M v2](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md)
 corrects count-zero/range semantics with 12,361,838 exact raw-count/preservation

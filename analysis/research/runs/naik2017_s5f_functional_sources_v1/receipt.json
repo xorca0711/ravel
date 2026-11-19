@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s5f_functional_sources_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s5f_functional_sources_v1.json",
+  "contract_sha256": "23fb9709db0770cd2248c1f2c43ef37b43bc06567b249261e128982325bba4cf",
+  "git_commit": "ff0ed974c71a26b2b1f4bf84896cf383444c2c06",
+  "started_at": "2026-11-19T03:42:40.591314+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s5f_functional_sources_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s5f_functional_sources_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM7_ESM.xlsx",
+      "sha256": "b7eeaedf36b09d4ab9e2cb778bd2e66f888f99ce3d5eb10fcad988d18a11ed43",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM10_ESM.xlsx",
+      "sha256": "33b1232b94e95d38d42062ca8e7ea174b7fdaad93fb2e8edb759c5f306969be1",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM11_ESM.xlsx",
+      "sha256": "8f80255f15432b4ee163bfe08c8a15ba49ead3feef47975d73fb82f7141a05cf",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_SOURCE_MAP_V1.json",
+      "sha256": "b10b827a6c8554b1dc4c60d5935d1896ce7b4924685fcb6a29427f13cce20421",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt",
+      "sha256": "96aca458077196106c3c0c36b7c269017b4a8500092c14e2c8bacdd59d45246f",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_METHOD_V1.md",
+      "sha256": "ac0af73cf6a1851009ae95be42d7454a4bd77df80e6be029d0d0ab14224ae396",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md",
+      "sha256": "7b003c68eae80f3eec43e94c06aa47bcd09fb4395efb31edf4be3d556ea88eaa",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5m_molecular_integration_v2/receipt.json",
+      "sha256": "bc185c9f0ca6d5e0dc0eea4f3a58c1657b8e1c4ec4b664fb4522df64504097ac",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+      "sha256": "517c3274e7e447a489420c4a028ca30f68df70bca657073adbe4531529a5d729"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_verify_v1.py",
+      "sha256": "cb84f1ffbbb7e27b646dd6b1afaea13cf62caf1402b3fdc487ab1d7c8ae87efa"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_plot_v1.py",
+      "sha256": "c8552d93376d8b3541d4580926f5157d532f1701bce0796aab42280bdc116167"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s5f_reconstruct_v1.py",
+      "sha256": "504c02df03d1737f94c4bae3c45a50af873da29158cd3da4f110c65dd240328f"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_SOURCE_MAP_V1.json",
+      "sha256": "b10b827a6c8554b1dc4c60d5935d1896ce7b4924685fcb6a29427f13cce20421"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/source_cells.tsv",
+      "sha256": "967d307c961fd3a74cd85a1ad2c0b4287e667de6fc926082bbca5e09893ea4f5"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/observations.tsv",
+      "sha256": "c337228c51552b6a4ad2e598378a340db81414a17523c15f0fc577f6a72fa7bb"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/groups.tsv",
+      "sha256": "9b87a28999e95f40898f089f4a28b21cb1feebdfb3b411e2926d936060d16611"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/contrasts.tsv",
+      "sha256": "904ff704a97a132ca826a14022d1dd6e461b066d2eac38f5f3ba475560a3c0ff"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/deletion_diagnostics.tsv",
+      "sha256": "4c281b3e8992548c718ee9c5063f93e28e5c8dbb526533f4fb3313b56b00b04d"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/metadata.json",
+      "sha256": "49983782da2763a9e14715f060c4382e7d446949f2b7c5142f1dd0cea3ce77b4"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/runtime.json",
+      "sha256": "fb33fb549aefa05ab52f3cb1ef75c77b11b23147a0a985be3b2be8c0f3a90466"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/verification.json",
+      "sha256": "9562d2750483f04fb6c2d7434703c2dc414250c212d4f27eb312db8232754955"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig01_tongue_edu.png",
+      "sha256": "c9f537b85b5e65bbfef78527cd60b8cf939cca51bd3566f34824d34797b2baee"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig01_tongue_edu.pdf",
+      "sha256": "1cbbbecf4b109afdf3056d39006f8369f25422bd8178f5c729ff4d3e3d9dc90f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig02_outgrowth.png",
+      "sha256": "c72f2e66d14b1eb21e349dedd28e2ada00fa4408c15ffdd3f5df0917d027319d"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig02_outgrowth.pdf",
+      "sha256": "b0af79cd8c78f6cee137384b929cde5e239abc4b2c0dfe8cc68f50d26672cff6"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig03_expression_activity_protein.png",
+      "sha256": "0a03dafe58cc41927d99a5ef4cc07c249105b0e25c78ec6d51b7df20eba6eab0"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig03_expression_activity_protein.pdf",
+      "sha256": "c8b7bee2de5e204439afa7d2ca8956fb609efae166f18fffa72d8ed54b6ccd61"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig04_reported_rates.png",
+      "sha256": "cbc0619b1a3a2308dd99da44d2a61b10a088bb4961ff00460104c26f803e4c3b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig04_reported_rates.pdf",
+      "sha256": "b4b2a9427f004b88b38c799ded747ce33cd56d6c16828cf4476c9152d3e7fc81"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig05_daily_wound_area.png",
+      "sha256": "40dfed411d5b360daae1571396169d836692f8f983f166495206851e24fc20ef"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/fig05_daily_wound_area.pdf",
+      "sha256": "33409d7d4823474416fa8b6b71fb6ddd4036939b9dd746cd7598425b3eb11f77"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T03:42:55.987357+00:00"
+}

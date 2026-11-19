@@ -84,9 +84,11 @@ of W6 and 17% of W12 union adjusted signs change, with similar sensitivity in
 baseline-expression intersections. Col1a2's W12 direction changes under one
 reference; other retained examples preserve signs but change magnitude. Neither
 one-library reference is adopted as a correction or assigned sex stratum.
-No ATAC comparison has run. Prior published-result/D6-profile exposure and this
-new outcome exposure remain explicit; neither a freeze nor arithmetic verification
-creates independent biological replication.
+S3 now supplies relative TSS-proxy ranks, and S5M connects them to these RNA
+contrasts with the shared-source/baseline limits below. S5F separately reconstructs
+the assigned functional-source endpoints. All prior published-result/profile
+exposure and actual outcome exposure remain explicit; neither a freeze nor
+arithmetic verification creates independent biological replication.
 The current [Arozamena synthesis](../ungated_arozamena_2026_inflammatory_memory/README.md)
 reports mixed RNA directions, QC sensitivity and region-dependent accessibility;
 state/function attribution remains unresolved. The
@@ -142,15 +144,18 @@ primary ±1 kb MOR association is larger at D6 (r=0.425) than D30 (r=0.144).
 Recall adjusted covariances subtract larger positive baseline components from
 smaller positive post-wound components; this does not show chromatin repression.
 The qualified boundary/RNA comparison narrows broad concordance without testing
-original distal-domain retention or functional output. No functional S5F analysis
-has run; corrected S5M was coordinator-reviewed without numerical/figure revision
-and the bounded S5F source comparison is authorized after preservation. The coordinator's bounded
+original distal-domain retention or functional output. Corrected S5M was
+coordinator-reviewed without numerical/figure revision and preserved at `7051b45`.
+[S5F](S5F_RESULTS_V1.md) now reconstructs all 38 assigned source contrasts with
+13,821 independent checks; actual findings are summarized below. The coordinator's bounded
 Figure 5c read also records increased IL-1beta protein without increased Il1b
 transcript in Naik 2017. Weak RNA association would not alone refute that
 published protein/functional premise; it is a distinct endpoint, not a new
 mechanistic explanation established by our proxy ranks. Adjusted W6/W12 correlation
 shares the same estimated baseline and is not independent temporal corroboration.
-Repair remains unmeasured. S4B preserves frozen S4 values and every reference;
+The molecular stages do not measure repair; S5F retains the separate measured
+functional endpoints without a matched molecular-to-repair link. S4B preserves
+frozen S4 values and every reference;
 the alternative-minus-primary shift is identical at both times by construction.
 The [plan](ANALYSIS_PLAN.md) remains
 the historical intended sequence; the [current result](S2_RESULTS_V1.md) owns
@@ -231,7 +236,22 @@ The axes at lines 185/329, 803/894 and 1059/1150–1152 explicitly identify rate
 constant k in day^-1. Workbook unit omission therefore does not prevent the
 qualified rate comparison. No broad source search or methods extraction was
 repeated. This is source qualification, not an additional primary study or
-independent replication. Actual functional-source results remain pending.
+independent replication.
+
+The completed [S5F result](S5F_RESULTS_V1.md) retains longer PI epithelial tongues
+and day-10 outgrowth alongside mixed EdU contrasts. Fig. 5c's transcript/protein
+distinction was already reported by Naik et al. (2017): the reconstructed Il1b
+reference contrast is +0.155 with source values 0.80/1.51 versus reference 1,
+while IL-1beta protein is +43.8753 pg/g total protein. This finite description
+does not reproduce the published inferential test or establish a novel mechanism.
+The reported history advantages change under Aim2KO/YVAD/Il1r1KO but remain
+positive under Il18KO; they do not identify chromatin-memory maintenance.
+In F5g, OE−Ctrl is +0.30 under Ig and +0.16 under anti-IL1R1, with −0.14 day^-1
+difference of effects. OE+anti equalling Ctrl+Ig therefore does not establish
+complete removal of the OE effect. Source/caption N disagreements and unknown
+animal matching remain material. All five figures and numerical contrasts were
+coordinator-reviewed without revision; complete report review also requested no
+further change. This is agent progression review, not human scientific acceptance.
 
 A separate coordinator source check on 19 November recovered MOESM16 (SHA-256
 `58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec`)

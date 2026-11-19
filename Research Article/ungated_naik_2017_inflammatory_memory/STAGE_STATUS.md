@@ -1,11 +1,20 @@
 # Naik execution checkpoint
 
-18 November 2026. The owner authorized a separate technical analysis session,
+19 November 2026. The owner authorized a separate technical analysis session,
 review after each completed stage, revisions where warranted, and continuation
 through informative extensions. The independent bioinformatics study remains
 outside this package.
 
 ## Current disposition
+
+S5F has executed from frozen setup `ff0ed97`: [actual results](S5F_RESULTS_V1.md),
+18 outputs and receipt are registered. Independent ZIP/XML/Decimal verification
+passed 13,821 checks. All five figures, exact method/map and 38 contrasts were
+coordinator-reviewed without numerical or figure revision. The final result
+report was then reviewed without further revision. The research gate against
+`d0429d0`, 20,267 repository checks and 308 local links passed. Preserve S5F
+locally, then prepare S6 and the first supported extension's prospective design. No new
+numerical extension is authorized before that design review.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
@@ -53,8 +62,8 @@ limited to the molecular metadata task. The service restriction remains recorded
 | S3: accessibility | [Adapted v1 result](S3_RESULTS_V1.md) executed from `28a62d9`; 2,788,974 independent checks, 608 exact mean rereads and receipt integrity passed; figures reviewed | Coordinator-reviewed and preserved at `8ada940`; original retained-region reproduction remains unresolved |
 | S4: recall RNA | [V1 result](S4_RESULTS_V1.md) complete; reviewed and committed at `628631e` | Preserve actual results, metadata discrepancy and shared-baseline limits |
 | S4B: baseline-reference sensitivity | [V1 result](S4B_RESULTS_V1.md) complete and coordinator-reviewed; arithmetic, research gate and 20,105 repository checks passed | Preserve locally and carry reference dependence into later synthesis |
-| S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) coordinator-reviewed and preserved at `7051b45`; [S5F method](S5F_METHOD_V1.md) and exact 35-endpoint/83-group/38-contrast map prepared; four tests/700 independent fixture checks passed | Freeze the separate S5F contract/code, run and independently verify all assigned source comparisons, inspect actual figures and return S5F for review |
-| S6: extension decision | Not reached | Review actual results and closest precedents before extending or stopping |
+| S5: molecular integration / separate functional sources | [S5M v2](S5M_RESULTS_V2.md) reviewed and preserved at `7051b45`; [S5F v1](S5F_RESULTS_V1.md) executed from `ff0ed97`, 13,821 independent checks passed, all figures reviewed | Stage review and required checks passed; preserve locally and retain source-N/reference limits |
+| S6: extension decision | Three candidates assigned for assessment: EDF5/6 daily areas, fixed five-marker D6 QC, frozen S3 ranks at D180 | Assess what each changes, source qualification and limits; prepare first supported design for review before any extension calculation |
 
 The initial technical turn failed during source qualification. A narrower
 continuation limited to public host-cell RNA/ATAC data and non-infectious repair
@@ -85,9 +94,9 @@ S3 is preserved at `8ada940`. S5M v1's aggregate-warning defect is preserved;
 v2 ran from `26d23e8` and passed 12,361,838 exact checks. Its coefficients,
 covariances and ATAC table are unchanged; the corrected figure was inspected.
 The coordinator reviewed v2 without numerical/figure revision and authorized
-S5F after local preservation at `7051b45`. Its exact source-cell/endpoint/group/N
-map and implementation are prepared and tested; freeze a separate exposed
-contract before calculation. The later functional-source additions remain preparatory.
+S5F after local preservation at `7051b45`. Its separately frozen specification
+at `ff0ed97` has now executed with independent verification and reviewed figures.
+The final report is coordinator-reviewed without further revision; continue S6.
 The following original work remains unfinished. Blocked source work still needs
 a supported resolution; independently eligible comparisons require their own
 qualified scope and stage review. None was resumed during recovery.
@@ -104,11 +113,13 @@ qualified scope and stage review. None was resumed during recovery.
    original-region semantics unresolved. The separately approved amendment now
    produced the finite relative-rank result under its frozen specification;
    it does not establish absolute accessibility or original memory domains.
-4. Continue the [analysis plan](ANALYSIS_PLAN.md) only through reviewed, informative
-   stages. The S5 proposal uses coordinator-qualified source cells and Ns,
-   preserving F1e tongue counts 5/4, 4/4, 6/6 despite caption n=4. S5 source
-   qualification/contract execution remains pending; no restricted extraction
-   was retried. Retain negative and mixed outcomes.
+4. Continue the [analysis plan](ANALYSIS_PLAN.md) through S6 after S5F report
+   review. Assess the six recovered daily-area tables (especially F5g's residual
+   contrast and N mismatch), fixed five-marker D6 RNA QC, and D180 using exactly
+   the frozen S3 universe/widths/rank endpoint and all five paper anchors. Keep
+   original-domain/raw-read alternatives separate with actual availability and
+   resource limits. No new numerical extension runs before prospective review.
+   No restricted extraction was retried; retain negative and mixed outcomes.
 
 This is an unfinished execution checkpoint. It is **not** a finding that further
 extension analyses are uninformative or unavailable. No claim grade, canonical

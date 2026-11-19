@@ -1,68 +1,39 @@
 # Naik 2017: from inflammatory history to epithelial recall
 
-18 November 2026. Article-local research package, informed by the owner's
-Naik Results/Discussion notes. It follows Ravel's established paper-driven
-biological research workflow across tissues, organisms and molecular layers.
-Inflammatory memory is this paper's topic, not a change to the project's identity.
-This source sits outside the ordered roadmap; existing gates and RQs retain
-their status. S1M qualification, S2 baseline RNA and S4 recall RNA descriptions
-and S4B reference sensitivity are complete. The adapted S3 rank endpoint is also
-executed, verified and coordinator-reviewed. S5M v2 is corrected and independently
-verified and coordinator-reviewed; no global RQ or scientific acceptance is implied.
+19 November 2026. Article-local research package, informed by the owner's
+Naik Results/Discussion notes. This source sits outside the ordered roadmap;
+existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
+paper-driven workflow. Execution and coordinator review confer no human
+scientific acceptance.
 
-**Current result:** [S5M v2](S5M_RESULTS_V2.md) retains all 312 finite
-RNA–ATAC associations and 96 covariance components. Primary ±1 kb MOR Pearson
-is 0.425 at D6 and 0.144 at D30; recall associations are small. Negative adjusted
-associations subtract a larger positive baseline covariance from a smaller
-positive post-wound covariance, so they do not show chromatin repression.
-The corrected warning distinguishes actual count zeros (2 of 11,007 primary
-genes) from adjustment ranges including zero (9,966). All original source fields,
-qualifications and coefficients are preserved; 12,361,838 exact checks passed.
-The defective v1 display remains historical. Coordinator review requested no
-numerical/figure revision and authorized S5F after local preservation.
+**Current result:** [S5F v1](S5F_RESULTS_V1.md) reconstructs 35 functional/source
+endpoints and all 38 declared contrasts. PI epithelial tongues and day-10
+outgrowth are larger in the supplied records; EdU differences vary by day.
+Reported history advantages change with Aim2, CASP1 and IL1R1 perturbations,
+while the Il18KO contrast remains positive. In the separate F5g comparison,
+Aim2 OE effects are +0.30 under Ig and +0.16 under anti-IL1R1 (difference −0.14
+day^-1). Equality of OE+anti to Ctrl+Ig does not demonstrate complete blockade.
+Source/caption N discrepancies and normalized reference semantics remain
+explicit. All 13,821 independent checks passed; all five figures were inspected.
+Coordinator stage review of the complete report, figures and numbers requested
+no further revision. S6 and prospective extension review remain pending.
 
-The preceding [S3 v1](S3_RESULTS_V1.md) describes relative ordering near 21,760
-protein-coding boundary proxies. Primary median absolute contrasts are 3.067 pp
-at D6 and 1.995 at D30, with mixed directions/library spread and about 15% width
-sign sensitivity. Original domains, absolute opening and causal persistence
+[S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
+covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
+Pearson is 0.425 at D6 and 0.144 at D30; small negative adjusted associations
+reflect subtraction of a larger positive baseline covariance. They do not show
+chromatin repression. The [S3 result](S3_RESULTS_V1.md) describes relative ranks
+near 21,760 boundary proxies; original retained domains and absolute opening
 remain unestimated.
 
-The preceding [S4B v1](S4B_RESULTS_V1.md) holds S4 normalization, wound means
-and qualification fixed while changing only the observed baseline reference.
-Adjusted signs change for about 15% of the W6 union and 17% of the W12 union;
-similar sensitivity remains in baseline-expression intersections. Col1a2's W12
-adjustment changes direction under one reference. Neither alternative is a
-preferred correction, verified sex stratum or matched sample comparison.
-
-The preserved [S4 v1](S4_RESULTS_V1.md) separates post-wound history/control
-RNA differences from the D30 baseline offset on one common 12-library scale.
-Absolute post-wound differences exceed baseline for 53.72% of the W6 and 46.71%
-of the W12 expression unions; about 82% of adjusted library-combination ranges
-include zero. Normalization changes 13.67%/19.29% of adjusted signs. Similar
-findings remain in baseline expression intersections. This is a mixed relative
-RNA description, with no inference of uniform amplification, kinetics or repair.
-
-Prespecified marker QC identifies two baseline libraries with near-zero Xist
-and substantial counts for four Y-linked genes despite uniform recorded female
-metadata. Both baseline histories contain this profile; the discrepancy limits
-interpretation but alone does not prove every history contrast biased. No sex
-assignment, pairing, exclusion or correction was made. S4B now demonstrates
-numerical baseline-reference dependence without identifying its biological cause.
-
-The preceding [S2 result](S2_RESULTS_V1.md) found smaller absolute D30 differences
-for 82.58% of 13,452 union-qualified genes and 83.65% of 12,052 both-time-qualified
-genes. Those source measurements remain unchanged; the new baseline QC adds a
-further limitation to their biological interpretation, not a resolved/persistent
-gene classification. All 47,729 deposited gene IDs remain in both stages.
-
-[S1M](S1M_RESULTS_V2.md) owns the accession/unit qualification. D6 is **acute
-inflamed**, not recovered baseline; D30 is recovered-baseline history. Within-time
-RNA comparisons share platform/layout, while RNA cross-time technical
-differences and exact pool/pairing uncertainty remain. All eight S3 ATAC
-libraries instead share HiSeq4000/paired-end platform/layout; unknown processing
-and pool/assay matching still limit their interpretation. Owner `Nk17-P01`, contracts and receipts
-are registered. Incomplete S1M v1 parsing, its [amendment](S1M_AMENDMENT_V2.md)
-and the earlier service/recovery history remain preserved.
+The [S2 baseline](S2_RESULTS_V1.md), [S4 recall](S4_RESULTS_V1.md) and
+[S4B sensitivity](S4B_RESULTS_V1.md) retain mixed relative RNA effects and
+baseline-reference dependence. Recorded female metadata and Xist/Y-marker
+profiles disagree for two baseline libraries; no sex assignment, correction or
+pairing was made. [S1M](S1M_RESULTS_V2.md) owns assay-specific units: D6 is acute
+inflammation, D30 recovered-baseline history. RNA cross-time technical differences
+must not be transferred to ATAC, whose eight D6/D30 tracks share platform/layout.
+Exact pool/animal and cross-assay membership remain unresolved.
 
 **Organizing question:** after inflammation resolves, what remains in epithelial
 stem cells, and how does that history alter a subsequent tissue-damage response?
@@ -88,11 +59,17 @@ describes computational order, not a cellular trajectory or established causal c
 
 ## What the current evidence changes
 
+- S5F supplies distinct measured functional/source endpoints. Tongue length,
+  EdU, outgrowth, expression, activity, protein and reported decay constants
+  cannot substitute for one another or identify memory storage. The residual
+  within-blockade F5g contrast motivates qualifying the separate daily-area
+  sources before proposing a bounded extension; no new numerical extension has
+  run. Naik Fig. 5c already supplies the transcript/protein distinction.
 - S5M connects the measured RNA and TSS-proxy descriptions: acute alignment is
   larger than recovered/recall alignment, with baseline subtraction shaping the
   small adjusted associations. Shared libraries, baseline coupling and differing
-  biological layers remain limits. The next informative step is separate source
-  evidence for functional endpoints, not a new combined memory score. Naik Fig5c
+  biological layers remain limits. S5F now describes the separate source
+  functional endpoints without a combined memory score. Naik Fig5c
   already reports IL-1beta protein without an Il1b transcript increase.
 - S3 adds a qualified relative-ordering measurement in a protein-coding boundary
   universe. Smaller aggregate D30 displacement survives the two widths, while
@@ -127,6 +104,16 @@ describes computational order, not a cellular trajectory or established causal c
 - Larsen 2021 already investigates establishment, maintenance and recall in this
   system. Rediscovering AP-1 enrichment or proposing that homeostatic factors
   maintain accessible regions is not, by itself, a new mechanistic contribution.
+
+## Measured functional-source evidence
+
+![Reported functional-rate comparisons](../../analysis/research/runs/naik2017_s5f_functional_sources_v1/fig04_reported_rates.png)
+
+[S5F results and all five figures](S5F_RESULTS_V1.md) retain every assigned
+comparison, including unfavorable and mixed results. Points and bars above are
+reported rate means and SEs, not reconstructed animal rates or contrast intervals.
+Source Ns and caption Ns remain separate. The normalized-reference labels in
+Figure 3 count spreadsheet entries, not biological cells.
 
 ## Measured RNA–ATAC integration
 
@@ -237,10 +224,15 @@ was frozen at `26d23e8` and has now executed with raw-count semantic verificatio
 All coefficients, covariance records, ATAC values and Figure 1 are byte-identical;
 corrected Figure 2 was visually inspected. [Actual v2 results](S5M_RESULTS_V2.md)
 were reviewed without numerical/figure revision; S5F is authorized after local
-preservation at `7051b45`. The [S5F method](S5F_METHOD_V1.md) now maps 35 endpoints,
-83 groups and 38 contrasts, with raw/reference/summary distinctions and exact
-source/caption Ns. Four artificial tests and 700 independent XML/Decimal checks
-passed. Freeze S5F separately before calculation. Preserve ATAC zero flags because changes in
+preservation at `7051b45`. S5F ran from frozen setup `ff0ed97`, with 35 endpoints,
+83 groups and 38 contrasts. [Actual results](S5F_RESULTS_V1.md), 18 outputs and the
+receipt are registered; 13,821 independent ZIP/XML/Decimal checks passed. All
+five figures were reviewed by the technical session and coordinator without a
+revision request; final report review is complete. The research gate, 20,267
+repository checks and 308 local links passed. Prepare the S6 decision and first
+supported extension's prospective design for review before execution.
+The three candidates to assess are recovered EDF5/6 daily areas, fixed five-marker
+D6 RNA QC, and the frozen S3 endpoint at D180. Preserve ATAC zero flags because
 other windows/tie mass can change the rank even of a constant local zero.
 
 Execution was authorized through a separate technical session. That service
@@ -250,7 +242,8 @@ host-cell/non-infectious-repair continuation also failed before execution. The
 No numerical result or scientific stopping conclusion follows from this failure.
 
 S0 has an initial evidence map. Broader S1 source/functional qualification and
-the original retained-region reproduction and S5F/S6 remain unfinished. The separately authorized molecular work did not retry
+the original retained-region reproduction and S6 remain unfinished. S5F has executed
+and has completed coordinator stage review. The separately authorized molecular work did not retry
 the restricted extraction. S2 makes no population inference; a separately
 justified inferential reproduction remains possible. The independent
 bioinformatics study supplies no task dependencies or execution restrictions here.
