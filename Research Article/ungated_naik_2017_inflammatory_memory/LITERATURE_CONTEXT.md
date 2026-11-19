@@ -6,6 +6,10 @@ owner-selected epithelial-memory paper to a bounded analysis sequence and its
 closest precedents. This is an initial focused scan, not a systematic review or
 novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
 
+## 19 November 2026 — distal mouse skin follow-up
+
+The [dated literature and deposit scan](DISTAL_SKIN_SOURCE_SCAN_20261119.md) recovered Cowley Data S2, verified Cowley’s region and sample definitions against the author notebook, and traced the reuse of Naik and Larsen libraries. Cowley Fig. 1B–E already reports late class trajectories in epidermis. The [M24 analysis](distal_m24_outcome_v1/RESULTS_V1.md) quantifies how much published Memory and Resolved regions differ after the same promoter exclusion. The [four-control sensitivity](distal_m24_baseline_v1/RESULTS_V1.md) tests how much the estimate shifts when the region sets are also balanced for accessibility in day-6 vehicle controls. A difference of +0.116 fragment CPM persisted on the shared baseline-rank support. Those observed contrasts leave continuous cellular inheritance and functional repair unmeasured. [Cowley et al., Fig. 1 and Methods](https://doi.org/10.1126/science.adz6830)
+
 ## Current progression after S6
 
 [Final S6/S7 synthesis](S6_SYNTHESIS_V3.md) is the current source-grounded
