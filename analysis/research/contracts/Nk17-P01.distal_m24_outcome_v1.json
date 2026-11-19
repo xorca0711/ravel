@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.distal_m24_outcome_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "At M24, how does the post-IMQ minus naive difference in fragment CPM compare between the distal Cowley Memory and Resolved classes?",
+  "decision": "Describe the late association of the complete early-defined classes across four pooled libraries, and assess its sensitivity to residual D6 induction and width imbalance. Setup only until separate coordinator review.",
+  "strongest_rival": "Initial D6 induction, coverage/width differences, cell mixture, other unmeasured baseline accessibility or technical differences can produce class separation without class-specific maintenance.",
+  "discriminator": "Use an equal-region within-pool class contrast and the difference of class-specific history changes. One common-support sensitivity uses only D6 log2FC and width. A remaining contrast after weighting cannot exclude unobserved baseline or composition.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/METADATA_REGISTRATION_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Cowley Fig. 1 disclosed M24 aggregate trajectories. Step 1 and Step 2 exposed published classes, D6 covariates, selection counts, pooling and header anomalies. Step 2 registration at 4d30e58 verified 48 off-S2 structural queries and zero M24 S2 queries. The coordinator independently checked counts, TSS rule and primary joins. The D6-by-width weights were recovered from registered metadata. Before this freeze, all new endpoint tests, file-reader tests and rendering used constructed values or the pinned artificial BigWig; no M24 S2 interval queried. This is shared-study reuse.",
+  "biological_unit": "Two naive and two post-IMQ biological pool libraries, each reported to pool two or three mice. Pool is the observed unit. M24 is a single published experiment.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Unknown pool membership and pairing. Fixed regions and bases are repeated features. Four cross-group pool contrasts reuse the same pools and are descriptive spread.",
+  "population_and_selection": "All 791 eligible Memory and 784 eligible Resolved intervals from the frozen Step 2 manifest. S2 deposited 934/933 before full-interval exclusion against the union of all eligible GENCODE M9 transcript TSS +/-2000 bp. M24 GSM9034861-62 naive, GSM9034863-64 post-IMQ. Retain every row and each pool.",
+  "contrast": "In each pool equally average exact full-width interval CPM means within each class. Average each class over the two post-IMQ pools minus average over the two naive pools; primary is Memory change minus Resolved change. Also report all four post-minus-naive cross-pool contrasts for Memory, Resolved and the gap, median-of-regions diagnostic, and overlap-weighted mean sensitivity.",
+  "endpoint": "Deposited CPM-normalized paired-fragment coverage, in CPM throughout. Per-region sum of all reconciled base values / full width. No global/header normalization or log transform.",
+  "methods": "Before querying tracks, check support against the Step 2 marginal stratum counts. Pool D6 log2FC and width quartiles (type 7, ties to higher bin). Frozen cuts: D6 1.2247967800000001/1.981410939/2.848257298, width 466/631/851. Row-major shared masses 16,18,16,35 / 25,29,54,26 / 48,52,34,19 / 34,35,17,11; total 469. Use all class members with weight min(nM,nR)/(469*n_class) across shared cells, zero otherwise. Report overlap counts, regional Kish ESS and residual signed raw/standardized mean differences. Exclude baseMean from weighting. Compare exact native records to unbinned base fetch in every interval, full file hashes and headers first. Save per-pool means/medians and signed contrasts, all pairwise spread and common-axis PNG/PDF.",
+  "missingness_and_exclusions": "Explicit stored zeros enter the full-width denominator. Distinguish absent/nonfinite/negative bases, identical overlaps, conflicts, invalid bounds, incomplete widths, disagreement and reader errors. Preserve diagnostics and hold all biological aggregates pending review if any required interval in any library fails. No silent fill, partial mean, renormalization or dropping. Keep missing control baseline and unit pairing unresolved.",
+  "multiplicity": "One prespecified descriptive primary contrast, one covariate sensitivity and a median diagnostic. No p-values, region bootstrap, independent cross-pair inference or equivalence margin.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite four-pool description. Individual values and four reused cross-group contrasts show observed spread. Region number and weighted effective region counts do not supply independent mice.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A positive, negative or small difference describes late association in these four shared-study pools. It neither measures individual-cell persistence, causal enhancer activity or repair nor establishes equivalence. Published selection, unobserved baseline and mixed populations restrict inference.",
+  "stop_rule": "Freeze only now, wait for coordinator review before any outcome execution. At authorized run, stop on source/code/selection mismatch, failed header, strata discrepancy or any incomplete or unreconciled required interval. Save coverage diagnostics for adjudication. Never use global BigWig basesCovered or zoom interpolation for the estimator.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_analysis.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.distal_m24_outcome_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "intervals.tsv",
+    "coverage.json",
+    "region_weights.tsv",
+    "support.json",
+    "pool_summaries.tsv",
+    "history_changes.tsv",
+    "cross_pool.tsv",
+    "m24_distal.png",
+    "m24_distal.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New descriptive outcome contract following the accepted Step 2 metadata verification. No change to the metadata contract or older Naik outcomes.",
+  "inputs": [
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034861_M24_Ctrl_rep1_normalized.bw",
+      "sha256": "5cefe889c9ff0be943fad5d1225434500b7186a2f7e274d257e1571be2334026",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034861"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034862_M24_Ctrl_rep2_normalized.bw",
+      "sha256": "b044d7074c860812a5b0fe9e18e6fbcfcf02b9cb209113f0a7ec7e6111bacb8a",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034862"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034863_M24_IMQ_rep1_normalized.bw",
+      "sha256": "f26f5e5b988c65876351aa8f7b93df3bcc43f0f441d6a92fa2c65ba7c526c393",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034863"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034864_M24_IMQ_rep2_normalized.bw",
+      "sha256": "2024c3cfcb038209bacca058c378e752ae263057e13814734938b6d960390386",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034864"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/regions.tsv",
+      "sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/samples.tsv",
+      "sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/selection_v1.json",
+      "sha256": "5c6c5bafca0dac14ca1c47d6aa6d1d880669d7e3bcd981546cc757edf41a4a38",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/region_qualification.json",
+      "sha256": "f534f077c64099ef59462f7b106ab914eb81ecaf6209c4a6629a84a89d77833b",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/track_structure.json",
+      "sha256": "9d4361f22c9962ec8bb41285453fb4b9fdb964bd59c6c4c771d25acc4f3e6e4b",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/source_receipts.json",
+      "sha256": "31c1021d3814df243c4dcb4c2d5956659399f13c26c2cd063a67543f974c7601",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/verification.json",
+      "sha256": "79b27511820f42d8190aea618283186309797c17991e53863bcb15a1bada376e",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/receipt.json",
+      "sha256": "27783bb9fb6a15544fd5a63eb841ea6f39068c98fffbdbf45493bb867fa81a7c",
+      "study_id": "Nk17-P01_governed_Step2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/METHOD_V1.md",
+      "sha256": "2d59e83dd7b4d2a279cbcb89b23c0d6a8d978844d75be7de79998443a56a8946",
+      "study_id": "Analysis_specification_and_synthetic_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "Analysis_specification_and_synthetic_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/test.bw",
+      "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+      "study_id": "Analysis_specification_and_synthetic_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_analysis.py",
+      "sha256": "fc62fb1aaf3eb73dffde63adb89fb1a0c23ee05fac11ba85cffcc73c16513579"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_reader.py",
+      "sha256": "6e15cdf731766c13925627a0fdf52f4f93ef21ca9151efdf4428e807ec70e761"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/test_m24_synthetic.py",
+      "sha256": "12b8a4081d48e3dc33e9aa1f58763a810c9d8b12529b6da4b439b1ce2f9d9d10"
+    }
+  ]
+}
