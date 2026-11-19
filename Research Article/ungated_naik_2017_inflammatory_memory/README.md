@@ -32,16 +32,20 @@ is a secondary group-summary comparison, not corrected kinetics; the sixteen
 adjusted day-0 zeros are structural. No actual all-contributing-record area-floor
 contrast occurred. [Complete source, baseline and coverage figures](S6A_RESULTS_V1.md#figures-and-verification).
 
-S5F is preserved at `2514379`; its mixed EdU, separate outgrowth/activity/protein
-endpoints and reference/N qualifications remain. The [S6 assessment](S6_DECISION_V1.md)
-now leads to the approved bounded five-marker D6 source QC, followed by separately
-qualified D180 proxies. [Four D180 tracks are acquired](D180_ACQUISITION_V1.md)
-with hashes; reader qualification and a separate reviewed effect method remain.
-The [S6B D6 QC method](S6B_D6_QC_METHOD_V1.md) and contract/code are ready for
-freeze after five passing artificial tests. The [S6C D180 method](S6C_D180_METHOD_V1.md)
-was coordinator-approved without revision for implementation and governed
-execution after D6. No new D6 marker values or D180 effects have
-been calculated. S6 synthesis and human scientific decisions remain unfinished.
+The subsequent [S6B D6 source check](S6B_RESULTS_V1.md) retains all twenty fixed
+marker/library profiles. All four show Xist in the thousands, three Y-linked
+markers at zero and Uty at 0–1 read; the specific S4 baseline pattern is not
+repeated. Independent 191,370 checks and receipt integrity passed. This narrows
+the observed discrepancy without assigning sex or certifying D6 as unconfounded.
+The complete result and actual figure were coordinator-reviewed without revision.
+
+S5F remains preserved at `2514379`. The [S6C D180 method](S6C_D180_METHOD_V1.md)
+is approved for implementation and governed execution after D6, using the exact
+S3 universe and all five anchors. [Four original tracks](D180_ACQUISITION_V1.md)
+are acquired; exact contract freeze and fail-closed qualification precede any
+D180 signal extraction. Final S6 must assess whether the actual results and later
+primary literature support an informative question beyond shared-source
+reproduction; technical completion alone does not establish that progression.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR

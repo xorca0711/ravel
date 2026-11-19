@@ -1,0 +1,31 @@
+{
+  "libraries": [
+    "GSM2440985",
+    "GSM2440986",
+    "GSM2440987",
+    "GSM2440988"
+  ],
+  "marker_order": [
+    "Xist",
+    "Ddx3y",
+    "Eif2s3y",
+    "Kdm5d",
+    "Uty"
+  ],
+  "marker_rows": 20,
+  "exact_gene_rows_per_library": 47729,
+  "recorded_sex_labels": [
+    "female",
+    "female",
+    "female",
+    "female"
+  ],
+  "no_sex_assignment_exclusion_or_pairing": true,
+  "no_new_marker_selection": true,
+  "frozen_factors_reused": true,
+  "upstream_analyses_rerun": false,
+  "population_inference": false,
+  "independent_biological_replication": false,
+  "threshold_or_classifier_fitted": false,
+  "analysis_id": "Nk17-P01.s6b_d6_marker_qc_v1"
+}

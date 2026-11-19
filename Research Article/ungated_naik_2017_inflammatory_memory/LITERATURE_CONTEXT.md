@@ -368,3 +368,15 @@ Larsen/Cowley mechanistic premises do not repair a source identity. No new RQ,
 mechanistic contribution, source contact or public correction is asserted. Next
 are the approved fixed D6 marker consistency check and a separately qualified
 D180 proxy comparison, each under its own exposed contract.
+
+## S6B source-QC interpretation — 19 November 2026
+
+[S6B](S6B_RESULTS_V1.md) does not repeat the S4 baseline near-zero-Xist/high-Y-marker
+pattern in the four D6 libraries: Xist is present in the thousands, Ddx3y/Eif2s3y/
+Kdm5d are zero and Uty is 0–1 read. This is shared-source metadata consistency
+within the fixed five-marker assay, not a sex determination, mechanism or
+independent replication. It narrows the location of the observed discrepancy
+without resolving pooling, animal identity or RNA–ATAC matching. The 19 November
+primary-literature refresh is reused; no new mechanism claim or scan was made
+for this diagnostic. Later literature remains necessary to assess a justified
+post-reproduction question in the final S6 synthesis after D180.

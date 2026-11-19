@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": 191370,
+  "maximum_scaled_error": 1.1872805975272932e-16,
+  "source_reader": "stdlib gzip/CSV and separate GTF parser",
+  "arithmetic": "50-digit Decimal including logarithm",
+  "marker_rows": 20,
+  "libraries": 4,
+  "normalization_refitted": false,
+  "independent_biological_replication": false,
+  "analysis_id": "Nk17-P01.s6b_d6_marker_qc_v1"
+}

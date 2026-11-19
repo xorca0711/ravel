@@ -17,19 +17,21 @@ label discrepancy: hold its biological mapping, preserve literal-label outputs,
 and do not swap groups. The other five panels retain their descriptive scope.
 S5F remains preserved at `2514379`; earlier results are unchanged.
 
-S6A checks and report review are complete; the result is preserved at `ccc91cd`.
-The [S6B method](S6B_D6_QC_METHOD_V1.md), contract and code are prepared for freeze;
-five artificial tests and input preflight passed. No actual D6 marker run yet.
+S6A is preserved at `ccc91cd`. [S6B](S6B_RESULTS_V1.md) ran from frozen setup
+`f92cf21`; all 191,370 independent checks and receipt integrity passed. Its actual
+figure and complete report were coordinator-reviewed without revision.
+The specific S4 baseline marker pattern was not repeated in these four D6
+libraries; no sex assignment, exclusion, correction or pairing was inferred.
+Result-stage research gate against refreshed main `d0429d0`, all 20,366 repository
+checks and whitespace passed. Local preservation precedes approved D180 work.
+
 The [S6C exact-S3 D180 method](S6C_D180_METHOD_V1.md) was coordinator-approved
-without revision for implementation, tests, freeze and execution after D6,
-with one contract for fail-closed qualification then extraction.
-The coordinator approved the bounded D6 five-marker × four-library QC scope in
-principle and authorized faithful implementation, exposed contract, freeze and
-run after S6A closure; return its actual results for review. No sex assignment,
-exclusions, correction, new marker selection, upstream rerun or pairing.
-[Four D180 tracks are acquired](D180_ACQUISITION_V1.md). The approved S6C method
-requires a separate frozen contract and qualified inputs before effect extraction.
-Final S6 synthesis is unfinished.
+without revision for implementation, tests, freeze and execution after D6.
+One new exposed contract will qualify all four source identities/header/dictionaries
+before dependent extraction. No D180 window signal has been read. Final S6 must
+also evaluate a justified research progression beyond reproduction using the
+actual results and qualified later primary literature; no new mechanism or
+question status is implied by completing D6/D180.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
