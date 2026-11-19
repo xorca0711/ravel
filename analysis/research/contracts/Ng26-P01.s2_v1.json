@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s2_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do released organoid relatives share Fos-family motif accessibility, relative to a global clone-label shuffle and comparator motifs, and how evenly is the descriptive AP-1 history difference represented across six mouse lines?",
+  "decision": "Replay Fig. 2h-i, compare with published Table 4 and stated Fig. 2i summaries, record Fig. 2j owner fit, return at S2.",
+  "strongest_rival": "Mouse/line or differentiation composition, clone sizes, overlapping barcode assignments, and clone names reused across lines can produce pooled resemblance. Clones within a line do not independently replicate injury history.",
+  "discriminator": "Replay the published marginal null; preserve all reported memberships. Compare rekeyed and clean-exclusive groups under that same global null. Display all line summaries, cross-history directions and leave-one-line-out equal-mouse contrasts. A within-line or state-conditional null belongs to S5.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "analysis/research/runs/ng26_s0_keys_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published directions, Fos and comparator Table 4 values, Fig. 2i P=0.038, 12.2% vs 2.7%, Fig. 2j rho=0.52, prior S0 membership and feature-missingness inventories, line donors and S1 release readback known before freeze. Shared-source fidelity and sensitivity only.",
+  "biological_unit": "Relatives sharing a clone token for the dispersion statistic; equal-weight clone medians within history for Fig. 2i. Three separate mouse-derived organoid lines per history for a history comparison.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "4,815 scored memberships from 4,193 unique cells, 585 cells in multiple scored clones. Tokens can cross lines/histories. Verified six donors, one per line, no pairing. Reused data are not independent validation.",
+  "population_and_selection": "Full Supplementary Data 2, 299 leaders. Focus on Fos (AP-1), Etv2 (ETS), Ctcf (CTCF), Hnf4g (HNF4/PPAR) and retain the full family. Sensitivities qualify tokens by line, then keep cells with exactly one membership in the full cleaned call map. For Fig. 2i also show exclusivity within released calls alone. Retain every reported history.",
+  "contrast": "Fig. 2h observed median clone sample variance minus mean squared shuffled median SD. Fig. 2i compare history-specific distributions of median Fos, including equal-clone summaries, mean of line means, donor omissions and all nine pair directions.",
+  "endpoint": "Full observed/null/p/BH, signed discrepancies from Table 4, all permutation draws, key coverage; per-clone medians, history and donor readbacks, cutoff sensitivity; two PDF/PNG figures. Read the published Fig. 2j program correlation as an author fit if matched scores are absent.",
+  "methods": "For each feature group by the global clone token. Compute within-clone sample SD with R na.rm=TRUE semantics, then median of squared SDs, no NA removal in median. Each of 1,000 global permutations reassigns clone labels with sizes fixed, equivalently assigns shuffled membership scores to fixed slots. Square each shuffled median SD; use its mean and sample SD for a two-sided normal-tail P. BH over the complete release following R p.adjust NA handling. NumPy PCG64 streams keyed [123, variant index, feature index in release order]; distributional replay, not bitwise R fork RNG. Repeat full 299-feature family for line-qualified and clean-exclusive keys, remove singleton groups before dispersion and null together. In 2i use all (sample=history, clone) medians and crossbar median, standard two-sided Welch and pooled sensitivity, strict >1.25, descriptive >=5 restriction. Treat each line equally for mean contrasts, show both mean and median clone score per line and leave one mouse out. No S5 conditional shuffle or mixed-model refit.",
+  "missingness_and_exclusions": "Propagate undefined group SD or null draw through the corresponding median or mean; retain all rows, report finite groups/draws. Preserve repeated score contributions for overlapping memberships. Dispersion requires >=2 assigned memberships; Fig. 2i includes singletons unless explicitly labelled >=5. No reconstructed P20 scores.",
+  "multiplicity": "Separate 299-feature inputs for each of three BH families. Record finite test counts and nominal original FDR threshold 0.05. Fig. 2i t-tests replay the clone-level comparison only; line-level readouts descriptive.",
+  "precision_status": "unknown",
+  "precision_basis": "Only three independent mouse lines per history. For Monte Carlo agreement of two independent 1,000-draw mean estimates use joint MCSE sqrt((s1^2+s2^2)/1000). Measured variance remains in squared score units.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Marginal clonemate resemblance can reflect line/state structure or nonindependent membership. It does not identify within-state inheritance, TF binding or P20 activity of individually tracked cells. The AP-1/PPAR labels are motif reporter families. No cause or tissue-to-organoid lineage link.",
+  "stop_rule": "Stop on unreconciled source key, shape or hash failure. For the released replay report all deterministic observed differences beyond 1e-9, NA-status differences and |null mean difference| >4 joint MCSE as discrepancy branches; compare BH threshold and direction across finite results. Monte Carlo cutoffs are numerical diagnostics. Keep any unresolved discrepancies or figure-text denominators visible without choosing a post hoc membership rule. Stop after S2.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [
+        "IGVFDO4498WUFA",
+        "IGVFDO4618QNAL",
+        "IGVFDO6240POWU",
+        "IGVFDO5516DGOZ",
+        "IGVFDO4379PNRX",
+        "IGVFDO6069WQXD"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/cell_clone_line_mouse.tsv",
+      "sha256": "76396bbaf1727a46349a01ff47137a9b988f6654486fee65e05e6d32b530428e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/line_donor_key.tsv",
+      "sha256": "93cdf7d199db3fc05d7fab28bc1ee1f160a63c238348354f56a9358608be73a4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04_SHARE_TRACE.variance_testing.R",
+      "sha256": "1aa9b4e80e830bac8511786429d80b1c7df7ff9ddb6b40fbea29401655fe51de",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/replay.py",
+      "sha256": "b0fc012faad4590f924b41c040f7af687848255990bb070bb78d7d894f9c4029"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/plot_clones.py",
+      "sha256": "7dc4ebb9945eca8e10169d869f9fe0318eb6b35e77e152e305f976bef8d1dba4"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/replay.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "dispersion.tsv",
+    "null_draws.npz",
+    "membership_coverage.tsv",
+    "fos_clones.tsv",
+    "fos_by_history.tsv",
+    "fos_by_line.tsv",
+    "line_contrasts.tsv",
+    "fig2h_dispersion.pdf",
+    "fig2h_dispersion.png",
+    "fig2i_history.pdf",
+    "fig2i_history.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First S2 contract after owner review of S1."
+}
