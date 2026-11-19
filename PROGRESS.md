@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja S2 organoid clone replay
+
+The [S2 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md) reproduces all 295 defined observed variances in Table 4. With unambiguous cells only, the adjusted P for Fos shifts from .0025 to .300. The colitis-minus-control mouse-line contrast stays positive after every donor omission, with overlap in two of nine cross-history comparisons. The published Fig. 2i draws 74 control and 49 colitis points, agreeing with the five-cell cutoff and reported high fractions. Its P = .038 remains unresolved. Fig. 2j remains an author fit. [Figures and source values](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md#s2--organoid-clones-and-the-six-mouse-lines) · [Replay receipt](analysis/research/runs/ng26_s2_v1/receipt.json) · [Point-audit receipt](analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json). Stopped at S2 for owner review.
+
 ## 2026-11-19 — Nagaraja S1 recovery readback
 
 The [S1 figure and results](Research%20Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) give a mouse-weighted early-recovery FOS/CD44 difference of +16.42 percentage points (three mice per group), nine author-summary Fos motif deltas, and the released RNA injury-gene union. Of 260 injury-up genes, 19 still met the up threshold at recovery; 141 lacked adjusted P values and 15 were absent. The published 246-gene set, exact Fig. 1i fraction and extended chromatin curve remain unresolved. The [current figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md) uses a separately verified rendering with stage colors, a continuous motif scale and black text. Both [S0 source qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md) and S1 are locally preserved. Await review before the proposed S2 organoid clone-dispersion replay.
