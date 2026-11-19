@@ -1,268 +1,59 @@
-# Naik 2017: from inflammatory history to epithelial recall
+# Naik 2017 — inflammatory memory in epidermal stem cells
 
-19 November 2026. Article-local research package, informed by the owner's
-Naik Results/Discussion notes. This source sits outside the ordered roadmap;
-existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
-paper-driven workflow. Execution and coordinator review confer no human
-scientific acceptance.
+## Organizing biological question
 
-**Current result:** [S7 Hamdan response contrasts](S7_RESULTS_V1.md) executed from
-frozen `a7be7f8` with 15,807,848 independent checks and receipt integrity passed.
-All 64,253 genes are exported. Under primary MOR, 36.29%/31.80% of post-positive
-records in patients 4/83 have negative response interaction A after subtracting
-the concurrent-control contrast. The distinction persists without raw zero counts
-(45.50%/37.45% within those post-positive strata). Normalization changes its extent;
-positive A can also describe less repression. This is a finite-source response
-estimand result, not a patient-population, causal memory, kinetics or repair claim.
+What persists in epidermal stem cells after skin inflammation resolves, and how does that history change their response to a later wound?
 
-The [final S6/S7 synthesis](S6_SYNTHESIS_V3.md) records the original S0–S6
-disposition, completed justified extensions and the precise unresolved routes.
-The coordinator reviewed the full S7 result and all six actual panels without
-revision. This bounded assignment is complete with local preservation and passed checks;
-no automatic score, pathway, cohort or raw-read pipeline is added.
+Naik and colleagues found that previously inflamed mouse skin re-epithelialized faster after wounding. Some chromatin regions that opened during inflammation remained accessible after recovery, and perturbations implicated AIM2 signaling in the repair response. These experiments connect inflammatory history to repair. They leave a distinct question about which regulatory elements carry that history through recovery. [Naik et al., *Nature* (2017), Figs. 1, 3–5](https://doi.org/10.1038/nature24271) · [Paper review and Fig. 2g correction](PAPER_REVIEW.md)
 
-![S7 complete donor-specific response decomposition](../../analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.png)
+**Ravel result.** Acute RNA differences generally diminished by day 30. Accessibility ranks near annotated gene starts also shifted less at day 30 than during acute inflammation, but almost half of the windows reversed the direction of their history–control difference between days 30 and 180. The published distal memory regions and these gene-start windows measure different parts of the epigenome. The original distal regions remain the important unresolved comparison.
 
-All eligible genes are displayed; density counts genes, not independent patients.
-The full report retains both raw-zero strata and both normalizations. The
-[pre-execution rationale](S6_DECISION_V2.md) remains unchanged.
+**Status.** The staged analysis and S7 extension are complete under article-local candidate `Nk17-P01`, outside the ordered roadmap. [Final synthesis](S6_SYNTHESIS_V3.md) · [Figure guide](FIGURES.md) · [Literature context](LITERATURE_CONTEXT.md)
 
-The latest measured [S6C D180 result](S6C_RESULTS_V1.md) retains the exact S3
-universe: median absolute rank difference 2.167 pp (D30 1.995, D6 3.067), only
-45.55% smaller than D30 and 47.92% with opposite signs. This is heterogeneous
-relative ordering, not uniform decay or original retained-domain reproduction.
-All 7,009,534 independent checks, 296 interval readbacks and receipt integrity
-passed; the complete report and both figures were reviewed without revision.
+## Data and comparisons
 
-![D180 complete fixed-universe contrasts and width sensitivity](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/fig01_D180_universe.png)
-
-Every window is retained at both widths. Mean rank50 and whole-universe mean
-contrast0 are structural. The report includes all five anchors, complete zero/tie
-semantics, platform/pooling limits and the separately archived pre-signal WSL
-launch failure; the successful retry used unchanged frozen code/inputs.
-
-[S6B D6 QC](S6B_RESULTS_V1.md), reviewed/preserved at `ba5afa4`, does not repeat
-the specific S4 baseline marker pattern in the four acute libraries. All twenty
-profiles retain Xist in the thousands, three Y-linked markers at zero and Uty at
-0–1 read. This narrows the observed discrepancy without assigning sex, certifying
-D6 as unconfounded or establishing RNA–ATAC matching.
-
-[S6A daily areas](S6A_RESULTS_V1.md), reviewed/preserved at `ccc91cd`, keeps all
-six panels and the mixed raw/day0-subtracted comparisons. **EDF6g biological
-mapping remains held**: exact source headers disagree with the published final-
-PDF curve labels and related summary Ns. No group swap/refit or Aim2 repair
-reversal claim follows. The other five panels retain their finite-source scope.
-S5F remains preserved at `2514379`; all earlier functional endpoints remain separate.
-
-The progression is explicit: published recall → baseline/reference-dependent
-Naik contrasts → a separate within-donor response estimand in Hamdan. S7 reports
-both constituent responses, both normalizations and raw-zero strata, without
-converting genes/libraries into patients or RNA into repair. Published STEM
-condition ordering, normalization ambiguities and the exact source discrepancies
-remain visible in the [current rationale](S6_DECISION_V2.md).
-
-[S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
-covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
-Pearson is 0.425 at D6 and 0.144 at D30; small negative adjusted associations
-reflect subtraction of a larger positive baseline covariance. They do not show
-chromatin repression. The [S3 result](S3_RESULTS_V1.md) describes relative ranks
-near 21,760 boundary proxies; original retained domains and absolute opening
-remain unestimated.
-
-The [S2 baseline](S2_RESULTS_V1.md), [S4 recall](S4_RESULTS_V1.md) and
-[S4B sensitivity](S4B_RESULTS_V1.md) retain mixed relative RNA effects and
-baseline-reference dependence. Recorded female metadata and Xist/Y-marker
-profiles disagree for two baseline libraries; no sex assignment, correction or
-pairing was made. [S1M](S1M_RESULTS_V2.md) owns assay-specific units: D6 is acute
-inflammation, D30 recovered-baseline history. RNA cross-time technical differences
-must not be transferred to ATAC, whose eight D6/D30 tracks share platform/layout.
-Exact pool/animal and cross-assay membership remain unresolved.
-
-**Organizing question:** after inflammation resolves, what remains in epithelial
-stem cells, and how does that history alter a subsequent tissue-damage response?
-
-Naik's published result connects persistent accessibility with altered wound
-response in mouse epidermis. The first computational purpose here is exposed
-reproduction and qualification of that connection: distinguish acute RNA,
-recovery-stage RNA, persistent accessibility and wound-induced transcription.
-These are different measurements. Population selection, continuing local input,
-sampling and processing can coexist with intrinsic regulatory persistence.
-
-[Stepwise plan](ANALYSIS_PLAN.md) · [Paper evidence and corrections](PAPER_REVIEW.md)
-· [Literature context and search record](LITERATURE_CONTEXT.md)
-· [Execution checkpoint](STAGE_STATUS.md)
-
-The published biological argument is that inflammation leaves regulatory
-changes in long-lived epithelial populations, which can alter a later response
-and repair outcome. The RNA, chromatin and functional experiments support
-different parts of that argument. Ravel's analysis will reconstruct the eligible
-comparisons, examine their robustness and use any remaining discrepancy to
-develop a specific follow-up. The [stage table](ANALYSIS_PLAN.md#stage-sequence-and-decisions)
-describes computational order, not a cellular trajectory or established causal chain.
-
-## What the current evidence changes
-
-- S5F supplies distinct measured functional/source endpoints. Tongue length,
-  EdU, outgrowth, expression, activity, protein and reported decay constants
-  cannot substitute for one another or identify memory storage. The residual
-  within-blockade F5g contrast motivated completed S6A daily-area qualification.
-  EDF6g mapping is held for the exact source-label conflict; the other panels
-  remain descriptive. Naik Fig. 5c already supplies the transcript/protein distinction.
-- S5M connects the measured RNA and TSS-proxy descriptions: acute alignment is
-  larger than recovered/recall alignment, with baseline subtraction shaping the
-  small adjusted associations. Shared libraries, baseline coupling and differing
-  biological layers remain limits. S5F now describes the separate source
-  functional endpoints without a combined memory score. Naik Fig5c
-  already reports IL-1beta protein without an Il1b transcript increase.
-- S3 adds a qualified relative-ordering measurement in a protein-coding boundary
-  universe. Smaller aggregate D30 displacement survives the two widths, while
-  individual signs/magnitudes and library support can vary. Aim2's positive D30
-  average has a cross-library range including zero; Iigp1 is width-sensitive.
-  None reconstructs the published distal retained-domain classification.
-- The S2 distribution supports smaller recovered-baseline relative RNA contrasts
-  within this source, including the both-time expression-qualified subset.
-  Residual gene differences are heterogeneous and sometimes driven by one
-  library or zeros. Neither attenuation nor a small group mean establishes
-  equivalence, absolute RNA recovery, intrinsic regulatory memory or repair.
-- S4 decomposes baseline and post-wound contrasts and exposes a source/marker
-  discrepancy. Adjusted W6/W12 correlations share baseline estimation error:
-  global-union Pearson correlation rises from 0.641 unadjusted to 0.805 adjusted,
-  which is not independent temporal corroboration. Negative adjusted effects can
-  coexist with increases in both histories; component contrasts remain essential.
-- S4B adds reference dependence: median absolute shifts of about 0.11 log2 units
-  accompany 15–17% union sign changes. Two one-library references diagnose
-  sensitivity without correcting source identity or replacing the primary result.
-  The shift is identical at W6/W12 for each gene by construction, not replication.
-- The annotated version-of-record PDF includes a correction to Figure 2g.
-  Figure 3 reports pooled ATAC preparations; Figure 4 and the final RNA Methods
-  report four animals per condition in duplicate. Manuscript wording differs.
-  Biological units must therefore be qualified by assay and source version.
-- The inspected GEO metadata snapshot lists 16 RNA and 12 ATAC libraries.
-  It offers RNA at D6, unwounded D30 and 6/12 hours after wounding, and ATAC at
-  D6/D30/D180. It does not list wound ATAC or D180 RNA-seq. Separate assays are
-  not established same-animal or same-cell pairs.
-- Published outcomes and some D6 RNA profiles were inspected before the S2
-  specification. S2 is exposed shared-source description; its later freeze
-  does not turn the work into independent confirmation or biological replication.
-- Larsen 2021 already investigates establishment, maintenance and recall in this
-  system. Rediscovering AP-1 enrichment or proposing that homeostatic factors
-  maintain accessible regions is not, by itself, a new mechanistic contribution.
-
-## Measured functional-source evidence
-
-![Reported functional-rate comparisons](../../analysis/research/runs/naik2017_s5f_functional_sources_v1/fig04_reported_rates.png)
-
-[S5F results and all five figures](S5F_RESULTS_V1.md) retain every assigned
-comparison, including unfavorable and mixed results. Points and bars above are
-reported rate means and SEs, not reconstructed animal rates or contrast intervals.
-Source Ns and caption Ns remain separate. The normalized-reference labels in
-Figure 3 count spreadsheet entries, not biological cells.
-
-## Measured RNA–ATAC integration
-
-![All finite RNA–ATAC associations](../../analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig01_associations.png)
-
-All widths, universes, normalization contexts, statistics and baseline references
-remain on one fixed coefficient scale. Gene features are dependent, and shared
-source libraries are not replication. [S5M result and covariance components](S5M_RESULTS_V2.md)
-and [corrected fixed-anchor figure](../../analysis/research/runs/naik2017_s5m_molecular_integration_v2/fig02_published_anchors.png)
-retain the distinct RNA, ATAC, count-zero and range-inclusion meanings.
-
-## Measured TSS-proxy evidence
-
-![S3 continuous rank contrasts and window-width sensitivity](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.png)
-
-[S3 result and captions](S3_RESULTS_V1.md) ·
-[Overview PDF](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.pdf) ·
-[All fixed example libraries](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.png) ·
-[Examples PDF](../../analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.pdf).
-Colours show within-panel log counts with separate scales. Ranks describe relative
-ordering; every library's mean rank is fixed. Xist is explicitly unassayed in this
-protein-coding universe. Both widths, all libraries and original means remain saved.
-
-## Measured RNA evidence
-
-![S4B observed baseline-reference sensitivity](../../analysis/research/runs/naik2017_s4b_baseline_reference_v1/fig01_baseline_reference.png)
-
-[S4B result and caption](S4B_RESULTS_V1.md) ·
-[PDF](../../analysis/research/runs/naik2017_s4b_baseline_reference_v1/fig01_baseline_reference.pdf).
-All four panels retain the primary result and frozen gene universes. Colours show
-within-panel log density; axis and colour ranges differ between panels. The two
-alternative references each have one library per history and assign no sex or matching.
-
-![S4 baseline components, adjusted recall effects and normalization sensitivity](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.png)
-
-S4 Figure 2 retains baseline/post-wound components and the comparison-specific
-union/intersection sensitivities. Both adjusted profiles subtract the same
-estimated baseline; the figure and [result](S4_RESULTS_V1.md) retain that
-correlation limitation. With two libraries/group, all-combination ranges remain
-spread diagnostics, not confidence intervals or paired trajectories. Expression
-qualification is not reliable expression in each history group or identity validation.
-
-| S4 measured figure | What to inspect | Export |
+| Source | What Ravel compared | Biological unit and limit |
 |---|---|---|
-| [1. Library and marker QC](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig01_sample_marker_qc.png) | The two baseline Xist/Y profiles, preserved source labels and common normalization | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig01_sample_marker_qc.pdf) |
-| [2. Recall components](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.png) | Baseline offsets, mixed adjusted effects, shared-baseline correlation and normalization sensitivity | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig02_recall_effects.pdf) |
-| [3. Selected library examples](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig03_library_examples.png) | Positive/negative adjustments, sparse baselines, Iigp1 direction discordance and Xist spread | [PDF](../../analysis/research/runs/naik2017_s4_recall_description_v1/fig03_library_examples.pdf) |
+| Naik mouse epidermis, GSE92967 | Acute inflammation versus control at day 6, previous inflammation versus control at days 30 and 180, and wound-induced RNA contrasts at 6 and 12 hours. S3 and S6C rank deposited ATAC signal within each library at fixed gene-start windows. | Deposited RNA libraries and pooled ATAC preparations. Exact animal membership and cross-assay pairing are unresolved. Within-library ranks measure relative ordering. [Sample qualification](S1M_RESULTS_V2.md) · [ATAC qualification](S3Q_RESULTS_V1.md) |
+| Naik figure source data | Re-epithelialization, proliferation, explant outgrowth, molecular readouts and wound area in the available functional panels. | The workbook supplies observations or group summaries, depending on the panel. Daily columns do not establish longitudinal animal identities. [Functional source map](S5F_SOURCE_MAP_V1.json) · [Daily-area source map](S6A_SOURCE_MAP_V1.json) |
+| Hamdan human colonic organoids, GSE282444 | Within each of two ulcerative colitis donors, compared the 24-hour TNF RNA response of inflamed-derived and noninflamed-derived organoids using concurrent controls. | Sixteen libraries across two donors. Each donor contributes a separate descriptive result. Site of origin, cell composition and culture history can contribute to the contrast. [S7 sample selection and method](S7_HAMDAN_RESPONSE_METHOD_V1.md) |
 
-S4's complete [marker table](../../analysis/research/runs/naik2017_s4_recall_description_v1/marker_qc.tsv)
-and [verification](../../analysis/research/runs/naik2017_s4_recall_description_v1/verification.json)
-support the readout; validation supplies no biological acceptance. Earlier S2
-figures remain available below, with their original method and receipt.
+## What the analyses changed
 
-| Measured figure | What to inspect | Export |
-|---|---|---|
-| [1. Library diagnostics](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig01_sample_qc.png) | Deposited count totals, detection, normalization and union-gene profile correlation; not raw-read QC | [PDF](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig01_sample_qc.pdf) |
-| [2. Continuous effects](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig02_effect_profiles.png) | Smaller D30 magnitudes, weak direction correspondence and normalization sensitivity | [PDF](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig02_effect_profiles.pdf) |
-| [3. Selected library examples](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig03_library_examples.png) | Every library shown; Col1a2's single-library influence, Defb3's zeros, Scand1's normalization sign change and Xist's large spread | [PDF](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig03_library_examples.pdf) |
-
-Figure 3's six extremes follow the frozen rank rules within the union; they are
-illustrations, not biological classes or the basis of the aggregate fractions.
-Points are control-relative log counts within each timepoint; bars transform
-the arithmetic count-scale group means. See the
-[method](S2_METHOD_V1.md), [complete results and limits](S2_RESULTS_V1.md),
-[independent arithmetic verification](../../analysis/research/runs/naik2017_s2_rna_description_v1/verification.json)
-and [run receipt](../../analysis/research/runs/naik2017_s2_rna_description_v1/receipt.json).
-
-## How neighboring Ravel work informs the pipeline
-
-| Owning evidence inspected at main `d0429d0` | Consequence for this package |
+| Comparison | Observation and biological interpretation |
 |---|---|
-| [Arozamena current synthesis](../ungated_arozamena_2026_inflammatory_memory/README.md), RNA/accessibility results and v2 amendment | Carry forward separate units, source-reference checks, explicit region definitions and unfavorable QC-sensitive results. Its intestinal libraries are not skin replication. |
-| [DuPage S0–S6 results](../gate3_09_dupage_2015/RESULTS.md) and [AM01](../gate3_09_dupage_2015/ANALYSIS_AMENDMENT_V2.md) | Read current results before plans; label adapted reconstructions; permit a justified stop when another analysis would add no information. |
-| [Wang results](../gate3_10_wang_2018_ezh2/RESULTS_V1.md), [execution amendment](../gate3_10_wang_2018_ezh2/EXECUTION_AMENDMENT_V1.md) and [original plan](../gate3_10_wang_2018_ezh2/ANALYSIS_PLAN.md) | Separate library-level RNA, robustness, biological synthesis and genuinely measured functional outcomes. |
-| [A1 current interpretation](../../RQ_Specified/A1_transitional_epithelial_state_distinction/README.md) | Regulatory context and later function remain distinct; Naik is conceptual context, not automatic evidence for the registered early-feature/later-output question. |
+| Acute and recovered RNA (S2) | For 11,108 of 13,452 genes eligible at either time (82.58%), the absolute history–control RNA difference was smaller at day 30. Individual genes and libraries varied, and the day 6 and day 30 RNA series differ technically. [RNA results](S2_RESULTS_V1.md) |
+| Accessibility through recovery (S3, S6C) | Across 21,760 fixed windows, median absolute rank differences were 3.067, 1.995 and 2.167 percentile points at days 6, 30 and 180. Between days 30 and 180, 45.55% shrank and 47.92% changed sign. A single decay trajectory would miss this heterogeneity. [Day 6 and day 30](S3_RESULTS_V1.md) · [Day 180](S6C_RESULTS_V1.md) |
+| Wound-response RNA and baseline choice (S4, S4B, S6B) | Changing the baseline reference changed the sign of roughly 15–17% of the adjusted contrasts. Two baseline libraries had discordant source labels and marker profiles. The same marker pattern was absent from the four acute libraries. [Recall components](S4_RESULTS_V1.md) · [Reference sensitivity](S4B_RESULTS_V1.md) · [Acute marker check](S6B_RESULTS_V1.md) |
+| RNA and local accessibility (S5M) | The primary across-gene correlation between RNA contrasts and gene-start rank contrasts was 0.425 at day 6 and 0.144 at day 30. Subtracting a shared baseline accounted for small negative adjusted recall associations. Exact animal-level RNA–ATAC pairing remains unknown. [Corrected molecular results](S5M_RESULTS_V2.md) |
+| Repair and its component measurements (S5F, S6A) | Previously inflamed skin had longer epithelial tongues at all three measured times. EdU differences changed direction across days, limiting a proliferation-only explanation. Five daily-area panels retain their source-specific interpretation. Conflicting workbook and figure labels leave the group assignment in Extended Data Fig. 6g unresolved. [Functional results](S5F_RESULTS_V1.md) · [Daily areas and label conflict](S6A_RESULTS_V1.md) |
+| Human RNA response (S7) | Among genes with higher post-TNF RNA in inflamed-derived organoids, 36.29% in donor 4 and 31.80% in donor 83 had a smaller signed TNF response after accounting for concurrent controls. Baseline differences can therefore change the reading of a post-challenge comparison. Each percentage describes genes within one donor. [S7 results and denominators](S7_RESULTS_V1.md) |
 
-The reusable sequence is source reading → sample/assay qualification → bounded
-reproduction → informative sensitivity → biological interpretation → literature-
-qualified follow-up. Each stage may finish with a negative, mixed or held result.
-As in DuPage and Wang, the next comparison follows from what the preceding
-evidence changes, rather than from a requirement to complete every available method.
+## Measured figures
 
-## Current disposition and immediate next step
+![Distribution of history–control ATAC rank differences across fixed windows at day 180, with earlier days and window-width sensitivity](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/fig01_D180_universe.png)
 
-All S1M–S6C numerical records remain preserved; [STAGE_STATUS](STAGE_STATUS.md)
-and the reports own their exact historical setup/results/reviews. S6C and its
-separate failed-launch archive are preserved at `3c60839`. No frozen historical
-script, result, source contract or unfavorable observation was overwritten.
+**Individual windows change in opposing directions.** The day 180 distribution covers the same gene-start windows used at days 6 and 30. A window's relative rank can shift as other windows change. Estimating persistence at the original distal domains requires their coordinates and region definitions. [S6C figure interpretation](S6C_RESULTS_V1.md)
 
-The [S7 frozen contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
-binds nine inputs and six execution dependencies (five Python files plus the exact
-map). Ten outputs and the executed receipt are registered. The full actual six-
-panel figure was inspected; the complete report retains all full/stratified sign
-tables, zeros, quantiles and normalizations. Runtime 519.572 seconds; main/verifier
-peaks 376.570/177.273 MiB. Coordinator full-result/figure review is complete.
-Final research gate, 20,462 repository checks, receipt integrity and whitespace
-passed against refreshed main `d0429d0`; the local preservation commit completes
-this bounded assignment. No new scientific analysis is queued.
+<a id="measured-rna-evidence"></a>
 
-Original retained domains, exact animal/culture joins, track scale and EDF6g
-mapping remain specific unresolved comparisons. They do not justify a blanket
-source hold or automatic new analysis queue. A1/Arz1 and all existing RQs retain
-their ownership. No claim promotion, publication or external inquiry is made.
+![Gene-level RNA differences during acute inflammation and at recovered baseline](../../analysis/research/runs/naik2017_s2_rna_description_v1/fig02_effect_profiles.png)
 
-The earlier source restriction and later usage-limit interruption are historical,
-separate events in [RECOVERY_CHECKPOINT](RECOVERY_CHECKPOINT.md); neither is a
-scientific finding. The independent learning exercise supplies no task dependency.
-Current main was refreshed at `d0429d0` on 19 November. The older root progress
-entry about PR #182 awaiting merge is historical; no integration action is taken here.
+**Baseline RNA differences usually shrink during recovery.** Each gene contributes a history–control contrast at each time. The distribution narrows by day 30, even as some genes retain differences. The wound series introduces a separate question about how baseline choice affects the estimated response. [S2 figures](FIGURES.md#acute-and-recovered-baseline-rna) · [S4 wound-response figures](FIGURES.md#wound-response-rna) · [S4B baseline sensitivity](FIGURES.md#sensitivity-to-the-baseline-reference)
+
+![Donor-specific RNA differences after challenge and the corresponding differences in response](../../analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.png)
+
+**Why the patient panels spread out.** Each panel counts genes within one donor. Two genes can end at the same inflamed-minus-noninflamed difference after TNF while starting at different control differences. Subtracting each gene's control difference gives different response contrasts. The scatter describes that gene-level variation. A single time point leaves response speed unresolved. [S7 figure interpretation](S7_RESULTS_V1.md) · [All 24 measured figures, including RNA, accessibility and repair](FIGURES.md)
+
+## Literature context and next biological decision
+
+The next decision concerns **the regional chromatin landscape after inflammation**. Larsen et al. examined establishment, maintenance and recall at epidermal memory domains. Cowley et al. examined why some domains persist longer, including DNA methylation and H2A.Z. These findings set the starting point for interpreting Naik's distal elements. Their applicability to Ravel's gene-start ranks remains open. [Larsen et al., Figs. 3–6](https://doi.org/10.1016/j.stem.2021.07.001) · [Cowley et al., Figs. 1, 4–6](https://doi.org/10.1126/science.adz6830) · [Article-local literature and source record](LITERATURE_CONTEXT.md)
+
+1. **Locate the unresolved comparison.** Update the focused primary-literature record around distal accessibility after recovery. Follow recent work beyond the existing bibliography, its closest older precedents and contrary findings. Record the search date, terms, version, access and exact panels. Identify which comparisons authors already performed and which observation a new comparison could explain.
+2. **Qualify the deposits for that comparison.** Start with the intervals, reference genome, region-selection rules, control/background regions, time points, sample identities and signal units. Trace supplements, author code and accession reuse. Cowley lists new ATAC data alongside reused Naik and Larsen material. A result on a reused library supplies shared-source evidence. [Cowley data availability](https://pmc.ncbi.nlm.nih.gov/articles/PMC13295011/) · [Naik ATAC amendment](S3_AMENDMENT_V1.md)
+3. **Choose the comparison the evidence supports.** If the original domains and comparable recovery samples can be identified, compare accessibility at the published distal regions with a justified reference set. A selective difference would motivate testing specificity across samples or states. Similar shifts in reference regions would weaken that interpretation. If only later domain definitions qualify, identify the authors, region universe and samples for that separate comparison. If neither route distinguishes the alternatives, record the specific missing input and stop there. S7 supplies RNA context for interpreting a downstream response.
+4. **Specify the question before numerical work.** Record the biological unit, endpoint, competing explanations such as state mixture, outcomes that would change the interpretation, and prior exposure. Register any justified numerical stage through the existing contract, preflight and runner. A cross-study join remains a proposal until its region and sample correspondence are established. [Ravel research instructions](../../AGENTS.md#biological-screening-and-question-progression) · [Literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md)
+
+## Execution history and provenance
+
+[Original plan](ANALYSIS_PLAN.md) · [Stage history](STAGE_STATUS.md) · [S3 endpoint amendment](S3_AMENDMENT_V1.md) · [S5M correction](S5M_AMENDMENT_V2.md) · [Pre-S7 decision](S6_DECISION_V2.md) · [Final disposition](S6_SYNTHESIS_V3.md). The stage reports link the methods, frozen inputs, calculations and receipts. For the closest Ravel intestinal comparison, see the [Arozamena paper package](../ungated_arozamena_2026_inflammatory_memory/README.md).

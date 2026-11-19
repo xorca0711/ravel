@@ -1,5 +1,11 @@
 # Current project state
 
+## 2026-11-19 — Naik paper overview and figure guide
+
+The [Naik overview](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md) now opens with the epidermal-memory question and presents measured comparisons in biological order. The [figure guide](Research%20Article/ungated_naik_2017_inflammatory_memory/FIGURES.md) collects all 24 current figures with PDF exports. The [article index](Research%20Article/README.md#figure-galleries) links the completed synthesis and gallery.
+
+The next decision for `Nk17-P01` is whether published distal-region definitions and biologically comparable recovery samples support a chromatin comparison. The overview specifies the literature and deposit checks before numerical work. The original domains, absolute ATAC scale and animal-to-library mapping remain unresolved.
+
 ## 2026-11-19 — Naik S6/S7 final synthesis and local preservation
 
 Owner `Nk17-P01`; active worktree `.worktrees/naik-memory-plan-20261117`, branch
