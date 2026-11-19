@@ -1,9 +1,23 @@
 # Naik 2017: literature context for paper-driven analysis
 
-Reviewed 17 November 2026 against Ravel main `d0429d0`. Purpose: connect the
+Initial review 17 November 2026; current S6/S7 synthesis 19 November, against
+Ravel main `d0429d0`. Purpose: connect the
 owner-selected epithelial-memory paper to a bounded analysis sequence and its
 closest precedents. This is an initial focused scan, not a systematic review or
 novelty clearance. Existing Arozamena/DuPage/Wang evidence was reused.
+
+## Current progression after S6
+
+[S6 v2](S6_DECISION_V2.md) is the current source-grounded synthesis after reviewed
+S6A/B/C; [S6 v1](S6_DECISION_V1.md) and the dated stage notes below preserve their
+original exposure and decisions. The completed contribution is shared-source
+reconstruction plus explicit measurement/contrast qualification, not a new memory
+mechanism or independent biological replication. The supported next question is
+the [Hamdan concurrent-control response interaction](S7_HAMDAN_RESPONSE_METHOD_V1.md),
+prepared under the same article-local owner. The coordinator reviewed S6 and
+approved S7 implementation/constructed tests, adding raw-count-zero strata before
+execution. The concrete contract/source-map/implementation review subsequently passed;
+freeze/commit and governed execution are authorized after setup checks.
 
 ## Published starting point
 
@@ -395,3 +409,81 @@ long-term proxy description; it does not end assessment of useful research beyon
 reproduction. The coordinator's 19 November later-primary/supplement/GEO review
 supports evaluating a separate Hamdan concurrent-control response interaction
 after D180 review, without asserting novelty or reassigning A1/Arz1.
+
+## S6 progression review and Hamdan source qualification — 19 November 2026
+
+This technical session reuses the coordinator's actual bounded web/Litmaps search
+and primary-source review today; it does not label them a second independent
+search. The earlier Larsen/Cowley/Arozamena/Nagaraja/Hammerhøj/Walton/Levra Levron
+readings above remain reused evidence at their stated coverage. Actual new queries:
+
+- `epithelial inflammatory memory chromatin persistence recall wound repair cell composition 2025 2026`
+- `inflammatory memory epithelial organoid repair barrier function discordance chromatin 2024 2025 2026`
+- `"10.1016/j.devcel.2023.11.008" PMC`
+- `"GSE282444"` and `"GSE282442"`, restricted to `ncbi.nlm.nih.gov`
+- `"Hamdan" "101774" "STEM" normalization`
+- `"S2352345X26000524" "Supplementary"`
+
+Litmaps citation-connected seeds: Naik 2017 (54924840), Hamdan 2026 (305811953),
+Nagaraja 2026 (306297104); publication range 2023-01-01 to 2026-11-19; first 12 of
+100 returned records inspected. Two Falvo records shared a DOI and were deduplicated.
+Most other hits were reviews or out-of-scope immune studies. No account collection
+was written. This bounded pass stops at a qualified comparison/source tuple; it
+is not a systematic search, complete supplement audit or novelty certification.
+
+| Primary version and exact locator | Completed read and consequence |
+|---|---|
+| [Hamdan 2026 final PMC article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13196144/), DOI 10.1016/j.jcmgh.2026.101774, online 27 March 2026 | Coordinator read Results/captions Figs. 1B–D, 2B–C, 3B–D, 4A, 5B–E and RNA-seq/wound/statistics/data-availability Methods. Barrier/clonogenic versus recall/closure divergence is already published. RNA recall patients are 4/83; main scratch and permeability endpoints have different donor counts. No individual-level joint model follows. |
+| Hamdan supplementary mmc1, Methods pp. 3–4; Fig. S7 p. 18; Fig. S8 p. 19 | Successful Europe PMC PDF recovered; coordinator read Methods and inspected actual pp. 18–19. Technical session separately read the extracted Methods. S7 is four categorical conditions, not a time course; an explicit within-patient interaction is a distinct estimand. Exact STEM input transform/membership remains unqualified. S8 names scratch donors 4, 83, 125: overlap is observed but individual numeric/culture/time joins remain unqualified. |
+| [Falvo 2023 PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC10843773/), DOI 10.1016/j.devcel.2023.11.008 | Coordinator read Results/captions Figs. 3D–G, 4B–J, 5A–D in HTML, not a new visual/numerical reproduction. Reduced inflammatory metaplasia, enhanced growth-factor response and oncogenic transformation are endpoint/stimulus-dependent prior findings; Fig. 4I–J discusses receptor/signaling explanations. These findings constrain novelty, without directly explaining Naik proxy ranks or source inconsistencies. |
+
+The supplement reports STEM normalization, maximum ten profiles and maximum unit
+change three, without qualifying the exact input transformation here. Its ordered
+NI-control/NI-stimulated/I-control/I-stimulated profile does not alone specify
+`(I_T-I_0)-(NI_T-NI_0)`: an illustrative monotonic 0,1,2,3 vector has interaction
+zero. No actual-gene behavior or error in the paper is inferred from that example.
+Main RNA Methods name DESeq2; supplement pp. 3–4 names pairwise edgeR. S7B labels
+patient 83 while its condition text repeats patient 4. Both discrepancies remain.
+
+The [official GSE282444 source](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282444)
+has 56 count columns. Exact header/SOFT joins qualify 16 concurrent-control/shared-
+challenge library records for patients 4/83, specified in the
+[S7 map](S7_HAMDAN_SOURCE_MAP_V1.json). Separate baseline triplicates and the
+patient-4-only higher challenge are excluded prospectively. GEO records hg38,
+STAR/featureCounts and GPL20301/HiSeq4000; the main paper names NextSeq2000.
+Replicate suffixes do not establish culture pairing or independent donors.
+The [GSE282442 ATAC deposit](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282442)
+has 26 libraries and individual MACS2 peak files; these do not qualify the exact
+published 2252-region/1904-linked-gene universe. No such filter enters S7.
+
+Acquisition facts: count gzip 4,163,489 bytes, SHA-256
+`391f6e91822118b216a38966bf60f32ab7e6e1ea713150a731f5aebc7fe75575`.
+Direct PMC supplement access returned HTML and a publisher-CDN route returned 403;
+these are superseded as access limitations by the successful
+[Europe PMC supplementary-files route](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13196144/supplementaryFiles).
+The 50,642,082-byte ZIP has SHA-256
+`86be63eb7546bdf4c29aea9cc0b46c62fee94bf1e01ce5410d46be9345345240`;
+extracted mmc1 is 6,123,560 bytes, SHA-256
+`515b66dd6403766ab52e1a1230fc02bd9187ec5ded47afa49375be52ad25ed39`.
+Official SOFT/count/supplement/acquisition records were copied byte-verified to
+ignored `raw_data/hamdan2026_s7_sources_v1/`; the draft contract binds used files.
+No source effects were calculated during qualification.
+
+**Published finding → observation → question → comparison:** Hamdan reports
+altered recall; Naik S4/S4B shows that post-challenge differences and baseline-
+adjusted response contrasts can have different meanings; the remaining bounded
+question concerns the explicit concurrent-control interaction within each of
+Hamdan's two donors. Per-donor MOR/total contrasts and both constituent responses
+can separate baseline offsets, stronger induction and less repression on a
+specified relative-expression scale. Prospective raw-zero strata assess whether
+this description depends on records containing zeros without changing eligibility.
+Agreement, disagreement and empty strata all remain informative and retained.
+This is a measurement/estimand extension using Hamdan's own data, not an exact
+STEM replication, a causal history mechanism, kinetics or independent validation.
+Pairing alone does not remove anatomical-site/culture-composition alternatives.
+
+[S6 v2](S6_DECISION_V2.md) preserves the A1 early-regulation/later-AT1-output and
+Arz1 within-state/composition ownership. Missing exact phenotype/culture/time
+joins hold a molecular-to-function model specifically; they do not erase the
+qualified RNA comparison or authorize scratch digitization/refitting. No new
+canonical RQ or human retain/reject decision is made.

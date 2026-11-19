@@ -21,13 +21,18 @@ marker pattern in these D6 sources. Sex, confounding and matching remain unresol
 mapping is held for exact workbook/primary-figure/summary discrepancies, with no
 relabeling or refit. All other prior frozen measurements remain intact.
 
-S6C setup checks passed. Result-stage gate against refreshed main `d0429d0`, all
-20,389 repository checks and whitespace passed; complete coordinator review
-requires no revision. Preserve locally, then final S6 and the bounded Hamdan
-method/contract for review. The Hamdan per-donor concurrent-control interaction
-is a candidate supported by qualified later-source reading, not a new mechanism
-or an already executed analysis. No gene/library-as-patient inference, scratch
-refit, RNA-to-function model, A1/Arz1 reassignment or human claim acceptance.
+S6C and the byte-preserving failed-launch archive are committed at `3c60839`.
+The [current S6 synthesis](S6_DECISION_V2.md) was reviewed as a suitable rationale.
+The [S7 Hamdan method](S7_HAMDAN_RESPONSE_METHOD_V1.md) is approved for implementation
+and constructed tests with the prospective raw-count-zero strata addition.
+The reviewed contract now binds nine inputs, five Python files plus source-map configuration and ten outputs;
+preflight passes. Fourteen constructed tests and 3,578 independent checks passed,
+with a synthetic six-panel preview inspected. No Hamdan source effect or run exists.
+Final concrete-contract review passed. Preflight, research gate and 20,416
+repository checks passed; freeze/commit and governed execution are authorized. All actual results
+must return for review; no patient-population, kinetics or function inference.
+
+## Historical milestones
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and
@@ -99,44 +104,22 @@ S1M report now owns the molecular accession and platform/layout findings.
 
 ## Exact remaining work
 
-S4B is preserved at `8d7f644`, S3Q at `6f4fdf0`. Adapted S3 ran from frozen
-setup `28a62d9`; its outputs, independent verification and two reviewed figures
-are complete and registered. Coordinator review requested no numerical or figure
-revision. The research gate, 20,170 repository checks and 380 local links passed.
-S3 is preserved at `8ada940`. S5M v1's aggregate-warning defect is preserved;
-v2 ran from `26d23e8` and passed 12,361,838 exact checks. Its coefficients,
-covariances and ATAC table are unchanged; the corrected figure was inspected.
-The coordinator reviewed v2 without numerical/figure revision and authorized
-S5F after local preservation at `7051b45`. Its separately frozen specification
-at `ff0ed97` has now executed with independent verification and reviewed figures.
-The final report is coordinator-reviewed without further revision; continue S6.
-The following original work remains unfinished. Blocked source work still needs
-a supported resolution; independently eligible comparisons require their own
-qualified scope and stage review. None was resumed during recovery.
+1. Freeze/commit the reviewed [S7 contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json),
+   exact source map and constructed verification record. Source-row order,
+   concurrent controls, metadata discrepancies and raw-zero strata are fixed in
+   the method; no actual gene effects have been inspected during preparation.
+2. Approval is recorded; after the setup commit, use the research runner with
+   a fresh run ID, independently verify all outputs, inspect the actual figure and
+   report the full donor/method/zero-stratum results for review. No extra score,
+   pathway or cohort follows automatically from an unfavorable result.
+3. Preserve the S6A EDF6g identity hold, S4/S4B source/reference uncertainty and all
+   S3/S6C proxy/zero/width/platform/pooling limits. Original retained-region or
+   raw-read alternatives require their own qualified design/resources. A1 and
+   Arz1 ownership remains unchanged; no molecular-to-function join is invented.
 
-1. Preserve S4's complete output and the recorded female/marker inconsistency.
-   Both baseline histories contain the discrepant profile; this neither proves
-   every history contrast biased nor proves the discrepancy cancels.
-2. Preserve S4B's primary and both reference outcomes, fixed qualification and
-   original examples. Reference dependence is not a corrected baseline, sex
-   assignment, matching or biological validation.
-3. The pinned local reader and all eight original D6/D30 tracks are prepared,
-   with source/date/size/hash records and a successful upstream toy-file check.
-   S3Q qualified the canonical mm10 dictionaries while leaving deposited units and
-   original-region semantics unresolved. The separately approved amendment now
-   produced the finite relative-rank result under its frozen specification;
-   it does not establish absolute accessibility or original memory domains.
-4. Continue the [analysis plan](ANALYSIS_PLAN.md) through S6 after S5F report
-   review. Assess the six recovered daily-area tables (especially F5g's residual
-   contrast and N mismatch), fixed five-marker D6 RNA QC, and D180 using exactly
-   the frozen S3 universe/widths/rank endpoint and all five paper anchors. Keep
-   original-domain/raw-read alternatives separate with actual availability and
-   resource limits. No new numerical extension runs before prospective review.
-   No restricted extraction was retried; retain negative and mixed outcomes.
-
-This is an unfinished execution checkpoint. It is **not** a finding that further
-extension analyses are uninformative or unavailable. No claim grade, canonical
-question, governance boundary, frozen evidence or external publication changed.
+The current S6 synthesis supplies a justified bounded next comparison, not human
+scientific acceptance or a finding that all further research is exhausted.
+Earlier numerical results are not rerun for this documentation update.
 
 ## Usage-limit interruption and resumption — 18–19 November 2026
 

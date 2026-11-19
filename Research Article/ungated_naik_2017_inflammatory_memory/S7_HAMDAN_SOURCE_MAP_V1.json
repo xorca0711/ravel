@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "study": "GSE282444",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282444",
+  "annotation_columns": [
+    "GeneId",
+    "Chromosome",
+    "Start",
+    "End",
+    "Length",
+    "GeneName",
+    "GeneBiotype"
+  ],
+  "source_columns": [
+    "115_NI_1",
+    "115_NI_2",
+    "115_NI_3",
+    "115_PI_1",
+    "115_PI_2",
+    "115_PI_3",
+    "13_NI_1",
+    "13_NI_2",
+    "13_NI_3",
+    "13_PI_1",
+    "13_PI_2",
+    "13_PI_3",
+    "3_NI_1",
+    "3_NI_2",
+    "3_NI_3",
+    "3_PI_1",
+    "3_PI_2",
+    "3_PI_3",
+    "4_NI_1",
+    "4_NI_2",
+    "4_NI_3",
+    "4_PI_1",
+    "4_PI_2",
+    "4_PI_3",
+    "83_NI_1",
+    "83_NI_2",
+    "83_NI_3",
+    "83_PI_1",
+    "83_PI_2",
+    "83_PI_3",
+    "8_NI_1",
+    "8_NI_2",
+    "8_NI_3",
+    "8_PI_1",
+    "8_PI_2",
+    "8_PI_3",
+    "4_NI_TNF100_1",
+    "4_NI_TNF100_2",
+    "4_NI_TNF10_1",
+    "4_NI_TNF10_2",
+    "4_NI_control_1",
+    "4_NI_control_2",
+    "4_PI_TNF100_1",
+    "4_PI_TNF100_2",
+    "4_PI_TNF10_1",
+    "4_PI_TNF10_2",
+    "4_PI_control_1",
+    "4_PI_control_2",
+    "83_NI-1_TNF10",
+    "83_NI-2_TNF10",
+    "83_NI_Control_1",
+    "83_NI_Control_2",
+    "83_PI-1_TNF10",
+    "83_PI-2_TNF10",
+    "83_PI_Control_1",
+    "83_PI_Control_2"
+  ],
+  "samples": [
+    {
+      "patient": "4",
+      "history": "NI",
+      "condition": "0",
+      "replicate_suffix": 1,
+      "key": "NI0_1",
+      "gsm": "GSM8643398",
+      "column": "4_NI_control_1",
+      "title": "Subject 4 Noninflamed Control Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "NI",
+      "condition": "0",
+      "replicate_suffix": 2,
+      "key": "NI0_2",
+      "gsm": "GSM8643399",
+      "column": "4_NI_control_2",
+      "title": "Subject 4 Noninflamed Control Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "NI",
+      "condition": "T",
+      "replicate_suffix": 1,
+      "key": "NIT_1",
+      "gsm": "GSM8643396",
+      "column": "4_NI_TNF10_1",
+      "title": "Subject 4 Noninflamed + Treated with TNF10 Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "NI",
+      "condition": "T",
+      "replicate_suffix": 2,
+      "key": "NIT_2",
+      "gsm": "GSM8643397",
+      "column": "4_NI_TNF10_2",
+      "title": "Subject 4 Noninflamed + Treated with TNF10 Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "I",
+      "condition": "0",
+      "replicate_suffix": 1,
+      "key": "I0_1",
+      "gsm": "GSM8643407",
+      "column": "4_PI_control_1",
+      "title": "Subject 4 Inflamed Control Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "I",
+      "condition": "0",
+      "replicate_suffix": 2,
+      "key": "I0_2",
+      "gsm": "GSM8643408",
+      "column": "4_PI_control_2",
+      "title": "Subject 4 Inflamed Control Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "I",
+      "condition": "T",
+      "replicate_suffix": 1,
+      "key": "IT_1",
+      "gsm": "GSM8643405",
+      "column": "4_PI_TNF10_1",
+      "title": "Subject 4 Inflamed + Treated with TNF10 Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "4",
+      "history": "I",
+      "condition": "T",
+      "replicate_suffix": 2,
+      "key": "IT_2",
+      "gsm": "GSM8643406",
+      "column": "4_PI_TNF10_2",
+      "title": "Subject 4 Inflamed + Treated with TNF10 Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "NI",
+      "condition": "0",
+      "replicate_suffix": 1,
+      "key": "NI0_1",
+      "gsm": "GSM8643414",
+      "column": "83_NI_Control_1",
+      "title": "Subject 83 Noninflamed Control Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "NI",
+      "condition": "0",
+      "replicate_suffix": 2,
+      "key": "NI0_2",
+      "gsm": "GSM8643415",
+      "column": "83_NI_Control_2",
+      "title": "Subject 83 Noninflamed Control Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "NI",
+      "condition": "T",
+      "replicate_suffix": 1,
+      "key": "NIT_1",
+      "gsm": "GSM8643409",
+      "column": "83_NI-1_TNF10",
+      "title": "Subject 83 Noninflamed + Treated with TNF10 Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "NI",
+      "condition": "T",
+      "replicate_suffix": 2,
+      "key": "NIT_2",
+      "gsm": "GSM8643410",
+      "column": "83_NI-2_TNF10",
+      "title": "Subject 83 Noninflamed + Treated with TNF10 Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "I",
+      "condition": "0",
+      "replicate_suffix": 1,
+      "key": "I0_1",
+      "gsm": "GSM8643421",
+      "column": "83_PI_Control_1",
+      "title": "Subject 83 Inflamed Control Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "I",
+      "condition": "0",
+      "replicate_suffix": 2,
+      "key": "I0_2",
+      "gsm": "GSM8643422",
+      "column": "83_PI_Control_2",
+      "title": "Subject 83 Inflamed Control Rep 2",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "I",
+      "condition": "T",
+      "replicate_suffix": 1,
+      "key": "IT_1",
+      "gsm": "GSM8643416",
+      "column": "83_PI-1_TNF10",
+      "title": "Subject 83 Inflamed + Treated with TNF10 Rep 1",
+      "platform": "GPL20301"
+    },
+    {
+      "patient": "83",
+      "history": "I",
+      "condition": "T",
+      "replicate_suffix": 2,
+      "key": "IT_2",
+      "gsm": "GSM8643417",
+      "column": "83_PI-2_TNF10",
+      "title": "Subject 83 Inflamed + Treated with TNF10 Rep 2",
+      "platform": "GPL20301"
+    }
+  ],
+  "excluded_columns": [
+    {
+      "column": "115_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "115_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "13_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "3_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "83_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_NI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_1",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_2",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "8_PI_3",
+      "reason": "separate_baseline_triplicates"
+    },
+    {
+      "column": "4_NI_TNF100_1",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_NI_TNF100_2",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_PI_TNF100_1",
+      "reason": "patient4_only_higher_challenge"
+    },
+    {
+      "column": "4_PI_TNF100_2",
+      "reason": "patient4_only_higher_challenge"
+    }
+  ],
+  "history_semantics": "PI column label maps to inflamed-derived I; no recovered-human-state inference",
+  "replicate_semantics": "Deposited library suffix; culture/aliquot independence and matching unknown",
+  "single_endpoint_hours": 24
+}

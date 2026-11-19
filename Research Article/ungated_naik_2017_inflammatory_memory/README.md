@@ -6,14 +6,21 @@ existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
 paper-driven workflow. Execution and coordinator review confer no human
 scientific acceptance.
 
-**Current result:** [S6C D180](S6C_RESULTS_V1.md) extends the exact S3 TSS-proxy
-universe to all four original D180 tracks. Primary median absolute rank difference
-is 2.167 pp, versus D30 1.995 pp and D6 3.067 pp; only 45.55% are smaller than
-D30 and 47.92% have opposite signs. Aim2/Casp1 remain positive at both widths,
-while other fixed anchors are mixed or width-sensitive. This is heterogeneous
-relative ordering, not uniform decay, original retained domains or a maintenance
-mechanism. All 7,009,534 independent checks, 296 interval readbacks and receipt
-integrity passed. Both actual figures and the complete report were coordinator-reviewed without revision.
+**Current research decision:** [S6 synthesis v2](S6_DECISION_V2.md) closes the
+reviewed Naik extensions and defines the next informative comparison. The completed
+work qualifies shared-source measurements and their interpretation; it does not
+yet establish an independent biological result or a new memory mechanism.
+The [S7 method](S7_HAMDAN_RESPONSE_METHOD_V1.md) asks whether Hamdan's post-challenge
+RNA differences also support larger responses after subtracting concurrent-control
+differences within each of two donors. The concrete method/contract, exact map and constructed tests passed
+coordinator review; source execution is authorized after frozen setup. No Hamdan gene effects have run.
+
+The latest measured [S6C D180 result](S6C_RESULTS_V1.md) retains the exact S3
+universe: median absolute rank difference 2.167 pp (D30 1.995, D6 3.067), only
+45.55% smaller than D30 and 47.92% with opposite signs. This is heterogeneous
+relative ordering, not uniform decay or original retained-domain reproduction.
+All 7,009,534 independent checks, 296 interval readbacks and receipt integrity
+passed; the complete report and both figures were reviewed without revision.
 
 ![D180 complete fixed-universe contrasts and width sensitivity](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/fig01_D180_universe.png)
 
@@ -35,12 +42,12 @@ PDF curve labels and related summary Ns. No group swap/refit or Aim2 repair
 reversal claim follows. The other five panels retain their finite-source scope.
 S5F remains preserved at `2514379`; all earlier functional endpoints remain separate.
 
-Completing D6/D180 alone does not establish research progression beyond
-reproduction. Final S6 will connect actual observations with the qualified later
-primary literature and assess the explicit Hamdan per-donor response interaction
-against its published STEM display. One bounded prospective method/contract may
-be prepared for review; no Hamdan gene effect or molecular-function model has
-run here, no novel mechanism is asserted, and A1/Arz1 ownership remains intact.
+The progression is explicit: published recall → baseline/reference-dependent
+Naik contrasts → a separate within-donor response estimand in Hamdan. S7 reports
+both constituent responses, both normalizations and raw-zero strata, without
+converting genes/libraries into patients or RNA into repair. Published STEM
+condition ordering, normalization ambiguities and the exact source discrepancies
+remain visible in the [current rationale](S6_DECISION_V2.md).
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR
@@ -86,9 +93,9 @@ describes computational order, not a cellular trajectory or established causal c
 - S5F supplies distinct measured functional/source endpoints. Tongue length,
   EdU, outgrowth, expression, activity, protein and reported decay constants
   cannot substitute for one another or identify memory storage. The residual
-  within-blockade F5g contrast motivates qualifying the separate daily-area
-  sources before proposing a bounded extension; no new numerical extension has
-  run. Naik Fig. 5c already supplies the transcript/protein distinction.
+  within-blockade F5g contrast motivated completed S6A daily-area qualification.
+  EDF6g mapping is held for the exact source-label conflict; the other panels
+  remain descriptive. Naik Fig. 5c already supplies the transcript/protein distinction.
 - S5M connects the measured RNA and TSS-proxy descriptions: acute alignment is
   larger than recovered/recall alignment, with baseline subtraction shaping the
   small adjusted associations. Shared libraries, baseline coupling and differing
@@ -222,63 +229,26 @@ evidence changes, rather than from a requirement to complete every available met
 
 ## Current disposition and immediate next step
 
-S1M and S2 are coordinator-reviewed and committed. S4 ran from frozen setup
-`840bca3`; independent verification passed 7,255,847 checks, including all marker
-rows and shared-baseline correlation diagnostics. The coordinator reviewed its
-numerical/visual outputs without requesting numerical revision and authorized
-bounded S4B after preserving S4. This agent review supplies no human scientific
-acceptance.
+All S1M–S6C numerical records remain preserved; [STAGE_STATUS](STAGE_STATUS.md)
+and the reports own their exact historical setup/results/reviews. S6C and its
+separate failed-launch archive are preserved at `3c60839`. No frozen historical
+script, result, source contract or unfavorable observation was overwritten.
 
-S4B ran from frozen setup `d547951`; 3,938,436 independent checks and receipt
-integrity passed. Coordinator review authorized S3 preparation. S3Q at `6f4fdf0`
-qualified core chromosomes while leaving 44 noncanonical aliases and deposited
-scale/original-region semantics unresolved. The separately approved
-[amendment](S3_AMENDMENT_V1.md) and [method](S3_METHOD_V1.md) were frozen at
-`28a62d9`; the adapted [S3 result](S3_RESULTS_V1.md) is now executed, independently
-verified and registered, with all prior evidence preserved. The research gate,
-20,170 repository checks and 380 local links passed. S3 is preserved at
-`8ada940`; coordinator review requested no numerical or figure revision.
+The reviewed [S7 contract](../../analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
+binds nine inputs, five Python files plus source-map configuration and ten expected outputs. Fourteen
+constructed-data tests and 3,578 independent checks pass; the synthetic figure
+was inspected. Source preflight, the research gate and 20,416 repository checks
+pass. Coordinator review authorizes freezing/committing accepted hashes and
+governed real-source execution. Full results and the
+actual figure must return for review. There is no S7 run receipt yet.
 
-The [S5 proposal](S5_PROPOSAL_V1.md) was prepared during extraction under separate
-coordinator authorization. It retains source reuse, shared-baseline coupling and
-separate functional units, including the F1e source/caption count discrepancy.
-[S5M v1](S5M_RESULTS_V1.md) ran from `03d42af`; coordinator review identified
-an aggregate zero-flag semantic defect. The authorized [v2 amendment](S5M_AMENDMENT_V2.md)
-was frozen at `26d23e8` and has now executed with raw-count semantic verification.
-All coefficients, covariance records, ATAC values and Figure 1 are byte-identical;
-corrected Figure 2 was visually inspected. [Actual v2 results](S5M_RESULTS_V2.md)
-were reviewed without numerical/figure revision; S5F is authorized after local
-preservation at `7051b45`. S5F ran from frozen setup `ff0ed97`, with 35 endpoints,
-83 groups and 38 contrasts. [Actual results](S5F_RESULTS_V1.md), 18 outputs and the
-receipt are registered; 13,821 independent ZIP/XML/Decimal checks passed. All
-five figures were reviewed by the technical session and coordinator without a
-revision request; final report review is complete. The research gate, 20,267
-repository checks and 308 local links passed. The [S6 assessment](S6_DECISION_V1.md)
-and [approved S6A design](S6A_DAILY_AREA_DESIGN_V1.md) led to the frozen setup
-`8155411` and [executed S6A result](S6A_RESULTS_V1.md). All four figures and numerical
-implementation were coordinator-reviewed without requested revision. The EDF6g
-source-identity hold is carried into the current interpretation; complete report
-review is complete without further revision. Fixed five-marker D6 QC is approved in principle within the
-specified scope; D180 metadata qualification can be prepared separately. Preserve ATAC zero flags because
-other windows/tie mass can change the rank even of a constant local zero.
+Original retained domains, exact animal/culture joins, track scale and EDF6g
+mapping remain specific unresolved comparisons. They do not justify a blanket
+source hold or automatic new analysis queue. A1/Arz1 and all existing RQs retain
+their ownership. No claim promotion, publication or external inquiry is made.
 
-Execution was authorized through a separate technical session. That service
-returned an automatic content restriction during source qualification; a narrower
-host-cell/non-infectious-repair continuation also failed before execution. The
-[checkpoint](STAGE_STATUS.md) records the incomplete stages and exact next work.
-No numerical result or scientific stopping conclusion follows from this failure.
-
-S0 has an initial evidence map. Broader S1 source/functional qualification and
-the original retained-region reproduction and S6 remain unfinished. S5F has executed
-and has completed coordinator stage review. The separately authorized molecular work did not retry
-the restricted extraction. S2 makes no population inference; a separately
-justified inferential reproduction remains possible. The independent
-bioinformatics study supplies no task dependencies or execution restrictions here.
-
-Remote inspection on 17 November found main at
-[`d0429d0`](https://github.com/xorca0711/ravel/commit/d0429d0205fab3e079ea949d0cb0b3a0c1a4a4be),
-no open PRs, and passing
-[repository checks](https://github.com/xorca0711/ravel/actions/runs/43393470127) and
-[research governance](https://github.com/xorca0711/ravel/actions/runs/43393470288).
-The older PROGRESS entry saying PR #182 awaits merge is historical; the main
-commit verifies that it merged. This planning package preserves that record.
+The earlier source restriction and later usage-limit interruption are historical,
+separate events in [RECOVERY_CHECKPOINT](RECOVERY_CHECKPOINT.md); neither is a
+scientific finding. The independent learning exercise supplies no task dependency.
+Current main was refreshed at `d0429d0` on 19 November. The older root progress
+entry about PR #182 awaiting merge is historical; no integration action is taken here.

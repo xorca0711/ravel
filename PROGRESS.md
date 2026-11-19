@@ -1,77 +1,69 @@
 # Current project state
 
-## 2026-11-19 — Naik S6 results and research-progression decision
+## 2026-11-19 — Naik S6 synthesis and concrete Hamdan S7 draft
 
-Owner `Nk17-P01`; scoped worktree `.worktrees/naik-memory-plan-20261117`, branch
-`codex/naik-memory-plan-20261117`. GitHub route is verified `xorca0711`, effective
-commit attribution Xorca. Last refreshed main is `d0429d0`; unrelated root work
-remains untouched. Research continuation is authorized locally, with coordinator
-review after stages; review does not provide human scientific acceptance.
+Owner `Nk17-P01`; active worktree `.worktrees/naik-memory-plan-20261117`, branch
+`codex/naik-memory-plan-20261117`. GitHub CLI identity is verified `xorca0711`;
+effective author/committer is Xorca <dreamtree071@gmail.com>. Main was freshly
+fetched at `d0429d0`; unrelated root work remains untouched. Local stage review
+is authorized; it does not constitute human scientific acceptance.
+
+[S6 current synthesis](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V2.md)
+connects the completed Naik observations with qualified later primary literature.
+The current contribution is shared-source reconstruction and measurement/contrast
+qualification, not an independent biological discovery or new memory mechanism.
+The coordinator reviewed this rationale and approved implementation/constructed
+tests for the bounded Hamdan response interaction, adding prospective sign-table
+strata defined solely by any versus no raw-count zeros. Both full eligible tables
+and all unfavorable records remain. The next endpoint is 24-hour RNA response
+magnitude within each donor, not speed, causal memory or repair function.
+
+[S7 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_RESPONSE_METHOD_V1.md)
+and [reviewed contract](analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json)
+are concrete: exact sixteen concurrent-control/shared-challenge libraries from
+patients 4/83; per-donor MOR plus total-count sensitivity; group-mean-then-log
+P/B/R_I/R_NI/A; distinct raw/contrast/range zeros; all-gene outputs and two donors
+reported separately. Nine hashed inputs, five Python files plus source-map configuration and ten expected
+outputs are registered. Fourteen constructed tests and 3,578 independent checks
+pass (maximum scaled error 2.02718e-15), with a synthetic figure inspected. Draft
+source preflight passes. No actual Hamdan gene effect or run receipt exists.
+Concrete contract/source-map/test review passed with no further scientific
+revision. Research gate and 20,416 repository checks passed. The first gate found
+a missing execution-configuration binding for the unchanged source map; the
+existing S6A binding pattern resolved it, with no validator/method change.
+Freeze/commit and governed execution are now authorized.
 
 [S6C D180](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md)
-completed from frozen `7563cdf` in `naik2017_s6c_d180_proxy_v1_retry1`. All 21,760
-exact S3 windows per width and five anchors are retained. Primary median absolute
-D180 rank difference is 2.166919 pp (D30 1.995151; D6 3.067122); 45.55% are smaller
-than D30 and 47.92% have opposite signs. This is heterogeneous relative ordering,
-not uniform decay, stable same-direction memory or original-domain reproduction.
-All 7,009,534 independent checks passed (maximum scaled error 5.68434e-14), with
-296 interval readbacks at zero maximum scaled error. Receipt integrity passed;
-both actual figures and the complete report were coordinator-reviewed without
-revision. Entry runtime 489.156 seconds; reader peak RSS including
-readbacks 146.102 MiB; all 24 run files total 24,800,451 bytes.
-
-The first S6C attempt failed at WSL path translation before headers/window signal:
-default-sandbox `Wsl/E_ACCESSDENIED`, with a UTF-16/UTF-8 error-output decode issue.
-All eight original files remain intact in a governed byte-preserving failure
-archive, with a separate diagnostic; the original receipt remains failed.
-The [preservation receipt](analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/receipt.json)
-passed integrity verification. Metadata setup `870fe2a` changes no scientific
-code, source labels or governance. The approved local WSL access route and fresh
-retry1 ID used the same frozen scientific code/contract/inputs. No installation
-or account/safeguard change occurred. A pandas future-deprecation warning is
-recorded separately from numerical validity.
+and its separate failed-launch archive are reviewed/preserved at `3c60839`.
+Successful frozen setup `7563cdf` produced the exact S3 universe in retry1:
+median abs D180 2.166919 pp versus D30 1.995151 and D6 3.067122; 45.55% shrink
+from D30 and 47.92% reverse sign. All 7,009,534 independent checks, 296 exact
+interval readbacks, receipt integrity and both actual figures/report passed.
+Runtime 489.156 seconds; reader peak 146.102 MiB; 24 files total 24,800,451 bytes.
+The initial WSL path-access failure occurred before signal reading, is archived
+byte-for-byte under its separate governed metadata receipt, and remains failed.
+The approved retry changed no scientific code/input or safeguard. Result gate
+against main `d0429d0`, 20,389 repository checks and whitespace passed.
 
 [S6B D6 QC](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md)
-is reviewed/preserved at `ba5afa4` (setup `f92cf21`): Xist is present in the
-thousands in all four libraries, three Y-linked markers are zero and Uty is 0–1
-read. The specific S4 baseline pattern is not repeated; this is not sex assignment,
-proof of no confounding or RNA–ATAC matching. All twenty rows, 191,370 independent
-checks, actual figure and original metadata are retained. S6B result gate against
-refreshed main `d0429d0`, all 20,366 repository checks and whitespace passed.
+is reviewed/preserved at `ba5afa4`: the specific S4 baseline marker pattern is
+not repeated; sex/confounding/RNA–ATAC pairing remain unresolved. All twenty rows,
+191,370 checks and figure are retained. [S6A](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
+is reviewed/preserved at `ccc91cd`: all six panels and 27,894 checks remain;
+EDF6g biological mapping is held for exact workbook/final-PDF/summary conflicts,
+without relabeling/refitting. Earlier frozen S5F/S5M/S3/S4B/S4/S2/S1M evidence,
+failures and negative/mixed results remain in the linked
+[stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
 
-[S6A daily areas](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
-is reviewed/preserved at `ccc91cd` (setup `8155411`): 62 endpoints, 228 group-days,
-166 contrast-days and 27,894 checks. **EDF6g biological mapping remains held**:
-exact workbook labels conflict with the final PDF page15 curve labels and related
-summary Ns. No group swap/refit or repair reversal claim; other five panels remain
-descriptive. All earlier frozen results remain: S5F `2514379`, S5M v2 `7051b45`,
-S3 `8ada940`, S4B `8d7f644`, S4 `628631e`, S2 `5bf472e`, S1M v2 `e838747`.
-The [stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md)
-and individual reports retain their exact scope, validation and historical holds.
-
-S6C setup preflight/gate and 20,367 repository checks passed. Result-stage gate
-against refreshed main `d0429d0`, all 20,389 repository checks (including local
-links), receipt integrity and whitespace now passed; coordinator review required
-no revision. Preserve locally, then final S6 synthesis and the bounded Hamdan
-prospective method/contract for review. No new Hamdan gene effects have been calculated.
-
-Final S6 must explicitly assess progression beyond shared-source reproduction.
-The coordinator qualified Hamdan 2026 main/supplement/GEO sources and a possible
-per-donor interaction using 16 shared-challenge/concurrent-control RNA libraries
-from patients 4 and 83. Compare the explicit response interaction with the
-published four-condition STEM display; do not claim the authors ignored baseline.
-Normalization, zero/eligibility semantics and exact column joins must be prospective.
-Prepare the concrete bounded method/contract for review after D180 closure;
-numerical execution requires that review. No gene/library-as-patient inference,
-scratch digitization, RNA-to-function model or new global RQ is authorized.
-A1 and Arz1 ownership and all existing RQs remain unchanged. Original retained
-domains, exact pooled-animal maps and EDF6g labels remain specifically unresolved;
-these limits do not mean all useful research is exhausted.
-
-The independent learning exercise is not a dependency. Earlier source restrictions
-and the later account-usage reset are historical, distinct events, retained in
-[recovery evidence](Research%20Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md).
-No external inquiry, publication, account settings or protected policy changes.
+Exact next step: freeze/commit the accepted S7 package and run once in a fresh
+directory under the existing runner; concrete approval is recorded. Return full numerical/visual results for review. No new score,
+pathway, scratch digitization, RNA-to-function model or global RQ is authorized.
+A1/Arz1 ownership, original-domain/pool/source-label uncertainties and all RQs
+remain intact. Missing phenotype/culture/time joins hold only their dependent
+functional comparison. No biological rerun is needed for these documentation edits.
+The independent learning exercise is not a dependency. Historical source/usage
+interruptions remain separate in the recovery record. No publication, external
+inquiry, account settings or protected governance changes.
 
 ## 2026-11-13 — Approved portfolio figure archive
 
