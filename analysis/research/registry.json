@@ -1166,6 +1166,7 @@
       "id": "Nk17-P01",
       "plan": "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md",
         "Research Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md",
@@ -1680,7 +1681,9 @@
     "analysis/research/runs/naik2017_s5m_molecular_integration_v2/receipt.json",
     "analysis/research/runs/naik2017_s5f_functional_sources_v1/receipt.json",
     "analysis/research/runs/naik2017_s6a_daily_area_v1/receipt.json",
-    "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/receipt.json"
+    "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/receipt.json",
+    "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/receipt.json",
+    "analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

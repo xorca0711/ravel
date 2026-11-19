@@ -7,34 +7,27 @@ outside this package.
 
 ## Current disposition
 
-[S6A v1](S6A_RESULTS_V1.md) executed from frozen setup `8155411`. Its 62
-endpoints/228 group-days/166 contrast-days, independent 27,894 checks and receipt
-integrity passed; all four actual figures and the numerical implementation were
-coordinator-reviewed without revision. Complete report review is also complete
-without further revision.
-EDF6g has an unresolved original-header versus published-figure/source-summary
-label discrepancy: hold its biological mapping, preserve literal-label outputs,
-and do not swap groups. The other five panels retain their descriptive scope.
-S5F remains preserved at `2514379`; earlier results are unchanged.
+[S6C](S6C_RESULTS_V1.md) completed from frozen `7563cdf` in fresh retry1, with
+7,009,534 independent checks, 296 exact-mean readbacks and receipt integrity
+passed. The complete report and both actual figures were coordinator-reviewed
+without revision. The original attempt failed before header/signal reading at sandbox WSL
+access and is separately preserved byte-for-byte, retaining its failed receipt.
+The retry changed no scientific code, input, interpretation rule or governance.
 
-S6A is preserved at `ccc91cd`. [S6B](S6B_RESULTS_V1.md) ran from frozen setup
-`f92cf21`; all 191,370 independent checks and receipt integrity passed. Its actual
-figure and complete report were coordinator-reviewed without revision.
-The specific S4 baseline marker pattern was not repeated in these four D6
-libraries; no sex assignment, exclusion, correction or pairing was inferred.
-Result-stage research gate against refreshed main `d0429d0`, all 20,366 repository
-checks and whitespace passed. The reviewed S6B result is preserved at `ba5afa4`.
-S6C implementation/contract is prepared: 17 inputs, eight code dependencies,
-21 declared outputs; seven artificial tests (14,235 independent fixture checks)
-and both artificial layouts passed. Exact contract freeze precedes the real run.
+[S6B](S6B_RESULTS_V1.md) is coordinator-reviewed/preserved at `ba5afa4`; its
+191,370 checks and figure passed, with no repetition of the specific S4 baseline
+marker pattern in these D6 sources. Sex, confounding and matching remain unresolved.
+[S6A](S6A_RESULTS_V1.md) is reviewed/preserved at `ccc91cd`; EDF6g biological
+mapping is held for exact workbook/primary-figure/summary discrepancies, with no
+relabeling or refit. All other prior frozen measurements remain intact.
 
-The [S6C exact-S3 D180 method](S6C_D180_METHOD_V1.md) was coordinator-approved
-without revision for implementation, tests, freeze and execution after D6.
-One new exposed contract will qualify all four source identities/header/dictionaries
-before dependent extraction. No D180 window signal has been read. Final S6 must
-also evaluate a justified research progression beyond reproduction using the
-actual results and qualified later primary literature; no new mechanism or
-question status is implied by completing D6/D180.
+S6C setup checks passed. Result-stage gate against refreshed main `d0429d0`, all
+20,389 repository checks and whitespace passed; complete coordinator review
+requires no revision. Preserve locally, then final S6 and the bounded Hamdan
+method/contract for review. The Hamdan per-donor concurrent-control interaction
+is a candidate supported by qualified later-source reading, not a new mechanism
+or an already executed analysis. No gene/library-as-patient inference, scratch
+refit, RNA-to-function model, A1/Arz1 reassignment or human claim acceptance.
 
 The owner subsequently authorized the independently bounded
 [S1M molecular metadata stage](S1M_CONTEXT_V1.md), with local setup commits and

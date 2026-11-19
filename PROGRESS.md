@@ -1,237 +1,77 @@
 # Current project state
 
-## 2026-11-17 — Naik epithelial-memory reading and stepwise plan
+## 2026-11-19 — Naik S6 results and research-progression decision
 
-19 November latest result: [S6B D6 QC](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md)
-ran from frozen setup `f92cf21`. All four libraries have Xist in the thousands;
-Ddx3y/Eif2s3y/Kdm5d are zero and Uty is 0–1 read. The specific S4 baseline
-pattern was not repeated here; sex, pairing and absence of confounding remain
-unestablished. All twenty profiles and original metadata/frozen S2 factors are
-retained. Independent verification passed 191,370 checks (maximum scaled error
-1.18728e-16), receipt integrity passed, and the actual figure was inspected.
-The coordinator reviewed the complete report, all twenty rows and actual figure
-without revision. The result research gate against refreshed main `d0429d0`, all
-20,366 repository checks and whitespace passed. S6B is preserved at `ba5afa4`; its frozen
-setup was `f92cf21`. Approved D180 implementation is now prepared.
+Owner `Nk17-P01`; scoped worktree `.worktrees/naik-memory-plan-20261117`, branch
+`codex/naik-memory-plan-20261117`. GitHub route is verified `xorca0711`, effective
+commit attribution Xorca. Last refreshed main is `d0429d0`; unrelated root work
+remains untouched. Research continuation is authorized locally, with coordinator
+review after stages; review does not provide human scientific acceptance.
 
-S6C was frozen at `7563cdf`. The first attempt failed at local WSL path
-translation (`Wsl/E_ACCESSDENIED` in the default sandbox), before any header or
-window-signal read. Its eight files were retained intact for governed failure
-archival; no failed receipt is relabeled as successful. The same frozen contract,
-inputs and code are now executing in fresh run `naik2017_s6c_d180_proxy_v1_retry1`
-using the approved local WSL access route. All four headers qualified: required
-20 chromosome lengths match mm10; complete 66-entry dictionaries match S3.
-Extraction is in progress. A metadata-only exact failure-preservation contract
-is prepared; no governance or scientific design changed.
+[S6C D180](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md)
+completed from frozen `7563cdf` in `naik2017_s6c_d180_proxy_v1_retry1`. All 21,760
+exact S3 windows per width and five anchors are retained. Primary median absolute
+D180 rank difference is 2.166919 pp (D30 1.995151; D6 3.067122); 45.55% are smaller
+than D30 and 47.92% have opposite signs. This is heterogeneous relative ordering,
+not uniform decay, stable same-direction memory or original-domain reproduction.
+All 7,009,534 independent checks passed (maximum scaled error 5.68434e-14), with
+296 interval readbacks at zero maximum scaled error. Receipt integrity passed;
+both actual figures and the complete report were coordinator-reviewed without
+revision. Entry runtime 489.156 seconds; reader peak RSS including
+readbacks 146.102 MiB; all 24 run files total 24,800,451 bytes.
 
-The [S6C D180 method](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md)
-was coordinator-reviewed without revision and approved for implementation,
-tests, freeze and governed execution after D6. It retains the exact S3 universe,
-widths/rank semantics and all five fixed anchors. The new exposed contract binds seventeen inputs and eight code dependencies,
-with twenty-one declared outputs. Seven artificial tests passed, including
-14,235 independent fixture checks (maximum scaled error 1.24701e-14), and
-both artificial figure layouts were inspected. Exact source/header/dictionary
-qualification precedes extraction; the last-track mismatch fixture performed
-zero signal fetches. Input preflight, setup research gate against main `d0429d0`,
-all 20,367 repository checks and whitespace passed. No actual D180 window signal
-has been read. Next: frozen commit, governed run, independent readbacks/
-verification, actual figure/result review and preservation. Final S6 must also assess justified progression beyond
-shared-source reproduction: published finding → repository observation →
-unresolved question → informative comparison, using the qualified later primary
-literature. Completing D6/D180 alone does not settle that decision. Prepare a
-bounded prospective extension for review only if actual evidence supports it;
-otherwise name the missing discriminator without inventing a mechanism or score.
+The first S6C attempt failed at WSL path translation before headers/window signal:
+default-sandbox `Wsl/E_ACCESSDENIED`, with a UTF-16/UTF-8 error-output decode issue.
+All eight original files remain intact in a governed byte-preserving failure
+archive, with a separate diagnostic; the original receipt remains failed.
+The [preservation receipt](analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/receipt.json)
+passed integrity verification. Metadata setup `870fe2a` changes no scientific
+code, source labels or governance. The approved local WSL access route and fresh
+retry1 ID used the same frozen scientific code/contract/inputs. No installation
+or account/safeguard change occurred. A pandas future-deprecation warning is
+recorded separately from numerical validity.
 
-19 November current checkpoint: [S6A v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
-executed from frozen setup `8155411`, preserving 62 endpoints, 228 group/days
-and 166 contrast/days (two required EDF6f day10 NA rows). Independent ZIP/XML/
-Decimal verification passed 27,894 checks (maximum scaled error 3.06e-15);
-receipt integrity passed. Sixteen outputs plus receipt/logs are registered.
-All four actual figures and numerical implementation were coordinator-reviewed
-without revision; full result-report review is now complete without further
-revision. Result-stage research gate against refreshed main `d0429d0`, all 20,334
-repository checks (including local links) and whitespace passed; local
-preservation remains next.
+[S6B D6 QC](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md)
+is reviewed/preserved at `ba5afa4` (setup `f92cf21`): Xist is present in the
+thousands in all four libraries, three Y-linked markers are zero and Uty is 0–1
+read. The specific S4 baseline pattern is not repeated; this is not sex assignment,
+proof of no confounding or RNA–ATAC matching. All twenty rows, 191,370 independent
+checks, actual figure and original metadata are retained. S6B result gate against
+refreshed main `d0429d0`, all 20,366 repository checks and whitespace passed.
 
-EDF6g biological interpretation is held: exact workbook headers conflict with
-the final PDF page15/Extended Data Fig.6g curve labels and main-summary Ns.
-Literal-label within-anti OE area is positive on all days1–10, but this source
-inconsistency is not an Aim2 repair reversal or refutation of the published
-biology. No groups were swapped or outputs repaired. The other five panels
-remain interpretable within finite-source limits. There are 16 structural day0
-adjusted zeros and no all-contributing-record area-floor contrast. All earlier
-frozen results remain unchanged, including S5F at `2514379`.
+[S6A daily areas](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
+is reviewed/preserved at `ccc91cd` (setup `8155411`): 62 endpoints, 228 group-days,
+166 contrast-days and 27,894 checks. **EDF6g biological mapping remains held**:
+exact workbook labels conflict with the final PDF page15 curve labels and related
+summary Ns. No group swap/refit or repair reversal claim; other five panels remain
+descriptive. All earlier frozen results remain: S5F `2514379`, S5M v2 `7051b45`,
+S3 `8ada940`, S4B `8d7f644`, S4 `628631e`, S2 `5bf472e`, S1M v2 `e838747`.
+The [stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md)
+and individual reports retain their exact scope, validation and historical holds.
 
-The setup preflight/research gate against refreshed main `d0429d0`, all 20,308
-repository checks and whitespace passed. Result-stage checks have passed; preserve locally, then continue. After S6A closure, the coordinator authorized exact five-marker × four-D6-
-library QC: frozen S2 factors, original metadata, no sex assignment/exclusion/
-correction/new marker or pairing. Prepare/freeze its separate exposed contract
-and return actual results for review. [D180 acquisition](Research%20Article/ungated_naik_2017_inflammatory_memory/D180_ACQUISITION_V1.md)
-is complete (four files; 3,118,510,945 bytes). Metadata qualification can be
-prepared under its own contract; D180 effects require a separately reviewed
-method. No D180 effects/new D6 marker values have run. Final S6 synthesis remains
-unfinished; no external inquiry, publication or human scientific acceptance.
+S6C setup preflight/gate and 20,367 repository checks passed. Result-stage gate
+against refreshed main `d0429d0`, all 20,389 repository checks (including local
+links), receipt integrity and whitespace now passed; coordinator review required
+no revision. Preserve locally, then final S6 synthesis and the bounded Hamdan
+prospective method/contract for review. No new Hamdan gene effects have been calculated.
 
-The prior technical turn ended at an account usage limit; owner continuation
-after the 19 November 12:20 KST reset is recorded separately from the older
-content restriction. GitHub identity is `xorca0711`, effective attribution is
-Xorca, and refreshed main remains `d0429d0`. No account/billing, safeguards,
-external inquiry or publication settings changed. This remains an unfinished
-analysis sequence; retain the actual mixed results and all frozen evidence.
+Final S6 must explicitly assess progression beyond shared-source reproduction.
+The coordinator qualified Hamdan 2026 main/supplement/GEO sources and a possible
+per-donor interaction using 16 shared-challenge/concurrent-control RNA libraries
+from patients 4 and 83. Compare the explicit response interaction with the
+published four-condition STEM display; do not claim the authors ignored baseline.
+Normalization, zero/eligibility semantics and exact column joins must be prospective.
+Prepare the concrete bounded method/contract for review after D180 closure;
+numerical execution requires that review. No gene/library-as-patient inference,
+scratch digitization, RNA-to-function model or new global RQ is authorized.
+A1 and Arz1 ownership and all existing RQs remain unchanged. Original retained
+domains, exact pooled-animal maps and EDF6g labels remain specifically unresolved;
+these limits do not mean all useful research is exhausted.
 
-Preserved [S5M v2](Research%20Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md)
-corrects count-zero/range semantics with 12,361,838 exact raw-count/preservation
-checks. Its coefficients and covariances remain unchanged; all figures were
-reviewed. The result gate, 20,221 repository checks and 111 local links passed.
-Primary RNA–ATAC association is larger at D6 than D30; negative adjusted
-covariance reflects baseline subtraction, not demonstrated repression.
-
-S3 is preserved at `8ada940`; coordinator review requested no numerical/figure
-revision. Its 2,788,974 independent checks, 608 exact mean rereads, research gate
-against `d0429d0`, 20,170 repository checks and 380 local links passed. Original
-domain/normalization limits, zero-tie rank interpretation and the earlier source
-restriction remain. S3Q is preserved at `6f4fdf0`. The preparatory S5F additions
-retain panel-specific units/Ns and are included in the authorized current S5F map. No publication,
-external inquiry or safeguard change is authorized.
-
-Preserved S4B result:  [S4B v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md)
-ran from frozen setup `d547951` under `Nk17-P01`, retaining all frozen S4 values,
-qualification and six examples. Alternative baseline references change about 15%
-of W6 and 17% of W12 union adjusted signs; baseline intersections remain similar.
-Median absolute reference shifts are about 0.11 log2 units. Col1a2's W12 direction
-changes under one reference. Neither one-library reference is adopted as a
-correction, sex stratum or matched comparison. The per-gene shift is identical
-at both times by construction, not independent temporal evidence.
-
-S4B preflight, governed execution and receipt integrity passed; eight outputs
-and the receipt are registered. Independent arithmetic passed 3,938,436 checks
-(maximum scaled error `8.8818e-16`). All four figure panels were visually checked.
-The coordinator reviewed the report/specification/verification/figure without
-requesting numerical revision and authorized S3 preparation/source qualification.
-This is agent progression review, not human scientific acceptance. S4B's research
-gate against refreshed main `d0429d0`, all 20,105 repository checks and whitespace
-passed. Preserve the local result commit, then continue S3 in this same worktree;
-all stages are not yet complete. No real S4B run failed; frozen S4 is unchanged.
-
-S4B is preserved in local commit `8d7f644`. S3 preparation now has a working
-[project-local reader](Research%20Article/ungated_naik_2017_inflammatory_memory/S3_RUNTIME_V1.md)
-and all eight original D6/D30 BigWigs: 6,679,503,736 bytes, source URLs/dates/sizes
-and local SHA-256 values recorded. Two concurrent transfers completed without
-track failure/resume; raw reads and D180 were not downloaded. The canonical UCSC
-mm10 chromosome dictionary is saved. An ordinary urllib certificate failure for
-the UCSC reference was resolved using normal Windows curl TLS; no setting changed.
-
-The [S3Q metadata specification](Research%20Article/ungated_naik_2017_inflammatory_memory/S3Q_METHOD_V1.md)
-and six outputs are preserved; the receipt is now registered. The newly approved
-rank endpoint requires an explicit amendment and does not relax the original
-plan's unresolved between-track magnitude/retained-region boundary.
-Cowley 2026 is existing longevity/CpG/demethylation/H2A.Z prior art supplied by the
-coordinator, with reused data explicit. Its D6/D30 FASTQs are from GSE171596, so
-its later 934-domain set is not the original Naik coordinate universe. Its private
-BED paths and bounded supplement access failures do not recover that universe.
-No restricted broad extraction, safeguards change, push, PR, Notion edit or
-external inquiry/publication was performed.
-
-Preserved [S4 v1](Research%20Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md)
-ran from setup `840bca3`, was coordinator-reviewed and committed at `628631e`.
-Its 7,255,847 independent checks, receipt integrity, full research gate against
-`d0429d0`, 20,077 repository checks, 249 local links and whitespace passed.
-Mixed relative RNA effects, shared-baseline correlation and unresolved recorded
-female/Xist/Y-marker discrepancy remain explicit. These establish no kinetics,
-repair, identity assignment or equivalence.
-
-Reviewed S2 checkpoint: [result](Research%20Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md)
-committed at `5bf472e`, PDF exports at `7eecc71`. Smaller D30 absolute effects
-occur for 82.58% of union-qualified and 83.65% of both-time-qualified genes,
-with heterogeneous residual directions and cross-time platform/layout limits.
-Its independent arithmetic verification, full research gate against `d0429d0`,
-20,041 repository checks, 237 document links and whitespace passed. All local
-commits use verified Xorca attribution; GitHub CLI is `xorca0711`. S2 coordinator
-review requested no numerical revision and supplies no human scientific acceptance.
-
-Earlier S1M checkpoint: [v2 qualification](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md)
-was coordinator-reviewed without revision and committed at `e838747`. Its 28
-library/experiment/run/BioSample joins and 16 compatible count tables support
-the bounded S2 route, with exact pool/pairing limits retained. S1M v1 (`b5f96ec`),
-v2 setup (`399ef62`) and the [amendment](Research%20Article/ungated_naik_2017_inflammatory_memory/S1M_AMENDMENT_V2.md)
-remain historical. Its research gate, 19,994 repository checks and 53 document
-links passed against `d0429d0`. Author/committer are verified Xorca for `xorca0711`.
-
-Earlier recovery-only checkpoint: all 36 acquisition-record files match their saved
-SHA-256 hashes and byte counts. The ignored source directory retains 41 files,
-including two acquisition records and three PDF-derived files without recorded
-acquisition hashes. Targeted searches found no Naik owner registration, contract,
-script, receipt or result. See the [recovery audit](Research%20Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md)
-for scope, current hashes and the preserved three-failure service history.
-Freshly fetched main and local HEAD remain `d0429d0`; GitHub CLI identity was
-verified as `xorca0711`. The five existing article drafts and saved inputs were
-retained. The originating chat reviewed the completed checkpoint and found no
-recovery revision necessary. No scientific work resumed. Next: a supported
-resolution of the service restriction is required before blocked work resumes.
-Recovery validation: 18 local documentation links, whitespace and conflict checks
-passed; all 51 monitored input and protected-document files remained byte-identical.
-
-Execution checkpoint: the owner authorized a separate technical session with
-stage-by-stage review and result-guided continuation. The service failed with an
-automatic content restriction during S1; a narrower host-cell RNA/ATAC and
-non-infectious repair continuation also failed before execution. No Naik numerical
-analysis, contract or receipt was produced. See the
-[stage checkpoint](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
-After a supported resolution, the pending work is completion and review of the
-qualified source/unit map, followed by a prospective contract for the first
-eligible comparison. Further extensions have not been evaluated or ruled out.
-An owner-requested `proceed` retry subsequently
-resumed source/schema inspection briefly, then returned the same content
-restriction at 14:24:11 UTC on 17 November; S1 remains incomplete. No fragmentation
-or new-session attempt was made to bypass that restriction, and no safeguard or
-external account/protection setting changed.
-
-Prepared the [Naik package](Research%20Article/ungated_naik_2017_inflammatory_memory/README.md)
-from the owner's paper notes, annotated final PDF/correction, existing GEO
-metadata and a bounded primary-literature scan. The
-[plan](Research%20Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md)
-separates source qualification, RNA resolution, accessibility persistence, recall
-RNA, cross-assay interpretation and a conditional follow-up. Arozamena,
-DuPage/Wang and A1 supplied current pipeline/evidence limits; Larsen 2021 is a
-direct mechanistic precedent. No biological rerun, new global RQ, candidate
-registration, claim promotion or Notion edit occurred. The parent checkout's
-existing PROGRESS changes were preserved.
-
-Owner scope correction: the separate bioinformatics study session is independent
-of Ravel. Removed its fixed-axis PCA exercise, learner-run restrictions and
-D30-first handoff from this package. The plan now follows the established
-paper-driven research progression, including result-guided analyses and
-literature-qualified question development. Prior outcome exposure remains
-recorded; project identity, existing RQs and scientific standards are unchanged.
-Rechecked framing against current AGENTS.md and the DuPage, Wang and Arozamena
-packages: explicit biological argument versus computational order, source-panel
-anchors, outcome-to-next-decision updates at every stage, and a distinct
-functional evidence bridge. Procedural steps remain in the plan's table rather
-than serving as a hypothesis illustration.
-
-Remote main was fetched at `d0429d0`; both main CI workflows passed and no open
-PRs were found. PR #182 is merged despite its older progress wording below.
-Work is local on `codex/naik-memory-plan-20261117` in the corresponding worktree.
-Pending that resolution: qualify the paper's claim/source map, molecular and
-functional inputs, and whole-study pool/run/assay relationships, then scope the first informative
-numerical contract. Exact raw-read replay retains a single-end/paired-read discrepancy;
-cross-assay pairing and independent pool identities need source qualification.
-Web challenge/redirect failures are bounded access findings, with local source
-fallbacks recorded. No external account or protection settings changed.
-Original plan-stage validation: 19,930 repository checks, 178 analysis tests
-(one skipped), compilation, claim and archived-evidence checks, and the full
-base-aware research gate passed.
-The 25-test session suite had five subcase failures in one startup-path test due
-to sandbox temporary-directory capitalization; rerunning that unchanged test
-from a consistently cased temporary path passed all five subcases. No code,
-assertion, validator or governance change was made. Fifteen missing published
-assets were restored from hash-verified local copies (all 16 locked members
-verified), without rerunning analyses or replacing existing evidence. Final
-fetch still resolved main to `d0429d0`; delivery is an uncommitted local draft.
-For the subsequent scope-only revision, changed-document links, Markdown scope
-and whitespace were checked against the same refreshed base. Prior code,
-scientific-asset and governance checks remain applicable; no biological rerun
-or redundant unchanged-code test run was needed.
+The independent learning exercise is not a dependency. Earlier source restrictions
+and the later account-usage reset are historical, distinct events, retained in
+[recovery evidence](Research%20Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md).
+No external inquiry, publication, account settings or protected policy changes.
 
 ## 2026-11-13 — Approved portfolio figure archive
 

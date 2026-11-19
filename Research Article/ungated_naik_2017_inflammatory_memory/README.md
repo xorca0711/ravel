@@ -6,46 +6,41 @@ existing gates and RQs retain their status. Owner `Nk17-P01` follows Ravel's
 paper-driven workflow. Execution and coordinator review confer no human
 scientific acceptance.
 
-**Current result:** [S6A v1](S6A_RESULTS_V1.md) preserves all six daily-area
-panels, 62 endpoints, 228 group/day summaries and 166 contrast/day rows. Its
-27,894 independent checks and receipt integrity passed; all four actual figures
-were visually reviewed by the technical session and coordinator without a
-numerical or figure revision request. WT and standalone Aim2-OE area comparisons
-retain mostly consistent post-wound directions; altered-background and day-0
-comparisons expose mixed values and baseline dependence.
+**Current result:** [S6C D180](S6C_RESULTS_V1.md) extends the exact S3 TSS-proxy
+universe to all four original D180 tracks. Primary median absolute rank difference
+is 2.167 pp, versus D30 1.995 pp and D6 3.067 pp; only 45.55% are smaller than
+D30 and 47.92% have opposite signs. Aim2/Casp1 remain positive at both widths,
+while other fixed anchors are mixed or width-sensitive. This is heterogeneous
+relative ordering, not uniform decay, original retained domains or a maintenance
+mechanism. All 7,009,534 independent checks, 296 interval readbacks and receipt
+integrity passed. Both actual figures and the complete report were coordinator-reviewed without revision.
 
-**EDF6g biological interpretation is held.** Its explicit workbook headers,
-published Extended Data Fig. 6g (supplied final PDF page15) and fitted summaries
-have an unreconciled group-label/source discrepancy. Literal-label anti-IL1R1
-OE−Ctrl area is positive on all days1–10, whereas [S5F](S5F_RESULTS_V1.md) retains
-a positive reported decay-rate advantage. This is a provenance issue, not proof
-that Aim2 reverses repair or refutes the published biology. No groups were
-swapped, fits rerun or frozen outputs repaired. The other five panels retain
-their finite-source interpretation. See the report's exact header ranges and
-primary-figure audit. Source/caption Ns and missing EDF6f WT day10 stay explicit.
+![D180 complete fixed-universe contrasts and width sensitivity](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/fig01_D180_universe.png)
 
-![All daily area contrasts; EDF6g source identity unresolved](../../analysis/research/runs/naik2017_s6a_daily_area_v1/fig02_raw_area_contrasts.png)
+Every window is retained at both widths. Mean rank50 and whole-universe mean
+contrast0 are structural. The report includes all five anchors, complete zero/tie
+semantics, platform/pooling limits and the separately archived pre-signal WSL
+launch failure; the successful retry used unchanged frozen code/inputs.
 
-Every panel/day is retained. **EDF6g uses literal workbook labels; its biological
-mapping is on hold.** Positive values mean larger area remaining. Day-0 subtraction
-is a secondary group-summary comparison, not corrected kinetics; the sixteen
-adjusted day-0 zeros are structural. No actual all-contributing-record area-floor
-contrast occurred. [Complete source, baseline and coverage figures](S6A_RESULTS_V1.md#figures-and-verification).
+[S6B D6 QC](S6B_RESULTS_V1.md), reviewed/preserved at `ba5afa4`, does not repeat
+the specific S4 baseline marker pattern in the four acute libraries. All twenty
+profiles retain Xist in the thousands, three Y-linked markers at zero and Uty at
+0–1 read. This narrows the observed discrepancy without assigning sex, certifying
+D6 as unconfounded or establishing RNA–ATAC matching.
 
-The subsequent [S6B D6 source check](S6B_RESULTS_V1.md) retains all twenty fixed
-marker/library profiles. All four show Xist in the thousands, three Y-linked
-markers at zero and Uty at 0–1 read; the specific S4 baseline pattern is not
-repeated. Independent 191,370 checks and receipt integrity passed. This narrows
-the observed discrepancy without assigning sex or certifying D6 as unconfounded.
-The complete result and actual figure were coordinator-reviewed without revision.
+[S6A daily areas](S6A_RESULTS_V1.md), reviewed/preserved at `ccc91cd`, keeps all
+six panels and the mixed raw/day0-subtracted comparisons. **EDF6g biological
+mapping remains held**: exact source headers disagree with the published final-
+PDF curve labels and related summary Ns. No group swap/refit or Aim2 repair
+reversal claim follows. The other five panels retain their finite-source scope.
+S5F remains preserved at `2514379`; all earlier functional endpoints remain separate.
 
-S5F remains preserved at `2514379`. The [S6C D180 method](S6C_D180_METHOD_V1.md)
-is approved for implementation and governed execution after D6, using the exact
-S3 universe and all five anchors. [Four original tracks](D180_ACQUISITION_V1.md)
-are acquired; exact contract freeze and fail-closed qualification precede any
-D180 signal extraction. Final S6 must assess whether the actual results and later
-primary literature support an informative question beyond shared-source
-reproduction; technical completion alone does not establish that progression.
+Completing D6/D180 alone does not establish research progression beyond
+reproduction. Final S6 will connect actual observations with the qualified later
+primary literature and assess the explicit Hamdan per-donor response interaction
+against its published STEM display. One bounded prospective method/contract may
+be prepared for review; no Hamdan gene effect or molecular-function model has
+run here, no novel mechanism is asserted, and A1/Arz1 ownership remains intact.
 
 [S5M v2](S5M_RESULTS_V2.md) preserves the 312 RNA–ATAC associations and 96
 covariance records while correcting its count-zero warnings. Primary ±1 kb MOR

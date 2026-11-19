@@ -1,0 +1,23 @@
+X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s6c_proxy_v1.py:34: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  def read(path): return pd.read_csv(path, sep='\t', float_precision='round_trip')
+Exception in thread Thread-1 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\subprocess.py", line 1599, in _readerthread
+    buffer.append(fh.read())
+                  ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc5 in position 1: invalid continuation byte
+Traceback (most recent call last):
+  File "X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s6c_proxy_v1.py", line 229, in <module>
+    args=parser.parse_args();run(args.contract,args.output)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s6c_proxy_v1.py", line 199, in run
+    wsl_root = subprocess.run(['wsl.exe','--exec','wslpath','-a',str(root)], capture_output=True,text=True,check=True).stdout.strip()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dream\AppData\Local\Programs\Python\Python312-arm64\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['wsl.exe', '--exec', 'wslpath', '-a', 'X:\\GitHub\\ravel\\.worktrees\\naik-memory-plan-20261117']' returned non-zero exit status 4294967295.

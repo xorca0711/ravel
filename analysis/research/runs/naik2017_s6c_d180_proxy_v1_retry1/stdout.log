@@ -1,0 +1,7 @@
+{"event": "D180_library_complete", "gsm": "GSM2652413", "windows": 43520, "elapsed_seconds": 108.0730500059999, "peak_rss_mib": 71.9765625}
+{"event": "D180_library_complete", "gsm": "GSM2652414", "windows": 43520, "elapsed_seconds": 222.2296077179999, "peak_rss_mib": 71.9765625}
+{"event": "D180_library_complete", "gsm": "GSM2652415", "windows": 43520, "elapsed_seconds": 328.7999894359991, "peak_rss_mib": 71.9765625}
+{"event": "D180_library_complete", "gsm": "GSM2652416", "windows": 43520, "elapsed_seconds": 443.0475222539999, "peak_rss_mib": 71.9765625}
+{"event": "D180_interval_readback_complete", "checks": 296, "maximum_scaled_error": 0.0, "elapsed_seconds": 444.84026655399975, "peak_rss_mib": 146.1015625}
+{"status": "passed", "checks": 7009534, "maximum_scaled_error": 5.684341886080802e-14, "interval_readback_checks": 296, "interval_readback_maximum_scaled_error": 0.0, "arithmetic": "independent stdlib grouping/sorting/math.fsum/linear quantiles", "exact_S3_outputs_preserved": true, "independent_biological_replication": false, "same_binary_decoder_for_readback": true}
+{"status": "completed_D180_finite_proxy_description", "derived_bytes_before_receipt": 24796133, "analysis_elapsed_seconds": 489.1560000000027}

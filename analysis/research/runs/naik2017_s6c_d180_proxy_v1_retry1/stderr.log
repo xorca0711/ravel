@@ -1,0 +1,4 @@
+X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s6c_proxy_v1.py:34: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  def read(path): return pd.read_csv(path, sep='\t', float_precision='round_trip')
+X:\GitHub\ravel\.worktrees\naik-memory-plan-20261117\Research Article\ungated_naik_2017_inflammatory_memory\scripts\s6c_proxy_v1.py:34: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  def read(path): return pd.read_csv(path, sep='\t', float_precision='round_trip')

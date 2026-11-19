@@ -380,3 +380,18 @@ without resolving pooling, animal identity or RNA–ATAC matching. The 19 Novemb
 primary-literature refresh is reused; no new mechanism claim or scan was made
 for this diagnostic. Later literature remains necessary to assess a justified
 post-reproduction question in the final S6 synthesis after D180.
+
+## S6C relative-rank interpretation — 19 November 2026
+
+[S6C](S6C_RESULTS_V1.md) qualifies the four original D180 tracks on the exact S3
+window universe. Primary median absolute displacement is 2.167 pp (D30 1.995;
+D6 3.067), with mixed cross-time directions and all five fixed anchors retained.
+Aim2/Casp1 positive ranks, Il1b/Il18 changes of sign and small width-sensitive
+Il1r1 contrasts do not identify original memory domains, activity, secretion,
+repair or a maintenance mechanism. Naik Fig.3 and the Larsen/Cowley work remain
+published premises. Same-source D180 reanalysis supplies no independent replication,
+and the platform/pooling/processing limits remain. This result refines the finite
+long-term proxy description; it does not end assessment of useful research beyond
+reproduction. The coordinator's 19 November later-primary/supplement/GEO review
+supports evaluating a separate Hamdan concurrent-control response interaction
+after D180 review, without asserting novelty or reassigning A1/Arz1.
