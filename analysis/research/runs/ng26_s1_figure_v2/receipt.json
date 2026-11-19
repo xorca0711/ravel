@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s1_figure_v2",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s1_figure_v2.json",
+  "contract_sha256": "aea17c50688379bcedbfe31aea3b096844b9b2a295654879bb4131c080bbf398",
+  "git_commit": "b7687d37d79732fd025e68b555ac9efca087dd3c",
+  "started_at": "2026-11-19T12:59:57.441790+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v2.py",
+    "analysis/research/runs/ng26_s1_figure_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_mice.tsv",
+      "sha256": "cc464d37c2d35efaa03b0c6faf110222598628495f0047e4ebb85c6837db9dc7",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_primary.tsv",
+      "sha256": "52a8270da4a0a41810f07ee4f83a3bc5620b5372b639cf48a1c8d3d851dde7fc",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_motif_by_state.tsv",
+      "sha256": "01163d29a88880b293d3cc7526e415cc4b3f3dd98f42a0e3d769e3fb7b303fad",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/rna_stages.tsv",
+      "sha256": "3958dc792fd20563b2380c0af3eb39b09979e5ac4c7edcf30dd63ac40ac2d751",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v2.py",
+      "sha256": "f6a63a222c7c907ce64878091cafff340a9b8c6eb6b1d39c55330f8a4c9ffe23"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s1_figure_v2/fig1_recovery_v2.png",
+      "sha256": "fcffd29bf03f82c126b58430eed18193de469f062b4f0b0ea8cd1249632ae76e"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_figure_v2/fig1_recovery_v2.pdf",
+      "sha256": "637425c24918a324859d0d8f017570522795141202593062f6cd1997b662831a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_figure_v2/render_checks.json",
+      "sha256": "f7974adfed837eebf15c4de75afceba7a74304107346a240584f5210ce2169d8"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T13:00:00.929926+00:00"
+}
