@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.distal_m24_metadata_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.distal_m24_metadata_v1.json",
+  "contract_sha256": "041816448a0a5a40bdc4efa45552beafbb0f962b3a5ea2940f1d98fd430df4e5",
+  "git_commit": "e0b1c99c789441d84562c6a3eef9e2ad4262519f",
+  "started_at": "2026-11-19T07:49:43.110693+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/verify_registration_v1.py",
+    "--output",
+    "analysis/research/runs/naik2017_distal_m24_metadata_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik_distal_step1_20261119/Cowley_S1.xlsx",
+      "sha256": "eca0629d08298d29a8c2899dbb030a9b9d64f372607e50de910e0c1d0a189f25",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/Cowley_S2.xlsx",
+      "sha256": "937b7ff04de985d8fe583119ec2d62fb035b9a5dc4307dc104b11ed07af42d9a",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/Cowley_S3.xlsx",
+      "sha256": "7f54569f34f787c07f63d8dedcc654bb5b65e3f839dec8f33d6dbfe4dc681fde",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/GSE299177.soft.gz",
+      "sha256": "1695ff61c6bffcbbc79196fa477281b84c41c5605b1ef3e6233b2f514efc5da6",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSE299177_run_metadata.tsv",
+      "sha256": "7f5ca606265b656c61d2d067595e694f67e39de4d0577b79bf3a63e49a719a1b",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/mm10.chrom.sizes",
+      "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/PMC13295011.xml",
+      "sha256": "33b9a437df24c047788196aee6b20d96f1be5b0a135f5db70337f0478b0e08bc",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/s5_bigwig.sh",
+      "sha256": "66b3b86532ea281b006179341dc2aadc63a0cbe14b38807cced4738926ae24a2",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_step1_20261119/Bulk_ATAC_BWA_MACS3peaks_DESeq2.ipynb",
+      "sha256": "a68222b79fd450dd5945e9dcfd59975c11904e4e0b054d4a03d0c9179b6ba2a3",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/rtracklayer_RELEASE_3_21_bigWig.R",
+      "sha256": "9fa7596c3f006a8e2d9a06700f6dd9c3d81818dcff1bbe7fd2b2c3d2d7c387eb",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/acquire_m24.py",
+      "sha256": "fac5897245a8c62c89a993e6cc3fcf1b9011228e5daf87fba9820059f19626c8",
+      "study_id": "Genome_annotation_or_source_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034861_M24_Ctrl_rep1_normalized.bw",
+      "sha256": "5cefe889c9ff0be943fad5d1225434500b7186a2f7e274d257e1571be2334026",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034861"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034861_receipt.json",
+      "sha256": "fc64b2fc0a0771c5dde14b8e4709cf5878a2f12e963e226253c25a8f55882384",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034861"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034862_M24_Ctrl_rep2_normalized.bw",
+      "sha256": "b044d7074c860812a5b0fe9e18e6fbcfcf02b9cb209113f0a7ec7e6111bacb8a",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034862"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034862_receipt.json",
+      "sha256": "0791ddf72499ce8691d638c09482ddb328f3a30c5fdfb7a2d750e06074c9830b",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034862"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034863_M24_IMQ_rep1_normalized.bw",
+      "sha256": "f26f5e5b988c65876351aa8f7b93df3bcc43f0f441d6a92fa2c65ba7c526c393",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034863"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034863_receipt.json",
+      "sha256": "1ff7a3fc0f984c2867bd3737cc0bc23a952a95c683a5d041568a30cd3c60e4b4",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034863"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034864_M24_IMQ_rep2_normalized.bw",
+      "sha256": "2024c3cfcb038209bacca058c378e752ae263057e13814734938b6d960390386",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034864"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/GSM9034864_receipt.json",
+      "sha256": "de617917626f98f9ba35f53ebc6d53f2b6e42cd491b6dcee3c80b4c188ed46ee",
+      "study_id": "Cowley_GSE299177",
+      "unit_ids": [
+        "GSM9034864"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/acquisition_gencode_m9.json",
+      "sha256": "4b547e7b0a2dfa20a7c0f8cbf60b8755c1b5157ff39bb35866cecab925237ad3",
+      "study_id": "Source_or_reader_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/test.bw",
+      "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+      "study_id": "Source_or_reader_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "Source_or_reader_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/runtime_smoke.json",
+      "sha256": "178699b3beaea1b29e4eb0e761ee12303f4f9804295ba340c0ab6da0a7a84c67",
+      "study_id": "Source_or_reader_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/selection_v1.json",
+      "sha256": "5c6c5bafca0dac14ca1c47d6aa6d1d880669d7e3bcd981546cc757edf41a4a38",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/regions.tsv",
+      "sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/samples.tsv",
+      "sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/region_qualification.json",
+      "sha256": "f534f077c64099ef59462f7b106ab914eb81ecaf6209c4a6629a84a89d77833b",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/source_receipts.json",
+      "sha256": "31c1021d3814df243c4dcb4c2d5956659399f13c26c2cd063a67543f974c7601",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/track_structure.json",
+      "sha256": "9d4361f22c9962ec8bb41285453fb4b9fdb964bd59c6c4c771d25acc4f3e6e4b",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_m24_sources_20261119/historical_b8156c4_git/SOURCE_QUALIFICATION.md",
+      "sha256": "958d53f28b73cabfd025452b95d14182e41b0ad17588823aa466ca8b9ef4d8f8",
+      "study_id": "Ravel_Nk17P01_Step2_b8156c4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/verify_registration_v1.py",
+      "sha256": "958c67cb9a1be273c0d91e617af79c528ddaa0a04a91eeaf5ca3706203195a80"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/qualify_regions.py",
+      "sha256": "7f9142abed5559cd4c63a3c0e3eda48d3fcb4be1a4d6db2ab42a281e3d8596a6"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/qualify_source_manifest.py",
+      "sha256": "3b19d7db254b0d5b8c1437bd84b292c97767d0da9be8fdd1081dd4efc70f3d64"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_qualification_20261119/qualify_track_structure.py",
+      "sha256": "244f8190d6d142d9cb492eb8745e1fff9e8b8a5515a0fb50b913f4494779cabc"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/selection_v1.json",
+      "sha256": "5c6c5bafca0dac14ca1c47d6aa6d1d880669d7e3bcd981546cc757edf41a4a38"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/regions.tsv",
+      "sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/samples.tsv",
+      "sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/region_qualification.json",
+      "sha256": "f534f077c64099ef59462f7b106ab914eb81ecaf6209c4a6629a84a89d77833b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/source_receipts.json",
+      "sha256": "31c1021d3814df243c4dcb4c2d5956659399f13c26c2cd063a67543f974c7601"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/track_structure.json",
+      "sha256": "9d4361f22c9962ec8bb41285453fb4b9fdb964bd59c6c4c771d25acc4f3e6e4b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/historical_report.txt",
+      "sha256": "958d53f28b73cabfd025452b95d14182e41b0ad17588823aa466ca8b9ef4d8f8"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/verification.json",
+      "sha256": "79b27511820f42d8190aea618283186309797c17991e53863bcb15a1bada376e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T07:50:47.823808+00:00"
+}
