@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.distal_m24_baseline_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.distal_m24_baseline_v1.json",
+  "contract_sha256": "6f83ba8c54ebf59d5da9bb8daa94e2c9f663e3bef99591606af0bc9b2ce22cf8",
+  "git_commit": "df25bb8052bbc44d4489a29a7ad61679823a4e17",
+  "started_at": "2026-11-19T11:04:57.259067+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/baseline.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.distal_m24_baseline_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_distal_m24_baseline_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX2448172.bw",
+      "sha256": "4f24659224691264f30ebcca8ebf0f6d23ffbf99aab8af5c3181f71ffb5e0dec",
+      "study_id": "ChIP-Atlas_GSE92967",
+      "unit_ids": [
+        "GSM2441001"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX2448173.bw",
+      "sha256": "faf243c64b31670cf4d173db0cf9a8887b36d48e721ea46eaf76b6e222a45e2a",
+      "study_id": "ChIP-Atlas_GSE92967",
+      "unit_ids": [
+        "GSM2441002"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX10528425.bw",
+      "sha256": "54547144af4efa666a4ae809b8945d71e4c841c6497fe04c682752b7c4d30dc2",
+      "study_id": "ChIP-Atlas_GSE171596",
+      "unit_ids": [
+        "GSM5229061"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX10528426.bw",
+      "sha256": "8fabcd81416260d6ebd28b7807350697afd7764d49c7ff90fd21e0b0bc39f505",
+      "study_id": "ChIP-Atlas_GSE171596",
+      "unit_ids": [
+        "GSM5229062"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SOURCES_V1.json",
+      "sha256": "970f1130a8b1f17ac98e090582af1a672d780aa6b44c8b1580ce4c694884c13e",
+      "study_id": "Nk17-P01_baseline_source_and_design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/METHOD_V1.md",
+      "sha256": "68ea32cc964fc2c86a65ca877fe647e09f677e007dde4d66730b3cfc41257911",
+      "study_id": "Nk17-P01_baseline_source_and_design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/regions.tsv",
+      "sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/samples.tsv",
+      "sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/receipt.json",
+      "sha256": "27783bb9fb6a15544fd5a63eb841ea6f39068c98fffbdbf45493bb867fa81a7c",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/intervals.tsv",
+      "sha256": "b6beff92ace11d4410ddf07695bf61bbde9ceca12d3d5969cba76efd0a07fb18",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [
+        "GSM9034861",
+        "GSM9034862",
+        "GSM9034863",
+        "GSM9034864"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/region_weights.tsv",
+      "sha256": "c2eaccac4641880501dbda72056f47517418e3d06f7513b321c1e64e9e32fbcf",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/history_changes.tsv",
+      "sha256": "1b7eacc9810f4b00c8d7845b62257638112462afb133aee6854dd459f89563d4",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/receipt.json",
+      "sha256": "01085514a9bf1caef6faf5c9e683a4001e989772085067b32c35576d1a2a87ec",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "Qualified_reader_and_software_fixture",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/test.bw",
+      "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+      "study_id": "Qualified_reader_and_software_fixture",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/baseline.py",
+      "sha256": "c96eae72907652b69e87fc3b361d77a6f48a9f787bb303a722dbd9951241ee18"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/test_baseline.py",
+      "sha256": "1aa283e6f385acb129447600c19e7133f1ff89a96a1c88aa4b598c66262fc405"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_analysis.py",
+      "sha256": "fc62fb1aaf3eb73dffde63adb89fb1a0c23ee05fac11ba85cffcc73c16513579"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_reader.py",
+      "sha256": "6e15cdf731766c13925627a0fdf52f4f93ef21ca9151efdf4428e807ec70e761"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/baseline_intervals.tsv",
+      "sha256": "f29cde0539fda45a545475d5100c1f7473695e982bdfb6dea557e4d4be38bb54"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/coverage.json",
+      "sha256": "d859a20fc384b7d65fa675d21d1ee810c479320e4d11b948b9eda462e69ef9cb"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/rank_qc.json",
+      "sha256": "fbb11dfcbf7c8f10593771174da8cf014337e99e29d50d94cf28142f5304bb73"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/region_weights.tsv",
+      "sha256": "2039bc81cb5705e8c5a2caf1a8476b68f36f6004665b87ce91a10e3307c6f077"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/support.json",
+      "sha256": "082298b6dbcb925a9a12e655766ddd8446fd9fde63ec0a2024d5f73ff3a35db8"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/pool_summaries.tsv",
+      "sha256": "50616f298484d435f3fa9868b5ac41d357db42b116439846761ba55ff7a6ef52"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/history_changes.tsv",
+      "sha256": "5b103653fb373971c1018fdca177972db9510ada4821b0e7d671dad74347990b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/cross_pool.tsv",
+      "sha256": "40cb57a31053454967b45bc0a7edd95de1cb801338906e53eecf5acf372d4fb5"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_baseline_v1/change_decomposition.json",
+      "sha256": "97753604ff9a84d8bfd7aab8623451b26993f88d5fc35ec07166afaebd824ced"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T11:06:18.787383+00:00"
+}

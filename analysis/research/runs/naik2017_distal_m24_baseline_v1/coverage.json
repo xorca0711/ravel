@@ -1,0 +1,47 @@
+{
+  "libraries": {
+    "SRX2448172": {
+      "gsm": "GSM2441001",
+      "srx": "SRX2448172",
+      "status": "valid",
+      "valid": 1575,
+      "held": 0,
+      "stored_bp": 827818,
+      "explicit_zero_bp": 0,
+      "sparse_zero_bp": 254152
+    },
+    "SRX2448173": {
+      "gsm": "GSM2441002",
+      "srx": "SRX2448173",
+      "status": "valid",
+      "valid": 1575,
+      "held": 0,
+      "stored_bp": 739281,
+      "explicit_zero_bp": 0,
+      "sparse_zero_bp": 342689
+    },
+    "SRX10528425": {
+      "gsm": "GSM5229061",
+      "srx": "SRX10528425",
+      "status": "valid",
+      "valid": 1575,
+      "held": 0,
+      "stored_bp": 959233,
+      "explicit_zero_bp": 0,
+      "sparse_zero_bp": 122737
+    },
+    "SRX10528426": {
+      "gsm": "GSM5229062",
+      "srx": "SRX10528426",
+      "status": "valid",
+      "valid": 1575,
+      "held": 0,
+      "stored_bp": 881113,
+      "explicit_zero_bp": 0,
+      "sparse_zero_bp": 200857
+    }
+  },
+  "expected": 6300,
+  "observed_rows": 6300,
+  "status": "complete"
+}
