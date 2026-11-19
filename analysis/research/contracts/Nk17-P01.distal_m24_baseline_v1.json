@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.distal_m24_baseline_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How does the four-pool M24 distal Memory minus Resolved history-change contrast vary after also balancing relative D6 vehicle-control accessibility in all four original control libraries?",
+  "decision": "Freeze one exposed overlap-weighted baseline sensitivity. Source and methods review must precede any real regional extraction or outcome calculation.",
+  "strongest_rival": "The M24 separation can reflect D6 control accessibility, differential support, induction strength, interval width, cell mixture or processing rather than maintenance.",
+  "discriminator": "Compare the same saved M24 endpoints under old two-way and new three-way class weights. Decompose the numerical change into exclusion of unsupported regions and redistribution of weight.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/DISTAL_SKIN_SOURCE_SCAN_20261119.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Cowley Fig. 1 already showed late patterns and D6/D30 class membership was selected in a universe including M12. cb55c05 disclosed all 6,300 M24 interval values and the full, median and D6/width gap changes +0.116973, +0.073155 and +0.121493 CPM. Prior Naik TSS window ranks were exposed. Step 5 examined accession links, archive processing, binary hashes, headers and chromosome dictionaries only. New region-specific control values, consensus/support and reweighted outcomes remain unexamined. Only the pinned upstream software fixture and synthetic signals were used for tests.",
+  "biological_unit": "Four original mouse epidermal D6 vehicle-control sequenced pools for baseline covariates, two from Naik and two from Larsen. The endpoint uses the four previously registered M24 pools (two per history, two or three mice per pool) in one M24 experiment.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Study reuse is explicit. No individual mouse identity, matched cultures or mouse-level pairing. The 1,575 regions are repeated features and the four cross-pool comparisons reuse four pools.",
+  "population_and_selection": "Exactly 791 distal Memory and 784 distal Resolved regions, the saved four M24 pools and the four original D6 controls in the pinned ChIP-Atlas mm10 registry. Full rankings use all 1,575 intervals. New positive weights target only the joint common-support cells.",
+  "contrast": "For each class, two-pool mean post-IMQ minus two-pool mean naive in M24 fragment CPM. Subtract Resolved from Memory. Return the prior D6/width weights, those weights renormalized on newly retained regions, and the single D6/width/baseline weighting; preserve per-pool and all four cross-pool results. Signed restriction and redistribution contributions sum to the change in estimand.",
+  "endpoint": "M24 full-width fragment-CPM means from saved intervals.tsv. Each baseline covariate is a within-library percentile midrank of full-width deposited ChIP-Atlas aligned-read RPM on the same regions. Rank combination weights each of four pools equally.",
+  "methods": "Check source files, full dictionaries and published mm10 source joins. Compare clipped primary records with unbinned raw fetch including a missing mask. Normalize exact tied midranks as (midrank-0.5)/1575, summing integer rank numerators before forming the equal-weight consensus. Save each library's signal and ties and all pairwise rank QC. Use frozen earlier D6/width bins and prior weights, then pooled type-7 consensus quartiles, ties enter higher bins. Within each of 64 cells the common class mass is the smaller class count divided by the sum of such counts. Report old/new support and class mass by old cell, ESS, max weight, weight movement and residual raw and standardized balance for D6, width, four individual ranks and consensus. See bound method for exact estimand and diagnostics.",
+  "missingness_and_exclusions": "Producer-specific genomecov -bg omits zero mapped-read depth, with direct unmasked conversion to BigWig in the documented exporter. Distinguish an in-bounds, twice-verified sparse-zero position from stored zero, missing source, ambiguous geometry or failed read. No zero fill for an arbitrary track or unknown data loss. No complete-case cohort, one-library substitution or imputation.",
+  "multiplicity": "Single exposed sensitivity with an arithmetic target decomposition. No alternative binning, rank definition, cohort search, regional p-values, region-resampled uncertainty or equivalence threshold.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Four finite M24 pooled libraries. Regional effective sizes describe weight concentration and cross-pool contrasts share pools.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Stability, attenuation or reversal describes the changed weighted target in four M24 pools. Relative baseline rank in four D6 study controls does not establish absolute matched baseline, molecular maintenance, within-cell continuity or repair. Intra-stratum residuals, library discordance and selection can persist.",
+  "stop_rule": "Await coordinator review. At authorized execution, stop on source or chromosome mismatch, ambiguous zero encoding, read or mask failure, invalid means, a constant library or consensus, or fewer than two baseline quartile bins with shared mass. Preserve available diagnostics without reading M24 regional values for an ineligible design. Hold on stale original weights, M24 identity or failed prior effect readback. No selection of alternate tracks or models after exposure.",
+  "inputs": [
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX2448172.bw",
+      "sha256": "4f24659224691264f30ebcca8ebf0f6d23ffbf99aab8af5c3181f71ffb5e0dec",
+      "study_id": "ChIP-Atlas_GSE92967",
+      "unit_ids": [
+        "GSM2441001"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX2448173.bw",
+      "sha256": "faf243c64b31670cf4d173db0cf9a8887b36d48e721ea46eaf76b6e222a45e2a",
+      "study_id": "ChIP-Atlas_GSE92967",
+      "unit_ids": [
+        "GSM2441002"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX10528425.bw",
+      "sha256": "54547144af4efa666a4ae809b8945d71e4c841c6497fe04c682752b7c4d30dc2",
+      "study_id": "ChIP-Atlas_GSE171596",
+      "unit_ids": [
+        "GSM5229061"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik_distal_baseline_chipatlas_20261119/SRX10528426.bw",
+      "sha256": "8fabcd81416260d6ebd28b7807350697afd7764d49c7ff90fd21e0b0bc39f505",
+      "study_id": "ChIP-Atlas_GSE171596",
+      "unit_ids": [
+        "GSM5229062"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/SOURCES_V1.json",
+      "sha256": "970f1130a8b1f17ac98e090582af1a672d780aa6b44c8b1580ce4c694884c13e",
+      "study_id": "Nk17-P01_baseline_source_and_design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/METHOD_V1.md",
+      "sha256": "df0bd3753f4db0bf126218adce20fd6c93a2f463459d56ef7d395199352ff6bd",
+      "study_id": "Nk17-P01_baseline_source_and_design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/regions.tsv",
+      "sha256": "2b35fa275d2161b7e544f81ec89672b79ab9b9ca5a88d6212bc7c89138b52705",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/samples.tsv",
+      "sha256": "af2c5208158a5828eb2e8feac7cc90b7f8c2d95eb541cd582a56e4a77186fc2a",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_metadata_v1/receipt.json",
+      "sha256": "27783bb9fb6a15544fd5a63eb841ea6f39068c98fffbdbf45493bb867fa81a7c",
+      "study_id": "Cowley_registered_m24_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/intervals.tsv",
+      "sha256": "b6beff92ace11d4410ddf07695bf61bbde9ceca12d3d5969cba76efd0a07fb18",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [
+        "GSM9034861",
+        "GSM9034862",
+        "GSM9034863",
+        "GSM9034864"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/region_weights.tsv",
+      "sha256": "c2eaccac4641880501dbda72056f47517418e3d06f7513b321c1e64e9e32fbcf",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/history_changes.tsv",
+      "sha256": "1b7eacc9810f4b00c8d7845b62257638112462afb133aee6854dd459f89563d4",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_distal_m24_outcome_v1/receipt.json",
+      "sha256": "01085514a9bf1caef6faf5c9e683a4001e989772085067b32c35576d1a2a87ec",
+      "study_id": "Cowley_registered_m24_outcome",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "Qualified_reader_and_software_fixture",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/test.bw",
+      "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+      "study_id": "Qualified_reader_and_software_fixture",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/baseline.py",
+      "sha256": "c96eae72907652b69e87fc3b361d77a6f48a9f787bb303a722dbd9951241ee18"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/test_baseline.py",
+      "sha256": "1aa283e6f385acb129447600c19e7133f1ff89a96a1c88aa4b598c66262fc405"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_analysis.py",
+      "sha256": "fc62fb1aaf3eb73dffde63adb89fb1a0c23ee05fac11ba85cffcc73c16513579"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_outcome_v1/m24_reader.py",
+      "sha256": "6e15cdf731766c13925627a0fdf52f4f93ef21ca9151efdf4428e807ec70e761"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/distal_m24_baseline_v1/baseline.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.distal_m24_baseline_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "baseline_intervals.tsv",
+    "coverage.json",
+    "rank_qc.json",
+    "region_weights.tsv",
+    "support.json",
+    "pool_summaries.tsv",
+    "history_changes.tsv",
+    "cross_pool.tsv",
+    "change_decomposition.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Distinct exposed follow-up to the frozen M24 outcome. Adds a control-rank sensitivity without superseding Step 4."
+}
