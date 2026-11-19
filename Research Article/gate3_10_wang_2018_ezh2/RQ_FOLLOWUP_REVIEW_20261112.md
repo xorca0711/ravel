@@ -49,7 +49,9 @@ is a bounded biological comparison, not a reread of every paper in the portfolio
 | **Saxton IL-10/IL-22:** altered ligand/receptor engagement → cell-context signaling/RNA → separate functional assays. [IL-10 source map](../gate3_07_saxton_2021_il10/SOURCE_EVIDENCE.md) | [Mixed IL-10 responses](../gate3_07_saxton_2021_il10/extensions_20261108/RESULTS.md) and [unfavorable acute Osmr result](../gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md); the [crossed priming comparison](../gate3_08_saxton_2021_il22/priming_extension_20261108/RESULTS.md) remains unavailable. | More ligand/receptor activity need not amplify every output. Separate studies or separate stimulation arms cannot estimate the proposed interaction. This reinforces matched-context A33/A35 comparisons without importing cytokine mechanisms. |
 | **Yadav:** source/recipient perturbations → metabolite and coculture outputs → tissue measurements. [Current synthesis](../gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md) | Reconstructed source values and inclusion-sensitive RNA; RNA/protein preparations unlinked and functional bridges unresolved. | Unlinked RNA and protein cannot identify post-transcriptional control. Medium concentration is net accumulation, not secretion rate; molecular output and tissue repair need separate measurements. |
 
-### What was missing versus already covered
+<a id="what-was-missing-versus-already-covered"></a>
+
+### Available evidence and remaining requirements
 
 **Already covered:** viable input/recovery, source attribution, biological-unit
 nesting, nonmonotonic directions, receptor versus movement, intact protein versus

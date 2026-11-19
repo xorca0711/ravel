@@ -1,4 +1,6 @@
-# Extension execution, validation and handoff
+<a id="extension-execution-validation-and-handoff"></a>
+
+# Extension analyses and validation
 
 31 October 2026 (Asia/Seoul).
 

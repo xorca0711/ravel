@@ -1,30 +1,32 @@
-# Peng 2026: pathology, epithelial states and inflammatory neighborhoods
+# Peng et al. (2026) — Epithelial states and inflammatory neighborhoods in lung lesions
 
-## Organizing biological question
+<a id="peng-2026-pathology-epithelial-states-and-inflammatory-neighborhoods"></a>
 
-How are alveolar epithelial states arranged within the inflammatory neighborhoods of human lung lesions? Peng and colleagues counted neighboring cells and found IL1B-high macrophages enriched around specified epithelial populations in early lesions. The location of those cells is central to the finding. [Paper, Fig. 5D–F and J–K](https://doi.org/10.1016/j.ccell.2025.10.004)
+<a id="organizing-biological-question"></a>
+
+## Published findings
+
+```text
+Human lung lesions sampled across histological stages
+  ├─ Epithelial states occupy distinct pathological regions
+  └─ Early lesions show local enrichment of IL1B-high macrophages near selected states
+
+Implication: cell identity and neighborhood composition jointly describe lesion
+             context.
+```
+
+Peng and colleagues counted annotated neighbors around epithelial populations within early lesions. The reported enrichment concerns adjacent cells in a defined pathological region. [Paper, Fig. 5D–F and J–K](https://doi.org/10.1016/j.ccell.2025.10.004)
+
+## Ravel analyses and results
 
 Ravel asked a related question at a coarser scale. Across ten patients with paired lung adenocarcinoma and atypical adenomatous hyperplasia sections, adjacent Visium spots showed a higher average IL1B–CLDN4 RNA association in adenocarcinoma. The difference shrank after accounting for broad cell composition. Both population abundance and spatial arrangement could contribute, and the sections provide no time course of progression. [Spatial results](PUBLIC_DATA_RESULTS.md) · [Comparison with the paper’s cell neighborhoods](BIOLOGICAL_REVIEW.md)
 
-A12 owns the narrower question of recipient information beyond its specified
-ligand/mixture comparison. A composition-associated pattern can be informative
-about tissue biology without establishing that A12 increment. A1/A8/A14 retain
-the distinct questions about state, mature output and withdrawal.
+<details>
+<summary>Additional analysis results</summary>
 
-**Ungated source paper, designated by the owner on 8 November 2026.** This means
-outside the ordered reading roadmap; scientific source and execution checks still
-apply. Article-local **Pg1-P01** owns source/annotation qualification and bounded
-shared-source reproduction. No global RQ, accepted mechanism or gate transition
-is created.
+<a id="what-the-completed-work-changes"></a>
 
-[Peng et al., Cancer Cell 44, 321–339.e13](https://doi.org/10.1016/j.ccell.2025.10.004),
-*Multimodal spatial-omics reveal co-evolution of alveolar progenitors and
-proinflammatory niches in progression of lung precursor lesions*. Published online
-6 November 2025; issue 9 February 2026. The supplied version of record and figure
-supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
-provides searchable methods and links to additional spreadsheet tables.
-
-## What the completed work changes
+### Results by comparison
 
 The earlier A12 pilot supported an exploratory epithelial predictive branch and
 an unfavorable fibroblast comparison. In the same twelve patients, the new cell
@@ -52,7 +54,49 @@ separates access-dependent follow-ups from new functional measurements. The
 LUAD-higher Visium RNA association is a different endpoint from Peng's early-lesion
 cell neighborhoods; it is not a reproduction of that directional result.
 
-## Next biological decision
+</details>
+
+## Data and methods
+
+The source measured neighboring annotated cells. Ravel’s Visium comparison measured adjacent mixed-cell spots across ten patients with matched adenocarcinoma and atypical adenomatous hyperplasia sections. [Patient and section comparisons](PUBLIC_DATA_RESULTS.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+<a id="evidence-and-execution-status"></a>
+
+### Analytical evidence and data availability
+
+Both authorized public branches are complete: 75 cell libraries qualified with
+the original 12-patient A12 comparison retained; all 56 Visium sections described.
+[Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the [185-record GEO audit](RESULTS.md)
+remain preserved. The owner reports Zenodo access requested; approval is pending
+and unverified. The [framing repair](../../docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
+integrates these findings without changing frozen comparisons or claim grades.
+
+| Read next | Purpose |
+|---|---|
+| [Biological review and job record](BIOLOGICAL_REVIEW.md) | Completed contributions, neighboring papers, held jobs and conditional extensions |
+| [Supplement qualification](SUPPLEMENTS_RESULTS.md) | Current source access, lifted/narrowed holds, definitions and receipts |
+| [Original GEO metadata result](RESULTS.md) | Preserved 185-record audit and original hold record |
+| [Source recovery](SOURCE_RECOVERY.md) | Actual access, author definitions, missing exports and join limits |
+| [Stepwise plan](PLAN.md) | Executable sequence, required inputs and informative outcomes |
+| [Connections and distinctions](RQ_CONNECTIONS.md) | Existing owners, published premises and different estimands |
+| [Technical handoff](TECHNICAL_HANDOFF.md) | Exact local inputs, reuse instructions and execution scope |
+| [Paper and reading-note assessment](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md) | Figure-level reasoning, note corrections, actual literature search |
+
+</details>
+
+## Interpretation and open questions
+
+The adjacent-spot contrast shrank after accounting for composition. Changes in which cells are present, their arrangement and their within-state expression remain plausible and can coexist.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="next-biological-decision"></a>
+
+### Outstanding research questions
 
 First locate which qualified states and pathological regions carry the pattern.
 An abundance difference would describe changing populations; a difference in
@@ -67,27 +111,9 @@ holds. TMA transport additionally needs a compatible full panel and patient/core
 structure; later fate needs linked measurements. Source access does not replace
 the biological comparison or supply those functional outcomes.
 
-## Evidence and execution status
+<a id="question-and-contribution"></a>
 
-Both authorized public branches are complete: 75 cell libraries qualified with
-the original 12-patient A12 comparison retained; all 56 Visium sections described.
-[Tables S1–S6](SUPPLEMENTS_RESULTS.md) and the [185-record GEO audit](RESULTS.md)
-remain preserved. The owner reports Zenodo access requested; approval is pending
-and unverified. The [framing repair](../../docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md)
-integrates these findings without changing frozen comparisons or claim grades.
-
-| Read next | Purpose |
-|---|---|
-| [Biological review and job ledger](BIOLOGICAL_REVIEW.md) | Completed contributions, neighboring papers, held jobs and conditional extensions |
-| [Supplement qualification](SUPPLEMENTS_RESULTS.md) | Current source access, lifted/narrowed holds, definitions and receipts |
-| [Original GEO metadata result](RESULTS.md) | Preserved 185-record audit and original hold record |
-| [Source recovery](SOURCE_RECOVERY.md) | Actual access, author definitions, missing exports and join limits |
-| [Stepwise plan](PLAN.md) | Executable sequence, required inputs and informative outcomes |
-| [Connections and distinctions](RQ_CONNECTIONS.md) | Existing owners, published premises and different estimands |
-| [Technical handoff](TECHNICAL_HANDOFF.md) | Exact local inputs, reuse instructions and execution scope |
-| [Paper and reading-note assessment](../../docs/research_reviews/2026-11-08-peng-spatial-reading/README.md) | Figure-level reasoning, note corrections, actual literature search |
-
-## Question and contribution
+### Study rationale
 
 This section specifies the **source-qualification subtask** under the organizing
 biological question above; it is not a replacement for the article's purpose.
@@ -107,7 +133,9 @@ pneumocyte morphology (RPII), an inferred CNA clone and a later functional fate 
 different measurements. The paper connects some of them; it does not make them
 interchangeable. Human cross-sectional ordering is not lineage tracing.
 
-## Package boundaries
+<a id="package-boundaries"></a>
+
+### Analytical scope
 
 Published-source qualification belongs here. Existing C3/A11/A12/A13 evidence stays
 at its current paths: their use of these human data is shared-source reanalysis,
@@ -123,3 +151,34 @@ unknown fields. The [missing-file request](MISSING_FILE_REQUEST.md) is drafted,
 not sent. Author-pathology overlay figures remain held. The separately specified
 public-data gallery uses qualified source indices, tissue masks and lattice
 coordinates, without inventing author cell states or pathology regions.
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SUPPLEMENTS_RESULTS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](PUBLIC_DATA_RESULTS.md) |
+| Figures | [Figures and captions](PUBLIC_DATA_FIGURES.md) |
+
+### Study context and analysis history
+
+A12 owns the narrower question of recipient information beyond its specified
+ligand/mixture comparison. A composition-associated pattern can be informative
+about tissue biology without establishing that A12 increment. A1/A8/A14 retain
+the distinct questions about state, mature output and withdrawal.
+
+**Ungated source paper, designated by the owner on 8 November 2026.** This means
+outside the ordered reading roadmap; scientific source and execution checks still
+apply. Article-local **Pg1-P01** owns source/annotation qualification and bounded
+shared-source reproduction. No global RQ, accepted mechanism or gate transition
+is created.
+
+[Peng et al., Cancer Cell 44, 321–339.e13](https://doi.org/10.1016/j.ccell.2025.10.004),
+*Multimodal spatial-omics reveal co-evolution of alveolar progenitors and
+proinflammatory niches in progression of lung precursor lesions*. Published online
+6 November 2025; issue 9 February 2026. The supplied version of record and figure
+supplement were read; the [PMC author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/)
+provides searchable methods and links to additional spreadsheet tables.

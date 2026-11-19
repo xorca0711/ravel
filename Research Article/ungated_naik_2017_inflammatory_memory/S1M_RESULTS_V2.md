@@ -1,4 +1,6 @@
-# S1M: molecular source qualification and S2 handoff
+<a id="s1m-molecular-source-qualification-and-s2-handoff"></a>
+
+# S1M molecular sources and S2 eligibility
 
 18 November 2026. **Molecular metadata qualification completed with the limits
 below; S2 has not run.** This stage qualifies deposited libraries and count-table
@@ -141,7 +143,9 @@ The 6-/12-hour recall libraries remain for S4 and ATAC libraries for S3; they ar
 not additional replicates for S2. Functional workbooks and source-method
 qualification remain outside S1M and were not resumed.
 
-## Validation and handoff boundary
+<a id="validation-and-handoff-boundary"></a>
+
+## Validation and analytical scope
 
 Both contracts passed input preflight; both receipts passed verification and
 registration. Synthetic tests covered count structure, explicit accession joins,

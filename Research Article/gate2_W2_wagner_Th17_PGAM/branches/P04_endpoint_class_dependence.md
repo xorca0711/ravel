@@ -1,10 +1,16 @@
-# Wp-P04 — Which endpoint class does PGAM inhibition actually move?
+<a id="wp-p04--which-endpoint-class-does-pgam-inhibition-actually-move"></a>
+
+# Wp-P04 — Endpoint sensitivity to PGAM inhibition
+
+Which endpoint class does PGAM inhibition actually move?
 
 **Status:** proposed; **blocked for reanalysis** because no numeric values are
 deposited for the protein and disease panels. Retained as an endpoint-separation
 constraint on every other card and on any future experiment.
 
-## Why the card exists
+<a id="why-the-card-exists"></a>
+
+## Study rationale
 
 The paper's claim chain crosses four measurement classes, and the evidence is not
 uniform across them:
@@ -37,7 +43,9 @@ flattened by normalisation to culture or by division differences. The paper
 controlled for arrested cells by gating on division 1 for frequencies, but the
 secretion panels are per culture.
 
-## What would distinguish them
+<a id="what-would-distinguish-them"></a>
+
+## Discriminating evidence
 
 Not reanalysis: the numbers are not deposited. A future experiment would measure,
 in the same cultures and with the mouse as unit, (a) per-cell cytokine protein by

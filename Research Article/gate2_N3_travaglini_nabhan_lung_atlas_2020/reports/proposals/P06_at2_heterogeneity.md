@@ -1,7 +1,7 @@
 # Nb4-P06: AT2 signaling heterogeneity and the AT2-s label
 
 **Status: planned; the earlier matched source comparison failed its coverage gate.**
-[Master contract](README.md) · [source ledger](SOURCES.md). S01 discovery;
+[Master contract](README.md) · [source record](SOURCES.md). S01 discovery;
 S03/S04/S07 candidate human replication; S02 only after P01 qualification.
 
 ## Question and alternatives

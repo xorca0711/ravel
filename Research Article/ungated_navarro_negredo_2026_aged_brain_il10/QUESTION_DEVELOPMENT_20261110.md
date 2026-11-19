@@ -137,7 +137,9 @@ search or new measurement should be driven by this exact missing comparison.
 Recipient-specific perturbation becomes justified if the question advances to
 mechanism; it is not a compulsory arm for the initial ligand-effect comparison.
 
-## Where aging and existing RQs fit
+<a id="where-aging-and-existing-rqs-fit"></a>
+
+## Relationship to ageing and existing research questions
 
 A separate **age-modification extension** asks whether the D25K–WT response
 differs between matched young and old treatment groups. Navarro's young vehicle

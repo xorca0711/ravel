@@ -1,4 +1,6 @@
-# Documentation close-out and validation
+<a id="documentation-close-out-and-validation"></a>
+
+# Documentation and validation
 
 Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
 and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.
@@ -17,7 +19,7 @@ of every field. The [correction note](SOURCE_QUALIFICATION_CORRECTION.md)
 supersedes the naive-label parse and categorical condition-library confounding
 interpretation. No frozen code, contract, receipt or output was altered.
 
-The [README ledger](README.md#completion-ledger-documentation-close-out) is the
+The [README record](README.md#completion-ledger-documentation-close-out) is the
 complete stage 0-8 disposition. The [artifact inventory](ARTIFACT_INVENTORY.md)
 locates preserved data and preparation. The existing A1/A2/A8/A14/A19/A22
 hypotheses, negative results and evidence lineages remain unchanged; no direct
@@ -36,7 +38,9 @@ Windows checkouts, matching existing repository byte-preservation practice.
 It changes no validator, scientific threshold, governance rule or interpretation
 gate. Registry serialization is restored to the baseline line-ending convention.
 
-## Handoff
+<a id="handoff"></a>
+
+## Materials for subsequent analysis
 
 The immediate deliverable is parent review of this incomplete, explicitly bounded
 checkpoint. No new numerical run is queued or authorized by this close-out note.

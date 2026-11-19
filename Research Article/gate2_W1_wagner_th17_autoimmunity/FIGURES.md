@@ -59,7 +59,9 @@ treatment contrast is represented in this plate.
 
 All 14 prespecified reactions are shown without selecting for effect size. Each dot is one source cell; the deterministic horizontal jitter is visual only. Boxes show the median and interquartile range, with whiskers extending to the most extreme points within 1.5 interquartile ranges. Each panel contains 151 Th17n and 139 Th17p observations. Scores are the saved metareaction values, so reactions sharing a group have identical distributions. Vertical scales differ between panels. These cells are nested in unresolved animals or preparations; boxes and points are descriptive and no biological confidence interval is supplied.
 
-### Figure 3: which reaction scores differ?
+<a id="figure-3-which-reaction-scores-differ"></a>
+
+### Figure 3 — Differences in reaction scores
 
 **Read the between-condition separation using d and q together.** Here
 `d = (mean Th17p score − mean Th17n score) / pooled within-condition SD`.

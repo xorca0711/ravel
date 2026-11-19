@@ -217,7 +217,9 @@ if a candidate is registered; preserve all frozen versions and unfavorable
 results. Review of source fidelity and scientific interpretation remains
 separate from a successful run receipt.
 
-## Current handoff
+<a id="current-handoff"></a>
+
+## Materials for subsequent analysis
 
 **10 November owner-requested extension:** the [bounded follow-up](followup_20261110/README.md)
 has executed source refresh, residual-statistic diagnostics and a separately

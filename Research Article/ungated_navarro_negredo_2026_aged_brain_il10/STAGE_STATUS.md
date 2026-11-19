@@ -1,4 +1,6 @@
-# Execution ledger — 8 November 2026
+<a id="execution-ledger--8-november-2026"></a>
+
+# Analysis status — 8 November 2026
 
 **10 November follow-up:** the original seven-stage scope below remains complete
 within its holds. The owner-authorized [source/statistic follow-up and separate

@@ -1,6 +1,6 @@
 # Nb4-P01: species-dependent model transfer
 
-**Status: planned.** [Master contract](README.md) · [source ledger](SOURCES.md).
+**Status: planned.** [Master contract](README.md) · [source record](SOURCES.md).
 Primary sources: S01/S02; independent human reference to qualify from S03/S04/S07.
 
 ## Question and alternatives

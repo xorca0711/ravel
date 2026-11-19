@@ -1,4 +1,8 @@
-# Nb2-N3 candidate: does starting state determine response beyond receptor abundance?
+<a id="nb2-n3-candidate-does-starting-state-determine-response-beyond-receptor-abundance"></a>
+
+# Nb2-N3 — Effects of starting state and receptor abundance
+
+Does starting state determine response beyond receptor abundance?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

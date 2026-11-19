@@ -1,7 +1,7 @@
 # Literature context: Arz1-P01 source qualification and extensions
 
 1 November 2026. Prospective source-qualification framing after an outcome-exposed
-reading pass. [Question and job ledger](README.md). No novelty or laboratory-readiness
+reading pass. [Question and job record](README.md). No novelty or laboratory-readiness
 claim; no canonical RQ is materially amended by this article-local intake.
 
 ## Published finding and source coverage

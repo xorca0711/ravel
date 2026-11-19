@@ -1,6 +1,6 @@
 # Repository and overlap scan
 
-31 October 2026, Asia/Seoul. Scope: the full registered portfolio at ledger level,
+31 October 2026, Asia/Seoul. Scope: the full registered portfolio at record level,
 with targeted current-result reads for branches relevant to Yadav and the thesis.
 This is not a fresh numerical audit of all 32 questions or a portfolio ranking.
 
@@ -32,7 +32,7 @@ This is not a fresh numerical audit of all 32 questions or a portfolio ranking.
 ## Coverage and findings
 
 Read AI_CONTEXT, PROGRESS, the registry, research governance, literature workflow,
-the three 7 October group ledgers/current results, primary portfolio summary,
+the three 7 October group records/current results, primary portfolio summary,
 the 26 October handoff, current Yadav reports, Wg-P06 and targeted dossiers.
 The group ownership covers A0–A31 without treating old completion dates as current
 scientific acceptance. Closely inspected A3/A9/A12/A13/A14/A15/A16/A20/A22/A31.

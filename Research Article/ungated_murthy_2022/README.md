@@ -1,17 +1,45 @@
-# Kadur Lakshminarasimha Murthy et al. 2022, the source paper of GSE178360
+# Kadur Lakshminarasimha Murthy et al. (2022) — Distal lung epithelial lineage potential
 
-## A branch point between alveolar and airway epithelium
+<a id="kadur-lakshminarasimha-murthy-et-al-2022-the-source-paper-of-gse178360"></a>
 
-In the human distal lung, Murthy and colleagues identified a transient AT0 state with two possible outcomes.
+<a id="a-branch-point-between-alveolar-and-airway-epithelium"></a>
 
-- **Alveolar route** — AT2 through AT0 to an alveolar type 1 cell.
-- **Airway route** — AT2 through AT0 to a terminal or respiratory bronchiole secretory cell.
+## Published findings
 
-Tissue localization, RNA trajectories and human organoid differentiation supplied different pieces of that lineage argument. [Paper, Fig. 3 and Extended Data Fig. 11](https://doi.org/10.1038/s41586-022-04541-3)
+```text
+Alveolar type 2 cell → transient AT0 state
+                         ├─ Alveolar type 1 cell
+                         └─ Terminal or respiratory bronchiole secretory cell
+
+Implication: one intermediate has both alveolar and airway differentiation potential.
+```
+
+Tissue localization, cell-state trajectories and human organoid differentiation supplied distinct evidence for the AT0 intermediate and its two possible descendants. [Paper, Fig. 3 and Extended Data Fig. 11](https://doi.org/10.1038/s41586-022-04541-3)
+
+## Ravel analyses and results
 
 Ravel’s atlas of three healthy donors identified an epithelial group expressing both *SFTPC* and *SCGB3A2*. Reference mapping assigned AT0 to only 75 of its 328 cells. The markers locate candidates for closer inspection, while the sampled transcriptomes leave both descendant fates unobserved. [Three-donor atlas](GSE178360/README.md) · [Reference-label comparison](../gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_summary.md)
 
-## Read this study
+## Data and methods
+
+The Ravel atlas contains three healthy human donors. Marker coexpression identified a candidate group, and alternative scoring rules and reference labels were compared within the same data. [Three-donor atlas](GSE178360/README.md)
+
+## Interpretation and open questions
+
+RNA coexpression identifies candidate AT0 cells. The lineage evidence comes from tissue and organoid experiments, and each cell’s subsequent fate is unobserved in the atlas.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](GSE178360/README.md) |
+| Computational methods | [Analysis code](../../analysis/scripts/08_reference_aligned_epithelial_umap.py) |
+| Results | [Study results](../gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_summary.md) |
+| Figures | [Figures and captions](#figure-gallery) |
+
+<a id="read-this-study"></a>
+
+### Study overview and references
 
 | To understand | Read |
 |---|---|
@@ -42,7 +70,9 @@ the roadmap, and the roadmap's rule is that study notes follow reading
   27,729 cells after QC). Current decisions are in the root
   [claim register](../../CLAIMS.md); its mouse claims do not describe this cohort.
 
-## Figure gallery
+<a id="figure-gallery"></a>
+
+### Study figures
 
 The human atlas contains three healthy donors. The figures below describe
 donor coverage and marker distributions; they do not establish injury-related

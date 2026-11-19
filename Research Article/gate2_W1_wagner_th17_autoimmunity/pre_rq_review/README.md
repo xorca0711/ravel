@@ -13,11 +13,13 @@ questions. P06 has closer published intercellular-metabolism precedents than
 the initial scan identified. All six article-local candidates remain available.
 
 - [Extension feasibility and all-A0–A27 overlap map](EXTENSIONS_AND_OVERLAPS.md)
-- [New primary-source checks, corrections, reuse and search ledger](LITERATURE_UPDATE.md)
+- [New primary-source checks, corrections, reuse and search record](LITERATURE_UPDATE.md)
 - [Current numerical evidence and held stages](../PRE_RQ_EVIDENCE.md)
 - [Earlier six-branch methods/supplement review](../PRECEDENT_REVIEW.md)
 
-## What the evidence supports
+<a id="what-the-evidence-supports"></a>
+
+## Findings and inference limits
 
 | Candidate | Established local evidence | Closest precedent / strongest rival | Contribution still assessable before a new RQ |
 |---|---|---|---|

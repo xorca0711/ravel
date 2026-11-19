@@ -69,7 +69,7 @@ the platform restriction; stage 8 cannot provide results-based integration.
 Completed source-reading and design-audit components remain credited as review
 work, including the ARG1 comparator audit and regulatory precedents. Planned
 comparisons must not be marked completed or converted wholesale into data
-limitations. The article README owns the current stage ledger.
+limitations. The article README owns the current stage record.
 No TF activity, causal ARG1 mediation, memory maintenance, human disease effect
 or mature epithelial repair result was generated.
 

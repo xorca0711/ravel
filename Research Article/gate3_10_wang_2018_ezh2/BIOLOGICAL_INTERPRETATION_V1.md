@@ -5,7 +5,9 @@ S1–S5 and F1–F3 work, reviewed against `5f8caee` and refreshed main `30a4a7b
 This note uses existing results; it performs no new numerical analysis and
 does not change a canonical hypothesis, question status or claim grade.
 
-## What was already established
+<a id="what-was-already-established"></a>
+
+## Prior findings
 
 Wang et al. (2018) already reported the cultured Il10/Tgfb1 decrease, Il2
 increase and inflammatory enrichment in S3B–C. Figures 5–7 supply separate
@@ -32,7 +34,9 @@ an existing premise. The qualified day-four comparison still lacks linked
 recovery, state and output measurements. [Primary record](https://pubmed.ncbi.nlm.nih.gov/27909059/)
 · [Reading limits and exact context](F3_LITERATURE_ADDENDUM_20261112.md).
 
-## What the repository added
+<a id="what-the-repository-added"></a>
+
+## Additional Ravel evidence
 
 The observed unit is a deposited library, not a verified independent mouse.
 The comparison is relative RNA after 96 hours of culture in four deficient
@@ -68,7 +72,9 @@ Exact numerical evidence is in [S1–S4 results](RESULTS_V1.md), the
 and [F2 results](F2_RESULTS_V1.md). No effect in patients, mediator necessity,
 direct EZH2 target or recipient repair effect was estimated here.
 
-## What changes for A33–A35
+<a id="what-changes-for-a33a35"></a>
+
+## Implications for A33–A35
 
 The direct RQ links use the exposed, fixed five-gene S4 panel. Wang count
 ratios, DuPage log-FPKM differences and Peeters rlog differences retain

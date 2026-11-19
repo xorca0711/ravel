@@ -48,7 +48,9 @@ single Il22ra1 counts in a pooled Choi benchmark and no controlled IL-22 respons
 It is not evidence for the colon question. No chromatin or memory measurement
 has been made in this paper package.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 The contribution is **exposed same-source reproduction and robustness**, not
 novel discovery of cytokine pleiotropy. A direct condition contrast and a fixed
@@ -73,7 +75,9 @@ Counts do not separate within-cell regulation from composition. Shared PBS
 controls also couple the two vehicle-relative axes, restricting interpretation
 of a correlation or fitted amplitude line.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 The [plan's outcome table](README.md#hypothesis-alternatives-and-interpretation)
 specifies supportive, amplitude-compatible, unstable and inconclusive outcomes.

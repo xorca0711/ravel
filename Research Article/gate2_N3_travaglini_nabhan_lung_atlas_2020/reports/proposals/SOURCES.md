@@ -1,6 +1,8 @@
-# Nb4 proposal source and exposure ledger
+<a id="nb4-proposal-source-and-exposure-ledger"></a>
 
-**Planning audit, 3 October 2026.** This ledger separates previously used data
+# Nb4 proposal sources and prior outcome exposure
+
+**Planning audit, 3 October 2026.** This record separates previously used data
 from candidate inputs. It does not add numerical dataset usage. See
 [existing Nb4 provenance](../../DATASETS.md) and the
 [repository inventory](../../../../docs/DATASETS.md) for executed work.

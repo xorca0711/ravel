@@ -93,7 +93,9 @@ and (5) a separately frozen reconstruction design. A patient-effect estimate
 additionally needs valid pairing and independent-patient qualification. No extra
 marginal scoring can supply these missing objects.
 
-## New access ledger and coverage
+<a id="new-access-ledger-and-coverage"></a>
+
+## Source access and coverage
 
 Actual service/date: web search and direct primary HTTPS retrievals,
 30 October 2026. Targeted reads, not newly completed full-paper reviews.

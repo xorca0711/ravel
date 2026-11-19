@@ -1,4 +1,6 @@
-# Extension execution and review ledger
+<a id="extension-execution-and-review-ledger"></a>
+
+# Extension analyses and scientific review
 
 31 October 2026. Parent plan follows the owner's new extension request.
 Original Yadav work remains closed at its documented scope; the entries below
@@ -180,7 +182,7 @@ Validation:
 - Both contract/input preflights, both receipt verifications and compilation of
   the three new Python files passed.
 - Independent B source rereads passed as above. Repository validation passed
-  12,206 checks before this ledger-only update.
+  12,206 checks before this record-only update.
 - The inherited 158 tests/two documented skips and claim/archive verifiers from
   reviewed checkpoint A remain valid: no test, shared runtime, validator, claim
   or archived-output code changed. They were not redundantly rerun.
@@ -264,7 +266,7 @@ Validation:
 - Contract/input preflight, C receipt verification and both new Python source
   compilations passed. Independent raw-source checks verified all 26 sample and
   26 run rows, all 52 feature-support rows, all 42 sizes and blank denominators.
-- Repository validation passed 12,238 checks before this ledger-only update.
+- Repository validation passed 12,238 checks before this record-only update.
 - The inherited 158 tests/two documented skips and claim/archive verifiers remain
   valid; no shared runtime, validator, claim or archived-output code changed.
   They were reused rather than redundantly rerun.
@@ -274,7 +276,7 @@ Validation:
   questions/guides, claims and governance are unchanged. Staged whitespace passed.
 
 No canonical RQ, claim grade, governance, human decision or old frozen output
-changed. Current summaries link the new return and preserve old ledgers/caches.
+changed. Current summaries link the new return and preserve old records/caches.
 Next is technical review of C's precise holds/conditional design. Actual source
 exports and a separately reviewed numerical/resource contract are required
 before expression acquisition or execution. This is not final scientific or
@@ -329,7 +331,7 @@ Arg1 and WT-coculture Il6 directions, source protein/qPCR marginals, the unresol
 hydroxyproline contrast. It preserves unchanged Wg-P06, OAT/PRODH/ROS and
 cytokine/viability alternatives, the separate A13/A20/A8/A19 epithelial bridge,
 unfavorable A13/A22 findings and every original six-step hold. Source reuse is not
-independent replication; the earlier repo scan remains a ledger/status scan,
+independent replication; the earlier repo scan remains a record/status scan,
 not a new numerical audit or portfolio ranking.
 
 Reopening requirements remain explicit:
@@ -378,7 +380,7 @@ No feasible authorized execution job remains. Scientific acceptance is separate.
 
 Reviewer clarified the P2rx4 versus Arg1 perturbation labels without changing
 measurements. Original source/spatial holds, all questions, frozen evidence and
-both ledger histories remain. Current main is unchanged at
+both record histories remain. Current main is unchanged at
 `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Final integration passed 12,298
 repository checks and the current-main research gate (`ok: true`, no errors).
 Valid prior tests were reused. Pause the heartbeat after this delivery; no new

@@ -171,7 +171,9 @@ Both successful execution and its distinct initial failure are preserved:
 - [Runtime](../../analysis/research/runs/naik2017_s6c_d180_proxy_v1_retry1/runtime.json): entrypoint 489.156 seconds (472.468 before final verification). Extraction 443.049 seconds; extraction reader peak RSS 71.977 MiB, including interval-readback phase peak 146.102 MiB. The 2 GiB / 2 hour / 50 MiB derived-output envelope was respected. Host Python 3.12.10/NumPy 2.5.1/pandas 3.1.1; pinned reader Python 3.13.18/pybbi 0.4.2/NumPy 2.5.5. A pandas future-deprecation warning for the retained round-trip parser was logged; no values were substituted or calculations skipped.
 - [Failure archive manifest](../../analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failure_archive_manifest.json) and [preservation receipt](../../analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/receipt.json): the first `naik2017_s6c_d180_proxy_v1` attempt failed at WSL path translation in the default sandbox (`Wsl/E_ACCESSDENIED`); its UTF-16 error output also caused a UTF-8 decode failure. No header or window signal was read. All eight original files were retained intact within the scoped workspace and archived byte-for-byte with a separate diagnostic (nine inputs, ten outputs). The original receipt remains `execution_failed`; successful preservation is not successful scientific execution. Approved local WSL access succeeded and the unchanged scientific contract/code/inputs ran under a fresh retry1 ID. No governance checks, scientific design, runtime installation or source labels changed.
 
-## What this permits next
+<a id="what-this-permits-next"></a>
+
+## Eligible subsequent comparisons
 
 The D180 endpoint is now qualified within its stated universe. It adds
 heterogeneous long-term relative-order evidence, including favorable, mixed and

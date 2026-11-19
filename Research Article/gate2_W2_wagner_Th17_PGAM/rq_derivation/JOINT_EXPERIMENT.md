@@ -1,4 +1,6 @@
-# Can A28, A29 and Wp-P02 be run as one preparation?
+<a id="can-a28-a29-and-wp-p02-be-run-as-one-preparation"></a>
+
+# Shared-preparation feasibility for A28, A29 and Wp-P02
 
 > **Design clarification, 7 October 2026:** shared preparation is optional. The five listed A29/P02 arms do not constitute a complete PGAM × PHGDH × PEP factorial, and a PEP rescue interpretation needs an explicit control strategy. Each question keeps its own estimand and unit; A30's human compartment comparison is not part of this mouse preparation. See the [audit](../../../docs/audits/2026-10-07-pr140/REPORT.md).
 
@@ -7,7 +9,9 @@ summary asserted they share a perturbation. **They do not.** This records the
 corrected overlap and what it is worth, so the owner can decide whether to
 merge them. It proposes no contract and changes no registered question.
 
-## What each card fixes, read from its own plan
+<a id="what-each-card-fixes-read-from-its-own-plan"></a>
+
+## Prespecified comparisons by research question
 
 | | A28 | A29 | Wp-P02 |
 |---|---|---|---|
@@ -33,7 +37,9 @@ perturbation**. Describing all three as "one experiment with a PGAM/PHGDH
 perturbation" was wrong about A28, and the error mattered: it would have put a
 glucose titration under a PGAM contract.
 
-## What a shared preparation actually buys
+<a id="what-a-shared-preparation-actually-buys"></a>
+
+## Shared-preparation comparisons
 
 The dominant costs here are mice, the harvest, and the stain — not the
 treatment arms. One preparation can therefore carry all three if the arms are
@@ -53,7 +59,9 @@ The saving is real but it is a **shared preparation and panel**, not a shared
 contrast. Each card keeps its own primary comparison and its own multiplicity
 family; nothing is pooled across blocks.
 
-## What must not be merged
+<a id="what-must-not-be-merged"></a>
+
+## Comparisons requiring separate interpretation
 
 - **Multiplicity families stay separate.** A28 declares four tests (two
   comparisons × two protein axes). Folding A29's PEP and IL-17 endpoints into

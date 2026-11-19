@@ -1,4 +1,6 @@
-# DY1 job-by-job assessment and current disposition
+<a id="dy1-job-by-job-assessment-and-current-disposition"></a>
+
+# DY1 analysis status and eligibility
 
 30 October 2026, Asia/Seoul. This is the coordinating review of article-local
 DY1-P01, following the [original stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md).
@@ -86,7 +88,7 @@ This does not claim the original numerical sequence is fully reproduced.
 
 ## Technical review and validation status
 
-The analysis chat cross-checked this ledger against the original stages and saved
+The analysis chat cross-checked this record against the original stages and saved
 results on 30 October: no blocking completion/hold mismatch or omitted currently
 qualified original job was found. Source-side validation passed 161 repository
 tests (one skip), 12 targeted synthetic tests, standard evidence verifiers,

@@ -32,7 +32,9 @@ stage completion is not a claim that every original paper analysis was reproduce
 | S5: connect evidence | [S5M v2](S5M_RESULTS_V2.md) retains RNA–proxy associations with corrected raw-zero semantics; [S5F](S5F_RESULTS_V1.md) reconstructs distinct functional-source endpoints. | Association does not identify chromatin repression or repair. Reported decay constants were not refitted, anonymous functional records were not assigned animals, and source/caption-N discrepancies remain. |
 | S6: develop or close a follow-up | Later literature and actual mixed results supported completed S6A–C, then the prospectively specified [S7](S7_RESULTS_V1.md) concurrent-control response interaction. Current disposition closes that bounded comparison. | No global RQ, score, pathway/cohort screen, raw-read pipeline, molecular-function model or mechanistic acceptance is added automatically. |
 
-## What the completed extensions changed
+<a id="what-the-completed-extensions-changed"></a>
+
+## Implications of the extension analyses
 
 **S6A daily wound areas:** all six panels, 62 endpoints, 228 group-days and 166
 contrast-days remain, with 27,894 independent checks. Raw and day-0-subtracted

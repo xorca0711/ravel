@@ -5,7 +5,9 @@ Owner Sx22-P01; no canonical RQ or scientific acceptance is created.
 [Gallery](FIGURES.md) · [C0 qualification](C0_QUALIFICATION.md) ·
 [Validation](VALIDATION.md) · [Prospective question and source context](README.md).
 
-## What was measured
+<a id="what-was-measured"></a>
+
+## Measured endpoints
 
 This shared-source reanalysis describes the two fixed transcripts `Il22ra1` and
 `Il10rb` in the 11,683 retained Choi benchmark cells. It uses the saved count layer,

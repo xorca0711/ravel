@@ -95,7 +95,11 @@ and why it might not be worth running. **E1–E3 are reanalysis of deposited dat
 E4–E6 need something this project does not hold. E7–E9 are named so they are not
 mistaken for good ideas later.**
 
-### E1 — Does the score's instability reach the reaction ranking?
+<a id="e1--does-the-scores-instability-reach-the-reaction-ranking"></a>
+
+### E1 — Reaction-ranking sensitivity to the pathogenicity score
+
+Does the score's instability reach the reaction ranking?
 
 The one consequence [Wp-P01](P01_RESULTS.md) could not test. Wp-R2 scored
 micropools without saving pool membership, so no variant score can be projected
@@ -110,7 +114,11 @@ paper's reaction selection inherits the HVG filter. *Argument against:* the
 whole plate is already labelled a sensitivity, so a sensitivity of a sensitivity
 has limited reach.
 
-### E2 — Is the composition shift a boundary artefact?
+<a id="e2--is-the-composition-shift-a-boundary-artefact"></a>
+
+### E2 — Sensitivity of cell composition to state boundaries
+
+Is the composition shift a boundary artefact?
 
 [Wp-P03](P03_RESULTS.md) could not run the card's resolution sweep because the
 authors' clustering is not deposited. A graded version is available: assign
@@ -124,7 +132,11 @@ conclusion if:* the mixture term is an artefact of hard labels, which would
 retract the strongest statement Wp-P03 makes. *Argument against:* it still
 cannot show that a cell changed state, so the lineage limit is untouched.
 
-### E3 — Which genes carry the non-selective Th17n EGCG shift?
+<a id="e3--which-genes-carry-the-non-selective-th17n-egcg-shift"></a>
+
+### E3 — Gene contributions to the Th17n response to EGCG
+
+Which genes carry the non-selective Th17n EGCG shift?
 
 [Figure 2](FIGURES.md#figure-2-in-th17n-pgam-inhibition-moves-both-gene-groups)
 shows both gene groups rising together under EGCG in Th17n. The question that
@@ -142,7 +154,11 @@ its own evidence. *Argument against:* TPM renormalisation alone can produce a
 global shift, and the deposit has no spike-ins or counts to rule that out, so a
 negative result would be uninterpretable.
 
-### E4 — Is the donor-level axis in human blood a batch effect?
+<a id="e4--is-the-donor-level-axis-in-human-blood-a-batch-effect"></a>
+
+### E4 — Batch sensitivity of the human blood association
+
+Is the donor-level axis in human blood a batch effect?
 
 [Wp-R4](R4_RESULTS.md) showed the blood separation is non-specific but could not
 identify the axis, because GSE138266 deposits no batch, run or processing field.
@@ -154,7 +170,11 @@ has already judged implausible for this package. *Changes a conclusion if:* it
 would convert "non-specific" into "explained", which is a stronger negative
 result. *Status:* parked, not proposed.
 
-### E5 — Does the pro-regulatory arm fall at low glucose in an independent Th17 dataset?
+<a id="e5--does-the-pro-regulatory-arm-fall-at-low-glucose-in-an-independent-th17-dataset"></a>
+
+### E5 — Regulatory-program expression under low glucose in an external Th17 dataset
+
+Does the pro-regulatory arm fall at low glucose in an independent Th17 dataset?
 
 The single strongest reproduced finding rests on two mice. Any independent Th17
 single-cell dataset with a nutrient or glucose contrast would test whether the
@@ -189,7 +209,9 @@ would be proposed is not distinctive even in its own compartment.
 The owner declined this on 4 October 2026. A digitised series is never raw data
 and never enters a claim as a measurement.
 
-## 5. What a derivation should start from
+<a id="5-what-a-derivation-should-start-from"></a>
+
+## Evidence underlying question development
 
 Four asymmetries in what the package found, each a candidate seed and none of
 them yet a question:

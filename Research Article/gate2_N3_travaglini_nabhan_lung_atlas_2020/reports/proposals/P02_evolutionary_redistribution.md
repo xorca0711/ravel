@@ -1,7 +1,7 @@
 # Nb4-P02: cellular redistribution of expression across species
 
 **Status: planned; comparative inputs require the P01 source audit.**
-[Master contract](README.md) · [source ledger](SOURCES.md). Sources S01/S02;
+[Master contract](README.md) · [source record](SOURCES.md). Sources S01/S02;
 S08 is a candidate third species, not a validated new input.
 
 ## Question and alternatives

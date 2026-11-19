@@ -49,7 +49,9 @@ induction dose and some timing/statistical wording differ between Methods and
 Results/legends; these are reasons to resolve source methods before reproducing
 an assay, not to silently choose a value. No protocol was implemented here.
 
-## What this review changes
+<a id="what-this-review-changes"></a>
+
+## Implications of the review
 
 The earlier neighboring-paper note called Bockman a cDC2/CD4-dependent
 precedent from indexed text. That compressed description is superseded:

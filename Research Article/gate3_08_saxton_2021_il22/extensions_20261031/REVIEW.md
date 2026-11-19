@@ -28,7 +28,7 @@ separate and unchanged at `f4878c1`.
   report correctly limits its workbook assessment to the index/leading rows.
 - Reviewed the scripts' field selection, failure checks and interpretation
   boundaries. Their hashes match the frozen code already reviewed. Read the
-  results, source/access manifest, X3 qualification, ledger and validation record.
+  results, source/access manifest, X3 qualification, record and validation record.
   The final diff changes only the extension work, article navigation, PROGRESS
   and the Sx22 registry bindings. Root attributes, governance, canonical question
   state and original R1 artifacts are unchanged.

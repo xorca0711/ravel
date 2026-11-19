@@ -1,7 +1,7 @@
 # Nb4-P04: shared lung-associated immune programs
 
 **Status: planned; source pairing supports a descriptive pilot.**
-[Master contract](README.md) · [source ledger](SOURCES.md). S01 source
+[Master contract](README.md) · [source record](SOURCES.md). S01 source
 lung/blood; S03 lung localization; S09 paired external cohort still unqualified.
 
 ## Question and alternatives

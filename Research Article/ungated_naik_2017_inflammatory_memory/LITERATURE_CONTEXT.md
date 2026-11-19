@@ -115,7 +115,9 @@ state/function attribution remains unresolved. The
 likewise separates regulatory measurements from linked later output. Neither
 supplies a tested universal memory mechanism for Naik.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 The immediate contribution is transparent shared-source description and
 measurement qualification. S2 and S4 narrow the baseline and baseline-adjusted
@@ -183,7 +185,9 @@ its baseline decision and limits. [S4](S4_RESULTS_V1.md) owns the recall decompo
 No new mechanism or novelty claim follows, and no new mechanistic literature
 scan was performed for this diagnostic.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 Retained accessibility with attenuated RNA and baseline-adjusted recall would
 support the published association within this source. Baseline offsets, absent

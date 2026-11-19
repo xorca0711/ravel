@@ -11,7 +11,9 @@ fresh main `51d3b930b3805c616e67e414390ecf060647d090`.
 [Question](README.md) · [Results](RESULTS.md) · [Figures](FIGURES.md) ·
 [Technical validation](VALIDATION.md) · [Exact current holds](../COMPLETION_LEDGER.md).
 
-## What was independently checked
+<a id="what-was-independently-checked"></a>
+
+## Independent verification of calculations
 
 The originating reviewer read the production normalization, annotation, contrast,
 amplitude, summary and plotting code before execution. A separate scratch

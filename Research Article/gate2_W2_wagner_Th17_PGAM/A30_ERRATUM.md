@@ -7,7 +7,9 @@ This supersedes the **reported values** of `wp_a30_activation_stratified_v2` and
 registered design, or propose a grade. Both predecessor runs and their receipts
 are preserved and remain readable.
 
-## 1. What was wrong
+<a id="1-what-was-wrong"></a>
+
+## Original methodological discrepancy
 
 **The denominator.** Both v1 and v2 formed CP10K by dividing each cell by the
 row sum of the **loaded gene subset** rather than by its all-gene library size.
@@ -31,7 +33,9 @@ the result on either side of 0.05, and the "short of threshold by precision"
 reading it was given was not supportable.** v3 uses 10,000 draws, for a
 standard error near 0.001.
 
-## 2. What changed, and what did not
+<a id="2-what-changed-and-what-did-not"></a>
+
+## Scope of the correction
 
 | | v2 | v3 |
 |---|---|---|

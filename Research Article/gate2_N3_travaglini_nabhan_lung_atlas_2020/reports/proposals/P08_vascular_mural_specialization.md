@@ -1,7 +1,7 @@
 # Nb4-P08: pericyte identity, vessel context and contractile programs
 
 **Status: planned; no linked perfusion or contractility endpoint qualified.**
-[Master contract](README.md) · [source ledger](SOURCES.md).
+[Master contract](README.md) · [source record](SOURCES.md).
 S01 source; full S03 vascular/mural and spatial data are candidate validation.
 
 ## Question and alternatives

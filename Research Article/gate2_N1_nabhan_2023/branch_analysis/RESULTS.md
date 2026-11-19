@@ -145,7 +145,9 @@ receptor activation and ligand RNA coexistence do not establish an endogenous
 Fzd6 ligand or dependence. Current counts lack ligand-selective perturbation
 crossed with Fzd6 dependence. This companion remains an eligibility result.
 
-## What changed in the hypothesis priority
+<a id="what-changed-in-the-hypothesis-priority"></a>
+
+## Reassessment of the candidate hypotheses
 
 Prioritize N1–N3/N5 as a connected question about reversible, state-dependent
 responses with **linked later maturation**. The strongest present leads are

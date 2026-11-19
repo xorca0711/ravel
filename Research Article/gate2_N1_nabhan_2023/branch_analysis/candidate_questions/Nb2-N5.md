@@ -1,4 +1,8 @@
-# Nb2-N5 candidate: distinct routing or unequal response amplitude?
+<a id="nb2-n5-candidate-distinct-routing-or-unequal-response-amplitude"></a>
+
+# Nb2-N5 — Signaling route and response amplitude
+
+Distinct routing or unequal response amplitude?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

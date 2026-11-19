@@ -130,7 +130,7 @@ this layout correction.
 
 ## Final integration scope and remaining holds
 
-The current [job ledger](README.md#stepwise-disposition-ledger) separates completed
+The current [job record](README.md#stepwise-disposition-ledger) separates completed
 metadata, Q3a/Q5a and Q4a adaptations from held Q3/Q4/Q6. Source coverage lacks
 the author state/QC map and actual early-to-later unit links. The first two
 deposits lack located fragments/common recounted features; exact replay also

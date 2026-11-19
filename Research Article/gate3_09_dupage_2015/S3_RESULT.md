@@ -8,7 +8,9 @@
 
 ![Regulatory context](../../analysis/research/runs/dupage_s3_regulatory_context_v1/regulatory_context.png)
 
-## What was measured
+<a id="what-was-measured"></a>
+
+## Measured endpoints
 
 The internal HET activation-down group contains 4,400 loci; its median RNA
 interaction is +0.1024. The activation-up group has 7,175 loci with median

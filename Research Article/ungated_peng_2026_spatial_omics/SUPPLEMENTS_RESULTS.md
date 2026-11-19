@@ -19,7 +19,7 @@ exposed; this is not confirmation, expression analysis or scientific acceptance.
 
 The files `NIHMS2118436-supplement-2.xlsx` through `-7.xlsx` are Tables S1–S6.
 Each original and ignored local copy matches the owner-supplied SHA-256. Original
-workbooks were opened without saving; formulas were not executed. The ledger
+workbooks were opened without saving; formulas were not executed. The record
 retains saved formulas, cached values, cell types, number formats and source
 addresses. The prior download failures remain historical; receipt of local files
 resolves table-content access without changing restricted Zenodo access.
@@ -32,7 +32,7 @@ resolves table-content access without changing restricted Zenodo access.
 
 Source locators below refer to these supplied files, not a claim of a successful
 new public download. Numbered tables and repository calculations are distinct
-evidence. The full source-cell ledger also retains notes and blank distinctions
+evidence. The full source-cell record also retains notes and blank distinctions
 needed to interpret the extracted tables.
 
 ## S1: participation, clinical fields and remaining identities

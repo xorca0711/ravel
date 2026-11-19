@@ -14,7 +14,9 @@ biological question in those branches. This continuation closes a source-recover
 job and executes the newly feasible CD4/CD8 follow-up. It does **not** call the
 microglial state-versus-mixture model complete.
 
-## What was recovered
+<a id="what-was-recovered"></a>
+
+## Recovered source materials
 
 The author's [official public object directory](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/?list-type=2&prefix=Data-objects/)
 contains a different brain release from the first Figshare intake. The
@@ -152,4 +154,4 @@ age-conflicting, mouse-conflicting and tissue-conflicting joins and retain
 unmatched rows. Figure 11 was visually inspected: its 44-word, three-line
 embedded caption fits; PNG metadata records 300 dpi and the one-page PDF
 contains the caption. Required integration checks are in the
-[execution ledger](EXECUTION_VALIDATION.md).
+[execution record](EXECUTION_VALIDATION.md).

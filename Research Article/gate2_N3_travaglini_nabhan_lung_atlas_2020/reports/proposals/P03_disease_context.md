@@ -1,7 +1,7 @@
 # Nb4-P03: disease expression as identity, induction or composition
 
 **Status: planned; existing disease sources require new contrast qualification.**
-[Master contract](README.md) · [source ledger](SOURCES.md). S01 normal context;
+[Master contract](README.md) · [source record](SOURCES.md). S01 normal context;
 S05 IPF discovery; S06 second-cohort transport. These are previously exposed
 repository resources, not newly unseen validation data.
 

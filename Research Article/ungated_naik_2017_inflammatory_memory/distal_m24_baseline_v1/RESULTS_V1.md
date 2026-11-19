@@ -2,7 +2,9 @@
 
 Balancing early control accessibility modestly attenuated the M24 post-IMQ versus naïve difference between distal Memory and Resolved regions. The gap change fell from **+0.12149 to +0.11608 fragment CPM**. Among regions with shared support, Memory averaged **0.08792 CPM higher** and Resolved **0.02816 CPM lower** in post-IMQ pools. The late separation therefore persisted after bringing the two classes much closer in their observed D6 control rankings. [Frozen method](METHOD_V1.md) · [Previous M24 result](../distal_m24_outcome_v1/RESULTS_V1.md) · [Exact class changes](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/history_changes.tsv)
 
-## What changed when baseline rank was added?
+<a id="what-changed-when-baseline-rank-was-added"></a>
+
+## Sensitivity to baseline accessibility rank
 
 Each class change subtracts the mean of the two naïve pools from the mean of the two post-IMQ pools. The gap is the Memory change minus the Resolved change. All entries are fragment CPM.
 
@@ -14,7 +16,9 @@ Each class change subtracts the mean of the two naïve pools from the mean of th
 
 Excluding 23 Memory and 27 Resolved regions and renormalizing the old weights increased the gap change by **0.000661 CPM**. Redistributing weight among the retained regions then decreased it by **0.006073 CPM**. The net change was **−0.005411 CPM**. Redistribution reduced the positive Memory change more than it deepened the negative Resolved change. [Exact decomposition for both classes and their gap](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/change_decomposition.json)
 
-## How much did the four M24 pools vary?
+<a id="how-much-did-the-four-m24-pools-vary"></a>
+
+## Variation across the four 24-month pools
 
 | M24 pool | Weighted Memory | Weighted Resolved | Within-pool gap |
 |---|---:|---:|---:|
@@ -25,7 +29,9 @@ Excluding 23 Memory and 27 Resolved regions and renormalizing the old weights in
 
 The new cross-pool gap differences were **+0.14015, +0.15219, +0.07997 and +0.09201 CPM** (post 1 versus naïve 1 and 2, then post 2 versus naïve 1 and 2). Memory increased in all four comparisons. Resolved rose by 0.01297 CPM in the first comparison and fell in the other three. The four contrasts reuse the same pools. [Pool summaries](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/pool_summaries.tsv) · [Cross-pool contrasts for every weighting](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/cross_pool.tsv)
 
-## How well did the controls agree, and what remained imbalanced?
+<a id="how-well-did-the-controls-agree-and-what-remained-imbalanced"></a>
+
+## Agreement and residual imbalance among controls
 
 All 6,300 D6 library–region reads passed. Across 4,327,880 library-bases, 920,435 had producer-encoded sparse zero depth and none had an explicitly stored zero. Entirely zero regions numbered 0, 6, 1 and 0 in Naik 1, Naik 2, Larsen 1 and Larsen 2. Naik 2's six zero regions shared a midrank. The four-library mean had 1,373 distinct ranks. [Coverage audit](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/coverage.json) · [Interval means](../../../analysis/research/runs/naik2017_distal_m24_baseline_v1/baseline_intervals.tsv)
 

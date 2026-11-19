@@ -1,6 +1,6 @@
 # Nb4-P07: regional epithelial programs in diseased distal lung
 
-**Status: planned.** [Master contract](README.md) · [source ledger](SOURCES.md).
+**Status: planned.** [Master contract](README.md) · [source record](SOURCES.md).
 S01 regional reference; full S03 normal spatial context; S05/S06 IPF cohorts.
 Reuse the P03 disease-source audit, without depending on its result.
 

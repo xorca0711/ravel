@@ -1,6 +1,8 @@
-# Review handoff — 29 October 2026
+<a id="review-handoff--29-october-2026"></a>
 
-**Historical role/source handoff.** The [current human validation](HUMAN_VALIDATION.md) and [stage ledger](README.md) supersede the execution-status snapshot below. The earlier restriction and original evidence are retained.
+# Study review — 29 October 2026
+
+**Historical role/source handoff.** The [current human validation](HUMAN_VALIDATION.md) and [stage record](README.md) supersede the execution-status snapshot below. The earlier restriction and original evidence are retained.
 
 ## Authorized scope
 
@@ -16,7 +18,7 @@ earlier chats. Use the saved artifacts and preserve the explicit restrictions.
 ## Read in this order
 
 1. Repository AGENTS.md, AI_CONTEXT.md, PROGRESS.md and docs/RESEARCH_GOVERNANCE.md.
-2. [Stage ledger](README.md), [source corrections](SOURCE_QUALIFICATION_CORRECTION.md)
+2. [Stage record](README.md), [source corrections](SOURCE_QUALIFICATION_CORRECTION.md)
    and [independent review](EXECUTION_REVIEW.md).
 3. [Close-out](CLOSEOUT.md) and [artifact inventory](ARTIFACT_INVENTORY.md).
 4. [Original review and stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md)

@@ -1,4 +1,8 @@
-# Nb2-N8 candidate: what endogenous input makes Fzd6 relevant to alveolar repair?
+<a id="nb2-n8-candidate-what-endogenous-input-makes-fzd6-relevant-to-alveolar-repair"></a>
+
+# Nb2-N8 — Endogenous Fzd6 input during alveolar repair
+
+What endogenous input makes Fzd6 relevant to alveolar repair?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

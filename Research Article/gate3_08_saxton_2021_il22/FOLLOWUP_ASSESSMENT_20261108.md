@@ -5,7 +5,7 @@ The prospective reasoning below remains the planning record; other endpoint hold
 
 8 November 2026. Planning under **Sx22-P01**; no new run, canonical RQ, acceptance
 or replacement of frozen results. [Current results](reassessment_v1/RESULTS.md) ·
-[Hold ledger](COMPLETION_LEDGER.md) ·
+[Hold record](COMPLETION_LEDGER.md) ·
 [Literature update](../../docs/research_reviews/2026-11-08-saxton-reading/LITERATURE_CONTEXT.md) ·
 [IL-10 plan](../../docs/research_reviews/2026-11-08-saxton-reading/IL10_ANALYSIS_PLAN.md).
 

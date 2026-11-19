@@ -1,4 +1,8 @@
-# Nb2-N6 candidate: does fibroblast subtype determine the Fzd1/Fzd2 functional balance?
+<a id="nb2-n6-candidate-does-fibroblast-subtype-determine-the-fzd1fzd2-functional-balance"></a>
+
+# Nb2-N6 — Fibroblast subtype and the Fzd1/Fzd2 functional balance
+
+Does fibroblast subtype determine the Fzd1/Fzd2 functional balance?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

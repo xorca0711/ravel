@@ -5,7 +5,9 @@ work is complete within qualified descriptive scope; S4 received a justified
 not-informative disposition; S5–S6 are source-grounded synthesis, with dependent
 assay/inference holds. **Execution is not scientific acceptance.**
 
-## What changed
+<a id="what-changed"></a>
+
+## Revised findings
 
 - [S0](S0_RESULT.md): 23,102 compatible gene-labelled spans; 22,997 all-OK in the
   retained 2/3/3/3 design. Twelve libraries map to 24 technical sequencing runs.
@@ -142,7 +144,7 @@ analysis, paid job, wet-lab experiment, external message, push or PR occurred.
 
 ## Artifacts and execution authority
 
-[Stage ledger](STAGE_STATUS.md) links the four frozen contracts and reports;
+[Stage record](STAGE_STATUS.md) links the four frozen contracts and reports;
 each report links its immutable receipt, full tables and figures. Figures are
 also available as PDFs in their run directories. Source originals and private
 reading material remain outside tracked research evidence. Source access failure

@@ -1,4 +1,8 @@
-# Nb2-N4 candidate: is recovery after verified Fzd5 loss compensatory?
+<a id="nb2-n4-candidate-is-recovery-after-verified-fzd5-loss-compensatory"></a>
+
+# Nb2-N4 — Compensation after verified Fzd5 loss
+
+Is recovery after verified Fzd5 loss compensatory?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

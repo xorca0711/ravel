@@ -1,4 +1,6 @@
-# Methods and input assessment: independently decidable DY1 jobs
+<a id="methods-and-input-assessment-independently-decidable-dy1-jobs"></a>
+
+# DY1 methodological and data requirements
 
 30 October 2026, Asia/Seoul. Article-local DY1-P01. This assessment starts from
 reviewed integration `22125b2333e93ea666123299e86536b06f632c5e`; freshly fetched
@@ -78,7 +80,9 @@ narrowPeak record and integer-coordinate MatrixMarket headers in the two baselin
 matrices. These small checks are not a full new integrity audit. V1's dimensions
 and feature counts remain cited historical measurements, not recomputed results.
 
-## Current job-by-job disposition
+<a id="current-job-by-job-disposition"></a>
+
+## Analysis status
 
 “Data” denotes absent/ambiguous source evidence; “inference” denotes a claim the
 available measurements/design cannot identify; “runtime/scope” denotes current
@@ -118,7 +122,9 @@ is current-evidence/missing-discriminator synthesis. Pathogen optimization and
 mechanistic intervention prioritization are outside the requested work; they
 are not additional original jobs whose absence makes this task incomplete.
 
-## Why CMO counts cannot repair source identity by themselves
+<a id="why-cmo-counts-cannot-repair-source-identity-by-themselves"></a>
+
+## Limits of sample identification from CMO counts
 
 Observed tag counts could support a barcode-to-tag assignment under an explicit
 method. They cannot tell whether the tagged material came from one animal, a pool,

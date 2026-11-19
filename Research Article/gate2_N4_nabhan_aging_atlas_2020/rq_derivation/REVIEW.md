@@ -17,7 +17,7 @@ agent. All prior RQs remain available.
 | Review question | Evidence to inspect |
 |---|---|
 | Is the question biological and specific enough to change understanding? | Each card's observation, gap and strongest rival; distinguish a new question from a context extension or measurement prerequisite |
-| Is the proposed discriminator different from established work? | [Primary-source ledger](SOURCES.md); the targeted review establishes precedents, not exhaustive novelty |
+| Is the proposed discriminator different from established work? | [Primary-source record](SOURCES.md); the targeted review establishes precedents, not exhaustive novelty |
 | Could a rival or an unfavorable result change the proposal? | Competing predictions and explicit narrowing/stopping outcomes in each card |
 | Are the biological unit and endpoint appropriate? | Animal identity, cell-state definition, denominators, functional measurement and unresolved precision; cells are not animal replicates |
 | Is independent evidence genuinely available for that test? | Actual deposit access versus unqualified animal mapping; pooled samples, reused atlases and companion-study overlap |

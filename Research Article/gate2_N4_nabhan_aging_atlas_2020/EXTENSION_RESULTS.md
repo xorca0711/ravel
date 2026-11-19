@@ -212,7 +212,7 @@ explicitly. These checks validate calculation, not biological independence.
 All four PNGs were visually inspected, their short captions passed bounds and
 separation checks, and 300-dpi metadata and four-page PDF caption extraction
 were verified. Final repository checks are recorded in the
-[execution ledger](EXECUTION_VALIDATION.md).
+[execution record](EXECUTION_VALIDATION.md).
 
 Figure-label amendment: rendering v2 was frozen at `8087a06` after visual
 review, changing only Figure 10C’s ambiguous Within type label to Within tissue.

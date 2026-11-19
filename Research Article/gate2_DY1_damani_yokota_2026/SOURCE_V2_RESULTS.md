@@ -80,7 +80,7 @@ restriction. Prior source reading and design audits remain completed review work
 This task did not retry the restricted analyses and establishes no new biological
 effect, mechanism, RQ result, claim grade or scientific acceptance.
 
-The [README ledger](README.md#completion-ledger-documentation-close-out) owns the
+The [README record](README.md#completion-ledger-documentation-close-out) owns the
 current stage status. The current bounded task has no further analysis queued.
 The owner's broader analysis request remains authorized but unfulfilled. The
 platform restriction and this session's metadata-only scope prevent resumption

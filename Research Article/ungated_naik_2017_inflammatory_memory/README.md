@@ -1,26 +1,34 @@
-# Naik 2017 — inflammatory memory in epidermal stem cells
+# Naik et al. (2017) — Inflammatory memory in epidermal stem cells
 
-## Organizing biological question
+<a id="naik-2017--inflammatory-memory-in-epidermal-stem-cells"></a>
 
-What persists in epidermal stem cells after inflammation resolves? Naik and colleagues found that previously inflamed mouse skin re-epithelialized faster after a later wound. Some chromatin regions remained accessible during recovery, and perturbations implicated AIM2 in the repair response. Which regulatory regions carry that history over time remains open. [Paper, Figs. 1 and 3–5](https://doi.org/10.1038/nature24271) · [Paper review and Fig. 2g correction](PAPER_REVIEW.md)
+<a id="organizing-biological-question"></a>
+
+## Published findings
+
+```text
+Skin inflammation → recovery of the epidermis → subsequent wound
+  ├─ Chromatin: a subset of inflammation-opened sites remains accessible
+  └─ Repair: faster re-epithelialization, with a contribution from AIM2
+
+Implication: an earlier inflammatory episode alters the response to a later injury.
+```
+
+Previously inflamed mouse skin re-epithelialized faster after wounding. Accessibility profiling and AIM2 perturbation addressed the molecular response in separate experiments. [Paper, Figs. 1 and 3–5](https://doi.org/10.1038/nature24271) · [Paper review and Fig. 2g correction](PAPER_REVIEW.md)
+
+## Ravel analyses and results
 
 The acute RNA differences generally diminished by day 30. Chromatin accessibility showed different patterns depending on the sites Ravel examined. [RNA results](S2_RESULTS_V1.md)
 
 - **Near gene starts**, almost half of the windows switched the direction of their history–control accessibility rank difference between days 30 and 180. [Day-180 analysis](S6C_RESULTS_V1.md)
 - **At distal sites**, regions Cowley classified as Memory retained a larger history–control accessibility difference at 24 months than those classified as Resolved. The difference between class changes was +0.117 fragment CPM in two pools per condition and +0.116 CPM after balancing day-6 control accessibility, acute induction and region width. This comparison measures chromatin accessibility. The later wound response was measured in a separate experiment. [Source definitions](DISTAL_SKIN_SOURCE_SCAN_20261119.md) · [24-month result](distal_m24_outcome_v1/RESULTS_V1.md) · [Day-6 sensitivity](distal_m24_baseline_v1/RESULTS_V1.md)
 
-**Status.** The original Naik stages, the S7 human RNA comparison and the mouse-skin distal chromatin extension are complete under article-local candidate `Nk17-P01`. [Original S0–S7 synthesis](S6_SYNTHESIS_V3.md) · [Figure gallery](FIGURES.md) · [Literature context](LITERATURE_CONTEXT.md)
+<details>
+<summary>Additional analysis results</summary>
 
-## Data and comparisons
+<a id="what-the-analyses-changed"></a>
 
-| Source | What Ravel compared | Biological unit and limit |
-|---|---|---|
-| Naik mouse epidermis, GSE92967 | Acute inflammation versus control at day 6, previous inflammation versus control at days 30 and 180, and wound-induced RNA contrasts at 6 and 12 hours. S3 and S6C rank deposited ATAC signal within each library at fixed gene-start windows. | Deposited RNA libraries and pooled ATAC preparations. Exact animal membership and cross-assay pairing are unresolved. Within-library ranks measure relative ordering. [Sample qualification](S1M_RESULTS_V2.md) · [ATAC qualification](S3Q_RESULTS_V1.md) |
-| Cowley mouse epidermis, GSE299177, with day-6 controls from Naik and Larsen | Compared 24-month accessibility at published Memory and Resolved regions lying outside a ±2 kb window around every annotated transcript start. Used four accession-linked day-6 vehicle-control tracks to assess baseline accessibility. | Two pooled libraries per 24-month group. Each history group was compared with the other using per-pool class summaries. Day-6 control ranks describe earlier experimental pools. [Source scan](DISTAL_SKIN_SOURCE_SCAN_20261119.md) · [M24 result](distal_m24_outcome_v1/RESULTS_V1.md) · [D6 control sensitivity](distal_m24_baseline_v1/RESULTS_V1.md) |
-| Naik figure source data | Re-epithelialization, proliferation, explant outgrowth, molecular readouts and wound area in the available functional panels. | The workbook supplies observations or group summaries, depending on the panel. Daily columns do not establish longitudinal animal identities. [Functional source map](S5F_SOURCE_MAP_V1.json) · [Daily-area source map](S6A_SOURCE_MAP_V1.json) |
-| Hamdan human colonic organoids, GSE282444 | Within each of two ulcerative colitis donors, compared the 24-hour TNF RNA response of inflamed-derived and noninflamed-derived organoids using concurrent controls. | Sixteen libraries across two donors. Each donor contributes a separate descriptive result. Site of origin, cell composition and culture history can contribute to the contrast. [S7 sample selection and method](S7_HAMDAN_RESPONSE_METHOD_V1.md) |
-
-## What the analyses changed
+### Results by comparison
 
 | Comparison | Observation and biological interpretation |
 |---|---|
@@ -32,7 +40,59 @@ The acute RNA differences generally diminished by day 30. Chromatin accessibilit
 | Repair and its component measurements (S5F, S6A) | Previously inflamed skin had longer epithelial tongues at all three measured times. EdU differences changed direction across days, limiting a proliferation-only explanation. Five daily-area panels retain their source-specific interpretation. Conflicting workbook and figure labels leave the group assignment in Extended Data Fig. 6g unresolved. [Functional results](S5F_RESULTS_V1.md) · [Daily areas and label conflict](S6A_RESULTS_V1.md) |
 | Human RNA response (S7) | Among genes with higher post-TNF RNA in inflamed-derived organoids, 36.29% in donor 4 and 31.80% in donor 83 had a smaller signed TNF response after accounting for concurrent controls. Baseline differences can therefore change the reading of a post-challenge comparison. Each percentage describes genes within one donor. [S7 results and denominators](S7_RESULTS_V1.md) |
 
-## Measured figures
+</details>
+
+## Data and methods
+
+The original epidermal RNA and ATAC time points and the distal-site extension involve distinct comparisons. The 24-month analysis uses two previously inflamed and two age-matched control pools. [Sample sources and distal-site definitions](DISTAL_SKIN_SOURCE_SCAN_20261119.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+### Data and comparisons
+
+| Source | What Ravel compared | Biological unit and limit |
+|---|---|---|
+| Naik mouse epidermis, GSE92967 | Acute inflammation versus control at day 6, previous inflammation versus control at days 30 and 180, and wound-induced RNA contrasts at 6 and 12 hours. S3 and S6C rank deposited ATAC signal within each library at fixed gene-start windows. | Deposited RNA libraries and pooled ATAC preparations. Exact animal membership and cross-assay pairing are unresolved. Within-library ranks measure relative ordering. [Sample qualification](S1M_RESULTS_V2.md) · [ATAC qualification](S3Q_RESULTS_V1.md) |
+| Cowley mouse epidermis, GSE299177, with day-6 controls from Naik and Larsen | Compared 24-month accessibility at published Memory and Resolved regions lying outside a ±2 kb window around every annotated transcript start. Used four accession-linked day-6 vehicle-control tracks to assess baseline accessibility. | Two pooled libraries per 24-month group. Each history group was compared with the other using per-pool class summaries. Day-6 control ranks describe earlier experimental pools. [Source scan](DISTAL_SKIN_SOURCE_SCAN_20261119.md) · [M24 result](distal_m24_outcome_v1/RESULTS_V1.md) · [D6 control sensitivity](distal_m24_baseline_v1/RESULTS_V1.md) |
+| Naik figure source data | Re-epithelialization, proliferation, explant outgrowth, molecular readouts and wound area in the available functional panels. | The workbook supplies observations or group summaries, depending on the panel. Daily columns do not establish longitudinal animal identities. [Functional source map](S5F_SOURCE_MAP_V1.json) · [Daily-area source map](S6A_SOURCE_MAP_V1.json) |
+| Hamdan human colonic organoids, GSE282444 | Within each of two ulcerative colitis donors, compared the 24-hour TNF RNA response of inflamed-derived and noninflamed-derived organoids using concurrent controls. | Sixteen libraries across two donors. Each donor contributes a separate descriptive result. Site of origin, cell composition and culture history can contribute to the contrast. [S7 sample selection and method](S7_HAMDAN_RESPONSE_METHOD_V1.md) |
+
+</details>
+
+## Interpretation and open questions
+
+Accessibility at a distal class and accelerated wound repair were measured in separate experiments. Which sites carry a functional memory remains open. [Gate 4M comparative reading](../gate4_M_epigenetic_inflammatory_memory/README.md)
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="literature-context-and-next-biological-decision"></a>
+
+### Published evidence and unresolved questions
+
+Naik established that inflammatory history can change how epidermal stem cells respond to wounding. Larsen examined how accessibility is established and recalled. Cowley tracked the longevity of regulatory domains, including DNA methylation and H2A.Z. Cowley Fig. 1 already shows the 24-month accessibility pattern in these pooled samples. Ravel’s extension measures the size of the late difference in a consistently defined distal subset and shows how much earlier accessibility and the choice of comparison regions affect it. [Naik, Figs. 3–5](https://doi.org/10.1038/nature24271) · [Larsen, Figs. 3–6](https://doi.org/10.1016/j.stem.2021.07.001) · [Cowley, Fig. 1 and Methods](https://doi.org/10.1126/science.adz6830)
+
+The [literature and deposit scan](DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s region coordinates and a Resolved comparator among regions that opened during acute inflammation. The published classes use day-6 and day-30 data, and the underlying peak universe incorporates month 12. Month 24 was outside region selection. Naik’s original genome-wide retained and transient coordinate lists remain unresolved. The [source qualification](distal_m24_qualification_20261119/SOURCE_QUALIFICATION.md) records which definitions and samples could be carried forward, including reused libraries.
+
+**What the result leaves open.** Balancing the day-6 control accessibility ranks changed the induction- and width-weighted estimate by −0.0054 fragment CPM in these four pools. Baseline-rank balance improved, while the residual standardized difference in acute induction increased from 0.093 to 0.142. The comparison describes sorted populations at two years. Cell-state composition and continuous maintenance within the same cells require different evidence. Whether regions selected *solely during acute inflammation* show a similar late difference is a separate question. The source scan identifies Larsen’s acute peak calls and their limits for defining a quantitative comparator. [M24 result](distal_m24_outcome_v1/RESULTS_V1.md) · [Baseline sensitivity](distal_m24_baseline_v1/RESULTS_V1.md) · [Ravel question-development rules](../../AGENTS.md#biological-screening-and-question-progression)
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DISTAL_SKIN_SOURCE_SCAN_20261119.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](S6_SYNTHESIS_V3.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
+
+**Status.** The original Naik stages, the S7 human RNA comparison and the mouse-skin distal chromatin extension are complete under article-local candidate `Nk17-P01`. [Original S0–S7 synthesis](S6_SYNTHESIS_V3.md) · [Figure gallery](FIGURES.md) · [Literature context](LITERATURE_CONTEXT.md)
+
+### Measured figures
 
 Three figures are shown here alongside the findings they support. The [figure gallery](FIGURES.md) includes these three and the other 22 figures, with captions and PDF exports.
 
@@ -50,14 +110,8 @@ Three figures are shown here alongside the findings they support. The [figure ga
 
 **Why the patient panels spread out.** Each panel counts genes within one donor. Two genes can end at the same inflamed-minus-noninflamed difference after TNF while starting at different control differences. Subtracting each gene's control difference gives different response contrasts. The scatter describes that gene-level variation. A single time point leaves response speed unresolved. [S7 figure interpretation](S7_RESULTS_V1.md) · [Figure gallery of all 25 measured figures](FIGURES.md)
 
-## Literature context and next biological decision
+<a id="execution-history-and-provenance"></a>
 
-Naik established that inflammatory history can change how epidermal stem cells respond to wounding. Larsen examined how accessibility is established and recalled. Cowley tracked the longevity of regulatory domains, including DNA methylation and H2A.Z. Cowley Fig. 1 already shows the 24-month accessibility pattern in these pooled samples. Ravel’s extension measures the size of the late difference in a consistently defined distal subset and shows how much earlier accessibility and the choice of comparison regions affect it. [Naik, Figs. 3–5](https://doi.org/10.1038/nature24271) · [Larsen, Figs. 3–6](https://doi.org/10.1016/j.stem.2021.07.001) · [Cowley, Fig. 1 and Methods](https://doi.org/10.1126/science.adz6830)
-
-The [literature and deposit scan](DISTAL_SKIN_SOURCE_SCAN_20261119.md) located Cowley’s region coordinates and a Resolved comparator among regions that opened during acute inflammation. The published classes use day-6 and day-30 data, and the underlying peak universe incorporates month 12. Month 24 was outside region selection. Naik’s original genome-wide retained and transient coordinate lists remain unresolved. The [source qualification](distal_m24_qualification_20261119/SOURCE_QUALIFICATION.md) records which definitions and samples could be carried forward, including reused libraries.
-
-**What the result leaves open.** Balancing the day-6 control accessibility ranks changed the induction- and width-weighted estimate by −0.0054 fragment CPM in these four pools. Baseline-rank balance improved, while the residual standardized difference in acute induction increased from 0.093 to 0.142. The comparison describes sorted populations at two years. Cell-state composition and continuous maintenance within the same cells require different evidence. Whether regions selected *solely during acute inflammation* show a similar late difference is a separate question. The source scan identifies Larsen’s acute peak calls and their limits for defining a quantitative comparator. [M24 result](distal_m24_outcome_v1/RESULTS_V1.md) · [Baseline sensitivity](distal_m24_baseline_v1/RESULTS_V1.md) · [Ravel question-development rules](../../AGENTS.md#biological-screening-and-question-progression)
-
-## Execution history and provenance
+### Analysis history and provenance
 
 [Original plan](ANALYSIS_PLAN.md) · [Stage history](STAGE_STATUS.md) · [S3 endpoint amendment](S3_AMENDMENT_V1.md) · [S5M correction](S5M_AMENDMENT_V2.md) · [Pre-S7 decision](S6_DECISION_V2.md) · [Original S6/S7 disposition](S6_SYNTHESIS_V3.md). The stage reports link the methods, frozen inputs, calculations and receipts. For the closest Ravel intestinal comparison, see the [Arozamena paper package](../ungated_arozamena_2026_inflammatory_memory/README.md).

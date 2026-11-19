@@ -1,4 +1,6 @@
-# Checkpoint A review and next bounded jobs
+<a id="checkpoint-a-review-and-next-bounded-jobs"></a>
+
+# Initial review and subsequent comparisons
 
 31 October 2026, Asia/Seoul. Reviewed execution commit:
 `49f2023be3eba264d45020d2fe9060acf730100c`.

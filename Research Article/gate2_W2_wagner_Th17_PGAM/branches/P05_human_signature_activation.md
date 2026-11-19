@@ -1,4 +1,8 @@
-# Wp-P05 — Does the human signature separate disease beyond generalised activation?
+<a id="wp-p05--does-the-human-signature-separate-disease-beyond-generalised-activation"></a>
+
+# Wp-P05 — Disease-associated expression beyond generalized activation
+
+Does the human signature separate disease beyond generalised activation?
 
 **Current evidence:** [7 October corrections](../CORRECTIONS_2026-10-07.md) supersede the older Compass sign and human-score summaries cited below. Retain source-paper premises separately from the corrected repository results; the source study and its reanalysis are not independent replication.
 
@@ -20,7 +24,9 @@ generalised T-cell activation score is included in the same model. If the
 signatures lose their separation once activation is accounted for, the human
 panel supports activation differences, not a PGAM- or N1-specific axis.
 
-## Why this is open in the source
+<a id="why-this-is-open-in-the-source"></a>
+
+## Unresolved source evidence
 
 The paper's own result contains the rival. Both the pro-inflammatory *and* the
 pro-regulatory modules were elevated in MS blood and CSF, which the authors
@@ -43,7 +49,9 @@ states as its first limitation that the human analysis is preliminary.
 4. **Clinical covariates.** Age, sex, disease duration and treatment are not in
    the deposit, so they cannot be adjusted for and remain open alternatives.
 
-## What would distinguish them
+<a id="what-would-distinguish-them"></a>
+
+## Discriminating evidence
 
 Rebuild the pseudobulk from the deposited matrices with CD4 identity, minimum
 cells per donor and tissue, and the activation score all frozen beforehand. Then,

@@ -1,6 +1,6 @@
 # Primary precedents and contribution boundaries
 
-3 October 2026. This targeted pass complements the [earlier source ledger](../rq_derivation/SOURCES.md).
+3 October 2026. This targeted pass complements the [earlier source record](../rq_derivation/SOURCES.md).
 Primary publications support the facts below; the proposed contribution and
 routing are agent interpretations. Search topics included bladder stromal versus
 epithelial ageing, microglial middle-age sex/region states, CD8 clonality within
@@ -45,7 +45,7 @@ before making a stronger novelty claim. No therapeutic recommendation is made.
   laboratory capability was qualified in this review.
 
 The earlier deposit hashes and exact source identities remain in the source
-ledger. Different source releases, shared animals, cell partitions and internal
+record. Different source releases, shared animals, cell partitions and internal
 held-out folds never become independent study replication.
 
 ## Wider-literature correction, 3 October 2026

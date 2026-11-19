@@ -55,7 +55,9 @@ No molecular design, variant comparison, target ranking or intervention selectio
 is included. The original R2/R3 execution hold is unchanged, with no claim that
 the service identified or cleared its triggering item.
 
-## Why this is a narrower eligible question
+<a id="why-this-is-a-narrower-eligible-question"></a>
+
+## Scope of the eligible comparison
 
 The historical E1 question sought a state/response comparison with biological
 units and relevant functional evidence. Its animal-level and response claims
@@ -80,7 +82,7 @@ The owner retained this benchmark only at its recorded descriptive scope.
 | C0 | Qualify the exact published H5AD and saved label/library fields against the original receipt and source review; inspect schema and gene identity only | Verify exact bytes, unambiguous gene mapping, count layer, sample join and label provenance. Record any exposure before freeze. Missing or ambiguous required fields stop the affected endpoint; no invented alias/state recovery. |
 | C1 | Freeze and run one descriptive contract for the two prespecified transcripts | Bind inputs/code/tests before execution. For each saved library and literal label report denominator, cells with positive count, detection fraction, count sum and summed-count/library-size abundance on a stated scale. Keep both genes in fixed order, without selecting targets by result. No condition contrasts, DE, pathway/program scores, joint-response score or population inference. |
 | C2 | Check denominator and coverage interpretation using the same run | Retain all labels including contaminants/unassigned; also show the already-defined non-contaminant aggregate as a separate denominator. Missing state rows are explicitly empty rather than invented zeros. Do not drop small groups or add genes after seeing results. Cross-check aggregate arithmetic against the cell-level counts and saved composition. |
-| C3 | Produce a compact descriptive figure/table gallery and review handoff | A dot/table panel may show detection and count-derived abundance with denominators and literal labels. No arrow implying trajectory, protection or responsiveness. Bind plotting code in the same contract or a separate render contract. Update this ledger, the article README and PROGRESS; return a clean local commit and required validation. |
+| C3 | Produce a compact descriptive figure/table gallery and review handoff | A dot/table panel may show detection and count-derived abundance with denominators and literal labels. No arrow implying trajectory, protection or responsiveness. Bind plotting code in the same contract or a separate render contract. Update this record, the article README and PROGRESS; return a clean local commit and required validation. |
 
 Use `analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/figure1_descriptive.h5ad`,
 SHA-256 `6d2ab27a98543d3f03c941907729af69ca9ce22295e51cff67e329ce8c1644ca`.

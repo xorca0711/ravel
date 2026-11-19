@@ -84,7 +84,9 @@ This is the paper's own attribution — Figure 3C assigns the glucose effect to
 the regulatory arm — now confirmed from the opposite direction: the inflammatory
 arm carries no reliable glucose signal at all.
 
-## 4. What this run cannot do
+<a id="4-what-this-run-cannot-do"></a>
+
+## Limits of the analysis
 
 The card's central worry is that the *reaction ranking* inherits any instability
 of the score. That cannot be re-evaluated here: per-cell Compass scores do not

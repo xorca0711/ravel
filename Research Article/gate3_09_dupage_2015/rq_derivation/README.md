@@ -36,7 +36,9 @@ the actual root collection is `RQ_Specified/`, not a directory named
 | A0–A1, A3–A8, A10–A11, A13–A25, A31–A32 | Epithelial/stromal/myeloid state, response, growth, ageing and recovery questions | Shared methods or broad themes do not supply the same population–perturbation–endpoint comparison. Preserve every owner. |
 | Dp1-P01 and its three article-local cards | The actual common origin of A33–A35 | Keep source results and older cards in the article; current question development lives in the three linked homes. No extra article-candidate identity is invented. |
 
-## Reframing audit: what recurred and what held up
+<a id="reframing-audit-what-recurred-and-what-held-up"></a>
+
+## Consistency of revised interpretations
 
 The earlier owner-supplied chat, **Ravel_User_Guided_Session**
 (`01a18687-3e55-7b51-b514-52f5f55a210b`),

@@ -24,7 +24,7 @@ every archived analysis. Baseline: `ace33ee`, aligned with main `073a69a`.
 
 Primary literature was checked around the actual proposed distinctions.
 [Novelty and access findings](LITERATURE.md) add close precedents to the earlier
-source ledger. This is a bounded review, not an exhaustive literature search,
+source record. This is a bounded review, not an exhaustive literature search,
 independent expert peer review or assurance that no uninspected overlap exists.
 
 ## Routing decisions
@@ -44,7 +44,9 @@ IDs follow originating card order (P01, P02, P04, P06), not a priority rank.
 All prior questions remain available. The eight Nb5 source cards, source results
 and unfavorable observations remain intact and linked to their destinations.
 
-## What counts as overlap
+<a id="what-counts-as-overlap"></a>
+
+## Overlap criteria
 
 We compare the organizing biological question, subject/population, context,
 contrast, endpoint and result that would distinguish the leading rival.

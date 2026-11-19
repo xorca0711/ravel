@@ -78,7 +78,9 @@ Every fixed marker and library is shown. The right panel uses one shared
 log2(CPM+1) color scale without row scaling, clustering or significance symbols.
 The displayed female label is recorded metadata, not an inferred assignment.
 
-## What changed and what remains unresolved
+<a id="what-changed-and-what-remains-unresolved"></a>
+
+## Revised findings and unresolved questions
 
 This result does **not extend the specific S4 baseline marker discrepancy to
 the four D6 libraries**. It supplies a narrower source-consistency observation

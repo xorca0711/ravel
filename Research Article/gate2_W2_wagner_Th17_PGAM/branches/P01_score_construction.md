@@ -1,4 +1,8 @@
-# Wp-P01 — Is the pathogenicity ranking a property of the cells or of the score?
+<a id="wp-p01--is-the-pathogenicity-ranking-a-property-of-the-cells-or-of-the-score"></a>
+
+# Wp-P01 — Cell state and sensitivity of the pathogenicity ranking
+
+Is the pathogenicity ranking a property of the cells or of the score?
 
 **Status:** proposed, outcome-exposed. Measurement validation, not a biological
 hypothesis.
@@ -13,7 +17,9 @@ their published supersets re-orders cells substantially — then the reaction
 ranking inherits that instability, and reaction-level claims must be reported
 with it.
 
-## What the source did
+<a id="what-the-source-did"></a>
+
+## Published analytical approach
 
 The score is the difference between a pro-inflammatory and a pro-regulatory
 module score from Gaublomme et al. 2015. Only genes that were highly variable in

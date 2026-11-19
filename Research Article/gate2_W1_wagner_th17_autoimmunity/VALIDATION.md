@@ -45,7 +45,7 @@ Passing them cannot resolve the scientific specification gaps identified by the
 
 ## Provisional RQ derivation validation
 
-The first derivation pass adds six article-local question cards, a source ledger,
+The first derivation pass adds six article-local question cards, a source record,
 an authoring-agent consistency review and navigation. The registry adds evidence
 links only: removing the declared new links gives the exact parsed registry at
 `1c099f0`. Canonical A1/A8/A14 working hypotheses remain unchanged. No numerical

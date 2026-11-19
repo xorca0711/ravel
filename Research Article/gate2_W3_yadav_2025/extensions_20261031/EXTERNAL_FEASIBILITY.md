@@ -83,7 +83,7 @@ a reviewed way to inspect the identified object, is required.
 - **Population/exclusions:** author-retained singlets in the three nominated
   states; exclude other author states from this specified denominator and report
   their counts separately. Do not infer states from Il6/P2rx4, recluster, integrate,
-  transfer labels or tune QC. Preserve a ledger of author exclusions, missing
+  transfer labels or tune QC. Preserve a record of author exclusions, missing
   state labels, ambiguous demultiplexing and unmatched barcodes. Unresolved
   retained-cell joins prevent execution.
 - **Endpoints:** Il6 primary; P2rx4, Col1a1 and Acta2 separate companions.

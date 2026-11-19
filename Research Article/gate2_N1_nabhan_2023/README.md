@@ -1,10 +1,44 @@
-# Nabhan 2023: Nb2 receptor-selective regeneration analysis
+# Nabhan et al. (2023) — Frizzled receptor specificity in alveolar regeneration
 
-## Receptor choice changes what the epithelium can produce
+<a id="nabhan-2023-nb2-receptor-selective-regeneration-analysis"></a>
 
-Nabhan and colleagues found that activating either Fzd5 or Fzd6 supported alveolar epithelial growth. The distinction emerged in airway-derived progenitors, where only the Fzd6 agonist promoted an alveolar fate. An increase in organoid growth alone would have missed that distinction. [Paper, Figs. 3 and 5–7](https://doi.org/10.1016/j.cell.2023.05.022)
+<a id="receptor-choice-changes-what-the-epithelium-can-produce"></a>
+
+## Published findings
+
+```text
+Frizzled agonist             Epithelial outcome in the source experiments
+  Fzd5 or Fzd6 activation  → growth of alveolar epithelial progenitors
+  Fzd6 activation          → alveolar differentiation of airway-derived progenitors
+
+Implication: receptor choice and the starting cell population distinguish growth from
+             fate.
+```
+
+Both receptor agonists supported alveolar progenitor growth. Only the Fzd6 agonist promoted alveolar differentiation in the airway-derived progenitor assay. [Paper, Figs. 3 and 5–7](https://doi.org/10.1016/j.cell.2023.05.022)
+
+## Ravel analyses and results
 
 Ravel recovered higher Wnt-response and AT2 RNA panel scores with both agonists than after withdrawal in the deposited AT2 organoid libraries. These cultures start with a different cell population from the airway fate experiment. Their RNA supports a shared transcriptional response while leaving the lineage comparison to the published experiments. [Bulk RNA results](RESULTS.md)
+
+## Data and methods
+
+The deposited RNA comes from 18 bulk AT2 organoid libraries. The airway lineage comparison and organoid growth assays belong to separate source experiments. [Sample design](DATASETS.md) · [Functional evidence](FUNCTIONAL_SOURCE_AUDIT.md)
+
+## Interpretation and open questions
+
+Both agonists increased Wnt-response and AT2 panel scores in the source cultures. The RNA comparison leaves the long-term contribution of airway-derived cells to alveolar tissue unresolved.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **Chronological RQ review, 1 October 2026:** [later analyses and existing A19-A21 framing](RQ_RETROSPECTIVE_REVIEW.md).
 
@@ -26,7 +60,7 @@ hypothesis development. No claim grade changes.
 | [Source audit](SOURCE_AUDIT.md) and [functional recovery](FUNCTIONAL_SOURCE_AUDIT.md) | Corrections, data units and unrecovered functional evidence |
 | [Original analysis plan](ANALYSIS_TRIAL_PLAN.md) and [dataset map](DATASETS.md) | Three-track design and source/extension roles |
 | [Execution and replay](EXECUTION.md) | Scripts, frozen contracts and reproducibility |
-| [Current stage ledger](metadata/stage_status.tsv) | Completed measurements and unresolved gates |
+| [Current stage record](metadata/stage_status.tsv) | Completed measurements and unresolved gates |
 
 The biological question is whether receptor-selective Wnt signaling expands
 regenerative epithelial capacity while preserving later differentiation and
@@ -55,6 +89,8 @@ checks contracts and links. The earlier [planning validation](metadata/validatio
 is retained as history. Raw inputs, full private notes and the annotated PDF are
 not tracked; compact tables, figures, source hashes and scripts are retained.
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

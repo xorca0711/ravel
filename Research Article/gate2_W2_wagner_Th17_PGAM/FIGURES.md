@@ -156,7 +156,9 @@ independent evidence.
 [SVG](../../analysis/research/runs/wp_figures_v2/figure_6_branch_sensitivity.svg) ·
 [PNG](../../analysis/research/runs/wp_figures_v2/figure_6_branch_sensitivity.png)
 
-## What this gallery does not contain
+<a id="what-this-gallery-does-not-contain"></a>
+
+## Scope of the figure collection
 
 No plate shows a UMAP or any embedding: the analysed 5,192-cell object and its
 scVI model were never deposited, so a re-derived embedding would differ from the

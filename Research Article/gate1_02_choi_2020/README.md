@@ -1,86 +1,30 @@
-# Study note: Choi, Lee et al. 2020, Inflammatory signals induce AT2 cell-derived damage-associated transient progenitors that mediate alveolar regeneration
+# Choi et al. (2020) — Inflammatory control of alveolar epithelial differentiation
 
-## A transient step in alveolar repair
+<a id="study-note-choi-lee-et-al-2020-inflammatory-signals-induce-at2-cell-derived-damage-associated-transient-progenitors-that-mediate-alveolar-regeneration"></a>
 
-After mouse lung injury, IL-1β from interstitial macrophages helps AT2 cells enter a damage-associated transient progenitor (DATP) state. Lineage tracing connected DATPs to new AT1 cells. In organoids, sustained IL-1β impaired the last step into mature AT1 cells. The timing of inflammation changes what DATP accumulation means for repair. [Choi et al., Figs. 2–3 and 7A–H](https://doi.org/10.1016/j.stem.2020.06.020)
+<a id="a-transient-step-in-alveolar-repair"></a>
 
-In Ravel’s reconstruction of Fig. 1C, DATP-labelled cells rose from 0.4% at baseline to 18.7% at day 14 and fell to 8.9% at day 28. The classifier recovered no distinct primed AT2 group. The deposited RNA thus captures the transient peak more clearly than the intermediate state preceding it. [Figure 1 comparison](weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+## Published findings
 
-## Read this study
+```text
+Interstitial macrophage IL-1β → IL1R1-positive AT2 cells
+  └─ Primed AT2 → damage-associated transient progenitor (DATP)
+       ├─ Resolving inflammation → differentiation into mature AT1 cells
+       └─ Sustained IL-1β in organoids → incomplete AT1 maturation
 
-| To understand | Read |
-|---|---|
-| Paper context and biological question | [Study context](#study-context); [source evidence and deposited data](#source-context) |
-| Checkpointed Choi cloud pilot | [12 October scientific QC, Figure 1 comparison and limitations](weft_pilot_v1/SCIENTIFIC_REVIEW.md); [publication status](weft_pilot_v1/FIGURE1_STATUS.md) |
-| Analysis results, claims and limitations | [Trial outcomes](ANALYSIS_TRIAL_PLAN.md); [chromatin](datp_epigenetics/README.md) and [Axin2/Il1r1](axin2_il1r1/README.md) follow-ups |
-| Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
-| Figures and captions | [Corrected D6 scale and units](trials/d6_programmes/revision_20260929/README.md); [state maps and follow-up galleries](#figure-gallery) |
-| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+Implication: DATP accumulation can accompany either repair or arrested maturation.
+```
 
-<a id="study-context"></a>
+Lineage tracing connected DATPs to AT1 descendants after lung injury. In organoids, prolonged IL-1β exposure impaired late AT1 maturation, separating entry into the progenitor state from completion of differentiation. [Choi et al., Figs. 2–3 and 7A–H](https://doi.org/10.1016/j.stem.2020.06.020)
 
-Roadmap paper 2, Gate 1. Written on 2026-09-15 at the owner's direction after
-the owner read the paper (DEVELOPMENT decision 23). It supersedes an
-AI-written note of 2026-09-13 that the owner withdrew (decision 21); that
-note stays in git history and nothing in it is retained without re-reading.
-The paper's marker sets were read from the Europe PMC XML and checked against
-the PDF; the PDF renders one gene symbol ambiguously, and the extract says so.
-
-**Choi J, Park J-E, Tsagkogeorga G, Yanagita M, Koo B-K, Han N, Lee J-H.**
-*Inflammatory signals induce AT2 cell-derived damage-associated transient
-progenitors that mediate alveolar regeneration.*
-**Cell Stem Cell** 2020;27(3):366-382.e7.
-DOI: [10.1016/j.stem.2020.06.020](https://doi.org/10.1016/j.stem.2020.06.020) ·
-PMID [32750316](https://pubmed.ncbi.nlm.nih.gov/32750316/) ·
-PMC [PMC7487779](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/)
-
-**Why this paper is in the roadmap.** It defines the DATP state that roadmap
-paper 5 (Cardoso 2026) carries into tumour initiation, and its first author
-leads the owner's own laboratory. Paper 1 (Niethamer 2025) supplies the
-Krt8-high transitional axis this repository has already re-derived; this
-paper gives that axis a cause (IL-1beta), a responder subset (Il1r1-positive
-AT2 cells), a mechanism (HIF1alpha-driven glycolysis) and a failure mode
-(chronic IL-1beta stalls AT1 maturation).
-
----
-
-## Branches of this paper
-
-| Branch | Question | State |
-|---|---|---|
-| [`datp_epigenetics/`](datp_epigenetics/README.md) | What does the transitional state look like in chromatin, given that this paper's own ATAC deposit is coverage tracks only | Trials M0 to M3 run; one validated deposit error, one Descriptive-only RNA result, the chromatin question Not established |
-| [`axin2_il1r1/`](axin2_il1r1/README.md) | This paper's own closing Discussion question: are Il1r1-positive and Axin2-positive AT2 cells the same cells | Assessed, no trial run. The definitive comparison needs mice that do not exist in any deposit; one feasibility measurement opened a chromatin route |
-
----
-
-## Figure gallery
-
-These are this repository's corrected annotations of the deposited data, not
-figures copied from the paper. Each condition has one pooled library, so the
-maps describe the sampled cells rather than establish replicated treatment effects.
-
-![Corrected in vivo epithelial state annotation from trial D2b](trials/d2b_corrected_annotation/d2b_umap_states.png)
-
-**D2b, in vivo state recovery.** The corrected rule recovers hAT2, cycling AT2,
-DATP and AT1; primed AT2 remains unassigned. The map therefore does not recover
-the paper's full five-state sequence. The superseded D2 annotation remains in
-the trial record.
-
-![Corrected organoid annotation separating epithelial states and stromal cells](trials/d5b_corrected_annotation/d5b_umap_states.png)
-
-**D5b, organoid state recovery.** The corrected annotation identifies an AT1
-group and separates the stromal cluster missed by D5. Labels on a UMAP do not
-show lineage transitions or establish the causal effect of IL-1beta.
-
-More: [D3 pseudotime figure](trials/d3_ordering/d3_dpt_by_state.png)
-(descriptive ordering with hAT2 chosen as the root; no recovered pAT2 step),
-[trial index](trials/README.md),
-[chromatin branch gallery](datp_epigenetics/README.md#figure-gallery), and
-[Axin2–Il1r1 branch gallery](axin2_il1r1/README.md#figure-gallery).
+<details>
+<summary>Detailed published evidence</summary>
 
 <a id="source-context"></a>
 
-## 0. The five questions
+<a id="0-the-five-questions"></a>
+
+### Study rationale and evidence
 
 **Question tested.** During alveolar regeneration after bleomycin, what is
 the path from an AT2 cell to a mature AT1 cell, which niche signal moves a
@@ -135,7 +79,9 @@ replication in another, and the DATP definition here is what paper 5's
 
 ---
 
-## 1. The cascade as the paper states it
+<a id="1-the-cascade-as-the-paper-states-it"></a>
+
+### Published biological model
 
 1. Bleomycin injury expands interstitial macrophages at day 7 while alveolar
    macrophages fall; both return to homeostatic levels by day 28 (Figure S2).
@@ -159,7 +105,9 @@ replication in another, and the DATP definition here is what paper 5's
 
 ---
 
-## 2. Which evidence carries which link, and what the deposit can re-ask
+<a id="2-which-evidence-carries-which-link-and-what-the-deposit-can-re-ask"></a>
+
+### Experimental support for individual relationships
 
 | Link | Evidence in the paper | Re-askable from the deposit | Trial |
 |---|---|---|---|
@@ -178,7 +126,22 @@ replication in another, and the DATP definition here is what paper 5's
 
 ---
 
-## 3. The deposited data, and what it can carry
+</details>
+
+## Ravel analyses and results
+
+In Ravel’s reconstruction of Fig. 1C, DATP-labelled cells rose from 0.4% at baseline to 18.7% at day 14 and fell to 8.9% at day 28. The classifier recovered no distinct primed AT2 group. The deposited RNA thus captures the transient peak more clearly than the intermediate state preceding it. [Figure 1 comparison](weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+
+## Data and methods
+
+Ravel compared RNA states across baseline, day 14 and day 28 in the deposited mouse epithelial libraries. The paper’s lineage tracing and organoid assays address descendants and maturation separately. [Study design and trial outcomes](ANALYSIS_TRIAL_PLAN.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+<a id="3-the-deposited-data-and-what-it-can-carry"></a>
+
+### Deposited data and analytical scope
 
 | Accession | Content | Libraries | What it can support |
 |---|---|---|---|
@@ -187,7 +150,9 @@ replication in another, and the DATP definition here is what paper 5's
 | GSE144598 | ATAC-seq of AT2 subsets | 2 files, bigwig coverage only | Almost nothing without SRA |
 | GSE144553 | SuperSeries | 12 | Bookkeeping |
 
-## 4. Their pipeline, as stated in Methods
+<a id="4-their-pipeline-as-stated-in-methods"></a>
+
+### Published analytical methods
 
 Cell Ranger 2.0.2 on GRCm38; cells kept with more than 500 and fewer than
 7,000 genes and more than 2,000 UMI; scanpy 1.3.6 defaults for normalisation,
@@ -203,7 +168,29 @@ whitelist instead of Cell Ranger's caller (trial D1); Scrublet uses the 10x
 expected rate with scanpy's threshold and a logged fallback; clustering is
 Leiden at three pre-declared resolutions.
 
-## 5. Status of the claims in this note
+</details>
+
+## Interpretation and open questions
+
+The day-14 peak is recoverable even though the classifier missed primed AT2 cells. Assigning the order of those states or their descendants requires evidence beyond the reconstructed cell fractions.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="branches-of-this-paper"></a>
+
+### Related analyses
+
+| Branch | Question | State |
+|---|---|---|
+| [`datp_epigenetics/`](datp_epigenetics/README.md) | What does the transitional state look like in chromatin, given that this paper's own ATAC deposit is coverage tracks only | Trials M0 to M3 run; one validated deposit error, one Descriptive-only RNA result, the chromatin question Not established |
+| [`axin2_il1r1/`](axin2_il1r1/README.md) | This paper's own closing Discussion question: are Il1r1-positive and Axin2-positive AT2 cells the same cells | Assessed, no trial run. The definitive comparison needs mice that do not exist in any deposit; one feasibility measurement opened a chromatin route |
+
+---
+
+<a id="5-status-of-the-claims-in-this-note"></a>
+
+### Evidence assessment
 
 Everything above is a summary of the paper. The trials and their outcomes are
 in [`ANALYSIS_TRIAL_PLAN.md`](ANALYSIS_TRIAL_PLAN.md) and indexed in
@@ -223,6 +210,87 @@ in the first organoid pass; the chain through primed AT2), one is saturated
 the organoid stromal cluster through a disclosed defect, corrected beside it
 without moving a threshold. Nothing is tested: one library per condition.
 
-## Additional display archive
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](weft_pilot_v1/METADATA_STATUS.md) |
+| Computational methods | [Analysis code](weft_pilot_v1/scripts/) |
+| Results | [Study results](weft_pilot_v1/SCIENTIFIC_REVIEW.md) |
+| Figures | [Figures and captions](#figure-gallery) |
+
+<a id="read-this-study"></a>
+
+### Study overview and references
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Study context](#study-context); [source evidence and deposited data](#source-context) |
+| Checkpointed Choi cloud pilot | [12 October scientific QC, Figure 1 comparison and limitations](weft_pilot_v1/SCIENTIFIC_REVIEW.md); [publication status](weft_pilot_v1/FIGURE1_STATUS.md) |
+| Analysis results, claims and limitations | [Trial outcomes](ANALYSIS_TRIAL_PLAN.md); [chromatin](datp_epigenetics/README.md) and [Axin2/Il1r1](axin2_il1r1/README.md) follow-ups |
+| Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
+| Figures and captions | [Corrected D6 scale and units](trials/d6_programmes/revision_20260929/README.md); [state maps and follow-up galleries](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
+Roadmap paper 2, Gate 1. Written on 2026-09-15 at the owner's direction after
+the owner read the paper (DEVELOPMENT decision 23). It supersedes an
+AI-written note of 2026-09-13 that the owner withdrew (decision 21); that
+note stays in git history and nothing in it is retained without re-reading.
+The paper's marker sets were read from the Europe PMC XML and checked against
+the PDF; the PDF renders one gene symbol ambiguously, and the extract says so.
+
+**Choi J, Park J-E, Tsagkogeorga G, Yanagita M, Koo B-K, Han N, Lee J-H.**
+*Inflammatory signals induce AT2 cell-derived damage-associated transient
+progenitors that mediate alveolar regeneration.*
+**Cell Stem Cell** 2020;27(3):366-382.e7.
+DOI: [10.1016/j.stem.2020.06.020](https://doi.org/10.1016/j.stem.2020.06.020) ·
+PMID [32750316](https://pubmed.ncbi.nlm.nih.gov/32750316/) ·
+PMC [PMC7487779](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/)
+
+**Why this paper is in the roadmap.** It defines the DATP state that roadmap
+paper 5 (Cardoso 2026) carries into tumour initiation, and its first author
+leads the owner's own laboratory. Paper 1 (Niethamer 2025) supplies the
+Krt8-high transitional axis this repository has already re-derived; this
+paper gives that axis a cause (IL-1beta), a responder subset (Il1r1-positive
+AT2 cells), a mechanism (HIF1alpha-driven glycolysis) and a failure mode
+(chronic IL-1beta stalls AT1 maturation).
+
+---
+
+<a id="figure-gallery"></a>
+
+### Study figures
+
+These are this repository's corrected annotations of the deposited data, not
+figures copied from the paper. Each condition has one pooled library, so the
+maps describe the sampled cells rather than establish replicated treatment effects.
+
+![Corrected in vivo epithelial state annotation from trial D2b](trials/d2b_corrected_annotation/d2b_umap_states.png)
+
+**D2b, in vivo state recovery.** The corrected rule recovers hAT2, cycling AT2,
+DATP and AT1; primed AT2 remains unassigned. The map therefore does not recover
+the paper's full five-state sequence. The superseded D2 annotation remains in
+the trial record.
+
+![Corrected organoid annotation separating epithelial states and stromal cells](trials/d5b_corrected_annotation/d5b_umap_states.png)
+
+**D5b, organoid state recovery.** The corrected annotation identifies an AT1
+group and separates the stromal cluster missed by D5. Labels on a UMAP do not
+show lineage transitions or establish the causal effect of IL-1beta.
+
+More: [D3 pseudotime figure](trials/d3_ordering/d3_dpt_by_state.png)
+(descriptive ordering with hAT2 chosen as the root; no recovered pAT2 step),
+[trial index](trials/README.md),
+[chromatin branch gallery](datp_epigenetics/README.md#figure-gallery), and
+[Axin2–Il1r1 branch gallery](axin2_il1r1/README.md#figure-gallery).
+
+
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.
