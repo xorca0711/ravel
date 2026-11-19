@@ -5,7 +5,9 @@ papers and public deposit descriptions. That work changed candidate framing
 and exposed source limitations. It did not execute a new biological fit,
 produce a new estimate or confirm a candidate.
 
-## What can change a decision
+<a id="what-can-change-a-decision"></a>
+
+## Evidence required for a decision
 
 | Branch | Consequential uncertainty | Current action and stopping point |
 |---|---|---|

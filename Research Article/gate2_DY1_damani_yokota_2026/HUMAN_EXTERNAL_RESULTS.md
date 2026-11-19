@@ -60,7 +60,9 @@ correlation; no relaxed threshold or substitute pooled mechanism claim was used.
 
 ![External donor RNA observations](../../analysis/research/runs/DY1_external_human_observational_v1/external_overview.png)
 
-## What the external result adds
+<a id="what-the-external-result-adds"></a>
+
+## Evidence from the external comparison
 
 The external data support a bounded description of higher measured matrix-panel
 RNA in IPF macrophage annotations and a directionally similar but imprecise

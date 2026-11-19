@@ -14,7 +14,7 @@ Existing canonical questions and the held functional comparisons remain unchange
 1 November 2026. Owner-requested synthesis after the [reviewed RNA results](RESULTS.md).
 These are conditional question connections, not adopted canonical amendments,
 qualified numerical jobs, new mechanisms or a portfolio ranking. The current
-[hold ledger](../COMPLETION_LEDGER.md) remains in force.
+[hold record](../COMPLETION_LEDGER.md) remains in force.
 
 **Subsequent execution:** the [Arozamena article-local package](../../ungated_arozamena_2026_inflammatory_memory/README.md)
 now contains completed source qualification, independently reviewed RNA contrasts
@@ -23,7 +23,9 @@ remaining state/function limits are [connected to the existing RQs](../../ungate
 This updates the source-intake status below without adopting a Saxton mechanism
 or changing any canonical RQ.
 
-## What the completed analysis changes
+<a id="what-the-completed-analysis-changes"></a>
+
+## Implications of the completed analysis
 
 The selected IFN-versus-barrier panel distinction persists descriptively, but the
 broader IFN memberships show much smaller contrasts. The barrier panel also

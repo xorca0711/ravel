@@ -6,7 +6,9 @@ published 10 April 2026. The supplied 15-page PDF was inspected, including
 rendered Figures 4–7. Exact source identity and access limits are in
 [SOURCE_REVIEW.md](SOURCE_REVIEW.md).
 
-## What the paper establishes in its tested models
+<a id="what-the-paper-establishes-in-its-tested-models"></a>
+
+## Published findings in the tested models
 
 The study asks why MHC-I-deficient tumors can progress despite NK recognition
 potential. Local Treg removal is associated with NK-dependent control in the

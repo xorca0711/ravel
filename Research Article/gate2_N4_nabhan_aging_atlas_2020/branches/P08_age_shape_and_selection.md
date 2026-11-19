@@ -64,7 +64,7 @@ model-comparison summary and youngest/oldest-group sensitivity panels.
 First outcome-exposed pass completed 3 October 2026. Cross-sectional age descriptions executed. Annotation discontinuities, sparse strata and survival/cohort selection block nonlinear age or transition-rate interpretation.
 
 Read the [current result and amendments](../RESULTS.md),
-[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+[figures](../FIGURES.md) and [execution record](../EXECUTION_VALIDATION.md)
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.

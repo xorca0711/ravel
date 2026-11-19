@@ -1,4 +1,6 @@
-# What the Arozamena reference can add to current RQs
+<a id="what-the-arozamena-reference-can-add-to-current-rqs"></a>
+
+# Relevance of the Arozamena study to existing questions
 
 1 November 2026. This article-local reference tests the portability of a published
 molecular description. It does not adopt a new canonical hypothesis or upgrade

@@ -7,14 +7,16 @@ published evidence, not independent biological replication or scientific accepta
 
 Steps 5-6 are now complete to their source-feasibility boundary; read the
 [current spatial/context and synthesis checkpoint](CONTEXT_AND_SYNTHESIS.md) for
-the full completion/hold ledger.
+the full completion/hold record.
 
 Read this result before the [prospective designs](EXECUTION_DESIGN.md),
 [annotation strategy](ANNOTATION_STRATEGY.md) and [RNA endpoint design](RNA_ENDPOINT_DESIGN.md).
 The [first checkpoint](SOURCE_QUALIFICATION.md) retains exact source/assay locators,
 sample-identity limits and discrepancies. [All figures](FIGURES.md) include PNG and PDF.
 
-## Current job ledger
+<a id="current-job-ledger"></a>
+
+## Analysis status
 
 | Job | Executed scope and evidence | Boundary / next dependency |
 | --- | --- | --- |

@@ -47,7 +47,7 @@ framing or novelty clearance.
 
 Human scientific decision: **not recorded**. Named reviewer/authority: **not
 recorded**. Contribution and novelty: **provisional**, with source-access limits
-in [the ledger](SOURCES_AND_GROUNDING.md). These statements do not ask for a
+in [the record](SOURCES_AND_GROUNDING.md). These statements do not ask for a
 second authorization to write the derivation; that work is complete.
 
 A future adoption/registration decision should state the card, authority,

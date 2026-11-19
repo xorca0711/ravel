@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-19 — Article package structure and Gate 4 thematic reading
+
+Reorganized the [current paper packages](Research%20Article/README.md#article-package-structure) around published scientific diagrams, Ravel results, study methods, interpretation, and a common index of source data, code, results and figures. The folder-wide review covered 666 tracked Markdown files and revised headings or terminology in 206 supporting documents. All 25 overview diagrams, package-resource links and 1,561 pre-existing heading or anchor targets in the revised Markdown passed the structural check. Repository validation passed 20,815 checks. Historical analysis locations remain available. [Gate 4M](Research%20Article/gate4_M_epigenetic_inflammatory_memory/README.md) starts topic-centered reading with the selected papers by Nagaraja, Naik and Cowley. Naik's original package also contains the existing comparison based on Cowley's distal-region classes. Topic selection does not change study completion or scientific evidence grades.
+
 ## 2026-11-19 — Study findings at the start of each article README
 
 Revised the 25 current paper entries in the [article index](Research%20Article/README.md). Each opening pairs a published finding and figure or source passage with a measured Ravel result and its biological limit. [Cardoso](Research%20Article/gate2_05_cardoso_2026/README.md) leads with the spatial cascade, [Murthy](Research%20Article/ungated_murthy_2022/README.md) with two possible epithelial fates, and [Peng](Research%20Article/ungated_peng_2026_spatial_omics/README.md) with the difference between cell neighborhoods and adjacent tissue spots. The Damani–Yokota opening is in its current ungated entry. All numerical results come from existing reports.

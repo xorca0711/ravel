@@ -83,7 +83,9 @@ column count, the column-to-title set equality, the 16-cell design table, gene
 rows, human sample records, donor codes and paired donors) and **all agreed**.
 This is numerical verification of the inventory, not biological replication.
 
-## What this run does not establish
+<a id="what-this-run-does-not-establish"></a>
+
+## Limits of the reported analysis
 
 It does not reproduce any published panel, does not establish independent
 biological replication, and does not show that any eligible stage will agree with

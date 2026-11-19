@@ -1,8 +1,23 @@
-# Gate 1, paper 1: Niethamer et al. 2025 (GSE262927)
+# Niethamer et al. (2025) — Temporal organization of lung repair
 
-## When each lung compartment proliferates
+<a id="gate-1-paper-1-niethamer-et-al-2025-gse262927"></a>
 
-Niethamer and colleagues traced dividing cells during mouse lung repair. Immune cells proliferated first, epithelium and mesenchyme followed, and the endothelial wave came last. The order is visible when each compartment is followed across harvests. [Paper, Fig. 2F](https://doi.org/10.1016/j.stem.2024.12.002)
+<a id="when-each-lung-compartment-proliferates"></a>
+
+## Published findings
+
+```text
+Lung repair after injury
+  Early          Myeloid proliferation
+  Intermediate   Epithelial and mesenchymal proliferation
+  Late           Endothelial proliferation
+
+Implication: different tissue compartments enter the repair response in sequence.
+```
+
+Niethamer and colleagues traced dividing cells across mouse lung compartments at successive harvests. Comparing the traced fraction within each compartment revealed the order of proliferation. [Paper, Fig. 2F](https://doi.org/10.1016/j.stem.2024.12.002)
+
+## Ravel analyses and results
 
 | Peak among sampled harvests | Highest median fraction of Ki67-traced cells per animal in Ravel |
 |---|---|
@@ -12,9 +27,30 @@ Niethamer and colleagues traced dividing cells during mouse lung repair. Immune 
 
 Four of five lineages followed the published order. Lymphoid cells peaked at day 11, alongside epithelium and mesenchyme. [Per-animal phase comparison](GSE262927/phase_timecourse/README.md)
 
+## Data and methods
+
+The atlas follows 33 mouse lung samples. The proliferation comparison uses the median traced-cell fraction per animal at each sampled harvest. [Atlas and sample design](GSE262927/README.md)
+
+## Interpretation and open questions
+
+The lymphoid peak falls outside the expected early wave. A peak in traced cells dates proliferative activity within a compartment and leaves the later fate of those cells open.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](GSE262927/README.md) |
+| Computational methods | [Analysis code](trials/) |
+| Results | [Study results](GSE262927/phase_timecourse/README.md) |
+| Figures | [Figures and captions](GSE262927/figure_revision_20260929/README.md) |
+
+### Study context and analysis history
+
 Current figure corrections: [categorical time axes and annotation comparison](GSE262927/figure_revision_20260929/README.md). Earlier run assets remain preserved as historical outputs.
 
-## Read this study
+<a id="read-this-study"></a>
+
+### Study overview and references
 
 | To understand | Read |
 |---|---|
@@ -58,7 +94,9 @@ the roadmap (question, evidence type, reusable variables, one limitation, one
 bridge) are answered in prose across the rationale document and are not yet
 collected in the roadmap format; that is the remaining item for this folder.
 
-## Figure gallery
+<a id="figure-gallery"></a>
+
+### Study figures
 
 These figures distinguish reporter history, current RNA measurements and
 statistical inference. The full analysis reports retain their tables and
@@ -90,10 +128,14 @@ Further galleries: [myeloid embeddings](GSE262927/myeloid_focus/README.md),
 [infection-round sensitivity](GSE262927/myeloid_focus/batch_sensitivity/README.md)
 and [Wnt source/response in this cohort](../gate1_03_nabhan_2018/README.md#figure-gallery).
 
-## Question literature and visual companions
+<a id="question-literature-and-visual-companions"></a>
+
+### Related literature and hypotheses
 
 - [A3: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A3.md)
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

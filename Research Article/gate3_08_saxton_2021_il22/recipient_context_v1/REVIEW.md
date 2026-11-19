@@ -5,7 +5,9 @@ v2 figure.** Technical handoff `b3c6e72d553bb333e5a85e1341b8f91d9bc78375` is
 integrated locally on `codex/saxton-recipient-context-20261031`.
 This is agent technical/source review, not human scientific acceptance.
 
-## What was independently verified
+<a id="what-was-independently-verified"></a>
+
+## Independent verification
 
 - The numerical receipt and contract, with all 12 bound input/code/output hash
   entries, match the files inspected. Raw CSR buffers in the original H5AD

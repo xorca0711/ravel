@@ -1,4 +1,8 @@
-# Wp-P02 — Does the 3PG serine arm run with or against the regulatory program?
+<a id="wp-p02--does-the-3pg-serine-arm-run-with-or-against-the-regulatory-program"></a>
+
+# Wp-P02 — The 3PG serine branch and the regulatory program
+
+Does the 3PG serine arm run with or against the regulatory program?
 
 **Current evidence:** [7 October corrections](../CORRECTIONS_2026-10-07.md) supersede the older Compass sign and human-score summaries cited below. Retain source-paper premises separately from the corrected repository results; the source study and its reanalysis are not independent replication.
 
@@ -60,7 +64,9 @@ compartment.
    paper in Th17n (TGF-β/IL-6). Both can be right in their own compartment, which
    is itself a finding worth stating rather than a failure of the test.
 
-## What would distinguish them
+<a id="what-would-distinguish-them"></a>
+
+## Discriminating evidence
 
 **In deposited data (Wp-R1/R3 products, descriptive):** the sign and magnitude of
 the association between a frozen serine-synthesis/one-carbon module
@@ -270,7 +276,9 @@ and the serine decrease is not an artefact of counting ATF4 targets. The run
 asserts that its full-set recomputation reproduces Wp-E3 exactly, which it does
 (worst absolute difference 0.0).
 
-### What the ISR set actually does, gene by gene
+<a id="what-the-isr-set-actually-does-gene-by-gene"></a>
+
+### Gene-level integrated stress response patterns
 
 The median conceals real heterogeneity, and the card records it rather than the
 summary alone. In Th17n + EGCG the canonical ATF4 output falls hard — *CHAC1*
@@ -304,7 +312,9 @@ cellular stress, ATF4 output should rise under EGCG in Th17n; the deposited
 transcriptome predicts it will not. On arms the experiment already runs, this is
 one blot or one flow panel.
 
-### What none of this does
+<a id="what-none-of-this-does"></a>
+
+### Limits of inference
 
 It does not touch the paper's phenotype. PGAM inhibition raising Th17
 pathogenicity, and the adoptive-transfer EAE result, are reproduced as far as

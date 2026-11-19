@@ -1,4 +1,6 @@
-# Scoped cloud RNA handoff
+<a id="scoped-cloud-rna-handoff"></a>
+
+# RNA data and cloud analysis requirements
 
 8 November 2026. Integrate the new Nn26-P01 cloud commits with the desktop
 source/animal branch. The cloud base is
@@ -9,7 +11,7 @@ delivery. Checkout: `/workspace/navarro_2026/ravel`, branch
 ## Review entrypoints
 
 - [RNA report and four SVGs](RNA_RESULTS.md).
-- [Seven-stage ledger](STAGE_STATUS.md).
+- [Seven-stage record](STAGE_STATUS.md).
 - [Machine-readable completion summary](../../analysis/research/runs/nn26_completion_archive_v1/completion_summary.json).
 - [All marker summaries](../../analysis/research/runs/nn26_pooled_rna_description_v1/summaries.tsv)
   and [all contrasts](../../analysis/research/runs/nn26_pooled_rna_description_v1/contrasts.tsv).

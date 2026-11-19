@@ -1,6 +1,6 @@
 # Peng source qualification results — 8 November 2026
 
-**Pg1-P01 completed the bounded source ledger, metadata joins and accessible
+**Pg1-P01 completed the bounded source record, metadata joins and accessible
 annotation inventory. Region-level reproduction and the A12 extension remain
 unestimated.** The successful [v3 receipt](../../analysis/research/runs/Pg1_metadata_v3_20261108/receipt.json)
 binds the [contract](contracts/metadata_v3.json), code, inputs and immutable outputs.
@@ -67,7 +67,7 @@ This reuses existing evidence; it is not another cohort or biological replicatio
   records. A difference of 25 does not identify the missing files or establish
   that every omitted record is a matched normal. Table S1/author clarification is needed.
 
-[Issue ledger](../../analysis/research/runs/Pg1_metadata_v3_20261108/join_issues.csv).
+[Issue record](../../analysis/research/runs/Pg1_metadata_v3_20261108/join_issues.csv).
 Primary locators: [GEO GSM9226083](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9226083),
 and [Peng author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC12980502/),
 opening Results cohort description, Histopathological processing of tissues and
@@ -75,7 +75,7 @@ Whole-exome sequencing. Repository calculations above are distinct evidence.
 
 ## Source/annotation availability and stage decisions
 
-The source ledger hash-checks retrieved files against their saved acquisition
+The source record hash-checks retrieved files against their saved acquisition
 receipts. A materially different publisher-page route was attempted using the
 [PubMed-confirmed PII](https://pubmed.ncbi.nlm.nih.gov/41202811/); after an initial sandbox DNS failure, the network-enabled
 request returned HTTP 403. Prior PMC/EuropePMC failures were reused. Restricted
@@ -95,7 +95,7 @@ not a recovered upstream annotation pipeline. [Object names and exact lines](../
 
 | PLAN stage | Outcome | Exact next input or decision |
 |---|---|---|
-| 0 source ledger | Complete for inspected sources | New source/version only if it resolves a named gap |
+| 0 source record | Complete for inspected sources | New source/version only if it resolves a named gap |
 | 1 sample joins | Complete at metadata/alias levels | Table S1 and block/lesion/section manifest; P6/P7 clarifications |
 | 2 pathology/ROI recovery | Published rules and accessible inventory complete; exports unrecovered | Author barcode labels, ROI geometry, panels and approved processed objects |
 | 3 alignment/QC | Held | Same-section IDs, images, coordinate frame/units, transforms and polygon/barcode exports |

@@ -1,4 +1,8 @@
-# Wp-Q2 — Does PGAM restriction raise Th17 effector output through phosphoenolpyruvate, through relieved biosynthetic demand, or through stress?
+<a id="wp-q2--does-pgam-restriction-raise-th17-effector-output-through-phosphoenolpyruvate-through-relieved-biosynthetic-demand-or-through-stress"></a>
+
+# Wp-Q2 — Metabolic and stress-related explanations for the Th17 effector response
+
+Does PGAM restriction raise Th17 effector output through phosphoenolpyruvate, through relieved biosynthetic demand, or through stress?
 
 **Historical derivation:** the [7 October correction report](../CORRECTIONS_2026-10-07.md) and current A28–A30 dossiers supersede affected Compass/human values and inference wording below. Retain this record of what was known when the questions were proposed.
 

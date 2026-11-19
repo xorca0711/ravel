@@ -59,7 +59,9 @@ Stratifying on proliferation barely moves anything, so the card's
 rival 3 — that the score difference follows the cycle-phase difference — is not
 what is producing the composition term.
 
-## What is actually moving
+<a id="what-is-actually-moving"></a>
+
+## Components of the observed difference
 
 | Programme | Proportion at 1 mM | at 25 mM | Score at 1 mM | at 25 mM |
 |---|---|---|---|---|
@@ -73,7 +75,9 @@ programme's own score barely moves, by 0.03 to 0.15. So the higher average score
 at 1 mM is produced by having fewer of the low-scoring N1 cells, not by cells
 scoring higher within their programme.
 
-## Why this is weaker evidence than it looks
+<a id="why-this-is-weaker-evidence-than-it-looks"></a>
+
+## Limitations of the observed association
 
 Programmes are assigned by marker score on the same expression that defines the
 pathogenicity score. A composition term is therefore partly guaranteed by

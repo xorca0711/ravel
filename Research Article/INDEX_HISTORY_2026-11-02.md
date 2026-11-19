@@ -14,12 +14,12 @@ panel distinction descriptively, with smaller broad-IFN differences and an unsta
 three-target subset. [Three direct colon RNA figures](gate3_08_saxton_2021_il22/reassessment_v1/FIGURES.md)
 are included in the [six-figure combined gallery](gate3_08_saxton_2021_il22/FIGURES.md).
 [Review](gate3_08_saxton_2021_il22/reassessment_v1/ORIGINATING_REVIEW.md) and the
-[current hold ledger](gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md) separate completed
+[current hold record](gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md) separate completed
 description from unqualified population, signaling and functional analyses.
 Canonical RQs and scientific acceptance remain unchanged.
 
 Earlier checkpoints below retain their date-specific scope; the current
-reassessment and ledger above supersede their blanket R2/R3 execution status.
+reassessment and record above supersede their blanket R2/R3 execution status.
 
 **Saxton-linked E1a description reviewed — 31 October 2026:** the
 [observed-transcript results](gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md)

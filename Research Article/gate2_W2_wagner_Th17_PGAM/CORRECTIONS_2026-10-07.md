@@ -5,7 +5,9 @@ component of Wp-M. The original scripts, contracts, tables and receipts remain
 immutable. These are exposed corrective analyses, not independent replication
 or human scientific acceptance. Other stages retain their own current reports.
 
-## What supersedes what
+<a id="what-supersedes-what"></a>
+
+## Superseded analyses and their replacements
 
 | Earlier artifact | Current artifact | Change |
 |---|---|---|

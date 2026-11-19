@@ -1,4 +1,6 @@
-# Execution structure and next handoff
+<a id="execution-structure-and-next-handoff"></a>
+
+# Analysis design and remaining comparisons
 
 **Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
 
@@ -58,7 +60,9 @@ source and an independent 2025 study disagree about. It is deliberately not
 ranked above the others as a decision; it is identified as the highest-information
 candidate.
 
-## Exact next action
+<a id="exact-next-action"></a>
+
+## Remaining analytical requirement
 
 Freeze and execute **Wp-R3**. It is eligible now, needs no further download, and
 produces the EGCG and DHEA signature definitions that Wp-R1 and Wp-R4 consume, so

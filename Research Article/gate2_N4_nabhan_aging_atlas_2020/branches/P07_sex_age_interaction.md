@@ -62,7 +62,7 @@ an interaction interval, with any structural missingness made visible.
 First outcome-exposed pass completed 3 October 2026. Age-by-sex coverage and male-only descriptive sensitivity executed. The missing old female stratum blocks a 3-versus-24-month interaction model.
 
 Read the [current result and amendments](../RESULTS.md),
-[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+[figures](../FIGURES.md) and [execution record](../EXECUTION_VALIDATION.md)
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.

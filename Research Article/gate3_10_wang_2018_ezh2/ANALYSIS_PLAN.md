@@ -44,7 +44,7 @@ whether animals are shared across endpoints. Separate exFoxp3 lineage history,
 FOXP3-positive frequency, absolute numbers, restimulated cytokine production and
 tumor control. Record unavailable information as unknown.
 
-**Output:** a source evidence ledger with exact panel locators and an unresolved
+**Output:** a source evidence record with exact panel locators and an unresolved
 input list. This is reading/source qualification, not numerical reproduction.
 
 **Decision:** Figure 7 already supplies a tested comparison beyond depletion;
@@ -192,7 +192,7 @@ donor-level tissue/state question, not to retrofit single-cell analysis to this 
 
 ## S5 — Return to function and decide the next question
 
-Combine S0 and the actual S2–S4 results in a claim ledger: reproduced RNA,
+Combine S0 and the actual S2–S4 results in a claim record: reproduced RNA,
 published protein/function, unknown discriminator and proposed next measurement.
 Do not claim a common-cell lineage chain by connecting unrelated assay cohorts.
 

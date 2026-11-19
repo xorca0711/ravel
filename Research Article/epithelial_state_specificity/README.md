@@ -1,6 +1,8 @@
 # Epithelial-state specificity
 
-## Read this analysis
+<a id="read-this-analysis"></a>
+
+## Analysis overview
 
 | To understand | Read |
 |---|---|
@@ -22,11 +24,15 @@ The executable first pass is **ES1**. Read the [frozen analysis plan](PLAN.md),
 The figure shows within-well differences; each multiome condition is one
 pooled library. It does not assign fate or measure chromatin reversibility.
 
-## Figure gallery
+<a id="figure-gallery"></a>
+
+## Study figures
 
 ![Within-library module differences and external animal coverage](results/es1_specificity.png)
 
-## What is measured
+<a id="what-is-measured"></a>
+
+## Measured endpoints
 
 ES1 uses the ten cached GSE247130/GSE310539 multiome wells and an animal-level
 eligibility check in GSE262927. Counts are jointly subsampled to 2,000 RNA UMI,
@@ -58,7 +64,9 @@ tracked. Initial
 download failures were resolved by the Europe PMC supplementary archive;
 the local-only initial freeze was never scored and is retained for provenance.
 
-## What remains unresolved
+<a id="what-remains-unresolved"></a>
+
+## Unresolved questions
 
 Complete DATP/PATS signatures and an independently sourced developmental
 maturation signature are not available in this pass. Adult AT2 identity is
@@ -79,7 +87,9 @@ do not become state-specific or causally interpretable because RNA panels
 are examined here. AT2 identity loss can accompany normal AT1 differentiation,
 and a shared marker list can be active in different biological processes.
 
-## Reproduce
+<a id="reproduce"></a>
+
+## Reproducibility
 
 Use the repository's configured scientific Python environment:
 
@@ -97,6 +107,8 @@ existing `modules.json`. The four multiome H5 count files, the external raw
 runner. No network access is used by scoring. The run record includes input
 and output SHA-256 hashes, parameters and runtime versions.
 
-## Question literature and visual companions
+<a id="question-literature-and-visual-companions"></a>
+
+## Related literature and hypotheses
 
 - [A7: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A7.md)

@@ -1,4 +1,6 @@
-# QC gallery validation and local handoff
+<a id="qc-gallery-validation-and-local-handoff"></a>
+
+# Quality-control figure validation
 
 1 November 2026 (Asia/Seoul). Scope: two render-only technical QC figures under
 Sx22-P01, using already-reviewed immutable summaries. No biological analysis rerun.

@@ -4,7 +4,7 @@
 RNA/accessibility plates. PNG and SVG are alternate formats of the same plate,
 not separate analyses. [RNA results](RNA_RESULTS.md),
 [accessibility results](ACCESSIBILITY_RESULTS.md),
-[originating review](ORIGINATING_REVIEW.md) and [job ledger](README.md) give the
+[originating review](ORIGINATING_REVIEW.md) and [job record](README.md) give the
 scope and remaining holds. Held-v1 placeholders and archived render versions
 are not additional substantive figures.
 

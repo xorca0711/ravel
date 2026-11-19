@@ -1,4 +1,6 @@
-# Recovery validation and local handoff
+<a id="recovery-validation-and-local-handoff"></a>
+
+# Validation of recovered sources
 
 31 October 2026 (Asia/Seoul). Starting revision:
 `c60848a43e32640b6921ab2f7c42ba801b5cec14`. Fetched integration base:

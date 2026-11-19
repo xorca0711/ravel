@@ -19,7 +19,9 @@ hypertension — with CSF for all 12 and blood for 10, one library each. This is
 the only donor-level unit anywhere in the paper. The signatures being transported
 are the mouse study's own, so this is signature transport, not validation.
 
-## What the paper claims (Fig. S4)
+<a id="what-the-paper-claims-fig-s4"></a>
+
+## Published findings in Supplementary Figure 4
 
 Both modules up in MS blood *and* CSF; the EGCG signature up in MS blood only;
 the N1, P1 and P4 programmes higher in MS blood.

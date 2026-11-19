@@ -1,4 +1,6 @@
-# Peng: biological review and job synthesis
+<a id="peng-biological-review-and-job-synthesis"></a>
+
+# Peng study interpretation and analytical synthesis
 
 8 November 2026. Coordinating review of technical delivery `65627dc` and
 publication record `1ef5bef`, for [PR #173](https://github.com/xorca0711/ravel/pull/173).
@@ -6,7 +8,9 @@ This is an outcome-exposed interpretation and documentation review. Numerical
 results, contracts and receipts are unchanged; this is not independent biological
 validation, a new experiment package or a human acceptance decision.
 
-## What the completed work contributes
+<a id="what-the-completed-work-contributes"></a>
+
+## Contribution of the completed work
 
 The organizing question is how epithelial populations, pathological location and
 inflammatory surroundings relate across the sampled lesion contexts. The public
@@ -39,7 +43,9 @@ biological process. Adjustment can remove relevant biology as well as mixture;
 attenuation is not a causal fraction explained. Contrary examples P1 and P2
 remain visible. [Exact spatial results](PUBLIC_DATA_RESULTS.md).
 
-### Why this is not a reproduction of the early-lesion result
+<a id="why-this-is-not-a-reproduction-of-the-early-lesion-result"></a>
+
+### Differences from the published early-lesion comparison
 
 Peng reports enrichment of IL1B-high macrophages around specified epithelial
 populations in early lesions, using cell-centroid neighborhoods of 80 micrometers
@@ -62,14 +68,16 @@ endpoint and separately report patient contributions, nesting, density and edge
 sensitivity. Molecular state, morphological region, clone and eventual fate
 remain distinct observations.
 
-## Job-by-job status and implication
+<a id="job-by-job-status-and-implication"></a>
+
+## Analysis status and scientific implications
 
 Stages refer to the [original plan](PLAN.md). “Done” names the actual deliverable,
 not completion of every possible analysis of this paper.
 
 | Job | Current status | What it establishes or still needs |
 |---|---|---|
-| 0. Source ledger | **Done for inspected/received sources** | Versions, access routes and inventories recorded. Zenodo access is user-reported requested, pending and unverified. |
+| 0. Source record | **Done for inspected/received sources** | Versions, access routes and inventories recorded. Zenodo access is user-reported requested, pending and unverified. |
 | 1. Sample joins | **Metadata done; specimen relationships partial** | 185 GEO records and S1 support declared patient/library joins. Exact block/section equivalence, P6 WES identity and P7 diagnostic history remain unresolved. |
 | 2. Pathology/ROI and assay definitions | **Definitions/tables done; exports missing** | S1–S6 recover cohort structure, namespaced programs/signatures and add-on panels. Author barcode labels, polygons, full measured panels and core identities remain missing. S5 Gene A333 remains unresolved. |
 | Public A12 cell branch | **Done without restricted exports** | 75 libraries qualified; original 12-patient comparison retained. Detection, conditional intensity, co-detection and selection/depth sensitivities described. Within-state signaling remains unestimated. |

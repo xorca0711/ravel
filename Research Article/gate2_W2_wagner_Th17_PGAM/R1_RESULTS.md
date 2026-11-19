@@ -116,7 +116,9 @@ FOXP3 — the four lowest-expressed genes in the list. The floor was lowered to
 column so any future exclusion is visible. This is recorded in the contract's
 exposure record.
 
-### 4a. What the expression floor costs and buys
+<a id="4a-what-the-expression-floor-costs-and-buys"></a>
+
+### Expression threshold and gene coverage
 
 Because that floor was chosen *knowing* which genes a higher one removes, it was
 swept across its whole range under its own contract
@@ -168,7 +170,9 @@ full list is in
 The frozen 1 CPM floor is retained; no new floor is nominated and no Wp-R1 value
 is revised.
 
-## 5. Is the EGCG signature just the pathogenicity score?
+<a id="5-is-the-egcg-signature-just-the-pathogenicity-score"></a>
+
+## Overlap between the EGCG signature and pathogenicity score
 
 Within Th17n cells, the Table S3 Th17n-EGCG signature score correlates with the
 pathogenicity score at Pearson 0.66 (Spearman 0.68) pooled, 0.63–0.73 per

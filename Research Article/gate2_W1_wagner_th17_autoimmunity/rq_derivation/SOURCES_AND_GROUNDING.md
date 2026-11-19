@@ -29,7 +29,9 @@ a claim of novelty or promotion of an overlapping enzyme mechanism. No source
 or local result establishes the proposed P03 persistence, P04 time-resolved
 dependency, P05 prediction or P06 compensation.
 
-## Actual search ledger
+<a id="actual-search-ledger"></a>
+
+## Completed literature searches
 
 Live web search, PubMed/PMC, publishers and author repositories; 4 October 2026.
 No date restriction; this extends the same-day 2024–2026 plus foundational scan.
@@ -56,7 +58,9 @@ the previously qualified local paper text supplied the exact legend/methods
 check. Carriche's author-hosted PDF was accessible. Access failures do not mean
 that the sources or supplements do not exist.
 
-## Why derivation did not trigger another biological run
+<a id="why-derivation-did-not-trigger-another-biological-run"></a>
+
+## Rationale for interpretation from existing evidence
 
 | Uncertainty that could change the question | What existing evidence permits | What is actually missing |
 |---|---|---|

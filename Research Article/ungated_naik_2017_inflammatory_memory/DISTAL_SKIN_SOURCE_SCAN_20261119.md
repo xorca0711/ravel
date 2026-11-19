@@ -4,13 +4,17 @@
 
 **The strongest directly usable source is Cowley Data S2, which supplies a transient comparator as well as memory coordinates.** Its 934 Memory and 933 Resolved regions can be given the same promoter exclusion and assessed in two post-IMQ and two age-matched naïve pools at 24 months. The libraries, units and file sizes are identifiable. The two-year libraries contributed neither peaks nor differential tests to the domain selection, but Fig. 1 already displays their behavior. This would be an exposed, within-study description. A second design can avoid using recovery data at *any* stage of region selection by discovering regions solely from Larsen’s four new D6 peak files. All four files were recovered. No recovery signal was extracted or new biological contrast estimated in this step. [Cowley Fig. 1, Methods](https://doi.org/10.1126/science.adz6830) · [Larsen Fig. 1, STAR Methods](https://doi.org/10.1016/j.stem.2021.07.001)
 
-## What changed since S3 and S6C
+<a id="what-changed-since-s3-and-s6c"></a>
+
+## Evidence since the S3 and S6C analyses
 
 Naik reported 44,414 D6-induced peaks. Fig. 3b,d identifies 2,041 shared D6/D30 inflammation-induced peaks, Fig. 3c shows selected loci through D180, and Extended Data Fig. 4g counts overlap of D6 with D30 or D180. The article asks whether the chromatin response persists in recovered epidermal stem cells. Ravel previously qualified all 12 original mm10 BigWigs but recovered positional ranks only around GENCODE M9 protein-coding gene boundaries. Each width covered 21,760 distinct windows for 21,775 genes on chr1–19/X. D6/D30 and D180 have different sequencing platforms, and the deposited signal transformation is unresolved. S3 and S6C therefore remain valid for their own within-library ranks. S7 measured human post-challenge RNA. None supplies a set of distal mouse intervals. [Naik Fig. 3 and Extended Data Fig. 4](https://doi.org/10.1038/nature24271) · [S3 amendment](S3_AMENDMENT_V1.md) · [S3 qualification](S3Q_RESULTS_V1.md) · [S3 results](S3_RESULTS_V1.md) · [S6C method](S6C_D180_METHOD_V1.md) · [S6C results](S6C_RESULTS_V1.md) · [S6 synthesis](S6_SYNTHESIS_V3.md) · [S7 results](S7_RESULTS_V1.md)
 
 The unresolved comparison is whether recovery libraries show a history difference at distal regions selected during acute inflammation, relative to a specified set of comparator regions. The observed unit is the sequenced cell pool. Regions and genomic bases are repeated features of that pool. An exposure-associated difference could reflect which basal or upper-follicle populations were present in the sorted skin, differences in initial accessibility, age, or technical processing. This endpoint cannot by itself identify a target gene, causal enhancer, cellular recall, or repair benefit.
 
-## Which intervals were actually found?
+<a id="which-intervals-were-actually-found"></a>
+
+## Recovered genomic intervals
 
 | Source and exact locator | Interval object and selection | What the object permits |
 |---|---|---|

@@ -1,4 +1,6 @@
-# Checkpoint C review and final synthesis job
+<a id="checkpoint-c-review-and-final-synthesis-job"></a>
+
+# Third-stage review and synthesis
 
 31 October 2026, Asia/Seoul. Reviewed execution
 `619fc57a86236a2cadf0a6eb263a3dbeb2e2e3d6`.
@@ -102,7 +104,7 @@ Reuse the reviewed original/A/B/C evidence and current canonical dossiers.
    what exact new evidence would permit the next bounded job, without inventing
    donor independence, effect margins, lab capabilities or a bench-ready design.
 4. Synchronize current extension/parent README, registry evidence link,
-   PROGRESS and execution ledger. Distinguish the repository-wide ledger scan
+   PROGRESS and execution record. Distinguish the repository-wide record scan
    from a new full numerical audit and do not duplicate already completed DY1,
    Niethamer or canonical-question analyses. Preserve every historical result,
    frozen script/output, cache, source contract and worktree.
@@ -118,7 +120,7 @@ and decisions to pursue new experimental work remain human decisions.
 ## Integration validation
 
 Freshly fetched main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
-Both append-only ledger histories were preserved during local integration.
+Both append-only record histories were preserved during local integration.
 Repository validation passed 12,238 checks, and the current-main research gate
 returned `ok: true` with no errors. Existing valid tests were reused; source
 qualification and biological pipelines were not replayed for integration.

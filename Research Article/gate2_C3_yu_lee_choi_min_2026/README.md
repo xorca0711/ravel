@@ -1,12 +1,121 @@
-# Yu, Lee, Choi_Min and Choi 2026: IL-1beta and stem-cell plasticity
+# Yu et al. (2026) — IL-1β and epithelial plasticity in repair, fibrosis and cancer
 
-## One inflammatory signal across different niches
+<a id="yu-lee-choi_min-and-choi-2026-il-1beta-and-stem-cell-plasticity"></a>
 
-Yu and colleagues review how IL-1β can support epithelial repair after injury and accompany persistent plasticity in fibrosis and cancer. Their lung examples make the distinction concrete. A transient progenitor can contribute to repair, while sustained exposure can impede maturation. The review draws those links from experiments in different tissues and disease settings. [Review](https://pubmed.ncbi.nlm.nih.gov/42497497/) · [Primary studies behind sections 3.1 and 4.1](SOURCE_SYNTHESIS.md)
+<a id="one-inflammatory-signal-across-different-niches"></a>
+
+## Published findings
+
+```text
+IL-1β exposure across tissue contexts (review synthesis)
+  ├─ Acute injury and resolution → transient epithelial plasticity during repair
+  ├─ Sustained inflammation      → incomplete maturation and fibrotic remodeling
+  └─ Neoplastic lesions          → reuse of injury-associated states in altered niches
+
+Implication: source, recipient, duration and tissue context condition the response.
+```
+
+This review brings together primary lung studies of transient progenitors, impaired maturation and neoplastic lesions. The studies differ in exposure duration, recipient population and tissue context. [Review](https://pubmed.ncbi.nlm.nih.gov/42497497/) · [Primary studies behind sections 3.1 and 4.1](SOURCE_SYNTHESIS.md)
+
+## Ravel analyses and results
 
 Ravel tested one prediction across two human pulmonary fibrosis cohorts. An expression score combining macrophage IL1B and fibroblast receptor RNA barely differed from controls in one cohort and was higher in the other. The two cohorts therefore differ even at the level of RNA compatibility. Neither measures how much IL-1β reached fibroblasts. [Cohort comparison](EVIDENCE_REVIEW.md)
 
-## Read this study
+## Data and methods
+
+This is a review article. Ravel compared donor-level RNA evidence from primary cohorts, including two human pulmonary fibrosis datasets. [Primary-study sources](SOURCE_SYNTHESIS.md) · [Cohorts and comparisons](DATASETS.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+<a id="read-and-review"></a>
+
+### Analysis files and protocols
+
+| Artifact | Purpose |
+|---|---|
+| [Completed evidence review](EVIDENCE_REVIEW.md) | Cross-context findings and limits for interpretation review |
+| [Derived research questions and figures](../../RESEARCH_QUESTIONS.md#a11-shared-plasticity-versus-neoplasia-associated-context) | Post-analysis RQs with five generated data figures and an experimental-design schematic; remaining evidence requirements |
+| [Evaluation rules](EVALUATION_RULES.md) | Distinguish null, undercovered, unidentifiable and unmeasured questions |
+| [Reproducibility](REPRODUCIBILITY.md) | Runtime, stage dependencies, provenance and preserved corrections |
+| [Analysis pipeline plan](ANALYSIS_TRIAL_PLAN.md) | Research questions, estimands, stages, controls, decision gates and outputs |
+| [Context-specific niche analyses](NICHE_ANALYSIS_PLAN.md) | Required macrophage/fibroblast ligand-receptor and pathway analyses; Body-note context distinctions and conditional ligand-target extension |
+| [Public-data shortlist](DATASETS.md) | Ranked new deposits, existing-data roles, unresolved access and design issues |
+| [Source and annotation synthesis](SOURCE_SYNTHESIS.md) | What the annotations emphasize, what primary evidence supports, and what remains a hypothesis |
+| [Machine-readable dataset manifest](dataset_candidates.json) | Source links, roles, dependencies and release gates |
+| [Proposed analysis contract](analysis_contract.json) | Review status, primary estimand, proposed floors and execution boundary |
+| [Niche analysis contract](niche_analysis_contract.json) | Context axes, LR/pathway/target methods, eligibility and multiplicity families |
+| [Preparation report](trials/PREPARATION_REPORT.md) | What actually ran and what it established |
+| [Initial analysis report](INITIAL_RUN_REPORT.md) | Completed modules, null/sensitivity results, remaining gates and execution evidence |
+| [Continuation and completion register](WORK_PACKAGES.md) | Completed work packages, active analyses and precise remaining gates |
+| [Figure gallery plan](FIGURE_GALLERY_PLAN.md) | Seven figure groups, supporting diagnostics, panel specifications and release criteria |
+| [Sample inventory](trials/u0_geo_design_audit/sample_inventory.csv) | All 371 deposited sample records; these are not 371 independent animals or donors |
+
+</details>
+
+## Interpretation and open questions
+
+The two fibrosis cohorts differ in the strength of the macrophage–fibroblast RNA association. Direct ligand delivery, receptor activation and subsequent repair remain distinct endpoints.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+### Proposed research focus
+
+> Which macrophage-fibroblast-epithelial circuits and recipient programmes
+> distinguish supportive from persistent pathological niches, and how does
+> their response to IL-1beta blockade relate to epithelial state balance?
+
+Version 3 retains ligand-receptor inference and macrophage/fibroblast pathway
+enrichment required analysis arms. It follows the Body notes' distinctions
+between source/recipient cells, repair routes, niche mechanics, age/history,
+fibrosis and distinct cancer contexts. RNA can test selected associations;
+stiffness, secretion, cellular origin and functional suppression require
+additional measurements. Cross-organ examples remain labelled hypotheses.
+
+The review supplies the organizing hypothesis. Primary studies supply the
+experiments, signatures and data. Persistent injury, dysplastic epithelial
+repair, fibrosis and malignancy remain distinct outcomes. KRT8 expression
+alone cannot assign any of them.
+
+The first proposed biological dataset is **GSE300288**, which includes direct
+anti-IL-1beta treatment. The strongest human extension is **GSE308103**, with
+candidate within-patient normal/precursor/LUAD contrasts, followed by its
+spatial companion **GSE307534**. These are complementary assays from the same
+study and partly the same patients, not independent replication cohorts.
+The post-injury spatial series **GSE267226/GSE267228** supplies a different
+context, but its deposited mouse intervention is anti-CD8, not anti-IL-1beta.
+See [the shortlist](DATASETS.md) for the evidence and limitations.
+
+<a id="relationship-to-the-existing-repository"></a>
+
+### Relationship to prior studies
+
+Existing Choi, Cardoso and England trials remain in their source-paper folders.
+This branch references their outputs rather than moving or rerunning them.
+The [epithelial specificity project](../epithelial_state_specificity/README.md)
+provides traceable state definitions and known limitations. The
+[outcome-linked dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md) remains an
+independent route for organoid growth outcomes; it is not replaced by this plan.
+
+The review does not supply a new experimental dataset or a result to reproduce
+as a single analysis. This branch evaluates its proposed links across public
+primary studies, including situations that could contradict the unified model.
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](trials/) |
+| Results | [Study results](EVIDENCE_REVIEW.md) |
+| Figures | [Figures and captions](#figure-gallery) |
+
+<a id="read-this-study"></a>
+
+### Study overview and references
 
 | To understand | Read |
 |---|---|
@@ -39,70 +148,10 @@ questions that remain unidentifiable. No criterion was relaxed after
 viewing results. The [initial report](INITIAL_RUN_REPORT.md) preserves
 the first batch; it is not the current whole-run status.
 
-<a id="read-and-review"></a>
 
-## Analysis files and protocols
+<a id="figure-gallery"></a>
 
-| Artifact | Purpose |
-|---|---|
-| [Completed evidence review](EVIDENCE_REVIEW.md) | Cross-context findings and limits for interpretation review |
-| [Derived research questions and figures](../../RESEARCH_QUESTIONS.md#a11-shared-plasticity-versus-neoplasia-associated-context) | Post-analysis RQs with five generated data figures and an experimental-design schematic; remaining evidence requirements |
-| [Evaluation rules](EVALUATION_RULES.md) | Distinguish null, undercovered, unidentifiable and unmeasured questions |
-| [Reproducibility](REPRODUCIBILITY.md) | Runtime, stage dependencies, provenance and preserved corrections |
-| [Analysis pipeline plan](ANALYSIS_TRIAL_PLAN.md) | Research questions, estimands, stages, controls, decision gates and outputs |
-| [Context-specific niche analyses](NICHE_ANALYSIS_PLAN.md) | Required macrophage/fibroblast ligand-receptor and pathway analyses; Body-note context distinctions and conditional ligand-target extension |
-| [Public-data shortlist](DATASETS.md) | Ranked new deposits, existing-data roles, unresolved access and design issues |
-| [Source and annotation synthesis](SOURCE_SYNTHESIS.md) | What the annotations emphasize, what primary evidence supports, and what remains a hypothesis |
-| [Machine-readable dataset manifest](dataset_candidates.json) | Source links, roles, dependencies and release gates |
-| [Proposed analysis contract](analysis_contract.json) | Review status, primary estimand, proposed floors and execution boundary |
-| [Niche analysis contract](niche_analysis_contract.json) | Context axes, LR/pathway/target methods, eligibility and multiplicity families |
-| [Preparation report](trials/PREPARATION_REPORT.md) | What actually ran and what it established |
-| [Initial analysis report](INITIAL_RUN_REPORT.md) | Completed modules, null/sensitivity results, remaining gates and execution evidence |
-| [Continuation and completion register](WORK_PACKAGES.md) | Completed work packages, active analyses and precise remaining gates |
-| [Figure gallery plan](FIGURE_GALLERY_PLAN.md) | Seven figure groups, supporting diagnostics, panel specifications and release criteria |
-| [Sample inventory](trials/u0_geo_design_audit/sample_inventory.csv) | All 371 deposited sample records; these are not 371 independent animals or donors |
-
-## Proposed research focus
-
-> Which macrophage-fibroblast-epithelial circuits and recipient programmes
-> distinguish supportive from persistent pathological niches, and how does
-> their response to IL-1beta blockade relate to epithelial state balance?
-
-Version 3 retains ligand-receptor inference and macrophage/fibroblast pathway
-enrichment required analysis arms. It follows the Body notes' distinctions
-between source/recipient cells, repair routes, niche mechanics, age/history,
-fibrosis and distinct cancer contexts. RNA can test selected associations;
-stiffness, secretion, cellular origin and functional suppression require
-additional measurements. Cross-organ examples remain labelled hypotheses.
-
-The review supplies the organizing hypothesis. Primary studies supply the
-experiments, signatures and data. Persistent injury, dysplastic epithelial
-repair, fibrosis and malignancy remain distinct outcomes. KRT8 expression
-alone cannot assign any of them.
-
-The first proposed biological dataset is **GSE300288**, which includes direct
-anti-IL-1beta treatment. The strongest human extension is **GSE308103**, with
-candidate within-patient normal/precursor/LUAD contrasts, followed by its
-spatial companion **GSE307534**. These are complementary assays from the same
-study and partly the same patients, not independent replication cohorts.
-The post-injury spatial series **GSE267226/GSE267228** supplies a different
-context, but its deposited mouse intervention is anti-CD8, not anti-IL-1beta.
-See [the shortlist](DATASETS.md) for the evidence and limitations.
-
-## Relationship to the existing repository
-
-Existing Choi, Cardoso and England trials remain in their source-paper folders.
-This branch references their outputs rather than moving or rerunning them.
-The [epithelial specificity project](../epithelial_state_specificity/README.md)
-provides traceable state definitions and known limitations. The
-[outcome-linked dataset gate](../../docs/history/planning/NEXT_DATASET_GATE.md) remains an
-independent route for organoid growth outcomes; it is not replaced by this plan.
-
-The review does not supply a new experimental dataset or a result to reproduce
-as a single analysis. This branch evaluates its proposed links across public
-primary studies, including situations that could contradict the unified model.
-
-## Figure gallery
+### Study figures
 
 The [gallery plan](FIGURE_GALLERY_PLAN.md) orders figures by the research
 questions. Only generated, checked figures are embedded below; planned
@@ -122,7 +171,7 @@ UMAP/PCA are new diagnostics; statistical panels reuse completed results.
 | F06 Human lesion and spatial context | All human libraries and spatial/context matrices processed; independent ROI and post-viral coordinates unavailable |
 | F07 Cross-context evidence synthesis | Completed specificity panels and evidence matrix; interpretation review ready |
 
-### F01: context, design and biological-unit coverage
+#### F01: context, design and biological-unit coverage
 
 ![Context and coverage](figures/context_design_and_coverage.png)
 
@@ -131,7 +180,7 @@ repeated histologies do not add independent replication.
 [Design table](trials/u6_completion/context_design_map.csv) ·
 [generating script](trials/u6_report_context_coverage.py).
 
-### F02/F03: full-cell LR robustness and IL1B sources
+#### F02/F03: full-cell LR robustness and IL1B sources
 
 ![Full-cell LR robustness and IL1B sources](figures/ipf_full_cell_robustness_and_sources.png)
 
@@ -142,7 +191,7 @@ checks. These are RNA measurements, not cytokine secretion or activation.
 [GSE136831 run](trials/u5_liana_robustness/GSE136831/run_record.json) ·
 [GSE135893 run](trials/u5_liana_robustness/GSE135893/run_record.json).
 
-### F03: donor-level RNA-compatibility contrasts
+#### F03: donor-level RNA-compatibility contrasts
 
 ![IPF RNA-compatibility contrasts](figures/ipu5_rna_compatibility.png)
 
@@ -153,7 +202,7 @@ checked; the displayed canonical examples do not replace the complete tables.
 [generating script](trials/u5_report_compatibility.py) ·
 [run record](trials/u5_ipf_compatibility/run_record.json).
 
-### F04: initial IPF pathway results
+#### F04: initial IPF pathway results
 
 ![IPF pathway primary and sensitivity results](figures/ipf_pathway_primary_and_sensitivity.png)
 
@@ -163,7 +212,7 @@ q < 0.05 within the corresponding cohort and analysis family. See the
 [initial report](INITIAL_RUN_REPORT.md) for eligibility and interpretation;
 neither cohort has a primary pathway passing this threshold.
 
-### F04 extension: eligible ligand-target prioritization
+#### F04 extension: eligible ligand-target prioritization
 
 ![Ligand-target eligibility and fit](figures/ipf_ligand_target_eligibility_and_fit.png)
 
@@ -176,7 +225,7 @@ target or expression eligibility reason.
 [GSE136831 refits](trials/u5_ligand_targets/GSE136831/run_record.json) ·
 [GSE135893 refits](trials/u5_ligand_targets/GSE135893/run_record.json).
 
-### F05: early mouse niche and phenotype eligibility
+#### F05: early mouse niche and phenotype eligibility
 
 ![Mouse early niche contrasts and phenotype gates](figures/mouse_early_niche_and_phenotype_gates.png)
 
@@ -188,7 +237,7 @@ documented identity limits. No primary pathway passes q < 0.05.
 [generating script](trials/u4_report_mouse_niche.py) ·
 [validation](trials/u4_mouse_niche/validation.json).
 
-### F07 component: epithelial specificity across contexts
+#### F07 component: epithelial specificity across contexts
 
 ![Epithelial specificity and signature overlap](figures/epithelial_specificity_and_signature_overlap.png)
 
@@ -200,7 +249,7 @@ signature are coupled, so the author comparison is a consistency check.
 [Report and complete values](trials/u6_specificity/REPORT.md) ·
 [generating script](trials/u6_report_specificity.py).
 
-### F07 component: source-defined ISR specificity
+#### F07 component: source-defined ISR specificity
 
 ![ISR specificity across available contexts](figures/isr_specificity_contexts.png)
 
@@ -211,7 +260,7 @@ measurement of biochemical ISR activity.
 [Report and values](trials/u6_isr_extension/REPORT.md) ·
 [generating script](trials/u6_report_isr.py).
 
-### F06: spatial maps and paired whole-section context
+#### F06: spatial maps and paired whole-section context
 
 ![Measured spatial RNA](figures/human_spatial_measured_maps.png)
 
@@ -229,7 +278,7 @@ deposited coordinates for neighborhood inference.
 [Report, source audit and complete values](trials/u5_spatial_context/REPORT.md) ·
 [generating script](trials/u5_report_spatial_context.py).
 
-### F07 component: fibrosis epithelial-state specificity
+#### F07 component: fibrosis epithelial-state specificity
 
 ![Fibrosis epithelial-state specificity](figures/ipf_epithelial_state_specificity.png)
 
@@ -240,7 +289,7 @@ states remain distinct from KAC, HPCS and malignant identities.
 [Report and all sensitivities](trials/u6_ipf_specificity/REPORT.md) ·
 [generating script](trials/u6_report_ipf_specificity.py).
 
-### F02 extension: human IL1B sources
+#### F02 extension: human IL1B sources
 
 ![Human IL1B sources](figures/human_IL1B_sources.png)
 
@@ -250,7 +299,7 @@ therefore cannot establish the dominant source across all recovered cells.
 [Report and tables](trials/u5_human_sources/REPORT.md) ·
 [generating script](trials/u5_report_human_sources.py).
 
-### F04/F06: paired human pathways and RNA niches
+#### F04/F06: paired human pathways and RNA niches
 
 ![Human paired recipient pathways](figures/human_paired_recipient_pathways.png)
 
@@ -263,7 +312,7 @@ points are descriptive and do not establish communication.
 [annotation review](trials/u5_human_full/ANNOTATION_REVIEW.md) ·
 [generating script](trials/u5_report_human_niche.py).
 
-### F04 extension: paired human ligand targets
+#### F04 extension: paired human ligand targets
 
 ![Human ligand target eligibility and fit](figures/human_ligand_target_eligibility_and_fit.png)
 
@@ -272,7 +321,7 @@ An unsigned-prior fit to downregulated targets does not establish inhibition.
 [Report and omission stability](trials/u5_human_ligand_targets/REPORT.md) ·
 [generating script](trials/u5_report_human_ligand_targets.py).
 
-### F07 component: human epithelial programs
+#### F07 component: human epithelial programs
 
 ![Human epithelial program specificity](figures/human_epithelial_program_specificity.png)
 
@@ -281,7 +330,7 @@ remain distinct from source-defined KAC/HPCS identity and malignant status.
 [Report and sensitivities](trials/u6_human_specificity/REPORT.md) ·
 [generating script](trials/u6_report_human_specificity.py).
 
-### F07: cross-context evidence for review
+#### F07: cross-context evidence for review
 
 ![Cross-context evidence review](figures/cross_context_evidence_review.png)
 

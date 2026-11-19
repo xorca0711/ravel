@@ -1,4 +1,8 @@
-# Nb2-N2 candidate: which YAP-associated output accompanies differentiation competence?
+<a id="nb2-n2-candidate-which-yap-associated-output-accompanies-differentiation-competence"></a>
+
+# Nb2-N2 — YAP-associated outputs and differentiation competence
+
+Which YAP-associated output accompanies differentiation competence?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

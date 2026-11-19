@@ -1,6 +1,6 @@
 # Yadav checkpoint figures
 
-Updated 31 October 2026. [Extension checkpoint A](extensions_20261031/CHECKPOINT_A_RESULTS.md). Original figures: 30 October 2026. [Current interpretation and full job ledger](CONTEXT_AND_SYNTHESIS.md);
+Updated 31 October 2026. [Extension checkpoint A](extensions_20261031/CHECKPOINT_A_RESULTS.md). Original figures: 30 October 2026. [Current interpretation and full job record](CONTEXT_AND_SYNTHESIS.md);
 [functional/RNA detail](TECHNICAL_RESULTS.md).
 All plots reuse published source data; none constitutes independent replication.
 The v2 functional/QC display replaces only figure links, preserving all v1 files

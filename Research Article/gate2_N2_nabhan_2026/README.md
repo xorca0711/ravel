@@ -1,39 +1,31 @@
-# Nb3 — Nabhan 2026: alveolar stem-cell identity and the fibroblast niche
+# Nabhan et al. (2026) — Epithelial identity and fibroblast programs in alveolar organoids
 
-## How epithelial identity shapes the fibroblast niche
+<a id="nb3--nabhan-2026-alveolar-stem-cell-identity-and-the-fibroblast-niche"></a>
 
-Nabhan and colleagues grew mouse AT2 cells with human fibroblasts, allowing RNA from the two compartments to be read separately. After epithelial *Nkx2-1* perturbation, fibroblasts lost part of their lung-associated chemokine program. Across the screen, organoid number and size also responded differently, making growth alone an incomplete readout of niche identity. [Paper, Figs. 2 and 4](https://doi.org/10.1073/pnas.2606113123)
+<a id="how-epithelial-identity-shapes-the-fibroblast-niche"></a>
+
+## Published findings
+
+```text
+Mouse AT2 cells + human fibroblasts → mixed-species alveolar organoids
+  ├─ Epithelial perturbations → distinct effects on organoid number and size
+  └─ Epithelial Nkx2-1 perturbation → lower fibroblast lung-chemokine program
+
+Implication: epithelial identity contributes to the niche beyond organoid growth.
+```
+
+The mixed-species organoid design distinguished mouse epithelial RNA from human fibroblast RNA in each well. After epithelial *Nkx2-1* perturbation, the fibroblasts expressed less of the lung-associated chemokine program. [Paper, Figs. 2 and 4](https://doi.org/10.1073/pnas.2606113123)
+
+## Ravel analyses and results
 
 Ravel recovered the direction of the lower AT2 and fibroblast chemokine markers across the tested analysis choices. Agreement with the authors’ full differential-expression results was better for the mouse compartment. The human table remains numerically unresolved, and bulk wells cannot distinguish changes within fibroblasts from changes in which fibroblasts were present. [Reproduction review](reports/REPRODUCTION_REVIEW.md) · [Marker follow-up](reports/FOLLOWUP_RESULTS.md)
 
-*Mapping the dialogue: Decoding alveolar stem–niche interactions.* Nabhan et al.,
-PNAS 123, e2606113123. [Paper](https://doi.org/10.1073/pnas.2606113123).
-Gate **2N, item 2**; stable roadmap paper **14**; analysis ID **Nb3**.
-The owner completed reading and authorized reproduction and extensions.
-The corrected folder label is `gate2_N2_nabhan_2026`.
+<details>
+<summary>Additional analysis results</summary>
 
-**Updated 1 October 2026: partial reproduction, descriptive extensions and
-follow-up complete.** Eleven original figures plus one external E5 pilot figure
-are available. Two RQs are proposed as **A22/A23**; all eight annotated candidates
-have explicit framings. Human S5 numeric reproduction remains unresolved.
-Technical wells do not establish independent biological replication. Exact
-embeddings, spatial interpretation and the paper's DepMap comparison remain
-incomplete. The E5 pilot is a separate external analysis.
+<a id="findings-at-a-glance"></a>
 
-## Read this study
-
-| To understand | Read |
-|---|---|
-| What was reproduced, what failed and what remains open | [Reproduction review](reports/REPRODUCTION_REVIEW.md); [S5 audit](reports/CONCORDANCE_AUDIT.md) |
-| Results for the eight annotated extension questions | [Extension review](reports/EXTENSION_REVIEW.md); [completed follow-up](reports/FOLLOWUP_RESULTS.md) |
-| Generated plots, units, source tables and captions | [Figure gallery](#figure-gallery); [all figures](FIGURES.md) |
-| Hypotheses, rivals and decisive outcomes | [Eight candidate cards](CANDIDATE_HYPOTHESES.md); [A22/A23 derivation](reports/RQ_DERIVATION.md) |
-| Contributions to earlier RQs after strict review | [Integration review](reports/RQ_INTEGRATION_REVIEW.md); [cross-article review](../../docs/audits/2026-10-01-cross-article-rq-review/README.md) |
-| E5 public datasets, executed pilot and refined candidate | [External feasibility and results](reports/E5_EXTERNAL_FEASIBILITY.md) |
-| Source paper, annotations and original plan | [Source synthesis](SOURCE_SYNTHESIS.md); [analysis plan](ANALYSIS_TRIAL_PLAN.md); [repository context](REPOSITORY_CONTEXT.md) |
-| Data, environments, run order and verification | [Datasets](DATASETS.md); [execution guide](EXECUTION.md) |
-
-## Findings at a glance
+### Evidence by biological question
 
 | Biological topic | Current reading | Evidence / limit |
 |---|---|---|
@@ -48,7 +40,16 @@ The [follow-up report](reports/FOLLOWUP_RESULTS.md) owns detailed numerical
 interpretation. RNA programmes do not independently reproduce the paper's
 functional experiments.
 
-## Data and biological units
+</details>
+
+## Data and methods
+
+Species separates the epithelial and fibroblast RNA in the same organoid wells. The reconstructed responses are bulk well measurements. [Experimental sources and units](DATASETS.md)
+
+<details>
+<summary>Experimental and computational methods</summary>
+
+### Data and biological units
 
 | Material | Available measurements | Unit and limitation |
 |---|---|---|
@@ -61,23 +62,7 @@ Source PDFs, supplementary workbooks and private annotation snapshots remain
 in the ignored local data cache. Compact results, provenance and generated
 figures are deposited here. Existing A10/A2 fits retain their original ownership.
 
-## Figure gallery
-
-The [complete gallery](FIGURES.md) gives every panel's unit, source table and
-interpretation. PNG exports are 300 dpi, with PDF and SVG companions. The
-[original 11-page atlas](figures/Nb3_complete_figure_atlas_v2.pdf) remains unchanged;
-the [external E5 figure](figures/E5_external_v2/Nb3_F09_E5_external_pilot.pdf)
-is a separate addition.
-
-| Browse by biological question | Figures |
-|---|---|
-| [Growth and reconstruction](FIGURES.md#figure-1-imaging-reconstruction-across-focal-perturbations) | F01 imaging; F02 concordance; S01 QC |
-| [Epithelial identity and niche response](FIGURES.md#figure-4-epithelial-identity-and-paired-fibroblast-responses) | F03 panels; F04 paired niche; F07 sensitivity; S03 depth/influence |
-| [Transition, homeostasis and pathways](FIGURES.md#figure-5-candidate-state-patterns-and-component-activities) | F05 candidates; F08 Hallmarks; S02 source components |
-| [Receptor context](FIGURES.md#figure-6-receptor-expression-and-growth-context) | F06 expression and growth |
-| [External E5 epithelial-response pilot](FIGURES.md#figure-9-external-e5-epithelial-response-pilot) | F09 receptor response, inflammatory genes and AT2 coverage |
-
-## Analysis stages
+### Analysis stages
 
 Stages reuse the source screen; they are not independent replication cohorts.
 The external E5 deposit is a different study with its own design limits.
@@ -92,7 +77,18 @@ The external E5 deposit is a different study with its own design limits.
 | RQ review | A22/A23 derivation and strict integration into earlier RQs | [Derivation](reports/RQ_DERIVATION.md); [integration review](reports/RQ_INTEGRATION_REVIEW.md) |
 | External E5 | Metadata audit and four-contrast receptor/context pilot | [Results and candidate](reports/E5_EXTERNAL_FEASIBILITY.md); [contract](config/Nb3_E5_external_v1.json) |
 
-## Questions and next decisions
+</details>
+
+## Interpretation and open questions
+
+The chemokine-marker direction survives local sensitivity checks. The unresolved human differential-expression table and cell mixture within wells limit attribution to specific fibroblast states.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="questions-and-next-decisions"></a>
+
+### Outstanding research questions
 
 [A22](../../RQ_Specified/A22_epithelial_identity_niche_response/README.md)
 asks whether epithelial identity maintains fibroblast chemokine competence
@@ -111,7 +107,69 @@ and recipient outcomes remain decisive. The
 spatial and cancer-data requirements. Study-specific results stay here;
 question-specific execution belongs in `RQ_Specified/`.
 
-## Identifier guide
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](reports/REPRODUCTION_REVIEW.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
+
+*Mapping the dialogue: Decoding alveolar stem–niche interactions.* Nabhan et al.,
+PNAS 123, e2606113123. [Paper](https://doi.org/10.1073/pnas.2606113123).
+Gate **2N, item 2**; stable roadmap paper **14**; analysis ID **Nb3**.
+The owner completed reading and authorized reproduction and extensions.
+The corrected folder label is `gate2_N2_nabhan_2026`.
+
+**Updated 1 October 2026: partial reproduction, descriptive extensions and
+follow-up complete.** Eleven original figures plus one external E5 pilot figure
+are available. Two RQs are proposed as **A22/A23**; all eight annotated candidates
+have explicit framings. Human S5 numeric reproduction remains unresolved.
+Technical wells do not establish independent biological replication. Exact
+embeddings, spatial interpretation and the paper's DepMap comparison remain
+incomplete. The E5 pilot is a separate external analysis.
+
+<a id="read-this-study"></a>
+
+### Study overview and references
+
+| To understand | Read |
+|---|---|
+| What was reproduced, what failed and what remains open | [Reproduction review](reports/REPRODUCTION_REVIEW.md); [S5 audit](reports/CONCORDANCE_AUDIT.md) |
+| Results for the eight annotated extension questions | [Extension review](reports/EXTENSION_REVIEW.md); [completed follow-up](reports/FOLLOWUP_RESULTS.md) |
+| Generated plots, units, source tables and captions | [Figure gallery](#figure-gallery); [all figures](FIGURES.md) |
+| Hypotheses, rivals and decisive outcomes | [Eight candidate cards](CANDIDATE_HYPOTHESES.md); [A22/A23 derivation](reports/RQ_DERIVATION.md) |
+| Contributions to earlier RQs after strict review | [Integration review](reports/RQ_INTEGRATION_REVIEW.md); [cross-article review](../../docs/audits/2026-10-01-cross-article-rq-review/README.md) |
+| E5 public datasets, executed pilot and refined candidate | [External feasibility and results](reports/E5_EXTERNAL_FEASIBILITY.md) |
+| Source paper, annotations and original plan | [Source synthesis](SOURCE_SYNTHESIS.md); [analysis plan](ANALYSIS_TRIAL_PLAN.md); [repository context](REPOSITORY_CONTEXT.md) |
+| Data, environments, run order and verification | [Datasets](DATASETS.md); [execution guide](EXECUTION.md) |
+
+<a id="figure-gallery"></a>
+
+### Study figures
+
+The [complete gallery](FIGURES.md) gives every panel's unit, source table and
+interpretation. PNG exports are 300 dpi, with PDF and SVG companions. The
+[original 11-page atlas](figures/Nb3_complete_figure_atlas_v2.pdf) remains unchanged;
+the [external E5 figure](figures/E5_external_v2/Nb3_F09_E5_external_pilot.pdf)
+is a separate addition.
+
+| Browse by biological question | Figures |
+|---|---|
+| [Growth and reconstruction](FIGURES.md#figure-1-imaging-reconstruction-across-focal-perturbations) | F01 imaging; F02 concordance; S01 QC |
+| [Epithelial identity and niche response](FIGURES.md#figure-4-epithelial-identity-and-paired-fibroblast-responses) | F03 panels; F04 paired niche; F07 sensitivity; S03 depth/influence |
+| [Transition, homeostasis and pathways](FIGURES.md#figure-5-candidate-state-patterns-and-component-activities) | F05 candidates; F08 Hallmarks; S02 source components |
+| [Receptor context](FIGURES.md#figure-6-receptor-expression-and-growth-context) | F06 expression and growth |
+| [External E5 epithelial-response pilot](FIGURES.md#figure-9-external-e5-epithelial-response-pilot) | F09 receptor response, inflammatory genes and AT2 coverage |
+
+<a id="identifier-guide"></a>
+
+### Study and analysis identifiers
 
 | Label | Meaning |
 |---|---|
@@ -124,10 +182,14 @@ question-specific execution belongs in `RQ_Specified/`.
 For commands and checks use the [execution guide](EXECUTION.md). Original runs,
 frozen configurations and superseded figure exports are retained.
 
-## Question literature and visual companions
+<a id="question-literature-and-visual-companions"></a>
+
+### Related literature and hypotheses
 
 - [A9: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A9.md)
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

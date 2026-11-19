@@ -1,10 +1,64 @@
-# Nb4: Travaglini, Nabhan et al. 2020 human lung atlas
+# Travaglini et al. (2020) — Anatomical cell diversity in the human lung
 
-## Which fibroblasts contribute to a lung RNA signal?
+<a id="nb4-travaglini-nabhan-et-al-2020-human-lung-atlas"></a>
 
-Travaglini and colleagues mapped cell types across the human lung. Their atlas distinguished alveolar from adventitial fibroblasts and localized them to different anatomical niches. That distinction changes how an expression difference between lung samples can be interpreted. [Paper, Fig. 1e–f](https://doi.org/10.1038/s41586-020-2922-4)
+<a id="which-fibroblasts-contribute-to-a-lung-rna-signal"></a>
+
+## Published findings
+
+```text
+Human lung atlas → anatomically resolved populations
+  ├─ Alveolar and adventitial fibroblasts → distinct stromal compartments
+  ├─ AT2-associated populations           → epithelial heterogeneity
+  └─ Capillary and bronchial endothelium  → regional vascular identities
+
+Implication: regional cell composition shapes the RNA profile of a lung sample.
+```
+
+Single-cell profiles and tissue localization distinguished alveolar from adventitial fibroblasts. These annotations allow an apparent expression difference to be examined at a fixed mixture of subtypes. [Paper, Fig. 1e–f](https://doi.org/10.1038/s41586-020-2922-4)
+
+## Ravel analyses and results
 
 In the two source donors with sufficient 10x coverage for Ravel’s comparison, adventitial cells made up roughly 75% and 9% of the sampled fibroblasts. The donor ratio of mean *C3* RNA per cell was 4.92 with those observed proportions and 1.27 with equal subtype weights. Much of the apparent difference depended on which fibroblasts were sampled. [Donor and subtype comparison](reports/RQ_SEQUENCE_RESULTS.md)
+
+<details>
+<summary>Additional analysis results</summary>
+
+### Current evidence
+
+The public matrices contain **75,071 cells**, matching the sum of Supplementary
+Table 2 population rows but differing from the printed 75,066 total. MYRF/AT1
+and TBX5/pericyte contrasts persist across eligible donors and alternative
+comparators. Matched-region AT2-s contrasts remain too sparse for the planned
+three-donor description.
+
+C3 is adventitial-enriched in eligible original fibroblast comparisons and all
+four eligible single-cell donors in Madissoon et al. The broader Hallmark
+complement set does **not** transfer coherently. Chemokine directions depend on
+assay, donor and cell/nucleus sampling. This motivates a conditional A22/A13
+question about **subtype-specific C3-associated responses**, not an established
+complement mechanism.
+
+</details>
+
+## Data and methods
+
+The fixed-subtype comparison uses the two source donors with sufficient 10x fibroblast coverage. [Atlas sources and anatomical evidence](SOURCE_SYNTHESIS.md) · [Donor comparison](reports/RQ_SEQUENCE_RESULTS.md)
+
+## Interpretation and open questions
+
+Equal subtype weights reduce the *C3* donor ratio from 4.92 to 1.27 in these samples. Determining how much remains within a subtype requires adequate donor and subtype coverage.
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](reports/RQ_SEQUENCE_RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **7 October P09 extension:** [fixed sensory-gene expression and transport](../../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md) is executed. Separate-gene enrichment and assay-sensitive co-detection support proposed [A31](../../RQ_Specified/A31_gria1_fibroblast_response/README.md); acute glutamate response remains unmeasured. [Full package/candidate audit](../../docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md).
 
@@ -41,22 +95,9 @@ refit of original clustering, differential-expression, spatial or species analys
 
 **Broader planning revision, 3 October 2026:** [Nb4-P01–P09](reports/proposals/README.md) cover model transfer, evolutionary redistribution, IPF context, immune tissue association, myeloid identity/state, AT2 heterogeneity, regional epithelium, vascular/mural specialization and fibroblast sensory candidates. These are structured proposals; no new numerical run or A24/A25 assignment is implied.
 
-## Current evidence
+<a id="figure-gallery"></a>
 
-The public matrices contain **75,071 cells**, matching the sum of Supplementary
-Table 2 population rows but differing from the printed 75,066 total. MYRF/AT1
-and TBX5/pericyte contrasts persist across eligible donors and alternative
-comparators. Matched-region AT2-s contrasts remain too sparse for the planned
-three-donor description.
-
-C3 is adventitial-enriched in eligible original fibroblast comparisons and all
-four eligible single-cell donors in Madissoon et al. The broader Hallmark
-complement set does **not** transfer coherently. Chemokine directions depend on
-assay, donor and cell/nucleus sampling. This motivates a conditional A22/A13
-question about **subtype-specific C3-associated responses**, not an established
-complement mechanism.
-
-## Figure gallery
+### Study figures
 
 [Open all 15 figures and captions](FIGURES.md): source coverage, marker dot plots,
 external transfer, depth controls, deposited t-SNE, new stromal UMAP, donor PCA,
@@ -64,7 +105,9 @@ genome-wide agreement, GSEA and GO.
 
 ![Fibroblast transfer across assays and cohorts](figures/publication_v1/03_fibroblast_transfer.png)
 
-## Workflow and ownership
+<a id="workflow-and-ownership"></a>
+
+### Analysis provenance
 
 ```mermaid
 flowchart LR

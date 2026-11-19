@@ -45,7 +45,9 @@ The original Niethamer/D1 lung Treg feasibility gate remains unmet. Current
 concerns paired human compartment-associated RNA and does not demonstrate Treg
 stability, EZH2 function or a missing mediator in this murine study.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 First, a transparent reconstruction that distinguishes averaged displays from
 replicate observations and respects the HET comparator. Then, if inputs permit,
@@ -62,7 +64,9 @@ generate bulk differences. The [plan](ANALYSIS_PLAN.md#purpose-hypothesis-and-st
 states the full tuple and inference boundaries. The source's cross-sectional
 states do not establish temporal order, a stable fate or chromatin mediation.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 A qualified state-specific pattern would narrow the regulation question; a
 state-general difference weakens activation specificity; discordant gene classes

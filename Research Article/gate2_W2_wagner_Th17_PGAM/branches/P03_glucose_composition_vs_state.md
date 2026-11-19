@@ -1,4 +1,8 @@
-# Wp-P03 — Is the low-glucose pathogenicity shift composition or within-state change?
+<a id="wp-p03--is-the-low-glucose-pathogenicity-shift-composition-or-within-state-change"></a>
+
+# Wp-P03 — Cell composition and within-state responses to low glucose
+
+Is the low-glucose pathogenicity shift composition or within-state change?
 
 **Status:** proposed, outcome-exposed. Decomposition of a published aggregate.
 
@@ -16,7 +20,9 @@ the same program shifting its score. If instead the score rises within every
 program, the glucose effect is a within-state change and N1 loss is a consequence
 rather than the mechanism.
 
-## Why this is open in the source
+<a id="why-this-is-open-in-the-source"></a>
+
+## Unresolved source evidence
 
 The paper reports both components but never separates them. The score is higher
 at low glucose (p < 10⁻³³, cell-wise), and that increase is attributed to
@@ -45,7 +51,9 @@ mechanism.
    conditions can absorb the condition effect; a program "restricted to" one
    condition may be a boundary drawn through a continuum.
 
-## What would distinguish them
+<a id="what-would-distinguish-them"></a>
+
+## Discriminating evidence
 
 A decomposition computed on the re-derived single-cell data: total score
 difference between glucose arms split into a between-program (composition) term

@@ -10,7 +10,9 @@ inspection: raw reads are accessible for a separately qualified adapted count
 comparison; exact count/voom provenance and functional supplement acquisition
 remain unresolved. Numerical findings and frozen evidence below are unchanged.
 
-## What this work changed
+<a id="what-this-work-changed"></a>
+
+## Revised interpretation
 
 The released TPM/limma-trend analysis is numerically reproducible. Every field
 of all three 12,708-gene contrast tables agrees with the authors' exports within

@@ -119,7 +119,9 @@ measured here. Source-reported biological replicates remain recorded, while
 individual mouse/preparation identity remains unverified. No human scientific
 retain/reject decision or claim-grade promotion is inferred from completion.
 
-## Final job dispositions
+<a id="final-job-dispositions"></a>
+
+## Analysis status
 
 | Job | Disposition | Evidence or exact unresolved requirement |
 |---|---|---|

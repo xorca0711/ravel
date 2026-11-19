@@ -1,4 +1,6 @@
-# Nb5 execution and validation ledger
+<a id="nb5-execution-and-validation-ledger"></a>
+
+# Nb5 analysis and validation
 
 3 October 2026. This supersedes planning-only status, not frozen outputs.
 Base: fetched `origin/main` `76dc9b47f72e774e51502162b2f8ba9d0dc02f17`.
@@ -213,13 +215,13 @@ claim grades and global RQs remain intact; no remote push or PR was created.
 3 October 2026. The owner requested the sequence from branch observations to
 provisional questions, novelty/access checks, consequential grounding and
 scientific review. The [derivation package](rq_derivation/README.md) now contains
-eight cards, a primary-source/access ledger, grounding decisions and an unfilled
+eight cards, a primary-source/access record, grounding decisions and an unfilled
 scientific review record. No new numerical analysis or plot was executed;
 historical models, tables, figures, contracts and receipts were not changed.
 
 Eight public GEO metadata snapshots and their acquisition manifest are retained
 in ignored raw data. Their bytes and SHA-256 values were verified before writing
-the source ledger. This is source reading, not an independent-cohort analysis or
+the source record. This is source reading, not an independent-cohort analysis or
 a numerical run receipt. A deterministic content check confirms the five required
 derivation sections in all eight cards and each corresponding registry link.
 

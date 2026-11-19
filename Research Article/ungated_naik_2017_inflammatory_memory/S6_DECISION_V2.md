@@ -7,7 +7,9 @@ result. Stage completion and coordinator review are not human claim acceptance.
 The next method/contract below passed coordinator review; no Hamdan gene effect
 has run at this pre-execution checkpoint.
 
-## What has been learned, and what kind of progress this is
+<a id="what-has-been-learned-and-what-kind-of-progress-this-is"></a>
+
+## Principal findings and analytical scope
 
 The organizing question is how inflammatory history changes epithelial response
 after apparent recovery. The completed work remains **exposed shared-source

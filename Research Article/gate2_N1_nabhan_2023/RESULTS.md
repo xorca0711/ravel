@@ -37,7 +37,7 @@ must distinguish general endothelial identity from regeneration-specific action.
 advance the repository sequence from reading to measured observations and
 specified next tests. Exact reproduction still needs source preparation/design
 metadata, original atlas access/version recovery and functional unit-level tables.
-See [execution/replay](EXECUTION.md), [stage ledger](metadata/stage_status.tsv),
+See [execution/replay](EXECUTION.md), [stage record](metadata/stage_status.tsv),
 and [numerical verification](metadata/execution_validation.json).
 # Later paper-local branch execution
 

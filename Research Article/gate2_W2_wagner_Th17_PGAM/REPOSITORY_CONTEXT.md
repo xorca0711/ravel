@@ -18,7 +18,9 @@ Shared guidance read for this pass: `AGENTS.md`, `AI_CONTEXT.md`,
 | **England 2025 (paper 12) and the A16 work** — within-state versus compositional attribution | [Package](../gate2_C2_england_2025/README.md) | The composition-versus-within-state method in [Wp-P03](branches/P03_glucose_composition_vs_state.md) is this project's existing discipline, learned where a marker contrast largely dissolved inside subclusters. The biology does not transfer; the decomposition does |
 | **Nb5 ageing/immune comparison (paper 14 family)** | [Extension completion](../gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md) | Precedent for separating composition from within-state change in an immune compartment with few animals, and for reporting donor- or animal-level limits plainly. CD8 ageing evidence is not Th17 validation |
 
-## What this package deliberately does not do
+<a id="what-this-package-deliberately-does-not-do"></a>
+
+## Analytical scope
 
 - It does not create or renumber a canonical question. The register stays
   A0–A27, and the six Wp candidates are article-local.

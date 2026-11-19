@@ -1,4 +1,6 @@
-# Technical execution handoff
+<a id="technical-execution-handoff"></a>
+
+# Technical analysis requirements
 
 **Current handoff, 8 November 2026:** [Public-data results](PUBLIC_DATA_RESULTS.md)
 own the new A12 cell and Pg1-P01/C3 lattice analyses; [figure gallery](PUBLIC_DATA_FIGURES.md)

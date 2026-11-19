@@ -1,10 +1,90 @@
-# Wagner 2021: Th17 metabolism and autoimmunity
+# Wagner et al. (2021) — Polyamine metabolism and Th17 cell differentiation
 
-## From a metabolic prediction to a T-cell phenotype
+<a id="wagner-2021-th17-metabolism-and-autoimmunity"></a>
 
-Wagner and colleagues used Compass to identify metabolic differences between pathogenic and nonpathogenic mouse Th17 cells. Measurements of polyamine metabolism and perturbations of that pathway connected the predictions to cytokine production and regulatory T-cell gene expression. [Paper, Figs. 4–6](https://doi.org/10.1016/j.cell.2021.05.045)
+<a id="from-a-metabolic-prediction-to-a-t-cell-phenotype"></a>
+
+## Published findings
+
+```text
+Pathogenic and nonpathogenic Th17 cells → RNA-based metabolic predictions
+  └─ Polyamine metabolism → biochemical and perturbation measurements
+       ├─ Changes in effector cytokine production
+       └─ Shift in Th17- and Treg-associated RNA programs
+
+Implication: polyamine metabolism contributes to the balance of T-cell programs.
+```
+
+Biochemical measurements and polyamine-pathway perturbations connected predictions from Compass to cytokine production and T-cell gene expression. [Paper, Figs. 4–6](https://doi.org/10.1016/j.cell.2021.05.045)
+
+<details>
+<summary>Detailed published evidence</summary>
+
+<a id="evidence-logic"></a>
+
+### Experimental basis of the findings
+
+```mermaid
+flowchart LR
+    R[RNA plus metabolic network] --> C[Compass potential-activity scores]
+    C --> Q[Reaction-specific hypotheses]
+    Q --> B[Separate biochemical and perturbation evidence]
+    B --> T[T-cell RNA, chromatin and functional endpoints]
+    T -. proposed transfer requires new evidence .-> L[Lung state and repair questions]
+```
+
+The proposed bridge is that a metabolic feature might distinguish regulatory
+competence within a supported cell state. Its strongest rival is that RNA scores
+track activation, growth, current exposure or population selection. A score
+alone does not choose between these explanations. Independent functional and
+history-linked measurements are missing for the lung bridge.
+
+</details>
+
+## Ravel analyses and results
 
 Ravel revisited the culture RNA. After polyamine synthesis was inhibited with DFMO, the Th17 gene program shifted lower and the Treg program higher in two source experiments, including in the JMJD3-deficient condition. Whether individual cells acquired stable suppressive function remains open. [Animal-blocked RNA comparisons](MODEL_RESULTS.md)
+
+## Data and methods
+
+Ravel compared DFMO-treated and control cultures in two deposited mouse RNA series with animal-blocked models. [Experimental design and fitted contrasts](MODEL_RESULTS.md)
+
+## Interpretation and open questions
+
+The Th17-associated RNA program decreased and the Treg-associated program increased. Individual-cell conversion and lasting suppressive capacity require separate measurements.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="current-decision"></a>
+
+### Current interpretation
+
+The executed evidence and all six branch dispositions are organized in the
+[pre-RQ report](PRE_RQ_EVIDENCE.md). Stop before deriving new questions. Exact
+manuscript concordance and held assay stages require the specified missing
+sources or runtime; all branches remain available without ranking or acceptance.
+
+Published figures, notes and tutorial outputs have already been viewed. Future
+reanalysis is outcome-exposed. The first [frozen metadata contract](config/source_qualification_v1.json)
+and [verified result](RESULTS.md) establish exact source membership. Later stages
+require their own frozen code, input hashes, methods and qualified environment. [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
+[literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md) govern execution.
+No global A identifier, claim grade, laboratory protocol or owner retain/reject
+decision is created here. Private PI/placement planning remains outside Git.
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](DATASETS.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](MODEL_RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
 
 **Later Wg-P06 context — 3 November 2026:** the [Yadav source/extension package](../gate2_W3_yadav_2025/README.md)
 and [three-plan follow-up workspace](../../RQ_Specified/Yadav_followups_20261031/README.md)
@@ -48,7 +128,9 @@ especially the possible metabolism/chromatin/cell-identity connection. The
 source supports that argument in its T-cell systems; applying it to lung
 epithelial transitions requires a separately qualified comparison.
 
-## Read the package
+<a id="read-the-package"></a>
+
+### Study overview and references
 
 | Document | Purpose |
 |---|---|
@@ -63,38 +145,8 @@ epithelial transitions requires a separately qualified comparison.
 | [Literature context](LITERATURE_CONTEXT.md) | Precedents, contrary evidence and bounded search log |
 | [Validation](VALIDATION.md) | Actual checks and outstanding limits |
 
-## Evidence logic
+<a id="additional-display-archive"></a>
 
-```mermaid
-flowchart LR
-    R[RNA plus metabolic network] --> C[Compass potential-activity scores]
-    C --> Q[Reaction-specific hypotheses]
-    Q --> B[Separate biochemical and perturbation evidence]
-    B --> T[T-cell RNA, chromatin and functional endpoints]
-    T -. proposed transfer requires new evidence .-> L[Lung state and repair questions]
-```
-
-The proposed bridge is that a metabolic feature might distinguish regulatory
-competence within a supported cell state. Its strongest rival is that RNA scores
-track activation, growth, current exposure or population selection. A score
-alone does not choose between these explanations. Independent functional and
-history-linked measurements are missing for the lung bridge.
-
-## Current decision
-
-The executed evidence and all six branch dispositions are organized in the
-[pre-RQ report](PRE_RQ_EVIDENCE.md). Stop before deriving new questions. Exact
-manuscript concordance and held assay stages require the specified missing
-sources or runtime; all branches remain available without ranking or acceptance.
-
-Published figures, notes and tutorial outputs have already been viewed. Future
-reanalysis is outcome-exposed. The first [frozen metadata contract](config/source_qualification_v1.json)
-and [verified result](RESULTS.md) establish exact source membership. Later stages
-require their own frozen code, input hashes, methods and qualified environment. [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
-[literature workflow](../../docs/governance/LITERATURE_WORKFLOW.md) govern execution.
-No global A identifier, claim grade, laboratory protocol or owner retain/reject
-decision is created here. Private PI/placement planning remains outside Git.
-
-## Additional display archive
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

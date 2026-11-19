@@ -11,7 +11,9 @@ Dp1-P01 remains article-local. The owner requested a fresh screen from DuPage
 hypothesis-generation, literature-review and academic-plotting skills informed
 the rationale, source checks and figures. None grants scientific acceptance.
 
-## What the analysis now says
+<a id="what-the-analysis-now-says"></a>
+
+## Interpretation of the analysis
 
 The [completed S0–S6 reconstruction](RESULTS.md) remains mixed: activation-state
 differences depend appreciably on the retained libraries, and external chromatin

@@ -11,7 +11,9 @@ a labelled cell. Here **wild-type (WT)** means the neighbouring population
 without induced oncogenic Kras. Losing an AT2 marker does not by itself mean
 that a cell has become a functional AT1 cell.
 
-## Which questions are biological, and which began as technical checks?
+<a id="which-questions-are-biological-and-which-began-as-technical-checks"></a>
+
+## Biological questions and technical assessments
 
 “Technical” describes what the original analysis could establish; it does not
 mean the observed biology has been proved to be an artefact. For example, a
@@ -35,7 +37,11 @@ measurable. The [source audit](../../docs/audits/2026-09-28-england-paper-rqs/RE
 contains the claim-by-claim assessment and the corrections to A16–A18.
 
 <a id="e-n1"></a>
-## E-N1. Is loss of AT2 identity widespread across clones?
+<a id="e-n1-is-loss-of-at2-identity-widespread-across-clones"></a>
+
+## E-N1 — Distribution of AT2 identity loss across clones
+
+Is loss of AT2 identity widespread across clones?
 
 **Hypothesis.** Many clones acquire cells with reduced AT2 identity, including
 clones that remain small. Expansion of a few large, altered clones accounts for
@@ -60,7 +66,11 @@ prove mature AT1 function. This extends A8/A17/A18 rather than introducing a
 new cell type.
 
 <a id="e-n2"></a>
-## E-N2. Does a larger mutant burden evoke a stronger WT response?
+<a id="e-n2-does-a-larger-mutant-burden-evoke-a-stronger-wt-response"></a>
+
+## E-N2 — Wild-type response across mutant burdens
+
+Does a larger mutant burden evoke a stronger WT response?
 
 **Hypothesis.** Within the same disease stage, lungs with more mutant cells have
 greater WT AT2 expansion and more WT cells losing AT2 identity.
@@ -81,7 +91,11 @@ support an elaborate adjustment model. A positive association would not show
 whether WT expansion helps or restrains tumour growth. This belongs under A18.
 
 <a id="e-n3"></a>
-## E-N3. Does survival help determine which mutant lineages dominate?
+<a id="e-n3-does-survival-help-determine-which-mutant-lineages-dominate"></a>
+
+## E-N3 — Survival and representation of mutant lineages
+
+Does survival help determine which mutant lineages dominate?
 
 **Hypothesis.** Preferential survival of some mutant lineages contributes to
 their later dominance, alongside differences in cell division.
@@ -104,7 +118,11 @@ selective survival from repeated cross-sectional samples. The denominator
 correction is a technical result and does not deserve its own biological RQ.
 
 <a id="e-n4"></a>
-## E-N4. Do mutant cells coordinate several signals to their neighbours?
+<a id="e-n4-do-mutant-cells-coordinate-several-signals-to-their-neighbours"></a>
+
+## E-N4 — Coordination of signals from mutant cells to neighboring cells
+
+Do mutant cells coordinate several signals to their neighbours?
 
 **Hypothesis.** Some mutant epithelial states coordinate multiple signalling
 outputs, creating a distinct capacity to change neighbouring cells.
@@ -124,7 +142,11 @@ those remain necessary for the biological mechanism. This extends
 A2/A9/A11/A12, with the expression check serving as a screening step.
 
 <a id="e-n5"></a>
-## E-N5. Which part of AT1 maturation remains incomplete in mutant cells?
+<a id="e-n5-which-part-of-at1-maturation-remains-incomplete-in-mutant-cells"></a>
+
+## E-N5 — Incomplete AT1 maturation in mutant cells
+
+Which part of AT1 maturation remains incomplete in mutant cells?
 
 **Hypothesis.** Mutant hybrid cells activate early AT1-associated features but
 fail to acquire a late maturation programme found during productive repair.
@@ -146,7 +168,11 @@ pilot. Keep the biology in A1/A8 and the classifier as supporting work; do not
 turn a new cell label into a new biological finding.
 
 <a id="e-n6"></a>
-## E-N6. Does p53 loss make particular plastic states more competitive?
+<a id="e-n6-does-p53-loss-make-particular-plastic-states-more-competitive"></a>
+
+## E-N6 — p53 loss and the relative fitness of plastic states
+
+Does p53 loss make particular plastic states more competitive?
 
 **Hypothesis.** Additional loss of p53 gives particular plastic epithelial states
 a lasting growth advantage, changing the broadly comparable proliferative
@@ -167,7 +193,11 @@ lineage-linked growth outcomes are needed for the full hypothesis. A16's
 marker-transfer test addresses only a small part of this question.
 
 <a id="e-n7"></a>
-## E-N7. Why does the normal NF-kB shutoff programme fail in mutant cells?
+<a id="e-n7-why-does-the-normal-nf-kb-shutoff-programme-fail-in-mutant-cells"></a>
+
+## E-N7 — Termination of NF-κB signaling in mutant cells
+
+Why does the normal NF-kB shutoff programme fail in mutant cells?
 
 **Hypothesis.** Mutant reprogramming impairs induction of the normal feedback
 programme that reduces NF-kB activity as cells mature.
@@ -189,7 +219,11 @@ distinguish mechanisms. This belongs with A1/A12/A14; marker changes after
 inhibition are not evidence of durable functional repair in vivo.
 
 <a id="e-n8"></a>
-## E-N8. Do SPP1 and DLK1 interfere with each other's WT growth response?
+<a id="e-n8-do-spp1-and-dlk1-interfere-with-each-others-wt-growth-response"></a>
+
+## E-N8 — Interactions between SPP1 and DLK1 in wild-type growth responses
+
+Do SPP1 and DLK1 interfere with each other's WT growth response?
 
 **Hypothesis.** SPP1 and DLK1 activate recipient responses that interfere when
 both are present, reducing WT expansion relative to either signal alone.

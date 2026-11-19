@@ -1,12 +1,93 @@
-# Nabhan 2018: Wnt niche biology and public-data analysis
+# Nabhan et al. (2018) — Local Wnt signaling and alveolar stem-cell identity
 
-## A niche the size of a neighboring cell
+<a id="nabhan-2018-wnt-niche-biology-and-public-data-analysis"></a>
 
-In intact mouse alveoli, Nabhan and colleagues imaged individual Wnt-expressing fibroblasts touching or lying close to Axin2-positive AT2 stem cells. Their perturbations linked local Wnt signaling to maintenance of AT2 identity. [Paper, Fig. 2g–l and Fig. 5i](https://doi.org/10.1126/science.aam6603)
+<a id="a-niche-the-size-of-a-neighboring-cell"></a>
 
-Ravel revisited the 47 deposited mesenchymal cells. Among cells expressing Wnt5a, the fraction also expressing Pdgfra ranged from 72% to 90% as the detection threshold changed. The overlap is reproducible in this sample. Its exact frequency depends on the cutoff, and the cells’ original neighbors can only be identified in the imaging. [Source expression and threshold comparison](source_reproduction/README.md)
+## Published findings
 
-## Read this study
+```text
+Homeostatic alveolus
+  Wnt-expressing fibroblast ── short-range Wnt ── Axin2-positive AT2 cell
+                                                   └─ maintenance of stem identity
+  Daughter outside the niche → AT1 differentiation
+
+Implication: physical position limits which alveolar cells receive the niche signal.
+```
+
+Imaging placed Wnt-expressing fibroblasts beside Axin2-positive AT2 cells. Wnt perturbations tested whether continued signaling was required for AT2 identity. [Paper, Fig. 2g–l and Fig. 5i](https://doi.org/10.1126/science.aam6603)
+
+## Ravel analyses and results
+
+Ravel revisited the 47 deposited mesenchymal cells. Among cells expressing Wnt5a, the fraction also expressing Pdgfra ranged from 72% to 90% as the detection threshold changed. The overlap is reproducible in this sample. Its exact frequency depends on the cutoff, and identifying their original neighbors requires the imaging. [Source expression and threshold comparison](source_reproduction/README.md)
+
+## Data and methods
+
+The source matrix contains 47 mouse mesenchymal cells. Co-detection of Wnt5a and Pdgfra was recalculated across four expression cutoffs. [Source reconstruction](source_reproduction/README.md)
+
+## Interpretation and open questions
+
+Marker overlap identifies candidate source cells. Spatial evidence is needed to tell which AT2 cell each fibroblast contacts and whether another Wnt ligand contributes.
+
+<details>
+<summary>Interpretation and related questions</summary>
+
+<a id="findings-that-motivate-research-questions"></a>
+
+### Evidence underlying the research questions
+
+- **Source heterogeneity:** Wnt2 is higher in AF1 and Wnt4 in AF2 in all 21
+  eligible within-animal pairs, including the equal-depth detection sensitivity.
+  Wnt5a spans multiple fibroblast populations. A useful follow-up asks whether
+  these source profiles correspond to distinct spatially resolved AT2 niches,
+  rather than treating Wnt5a as a unique niche-cell identity.
+- **Source versus induction:** Wnt7b is detected in baseline and injured AT2
+  samples. The available viral time course begins at day 6 and cannot test the
+  rapid epithelial response in the paper. An acute, replicated source/response
+  time course is required to ask whether injury changes production.
+- **Response versus cell state:** Axin2 is detected more consistently than
+  Lef1; an averaged two-gene summary is not a validated pathway assay. The
+  animal-level plots motivate a test of Wnt response, identity and cycling as
+  distinct measurements, followed by a functional readout.
+
+<a id="limits-that-remain-open"></a>
+
+### Inference limits
+
+The 47 source cells are not 47 established animal replicates. Pdgfra
+co-detection among Wnt5a-positive cells ranges from 72.2% to 90.3% across fixed
+FPKM thresholds; unspecified original filtering prevents exact reproduction.
+Sftpc is detected at FPKM >=1 in 46/47 deposited mesenchymal cells, leaving an
+unresolved transcript-carryover or identity question. This observation alone
+does not establish doublets or justify relabeling the cells.
+
+Local Nb1 sampling cannot support the proposed baseline/day-11 AT2 test.
+The independent candidate has four saline and four bleomycin libraries, but
+libraries have not yet been verified as independent animals and author cell
+labels are absent from the deposit. Its 13,673 deposited cells cannot be
+substituted for an eligible animal-by-compartment table.
+
+The next bounded step is to resolve those provenance and annotation gates,
+then freeze an animal-level contrast before examining external Wnt effects.
+Failure of either gate leaves the inferential comparison on hold. No new
+validated C-series claim is introduced by these descriptive analyses.
+
+The questions also appear in [Research questions, A4](../../RESEARCH_QUESTIONS.md#a4-how-do-current-wnt-activity-and-il-1-responsiveness-overlap-in-at2-cells).
+
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](nb1/PROTOCOL.md) |
+| Computational methods | [Analysis code](nb1/run_nb1.py) |
+| Results | [Study results](source_reproduction/README.md) |
+| Figures | [Figures and captions](#figure-gallery) |
+
+<a id="read-this-study"></a>
+
+### Study overview and references
 
 | To understand | Read |
 |---|---|
@@ -34,30 +115,16 @@ identity and proliferation. See [Nabhan et al., *Science*, 2018](https://doi.org
 | 3. Describe Wnt source, response and epithelial state | Completed; paired fibroblast profiles and animal-level AT2 figures; no local injury-effect inference | [Nb1 report](nb1/README.md) and [protocol](nb1/PROTOCOL.md) |
 | 4. Screen an independent injury cohort | Eight GSE129605 samples acquired and checked; expression test HOLD pending animal provenance, annotations and compartment coverage | [External feasibility report](external_feasibility/README.md) |
 
-## Findings that motivate research questions
+<a id="figure-gallery"></a>
 
-- **Source heterogeneity:** Wnt2 is higher in AF1 and Wnt4 in AF2 in all 21
-  eligible within-animal pairs, including the equal-depth detection sensitivity.
-  Wnt5a spans multiple fibroblast populations. A useful follow-up asks whether
-  these source profiles correspond to distinct spatially resolved AT2 niches,
-  rather than treating Wnt5a as a unique niche-cell identity.
-- **Source versus induction:** Wnt7b is detected in baseline and injured AT2
-  samples. The available viral time course begins at day 6 and cannot test the
-  rapid epithelial response in the paper. An acute, replicated source/response
-  time course is required to ask whether injury changes production.
-- **Response versus cell state:** Axin2 is detected more consistently than
-  Lef1; an averaged two-gene summary is not a validated pathway assay. The
-  animal-level plots motivate a test of Wnt response, identity and cycling as
-  distinct measurements, followed by a functional readout.
-
-## Figure gallery
+### Study figures
 
 All seven figures generated for this analysis are shown below, with vector
 versions for export. They summarize expression, detection and sample coverage;
 no gene-set enrichment analysis was run. Source FPKM and viral-injury UMI data
 remain separate measurements.
 
-### Source expression and threshold sensitivity
+#### Source expression and threshold sensitivity
 
 ![Source expression heatmap for 47 deposited mesenchymal cells](source_reproduction/figures/source_expression_panel.png)
 
@@ -72,7 +139,7 @@ Wnt5a-positive cells. The exact published 74% remains unresolved.
 [Vector SVG](source_reproduction/figures/detection_sensitivity.svg);
 [source tables and methods](source_reproduction/README.md#reproduction-and-evidence).*
 
-### Animal and compartment coverage
+#### Animal and compartment coverage
 
 ![Nb1 cell counts by animal and deposited compartment](nb1/figures/01_animal_coverage.png)
 
@@ -80,7 +147,7 @@ Wnt5a-positive cells. The exact published 74% remains unresolved.
 only one eligible AT2 animal. [Vector SVG](nb1/figures/01_animal_coverage.svg);
 [coverage table](nb1/tables/animal_compartment_coverage.csv).*
 
-### Wnt source and response across compartments
+#### Wnt source and response across compartments
 
 ![Nb1 expression and depth-standardized detection heatmaps](nb1/figures/02_source_response.png)
 
@@ -98,7 +165,7 @@ This comparison does not establish proximity, secretion or an injury effect.
 [Vector SVG](nb1/figures/05_fibroblast_pairs.svg);
 [paired measurements](nb1/tables/paired_fibroblast_ligands.csv).*
 
-### AT2 source, response, identity and proliferation
+#### AT2 source, response, identity and proliferation
 
 ![Individual-animal AT2 Wnt source and response transcripts](nb1/figures/03_at2_per_animal.png)
 
@@ -116,28 +183,8 @@ measurements without establishing biological independence.
 [Vector SVG](nb1/figures/04_at2_dimensions.svg);
 [animal marker summaries](nb1/tables/animal_marker_summaries.csv).*
 
-## Limits that remain open
+<a id="question-literature-and-visual-companions"></a>
 
-The 47 source cells are not 47 established animal replicates. Pdgfra
-co-detection among Wnt5a-positive cells ranges from 72.2% to 90.3% across fixed
-FPKM thresholds; unspecified original filtering prevents exact reproduction.
-Sftpc is detected at FPKM >=1 in 46/47 deposited mesenchymal cells, leaving an
-unresolved transcript-carryover or identity question. This observation alone
-does not establish doublets or justify relabeling the cells.
-
-Local Nb1 sampling cannot support the proposed baseline/day-11 AT2 test.
-The independent candidate has four saline and four bleomycin libraries, but
-libraries have not yet been verified as independent animals and author cell
-labels are absent from the deposit. Its 13,673 deposited cells cannot be
-substituted for an eligible animal-by-compartment table.
-
-The next bounded step is to resolve those provenance and annotation gates,
-then freeze an animal-level contrast before examining external Wnt effects.
-Failure of either gate leaves the inferential comparison on hold. No new
-validated C-series claim is introduced by these descriptive analyses.
-
-The questions also appear in [Research questions, A4](../../RESEARCH_QUESTIONS.md#a4-how-do-current-wnt-activity-and-il-1-responsiveness-overlap-in-at2-cells).
-
-## Question literature and visual companions
+### Related literature and hypotheses
 
 - [A4: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A4.md)

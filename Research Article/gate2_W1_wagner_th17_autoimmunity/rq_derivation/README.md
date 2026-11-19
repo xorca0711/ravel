@@ -59,7 +59,9 @@ specifications**, not features or mechanisms discovered in the local T-cell data
 P06's compensation prediction is an inference joining published premises, not
 an established finding. Its detailed card explicitly allows no compensation.
 
-## How the proposals follow from evidence
+<a id="how-the-proposals-follow-from-evidence"></a>
+
+## Evidence underlying the proposed questions
 
 The numerical [R1](../SOURCE_SCORE_RESULTS.md) and [R3](../MODEL_RESULTS.md)
 results are unchanged. R1 exposes representation differences; R3 establishes
@@ -67,7 +69,7 @@ relative bulk RNA responses with substantial program-definition sensitivity.
 Neither measures tracked conversion, drug-free suppressive function, linked
 RNA/protein kinetics, epithelial repair or intercellular substrate transfer.
 
-The [source and grounding ledger](SOURCES_AND_GROUNDING.md) records the exact
+The [source and grounding record](SOURCES_AND_GROUNDING.md) records the exact
 comparison searches, targeted primary readings, additional Carriche and Lee
 precedents, access limits and why more RNA fitting would not answer the proposed
 functional questions. E1/E2/E3 from the prior review remain optional, separately
@@ -96,7 +98,9 @@ hypothesis/rival/readout schematics. The merged context template permits this
 explicit pending status. Canonical promotion would require the applicable
 versioned guide and registry reconciliation; no such promotion is claimed here.
 
-## What is complete and what remains
+<a id="what-is-complete-and-what-remains"></a>
+
+## Completed analyses and remaining comparisons
 
 - Drafted: six derivation cards with question, biological unit, endpoint,
   strongest rival, informative favorable/unfavorable outcomes, precedent and

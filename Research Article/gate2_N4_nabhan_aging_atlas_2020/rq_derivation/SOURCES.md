@@ -7,7 +7,9 @@ bladder epithelial/stromal ageing, CD8 clonality, normal lung ageing and
 cross-organ temporal programmes. Statements below distinguish published
 evidence, deposited designs and our proposed interpretation.
 
-## What the prior work changes
+<a id="what-the-prior-work-changes"></a>
+
+## Interpretive implications of prior work
 
 | Primary source | Established precedent | Consequence for these proposals |
 |---|---|---|

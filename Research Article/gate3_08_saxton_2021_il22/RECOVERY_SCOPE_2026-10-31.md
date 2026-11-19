@@ -47,7 +47,7 @@ treatment results. There are no saved R2/R3 treatment estimates to review.
    a candidate source actually supplies. No receptor-response scoring, new
    treatment models, dose-response fitting, variant ranking, functional-effect
    estimation, target prioritization or molecular design is part of this recovery.
-4. Produce a results/hold ledger and gallery index of the existing metadata/QC
+4. Produce a results/hold record and gallery index of the existing metadata/QC
    evidence. A clearly labeled metadata/QC visualization from frozen summaries is
    permissible with the repository's rendering provenance; it must not imply
    treatment effects or biological validation. Do not manufacture biological

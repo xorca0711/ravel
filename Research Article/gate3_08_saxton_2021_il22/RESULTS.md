@@ -8,7 +8,9 @@ of article-local **Sx22-P01**, governed by [RECOVERY_SCOPE](RECOVERY_SCOPE_2026-
 [E1/E2 source feasibility](SOURCE_FEASIBILITY.md) · [Evidence index](FIGURES.md) ·
 [Checks and handoff](VALIDATION.md).
 
-## What was verified
+<a id="what-was-verified"></a>
+
+## Verification results
 
 The immutable R1 metadata/QC run at `ff09fab3fb37fd4bf915845e5cd59effaa386210`
 passes independent input/code/output hashing, format, dimensions, annotation,
@@ -53,6 +55,6 @@ Existing A14/A19 linkage holds remain specific to their documented questions.
 R0/R1 and the permitted source portions of R4/R5/E1/E2 are reviewed. R2/R3 have a
 **platform-policy execution hold**, despite recovered counts. R4/R5 numerical work
 also retains raw-value, replicate/nesting and panel-identity qualifications.
-D1's results, evidence index and complete disposition ledger are delivered for the
+D1's results, evidence index and complete disposition record are delivered for the
 originating chat's independent review. No canonical RQ, hypothesis, claim grade,
 human acceptance, governance rule or external setting is changed.

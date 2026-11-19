@@ -35,7 +35,9 @@ signature of renormalisation against a fixed total. But the whole excursion
 spans about 0.13 log₂ units, so the confound sets the scale a programme must
 beat — not a reason to abandon the question.
 
-## What exceeds the expression-matched null
+<a id="what-exceeds-the-expression-matched-null"></a>
+
+## Signals above the expression-matched null
 
 Th17n EGCG, division-1 gate. Centred median log₂ fold change per programme,
 with the 95 % interval of 1,000 random sets matched on size **and** expression
@@ -88,7 +90,9 @@ sequencing timepoint. But the stress arm now has no supporting evidence in this
 deposit and one line against it, which is a stronger position than the
 "unverified premise" it previously held.
 
-## Where the serine arm sits
+<a id="where-the-serine-arm-sits"></a>
+
+## Position of the serine branch
 
 Serine and one-carbon genes fall beyond their expression-matched null (−0.30,
 p = 0.001) — and are also one of the two highest-expressed sets tested (median

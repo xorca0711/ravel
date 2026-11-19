@@ -1,4 +1,6 @@
-# E1/E2 source-only feasibility closeout
+<a id="e1e2-source-only-feasibility-closeout"></a>
+
+# E1 and E2 assessment of source availability
 
 **Later source qualification, 31 October 2026:** the
 [X3 follow-up](extensions_20261031/X3_SOURCE_LINKAGE.md) now inspects the companion

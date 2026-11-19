@@ -50,7 +50,7 @@ flowchart TD
     Q --> F[Separate functional or longitudinal study if required]
 ```
 
-1. **S0 — qualify sources and novelty.** Use the [source ledger](SOURCES.md).
+1. **S0 — qualify sources and novelty.** Use the [source record](SOURCES.md).
    Record accession/release/hash, layer semantics, gene identifiers, individual
    and pool IDs, anatomy, assay, disease definition, prior exposure and study
    overlap. Inspect original publications, supplements and newer direct tests

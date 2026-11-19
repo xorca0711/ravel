@@ -14,7 +14,7 @@ A-series RQ, a discovery of the STAT6–PPARγ pathway, or a claim of novelty.
 The [article figure gallery](../../gate2_DY1_damani_yokota_2026/FIGURES.md) links the reference, synthetic,
 representation, cofactor and human-sensitivity figures to their frozen data.
 Its four new presentation plates change display only; the completion and hold
-ledger below remains the authority for eligible analysis.
+record below remains the authority for eligible analysis.
 
 ## Research question
 
@@ -118,7 +118,9 @@ linked NAM RNA, occupancy, enzyme activity and functional-outcome measurements f
 mediation. Published functional observations are retained; an unlinked molecular
 association cannot establish the STAT6-EGR2-PPARgamma/RXRA-ARG1 causal chain.
 
-## What the completed extensions show
+<a id="what-the-completed-extensions-show"></a>
+
+## Results of the extension analyses
 
 The [reviewed separate A3 RNA-context result, 4 November 2026](../../../RQ_Specified/A3_macrophage_injury_history/reports/RNA_CONTEXT_DISPLAY_V1_RESULTS.md) adds six source libraries for the same fixed five regulator transcripts and separate Arg1. Egr2/Irf4 show induced and above-control post-IL4 RNA, with lower post than initial values; Pparg post values lie within the source-control range, Stat6 remains lower and Rxra supplies distinct post context. Arg1 is far lower post than initially but remains above its low control values. This narrows an RNA-context nomination without making the full panel a uniform activated programme.
 
@@ -159,7 +161,9 @@ subseries was not substituted for cultured memory RNA. The
 [temporal input assessment](../../gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md) and
 [temporal literature review](../../gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md) retain exact qualifications.
 
-## What the possible outcomes would teach
+<a id="what-the-possible-outcomes-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 | Outcome | Interpretation |
 |---|---|

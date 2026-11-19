@@ -12,7 +12,9 @@ read. The branch card requires the inclusion rule to be written before any
 candidate is opened, so the rule is in the entrypoint docstring and in the
 contract, and the screen defers rather than passes.
 
-## What it would test
+<a id="what-it-would-test"></a>
+
+## Proposed comparison
 
 [Wp-R1](R1_RESULTS.md)'s strongest reproduced finding — the pro-regulatory arm
 falls at low glucose, 4 of 4 animal-paired comparisons — rests on **two mice**.
@@ -68,7 +70,9 @@ GSE166430 is the one whose title states a nutrient contrast in the polarised
 population directly. It is a six-sample microarray series, so R3 and R4 decide
 it, and neither is decidable from the summary.
 
-## What this settles
+<a id="what-this-settles"></a>
+
+## Resolved comparisons
 
 The route is **open but not yet usable**. Before any external comparison,
 a successor contract must inspect the records of the named candidates against

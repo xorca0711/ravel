@@ -1,39 +1,31 @@
-# Zhang 2026: local Treg control of tumor NK responses
+# Zhang et al. (2026) — Local Treg control of tumour NK-cell responses
 
-## Organizing biological question
+<a id="zhang-2026-local-treg-control-of-tumor-nk-responses"></a>
 
-How does local Treg depletion change NK cells in a tumour? Zhang and colleagues linked the NK response to conventional type 2 dendritic cells, CD4 T cells and IL-2. Their RNA experiment compared NK cells after local Treg depletion with controls and asked what changed when CD4 cells were depleted as well. [Paper, Fig. 3 and Figs. 6–7](https://doi.org/10.1126/sciimmunol.adx4411)
+<a id="organizing-biological-question"></a>
+
+## Published findings
+
+```text
+Intratumoral Tregs → local regulation of cDC2 and CD4 T-cell responses
+  └─ Treg depletion → CD4- and IL-2-associated NK response
+       └─ Concurrent CD4 depletion → attenuation of the observed NK RNA response
+
+Implication: NK activity in the tumour depends on the surrounding immune-cell circuit.
+```
+
+The authors compared intratumoral Treg depletion with the combined depletion of Tregs and CD4 cells. Their NK RNA profiles and separate functional measurements addressed different links in the proposed circuit. [Paper, Fig. 3 and Figs. 6–7](https://doi.org/10.1126/sciimmunol.adx4411)
+
+## Ravel analyses and results
 
 Ravel reproduced the authors’ differential-expression results from nine pooled NK libraries. At 5% FDR, 87 genes differed after Treg depletion versus control. With both Tregs and CD4 cells depleted, one gene differed from control. These comparisons establish how closely the released RNA analysis can be reconstructed. Direct evidence about NK-mediated tumour killing comes from separate experiments. [RNA results and block sensitivity](RESULTS.md)
 
-**Completed 10 November 2026:** source qualification, released RNA reproduction,
-pathway enrichment, block/ranking sensitivity and source-grounded biological
-synthesis. **Zh26-P01** remains article-local, stable paper **11**, Gate **3B**.
-The owner reports reading complete. Count-model and numerical functional
-reconstruction remain unfinished; no new target-discovery screen or canonical
-RQ was created.
+<details>
+<summary>Additional analysis results</summary>
 
-[Current results](RESULTS.md) · [Figure guide](FIGURES.md) ·
-[Biological interpretation and access](INTERPRETATION_AND_ACCESS_V1.md) ·
-[Literature context](LITERATURE_CONTEXT.md) · [Validation](VALIDATION.md)
+<a id="screening-and-analyses-performed"></a>
 
-## Data and comparisons actually analyzed
-
-The qualified input is **GSE287581**, matching author-code commit
-`61ac9a440ba3f9db754ff8b8ad5008b450e647c0`: **32,621 genes × nine pooled NK
-libraries**, with PBS, intratumoral Treg depletion (**ITDT**) and ITDT plus
-anti-CD4 (**ITDT+aCD4**) represented in each of three experimental blocks.
-The two main contrasts are **ITDT − PBS** and **ITDT+aCD4 − ITDT**; the released
-**ITDT+aCD4 − PBS** contrast was also reproduced.
-
-The unit is a sorted pooled preparation/library, not an identified mouse.
-Constituent animal IDs, exact pool membership and cross-assay animal reuse are
-unknown. The endpoint is transcript abundance. NK-state composition, selection
-and within-state regulation remain possible explanations of bulk differences.
-The main contrasts share ITDT samples; opposite signs do not constitute
-independent replication, rescue or mediation.
-
-## Screening and analyses performed
+### Transcriptomic analyses
 
 The executed work comprises input/feature qualification, reconstruction of the
 authors' gene and pathway results, and bounded sensitivity checks. Gene panels
@@ -68,71 +60,43 @@ These counts reproduce source-model conventions; they are not newly validated
 population discoveries. The near-null anti-CD4+ITDT versus PBS comparison does
 not establish equivalence.
 
-## Measured figures
+</details>
 
-### 1. Released RNA contrasts
+## Data and methods
 
-![Three released RNA contrasts](../../analysis/research/runs/zh26_s1_reproduction_v1/contrasts.png)
+The source contains nine pooled NK libraries across three experimental blocks. Ravel reconstructed all released RNA contrasts and examined sensitivity to block omission. [Results and design](RESULTS.md)
 
-Many source-selected transcripts increase after ITDT and decrease when CD4
-cells are also depleted. Panels have different y-scales; two labels overlap in
-the middle panel. Exact values are in the three tables above.
-[Methods and numerical checks](RESULTS.md#s1-numerical-fidelity-and-diagnostics).
+<details>
+<summary>Experimental and computational methods</summary>
 
-### 2. Library and experimental-block diagnostics
+<a id="data-and-comparisons-actually-analyzed"></a>
 
-![PCA and per-library distributions](../../analysis/research/runs/zh26_s1_reproduction_v1/diagnostics.png)
+### Source data and comparisons
 
-The source PCA centers and scales retained log-transformed genes. It displays
-ITDT separation alongside substantial library/block heterogeneity. This is
-descriptive evidence, not a treatment test or a reason to discard a sample.
-[PCA scores](../../analysis/research/runs/zh26_s1_reproduction_v1/pca_scores.csv).
+The qualified input is **GSE287581**, matching author-code commit
+`61ac9a440ba3f9db754ff8b8ad5008b450e647c0`: **32,621 genes × nine pooled NK
+libraries**, with PBS, intratumoral Treg depletion (**ITDT**) and ITDT plus
+anti-CD4 (**ITDT+aCD4**) represented in each of three experimental blocks.
+The two main contrasts are **ITDT − PBS** and **ITDT+aCD4 − ITDT**; the released
+**ITDT+aCD4 − PBS** contrast was also reproduced.
 
-### 3. Fixed source gene panels
+The unit is a sorted pooled preparation/library, not an identified mouse.
+Constituent animal IDs, exact pool membership and cross-assay animal reuse are
+unknown. The endpoint is transcript abundance. NK-state composition, selection
+and within-state regulation remain possible explanations of bulk differences.
+The main contrasts share ITDT samples; opposite signs do not constitute
+independent replication, rescue or mediation.
 
-![Activation, cytotoxic-cargo, checkpoint and metabolic RNA panels](../../analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.png)
+</details>
 
-Group means and all individual libraries show activation-associated,
-cytotoxic-cargo, checkpoint and selected metabolic transcripts. Gene-wise
-scaling prevents cross-gene abundance comparisons. Checkpoint RNA does not
-establish exhaustion; metabolic RNA does not measure flux.
-[Panel data](../../analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.csv).
+## Interpretation and open questions
 
-### 4. Released pathway enrichment
+The sequenced unit is a pooled preparation. Bulk NK RNA cannot distinguish altered NK-state representation from regulation within a state or measure killing per cell.
 
-![Source-selected transcript-set enrichment](../../analysis/research/runs/zh26_s2_enrichment_v2/enrichment.png)
+<details>
+<summary>Interpretation and related questions</summary>
 
-IL2/STAT5, TNF/NF-kappaB and IFN-gamma transcript sets have positive enrichment
-for ITDT−PBS and negative enrichment for ITDT+aCD4−ITDT. The second IFN-gamma
-BH value of 0.1201 is retained. These scores measure ranked transcript-set
-association, not cytokine secretion or pathway activity.
-[ITDT−PBS results](../../analysis/research/runs/zh26_s2_enrichment_v2/gsea_itdt_vs_pbs.csv) ·
-[ITDT+aCD4−ITDT results](../../analysis/research/runs/zh26_s2_enrichment_v2/gsea_itdt_acd4_vs_itdt.csv).
-
-### 5. Omit-one-block sensitivity
-
-![Fixed-panel effects after each experimental-block omission](../../analysis/research/runs/zh26_s3_block_v2/block_stability.png)
-
-The selected directions survive each omission, while their magnitudes vary.
-Each refit has six libraries, two blocks and two residual degrees of freedom.
-Connecting ranges show diagnostic refits, not confidence intervals.
-[All refit coefficients](../../analysis/research/runs/zh26_s3_block_v2/leave_one_block_out.csv).
-
-### 6. Ranking sensitivity
-
-![LogFC versus moderated-t enrichment ranking](../../analysis/research/runs/zh26_s3_ranking_v1/ranking_sensitivity.png)
-
-The displayed sets retain direction while enrichment weights and significance
-change. Each curve has its own gene order; the same x position need not mean
-the same gene. The IFN-gamma second contrast illustrates why directionally
-consistent evidence can still have a method-dependent significance label.
-[Ranking comparison](../../analysis/research/runs/zh26_s3_ranking_v1/ranking_comparison.csv).
-
-The [figure guide](FIGURES.md) maps these displays to the authors' released
-files and final-paper panels. All six images are existing receipt-bound outputs;
-the README reorganization did not regenerate them.
-
-## Biological interpretation and literature context
+### Biological interpretation and literature context
 
 **What strengthened:** the released pooled-NK RNA pattern is numerically
 reproducible, and the selected directions do not depend on one experimental
@@ -156,7 +120,9 @@ context-dependent findings and access limits. The
 meaning of each display without treating RNA as killing, secretion, signaling
 or human therapeutic evidence.
 
-## Next biological decision and work not run
+<a id="next-biological-decision-and-work-not-run"></a>
+
+### Outstanding research questions
 
 The completed contribution is reconstruction of a published measurement with
 explicit method sensitivity. It does not yet justify a new mechanistic question
@@ -175,14 +141,104 @@ Supplement qualification is the most direct next step toward numerical review
 of the functional evidence. Count reanalysis answers a narrower measurement
 question. Neither requires repeating the completed TPM replay.
 
-## Execution history and provenance
+</details>
+
+## Figures and supporting documentation
+
+| Study materials | Location |
+|---|---|
+| Data and design | [Sources and study design](SOURCE_REVIEW.md) |
+| Computational methods | [Analysis code](scripts/) |
+| Results | [Study results](RESULTS.md) |
+| Figures | [Figures and captions](FIGURES.md) |
+
+### Study context and analysis history
+
+**Completed 10 November 2026:** source qualification, released RNA reproduction,
+pathway enrichment, block/ranking sensitivity and source-grounded biological
+synthesis. **Zh26-P01** remains article-local, stable paper **11**, Gate **3B**.
+The owner reports reading complete. Count-model and numerical functional
+reconstruction remain unfinished; no new target-discovery screen or canonical
+RQ was created.
+
+[Current results](RESULTS.md) · [Figure guide](FIGURES.md) ·
+[Biological interpretation and access](INTERPRETATION_AND_ACCESS_V1.md) ·
+[Literature context](LITERATURE_CONTEXT.md) · [Validation](VALIDATION.md)
+
+### Measured figures
+
+#### 1. Released RNA contrasts
+
+![Three released RNA contrasts](../../analysis/research/runs/zh26_s1_reproduction_v1/contrasts.png)
+
+Many source-selected transcripts increase after ITDT and decrease when CD4
+cells are also depleted. Panels have different y-scales; two labels overlap in
+the middle panel. Exact values are in the three tables above.
+[Methods and numerical checks](RESULTS.md#s1-numerical-fidelity-and-diagnostics).
+
+#### 2. Library and experimental-block diagnostics
+
+![PCA and per-library distributions](../../analysis/research/runs/zh26_s1_reproduction_v1/diagnostics.png)
+
+The source PCA centers and scales retained log-transformed genes. It displays
+ITDT separation alongside substantial library/block heterogeneity. This is
+descriptive evidence, not a treatment test or a reason to discard a sample.
+[PCA scores](../../analysis/research/runs/zh26_s1_reproduction_v1/pca_scores.csv).
+
+#### 3. Fixed source gene panels
+
+![Activation, cytotoxic-cargo, checkpoint and metabolic RNA panels](../../analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.png)
+
+Group means and all individual libraries show activation-associated,
+cytotoxic-cargo, checkpoint and selected metabolic transcripts. Gene-wise
+scaling prevents cross-gene abundance comparisons. Checkpoint RNA does not
+establish exhaustion; metabolic RNA does not measure flux.
+[Panel data](../../analysis/research/runs/zh26_s1_reproduction_v1/fixed_panels.csv).
+
+#### 4. Released pathway enrichment
+
+![Source-selected transcript-set enrichment](../../analysis/research/runs/zh26_s2_enrichment_v2/enrichment.png)
+
+IL2/STAT5, TNF/NF-kappaB and IFN-gamma transcript sets have positive enrichment
+for ITDT−PBS and negative enrichment for ITDT+aCD4−ITDT. The second IFN-gamma
+BH value of 0.1201 is retained. These scores measure ranked transcript-set
+association, not cytokine secretion or pathway activity.
+[ITDT−PBS results](../../analysis/research/runs/zh26_s2_enrichment_v2/gsea_itdt_vs_pbs.csv) ·
+[ITDT+aCD4−ITDT results](../../analysis/research/runs/zh26_s2_enrichment_v2/gsea_itdt_acd4_vs_itdt.csv).
+
+#### 5. Omit-one-block sensitivity
+
+![Fixed-panel effects after each experimental-block omission](../../analysis/research/runs/zh26_s3_block_v2/block_stability.png)
+
+The selected directions survive each omission, while their magnitudes vary.
+Each refit has six libraries, two blocks and two residual degrees of freedom.
+Connecting ranges show diagnostic refits, not confidence intervals.
+[All refit coefficients](../../analysis/research/runs/zh26_s3_block_v2/leave_one_block_out.csv).
+
+#### 6. Ranking sensitivity
+
+![LogFC versus moderated-t enrichment ranking](../../analysis/research/runs/zh26_s3_ranking_v1/ranking_sensitivity.png)
+
+The displayed sets retain direction while enrichment weights and significance
+change. Each curve has its own gene order; the same x position need not mean
+the same gene. The IFN-gamma second contrast illustrates why directionally
+consistent evidence can still have a method-dependent significance label.
+[Ranking comparison](../../analysis/research/runs/zh26_s3_ranking_v1/ranking_comparison.csv).
+
+The [figure guide](FIGURES.md) maps these displays to the authors' released
+files and final-paper panels. All six images are existing receipt-bound outputs;
+the README reorganization did not regenerate them.
+
+<a id="execution-history-and-provenance"></a>
+
+### Analysis history and provenance
 
 Five successful analysis-stage receipts cover S0 v3, S1 v1, S2 v2, S3 block v2
 and S3 ranking v1. A sixth metadata receipt preserves four failed runs
 byte-for-byte; their corrected successors and exposure records remain linked.
 Reporting amendments reused completed
 calculations; they did not refit them to obtain agreement. The
-[contract/receipt ledger](RESULTS.md#stage-dispositions-and-evidence) and
+[contract/receipt record](RESULTS.md#stage-dispositions-and-evidence) and
 [failure-preservation record](RESULTS.md#s5-decision-preservation-and-exact-next-steps)
 retain exact versions, exposure and restoration instructions.
 
@@ -196,6 +252,8 @@ separate Niethamer/D1 lung Treg-separability gate. Raw downloads and personal
 lab-fit/outreach notes remain outside the public repository. Numerical completion
 does not confer scientific acceptance.
 
-## Additional display archive
+<a id="additional-display-archive"></a>
+
+### Supplementary figures
 
 [Approved public-data portfolio figures](portfolio_figures_20261113/README.md) (13 November 2026). Existing results and inference limits are unchanged.

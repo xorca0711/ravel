@@ -139,7 +139,9 @@ biological replication or a second source.
 [Complete CMO inventory](../../analysis/research/runs/DY1_baseline_sparse_qc_v1/cmo_signal_inventory.tsv) ·
 [Verification and its limits](../../analysis/research/runs/DY1_baseline_sparse_qc_v1/verification.json).
 
-## Consequence for later jobs
+<a id="consequence-for-later-jobs"></a>
+
+## Implications for subsequent analyses
 
 The completed checks qualify a file format and a technical profile, not the
 original biological estimands. Distinct independently collected pools can be

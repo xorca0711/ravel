@@ -30,7 +30,7 @@ preserved. Its SHA-256 is
 Private runtime/file locators stay in the operator handoff. The historical
 EXPORT_HELD after-run checkpoint remains preserved. The coordinator must append
 the completed export/root review and verify a descendant after-run checkpoint
-before closing the same attempt; no metadata rerun or restored-ledger activation.
+before closing the same attempt; no metadata rerun or restored-record activation.
 
 Root accepts the observed sparse-loader memory use as the prerequisite for a
 bounded descriptive attempt. This does not qualify full-workload peak memory.

@@ -2,7 +2,7 @@
 
 **29 September 2026. Original pre-execution plan, retained as design history.**
 The accessible first pass is now executed; see [results](RESULTS.md),
-[execution guide](EXECUTION.md) and [current ledger](metadata/stage_status.tsv). This plan answers the owner's three requests: reproduce the paper's
+[execution guide](EXECUTION.md) and [current record](metadata/stage_status.tsv). This plan answers the owner's three requests: reproduce the paper's
 accessible claims, surface informative biology, and derive hypotheses from its
 unresolved statements. The main [README workflow](../../README.md#how-it-works)
 governs promotion from a paper observation to a question-specific test.
@@ -34,11 +34,11 @@ Yu N1 and the reading-position N1 in this folder's name.
 
 | Stage | Decision to resolve | Planned output | Gate at initial planning |
 |---|---|---|---|
-| Nb2-0 | Which assays, units and contrasts really exist? | Sample map, source hashes, discrepancy ledger | SOFT and PDF inspected; preparation identities, count schema and atlas releases unresolved |
+| Nb2-0 | Which assays, units and contrasts really exist? | Sample map, source hashes, discrepancy record | SOFT and PDF inspected; preparation identities, count schema and atlas releases unresolved |
 | Nb2-R1 | Is receptor selectivity reproduced within biological units? | Source-style dot plots, per-unit receptor profiles, study-stratified estimates | Original atlas releases/annotations required |
 | Nb2-R2 | Are Figure 4 transcriptional directions reproducible? | Bulk gene effects, exact-panel displays, threshold reconciliation | Counts/gene model/design freeze required |
 | Nb2-R3 | Which response components differ by activation route? | Direct agonist contrasts, uncertainty, Figure 4 Hippo comparison | R2 and valid biological-unit design |
-| Nb2-R4 | Which functional claims have recoverable sample-level evidence? | Figure-to-assay/unit ledger and separately reconstructed eligible panels | Original numeric/imaging/lineage evidence not yet recovered |
+| Nb2-R4 | Which functional claims have recoverable sample-level evidence? | Figure-to-assay/unit record and separately reconstructed eligible panels | Original numeric/imaging/lineage evidence not yet recovered |
 | Nb2-B1 | What distinguishes receptor activation from downstream activation? | Ranked component cards and gene/GO sensitivity | R3; original findings remain reproduction, newly selected components exploratory |
 | Nb2-B2 | Does epithelial receptor selectivity change in disease states? | Per-donor epithelial receptor gradients, occupancy and within-state estimates | R1; consistent state definitions and depth checks |
 | Nb2-B3 | Do airway and Wnt/IL-1-responsive AT2 contexts suggest different competence? | Receptor/co-receptor profiles and existing-A4 crosswalk | R1; reuse prior artifacts, no inferred ancestry |
@@ -169,7 +169,9 @@ assays and mechanisms. New cross-paper execution goes under the owning
 separate global scope is justified. No automatic A-series or C-grade promotion.
 
 <a id="replay-and-next-action"></a>
-## Replay and next action
+<a id="replay-and-next-action"></a>
+
+## Reconstruction and remaining requirements
 
 From the repository root, with Python 3.12+:
 
@@ -191,6 +193,6 @@ schemas; no placeholder analyzer claims to reproduce a figure now.
 
 Every later run belongs in `trials/<run_id>/`, with immutable `contract.json`,
 `run.json`, `tables/`, `figures/` and `REPORT.md`. The report links every displayed
-effect to its input and unit, and the stage ledger records completed, failed or
+effect to its input and unit, and the stage record records completed, failed or
 blocked endpoints. Keep raw inputs and processed objects ignored. Generate a gallery
 only when figures exist; the executed [gallery](FIGURES.md) now contains six figures.

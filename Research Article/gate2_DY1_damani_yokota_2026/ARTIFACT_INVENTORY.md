@@ -1,4 +1,6 @@
-# Saved artifacts at documentation close-out
+<a id="saved-artifacts-at-documentation-close-out"></a>
+
+# Archived study materials
 
 Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
 and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.

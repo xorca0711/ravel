@@ -43,7 +43,9 @@ completed literature search below was not rerun. Existing [DuPage results](../ga
 and [candidate follow-up](../gate3_09_dupage_2015/CANDIDATE_ANALYSIS_RESULT_V1.md)
 retain mixed context dependence and unit limits; they are not Zhang predictions.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 A transparent, version-specific reconstruction can establish which released
 measurements are reproducible and which depend on input/model/ranking choices.
@@ -64,7 +66,9 @@ semantics, source-version mismatch and unstable block estimates. NK-state mixtur
 and selection remain biological explanations for bulk RNA patterns; this dataset
 cannot separate them from within-state change.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 Agreement supports reconstruction of the published RNA evidence. Numerical
 disagreement points to an unresolved pipeline/version issue. Method-sensitive

@@ -62,7 +62,9 @@ retained unfavorable corrected results; A1/A14 lack the necessary early-to-later
 functional joins. Those are present evidence limits, not gaps that a new score
 automatically resolves. R1/R2 would reuse source RNA, not replicate the biology.
 
-## What this question could add
+<a id="what-this-question-could-add"></a>
+
+## Proposed scientific contribution
 
 Wg-R01 establishes exactly what can be reconstructed. P01/P02 address measurement
 and aggregation, P03/P04 competing interpretations of source endpoints, and
@@ -78,7 +80,9 @@ selection, technical structure and current input are leading alternatives.
 This is an organizing idea; the actual testable comparisons are the individual
 cards. A changed organ or gene name alone is not the biological increment.
 
-## What the comparison would teach
+<a id="what-the-comparison-would-teach"></a>
+
+## Interpretation of possible outcomes
 
 First establish identity and source concordance. Consistent reaction-level
 behavior supports a more specific measurement; discrepancies constrain method

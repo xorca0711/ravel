@@ -14,7 +14,7 @@ descriptive questions; they do not reproduce that entire design.
 
 [Study overview](README.md) ·
 [Analysis inventory and implications](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md) ·
-[DY1-P02 question and completion ledger](rq_discordance/README.md) ·
+[DY1-P02 question and completion record](rq_discordance/README.md) ·
 [Specific source/design holds](JOB_ASSESSMENT_2026-10-30.md)
 
 ## Reading the gallery
@@ -251,12 +251,14 @@ The F1 [original data](../../analysis/research/runs/DY1_P02_representation_audit
 remain authoritative frozen evidence. The new presentation does not supersede
 the original numerical analysis.
 
-## What is not plotted
+<a id="what-is-not-plotted"></a>
+
+## Measurements excluded from the figures
 
 No original NAM gene/peak effect, within-state ATAC decomposition, regulatory
 relay, ARG1 mediation, history-by-later-condition interaction, or epithelial
 repair effect was estimated by these gallery additions. Their source/unit,
 counting, state or linked-functional-data requirements remain in the
-[completion ledger](README.md#completion-ledger). F3 has no numerical plot because
+[completion record](README.md#completion-ledger). F3 has no numerical plot because
 controlled-access files, paired barcodes and preparation identities remain
 unqualified. This gallery adds no canonical RQ or human retain/reject decision.

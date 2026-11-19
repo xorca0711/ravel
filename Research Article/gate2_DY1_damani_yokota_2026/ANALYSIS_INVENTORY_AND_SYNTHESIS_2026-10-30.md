@@ -6,7 +6,9 @@ experiments. Reused cohorts, libraries, gene-region mappings and deterministic
 sensitivity calculations remain the same evidence lineage. Scientific acceptance
 is unassessed; execution completion does not establish the proposed mechanism.
 
-## What has been done
+<a id="what-has-been-done"></a>
+
+## Completed analyses
 
 | Analysis family | Current disposition | What it contributes |
 |---|---|---|
@@ -24,14 +26,16 @@ is unassessed; execution completion does not establish the proposed mechanism.
 | Human panel influence (F2) | Completed, including external component reaggregation | Distinguishes matrix-panel robustness from primary FABP4 component dependence; retains every individual omission and unsupported case |
 | Paired-modality source (F3) | Public-source assessment completed; numerical work held | A closer state/time comparison is identified, but controlled access, files/rights, paired barcodes and independent preparation identities remain unqualified |
 
-The [original-stage ledger](JOB_ASSESSMENT_2026-10-30.md) remains authoritative
+The [original-stage record](JOB_ASSESSMENT_2026-10-30.md) remains authoritative
 for original NAM effect, cell-assignment/state, temporal and mediation holds.
 The [E1–E6 report](rq_discordance/EXTENSION_RESULTS_2026-10-30.md) and
 [F1–F4 report](rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) contain exact numerical
 evidence; the [follow-up review](rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
 records contract review, independent verification and corrections.
 
-## What the combined evidence now supports
+<a id="what-the-combined-evidence-now-supports"></a>
+
+## Synthesis of the available evidence
 
 **1. A more specific measurement question.** The paper's highlighted discrepancy
 is late bulk RNA versus separate bulk ATAC, with scRNA contributing composition

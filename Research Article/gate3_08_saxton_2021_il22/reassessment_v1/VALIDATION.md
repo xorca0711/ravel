@@ -1,4 +1,6 @@
-# Execution, verification and local handoff
+<a id="execution-verification-and-local-handoff"></a>
+
+# Analysis and verification
 
 1 November 2026. Scope: Sx22-P01 Q1-Q4 exposed finite-library description under
 the parent-reviewed amendment. [Results and dispositions](RESULTS.md) ·

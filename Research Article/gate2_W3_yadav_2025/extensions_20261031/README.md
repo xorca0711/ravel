@@ -13,7 +13,7 @@ execution job remains. The provisional matrix and all original evidence remain
 preserved. Scoped completion does not imply scientific acceptance.
 
 [Repository scan](REPO_SCAN.md) · [Literature context](LITERATURE_CONTEXT.md) ·
-[Execution/review ledger](EXECUTION_LEDGER.md) ·
+[Execution/review record](EXECUTION_LEDGER.md) ·
 [Original results](../TECHNICAL_RESULTS.md) · [Original synthesis](../CONTEXT_AND_SYNTHESIS.md).
 
 ## Question and intended contribution

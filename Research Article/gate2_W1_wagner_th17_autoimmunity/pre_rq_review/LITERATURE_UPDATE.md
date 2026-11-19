@@ -43,7 +43,9 @@ in [PRECEDENT_REVIEW.md](../PRECEDENT_REVIEW.md). Its preprint/successor links
 and shared-human-MS-data finding are retained. No new full-paper audit of those
 unchanged premises is claimed here.
 
-## Search and access ledger
+<a id="search-and-access-ledger"></a>
+
+## Search coverage and source availability
 
 Service: live web search with primary publisher, PubMed/PMC and Europe PMC
 follow-up. Recent discovery terms covered 2024–2026, alongside unrestricted

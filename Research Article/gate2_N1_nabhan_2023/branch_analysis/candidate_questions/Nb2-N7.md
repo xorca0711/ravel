@@ -1,4 +1,8 @@
-# Nb2-N7 candidate: Fzd4-dependent renewal or general endothelial maintenance?
+<a id="nb2-n7-candidate-fzd4-dependent-renewal-or-general-endothelial-maintenance"></a>
+
+# Nb2-N7 — Fzd4 in capillary renewal and endothelial maintenance
+
+Fzd4-dependent renewal or general endothelial maintenance?
 
 Paper-local interpretation draft. Not registered under `RQ_Specified`; its scope
 may be merged, reframed or dropped after synthesis of the branch results.

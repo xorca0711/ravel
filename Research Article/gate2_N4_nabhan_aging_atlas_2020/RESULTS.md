@@ -10,7 +10,9 @@ an independent dataset. [Figures and captions](FIGURES.md) provide six plates;
 [figures 7–10](EXTENSION_FIGURES.md) add within-type/composition and local-repertoire
 comparisons. This report preserves the first-pass endpoints and values.
 
-## What this analysis establishes
+<a id="what-this-analysis-establishes"></a>
+
+## Findings supported by the analysis
 
 The deposited data support mouse-level descriptions of captured composition,
 RNA measurement, microglial cluster occupancy and reconstructed T-cell
@@ -191,5 +193,5 @@ is prior art, not independent replication of these reused samples.
 Repository evidence consists of the linked output tables, frozen contracts,
 receipts and verification records. [Source manifest](SOURCE_MANIFEST.md)
 records exact input identities. All outcomes remain exposed. The original
-plan is retained; the [execution ledger](EXECUTION_VALIDATION.md) explains
+plan is retained; the [execution record](EXECUTION_VALIDATION.md) explains
 parser, identifier and source-list corrections without overwriting old results.

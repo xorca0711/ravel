@@ -63,7 +63,7 @@ definition and label each source of shared gene-selection exposure.
 First outcome-exposed pass completed 3 October 2026. Deposited occupancy and bidirectional source-list audit executed. Final-paper cluster correspondence, all-age unintegrated expression and distinct-state-versus-mixture discrimination remain held.
 
 Read the [current result and amendments](../RESULTS.md),
-[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+[figures](../FIGURES.md) and [execution record](../EXECUTION_VALIDATION.md)
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.

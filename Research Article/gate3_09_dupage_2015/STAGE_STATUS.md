@@ -1,4 +1,6 @@
-# DuPage sequential execution ledger
+<a id="dupage-sequential-execution-ledger"></a>
+
+# DuPage analysis status by stage
 
 7 November 2026. Owner authorizes execution in one technical chat, with
 prospective adjustments after results. This supersedes planning-only wording
