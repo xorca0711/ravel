@@ -7,11 +7,18 @@
 ## Published findings
 
 ```text
-Alveolar type 2 cell → transient AT0 state
-                         ├─ Alveolar type 1 cell
-                         └─ Terminal or respiratory bronchiole secretory cell
+Human distal airway–alveolar junction
+  ├─ Tissue imaging places SFTPC+, SFTPB+, SCGB3A2+ AT0 cells in alveolar septa
+  │  adjoining respiratory bronchioles. They are rare in distal alveolar sacs.
+  ├─ Single-cell trajectories place AT0 between AT2 and two possible descendants.
+  │    Alveolar branch   AT0 → immature AT1 → gas-exchanging AT1 epithelium
+  │    Airway branch     AT0 → terminal/respiratory bronchiole secretory cell (TRB-SC)
+  └─ In human AT2 organoids, EGF withdrawal reveals the AT0-to-secretory sequence.
+     Changes in morphology and surfactant/secretory markers provide evidence beyond
+     the ordering inferred from a static tissue sample.
 
-Implication: one intermediate has both alveolar and airway differentiation potential.
+Implication: an alveolar progenitor can contribute to a distal airway lineage. Both
+             anatomical position and differentiation evidence matter for identifying AT0.
 ```
 
 Tissue localization, cell-state trajectories and human organoid differentiation supplied distinct evidence for the AT0 intermediate and its two possible descendants. [Paper, Fig. 3 and Extended Data Fig. 11](https://doi.org/10.1038/s41586-022-04541-3)

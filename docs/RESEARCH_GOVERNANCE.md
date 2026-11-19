@@ -175,6 +175,11 @@ Each mapping binds one old path, one new path, an exact SHA-256 and the original
 Git revision. The gate verifies both the Git blob and destination bytes, source
 revision ancestry, absence of the old file, and preservation of accepted map
 entries. It rejects ambiguous/chained maps and unsafe paths. Only an exact move
+of an explicitly CRLF-attributed source may declare `source_eol: crlf`. For
+that case, the gate checks the historical Git attributes, reconstructs the
+declared checkout from the canonical LF blob, and verifies the exact checkout
+hash against the destination. The Naik S5M v2 script binds those checkout bytes.
+Only a move
 of an already approved scientific asset qualifies for the existing allowance;
 no directory or changed file is exempted. Frozen records retain their original
 paths and hashes. These references resolve for verification only. The runner

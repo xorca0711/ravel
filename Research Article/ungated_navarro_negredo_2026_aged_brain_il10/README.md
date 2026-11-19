@@ -7,13 +7,19 @@
 ## Published findings
 
 ```text
-Aged neural niche → altered T-cell and microglial inflammatory programs
-  └─ IL-10 variant treatment
-       ├─ Neural markers → increased measures of neurogenesis
-       └─ Memory tasks   → above-chance performance in treated mice
+Aged mouse brain: T-cell and microglial inflammatory programs in the neural niche
+  ├─ Immune-cell profiling identifies T-cell activation/exhaustion signatures and
+  │  interferon-responsive programs in the surrounding tissue.
+  └─ Local treatment with the IL-10 variant D25K
+       ├─ Neural endpoints: DCX+ cells in the subventricular zone and newly labelled
+       │  DCX+/EdU+ or NeuN+/EdU+ cells in the olfactory bulb assess neurogenesis.
+       └─ Behavioral endpoints: treated mice perform above chance on recognition tasks.
+          A within-group comparison with chance answers a different question from
+          the treatment-versus-vehicle comparison between mice.
 
-Implication: the study relates immune modulation in aged mice to neurogenesis and
-             memory-task performance.
+Implication: immune modulation in the aged niche accompanies increased neuronal
+             labelling. The marker and behavioral assays cannot by themselves link
+             the new neurons to performance on either memory task.
 ```
 
 Neural-marker counts and behavioral tests measured different outcomes after treatment in aged mice. Figures 6G–J quantify neurogenesis markers. Figures 7G–H report the memory-task comparisons. [Paper, Figs. 6G–J and 7G–H](https://doi.org/10.1016/j.immuni.2026.01.016) · [Published correction](https://doi.org/10.1016/j.immuni.2026.06.019)

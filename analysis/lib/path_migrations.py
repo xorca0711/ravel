@@ -36,8 +36,11 @@ def entries(root: Path) -> list[dict]:
         raise ValueError('Invalid path migration manifest')
     old, new = set(), set()
     for item in value['files']:
-        if not isinstance(item, dict) or set(item) != {'from', 'to', 'sha256', 'source_revision'}:
+        required = {'from', 'to', 'sha256', 'source_revision'}
+        if not isinstance(item, dict) or set(item) not in (required, required | {'source_eol'}):
             raise ValueError('Invalid path migration entry')
+        if 'source_eol' in item and item['source_eol'] != 'crlf':
+            raise ValueError('Unsupported historical checkout line ending')
         for key in ('from', 'to'):
             validate_relative(item[key])
         for key, size in (('sha256', 64), ('source_revision', 40)):
@@ -85,6 +88,16 @@ def migration_errors(root: Path, base: str | None = None) -> list[str]:
                     git('merge-base', '--is-ancestor', revision, base or 'HEAD')
                     revisions.add(revision)
                 saved = git('show', revision+':'+item['from'])
+                if 'source_eol' in item:
+                    # Some frozen contracts hash an explicitly selected CRLF checkout.
+                    # Verify the old revision's attributes before reconstructing those bytes.
+                    attrs = git('check-attr', '--source='+revision, '-z', 'text', 'eol',
+                                '--', item['from']).split(b'\0')
+                    if attrs[1:3] != [b'text', b'set'] or attrs[4:6] != [b'eol', b'crlf']:
+                        raise ValueError(f'Unverified historical checkout attributes: {item["from"]}')
+                    if b'\r' in saved or b'\0' in saved:
+                        raise ValueError(f'Expected canonical LF text in Git: {item["from"]}')
+                    saved = saved.replace(b'\n', b'\r\n')
                 if hashlib.sha256(saved).hexdigest() != item['sha256']:
                     raise ValueError(f'Migration source hash differs from Git: {item["from"]}')
                 resolve_entry(root, item)

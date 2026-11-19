@@ -101,13 +101,15 @@ trailing slash; other artifact fields are repository-relative. The owner-selecte
 `gate2_C3_yu_lee_choi_min_2026/` is branch 2C item 3, stable paper 13.
 This documented exception does not renumber the roadmap.
 
-Damani–Yokota 2026 (DY1) is **ungated**, outside the ordered reading roadmap.
-Its current article and DY1-P02 question entries are under
-[`ungated_damani_yokota_2026/`](../../Research%20Article/ungated_damani_yokota_2026/README.md),
-corrected after the owner's 8 November clarification. Frozen contracts, scripts
-and results retain `gate2_DY1_damani_yokota_2026/` as an evidence location, not a
-Gate 2 assignment. The roadmap, RQ index and research registry use the corrected
-current entries; historical references continue to resolve without rewritten hashes.
+Gate 4 assigns one folder to each paper in a thematic sequence. For example,
+[`gate4M_01_naik_2017/`](../../Research%20Article/gate4M_01_naik_2017/README.md)
+is the first paper on epigenetic and inflammatory memory. The
+[article index](../../Research%20Article/README.md#gate-4-topic-centered-reading) lists the sequence.
+
+The [ungated Damani–Yokota paper folder](../../Research%20Article/ungated_damani_yokota_2026/README.md)
+contains the DY1 study, the DY1-P02 question and their original evidence.
+The [file migration record](../../analysis/research/path_migrations.json)
+resolves frozen references to the earlier Damani–Yokota and Naik paths.
 
 Shared IL-1 figures now use scripts 19–21. Their recorded UMAP/PCA preparation
 was executed before relocation; the original script bytes and identities

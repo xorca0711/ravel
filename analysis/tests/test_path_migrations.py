@@ -60,6 +60,26 @@ class PathMigrationTests(unittest.TestCase):
         self.assertEqual(within(self.root, 'analysis/run.py', exists=False), self.root/'analysis/run.py')
         self.assertIsNone(resolve_historical(self.root, 'analysis/other.py'))
 
+    def test_historical_checkout_requires_original_crlf_attributes(self):
+        self.freeze()
+        self.move('analysis/run.py', 'analysis/canonical/run.py')
+        self.records[0]['source_eol'] = 'crlf'
+        self.save()
+        self.assertTrue(any('checkout attributes' in e for e in migration_errors(self.root, self.base)))
+
+    def test_contract_bound_crlf_checkout_retains_its_exact_bytes(self):
+        old, new = 'analysis/run.py', 'analysis/canonical/run.py'
+        self.fixture.write('.gitattributes', '* -text\nanalysis/run.py text eol=crlf\n')
+        code = (self.root / old).read_bytes().replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
+        (self.root / old).write_bytes(code)
+        self.freeze()
+        self.move(old, new)
+        self.records[0]['source_eol'] = 'crlf'
+        self.save()
+        self.assertEqual(migration_errors(self.root, self.base), [])
+        (self.root / new).write_bytes(code.replace(b'\r\n', b'\n'))
+        self.assertTrue(migration_errors(self.root, self.base))
+
     def test_changed_missing_and_reappearing_files_fail(self):
         self.freeze()
         self.move('analysis/run.py', 'analysis/canonical/run.py')

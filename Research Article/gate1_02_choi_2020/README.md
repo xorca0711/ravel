@@ -7,12 +7,17 @@
 ## Published findings
 
 ```text
-Interstitial macrophage IL-1β → IL1R1-positive AT2 cells
-  └─ Primed AT2 → damage-associated transient progenitor (DATP)
-       ├─ Resolving inflammation → differentiation into mature AT1 cells
-       └─ Sustained IL-1β in organoids → incomplete AT1 maturation
+Bleomycin-injured mouse alveolus: how an AT2 cell replaces a lost AT1 cell
+  Interstitial macrophage supplies IL-1β → IL1R1-expressing AT2 cell
+    └─ Primed AT2 cell → HIF1α-dependent glycolytic transition
+         └─ Krt8+ damage-associated transient progenitor (DATP)
+              ├─ During recovery, lineage-labelled progenitors yield AT1 cells.
+              └─ With prolonged IL-1β, organoids accumulate intermediates:
+                 early AT1 features appear, but late maturation markers remain low.
+                 Withdrawal of IL-1β allows late differentiation to resume.
 
-Implication: DATP accumulation can accompany either repair or arrested maturation.
+Implication: the signal that permits entry into a repair intermediate can also delay
+             exit from it. A Krt8+ population alone cannot distinguish those outcomes.
 ```
 
 Lineage tracing connected DATPs to AT1 descendants after lung injury. In organoids, prolonged IL-1β exposure impaired late AT1 maturation, separating entry into the progenitor state from completion of differentiation. [Choi et al., Figs. 2–3 and 7A–H](https://doi.org/10.1016/j.stem.2020.06.020)

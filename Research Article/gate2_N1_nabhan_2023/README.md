@@ -7,12 +7,18 @@
 ## Published findings
 
 ```text
-Frizzled agonist             Epithelial outcome in the source experiments
-  Fzd5 or Fzd6 activation  → growth of alveolar epithelial progenitors
-  Fzd6 activation          → alveolar differentiation of airway-derived progenitors
+Frizzled-receptor specificity in alveolar regeneration
+  Receptor expression partitions the niche: epithelial progenitors express Fzd5/Fzd6,
+  while other lung compartments have different Frizzled repertoires.
+  ├─ Starting with alveolar epithelial progenitors
+  │    Fzd5 or Fzd6 agonism supports progenitor growth in organoids.
+  │    Both agonists also improve survival in the tested mouse lung-injury model.
+  └─ Starting with airway-derived progenitors
+       Fzd6 agonism promotes differentiation toward alveolar identity.
+       The Fzd5 agonist supports alveolar progenitor activity but lacks that fate effect.
 
-Implication: receptor choice and the starting cell population distinguish growth from
-             fate.
+Implication: two receptors can support growth of an existing alveolar population
+             while differing in their ability to redirect an airway progenitor.
 ```
 
 Both receptor agonists supported alveolar progenitor growth. Only the Fzd6 agonist promoted alveolar differentiation in the airway-derived progenitor assay. [Paper, Figs. 3 and 5–7](https://doi.org/10.1016/j.cell.2023.05.022)

@@ -7,12 +7,18 @@
 ## Published findings
 
 ```text
-Pathogenic and nonpathogenic Th17 cells → RNA-based metabolic predictions
-  └─ Polyamine metabolism → biochemical and perturbation measurements
-       ├─ Changes in effector cytokine production
-       └─ Shift in Th17- and Treg-associated RNA programs
+Single-cell profiles from pathogenic and nonpathogenic Th17 cultures
+  ├─ Compass combines RNA with a metabolic network to rank feasible reactions.
+  │  Reactions in arginine and polyamine metabolism distinguish the two Th17 programs.
+  └─ Biochemical and perturbation assays test that prediction
+       ├─ Ornithine is a precursor for putrescine and downstream polyamines.
+       │  Perturbing the synthetic enzyme ODC1 or the catabolic enzyme SAT1 alters
+       │  the balance of polyamines and reduces Th17 effector cytokine production.
+       └─ Blocking polyamine synthesis shifts gene expression toward Foxp3-associated
+          regulation. Autoimmune disease assays test the tissue consequence separately.
 
-Implication: polyamine metabolism contributes to the balance of T-cell programs.
+Implication: polyamine metabolism helps maintain the Th17 effector program. Cytokine
+             and disease measurements supply evidence beyond the RNA-based flux prediction.
 ```
 
 Biochemical measurements and polyamine-pathway perturbations connected predictions from Compass to cytokine production and T-cell gene expression. [Paper, Figs. 4–6](https://doi.org/10.1016/j.cell.2021.05.045)

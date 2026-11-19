@@ -199,7 +199,7 @@ second-stage ratio, and Stat6/Rxra are negative in both stages. ARG1's
 second-minus-first ratio is offset-sensitive. This mixed RNA pattern does not
 identify a common enhancement or maintenance mechanism. Four author averages
 cannot supply variance, individual persistence or independent replication.
-[Report](../../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md).
+[Report](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md).
 
 ### A5 numerical result review
 

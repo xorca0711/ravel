@@ -7,15 +7,21 @@
 ## Published findings
 
 ```text
-Homeostatic alveolus
-  Wnt-expressing fibroblast ── short-range Wnt ── Axin2-positive AT2 cell
-                                                   └─ maintenance of stem identity
-  Daughter outside the niche → AT1 differentiation
+Two sources of Wnt sustain alveolar progenitors in different settings
+  Adult homeostasis
+    Wnt5a-expressing fibroblast beside an AT2 cell → local Axin2 expression
+      ├─ AT2 cells retained in this short-range niche self-renew.
+      └─ Daughters leaving the niche can differentiate into flattened AT1 cells.
+    Blocking Wnt secretion by fibroblasts reduces the Axin2+ AT2 population.
+  Alveolar injury
+    AT2 cells themselves induce Wnt ligands, including Wnt7b, and the secretion
+    factor Porcupine → progenitor activity extends beyond the homeostatic niches.
 
-Implication: physical position limits which alveolar cells receive the niche signal.
+Implication: a spatially restricted fibroblast signal maintains the resting stem-cell
+             pool. Epithelial Wnt production can transiently recruit more AT2 cells.
 ```
 
-Imaging placed Wnt-expressing fibroblasts beside Axin2-positive AT2 cells. Wnt perturbations tested whether continued signaling was required for AT2 identity. [Paper, Fig. 2g–l and Fig. 5i](https://doi.org/10.1126/science.aam6603)
+Imaging placed Wnt-expressing fibroblasts beside Axin2-positive AT2 cells. Wnt perturbations tested whether continued signaling was required for AT2 identity. [Paper, Fig. 2g–l and Fig. 5i](https://doi.org/10.1126/science.aam6603) · [Homeostatic niche and the injury-induced epithelial Wnt source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5997265/)
 
 ## Ravel analyses and results
 

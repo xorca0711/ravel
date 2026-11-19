@@ -7,12 +7,17 @@
 ## Published findings
 
 ```text
-Treg activation → increased Ezh2 expression
-  └─ Ezh2 loss
-       ├─ Weaker Foxp3 retention in lineage-labelled cells
-       └─ Reduced Treg representation later in inflamed tissue
+T-cell receptor activation and CD28 costimulation → Ezh2 induction in mouse Tregs
+  └─ EZH2, the catalytic subunit of PRC2, places the repressive H3K27me3 mark.
+       ├─ In resting and activated Foxp3+ subsets, Ezh2 loss has different RNA effects.
+       │  Activated cells show derepression of genes normally restrained in Tregs.
+       ├─ Foxp3 lineage reporters distinguish current Tregs from former Foxp3+ cells.
+       │  After activation, more Ezh2-deficient lineage-labelled cells lose Foxp3.
+       └─ During autoimmune inflammation, early antigen-specific priming and later
+          Treg representation in the central nervous system diverge.
 
-Implication: Ezh2 contributes to activated Treg identity and tissue persistence.
+Implication: maintaining Treg identity through activation matters for controlling tissue
+             inflammation. Counting current Foxp3+ survivors misses cells that lost it.
 ```
 
 Lineage reporters resolved FOXP3 retention after *Ezh2* loss. Measurements after antigen priming followed Treg representation in inflamed tissue. [Paper, Figs. 5 and 7](https://doi.org/10.1016/j.immuni.2015.01.007)

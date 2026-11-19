@@ -7,14 +7,21 @@
 ## Published findings
 
 ```text
-Healthy lung studies → integrated reference → hierarchical cell identities
-  Query cell with concordant neighbors → fine subtype assignment
-  Query cell with uncertain neighbors  → uncertain fine label
+Fourteen healthy human lung datasets → a reference of 584,444 cells from 107 people
+  ├─ Integration and expert annotation → five nested levels, 61 consensus identities
+  │    Distal epithelium: AT0 and pre-terminal-bronchiole secretory cells both express
+  │    SFTPB and SCGB3A2. SFTPC and SCGB3A1 help resolve the two populations.
+  └─ Map additional healthy and diseased samples onto the same reference
+       ├─ Agreement among neighboring reference cells supports a fine label.
+       ├─ Ambiguity at a fine level can coexist with a reliable parent identity.
+       └─ Comparison within a mapped lineage reveals programs shared across diseases,
+          including an SPP1-expressing monocyte-derived macrophage state.
 
-Implication: broad identity can be resolved while fine subtype remains uncertain.
+Implication: an atlas can distinguish a change in cell identity from variation within
+             a known lineage when the relevant subtype is represented in the reference.
 ```
 
-Fourteen healthy human lung datasets formed the reference. The integration benchmark assessed retention of cell identities across studies before the authors mapped additional datasets. [Paper, Fig. 1 and Supplementary Fig. 1](https://doi.org/10.1038/s41591-023-02327-2)
+Fourteen healthy human lung datasets formed the reference. The integration benchmark assessed retention of cell identities across studies before the authors mapped additional datasets. [Paper, Fig. 1 and Supplementary Fig. 1](https://doi.org/10.1038/s41591-023-02327-2) · [Reference mapping and monocyte-derived macrophage states](https://pmc.ncbi.nlm.nih.gov/articles/PMC10287567/)
 
 <details>
 <summary>Detailed published evidence</summary>

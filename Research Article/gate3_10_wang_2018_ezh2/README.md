@@ -7,11 +7,18 @@
 ## Published findings
 
 ```text
-Ezh2 perturbation in tumour-associated Tregs
-  ├─ Lineage-labelled cells → loss of FOXP3 in a subset
-  └─ FOXP3-retaining cells → altered cytokine capacity on restimulation
+Tumour-infiltrating Foxp3+ regulatory T cells depend on EZH2-mediated repression
+  ├─ Lineage tracing after Ezh2 disruption distinguishes two responses.
+  │    Former Tregs   A subset of lineage-labelled cells loses detectable FOXP3.
+  │    Retained Tregs FOXP3+ cells change cytokine capacity upon restimulation,
+  │                   including acquisition of pro-inflammatory activity.
+  ├─ Acute perturbation can change tumour control at a time when a fall in the
+  │  frequency of intratumoral Tregs is not detected.
+  └─ In mixed chimeras, the remaining Ezh2-deficient Tregs contribute to tumour
+     control beyond the effect observed with the paper's depletion comparator.
 
-Implication: changes in surviving Tregs can accompany changes in their abundance.
+Implication: altered function among surviving intratumoral Tregs can contribute to
+             antitumour immunity alongside changes in Treg identity or abundance.
 ```
 
 Tumour lineage tracing distinguished loss of FOXP3 from changes in cytokine production upon restimulation of FOXP3-retaining cells. [Paper, Figs. 5–6](https://doi.org/10.1016/j.celrep.2018.05.050)
