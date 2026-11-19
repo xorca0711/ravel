@@ -70,9 +70,12 @@ No extra score, pathway, cohort, scratch digitization, RNA-to-function model or
 global RQ is opened. A1/Arz1 ownership and all RQs remain. Original-domain,
 source-label, pool/animal and phenotype/culture/time joins are specifically held;
 qualified descriptive work is not erased. No biological rerun for documentation.
-The independent learning exercise is not a dependency. Historical source/usage
-interruptions remain separate in the recovery record. Local commits only: no push, PR, merge, Notion write, external inquiry, account
-settings or protected governance changes.
+The owner subsequently requested publication for review. [PR #183](https://github.com/xorca0711/ravel/pull/183)
+includes the biological rationale, the S7 interpretation and the full figure gallery.
+Its initial Linux checks identified a checkout line-ending difference in the frozen
+S5M plotting script and two Markdown links to ignored local acquisition records.
+A file-specific Git attribute restores the script's recorded hash. The recovery
+note retains the acquisition filenames, sizes and hashes as local provenance.
 
 ## 2026-11-13 — Approved portfolio figure archive
 

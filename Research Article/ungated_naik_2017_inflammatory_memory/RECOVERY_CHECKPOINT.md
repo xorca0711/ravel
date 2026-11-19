@@ -36,9 +36,8 @@ was parsed during recovery.
 | Acquisition JSON records | 2 | Retained; current hashes below |
 | Existing `private_review/` PDF-derived files | 3 | Retained; not listed in either acquisition record |
 
-[Initial acquisition](../../raw_data/naik2017_s01_sources/acquisition_initial.json):
-5 of 5 records match. [Follow-up acquisition](../../raw_data/naik2017_s01_sources/acquisition_followup.json):
-31 of 31 match. There are 36 unique recorded paths, no missing files, hash/size
+All 5 records in the local `acquisition_initial.json` and all 31 records in
+`acquisition_followup.json` match. There are 36 unique recorded paths, no missing files, hash/size
 mismatches, duplicate paths or unhashed acquisition entries. All records contain
 HTTP status 200; this audit does not verify remote contents or establish that a
 saved response contains the intended scientific source.
