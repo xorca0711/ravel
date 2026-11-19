@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s2_rna_description_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do finite-library acute D6 inflamed/control relative RNA differences compare with recovered-baseline D30 history/control differences across the source-qualified common gene universe?",
+  "decision": "Describe continuous effect profiles, finite-library spread and normalization/expression-qualification sensitivity, then propose a justified bounded S3 or S4 comparison for parent review without treating S2 completion as biological resolution.",
+  "strongest_rival": "Cross-time platform/layout and cell-composition differences, sparse pooled preparations and relative-normalization assumptions can alter apparent attenuation or persistence without establishing intrinsic memory or isolated recovery.",
+  "discriminator": "Separate within-time four-library normalization and contrasts; report every library, low/zero flags, all-four-library contrast ranges, a total-count sensitivity and unselected union/both-time qualified universes. These checks assess measurement stability but cannot resolve animal overlap, composition or absolute RNA abundance.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S2_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S1M_RESULTS_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results, selected loci and D6 profiles were previously viewed; interrupted source turns and S1M inspected metadata and count structure. No S2 effects were calculated before this contract freeze. Synthetic pipeline tests used artificial identifiers/counts only and exposed a floating-point zero-sign issue, documented and fixed prospectively with a computational tie tolerance. Annotation acquisition is a public-source byte retrieval, not gene-effect selection.",
+  "biological_unit": "Two deposited RNA libraries per history/time group for finite-library description; the paper reports duplicate pooled preparations, while exact animal membership/overlap and cross-assay or cross-time pairing remain unverified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Libraries may represent author-reported pooled preparations; genes and reads are features/nested measurements, never independent biological replicates. No individual IDs, matched pairs, longitudinal trajectories or added pool replicates are invented.",
+  "population_and_selection": "Exactly GSM2440985-2440988 at D6 and GSM2440989-GSM2440992 at D30; retain all 47729 exact versioned gene IDs and all eight libraries. Annotation matches exact GENCODE M9 IDs only and does not select analysis genes.",
+  "contrast": "D6 acute inflamed GSM2440987/2440988 minus controls GSM2440985/2440986; separately D30 recovered-baseline history GSM2440991/2440992 minus controls GSM2440989/2440990. Compare profiles descriptively across times with platform/layout qualifications.",
+  "endpoint": "Per-library relative normalized RNA gene counts; log2 ratios of arithmetic exposed/control group means with one reference-count pseudocount; continuous effects, finite-library spread, zero/low-count flags and normalization sensitivity. No population p-values, functional endpoint, equivalence or resolved/persistent class.",
+  "methods": "Within each timepoint use genes positive in all four libraries for exp(median(log count minus gene mean-log reference)); center factors to geometric mean one. Total-count/geometric-mean-total scaling is the sole normalization sensitivity; also output CPM. Compute log2((mean_exposed+1)/(mean_control+1)), unregularized ratios when defined, all four unpaired cross-library log-ratio ranges, and group log ranges. CPM>=1 in >=2/4 libraries qualifies a timepoint; primary displays use the union across times, with both-time and full-universe summaries. Continuous values remain unrounded; 1e-10 computational ties govern sign/boundary flags. Use three PNG/PDF figures and six prespecified unique extreme/sensitivity/spread examples, with selection/regression-to-mean limits. A separately implemented standard-library verifier recomputes all normalized values, contrasts, flags and joins.",
+  "missingness_and_exclusions": "No source gene/library is dropped from complete outputs. Low counts, individual/group/all zeros and regularization sensitivity are flagged. Undefined unregularized effects are NA. Exact-version annotation misses remain labeled by original ID. No outcome-based sample exclusion, hidden imputation or assumed biological pairing.",
+  "multiplicity": "Not applicable: no hypothesis tests or population p-values. Selected display examples are descriptive extremes, not discoveries or evidence for aggregate attenuation.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-library values/ranges are reported without population uncertainty, gene-as-replicate intervals, power or a biological effect margin. The 1e-10 tolerances are computational only.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Relative count normalization does not measure absolute RNA abundance. Cross-time differences remain potentially platform/layout/composition dependent and are not isolated recovery trajectories. Small or zero D30 effects, particularly low/all-zero genes, do not establish equivalence or resolution. Source-reported duplicate pooling is preserved without asserting unknown exact membership; a separate inferential reproduction remains possible if justified.",
+  "stop_rule": "Require committed frozen contract/code and matching input hashes; fail on nonunique source joins, unexpected sample identity, gene/order/structure mismatch, empty positive-reference set, nonfinite normalization, or failed independent checks. Preserve any failed run and amend with a new version. Stop after completed S2 verification and parent handoff. If this bounded task is explicitly rejected, do not retry through another executor or repackage blocked source extraction.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s2_rna_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s2_rna_description_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_effects.tsv",
+    "gene_values.tsv.gz",
+    "sample_qc.tsv",
+    "sample_correlation.tsv",
+    "selected_cases.tsv",
+    "summary.json",
+    "annotation_coverage.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_sample_qc.png",
+    "fig01_sample_qc.pdf",
+    "fig02_effect_profiles.png",
+    "fig02_effect_profiles.pdf",
+    "fig03_library_examples.png",
+    "fig03_library_examples.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective S2 finite-library RNA description after coordinator-reviewed S1M; all prior exposure and restriction/refusal history retained.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "7c2fd95426c94a4cd1b8ba864c54f7eee7aa7a198b1885da9fd234ce3c5b42ae",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "ff7114f598bd8035dd02449d2948ea32c8aa51acad403e56b9271d970e0b8396",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "92e9582792cce7565543f57784f2e8b72de7677a949da3d312931a325f50d856",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "a7b31269dbd8aea441547fcf6964d1a4f1a52f72602b092a37e101fba4ab40ad",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/PAPER_REVIEW.md",
+      "sha256": "318b2dea2aec695fe37010a1246cb1083d4f2bd323c1be2d0ef83fdaf7b704ce",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/acquisition_gencode_m9.json",
+      "sha256": "4b547e7b0a2dfa20a7c0f8cbf60b8755c1b5157ff39bb35866cecab925237ad3",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s2_rna_v1.py",
+      "sha256": "b6611f3f7ab8cd95c01e43f75f675e37b984a53dcd2174f564fc9b16d36ac15f"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s2_plot_v1.py",
+      "sha256": "a3884450228d73acd12af32065dd68952d59e8fcbe8331f6ba8c43d9f1497d61"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s2_verify_v1.py",
+      "sha256": "428230d45468915377e4ae0f7a193cd52e53b4c4ec572496a6c25da93f8a4d27"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s2_pipeline_v1.py",
+      "sha256": "9427d481911defd53b4df6b7c3374546c6bcdcc7b3e349486521913ab8d10e94"
+    }
+  ]
+}

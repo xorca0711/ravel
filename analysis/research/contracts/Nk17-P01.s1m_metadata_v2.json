@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s1m_metadata_v2",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which saved GSE92967 molecular libraries, runs and processed count files support a source-qualified within-time history comparison, and which unit/reference/layout uncertainties remain?",
+  "decision": "Qualify the molecular branch of S1 and propose the exact permissible S2 comparison for parent review; do not execute expression comparisons or the remaining S1 branches.",
+  "strongest_rival": "An incorrect source/library/run join or unjustified pool/replicate assignment could turn technical labels and platform differences into misleading biological contrasts.",
+  "discriminator": "Join only explicit accessions across saved GEO/SRA/ENA/BioSample metadata and inspect count structure/identifier coverage; retain ambiguous or absent unit relationships without inferring them from suffixes.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S1M_CONTEXT_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/PAPER_REVIEW.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/RECOVERY_CHECKPOINT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S1M_AMENDMENT_V2.md",
+    "analysis/research/runs/naik2017_s1m_metadata_v1/S1M_REPORT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results and selected loci plus D6 RNA profiles were previously viewed. Interrupted source turns inspected some metadata and source snippets. Recovery inspected hashes and filenames. This freeze precedes the S1M script run but does not erase that exposure; only synthetic parser fixtures have been executed in this stage. V1 has now exposed all selected deposited metadata and structural summaries of the 16 count files, but no gene effects. Its compact title parsing was incomplete; v2 corrects only grouping/characteristic corroboration.",
+  "biological_unit": "Independent mouse pool/preparation if qualified; currently deposited molecular library records, with exact pool-to-library mapping unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Sequencing runs nest under experiments/libraries. Animal membership, overlapping pools and cross-assay or cross-time pairing remain unknown unless explicit source identifiers establish them; replicate suffixes and distinct BioSample IDs do not establish independence.",
+  "population_and_selection": "All samples in the saved GSE92967 GEO snapshot and their explicitly linked saved SRA/ENA/BioSample records; all 16 saved count files. No outcome-based sample or feature selection.",
+  "contrast": "Metadata concordance across source records and count-table structural compatibility within the deposited assay/history/time labels; no gene-expression contrast is computed.",
+  "endpoint": "Accession joins, library/run/assay/condition/time/platform/reference crosswalk, unit evidence/unknowns, count dimensions/integer representation and identifier coverage, with comparison eligibility limits.",
+  "methods": "Python standard-library allowlisted SOFT/XML/TSV parsing and accession equality joins; gzip table field/identifier checks without normalization or gene effects; compare SRA and ENA layout/instrument/experiment fields; retain source line/XPath locators and filename hints separately. Attributed pooling claims come only from the existing paper review. No network calls, paper/PDF/HTML extraction or workbook interpretation. Version 2 additionally recognizes the observed compact GEO title grammar and flags contradictions with selected treatment/harvest/wound characteristics; titles and evidence provenance remain visible.",
+  "missingness_and_exclusions": "Retain all declared records and count files; report missing/ambiguous joins, absent attributes, duplicate IDs, invalid counts and incompatible structure as scoped issues. No imputation of animal IDs, pairing, independence or missing provenance.",
+  "multiplicity": "Not applicable: no hypothesis tests, p-values, gene-effect ranking or multiplicity-sensitive discoveries.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This is a deterministic source/structure audit; it estimates no biological effect or uncertainty and sets no effect margin or sample-size claim.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Saved-source agreement establishes metadata consistency, not independent biological replication or animal pairing. Count structure does not establish gene effects, equivalent recovery, chromatin function or repair. A platform/time association limits cross-time interpretation without automatically excluding within-time contrasts; layout discrepancies constrain exact raw replay only where relevant.",
+  "stop_rule": "Fail input/code preflight on mismatched bytes. Preserve any failed run. Record ambiguous source/structure findings as scoped eligibility limits; no expression model or blocked source extraction is executed. Stop after S1M receipt verification and report for parent review. If this bounded task is explicitly rejected by the platform, stop without another executor or retry route.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/GSE92967_family.soft.gz",
+      "sha256": "55f0cf164a8fcdb13351e709809b1d33d1ae61ea3199d56b1db0d921f4d04fc8",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/sra_experiments.xml",
+      "sha256": "267784d34adcaa04c80b7fac6a293d1a9ca36f738ae0b0b0f348fbf85783a90b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/ena_read_run.tsv",
+      "sha256": "c92f946f6be5511df26b240244bf6319c6d4116539cb9e6128f5ee44871b30e2",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/biosamples.xml",
+      "sha256": "e1e8a97ffcb5de474c001fcfcee2df5418826191d0148424ff1b345d9ed273cf",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/acquisition_initial.json",
+      "sha256": "d784de3461f8093f88b701fb325c67dd47ceeb0fcec0d4d14fd172af7d4415d8",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/acquisition_followup.json",
+      "sha256": "ff3106a0969aea32081a6936aa576ef950cfb8cc9f1dfcc656ee392baa9bdfa9",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "7c2fd95426c94a4cd1b8ba864c54f7eee7aa7a198b1885da9fd234ce3c5b42ae",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "ff7114f598bd8035dd02449d2948ea32c8aa51acad403e56b9271d970e0b8396",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "92e9582792cce7565543f57784f2e8b72de7677a949da3d312931a325f50d856",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "a7b31269dbd8aea441547fcf6964d1a4f1a52f72602b092a37e101fba4ab40ad",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "4cd3588f10a7e64270527c37df61366d87473f227cfa830d464baa2b9fe05cc6",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "b9b2e8ed0c67076da687719079b692bc03cefd3dcd2ead650e22ebd513f3b2fc",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "ada36b51d98578d5e2ff284732f7624f34cd9b933f90b56db786bc58911995af",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "2c9df583c9d460854b9e621b8d6247f1d22505b0785d933c39b0c9c232c1ba30",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "b2cfbf5636542d198ee14aab07eef337fd096273afca97c0388cb458e803dc75",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "9a0f1a57508b0c61b0066e30d74b52f96355f6cb163ec57dc75aecc5c5b1f12f",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "2610ea5aeabb916d96cf7f282f7f1b11b61f8edf5527bda0068762e9340318e4",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "1310f7ce3073fdbcb822696c59ab11486f8357c70bfe2173e480f3ec4a617b00",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/PAPER_REVIEW.md",
+      "sha256": "318b2dea2aec695fe37010a1246cb1083d4f2bd323c1be2d0ef83fdaf7b704ce",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/qualify_s1m_v2.py",
+      "sha256": "484e2836ce672f1986ae77f50c50e504fcd26acc62ce2621c39a5c4b2f328bf7"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/qualify_s1m_v2.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s1m_metadata_v2.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "library_crosswalk.tsv",
+    "run_crosswalk.tsv",
+    "source_fields.json",
+    "count_structure.tsv",
+    "identifier_coverage.json",
+    "qualification.json",
+    "S1M_REPORT.md"
+  ],
+  "amendment_of": "analysis/research/contracts/Nk17-P01.s1m_metadata_v1.json",
+  "amendment_reason": "V1 execution and joins/structure passed, but compact deposit titles remained unclassified. V2 qualifies these labels prospectively against selected characteristics; no input, biological scope or effect estimation changes."
+}

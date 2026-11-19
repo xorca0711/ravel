@@ -1,0 +1,5280 @@
+{
+  "analysis_id": "Nk17-P01.s6a_daily_area_v1",
+  "version": 1,
+  "source_files": {
+    "16": {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM16_ESM.xlsx",
+      "sha256": "58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature24271/MediaObjects/41586_2017_BFnature24271_MOESM16_ESM.xlsx"
+    },
+    "17": {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM17_ESM.xlsx",
+      "sha256": "196ca23b612207b032a497022fdd8292aa58e5b206d005bcfa27aa6d3fba2fe4",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature24271/MediaObjects/41586_2017_BFnature24271_MOESM17_ESM.xlsx"
+    }
+  },
+  "caption_source": {
+    "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt"
+  },
+  "rate_groups_source": "analysis/research/runs/naik2017_s5f_functional_sources_v1/groups.tsv",
+  "panels": [
+    {
+      "id": "EDF5e",
+      "label": "Aim2 background",
+      "comparison_type": "history_background",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "group_order": [
+        "Ctrl",
+        "PI",
+        "KOCtrl",
+        "KOPI"
+      ],
+      "extended_caption_n": 3,
+      "main_caption_n": 2,
+      "main_caption_relation": "at_least",
+      "main_rate_ns": {
+        "Ctrl": 6,
+        "PI": 5,
+        "KOCtrl": 2,
+        "KOPI": 3
+      },
+      "rate_endpoint": "F4g_rate",
+      "rate_group_ids": {
+        "Ctrl": "Ctrl",
+        "PI": "PI",
+        "KOCtrl": "KOCtrl",
+        "KOPI": "KOPI"
+      },
+      "contrasts": [
+        {
+          "id": "effect_reference",
+          "label": "PI − Ctrl within WT",
+          "coefficients": {
+            "Ctrl": -1,
+            "PI": 1
+          }
+        },
+        {
+          "id": "effect_altered",
+          "label": "PI − Ctrl within Aim2 KO",
+          "coefficients": {
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        },
+        {
+          "id": "difference_of_effects",
+          "label": "KO − WT history effects",
+          "coefficients": {
+            "Ctrl": 1,
+            "PI": -1,
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDF5f",
+      "label": "Aim2 overexpression",
+      "comparison_type": "oe_only",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "group_order": [
+        "Ctrl",
+        "OE"
+      ],
+      "extended_caption_n": 4,
+      "main_caption_n": 2,
+      "main_caption_relation": "equal",
+      "main_rate_ns": {
+        "Ctrl": 3,
+        "OE": 2
+      },
+      "rate_endpoint": "F4h_rate",
+      "rate_group_ids": {
+        "Ctrl": "Ctrl",
+        "OE": "Aim2OE"
+      },
+      "contrasts": [
+        {
+          "id": "oe_effect",
+          "label": "Aim2 OE − Ctrl",
+          "coefficients": {
+            "Ctrl": -1,
+            "OE": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDF6d",
+      "label": "CASP1 inhibition",
+      "comparison_type": "history_inhibition",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "group_order": [
+        "Ctrl",
+        "PI",
+        "CtrlYVAD",
+        "PIYVAD"
+      ],
+      "extended_caption_n": 3,
+      "main_caption_n": 5,
+      "main_caption_relation": "equal",
+      "main_rate_ns": {
+        "Ctrl": 5,
+        "PI": 5,
+        "CtrlYVAD": 4,
+        "PIYVAD": 6
+      },
+      "rate_endpoint": "F5b_rate",
+      "rate_group_ids": {
+        "Ctrl": "Ctrl",
+        "PI": "PI",
+        "CtrlYVAD": "CtrlYVAD",
+        "PIYVAD": "PIYVAD"
+      },
+      "contrasts": [
+        {
+          "id": "effect_reference",
+          "label": "PI − Ctrl without YVAD",
+          "coefficients": {
+            "Ctrl": -1,
+            "PI": 1
+          }
+        },
+        {
+          "id": "effect_altered",
+          "label": "PI − Ctrl with YVAD",
+          "coefficients": {
+            "CtrlYVAD": -1,
+            "PIYVAD": 1
+          }
+        },
+        {
+          "id": "difference_of_effects",
+          "label": "YVAD − no-YVAD history effects",
+          "coefficients": {
+            "Ctrl": 1,
+            "PI": -1,
+            "CtrlYVAD": -1,
+            "PIYVAD": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDF6e",
+      "label": "Il18 background",
+      "comparison_type": "history_background",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "group_order": [
+        "Ctrl",
+        "PI",
+        "KOCtrl",
+        "KOPI"
+      ],
+      "extended_caption_n": 3,
+      "main_caption_n": 3,
+      "main_caption_relation": "equal",
+      "main_rate_ns": {
+        "Ctrl": 3,
+        "PI": 3,
+        "KOCtrl": 3,
+        "KOPI": 3
+      },
+      "rate_endpoint": "F5d_rate",
+      "rate_group_ids": {
+        "Ctrl": "Ctrl",
+        "PI": "PI",
+        "KOCtrl": "KOCtrl",
+        "KOPI": "KOPI"
+      },
+      "contrasts": [
+        {
+          "id": "effect_reference",
+          "label": "PI − Ctrl within WT",
+          "coefficients": {
+            "Ctrl": -1,
+            "PI": 1
+          }
+        },
+        {
+          "id": "effect_altered",
+          "label": "PI − Ctrl within Il18 KO",
+          "coefficients": {
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        },
+        {
+          "id": "difference_of_effects",
+          "label": "KO − WT history effects",
+          "coefficients": {
+            "Ctrl": 1,
+            "PI": -1,
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDF6f",
+      "label": "Il1r1 background",
+      "comparison_type": "history_background",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "group_order": [
+        "Ctrl",
+        "PI",
+        "KOCtrl",
+        "KOPI"
+      ],
+      "extended_caption_n": 4,
+      "main_caption_n": 4,
+      "main_caption_relation": "equal",
+      "main_rate_ns": {
+        "Ctrl": 3,
+        "PI": 2,
+        "KOCtrl": 6,
+        "KOPI": 5
+      },
+      "rate_endpoint": "F5e_rate",
+      "rate_group_ids": {
+        "Ctrl": "Ctrl",
+        "PI": "PI",
+        "KOCtrl": "KOCtrl",
+        "KOPI": "KOPI"
+      },
+      "contrasts": [
+        {
+          "id": "effect_reference",
+          "label": "PI − Ctrl within WT",
+          "coefficients": {
+            "Ctrl": -1,
+            "PI": 1
+          }
+        },
+        {
+          "id": "effect_altered",
+          "label": "PI − Ctrl within Il1r1 KO",
+          "coefficients": {
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        },
+        {
+          "id": "difference_of_effects",
+          "label": "KO − WT history effects",
+          "coefficients": {
+            "Ctrl": 1,
+            "PI": -1,
+            "KOCtrl": -1,
+            "KOPI": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDF6g",
+      "label": "Aim2 OE by IL1R1 blockade",
+      "comparison_type": "oe_blockade",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "group_order": [
+        "CtrlIg",
+        "CtrlAnti",
+        "OEIg",
+        "OEAnti"
+      ],
+      "extended_caption_n": 4,
+      "main_caption_n": 3,
+      "main_caption_relation": "equal",
+      "main_rate_ns": {
+        "CtrlIg": 3,
+        "CtrlAnti": 3,
+        "OEIg": 4,
+        "OEAnti": 4
+      },
+      "rate_endpoint": "F5g_rate",
+      "rate_group_ids": {
+        "CtrlIg": "CtrlIg",
+        "CtrlAnti": "CtrlAnti",
+        "OEIg": "OEIg",
+        "OEAnti": "OEAnti"
+      },
+      "contrasts": [
+        {
+          "id": "effect_reference",
+          "label": "OE − Ctrl within Ig",
+          "coefficients": {
+            "CtrlIg": -1,
+            "OEIg": 1
+          }
+        },
+        {
+          "id": "effect_altered",
+          "label": "OE − Ctrl within anti-IL1R1",
+          "coefficients": {
+            "CtrlAnti": -1,
+            "OEAnti": 1
+          }
+        },
+        {
+          "id": "difference_of_effects",
+          "label": "Anti − Ig OE effects",
+          "coefficients": {
+            "CtrlIg": 1,
+            "OEIg": -1,
+            "CtrlAnti": -1,
+            "OEAnti": 1
+          }
+        }
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "id": "EDF5e_D0",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H3",
+            "I3",
+            "J3",
+            "K3",
+            "L3"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M3",
+            "N3"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O3",
+            "P3",
+            "Q3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D1",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H4",
+            "I4",
+            "J4",
+            "K4",
+            "L4"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M4",
+            "N4"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O4",
+            "P4",
+            "Q4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D2",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5",
+            "E5",
+            "F5",
+            "G5"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H5",
+            "I5",
+            "J5",
+            "K5",
+            "L5"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M5",
+            "N5"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O5",
+            "P5",
+            "Q5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D3",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6",
+            "E6",
+            "F6",
+            "G6"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H6",
+            "I6",
+            "J6",
+            "K6",
+            "L6"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M6",
+            "N6"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O6",
+            "P6",
+            "Q6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D4",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7",
+            "E7",
+            "F7",
+            "G7"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H7",
+            "I7",
+            "J7",
+            "K7",
+            "L7"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M7",
+            "N7"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O7",
+            "P7",
+            "Q7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D5",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8",
+            "E8",
+            "F8",
+            "G8"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H8",
+            "I8",
+            "J8",
+            "K8",
+            "L8"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M8",
+            "N8"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O8",
+            "P8",
+            "Q8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D6",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9",
+            "E9",
+            "F9",
+            "G9"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H9",
+            "I9",
+            "J9",
+            "K9",
+            "L9"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M9",
+            "N9"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O9",
+            "P9",
+            "Q9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D7",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10",
+            "E10",
+            "F10",
+            "G10"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H10",
+            "I10",
+            "J10",
+            "K10",
+            "L10"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M10",
+            "N10"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O10",
+            "P10",
+            "Q10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D8",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11",
+            "E11",
+            "F11",
+            "G11"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H11",
+            "I11",
+            "J11",
+            "K11",
+            "L11"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M11",
+            "N11"
+          ],
+          "expected_n": 1,
+          "expected_missing_cells": [
+            "N11"
+          ]
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O11",
+            "P11",
+            "Q11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D9",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 9,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B12",
+            "C12",
+            "D12",
+            "E12",
+            "F12",
+            "G12"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H12",
+            "I12",
+            "J12",
+            "K12",
+            "L12"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M12",
+            "N12"
+          ],
+          "expected_n": 1,
+          "expected_missing_cells": [
+            "N12"
+          ]
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O12",
+            "P12",
+            "Q12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5e_D10",
+      "panel": "EDF5e",
+      "workbook": "16",
+      "sheet": "EDF5e",
+      "day": 10,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A13",
+          "value": 10
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B13",
+            "C13",
+            "D13",
+            "E13",
+            "F13",
+            "G13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": [
+            "B13",
+            "C13",
+            "D13"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "H2",
+          "cells": [
+            "H13",
+            "I13",
+            "J13",
+            "K13",
+            "L13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": [
+            "H13",
+            "I13"
+          ]
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "source_label": "Aim2KO Ctrl",
+          "label_cell": "M2",
+          "cells": [
+            "M13",
+            "N13"
+          ],
+          "expected_n": 1,
+          "expected_missing_cells": [
+            "N13"
+          ]
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "source_label": "Aim2KO PI",
+          "label_cell": "O2",
+          "cells": [
+            "O13",
+            "P13",
+            "Q13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D0",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D1",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D2",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E5",
+            "F5",
+            "G5"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D3",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E6",
+            "F6",
+            "G6"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D4",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E7",
+            "F7",
+            "G7"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D5",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E8",
+            "F8",
+            "G8"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D6",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E9",
+            "F9",
+            "G9"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D7",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E10",
+            "F10",
+            "G10"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D8",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E11",
+            "F11",
+            "G11"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF5f_D9",
+      "panel": "EDF5f",
+      "workbook": "16",
+      "sheet": "EDF5f",
+      "day": 9,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B12",
+            "C12",
+            "D12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OE",
+          "label": "Aim2OE",
+          "source_label": "Aim2OE",
+          "label_cell": "E2",
+          "cells": [
+            "E12",
+            "F12",
+            "G12"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": [
+            "G12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D0",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3",
+            "E3",
+            "F3"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G3",
+            "H3",
+            "I3",
+            "J3",
+            "K3"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L3",
+            "M3",
+            "N3",
+            "O3"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P3",
+            "Q3",
+            "R3",
+            "S3",
+            "T3",
+            "U3",
+            "V3"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D1",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G4",
+            "H4",
+            "I4",
+            "J4",
+            "K4"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L4",
+            "M4",
+            "N4",
+            "O4"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P4",
+            "Q4",
+            "R4",
+            "S4",
+            "T4",
+            "U4",
+            "V4"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D2",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5",
+            "E5",
+            "F5"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G5",
+            "H5",
+            "I5",
+            "J5",
+            "K5"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L5",
+            "M5",
+            "N5",
+            "O5"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P5",
+            "Q5",
+            "R5",
+            "S5",
+            "T5",
+            "U5",
+            "V5"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D3",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6",
+            "E6",
+            "F6"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G6",
+            "H6",
+            "I6",
+            "J6",
+            "K6"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L6",
+            "M6",
+            "N6",
+            "O6"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P6",
+            "Q6",
+            "R6",
+            "S6",
+            "T6",
+            "U6",
+            "V6"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D4",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7",
+            "E7",
+            "F7"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G7",
+            "H7",
+            "I7",
+            "J7",
+            "K7"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L7",
+            "M7",
+            "N7",
+            "O7"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P7",
+            "Q7",
+            "R7",
+            "S7",
+            "T7",
+            "U7",
+            "V7"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D5",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8",
+            "E8",
+            "F8"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G8",
+            "H8",
+            "I8",
+            "J8",
+            "K8"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L8",
+            "M8",
+            "N8",
+            "O8"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P8",
+            "Q8",
+            "R8",
+            "S8",
+            "T8",
+            "U8",
+            "V8"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D6",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9",
+            "E9",
+            "F9"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G9",
+            "H9",
+            "I9",
+            "J9",
+            "K9"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L9",
+            "M9",
+            "N9",
+            "O9"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P9",
+            "Q9",
+            "R9",
+            "S9",
+            "T9",
+            "U9",
+            "V9"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D7",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10",
+            "E10",
+            "F10"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G10",
+            "H10",
+            "I10",
+            "J10",
+            "K10"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L10",
+            "M10",
+            "N10",
+            "O10"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P10",
+            "Q10",
+            "R10",
+            "S10",
+            "T10",
+            "U10",
+            "V10"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6d_D8",
+      "panel": "EDF6d",
+      "workbook": "17",
+      "sheet": "EDF6d",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "source_label": "Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11",
+            "E11",
+            "F11"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "source_label": "PI",
+          "label_cell": "G2",
+          "cells": [
+            "G11",
+            "H11",
+            "I11",
+            "J11",
+            "K11"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl+YVAD",
+          "source_label": "Ctrl+YVAD",
+          "label_cell": "L2",
+          "cells": [
+            "L11",
+            "M11",
+            "N11",
+            "O11"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI+YVAD",
+          "source_label": "PI+YVAD",
+          "label_cell": "P2",
+          "cells": [
+            "P11",
+            "Q11",
+            "R11",
+            "S11",
+            "T11",
+            "U11",
+            "V11"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": [
+            "V11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D0",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H3",
+            "I3",
+            "J3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K3",
+            "L3",
+            "M3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D1",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H4",
+            "I4",
+            "J4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K4",
+            "L4",
+            "M4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D2",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E5",
+            "F5",
+            "G5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H5",
+            "I5",
+            "J5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K5",
+            "L5",
+            "M5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D3",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E6",
+            "F6",
+            "G6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H6",
+            "I6",
+            "J6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K6",
+            "L6",
+            "M6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D4",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E7",
+            "F7",
+            "G7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H7",
+            "I7",
+            "J7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K7",
+            "L7",
+            "M7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D5",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E8",
+            "F8",
+            "G8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H8",
+            "I8",
+            "J8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K8",
+            "L8",
+            "M8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D6",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E9",
+            "F9",
+            "G9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H9",
+            "I9",
+            "J9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K9",
+            "L9",
+            "M9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D7",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E10",
+            "F10",
+            "G10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H10",
+            "I10",
+            "J10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K10",
+            "L10",
+            "M10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D8",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E11",
+            "F11",
+            "G11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H11",
+            "I11",
+            "J11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K11",
+            "L11",
+            "M11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6e_D9",
+      "panel": "EDF6e",
+      "workbook": "17",
+      "sheet": "EDF6e",
+      "day": 9,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        },
+        {
+          "cell": "A13",
+          "value": null
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B12",
+            "C12",
+            "D12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E12",
+            "F12",
+            "G12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "source_label": "Il18 KO Ctrl",
+          "label_cell": "H2",
+          "cells": [
+            "H12",
+            "I12",
+            "J12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "source_label": "Il18 KO PI",
+          "label_cell": "K2",
+          "cells": [
+            "K12",
+            "L12",
+            "M12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D0",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E3",
+            "F3"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G3",
+            "H3",
+            "I3",
+            "J3",
+            "K3",
+            "L3"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M3",
+            "N3",
+            "O3",
+            "P3",
+            "Q3"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D1",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E4",
+            "F4"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G4",
+            "H4",
+            "I4",
+            "J4",
+            "K4",
+            "L4"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M4",
+            "N4",
+            "O4",
+            "P4",
+            "Q4"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D2",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E5",
+            "F5"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G5",
+            "H5",
+            "I5",
+            "J5",
+            "K5",
+            "L5"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M5",
+            "N5",
+            "O5",
+            "P5",
+            "Q5"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D3",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E6",
+            "F6"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G6",
+            "H6",
+            "I6",
+            "J6",
+            "K6",
+            "L6"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M6",
+            "N6",
+            "O6",
+            "P6",
+            "Q6"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D4",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E7",
+            "F7"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G7",
+            "H7",
+            "I7",
+            "J7",
+            "K7",
+            "L7"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M7",
+            "N7",
+            "O7",
+            "P7",
+            "Q7"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D5",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E8",
+            "F8"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G8",
+            "H8",
+            "I8",
+            "J8",
+            "K8",
+            "L8"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M8",
+            "N8",
+            "O8",
+            "P8",
+            "Q8"
+          ],
+          "expected_n": 5,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D6",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E9",
+            "F9"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G9",
+            "H9",
+            "I9",
+            "J9",
+            "K9",
+            "L9"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M9",
+            "N9",
+            "O9",
+            "P9",
+            "Q9"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": [
+            "M9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D7",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E10",
+            "F10"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G10",
+            "H10",
+            "I10",
+            "J10",
+            "K10",
+            "L10"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M10",
+            "N10",
+            "O10",
+            "P10",
+            "Q10"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": [
+            "M10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D8",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E11",
+            "F11"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G11",
+            "H11",
+            "I11",
+            "J11",
+            "K11",
+            "L11"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M11",
+            "N11",
+            "O11",
+            "P11",
+            "Q11"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": [
+            "M11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D9",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 9,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B12",
+            "C12",
+            "D12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E12",
+            "F12"
+          ],
+          "expected_n": 2,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G12",
+            "H12",
+            "I12",
+            "J12",
+            "K12",
+            "L12"
+          ],
+          "expected_n": 6,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M12",
+            "N12",
+            "O12",
+            "P12",
+            "Q12"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": [
+            "M12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6f_D10",
+      "panel": "EDF6f",
+      "workbook": "17",
+      "sheet": "EDF6f",
+      "day": 10,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A13",
+          "value": 10
+        }
+      ],
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "source_label": "WT Ctrl",
+          "label_cell": "B2",
+          "cells": [
+            "B13",
+            "C13",
+            "D13"
+          ],
+          "expected_n": 0,
+          "expected_missing_cells": [
+            "B13",
+            "C13",
+            "D13"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "source_label": "WT PI",
+          "label_cell": "E2",
+          "cells": [
+            "E13",
+            "F13"
+          ],
+          "expected_n": 0,
+          "expected_missing_cells": [
+            "E13",
+            "F13"
+          ]
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "source_label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "cells": [
+            "G13",
+            "H13",
+            "I13",
+            "J13",
+            "K13",
+            "L13"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": [
+            "G13",
+            "H13"
+          ]
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "source_label": "Il1r1 KO PI",
+          "label_cell": "M2",
+          "cells": [
+            "M13",
+            "N13",
+            "O13",
+            "P13",
+            "Q13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": [
+            "M13",
+            "N13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D0",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 0,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E3",
+            "F3",
+            "G3",
+            "H3"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I3",
+            "J3",
+            "K3"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L3",
+            "M3",
+            "N3",
+            "O3"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D1",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 1,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E4",
+            "F4",
+            "G4",
+            "H4"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I4",
+            "J4",
+            "K4"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L4",
+            "M4",
+            "N4",
+            "O4"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D2",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 2,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B5",
+            "C5",
+            "D5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E5",
+            "F5",
+            "G5",
+            "H5"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I5",
+            "J5",
+            "K5"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L5",
+            "M5",
+            "N5",
+            "O5"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D3",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 3,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B6",
+            "C6",
+            "D6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E6",
+            "F6",
+            "G6",
+            "H6"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I6",
+            "J6",
+            "K6"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L6",
+            "M6",
+            "N6",
+            "O6"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D4",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 4,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B7",
+            "C7",
+            "D7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E7",
+            "F7",
+            "G7",
+            "H7"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I7",
+            "J7",
+            "K7"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L7",
+            "M7",
+            "N7",
+            "O7"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D5",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 5,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B8",
+            "C8",
+            "D8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E8",
+            "F8",
+            "G8",
+            "H8"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I8",
+            "J8",
+            "K8"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L8",
+            "M8",
+            "N8",
+            "O8"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D6",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 6,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B9",
+            "C9",
+            "D9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E9",
+            "F9",
+            "G9",
+            "H9"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I9",
+            "J9",
+            "K9"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L9",
+            "M9",
+            "N9",
+            "O9"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D7",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 7,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B10",
+            "C10",
+            "D10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E10",
+            "F10",
+            "G10",
+            "H10"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I10",
+            "J10",
+            "K10"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L10",
+            "M10",
+            "N10",
+            "O10"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D8",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 8,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B11",
+            "C11",
+            "D11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E11",
+            "F11",
+            "G11",
+            "H11"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I11",
+            "J11",
+            "K11"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L11",
+            "M11",
+            "N11",
+            "O11"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D9",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 9,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B12",
+            "C12",
+            "D12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E12",
+            "F12",
+            "G12",
+            "H12"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I12",
+            "J12",
+            "K12"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L12",
+            "M12",
+            "N12",
+            "O12"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    },
+    {
+      "id": "EDF6g_D10",
+      "panel": "EDF6g",
+      "workbook": "17",
+      "sheet": "EDF6g",
+      "day": 10,
+      "kind": "records",
+      "unit": "mm^2",
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2) "
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "A13",
+          "value": 10
+        }
+      ],
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + Control Ig",
+          "source_label": "Ctrl + Control Ig",
+          "label_cell": "B2",
+          "cells": [
+            "B13",
+            "C13",
+            "D13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + Anti-IL1R1",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "label_cell": "E2",
+          "cells": [
+            "E13",
+            "F13",
+            "G13",
+            "H13"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + Control Ig",
+          "source_label": "Aim2OE + Control Ig",
+          "label_cell": "I2",
+          "cells": [
+            "I13",
+            "J13",
+            "K13"
+          ],
+          "expected_n": 3,
+          "expected_missing_cells": []
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + Anti-IL1R1",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "label_cell": "L2",
+          "cells": [
+            "L13",
+            "M13",
+            "N13",
+            "O13"
+          ],
+          "expected_n": 4,
+          "expected_missing_cells": []
+        }
+      ]
+    }
+  ],
+  "pdf_caption_guards": [
+    {
+      "line": 2657,
+      "value": "healing after inflammation (n =​ 3). For further data, see Fig. 4g. f, Aim2 "
+    },
+    {
+      "line": 2659,
+      "value": "mice (n =​ 4). For further data, see Fig. 4h. For individual data points in e "
+    },
+    {
+      "line": 2660,
+      "value": "and f, see Source Data. Data are mean ±​ s.e.m. n denotes the number of "
+    },
+    {
+      "line": 2661,
+      "value": "biologically independent animals per group. Experiments in a–e have been "
+    },
+    {
+      "line": 2761,
+      "value": "(n =​ 3). See  Fig. 5b for schematic and further data. e, The absence of Il18 "
+    },
+    {
+      "line": 2763,
+      "value": "(n =​ 3). For further data, see Fig. 5d. f, The absence of IL-1β​ signalling, "
+    },
+    {
+      "line": 2765,
+      "value": "post-inflamed skin (n =​ 4). For further data, see Fig. 5e. g, Anti-IL-1R1 "
+    },
+    {
+      "line": 2767,
+      "value": "Aim2 overexpression in naive mice (n =​ 4). For further data, see Fig. 5g. "
+    },
+    {
+      "line": 2769,
+      "value": "(b) and 50 μ​m (c). n =​ 3. Data are mean ±​ s.e.m. n denotes the number of "
+    },
+    {
+      "line": 2770,
+      "value": "biologically independent animals per group. Experiments in a–f have been "
+    }
+  ],
+  "expected_shape": {
+    "endpoints": 62,
+    "group_days": 228,
+    "contrast_days": 166
+  }
+}

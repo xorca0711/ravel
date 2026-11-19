@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s3_tss_rank_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s3_tss_rank_v1.json",
+  "contract_sha256": "7b3bdf0afb56acaf1b3f6c36a03c9d06cf42dba1c744ddfa2e736cb542564c67",
+  "git_commit": "28a62d955fc9c1bb9b03b15f3969278bb6483098",
+  "started_at": "2026-11-17T17:29:01.407356+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s3_tss_rank_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s3_tss_rank_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441001_CTRL_Day6_mm10_ATAC_Rep_1_.bw",
+      "sha256": "50be6a146989388901f33d48b5c99a6647cc9db8c98b8369eb0b11a489c04649",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441002_CTRL_Day6_mm10_ATAC_Rep_2_.bw",
+      "sha256": "08469b3ea53df347cf22516afada162c4ffbb8d5d23861d377f1a58b6c89633a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441003_IMQ_Day6_mm10_ATAC_Rep_1_.bw",
+      "sha256": "ec08ec638a7dd82fa96ac33c75f1548197579d98430672d208ebba923589a4d2",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441004_IMQ_Day6_mm10_ATAC_Rep_2_.bw",
+      "sha256": "2e9d6a572e7ed8ab570ed18ab081d6d872152642ab150a69c1787d3eb0eebd0c",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441005_Control_Day30_mm10_ATAC_Rep_1_.bw",
+      "sha256": "510b406ff09cf71c9b94fd7558c42bf8700e326887588890b75ce6b545f36a5b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441006_Control_Day30_mm10_ATAC_Rep_2_.bw",
+      "sha256": "4468521f3227b7b6b21471f56148f65b619792faed046fe0fb66df75f35fd240",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441007_PostInflamed_Day30_mm10_ATAC_Rep_1_.bw",
+      "sha256": "ed1aae301d961572505a1ac05e039de6d83ecd39f55efccc314ad67e99a8a97d",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/GSM2441008_PostInflamed_Day30_mm10_ATAC_Rep_2_.bw",
+      "sha256": "8818cad26cb7e09ea4f1b4a314aa03bb357bb011614badafb9ab5208ee9d1618",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/acquisition_manifest_v1.json",
+      "sha256": "76ae97f738e25d202483581dbc0ad0232ca3138d139feb1a5919ac18d25ad23d",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/mm10.chrom.sizes",
+      "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+      "study_id": "UCSC_mm10",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/runtime_smoke.json",
+      "sha256": "178699b3beaea1b29e4eb0e761ee12303f4f9804295ba340c0ab6da0a7a84c67",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/wheels_manifest.json",
+      "sha256": "e1017682df9cb972b658a6bac6e8e07823437360526da2ac4fe6bc18c18c4c5b",
+      "study_id": "supported_reader_runtime",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "GENCODE_M9",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/selected_cases.tsv",
+      "sha256": "a465e158999a6631ead29d352323a9be7969263a98558b64ce0d0afaec03760a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/header_metadata.json",
+      "sha256": "b16b9c77fb5ffb204b5030afb58ef93d4ce8b2d2bf648ff0e3450c0d52a66e1b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/qualification.json",
+      "sha256": "b5de98cae8a33196d22fe2008026cb3b37a8270220145c4d6e1dec7fe2caeded",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/verification.json",
+      "sha256": "a44389fb46a30f5fd9231b2545defa9a0d6e65e015bc20f937a26c82c623f907",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/receipt.json",
+      "sha256": "2ab54614d0c3b69889604ba85758a1b717ffa9ea152e6bead7fe12b96a0ceaf9",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md",
+      "sha256": "9595f71520d7a3b056848101b1f1fc8fd8da6c68344b56501dbb03393375900d",
+      "study_id": "Nk17-P01_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S3_AMENDMENT_V1.md",
+      "sha256": "6f59edfa652e6b39c782e0d5d45d8858ed01e9b08cfeb08687cef084bfe70197",
+      "study_id": "Nk17-P01_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md",
+      "sha256": "20b10a18cefa77402c285d5fc2516869116eb07c4e8a3768c28aee5070db3433",
+      "study_id": "Nk17-P01_method",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_v1.py",
+      "sha256": "6f21b28c87219bbed90dfccaf55503fd99a26b87d76c24fab92be27bd2039e9e"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_extract_v1.py",
+      "sha256": "ad004d5c1f017befbc2d1fb2b1f51aaf12ae3f417a9768f261c1e4bb84115314"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_mean_verify_v1.py",
+      "sha256": "eddab80d794c21612b3e6ac458a53c5d643414b488b79af3d60675da298ac7fc"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_plot_v1.py",
+      "sha256": "320bd7791b133b03da589559a2f6ed540f6f339b53afb759a03e6a6cd48f50f9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_verify_v1.py",
+      "sha256": "4bac2f34634934224f0d2f63e806bcb206931429b14edc1a72855b1182ddbcec"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s3_rank_v1.py",
+      "sha256": "efeb8e475eccf2e87cfb9cc5f6ff971c65c385a7ff2cc0891123873846781400"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/example_manifest.json",
+      "sha256": "a4add65205419783196800ab2521571e0e73db3d86627827a984c088872702f7"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/verification_windows.tsv",
+      "sha256": "d1212c5a2bbd6f2538117f67e7e86dff1a85575f75d951a7f3c5e1cb4ae33d44"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/window_signal.tsv.gz",
+      "sha256": "cf0874d4d25c5b1bbdd4f5807e074387e88e32aee7d3aa50ab02ff26fd290a3e"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/extraction_progress.json",
+      "sha256": "c68c9b7e6bc3dacce5d98491d88cf163cc26708ad061122aeda1bcc47d213693"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/mean_readback.tsv",
+      "sha256": "0ef21ea8c2e101cc589cb552ed5bdc207fd4ea18233db5fa286965fbd45ba81b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/window_effects.tsv.gz",
+      "sha256": "f4a0692ebcf42a678a950d11371d170f0e916eee2b203c12847c3c2d42db8327"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/library_diagnostics.tsv",
+      "sha256": "e3d670647f67c6265f82778eca4203554339c862eb3bfcaa423d3b25dd6c2d04"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/summary.json",
+      "sha256": "bb31fc1dc779affcb5edf47726bbf5d16b2e1ddaaa9c742d7ea3bae56f7939bb"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/selected_cases.tsv",
+      "sha256": "97033b824e81091aa185d09db55b910cb2d48adeca3f9892a47b4e7f6b845c57"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/runtime.json",
+      "sha256": "dcbd037147f26d641049a3dd8eb0499449432b60be5208b6154dbdadc32a7413"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/verification.json",
+      "sha256": "aef425dfa52a08774a2ea35c8cf0192ce0c5040fcc3a369a30eb472ea3d0005b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.png",
+      "sha256": "416443b9528230e66046166d132844ec1a0e5343c88bac933d2ccc47e7a61e3e"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/fig01_relative_rank_overview.pdf",
+      "sha256": "066a507d601ecc531e7df29790e17d5eef5bdaafa37be53473430de4e6d87edc"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.png",
+      "sha256": "bdf70472002e091d8f837f88b7e32174ec2bdf951f1dc5c8feac306e301ac114"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/fig02_fixed_examples.pdf",
+      "sha256": "47c3eb3fd6daa16e3d379db80c28c483ea65c7edfd9a6baf779b40c4cbc6cff4"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-17T17:43:32.456992+00:00"
+}

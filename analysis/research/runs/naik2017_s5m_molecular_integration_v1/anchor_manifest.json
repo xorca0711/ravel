@@ -1,0 +1,72 @@
+[
+  {
+    "plot_slot": 1,
+    "gene_id": "ENSMUSG00000037860.15",
+    "gene_name": "Aim2",
+    "selection": "published pathway anchor; exposed",
+    "source_record_present": true,
+    "atac_status": "assayed_TSS_proxy",
+    "universe_primary": true,
+    "universe_all_mapped": true,
+    "rna_any_zero_flag": true,
+    "rna_any_low_or_regularization_flag": false,
+    "primary_eligibility_reason": "eligible",
+    "all_mapped_eligibility_reason": "eligible"
+  },
+  {
+    "plot_slot": 2,
+    "gene_id": "ENSMUSG00000025888.5",
+    "gene_name": "Casp1",
+    "selection": "published pathway anchor; exposed",
+    "source_record_present": true,
+    "atac_status": "assayed_TSS_proxy",
+    "universe_primary": true,
+    "universe_all_mapped": true,
+    "rna_any_zero_flag": true,
+    "rna_any_low_or_regularization_flag": false,
+    "primary_eligibility_reason": "eligible",
+    "all_mapped_eligibility_reason": "eligible"
+  },
+  {
+    "plot_slot": 3,
+    "gene_id": "ENSMUSG00000027398.13",
+    "gene_name": "Il1b",
+    "selection": "published pathway anchor; exposed",
+    "source_record_present": true,
+    "atac_status": "assayed_TSS_proxy",
+    "universe_primary": false,
+    "universe_all_mapped": true,
+    "rna_any_zero_flag": true,
+    "rna_any_low_or_regularization_flag": false,
+    "primary_eligibility_reason": "frozen_expression_not_qualified",
+    "all_mapped_eligibility_reason": "eligible"
+  },
+  {
+    "plot_slot": 4,
+    "gene_id": "ENSMUSG00000026072.12",
+    "gene_name": "Il1r1",
+    "selection": "published pathway anchor; exposed",
+    "source_record_present": true,
+    "atac_status": "assayed_TSS_proxy",
+    "universe_primary": true,
+    "universe_all_mapped": true,
+    "rna_any_zero_flag": true,
+    "rna_any_low_or_regularization_flag": false,
+    "primary_eligibility_reason": "eligible",
+    "all_mapped_eligibility_reason": "eligible"
+  },
+  {
+    "plot_slot": 5,
+    "gene_id": "ENSMUSG00000039217.12",
+    "gene_name": "Il18",
+    "selection": "published pathway anchor; exposed",
+    "source_record_present": true,
+    "atac_status": "assayed_TSS_proxy",
+    "universe_primary": true,
+    "universe_all_mapped": true,
+    "rna_any_zero_flag": true,
+    "rna_any_low_or_regularization_flag": false,
+    "primary_eligibility_reason": "eligible",
+    "all_mapped_eligibility_reason": "eligible"
+  }
+]

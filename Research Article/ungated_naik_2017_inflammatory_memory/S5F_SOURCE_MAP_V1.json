@@ -1,0 +1,3606 @@
+{
+  "schema_version": 1,
+  "owner": "Nk17-P01",
+  "source_qualification_date": "2026-11-19",
+  "prior_outcome_exposure": "exposed",
+  "source_files": {
+    "7": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM7_ESM.xlsx",
+      "sha256": "b7eeaedf36b09d4ab9e2cb778bd2e66f888f99ce3d5eb10fcad988d18a11ed43",
+      "source_version": "Naik 2017 Source Data MOESM7"
+    },
+    "10": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM10_ESM.xlsx",
+      "sha256": "33b1232b94e95d38d42062ca8e7ea174b7fdaad93fb2e8edb759c5f306969be1",
+      "source_version": "Naik 2017 Source Data MOESM10"
+    },
+    "11": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM11_ESM.xlsx",
+      "sha256": "8f80255f15432b4ee163bfe08c8a15ba49ead3feef47975d73fb82f7141a05cf",
+      "source_version": "Naik 2017 Source Data MOESM11"
+    }
+  },
+  "caption_source": {
+    "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt",
+    "version": "Owner-supplied final PDF text; source version retains Fig2g correction",
+    "locators": {
+      "Figure1": "lines 338-366",
+      "Figure4": "lines 895-923",
+      "Figure5": "lines 1153-1181"
+    }
+  },
+  "endpoints": [
+    {
+      "id": "F1b_area_D0",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 0",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3",
+            "H3",
+            "I3",
+            "J3",
+            "K3",
+            "L3",
+            "M3",
+            "N3",
+            "O3",
+            "P3",
+            "Q3",
+            "R3",
+            "S3",
+            "T3",
+            "U3",
+            "V3",
+            "W3"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B19",
+            "C19",
+            "D19",
+            "E19",
+            "F19",
+            "G19",
+            "H19",
+            "I19",
+            "J19",
+            "K19",
+            "L19",
+            "M19",
+            "N19",
+            "O19",
+            "P19",
+            "Q19",
+            "R19"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A3",
+          "value": 0
+        },
+        {
+          "cell": "A19",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D1",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 1",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 13,
+          "normalization_reference": false,
+          "cells": [
+            "B4",
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4",
+            "H4",
+            "I4",
+            "J4",
+            "K4",
+            "L4",
+            "M4",
+            "N4",
+            "O4",
+            "P4",
+            "Q4",
+            "R4",
+            "S4",
+            "T4",
+            "U4",
+            "V4",
+            "W4"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 13,
+          "normalization_reference": false,
+          "cells": [
+            "B20",
+            "C20",
+            "D20",
+            "E20",
+            "F20",
+            "G20",
+            "H20",
+            "I20",
+            "J20",
+            "K20",
+            "L20",
+            "M20",
+            "N20",
+            "O20",
+            "P20",
+            "Q20",
+            "R20"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A4",
+          "value": 1
+        },
+        {
+          "cell": "A20",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D2",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 2",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 11,
+          "normalization_reference": false,
+          "cells": [
+            "B5",
+            "C5",
+            "D5",
+            "E5",
+            "F5",
+            "G5",
+            "H5",
+            "I5",
+            "J5",
+            "K5",
+            "L5",
+            "M5",
+            "N5",
+            "O5",
+            "P5",
+            "Q5",
+            "R5",
+            "S5",
+            "T5",
+            "U5",
+            "V5",
+            "W5"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 11,
+          "normalization_reference": false,
+          "cells": [
+            "B21",
+            "C21",
+            "D21",
+            "E21",
+            "F21",
+            "G21",
+            "H21",
+            "I21",
+            "J21",
+            "K21",
+            "L21",
+            "M21",
+            "N21",
+            "O21",
+            "P21",
+            "Q21",
+            "R21"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A5",
+          "value": 2
+        },
+        {
+          "cell": "A21",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D3",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 3",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 22,
+          "normalization_reference": false,
+          "cells": [
+            "B6",
+            "C6",
+            "D6",
+            "E6",
+            "F6",
+            "G6",
+            "H6",
+            "I6",
+            "J6",
+            "K6",
+            "L6",
+            "M6",
+            "N6",
+            "O6",
+            "P6",
+            "Q6",
+            "R6",
+            "S6",
+            "T6",
+            "U6",
+            "V6",
+            "W6"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 16,
+          "normalization_reference": false,
+          "cells": [
+            "B22",
+            "C22",
+            "D22",
+            "E22",
+            "F22",
+            "G22",
+            "H22",
+            "I22",
+            "J22",
+            "K22",
+            "L22",
+            "M22",
+            "N22",
+            "O22",
+            "P22",
+            "Q22",
+            "R22"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A6",
+          "value": 3
+        },
+        {
+          "cell": "A22",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D4",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 4",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 8,
+          "normalization_reference": false,
+          "cells": [
+            "B7",
+            "C7",
+            "D7",
+            "E7",
+            "F7",
+            "G7",
+            "H7",
+            "I7",
+            "J7",
+            "K7",
+            "L7",
+            "M7",
+            "N7",
+            "O7",
+            "P7",
+            "Q7",
+            "R7",
+            "S7",
+            "T7",
+            "U7",
+            "V7",
+            "W7"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 8,
+          "normalization_reference": false,
+          "cells": [
+            "B23",
+            "C23",
+            "D23",
+            "E23",
+            "F23",
+            "G23",
+            "H23",
+            "I23",
+            "J23",
+            "K23",
+            "L23",
+            "M23",
+            "N23",
+            "O23",
+            "P23",
+            "Q23",
+            "R23"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A7",
+          "value": 4
+        },
+        {
+          "cell": "A23",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D5",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 5",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 19,
+          "normalization_reference": false,
+          "cells": [
+            "B8",
+            "C8",
+            "D8",
+            "E8",
+            "F8",
+            "G8",
+            "H8",
+            "I8",
+            "J8",
+            "K8",
+            "L8",
+            "M8",
+            "N8",
+            "O8",
+            "P8",
+            "Q8",
+            "R8",
+            "S8",
+            "T8",
+            "U8",
+            "V8",
+            "W8"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 14,
+          "normalization_reference": false,
+          "cells": [
+            "B24",
+            "C24",
+            "D24",
+            "E24",
+            "F24",
+            "G24",
+            "H24",
+            "I24",
+            "J24",
+            "K24",
+            "L24",
+            "M24",
+            "N24",
+            "O24",
+            "P24",
+            "Q24",
+            "R24"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A8",
+          "value": 5
+        },
+        {
+          "cell": "A24",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D6",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 6",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "B9",
+            "C9",
+            "D9",
+            "E9",
+            "F9",
+            "G9",
+            "H9",
+            "I9",
+            "J9",
+            "K9",
+            "L9",
+            "M9",
+            "N9",
+            "O9",
+            "P9",
+            "Q9",
+            "R9",
+            "S9",
+            "T9",
+            "U9",
+            "V9",
+            "W9"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B25",
+            "C25",
+            "D25",
+            "E25",
+            "F25",
+            "G25",
+            "H25",
+            "I25",
+            "J25",
+            "K25",
+            "L25",
+            "M25",
+            "N25",
+            "O25",
+            "P25",
+            "Q25",
+            "R25"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A9",
+          "value": 6
+        },
+        {
+          "cell": "A25",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D7",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 7",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 15,
+          "normalization_reference": false,
+          "cells": [
+            "B10",
+            "C10",
+            "D10",
+            "E10",
+            "F10",
+            "G10",
+            "H10",
+            "I10",
+            "J10",
+            "K10",
+            "L10",
+            "M10",
+            "N10",
+            "O10",
+            "P10",
+            "Q10",
+            "R10",
+            "S10",
+            "T10",
+            "U10",
+            "V10",
+            "W10"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 11,
+          "normalization_reference": false,
+          "cells": [
+            "B26",
+            "C26",
+            "D26",
+            "E26",
+            "F26",
+            "G26",
+            "H26",
+            "I26",
+            "J26",
+            "K26",
+            "L26",
+            "M26",
+            "N26",
+            "O26",
+            "P26",
+            "Q26",
+            "R26"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A10",
+          "value": 7
+        },
+        {
+          "cell": "A26",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D8",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 8",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B11",
+            "C11",
+            "D11",
+            "E11",
+            "F11",
+            "G11",
+            "H11",
+            "I11",
+            "J11",
+            "K11",
+            "L11",
+            "M11",
+            "N11",
+            "O11",
+            "P11",
+            "Q11",
+            "R11",
+            "S11",
+            "T11",
+            "U11",
+            "V11",
+            "W11"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B27",
+            "C27",
+            "D27",
+            "E27",
+            "F27",
+            "G27",
+            "H27",
+            "I27",
+            "J27",
+            "K27",
+            "L27",
+            "M27",
+            "N27",
+            "O27",
+            "P27",
+            "Q27",
+            "R27"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A11",
+          "value": 8
+        },
+        {
+          "cell": "A27",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D9",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 9",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B12",
+            "C12",
+            "D12",
+            "E12",
+            "F12",
+            "G12",
+            "H12",
+            "I12",
+            "J12",
+            "K12",
+            "L12",
+            "M12",
+            "N12",
+            "O12",
+            "P12",
+            "Q12",
+            "R12",
+            "S12",
+            "T12",
+            "U12",
+            "V12",
+            "W12"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B28",
+            "C28",
+            "D28",
+            "E28",
+            "F28",
+            "G28",
+            "H28",
+            "I28",
+            "J28",
+            "K28",
+            "L28",
+            "M28",
+            "N28",
+            "O28",
+            "P28",
+            "Q28",
+            "R28"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A12",
+          "value": 9
+        },
+        {
+          "cell": "A28",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "F1b_area_D10",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "D30-history wound area",
+      "unit": "mm^2",
+      "kind": "records",
+      "time": "post-wound day 10",
+      "caption_n": 17,
+      "caption_n_relation": "context_only",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Sparse columns do not establish repeated animal trajectories. Daily cell count is not animal N.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 10,
+          "normalization_reference": false,
+          "cells": [
+            "B13",
+            "C13",
+            "D13",
+            "E13",
+            "F13",
+            "G13",
+            "H13",
+            "I13",
+            "J13",
+            "K13",
+            "L13",
+            "M13",
+            "N13",
+            "O13",
+            "P13",
+            "Q13",
+            "R13",
+            "S13",
+            "T13",
+            "U13",
+            "V13",
+            "W13"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "D30 PI",
+          "label_cell": "B18",
+          "source_label": "D30 PI",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B29",
+            "C29",
+            "D29",
+            "E29",
+            "F29",
+            "G29",
+            "H29",
+            "I29",
+            "J29",
+            "K29",
+            "L29",
+            "M29",
+            "N29",
+            "O29",
+            "P29",
+            "Q29",
+            "R29"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound Area (mm^2)"
+        },
+        {
+          "cell": "A2",
+          "value": "Day"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "A18",
+          "value": "Day"
+        },
+        {
+          "cell": "B18",
+          "value": "D30 PI"
+        },
+        {
+          "cell": "A13",
+          "value": 10
+        },
+        {
+          "cell": "A29",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "F1e_tongue_D1",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "Epithelial tongue length",
+      "unit": "micrometers",
+      "kind": "records",
+      "time": "post-wound day 1",
+      "caption_n": 4,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "C3",
+            "D3",
+            "E3",
+            "F3",
+            "G3"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "H2",
+          "source_label": "PI",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "H3",
+            "I3",
+            "J3",
+            "K3",
+            "L3",
+            "M3"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Tongue length (μm)"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "H2",
+          "value": "PI"
+        },
+        {
+          "cell": "A3",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "F1e_tongue_D3",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "Epithelial tongue length",
+      "unit": "micrometers",
+      "kind": "records",
+      "time": "post-wound day 3",
+      "caption_n": 4,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B4",
+            "C4",
+            "D4",
+            "E4",
+            "F4",
+            "G4"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "H2",
+          "source_label": "PI",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "H4",
+            "I4",
+            "J4",
+            "K4",
+            "L4",
+            "M4"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Tongue length (μm)"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "H2",
+          "value": "PI"
+        },
+        {
+          "cell": "A4",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "F1e_tongue_D5",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "Epithelial tongue length",
+      "unit": "micrometers",
+      "kind": "records",
+      "time": "post-wound day 5",
+      "caption_n": 4,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "cells": [
+            "B5",
+            "C5",
+            "D5",
+            "E5",
+            "F5",
+            "G5"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "H2",
+          "source_label": "PI",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "cells": [
+            "H5",
+            "I5",
+            "J5",
+            "K5",
+            "L5",
+            "M5"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Tongue length (μm)"
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "H2",
+          "value": "PI"
+        },
+        {
+          "cell": "A5",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "F1e_edu_D1",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "EdU-positive wound-edge fraction",
+      "unit": "percent (contrast: percentage points)",
+      "kind": "records",
+      "time": "post-wound day 1",
+      "caption_n": 2,
+      "caption_n_relation": "at_least",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Caption denominator is K14+ EdU+ cells divided by K17+ cells. Only percentages, not numerator/denominator counts, are supplied; not a division rate.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B10",
+          "source_label": "Ctrl",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B11",
+            "C11",
+            "D11",
+            "E11"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "F10",
+          "source_label": "PI",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "F11",
+            "G11",
+            "H11",
+            "I11"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A9",
+          "value": "%EdU+ K17/K14+ cells"
+        },
+        {
+          "cell": "B10",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "F10",
+          "value": "PI"
+        },
+        {
+          "cell": "A11",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "F1e_edu_D3",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "EdU-positive wound-edge fraction",
+      "unit": "percent (contrast: percentage points)",
+      "kind": "records",
+      "time": "post-wound day 3",
+      "caption_n": 2,
+      "caption_n_relation": "at_least",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Caption denominator is K14+ EdU+ cells divided by K17+ cells. Only percentages, not numerator/denominator counts, are supplied; not a division rate.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B10",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "B12",
+            "C12",
+            "D12",
+            "E12"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "F10",
+          "source_label": "PI",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "F12",
+            "G12",
+            "H12",
+            "I12"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A9",
+          "value": "%EdU+ K17/K14+ cells"
+        },
+        {
+          "cell": "B10",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "F10",
+          "value": "PI"
+        },
+        {
+          "cell": "A12",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "F1e_edu_D5",
+      "workbook": "7",
+      "sheet": "F1e",
+      "title": "EdU-positive wound-edge fraction",
+      "unit": "percent (contrast: percentage points)",
+      "kind": "records",
+      "time": "post-wound day 5",
+      "caption_n": 2,
+      "caption_n_relation": "at_least",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Caption denominator is K14+ EdU+ cells divided by K17+ cells. Only percentages, not numerator/denominator counts, are supplied; not a division rate.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B10",
+          "source_label": "Ctrl",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "B13",
+            "C13",
+            "D13",
+            "E13"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "F10",
+          "source_label": "PI",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "F13",
+            "G13",
+            "H13",
+            "I13"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A9",
+          "value": "%EdU+ K17/K14+ cells"
+        },
+        {
+          "cell": "B10",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "F10",
+          "value": "PI"
+        },
+        {
+          "cell": "A13",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "F1g_outgrowth",
+      "workbook": "7",
+      "sheet": "F1g",
+      "title": "Explant outgrowth, day 10",
+      "unit": "mm",
+      "kind": "records",
+      "time": "explant day 10",
+      "caption_n": 14,
+      "caption_n_relation": "at_least",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Worksheet labels each row a biological replicate, compatible with animal-unit caption. No condition pairing or individual-cell speed.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A2",
+          "source_label": "Ctrl",
+          "expected_n": 23,
+          "normalization_reference": false,
+          "cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14",
+            "A15",
+            "A16",
+            "A17",
+            "A18",
+            "A19",
+            "A20",
+            "A21",
+            "A22",
+            "A23",
+            "A24",
+            "A25"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "B2",
+          "source_label": "PI",
+          "expected_n": 14,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10",
+            "B11",
+            "B12",
+            "B13",
+            "B14",
+            "B15",
+            "B16"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Distance (mm)"
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "B2",
+          "value": "PI"
+        },
+        {
+          "cell": "D2",
+          "value": "*Each row is a biological replicate"
+        }
+      ]
+    },
+    {
+      "id": "F4h_Aim2_qpcr",
+      "workbook": "10",
+      "sheet": "F4h",
+      "title": "Aim2 source-normalized expression",
+      "unit": "source-normalized fold change (arbitrary units)",
+      "kind": "records",
+      "time": "naive Aim2-OE panel",
+      "caption_n": 2,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. RFP-/RFP+ are source groups. No linked animal-level repair data; all-1 reference values do not measure zero biological variance.",
+      "groups": [
+        {
+          "id": "RFPminus",
+          "label": "RFP- reference",
+          "label_cell": "A2",
+          "source_label": "RFP-",
+          "expected_n": 2,
+          "normalization_reference": true,
+          "cells": [
+            "A3",
+            "A4"
+          ]
+        },
+        {
+          "id": "RFPplus",
+          "label": "RFP+ Aim2 OE",
+          "label_cell": "B2",
+          "source_label": "RFP+",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "B4"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Pgk-H2B-RFP;TRE-Aim2 OE fold change in Aim2 Expression (arbitrary units)"
+        },
+        {
+          "cell": "A2",
+          "value": "RFP-"
+        },
+        {
+          "cell": "B2",
+          "value": "RFP+"
+        }
+      ]
+    },
+    {
+      "id": "F5a_Casp1_qpcr",
+      "workbook": "11",
+      "sheet": "F5a",
+      "title": "Casp1 source-normalized qPCR",
+      "unit": "source-normalized fold change",
+      "kind": "records",
+      "time": "12 hours after wounding",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. All-1 controls are normalization references.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl reference",
+          "label_cell": "A2",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": true,
+          "cells": [
+            "A3",
+            "A4",
+            "A5"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "B2",
+          "source_label": "PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "B4",
+            "B5"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Wound-edge qPCR Casp1 12hr post-wounding (Fold change over control) expressed as arbritary units "
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "B2",
+          "value": "PI"
+        }
+      ]
+    },
+    {
+      "id": "F5a_CASP1_activity",
+      "workbook": "11",
+      "sheet": "F5a",
+      "title": "CASP1 activity",
+      "unit": "U/g total protein",
+      "kind": "records",
+      "time": "12 hours after wounding",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Source counts 6/5 differ from caption n=3; aggregation cannot be reconstructed.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A8",
+          "source_label": "Ctrl",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "cells": [
+            "A9",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "B8",
+          "source_label": "PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "cells": [
+            "B9",
+            "B10",
+            "B11",
+            "B12",
+            "B13"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A7",
+          "value": "CASP1 U/g total protein "
+        },
+        {
+          "cell": "A8",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "B8",
+          "value": "PI"
+        }
+      ]
+    },
+    {
+      "id": "F5b_CASP1_activity",
+      "workbook": "11",
+      "sheet": "F5b",
+      "title": "CASP1 activity with inhibitor",
+      "unit": "U/g total protein",
+      "kind": "records",
+      "time": "post-wound source panel",
+      "caption_n": 2,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A2",
+          "source_label": "Ctrl",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "A3",
+            "A4"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "B2",
+          "source_label": "PI",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "B4"
+          ]
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl + YVAD",
+          "label_cell": "C2",
+          "source_label": "Ctrl+YVAD",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "C3",
+            "C4"
+          ]
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI + YVAD",
+          "label_cell": "D2",
+          "source_label": "PI+YVAD",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "D3",
+            "D4"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "CASP1 U/g total protein "
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "B2",
+          "value": "PI"
+        },
+        {
+          "cell": "C2",
+          "value": "Ctrl+YVAD"
+        },
+        {
+          "cell": "D2",
+          "value": "PI+YVAD"
+        }
+      ]
+    },
+    {
+      "id": "F5c_Il18_qpcr",
+      "workbook": "11",
+      "sheet": "F5c",
+      "title": "Il18 qpcr",
+      "unit": "source-normalized fold change",
+      "kind": "records",
+      "time": "post-wound source panel",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. All-1 controls are normalization references.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl reference",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": true,
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "E2",
+          "source_label": "PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "qPCR of wound edge cytokines (Fold change over control) expressed as arbritary units "
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "E2",
+          "value": "PI"
+        },
+        {
+          "cell": "A3",
+          "value": "Il18"
+        }
+      ]
+    },
+    {
+      "id": "F5c_Il1b_qpcr",
+      "workbook": "11",
+      "sheet": "F5c",
+      "title": "Il1b qpcr",
+      "unit": "source-normalized fold change",
+      "kind": "records",
+      "time": "post-wound source panel",
+      "caption_n": 2,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. All-1 controls are normalization references.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl reference",
+          "label_cell": "B2",
+          "source_label": "Ctrl",
+          "expected_n": 2,
+          "normalization_reference": true,
+          "cells": [
+            "B4",
+            "C4"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "E2",
+          "source_label": "PI",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "cells": [
+            "E4",
+            "F4"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "qPCR of wound edge cytokines (Fold change over control) expressed as arbritary units "
+        },
+        {
+          "cell": "B2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "E2",
+          "value": "PI"
+        },
+        {
+          "cell": "A4",
+          "value": "Il1β"
+        }
+      ]
+    },
+    {
+      "id": "F5c_IL18_protein",
+      "workbook": "11",
+      "sheet": "F5c",
+      "title": "IL18 protein",
+      "unit": "pg/g total protein",
+      "kind": "records",
+      "time": "post-wound source panel",
+      "caption_n": 4,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B7",
+          "source_label": "Ctrl",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "B8",
+            "C8",
+            "D8",
+            "E8"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "F7",
+          "source_label": "PI",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "cells": [
+            "F8",
+            "G8",
+            "H8",
+            "I8"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A6",
+          "value": "pg/g total protein"
+        },
+        {
+          "cell": "B7",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "F7",
+          "value": "PI"
+        },
+        {
+          "cell": "A8",
+          "value": "IL18"
+        }
+      ]
+    },
+    {
+      "id": "F5c_IL1beta_protein",
+      "workbook": "11",
+      "sheet": "F5c",
+      "title": "IL1beta protein",
+      "unit": "pg/g total protein",
+      "kind": "records",
+      "time": "post-wound source panel",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. ",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "B7",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "B9",
+            "C9",
+            "D9"
+          ]
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "F7",
+          "source_label": "PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "F9",
+            "G9",
+            "H9"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A6",
+          "value": "pg/g total protein"
+        },
+        {
+          "cell": "B7",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "F7",
+          "value": "PI"
+        },
+        {
+          "cell": "A9",
+          "value": "IL1β"
+        }
+      ]
+    },
+    {
+      "id": "F5f_outgrowth",
+      "workbook": "11",
+      "sheet": "F5f",
+      "title": "K14+ explant outgrowth, day 5",
+      "unit": "mm",
+      "kind": "records",
+      "time": "explant day 5",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Caption n=3 animals, three technical replicates per mouse. Three source values/group; averaging and matching undocumented. No N=9 or day-10 pooling.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A2",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "A3",
+            "A4",
+            "A5"
+          ]
+        },
+        {
+          "id": "IL18",
+          "label": "IL-18",
+          "label_cell": "B2",
+          "source_label": "IL18",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "B3",
+            "B4",
+            "B5"
+          ]
+        },
+        {
+          "id": "IL1beta",
+          "label": "IL-1beta",
+          "label_cell": "C2",
+          "source_label": "IL1β",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "cells": [
+            "C3",
+            "C4",
+            "C5"
+          ]
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Distance of outgrowth (mm)"
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "B2",
+          "value": "IL18"
+        },
+        {
+          "cell": "C2",
+          "value": "IL1β"
+        }
+      ]
+    },
+    {
+      "id": "F1b_rate_D30",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "F1b rate D30",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "D30 history",
+      "caption_n": 17,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A33",
+          "source_label": "Ctrl",
+          "expected_n": 22,
+          "normalization_reference": false,
+          "mean_cell": "A35",
+          "se_cell": "B35",
+          "n_cell": "C35",
+          "se_source_label": "Std Error"
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "D33",
+          "source_label": "PI",
+          "expected_n": 17,
+          "normalization_reference": false,
+          "mean_cell": "D35",
+          "se_cell": "E35",
+          "n_cell": "F35",
+          "se_source_label": "Std Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A32",
+          "value": "Rate of Wound Closure D30 "
+        },
+        {
+          "cell": "A33",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "D33",
+          "value": "PI"
+        },
+        {
+          "cell": "A34",
+          "value": "Mean"
+        },
+        {
+          "cell": "B34",
+          "value": "Std Error"
+        },
+        {
+          "cell": "C34",
+          "value": "N"
+        },
+        {
+          "cell": "D34",
+          "value": "Mean"
+        },
+        {
+          "cell": "E34",
+          "value": "Std Error"
+        },
+        {
+          "cell": "F34",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          185,
+          329
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F1b_rate_D180",
+      "workbook": "7",
+      "sheet": "F1b",
+      "title": "F1b rate D180",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "D180 history",
+      "caption_n": 5,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A39",
+          "source_label": "Ctrl",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "mean_cell": "A41",
+          "se_cell": "B41",
+          "n_cell": "C41",
+          "se_source_label": "Std Error"
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "D39",
+          "source_label": "PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "mean_cell": "D41",
+          "se_cell": "E41",
+          "n_cell": "F41",
+          "se_source_label": "Std Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A38",
+          "value": "Rate of Wound Closure D180"
+        },
+        {
+          "cell": "A39",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "D39",
+          "value": "PI"
+        },
+        {
+          "cell": "A40",
+          "value": "Mean"
+        },
+        {
+          "cell": "B40",
+          "value": "Std Error"
+        },
+        {
+          "cell": "C40",
+          "value": "N"
+        },
+        {
+          "cell": "D40",
+          "value": "Mean"
+        },
+        {
+          "cell": "E40",
+          "value": "Std Error"
+        },
+        {
+          "cell": "F40",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          185,
+          329
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F4g_rate",
+      "workbook": "10",
+      "sheet": "F4g",
+      "title": "F4g rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "history by Aim2 background",
+      "caption_n": 2,
+      "caption_n_relation": "at_least",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Reference Ctrl",
+          "label_cell": "A2",
+          "source_label": "Ctrl",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "mean_cell": "A4",
+          "se_cell": "B4",
+          "n_cell": "C4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "PI",
+          "label": "Reference PI",
+          "label_cell": "D2",
+          "source_label": "PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "mean_cell": "D4",
+          "se_cell": "E4",
+          "n_cell": "F4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Aim2KO Ctrl",
+          "label_cell": "G2",
+          "source_label": "Aim2KO Ctrl",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "mean_cell": "G4",
+          "se_cell": "H4",
+          "n_cell": "I4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOPI",
+          "label": "Aim2KO PI",
+          "label_cell": "J2",
+          "source_label": "Aim2KO PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "J4",
+          "se_cell": "K4",
+          "n_cell": "L4",
+          "se_source_label": "Std. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Rate Constant "
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "D2",
+          "value": "PI"
+        },
+        {
+          "cell": "G2",
+          "value": "Aim2KO Ctrl"
+        },
+        {
+          "cell": "J2",
+          "value": "Aim2KO PI"
+        },
+        {
+          "cell": "A3",
+          "value": "Mean"
+        },
+        {
+          "cell": "B3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "C3",
+          "value": "N"
+        },
+        {
+          "cell": "D3",
+          "value": "Mean"
+        },
+        {
+          "cell": "E3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "F3",
+          "value": "N"
+        },
+        {
+          "cell": "G3",
+          "value": "Mean"
+        },
+        {
+          "cell": "H3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "I3",
+          "value": "N"
+        },
+        {
+          "cell": "J3",
+          "value": "Mean"
+        },
+        {
+          "cell": "K3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "L3",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          803,
+          894
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F4h_rate",
+      "workbook": "10",
+      "sheet": "F4h",
+      "title": "F4h rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "naive background, Aim2 overexpression",
+      "caption_n": 2,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A7",
+          "source_label": "Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "A9",
+          "se_cell": "B9",
+          "n_cell": "C9",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "Aim2OE",
+          "label": "Aim2 OE",
+          "label_cell": "D7",
+          "source_label": "Aim2OE",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "mean_cell": "D9",
+          "se_cell": "E9",
+          "n_cell": "F9",
+          "se_source_label": "Std. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A6",
+          "value": "Rate Constant "
+        },
+        {
+          "cell": "A7",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "D7",
+          "value": "Aim2OE"
+        },
+        {
+          "cell": "A8",
+          "value": "Mean"
+        },
+        {
+          "cell": "B8",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "C8",
+          "value": "N"
+        },
+        {
+          "cell": "D8",
+          "value": "Mean"
+        },
+        {
+          "cell": "E8",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "F8",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          803,
+          894
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F5b_rate",
+      "workbook": "11",
+      "sheet": "F5b",
+      "title": "F5b rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "history by CASP1 inhibition",
+      "caption_n": 5,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "Ctrl",
+          "label_cell": "A10",
+          "source_label": "Ctrl",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "mean_cell": "A12",
+          "se_cell": "B12",
+          "n_cell": "C12",
+          "se_source_label": "Sd. Error"
+        },
+        {
+          "id": "PI",
+          "label": "PI",
+          "label_cell": "D10",
+          "source_label": "PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "mean_cell": "D12",
+          "se_cell": "E12",
+          "n_cell": "F12",
+          "se_source_label": "Sd. Error"
+        },
+        {
+          "id": "CtrlYVAD",
+          "label": "Ctrl + YVAD",
+          "label_cell": "G10",
+          "source_label": "Ctrl+YVAD",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "mean_cell": "G12",
+          "se_cell": "H12",
+          "n_cell": "I12",
+          "se_source_label": "Sd. Error"
+        },
+        {
+          "id": "PIYVAD",
+          "label": "PI + YVAD",
+          "label_cell": "J10",
+          "source_label": "PI+YVAD",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "mean_cell": "J12",
+          "se_cell": "K12",
+          "n_cell": "L12",
+          "se_source_label": "Sd. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A9",
+          "value": "Rate Constant"
+        },
+        {
+          "cell": "A10",
+          "value": "Ctrl"
+        },
+        {
+          "cell": "D10",
+          "value": "PI"
+        },
+        {
+          "cell": "G10",
+          "value": "Ctrl+YVAD"
+        },
+        {
+          "cell": "J10",
+          "value": "PI+YVAD"
+        },
+        {
+          "cell": "A11",
+          "value": "Mean"
+        },
+        {
+          "cell": "B11",
+          "value": "Sd. Error"
+        },
+        {
+          "cell": "C11",
+          "value": "N"
+        },
+        {
+          "cell": "D11",
+          "value": "Mean"
+        },
+        {
+          "cell": "E11",
+          "value": "Sd. Error"
+        },
+        {
+          "cell": "F11",
+          "value": "N"
+        },
+        {
+          "cell": "G11",
+          "value": "Mean"
+        },
+        {
+          "cell": "H11",
+          "value": "Sd. Error"
+        },
+        {
+          "cell": "I11",
+          "value": "N"
+        },
+        {
+          "cell": "J11",
+          "value": "Mean"
+        },
+        {
+          "cell": "K11",
+          "value": "Sd. Error"
+        },
+        {
+          "cell": "L11",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          1059,
+          1150,
+          1151,
+          1152
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F5d_rate",
+      "workbook": "11",
+      "sheet": "F5d",
+      "title": "F5d rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "history by Il18 background",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "label_cell": "A2",
+          "source_label": "WT Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "A4",
+          "se_cell": "B4",
+          "n_cell": "C4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "label_cell": "D2",
+          "source_label": "WT PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "D4",
+          "se_cell": "E4",
+          "n_cell": "F4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il18 KO Ctrl",
+          "label_cell": "G2",
+          "source_label": "Il18 KO Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "G4",
+          "se_cell": "H4",
+          "n_cell": "I4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOPI",
+          "label": "Il18 KO PI",
+          "label_cell": "J2",
+          "source_label": "Il18 KO PI",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "J4",
+          "se_cell": "K4",
+          "n_cell": "L4",
+          "se_source_label": "Std. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Rate Constant"
+        },
+        {
+          "cell": "A2",
+          "value": "WT Ctrl"
+        },
+        {
+          "cell": "D2",
+          "value": "WT PI"
+        },
+        {
+          "cell": "G2",
+          "value": "Il18 KO Ctrl"
+        },
+        {
+          "cell": "J2",
+          "value": "Il18 KO PI"
+        },
+        {
+          "cell": "A3",
+          "value": "Mean"
+        },
+        {
+          "cell": "B3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "C3",
+          "value": "N"
+        },
+        {
+          "cell": "D3",
+          "value": "Mean"
+        },
+        {
+          "cell": "E3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "F3",
+          "value": "N"
+        },
+        {
+          "cell": "G3",
+          "value": "Mean"
+        },
+        {
+          "cell": "H3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "I3",
+          "value": "N"
+        },
+        {
+          "cell": "J3",
+          "value": "Mean"
+        },
+        {
+          "cell": "K3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "L3",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          1059,
+          1150,
+          1151,
+          1152
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F5e_rate",
+      "workbook": "11",
+      "sheet": "F5e",
+      "title": "F5e rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "history by Il1r1 background",
+      "caption_n": 4,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "Ctrl",
+          "label": "WT Ctrl",
+          "label_cell": "A2",
+          "source_label": "WT Ctrl",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "A4",
+          "se_cell": "B4",
+          "n_cell": "C4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "PI",
+          "label": "WT PI",
+          "label_cell": "D2",
+          "source_label": "WT PI",
+          "expected_n": 2,
+          "normalization_reference": false,
+          "mean_cell": "D4",
+          "se_cell": "E4",
+          "n_cell": "F4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOCtrl",
+          "label": "Il1r1 KO Ctrl",
+          "label_cell": "G2",
+          "source_label": "Il1r1 KO Ctrl",
+          "expected_n": 6,
+          "normalization_reference": false,
+          "mean_cell": "G4",
+          "se_cell": "H4",
+          "n_cell": "I4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "KOPI",
+          "label": "Il1r1 KO PI",
+          "label_cell": "J2",
+          "source_label": "Il1r1 KO PI",
+          "expected_n": 5,
+          "normalization_reference": false,
+          "mean_cell": "J4",
+          "se_cell": "K4",
+          "n_cell": "L4",
+          "se_source_label": "Std. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Rate Constant "
+        },
+        {
+          "cell": "A2",
+          "value": "WT Ctrl"
+        },
+        {
+          "cell": "D2",
+          "value": "WT PI"
+        },
+        {
+          "cell": "G2",
+          "value": "Il1r1 KO Ctrl"
+        },
+        {
+          "cell": "J2",
+          "value": "Il1r1 KO PI"
+        },
+        {
+          "cell": "A3",
+          "value": "Mean"
+        },
+        {
+          "cell": "B3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "C3",
+          "value": "N"
+        },
+        {
+          "cell": "D3",
+          "value": "Mean"
+        },
+        {
+          "cell": "E3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "F3",
+          "value": "N"
+        },
+        {
+          "cell": "G3",
+          "value": "Mean"
+        },
+        {
+          "cell": "H3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "I3",
+          "value": "N"
+        },
+        {
+          "cell": "J3",
+          "value": "Mean"
+        },
+        {
+          "cell": "K3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "L3",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          1059,
+          1150,
+          1151,
+          1152
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    },
+    {
+      "id": "F5g_rate",
+      "workbook": "11",
+      "sheet": "F5g",
+      "title": "F5g rate",
+      "unit": "day^-1",
+      "kind": "reported_summary",
+      "time": "Aim2 OE by IL1R1 blockade",
+      "caption_n": 3,
+      "caption_n_relation": "equal",
+      "biological_unit_note": "Caption n denotes biologically independent animals; exact animal IDs, technical aggregation and cross-panel matching are not supplied. Source records are the finite descriptive units. Reported Mean/SE/N are fitted-rate summaries, not individual rates/trajectories. No refitting, reconstructed SD, contrast SE or population interval.",
+      "groups": [
+        {
+          "id": "CtrlIg",
+          "label": "Ctrl + control Ig",
+          "label_cell": "A2",
+          "source_label": "Ctrl +  Control Ig",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "A4",
+          "se_cell": "B4",
+          "n_cell": "C4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "CtrlAnti",
+          "label": "Ctrl + anti-IL1R1",
+          "label_cell": "D2",
+          "source_label": "Ctrl + Anti-IL1R1",
+          "expected_n": 3,
+          "normalization_reference": false,
+          "mean_cell": "D4",
+          "se_cell": "E4",
+          "n_cell": "F4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "OEIg",
+          "label": "Aim2OE + control Ig",
+          "label_cell": "G2",
+          "source_label": "Aim2OE + Control Ig",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "mean_cell": "G4",
+          "se_cell": "H4",
+          "n_cell": "I4",
+          "se_source_label": "Std. Error"
+        },
+        {
+          "id": "OEAnti",
+          "label": "Aim2OE + anti-IL1R1",
+          "label_cell": "J2",
+          "source_label": "Aim2OE + Anti-IL1R1",
+          "expected_n": 4,
+          "normalization_reference": false,
+          "mean_cell": "J4",
+          "se_cell": "K4",
+          "n_cell": "L4",
+          "se_source_label": "Std. Error"
+        }
+      ],
+      "header_guards": [
+        {
+          "cell": "A1",
+          "value": "Rate Constant"
+        },
+        {
+          "cell": "A2",
+          "value": "Ctrl +  Control Ig"
+        },
+        {
+          "cell": "D2",
+          "value": "Ctrl + Anti-IL1R1"
+        },
+        {
+          "cell": "G2",
+          "value": "Aim2OE + Control Ig"
+        },
+        {
+          "cell": "J2",
+          "value": "Aim2OE + Anti-IL1R1"
+        },
+        {
+          "cell": "A3",
+          "value": "Mean"
+        },
+        {
+          "cell": "B3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "C3",
+          "value": "N"
+        },
+        {
+          "cell": "D3",
+          "value": "Mean"
+        },
+        {
+          "cell": "E3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "F3",
+          "value": "N"
+        },
+        {
+          "cell": "G3",
+          "value": "Mean"
+        },
+        {
+          "cell": "H3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "I3",
+          "value": "N"
+        },
+        {
+          "cell": "J3",
+          "value": "Mean"
+        },
+        {
+          "cell": "K3",
+          "value": "Std. Error"
+        },
+        {
+          "cell": "L3",
+          "value": "N"
+        }
+      ],
+      "unit_provenance": {
+        "source": "supplied final PDF axis: Rate constant k (day–1)",
+        "lines": [
+          1059,
+          1150,
+          1151,
+          1152
+        ],
+        "workbook_note": "Workbook header states Rate Constant but omits the unit."
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "F1e_tongue_D1__difference",
+      "endpoint": "F1e_tongue_D1",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1e_tongue_D3__difference",
+      "endpoint": "F1e_tongue_D3",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1e_tongue_D5__difference",
+      "endpoint": "F1e_tongue_D5",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1e_edu_D1__difference",
+      "endpoint": "F1e_edu_D1",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1e_edu_D3__difference",
+      "endpoint": "F1e_edu_D3",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1e_edu_D5__difference",
+      "endpoint": "F1e_edu_D5",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1g_outgrowth__difference",
+      "endpoint": "F1g_outgrowth",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F4h_Aim2_qpcr__difference",
+      "endpoint": "F4h_Aim2_qpcr",
+      "label": "RFP+ minus fixed RFP- reference",
+      "coefficients": {
+        "RFPplus": 1,
+        "RFPminus": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5a_Casp1_qpcr__difference",
+      "endpoint": "F5a_Casp1_qpcr",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5a_CASP1_activity__difference",
+      "endpoint": "F5a_CASP1_activity",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_CASP1_activity__effect_base",
+      "endpoint": "F5b_CASP1_activity",
+      "label": "PI minus Ctrl in reference background",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_CASP1_activity__effect_altered",
+      "endpoint": "F5b_CASP1_activity",
+      "label": "PI minus Ctrl in altered background",
+      "coefficients": {
+        "PIYVAD": 1,
+        "CtrlYVAD": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_CASP1_activity__difference_of_effects",
+      "endpoint": "F5b_CASP1_activity",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "PI": -1,
+        "Ctrl": 1,
+        "PIYVAD": 1,
+        "CtrlYVAD": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5c_Il18_qpcr__difference",
+      "endpoint": "F5c_Il18_qpcr",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5c_Il1b_qpcr__difference",
+      "endpoint": "F5c_Il1b_qpcr",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5c_IL18_protein__difference",
+      "endpoint": "F5c_IL18_protein",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5c_IL1beta_protein__difference",
+      "endpoint": "F5c_IL1beta_protein",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5f_outgrowth__IL18_minus_Ctrl",
+      "endpoint": "F5f_outgrowth",
+      "label": "IL18 minus Ctrl",
+      "coefficients": {
+        "IL18": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5f_outgrowth__IL1beta_minus_Ctrl",
+      "endpoint": "F5f_outgrowth",
+      "label": "IL1beta minus Ctrl",
+      "coefficients": {
+        "IL1beta": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5f_outgrowth__IL1beta_minus_IL18",
+      "endpoint": "F5f_outgrowth",
+      "label": "IL1beta minus IL18",
+      "coefficients": {
+        "IL1beta": 1,
+        "IL18": -1
+      },
+      "leave_one_source_record_out": true,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1b_rate_D30__difference",
+      "endpoint": "F1b_rate_D30",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F1b_rate_D180__difference",
+      "endpoint": "F1b_rate_D180",
+      "label": "PI minus Ctrl",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F4g_rate__effect_base",
+      "endpoint": "F4g_rate",
+      "label": "PI minus Ctrl in reference background",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F4g_rate__effect_altered",
+      "endpoint": "F4g_rate",
+      "label": "PI minus Ctrl in altered background",
+      "coefficients": {
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F4g_rate__difference_of_effects",
+      "endpoint": "F4g_rate",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "PI": -1,
+        "Ctrl": 1,
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F4h_rate__difference",
+      "endpoint": "F4h_rate",
+      "label": "Aim2OE minus Ctrl",
+      "coefficients": {
+        "Aim2OE": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_rate__effect_base",
+      "endpoint": "F5b_rate",
+      "label": "PI minus Ctrl in reference background",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_rate__effect_altered",
+      "endpoint": "F5b_rate",
+      "label": "PI minus Ctrl in altered background",
+      "coefficients": {
+        "PIYVAD": 1,
+        "CtrlYVAD": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5b_rate__difference_of_effects",
+      "endpoint": "F5b_rate",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "PI": -1,
+        "Ctrl": 1,
+        "PIYVAD": 1,
+        "CtrlYVAD": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5d_rate__effect_base",
+      "endpoint": "F5d_rate",
+      "label": "PI minus Ctrl in reference background",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5d_rate__effect_altered",
+      "endpoint": "F5d_rate",
+      "label": "PI minus Ctrl in altered background",
+      "coefficients": {
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5d_rate__difference_of_effects",
+      "endpoint": "F5d_rate",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "PI": -1,
+        "Ctrl": 1,
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5e_rate__effect_base",
+      "endpoint": "F5e_rate",
+      "label": "PI minus Ctrl in reference background",
+      "coefficients": {
+        "PI": 1,
+        "Ctrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5e_rate__effect_altered",
+      "endpoint": "F5e_rate",
+      "label": "PI minus Ctrl in altered background",
+      "coefficients": {
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5e_rate__difference_of_effects",
+      "endpoint": "F5e_rate",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "PI": -1,
+        "Ctrl": 1,
+        "KOPI": 1,
+        "KOCtrl": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5g_rate__effect_base",
+      "endpoint": "F5g_rate",
+      "label": "Aim2OE minus Ctrl in reference background",
+      "coefficients": {
+        "OEIg": 1,
+        "CtrlIg": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5g_rate__effect_altered",
+      "endpoint": "F5g_rate",
+      "label": "Aim2OE minus Ctrl in altered background",
+      "coefficients": {
+        "OEAnti": 1,
+        "CtrlAnti": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    },
+    {
+      "id": "F5g_rate__difference_of_effects",
+      "endpoint": "F5g_rate",
+      "label": "Altered minus reference effect",
+      "coefficients": {
+        "OEIg": -1,
+        "CtrlIg": 1,
+        "OEAnti": 1,
+        "CtrlAnti": -1
+      },
+      "leave_one_source_record_out": false,
+      "delete_normalization_references": false
+    }
+  ],
+  "pdf_axis_guards": [
+    {
+      "line": 185,
+      "value": " Rate constant k (day–1) "
+    },
+    {
+      "line": 329,
+      "value": " Rate constant k (day–1) "
+    },
+    {
+      "line": 803,
+      "value": "Rate constant k (day–1)"
+    },
+    {
+      "line": 894,
+      "value": "Rate constant k (day–1)"
+    },
+    {
+      "line": 1059,
+      "value": "Rate constant k (day–1)"
+    },
+    {
+      "line": 1150,
+      "value": "Rate constant k (day–1)"
+    },
+    {
+      "line": 1151,
+      "value": "Rate constant k (day–1)"
+    },
+    {
+      "line": 1152,
+      "value": "Rate constant k (day–1)"
+    }
+  ]
+}

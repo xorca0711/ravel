@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s7_hamdan_response_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Within each of Hamdan patients 4 and 83, does a positive inflamed-derived versus noninflamed-derived post-challenge RNA contrast also represent a larger response after subtracting that patient's concurrent-control history contrast?",
+  "decision": "Retain complete donor-specific P/B/R_I/R_NI/A decompositions, both normalizations and raw-zero strata to distinguish baseline offsets, stronger induction and less repression. Agreement strengthens only finite-source relative-RNA description; discordance narrows that interpretation. Return complete results for review without adding a score, pathway or cohort to obtain a favorable extension.",
+  "strongest_rival": "Post-challenge differences may reflect concurrent baseline offsets, relative library composition, low abundance plus pseudocount, normalization, or donor/site/culture composition rather than enhanced response. Donor matching does not identify causal history effects. Unknown replicate nesting prevents treating library suffixes as extra patients or matched cultures.",
+  "discriminator": "Explicit per-patient A=(I_T-I_control)-(NI_T-NI_control)=P-B on the declared mean-normalized-count-then-log scale, with both constituent responses. Full eligible and any-raw-zero/no-raw-zero sign tables, total-count sensitivity and all sixteen unpaired library-combination extrema expose measurement dependence; they do not establish a mechanism, speed or function.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_RESPONSE_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4B_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Hamdan main and supplementary results including STEM/S7 are exposed, alongside completed Naik S2-S6C. The coordinator performed the bounded 19 November literature/source review and approved S6 rationale plus S7 method with a prospective raw-count-zero-strata addition. Before draft preparation only official source metadata, count header, hashes and supplement were read; no new Hamdan gene effects were computed. Fourteen constructed-data tests and the plotted preview use artificial values only. Concrete contract/source-map/implementation review is complete; the coordinator authorized frozen execution after setup checks. The unchanged exact map is additionally bound as execution configuration under the existing S6A precedent; no scientific choice changed.",
+  "biological_unit": "Two labeled patients (4 and 83), each with inflamed-derived I and noninflamed-derived NI intestinal organoids and two deposited library records in each concurrent control/shared-challenge condition. Exact culture/aliquot and technical-versus-biological replicate nesting remains unknown; the computational unit is a deposited bulk-RNA library.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Sixteen libraries nested within two donor labels and four history/condition cells per donor. Do not infer matched cultures from suffixes, count genes/libraries/combinations as patients or pool donors for population inference. This reuses Hamdan GSE282444 and is not independent replication of Hamdan or Naik. Scratch donor overlap 4/83 is observed but individual numeric phenotype/culture/time joins remain unqualified.",
+  "population_and_selection": "Exact 16 GSM/column identities in S7_HAMDAN_SOURCE_MAP_V1.json. Exclude exactly 36 separate baseline-triplicate columns and four patient-4-only TNF100 columns; no substring selection. Retain every unique supplied GeneId/annotation in source-row order, all biotypes/chromosomes. Per-donor distribution eligibility is any of its eight raw counts positive; all-eight-zero genes remain exported, flagged and outside that donor's distribution denominator.",
+  "contrast": "For each donor and normalization: e_hc=log2(mean of the two counts divided by library factors +1), B=e_I0-e_NI0, P=e_IT-e_NIT, R_I=e_IT-e_I0, R_NI=e_NIT-e_NI0, A=P-B=R_I-R_NI. One 24-hour endpoint: response magnitude, not speed. Export A minima/maxima from all 2^4 unpaired individual-library log contrasts as finite spread, not confidence intervals.",
+  "endpoint": "Relative normalized bulk gene counts and regularized log2 response contrasts. Positive A can describe induction or less repression; report R_I and R_NI. No absolute RNA, pathway activation, epigenetic memory storage, barrier/closure, causal history or repair endpoint.",
+  "methods": "Primary per-donor eight-library MOR uses all genes positive in all eight, per-gene geometric mean, ordinary median of ratios (arithmetic middle-pair mean), then factor geometric-mean centering. Sensitivity uses all-gene library totals/geometric mean totals. No empty-reference replacement. Group mean before log2(+1). All-row export, distinct raw/count/contrast/range zero flags, fixed 1e-10 computational sign tolerance, complete full-eligible 3x3 P/A and R_NI/R_I sign tables and separate any-raw-zero/no-raw-zero strata with exact counts/denominators/fractions; empty strata have null fractions. Quantiles use linear interpolation. Independent stdlib CSV/SOFT/50-digit Decimal verifies factors, every output row, all 16 ranges and all summaries. Six-panel all-eligible density display, no gene selection.",
+  "missingness_and_exclusions": "No imputation, marker filter, annotation replacement, history relabeling, sample exclusion or baseline-triplicate substitution. Zero is a supplied numeric count. Stop on source hashes/identities, malformed width/header, missing/duplicate GeneId/column, absent sample, ambiguous metadata, invalid noninteger/negative/nonfinite counts, counts/totals outside exact float integer range, nonpositive totals/factors, empty MOR reference or verification mismatch. No alternative dose/normalization/universe is substituted.",
+  "multiplicity": "Every gene, two donors and two declared normalizations are retained with full denominators. No p-values, inferential confidence intervals, equivalence tests, outcome-selected gene sets, enrichment, replication count or novel-mechanism claim. Raw-zero strata are prospective descriptions, not a new primary universe or biological threshold.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-source arithmetic and sensitivity description; no patient-population precision or power. Two donors and unresolved within-donor nesting do not support libraries/genes-as-patients inference. Computational tolerance 1e-10 and +1 are declared numerical conventions, not biological margins. Unpaired extrema are finite spread, not sixteen independent experiments.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "This distinct response estimand does not reproduce exact STEM inputs/membership or show that authors ignored baseline. Preserve main DESeq2 versus supplement edgeR and GEO HiSeq4000 versus paper NextSeq2000 discrepancies, and S7B repeated patient-4 condition text. Pairing does not remove anatomical-site/culture alternatives. No matched functional model, kinetics, chromatin causation, new RQ or claim acceptance follows; A1/Arz1 ownership remains intact.",
+  "stop_rule": "Concrete coordinator review passed. Require the committed frozen accepted specification/code/hashes; use only the governed runner with a fresh run ID. Stop on input/identity/normalization/independent-check failure; preserve failed artifacts. Planned observed process peak limit 2 GiB, run duration 30 minutes and outputs 500 MiB, with recorded cooperative checks rather than OS-isolation claims. Return all actual results/figure for coordinator review. No scratch digitization, RNA-function model, upstream rerun, new endpoint/score, external inquiry or publication.",
+  "inputs": [
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/GSE282444_gene_counts.txt.gz",
+      "sha256": "391f6e91822118b216a38966bf60f32ab7e6e1ea713150a731f5aebc7fe75575",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [
+        "patient4",
+        "patient83"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/GSE282444_family.soft.gz",
+      "sha256": "75ffcaee686786a2fa1cfc0fa6bff46639d9c681aed1bee5f1be7093b9f72073",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/hamdan2026_mmc1_europepmc.pdf",
+      "sha256": "515b66dd6403766ab52e1a1230fc02bd9187ec5ded47afa49375be52ad25ed39",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/bounded_source_acquisition.json",
+      "sha256": "b34a484604eb6806c10aaba70726f304d62a894199b7b097dad4c657b561622b",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/metadata_acquisition_unsandboxed.json",
+      "sha256": "4efd4a0ac405b9d1147d593925c54e98141554e8fe6432e0441bcf2a140a0705",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/supplement_europepmc_acquisition.json",
+      "sha256": "c230207af21511df8ed22c6fa6943bdaabe71fc4a84408ec74ede2448e14690c",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/local_copy_manifest_v1.json",
+      "sha256": "1edd5f00b871f7150dba691e6fb5e62381db0cd73136e881bb982b622fcd3c3f",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_RESPONSE_METHOD_V1.md",
+      "sha256": "cb71b080c7e8533a84df01408b32c62b7262fe8fd2c67a791175db226caccc84",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_SOURCE_MAP_V1.json",
+      "sha256": "a2fab71e4ac7f27493bde9d3bd524c5aaf8e5f56475c8da2329809f882c94daf",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_response_v1.py",
+      "sha256": "e5cbbbb522650df395e2f15dc5aad97bc5e3f7d0723282f31808c554e8c40103"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_verify_v1.py",
+      "sha256": "af885378555738a88960d1e39846cbef1f8b8608c6f66ccc05cbcb946a5c3ed9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_plot_v1.py",
+      "sha256": "627515f077065a0e76f0d0a44491ba396cfb60488b6d1aabc1646f1f979772f1"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_resources_v1.py",
+      "sha256": "9d995cd06de79573dc0d93d9b30d7e7744c49978f11bf55f1219c8598438a5a4"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s7_hamdan_response_v1.py",
+      "sha256": "934b79c39b558a60d54f033b715dd911884712c12a97c3d4b624f9d6cd4764a2"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_SOURCE_MAP_V1.json",
+      "sha256": "a2fab71e4ac7f27493bde9d3bd524c5aaf8e5f56475c8da2329809f882c94daf"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_response_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_samples.tsv",
+    "normalization.tsv",
+    "gene_responses.tsv.gz",
+    "normalization_sensitivity.tsv.gz",
+    "summary.json",
+    "source_structure.json",
+    "fig01_response_decomposition.png",
+    "fig01_response_decomposition.pdf",
+    "verification.json",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New bounded exposed cross-study response-estimand extension after reviewed Naik S6C; preserves all earlier Naik results and exact Hamdan source/method discrepancies. Prospective coordinator addition stratifies sign tables solely by raw-count-zero presence without changing eligibility."
+}

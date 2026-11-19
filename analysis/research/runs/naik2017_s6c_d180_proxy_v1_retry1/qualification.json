@@ -1,0 +1,1574 @@
+{
+  "status": "qualified_headers",
+  "all_four_headers_qualified": true,
+  "required_chromosomes": [
+    "chr1",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chrX"
+  ],
+  "tracks": [
+    {
+      "gsm": "GSM2652413",
+      "required_chromosomes": {
+        "chr1": {
+          "track": 195471971,
+          "mm10": 195471971,
+          "matches": true
+        },
+        "chr10": {
+          "track": 130694993,
+          "mm10": 130694993,
+          "matches": true
+        },
+        "chr11": {
+          "track": 122082543,
+          "mm10": 122082543,
+          "matches": true
+        },
+        "chr12": {
+          "track": 120129022,
+          "mm10": 120129022,
+          "matches": true
+        },
+        "chr13": {
+          "track": 120421639,
+          "mm10": 120421639,
+          "matches": true
+        },
+        "chr14": {
+          "track": 124902244,
+          "mm10": 124902244,
+          "matches": true
+        },
+        "chr15": {
+          "track": 104043685,
+          "mm10": 104043685,
+          "matches": true
+        },
+        "chr16": {
+          "track": 98207768,
+          "mm10": 98207768,
+          "matches": true
+        },
+        "chr17": {
+          "track": 94987271,
+          "mm10": 94987271,
+          "matches": true
+        },
+        "chr18": {
+          "track": 90702639,
+          "mm10": 90702639,
+          "matches": true
+        },
+        "chr19": {
+          "track": 61431566,
+          "mm10": 61431566,
+          "matches": true
+        },
+        "chr2": {
+          "track": 182113224,
+          "mm10": 182113224,
+          "matches": true
+        },
+        "chr3": {
+          "track": 160039680,
+          "mm10": 160039680,
+          "matches": true
+        },
+        "chr4": {
+          "track": 156508116,
+          "mm10": 156508116,
+          "matches": true
+        },
+        "chr5": {
+          "track": 151834684,
+          "mm10": 151834684,
+          "matches": true
+        },
+        "chr6": {
+          "track": 149736546,
+          "mm10": 149736546,
+          "matches": true
+        },
+        "chr7": {
+          "track": 145441459,
+          "mm10": 145441459,
+          "matches": true
+        },
+        "chr8": {
+          "track": 129401213,
+          "mm10": 129401213,
+          "matches": true
+        },
+        "chr9": {
+          "track": 124595110,
+          "mm10": 124595110,
+          "matches": true
+        },
+        "chrX": {
+          "track": 171031299,
+          "mm10": 171031299,
+          "matches": true
+        }
+      },
+      "unused_track_chromosomes": {
+        "GL456210.1": {
+          "track": 169725,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456211.1": {
+          "track": 241735,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456212.1": {
+          "track": 153618,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456213.1": {
+          "track": 39340,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456216.1": {
+          "track": 66673,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456219.1": {
+          "track": 175968,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456221.1": {
+          "track": 206961,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456233.1": {
+          "track": 336933,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456239.1": {
+          "track": 40056,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456350.1": {
+          "track": 227966,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456354.1": {
+          "track": 195993,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456359.1": {
+          "track": 22974,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456360.1": {
+          "track": 31704,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456366.1": {
+          "track": 47073,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456367.1": {
+          "track": 42057,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456368.1": {
+          "track": 20208,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456370.1": {
+          "track": 26764,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456372.1": {
+          "track": 28664,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456378.1": {
+          "track": 31602,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456379.1": {
+          "track": 72385,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456381.1": {
+          "track": 25871,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456382.1": {
+          "track": 23158,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456383.1": {
+          "track": 38659,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456385.1": {
+          "track": 35240,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456387.1": {
+          "track": 24685,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456389.1": {
+          "track": 28772,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456390.1": {
+          "track": 24668,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456392.1": {
+          "track": 23629,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456393.1": {
+          "track": 55711,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456394.1": {
+          "track": 24323,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456396.1": {
+          "track": 21240,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584292.1": {
+          "track": 14945,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584293.1": {
+          "track": 207968,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584294.1": {
+          "track": 191905,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584295.1": {
+          "track": 1976,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584296.1": {
+          "track": 199368,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584297.1": {
+          "track": 205776,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584298.1": {
+          "track": 184189,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584299.1": {
+          "track": 953012,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584300.1": {
+          "track": 182347,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584301.1": {
+          "track": 259875,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584302.1": {
+          "track": 155838,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584303.1": {
+          "track": 158099,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584304.1": {
+          "track": 114452,
+          "mm10": null,
+          "matches": false
+        },
+        "chrM": {
+          "track": 16299,
+          "mm10": 16299,
+          "matches": true
+        },
+        "chrY": {
+          "track": 91744698,
+          "mm10": 91744698,
+          "matches": true
+        }
+      },
+      "mm10_chromosomes_not_in_track": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "differences_from_S3_dictionary": {},
+      "qualified_for_window_extraction": true
+    },
+    {
+      "gsm": "GSM2652414",
+      "required_chromosomes": {
+        "chr1": {
+          "track": 195471971,
+          "mm10": 195471971,
+          "matches": true
+        },
+        "chr10": {
+          "track": 130694993,
+          "mm10": 130694993,
+          "matches": true
+        },
+        "chr11": {
+          "track": 122082543,
+          "mm10": 122082543,
+          "matches": true
+        },
+        "chr12": {
+          "track": 120129022,
+          "mm10": 120129022,
+          "matches": true
+        },
+        "chr13": {
+          "track": 120421639,
+          "mm10": 120421639,
+          "matches": true
+        },
+        "chr14": {
+          "track": 124902244,
+          "mm10": 124902244,
+          "matches": true
+        },
+        "chr15": {
+          "track": 104043685,
+          "mm10": 104043685,
+          "matches": true
+        },
+        "chr16": {
+          "track": 98207768,
+          "mm10": 98207768,
+          "matches": true
+        },
+        "chr17": {
+          "track": 94987271,
+          "mm10": 94987271,
+          "matches": true
+        },
+        "chr18": {
+          "track": 90702639,
+          "mm10": 90702639,
+          "matches": true
+        },
+        "chr19": {
+          "track": 61431566,
+          "mm10": 61431566,
+          "matches": true
+        },
+        "chr2": {
+          "track": 182113224,
+          "mm10": 182113224,
+          "matches": true
+        },
+        "chr3": {
+          "track": 160039680,
+          "mm10": 160039680,
+          "matches": true
+        },
+        "chr4": {
+          "track": 156508116,
+          "mm10": 156508116,
+          "matches": true
+        },
+        "chr5": {
+          "track": 151834684,
+          "mm10": 151834684,
+          "matches": true
+        },
+        "chr6": {
+          "track": 149736546,
+          "mm10": 149736546,
+          "matches": true
+        },
+        "chr7": {
+          "track": 145441459,
+          "mm10": 145441459,
+          "matches": true
+        },
+        "chr8": {
+          "track": 129401213,
+          "mm10": 129401213,
+          "matches": true
+        },
+        "chr9": {
+          "track": 124595110,
+          "mm10": 124595110,
+          "matches": true
+        },
+        "chrX": {
+          "track": 171031299,
+          "mm10": 171031299,
+          "matches": true
+        }
+      },
+      "unused_track_chromosomes": {
+        "GL456210.1": {
+          "track": 169725,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456211.1": {
+          "track": 241735,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456212.1": {
+          "track": 153618,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456213.1": {
+          "track": 39340,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456216.1": {
+          "track": 66673,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456219.1": {
+          "track": 175968,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456221.1": {
+          "track": 206961,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456233.1": {
+          "track": 336933,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456239.1": {
+          "track": 40056,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456350.1": {
+          "track": 227966,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456354.1": {
+          "track": 195993,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456359.1": {
+          "track": 22974,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456360.1": {
+          "track": 31704,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456366.1": {
+          "track": 47073,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456367.1": {
+          "track": 42057,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456368.1": {
+          "track": 20208,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456370.1": {
+          "track": 26764,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456372.1": {
+          "track": 28664,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456378.1": {
+          "track": 31602,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456379.1": {
+          "track": 72385,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456381.1": {
+          "track": 25871,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456382.1": {
+          "track": 23158,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456383.1": {
+          "track": 38659,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456385.1": {
+          "track": 35240,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456387.1": {
+          "track": 24685,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456389.1": {
+          "track": 28772,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456390.1": {
+          "track": 24668,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456392.1": {
+          "track": 23629,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456393.1": {
+          "track": 55711,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456394.1": {
+          "track": 24323,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456396.1": {
+          "track": 21240,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584292.1": {
+          "track": 14945,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584293.1": {
+          "track": 207968,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584294.1": {
+          "track": 191905,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584295.1": {
+          "track": 1976,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584296.1": {
+          "track": 199368,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584297.1": {
+          "track": 205776,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584298.1": {
+          "track": 184189,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584299.1": {
+          "track": 953012,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584300.1": {
+          "track": 182347,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584301.1": {
+          "track": 259875,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584302.1": {
+          "track": 155838,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584303.1": {
+          "track": 158099,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584304.1": {
+          "track": 114452,
+          "mm10": null,
+          "matches": false
+        },
+        "chrM": {
+          "track": 16299,
+          "mm10": 16299,
+          "matches": true
+        },
+        "chrY": {
+          "track": 91744698,
+          "mm10": 91744698,
+          "matches": true
+        }
+      },
+      "mm10_chromosomes_not_in_track": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "differences_from_S3_dictionary": {},
+      "qualified_for_window_extraction": true
+    },
+    {
+      "gsm": "GSM2652415",
+      "required_chromosomes": {
+        "chr1": {
+          "track": 195471971,
+          "mm10": 195471971,
+          "matches": true
+        },
+        "chr10": {
+          "track": 130694993,
+          "mm10": 130694993,
+          "matches": true
+        },
+        "chr11": {
+          "track": 122082543,
+          "mm10": 122082543,
+          "matches": true
+        },
+        "chr12": {
+          "track": 120129022,
+          "mm10": 120129022,
+          "matches": true
+        },
+        "chr13": {
+          "track": 120421639,
+          "mm10": 120421639,
+          "matches": true
+        },
+        "chr14": {
+          "track": 124902244,
+          "mm10": 124902244,
+          "matches": true
+        },
+        "chr15": {
+          "track": 104043685,
+          "mm10": 104043685,
+          "matches": true
+        },
+        "chr16": {
+          "track": 98207768,
+          "mm10": 98207768,
+          "matches": true
+        },
+        "chr17": {
+          "track": 94987271,
+          "mm10": 94987271,
+          "matches": true
+        },
+        "chr18": {
+          "track": 90702639,
+          "mm10": 90702639,
+          "matches": true
+        },
+        "chr19": {
+          "track": 61431566,
+          "mm10": 61431566,
+          "matches": true
+        },
+        "chr2": {
+          "track": 182113224,
+          "mm10": 182113224,
+          "matches": true
+        },
+        "chr3": {
+          "track": 160039680,
+          "mm10": 160039680,
+          "matches": true
+        },
+        "chr4": {
+          "track": 156508116,
+          "mm10": 156508116,
+          "matches": true
+        },
+        "chr5": {
+          "track": 151834684,
+          "mm10": 151834684,
+          "matches": true
+        },
+        "chr6": {
+          "track": 149736546,
+          "mm10": 149736546,
+          "matches": true
+        },
+        "chr7": {
+          "track": 145441459,
+          "mm10": 145441459,
+          "matches": true
+        },
+        "chr8": {
+          "track": 129401213,
+          "mm10": 129401213,
+          "matches": true
+        },
+        "chr9": {
+          "track": 124595110,
+          "mm10": 124595110,
+          "matches": true
+        },
+        "chrX": {
+          "track": 171031299,
+          "mm10": 171031299,
+          "matches": true
+        }
+      },
+      "unused_track_chromosomes": {
+        "GL456210.1": {
+          "track": 169725,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456211.1": {
+          "track": 241735,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456212.1": {
+          "track": 153618,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456213.1": {
+          "track": 39340,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456216.1": {
+          "track": 66673,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456219.1": {
+          "track": 175968,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456221.1": {
+          "track": 206961,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456233.1": {
+          "track": 336933,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456239.1": {
+          "track": 40056,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456350.1": {
+          "track": 227966,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456354.1": {
+          "track": 195993,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456359.1": {
+          "track": 22974,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456360.1": {
+          "track": 31704,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456366.1": {
+          "track": 47073,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456367.1": {
+          "track": 42057,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456368.1": {
+          "track": 20208,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456370.1": {
+          "track": 26764,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456372.1": {
+          "track": 28664,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456378.1": {
+          "track": 31602,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456379.1": {
+          "track": 72385,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456381.1": {
+          "track": 25871,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456382.1": {
+          "track": 23158,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456383.1": {
+          "track": 38659,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456385.1": {
+          "track": 35240,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456387.1": {
+          "track": 24685,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456389.1": {
+          "track": 28772,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456390.1": {
+          "track": 24668,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456392.1": {
+          "track": 23629,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456393.1": {
+          "track": 55711,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456394.1": {
+          "track": 24323,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456396.1": {
+          "track": 21240,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584292.1": {
+          "track": 14945,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584293.1": {
+          "track": 207968,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584294.1": {
+          "track": 191905,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584295.1": {
+          "track": 1976,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584296.1": {
+          "track": 199368,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584297.1": {
+          "track": 205776,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584298.1": {
+          "track": 184189,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584299.1": {
+          "track": 953012,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584300.1": {
+          "track": 182347,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584301.1": {
+          "track": 259875,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584302.1": {
+          "track": 155838,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584303.1": {
+          "track": 158099,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584304.1": {
+          "track": 114452,
+          "mm10": null,
+          "matches": false
+        },
+        "chrM": {
+          "track": 16299,
+          "mm10": 16299,
+          "matches": true
+        },
+        "chrY": {
+          "track": 91744698,
+          "mm10": 91744698,
+          "matches": true
+        }
+      },
+      "mm10_chromosomes_not_in_track": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "differences_from_S3_dictionary": {},
+      "qualified_for_window_extraction": true
+    },
+    {
+      "gsm": "GSM2652416",
+      "required_chromosomes": {
+        "chr1": {
+          "track": 195471971,
+          "mm10": 195471971,
+          "matches": true
+        },
+        "chr10": {
+          "track": 130694993,
+          "mm10": 130694993,
+          "matches": true
+        },
+        "chr11": {
+          "track": 122082543,
+          "mm10": 122082543,
+          "matches": true
+        },
+        "chr12": {
+          "track": 120129022,
+          "mm10": 120129022,
+          "matches": true
+        },
+        "chr13": {
+          "track": 120421639,
+          "mm10": 120421639,
+          "matches": true
+        },
+        "chr14": {
+          "track": 124902244,
+          "mm10": 124902244,
+          "matches": true
+        },
+        "chr15": {
+          "track": 104043685,
+          "mm10": 104043685,
+          "matches": true
+        },
+        "chr16": {
+          "track": 98207768,
+          "mm10": 98207768,
+          "matches": true
+        },
+        "chr17": {
+          "track": 94987271,
+          "mm10": 94987271,
+          "matches": true
+        },
+        "chr18": {
+          "track": 90702639,
+          "mm10": 90702639,
+          "matches": true
+        },
+        "chr19": {
+          "track": 61431566,
+          "mm10": 61431566,
+          "matches": true
+        },
+        "chr2": {
+          "track": 182113224,
+          "mm10": 182113224,
+          "matches": true
+        },
+        "chr3": {
+          "track": 160039680,
+          "mm10": 160039680,
+          "matches": true
+        },
+        "chr4": {
+          "track": 156508116,
+          "mm10": 156508116,
+          "matches": true
+        },
+        "chr5": {
+          "track": 151834684,
+          "mm10": 151834684,
+          "matches": true
+        },
+        "chr6": {
+          "track": 149736546,
+          "mm10": 149736546,
+          "matches": true
+        },
+        "chr7": {
+          "track": 145441459,
+          "mm10": 145441459,
+          "matches": true
+        },
+        "chr8": {
+          "track": 129401213,
+          "mm10": 129401213,
+          "matches": true
+        },
+        "chr9": {
+          "track": 124595110,
+          "mm10": 124595110,
+          "matches": true
+        },
+        "chrX": {
+          "track": 171031299,
+          "mm10": 171031299,
+          "matches": true
+        }
+      },
+      "unused_track_chromosomes": {
+        "GL456210.1": {
+          "track": 169725,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456211.1": {
+          "track": 241735,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456212.1": {
+          "track": 153618,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456213.1": {
+          "track": 39340,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456216.1": {
+          "track": 66673,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456219.1": {
+          "track": 175968,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456221.1": {
+          "track": 206961,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456233.1": {
+          "track": 336933,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456239.1": {
+          "track": 40056,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456350.1": {
+          "track": 227966,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456354.1": {
+          "track": 195993,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456359.1": {
+          "track": 22974,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456360.1": {
+          "track": 31704,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456366.1": {
+          "track": 47073,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456367.1": {
+          "track": 42057,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456368.1": {
+          "track": 20208,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456370.1": {
+          "track": 26764,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456372.1": {
+          "track": 28664,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456378.1": {
+          "track": 31602,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456379.1": {
+          "track": 72385,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456381.1": {
+          "track": 25871,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456382.1": {
+          "track": 23158,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456383.1": {
+          "track": 38659,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456385.1": {
+          "track": 35240,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456387.1": {
+          "track": 24685,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456389.1": {
+          "track": 28772,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456390.1": {
+          "track": 24668,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456392.1": {
+          "track": 23629,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456393.1": {
+          "track": 55711,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456394.1": {
+          "track": 24323,
+          "mm10": null,
+          "matches": false
+        },
+        "GL456396.1": {
+          "track": 21240,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584292.1": {
+          "track": 14945,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584293.1": {
+          "track": 207968,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584294.1": {
+          "track": 191905,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584295.1": {
+          "track": 1976,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584296.1": {
+          "track": 199368,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584297.1": {
+          "track": 205776,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584298.1": {
+          "track": 184189,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584299.1": {
+          "track": 953012,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584300.1": {
+          "track": 182347,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584301.1": {
+          "track": 259875,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584302.1": {
+          "track": 155838,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584303.1": {
+          "track": 158099,
+          "mm10": null,
+          "matches": false
+        },
+        "JH584304.1": {
+          "track": 114452,
+          "mm10": null,
+          "matches": false
+        },
+        "chrM": {
+          "track": 16299,
+          "mm10": 16299,
+          "matches": true
+        },
+        "chrY": {
+          "track": 91744698,
+          "mm10": 91744698,
+          "matches": true
+        }
+      },
+      "mm10_chromosomes_not_in_track": [
+        "chr1_GL456210_random",
+        "chr1_GL456211_random",
+        "chr1_GL456212_random",
+        "chr1_GL456213_random",
+        "chr1_GL456221_random",
+        "chr4_GL456216_random",
+        "chr4_GL456350_random",
+        "chr4_JH584292_random",
+        "chr4_JH584293_random",
+        "chr4_JH584294_random",
+        "chr4_JH584295_random",
+        "chr5_GL456354_random",
+        "chr5_JH584296_random",
+        "chr5_JH584297_random",
+        "chr5_JH584298_random",
+        "chr5_JH584299_random",
+        "chr7_GL456219_random",
+        "chrUn_GL456239",
+        "chrUn_GL456359",
+        "chrUn_GL456360",
+        "chrUn_GL456366",
+        "chrUn_GL456367",
+        "chrUn_GL456368",
+        "chrUn_GL456370",
+        "chrUn_GL456372",
+        "chrUn_GL456378",
+        "chrUn_GL456379",
+        "chrUn_GL456381",
+        "chrUn_GL456382",
+        "chrUn_GL456383",
+        "chrUn_GL456385",
+        "chrUn_GL456387",
+        "chrUn_GL456389",
+        "chrUn_GL456390",
+        "chrUn_GL456392",
+        "chrUn_GL456393",
+        "chrUn_GL456394",
+        "chrUn_GL456396",
+        "chrUn_JH584304",
+        "chrX_GL456233_random",
+        "chrY_JH584300_random",
+        "chrY_JH584301_random",
+        "chrY_JH584302_random",
+        "chrY_JH584303_random"
+      ],
+      "differences_from_S3_dictionary": {},
+      "qualified_for_window_extraction": true
+    }
+  ],
+  "failures": [],
+  "full_window_signal_qualified": false,
+  "signal_units": "unresolved",
+  "original_retained_domains": "not supplied by this proxy analysis",
+  "between_track_raw_signal_comparison": false,
+  "population_inference": false
+}

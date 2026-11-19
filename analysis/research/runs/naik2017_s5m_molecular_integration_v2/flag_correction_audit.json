@@ -1,0 +1,42 @@
+{
+  "gene_records": 47729,
+  "v1_true_count_zero_false": 13983,
+  "v1_false_count_zero_true": 0,
+  "all_original_source_fields_preserved": true,
+  "count_zero_allowlist": [
+    "s2__D6_zero_libraries",
+    "s2__D6_control_zero",
+    "s2__D6_exposed_zero",
+    "s2__D6_all_zero",
+    "s2__D30_zero_libraries",
+    "s2__D30_control_zero",
+    "s2__D30_exposed_zero",
+    "s2__D30_all_zero",
+    "s4__B0_zero_libraries",
+    "s4__B0_control_zero",
+    "s4__B0_exposed_zero",
+    "s4__B0_all_zero",
+    "s4__W6_zero_libraries",
+    "s4__W6_control_zero",
+    "s4__W6_exposed_zero",
+    "s4__W6_all_zero",
+    "s4__W12_zero_libraries",
+    "s4__W12_control_zero",
+    "s4__W12_exposed_zero",
+    "s4__W12_all_zero",
+    "s4b__primary_reference_any_zero",
+    "s4b__c2_h2_reference_any_zero",
+    "s4b__c1_h1_reference_any_zero"
+  ],
+  "range_includes_zero_allowlist": [
+    "s4__W6_adjustment_range_includes_zero",
+    "s4__W12_adjustment_range_includes_zero"
+  ],
+  "byte_preserved_files": [
+    "gene_atac.tsv.gz",
+    "association_results.tsv",
+    "covariance_identity.tsv",
+    "fig01_associations.png",
+    "fig01_associations.pdf"
+  ]
+}

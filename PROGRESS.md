@@ -1,5 +1,82 @@
 # Current project state
 
+## 2026-11-19 — Naik S6/S7 final synthesis and local preservation
+
+Owner `Nk17-P01`; active worktree `.worktrees/naik-memory-plan-20261117`, branch
+`codex/naik-memory-plan-20261117`. GitHub CLI identity is verified `xorca0711`;
+effective author/committer is Xorca <dreamtree071@gmail.com>. Main was freshly
+fetched at `d0429d0`; unrelated root work remains untouched. Local stage review
+is authorized; it does not constitute human scientific acceptance.
+
+[Final S6/S7 synthesis](Research%20Article/ungated_naik_2017_inflammatory_memory/S6_SYNTHESIS_V3.md)
+records the original S0–S6 disposition separately from completed justified
+S6A–C/S7 extensions. The bounded staged assignment is complete with an informative
+response-estimand comparison, preserved mixed outcomes and precise unresolved
+routes. This progressed beyond copying panels while remaining exposed shared-
+source analysis; no new mechanism, independent biological replication, human
+claim acceptance or conclusion that all future biology is exhausted.
+Pre-execution S6 v2 and all historical/frozen evidence remain unchanged.
+
+[S7 actual results](Research%20Article/ungated_naik_2017_inflammatory_memory/S7_RESULTS_V1.md)
+executed from frozen setup `a7be7f8` in `naik2017_s7_hamdan_response_v1`.
+All 64,253 source genes are exported (35,259/35,034 eligible per donor). Primary
+P-positive/A-negative fractions are 36.29%/31.80%; no-raw-zero strata retain the
+distinction at 45.50%/37.45% of their P-positive rows. Both normalizations, all
+joint sign tables/denominators, constituent responses and unfavorable records
+remain. No phenotype join, patient-population, kinetics or mechanism claim.
+
+15,807,848 independent checks passed (maximum scaled error 7.06527e-15), plus
+receipt integrity and actual six-panel figure inspection. Ten expected outputs
+and the receipt are registered. Runtime 519.572 seconds; main/verifier peaks
+376.570/177.273 MiB, within declared bounds. No failed scientific attempt occurred.
+The frozen setup passed fourteen constructed tests, 3,578 independent fixture
+checks, preflight, research gate and 20,416 repository checks. A missing source-
+map execution binding was corrected by the existing S6A pattern before freeze;
+no validator/method change. The coordinator read the complete actual report, all
+four donor/method combinations and raw-zero strata, source/factors, receipt/
+verification/resources, and inspected all six actual panels without revision.
+Final research gate against freshly fetched main `d0429d0`, all 20,462 repository
+checks (including links), receipt integrity and whitespace passed. Full outputs
+and final synthesis are retained by this local preservation change; Git history
+and the final delivery identify the commit.
+
+[S6C D180](Research%20Article/ungated_naik_2017_inflammatory_memory/S6C_RESULTS_V1.md)
+and its separate failed-launch archive are reviewed/preserved at `3c60839`.
+Successful frozen setup `7563cdf` produced the exact S3 universe in retry1:
+median abs D180 2.166919 pp versus D30 1.995151 and D6 3.067122; 45.55% shrink
+from D30 and 47.92% reverse sign. All 7,009,534 independent checks, 296 exact
+interval readbacks, receipt integrity and both actual figures/report passed.
+Runtime 489.156 seconds; reader peak 146.102 MiB; 24 files total 24,800,451 bytes.
+The initial WSL path-access failure occurred before signal reading, is archived
+byte-for-byte under its separate governed metadata receipt, and remains failed.
+The approved retry changed no scientific code/input or safeguard. Result gate
+against main `d0429d0`, 20,389 repository checks and whitespace passed.
+
+[S6B D6 QC](Research%20Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md)
+is reviewed/preserved at `ba5afa4`: the specific S4 baseline marker pattern is
+not repeated; sex/confounding/RNA–ATAC pairing remain unresolved. All twenty rows,
+191,370 checks and figure are retained. [S6A](Research%20Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md)
+is reviewed/preserved at `ccc91cd`: all six panels and 27,894 checks remain;
+EDF6g biological mapping is held for exact workbook/final-PDF/summary conflicts,
+without relabeling/refitting. Earlier frozen S5F/S5M/S3/S4B/S4/S2/S1M evidence,
+failures and negative/mixed results remain in the linked
+[stage record](Research%20Article/ungated_naik_2017_inflammatory_memory/STAGE_STATUS.md).
+
+Delivery scope is complete: checked S7 outputs and final synthesis are preserved
+locally with the reverified `xorca0711` CLI and Xorca author/committer attribution.
+The final handback supplies commit/base/checks and precise limits. No scientific
+work remains in the authorized bounded comparison.
+No extra score, pathway, cohort, scratch digitization, RNA-to-function model or
+global RQ is opened. A1/Arz1 ownership and all RQs remain. Original-domain,
+source-label, pool/animal and phenotype/culture/time joins are specifically held;
+qualified descriptive work is not erased. No biological rerun for documentation.
+The owner subsequently requested publication for review. [PR #183](https://github.com/xorca0711/ravel/pull/183)
+includes the biological rationale, the S7 interpretation and the full figure gallery.
+Its initial Linux checks identified a checkout line-ending difference in the frozen
+S5M plotting script and two Markdown links to ignored local acquisition records.
+A file-specific Git attribute restores the script's recorded hash. The recovery
+note retains the acquisition filenames, sizes and hashes as local provenance.
+
 ## 2026-11-13 — Approved portfolio figure archive
 
 Archived 31 approved public-data displays (70 image/vector/support assets) across 12 article galleries for the Nabhan, Saxton, DuPage and Wagner preparation. Nine frozen metadata imports preserve exact bytes; no biological analyses were rerun. G-SURF microscopy and personal outreach documents remain private. Peeters supporting values and portable local-run records are included with their not-yet-integrated status explicit. See [archive overview](docs/PORTFOLIO_FIGURE_ARCHIVE_20261113.md). All nine receipts, 178 analysis tests (one skipped), 25 session tests, compilation, claim/evidence checks, repository validation and the full research gate passed. Windows checkout-only byte/path issues were resolved without scientific edits; locked public outputs were restored from a verified local copy. Uploaded in [PR #182](https://github.com/xorca0711/ravel/pull/182); review and merge remain pending.

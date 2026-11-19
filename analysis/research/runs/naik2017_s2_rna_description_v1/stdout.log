@@ -1,0 +1,2 @@
+{"status": "passed", "implementation": "Python standard library; no analysis-function imports", "input_libraries": 8, "gene_rows": 47729, "numeric_and_flag_checks": 3006967, "max_scaled_error": 7.105427357601002e-15, "relative_tolerance": 1e-10, "absolute_tolerance": 1e-10, "qualified_union": 13452, "qualified_both": 12052, "independent_biological_replication": false}
+{"analysis_id": "Nk17-P01.s2_rna_description_v1", "genes": 47729, "qualified_union": 13452, "verification": "passed"}

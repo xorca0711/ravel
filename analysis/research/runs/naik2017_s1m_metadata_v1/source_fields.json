@@ -1,0 +1,6164 @@
+{
+  "acquisition": [
+    {
+      "file": "GSE92967_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92967/soft/GSE92967_family.soft.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92967/soft/GSE92967_family.soft.gz",
+      "retrieved_at_utc": "2026-11-17T14:01:18.315609+00:00",
+      "sha256": "55f0cf164a8fcdb13351e709809b1d33d1ae61ea3199d56b1db0d921f4d04fc8",
+      "bytes": 4448
+    },
+    {
+      "file": "ena_read_run.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA359188&result=read_run&fields=run_accession,experiment_accession,sample_accession,secondary_sample_accession,study_accession,secondary_study_accession,sample_title,experiment_title,library_name,library_layout,library_strategy,library_source,library_selection,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_bytes,fastq_md5,submitted_ftp,submitted_format,first_public,last_updated&format=tsv&download=true",
+      "resolved_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA359188&result=read_run&fields=run_accession,experiment_accession,sample_accession,secondary_sample_accession,study_accession,secondary_study_accession,sample_title,experiment_title,library_name,library_layout,library_strategy,library_source,library_selection,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_bytes,fastq_md5,submitted_ftp,submitted_format,first_public,last_updated&format=tsv&download=true",
+      "retrieved_at_utc": "2026-11-17T14:03:00.736357+00:00",
+      "sha256": "c92f946f6be5511df26b240244bf6319c6d4116539cb9e6128f5ee44871b30e2",
+      "bytes": 13729
+    },
+    {
+      "file": "sra_experiments.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRX2448156,SRX2448157,SRX2448158,SRX2448159,SRX2448160,SRX2448161,SRX2448162,SRX2448163,SRX2448164,SRX2448165,SRX2448166,SRX2448167,SRX2448168,SRX2448169,SRX2448170,SRX2448171,SRX2448172,SRX2448173,SRX2448174,SRX2448175,SRX2448176,SRX2448177,SRX2448178,SRX2448179,SRX2893904,SRX2893905,SRX2893906,SRX2893907&rettype=full&retmode=xml",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRX2448156,SRX2448157,SRX2448158,SRX2448159,SRX2448160,SRX2448161,SRX2448162,SRX2448163,SRX2448164,SRX2448165,SRX2448166,SRX2448167,SRX2448168,SRX2448169,SRX2448170,SRX2448171,SRX2448172,SRX2448173,SRX2448174,SRX2448175,SRX2448176,SRX2448177,SRX2448178,SRX2448179,SRX2893904,SRX2893905,SRX2893906,SRX2893907&rettype=full&retmode=xml",
+      "retrieved_at_utc": "2026-11-17T14:03:01.181953+00:00",
+      "sha256": "267784d34adcaa04c80b7fac6a293d1a9ca36f738ae0b0b0f348fbf85783a90b",
+      "bytes": 247148
+    },
+    {
+      "file": "biosamples.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN06187823,SAMN06187822,SAMN06187821,SAMN06187820,SAMN06187824,SAMN06187825,SAMN06187826,SAMN06187803,SAMN06187819,SAMN06187818,SAMN06187817,SAMN06187816,SAMN06187815,SAMN06187814,SAMN06187813,SAMN06187812,SAMN06187811,SAMN06187810,SAMN06187809,SAMN06187808,SAMN06187807,SAMN06187806,SAMN06187805,SAMN06187804,SAMN07203513,SAMN07203512,SAMN07203511,SAMN07203514&retmode=xml",
+      "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN06187823,SAMN06187822,SAMN06187821,SAMN06187820,SAMN06187824,SAMN06187825,SAMN06187826,SAMN06187803,SAMN06187819,SAMN06187818,SAMN06187817,SAMN06187816,SAMN06187815,SAMN06187814,SAMN06187813,SAMN06187812,SAMN06187811,SAMN06187810,SAMN06187809,SAMN06187808,SAMN06187807,SAMN06187806,SAMN06187805,SAMN06187804,SAMN07203513,SAMN07203512,SAMN07203511,SAMN07203514&retmode=xml",
+      "retrieved_at_utc": "2026-11-17T14:03:01.894263+00:00",
+      "sha256": "e1e8a97ffcb5de474c001fcfcee2df5418826191d0148424ff1b345d9ed273cf",
+      "bytes": 51738
+    },
+    {
+      "file": "GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440985/suppl/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440985/suppl/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:02.804418+00:00",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "bytes": 246521
+    },
+    {
+      "file": "GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440986/suppl/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440986/suppl/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:02.947115+00:00",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "bytes": 241434
+    },
+    {
+      "file": "GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440987/suppl/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440987/suppl/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:03.484417+00:00",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "bytes": 246057
+    },
+    {
+      "file": "GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440988/suppl/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440988/suppl/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:06.053529+00:00",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "bytes": 241724
+    },
+    {
+      "file": "GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440989/suppl/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440989/suppl/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:06.077211+00:00",
+      "sha256": "7c2fd95426c94a4cd1b8ba864c54f7eee7aa7a198b1885da9fd234ce3c5b42ae",
+      "bytes": 236382
+    },
+    {
+      "file": "GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440990/suppl/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440990/suppl/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:06.089026+00:00",
+      "sha256": "ff7114f598bd8035dd02449d2948ea32c8aa51acad403e56b9271d970e0b8396",
+      "bytes": 241637
+    },
+    {
+      "file": "GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440991/suppl/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440991/suppl/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:08.219673+00:00",
+      "sha256": "92e9582792cce7565543f57784f2e8b72de7677a949da3d312931a325f50d856",
+      "bytes": 237812
+    },
+    {
+      "file": "GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440992/suppl/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440992/suppl/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:08.222693+00:00",
+      "sha256": "a7b31269dbd8aea441547fcf6964d1a4f1a52f72602b092a37e101fba4ab40ad",
+      "bytes": 240724
+    },
+    {
+      "file": "GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440993/suppl/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440993/suppl/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:08.254991+00:00",
+      "sha256": "4cd3588f10a7e64270527c37df61366d87473f227cfa830d464baa2b9fe05cc6",
+      "bytes": 245611
+    },
+    {
+      "file": "GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440994/suppl/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440994/suppl/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:10.301955+00:00",
+      "sha256": "b9b2e8ed0c67076da687719079b692bc03cefd3dcd2ead650e22ebd513f3b2fc",
+      "bytes": 239574
+    },
+    {
+      "file": "GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440995/suppl/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440995/suppl/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:10.325040+00:00",
+      "sha256": "ada36b51d98578d5e2ff284732f7624f34cd9b933f90b56db786bc58911995af",
+      "bytes": 246903
+    },
+    {
+      "file": "GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440996/suppl/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440996/suppl/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:10.333646+00:00",
+      "sha256": "2c9df583c9d460854b9e621b8d6247f1d22505b0785d933c39b0c9c232c1ba30",
+      "bytes": 238956
+    },
+    {
+      "file": "GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440997/suppl/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440997/suppl/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:12.394698+00:00",
+      "sha256": "b2cfbf5636542d198ee14aab07eef337fd096273afca97c0388cb458e803dc75",
+      "bytes": 242871
+    },
+    {
+      "file": "GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440998/suppl/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440998/suppl/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:12.444707+00:00",
+      "sha256": "9a0f1a57508b0c61b0066e30d74b52f96355f6cb163ec57dc75aecc5c5b1f12f",
+      "bytes": 246541
+    },
+    {
+      "file": "GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440999/suppl/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440999/suppl/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:12.466088+00:00",
+      "sha256": "2610ea5aeabb916d96cf7f282f7f1b11b61f8edf5527bda0068762e9340318e4",
+      "bytes": 242929
+    },
+    {
+      "file": "GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441000/suppl/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441000/suppl/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "retrieved_at_utc": "2026-11-17T14:03:14.421067+00:00",
+      "sha256": "1310f7ce3073fdbcb822696c59ab11486f8357c70bfe2173e480f3ec4a617b00",
+      "bytes": 246397
+    }
+  ],
+  "geo_platforms": {
+    "GPL17021": {
+      "title": [
+        {
+          "value": "Illumina HiSeq 2500 (Mus musculus)",
+          "line": 63
+        }
+      ],
+      "technology": [
+        {
+          "value": "high-throughput sequencing",
+          "line": 68
+        }
+      ],
+      "organism": [
+        {
+          "value": "Mus musculus",
+          "line": 70
+        }
+      ]
+    },
+    "GPL21103": {
+      "title": [
+        {
+          "value": "Illumina HiSeq 4000 (Mus musculus)",
+          "line": 76
+        }
+      ],
+      "technology": [
+        {
+          "value": "high-throughput sequencing",
+          "line": 81
+        }
+      ],
+      "organism": [
+        {
+          "value": "Mus musculus",
+          "line": 83
+        }
+      ]
+    }
+  },
+  "selected_source_fields": {
+    "GSM2440985": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6CtrlEpdSC_R1_RNA-seq",
+            "line": 89
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440985",
+            "line": 90
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 94
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 96
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 97
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 98
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 99
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 100
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 101
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 102
+          },
+          {
+            "value": "treatment: control vanicream for 6 days",
+            "line": 103
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 105
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 110
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 111
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 112
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 113
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 122
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 123
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 124
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187823",
+            "line": 125
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448156",
+            "line": 126
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440985/suppl/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 127
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448156",
+          "sample_accession": "SRS1881564",
+          "linked_accessions": [
+            "GSM2440985",
+            "SAMN06187823",
+            "SRS1881564"
+          ],
+          "runs": [
+            "SRR5133553"
+          ],
+          "title": "GSM2440985: D6CtrlEpdSC_R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D6CtrlEpdSC_R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448156\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133553",
+          "experiment_accession": "SRX2448156",
+          "sample_accession": "SAMN06187823",
+          "secondary_sample_accession": "SRS1881564",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6CtrlEpdSC_R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2440985: D6CtrlEpdSC_R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "66887954",
+          "base_count": "6822571308",
+          "source_line": 24
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187823",
+          "linked_accessions": [
+            "GSM2440985",
+            "SAMN06187823",
+            "SRS1881564"
+          ],
+          "title": "D6CtrlEpdSC_R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440986": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6CtrlEpdSC_R2_RNA-seq",
+            "line": 131
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440986",
+            "line": 132
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 136
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 138
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 139
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 140
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 141
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 142
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 143
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 144
+          },
+          {
+            "value": "treatment: control vanicream for 6 days",
+            "line": 145
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 147
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 152
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 153
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 154
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 155
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 164
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 165
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 166
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187822",
+            "line": 167
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448157",
+            "line": 168
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440986/suppl/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 169
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448157",
+          "sample_accession": "SRS1881565",
+          "linked_accessions": [
+            "GSM2440986",
+            "SAMN06187822",
+            "SRS1881565"
+          ],
+          "runs": [
+            "SRR5133554"
+          ],
+          "title": "GSM2440986: D6CtrlEpdSC_R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D6CtrlEpdSC_R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448157\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133554",
+          "experiment_accession": "SRX2448157",
+          "sample_accession": "SAMN06187822",
+          "secondary_sample_accession": "SRS1881565",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6CtrlEpdSC_R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2440986: D6CtrlEpdSC_R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "37640077",
+          "base_count": "3839287854",
+          "source_line": 17
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187822",
+          "linked_accessions": [
+            "GSM2440986",
+            "SAMN06187822",
+            "SRS1881565"
+          ],
+          "title": "D6CtrlEpdSC_R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440987": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6IMQlEpdSC_R1_RNA-seq",
+            "line": 173
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440987",
+            "line": 174
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 178
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 180
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 181
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 182
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 183
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 184
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 185
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 186
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days",
+            "line": 187
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 189
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 194
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 195
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 196
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 197
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 206
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 207
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 208
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187821",
+            "line": 209
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448158",
+            "line": 210
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440987/suppl/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 211
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448158",
+          "sample_accession": "SRS1881566",
+          "linked_accessions": [
+            "GSM2440987",
+            "SAMN06187821",
+            "SRS1881566"
+          ],
+          "runs": [
+            "SRR5133555"
+          ],
+          "title": "GSM2440987: D6IMQlEpdSC_R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D6IMQlEpdSC_R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448158\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133555",
+          "experiment_accession": "SRX2448158",
+          "sample_accession": "SAMN06187821",
+          "secondary_sample_accession": "SRS1881566",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6IMQlEpdSC_R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2440987: D6IMQlEpdSC_R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "65819899",
+          "base_count": "6713629698",
+          "source_line": 25
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187821",
+          "linked_accessions": [
+            "GSM2440987",
+            "SAMN06187821",
+            "SRS1881566"
+          ],
+          "title": "D6IMQlEpdSC_R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440988": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6IMQlEpdSC_R2_RNA-seq",
+            "line": 215
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440988",
+            "line": 216
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 220
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 222
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 223
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 224
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 225
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 226
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 227
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 228
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days",
+            "line": 229
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 231
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 236
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 237
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 238
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 239
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 248
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 249
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 250
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187820",
+            "line": 251
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448159",
+            "line": 252
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440988/suppl/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 253
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448159",
+          "sample_accession": "SRS1881567",
+          "linked_accessions": [
+            "GSM2440988",
+            "SAMN06187820",
+            "SRS1881567"
+          ],
+          "runs": [
+            "SRR5133556"
+          ],
+          "title": "GSM2440988: D6IMQlEpdSC_R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D6IMQlEpdSC_R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448159\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133556",
+          "experiment_accession": "SRX2448159",
+          "sample_accession": "SAMN06187820",
+          "secondary_sample_accession": "SRS1881567",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6IMQlEpdSC_R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2440988: D6IMQlEpdSC_R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "43774810",
+          "base_count": "4465030620",
+          "source_line": 26
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187820",
+          "linked_accessions": [
+            "GSM2440988",
+            "SAMN06187820",
+            "SRS1881567"
+          ],
+          "title": "D6IMQlEpdSC_R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440989": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30CtrlEpdSC_R1_RNA-seq",
+            "line": 257
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440989",
+            "line": 258
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 262
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 264
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 265
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 266
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 267
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 268
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 269
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 270
+          },
+          {
+            "value": "treatment: vanicream for 6 days and harvested 30 days after treatment",
+            "line": 271
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 273
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 278
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 279
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 280
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 281
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 290
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 291
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 292
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187824",
+            "line": 293
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448160",
+            "line": 294
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440989/suppl/GSM2440989_D30_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 295
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448160",
+          "sample_accession": "SRS1881568",
+          "linked_accessions": [
+            "GSM2440989",
+            "SAMN06187824",
+            "SRS1881568"
+          ],
+          "runs": [
+            "SRR5133557"
+          ],
+          "title": "GSM2440989: D30CtrlEpdSC_R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D30CtrlEpdSC_R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448160\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133557",
+          "experiment_accession": "SRX2448160",
+          "sample_accession": "SAMN06187824",
+          "secondary_sample_accession": "SRS1881568",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30CtrlEpdSC_R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440989: D30CtrlEpdSC_R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "35946101",
+          "base_count": "1833251151",
+          "source_line": 9
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187824",
+          "linked_accessions": [
+            "GSM2440989",
+            "SAMN06187824",
+            "SRS1881568"
+          ],
+          "title": "D30CtrlEpdSC_R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440990": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30CtrlEpdSC_R2_RNA-seq",
+            "line": 299
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440990",
+            "line": 300
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 304
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 306
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 307
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 308
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 309
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 310
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 311
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 312
+          },
+          {
+            "value": "treatment: vanicream for 6 days and harvested 30 days after treatment",
+            "line": 313
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 315
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 320
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 321
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 322
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 323
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 332
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 333
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 334
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187825",
+            "line": 335
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448161",
+            "line": 336
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440990/suppl/GSM2440990_D30_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 337
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448161",
+          "sample_accession": "SRS1881569",
+          "linked_accessions": [
+            "GSM2440990",
+            "SAMN06187825",
+            "SRS1881569"
+          ],
+          "runs": [
+            "SRR5133558"
+          ],
+          "title": "GSM2440990: D30CtrlEpdSC_R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D30CtrlEpdSC_R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448161\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133558",
+          "experiment_accession": "SRX2448161",
+          "sample_accession": "SAMN06187825",
+          "secondary_sample_accession": "SRS1881569",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30CtrlEpdSC_R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440990: D30CtrlEpdSC_R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "62515336",
+          "base_count": "3188282136",
+          "source_line": 2
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187825",
+          "linked_accessions": [
+            "GSM2440990",
+            "SAMN06187825",
+            "SRS1881569"
+          ],
+          "title": "D30CtrlEpdSC_R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440991": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30IMQEpdSC_R1_RNA-seq",
+            "line": 341
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440991",
+            "line": 342
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 346
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 348
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 349
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 350
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 351
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 352
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 353
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 354
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and harvested 30 days after treatment",
+            "line": 355
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 357
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 362
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 363
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 364
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 365
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 374
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 375
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 376
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187826",
+            "line": 377
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448162",
+            "line": 378
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440991/suppl/GSM2440991_D30_IMQ_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 379
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448162",
+          "sample_accession": "SRS1881570",
+          "linked_accessions": [
+            "GSM2440991",
+            "SAMN06187826",
+            "SRS1881570"
+          ],
+          "runs": [
+            "SRR5133559"
+          ],
+          "title": "GSM2440991: D30IMQEpdSC_R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D30IMQEpdSC_R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448162\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133559",
+          "experiment_accession": "SRX2448162",
+          "sample_accession": "SAMN06187826",
+          "secondary_sample_accession": "SRS1881570",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30IMQEpdSC_R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440991: D30IMQEpdSC_R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "35677787",
+          "base_count": "1819567137",
+          "source_line": 10
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187826",
+          "linked_accessions": [
+            "GSM2440991",
+            "SAMN06187826",
+            "SRS1881570"
+          ],
+          "title": "D30IMQEpdSC_R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440992": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30IMQEpdSC_R2_RNA-seq",
+            "line": 383
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440992",
+            "line": 384
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 388
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 390
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 391
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 392
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 393
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 394
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 395
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 396
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and harvested 30 days after treatment",
+            "line": 397
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 399
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 404
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 405
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 406
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 407
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 416
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 417
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 418
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187803",
+            "line": 419
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448163",
+            "line": 420
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440992/suppl/GSM2440992_D30_IMQ_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 421
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448163",
+          "sample_accession": "SRS1881571",
+          "linked_accessions": [
+            "GSM2440992",
+            "SAMN06187803",
+            "SRS1881571"
+          ],
+          "runs": [
+            "SRR5133560"
+          ],
+          "title": "GSM2440992: D30IMQEpdSC_R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "D30IMQEpdSC_R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448163\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133560",
+          "experiment_accession": "SRX2448163",
+          "sample_accession": "SAMN06187803",
+          "secondary_sample_accession": "SRS1881571",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30IMQEpdSC_R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440992: D30IMQEpdSC_R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "54296561",
+          "base_count": "2769124611",
+          "source_line": 27
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187803",
+          "linked_accessions": [
+            "GSM2440992",
+            "SAMN06187803",
+            "SRS1881571"
+          ],
+          "title": "D30IMQEpdSC_R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440993": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "6hrwounding_CtrlEpdSC__R1_RNA-seq",
+            "line": 425
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440993",
+            "line": 426
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 430
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 432
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 433
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 434
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 435
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 436
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 437
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 438
+          },
+          {
+            "value": "treatment: vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested",
+            "line": 439
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 441
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 446
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 447
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 448
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 449
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 458
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 459
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 460
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187819",
+            "line": 461
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448164",
+            "line": 462
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440993/suppl/GSM2440993_CTRL_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 463
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448164",
+          "sample_accession": "SRS1881572",
+          "linked_accessions": [
+            "GSM2440993",
+            "SAMN06187819",
+            "SRS1881572"
+          ],
+          "runs": [
+            "SRR5133561"
+          ],
+          "title": "GSM2440993: 6hrwounding_CtrlEpdSC__R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "6hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448164\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133561",
+          "experiment_accession": "SRX2448164",
+          "sample_accession": "SAMN06187819",
+          "secondary_sample_accession": "SRS1881572",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "6hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440993: 6hrwounding_CtrlEpdSC__R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "39089944",
+          "base_count": "1993587144",
+          "source_line": 18
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187819",
+          "linked_accessions": [
+            "GSM2440993",
+            "SAMN06187819",
+            "SRS1881572"
+          ],
+          "title": "6hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440994": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "6hrwounding_CtrlEpdSC__R2_RNA-seq",
+            "line": 467
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440994",
+            "line": 468
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 472
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 474
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 475
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 476
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 477
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 478
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 479
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 480
+          },
+          {
+            "value": "treatment: vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested",
+            "line": 481
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 483
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 488
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 489
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 490
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 491
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 500
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 501
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 502
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187818",
+            "line": 503
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448165",
+            "line": 504
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440994/suppl/GSM2440994_CTRL_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 505
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448165",
+          "sample_accession": "SRS1881573",
+          "linked_accessions": [
+            "GSM2440994",
+            "SAMN06187818",
+            "SRS1881573"
+          ],
+          "runs": [
+            "SRR5133562"
+          ],
+          "title": "GSM2440994: 6hrwounding_CtrlEpdSC__R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "6hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448165\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133562",
+          "experiment_accession": "SRX2448165",
+          "sample_accession": "SAMN06187818",
+          "secondary_sample_accession": "SRS1881573",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "6hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440994: 6hrwounding_CtrlEpdSC__R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "81299369",
+          "base_count": "4146267819",
+          "source_line": 19
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187818",
+          "linked_accessions": [
+            "GSM2440994",
+            "SAMN06187818",
+            "SRS1881573"
+          ],
+          "title": "6hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440995": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "6hrwounding_PIEpdSC__R1_RNA-seq",
+            "line": 509
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440995",
+            "line": 510
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 514
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 516
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 517
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 518
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 519
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 520
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 521
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 522
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested",
+            "line": 523
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 525
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 530
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 531
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 532
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 533
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 542
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 543
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 544
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187817",
+            "line": 545
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448166",
+            "line": 546
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440995/suppl/GSM2440995_PI_6hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 547
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448166",
+          "sample_accession": "SRS1881574",
+          "linked_accessions": [
+            "GSM2440995",
+            "SAMN06187817",
+            "SRS1881574"
+          ],
+          "runs": [
+            "SRR5133563"
+          ],
+          "title": "GSM2440995: 6hrwounding_PIEpdSC__R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "6hrwounding_PIEpdSC__R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448166\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133563",
+          "experiment_accession": "SRX2448166",
+          "sample_accession": "SAMN06187817",
+          "secondary_sample_accession": "SRS1881574",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "6hrwounding_PIEpdSC__R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440995: 6hrwounding_PIEpdSC__R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "109136780",
+          "base_count": "5565975780",
+          "source_line": 28
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187817",
+          "linked_accessions": [
+            "GSM2440995",
+            "SAMN06187817",
+            "SRS1881574"
+          ],
+          "title": "6hrwounding_PIEpdSC__R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440996": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "6hrwounding_PIEpdSC__R2_RNA-seq",
+            "line": 551
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440996",
+            "line": 552
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 556
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 558
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 559
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 560
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 561
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 562
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 563
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 564
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested",
+            "line": 565
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 567
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 572
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 573
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 574
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 575
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 584
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 585
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 586
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187816",
+            "line": 587
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448167",
+            "line": 588
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440996/suppl/GSM2440996_PI_6hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 589
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448167",
+          "sample_accession": "SRS1881575",
+          "linked_accessions": [
+            "GSM2440996",
+            "SAMN06187816",
+            "SRS1881575"
+          ],
+          "runs": [
+            "SRR5133564"
+          ],
+          "title": "GSM2440996: 6hrwounding_PIEpdSC__R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "6hrwounding_PIEpdSC__R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448167\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133564",
+          "experiment_accession": "SRX2448167",
+          "sample_accession": "SAMN06187816",
+          "secondary_sample_accession": "SRS1881575",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "6hrwounding_PIEpdSC__R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440996: 6hrwounding_PIEpdSC__R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "38205843",
+          "base_count": "1948497993",
+          "source_line": 14
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187816",
+          "linked_accessions": [
+            "GSM2440996",
+            "SAMN06187816",
+            "SRS1881575"
+          ],
+          "title": "6hrwounding_PIEpdSC__R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 6hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440997": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "12hrwounding_CtrlEpdSC__R1_RNA-seq",
+            "line": 593
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440997",
+            "line": 594
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 598
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 600
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 601
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 602
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 603
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 604
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 605
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 606
+          },
+          {
+            "value": "treatment: vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested",
+            "line": 607
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 609
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 614
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 615
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 616
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 617
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 626
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 627
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 628
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187815",
+            "line": 629
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448168",
+            "line": 630
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440997/suppl/GSM2440997_CTRL_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 631
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448168",
+          "sample_accession": "SRS1881576",
+          "linked_accessions": [
+            "GSM2440997",
+            "SAMN06187815",
+            "SRS1881576"
+          ],
+          "runs": [
+            "SRR5133565"
+          ],
+          "title": "GSM2440997: 12hrwounding_CtrlEpdSC__R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "12hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448168\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133565",
+          "experiment_accession": "SRX2448168",
+          "sample_accession": "SAMN06187815",
+          "secondary_sample_accession": "SRS1881576",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "12hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440997: 12hrwounding_CtrlEpdSC__R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "53049719",
+          "base_count": "2705535669",
+          "source_line": 20
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187815",
+          "linked_accessions": [
+            "GSM2440997",
+            "SAMN06187815",
+            "SRS1881576"
+          ],
+          "title": "12hrwounding_CtrlEpdSC__R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440998": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "12hrwounding_CtrlEpdSC__R2_RNA-seq",
+            "line": 635
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440998",
+            "line": 636
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 640
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 642
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 643
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 644
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 645
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 646
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 647
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 648
+          },
+          {
+            "value": "treatment: vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested",
+            "line": 649
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 651
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 656
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 657
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 658
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 659
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 668
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 669
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 670
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187814",
+            "line": 671
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448169",
+            "line": 672
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440998/suppl/GSM2440998_CTRL_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 673
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448169",
+          "sample_accession": "SRS1881577",
+          "linked_accessions": [
+            "GSM2440998",
+            "SAMN06187814",
+            "SRS1881577"
+          ],
+          "runs": [
+            "SRR5133566"
+          ],
+          "title": "GSM2440998: 12hrwounding_CtrlEpdSC__R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "12hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448169\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133566",
+          "experiment_accession": "SRX2448169",
+          "sample_accession": "SAMN06187814",
+          "secondary_sample_accession": "SRS1881577",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "12hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440998: 12hrwounding_CtrlEpdSC__R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "99837205",
+          "base_count": "5091697455",
+          "source_line": 3
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187814",
+          "linked_accessions": [
+            "GSM2440998",
+            "SAMN06187814",
+            "SRS1881577"
+          ],
+          "title": "12hrwounding_CtrlEpdSC__R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2440999": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "12hrwounding_PIEpdSC__R1_RNA-seq",
+            "line": 677
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2440999",
+            "line": 678
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 682
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 684
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 685
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 686
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 687
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 688
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 689
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 690
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested",
+            "line": 691
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 693
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 698
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 699
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 700
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 701
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 710
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 711
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 712
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187813",
+            "line": 713
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448170",
+            "line": 714
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2440nnn/GSM2440999/suppl/GSM2440999_PI_12hr_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+            "line": 715
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448170",
+          "sample_accession": "SRS1881578",
+          "linked_accessions": [
+            "GSM2440999",
+            "SAMN06187813",
+            "SRS1881578"
+          ],
+          "runs": [
+            "SRR5133567"
+          ],
+          "title": "GSM2440999: 12hrwounding_PIEpdSC__R1_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "12hrwounding_PIEpdSC__R1_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448170\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133567",
+          "experiment_accession": "SRX2448170",
+          "sample_accession": "SAMN06187813",
+          "secondary_sample_accession": "SRS1881578",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "12hrwounding_PIEpdSC__R1_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2440999: 12hrwounding_PIEpdSC__R1_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "58357901",
+          "base_count": "2976252951",
+          "source_line": 4
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187813",
+          "linked_accessions": [
+            "GSM2440999",
+            "SAMN06187813",
+            "SRS1881578"
+          ],
+          "title": "12hrwounding_PIEpdSC__R1_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441000": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "12hrwounding_PIEpdSC__R2_RNA-seq",
+            "line": 719
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441000",
+            "line": 720
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 724
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 726
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 727
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 728
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 729
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 730
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 731
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 732
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested",
+            "line": 733
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "total RNA",
+            "line": 735
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "50-bp sequences were aligned to mm10 using STAR and Gencode release M9 and counts generated from STAR output --quantMode GeneCounts.",
+            "line": 740
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 741
+          },
+          {
+            "value": "Supplementary_files_format_and_content: GENE_ID, Counts",
+            "line": 742
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 743
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "cDNA",
+            "line": 752
+          }
+        ],
+        "library_source": [
+          {
+            "value": "transcriptomic",
+            "line": 753
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "RNA-Seq",
+            "line": 754
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187812",
+            "line": 755
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448171",
+            "line": 756
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441000/suppl/GSM2441000_PI_12hr_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+            "line": 757
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448171",
+          "sample_accession": "SRS1881579",
+          "linked_accessions": [
+            "GSM2441000",
+            "SAMN06187812",
+            "SRS1881579"
+          ],
+          "runs": [
+            "SRR5133568"
+          ],
+          "title": "GSM2441000: 12hrwounding_PIEpdSC__R2_RNA-seq; Mus musculus; RNA-Seq",
+          "sample_title": "12hrwounding_PIEpdSC__R2_RNA-seq",
+          "library_name": "",
+          "strategy": "RNA-Seq",
+          "source": "TRANSCRIPTOMIC",
+          "selection": "cDNA",
+          "layout": "SINGLE",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448171\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133568",
+          "experiment_accession": "SRX2448171",
+          "sample_accession": "SAMN06187812",
+          "secondary_sample_accession": "SRS1881579",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "12hrwounding_PIEpdSC__R2_RNA-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2441000: 12hrwounding_PIEpdSC__R2_RNA-seq Mus musculus RNA-Seq",
+          "library_name": "",
+          "library_layout": "SINGLE",
+          "library_strategy": "RNA-Seq",
+          "library_source": "TRANSCRIPTOMIC",
+          "library_selection": "cDNA",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "101606589",
+          "base_count": "5181936039",
+          "source_line": 21
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187812",
+          "linked_accessions": [
+            "GSM2441000",
+            "SAMN06187812",
+            "SRS1881579"
+          ],
+          "title": "12hrwounding_PIEpdSC__R2_RNA-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and wounded at 30 days. 12hr wounds were harvested"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441001": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6CtrlEpdSC_R1_ATAC-seq",
+            "line": 761
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441001",
+            "line": 762
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 766
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 768
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 769
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 770
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 771
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 772
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 773
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 774
+          },
+          {
+            "value": "treatment: control vanicream for 6 days",
+            "line": 775
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 777
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 782
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 783
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 784
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 785
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 794
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 795
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 796
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187811",
+            "line": 797
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448172",
+            "line": 798
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441001/suppl/GSM2441001_CTRL_Day6_mm10_ATAC_Rep_1_.bw",
+            "line": 799
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448172",
+          "sample_accession": "SRS1881580",
+          "linked_accessions": [
+            "GSM2441001",
+            "SAMN06187811",
+            "SRS1881580"
+          ],
+          "runs": [
+            "SRR5133569"
+          ],
+          "title": "GSM2441001: D6CtrlEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D6CtrlEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448172\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133569",
+          "experiment_accession": "SRX2448172",
+          "sample_accession": "SAMN06187811",
+          "secondary_sample_accession": "SRS1881580",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6CtrlEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441001: D6CtrlEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "40498884",
+          "base_count": "4130886168",
+          "source_line": 15
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187811",
+          "linked_accessions": [
+            "GSM2441001",
+            "SAMN06187811",
+            "SRS1881580"
+          ],
+          "title": "D6CtrlEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441002": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6CtrlEpdSC_R2_ATAC-seq",
+            "line": 803
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441002",
+            "line": 804
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 808
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 810
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 811
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 812
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 813
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 814
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 815
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 816
+          },
+          {
+            "value": "treatment: control vanicream for 6 days",
+            "line": 817
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 819
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 824
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 825
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 826
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 827
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 836
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 837
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 838
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187810",
+            "line": 839
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448173",
+            "line": 840
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441002/suppl/GSM2441002_CTRL_Day6_mm10_ATAC_Rep_2_.bw",
+            "line": 841
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448173",
+          "sample_accession": "SRS1881581",
+          "linked_accessions": [
+            "GSM2441002",
+            "SAMN06187810",
+            "SRS1881581"
+          ],
+          "runs": [
+            "SRR5133570"
+          ],
+          "title": "GSM2441002: D6CtrlEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D6CtrlEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448173\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133570",
+          "experiment_accession": "SRX2448173",
+          "sample_accession": "SAMN06187810",
+          "secondary_sample_accession": "SRS1881581",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6CtrlEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441002: D6CtrlEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "42796192",
+          "base_count": "4365211584",
+          "source_line": 5
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187810",
+          "linked_accessions": [
+            "GSM2441002",
+            "SAMN06187810",
+            "SRS1881581"
+          ],
+          "title": "D6CtrlEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "control vanicream for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441003": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6IMQlEpdSC_R1_ATAC-seq",
+            "line": 845
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441003",
+            "line": 846
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 850
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 852
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 853
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 854
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 855
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 856
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 857
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 858
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days",
+            "line": 859
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 861
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 866
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 867
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 868
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 869
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 878
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 879
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 880
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187809",
+            "line": 881
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448174",
+            "line": 882
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441003/suppl/GSM2441003_IMQ_Day6_mm10_ATAC_Rep_1_.bw",
+            "line": 883
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448174",
+          "sample_accession": "SRS1881582",
+          "linked_accessions": [
+            "GSM2441003",
+            "SAMN06187809",
+            "SRS1881582"
+          ],
+          "runs": [
+            "SRR5133571"
+          ],
+          "title": "GSM2441003: D6IMQlEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D6IMQlEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448174\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133571",
+          "experiment_accession": "SRX2448174",
+          "sample_accession": "SAMN06187809",
+          "secondary_sample_accession": "SRS1881582",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6IMQlEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441003: D6IMQlEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "49492241",
+          "base_count": "5048208582",
+          "source_line": 6
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187809",
+          "linked_accessions": [
+            "GSM2441003",
+            "SAMN06187809",
+            "SRS1881582"
+          ],
+          "title": "D6IMQlEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441004": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D6IMQlEpdSC_R2_ATAC-seq",
+            "line": 887
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441004",
+            "line": 888
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 892
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 894
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 895
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 896
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 897
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 898
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 899
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 900
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days",
+            "line": 901
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 903
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 908
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 909
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 910
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 911
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 920
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 921
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 922
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187808",
+            "line": 923
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448175",
+            "line": 924
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441004/suppl/GSM2441004_IMQ_Day6_mm10_ATAC_Rep_2_.bw",
+            "line": 925
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448175",
+          "sample_accession": "SRS1881583",
+          "linked_accessions": [
+            "GSM2441004",
+            "SAMN06187808",
+            "SRS1881583"
+          ],
+          "runs": [
+            "SRR5133572"
+          ],
+          "title": "GSM2441004: D6IMQlEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D6IMQlEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448175\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133572",
+          "experiment_accession": "SRX2448175",
+          "sample_accession": "SAMN06187808",
+          "secondary_sample_accession": "SRS1881583",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D6IMQlEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441004: D6IMQlEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "37594731",
+          "base_count": "3834662562",
+          "source_line": 22
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187808",
+          "linked_accessions": [
+            "GSM2441004",
+            "SAMN06187808",
+            "SRS1881583"
+          ],
+          "title": "D6IMQlEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441005": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30CtrlEpdSC_R1_ATAC-seq",
+            "line": 929
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441005",
+            "line": 930
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 934
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 936
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 937
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 938
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 939
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 940
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 941
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 942
+          },
+          {
+            "value": "treatment: vanicream for 6 days and harvested 30 days after treatment",
+            "line": 943
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 945
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 950
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 951
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 952
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 953
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 962
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 963
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 964
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187807",
+            "line": 965
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448176",
+            "line": 966
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441005/suppl/GSM2441005_Control_Day30_mm10_ATAC_Rep_1_.bw",
+            "line": 967
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448176",
+          "sample_accession": "SRS1881584",
+          "linked_accessions": [
+            "GSM2441005",
+            "SAMN06187807",
+            "SRS1881584"
+          ],
+          "runs": [
+            "SRR5133573"
+          ],
+          "title": "GSM2441005: D30CtrlEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D30CtrlEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448176\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133573",
+          "experiment_accession": "SRX2448176",
+          "sample_accession": "SAMN06187807",
+          "secondary_sample_accession": "SRS1881584",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30CtrlEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441005: D30CtrlEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "38623802",
+          "base_count": "3939627804",
+          "source_line": 11
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187807",
+          "linked_accessions": [
+            "GSM2441005",
+            "SAMN06187807",
+            "SRS1881584"
+          ],
+          "title": "D30CtrlEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441006": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30CtrlEpdSC_R2_ATAC-seq",
+            "line": 971
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441006",
+            "line": 972
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 976
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 978
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 979
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 980
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 981
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 982
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 983
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 984
+          },
+          {
+            "value": "treatment: vanicream for 6 days and harvested 30 days after treatment",
+            "line": 985
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 987
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 992
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 993
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 994
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 995
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1004
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1005
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1006
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187806",
+            "line": 1007
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448177",
+            "line": 1008
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441006/suppl/GSM2441006_Control_Day30_mm10_ATAC_Rep_2_.bw",
+            "line": 1009
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448177",
+          "sample_accession": "SRS1881585",
+          "linked_accessions": [
+            "GSM2441006",
+            "SAMN06187806",
+            "SRS1881585"
+          ],
+          "runs": [
+            "SRR5133574"
+          ],
+          "title": "GSM2441006: D30CtrlEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D30CtrlEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448177\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133574",
+          "experiment_accession": "SRX2448177",
+          "sample_accession": "SAMN06187806",
+          "secondary_sample_accession": "SRS1881585",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30CtrlEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441006: D30CtrlEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "41627080",
+          "base_count": "4245962160",
+          "source_line": 29
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187806",
+          "linked_accessions": [
+            "GSM2441006",
+            "SAMN06187806",
+            "SRS1881585"
+          ],
+          "title": "D30CtrlEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "vanicream for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441007": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30IMQEpdSC_R1_ATAC-seq",
+            "line": 1013
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441007",
+            "line": 1014
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1018
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1020
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1021
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1022
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1023
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1024
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 1025
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1026
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and harvested 30 days after treatment",
+            "line": 1027
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1029
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1034
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1035
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 1036
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 1037
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1046
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1047
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1048
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187805",
+            "line": 1049
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448178",
+            "line": 1050
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441007/suppl/GSM2441007_PostInflamed_Day30_mm10_ATAC_Rep_1_.bw",
+            "line": 1051
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448178",
+          "sample_accession": "SRS1881586",
+          "linked_accessions": [
+            "GSM2441007",
+            "SAMN06187805",
+            "SRS1881586"
+          ],
+          "runs": [
+            "SRR5133575"
+          ],
+          "title": "GSM2441007: D30IMQEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D30IMQEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448178\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133575",
+          "experiment_accession": "SRX2448178",
+          "sample_accession": "SAMN06187805",
+          "secondary_sample_accession": "SRS1881586",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30IMQEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441007: D30IMQEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "38259158",
+          "base_count": "3902434116",
+          "source_line": 12
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187805",
+          "linked_accessions": [
+            "GSM2441007",
+            "SAMN06187805",
+            "SRS1881586"
+          ],
+          "title": "D30IMQEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2441008": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D30IMQEpdSC_R2_ATAC-seq",
+            "line": 1055
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2441008",
+            "line": 1056
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1060
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1062
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1063
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1064
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1065
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1066
+          },
+          {
+            "value": "cell type: adult skin epithelia",
+            "line": 1067
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1068
+          },
+          {
+            "value": "treatment: topical imiquimod for 6 days and harvested 30 days after treatment",
+            "line": 1069
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1071
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1076
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1077
+          },
+          {
+            "value": "Supplementary_files_format_and_content: .bw",
+            "line": 1078
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL21103",
+            "line": 1079
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1088
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1089
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1090
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN06187804",
+            "line": 1091
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2448179",
+            "line": 1092
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2441nnn/GSM2441008/suppl/GSM2441008_PostInflamed_Day30_mm10_ATAC_Rep_2_.bw",
+            "line": 1093
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2448179",
+          "sample_accession": "SRS1881587",
+          "linked_accessions": [
+            "GSM2441008",
+            "SAMN06187804",
+            "SRS1881587"
+          ],
+          "runs": [
+            "SRR5133576"
+          ],
+          "title": "GSM2441008: D30IMQEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D30IMQEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 4000",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2448179\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5133576",
+          "experiment_accession": "SRX2448179",
+          "sample_accession": "SAMN06187804",
+          "secondary_sample_accession": "SRS1881587",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D30IMQEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 4000 sequencing: GSM2441008: D30IMQEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 4000",
+          "read_count": "40831449",
+          "base_count": "4164807798",
+          "source_line": 7
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN06187804",
+          "linked_accessions": [
+            "GSM2441008",
+            "SAMN06187804",
+            "SRS1881587"
+          ],
+          "title": "D30IMQEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell type",
+              "value": "adult skin epithelia"
+            },
+            {
+              "key": "treatment",
+              "value": "topical imiquimod for 6 days and harvested 30 days after treatment"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2652413": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D180IMQEpdSC_R1_ATAC-seq",
+            "line": 1097
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2652413",
+            "line": 1098
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1102
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1104
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1105
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1106
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1107
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1108
+          },
+          {
+            "value": "cell types: adult skin epithelia",
+            "line": 1109
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1110
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1112
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1116
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1117
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 1118
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1127
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1128
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1129
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN07203513",
+            "line": 1130
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2893904",
+            "line": 1131
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2652nnn/GSM2652413/suppl/GSM2652413_PI_D180_mm10_ATAC_Rep_1_.bw",
+            "line": 1132
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2893904",
+          "sample_accession": "SRS2261458",
+          "linked_accessions": [
+            "GSM2652413",
+            "SAMN07203513",
+            "SRS2261458"
+          ],
+          "runs": [
+            "SRR5657347"
+          ],
+          "title": "GSM2652413: D180IMQEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D180IMQEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2893904\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5657347",
+          "experiment_accession": "SRX2893904",
+          "sample_accession": "SAMN07203513",
+          "secondary_sample_accession": "SRS2261458",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D180IMQEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2652413: D180IMQEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "31192955",
+          "base_count": "3181681410",
+          "source_line": 16
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN07203513",
+          "linked_accessions": [
+            "GSM2652413",
+            "SAMN07203513",
+            "SRS2261458"
+          ],
+          "title": "D180IMQEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2652414": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D180IMQEpdSC_R2_ATAC-seq",
+            "line": 1136
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2652414",
+            "line": 1137
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1141
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1143
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1144
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1145
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1146
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1147
+          },
+          {
+            "value": "cell types: adult skin epithelia",
+            "line": 1148
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1149
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1151
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1155
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1156
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 1157
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1166
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1167
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1168
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN07203512",
+            "line": 1169
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2893905",
+            "line": 1170
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2652nnn/GSM2652414/suppl/GSM2652414_PI_D180_mm10_ATAC_Rep_2_.bw",
+            "line": 1171
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2893905",
+          "sample_accession": "SRS2261459",
+          "linked_accessions": [
+            "GSM2652414",
+            "SAMN07203512",
+            "SRS2261459"
+          ],
+          "runs": [
+            "SRR5657348"
+          ],
+          "title": "GSM2652414: D180IMQEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D180IMQEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2893905\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5657348",
+          "experiment_accession": "SRX2893905",
+          "sample_accession": "SAMN07203512",
+          "secondary_sample_accession": "SRS2261459",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D180IMQEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2652414: D180IMQEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "29584068",
+          "base_count": "3017574936",
+          "source_line": 23
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN07203512",
+          "linked_accessions": [
+            "GSM2652414",
+            "SAMN07203512",
+            "SRS2261459"
+          ],
+          "title": "D180IMQEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2652415": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D180CtrlEpdSC_R1_ATAC-seq",
+            "line": 1175
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2652415",
+            "line": 1176
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1180
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1182
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1183
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1184
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1185
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1186
+          },
+          {
+            "value": "cell types: adult skin epithelia",
+            "line": 1187
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1188
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1190
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1194
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1195
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 1196
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1205
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1206
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1207
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN07203511",
+            "line": 1208
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2893906",
+            "line": 1209
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2652nnn/GSM2652415/suppl/GSM2652415_Ctrl_D180_mm10_ATAC_Rep_1_.bw",
+            "line": 1210
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2893906",
+          "sample_accession": "SRS2261460",
+          "linked_accessions": [
+            "GSM2652415",
+            "SAMN07203511",
+            "SRS2261460"
+          ],
+          "runs": [
+            "SRR5657349"
+          ],
+          "title": "GSM2652415: D180CtrlEpdSC_R1_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D180CtrlEpdSC_R1_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2893906\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5657349",
+          "experiment_accession": "SRX2893906",
+          "sample_accession": "SAMN07203511",
+          "secondary_sample_accession": "SRS2261460",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D180CtrlEpdSC_R1_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2652415: D180CtrlEpdSC_R1_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "22843628",
+          "base_count": "2330050056",
+          "source_line": 8
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN07203511",
+          "linked_accessions": [
+            "GSM2652415",
+            "SAMN07203511",
+            "SRS2261460"
+          ],
+          "title": "D180CtrlEpdSC_R1_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ]
+        }
+      ]
+    },
+    "GSM2652416": {
+      "geo_fields_with_line_numbers": {
+        "title": [
+          {
+            "value": "D180CtrlEpdSC_R2_ATAC-seq",
+            "line": 1214
+          }
+        ],
+        "geo_accession": [
+          {
+            "value": "GSM2652416",
+            "line": 1215
+          }
+        ],
+        "type": [
+          {
+            "value": "SRA",
+            "line": 1219
+          }
+        ],
+        "source_name_ch1": [
+          {
+            "value": "Skin",
+            "line": 1221
+          }
+        ],
+        "organism_ch1": [
+          {
+            "value": "Mus musculus",
+            "line": 1222
+          }
+        ],
+        "taxid_ch1": [
+          {
+            "value": "10090",
+            "line": 1223
+          }
+        ],
+        "characteristics_ch1": [
+          {
+            "value": "Sex: female",
+            "line": 1224
+          },
+          {
+            "value": "strain: C57BL/6",
+            "line": 1225
+          },
+          {
+            "value": "cell types: adult skin epithelia",
+            "line": 1226
+          },
+          {
+            "value": "sort markers: Integrin A6+, B1+ SCa1+ CD34-",
+            "line": 1227
+          }
+        ],
+        "molecule_ch1": [
+          {
+            "value": "genomic DNA",
+            "line": 1229
+          }
+        ],
+        "data_processing": [
+          {
+            "value": "Reads were aligned to the reference mouse genome (mm10) with bowtie as previously described (Buenrostro 2013).",
+            "line": 1233
+          },
+          {
+            "value": "Genome_build: mm10",
+            "line": 1234
+          }
+        ],
+        "platform_id": [
+          {
+            "value": "GPL17021",
+            "line": 1235
+          }
+        ],
+        "library_selection": [
+          {
+            "value": "other",
+            "line": 1244
+          }
+        ],
+        "library_source": [
+          {
+            "value": "genomic",
+            "line": 1245
+          }
+        ],
+        "library_strategy": [
+          {
+            "value": "ATAC-seq",
+            "line": 1246
+          }
+        ],
+        "relation": [
+          {
+            "value": "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN07203514",
+            "line": 1247
+          },
+          {
+            "value": "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX2893907",
+            "line": 1248
+          }
+        ],
+        "supplementary_file_1": [
+          {
+            "value": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2652nnn/GSM2652416/suppl/GSM2652416_Ctrl_D180_mm10_ATAC_Rep_2_.bw",
+            "line": 1249
+          }
+        ]
+      },
+      "sra": [
+        {
+          "experiment": "SRX2893907",
+          "sample_accession": "SRS2261461",
+          "linked_accessions": [
+            "GSM2652416",
+            "SAMN07203514",
+            "SRS2261461"
+          ],
+          "runs": [
+            "SRR5657350"
+          ],
+          "title": "GSM2652416: D180CtrlEpdSC_R2_ATAC-seq; Mus musculus; ATAC-seq",
+          "sample_title": "D180CtrlEpdSC_R2_ATAC-seq",
+          "library_name": "",
+          "strategy": "ATAC-seq",
+          "source": "GENOMIC",
+          "selection": "other",
+          "layout": "PAIRED",
+          "instrument_model": "Illumina HiSeq 2500",
+          "instrument_platform": "ILLUMINA",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ],
+          "locator": "EXPERIMENT_PACKAGE/EXPERIMENT[@accession=\"SRX2893907\"]"
+        }
+      ],
+      "ena": [
+        {
+          "run_accession": "SRR5657350",
+          "experiment_accession": "SRX2893907",
+          "sample_accession": "SAMN07203514",
+          "secondary_sample_accession": "SRS2261461",
+          "study_accession": "PRJNA359188",
+          "secondary_study_accession": "SRP095734",
+          "sample_title": "D180CtrlEpdSC_R2_ATAC-seq",
+          "experiment_title": "Illumina HiSeq 2500 sequencing: GSM2652416: D180CtrlEpdSC_R2_ATAC-seq Mus musculus ATAC-seq",
+          "library_name": "",
+          "library_layout": "PAIRED",
+          "library_strategy": "ATAC-seq",
+          "library_source": "GENOMIC",
+          "library_selection": "other",
+          "instrument_platform": "ILLUMINA",
+          "instrument_model": "Illumina HiSeq 2500",
+          "read_count": "27668706",
+          "base_count": "2822208012",
+          "source_line": 13
+        }
+      ],
+      "biosamples": [
+        {
+          "accession": "SAMN07203514",
+          "linked_accessions": [
+            "GSM2652416",
+            "SAMN07203514",
+            "SRS2261461"
+          ],
+          "title": "D180CtrlEpdSC_R2_ATAC-seq",
+          "attributes": [
+            {
+              "key": "Sex",
+              "value": "female"
+            },
+            {
+              "key": "strain",
+              "value": "C57BL/6"
+            },
+            {
+              "key": "cell types",
+              "value": "adult skin epithelia"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

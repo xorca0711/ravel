@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": 7009534,
+  "maximum_scaled_error": 5.684341886080802e-14,
+  "interval_readback_checks": 296,
+  "interval_readback_maximum_scaled_error": 0.0,
+  "arithmetic": "independent stdlib grouping/sorting/math.fsum/linear quantiles",
+  "exact_S3_outputs_preserved": true,
+  "independent_biological_replication": false,
+  "same_binary_decoder_for_readback": true
+}

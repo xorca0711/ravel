@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": 2788974,
+  "genes": 21775,
+  "windows_per_width": 21760,
+  "exact_readback_checks": 608,
+  "maximum_scaled_error": 4.263256414560601e-14,
+  "computational_tolerance": 1e-10,
+  "scope": "independent GTF parsing, all mappings/ranks/contrasts/summaries and fixed examples; separately reread interval-weighted means on predetermined subset",
+  "independent_binary_decoder": false,
+  "independent_biological_replication": false
+}

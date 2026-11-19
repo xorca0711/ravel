@@ -1,0 +1,28 @@
+{
+  "primary": {
+    "control": [
+      "GSM2440989",
+      "GSM2440990"
+    ],
+    "history": [
+      "GSM2440991",
+      "GSM2440992"
+    ],
+    "operation": "original arithmetic count-scale means"
+  },
+  "alternatives": {
+    "c2_h2": {
+      "control": "GSM2440990",
+      "history": "GSM2440992",
+      "libraries_per_history": 1
+    },
+    "c1_h1": {
+      "control": "GSM2440989",
+      "history": "GSM2440991",
+      "libraries_per_history": 1
+    }
+  },
+  "selection_context": "exposed S4 observed Xist/Y profiles; not verified sex strata or matched samples",
+  "normalization_and_wound_components": "frozen S4 outputs, unchanged",
+  "recorded_metadata": "female labels retained; no reassignment"
+}

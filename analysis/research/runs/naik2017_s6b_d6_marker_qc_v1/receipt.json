@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6b_d6_marker_qc_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s6b_d6_marker_qc_v1.json",
+  "contract_sha256": "033706d6519f61a833d93998a1667a6ab7fe55293317144147406ca8b38f782b",
+  "git_commit": "f92cf2126fb8be5456c5e5b58226581457e6f679",
+  "started_at": "2026-11-19T04:39:21.523554+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_marker_qc_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6b_d6_marker_qc_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s2_rna_description_v1/sample_qc.tsv",
+      "sha256": "2d6f15d1ceaa55a2cf6dc95ae7053e9239b34a1c485d707aab327a19750f057c",
+      "study_id": "NAIK2017_GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6B_D6_QC_METHOD_V1.md",
+      "sha256": "9297f73c8b6a2a0bfa093b07db1341193a8aceb4eee2ec7a0226b8184b9bc662",
+      "study_id": "NAIK2017_GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_marker_qc_v1.py",
+      "sha256": "92e391f762fdff248b4c0285e91f48c89cc68534744c06be55296cde4a168933"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_verify_v1.py",
+      "sha256": "f2d3ae70efc06094b8cdfd52829e63e41232fdfe1848c263df90b7dd909832d9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s6b_marker_qc_v1.py",
+      "sha256": "4ab2dc3ab71cbcb231ecce8086fe6ed7ad8891f27830ebfa117ffcd13820cfee"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/annotation.tsv",
+      "sha256": "8d56da3071df55b79306d2454ead654584edbeeabd5222feaf58b3b6742b7a5f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/sample_qc.tsv",
+      "sha256": "69a70a8dcfe7617401dd3a29bcc22ebcf7052afc5a2240ab97829b6763162f21"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/marker_qc.tsv",
+      "sha256": "fd6ea6dfebb62b60fb987770e74ce7188b5d07b40be142cddfcd91b2370775ce"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/metadata.json",
+      "sha256": "bcc3ee77a70d4fdf4836d9c0dbc01ce0e79468e385269b21acf31505b4333934"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/runtime.json",
+      "sha256": "aa0afce5ac9f9d2152b984b9a4647b83587da9e59cc8a37402b6bc894e6f280f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/verification.json",
+      "sha256": "46a7c5eb367f91629ac21596fc3ccb89879814a9c4f26770d7072ff84e7f7e2f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/fig01_fixed_d6_markers.png",
+      "sha256": "eb17f0fb02aaf8a22fd5879a24255928ccf4c000578982a5f3704c372c5fb847"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6b_d6_marker_qc_v1/fig01_fixed_d6_markers.pdf",
+      "sha256": "0b7ae1853d49cd76861f2148c75af7454d5495f5212007ec8e6775acc3028999"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T04:39:35.661454+00:00"
+}

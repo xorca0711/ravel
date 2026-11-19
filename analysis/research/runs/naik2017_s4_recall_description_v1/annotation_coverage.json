@@ -1,0 +1,160 @@
+{
+  "source": "GENCODE M9 reference-chromosome GTF",
+  "exact_version_matches": 47643,
+  "unmatched": 86,
+  "unmatched_ids": [
+    "ENSMUSG00000079800.2",
+    "ENSMUSG00000095092.1",
+    "ENSMUSG00000079192.2",
+    "ENSMUSG00000079794.2",
+    "ENSMUSG00000094799.1",
+    "ENSMUSG00000095250.1",
+    "ENSMUSG00000095787.1",
+    "ENSMUSG00000096100.1",
+    "ENSMUSG00000094054.1",
+    "ENSMUSG00000095672.1",
+    "ENSMUSG00000079190.3",
+    "ENSMUSG00000094514.1",
+    "ENSMUSG00000094915.1",
+    "ENSMUSG00000079808.3",
+    "ENSMUSG00000063897.3",
+    "ENSMUSG00000084520.1",
+    "ENSMUSG00000096776.1",
+    "ENSMUSG00000096244.1",
+    "ENSMUSG00000079222.2",
+    "ENSMUSG00000094874.1",
+    "ENSMUSG00000095500.1",
+    "ENSMUSG00000095450.1",
+    "ENSMUSG00000094728.1",
+    "ENSMUSG00000062783.2",
+    "ENSMUSG00000096808.1",
+    "ENSMUSG00000051412.6",
+    "ENSMUSG00000090805.1",
+    "ENSMUSG00000089163.1",
+    "ENSMUSG00000061654.3",
+    "ENSMUSG00000079834.2",
+    "ENSMUSG00000099278.1",
+    "ENSMUSG00000094121.1",
+    "ENSMUSG00000094576.1",
+    "ENSMUSG00000079764.1",
+    "ENSMUSG00000079774.2",
+    "ENSMUSG00000079773.2",
+    "ENSMUSG00000096271.1",
+    "ENSMUSG00000094741.1",
+    "ENSMUSG00000074720.1",
+    "ENSMUSG00000094337.7",
+    "ENSMUSG00000095570.1",
+    "ENSMUSG00000096728.1",
+    "ENSMUSG00000094621.1",
+    "ENSMUSG00000098647.1",
+    "ENSMUSG00000095434.1",
+    "ENSMUSG00000094431.1",
+    "ENSMUSG00000096730.7",
+    "ENSMUSG00000095456.1",
+    "ENSMUSG00000095247.7",
+    "ENSMUSG00000095585.1",
+    "ENSMUSG00000096873.1",
+    "ENSMUSG00000095755.1",
+    "ENSMUSG00000096646.1",
+    "ENSMUSG00000096506.1",
+    "ENSMUSG00000095552.1",
+    "ENSMUSG00000095207.1",
+    "ENSMUSG00000093828.7",
+    "ENSMUSG00000095623.1",
+    "ENSMUSG00000094661.1",
+    "ENSMUSG00000095320.1",
+    "ENSMUSG00000094350.1",
+    "ENSMUSG00000096237.1",
+    "ENSMUSG00000095742.1",
+    "ENSMUSG00000095666.1",
+    "ENSMUSG00000096680.1",
+    "ENSMUSG00000095505.1",
+    "ENSMUSG00000094303.1",
+    "ENSMUSG00000096236.1",
+    "ENSMUSG00000096756.1",
+    "ENSMUSG00000094722.1",
+    "ENSMUSG00000095728.1",
+    "ENSMUSG00000095076.1",
+    "ENSMUSG00000094836.1",
+    "ENSMUSG00000094383.1",
+    "ENSMUSG00000094474.1",
+    "ENSMUSG00000094791.1",
+    "ENSMUSG00000096550.1",
+    "ENSMUSG00000094172.1",
+    "ENSMUSG00000094887.1",
+    "ENSMUSG00000091585.2",
+    "ENSMUSG00000095763.1",
+    "ENSMUSG00000095523.1",
+    "ENSMUSG00000095475.1",
+    "ENSMUSG00000094855.1",
+    "ENSMUSG00000095019.1",
+    "ENSMUSG00000095041.7"
+  ],
+  "markers": [
+    {
+      "requested_name": "Xist",
+      "status": "unique_exact_annotation",
+      "records": [
+        {
+          "gene_id": "ENSMUSG00000086503.3",
+          "gene_name": "Xist",
+          "gene_type": "lincRNA",
+          "chromosome": "chrX",
+          "in_count_universe": true
+        }
+      ]
+    },
+    {
+      "requested_name": "Ddx3y",
+      "status": "unique_exact_annotation",
+      "records": [
+        {
+          "gene_id": "ENSMUSG00000069045.11",
+          "gene_name": "Ddx3y",
+          "gene_type": "protein_coding",
+          "chromosome": "chrY",
+          "in_count_universe": true
+        }
+      ]
+    },
+    {
+      "requested_name": "Eif2s3y",
+      "status": "unique_exact_annotation",
+      "records": [
+        {
+          "gene_id": "ENSMUSG00000069049.11",
+          "gene_name": "Eif2s3y",
+          "gene_type": "protein_coding",
+          "chromosome": "chrY",
+          "in_count_universe": true
+        }
+      ]
+    },
+    {
+      "requested_name": "Kdm5d",
+      "status": "unique_exact_annotation",
+      "records": [
+        {
+          "gene_id": "ENSMUSG00000056673.14",
+          "gene_name": "Kdm5d",
+          "gene_type": "protein_coding",
+          "chromosome": "chrY",
+          "in_count_universe": true
+        }
+      ]
+    },
+    {
+      "requested_name": "Uty",
+      "status": "unique_exact_annotation",
+      "records": [
+        {
+          "gene_id": "ENSMUSG00000068457.14",
+          "gene_name": "Uty",
+          "gene_type": "protein_coding",
+          "chromosome": "chrY",
+          "in_count_universe": true
+        }
+      ]
+    }
+  ]
+}

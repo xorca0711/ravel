@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6b_d6_marker_qc_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the four original D6 RNA libraries show additional discordance between recorded source metadata and the same five fixed RNA markers already examined in S4?",
+  "decision": "Describe all twenty marker/library profiles to localize or widen source-consistency uncertainty. Return the complete table/figure for coordinator review, preserving all samples and upstream results. Consistency does not prove an unconfounded D6 effect; discordance does not identify sex, mixture, error or a correction.",
+  "strongest_rival": "Recorded metadata may not describe the exact pooled contributors; marker abundance can also reflect expression, mixture, background or mapping. Inferring sex or cross-assay matching from a few RNA markers would exceed this source diagnostic. Recomputing factors on five genes would alter the intended abundance scale.",
+  "discriminator": "Read exactly Xist/Ddx3y/Eif2s3y/Kdm5d/Uty at their fixed M9 versioned IDs in GSM2440985-988. Preserve original female metadata and verified source joins. Reuse frozen S2 D6 MOR/total factors and full-library counts for CPM, saving all raw/normalized values and zeros. Independent gzip/CSV/GTF/Decimal verification checks identities, denominators, factors and output semantics.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6B_D6_QC_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S2_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S5M_RESULTS_V2.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6A_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "S2 all-gene counts and partial D6 Xist profiles, S4 five-marker readout, S5M associations and S6 assessment are exposed. The coordinator approved this exact five-marker/four-library QC scope on 19 November after reviewed S6A. Before freeze, only source identity/metadata, frozen factors/totals and annotation identities were inspected for S6B; five tests and any layout preview use constructed counts. No full new twenty-row D6 marker profile was calculated by this implementation before freeze.",
+  "biological_unit": "Deposited RNA library from published pooled biological-replicate preparations. Exact pool/animal membership, overlap and cross-assay matching are unresolved. Computational endpoint is a transcript count/normalized abundance in a library, not an individual animal sex measurement.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The four original Naik GSE92967 D6 RNA libraries are the same source used by S2 and S5M, not independent replication. Replicate suffixes do not match RNA to ATAC or identify animals. All five markers within a library share its library denominator; no group or population inference.",
+  "population_and_selection": "Exactly GSM2440985/986 control and GSM2440987/988 acute inflamed, and the five already fixed versioned M9 identities in S6B_D6_QC_METHOD_V1. Read all 47,729 gene rows only for source structure, gene identity and full-library denominator verification; output every one of the twenty fixed marker/library combinations. No outcome selection, substitution or sample exclusion.",
+  "contrast": "A fixed source-consistency display across four libraries; no fitted group contrast, marker ratio, high/low threshold, classifier, sex reclassification or cross-assay pairing. Compare recorded female metadata with the complete observed five-marker RNA profiles descriptively, retaining the previously exposed S4 uncertainty.",
+  "endpoint": "Supplied read count, raw count divided by the frozen S2 MOR factor, raw count divided by frozen S2 total-count factor, CPM using the full-library gene-count total, and log2(CPM+1), for the five exact M9 transcripts. These do not identify biological sex, lineage, contamination, sample matching, repair or chromatin function.",
+  "methods": "S6B_D6_QC_METHOD_V1 defines exact libraries, genes, joins and output order. Main pandas reader requires two-column nonnegative integer counts, 47,729 unique versioned IDs in identical order and original S2 totals. Separate GTF annotation check requires unique exact name/ID/chromosome/type. Reuse frozen S2 factors without estimation and compute raw/MOR/total/CPM/log2(CPM+1); preserve original metadata and zero flags. One raw-count/shared-scale heatmap PNG/PDF displays all twenty values without clustering or row scaling. Independent stdlib gzip/CSV, separate GTF parser and 50-digit Decimal verify every output and source/denominator/factor join; floating tolerance 1e-10.",
+  "missingness_and_exclusions": "No imputation, new marker, threshold, sample deletion or sex assignment. Zero is numeric zero. Unexpected absent/duplicate/version-changed marker, ambiguous annotation or recorded metadata, missing/duplicated library, altered source join, invalid count/total or nonpositive/nonfinite frozen factor stops dependent calculation. Do not repair source identities or refit factors.",
+  "multiplicity": "Exactly twenty descriptive marker/library rows, all retained. No p-values, confidence intervals, equivalence claims, outcome-selected markers or repeated-marker confirmation.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite source count and arithmetic verification, not animal-level precision or power. Pool membership and biological source consistency remain unresolved. The 1e-10 scaled tolerance is computational, not a sex/mixture classifier or biological margin.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Marker RNA profiles may localize or widen a source-metadata question but do not assign sex, establish source error or contamination, choose an exclusion/correction, validate RNA/ATAC pairing or prove that D6 comparisons are unconfounded. All libraries and earlier results remain unchanged. Published pooling evidence is retained with unresolved individual membership.",
+  "stop_rule": "Require committed frozen method/contract/code and matching eight inputs. Stop on source hash, metadata/unit identity, gene annotation, count structure/order/total, frozen factor or independent verification mismatch. Preserve failures and prior artifacts. No upstream numerical rerun, sample sex assignment/exclusion/correction, new marker or RNA/ATAC pairing. Return actual complete D6 results/figure for coordinator review before final S6 synthesis; no external action or claim promotion.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_marker_qc_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6b_d6_marker_qc_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "annotation.tsv",
+    "sample_qc.tsv",
+    "marker_qc.tsv",
+    "metadata.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_fixed_d6_markers.png",
+    "fig01_fixed_d6_markers.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New separately approved exposed fixed-marker D6 QC after completed S6A at ccc91cd; retains exact S4 markers and original S2 normalization factors without rerunning upstream analyses.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440985_D6_Control_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "df4d295c4ad551efc692e877c2ce7fc18934dc1a0a6a544cff20902dc1f377ea",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440986_D6_Control_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "867f053e382f97a0cd1805850f262037c9a6d76007b3e43d15c548a86aa7a190",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440987_D6_Postinflamed_mm10_genecode_Rep1_ReadsPerGene.out.tab.gz",
+      "sha256": "089d4edfc1acc38567c73348ee84716bda8b8f375528dd2e6d2a3393c00eb35b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/GSM2440988_D6_Postinflamed_mm10_genecode_Rep2_ReadsPerGene.out.tab.gz",
+      "sha256": "309ac59bd2fb1b069ac79621f2de2078d2bdd0dca4258e98a4ff763612a45fbd",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s2_sources/gencode.vM9.annotation.gtf.gz",
+      "sha256": "93406cb8e6835339b0e64d0ad904a6d3e4527333f62a3a24f9a53c16083ca9fa",
+      "study_id": "GENCODE_mouse_M9",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "unknown"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s2_rna_description_v1/sample_qc.tsv",
+      "sha256": "2d6f15d1ceaa55a2cf6dc95ae7053e9239b34a1c485d707aab327a19750f057c",
+      "study_id": "NAIK2017_GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6B_D6_QC_METHOD_V1.md",
+      "sha256": "9297f73c8b6a2a0bfa093b07db1341193a8aceb4eee2ec7a0226b8184b9bc662",
+      "study_id": "NAIK2017_GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_marker_qc_v1.py",
+      "sha256": "92e391f762fdff248b4c0285e91f48c89cc68534744c06be55296cde4a168933"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6b_verify_v1.py",
+      "sha256": "f2d3ae70efc06094b8cdfd52829e63e41232fdfe1848c263df90b7dd909832d9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s6b_marker_qc_v1.py",
+      "sha256": "4ab2dc3ab71cbcb231ecce8086fe6ed7ad8891f27830ebfa117ffcd13820cfee"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6c_d180_proxy_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do D180 prior-inflammation versus control relative TSS-proxy rank differences compare with the exact frozen S3 D30 description, with D6 as the acute reference?",
+  "decision": "Describe every exact S3 window at D180 and compare finite signed and absolute rank displacements with frozen D30/D6, including both widths and all five paper anchors. Smaller, larger, opposite or mixed differences refine this fixed-universe durability description. Return verified outputs for coordinator review before final S6 progression assessment; no original retained-domain or maintenance-mechanism inference.",
+  "strongest_rival": "Unknown track processing units and pooled-animal membership, mixture and D180 HiSeq2500 versus D6/D30 HiSeq4000 may affect cross-time relative ordering. Global rank constraints and zero-tie mass can create nonzero rank contrasts at locally zero windows. A source or dictionary mismatch could invalidate extraction. Shared-source and cross-time library comparisons do not establish matched animals or independent replication.",
+  "discriminator": "Qualify all four acquired D180 identities, hashes, headers and required mm10 chromosome lengths before any research-window fetch. Reuse exactly the frozen S3 windows and gene map; stream complete finite base-array means. Compute within-library tied percentile ranks and PI minus Ctrl rank differences, all unpaired ranges, exact D180-versus-D30/D6 and width summaries, and all five anchors. Separate stdlib verification plus independently interval-weighted rereads checks arithmetic and coverage, not biological mechanism.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/D180_ACQUISITION_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6B_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3Q_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S3_RUNTIME_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S6_DECISION_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published D180 figures, frozen S3 D6/D30 values, all fixed anchors and the earlier Naik analyses are exposed. Coordinator approved the exact method on 19 November and subsequently closed S6B without revision. Acquisition read bytes/hashes only. Seven constructed-source tests and artificial layouts used no actual D180 research-window values. Exact code/input freeze precedes header qualification and dependent signal extraction; this is exposed description, not confirmation.",
+  "biological_unit": "Deposited ATAC library from published pooled biological-replicate preparations; exact pool/animal identities, overlap and cross-time matching unresolved. The computational endpoint is a fixed annotation-boundary window rank within each library, not a peak, original memory domain or animal-level longitudinal effect.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Four original GSE92967 D180 libraries are the same study as the frozen eight D6/D30 ATAC libraries. Genes sharing an anchor remain multiple mappings to one computational window. Overlapping windows and four unpaired contrasts are dependent; they are not independent replicates. Source suffixes do not establish matching. No D180 RNA or RNA-to-function pairing.",
+  "population_and_selection": "All 21760 exact S3 windows and 21775 M9 protein-coding gene mappings per flank, chr1-19/X, primary +/-1000 and sensitivity +/-2000 bp. No regeneration, clipping change, outcome selection or excluded window. D180 GSM2652413/14 PI and GSM2652415/16 control. Preserve Aim2, Casp1, Il1b, Il1r1 and Il18 at their exact five fixed versioned IDs and anchor keys.",
+  "contrast": "D180 mean PI minus mean control within-library rank in percentile points; all four unpaired PI_i minus Ctrl_j contrasts and their range. Primary D180 versus frozen D30, acute reference D6: signed shift and absolute-magnitude difference quantiles, smaller/larger/computationally equal fractions, opposite-sign and zero-status-change fractions. Same-anchor width sensitivity uses signed and absolute 2kb-minus-1kb contrast shifts. All-window denominators, no matched-animal effects.",
+  "endpoint": "Exact base-array window mean and encoded-zero count support within-library average-tie percentile P=100*(average_rank-1)/(N-1). Relative ranks, group rank differences and their finite spread are measured endpoints. Raw signal magnitudes are not compared as normalized absolute accessibility; no original retained-domain, global opening, RNA, repair or maintenance-mechanism endpoint is supplied.",
+  "methods": "S6C_D180_METHOD_V1 fixes all inputs, joins, comparison rules and outputs. One contract first verifies S3 receipt-bound universe and original D180 source metadata, then pinned Python3.13.18/pybbi0.4.2/NumPy2.5.5 saves all headers/dictionaries and rejects any required chromosome mismatch before research-window fetch. Exact nonzoomed base-array means require complete finite coverage. Reuse S3 tie ranks and 1e-10 pp computational zero/range rules. Preserve all old values, D180 means/zeros/ranks/contrasts, seven prespecified quantiles and complete comparisons/anchors. Separate stdlib sorting/grouping/math.fsum/linear quantiles verifies every output; up to 296 interval-iterator readbacks verify local means and zeros within scaled1e-10. Two complete-data PNG/PDF figures, no pairing lines or selected persistent subset.",
+  "missingness_and_exclusions": "No missing-window imputation, zero substitution, excluded source, label repair, new interval, new marker or outcome-selected subset. Absent/duplicate/changed source or window/mapping, required chromosome mismatch, nonfinite/missing base, source identity/hash mismatch or verification failure stops dependent work and preserves partial evidence. Exact zero means, all-encoded-zero windows, computational contrast zero and range-includes-zero remain separate.",
+  "multiplicity": "Finite descriptive comparisons across both entire universes and all five exposed anchors, with every prespecified result retained. No p-values, population confidence intervals, equivalence claims, classifier, new correlation model or independent evidence counts from genes/windows/unpaired differences.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population precision estimate with unresolved pool identities. Complete source descriptions and independent arithmetic/readback tolerance1e-10 are computational safeguards, not biological effect margins. Four unpaired contrasts describe finite spread, not confidence limits or four independent replicates.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Relative-order durability in fixed TSS-proxy windows does not reproduce original retained domains, establish absolute accessibility decay/global opening, or identify chromatin-memory maintenance, individual-cell persistence or repair. Mean rank50 and mean full-universe contrast0 are structural. Locally constant-zero windows may have nonzero rank contrasts. D180 platform and unresolved processing/pooling restrict cross-time interpretation; shared data are not independent replication.",
+  "stop_rule": "Commit the exposed exact contract/method/code before any actual D180 research-window values. All four hashes/identities and required dictionaries must qualify before dependent extraction. Stop on any missing/nonfinite base, changed universe, source/join/rank/summary/readback disagreement, extraction/readback peak RSS over2GiB, provisional entrypoint over2hours or derived artifacts over50MiB; preserve partial outputs and failures. Do not re-extract D6/D30, run raw reads, install software, repair labels, infer matched animals or promote claims. Return actual complete results/figures for coordinator review, then assess justified progression beyond reproduction; no external action.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_proxy_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6c_d180_proxy_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "windows.tsv",
+    "gene_window_map.tsv.gz",
+    "source_manifest.json",
+    "header_metadata.json",
+    "qualification.json",
+    "verification_windows.tsv",
+    "window_signal.tsv.gz",
+    "extraction_progress.json",
+    "mean_readback.tsv",
+    "readback_progress.json",
+    "window_effects.tsv.gz",
+    "library_diagnostics.tsv",
+    "summary.json",
+    "anchor_manifest.json",
+    "fixed_anchors.tsv",
+    "fig01_D180_universe.png",
+    "fig01_D180_universe.pdf",
+    "fig02_five_fixed_anchors.png",
+    "fig02_five_fixed_anchors.pdf",
+    "runtime.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New separately approved exposed D180 extension following S6B closure at ba5afa4; exact S3 windows/semantics and frozen D6/D30 values retained. Single ordered qualification/extraction contract authorized after method review.",
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s6_d180_sources_v1/GSM2652413_PI_D180_mm10_ATAC_Rep_1_.bw",
+      "sha256": "e0c262db9921a2c8302d13b77beb599628414d4ab1471598dfdd7eb392d953bb",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_d180_sources_v1/GSM2652414_PI_D180_mm10_ATAC_Rep_2_.bw",
+      "sha256": "7064d1c2dd1eb9dc7b33cb987f954fe0862ad3da86aebed403b6c61abbd3d1c3",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_d180_sources_v1/GSM2652415_Ctrl_D180_mm10_ATAC_Rep_1_.bw",
+      "sha256": "ac150ffaa673d91177ce2e17cf3d6423818865f86c4ef4c741b2c2ded1eb2d98",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_d180_sources_v1/GSM2652416_Ctrl_D180_mm10_ATAC_Rep_2_.bw",
+      "sha256": "f97e2055517bbd287f9da1f9322a232d06b97a075e9c6e589e15337e099a491a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_d180_sources_v1/acquisition_manifest_v1.json",
+      "sha256": "28aaf1fc48cbbdc74a2a9b97f29dc34f02e48e46a2109fd224843351726db058",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s1m_metadata_v2/library_crosswalk.tsv",
+      "sha256": "67df6877aac50c09c13019c761fe617206411d8ad843de976ec7f753af068a90",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_sources/mm10.chrom.sizes",
+      "sha256": "55463d59f400b2c8260d100f4b521800ee773fa9711fe3f6dad9c7887db2574f",
+      "study_id": "Nk17-P01_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/header_metadata.json",
+      "sha256": "b16b9c77fb5ffb204b5030afb58ef93d4ce8b2d2bf648ff0e3450c0d52a66e1b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3q_track_qualification_v1/qualification.json",
+      "sha256": "b5de98cae8a33196d22fe2008026cb3b37a8270220145c4d6e1dec7fe2caeded",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/runtime_smoke.json",
+      "sha256": "178699b3beaea1b29e4eb0e761ee12303f4f9804295ba340c0ab6da0a7a84c67",
+      "study_id": "Nk17-P01_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/requirements.lock",
+      "sha256": "594c4fd21ef8ef29f2d198d8871814b272ac3aa0f6c0a02c3c21a2ceaedef78e",
+      "study_id": "Nk17-P01_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s3_runtime_v1/wheels_manifest.json",
+      "sha256": "e1017682df9cb972b658a6bac6e8e07823437360526da2ac4fe6bc18c18c4c5b",
+      "study_id": "Nk17-P01_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6C_D180_METHOD_V1.md",
+      "sha256": "4d0ab25599df1415ea01f7cb762fd6876a4c86c827bb080b639edfc2d3d07ab2",
+      "study_id": "Nk17-P01_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/window_effects.tsv.gz",
+      "sha256": "f4a0692ebcf42a678a950d11371d170f0e916eee2b203c12847c3c2d42db8327",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s3_tss_rank_v1/receipt.json",
+      "sha256": "f56957be7d43f06db37e9d89d725f16692d21401733fc784b878595001241bec",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_proxy_v1.py",
+      "sha256": "1d212f9f4297acc60fe5de74ab582d685d9518b5054eb7e3958554e185e75851"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_reader_v1.py",
+      "sha256": "64fa2c0dbd64bc7d3c9f0fdbac91d521aec5811cd0375a4d2ef2d00a20bf8003"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_plot_v1.py",
+      "sha256": "74bfd1a2cf02029c0601f077c8775068d51bfa52e5b7eb468f0566092b6e71ba"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_verify_v1.py",
+      "sha256": "3c1e46b2d8c1aba1a64078f843321cf4a5978b6b908cfb3fe43e9cdfbe342e55"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s6c_proxy_v1.py",
+      "sha256": "6a30fe2558fa74b8206a4bef15a3566d077994770c7e008713f39e7589b2f3a6"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_v1.py",
+      "sha256": "6f21b28c87219bbed90dfccaf55503fd99a26b87d76c24fab92be27bd2039e9e"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_mean_verify_v1.py",
+      "sha256": "eddab80d794c21612b3e6ac458a53c5d643414b488b79af3d60675da298ac7fc"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s3_rank_verify_v1.py",
+      "sha256": "4bac2f34634934224f0d2f63e806bcb206931429b14edc1a72855b1182ddbcec"
+    }
+  ]
+}

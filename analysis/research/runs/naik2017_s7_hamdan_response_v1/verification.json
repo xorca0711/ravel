@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": 15807848,
+  "maximum_scaled_error": 7.065272517141928e-15,
+  "source_genes": 64253,
+  "response_rows": 257012,
+  "sensitivity_rows": 128506,
+  "library_combinations_per_response": 16,
+  "decimal_precision": 50,
+  "elapsed_seconds": 460.3798059999972,
+  "method": "Independent stdlib CSV/SOFT and Decimal; no main analysis imports",
+  "peak_process_memory_bytes": 185884672
+}

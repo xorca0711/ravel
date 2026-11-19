@@ -1,0 +1,92 @@
+[
+  {
+    "slot": 1,
+    "gene_name": "Aim2",
+    "gene_id": "ENSMUSG00000037860.15",
+    "anchor_id": "chr1:173350878",
+    "flank": 1000,
+    "window_id": "1000:chr1:173349878-173351878",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 1,
+    "gene_name": "Aim2",
+    "gene_id": "ENSMUSG00000037860.15",
+    "anchor_id": "chr1:173350878",
+    "flank": 2000,
+    "window_id": "2000:chr1:173348878-173352878",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 2,
+    "gene_name": "Casp1",
+    "gene_id": "ENSMUSG00000025888.5",
+    "anchor_id": "chr9:5298516",
+    "flank": 1000,
+    "window_id": "1000:chr9:5297516-5299516",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 2,
+    "gene_name": "Casp1",
+    "gene_id": "ENSMUSG00000025888.5",
+    "anchor_id": "chr9:5298516",
+    "flank": 2000,
+    "window_id": "2000:chr9:5296516-5300516",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 3,
+    "gene_name": "Il1b",
+    "gene_id": "ENSMUSG00000027398.13",
+    "anchor_id": "chr2:129371138",
+    "flank": 1000,
+    "window_id": "1000:chr2:129370138-129372138",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 3,
+    "gene_name": "Il1b",
+    "gene_id": "ENSMUSG00000027398.13",
+    "anchor_id": "chr2:129371138",
+    "flank": 2000,
+    "window_id": "2000:chr2:129369138-129373138",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 4,
+    "gene_name": "Il1r1",
+    "gene_id": "ENSMUSG00000026072.12",
+    "anchor_id": "chr1:40225079",
+    "flank": 1000,
+    "window_id": "1000:chr1:40224079-40226079",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 4,
+    "gene_name": "Il1r1",
+    "gene_id": "ENSMUSG00000026072.12",
+    "anchor_id": "chr1:40225079",
+    "flank": 2000,
+    "window_id": "2000:chr1:40223079-40227079",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 5,
+    "gene_name": "Il18",
+    "gene_id": "ENSMUSG00000039217.12",
+    "anchor_id": "chr9:50575272",
+    "flank": 1000,
+    "window_id": "1000:chr9:50574272-50576272",
+    "selection": "fixed published anchor; exposed"
+  },
+  {
+    "slot": 5,
+    "gene_name": "Il18",
+    "gene_id": "ENSMUSG00000039217.12",
+    "anchor_id": "chr9:50575272",
+    "flank": 2000,
+    "window_id": "2000:chr9:50573272-50577272",
+    "selection": "fixed published anchor; exposed"
+  }
+]

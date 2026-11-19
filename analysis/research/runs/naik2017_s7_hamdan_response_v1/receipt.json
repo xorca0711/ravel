@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s7_hamdan_response_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json",
+  "contract_sha256": "e03f1532a7bf771f38bcb9496dbc79a2434e2141f9dfd67f204c60013bd484ed",
+  "git_commit": "a7be7f811f0d868869cac371ef13b61696e4fb9c",
+  "started_at": "2026-11-19T05:35:22.551979+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_response_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s7_hamdan_response_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s7_hamdan_response_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/GSE282444_gene_counts.txt.gz",
+      "sha256": "391f6e91822118b216a38966bf60f32ab7e6e1ea713150a731f5aebc7fe75575",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [
+        "patient4",
+        "patient83"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/GSE282444_family.soft.gz",
+      "sha256": "75ffcaee686786a2fa1cfc0fa6bff46639d9c681aed1bee5f1be7093b9f72073",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/hamdan2026_mmc1_europepmc.pdf",
+      "sha256": "515b66dd6403766ab52e1a1230fc02bd9187ec5ded47afa49375be52ad25ed39",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/bounded_source_acquisition.json",
+      "sha256": "b34a484604eb6806c10aaba70726f304d62a894199b7b097dad4c657b561622b",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/metadata_acquisition_unsandboxed.json",
+      "sha256": "4efd4a0ac405b9d1147d593925c54e98141554e8fe6432e0441bcf2a140a0705",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/supplement_europepmc_acquisition.json",
+      "sha256": "c230207af21511df8ed22c6fa6943bdaabe71fc4a84408ec74ede2448e14690c",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/hamdan2026_s7_sources_v1/local_copy_manifest_v1.json",
+      "sha256": "1edd5f00b871f7150dba691e6fb5e62381db0cd73136e881bb982b622fcd3c3f",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_RESPONSE_METHOD_V1.md",
+      "sha256": "cb71b080c7e8533a84df01408b32c62b7262fe8fd2c67a791175db226caccc84",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_SOURCE_MAP_V1.json",
+      "sha256": "a2fab71e4ac7f27493bde9d3bd524c5aaf8e5f56475c8da2329809f882c94daf",
+      "study_id": "HAMDAN2026_GSE282444",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_response_v1.py",
+      "sha256": "e5cbbbb522650df395e2f15dc5aad97bc5e3f7d0723282f31808c554e8c40103"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_verify_v1.py",
+      "sha256": "af885378555738a88960d1e39846cbef1f8b8608c6f66ccc05cbcb946a5c3ed9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_hamdan_plot_v1.py",
+      "sha256": "627515f077065a0e76f0d0a44491ba396cfb60488b6d1aabc1646f1f979772f1"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s7_resources_v1.py",
+      "sha256": "9d995cd06de79573dc0d93d9b30d7e7744c49978f11bf55f1219c8598438a5a4"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s7_hamdan_response_v1.py",
+      "sha256": "934b79c39b558a60d54f033b715dd911884712c12a97c3d4b624f9d6cd4764a2"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S7_HAMDAN_SOURCE_MAP_V1.json",
+      "sha256": "a2fab71e4ac7f27493bde9d3bd524c5aaf8e5f56475c8da2329809f882c94daf"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/source_samples.tsv",
+      "sha256": "1e2b0e0c426c0dfb285cc562ac8f57a1fb512bdd53c6126ec50da479aeaf09bc"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/normalization.tsv",
+      "sha256": "bbaf9776a82f480c2f59da56330188dcc0e5fbc79e7ef70febdbe38dfea653a7"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/gene_responses.tsv.gz",
+      "sha256": "22682422dd5417788a822b52af80e2dff8be48269f63cc2cc00b10729f78bed7"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/normalization_sensitivity.tsv.gz",
+      "sha256": "6dbd5719b5acad7fbb8d9d86570d5349f894d7f13faa023880683cf57b07997f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/summary.json",
+      "sha256": "806177f24e1779bfab5632e40f7ebda1163ec6737fe2bb4c65b87ae9b6a5c856"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/source_structure.json",
+      "sha256": "511ff3289b72e809203597251f4e63a04979250b5258da2165768a2fb39a7d3b"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.png",
+      "sha256": "c4b276d18380ed646fa63d4708c34ac47ecf1a6079132ede7e184844bb2f5ff2"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/fig01_response_decomposition.pdf",
+      "sha256": "7bd753c7073b69516fc1b4876ad6cb54afa48cf10e8f359e78103733d46adb27"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/verification.json",
+      "sha256": "be8a3924f30f74e030b83394cce48511407fc9b11287b56e3630e8f3f4a041a3"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s7_hamdan_response_v1/runtime.json",
+      "sha256": "52bd1d554dd128370cbb80d0ea966ef05588bc711ad05b5a468a21ec42f3502d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T05:44:06.528948+00:00"
+}

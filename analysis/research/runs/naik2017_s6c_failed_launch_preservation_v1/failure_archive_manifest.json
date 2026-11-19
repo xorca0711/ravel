@@ -1,0 +1,67 @@
+{
+  "archived_status": "execution_failed",
+  "original_run_id": "naik2017_s6c_d180_proxy_v1",
+  "original_freeze_commit": "7563cdf1f1fe614e754d9643219b57bff0668cb5",
+  "original_receipt_rewritten": false,
+  "files": [
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/anchor_manifest.json",
+      "archived_file": "failed_launch_v1/anchor_manifest.json",
+      "sha256": "aaddc690dfe1ed9c461a448440a57c7bc7b98976d69656ad6ce23ebf32582097",
+      "bytes": 2513
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/gene_window_map.tsv.gz",
+      "archived_file": "failed_launch_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96",
+      "bytes": 831344
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/receipt.json",
+      "archived_file": "failed_launch_v1/receipt.json",
+      "sha256": "71239b6b6f8d727a7f0ed9711dd16dbd725ac53d18d8f234220c52d0636789c4",
+      "bytes": 8968
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/source_manifest.json",
+      "archived_file": "failed_launch_v1/source_manifest.json",
+      "sha256": "0614823469f4fc905bb6e7925d8833c4d10756b4c2f5b7dc69812051d11c69f0",
+      "bytes": 10118
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/stderr.log",
+      "archived_file": "failed_launch_v1/stderr.log",
+      "sha256": "a8b2fb6651a942f1a67c40817bc9055bb756f86d0d46fa09348ec376908dc743",
+      "bytes": 2101
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/stdout.log",
+      "archived_file": "failed_launch_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/verification_windows.tsv",
+      "archived_file": "failed_launch_v1/verification_windows.tsv",
+      "sha256": "77aac5a7a6c13343374041275c2759decd15e96ec761b7d57336081e0c27db8d",
+      "bytes": 4201
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_failed_launch_v1/windows.tsv",
+      "archived_file": "failed_launch_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76",
+      "bytes": 3416168
+    },
+    {
+      "original_source": "raw_data/naik2017_s6c_preparation/launch_diagnostic_v1.json",
+      "archived_file": "failed_launch_v1/launch_diagnostic_v1.json",
+      "sha256": "b39f878575294a329bb394331194efccda00e685d3433b5591303463703cf702",
+      "bytes": 672
+    }
+  ],
+  "failure": "Sandbox Wsl/E_ACCESSDENIED; UTF-16 error output triggered UTF-8 decoding failure at wslpath launch",
+  "research_window_values_read": false,
+  "headers_read": false,
+  "retry": "Same frozen code/contract/inputs, new run ID naik2017_s6c_d180_proxy_v1_retry1 using approved local WSL access",
+  "operation": "Byte-preserving failure archival; not a successful D180 scientific execution"
+}

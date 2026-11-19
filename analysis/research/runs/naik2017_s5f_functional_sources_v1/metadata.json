@@ -1,0 +1,147 @@
+{
+  "endpoint_count": 35,
+  "group_count": 83,
+  "contrast_count": 38,
+  "source_cell_count": 849,
+  "observation_slots": 588,
+  "nonmissing_source_records": 356,
+  "missing_source_slots": 232,
+  "deletion_rows": 152,
+  "normalized_reference_groups": [
+    {
+      "endpoint": "F4h_Aim2_qpcr",
+      "group": "RFPminus"
+    },
+    {
+      "endpoint": "F5a_Casp1_qpcr",
+      "group": "Ctrl"
+    },
+    {
+      "endpoint": "F5c_Il18_qpcr",
+      "group": "Ctrl"
+    },
+    {
+      "endpoint": "F5c_Il1b_qpcr",
+      "group": "Ctrl"
+    }
+  ],
+  "caption_n_discrepancies": [
+    {
+      "endpoint": "F1e_tongue_D1",
+      "group": "Ctrl",
+      "source_n": 5,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F1e_tongue_D5",
+      "group": "Ctrl",
+      "source_n": 6,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F1e_tongue_D5",
+      "group": "PI",
+      "source_n": 6,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F5a_CASP1_activity",
+      "group": "Ctrl",
+      "source_n": 6,
+      "caption_n": 3
+    },
+    {
+      "endpoint": "F5a_CASP1_activity",
+      "group": "PI",
+      "source_n": 5,
+      "caption_n": 3
+    },
+    {
+      "endpoint": "F1b_rate_D30",
+      "group": "Ctrl",
+      "source_n": 22,
+      "caption_n": 17
+    },
+    {
+      "endpoint": "F1b_rate_D180",
+      "group": "Ctrl",
+      "source_n": 6,
+      "caption_n": 5
+    },
+    {
+      "endpoint": "F4h_rate",
+      "group": "Ctrl",
+      "source_n": 3,
+      "caption_n": 2
+    },
+    {
+      "endpoint": "F5b_rate",
+      "group": "CtrlYVAD",
+      "source_n": 4,
+      "caption_n": 5
+    },
+    {
+      "endpoint": "F5b_rate",
+      "group": "PIYVAD",
+      "source_n": 6,
+      "caption_n": 5
+    },
+    {
+      "endpoint": "F5e_rate",
+      "group": "Ctrl",
+      "source_n": 3,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F5e_rate",
+      "group": "PI",
+      "source_n": 2,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F5e_rate",
+      "group": "KOCtrl",
+      "source_n": 6,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F5e_rate",
+      "group": "KOPI",
+      "source_n": 5,
+      "caption_n": 4
+    },
+    {
+      "endpoint": "F5g_rate",
+      "group": "OEIg",
+      "source_n": 4,
+      "caption_n": 3
+    },
+    {
+      "endpoint": "F5g_rate",
+      "group": "OEAnti",
+      "source_n": 4,
+      "caption_n": 3
+    }
+  ],
+  "independent_biological_replication": false,
+  "population_inference": false,
+  "source_fits_rerun": false,
+  "analysis_id": "Nk17-P01.s5f_functional_sources_v1",
+  "source_files": {
+    "7": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM7_ESM.xlsx",
+      "sha256": "b7eeaedf36b09d4ab9e2cb778bd2e66f888f99ce3d5eb10fcad988d18a11ed43",
+      "source_version": "Naik 2017 Source Data MOESM7"
+    },
+    "10": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM10_ESM.xlsx",
+      "sha256": "33b1232b94e95d38d42062ca8e7ea174b7fdaad93fb2e8edb759c5f306969be1",
+      "source_version": "Naik 2017 Source Data MOESM10"
+    },
+    "11": {
+      "path": "raw_data/naik2017_s01_sources/41586_2017_BFnature24271_MOESM11_ESM.xlsx",
+      "sha256": "8f80255f15432b4ee163bfe08c8a15ba49ead3feef47975d73fb82f7141a05cf",
+      "source_version": "Naik 2017 Source Data MOESM11"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6c_failed_launch_preservation_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s6c_failed_launch_preservation_v1.json",
+  "contract_sha256": "f890a6b961bf8322db83c6cf8c80059cd3da6ce2d5905d5c4c81ddd3a459e49b",
+  "git_commit": "870fe2a0fb37874890c8a0b1b966fd79f8610322",
+  "started_at": "2026-11-19T04:56:09.251854+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_preserve_failure_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6c_failed_launch_preservation_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/anchor_manifest.json",
+      "sha256": "aaddc690dfe1ed9c461a448440a57c7bc7b98976d69656ad6ce23ebf32582097",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/receipt.json",
+      "sha256": "71239b6b6f8d727a7f0ed9711dd16dbd725ac53d18d8f234220c52d0636789c4",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/source_manifest.json",
+      "sha256": "0614823469f4fc905bb6e7925d8833c4d10756b4c2f5b7dc69812051d11c69f0",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/stderr.log",
+      "sha256": "a8b2fb6651a942f1a67c40817bc9055bb756f86d0d46fa09348ec376908dc743",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/verification_windows.tsv",
+      "sha256": "77aac5a7a6c13343374041275c2759decd15e96ec761b7d57336081e0c27db8d",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_failed_launch_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6c_preparation/launch_diagnostic_v1.json",
+      "sha256": "b39f878575294a329bb394331194efccda00e685d3433b5591303463703cf702",
+      "study_id": "Nk17-P01_s6c_failed_launch",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6c_preserve_failure_v1.py",
+      "sha256": "c4dadbf98d4ae9ea73fc97bd621a84e3b25e404ac7fd408554ebc05deaf16107"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/anchor_manifest.json",
+      "sha256": "aaddc690dfe1ed9c461a448440a57c7bc7b98976d69656ad6ce23ebf32582097"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/gene_window_map.tsv.gz",
+      "sha256": "62160bdb49084a8e3da43ae12648f61898503bd392f24a8313c8cda358b52c96"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/receipt.json",
+      "sha256": "71239b6b6f8d727a7f0ed9711dd16dbd725ac53d18d8f234220c52d0636789c4"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/source_manifest.json",
+      "sha256": "0614823469f4fc905bb6e7925d8833c4d10756b4c2f5b7dc69812051d11c69f0"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/stderr.log",
+      "sha256": "a8b2fb6651a942f1a67c40817bc9055bb756f86d0d46fa09348ec376908dc743"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/verification_windows.tsv",
+      "sha256": "77aac5a7a6c13343374041275c2759decd15e96ec761b7d57336081e0c27db8d"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/windows.tsv",
+      "sha256": "d6a816682edfd439ed4caf3d443f4e838922b76e72a808d6b49866ee56b9af76"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failed_launch_v1/launch_diagnostic_v1.json",
+      "sha256": "b39f878575294a329bb394331194efccda00e685d3433b5591303463703cf702"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6c_failed_launch_preservation_v1/failure_archive_manifest.json",
+      "sha256": "6aeb7a1b7da7cc96ae8ad36774c06697f5a53f84cbfe8d62551fac5c734e3167"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T04:56:10.495331+00:00"
+}

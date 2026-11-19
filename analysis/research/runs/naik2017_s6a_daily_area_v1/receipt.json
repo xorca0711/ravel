@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s6a_daily_area_v1",
+  "owner": "Nk17-P01",
+  "contract": "analysis/research/contracts/Nk17-P01.s6a_daily_area_v1.json",
+  "contract_sha256": "b61265d643be00a76afc1385caca8d097c2d1e029dab7efd028b59ab5d626560",
+  "git_commit": "815541190a2f5f9ec1f96d7022bd6e4b811395f1",
+  "started_at": "2026-11-19T04:17:25.947376+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_reconstruct_v1.py",
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s6a_daily_area_v1.json",
+    "--output",
+    "analysis/research/runs/naik2017_s6a_daily_area_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM16_ESM.xlsx",
+      "sha256": "58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM17_ESM.xlsx",
+      "sha256": "196ca23b612207b032a497022fdd8292aa58e5b206d005bcfa27aa6d3fba2fe4",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_SOURCE_MAP_V1.json",
+      "sha256": "024ccb9749deddb7d78a51a05b296cd9d5c862a174a002383374b1bb33039996",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/naik2017_s01_sources/private_review/final_pdf_fitz_text.txt",
+      "sha256": "96aca458077196106c3c0c36b7c269017b4a8500092c14e2c8bacdd59d45246f",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_DAILY_AREA_DESIGN_V1.md",
+      "sha256": "4eb27c50795a101849cd59555185b06adea1fe44b4e391e4d4fd3acf6a8a29be",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S5F_RESULTS_V1.md",
+      "sha256": "b93cd184647c098a40268cabbc1cd169a1170e985c17081a08502b9b6e5ad2b4",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/groups.tsv",
+      "sha256": "9b87a28999e95f40898f089f4a28b21cb1feebdfb3b411e2926d936060d16611",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s5f_functional_sources_v1/receipt.json",
+      "sha256": "f6cd8a09c44113e586ef4ae24823576dc8ec1edecc41055539192124b8c23af1",
+      "study_id": "NAIK2017_SOURCE_DATA",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_reconstruct_v1.py",
+      "sha256": "eaf934588830d593955252bbc784f070d255bbc709fcf3ce2caf031608aea8de"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_verify_v1.py",
+      "sha256": "bb08ec07ef336d6f1e06a670ef593ef0ae58003c8b6a733113816c908cebbdd9"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s6a_plot_v1.py",
+      "sha256": "381d3c80432ec303133d9e437f914ac7a7bc93a5616219122af2cb85fea4b2a3"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s6a_reconstruct_v1.py",
+      "sha256": "f1e6eeb4b6b8ce9b032555343ee145583fa88ac8a524a7e7fbcfe49ba8519794"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_reconstruct_v1.py",
+      "sha256": "517c3274e7e447a489420c4a028ca30f68df70bca657073adbe4531529a5d729"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5f_verify_v1.py",
+      "sha256": "cb84f1ffbbb7e27b646dd6b1afaea13cf62caf1402b3fdc487ab1d7c8ae87efa"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S6A_SOURCE_MAP_V1.json",
+      "sha256": "024ccb9749deddb7d78a51a05b296cd9d5c862a174a002383374b1bb33039996"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/source_cells.tsv",
+      "sha256": "88afa02b5a7cdd97b086e45d3c1dadc35d9d8db453f78b5683f1e88cd7cfffec"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/observations.tsv",
+      "sha256": "1b46655312912b20df640d44ce1c0adbdbf93da6cd886406d1f7b998c7d6a298"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/groups.tsv",
+      "sha256": "3bdc19dd4e1af7fd8eadea20e5d7c1288acda50f26abc22983a26ea09ece700f"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/group_baseline_components.tsv",
+      "sha256": "8e282f98b720c8e0d35870ff4c1006cf3be5aa10d389ed510882e63dafdc4818"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/contrasts.tsv",
+      "sha256": "4d761d4105e22094af4edf2f598a8c743471993d67ce3a8ea475696531341011"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/metadata.json",
+      "sha256": "00fca8bdb6b098f6f42be5fca9c67abcdeaa6563e914080ca065e3d089507b56"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/runtime.json",
+      "sha256": "3a713da461cd61908f0367e1c436dcdbe7ab404292ff74ed3eedd33bcd4d8ff5"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/verification.json",
+      "sha256": "e5dec8ad6a243eaa3bbf2ef2dfe6d194c5f0089408f790469d4bec172c182934"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig01_daily_area_groups.png",
+      "sha256": "2d19704d51de865cc87bdd30bcfffb829f8449b7419a58d30a0e37d24de32d0c"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig01_daily_area_groups.pdf",
+      "sha256": "f907b89f269ddf31f87f637dad0a8886cd8a7480e5ed08a67249c2a9cb7ff6b3"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig02_raw_area_contrasts.png",
+      "sha256": "2a11e3bb7d216d96b3113582d849517728feadd7e51022c6ebcf9adaf42a3d4c"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig02_raw_area_contrasts.pdf",
+      "sha256": "39ce6923698850e110d18f010097c263f7758d1af0a793f381938edb32dba7b0"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig03_day0_components.png",
+      "sha256": "05033de3dff99ddc3f75b8d0f82655ad5dea5110b772c0dd4f80177573ba32ef"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig03_day0_components.pdf",
+      "sha256": "0289c924c54c91c05e5f19d9899683edb48bb5d86432c4dcc5ab038ac9aa88df"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig04_source_coverage.png",
+      "sha256": "56d8e1914ffcf7ac84aa04cd4881ea8a89d8a5297f9edfdc8bc816dae2171d22"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s6a_daily_area_v1/fig04_source_coverage.pdf",
+      "sha256": "feb8ed7ea57150fa9336d39537ef43dc09cdbad6634bf7f9dbb535ea58ae90d6"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T04:17:44.155423+00:00"
+}

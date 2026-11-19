@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nk17-P01.s4b_baseline_reference_v1",
+  "owner": "Nk17-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How sensitive are the frozen S4 baseline-adjusted relative RNA contrasts to the two observed baseline-profile references?",
+  "decision": "Retain primary and both one-library-per-history references side by side; narrow interpretation where reference choice changes continuous magnitudes or directions, then return for coordinator review before S3/S5/S6.",
+  "strongest_rival": "Observed baseline Xist/Y-marker heterogeneity despite recorded female metadata may accompany unresolved preparation/composition differences. Profile-aligned references do not establish biological sex, matching or correction; each alternative has only one library per history.",
+  "discriminator": "Change only the baseline reference while keeping the frozen S4 normalized values, wound means, qualification and examples fixed. Compare primary two-library/group means with GSM2440992/2440990 and GSM2440991/2440989. This isolates numerical reference dependence but cannot identify its cause.",
+  "evidence_refs": [
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4B_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/S4_METHOD_V1.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_naik_2017_inflammatory_memory/ANALYSIS_PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All S4 results, marker profiles and selected examples were viewed and coordinator-reviewed before this specification. These reference choices are explicitly outcome-exposed. Small artificial fixtures test implementation; no real S4B contrast was calculated before freeze, and a later freeze does not erase source exposure.",
+  "biological_unit": "Frozen S4 deposited libraries. Primary baseline has two libraries per history; each alternative has one. Source-reported pooled preparations remain positive design evidence; exact membership, overlap and matching are unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The same S4 dataset and post-wound means are reused; genes are features. The alternative-minus-primary adjusted shift is identical at W6/W12 by arithmetic, not independent time replication. No matched animals or biological strata are inferred.",
+  "population_and_selection": "All 47729 frozen S4 genes, original phase-specific baseline/wound expression unions and intersections, and the same six selected examples. No alternative-reference refiltering, exclusion or new winner selection.",
+  "contrast": "L0_r = log2((frozen baseline history library+1)/(frozen baseline control library+1)); A_t,r = frozen wound H/C log2 effect minus L0_r. Retain original two-library/group baseline and adjustments. Alternative-minus-primary shift = L0_primary-L0_r at both wound times.",
+  "endpoint": "Continuous finite-library relative RNA reference sensitivity, effect/sign changes and low/zero flags on frozen MOR and total-count scales; unregularized values only when defined. No population inference, kinetics, repair, sex assignment or source correction.",
+  "methods": "No normalization refit or raw download. Read frozen S4 values and effects. Compute both alternative baselines and W6/W12 adjustments for MOR, total-count and defined unregularized MOR. Computational tie tolerance 1e-10; flag reference zero and MOR below one. Summarize all genes and original comparison unions/baseline intersections with continuous signed/absolute quantiles, primary/alternative and MOR/total sign changes. Keep the original six examples and one four-panel PNG/PDF. Independent stdlib arithmetic verifies all fields, reference identities, copied qualification, fixed selection, fractions and quantiles.",
+  "missingness_and_exclusions": "All genes and references retained. Undefined unregularized ratios or adjustments are NA. Zero/low values flagged rather than excluded. Original source female labels retained; no sex inference, matching or preferred replacement.",
+  "multiplicity": "No inferential tests or biological stability margin. Gene-wise distributions summarize features, not independent biological replicates. Previously selected examples remain exposed illustrations.",
+  "precision_status": "not_applicable",
+  "precision_basis": "One-library alternative references give no sampling-variance estimate. No CI, equivalence threshold or power claim; 1e-10 is computational tolerance only.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Sensitivity to baseline reference narrows the relative-RNA interpretation only. Stability would not resolve sex/provenance, pooled units, compartment or preparation confounding. Identical time shifts arise by construction. No alternative is selected as a correction or independent evidence of intrinsic memory or repair.",
+  "stop_rule": "Require frozen committed contract/code and matched S4 input hashes. Fail on gene/order/qualification/selection mismatch, nonfinite regularized effects or independent-verification failure. Preserve failed real runs and use a new version for changes. Finish/register/commit S4B and return for review before S3/S5/S6. Do not retry held broad source extraction or change safeguards.",
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4b_reference_v1.py",
+  "arguments": [
+    "--contract",
+    "analysis/research/contracts/Nk17-P01.s4b_baseline_reference_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "reference_effects.tsv.gz",
+    "selected_cases.tsv",
+    "reference_manifest.json",
+    "summary.json",
+    "runtime.json",
+    "verification.json",
+    "fig01_baseline_reference.png",
+    "fig01_baseline_reference.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New authorized, exposed baseline-reference sensitivity after reviewed S4; preserves every S4 artifact and does not replace its primary analysis.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/gene_effects.tsv.gz",
+      "sha256": "432e7e2893683ac68cbc6a54226eb977953fec90542f9992af3c8dea57c2176b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/gene_values.tsv.gz",
+      "sha256": "b63628b30454d4952d1e598eb80f4dae895d82eda0c567e37e387d8a15b35df2",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/selected_cases.tsv",
+      "sha256": "a465e158999a6631ead29d352323a9be7969263a98558b64ce0d0afaec03760a",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/summary.json",
+      "sha256": "5beb8f55e98fa182c10d5185508912ecf5f0fd8f30ccc343b35936ade5e239a2",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/marker_qc.tsv",
+      "sha256": "b337795c8bb104a18e7aff0a1b76a8e6f941e923bf78770b9c38733af269666e",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/sample_qc.tsv",
+      "sha256": "9b9dbaf425b44e7b70e031d8089ececcd00b8d4e0ae6c62506313298b2130454",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/naik2017_s4_recall_description_v1/receipt.json",
+      "sha256": "031105a0bf2755d991e35d726dfafd4cc3222874edf37ddbf7ec7c92ea26cc7b",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/S4_RESULTS_V1.md",
+      "sha256": "5c404f61a86c045150614b004eafaae133d061cb9174795546bee431ea371bd1",
+      "study_id": "GSE92967",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4b_reference_v1.py",
+      "sha256": "14a4f4f1c4ade83f4ecdb7ae2dc81552a96e9ee3f6a13cde41942ba2809b2fe7"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/s4b_verify_v1.py",
+      "sha256": "1a8bfa79e56b7c7cd97618b3cbaf673f3344769c567667187ee329bcd725961c"
+    },
+    {
+      "path": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s4b_pipeline_v1.py",
+      "sha256": "682f38d53e9fc7e1ffefc5d84c5372f2d5e6b4b0159c0b49948c8c94bc59cb84"
+    }
+  ]
+}

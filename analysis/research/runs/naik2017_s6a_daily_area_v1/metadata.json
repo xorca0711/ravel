@@ -1,0 +1,44 @@
+{
+  "endpoint_count": 62,
+  "group_count": 228,
+  "contrast_count": 166,
+  "source_cell_count": 972,
+  "observation_slots": 875,
+  "nonmissing_source_records": 835,
+  "missing_source_slots": 40,
+  "measured_zero_records": 28,
+  "all_blank_group_days": [
+    {
+      "panel": "EDF6f",
+      "day": 10,
+      "group": "Ctrl"
+    },
+    {
+      "panel": "EDF6f",
+      "day": 10,
+      "group": "PI"
+    }
+  ],
+  "raw_missing_contrasts": 2,
+  "adjusted_missing_contrasts": 2,
+  "structural_day0_contrasts": 16,
+  "all_zero_area_contrasts": [],
+  "adjusted_at_area_floor_contrasts": 0,
+  "independent_biological_replication": false,
+  "population_inference": false,
+  "source_fits_rerun": false,
+  "anonymous_columns_promoted_to_animals": false,
+  "analysis_id": "Nk17-P01.s6a_daily_area_v1",
+  "source_files": {
+    "16": {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM16_ESM.xlsx",
+      "sha256": "58b52d4b5ee1f097a21a684d20d3d01393d20005f5d862889f11147a44ae1bec",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature24271/MediaObjects/41586_2017_BFnature24271_MOESM16_ESM.xlsx"
+    },
+    "17": {
+      "path": "raw_data/naik2017_s6_preparation/41586_2017_BFnature24271_MOESM17_ESM.xlsx",
+      "sha256": "196ca23b612207b032a497022fdd8292aa58e5b206d005bcfa27aa6d3fba2fe4",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature24271/MediaObjects/41586_2017_BFnature24271_MOESM17_ESM.xlsx"
+    }
+  }
+}

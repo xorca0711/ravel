@@ -1,0 +1,91 @@
+{
+  "stage": "S1M",
+  "analysis_id": "Nk17-P01.s1m_metadata_v1",
+  "geo_samples": 28,
+  "sra_experiments": 28,
+  "ena_runs": 28,
+  "biosample_records": 28,
+  "count_files": 16,
+  "assay_counts": {
+    "RNA-seq": 16,
+    "ATAC-seq": 12
+  },
+  "metadata_join_issues": [],
+  "unjoined_sra_experiments": [],
+  "unjoined_ena_runs": [],
+  "count_structure_failures": [],
+  "common_gene_ids": 47729,
+  "union_gene_ids": 47729,
+  "all_count_id_orders_identical": true,
+  "groups": [
+    {
+      "assay": "ATAC-seq",
+      "day": "",
+      "wound_hours": "",
+      "history": "unknown_or_ambiguous",
+      "libraries": 12,
+      "gsm": [
+        "GSM2441001",
+        "GSM2441002",
+        "GSM2441003",
+        "GSM2441004",
+        "GSM2441005",
+        "GSM2441006",
+        "GSM2441007",
+        "GSM2441008",
+        "GSM2652413",
+        "GSM2652414",
+        "GSM2652415",
+        "GSM2652416"
+      ],
+      "platforms": [
+        "GPL17021",
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500",
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    },
+    {
+      "assay": "RNA-seq",
+      "day": "",
+      "wound_hours": "",
+      "history": "unknown_or_ambiguous",
+      "libraries": 16,
+      "gsm": [
+        "GSM2440985",
+        "GSM2440986",
+        "GSM2440987",
+        "GSM2440988",
+        "GSM2440989",
+        "GSM2440990",
+        "GSM2440991",
+        "GSM2440992",
+        "GSM2440993",
+        "GSM2440994",
+        "GSM2440995",
+        "GSM2440996",
+        "GSM2440997",
+        "GSM2440998",
+        "GSM2440999",
+        "GSM2441000"
+      ],
+      "platforms": [
+        "GPL17021",
+        "GPL21103"
+      ],
+      "instruments": [
+        "Illumina HiSeq 2500",
+        "Illumina HiSeq 4000"
+      ],
+      "references": [
+        "mm10"
+      ]
+    }
+  ],
+  "inference_limit": "Metadata qualification only; no gene effects or independently verified animal/pool pairing."
+}
