@@ -261,6 +261,3 @@ analysis/research/runs/g1_a11_capacity_qualification_v1/** -text
 
 # Preserve exact draft Weft pilot source/config/runtime bytes across platforms.
 "Research Article/gate1_02_choi_2020/weft_pilot_v1/**" -text whitespace=cr-at-eol
-
-# Reproduce the checkout bytes bound by the Naik S5M v2 contract on every platform.
-"Research Article/ungated_naik_2017_inflammatory_memory/scripts/s5m_plot_flags_v2.py" text eol=crlf
