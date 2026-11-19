@@ -1,0 +1,12 @@
+workbook	sheet	first_row
+SupplementalTable1_DifferentialGeneExpression.xlsx	Acute injury	gene | timepoint | log2FoldChange | lfcSE | stat | pvalue | padj
+SupplementalTable1_DifferentialGeneExpression.xlsx	Chronic injury	gene | timepoint | log2FoldChange | lfcSE | stat | pvalue | padj
+SupplementalTable1_DifferentialGeneExpression.xlsx	Recovered	gene | timepoint | log2FoldChange | lfcSE | stat | pvalue | padj
+SupplementalTable1_DifferentialGeneExpression.xlsx	50d_recovered	gene | timepoint | log2FoldChange | lfcSE | stat | pvalue | padj
+SupplementalTable2_MotifFamilies.xlsx	Sheet1	leader | family
+SupplementalTable3_DifferentialMotifScores.xlsx	Sheet1	sample | cell_type | bag_leader | delta | pval | padj
+SupplementalTable4_MotifCloneStats.xlsx	Sheet1	bag_leader | clone_median_var | shuf_median_var | shuf_sd_var | pval | fdr | clone_var_explained | colitis_var_explained
+SupplementalTable5_GenePrograms.xlsx	AP-1_program20	Ptprd
+SupplementalTable5_GenePrograms.xlsx	HNF4-PPAR_program9_program30	Oit1
+SupplementalTable6_InVitroBindingScores.xlsx	Raw in vitro binding score	Chromosome | Start | End | label | TF | meanfootprintscore
+SupplementalTable6_InVitroBindingScores.xlsx	Fold-Change to FOSJUN stats	TF | AP1only_FC_mean | AP1only_FC_SD | AP1only_FC_pval | AP1FOX_FC_Mean | AP1FOX_FC_SD | AP1FOX_FC_pval

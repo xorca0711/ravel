@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s0_key_reconciliation_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can all archived organoid lines, including the three differently named controls, be assigned to distinct source mice, and do the counts and overlapping clone IDs recover the caption denominator?",
+  "decision": "Resolve remaining S0 identifiers for review, retaining every deposited clone membership. Stop before biological estimation.",
+  "strongest_rival": "Identical clone labels across lines and different aliases for the same control mouse create false independence or apparent missing animals.",
+  "discriminator": "Require single-valued barcode-based line-to-specimen and specimen-to-donor identity, concordant history for every score membership, and independent raw long-table and comma-separated clean-call reconciliation.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "analysis/research/contracts/Ng26-P01.s0_v2.json",
+    "analysis/research/runs/ng26_s0_v2/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The published counts, S0 v1 failure, S0 v2 outputs and preliminary source-ID, token cardinality and nonfinite-score checks are known. This is an exposed metadata reconciliation, without an effect estimate.",
+  "biological_unit": "Tissue mouse and organoid donor mouse are history units; clone, cell, specimen, well, lesion, section, motif locus and assay preparation are distinct where present.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Track donor identity in its specimen context. Preserve every multi-clone assignment and raw sample label. Tissue and organoid data, staining and spatial lesion measurements are separate specimens unless keyed.",
+  "population_and_selection": "Every clean organoid call and released feature row in Supplementary Data 2; all tissue RNA barcodes and the saved fragment previews summarized in S0 v2.",
+  "contrast": "Compare biological identity by independent barcode and literal alias routes; compare clone cardinality by history to global names and published minimum cell count.",
+  "endpoint": "Full cell-to-clone-to-line-to-specimen-to-donor table, line key, repeated IDs, finite Fos denominator, feature missingness and tissue map resolution by stage.",
+  "methods": "Python standard library. Independently split raw clean calls, scan all score rows, check finite Fos for every released cell-clone-history record, join barcode specimens to the sourced donor key and compare source history. Do not normalize differing aliases by name. Summarize tissue mapping ambiguity in main/extended release separately.",
+  "missingness_and_exclusions": "Retain all clean-only entries, all overlapping tokens, all nonfinite feature scores and unresolved tissue samples; no biological exclusions or reallocation.",
+  "multiplicity": "No effect estimates, hypothesis testing or significance decisions at S0.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic deposited record counts and key checks; fragment barcode coverage applies only to the explicitly saved prefixes.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Qualification establishes identity in the indicated deposited source only. It cannot establish a change in protein, chromatin, repair or tumour growth or independent experimental replication.",
+  "stop_rule": "Stop if raw clean or scored membership keys disagree, any line has multiple barcode specimens/donors, mapped history disagrees with the score record or finite Fos coverage differs across the key sets. Do not use a similarity estimate as a substitute for a specimen key.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/ref/mouse_organoids.cleaned_clone_calls.txt",
+      "sha256": "da477be0828e592f5582a5ff5e43032790e3efd66e697ca02819d627cdc9dc6d",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/organoid_memberships.tsv",
+      "sha256": "9d43902a4467e2af051eb9d3ef5453ae70363ecb2ffb15283fb7f6851ffcbb59",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/specimen_key.tsv",
+      "sha256": "63b2e8377c3d3d5fc897124001fe4571c220e50eeda4f78623a88d99c825981b",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/barcode_lookup.tsv.gz",
+      "sha256": "93058d4aee9ca2d0e98e0c0a8d43546b436e9bbf039880f9dbbd33dcdc84fc99",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/reconcile_keys.py",
+      "sha256": "0130d487858fd4541bf29417070f88b498bf99054b3163e9c5ea2f72abc5f87f"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/reconcile_keys.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_clone_line_mouse.tsv",
+    "line_donor_key.tsv",
+    "clone_ids_in_multiple_lines.tsv",
+    "nonfinite_features.tsv",
+    "fig2i_denominators.tsv",
+    "tissue_lookup_by_stage.tsv"
+  ],
+  "amendment_of": "analysis/research/contracts/Ng26-P01.s0_v2.json",
+  "amendment_reason": "Add an S0 key reconciliation using completed S0 lookup results. Three control lines have different literal archive and portal aliases; use their exact barcode-matched specimen and donor. Resolve the caption counting convention and preserve cross-line tokens."
+}
