@@ -31,6 +31,8 @@ The authors compared colitis-recovered and control mouse colons, tracked stem-ce
 
 A regional accessibility signal can mark an expanded clone. Matching the prior chromatin history of one clone to the later growth of its own lesion remains a different measurement.
 
+The [post-S5 family comparison](../ungated_nagaraja_2026_colitis_memory/post_s5/RESULTS.md) reproduces the published Fos/AP-1 overlap and finds a smaller variance deficit when organoid cells are compared within mouse line. The [maintenance assessment](../ungated_nagaraja_2026_colitis_memory/post_s5/MAINTENANCE.md) maps the whole-colon methylation, binding and separate adenoma evidence to the missing lineage measurements.
+
 ## Figures and supporting documentation
 
 | Study materials | Location |

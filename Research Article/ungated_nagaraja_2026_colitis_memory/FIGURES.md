@@ -1,5 +1,11 @@
 # Nagaraja figure gallery
 
+## Post-S5 · Tissue and clonal motif evidence
+
+![Tissue recovery score changes against organoid clone variance deficits, with a separate clone-assignment sensitivity panel.](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.png)
+
+Panel A uses the 50 exact reporter matches and each assay's native scale. In panel B, purple segments summarize the central 90% of 64 half-clone estimates. Purple diamonds use all 121 eligible clones from six mouse lines. The full caption and denominators accompany the results. [Family checkpoint](post_s5/RESULTS.md) · [PDF](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.pdf) · [Family values](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.tsv) · [Resampling values](../../analysis/research/runs/ng26_post_s5_v1/stability.tsv)
+
 ## S1 · Colonic epithelial recovery after colitis
 
 ![Mouse FOS protein fractions, published Fos-family motif changes by state, and released stem-cell RNA upregulation counts.](../../analysis/research/runs/ng26_s1_figure_v3/fig1_recovery_v3.png)

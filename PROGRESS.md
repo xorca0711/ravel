@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja post-S5 checkpoint for owner review
+
+Fos was the only one of 50 tested reporters that met both published thresholds. Its clone variance deficit fell from +.294 in Table 4 to +.081 in the exclusive within-line comparison. Direction persisted in 6/6 donor omissions, 58/64 half-clone draws and 64/64 three-quarter draws. No full-panel conditional discovery remained. The [checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/RESULTS.md), [maintenance assessment](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/MAINTENANCE.md) and [receipt](analysis/research/runs/ng26_post_s5_v1/receipt.json) retain every tested and held family. S6 awaits owner review. Carrier identity, independent cell-state adjustment and linkage to individual tumours remain unresolved.
+
 ## 2026-11-20 — Nagaraja S5 donor-line conditional shuffle
 
 On 3,572 exclusive cells in 121 clones, the [S5 analysis](Research%20Article/ungated_nagaraja_2026_colitis_memory/s5/RESULTS.md) gives observed-minus-null Fos variances of −.2182 globally, −.0846 within donor line and −.0863 within line plus Hnf4g bands. All line omissions preserved a negative estimate. The within-line result falls inside its empirical null. RNA-pool evidence supports partial cell matching but supplies no linked independent differentiation labels. The [S5 receipt](analysis/research/runs/ng26_s5_v1/receipt.json) preserves the opportunity counts, size and line sensitivities, and figure. S5 stops for owner review before the separate prospective checkpoint.

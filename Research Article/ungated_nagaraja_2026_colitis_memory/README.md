@@ -2,6 +2,8 @@
 
 Nagaraja et al. followed mouse colonic epithelial cells from injury into recovery, then asked whether descendants of individual organoid cells share a chromatin state and how prior colitis changes early adenoma growth. These are three distinct comparisons. The chromatin question for this package is whether a subset of recovering stem/progenitor cells retains unusually high accessibility at AP-1 motifs, and how much of that pattern can be attributed to which epithelial states and clones were sampled. [Nagaraja et al., Nature (2026)](https://doi.org/10.1038/s41586-026-10258-4)
 
+**Post-S5 checkpoint.** Fos/AP-1 was the only reporter detected in both the recovered stem/progenitor and original organoid tests. Its clone variance deficit fell from +.294 to +.081 with exclusive assignments and within-line shuffling. The direction persisted in all six donor omissions. The maintenance evidence leaves methylation, retained proteins or chromatin features, and cell selection distinguishable only with additional lineage-linked measurements. [Family comparison and clone-number sensitivity](post_s5/RESULTS.md) · [Maintenance assessment](post_s5/MAINTENANCE.md) · [Figure](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.pdf)
+
 | Evidence | What it can resolve |
 |---|---|
 | Mouse tissue, Fig. 1 | Frequency of AP-1-high stem/progenitor cells across mice and recovery times, alongside FOS protein and RNA measurements |
