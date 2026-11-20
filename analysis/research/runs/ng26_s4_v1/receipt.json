@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s4_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s4_v1.json",
+  "contract_sha256": "d2bb8294933b25731f0f064ba6002b33158483343b7ba8ce4c569069c45ab5be",
+  "git_commit": "65bb996d026693274b0b7af1d2b386b6ab04ecb9",
+  "started_at": "2026-11-20T00:26:18.957232+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s4/tumour_readback.py",
+    "analysis/research/runs/ng26_s4_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm9.xlsx",
+      "sha256": "d049aa2d9d724508177ec4bfde2fb5111858acd44cfcf21d1d873a60a78bdfe5",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm11.xlsx",
+      "sha256": "d51ab7869ccab6788d090286bfd2f17a9bfac1f19224f858d67cfc3f18bf3484",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/gross_sample_join.tsv",
+      "sha256": "94028f47f36632404e71462e1a0af188839a38e143b88ee1d336d99352f7a807",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316618_family.soft.gz",
+      "sha256": "ea177fe588e257d302235854ece95d9e691908460ba9c5eec272006014ae0b7e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/5_Spatial_RNA/03_spatial.call_tumors.R",
+      "sha256": "f6d47475f4f444e9813cd5be55c8132dffbeac795cf3721f4d5ccf89fd74723f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/5_Spatial_RNA/04_spatial.pseudobulk.R",
+      "sha256": "49f76fcfcd66768d79601e29727ad85633c4627dcde4f4a882efd422b2df44da",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/tumour_readback.py",
+      "sha256": "75787231bba41068a5f00dbc0782d2dcb83943ce87dc1bc724abf036b4656baa"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/plot_tumours.py",
+      "sha256": "394d537ae8a9f3318bcc119f63656b00ef6c927140bb592a1caece247045b6c7"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/gross_mice.tsv",
+      "sha256": "f4097ca7811237ca52ae167cdf5557322614332ffc2fc08ea017b1b6bd9a2594"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/microscopic_mice.tsv",
+      "sha256": "5ff6e28c24e010bf25d0eca4de63192b742ef22834b9b1a04ecbf999a6d5b375"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/mouse_contrasts.tsv",
+      "sha256": "a7584ca77bc50e63155f64a6ae2749db4ea7c417b7f08ebb448db0bd698ab0dc"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/lesion_measurements.tsv",
+      "sha256": "4c8dff13e54dd863c26bb1a597b99cd828137d37dac49d00ae526867d15f73b0"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/lesion_distributions.tsv",
+      "sha256": "994b99dfa7236e173302d164331825315922cd19267345d5a97303dae3c58c55"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/p20_plotted_points.tsv",
+      "sha256": "d29d7ce70ff6e2d706fdb9446c687bddb84e37f92dffc36eaf2192ef0382fd3c"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/p20_plotted_summary.tsv",
+      "sha256": "35693d8f7383ef03e1da19d91cd0354590de50e3c25d6c7970739edbdeabfc2a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/spatial_file_inventory.tsv",
+      "sha256": "7b4bb5921f10d098958a171a46b099d75a20ee461e1685c8c2dd86fdc9801a21"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/mouse_adenoma_burden.png",
+      "sha256": "fc7f83df114615a352cc3d2740c144f01f07056121adc7ba63529a5008e57602"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/mouse_adenoma_burden.pdf",
+      "sha256": "4eaf4fd69f23a12191b1801d0b0d979b21c96a012b7406414414b8b670c217eb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/lesion_areas_and_p20.png",
+      "sha256": "95a25c48c3ae564b2a8624681e8e61d04e1e6a54ad342b9d38add38cbadf5285"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s4_v1/lesion_areas_and_p20.pdf",
+      "sha256": "1e7d1885ae890a6f735bf6fb42e1985f08406d641ef6858d2bd4d58e233fed20"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T00:26:35.448391+00:00"
+}

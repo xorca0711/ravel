@@ -38,6 +38,16 @@ The 19 staining samples are displayed individually. Sequencing stages use author
 
 [Vector PDF](../../analysis/research/runs/ng26_s3_ed6_v1/ed6e_tissue_methylation.pdf) · [Mouse values](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_libraries.tsv) · [CpG values](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_cpg_fractions.tsv) · [Arm contrasts](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_contrasts.tsv) · [S3 interpretation and both receipts](s3/RESULTS.md)
 
+## S4 · Adenoma burden and spatial P20
+
+![Gross adenoma counts and large-lesion fractions in nine mice, and microscopic raw counts and area fractions in seventeen mice.](../../analysis/research/runs/ng26_s4_v1/mouse_adenoma_burden.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s4_v1/mouse_adenoma_burden.pdf) · [Gross mice](../../analysis/research/runs/ng26_s4_v1/gross_mice.tsv) · [Microscopic mice](../../analysis/research/runs/ng26_s4_v1/microscopic_mice.tsv) · [Equal-mouse contrasts](../../analysis/research/runs/ng26_s4_v1/mouse_contrasts.tsv)
+
+![Released Fig. 4e and 4l lesion areas, and P20 scores read from the two published spatial sections.](../../analysis/research/runs/ng26_s4_v1/lesion_areas_and_p20.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s4_v1/lesion_areas_and_p20.pdf) · [Lesion area values](../../analysis/research/runs/ng26_s4_v1/lesion_measurements.tsv) · [Plotted P20 scores](../../analysis/research/runs/ng26_s4_v1/p20_plotted_points.tsv) · [S4 checkpoint](s4/RESULTS.md) · [Receipt](../../analysis/research/runs/ng26_s4_v1/receipt.json)
+
 ## Figure style for subsequent stages
 
 Use the academic-plotting data-figure guidance and DejaVu Sans throughout this package. Render all figure text in black, including facet headings, axes, tick labels, annotations, legends and colorbar labels. Choose scientifically appropriate colors for data marks, groups, lines and heatmaps. Use a continuous scale for magnitude or a diverging scale when a meaningful midpoint separates directions. Keep the meaning of group colors consistent across related panels. Show units and biological sample sizes, align panels, and inspect both PNG and rendered PDF for readability and clipping at final size. In the current S1 export, all 107 PDF text spans use black DejaVu Sans, are within the page bounds and are at least 8 pt. [Render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json)
