@@ -1490,7 +1490,8 @@
     "analysis/research/contracts/Ng26-P01.s1_figure_v3.json",
     "analysis/research/contracts/Ng26-P01.s2_v1.json",
     "analysis/research/contracts/Ng26-P01.s2_fig2i_audit_v1.json",
-    "analysis/research/contracts/Ng26-P01.s3_v1.json"
+    "analysis/research/contracts/Ng26-P01.s3_v1.json",
+    "analysis/research/contracts/Ng26-P01.s3_ed6_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1729,7 +1730,8 @@
     "analysis/research/runs/ng26_s1_figure_v2/receipt.json",
     "analysis/research/runs/ng26_s1_figure_v3/receipt.json",
     "analysis/research/runs/ng26_s2_v1/receipt.json",
-    "analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json"
+    "analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json",
+    "analysis/research/runs/ng26_s3_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
