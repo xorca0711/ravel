@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja S3 drug, binding and methylation readback
+
+The [S3 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md) separates the 24-hour EdU and 20-day washout diameter readouts, reproduces the 63-locus named-protein Table 6 summaries and reports methylation in six organoid and twelve whole-colon libraries. Recovered inhibitor minus control vehicle was −14.33 points at *Dcaf5* and −1.72 at *Rbm27*. The exact ED6d target/background sets, Fig. 2o joint input, EdU test specification and organoid/well nesting remain unresolved. [S3 receipt](analysis/research/runs/ng26_s3_v1/receipt.json) · [Tissue amendment receipt](analysis/research/runs/ng26_s3_ed6_v1/receipt.json). Integrated the current paper index and stopped for S3 owner review.
+
 ## 2026-11-20 — Nagaraja S2 organoid clone replay
 
 The [S2 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md) reproduces all 295 defined observed variances in Table 4. With unambiguous cells only, the adjusted P for Fos shifts from .0025 to .300. The colitis-minus-control mouse-line contrast stays positive after every donor omission, with overlap in two of nine cross-history comparisons. The published Fig. 2i draws 74 control and 49 colitis points, agreeing with the five-cell cutoff and reported high fractions. Its P = .038 remains unresolved. Fig. 2j remains an author fit. [Figures and source values](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md#s2--organoid-clones-and-the-six-mouse-lines) · [Replay receipt](analysis/research/runs/ng26_s2_v1/receipt.json) · [Point-audit receipt](analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json). Stopped at S2 for owner review.

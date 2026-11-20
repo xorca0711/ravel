@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s3_ed6_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s3_ed6_v1.json",
+  "contract_sha256": "466fdf80ce046509354f23a27b4d58d19cd1cb9fd6d26cb5357092ff2adc046f",
+  "git_commit": "cb29fc392411b4a45cd71fa1a778c147e3d8dbc1",
+  "started_at": "2026-11-20T00:12:25.246990+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/tissue_methylation.py",
+    "analysis/research/runs/ng26_s3_ed6_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_sources.tsv",
+      "sha256": "add6afd991d48e50078b5332a5b4fd7a466cdb726493de3a7f466ed4ab0b5626",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_slices.tsv",
+      "sha256": "df788ce46aa9ce550778ff0444a29f78902457210ba25af3f68e0cfcb678c260",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [
+        "GSM9459782",
+        "GSM9459783",
+        "GSM9459784",
+        "GSM9459785",
+        "GSM9459786",
+        "GSM9459787",
+        "GSM9459788",
+        "GSM9459789",
+        "GSM9459790",
+        "GSM9459791",
+        "GSM9459792",
+        "GSM9459793"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Dcaf5_reference.txt",
+      "sha256": "e9800bab79c293c380cb90960155d3f2ff488fc9404292f01ff2e918c0fb2f05",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Rbm27_reference.txt",
+      "sha256": "c1a6d6627ae84b9386cb3194d22507062e9c73949d704d9ce3a69f69e105d4df",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316762_family.soft.gz",
+      "sha256": "9048beb58c9343d494b6bcb7c8ff361c36aac15dbf78be0227be0c7aa659c740",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/6_methylation/03_methylation.AP1_peak_change.R",
+      "sha256": "f0c47560f703e0d5cc9222bdf9d1bb574a3e603b87442eb0bf6c9aa606e32308",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/tissue_methylation.py",
+      "sha256": "9e2cc16a0d40a8c64100f7dc430dfde0fd8a1b78d1d3d6cc3784e537b078b59d"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/tissue_libraries.tsv",
+      "sha256": "bd72384f84bcef907c91e6a68e9c1d3edf06866ca9e6760ed54cf12f0924a0c2"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/tissue_cpg_fractions.tsv",
+      "sha256": "d6a5f761f88aec9a0aa3363ff218c37bfe8ebadf1aca2d578445420a2f9ec9ac"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/tissue_arms.tsv",
+      "sha256": "143540ecf0b2126c9a132f95ad6303bc4ce3db162349ec79376d17eb572245f3"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/tissue_contrasts.tsv",
+      "sha256": "a166f677d361f7d95d5ca28c0ab22d7f4284c14d1e31f818531c7ee71880a768"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/ed6e_tissue_methylation.png",
+      "sha256": "d9e84c0a91dd74bfcbc8c0d411e7f3b6724f9a3ccef0ce878744e666013c5336"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_ed6_v1/ed6e_tissue_methylation.pdf",
+      "sha256": "c313f72d96e112d68e97c69592714789ce1476991b9b5e2ef5023fa4b0caff89"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T00:12:35.469912+00:00"
+}

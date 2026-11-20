@@ -21,7 +21,7 @@ Lineage tracing and single-cell chromatin profiles localized persistent AP-1 acc
 
 ## Ravel analyses and results
 
-The [staged mouse-colon analysis](../ungated_nagaraja_2026_colitis_memory/README.md) follows the source and donor records. [S1](../ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) recovered a +16.42 percentage-point early-recovery FOS staining difference. [S2](../ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md) recovered the observed clonal motif variances and showed where AP-1 resemblance depends on membership. The [figure gallery](../ungated_nagaraja_2026_colitis_memory/FIGURES.md) links the source values and receipts.
+The [staged mouse-colon analysis](../ungated_nagaraja_2026_colitis_memory/README.md) follows the source and donor records. [S1](../ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) recovered a +16.42 percentage-point early-recovery FOS staining difference. [S2](../ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md) recovered the observed clonal motif variances and showed where AP-1 resemblance depends on membership. [S3](../ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md) compares acute EdU and washout size, reconstructs defined-protein binding scores and measures methylation at the published tissue and organoid loci. The [figure gallery](../ungated_nagaraja_2026_colitis_memory/FIGURES.md) links the source values and receipts.
 
 ## Data and methods
 

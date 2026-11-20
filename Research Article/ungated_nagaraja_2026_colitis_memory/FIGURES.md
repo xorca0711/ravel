@@ -24,6 +24,20 @@ The 19 staining samples are displayed individually. Sequencing stages use author
 
 [S2 checkpoint and interpretation](s2/RESULTS.md) · [Calculation and figure receipt](../../analysis/research/runs/ng26_s2_v1/receipt.json) · [Published-point audit receipt](../../analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json)
 
+## S3 · Drug exposure, binding and methylation
+
+![Drug-on EdU in organoid lines, individual diameters after washout, and methylation in the organoid Thbs1 window.](../../analysis/research/runs/ng26_s3_v1/organoid_phenotypes_and_thbs1.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s3_v1/organoid_phenotypes_and_thbs1.pdf) · [EdU percentages and diameters](../../analysis/research/runs/ng26_s3_v1/function_measurements.tsv) · [Thbs1 library means](../../analysis/research/runs/ng26_s3_v1/thbs1_libraries.tsv) · [Per-site fractions](../../analysis/research/runs/ng26_s3_v1/thbs1_cpg_fractions.tsv)
+
+![Measured footprint-score ratios in two motif classes for all named protein conditions and both no-TF libraries.](../../analysis/research/runs/ng26_s3_v1/fig3i_defined_protein.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s3_v1/fig3i_defined_protein.pdf) · [All locus and library values](../../analysis/research/runs/ng26_s3_v1/binding_loci.tsv) · [Table 6 comparisons](../../analysis/research/runs/ng26_s3_v1/binding_summary.tsv)
+
+![Twelve whole-colon mice at Dcaf5 and Rbm27 across four recovery and inhibitor arms.](../../analysis/research/runs/ng26_s3_ed6_v1/ed6e_tissue_methylation.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s3_ed6_v1/ed6e_tissue_methylation.pdf) · [Mouse values](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_libraries.tsv) · [CpG values](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_cpg_fractions.tsv) · [Arm contrasts](../../analysis/research/runs/ng26_s3_ed6_v1/tissue_contrasts.tsv) · [S3 interpretation and both receipts](s3/RESULTS.md)
+
 ## Figure style for subsequent stages
 
 Use the academic-plotting data-figure guidance and DejaVu Sans throughout this package. Render all figure text in black, including facet headings, axes, tick labels, annotations, legends and colorbar labels. Choose scientifically appropriate colors for data marks, groups, lines and heatmaps. Use a continuous scale for magnitude or a diverging scale when a meaningful midpoint separates directions. Keep the meaning of group colors consistent across related panels. Show units and biological sample sizes, align panels, and inspect both PNG and rendered PDF for readability and clipping at final size. In the current S1 export, all 107 PDF text spans use black DejaVu Sans, are within the page bounds and are at least 8 pt. [Render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json)
