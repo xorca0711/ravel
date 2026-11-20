@@ -1,5 +1,7 @@
 # Literature and deposit record
 
+The [20 November JUN–FOXP1 follow-up](post_s5/JUN_FOXP1_DEPOSIT_SCAN.md) qualifies public tests of FOS-independent cooperation, methylation sensitivity and late accessibility, including actual coverage of the 63 binding loci by an independent mouse colon array.
+
 **Scope, 19 November 2026.** Read the final Nature paper, Figs. 1–4, Extended Data and relevant supplementary notes alongside the owner's completed Results and Discussion reading. The published direction of the AP-1, clone and tumour comparisons was known before planning. Search coverage included primary articles on mouse and human intestinal memory, a skin precedent, and clonal selection as an alternative in human colitis. Search terms included “Nagaraja epigenetic memory of colitis”, “human colonic organoids inflammatory memory chromatin accessibility”, “intestinal regenerative inflammatory memory Arozamena”, and “somatic inflammatory gene mutations human ulcerative colitis epithelium”. Public repositories checked were the journal supplement, IGVF, GEO and the archived author code. This was a targeted feasibility scan; no numerical analysis was run. [Final paper and supplement index](https://pmc.ncbi.nlm.nih.gov/articles/PMC13083248/) · [Author code v1.0.1](https://github.com/snagaraja13/colitis_memory/tree/v1.0.1) · [Zenodo archive](https://doi.org/10.5281/zenodo.18487777)
 
 ### What the primary literature changes

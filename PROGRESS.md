@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja JUN–FOXP1 and methylation source review
+
+The [follow-up scan](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md) identifies methylated/control binding data for each isolated factor and the FOS-free protein-pair comparison at 63 known intervals. An independent colonic methylation array covers five amplicons and zero scored motifs. Next, qualify native CpG and late-ATAC coverage at the exact 63 intervals before estimating an association. Direct late colonic occupancy and direction of dependence remain unresolved.
+
 ## 2026-11-20 — Nagaraja S6 final local synthesis
 
 The [S6 synthesis](Research%20Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md) closes Ng26-P01 from the existing receipts after owner review of the pre-S6 checkpoint at `3b7f008`. It distinguishes mouse FOS counts, released ATAC and RNA fits, clone-score replays, donor-line attenuation, locus-dependent methylation and early adenoma burden. The [ten-figure gallery](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md) links figures to source tables. Original per-mouse ATAC threshold fractions, independent organoid state labels, a maintenance-to-lesion lineage link and a matched external intestinal comparison remain unavailable. [Stage decisions and evidence needed](Research%20Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md)
