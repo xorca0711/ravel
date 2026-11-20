@@ -1,10 +1,6 @@
 # Nagaraja figure gallery
 
-## Post-S5 · Tissue and clonal motif evidence
-
-![Tissue recovery score changes against organoid clone variance deficits, with a separate clone-assignment sensitivity panel.](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.png)
-
-Panel A uses the 50 exact reporter matches and each assay's native scale. In panel B, purple segments summarize the central 90% of 64 half-clone estimates. Purple diamonds use all 121 eligible clones from six mouse lines. The full caption and denominators accompany the results. [Family checkpoint](post_s5/RESULTS.md) · [PDF](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.pdf) · [Family values](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.tsv) · [Resampling values](../../analysis/research/runs/ng26_post_s5_v1/stability.tsv)
+The ten current figures follow the biological comparisons in the [final S6 synthesis](SYNTHESIS.md). Each caption links its PDF and underlying measurements. The gallery follows tissue recovery and clonal resemblance through the drug, binding and methylation assays to early adenomas. The final two figures show how donor line and clone sampling affect the motif-family evidence.
 
 ## S1 · Colonic epithelial recovery after colitis
 
@@ -60,6 +56,12 @@ The 19 staining samples are displayed individually. Sequencing stages use author
 
 [Vector PDF](../../analysis/research/runs/ng26_s5_v1/fos_conditional_dispersion.pdf) · [Estimates for every panel](../../analysis/research/runs/ng26_s5_v1/conditional_estimates.tsv) · [Exchange opportunities](../../analysis/research/runs/ng26_s5_v1/permutation_opportunities.tsv) · [Eligible cells](../../analysis/research/runs/ng26_s5_v1/exclusive_cells.tsv) · [S5 checkpoint](s5/RESULTS.md) · [Receipt](../../analysis/research/runs/ng26_s5_v1/receipt.json)
 
-## Figure style for subsequent stages
+## Post-S5 · Tissue and clonal motif evidence
 
-Use the academic-plotting data-figure guidance and DejaVu Sans throughout this package. Render all figure text in black, including facet headings, axes, tick labels, annotations, legends and colorbar labels. Choose scientifically appropriate colors for data marks, groups, lines and heatmaps. Use a continuous scale for magnitude or a diverging scale when a meaningful midpoint separates directions. Keep the meaning of group colors consistent across related panels. Show units and biological sample sizes, align panels, and inspect both PNG and rendered PDF for readability and clipping at final size. In the current S1 export, all 107 PDF text spans use black DejaVu Sans, are within the page bounds and are at least 8 pt. [Render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json)
+![Tissue recovery score changes against organoid clone variance deficits, with a separate clone-assignment sensitivity panel.](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.png)
+
+Panel A uses the 50 exact reporter matches and each assay's native scale. In panel B, purple segments summarize the central 90% of 64 half-clone estimates. Purple diamonds use all 121 eligible clones from six mouse lines. The full caption and denominators accompany the results. [Family checkpoint](post_s5/RESULTS.md) · [PDF](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.pdf) · [Family values](../../analysis/research/runs/ng26_post_s5_v1/family_evidence.tsv) · [Conditional full panel and clone samples](../../analysis/research/runs/ng26_post_s5_v1/conditional_draws.tsv) · [Resampling values](../../analysis/research/runs/ng26_post_s5_v1/stability.tsv) · [Figure and table receipt](../../analysis/research/runs/ng26_post_s5_v1/receipt.json)
+
+## Display and provenance
+
+All ten frozen figure pairs are shown in their current versions. The S1 composite uses version 3. Data marks and scales retain their original colors and all visible PDF text is black. The receipts cited above bind the exports to their source runs. [S1 render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json) · [Stage status](ANALYSIS_PLAN.md)

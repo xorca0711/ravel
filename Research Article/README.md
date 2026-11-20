@@ -37,7 +37,7 @@ Gate 4 groups papers by biological interest. Each numbered entry has its own pap
 | Paper | Biological comparison |
 |---|---|
 | [4M-01 · Naik et al. (2017)](gate4M_01_naik_2017/README.md) | Previously inflamed and control skin after wounding: epithelial migration, re-epithelialization and wound-responsive transcription. |
-| [4M-02 · Nagaraja et al. (2026)](gate4M_02_nagaraja_2026/README.md) | Colitis-recovered and control colons after tumour initiation: early lesion number and subsequent outgrowth. |
+| [4M-02 · Nagaraja et al. (2026)](gate4M_02_nagaraja_2026/README.md) | Recovered colonic epithelium, organoid clone resemblance and early adenoma size after tumour induction. [S6 synthesis](ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md) |
 | [4M-03 · Cowley et al. (2026)](gate4M_03_cowley_2026/README.md) | Acute inflammation-opened epidermal regions that resolve or persist: sequence composition, methylation and histone-variant occupancy. |
 
 <a id="ungated-source-papers"></a>

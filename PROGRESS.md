@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja S6 final local synthesis
+
+The [S6 synthesis](Research%20Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md) closes Ng26-P01 from the existing receipts after owner review of the pre-S6 checkpoint at `3b7f008`. It distinguishes mouse FOS counts, released ATAC and RNA fits, clone-score replays, donor-line attenuation, locus-dependent methylation and early adenoma burden. The [ten-figure gallery](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md) links figures to source tables. Original per-mouse ATAC threshold fractions, independent organoid state labels, a maintenance-to-lesion lineage link and a matched external intestinal comparison remain unavailable. [Stage decisions and evidence needed](Research%20Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md)
+
 ## 2026-11-20 — Nagaraja post-S5 checkpoint for owner review
 
 Fos was the only one of 50 tested reporters that met both published thresholds. Its clone variance deficit fell from +.294 in Table 4 to +.081 in the exclusive within-line comparison. Direction persisted in 6/6 donor omissions, 58/64 half-clone draws and 64/64 three-quarter draws. No full-panel conditional discovery remained. The [checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/RESULTS.md), [maintenance assessment](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/MAINTENANCE.md) and [receipt](analysis/research/runs/ng26_post_s5_v1/receipt.json) retain every tested and held family. S6 awaits owner review. Carrier identity, independent cell-state adjustment and linkage to individual tumours remain unresolved.

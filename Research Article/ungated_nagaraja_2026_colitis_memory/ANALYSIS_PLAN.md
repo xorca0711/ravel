@@ -1,5 +1,20 @@
 # Analysis plan for colonic epithelial memory after colitis
 
+**Final status · 20 November 2026.** S6 closed Ng26-P01 through synthesis of the existing outputs. The stage descriptions below preserve the prospective plan of 19 November. The original mouse-level ATAC threshold and independently state-conditioned clone comparisons remain held. No matched external intestinal contrast qualified. [Final synthesis](SYNTHESIS.md) · [Ten figures and source values](FIGURES.md)
+
+| Stage | Final disposition |
+|---|---|
+| S0 | Qualified specimen, donor and clone keys by assay. The initial barcode-related failure and successful amendment are preserved. [Source checkpoint](s0/CHECKPOINT.md) |
+| S1 | Recalculated protein frequencies from counts, read tissue motif fits and audited RNA coverage. Original individual-cell ATAC fractions and extended ATAC curve remain unresolved. [Results](s1/RESULTS.md) |
+| S2 | Replayed clone dispersion, tested membership definitions and audited Fig. 2i glyphs. The exact Fig. 2i p-value and Fig. 2j RNA fit remain unrecovered. [Results](s2/RESULTS.md) |
+| S3 | Read drug and washout endpoints, recalculated defined-protein binding and measured methylation at illustrated loci. The exact ED6d peak-set comparison remains author-reported. [Results](s3/RESULTS.md) |
+| S4 | Recalculated early mouse burden/size and read lesion P20 from the published plot. A four-arm mouse interaction and direct clone-to-lesion linkage remain unresolved. [Results](s4/RESULTS.md) |
+| S5 | Executed the within-line extension and same-assay Hnf4g sensitivity. Independent state labels remain missing. [Results](s5/RESULTS.md) |
+| Post-S5 | Owner reviewed the family comparison, whole-clone sampling, line omissions and maintenance alternatives at `3b7f008`. [Checkpoint](post_s5/RESULTS.md) |
+| S6 | Completed documentation closeout using existing receipts. The external comparison remains biological context. [Synthesis and evidence limits](SYNTHESIS.md) |
+
+## Original analysis plan
+
 **Ng26-P01 · 19 November 2026 · planning only.** Does prior colitis leave a detectable AP-1-accessible subset among recovered colonic stem/progenitor cells, and do descendants in the same organoid clone resemble one another after accounting for organoid line and differentiation? These are related questions in separate specimens. Treat the paper's reported results as known at design time. Freeze the first eligible numerical contract before computing estimates, record that exposure, and review each result before advancing. [Literature and deposit record](LITERATURE_CONTEXT.md) · [Repository research governance](../../docs/RESEARCH_GOVERNANCE.md)
 
 ### S0. Establish which measurements link to which biological units
