@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s5_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s5_v1.json",
+  "contract_sha256": "bbcda0099b3ccb39eb00ed2ac5053c2ef3c706934f5ea08e62b33cd71ac44246",
+  "git_commit": "07b8354282e06f1442ebfe366e50f47476715ec1",
+  "started_at": "2026-11-20T00:40:39.757920+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s5/condition_fos.py",
+    "analysis/research/runs/ng26_s5_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/cell_clone_line_mouse.tsv",
+      "sha256": "76396bbaf1727a46349a01ff47137a9b988f6654486fee65e05e6d32b530428e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/dispersion.tsv",
+      "sha256": "2d188d8f228fb9c8b464f1a07dc4633ab59f0b240638bb463cb16d7d40765bee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/barcode_lookup.tsv.gz",
+      "sha256": "93058d4aee9ca2d0e98e0c0a8d43546b436e9bbf039880f9dbbd33dcdc84fc99",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/rna/IGVFFI1250KMMT.h5",
+      "sha256": "855ad0e3b85a653100bf0e786bf10002b39e7d9aff51c62977be42b14330fcad",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS5536ZQMO.json",
+      "sha256": "80bb21ae8d4474255d2613796adf35c9b06e931a6335a099c4e453b6e5a522a4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/03_SHARE_TRACE.clean_clones.R",
+      "sha256": "8f7741b1b5a91236bdad02f6c9c6d7f1d15623bbb075feb4d4180ab91b2226f3",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04b_SHARE_TRACE.linear_model.R",
+      "sha256": "a6f82b52daa0bd9e06da3af5b5f421c4cd8f2d5f1ef48bc892b800050670abb1",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS0255ZBJH.json",
+      "sha256": "6af8370deec3bd570f314cf6d1efd354e887e4ae9af17a1fce307e137cbdb16f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS0262EFJS.json",
+      "sha256": "e270a56547dfbdc63e15e63450c7eb242928f59aa312ff59a58415814b3d9601",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS2183INAQ.json",
+      "sha256": "6cd7fa9fe869ee57716ab77a38652b8a864caad8876a10ed5749ddbe5bbe0e48",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS3674UEBD.json",
+      "sha256": "73f52fd6159b45bb5301c3ec70466447fff3ecb4eb02166c979d2b5bab91b533",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS3954OIWN.json",
+      "sha256": "57b2a40ae6959aaf0ff8fb524856cb0c471845a79028f48c2319858d0109a075",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS6770YNZR.json",
+      "sha256": "991ad0d090acf403c12e6d4fa9ec82319b96b1e3cda28bf78264432d5e34ea74",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS7053XLPM.json",
+      "sha256": "1023c5e1febb80c64f8dfca7ac78906ce6d16e3bda6082e8aac02ecedbd7013d",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS9059ORGF.json",
+      "sha256": "758f6c867c42b3cb08dcb237aef1266d2deb07afc71accc06e4ec20917161158",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI0701QRLV.prefix64k",
+      "sha256": "d0a96e81771952ac9986baaa7bb8cdad913386476f4c27a187233f7481eb905d",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI2679BDOS.prefix64k",
+      "sha256": "8753ac9e976e64002712a765fe487f5f5a67e329fc48a1788e7408e5434b2311",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI2751XKQB.prefix64k",
+      "sha256": "c753c977e01d1eb9437d6ded7d08b92fa84872d22b9e4f5ebedb84f728ce1131",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI3855LXKJ.prefix64k",
+      "sha256": "d67266fe415ac073cb208ad2e78fcb7ece49b0095d1c1db143183b9bbc870b98",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI3919SBJV.prefix64k",
+      "sha256": "a0f09e56ecd23a1c676ddef2b4a84df2af28d66dff24c78d85b40f0d9a5f7700",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI6604XHYW.prefix64k",
+      "sha256": "eab7b0a34b3547ac520e1cfa039750caae44a4f75533c802982945bd725ee09f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI9358RLQV.prefix64k",
+      "sha256": "d1823e96cc88c161c4ca7e656ca791c9073816e21a1719dfc1765ffaafe4e1b1",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI9885LMTH.prefix64k",
+      "sha256": "248d21e01060635b7df2ef01644b773f63ed546d2d74c18e83e9c9c44a012980",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/condition_fos.py",
+      "sha256": "9cbcb0c8622853ac84e73540ea6f4ae2bfc66209873c22cfb0cc60f2f6276776"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/rna_pairing.py",
+      "sha256": "d8b9b6864d73c872b587ac2b7036146fab74b2b60e3081cc2132b55fdeb5d71c"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/plot_conditional.py",
+      "sha256": "3e7c1a8592b804d916fae12973d12cd0e069a3f5b97e0d2734fd9d4823b70bc4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/barcode_prefixes.tsv",
+      "sha256": "0871b6c4e7efa7b5701593ccb67530552629341ba550fb72300701b79fa93c11"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/rna_candidates.tsv",
+      "sha256": "cbddb161b1349b8f55c800799b9a11188ea980635ee8d45b4a6533d82d62ee0f"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/adapter_pair_counts.tsv",
+      "sha256": "fb0cc68c8f3cf0f58c6b77f8f1eaa4c8c8cef38ae1a3a47f7448ae0d574c36a1"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/rna_inventory.tsv",
+      "sha256": "18894bca935dde915f7fc59b807f02de198bdbb266f114e9ee54aeca5ec62bd0"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/clone_size_ambiguity.tsv",
+      "sha256": "f653ac99c732e58bee35c1acf9e5a9beecec5a2155d7c09856fd9dac71aaacfb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/hnf4g_cutpoints.tsv",
+      "sha256": "2595eec16b716f8698c2bcfb27252f21d827461a6bc27823253e851a744451eb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/exclusive_cells.tsv",
+      "sha256": "dacca65892b78de5b66ec7fc8fad2dac249b7881c20f375b620bf9c64f55c1cc"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/s2_ambiguity_reference.tsv",
+      "sha256": "f91be3ce82b07856b5abba2efa883073fd72a87332d856501493b5f4404dda6b"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/conditional_estimates.tsv",
+      "sha256": "4122148555ba09f90a78f0fdf6a8cb82bbca0b9d8460339d5bc68825f8a9e738"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/permutation_opportunities.tsv",
+      "sha256": "91c48c33b20e273acfc6fbe0eeb781b3d8515a36442b02667008e60e62485ffb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/conditional_nulls.npz",
+      "sha256": "70297a2e6f73db3f3d3988a59f93e1337893194f76e9ca3dadc036c506b098e7"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/fos_conditional_dispersion.png",
+      "sha256": "eb25037803b081fd66290b81ddad33ce98dc6085a94d350afad4a886ad548b96"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/fos_conditional_dispersion.pdf",
+      "sha256": "af708c79652de10e7ae1d8baec41cba89b451f18611af0f89adbf61d3807b889"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T00:41:05.777395+00:00"
+}

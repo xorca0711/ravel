@@ -1,0 +1,15 @@
+pool	modality	measurement_set	barcode_file	source_url	prefix_bytes	p1	complete_indexed_headers	raw_basename
+DSS21BC-more	RNA	IGVFDS0255ZBJH	IGVFFI2679BDOS	https://igvf-public.s3.amazonaws.com/2025/03/14/563ae398-1919-486a-9b9a-b5d447bfeabc/IGVFFI2679BDOS.fastq.gz	65536	6	1356	DSS21BC-more-RNA.barcode.fastq.gz
+DSS21BC-more	RNA	IGVFDS0255ZBJH	IGVFFI2679BDOS	https://igvf-public.s3.amazonaws.com/2025/03/14/563ae398-1919-486a-9b9a-b5d447bfeabc/IGVFFI2679BDOS.fastq.gz	65536	65	1601	DSS21BC-more-RNA.barcode.fastq.gz
+DSS21BC-8k	RNA	IGVFDS0262EFJS	IGVFFI9358RLQV	https://igvf-public.s3.amazonaws.com/2025/03/14/2a12cbc8-5757-4fc5-88e9-3be18291617e/IGVFFI9358RLQV.fastq.gz	65536	53	3016	DSS21BC-8k-RNA.barcode.fastq.gz
+DSS21BC-more2-2	RNA	IGVFDS2183INAQ	IGVFFI0701QRLV	https://igvf-public.s3.amazonaws.com/2025/03/14/9ee6678b-25d9-471e-b4eb-cef066395df6/IGVFFI0701QRLV.fastq.gz	65536	19	1498	DSS21BC-more2-2-RNA.barcode.fastq.gz
+DSS21BC-more2-2	RNA	IGVFDS2183INAQ	IGVFFI0701QRLV	https://igvf-public.s3.amazonaws.com/2025/03/14/9ee6678b-25d9-471e-b4eb-cef066395df6/IGVFFI0701QRLV.fastq.gz	65536	20	1457	DSS21BC-more2-2-RNA.barcode.fastq.gz
+DSS21BC-more2-2	ATAC	IGVFDS3674UEBD	IGVFFI3919SBJV	https://igvf-public.s3.amazonaws.com/2025/03/14/a02ce7be-b1da-46f9-b058-400245235977/IGVFFI3919SBJV.fastq.gz	65536	27	1997	DSS21BC-more2-2-ATAC.barcode.fastq.gz
+DSS21BC-more2-2	ATAC	IGVFDS3674UEBD	IGVFFI3919SBJV	https://igvf-public.s3.amazonaws.com/2025/03/14/a02ce7be-b1da-46f9-b058-400245235977/IGVFFI3919SBJV.fastq.gz	65536	28	1657	DSS21BC-more2-2-ATAC.barcode.fastq.gz
+DSS21BC-more	ATAC	IGVFDS3954OIWN	IGVFFI3855LXKJ	https://igvf-public.s3.amazonaws.com/2025/03/14/d5aba70d-18ef-4c68-ae9a-64dd38141099/IGVFFI3855LXKJ.fastq.gz	65536	2	3700	DSS21BC-more-ATAC.barcode.fastq.gz
+DSS21BC-more	ATAC	IGVFDS3954OIWN	IGVFFI3855LXKJ	https://igvf-public.s3.amazonaws.com/2025/03/14/d5aba70d-18ef-4c68-ae9a-64dd38141099/IGVFFI3855LXKJ.fastq.gz	65536	9	116	DSS21BC-more-ATAC.barcode.fastq.gz
+DSS21BC-more2-1	ATAC	IGVFDS6770YNZR	IGVFFI9885LMTH	https://igvf-public.s3.amazonaws.com/2025/03/14/a4ccf7d8-835e-49ba-9788-464ccad253d0/IGVFFI9885LMTH.fastq.gz	65536	25	1989	DSS21BC-more2-1-ATAC.barcode.fastq.gz
+DSS21BC-more2-1	ATAC	IGVFDS6770YNZR	IGVFFI9885LMTH	https://igvf-public.s3.amazonaws.com/2025/03/14/a4ccf7d8-835e-49ba-9788-464ccad253d0/IGVFFI9885LMTH.fastq.gz	65536	26	1625	DSS21BC-more2-1-ATAC.barcode.fastq.gz
+DSS21BC-more2-1	RNA	IGVFDS7053XLPM	IGVFFI6604XHYW	https://igvf-public.s3.amazonaws.com/2025/03/14/e4fac8df-8e2c-4f08-a02c-4ceb2879a753/IGVFFI6604XHYW.fastq.gz	65536	17	1563	DSS21BC-more2-1-RNA.barcode.fastq.gz
+DSS21BC-more2-1	RNA	IGVFDS7053XLPM	IGVFFI6604XHYW	https://igvf-public.s3.amazonaws.com/2025/03/14/e4fac8df-8e2c-4f08-a02c-4ceb2879a753/IGVFFI6604XHYW.fastq.gz	65536	18	1370	DSS21BC-more2-1-RNA.barcode.fastq.gz
+DSS21BC-8k	ATAC	IGVFDS9059ORGF	IGVFFI2751XKQB	https://igvf-public.s3.amazonaws.com/2025/03/14/03e94983-7e75-47c1-80d5-11845307fd4a/IGVFFI2751XKQB.fastq.gz	65536	58	3882	DSS21BC-8k-ATAC.barcode.fastq.gz

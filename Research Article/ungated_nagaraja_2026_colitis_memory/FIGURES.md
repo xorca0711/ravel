@@ -48,6 +48,12 @@ The 19 staining samples are displayed individually. Sequencing stages use author
 
 [Vector PDF](../../analysis/research/runs/ng26_s4_v1/lesion_areas_and_p20.pdf) · [Lesion area values](../../analysis/research/runs/ng26_s4_v1/lesion_measurements.tsv) · [Plotted P20 scores](../../analysis/research/runs/ng26_s4_v1/p20_plotted_points.tsv) · [S4 checkpoint](s4/RESULTS.md) · [Receipt](../../analysis/research/runs/ng26_s4_v1/receipt.json)
 
+## S5 · Conditional Fos-family dispersion
+
+![Fos-family variance differences under global and restricted cell shuffles, including clone-size and donor-line omission sensitivities.](../../analysis/research/runs/ng26_s5_v1/fos_conditional_dispersion.png)
+
+[Vector PDF](../../analysis/research/runs/ng26_s5_v1/fos_conditional_dispersion.pdf) · [Estimates for every panel](../../analysis/research/runs/ng26_s5_v1/conditional_estimates.tsv) · [Exchange opportunities](../../analysis/research/runs/ng26_s5_v1/permutation_opportunities.tsv) · [Eligible cells](../../analysis/research/runs/ng26_s5_v1/exclusive_cells.tsv) · [S5 checkpoint](s5/RESULTS.md) · [Receipt](../../analysis/research/runs/ng26_s5_v1/receipt.json)
+
 ## Figure style for subsequent stages
 
 Use the academic-plotting data-figure guidance and DejaVu Sans throughout this package. Render all figure text in black, including facet headings, axes, tick labels, annotations, legends and colorbar labels. Choose scientifically appropriate colors for data marks, groups, lines and heatmaps. Use a continuous scale for magnitude or a diverging scale when a meaningful midpoint separates directions. Keep the meaning of group colors consistent across related panels. Show units and biological sample sizes, align panels, and inspect both PNG and rendered PDF for readability and clipping at final size. In the current S1 export, all 107 PDF text spans use black DejaVu Sans, are within the page bounds and are at least 8 pt. [Render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json)

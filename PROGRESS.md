@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-20 — Nagaraja S5 donor-line conditional shuffle
+
+On 3,572 exclusive cells in 121 clones, the [S5 analysis](Research%20Article/ungated_nagaraja_2026_colitis_memory/s5/RESULTS.md) gives observed-minus-null Fos variances of −.2182 globally, −.0846 within donor line and −.0863 within line plus Hnf4g bands. All line omissions preserved a negative estimate. The within-line result falls inside its empirical null. RNA-pool evidence supports partial cell matching but supplies no linked independent differentiation labels. The [S5 receipt](analysis/research/runs/ng26_s5_v1/receipt.json) preserves the opportunity counts, size and line sensitivities, and figure. S5 stops for owner review before the separate prospective checkpoint.
+
 ## 2026-11-20 — Nagaraja S4 adenoma burden and P20
 
 The [S4 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s4/RESULTS.md) joins all nine gross mouse records. Recovered minus control was −0.6 gross lesions per mouse and +27.38 points in the fraction over 1 mm. In 17 separate microscopic mice, the tumour area fraction increased by .303 points. Both Fig. 4e medians and the two plotted Fig. 4j high-P20 fractions reproduce. ED9h lacks assessed area per mouse, Fig. 4l lacks lesion-to-mouse keys and the spatial series has one section per history. [S4 receipt](analysis/research/runs/ng26_s4_v1/receipt.json) · [Figures](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md#s4--adenoma-burden-and-spatial-p20). S3 source bytes were registered under a [separate archive receipt](analysis/research/runs/ng26_s3_sources_v1/receipt.json) and passed integration validation. Stopped at S4 for owner review.
