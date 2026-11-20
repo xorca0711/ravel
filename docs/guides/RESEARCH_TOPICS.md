@@ -131,7 +131,7 @@ question or source package, not the sign of a result. Current findings remain
 in owning reports and question arguments. No result-based folders, copied
 evidence trees or new A-series IDs are created by a tag.
 
-Frozen contracts, scripts, outputs, shared workspaces and historical source
-paths stay with their existing owners. In particular, DY1 is ungated despite
-its historical `gate2_DY1_...` path. See [repository structure](REPOSITORY_STRUCTURE.md)
+The [Gate 4M reading sequence](../../Research%20Article/README.md#gate-4-topic-centered-reading)
+links one folder per paper. The [Damani–Yokota study](../../Research%20Article/ungated_damani_yokota_2026/README.md)
+and its DY1 evidence share a single ungated folder. See [repository structure](REPOSITORY_STRUCTURE.md)
 and the [4 November architecture audit](../audits/2026-11-04-topic-navigation/README.md).

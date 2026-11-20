@@ -132,7 +132,7 @@ not justify an IL-22 memory claim.
 | [DuPage target screen](../../../Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md) and A33–A35 | Separate source/annotation qualification, target roles and functional discriminators. A target list is not a mechanism. No transfer of Treg conclusions to CD8/colon. |
 | [A9 recipient competence](../../research_dossiers/A9.md) | Its completed receptor-transcript screen does not measure competence. Saxton provides an analogous reasoning problem, not new evidence for AREG responsiveness. |
 | [A14 withdrawal](../../research_dossiers/A14.md) and [Arozamena results](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) | History needs verified cessation and linked later endpoints. RNA/accessibility findings and QC sensitivity do not supply a Saxton persistence experiment. |
-| [DY1 cross-assay follow-up](../../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md) | Separate assay cohorts cannot be treated as matched cells/animals. Apply the same rule to Saxton RNA, phosphoflow and secretion. |
+| [DY1 cross-assay follow-up](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md) | Separate assay cohorts cannot be treated as matched cells/animals. Apply the same rule to Saxton RNA, phosphoflow and secretion. |
 | [Wagner model results](../../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/MODEL_RESULTS.md) | Where animal identity permits an identifiable blocked model it can be used; missing Saxton donor identity cannot be filled in by analogy. |
 
 ## Qualitative decision map

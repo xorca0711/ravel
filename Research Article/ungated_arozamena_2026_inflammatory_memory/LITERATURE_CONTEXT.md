@@ -33,7 +33,7 @@ failed routes remain historical observations.
 The [Saxton reanalysis](../gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md)
 found a robust selected-panel distinction within six colon libraries, smaller
 broad-IFN contrasts and an unstable three-target subset. It has no ATAC or
-longitudinal functional join. [DY1-P02](../gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+longitudinal functional join. [DY1-P02](../ungated_damani_yokota_2026/rq_discordance/README.md)
 distinguishes bulk RNA/separate bulk ATAC from scRNA composition information;
 the remaining NAM mechanism is not established by an epithelial reference.
 

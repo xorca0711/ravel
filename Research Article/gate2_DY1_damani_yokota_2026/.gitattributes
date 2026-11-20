@@ -1,3 +1,0 @@
-# Preserve frozen input/code hashes across checkout platforms.
-*.py -text whitespace=cr-at-eol
-*.json -text whitespace=cr-at-eol

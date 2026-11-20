@@ -7,15 +7,20 @@
 ## Published findings
 
 ```text
-Human lung atlas → anatomically resolved populations
-  ├─ Alveolar and adventitial fibroblasts → distinct stromal compartments
-  ├─ AT2-associated populations           → epithelial heterogeneity
-  └─ Capillary and bronchial endothelium  → regional vascular identities
+Proximal and distal human lung tissue plus blood → RNA profiles of 58 populations
+  ├─ Epithelium: SFTPC+ AT2 cells include intermixed WIF1-positive and WIF1-negative
+  │  populations. Tissue RNA imaging locates the difference within alveoli.
+  ├─ Stroma: among COL1A2+ fibroblasts, GPC3 marks alveolar fibroblasts whereas
+  │  SERPINF1 marks adventitial fibroblasts concentrated around larger vessels.
+  └─ Cross-species comparison: conserved cell identities can express important
+     genes in different compartments. SERPINA1 is one example, with expression
+     concentrated in human AT2 cells and mouse pericytes in the atlas.
 
-Implication: regional cell composition shapes the RNA profile of a lung sample.
+Implication: a lung RNA measurement depends on the anatomical region, its cellular
+             mixture and the species. A conserved gene name does not identify its source.
 ```
 
-Single-cell profiles and tissue localization distinguished alveolar from adventitial fibroblasts. These annotations allow an apparent expression difference to be examined at a fixed mixture of subtypes. [Paper, Fig. 1e–f](https://doi.org/10.1038/s41586-020-2922-4)
+Single-cell profiles and tissue localization distinguished alveolar from adventitial fibroblasts. These annotations allow an apparent expression difference to be examined at a fixed mixture of subtypes. [Paper, Fig. 1e–f](https://doi.org/10.1038/s41586-020-2922-4) · [Anatomical validation and human–mouse expression comparisons](https://pubmed.ncbi.nlm.nih.gov/33208946/)
 
 ## Ravel analyses and results
 

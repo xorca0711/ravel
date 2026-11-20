@@ -7,15 +7,20 @@
 ## Published findings
 
 ```text
-Wild-type IL-22 and 22-B3 in mouse colon
-  ├─ Tissue-protection panel → much of the induced RNA response retained with B3
-  └─ Interferon panel        → weaker induction with B3
+IL-22 engages epithelial IL-22Rα and the shared IL-10Rβ receptor subunit
+  ├─ Wild-type signaling activates STAT3 and STAT1.
+  └─ Partial agonist 22-B3 favors STAT3 over STAT1 in the tested colon context.
+       ├─ Colon RNA: much of the tissue-protection program remains inducible
+       │  (including Reg3-family genes), while interferon-associated genes respond less.
+       └─ Irradiated intestinal crypt organoids: B3 increases viability and expression
+          of Lgr5 and Olfm4. This assay directly tests a consequence of epithelial injury.
+  Receptor availability and tissue context affect the relative signaling responses.
 
-Implication: protective and inflammatory readouts can differ in their sensitivity to
-             IL-22.
+Implication: the colon can retain a protective response at a level of IL-22 signaling
+             that produces a smaller inflammatory transcriptional response.
 ```
 
-The authors compared wild-type IL-22 and 22-B3 in mouse colon using interferon- and tissue-protection-associated RNA panels. Functional assays assessed tissue protection separately. [Paper, Figs. 6–7](https://doi.org/10.1016/j.immuni.2021.03.008)
+The authors compared wild-type IL-22 and 22-B3 in mouse colon using interferon- and tissue-protection-associated RNA panels. Functional assays assessed tissue protection separately. [Paper, Figs. 6–7](https://doi.org/10.1016/j.immuni.2021.03.008) · [Crypt viability and epithelial protection, Fig. 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC8054646/)
 
 ## Ravel analyses and results
 

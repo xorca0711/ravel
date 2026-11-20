@@ -7,12 +7,19 @@
 ## Published findings
 
 ```text
-IL-1β exposure across tissue contexts (review synthesis)
-  ├─ Acute injury and resolution → transient epithelial plasticity during repair
-  ├─ Sustained inflammation      → incomplete maturation and fibrotic remodeling
-  └─ Neoplastic lesions          → reuse of injury-associated states in altered niches
+IL-1β across alveolar repair, fibrosis and neoplastic lesions (review synthesis)
+  Resolving injury   Macrophage IL-1β → IL1R1+ AT2 cell → glycolytic Krt8+ progenitor
+                     → AT1 maturation as inflammatory input subsides (Choi).
+  Fibrotic tissue    Persistent transitional epithelium coexists with activated
+                     fibroblasts and inflammatory myeloid cells. Sustained IL-1β
+                     impairs late AT1 maturation in organoids.
+  Early neoplasia    Kras-mutant AT2 cells retain a repair-like state through NF-κB
+                     (England). In a separate model, epithelial Areg recruits a fibrotic
+                     niche and macrophage IL-1β can induce peripheral Lcn2+ fibroblasts
+                     (Cardoso).
 
-Implication: source, recipient, duration and tissue context condition the response.
+Implication: identifying the producing cell, responding cell and duration of signaling
+             explains why similar transitional markers occur in different outcomes.
 ```
 
 This review brings together primary lung studies of transient progenitors, impaired maturation and neoplastic lesions. The studies differ in exposure duration, recipient population and tissue context. [Review](https://pubmed.ncbi.nlm.nih.gov/42497497/) · [Primary studies behind sections 3.1 and 4.1](SOURCE_SYNTHESIS.md)

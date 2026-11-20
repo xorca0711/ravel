@@ -7,15 +7,21 @@
 ## Published findings
 
 ```text
-Lung repair after injury
-  Early          Myeloid proliferation
-  Intermediate   Epithelial and mesenchymal proliferation
-  Late           Endothelial proliferation
+Repair of the mouse alveolus across successive harvests after lung injury
+  ├─ Ki67 lineage tracing identifies which compartments contributed dividing cells
+  │    Early       Myeloid cells expand first at the injury site.
+  │    Middle      Epithelial and mesenchymal proliferation accompanies tissue repair.
+  │    Late        Capillary endothelial cells proliferate as the vascular bed remodels.
+  └─ Single-cell profiles distinguish what those cells become during recovery
+       Alveolar epithelium   AT2 → transitional states → AT1-like descendants
+       Capillary endothelium An injury-associated capillary state (iCAP) appears in
+                             severely damaged regions and persists after acute repair.
 
-Implication: different tissue compartments enter the repair response in sequence.
+Implication: the gas-exchange surface repairs in phases. The endothelium enters
+             proliferation late and can retain an injury-associated identity.
 ```
 
-Niethamer and colleagues traced dividing cells across mouse lung compartments at successive harvests. Comparing the traced fraction within each compartment revealed the order of proliferation. [Paper, Fig. 2F](https://doi.org/10.1016/j.stem.2024.12.002)
+Niethamer and colleagues traced dividing cells across mouse lung compartments at successive harvests. Comparing the traced fraction within each compartment revealed the order of proliferation. [Paper, Fig. 2F](https://doi.org/10.1016/j.stem.2024.12.002) · [Proliferation, epithelial differentiation and persistent capillary state, Figs. 2–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC11805657/)
 
 ## Ravel analyses and results
 

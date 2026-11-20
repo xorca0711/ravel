@@ -7,11 +7,17 @@
 ## Published findings
 
 ```text
-Th17 screen → lower predicted PGAM activity with higher pathogenicity scores
-  ├─ PGAM perturbation → increased inflammatory cytokine output
-  └─ Adoptive transfer → greater autoimmune disease in the tested recipient mice
+Glycolysis in nonpathogenic Th17 cells: 3-phosphoglycerate → PGAM → 2-phosphoglycerate
+  ├─ In the source Compass screen, predicted activity in this segment is lower
+  │  in cells expressing a stronger pathogenicity program.
+  ├─ Chemical inhibition and genetic PGAM disruption provide two functional checks.
+  │  Perturbed cultures release more IL-17 family cytokines and IL-2.
+  │  The FOXP3/SGK1-high N1 program is depleted after chemical inhibition.
+  └─ Adoptive transfer: inhibitor-treated Th17 cells induce autoimmune disease in
+     10 of 12 recipients compared with 0 of 12 in the control group.
 
-Implication: a glycolytic reaction can restrain the pathogenic Th17 phenotype.
+Implication: a reaction within glycolysis restrains pathogenic Th17 activity in this
+             setting. The cytokine and transfer assays test different stages of that effect.
 ```
 
 The source screen associated higher predicted PGAM activity with lower transcriptional pathogenicity. Reducing PGAM increased inflammatory cytokine secretion in a separate functional assay. [Paper, Fig. 1A–B and F–G](https://doi.org/10.1016/j.celrep.2025.115799)

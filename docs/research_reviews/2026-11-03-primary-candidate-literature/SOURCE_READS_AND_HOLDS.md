@@ -57,7 +57,7 @@ with the existing source/method qualification reused. It explicitly motivates
 Pparg/Egr2/Arg1 reference endpoints. Verwaerde's primary metadata/abstract remains
 the only completed access: Europe PMC marks it outside PMC/full-text service;
 no full regulon was extracted. Daniel 2018/2020 exact prior figure reads are reused.
-The [six-target specification](../../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md)
+The [six-target specification](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md)
 fixes the full output. BMDM IL4 is neither NAM history nor the IL13 alveolar system;
 co-increased RNA does not reproduce or refute the latter mechanism.
 

@@ -7,12 +7,17 @@
 ## Published findings
 
 ```text
-Kras-mutant AT2 cells
-  ├─ Lineage tracing → clones with different growth rates
-  └─ IL1R1-dependent entry into a regenerative state
-       └─ Sustained NF-κB activity → persistence of mixed epithelial identity
+Lineage-labelled mouse AT2 cells after Kras activation
+  ├─ Clone size diverges: a subset of founders expands much faster than others.
+  │    The lineage label connects expanding clones to AT2 founders.
+  └─ Mutant AT2 cells co-opt the IL1R1–NF-κB program used during alveolar repair
+       ├─ Entry: Itga2+ DATP-like cells arise first. Cd177+ mixed-lineage cells appear later.
+       ├─ Persistence: sustained NF-κB accompanies mixed AT2, transitional and AT1-like
+       │  identities. Sorted Itga2+ and Cd177+ fractions each regenerate both states in culture.
+       └─ Inhibition: reduced NF-κB activity allows mutant cells to differentiate.
 
-Implication: mutant cells can reuse a repair program during early clonal expansion.
+Implication: early clone expansion depends on the founder population and on continued
+             access to a reversible repair state. An AT1 marker alone cannot establish fate.
 ```
 
 Mouse lineage tracing revealed heterogeneous clone expansion. Tissue and organoid experiments connected persistence of the repair-like state to sustained NF-κB activity and tested differentiation after inhibition. [Paper, Figs. 1–4 and 7](https://doi.org/10.1016/j.stem.2025.01.011)

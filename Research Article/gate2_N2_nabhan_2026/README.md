@@ -7,11 +7,18 @@
 ## Published findings
 
 ```text
-Mouse AT2 cells + human fibroblasts → mixed-species alveolar organoids
-  ├─ Epithelial perturbations → distinct effects on organoid number and size
-  └─ Epithelial Nkx2-1 perturbation → lower fibroblast lung-chemokine program
+Mouse alveolar epithelial stem cells cultured with human lung fibroblasts
+  ├─ Perturb 201 epithelial candidate genes and image the resulting organoids.
+  │    Organoid number reports successful establishment. Organoid size reports
+  │    subsequent growth. A perturbation can affect those two features differently.
+  └─ Read mouse and human transcripts separately from the same organoid well.
+       Epithelial Nkx2-1 loss → attenuation of AT2 identity in the mouse compartment
+         └─ Human fibroblasts in that well lose part of their lung chemokine program.
+            Spatial profiling in mouse lung relates altered epithelial identity to
+            shifts in nearby fibroblast populations.
 
-Implication: epithelial identity contributes to the niche beyond organoid growth.
+Implication: AT2 identity shapes the neighboring stroma. Species-resolved RNA links
+             the two compartments, while a well average leaves the mediator unresolved.
 ```
 
 The mixed-species organoid design distinguished mouse epithelial RNA from human fibroblast RNA in each well. After epithelial *Nkx2-1* perturbation, the fibroblasts expressed less of the lung-associated chemokine program. [Paper, Figs. 2 and 4](https://doi.org/10.1073/pnas.2606113123)

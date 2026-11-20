@@ -1,0 +1,10 @@
+# Preserve exact SHA-256 identities for the registered qualification scripts.
+*.py text eol=lf
+
+# Exact archived bytes recorded in the path migration manifest.
+"METADATA_REGISTRATION_V1.md" -text !eol whitespace=cr-at-eol
+"SOURCE_QUALIFICATION.md" -text !eol whitespace=cr-at-eol
+"qualify_regions.py" -text !eol whitespace=cr-at-eol
+"qualify_source_manifest.py" -text !eol whitespace=cr-at-eol
+"qualify_track_structure.py" -text !eol whitespace=cr-at-eol
+"verify_registration_v1.py" -text !eol whitespace=cr-at-eol

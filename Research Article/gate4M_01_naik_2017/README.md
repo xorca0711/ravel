@@ -7,11 +7,19 @@
 ## Published findings
 
 ```text
-Skin inflammation → recovery of the epidermis → subsequent wound
-  ├─ Chromatin: a subset of inflammation-opened sites remains accessible
-  └─ Repair: faster re-epithelialization, with a contribution from AIM2
+Local skin inflammation in mice → recovery → a wound at the same or a distant site
+  ├─ After recovery: sorted epidermal stem cells largely return to baseline RNA levels.
+  │  A subset of regions opened at day 6 remains accessible at days 30 and 180.
+  ├─ On wounding: previously inflamed skin re-epithelializes faster. Epidermal outgrowth
+  │  and splinted wounds support a migratory contribution to closure. The advantage is local.
+  │  Of 140 rapidly induced wound-response genes, 73 were associated with retained regions.
+  └─ Aim2 is an exception to transcriptional quiescence: its expression remains elevated.
+     AIM2, caspase-1 and IL-1 receptor signaling contribute to the repair advantage.
+     These perturbations test recall function. Bulk ATAC follows the stem-cell population,
+     so it cannot show that every cell retained the same region.
 
-Implication: an earlier inflammatory episode alters the response to a later injury.
+Implication: an earlier inflammatory episode changes how the epidermis responds to a
+             later wound, even after most of the acute transcriptional response subsides.
 ```
 
 Previously inflamed mouse skin re-epithelialized faster after wounding. Accessibility profiling and AIM2 perturbation addressed the molecular response in separate experiments. [Paper, Figs. 1 and 3–5](https://doi.org/10.1038/nature24271) · [Paper review and Fig. 2g correction](PAPER_REVIEW.md)
@@ -62,7 +70,7 @@ The original epidermal RNA and ATAC time points and the distal-site extension in
 
 ## Interpretation and open questions
 
-Accessibility at a distal class and accelerated wound repair were measured in separate experiments. Which sites carry a functional memory remains open. [Gate 4M comparative reading](../gate4_M_epigenetic_inflammatory_memory/README.md)
+Accessibility at a distal class and accelerated wound repair were measured in separate experiments. Which sites carry a functional memory remains open. [Gate 4M comparative reading](../README.md#gate-4-topic-centered-reading)
 
 <details>
 <summary>Interpretation and related questions</summary>

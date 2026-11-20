@@ -7,15 +7,22 @@
 ## Published findings
 
 ```text
-Human lung lesions sampled across histological stages
-  ├─ Epithelial states occupy distinct pathological regions
-  └─ Early lesions show local enrichment of IL1B-high macrophages near selected states
+Human lung precursor lesions and adenocarcinomas sampled at distinct histological stages
+  ├─ Spatial maps identify keratin-8-high alveolar progenitor cells (KACs) expressing
+  │  tumour-associated epithelial programs within pathological regions.
+  ├─ In early lesions, KAC neighborhoods are enriched for IL1B-high macrophages
+  │  and IL1B–IL1R1 expression. These neighborhoods are less frequent in invasive LUAD.
+  ├─ Spatial clonal patterns vary among patients. The human sections compare lesions
+  │  at different stages and do not track one lesion through progression.
+  └─ In mouse precancer, IL-1β blockade, alone or with PD-1 blockade, reduces the
+     progenitor population. This tests the inflammatory niche in a separate system.
 
-Implication: cell identity and neighborhood composition jointly describe lesion
-             context.
+Implication: the inflammatory neighborhood is most prominent in precursor tissue.
+             Its enrichment in human sections and its perturbation in mice supply
+             distinct evidence for a role in early neoplastic growth.
 ```
 
-Peng and colleagues counted annotated neighbors around epithelial populations within early lesions. The reported enrichment concerns adjacent cells in a defined pathological region. [Paper, Fig. 5D–F and J–K](https://doi.org/10.1016/j.ccell.2025.10.004)
+Peng and colleagues counted annotated neighbors around epithelial populations within early lesions. The reported enrichment concerns adjacent cells in a defined pathological region. [Paper, Fig. 5D–F and J–K](https://doi.org/10.1016/j.ccell.2025.10.004) · [Human spatial cohorts and mouse precancer interventions](https://doi.org/10.1016/j.ccell.2025.10.004)
 
 ## Ravel analyses and results
 

@@ -7,15 +7,20 @@
 ## Published findings
 
 ```text
-Ageing tissue
-  ├─ Relative abundance of sampled cell types changes
-  └─ Expression within a given cell type can also change
-       ↳ Both contributions enter the tissue-wide RNA measurement
+Single-cell profiles across 23 organs of ageing mice
+  ├─ Population abundance: bladder mesenchymal and urothelial fractions shift with age.
+  │  An organ-level RNA difference can therefore arise from a different cellular mix.
+  ├─ Within-cell-type expression: the fraction of cells with detectable Cdkn2a rises
+  │  in older animals. The atlas can distinguish expression prevalence from abundance.
+  └─ Opposing directions in kidney: tissue-wide Atp1a1 expression declines while
+     its expression rises within capillary endothelial and mesangial cells as the
+     representation of those populations falls.
 
-Implication: tissue averages can conceal opposing changes across biological levels.
+Implication: even the direction of a tissue-level ageing response can differ from
+             the direction within its constituent cell types. Both are biological findings.
 ```
 
-In the bladder, the balance of mesenchymal and urothelial cells shifted across age groups. The atlas also reported gene-expression differences within cell types. [Paper, Fig. 2e](https://doi.org/10.1038/s41586-020-2496-1)
+In the bladder, the balance of mesenchymal and urothelial cells shifted across age groups. The atlas also reported gene-expression differences within cell types. [Paper, Fig. 2e](https://doi.org/10.1038/s41586-020-2496-1) · [Bladder and kidney comparisons, Fig. 2e–h](https://doi.org/10.1038/s41586-020-2496-1)
 
 ## Ravel analyses and results
 

@@ -7,15 +7,22 @@
 ## Published findings
 
 ```text
-Kras-mutant AT2 → DATP-like epithelium (Krt8+, Areg-high)
-  └─ Areg → EGFR on alveolar fibroblasts → fibrotic fibroblasts in core and border
-       ├─ Tenascin C → macrophage TLR4 → reprogrammed alveolar macrophage
-       │    ├─ Cxcl2 and Cxcl16 → neutrophil and γδ T-cell recruitment
-       │    └─ IL-1β → Lcn2+ inflammatory fibroblasts at the periphery (week 4 onward)
-       └─ Candidate feedback to epithelium: Wnt5a, Igf1 and Spp1
+KrasG12D activation in mouse AT2 cells → Sox9+, Krt8+, Areg-high DATP-like epithelium
+  └─ Epithelial Areg → EGFR on Pdgfra+ alveolar fibroblasts
+       └─ Fibrotic fibroblasts appear beside nascent clones by week 1
+            Pdgfrb+, Runx1/2+, Tnc+, Acta2+ cells occupy tumour cores and borders.
+            ├─ Tenascin C → TLR4 on resident alveolar macrophages
+            │    └─ Msr1+, Cdh1+, Ch25h+, MHC-II-low macrophages expand between lesions.
+            │         ├─ Cxcl2/Cxcr2 and Cxcl16/Cxcr6 are candidate recruitment axes
+            │         │  for neutrophils and γδ T cells observed inside tumour cores.
+            │         └─ Macrophage coculture or IL-1β induces Lcn2 in fibroblasts.
+            │            Lcn2+, Tnc-negative fibroblasts appear at the periphery from week 4.
+            └─ Wnt5a, Igf1 and Spp1 are candidate signals back to mutant epithelium.
+  In vivo, AT2-specific Areg deletion reduces fibrotic fibroblasts. In culture,
+  TLR4 inhibition blocks the macrophage response to tenascin C.
 
-Implication: an epithelial repair-like state organizes distinct local stromal and
-             immune niches.
+Implication: mutant epithelium organizes distinct stromal and immune niches before
+             large tumours form. Timing, location and perturbation distinguish the links.
 ```
 
 AT2-specific *Areg* deletion reduced fibrotic fibroblasts in vivo (Fig. 4e–g). Imaging established the different locations and timing of the fibroblast populations. Culture perturbations tested the tenascin C–TLR4 link to macrophages. [Paper, Figs. 1–3](https://doi.org/10.1038/s41586-026-10399-6) · [Full cascade and evidence by link](#source-context) · [Paper, Fig. 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC13149335/#Fig4)

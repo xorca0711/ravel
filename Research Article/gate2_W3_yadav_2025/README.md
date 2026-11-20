@@ -7,14 +7,22 @@
 ## Published findings
 
 ```text
-Extracellular ATP → fibroblast P2RX4 and IL-6 → myeloid ARG1
-  └─ Arginine metabolism → ornithine availability → fibroblast collagen production
+Injured lung: a fibroblast signal and a myeloid metabolite form a reciprocal circuit
+  Extracellular ATP → fibroblast P2RX4 → IL-6 release
+    └─ IL-6 supports ARG1 expression in nearby myeloid cells.
+         ├─ Mouse fibrosis: macrophages are a major ARG1-expressing population.
+         └─ Human fibrotic lung: neutrophils supply prominent ARG1 signal.
+       ARG1 converts arginine to ornithine → substrate for fibroblast proline metabolism
+         └─ Arginase inhibition lowers collagen output. Ornithine supplementation
+            partially restores COL1A1 staining in coculture.
+  Human spatial measurements place the cell types near one another. Lung metabolite
+  abundance and collagen measurements do not directly trace carbon between cells.
 
-Implication: reciprocal signaling and substrate supply connect myeloid cells to
-             fibrosis.
+Implication: fibroblasts can recruit a metabolic contribution to matrix synthesis
+             from different myeloid populations in mouse and human fibrosis.
 ```
 
-The coculture experiment tested whether adding ornithine could restore collagen staining after arginase inhibition. Measurements of lung metabolites and tissue collagen supplied distinct in vivo endpoints. [Paper, Fig. 3 and Supplementary Fig. 3C](https://doi.org/10.1172/JCI188734)
+The coculture experiment tested whether adding ornithine could restore collagen staining after arginase inhibition. Measurements of lung metabolites and tissue collagen supplied distinct in vivo endpoints. [Paper, Fig. 3 and Supplementary Fig. 3C](https://doi.org/10.1172/JCI188734) · [Cell sources, collagen response and P2RX4, Figs. 1–6](https://www.jci.org/articles/view/188734)
 
 <details>
 <summary>Detailed published evidence</summary>
@@ -267,7 +275,7 @@ assay, biological unit and interpretation boundary.
 | [Wg checkpoint](../gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md), [Wp corrections](../gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) | Th17 RNA/Compass results supply measurement lessons, not measured lung flux or a Yadav reproduction. The later P06 derivation supersedes older specification-hold wording. |
 | [A3 dossier](../../docs/research_dossiers/A3.md) | Niethamer W1 is macrophage pseudobulk. Its seven-gene ornithine set was ineligible, not evidence against Yadav. Injury history and continuing stimulation remain separate. |
 | [A22 dossier](../../docs/research_dossiers/A22.md) | Reusable logic: source perturbation → recipient response → actual protein/functional endpoint. NKX2-1/chemokine results do not establish an IL-6/ARG1 mechanism. |
-| [Current DY1 package](../gate2_DY1_damani_yokota_2026/README.md) | Newly integrated human descriptions retain sparse ARG1 and unstable within-disease recipient coupling. This limits reuse of those RNA sources; it neither refutes nor independently reproduces Yadav's perturbation evidence. |
+| [Current DY1 package](../ungated_damani_yokota_2026/README.md) | Newly integrated human descriptions retain sparse ARG1 and unstable within-disease recipient coupling. This limits reuse of those RNA sources; it neither refutes nor independently reproduces Yadav's perturbation evidence. |
 
 <a id="execution-boundary-and-next-action"></a>
 
