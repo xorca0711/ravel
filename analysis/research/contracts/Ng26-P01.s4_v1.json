@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s4_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do mouse-level tumour count, large-lesion fraction and microscopic tissue area fraction differ after prior colitis, and how do the released lesion areas and spatial P20 distributions relate to those distinct endpoint measurements?",
+  "decision": "Close only S4 with gross and microscopic mouse summaries, individual lesion distributions in Fig. 4e/l, and a separate Fig. 4j measurement and source audit. Stop before S5.",
+  "strongest_rival": "Observed size and burden can reflect lesion age, detection or sampled tissue as well as outgrowth. Number and area are differently sampled; multiple lesions per mouse/section are not independent histories. A single section per history confounds specimen and history in spatial expression.",
+  "discriminator": "Join the exact same labelled nine gross mice for >1 mm fraction and total counts, keep the separate 17 low-dose microscopic mouse records and the four-arm lesion-only workbook separate, and compare legend denominators. Inventory the spatial source files and read published P20 symbols within each section.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/ng26_s0_v2/receipt.json",
+    "analysis/research/runs/ng26_s3_ed6_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Prior exposure includes published directions, displayed 4e medians 2847/5111 and thresholds, Fig. 4j P and 1.7%/8.8%, S0 exact gross join and missingness, and all panel and mouse counts. PDF inspection established multiple paint layers, identifiable foreground dots for the two sections and axis ticks before numerical readback.",
+  "biological_unit": "Individual mouse in gross (4 control, 5 recovered) and microscopic (7 control, 10 recovered) mouse summaries. Lesions are nested in mice for 4e/l. For 4j, individual plotted lesions nest in one section per history.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Gross sheets 4c/ED9d share mice joined by exact raw label, including whitespace. Low-dose ED9g/h shares aggregate group counts with 4e, with no per-lesion assignment to mice. Fig. 4l is a separate four-arm series, unknown cross-cohort overlap. P20 sections correspond to separate specimens and high-dose spatial material; no tumour links to monoclonal organoid histories.",
+  "population_and_selection": "All nine 4c/ED9d mice and 222 ED9a diameters; all 17 ED9g,h mice, 322 released 4e area rows and 324 released 4l area rows with original labels. All foreground Fig. 4j PDF point centers by published history; both spatial GSM supplementary inventories. No expansion to S5 or new segmentation.",
+  "contrast": "Equal-mouse recovered minus control mean of gross count, percent >1 mm and large count, and separate low-dose raw count and percent tissue area occupied. Show individual mice and all single-mouse omission ranges. Describe per-lesion size distributions under each history and each of four drug arms. Describe within-section plotted P20 scores and high-score frequencies; no between-mouse P20 effect.",
+  "endpoint": "Exact gross joined counts/fractions, microscopic counts/area fractions, contrast and omission bounds, ED9a and 4e/l raw distributions/quantiles/count discrepancies/>1mm or >20000 um2, Fig. 4j plot-derived values and coverage and GEO inventory. Figures with source-linked data.",
+  "methods": "Multiply gross fraction by exact total per mouse and round only after testing integer compatibility (1e-10). Read all lesion rows and reconcile group totals against corresponding ED9 mouse series without assigning individual mice. Calculate full uncapped medians, quartiles and threshold rates. Preserve published summary denominators separately. Select one foreground PDF symbol per lesion using its fill, geometry and group x range. Calibrate linear y coordinates from printed -4, 0, 4, 8 ticks. Report derived medians/means, observed score >3 and points within +/-0.05 of threshold. Preserve the published P as author-fit. Do not infer formal initiation rate or run a lesion-level interaction.",
+  "missingness_and_exclusions": "No deduplication of equal diameters or areas. Gross and microscopic mouse IDs not aligned across cohorts. ED9h requires assessed tissue area per mouse and raw count/area fraction cannot yield it. Four-arm mouse effect/interaction needs lesion-to-mouse crosswalk or per-mouse arm-level summaries, plus denominator for burden. Do not impute missing legend lesions. P20 bins, lesion labels and original per-lesion scores unresolved.",
+  "multiplicity": "Descriptive series with all specified endpoints. No confirmatory tests, pooled-lesion inferential P or significance reinterpretation.",
+  "precision_status": "unknown",
+  "precision_basis": "4 and 5 gross mice, 7 and 10 microscopic mice and no verified four-arm lesion-to-mouse assignment. Use equal mouse weighting and deletion ranges. Fig. 4j is limited to figure precision and two sections.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Single-time morphology can describe burden/size at collection. It cannot identify initiation frequency, incidence over time, chromatin-to-growth mediation or a serial lineage from organoid clones to adenomas. P20 is a lesion RNA program within two sections.",
+  "stop_rule": "Stop or qualify affected readbacks on a bad sample key, ambiguous PDF layers, unexpected counts, nonfinite or out-of-domain observations. Retain discrepancies between released rows and published captions and do not tune tests or invent labels. Stop at the S4 checkpoint.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm9.xlsx",
+      "sha256": "d049aa2d9d724508177ec4bfde2fb5111858acd44cfcf21d1d873a60a78bdfe5",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm11.xlsx",
+      "sha256": "d51ab7869ccab6788d090286bfd2f17a9bfac1f19224f858d67cfc3f18bf3484",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/gross_sample_join.tsv",
+      "sha256": "94028f47f36632404e71462e1a0af188839a38e143b88ee1d336d99352f7a807",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316618_family.soft.gz",
+      "sha256": "ea177fe588e257d302235854ece95d9e691908460ba9c5eec272006014ae0b7e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/5_Spatial_RNA/03_spatial.call_tumors.R",
+      "sha256": "f6d47475f4f444e9813cd5be55c8132dffbeac795cf3721f4d5ccf89fd74723f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/5_Spatial_RNA/04_spatial.pseudobulk.R",
+      "sha256": "49f76fcfcd66768d79601e29727ad85633c4627dcde4f4a882efd422b2df44da",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/tumour_readback.py",
+      "sha256": "75787231bba41068a5f00dbc0782d2dcb83943ce87dc1bc724abf036b4656baa"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/plot_tumours.py",
+      "sha256": "394d537ae8a9f3318bcc119f63656b00ef6c927140bb592a1caece247045b6c7"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/tumour_readback.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gross_mice.tsv",
+    "microscopic_mice.tsv",
+    "mouse_contrasts.tsv",
+    "lesion_measurements.tsv",
+    "lesion_distributions.tsv",
+    "p20_plotted_points.tsv",
+    "p20_plotted_summary.tsv",
+    "spatial_file_inventory.tsv",
+    "mouse_adenoma_burden.png",
+    "mouse_adenoma_burden.pdf",
+    "lesion_areas_and_p20.png",
+    "lesion_areas_and_p20.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First exposed S4 contract after S3 owner review."
+}
