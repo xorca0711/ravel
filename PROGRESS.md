@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 3 association
+
+The owner reviewed Stage 2 at `d1e3735`. Both Stage 3 comparisons froze at `324cb87`. The primary 63-locus day-102 binding–ATAC partial rank correlation was −0.015; day 50 was −0.370 (paired fold −0.121). Whole-amplicon binding–methylation coefficients differed between P4 organoids (+0.133) and tissue vehicle (−0.248). Day-102 tissue methylation and ATAC differences had little alignment (−0.007). The separate figure-only correction restores the lower legends from saved results. [Results, figures and sensitivity tables](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md). Next decision is owner review before external qualification of the isolated-factor libraries or colon array. No external measurements or matched individuals entered Stage 3.
+
 ## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 2 measurements
 
 Stage 1 at `e995c8f` completed receipt, repository and base-aware validation and received owner review. Stage 2 froze the contrasts and later association checks at `8c83d4e`. All 63 paired raw footprints increased. The AP1 + Fox class had the larger median absolute increment and the AP1-only class had the larger median ratio. Native ATAC and methylation differences had both signs. Day 79 supplies two individual recovered mice, and only one scored motif has a CpG. Next decision is owner review of the [per-locus measurements and figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md) before any [frozen cross-locus association](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md). No external candidates assessed.
