@@ -12,4 +12,6 @@
 
 The closest external intestinal studies provide biological context. Arozamena’s irradiated-intestine library contrasts lack the common recovery stage, cell state, feature definition and verified animal units needed for a quantitative comparison. The earlier Naik study concerns epidermis. [External comparison decision](SYNTHESIS.md#can-another-intestinal-dataset-test-the-same-question) · [Arozamena fixed-locus results](../ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md) · [Naik mouse skin results](../gate4M_01_naik_2017/distal_m24_baseline_v1/RESULTS_V1.md)
 
+**JUN–FOXP1 extension, Stage 1.** All 63 binding amplicons support regional methylation measurements, while one scored motif contains a reference CpG. Full native ATAC exports support mouse-level comparisons at 50 and 102 days. Conflicting control identities restrict day 79 to recovered-mouse descriptions. [Eligibility ledger and proposed contrasts](jun_foxp1/stage1/ELIGIBILITY.md) · [Original follow-up scan](post_s5/JUN_FOXP1_DEPOSIT_SCAN.md)
+
 [Stage plan and final status](ANALYSIS_PLAN.md) · [Source and donor audit](s0/CHECKPOINT.md) · [Panel-by-panel eligibility](s0/PANEL_ELIGIBILITY.md) · [Literature and deposits](LITERATURE_CONTEXT.md) · [Can JUN–FOXP1 binding and methylation be distinguished?](post_s5/JUN_FOXP1_DEPOSIT_SCAN.md)

@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 1 qualification
+
+The [eligibility ledger](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md) matches all 63 binding loci, qualifies all 18 methylation tracks and reads both native ATAC exports in full. Regional methylation qualifies across the panel and one scored motif contains a CpG. Native epithelial comparisons qualify at days 50 (2 recovered/2 controls) and 102 (4/2). Day 79 has two resolved recovered donors and conflicting control accessions across the two technical pools and their shared map. Next decision is owner review of the runnable contrasts. Association work, external candidates and publication remain outside Stage 1.
+
 ## 2026-11-20 — Nagaraja JUN–FOXP1 and methylation source review
 
 The [follow-up scan](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md) identifies methylated/control binding data for each isolated factor and the FOS-free protein-pair comparison at 63 known intervals. An independent colonic methylation array covers five amplicons and zero scored motifs. Next, qualify native CpG and late-ATAC coverage at the exact 63 intervals before estimating an association. Direct late colonic occupancy and direction of dependence remain unresolved.
