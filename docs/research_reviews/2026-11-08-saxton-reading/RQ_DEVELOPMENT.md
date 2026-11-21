@@ -1,7 +1,7 @@
 # Where the completed Saxton analyses can lead
 
 **Related aged-niche evidence, 8 November:** the owner-requested
-[Navarro Negredo 2026 assessment](../../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md) identifies
+[Navarro Negredo 2026 assessment](../../../Research%20Article/gate3_12_navarro_negredo_2026/README.md) identifies
 Fig. 5's directly tested T-cell/IFN contribution to WT IL-10 responses in
 microglia. Treat that loop as a published premise. D25K is not an arm of the
 repository's Saxton RNA source, and this study does not supply either held
@@ -131,7 +131,7 @@ not justify an IL-22 memory claim.
 |---|---|
 | [DuPage target screen](../../../Research%20Article/gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md) and A33–A35 | Separate source/annotation qualification, target roles and functional discriminators. A target list is not a mechanism. No transfer of Treg conclusions to CD8/colon. |
 | [A9 recipient competence](../../research_dossiers/A9.md) | Its completed receptor-transcript screen does not measure competence. Saxton provides an analogous reasoning problem, not new evidence for AREG responsiveness. |
-| [A14 withdrawal](../../research_dossiers/A14.md) and [Arozamena results](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) | History needs verified cessation and linked later endpoints. RNA/accessibility findings and QC sensitivity do not supply a Saxton persistence experiment. |
+| [A14 withdrawal](../../research_dossiers/A14.md) and [Arozamena results](../../../Research%20Article/gate4M_05_arozamena_2026/RQ_CONNECTIONS.md) | History needs verified cessation and linked later endpoints. RNA/accessibility findings and QC sensitivity do not supply a Saxton persistence experiment. |
 | [DY1 cross-assay follow-up](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md) | Separate assay cohorts cannot be treated as matched cells/animals. Apply the same rule to Saxton RNA, phosphoflow and secretion. |
 | [Wagner model results](../../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/MODEL_RESULTS.md) | Where animal identity permits an identifiable blocked model it can be used; missing Saxton donor identity cannot be filled in by analogy. |
 

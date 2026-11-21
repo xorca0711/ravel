@@ -1,6 +1,6 @@
 # A36: literature context
 
-Review date: 10 November 2026, Asia/Seoul. Author: Codex, for owner-authorized question development. Base: `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Reuses the same-day [originating assessment](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md), adding the previously unaudited S6/Table S3 and targeted later-output source search. This is a bounded review, not novelty clearance.
+Review date: 10 November 2026, Asia/Seoul. Author: Codex, for owner-authorized question development. Base: `1a6769fc3d808ccf6b27aed3ecedc71341026f33`. Reuses the same-day [originating assessment](../../Research%20Article/gate3_12_navarro_negredo_2026/QUESTION_DEVELOPMENT_20261110.md), adding the previously unaudited S6/Table S3 and targeted later-output source search. This is a bounded review, not novelty clearance.
 
 ## Published starting point
 
@@ -18,7 +18,7 @@ Supplement source: [publisher PDF](https://ars.els-cdn.com/content/image/1-s2.0-
 
 ## Repository observation
 
-[Nn26-P01 RNA results](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md) retain heterogeneous immune-marker directions, eight aliases versus six reported libraries, no per-mouse assignments and indirect main-pair dose association. [Animal results](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md) retain direct nonsignificant D25K–WT neural-marker comparisons and D25K–vehicle cognition tests. The separate Canaria human agonist context cannot replace D25K/aged-brain evidence. All are exposed, and reused source data are not independent replication.
+[Nn26-P01 RNA results](../../Research%20Article/gate3_12_navarro_negredo_2026/RNA_RESULTS.md) retain heterogeneous immune-marker directions, eight aliases versus six reported libraries, no per-mouse assignments and indirect main-pair dose association. [Animal results](../../Research%20Article/gate3_12_navarro_negredo_2026/RESULTS.md) retain direct nonsignificant D25K–WT neural-marker comparisons and D25K–vehicle cognition tests. The separate Canaria human agonist context cannot replace D25K/aged-brain evidence. All are exposed, and reused source data are not independent replication.
 
 ## What this question could add
 

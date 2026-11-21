@@ -110,6 +110,8 @@ human compartment RNA comparison and all other canonical questions are unchanged
 
 </details>
 
+**Gate 3-12 reading extension.** Navarro Negredo et al. extend the immune-regulation reading branch to the aged brain, where the measured endpoints include neurogenesis and cognition. DuPage’s original EZH2/Treg comparison has its own study design. [Navarro Negredo paper package](../gate3_12_navarro_negredo_2026/README.md)
+
 ## Figures and supporting documentation
 
 | Study materials | Location |

@@ -88,13 +88,13 @@ themes are navigation, not a new global hypothesis or independent evidence.
 
 ### Study context and analysis history
 
-**Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../ungated_navarro_negredo_2026_aged_brain_il10/README.md)
+**Aged-brain companion, 8 November 2026:** [Navarro Negredo 2026 fit and data-use assessment](../gate3_12_navarro_negredo_2026/README.md)
 connects published D25K effects in the aged neural niche to this paper's
-myeloid/T-cell selectivity problem. Its completed [animal reproduction](../ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
-and [pooled RNA description](../ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
+myeloid/T-cell selectivity problem. Its completed [animal reproduction](../gate3_12_navarro_negredo_2026/RESULTS.md)
+and [pooled RNA description](../gate3_12_navarro_negredo_2026/RNA_RESULTS.md)
 retain nonsignificant direct cognition tests, source/dose holds and missing
 young-treatment arms. This is separate evidence, not replication of the existing
-super-10/10-DE RNA contrasts. Navarro remains ungated; Saxton remains Gate 3A.
+super-10/10-DE RNA contrasts. Navarro Negredo now sits in the DuPage branch at Gate 3-12. Saxton is the Gate 3A IL-10 comparison.
 
 **Completed technical description, 8 November 2026:** [Gate 3A results](RESULTS.md),
 [three figures](FIGURES.md), [source qualification](../gate3_07_saxton_2021_il10/SOURCE_QUALIFICATION.md),

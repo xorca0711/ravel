@@ -5,7 +5,7 @@ their original wording and scope. Use the [current article index](README.md) and
 each linked source report for current status. Reading, execution and acceptance
 remain separate.
 
-**Arozamena intestinal reference — 1 November 2026:** the [article-local package](ungated_arozamena_2026_inflammatory_memory/README.md) contains qualified public sources, reviewed RNA contrasts and a completed deposited-GRCm39 four-locus paired RNA/fragment extension (128 cases). [Figures](ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and [RQ context](ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) retain selection sensitivity, coordinate conflicts, absent state maps and missing functional-unit joins. This source sits outside the reading roadmap; no gate, canonical hypothesis or acceptance decision is changed.
+**Arozamena intestinal reference — 1 November 2026:** the [article-local package](gate4M_05_arozamena_2026/README.md) contains qualified public sources, reviewed RNA contrasts and a completed deposited-GRCm39 four-locus paired RNA/fragment extension (128 cases). [Figures](gate4M_05_arozamena_2026/FIGURES.md) and [RQ context](gate4M_05_arozamena_2026/RQ_CONNECTIONS.md) retain selection sensitivity, coordinate conflicts, absent state maps and missing functional-unit joins. This source sits outside the reading roadmap; no gate, canonical hypothesis or acceptance decision is changed.
 
 **Saxton gene-program reassessment reviewed — 1 November 2026:** all eligible
 [finite-library jobs](gate3_08_saxton_2021_il22/reassessment_v1/README.md) are complete.

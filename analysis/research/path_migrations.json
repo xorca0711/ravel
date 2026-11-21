@@ -2726,6 +2726,558 @@
       "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/rna_pairing.py",
       "to": "Research Article/gate4M_02_nagaraja_2026/s5/rna_pairing.py",
       "sha256": "d8b9b6864d73c872b587ac2b7036146fab74b2b60e3081cc2132b55fdeb5d71c"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "to": "Research Article/gate4M_05_arozamena_2026/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_EXTENSION_BRIEF.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/ACCESSIBILITY_EXTENSION_BRIEF.md",
+      "sha256": "7a73b02dc41090dce22571b051904d7209b382eaecff42d045ff617da8c45ab7"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/ACCESSIBILITY_RESULTS.md",
+      "sha256": "0c9c627ce994f01a13d6fdbe5b97abcb0c7c2e8a1ca8e67d3b4921605db5e792"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_V1_HOLD.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/ACCESSIBILITY_V1_HOLD.md",
+      "sha256": "80c6eb0fdc649531e4012e46cdb03c988e7b68601362992e4d0cb2ec37326206"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_VALIDATION.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/ACCESSIBILITY_VALIDATION.md",
+      "sha256": "1308ad8f997031988ea63ea08dbbf67cbfd6d3e0502e768580e390653fa65231"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/LITERATURE_CONTEXT.md",
+      "sha256": "3a6f1eccc9f59b75e26ba990f5314cc8a61061c283062b62eebb0d6d4715ebfc"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/METADATA_METHODS.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/METADATA_METHODS.md",
+      "sha256": "1d9f934fbff90d103412b6cdb03ec021350b0a42f6eb2eb884f84e71c44b83a3"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/ORIGINATING_REVIEW.md",
+      "sha256": "dfe1a2a321928c2494b2c9010fe79a11224d3a37e81a34835661a4fd5366c1ff"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/Q4A_FEASIBILITY.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/Q4A_FEASIBILITY.md",
+      "sha256": "3fbd875694dcbfe527696f5a52bf914105873fc1e44fd5249620cb1dbaf40179"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/README.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/HISTORICAL_PACKAGE_OVERVIEW.md",
+      "sha256": "c479389903eb10d7ea923e39518502c8ee5ff7acf347718b1aefce3be61f340a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/RNA_EXTENSION_BRIEF.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/RNA_EXTENSION_BRIEF.md",
+      "sha256": "97d8b0dddef0f0f79559210fd5959ead031e593f51f4489a714e412424167128"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/RNA_RESULTS.md",
+      "sha256": "c313916ff794d1ab36483caa9da7be796c5dc52d5b1656bd88fa99ac467f2f7a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/RQ_CONNECTIONS.md",
+      "sha256": "c8a31adbb87400db50a9a3bf1cbc1fb2fab1ce5e72b0004ae4ca63e6c6ced991"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/SOURCE_QUALIFICATION.md",
+      "sha256": "a38f6bdecc9a5520a2ef2f65923996d56c4b68576b2f6708bc1e1d2997378639"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_AMENDMENT_V2.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/ACCESSIBILITY_AMENDMENT_V2.md",
+      "sha256": "232012ee3e0c7cffd7bf0e1d5aad739348bba1338fef0fa781d7e12c306e1700"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/ACCESSIBILITY_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "sha256": "7a73b02dc41090dce22571b051904d7209b382eaecff42d045ff617da8c45ab7"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+      "sha256": "1383b08807d86bb452703c632f19ae98d04330823d12376a7376d8556240de5a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_REVIEW_FROZEN_V2.txt",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/ACCESSIBILITY_REVIEW_FROZEN_V2.txt",
+      "sha256": "2f0470b5bda41d2cdb71e829cc71944c1b9380701ce05e8eb3a324e070fc0e77"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/METADATA_AMENDMENT_V2.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/METADATA_AMENDMENT_V2.md",
+      "sha256": "0ba2e9c90f61b3dd0c4a2ee7bf78100727ab004dd3465d31a667b5fe0edbce42"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/PRIMARY_RENDER_CORRECTION_V1.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/PRIMARY_RENDER_CORRECTION_V1.md",
+      "sha256": "39a7e0bf2d1c9d4deb29cdd6a527368969a4f52555a1b655adf0be243cc6d7cf"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/Q4A_REFERENCE_NOTES_V1.md",
+      "sha256": "fed2fedc7bcca716565462b5837db3739d17de9f0624e6794c19104bed6aed17"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/RNA_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "sha256": "97d8b0dddef0f0f79559210fd5959ead031e593f51f4489a714e412424167128"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_IMPLEMENTATION_V1.md",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/RNA_IMPLEMENTATION_V1.md",
+      "sha256": "9eb6faecd9b5390519fc7fcc12e74ff28a117821be250339272671a03ddeb882"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/accessibility_contract_v1.json",
+      "sha256": "f4b4faa37087e644793a06672cae5a3d09d21516ef3a8e11dc719b575eb1aed7"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/accessibility_contract_v2.json",
+      "sha256": "d57f1374b16bb1d637328fef8bbca6b8506fc0420c27a0b13675723d46d59c1d"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_sources_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/accessibility_sources_v1.json",
+      "sha256": "9adca4a2a712378123aae946d2471b69dc2581fc550c3c6cd939de5e8a6fbde0"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/metadata_contract_v1.json",
+      "sha256": "b34915eda1f4f0e86936c200dc3f31162d0e776093a26c536dc168eae26d0aa4"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v2.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/metadata_contract_v2.json",
+      "sha256": "742661fa5031d231b99055ff67a42671ced59a9d55be0ce5e5357345773f7f7a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/primary_render_contract_v1.json",
+      "sha256": "a06ff85af3f295e86c873b038109a17172ec66a6f2a509b9cd59a767ba5d6f79"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/rna_contract_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/config/rna_contract_v1.json",
+      "sha256": "4e750f03cff80a6dac0a22b6d01f866790a30d98b4ea50a8d7108f93e4deddf8"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_core_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/accessibility_core_v1.py",
+      "sha256": "a34cbc2374dde87f9a243ebc381e2e9c2ca5b38119878a8d2af377bbc341c84c"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_core_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/accessibility_core_v2.py",
+      "sha256": "96d6e95f977f7a6e486af52b215fb4d84c95340a1b6d6bb122ff305a60f2a3c8"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/accessibility_v1.py",
+      "sha256": "f70b31914ce5de6caae426cf48c6232aff1bf46f0f18ef7294f99e0940bbb1ec"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/accessibility_v2.py",
+      "sha256": "20a4257cb5bcf03c96e026300e829ab589a3d73df5ab99d2c874a4c453af3a5b"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/plot_accessibility_v1.py",
+      "sha256": "2f96be5d10963330898434c4553250ea6196cd0410ea42855965e074517af632"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/plot_accessibility_v2.py",
+      "sha256": "bbe75a279dfa53566e672b39b215a70e7674f4fc5089737b90cce8e2608cad60"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_rna_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/plot_rna_v1.py",
+      "sha256": "ba596d17af45910fd5d88bc245bdb4672eaabffb3cdfd9cf5ba4bb4ad7f693be"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_mtx_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/qualify_mtx_v2.py",
+      "sha256": "5ccc596910ea7c57ec54814c29f6de1f862b584df1e56c1ab8658e86af15aeeb"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/qualify_v1.py",
+      "sha256": "e5c4cdd99115b843c271eaa11119d68a72f1f4dce2b08b93abcf797cf043fbd2"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/render_primary_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/render_primary_v1.py",
+      "sha256": "d104644afc3cc7e87334f81aff0fc1c36b4a9cb1d2bb263092197760da4eb951"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/rna_extension_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/scripts/rna_extension_v1.py",
+      "sha256": "3e118352ad76e7cba68c7da82d63b8d84cb1681295b70fcabe28755d106453e1"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "to": "Research Article/gate4M_05_arozamena_2026/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_accessibility_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/tests/test_accessibility_v1.py",
+      "sha256": "868747f6de6aafe075a526a815f1e201a789eb00fff83cf89f3a597b745a2263"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_accessibility_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/tests/test_accessibility_v2.py",
+      "sha256": "75e939bc93f2fdd9a51a8997855f8e976009cd3eed91973e4abdc4572cfa3fb4"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_mtx_v2.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/tests/test_mtx_v2.py",
+      "sha256": "e929f6bfc954643d3001f3d499603f3b8854016b9c5b7012289376112d9c053a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_qualification.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/tests/test_qualification.py",
+      "sha256": "bcb4e21a68859a9b8ad5fff30236444d03c7dc5f1031d78e1a738c2794381bb5"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_rna_v1.py",
+      "to": "Research Article/gate4M_05_arozamena_2026/tests/test_rna_v1.py",
+      "sha256": "2b07e2f2d049525e8248e770eec8b2dad2f84414ad87609312ec97e69d8408a4"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_damani_yokota_2026/README.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HISTORICAL_PAPER_POINTER.md",
+      "sha256": "f2ea161824c8919578bab6b97e5bf5ff792eb4665a0e7bdbadce0fbe97b47f6d"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/README.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/HISTORICAL_QUESTION_POINTER.md",
+      "sha256": "a69d7c1556c00f8abb9ee4e57beb31bd864df88b860770f4c08068a1cdc30fd2"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/ANALYSIS_PLAN.md",
+      "sha256": "48ec2d1994c25709378c46a467ed7a20b03009af7c980f31680771edad3671c2"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/ANIMAL_AMENDMENT_V2.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/ANIMAL_AMENDMENT_V2.md",
+      "sha256": "f814048a83a29e83339e1d26d75659c822df54488a94595019cd2348d76afd94"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/CANDIDATE.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/CANDIDATE.md",
+      "sha256": "35f53920f8db793618bae446f8e4ecd4dfd7686fa81d547b4f197a96506d1a96"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/FIGURES.md",
+      "sha256": "c6afb11bcf23135230324151ea02e91a223718626f62418f80dc8176da410080"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/LITERATURE_CONTEXT.md",
+      "sha256": "a58795233de02c55ed74c15a003f1a045619d411e698abf27ba231ba7a5b3f59"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/METADATA_FOLLOWUP.md",
+      "sha256": "d7d69f00b4f8d1de85e07fa6716c616c4322eb2116244683de6cb953e7163432"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/RESULTS.md",
+      "sha256": "00edd09d34f9c5bae99f68b79ceb3fbde35fa3a571bb7573a32c81f4d0ace1b1"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/RNA_RESULTS.md",
+      "sha256": "9e1111f8c04e7fc75e2b283797423e46d3219db48df826e9ed8df43300523175"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/config/animal_panels_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/config/animal_panels_v1.json",
+      "sha256": "56283c81d1911604e65b3746cbc42e020a92d2592e10810d22cfe5bc9d140d25"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/animal_reproduction_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/animal_reproduction_v1.json",
+      "sha256": "2e95332c83ab875dc5c59581958bed1af339f28ae62179c6cad63c6bc81b4ace"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/completion_archive_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/completion_archive_v1.json",
+      "sha256": "c0f0933a630dbb258fa1a8653a0f04a974f29679ad1b10413bd0a39e21c83028"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/failure_preservation_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/failure_preservation_v1.json",
+      "sha256": "6079a145f9d6a6f4390cf0a807f393078ef103da8916440ddb27b4ae31dcf152"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.config.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/pooled_rna_description_v1.config.json",
+      "sha256": "03d6514eb402a8c66bbb1c2627c237b8bc867d435d31a26013d813cc6b2e22b7"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/pooled_rna_description_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/pooled_rna_description_v1.json",
+      "sha256": "03293307f53091ac29be859406f949e06f911357efcdfe004f0daac3c6bb3ee2"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/qualification_review_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/qualification_review_v1.json",
+      "sha256": "035a3e2936a0327e8a3242d9f33a8861717fce056f539e069dcc7aebd818186d"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_review_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/rds_metadata_review_v1.json",
+      "sha256": "62f974e252743cc264bd4e5a173a07f904e2fda04586899d2cd3e1fca45a787f"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.config.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/rds_metadata_v1.config.json",
+      "sha256": "913b77e40a324e737d610b40e856d9749a1ac2db52630cdf9bf9ea9fc20fcaad"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/rds_metadata_v1.json",
+      "sha256": "2c6902ad018ee47eaf771d9fa7831124ddafac709fd419259bf0343518ae1a70"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/rds_metadata_v2.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/rds_metadata_v2.json",
+      "sha256": "18349966a94370efcc21f356ac8076f092d89f040eda5b687edca29917174b9c"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/source_qualification_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/source_qualification_v1.json",
+      "sha256": "7935965530bbba6438a5cbd4c9c07e4d3d4994197cb705e256c1b6df96dcf268"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/contracts/tie_diagnostic_v2.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/contracts/tie_diagnostic_v2.json",
+      "sha256": "7091e6335844090b71f6a2c4e155ba0befbc5fa46f579ad9fedbfdc574f44447"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/HUMAN_CONTEXT_PLAN_V1.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/HUMAN_CONTEXT_PLAN_V1.md",
+      "sha256": "c798a2bbb18e1399a98e7bab7204b437a771e7498a4acefcd79f6bdb2dd1953a"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/PLAN.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/PLAN.md",
+      "sha256": "7de5e761786ba1c404c54d63f32083def3b9dd184b87745fbd0ffcea50ef1a70"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/README.md",
+      "sha256": "29194a75a5e91d350fac8acbcc2c3d0332c200292ee35e229846bc2aff834858"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/describe_human_context_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/describe_human_context_v1.py",
+      "sha256": "faf0cb8ce2a17b3da1cf10b8e3b1720c8a544174296f6d97e0a9944ca9ccb4e6"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/human_context_description_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/human_context_description_v1.json",
+      "sha256": "7df51a14aa22cc57c4060cc2c95671f9f3056d318cc445c063e70cccc14a38b6"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/metadata_inputs_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/metadata_inputs_v1.json",
+      "sha256": "bd4141fbc94c047fc1c85b15a32312b7cf3af72450a6e69f10a3b46793dc1651"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/public_source_followup_v1.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/public_source_followup_v1.json",
+      "sha256": "37085143e25e1431c47406560100deff6f47f9b35cad5ea4c8a7e3005ec57d11"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/qualify_public_sources_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/qualify_public_sources_v1.py",
+      "sha256": "9bff99ccca3793cb5494723bb7ce93c4e944192d2aae08b25b124f024f7558ea"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.json",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/residual_diagnostics_v3.json",
+      "sha256": "10731061d1ddd4537777807b6ec32598f18eaf35190287b004324fb3dd645a10"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/residual_diagnostics_v3.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/followup_20261110/residual_diagnostics_v3.py",
+      "sha256": "c4c5d3d41254184d27c5f34d9ed5b7fdfd24987d483998ac42c35b2689e7b50d"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/bounded_r_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/bounded_r_v1.py",
+      "sha256": "5aee79b6e16166b5824198a56f8b6bf4af7820aaf81cf219982f843d75bbbe80"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/complete_rna_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/complete_rna_v1.py",
+      "sha256": "77bf1640cd0d34325afbf50176f9f764f296c694ae5d57a3fade7f2d65b5ef3f"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/describe_rna_v1.R",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/describe_rna_v1.R",
+      "sha256": "a0dea133213353b403ebbd72070b076bc617a9d309cd1959ddd6a3bf06ca60ba"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/description_pipeline_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/description_pipeline_v1.py",
+      "sha256": "a1ea4cb19a5e7fd22aa94a27256f8d35dcc061ce7d9297b72a3c2f1cc198c89e"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/preserve_failure_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/preserve_failure_v1.py",
+      "sha256": "b8444cc9c45c1cac1166aa9ce1f9e46fb659bbec1fbb591ad58d3196bf3ca1fe"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualification_review_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/qualification_review_v1.py",
+      "sha256": "e75d81ae06b12fe789231deced713f559c61888e9a584c27adf658113846ed63"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_rds_review_v1.R",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/qualify_rds_review_v1.R",
+      "sha256": "1ca3dce289238add15b96adff4b495426fc1977c8f8235eb242247ff09996995"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_rds_v1.R",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/qualify_rds_v1.R",
+      "sha256": "946014449da7b9dcf748e7791ec7ddf7c5950614ff3e693c32095b0c76baa4d9"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_rds_v2.R",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/qualify_rds_v2.R",
+      "sha256": "cd007b9bf4448866ea3eead919450b298c97bbd16609093fe3e5d85124ad3cb6"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/qualify_sources_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/qualify_sources_v1.py",
+      "sha256": "92fb0527b525e855ac57f244c33fa8522d066107898d44df5a7a044bb9cbd459"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/reproduce_animals_v1.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/reproduce_animals_v1.py",
+      "sha256": "ac6d06f4fab00cdb3b7f200c2c0b82e7b8bcb3cce5390695bfecb069f7938ac8"
+    },
+    {
+      "source_revision": "1a2cf4b0e80a7f0fdefd0b348219a0f93fa34c28",
+      "from": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10/scripts/tie_diagnostic_v2.py",
+      "to": "Research Article/gate3_12_navarro_negredo_2026/scripts/tie_diagnostic_v2.py",
+      "sha256": "4654da313a683502a57886c57e25a0aee4276a2f3a02f1a603706c240a511646"
     }
   ]
 }

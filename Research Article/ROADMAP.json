@@ -66,7 +66,7 @@
     "2N": "Nabhan: papers 6, 14; owner reading complete, Nb2/Nb3 analyses available with limits",
     "2W": "Wagner branch: papers 16, 15 and 17. Wg (2021) source/RNA analyses and Wp (2025 PGAM) R0–R4 have run within declared limits. Wp corrected current reports supersede affected raw-penalty and human-normalization summaries. Niethamer W1 remains a separate analysis.",
     "3A": "Saxton: papers 8 and 7 have reading records and bounded executed source analyses. Niethamer/S1 is a separate gated pilot.",
-    "3B": "DuPage 2015 (9), Wang 2018 (10) and Zhang 2026 (11) have reading records. Dedicated source analyses for 9 and 11 have executed within their stated scope; Niethamer/D1 is a separate gated pilot.",
+    "3B": "DuPage 2015 (9), Wang 2018 (10) and Zhang 2026 (11) have reading records. Dedicated source analyses for 9 and 11 have executed within their stated scope; Niethamer/D1 is a separate gated pilot. Navarro Negredo is the DuPage extension at branch position 12 (stable paper 18).",
     "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4",
     "4": "Topic-centered reading organized around a biological research interest.",
     "4M": "Epigenetic & Inflammatory Memory across epidermal repair, colonic tumour outgrowth, chromatin persistence and lung macrophage responses to prior inflammation."
@@ -88,7 +88,8 @@
     8,
     9,
     10,
-    11
+    11,
+    18
   ],
   "folder_gate_labels": [
     "1",
@@ -602,6 +603,23 @@
       "analysis_plan": "gate2_W2_wagner_Th17_PGAM/ANALYSIS_TRIAL_PLAN.md",
       "results": "gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md",
       "trial_location": "Research Article/gate2_W2_wagner_Th17_PGAM/README.md"
+    },
+    {
+      "key": "navarro_negredo_2026_aged_brain_il10",
+      "first_author": "Navarro Negredo",
+      "year": 2026,
+      "title": "Targeting immune cells in the aged brain reveals that engineered cytokine IL-10 enhances neurogenesis and improves cognition",
+      "doi": "10.1016/j.immuni.2026.01.016",
+      "pmid": "41619730",
+      "folder": "gate3_12_navarro_negredo_2026",
+      "note_status": "Placed as the Gate 3B DuPage extension on 2026-11-21. No change to owner reading status.",
+      "trial_status": "All data-supported planned stages complete under frozen contracts, including RDS qualification and alias-level pooled RNA. Extra aliases/doses retain holds; optional acquisition not justified; no scientific acceptance.",
+      "trial_location": "Research Article/gate3_12_navarro_negredo_2026",
+      "order": 18,
+      "gate": "3B",
+      "extension_of": "dupage_2015",
+      "journal": "Immunity",
+      "added": "2026-11-21"
     }
   ],
   "outside_roadmap_already_in_repository": [
@@ -618,29 +636,6 @@
       ],
       "trial_status": "done",
       "trial_location": "Research Article/ungated_murthy_2022/GSE178360"
-    },
-    {
-      "key": "arozamena_2026",
-      "first_author": "Arozamena",
-      "year": 2026,
-      "classification": "ungated",
-      "doi": "10.1038/s41467-026-79014-6",
-      "folder": "ungated_arozamena_2026_inflammatory_memory",
-      "trial_status": "Reviewed source, RNA and four-locus paired descriptions; state-specific and functional jobs retain source/design holds.",
-      "trial_location": "Research Article/ungated_arozamena_2026_inflammatory_memory"
-    },
-    {
-      "key": "navarro_negredo_2026_aged_brain_il10",
-      "first_author": "Navarro Negredo",
-      "year": 2026,
-      "classification": "ungated",
-      "title": "Targeting immune cells in the aged brain reveals that engineered cytokine IL-10 enhances neurogenesis and improves cognition",
-      "doi": "10.1016/j.immuni.2026.01.016",
-      "pmid": "41619730",
-      "folder": "ungated_navarro_negredo_2026_aged_brain_il10",
-      "note_status": "Owner-selected separate ungated package. Source/animal audit and cloud RNA description complete; current results and interpretation retain source limits.",
-      "trial_status": "All data-supported planned stages complete under frozen contracts, including RDS qualification and alias-level pooled RNA. Extra aliases/doses retain holds; optional acquisition not justified; no scientific acceptance.",
-      "trial_location": "Research Article/ungated_navarro_negredo_2026_aged_brain_il10"
     },
     {
       "key": "peng_2026",
@@ -780,7 +775,8 @@
     "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
     "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis.",
     "damani_yokota_2026": "Gate 4M paper 04. The DY1 identifiers and historical contract locators are retained.",
-    "saxton_2021_il10": "Full current package: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Former ungated directory retired 2026-11-10 by a byte-preserving migration; original contract and receipt references remain auditable through the exact file map."
+    "saxton_2021_il10": "Full current package: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Former ungated directory retired 2026-11-10 by a byte-preserving migration; original contract and receipt references remain auditable through the exact file map.",
+    "navarro_negredo_2026_aged_brain_il10": "Gate 3B branch position 12; stable paper 18. The study extends the DuPage reading branch and retains its separate Saxton IL-10 comparison."
   },
   "current_reading_queue": {
     "status": "historical; see the individual paper entries for current reading and analysis status",
@@ -915,6 +911,16 @@
           "title": "Type 2 immune history trains lung macrophages for viral disease tolerance",
           "doi": "10.1038/s41586-026-11060-y",
           "folder": "gate4M_04_damani_yokota_2026"
+        },
+        {
+          "id": "4M-05",
+          "author": "Arozamena et al.",
+          "year": 2026,
+          "title": "Inflammatory memory primes the intestine for enhanced regenerative potential",
+          "doi": "10.1038/s41467-026-79014-6",
+          "folder": "gate4M_05_arozamena_2026",
+          "note_status": "Full owner read pending.",
+          "trial_status": "Reviewed source, RNA and four-locus paired descriptions; state-specific and functional jobs retain source/design holds."
         }
       ]
     }

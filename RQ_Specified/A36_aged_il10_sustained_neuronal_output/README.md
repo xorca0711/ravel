@@ -26,7 +26,7 @@ The exact-matrix RNA stage passed 1,344 arithmetic checks across 11,955 cells in
 
 The next biological decision concerns absolute early output versus later birthdated survival after verified exposure cessation, with qualified cell identities and actual biological units. The [stage plan](PLAN.md) records the missing interval, assay, variance and sample-size inputs. [Results](RESULTS.md) links both receipts, all contrasts and the exact later-output/age-modification holds. Additional RNA scores would not supply the missing endpoint.
 
-Nn26-P01 remains the [originating reproduction package](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md). Its frozen inputs, outputs and receipts stay in place. A25 owns cortical microglial age structure; A26/A27 own CD8 repertoire comparisons; Sx10-P01 owns ligand/dose/co-input selectivity. A36 does not replace any of them.
+Nn26-P01 remains the [originating reproduction package](../../Research%20Article/gate3_12_navarro_negredo_2026/README.md). Its frozen inputs, outputs and receipts stay in place. A25 owns cortical microglial age structure; A26/A27 own CD8 repertoire comparisons; Sx10-P01 owns ligand/dose/co-input selectivity. A36 does not replace any of them.
 
 ## Workspace map
 

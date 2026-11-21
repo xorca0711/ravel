@@ -9,6 +9,7 @@ import unittest
 import test_research_governance as fixtures
 from lib.path_migrations import DAMANI_PATHS, MANIFEST, entries, migration_errors, resolve_historical
 from lib.research_governance import ResearchError, check_registry, execute, receipt_errors, within
+from scripts.validate_repository import archived_markdown_target
 
 
 class PathMigrationTests(unittest.TestCase):
@@ -178,6 +179,36 @@ class PathMigrationTests(unittest.TestCase):
         self.records = []
         self.save()
         self.assertTrue(any('immutable' in e for e in migration_errors(self.root, accepted)))
+
+    def test_archived_markdown_link_needs_both_exact_files_and_a_historical_witness(self):
+        from lib.path_migrations import final_destinations
+        self.fixture.write('paper/note.md', '[Result](../old/result.md)\n')
+        self.fixture.write('old/result.md', '# Result\n')
+        self.freeze()
+        self.move('paper/note.md', 'frozen/note.md')
+        self.base = self.commit_migration()
+        self.move('old/result.md', 'current/result.md')
+        by_source = {r['from']: r for r in self.records}
+        dest = final_destinations(self.records)
+        hashes = {r['to']: r['sha256'] for r in dest.values()}
+        def resolve(source='frozen/note.md', target='old/result.md'):
+            return archived_markdown_target(self.root, self.root/source, self.root/target,
+                                            by_source, dest, hashes)
+        self.assertEqual(resolve(), self.root/'current/result.md')
+        self.fixture.write('live/note.md', '[Result](../old/result.md)\n')
+        self.assertIsNone(resolve('live/note.md'))
+        self.assertIsNone(resolve(target='old/unknown.md'))
+        old_revision = by_source['old/result.md']['source_revision']
+        by_source['old/result.md']['source_revision'] = self.records[0]['source_revision']
+        self.assertIsNone(resolve())
+        by_source['old/result.md']['source_revision'] = old_revision
+        current = self.root/'current/result.md'
+        original = current.read_bytes()
+        current.write_bytes(b'tampered destination')
+        self.assertIsNone(resolve())
+        current.write_bytes(original)
+        (self.root/'frozen/note.md').write_bytes(b'changed source')
+        self.assertIsNone(resolve())
 
     def commit_migration(self):
         self.git('add', '.')

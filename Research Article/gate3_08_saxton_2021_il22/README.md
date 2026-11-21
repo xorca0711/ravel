@@ -66,7 +66,7 @@ The [additional-work assessment](FOLLOWUP_ASSESSMENT_20261108.md) records the ra
 Osmr transcript comparison and records what signaling, functional and history
 extensions require. Completed analyses remain the baseline.
 
-**Connected epithelial reference:** [Arozamena 2026](../ungated_arozamena_2026_inflammatory_memory/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and explicit [RQ connections](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
+**Connected epithelial reference:** [Arozamena 2026](../gate4M_05_arozamena_2026/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../gate4M_05_arozamena_2026/FIGURES.md) and explicit [RQ connections](../gate4M_05_arozamena_2026/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
 
 **Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)
 completed every eligible descriptive job through the existing technical chat.

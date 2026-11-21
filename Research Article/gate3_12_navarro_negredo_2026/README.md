@@ -4,6 +4,8 @@
 
 <a id="neural-markers-and-behavior-after-il-10-treatment-in-aged-mice"></a>
 
+**Gate 3-12 · DuPage extension.** This study follows the [DuPage reading branch](../gate3_09_dupage_2015/README.md) from immune-cell regulation to a measured tissue outcome in the aged brain. [Saxton IL-10](../gate3_07_saxton_2021_il10/README.md) supplies the receptor-selectivity comparison. The source analysis is Nn26-P01.
+
 ## Published findings
 
 ```text
@@ -89,7 +91,7 @@ The direct behavioral comparisons were inconclusive. The duration of the neurona
 restore neuronal production in an aging niche, and which part of the response
 limits sustained recovery? The [10 November extension assessment](QUESTION_DEVELOPMENT_20261110.md)
 distinguishes this organizing purpose from completed reproduction and proposed
-future comparisons. This remains **Nn26-P01**, a separate ungated companion to
+future comparisons. This remains **Nn26-P01**, a Gate 3 DuPage extension with a separate link to
 Gate 3A/Saxton; no new global RQ or scientific acceptance is recorded.
 
 [Latest follow-up results](followup_20261110/README.md) ·
@@ -127,8 +129,7 @@ need the specific additional evidence named in the extension assessment.
 <summary>Original paper assessment and 8 November execution notes (historical)</summary>
 
 8 November 2026 (Asia/Seoul). **Nn26-P01 source/animal stages, cloud RDS
-qualification and bounded RNA description are complete, with explicit source holds.** This remains a separate
-ungated package linked to Gate 3A/Saxton IL-10, with no scientific acceptance.
+qualification and bounded RNA description are complete, with explicit source holds.** The Gate 3-12 package retains a separate comparison with Saxton IL-10.
 [Current results and figures](RESULTS.md), [stage record](STAGE_STATUS.md),
 [candidate dossier](CANDIDATE.md), [literature context](LITERATURE_CONTEXT.md),
 [original data audit](DATA_USAGE.md), [metadata follow-up](METADATA_FOLLOWUP.md),
@@ -267,8 +268,7 @@ engineered cytokine and a richer set of phenotypic readouts.
 
 #### Interpretation and remaining questions
 
-**Owner-selected placement:** a separate ungated paper package, outside the
-ordered reading roadmap, with a cross-link to Gate 3A/Saxton IL-10. Its datasets
+**Owner-selected placement:** Gate 3-12 in the DuPage reading branch, with a cross-link to Gate 3A/Saxton IL-10. Its datasets
 and study identity remain separate. The owner subsequently authorized technical execution under article-local
 **Nn26-P01**. No global A ID, scientific acceptance or old-question retirement is created.
 

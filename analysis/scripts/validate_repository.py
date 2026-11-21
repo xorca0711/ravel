@@ -10,10 +10,12 @@ or the scanpy environment.
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import os
 import re
 import statistics
+import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -21,6 +23,8 @@ from urllib.parse import unquote
 
 
 REPO = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO / "analysis"))
+from lib.path_migrations import entries as migration_entries, final_destinations, resolve_entry
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 SKIP_DIRS = {".git", ".venv", ".venv-x64", ".venv-repro", ".tools", ".claude", "raw_data", "__pycache__", "cache", "tmp", ".uv-cache", ".worktrees"}
 
@@ -133,8 +137,45 @@ def check_claim_ids_unique(result: Validation) -> None:
         result.require(True, f"claim {identifier} is unique")
 
 
+def archived_markdown_target(
+    root: Path, document: Path, missing: Path, records: dict[str, dict],
+    destinations: dict[str, dict], frozen_hashes: dict[str, str],
+) -> Path | None:
+    """Verify a historical link at the target's move revision and in the current archive."""
+    if not missing.is_relative_to(root):
+        return None
+    source = document.relative_to(root).as_posix()
+    target = missing.relative_to(root).as_posix()
+    if source not in frozen_hashes or target not in records:
+        return None
+    if hashlib.sha256(document.read_bytes()).hexdigest() != frozen_hashes[source]:
+        return None
+    move = records[target]
+    revision = move['source_revision']
+    try:
+        # At this revision the Markdown must have had these exact bytes at its
+        # present location, and its relative target must already have existed.
+        def snapshot(path: str) -> bytes:
+            return subprocess.check_output(['git', '-C', str(root), 'cat-file', 'blob',
+                                            revision + ':' + path], stderr=subprocess.DEVNULL)
+        if hashlib.sha256(snapshot(source)).hexdigest() != frozen_hashes[source]:
+            return None
+        original = snapshot(target)
+        if move.get('source_eol') == 'crlf':
+            original = original.replace(b'\n', b'\r\n')
+        if hashlib.sha256(original).hexdigest() != move['sha256']:
+            return None
+        return resolve_entry(root, destinations[target])
+    except (OSError, ValueError, subprocess.CalledProcessError):
+        return None
+
+
 def check_markdown_links(result: Validation) -> None:
     slug_cache: dict[Path, set[str]] = {}
+    records = migration_entries(REPO)
+    by_source = {item['from']: item for item in records}
+    destinations = final_destinations(records)
+    frozen_hashes = {item['to']: item['sha256'] for item in destinations.values()}
 
     def slugs_for(path: Path) -> set[str]:
         if path not in slug_cache:
@@ -167,6 +208,11 @@ def check_markdown_links(result: Validation) -> None:
             # but stripping it makes this check friendly to that syntax.
             target = target.split(' "', 1)[0]
             resolved = (document.parent / target).resolve()
+            if not resolved.exists():
+                archived = archived_markdown_target(REPO, document, resolved, by_source,
+                                                    destinations, frozen_hashes)
+                if archived is not None:
+                    resolved = archived
             result.require(
                 resolved.exists(),
                 f"broken link in {document.relative_to(REPO)}: {raw_target}",
