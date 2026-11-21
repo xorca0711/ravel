@@ -17,7 +17,7 @@ import sys
 from datetime import datetime, timezone
 
 from .path_migrations import (MANIFEST as MIGRATION_MANIFEST, entries as migration_entries,
-                              migration_errors, resolve_historical)
+                              final_destinations, migration_errors, resolve_historical)
 
 SCIENTIFIC_ROOTS = ('analysis/', 'Research Article/', 'RQ_Specified/')
 # Keep the historical repository identity for hash-bound illustrations.
@@ -571,7 +571,12 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         approved=set(index['infrastructure_paths'])|set(index['contracts'])|set(index['receipts'])|bound_code|bound_outputs|illustrations
         # Only exact byte-preserving moves of already approved assets qualify.
         if not relocation_errors:
-            approved.update(item['to'] for item in migration_entries(root) if item['from'] in approved)
+            records = migration_entries(root)
+            destinations = final_destinations(records)
+            previous_approved = approved.copy()
+            for item in records:
+                if item['from'] in previous_approved:
+                    approved.update((item['to'], destinations[item['from']]['to']))
         for path in set(paths):
             if path.startswith(SCIENTIFIC_ROOTS) and Path(path).suffix.lower() in ASSET_SUFFIXES and path not in approved:
                 errors.append(f'Unregistered scientific asset change: {path}')
@@ -592,7 +597,7 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
             base_migrations = {}
             if not relocation_errors and git(root, 'ls-tree', '--name-only', base, '--', MIGRATION_MANIFEST).strip():
                 base_map = json.loads(git(root, 'show', f'{base}:{MIGRATION_MANIFEST}'))
-                base_migrations = {item['from']: item for item in base_map['files']}
+                base_migrations = final_destinations(base_map['files'])
             for preview in previous.get('question_raster_provenance', []):
                 try:
                     if sha256(within(root, preview['image'])) != preview['image_sha256']:

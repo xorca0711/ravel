@@ -186,6 +186,16 @@ paths and hashes. These references resolve for verification only. The runner
 refuses migrated contracts/code/inputs; future execution needs new versioned
 contracts and code. Existing receipts and the historical baseline are unchanged.
 
+### Damani–Yokota second relocation
+
+The [Gate 4M migration](migrations/2026-11-21-gate4m/README.md) proposes one
+exception to the single-move rule for previously migrated Damani–Yokota files.
+An explicit `continues_from` names the first source. The second source revision
+must contain that exact accepted entry and the intermediate file with the
+same SHA-256. The final file retains its relative name within Gate 4M-04.
+Both earlier source files must be absent. General chains and third moves
+remain forbidden. This proposal requires explicit owner review.
+
 The research gate checks all canonical IDs and dossier sections, references,
 registered prospective contracts, recorded outputs, and historical artifact
 hashes. Its change check requires new or modified scientific code, configuration,

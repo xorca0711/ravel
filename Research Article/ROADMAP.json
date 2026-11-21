@@ -69,7 +69,7 @@
     "3B": "DuPage 2015 (9), Wang 2018 (10) and Zhang 2026 (11) have reading records. Dedicated source analyses for 9 and 11 have executed within their stated scope; Niethamer/D1 is a separate gated pilot.",
     "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4",
     "4": "Topic-centered reading organized around a biological research interest.",
-    "4M": "Epigenetic & Inflammatory Memory: persistent epithelial changes after inflammation, subsequent repair and disease susceptibility."
+    "4M": "Epigenetic & Inflammatory Memory across epidermal repair, colonic tumour outgrowth, chromatin persistence and lung macrophage responses to prior inflammation."
   },
   "reading_order": [
     1,
@@ -620,16 +620,6 @@
       "trial_location": "Research Article/ungated_murthy_2022/GSE178360"
     },
     {
-      "key": "damani_yokota_2026",
-      "first_author": "Damani-Yokota",
-      "year": 2026,
-      "classification": "ungated",
-      "doi": "10.1038/s41586-026-11060-y",
-      "folder": "ungated_damani_yokota_2026",
-      "trial_status": "Reviewed source and bounded descriptive work; exact holds are maintained in the article README. Ungated classification confirmed by owner 2026-11-02.",
-      "trial_location": "Research Article/ungated_damani_yokota_2026"
-    },
-    {
       "key": "arozamena_2026",
       "first_author": "Arozamena",
       "year": 2026,
@@ -789,7 +779,7 @@
     "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6.",
     "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
     "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis.",
-    "damani_yokota_2026": "Ungated study and DY1 evidence are consolidated under ungated_damani_yokota_2026. Historical contract locators are resolved by the exact file migration manifest.",
+    "damani_yokota_2026": "Gate 4M paper 04. The DY1 identifiers and historical contract locators are retained.",
     "saxton_2021_il10": "Full current package: gate3_07_saxton_2021_il10, stable paper 7 / Gate3A. Former ungated directory retired 2026-11-10 by a byte-preserving migration; original contract and receipt references remain auditable through the exact file map."
   },
   "current_reading_queue": {
@@ -917,6 +907,14 @@
           "title": "Distinctive DNA sequence features define epigenetic longevity of inflammatory memory",
           "doi": "10.1126/science.adz6830",
           "folder": "gate4M_03_cowley_2026"
+        },
+        {
+          "id": "4M-04",
+          "author": "Damani-Yokota et al.",
+          "year": 2026,
+          "title": "Type 2 immune history trains lung macrophages for viral disease tolerance",
+          "doi": "10.1038/s41586-026-11060-y",
+          "folder": "gate4M_04_damani_yokota_2026"
         }
       ]
     }

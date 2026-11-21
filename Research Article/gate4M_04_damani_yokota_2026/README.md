@@ -137,7 +137,7 @@ queued in the current assessment.
 
 ### Study context and analysis history
 
-**Roadmap classification: ungated**, outside the ordered reading roadmap.
+**Reading sequence.** Gate 4M paper 04, with the existing DY1 article and question identifiers.
 This folder holds the study, its source evidence and both article-local questions, DY1-P01 and DY1-P02. The [file migration record](../../analysis/research/path_migrations.json) identifies the original location of each frozen reference.
 
 30 October 2026. Current disposition of the [original stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md).

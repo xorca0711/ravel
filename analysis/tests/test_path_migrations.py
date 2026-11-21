@@ -7,7 +7,7 @@ import subprocess
 import unittest
 
 import test_research_governance as fixtures
-from lib.path_migrations import MANIFEST, entries, migration_errors, resolve_historical
+from lib.path_migrations import DAMANI_PATHS, MANIFEST, entries, migration_errors, resolve_historical
 from lib.research_governance import ResearchError, check_registry, execute, receipt_errors, within
 
 
@@ -125,6 +125,49 @@ class PathMigrationTests(unittest.TestCase):
         self.save()
         self.assertTrue(migration_errors(self.root, self.base))
 
+    def test_only_witnessed_damani_second_move_resolves_both_historical_paths(self):
+        old, intermediate, final = [prefix + 'config/example.txt' for prefix in DAMANI_PATHS]
+        self.fixture.write(old, 'recorded input\n')
+        self.freeze()
+        original_revision = self.base
+        self.move(old, intermediate)
+        self.base = self.commit_migration()
+        self.move(intermediate, final)
+        self.records[-1]['continues_from'] = old
+        self.save()
+        self.assertEqual(migration_errors(self.root, self.base), [])
+        for name in (old, intermediate):
+            self.assertEqual(resolve_historical(self.root, name), self.root / final)
+        accepted = self.commit_migration()
+        self.assertEqual(migration_errors(self.root, accepted), [])
+
+        valid = copy.deepcopy(self.records)
+        for key, value in [('to', DAMANI_PATHS[2] + 'different.txt'),
+                           ('continues_from', 'another.txt'), ('sha256', '0' * 64)]:
+            self.records = copy.deepcopy(valid)
+            self.records[-1][key] = value
+            self.save()
+            with self.assertRaises(ValueError):
+                entries(self.root)
+        self.records = copy.deepcopy(valid)
+        self.records[-1]['source_revision'] = original_revision
+        self.save()
+        self.assertTrue(migration_errors(self.root, self.base))
+        self.records = copy.deepcopy(valid)
+        self.records.append(dict(valid[-1], **{'from': final, 'to': 'third.txt',
+                                               'continues_from': intermediate}))
+        self.save()
+        with self.assertRaises(ValueError):
+            entries(self.root)
+        self.records = valid
+        self.save()
+        for name in (old, intermediate):
+            self.fixture.write(name, 'recorded input\n')
+            self.assertTrue(any('reappeared' in e for e in migration_errors(self.root, accepted)))
+            (self.root / name).unlink()
+        (self.root / final).write_text('changed bytes')
+        self.assertTrue(migration_errors(self.root, accepted))
+
     def test_previously_accepted_map_cannot_be_removed(self):
         self.freeze()
         self.move('analysis/run.py', 'analysis/canonical/run.py')
@@ -149,6 +192,37 @@ class PathMigrationTests(unittest.TestCase):
         migrated_base = self.commit_migration()
         self.assertEqual(check_registry(self.root, base=self.base), [])
         self.assertEqual(check_registry(self.root, base=migrated_base), [])
+
+    def test_damani_contract_verifies_at_each_base_and_refuses_replay(self):
+        self.freeze()
+        first, middle, last = [prefix + 'config/test.json' for prefix in DAMANI_PATHS]
+        (self.root / first).parent.mkdir(parents=True)
+        (self.root / 'contract.json').rename(self.root / first)
+        self.fixture.index['contracts'] = [first]
+        self.fixture.save_index()
+        original = self.base = self.commit_migration()
+        self.move(first, middle)
+        before_map = self.records.pop()
+        self.save()
+        unwitnessed = self.commit_migration()
+        self.records.append(before_map)
+        self.save()
+        intermediate = self.base = self.commit_migration()
+        self.move(middle, last)
+        self.records[-1]['continues_from'] = first
+        self.records[-1]['source_revision'] = unwitnessed
+        self.save()
+        self.assertTrue(any('missing from the second source revision' in e
+                            for e in migration_errors(self.root, intermediate)))
+        self.records[-1]['source_revision'] = intermediate
+        self.save()
+        final = self.commit_migration()
+        for revision in (intermediate, final):
+            self.assertEqual(check_registry(self.root, base=revision), [])
+        self.assertTrue(migration_errors(self.root, original))
+        for path in (first, middle, last):
+            with self.assertRaisesRegex(ResearchError, 'cannot be replayed'):
+                execute(self.root, path, 'again')
 
     def test_base_contract_blob_must_match_accepted_migration_hash(self):
         self.freeze()

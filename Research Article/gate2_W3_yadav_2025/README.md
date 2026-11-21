@@ -275,7 +275,7 @@ assay, biological unit and interpretation boundary.
 | [Wg checkpoint](../gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md), [Wp corrections](../gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) | Th17 RNA/Compass results supply measurement lessons, not measured lung flux or a Yadav reproduction. The later P06 derivation supersedes older specification-hold wording. |
 | [A3 dossier](../../docs/research_dossiers/A3.md) | Niethamer W1 is macrophage pseudobulk. Its seven-gene ornithine set was ineligible, not evidence against Yadav. Injury history and continuing stimulation remain separate. |
 | [A22 dossier](../../docs/research_dossiers/A22.md) | Reusable logic: source perturbation → recipient response → actual protein/functional endpoint. NKX2-1/chemokine results do not establish an IL-6/ARG1 mechanism. |
-| [Current DY1 package](../ungated_damani_yokota_2026/README.md) | Newly integrated human descriptions retain sparse ARG1 and unstable within-disease recipient coupling. This limits reuse of those RNA sources; it neither refutes nor independently reproduces Yadav's perturbation evidence. |
+| [Current DY1 package](../gate4M_04_damani_yokota_2026/README.md) | Newly integrated human descriptions retain sparse ARG1 and unstable within-disease recipient coupling. This limits reuse of those RNA sources; it neither refutes nor independently reproduces Yadav's perturbation evidence. |
 
 <a id="execution-boundary-and-next-action"></a>
 

@@ -106,10 +106,10 @@ Gate 4 assigns one folder to each paper in a thematic sequence. For example,
 is the first paper on epigenetic and inflammatory memory. The
 [article index](../../Research%20Article/README.md#gate-4-topic-centered-reading) lists the sequence.
 
-The [ungated Damani–Yokota paper folder](../../Research%20Article/ungated_damani_yokota_2026/README.md)
+The [Gate 4M-04 Damani–Yokota paper folder](../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
 contains the DY1 study, the DY1-P02 question and their original evidence.
 The [file migration record](../../analysis/research/path_migrations.json)
-resolves frozen references to the earlier Damani–Yokota and Naik paths.
+resolves frozen references to the earlier Damani–Yokota, Nagaraja and Naik paths.
 
 Shared IL-1 figures now use scripts 19–21. Their recorded UMAP/PCA preparation
 was executed before relocation; the original script bytes and identities

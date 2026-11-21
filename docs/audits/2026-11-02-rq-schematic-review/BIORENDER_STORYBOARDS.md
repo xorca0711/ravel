@@ -106,7 +106,7 @@ not an accepted STAT6–PPARG memory mechanism.
 
 **Authority checked:** [current context](../../research_dossiers/literature_context_2026-10-03/A3.md),
 [dossier](../../research_dossiers/A3.md), [G2 current audit](../../portfolio_extensions/2026-10-07/g2_niche/AUDIT.md),
-[DY1-P02 current limits](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md).
+[DY1-P02 current limits](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md).
 
 **Candidate asset/layout lead:** [Tissue-specific Macrophages](https://app.biorender.com/biorender-templates/details/t-62e6d09df2dd732bb63cb489?source=mcp),
 template `62e6d09df2dd732bb63cb489`. Search `macrophage lung inflammation`

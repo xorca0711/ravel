@@ -68,7 +68,7 @@ This separate BMDM source is a descriptive context for the earlier DY1 repeat-st
 
 Measured library points use log2(reported-count CPM+1), with per-gene y scales; source suffixes do not imply paired preparations. Exact source totals, raw-CPM means/ranges, receipts and limits are in the linked report.
 
-**Historical screen snapshot, 3 November 2026:** The reviewed six-target, two-offset repeat-stimulation view has completed. Target directions are heterogeneous and ARG1 is offset-sensitive; source group averages supply neither individual variance nor persistent macrophage memory. This same-source measurement does not establish NAM/injury memory or a repair mechanism. [Complete result and evidence](../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+**Historical screen snapshot, 3 November 2026:** The reviewed six-target, two-offset repeat-stimulation view has completed. Target directions are heterogeneous and ARG1 is offset-sensitive; source group averages supply neither individual variance nor persistent macrophage memory. This same-source measurement does not establish NAM/injury memory or a repair mechanism. [Complete result and evidence](../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
 
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
@@ -77,7 +77,7 @@ Measured library points use log2(reported-count CPM+1), with per-gene y scales; 
 The hypothesis remains a proposal where its decisive comparison is untested.
 <!-- evidence-followthrough:end -->
 
-**Source connection, 2 November 2026:** ungated [DY1-P02](../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md) provides assay/selection and regulatory-context qualification relevant to this question. Its external references do not measure a NAM memory mechanism, nominate an accepted causal programme or supply independent functional consequences. The A3 working hypothesis, prior results and registered illustration are unchanged.
+**Source connection, 2 November 2026:** ungated [DY1-P02](../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md) provides assay/selection and regulatory-context qualification relevant to this question. Its external references do not measure a NAM memory mechanism, nominate an accepted causal programme or supply independent functional consequences. The A3 working hypothesis, prior results and registered illustration are unchanged.
 
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate1_01_niethamer_2025/README.md) ·
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A3.md).
@@ -105,6 +105,6 @@ This folder is the question home. Existing paper-owned analyses, shared code and
 
 ## Literature-informed screening scope — 3 November 2026
 
-The owner-authorized [DY1-P02 fixed identity-target specification](../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.
+The owner-authorized [DY1-P02 fixed identity-target specification](../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.
 
 </details>

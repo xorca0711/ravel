@@ -1,22 +1,13 @@
 # Research articles and reading roadmap
 
-This index lists papers by topic and reading sequence, with links to each study’s findings, methods and figures. The [question index](../RQ_Specified/README.md) lists derived research questions. The [project summary](../PROGRESS.md) records recent work.
+Use this index to find a paper, its measured results and the evidence behind each figure. The original lung-repair sequence and the Gate 4 topic series have separate identifiers. [Machine-readable roadmap](ROADMAP.json) · [Question index](../RQ_Specified/README.md) · [Current project state](../PROGRESS.md)
 
-- [Gate 4 topic-centered reading](#gate-4-topic-centered-reading)
-- [Article package structure](#article-package-structure)
-- [Biological topic map](../docs/guides/RESEARCH_TOPICS.md)
-- [Studies and figure galleries](#studies-with-ravel-analyses)
-- [Studies outside the reading sequence](#studies-outside-the-reading-sequence)
-- [Reading sequence and study status](#reading-sequence-and-study-status)
-- [Reading and analysis status](#reading-and-analysis-status)
-- [Earlier index checkpoints](INDEX_HISTORY_2026-11-02.md)
-- [3 November unfinished-work, metadata-screening and structure audit](../docs/audits/2026-11-03-article-rq-screening/README.md)
-
-[ROADMAP.json](ROADMAP.json) records reading-order membership separately from
-outside-roadmap sources. A gate or folder label is not a scientific evidence
-grade. Source-study findings, repository reproduction and proposed RQs retain
-their own owners, biological units and interpretation limits. Historical entry,
-withdrawal and reading-order decisions remain in [DEVELOPMENT](../DEVELOPMENT.md).
+| Looking for | Entry point |
+|---|---|
+| Papers on inflammatory and epigenetic memory | [Gate 4M series](#gate-4-topic-centered-reading) |
+| Study results, limitations and figures | [Study inventory and galleries](#studies-with-ravel-analyses) · [Biological topics](#biological-topics) |
+| Earlier reading order and study-note status | [Gates 1–3 and reading records](#reading-sequence-and-study-status) · [Reading and analysis status](#reading-and-analysis-status) |
+| Additional source studies and shared materials | [Outside-sequence papers](#studies-outside-the-reading-sequence) · [Article package structure](#article-package-structure) · [Historical index](INDEX_HISTORY_2026-11-02.md) |
 
 <a id="browse-by-biological-topic"></a>
 
@@ -32,42 +23,38 @@ link or independent replication.
 
 ## Gate 4 topic-centered reading
 
-Gate 4 groups papers by biological interest. Each numbered entry has its own paper folder. **4M — Epigenetic & Inflammatory Memory** examines three distinct endpoints: repair after a second injury, growth after tumour initiation, and the lifetime of an accessible chromatin region.
+The **Gate 4M · Epigenetic & Inflammatory Memory** series asks what a tissue retains after inflammation and how recovery changes its response to a later challenge. The four papers measure different outcomes.
 
-| Paper | Biological comparison |
-|---|---|
-| [4M-01 · Naik et al. (2017)](gate4M_01_naik_2017/README.md) | Previously inflamed and control skin after wounding: epithelial migration, re-epithelialization and wound-responsive transcription. |
-| [4M-02 · Nagaraja et al. (2026)](gate4M_02_nagaraja_2026/README.md) | Recovered colonic epithelium, clonal motif resemblance and early adenoma size, with independent follow-up of eight flanking CpGs. [Figure gallery](gate4M_02_nagaraja_2026/FIGURES.md) |
-| [4M-03 · Cowley et al. (2026)](gate4M_03_cowley_2026/README.md) | Acute inflammation-opened epidermal regions that resolve or persist: sequence composition, methylation and histone-variant occupancy. |
+| Paper | Biological comparison | Ravel entry point |
+|---|---|---|
+| [4M-01 · Naik et al. (2017)](gate4M_01_naik_2017/README.md) | Wound repair and epidermal accessibility after skin inflammation | [Distal chromatin at 24 months](gate4M_01_naik_2017/distal_m24_outcome_v1/RESULTS_V1.md) · [Figure gallery](gate4M_01_naik_2017/FIGURES.md) |
+| [4M-02 · Nagaraja et al. (2026)](gate4M_02_nagaraja_2026/README.md) | Colonic stem-cell chromatin, organoid clone resemblance and early adenoma size | [JUN–FOXP1 at 63 loci](gate4M_02_nagaraja_2026/jun_foxp1/stage3/RESULTS.md) · [Eight flanking CpGs](gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md) · [Figure gallery](gate4M_02_nagaraja_2026/FIGURES.md) |
+| [4M-03 · Cowley et al. (2026)](gate4M_03_cowley_2026/README.md) | Sequence composition, methylation and histone variants at epidermal regions that resolve or stay accessible | [Paper findings and connection to Naik](gate4M_03_cowley_2026/README.md) |
+| [4M-04 · Damani–Yokota et al. (2026)](gate4M_04_damani_yokota_2026/README.md) | Lung macrophage abundance and molecular state after type 2 inflammation, with tissue tolerance assessed in a separate challenge | [DY1 synthesis](gate4M_04_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md) · [Figure gallery](gate4M_04_damani_yokota_2026/FIGURES.md) |
 
 <a id="ungated-source-papers"></a>
 
 ## Studies outside the reading sequence
 
-These sources are outside the ordered reading roadmap. Ungated describes roadmap
-membership; it does not imply acceptance or waive source/analysis eligibility.
+These four papers contribute data or comparisons outside the numbered reading sequence.
 
-| Source | Scope and current entry point |
+| Study | Contribution and evidence |
 |---|---|
-| **Navarro Negredo 2026 — ungated** | [Aged-brain IL-10 study](ungated_navarro_negredo_2026_aged_brain_il10/README.md); separate Nn26-P01 package linked to Saxton. [Source/16-panel animal reproduction](ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md) and [qualified pooled RNA results](ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md) are complete within the [stage-specific limitations](ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md). [Figure gallery](ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md) and [10 November source/statistic follow-up with separate human-cell context](ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md). Direct cognition tests are nonsignificant; dose/donor identities and population inference remain held. |
-| **Damani–Yokota 2026 — ungated (DY1)** | [Study and current disposition](ungated_damani_yokota_2026/README.md); source reproduction, article-local comparisons and explicit holds. The article overview, DY1-P02 question, scripts, figures and source records share this ungated folder. |
-| **Arozamena 2026 — ungated (Arz1)** | [Source qualification and paired descriptions](ungated_arozamena_2026_inflammatory_memory/README.md); original state/function questions retain their data limits. |
-| **Peng 2026 — ungated (Pg1)** | [Study overview](ungated_peng_2026_spatial_omics/README.md) · [Biological review and job status](ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md) · [Public results](ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md): completed A12 cell and Visium lattice descriptions; neighboring-paper comparisons and conditional extensions; author-dependent reproduction still held. |
-| **Murthy 2022 — ungated** | [Atlas source and gallery](ungated_murthy_2022/README.md); deposited atlas analysed, roadmap study note not written. |
+| [Navarro Negredo et al. (2026)](ungated_navarro_negredo_2026_aged_brain_il10/README.md) | Aged-brain IL-10, linked to Saxton. Sixteen animal panels and the pooled RNA analysis were assessed. Direct cognition tests were nonsignificant. [Animal results](ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md) · [RNA results](ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md) · [Limits](ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md) · [Follow-up](ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md) · [Gallery](ungated_navarro_negredo_2026_aged_brain_il10/FIGURES.md) |
+| [Arozamena et al. (2026)](ungated_arozamena_2026_inflammatory_memory/README.md) | Deposited intestinal lineage libraries support paired descriptions and fixed-locus accessibility comparisons. Animal identities limit inference across biological replicates. [Accessibility results](ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md) |
+| [Peng et al. (2026)](ungated_peng_2026_spatial_omics/README.md) | A12 cell and Visium lattice measurements, with comparisons to neighboring papers. Some original inputs require author access. [Public results](ungated_peng_2026_spatial_omics/PUBLIC_DATA_RESULTS.md) · [Biological review](ungated_peng_2026_spatial_omics/BIOLOGICAL_REVIEW.md) |
+| [Kadur Lakshminarasimha Murthy et al. (2022)](ungated_murthy_2022/README.md) | GSE178360 supplies a human lung source for the Sikkema atlas comparison. [Dataset analysis](ungated_murthy_2022/GSE178360/README.md) |
 
 <a id="current-reading-decision-1-october-2026"></a>
 
 ## Reading and analysis status
 
-Use [Order and status](#order-and-status) for owner reading records and the
-[study index](#studies-with-executed-analyses) for results and remaining source
-requirements. Literature exploration is open across the branches. The
-paper-specific Saxton, DuPage and Zhang analyses have executed within their
-documented scopes. The separate Niethamer/S1 cytokine-phase and D1 lung-Treg
-pilots remain unrun and retain their own eligibility requirements.
+The [reading records](#order-and-status) track the owner’s study notes, and the [study inventory](#studies-with-executed-analyses) links completed analyses and remaining source limitations. Naik, Nagaraja and Damani–Yokota have measured results and galleries in Gate 4M. Cowley’s overview connects its published regions to the Naik analysis. The Saxton IL-10, DuPage and Zhang packages also report completed comparisons. The separate Niethamer/S1 cytokine-phase and D1 lung-Treg pilots remain unrun.
 
-The [Saxton IL-10 migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md)
-preserves the earlier source paths. Paper 7 now lives in its Gate 3A package.
+Earlier ordering decisions are retained below and in the [historical index](INDEX_HISTORY_2026-11-02.md). The [Saxton migration record](../docs/migrations/2026-11-10-saxton-gate3a/README.md) and the [Gate 4M relocation record](../docs/migrations/2026-11-21-gate4m/README.md) identify where archived evidence now lives.
+
+<details>
+<summary>Historical comparison sequence and cross-field reading candidates</summary>
 
 <a id="historical-comparison-queue--1-october-2026"></a>
 
@@ -99,6 +86,8 @@ question remains interesting outside the original tissue. PI matching,
 personal reflection and contact planning stay in private Notion, consistent
 with the earlier removal of outreach planning from this repository.
 
+</details>
+
 <a id="studies-with-executed-analyses"></a>
 
 ## Studies with Ravel analyses
@@ -123,14 +112,14 @@ linked in each study's gallery.
 | [Travaglini/Nabhan 2020: human lung atlas (Nb4)](gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) | [Source and RQ sequence](gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md); later P09 expression work supports the proposed A31 functional question | [Article gallery](gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) |
 | [Tabula Muris Senis: ageing atlas (Nb5)](gate2_N4_nabhan_aging_atlas_2020/README.md) | [Completed extensions and holds](gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md); later A25 held-out model comparison has a mixed result | [Source gallery](gate2_N4_nabhan_aging_atlas_2020/FIGURES.md) and [extension gallery](gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md); A25 result remains [RQ-owned](../RQ_Specified/A25_microglial_midlife_configuration/README.md) | [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Tissue ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Naik 2017 — epidermal inflammatory memory (4M)](gate4M_01_naik_2017/README.md) | [Mouse distal chromatin at 24 months](gate4M_01_naik_2017/distal_m24_outcome_v1/RESULTS_V1.md), [RNA and repair evidence](gate4M_01_naik_2017/S6_SYNTHESIS_V3.md) and [human within-donor RNA responses](gate4M_01_naik_2017/S7_RESULTS_V1.md) | [Figure gallery (25 figures)](gate4M_01_naik_2017/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
-| [Nagaraja 2026 — colitis-associated epithelial memory (4M)](gate4M_02_nagaraja_2026/README.md) | [Recovery, clonal organoids and early adenomas](ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md), [63-locus JUN–FOXP1 comparison](ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md) and [independent eight-CpG comparison](ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md) | [Figure gallery (14 figures)](gate4M_02_nagaraja_2026/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
+| [Nagaraja 2026 — colitis-associated epithelial memory (4M)](gate4M_02_nagaraja_2026/README.md) | [Recovery, clonal organoids and early adenomas](gate4M_02_nagaraja_2026/SYNTHESIS.md), [63-locus JUN–FOXP1 comparison](gate4M_02_nagaraja_2026/jun_foxp1/stage3/RESULTS.md) and [independent eight-CpG comparison](gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md) | [Figure gallery (14 figures)](gate4M_02_nagaraja_2026/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
 | [Arozamena 2026: intestinal history (ungated)](ungated_arozamena_2026_inflammatory_memory/README.md) | [Reviewed RNA](ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md) and [paired four-locus results](ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md), fixed sensitivities and exact state/function holds | [Article gallery](ungated_arozamena_2026_inflammatory_memory/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) |
 | [Saxton 2021: IL-10 CD8 RNA — Gate 3A](gate3_07_saxton_2021_il10/README.md) | [Completed adapted source description](gate3_07_saxton_2021_il10/RESULTS.md); mixed super-10 responses, 10-DE attenuation and exact unit/replay holds | [Three RNA figures](gate3_07_saxton_2021_il10/FIGURES.md) | [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Saxton 2021: IL-22 and recipient context](gate3_08_saxton_2021_il22/README.md) | [Completed Osmr extension](gate3_08_saxton_2021_il22/osmr_v1/RESULTS.md), [reviewed colon RNA description](gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md), prior source/QC and external feasibility; no causal STAT, population or functional inference | [Combined gallery with the Osmr extension](gate3_08_saxton_2021_il22/FIGURES.md) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
 | [DuPage 2015: Ezh2 and activated Treg identity](gate3_09_dupage_2015/README.md) | [S0–S6 results](gate3_09_dupage_2015/RESULTS.md); [exploratory target screen](gate3_09_dupage_2015/TARGET_SCREEN_RESULT.md), 32 coding candidates; functional validation pending | [Target-screen portfolio](gate3_09_dupage_2015/TARGET_SCREEN_FIGURES.md); [original measured gallery](gate3_09_dupage_2015/README.md#measured-figures) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Wang 2018: EZH2 and activated Tregs](gate3_10_wang_2018_ezh2/README.md) | [Adapted day-four RNA results](gate3_10_wang_2018_ezh2/RESULTS_V1.md), [ranking sensitivity](gate3_10_wang_2018_ezh2/F2_RESULTS_V1.md) and [public-gap review](gate3_10_wang_2018_ezh2/PUBLIC_GAP_REVIEW_20261112.md); functional follow-ups remain unexecuted | [All four measured figures](gate3_10_wang_2018_ezh2/FIGURES.md) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) |
 | [Zhang 2026: local Treg control of NK responses](gate3_11_zhang_2026_nk/README.md) | [Released RNA replay and bounded sensitivity](gate3_11_zhang_2026_nk/RESULTS.md); exact count-model and functional reconstruction remain open | [Six measured figures](gate3_11_zhang_2026_nk/FIGURES.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) |
-| [Damani-Yokota 2026: macrophage immune history (ungated)](ungated_damani_yokota_2026/README.md) | [Analysis inventory and synthesis](ungated_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md); baseline diagnostics, human descriptions and external measurement references with explicit source/design holds | [13 current plates and original archive](ungated_damani_yokota_2026/FIGURES.md) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) |
+| [Damani-Yokota 2026: macrophage immune history (4M-04)](gate4M_04_damani_yokota_2026/README.md) | [Analysis inventory and synthesis](gate4M_04_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md); baseline diagnostics, human descriptions and external measurement references with explicit source/design holds | [13 current plates and original archive](gate4M_04_damani_yokota_2026/FIGURES.md) | [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) |
 | [Wang 2025: PGAM and Th17 pathogenicity](gate2_W2_wagner_Th17_PGAM/README.md) | [Claim-by-claim reproduction outcome](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026) across seven governed runs: single cell ([Wp-R1](gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)), bulk ([Wp-R3](gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md)), human reuse ([Wp-R4](gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md)), a Compass version-and-input sensitivity ([Wp-R2](gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md)) and the branch pair ([Wp-P01](gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md), [Wp-P03](gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)). | [Current and historical figures](gate2_W2_wagner_Th17_PGAM/FIGURES.md) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) |
 | [Wagner 2021: Th17 differentiation and metabolic scores](gate2_W1_wagner_th17_autoimmunity/README.md) | [R1 scores](gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md): 48-hour IL-17A–GFP-positive mouse cells, Th17p (IL-1β/IL-6/IL-23) versus Th17n (TGF-β1/IL-6). [Initial R3 RNA](gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md): paired control/DFMO cultures at 68 hours. | [Eight-plate gallery](gate2_W1_wagner_th17_autoimmunity/FIGURES.md); [Figure 3 d/q table](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-3-which-reaction-scores-differ); [Figure 5 axis guide](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-5-exact-axes-and-symbols); [source-aligned PCA/programs](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-6-source-aligned-rna-programs); [direct genotype interactions](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-7-direct-jmjd3-by-dfmo-rna-interactions) | [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) |
 | [Niethamer 2025: viral injury and repair](gate1_01_niethamer_2025/README.md) | [Atlas report](gate1_01_niethamer_2025/GSE262927/README.md); [follow-up outcomes](gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) | [Gallery](gate1_01_niethamer_2025/README.md#figure-gallery) | [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) |
@@ -182,7 +171,7 @@ explain both this archive and the cross-study specificity module.
 
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
 folder names normally carry it. England uses branch 2C item 2 (`gate2_C2`, stable order 12),
-and Yu uses branch 2C item 3 (`gate2_C3`, stable order 13). The row order above is the reading order. Papers 12 to
+and Yu uses branch 2C item 3 (`gate2_C3`, stable order 13). The row order above is the original Gates 1–3 sequence. The four Gate 4M papers have their own topic order. Papers 12 to
 16 were added on 2026-09-15 (see the re-ranking bullet below), and paper 17 on 2026-10-04
 at the owner's request after reading it.
 
@@ -278,7 +267,7 @@ Paper titles and subtitles use descriptive academic noun phrases. Each section l
 ```
 Research Article/
   README.md                       this index
-  ROADMAP.json                    the same table, machine-readable
+  ROADMAP.json                    reading orders, topic groups and outside-sequence sources
   gateG_NN_firstauthor_year/       G is 1, 2 (any Gate 2 branch), 3A or 3B
     README.md                     published findings, Ravel results, methods, interpretation and figures
     *.json                        parameters and decision criteria extracted from the paper, reviewable
@@ -289,7 +278,7 @@ Research Article/
   ungated_firstauthor_year/       a source paper outside the ordered roadmap
     README.md                     paper overview with the same five sections
   gate4M_NN_firstauthor_year/      one paper in the epigenetic and inflammatory memory series
-    README.md                     published findings, methods, results and interpretation
+    README.md                     published findings, Ravel results, methods, interpretation and figure links
 ```
 
 Reading/workflow statuses in `ROADMAP.json` describe progress, not evidence

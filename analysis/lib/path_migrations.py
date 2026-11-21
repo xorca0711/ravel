@@ -9,6 +9,11 @@ import subprocess
 
 MANIFEST = 'analysis/research/path_migrations.json'
 
+# The second leg is available only for a previously accepted Damani file.
+DAMANI_PATHS = tuple('Research Article/' + folder + '/' for folder in (
+    'gate2_DY1_damani_yokota_2026', 'ungated_damani_yokota_2026',
+    'gate4M_04_damani_yokota_2026'))
+
 
 def validate_relative(relative: str) -> None:
     if (not isinstance(relative, str) or not relative or '\\' in relative
@@ -37,7 +42,7 @@ def entries(root: Path) -> list[dict]:
     old, new = set(), set()
     for item in value['files']:
         required = {'from', 'to', 'sha256', 'source_revision'}
-        if not isinstance(item, dict) or set(item) not in (required, required | {'source_eol'}):
+        if not isinstance(item, dict) or not required <= set(item) <= required | {'source_eol', 'continues_from'}:
             raise ValueError('Invalid path migration entry')
         if 'source_eol' in item and item['source_eol'] != 'crlf':
             raise ValueError('Unsupported historical checkout line ending')
@@ -49,17 +54,36 @@ def entries(root: Path) -> list[dict]:
         if item['from'] in old or item['to'] in new:
             raise ValueError('Duplicate migration source or destination')
         old.add(item['from']); new.add(item['to'])
-    if old & new:
-        raise ValueError('Chained or self-referencing migrations are forbidden')
+    parents = {r['to']: r for r in value['files']}
+    for item in value['files']:
+        parent = parents.get(item['from'])
+        if parent is None and 'continues_from' not in item:
+            continue
+        first, middle, last = DAMANI_PATHS
+        if (not parent or 'continues_from' in parent
+                or parent['from'] != item.get('continues_from')
+                or not parent['from'].startswith(first)
+                or not item['from'].startswith(middle)
+                or item['to'] != last + item['from'][len(middle):]
+                or parent['sha256'] != item['sha256']):
+            raise ValueError('Unverified, chained or self-referencing migration')
     return value['files']
+
+
+def final_destinations(records: list[dict]) -> dict[str, dict]:
+    """Index verified paths, including an explicitly witnessed second leg."""
+    by_source = {item['from']: item for item in records}
+    return {source: by_source.get(item['to'], item) for source, item in by_source.items()}
 
 
 def resolve_historical(root: Path, relative: str) -> Path | None:
     """Only exact missing-file references can resolve, with unchanged bytes."""
     validate_relative(relative)
-    for item in entries(root):
-        if item['from'] == relative:
-            return resolve_entry(root, item)
+    item = final_destinations(entries(root)).get(relative)
+    if item:
+        if safe_path(root, relative).exists():
+            raise ValueError(f'Migrated source reappeared: {relative}')
+        return resolve_entry(root, item)
     return None
 
 
@@ -81,6 +105,10 @@ def migration_errors(root: Path, base: str | None = None) -> list[str]:
             return subprocess.run(['git', '-C', str(root), *args], check=True,
                                   stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout
         revisions = set()
+        witnesses = {}
+        verified_ancestry = set()
+        by_source = {item['from']: item for item in records}
+        destinations = final_destinations(records)
         for item in records:
             try:
                 revision = item['source_revision']
@@ -100,7 +128,19 @@ def migration_errors(root: Path, base: str | None = None) -> list[str]:
                     saved = saved.replace(b'\n', b'\r\n')
                 if hashlib.sha256(saved).hexdigest() != item['sha256']:
                     raise ValueError(f'Migration source hash differs from Git: {item["from"]}')
-                resolve_entry(root, item)
+                if 'continues_from' in item:
+                    if revision not in witnesses:
+                        witnesses[revision] = json.loads(git('show', revision+':'+MANIFEST))['files']
+                    parent = by_source[item['continues_from']]
+                    if parent not in witnesses[revision]:
+                        raise ValueError('First relocation missing from the second source revision')
+                    transition = (parent['source_revision'], revision)
+                    if transition not in verified_ancestry:
+                        git('merge-base', '--is-ancestor', *transition)
+                        verified_ancestry.add(transition)
+                if safe_path(root, item['from']).exists():
+                    raise ValueError(f'Migrated source reappeared: {item["from"]}')
+                resolve_entry(root, destinations[item['from']])
             except (ValueError, OSError, subprocess.CalledProcessError) as exc:
                 errors.append(f'Invalid migration: {exc}')
         if base:

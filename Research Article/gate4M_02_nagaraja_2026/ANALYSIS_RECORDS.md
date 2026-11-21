@@ -1,6 +1,6 @@
 # Nagaraja et al. (2026) — Analysis records
 
-[Paper overview and findings](../gate4M_02_nagaraja_2026/README.md) · [Figure gallery](../gate4M_02_nagaraja_2026/FIGURES.md)
+[Paper overview and findings](README.md) · [Figure gallery](FIGURES.md)
 
 | Biological comparison | Evidence and methods |
 |---|---|
