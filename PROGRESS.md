@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja JUN–FOXP1 external qualification and local closeout
+
+Following owner review of Stage 3 at `61397c1`, the final [qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md) found all four barcode-matched SELEX starting libraries in PRJEB20112. The native 12-base motif had 0–2 reads per library; the shorter CpG–AP1 context had 25–116. The independent colon array measures eight exact flanking dyads, with three usable mice per arm and zero scored-motif probes. Both candidates support limited comparisons. Neither tests late methylation-dependent co-binding. The package is ready for final owner review. No external effect estimates were run.
+
 ## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 3 association
 
 The owner reviewed Stage 2 at `d1e3735`. Both Stage 3 comparisons froze at `324cb87`. The primary 63-locus day-102 binding–ATAC partial rank correlation was −0.015; day 50 was −0.370 (paired fold −0.121). Whole-amplicon binding–methylation coefficients differed between P4 organoids (+0.133) and tissue vehicle (−0.248). Day-102 tissue methylation and ATAC differences had little alignment (−0.007). The separate figure-only correction restores the lower legends from saved results. [Results, figures and sensitivity tables](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md). Next decision is owner review before external qualification of the isolated-factor libraries or colon array. No external measurements or matched individuals entered Stage 3.
