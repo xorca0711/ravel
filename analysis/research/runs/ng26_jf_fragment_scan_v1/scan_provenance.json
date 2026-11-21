@@ -1,0 +1,25 @@
+{
+  "compiler": "rustc 1.98.1 (48a229cea 2026-09-01)\nbinary: rustc\ncommit-hash: 48a229ceaefd4985c50990b14116b6d856af0985\ncommit-date: 2026-09-01\nhost: aarch64-pc-windows-msvc\nrelease: 1.98.1\nLLVM version: 22.1.8\n",
+  "sources": [
+    {
+      "export": "extended",
+      "series": "IGVFDS0502QEQJ",
+      "file": "IGVFFI4859TVVD",
+      "assembly": "mm10",
+      "md5": "836abd2997ab27dfb939b958b5925685",
+      "bytes": 1458799679,
+      "public_uri": "s3://igvf-public/2026/01/27/9bcbd55d-8058-482e-8cd6-57e25385078f/IGVFFI4859TVVD.tsv.gz"
+    },
+    {
+      "export": "main",
+      "series": "IGVFDS0237MRDL",
+      "file": "IGVFFI0855DXJQ",
+      "assembly": "mm10",
+      "md5": "d9d326068c7df2842e76bf7f66d275f5",
+      "bytes": 4892935106,
+      "public_uri": "s3://igvf-public/2025/03/06/fbc348e2-50ed-4d4c-a0cf-bc1c047d59ce/IGVFFI0855DXJQ.tsv.gz"
+    }
+  ],
+  "panel_loci": 63,
+  "input_scope": "complete BGZF exports, all chromosomes, source row read support retained separately"
+}

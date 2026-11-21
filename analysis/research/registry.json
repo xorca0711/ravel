@@ -1504,7 +1504,8 @@
     "analysis/research/contracts/Ng26-P01.s5_v1.json",
     "analysis/research/contracts/Ng26-P01.post_s5_v1.json",
     "analysis/research/contracts/Ng26-P01.jf_fragment_scan_v1.json",
-    "analysis/research/contracts/Ng26-P01.jf_methylation_v1.json"
+    "analysis/research/contracts/Ng26-P01.jf_methylation_v1.json",
+    "analysis/research/contracts/Ng26-P01.jf_atac_eligibility_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1749,7 +1750,9 @@
     "analysis/research/runs/ng26_s3_sources_v1/receipt.json",
     "analysis/research/runs/ng26_s4_v1/receipt.json",
     "analysis/research/runs/ng26_s5_v1/receipt.json",
-    "analysis/research/runs/ng26_post_s5_v1/receipt.json"
+    "analysis/research/runs/ng26_post_s5_v1/receipt.json",
+    "analysis/research/runs/ng26_jf_fragment_scan_v1/receipt.json",
+    "analysis/research/runs/ng26_jf_methylation_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
