@@ -17,7 +17,7 @@ Prior PROGRESS and literature work are preserved. No push, PR, merge or governan
 
 Both governed runs executed successfully; scientific acceptance remains unassessed.
 [A5 complete feature results/figure](../../../RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md) ·
-[DY1 complete target results/figure](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md) ·
+[DY1 complete target results/figure](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md) ·
 [Exact source reads, hashes and non-execution evidence](SOURCE_READS_AND_HOLDS.md).
 
 ## Technical verification and review

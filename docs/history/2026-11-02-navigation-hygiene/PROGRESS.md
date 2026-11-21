@@ -1306,13 +1306,13 @@ not completed or automatically accepted.
 ## DY1 figure gallery integrated — 31 October 2026
 
 Integrated reviewed rendering handoff `5aa6e08cb89e4df9a866d757c8f6afe6ad1023be`
-from the existing technical chat. The [figure gallery](../../../Research%20Article/ungated_damani_yokota_2026/FIGURES.md)
+from the existing technical chat. The [figure gallery](../../../Research%20Article/gate4M_04_damani_yokota_2026/FIGURES.md)
 contains thirteen current plates and links all ten original PNGs. Four new
 presentation derivatives (one F1 replacement and three summaries) have PNG300,
 vector SVG/PDF and a four-page bundle. Article/DY1-P02 and central study navigation
 now link the gallery; no canonical RQ or biological result changed.
 
-The [independent review](../../../Research%20Article/ungated_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
+The [independent review](../../../Research%20Article/gate4M_04_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
 passed 461 source/hash/value/coordinate checks, plus all four PNG/PDF-page visual
 reviews and PDF text bounds. The technical package passed five targeted tests,
 11,751 repository checks and the base-aware gate against unchanged main
@@ -1333,7 +1333,7 @@ biological analysis queued by this gallery work or unresolved external setting.
 Completed four frozen-table presentation plates after independent pre-freeze
 review: a readable F1 replacement plus human contrasts, within-IPF uncertainty
 versus omission ranges, and GRIP1/NCOA2 cross-modal correlations. The
-[render note](../../../Research%20Article/ungated_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md)
+[render note](../../../Research%20Article/gate4M_04_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md)
 links the four-page vector PDF bundle, receipt and hash/value/layout records.
 Each plate also has genuine vector SVG/PDF and 300-dpi PNG. All 10 original PNGs,
 frozen analyses, tables, scripts and source caches remain unchanged.
@@ -1361,7 +1361,7 @@ was performed by the rendering chat.
 ## DY1 follow-up PR opened and overall synthesis — 30 October 2026
 
 The owner requested publication of the reviewed follow-ups and an overall analysis
-inventory/implication. Added the [cross-stage synthesis](../../../Research%20Article/ungated_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md),
+inventory/implication. Added the [cross-stage synthesis](../../../Research%20Article/gate4M_04_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md),
 linking original diagnostic limits, human branches, E1–E6 and F1–F4 without new
 biological computation or claim promotion. Current main remains `28fb610`; no
 remote changes invalidate the previous numerical verification. Both CLI and
@@ -1378,9 +1378,9 @@ remain pending. No protected setting or source cache changed.
 Integrated stable technical handoff `cee8466dc82bbf4ce3a12e840cd575b55864c7f8`.
 F1 representation, F4 cofactor reference and F2 human-panel robustness (including
 external component reaggregation) completed under reviewed frozen contracts.
-The [current README ledger](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md#authorized-follow-ups-after-e1e6),
-[results](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
-and [independent review](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
+The [current README ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md#authorized-follow-ups-after-e1e6),
+[results](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+and [independent review](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
 record exact outcomes, source limits and pre-freeze corrections. Parent verification
 passed 3,366 arithmetic/support checks and 69 provenance/freeze checks; all three
 figures inspected. F1's table is primary because plot labels are crowded.
@@ -1403,7 +1403,7 @@ qualified F3/original-source evidence before reopening the specifically held job
 ## DY1 reviewed follow-ups executed — 30 October 2026
 
 Completed new exposed F1, F4 and F2 contracts/runs after independent pre-freeze
-technical review. The [results and exact evidence](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+technical review. The [results and exact evidence](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
 record small weighting shifts in F1, weak global mapped RNA/ATAC genotype
 association in F4, and component fragility of the primary FABP4-panel difference
 in F2. Matrix-panel differences and within-IPF negative panel associations retain
@@ -1439,7 +1439,7 @@ PR #152 is merged. This scoped assessment starts from fetched main
 `28fb61015f9b921f591e41ff26010a960c305947`; the prior publication checkpoint below
 is historical. Cross-checked the original paper, presentation, owner notes and
 completed reproduction/human/P02 reports. The
-[assessment](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
+[assessment](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
 proposes a region-weighting audit, human-panel fragility diagnostics, a cofactor
 reference comparison from existing counts, and a closer paired-modality time-course
 source. The first two have bounded uses of existing inputs; external human component results require reaggregation. Individual human
@@ -1479,10 +1479,10 @@ and the existing original-study holds.
 ## DY1-P02 extensions integrated and independently reviewed — 30 October 2026
 
 Integrated stable analysis handoff `ebedcde8e2d7de1906f41b30dade3a4f178f93ec`
-into the scoped review worktree. The [article README](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
-and [E1-E6 ledger](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md)
+into the scoped review worktree. The [article README](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
+and [E1-E6 ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md)
 now link five completed frozen runs, mixed results and exact remaining holds.
-The [independent review](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/REVIEW.md)
+The [independent review](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/REVIEW.md)
 checked 21 frozen/current contract-code entries, 31 input hashes, 37 output hashes,
 all saved verification results and three figures. Technical review is complete;
 human scientific acceptance remains unassessed.
@@ -1520,7 +1520,7 @@ stated new evidence with a prospective versioned contract.
 Five governed runs completed external source qualification (E1), the descriptive
 RNA/ATAC reference benchmark (E2), the synthetic diagnostic (E3), and temporal
 source qualification plus an RNA-only source-average description (E6). The
-[extension results](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md)
+[extension results](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md)
 link exact receipts, all outcomes, figures and remaining holds. No canonical RQ
 or human scientific acceptance changed; original NAM evidence remains intact.
 
@@ -1548,7 +1548,7 @@ governance and all 32 canonical questions are preserved.
 At the owner's request, added an article-local question on whether the late
 RNA–ATAC pattern remains interpretable under measurement/mapping and measured
 RNA-composition sensitivity, and fits independent STAT6–EGR2–PPARγ/RXRA evidence.
-Separate bulk-ATAC composition remains unresolved. The [dossier](../../../Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md)
+Separate bulk-ATAC composition remains unresolved. The [dossier](../../../Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md)
 and literature context separate biological hypotheses, alternatives, measured
 endpoints and E1–E6 extension prerequisites. No A-series question changed.
 
@@ -1587,8 +1587,8 @@ remain valid; no new external setting or additional analysis is pending.
 ## DY1 job-by-job assessment integrated — 30 October 2026
 
 Stable analysis handoff `9f058bf3f77fede8ab43cfdf162df0bff78d2511` is integrated
-in the scoped review worktree. The [updated article README](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
-and [job ledger](../../../Research%20Article/ungated_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+in the scoped review worktree. The [updated article README](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
+and [job ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
 now distinguish completed substeps from specific data/design and inference holds,
 retaining the full immune-history/IAV context. Older broad-restriction statements
 below remain historical checkpoints, superseded for current status by this ledger.
@@ -1628,8 +1628,8 @@ No external publication or service setting changed.
 
 Three separately frozen jobs completed: six-exon/eight-peak structural QC,
 baseline sparse integrity/raw CMO inventory, and the fixed six-library exon-hit
-profile. The [results](../../../Research%20Article/ungated_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md)
-link receipts and outputs. The [methods/input assessment](../../../Research%20Article/ungated_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+profile. The [results](../../../Research%20Article/gate4M_04_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md)
+link receipts and outputs. The [methods/input assessment](../../../Research%20Article/gate4M_04_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
 records current job-specific holds with the full N. brasiliensis-history/IAV
 context. This current assessment supersedes earlier blanket current-status wording;
 historical execution events remain recorded below and in the article closeout.
@@ -1659,7 +1659,7 @@ changed, and this source branch has no configured upstream.
 Stable analysis handoff `0fb28f0` is integrated into the scoped review branch.
 The [independent review](../../research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
 checks the primary 78-donor and external 21-donor human runs, their frozen code,
-output hashes and interpretation. The [article ledger](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
+output hashes and interpretation. The [article ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
 owns stage status. Six reviewed contextual notes now live in A1/A2/A8/A14/A19/A22;
 numerical results remain in the article/run folders.
 
@@ -1686,9 +1686,9 @@ changes are preserved; no external publication occurred.
 
 ## Human atlas stage 7: primary and bounded external computations complete — 29 October 2026
 
-[Primary results](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_RESULTS.md)
+[Primary results](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_RESULTS.md)
 cover78GSE136831donors, exact clinical joins and the frozen population/floor
-sensitivities. [External results](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md)
+sensitivities. [External results](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md)
 cover12IPF/9Control GSE135893donors after current-raw assay verification. Matrix-panel
 RNA differences share a direction; FABP4 contrasts depend on annotation, pooled
 recipient associations weaken within disease, and ARG1 remains sparse. All
@@ -1711,7 +1711,7 @@ Next: coordinating review integrates the stable local handoff with its six
 reviewed contextual RQ notes and validates those documentation changes. No
 additional analysis or cohort expansion is queued. All canonical RQs and prior frozen evidence
 remain intact; no external publication or settings change occurred. See the
-[validation record](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_VALIDATION.md).
+[validation record](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_VALIDATION.md).
 
 ## Human atlas stage 7: primary execution complete — 29 October 2026
 
@@ -1733,7 +1733,7 @@ mouse/infection work remains stopped. No external settings or publication change
 
 The separate non-infectious human continuation has qualified 78 GSE136831 donors,
 107 nested libraries and exact age/recorded-sex joins. The reviewer cleared the
-[prospective numerical specification](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md)
+[prospective numerical specification](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md)
 after fixes to primary/adjusted donor separation and discovery-input unit bindings.
 Primary narration is fixed to deposited Macrophage at20 cells; proxies and other
 labels remain declared sensitivities. Numerical execution is next through the
@@ -1750,7 +1750,7 @@ settings change. The owner need not repeat settled authorization.
 The separate analysis session completed the bounded metadata correction; this
 reviewer checked its contract, code, saved results and provenance. Commits
 `015b339` and final handoff `a1b1117` are integrated locally with both histories preserved.
-[Results and exact limits](../../../Research%20Article/ungated_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+[Results and exact limits](../../../Research%20Article/gate4M_04_damani_yokota_2026/SOURCE_V2_RESULTS.md)
 record the corrected source labels and tag-presence inventory. All v1 evidence
 and existing RQs remain unchanged; no scientific acceptance was recorded.
 
@@ -1766,7 +1766,7 @@ future work. Preserve all checkouts and ignored inputs; no publication occurred.
 
 ## NAM source-v2 metadata correction — 29 October 2026
 
-The authorized [source-v2 correction](../../../Research%20Article/ungated_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+The authorized [source-v2 correction](../../../Research%20Article/gate4M_04_damani_yokota_2026/SOURCE_V2_RESULTS.md)
 executed from frozen commit `015b339` under a new exposed amendment. It recovers
 exact reference labels and inventories feature-table tag identifiers. The runner
 receipt and separate computation passed: 18 reference rows, 24 feature tags,
@@ -1779,7 +1779,7 @@ results-based stage 8 remain unfinished after the prior platform restriction;
 completed source reading/design audits remain review work. No restricted
 analysis was retried, RQ result generated or scientific acceptance created.
 
-[Validation](../../../Research%20Article/ungated_damani_yokota_2026/SOURCE_V2_VALIDATION.md)
+[Validation](../../../Research%20Article/gate4M_04_damani_yokota_2026/SOURCE_V2_VALIDATION.md)
 passed: nine targeted regressions, 161 repository tests (one skip), 11,348
 repository checks, claim/evidence verifiers and the base-aware research gate.
 All nine v1 files match handoff Git blobs; all 32 global questions are unchanged.
@@ -1817,7 +1817,7 @@ No new scientific effect, claim grade or acceptance has been recorded.
 
 ## NAM review handoff — 29 October 2026
 
-The owner requested a fresh review chat. The [artifact-based handoff](../../../Research%20Article/ungated_damani_yokota_2026/REVIEW_HANDOFF.md)
+The owner requested a fresh review chat. The [artifact-based handoff](../../../Research%20Article/gate4M_04_damani_yokota_2026/REVIEW_HANDOFF.md)
 transfers verified state without the earlier deep link or full transcript.
 The execution chat stopped twice with a platform biology-content restriction,
 including during documentation close-out. The coordinating reviewer preserved
@@ -1835,19 +1835,19 @@ External settings are unchanged; no GitHub publication occurred.
 
 ## NAM execution stopped at metadata checkpoint - 29 October 2026
 
-The [DY1 ledger](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
+The [DY1 ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
 records partial stage 0, unexecuted numerical components of stages 1-7 and no result-based integration for stage 8. The platform restricted the
 analysis turn; the review chat requested documentation-only close-out. This is
 not completion of the original execution objective or a finding that all later
 stages lack data. The frozen source metadata run at `a2ae09e` is preserved with
-its receipt. A [superseding note](../../../Research%20Article/ungated_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md)
+its receipt. A [superseding note](../../../Research%20Article/gate4M_04_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md)
 corrects a trailing-space CSV header artifact and an unsupported categorical
 condition/library-confounding statement. No v2 or biological analysis ran.
 
 Processed mouse files and reused human inputs remain ignored; no raw-read
 reprocessing, RQ result, new A ID or scientific acceptance was created. Existing
 portfolio evidence and other worktrees remain unchanged. See [inventory and
-handoff](../../../Research%20Article/ungated_damani_yokota_2026/CLOSEOUT.md).
+handoff](../../../Research%20Article/gate4M_04_damani_yokota_2026/CLOSEOUT.md).
 Next: parent review of the preserved checkpoint; no numerical run is queued.
 Code Ocean remains HTTP 403; external settings and GitHub state are unchanged.
 Validation details and the freshly verified integration revision are recorded
@@ -1856,7 +1856,7 @@ in the close-out report after checks complete.
 
 ## NAM execution: source freeze - 29 October 2026
 
-The [DY1 paper package](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
+The [DY1 paper package](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
 starts from reviewed commit `a0e7472` in the managed `nam-memory-execution-20261029`
 worktree on `codex/nam-memory-execution-20261029`. Main was freshly fetched at
 `78320a1`. Public processed RNA matrices and ATAC peak files are available in ignored

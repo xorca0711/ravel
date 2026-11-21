@@ -2928,7 +2928,7 @@ human observations; this coordinating chat reviewed prospective code/contracts,
 frozen provenance, saved arithmetic, figures and interpretation, then integrated
 stable handoff `0fb28f0`. Six contextual RQ notes preserve existing hypotheses,
 negative evidence and endpoint requirements. See the [review record](docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
-and [analysis validation](Research%20Article/ungated_damani_yokota_2026/HUMAN_VALIDATION.md).
+and [analysis validation](Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_VALIDATION.md).
 Execution and technical review are not human scientific acceptance.
 
 | Date | Item | Proposed by | Review / authority | Disposition and reason |
@@ -2950,7 +2950,7 @@ The owner requested job-by-job completion, an updated README and coordination
 with the existing analysis chat. The analysis chat executed three separately
 frozen baseline technical jobs; this chat reviewed their contracts/code before
 execution and their saved hashes, arithmetic and figure afterward. The analysis
-chat then cross-checked the [current job ledger](Research%20Article/ungated_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+chat then cross-checked the [current job ledger](Research%20Article/gate4M_04_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
 against the original sequence without finding a blocking completion/hold error
 or an omitted currently qualified original job. This is technical review, not a
 human retain/reject decision or scientific acceptance.
@@ -2973,7 +2973,7 @@ The owner requested an additional RQ about the unresolved RNA–ATAC discrepancy
 and STAT6–PPARγ/RXRA axis, plus an assessment of further analyses. Codex framed
 DY1-P02 as article-local baseline measurement/model discrimination, retained
 EGR2 and cofactor/context alternatives, and performed a bounded primary-literature
-refresh. The [dossier](Research%20Article/ungated_damani_yokota_2026/rq_discordance/README.md)
+refresh. The [dossier](Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/README.md)
 records what each prospective extension could measure and its prerequisites.
 
 | Date | Item | Proposed by | Authority and disposition |
@@ -2999,7 +2999,7 @@ the existing analysis chat. That chat implemented and ran five frozen contracts;
 the coordinating reviewer reviewed numerical designs before execution and saved
 receipts, hashes, arithmetic and figures afterward. The article and DY1-P02
 READMEs now own current completion/hold navigation. Details are in the
-[execution review](Research%20Article/ungated_damani_yokota_2026/rq_discordance/REVIEW.md).
+[execution review](Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/REVIEW.md).
 No human scientific acceptance or canonical-RQ promotion was created.
 
 | Item | Responsible work | Review / authority | Disposition |
@@ -3017,7 +3017,7 @@ No human scientific acceptance or canonical-RQ promotion was created.
 
 ## 2026-10-30 — DY1 follow-up execution through the existing technical chat
 
-The owner authorized the [four assessed follow-ups](Research%20Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
+The owner authorized the [four assessed follow-ups](Research%20Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
 through the existing technical chat. It implemented/froze/executed F1, F4 and F2;
 the coordinating reviewer inspected contracts/code before execution and inputs,
 receipts, arithmetic and figures afterward. F3 public qualification retains its
@@ -3059,7 +3059,7 @@ scientific acceptance or claim promotion is recorded.
 | Automatic approval timeouts | Capacity/deadline failures in coordination and Git access | No unsafe-action finding; scoped retries, with explicit owner reconfirmation where required |
 | Native SVG path whitespace notices | Matplotlib-generated vector syntax | Recorded 319 notices; preserved frozen export hashes; no validator or governance relaxation |
 
-See the [gallery review](Research%20Article/ungated_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
+See the [gallery review](Research%20Article/gate4M_04_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
 for exact scope, checks and remaining interpretation limits.
 
 ## 2026-11-02 — navigation hygiene and proposed A32

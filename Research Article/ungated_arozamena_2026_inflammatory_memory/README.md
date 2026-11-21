@@ -227,7 +227,7 @@ and later function unresolved.
 
 This can supply a bounded epithelial measurement reference relevant to
 [A1](../../docs/research_dossiers/A1.md) and the assay/composition problem in
-[DY1-P02](../ungated_damani_yokota_2026/rq_discordance/README.md). Its potential
+[DY1-P02](../gate4M_04_damani_yokota_2026/rq_discordance/README.md). Its potential
 history/output connection is relevant to [A14](../../docs/research_dossiers/A14.md)
 and [A8](../../docs/research_dossiers/A8.md), conditional on actual linkage.
 It does not establish an IL-22 mechanism, alveolar repair, or the NAM

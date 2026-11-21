@@ -1537,6 +1537,1195 @@
       "from": "Research Article/ungated_naik_2017_inflammatory_memory/scripts/test_s7_hamdan_response_v1.py",
       "to": "Research Article/gate4M_01_naik_2017/scripts/test_s7_hamdan_response_v1.py",
       "sha256": "934b79c39b558a60d54f033b715dd911884712c12a97c3d4b624f9d6cd4764a2"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md",
+      "sha256": "50c26d050af373e9687ce440afddf7bf2c5904cfd6f0434bb01498654f9964f7",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HISTORICAL_ENTRY.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HISTORICAL_ENTRY.md",
+      "sha256": "5734e16ad633cf4f6269ffb9314e5f2660c78b4e07201b5b93c1e2a83a0d917f",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/README.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md",
+      "sha256": "62075d13d3073282e01bd0829e8214290333787a4c521b8fc19b0d17625f66b8",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md",
+      "sha256": "5d0a62c2d914a2201f6b9d8a2e028d462dbcf38b3890432b46c306f06ac082fe",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_LITERATURE_CONTEXT.md",
+      "sha256": "1fbc27cc6e2d2cd31c1e16f54af35c2089ee6524a624724164bdc5560dc8c412",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_LITERATURE_CONTEXT.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md",
+      "sha256": "aaa215a73f16a9687849d3cd8dc0c3023c764ed34eaa0f1ddee8b6a99520d85d",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_RESULTS.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_RESULTS.md",
+      "sha256": "8e4e97a76c949ce0bb104bc52c916b8c93545424630b99a2a69d0ac28b09fce5",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_STAGE7_PLAN.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_STAGE7_PLAN.md",
+      "sha256": "17b91b62491d5cad8623401719ced3743a8f45bc8e5f3a2fc69860fbc5137b0b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/HUMAN_VALIDATION.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/HUMAN_VALIDATION.md",
+      "sha256": "6d3ceeea37c0627a69e8aba19d08b0acbc9049f20ebcfc3909b4a48aaba2975e",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/LITERATURE_CONTEXT.md",
+      "sha256": "09345176349f40ee13fa7a23f3bb417cecfeb97bd637ab47fe757a11f1c4bc6f",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md",
+      "sha256": "3a913981f17bfed48e4d17c03e2d3af8d20722afdde0a07932dc5ca81341b32f",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
+      "sha256": "b66e6ebac7a57d4fded04891ed607fdb46e3fb0a74215e29287909f30e3ed575",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/SOURCE_V2_AMENDMENT.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/SOURCE_V2_AMENDMENT.md",
+      "sha256": "61d7e8fa1f4cc701ff7394d096bf0cd975a13b0e3ad91a87a07c82b92ae13ee0",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_AMENDMENT.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/SOURCE_V2_RESULTS.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/SOURCE_V2_RESULTS.md",
+      "sha256": "369d1c9ddff0ed1eb0eb53427e9c6b397c1aff046eb86210296c3d5676503d16",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/baseline_exon_profile_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/baseline_exon_profile_v1.json",
+      "sha256": "1f64cdc5e1d495c0af6f9b6afe958f274058b32943e230ea7ee77cbe377ac693",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_exon_profile_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/baseline_file_qc_inputs_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/baseline_file_qc_inputs_v1.json",
+      "sha256": "bb0c68d679a87d10f1c0e71cc53d1204f5fb107afdeadc7af309ce2bf289beae",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_inputs_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/baseline_file_qc_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/baseline_file_qc_v1.json",
+      "sha256": "e4de2090f7cb3b99cb1f3bb4799e2b038510d106ab2397112b63f83aae826ac4",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/baseline_sparse_qc_inputs_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/baseline_sparse_qc_inputs_v1.json",
+      "sha256": "827d0e7ecc508955e5b7d69cad3d340016bca30bbb185ed87091be194fc1169e",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_inputs_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/baseline_sparse_qc_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/baseline_sparse_qc_v1.json",
+      "sha256": "c4c0019f33349c0b818d3b57e7badb49d399a17313402ebecc109ae79d021ec4",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/external_human_observational_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/external_human_observational_v1.json",
+      "sha256": "4b930aa7c60bf4342ef9a799ae611652f054287c203d74b2717dab5d90911a16",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_observational_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/external_human_qualification_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/external_human_qualification_v1.json",
+      "sha256": "8abd5069dd3ffcabc9fe8158a8191bf9f3650d1497803d01ac5c18c0bb97c984",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/external_human_qualification_v2.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/external_human_qualification_v2.json",
+      "sha256": "529a0ca44ee209678a4780e4e032e3b6ab1fea53fc3ab3044e41aa2b77a3c8de",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v2.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/external_selection_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/external_selection_v1.json",
+      "sha256": "615b31d03beba8811544f261093765b030e50fc2492e387a013cd10a0fecc26c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/external_selection_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/human_clinical_v2.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/human_clinical_v2.json",
+      "sha256": "ff97740c4e5362dcdc0eb8ec014275ccb8825e680e73bb3b2c304fcfcc48ccdd",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/human_clinical_v2.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/human_evidence_preservation_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/human_evidence_preservation_v1.json",
+      "sha256": "146acecc7901515de17f9d0e88dc8724674cc22180f43547bf3f3ebad7e77708",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/human_evidence_preservation_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/human_observational_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/human_observational_v1.json",
+      "sha256": "afbeb85f9e6f9047f08368cd93dfaa987f1b2344e26566bc548c93596a3939a3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/human_observational_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/human_panels_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/human_panels_v1.json",
+      "sha256": "97570df4b2d90d5dd7755075df3ea0bbe115674c278530ac27d2324b3a3d9c65",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/human_panels_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/human_qualification_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/human_qualification_v1.json",
+      "sha256": "f45b59b4107d13437de4dde3cd03701e1979927fa96621e3d25cc4af06191ab8",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/human_qualification_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/presentation_figures_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/presentation_figures_v1.json",
+      "sha256": "d72fcdb45d3d98b769ec466c94cb2ac837a2b37e96da4ad100b87659a72e8268",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_figures_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "sha256": "7fb3fe1049c80d7dde13d6f8437182bd1392e9f416365065fa22e6130f61edfc",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_parameters_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/source_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/source_v1.json",
+      "sha256": "0931621a0233c21e5365d7ba3085ce35ed44e988032bfa012f156449426bda48",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/source_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/config/source_v2.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/config/source_v2.json",
+      "sha256": "cec597df632d2d4d4fc216ddd167b8f053174f2f362501086398857f174cae6b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/config/source_v2.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md",
+      "sha256": "38fb7c0d692bfd8481be7de8eec24802c03e7d6562410b8059e96f0a55275041",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/E6_SOURCE_REVIEW.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md",
+      "sha256": "9e9a02f2b55f7aa6779be431040ac1020d046a872ba51307e300cb13b603e566",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md",
+      "sha256": "e06b3c6bd1b5ed38c8f2ecce5b444614b52deba62e761680b339b7edc23f4cc8",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
+      "sha256": "e3d0e2c22e40054d17a576f787f6fd49e2835841cec77449ba8748ee21d4f072",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
+      "sha256": "57d8641e4dad81f234c100e35e8f3e1bd760196a804468cd7e59903ee68179fe",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/FOLLOWUP_SOURCE_MODELS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/FOLLOWUP_SOURCE_MODELS_2026-10-30.md",
+      "sha256": "ff37e0aed5801647478a5cf7faf3d7c22683f3a82f5c0cf144ac3eecb8d7d1a3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_SOURCE_MODELS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/HISTORICAL_ENTRY.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/HISTORICAL_ENTRY.md",
+      "sha256": "1876a2d40d8e5f6c8b17bfce25a8d39cb56be4814cac151a34b283173d2d438b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md",
+      "sha256": "96f6b076f47dde326784138a6370a2433c0275e8b31bc7286a885364ba1338a4",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+      "sha256": "6747f5a74e2d9ad61ab2efb87fcd068d1229392e78030ae1a6a693e06dd41a53",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+      "sha256": "637bf209207eaca376001859ee8e7ee71a31975087e256456709c66b3a481dce",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+      "sha256": "9061514aed559d0b0a660f6e1a683a7fbb47d30d56b0ce858d23fd13654c53d4",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md",
+      "sha256": "01825385ca25020575c33ab94626a5634a3742f2796b804d3a3a6a475d5b8e6f",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "sha256": "d41bf8642790e4269418182c5affe511a81f28cf3178c162be545c561b147a2c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/genotype_reference_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/genotype_reference_v1.json",
+      "sha256": "6500e77ed18b517a88dfa322ad3277b0b42b8a16ca113e99244a80ad0538aaee",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/human_panel_robustness_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/human_panel_robustness_v1.json",
+      "sha256": "ca042d7815a7c01b5449e6560b887e204c9c7a087856f9a737a1d973455e00a7",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/human_panel_robustness_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json",
+      "sha256": "c794d50d97fb6e1740786896a515c81141e6ea44805e65c449230a30bc4e08f5",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/identity_targets_spec_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/identity_targets_spec_v1.json",
+      "sha256": "6dac32c6fbc7789bb92018679fc4c65faaaca270fe7a4f068a6e72ca3ad3f54f",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_spec_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/reference_benchmark_parameters_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/reference_benchmark_parameters_v1.json",
+      "sha256": "11ca35007987565d1a494cfde17786789f0d7586b8bef22c647962b863ac6d67",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_parameters_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/reference_benchmark_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/reference_benchmark_v1.json",
+      "sha256": "8205cee16677bc897ac58632b9b8d4ca3887859dc7bdf383baedcac743da461b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/reference_source_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/reference_source_v1.json",
+      "sha256": "46d4538d2b50c4f6ab341cd5b21c26edef949997174e56e8ad20eac788c02e7d",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_source_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/representation_audit_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/representation_audit_v1.json",
+      "sha256": "5f6d15d0f8c67f176e36d63bff5d229fb4d5428648076f5d95c1d6fb2d5ea2b3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/representation_audit_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json",
+      "sha256": "234db56594d32819f147a4f1e9b1d1ef9d3fef6be69d34c1b7b5200b95426c10",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "sha256": "e9f74576722772106f53f7cd5b9d9f635640c909dc8ef156bce0fbb256bdc800",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json",
+      "sha256": "d8a4c344e9360f281408c9e999b9fd691e2772cb0473a36870fc0975d3988e71",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/config/temporal_source_v1.json",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/config/temporal_source_v1.json",
+      "sha256": "6cd74bc14cf4749168ed770d1433618fc5d14c3593bdf5eb528385237b239b76",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/temporal_source_v1.json"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+      "sha256": "544c6d98a293a9a2a6b3f202884ab09bb8da6112993bdf7b4bef3a2900bbeb22",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/human_panel_robustness_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/human_panel_robustness_v1.py",
+      "sha256": "dcd0ee3e7abd9bf0106627e9d4eb994abf820e0f39af25376854a16f9ffea076",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/human_panel_robustness_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+      "sha256": "0f019c3e8ad92d17be94527adbb4f43ecd07240d64ecdcfc56e245f5b9996150",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+      "sha256": "1376a12eca80741eb937675ce0e0c0ba0218a6f9e9004b3af29446d3dcbbe8a3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/reference_benchmark_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/reference_benchmark_v1.py",
+      "sha256": "15167d2c723b820f09547a14cea418f3f223e8f20d2b1d44d5b4d746b94585c3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_benchmark_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py",
+      "sha256": "e34853b1ea829c81ff4363c8fcc44e2240b00673b85d6956fe5be103bbb18162",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+      "sha256": "79c9bd47e04f856536928fda4b7f6c3f8631baffb8e432ffb4d023558ecbf78e",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+      "sha256": "a560be077c61e9b2ba91cf58021a3aa88be20bc78cde040e962858de40747cb7",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+      "sha256": "25e744fabeea661a87b0e42cee5f6580990a558d7d0e6a85dd270581e44812cf",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/temporal_source_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/temporal_source_v1.py",
+      "sha256": "f40e913d6359390deb4af72b05e07fb589c4bda75d6bda9f9338542c22213895",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/temporal_source_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/verify_reference_benchmark_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/verify_reference_benchmark_v1.py",
+      "sha256": "7b240a1374b67cd858cf51420841b2b757cc13e5ed8d7c85b8cbd9a96a54c0ba",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/verify_reference_benchmark_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/scripts/verify_synthetic_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/scripts/verify_synthetic_v1.py",
+      "sha256": "181807420053e5dbb71adbb25b5a3b472a06256863b00de04d2454e96d63b9e6",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/verify_synthetic_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_genotype_reference_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_genotype_reference_v1.py",
+      "sha256": "3947836be46daae5ed6745a85e630e9e3ab41489c5e82389caf18cee2d229b52",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_genotype_reference_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_human_panel_robustness_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_human_panel_robustness_v1.py",
+      "sha256": "fc84008801a84729b92828d2086e2872a6aa6dd76d0b7f84fa12fdd2e5538193",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_human_panel_robustness_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_reference_benchmark_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_reference_benchmark_v1.py",
+      "sha256": "b397ba685ca55e37bb96844f7dec18741661ea9e5fa9e50e62803daeb574c40b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_reference_benchmark_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_reference_source_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_reference_source_v1.py",
+      "sha256": "7548da695e6400630e5f182a71421570a5b7b60ce7a9a3a65315f2db40be6c0c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_reference_source_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_representation_audit_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_representation_audit_v1.py",
+      "sha256": "9c13cc4b7cde259b372fbb13b19600abb1d218f14856ed1b7544c3a3e1932768",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_representation_audit_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_source_average_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_source_average_v1.py",
+      "sha256": "7df1064fdbc21d7a4090e0027c2fec0054e255862cec43fea1b0dd0b44eb9a54",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_source_average_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_synthetic_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_synthetic_v1.py",
+      "sha256": "064c930609337feab0d0285d95ca513f626b2fe3c9168077e31418fc8448acc0",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_synthetic_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/rq_discordance/tests/test_temporal_source_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/rq_discordance/tests/test_temporal_source_v1.py",
+      "sha256": "6d30275b576716cda3736eb8824fefd659faf79c2dfaee09a63de77561595116",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_temporal_source_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+      "sha256": "ad26bed68dda60c5dc21606e2c8fd4a88286b7db6052063f48d27d4a9ff972d9",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_exon_profile_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/baseline_file_qc_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/baseline_file_qc_v1.py",
+      "sha256": "6017d2765545a65408cfa159ea5a03d361c6bd5cf141624f3dc90c58144ba87b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_file_qc_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+      "sha256": "d84cccb9bed5256d53320fcb77d598f6b558f9c905c7512da071853c6b459043",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/external_human_observational_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/external_human_observational_v1.py",
+      "sha256": "4dc73dda3f1689e3a720ada91298638143d0e560556f9e3bfcdcf55f40a4040d",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/external_human_observational_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/human_observational_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/human_observational_v1.py",
+      "sha256": "52aa114d740841b4d5bc80e83488a7f1ccc99b22c5ec73b8b548d5d08d11e35c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/human_observational_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/human_stats_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/human_stats_v1.py",
+      "sha256": "fcb863b5018cf94bbaedf85eacb7f9fc5d36e229095b41173daa9cf5599f825b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/human_stats_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/presentation_figures_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/presentation_figures_v1.py",
+      "sha256": "32da0f167fa615f94917b538e6f70c9b304078ee02676a89cbfd74b8b6cba2eb",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/presentation_figures_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+      "sha256": "1d44f89af2c5b50484ed74b8f7501f1b86014c37413fb88d31e006822231ee38",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/preserve_human_evidence_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_external_human_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_external_human_v1.py",
+      "sha256": "6f3933dfed58deb76e904fca70258b968d3a55341a795f0a43d2028a474e97bd",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_external_human_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_external_human_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_external_human_v2.py",
+      "sha256": "6e8e61767913a3f57dcd07f376eb8549dc9c68e480c315c9fba320c3437aa2a0",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_external_human_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+      "sha256": "d3e3360e6af5d417527447462eff13c9cad03f3680178887535c644370ef598b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_clinical_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_human_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_human_v1.py",
+      "sha256": "40cb4b823ce5c28099e980d84c8c1bdbc6e29162f1c07c767431ac6dec419a95",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_sources_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_sources_v1.py",
+      "sha256": "be09d3bb389529c97bf21be509d914a1f7d3569531e17052a8f94d40d3337115",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/qualify_sources_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/qualify_sources_v2.py",
+      "sha256": "fb97ee5f8576cffe953e0782419e45b4df93bc46371889594435b4f17aadcf6c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/verify_baseline_file_qc_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/verify_baseline_file_qc_v1.py",
+      "sha256": "6a1501c01489dcede45178067d00a0b4efe3db896031dd5c49083a4f6c1cb9da",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/verify_baseline_file_qc_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/verify_human_observational_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/verify_human_observational_v1.py",
+      "sha256": "bafa97bf213a9a11b1db794cb4244c8a6ca5439b58a7c1b1b73e87ccbb705c03",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/verify_human_observational_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/scripts/verify_sources_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/scripts/verify_sources_v2.py",
+      "sha256": "09c28f1a2d81d22a29592743ed9e4bda744e561b57b73aea9cd363096d9b4c3b",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/scripts/verify_sources_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt",
+      "sha256": "3f966117b482ab0c2cfcd0756c48bd04da36da2b5db4ef81192a180d5a37f19a",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt",
+      "sha256": "e72a43eb4ccba77f645f93b1092ecb7dcdfe0ec45ceb11dafc64c6f3086db8bf",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "sha256": "a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_baseline_exon_profile_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_baseline_exon_profile_v1.py",
+      "sha256": "a8362b03eb159640dbad432cf1c0b72a6e4730c407e892c3d3b349474fb53900",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_exon_profile_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_baseline_file_qc_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_baseline_file_qc_v1.py",
+      "sha256": "b77e1e47a5f9a69a9ee12cc9a298b42fe43eb2e424d8b74e7c6296cd3ed0a81c",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_file_qc_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_baseline_sparse_qc_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_baseline_sparse_qc_v1.py",
+      "sha256": "d7dd606023784a758ae5ffa80b7ca2df824dc4807acde77d7c96b9740f6f4da3",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_sparse_qc_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_external_human_observational_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_external_human_observational_v1.py",
+      "sha256": "1c0e62bc3932bca858d1d84146a5477271b32959bf6152acf4a5cebad2cfcd95",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_external_human_observational_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_external_qualification_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_external_qualification_v1.py",
+      "sha256": "1932f5dd2ac17d0731fcbd7e3dcdfd81a59b0a65a0181acc271fa7abb8569ea9",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_external_qualification_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_external_qualification_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_external_qualification_v2.py",
+      "sha256": "31a04aafd3ed1dd9cbbe59f057bd2b3b0155c955dd821eae9cfcad85299300be",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_external_qualification_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_human_clinical_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_human_clinical_v2.py",
+      "sha256": "e588dfd8e573188b5bd8f8380ac0e5c0fd840e82612279e35e553a21c3541188",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_clinical_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_human_observational_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_human_observational_v1.py",
+      "sha256": "11a22543e71e23c25cd6a625ee28185cbcd978d002d54ba6ec7c8e2667be0e6d",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_observational_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_human_qualification_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_human_qualification_v1.py",
+      "sha256": "bcf86653c57399ef5005a1383c33f3c287105de90c9d404dfd7572164f7b0c05",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_qualification_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_presentation_figures_v1.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_presentation_figures_v1.py",
+      "sha256": "ca725e85025375d1e4578b2d61bd3c0d40baa7077c14f4747e34b23cb5abe3a6",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_presentation_figures_v1.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_damani_yokota_2026/tests/test_sources_v2.py",
+      "to": "Research Article/gate4M_04_damani_yokota_2026/tests/test_sources_v2.py",
+      "sha256": "c3892e16a0fc481aac93a3bb7b75591288c19fdbf02f941d729f0242be06adb2",
+      "continues_from": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_sources_v2.py"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/ANALYSIS_PLAN.md",
+      "sha256": "cfec8f6eaf56a3339912211f8ba86812bd73083f433b0c6f8a4b34db624081da"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/LITERATURE_CONTEXT.md",
+      "sha256": "99e906a64deab974e658635984339bd598ba7b37eebbc65cb53920995652d4f8"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/SYNTHESIS.md",
+      "sha256": "4448f400a4ee29f4cdd955cbb5a8ad89077fcf8bc9fbac917139074b0502fe7d"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/DESIGN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/external/DESIGN.md",
+      "sha256": "2c28906ffae9ab65e90a529ef6c42ea18a0592a41071b4c22a9d188cb967880b"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/external/QUALIFICATION.md",
+      "sha256": "810e60e96b02e2cc3110d124845533135da22fbd2a77e6e3a08f9cab492d6ebf"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/qualify.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/external/qualify.py",
+      "sha256": "166a44139e9962e1923f3d413c5903920e222fa24a8a40a049db32a64640ae4b"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/sources.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/external/sources.py",
+      "sha256": "4afc15860e5548c66de4e14d2b2d25226d107d863a379d089899fea50f9e39e5"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/CHECKPOINT.md",
+      "sha256": "00dddcaf873eb221f44422dc09f330a08d207f4ce6649159be9cd3695954beb8"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/DESIGN.md",
+      "sha256": "c5bfed323f228d017e58c71010637fcf4a1c1e363163b650674c05a69a99e52c"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/compare_saline.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/compare_saline.py",
+      "sha256": "411a14860eb02d2edd74f8dd23a9079333829ae81ebd19342c205c39649c0862"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/draw_markers.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/draw_markers.py",
+      "sha256": "5f7b14a68b35104e9a2c8562b17a19376251ad94f906303d11a8dd53cbceacb6"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/verify_specimens.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/saline_markers/verify_specimens.py",
+      "sha256": "8d290b0262d9e7da344e875ccf651774b435becb0ec5b4a35a005d43829d33d7"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/DESIGN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/DESIGN.md",
+      "sha256": "78818af03b0733315e486e7a628a2246b0ad7fe56513fab7e2515b53f5713839"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/ELIGIBILITY.md",
+      "sha256": "324385f6758e4278af0bf17d5d6eece67d35a8bb6ff11e9d1cb03dcd4d3280d4"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/bundle_inputs.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/bundle_inputs.py",
+      "sha256": "f14ce3f4351eb488a99aab45bc1a3305bc24e0fa6918760a274c86f232878c9d"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_fragments.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/fetch_fragments.py",
+      "sha256": "3caa0aab286cd7d1cf6676274576e88439fb17ebd9f32d5d1d07fcfa0fd20818"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_support.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/fetch_support.py",
+      "sha256": "bd519f2b3518abfab0cb1b65ec478dac30cb75e6165d49d0397d11fab23e9c9f"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/methylation.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/methylation.py",
+      "sha256": "73f801957262fc0077796225b86bbbd5c972a9175f1a834074fb25279a78b8a8"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/native_atac.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/native_atac.py",
+      "sha256": "3e0af0fda18299438acf6429314ee73ca9f64941561202f280ac17bd3821c5bd"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/qualify.py",
+      "sha256": "0e503ffb6c0c83d7b71d102ee2ef0df9852bd5a6ebd452d34febbd3d822acd20"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify_atac.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/qualify_atac.py",
+      "sha256": "292cc02aa08abfd74a287021e867abdaeb06c55177d8f6a7110b91ad90b9d82f"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_exports.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/scan_exports.py",
+      "sha256": "a771054173894f9a8f47e4334841cff3aa6cf25c789c1c739f0dda0110207b7f"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_fragments.rs",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/scan_fragments.rs",
+      "sha256": "abaf14f44af93cd1bb8e4f85746cc6b4ed1c6fdb154e750e6122e31d84ba795c"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/slice_tracks.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage1/slice_tracks.py",
+      "sha256": "c07f1bc8e73d3df941a6e59571996ae6af64d223aa482ff7e5ff93d148998e1f"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage2/DESIGN.md",
+      "sha256": "6aa449c80612a5f776ee7ec67d47d7aafa2cd12c255250af7fa4415b4602ec7c"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage2/MEASUREMENTS.md",
+      "sha256": "304b0f0ef5f10f4f6224f651120f8fa9dbb5b575726488c2fd5e945da1d0fc98"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/measure.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage2/measure.py",
+      "sha256": "48f4dba72f6adcd8640b4518c517c8aea01be6441eac4159d6bcbd8d1f6be424"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/plot.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage2/plot.py",
+      "sha256": "ec7ea4454c8385281caf08424f701266de12a2477e523decd8ebc8ad2afabccd"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/DESIGN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/DESIGN.md",
+      "sha256": "604c4ff8307e2e1dd2c325e2f51a21e198cb9a2ad1f2cec0caf5faa423701ce4"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/RESULTS.md",
+      "sha256": "4f896afa9690c140e15986955932bf896eecea31505db8215b75f27b4b6e1270"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/SECONDARY.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/SECONDARY.md",
+      "sha256": "cdc7e7589d931dc49b6a088d7af0f63d99294ce186e76544bed03c7195ab24d3"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/binding_associations.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/binding_associations.py",
+      "sha256": "3bf949e70a7451dea70c7db8e9bd5a433ac746e554eb251ae254fe73da53e625"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/figures.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/figures.py",
+      "sha256": "bd4f56431a27b8003fd6e975952785eb56a5e2c6ad1ccc96ce351afb134bbfb0"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/native_associations.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/native_associations.py",
+      "sha256": "4f63702b2526459b0281988b96457c024e62d9ebcc537558a67f8c61ee8a64d1"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/rank_models.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/rank_models.py",
+      "sha256": "cbb3ba331f4c5ef575169a9fd693b4e0bd4cbeedd63d8ece12e1e15c1f80f392"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/render_binding.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/jun_foxp1/stage3/render_binding.py",
+      "sha256": "6ebd488cb79fbb9109fb87ed7f1a48c7fc8beaa8679c57b0e0af00d5040803d7"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+      "sha256": "049bc5ab78e4b1ded40106f6e5beed90d7f8536d90d2482ee5507c43946e6c01"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/compare_families.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/post_s5/compare_families.py",
+      "sha256": "b4902a314eeb9a9e0615ad2990bb2ce70987a71b0dc24390d73c9546095d385a"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/family_sources.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/post_s5/family_sources.py",
+      "sha256": "560c7d1e5c0fc0c77a8c9633533e4aa447c7e780b2e52a809945b9fec4b41887"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/plot_families.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/post_s5/plot_families.py",
+      "sha256": "b2a9eb8bcdc98c2463cbdf35ae466c2959958324cf71a45af150a5ae6c88f051"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/CHECKPOINT.md",
+      "sha256": "94332a27cd164e45aad25c744d35007b17be0b5d3afac9f0e8369a7773e38933"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/PANEL_ELIGIBILITY.md",
+      "sha256": "c4dbe0557bc022eac7110e3e5b3a84eedf3c728a929ca52f1ae96642f0aaa2ac"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/qualify.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/qualify.py",
+      "sha256": "7ce61080fb89a7364edcc9302af3fc57ebe701453a5d6ec06d8e525a7bcf1f72"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/qualify_v2.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/qualify_v2.py",
+      "sha256": "290ab0960d862936cc14768e6a624d4f9fdb402c24c87be3c184b208ae250310"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/reconcile_keys.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/reconcile_keys.py",
+      "sha256": "0130d487858fd4541bf29417070f88b498bf99054b3163e9c5ea2f72abc5f87f"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/sources.tsv",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s0/sources.tsv",
+      "sha256": "46f9d57bb0259cafd4aed976196a66119767c24a615acc37185365985ee88822"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s1/RESULTS.md",
+      "sha256": "1286d98acaf554848e835c85c017dae44ec9e65c4cb9199d9aa49dfaecfc6291"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s1/plot_readback.py",
+      "sha256": "c25eafdc8c8dd85591d24ff53687f92bd848693e81462ea61185d55aac247ccb"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v2.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s1/plot_readback_v2.py",
+      "sha256": "f6a63a222c7c907ce64878091cafff340a9b8c6eb6b1d39c55330f8a4c9ffe23"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v3.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s1/plot_readback_v3.py",
+      "sha256": "b91157a768b389fbd11d48a1530b2d8a76aba6591eb294d24a014c2d1859be73"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/readback.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s1/readback.py",
+      "sha256": "8c3fbeb5a2a41c5f2bb284b65272c165166955183ddd0df1832f8aee62682008"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s2/RESULTS.md",
+      "sha256": "d93afd556f63823486861a2b4f65275faade00602fda5da2bc720a13bb12cbb4"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/check_panel_i.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s2/check_panel_i.py",
+      "sha256": "99021e4869357110c7624a82ea23935ea662d4d20a8a9ac130756346a1d80a4b"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/plot_clones.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s2/plot_clones.py",
+      "sha256": "7dc4ebb9945eca8e10169d869f9fe0318eb6b35e77e152e305f976bef8d1dba4"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/replay.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s2/replay.py",
+      "sha256": "b0fc012faad4590f924b41c040f7af687848255990bb070bb78d7d894f9c4029"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/RESULTS.md",
+      "sha256": "4511d2cb1695be861aafbc66555c91329dedb75fff5bea64ce6c47ea0ee75753"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/SOURCE_NOTES.md",
+      "sha256": "67da393d0daf0745d5074b24c849a2a0b3148df731f5ac79153a2380ffcc1f09"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/plot_readback.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/plot_readback.py",
+      "sha256": "b4e7ee612263abb1bfed0302d4eb3fe7ccff8dcf543b5cf7d091994b1531b5f1"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/preserve_sources.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/preserve_sources.py",
+      "sha256": "5eb4dce7099d1fcf21d51a06f06a3f1a2b3cf4b5c38f1dfed86807fca03e6bad"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/readback.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/readback.py",
+      "sha256": "7b7487f555547e99e7e739e13517f1693828250b234b623cbc284d491f5444c2"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Dcaf5_reference.txt",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/source/Dcaf5_reference.txt",
+      "sha256": "e9800bab79c293c380cb90960155d3f2ff488fc9404292f01ff2e918c0fb2f05"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Rbm27_reference.txt",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/source/Rbm27_reference.txt",
+      "sha256": "c1a6d6627ae84b9386cb3194d22507062e9c73949d704d9ce3a69f69e105d4df"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_reference.txt",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/source/thbs1_reference.txt",
+      "sha256": "6c0fbf5ad45842f2bf94e06a4450ed0602229d37f04088cc9ed89dc962b827cd"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/tissue_methylation.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s3/tissue_methylation.py",
+      "sha256": "9e2cc16a0d40a8c64100f7dc430dfde0fd8a1b78d1d3d6cc3784e537b078b59d"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s4/RESULTS.md",
+      "sha256": "46544b8c94ca45e7f52e302c2fff72c262d518701ba331945868a1c37d9640bb"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/plot_tumours.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s4/plot_tumours.py",
+      "sha256": "394d537ae8a9f3318bcc119f63656b00ef6c927140bb592a1caece247045b6c7"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s4/tumour_readback.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s4/tumour_readback.py",
+      "sha256": "75787231bba41068a5f00dbc0782d2dcb83943ce87dc1bc724abf036b4656baa"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/RESULTS.md",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s5/RESULTS.md",
+      "sha256": "7aa7588e666de48864e9a772e3d1052cc932bdb6161a88e963d59b2996834f2e"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/condition_fos.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s5/condition_fos.py",
+      "sha256": "9cbcb0c8622853ac84e73540ea6f4ae2bfc66209873c22cfb0cc60f2f6276776"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/plot_conditional.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s5/plot_conditional.py",
+      "sha256": "3e7c1a8592b804d916fae12973d12cd0e069a3f5b97e0d2734fd9d4823b70bc4"
+    },
+    {
+      "source_revision": "544c7bbe800195488de095aee67208ffbc76629f",
+      "from": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/rna_pairing.py",
+      "to": "Research Article/gate4M_02_nagaraja_2026/s5/rna_pairing.py",
+      "sha256": "d8b9b6864d73c872b587ac2b7036146fab74b2b60e3081cc2132b55fdeb5d71c"
     }
   ]
 }

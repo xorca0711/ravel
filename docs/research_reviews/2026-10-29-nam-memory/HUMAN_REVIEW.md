@@ -8,7 +8,7 @@ The separate analysis chat completed the exposed GSE136831 descriptive run from 
 
 The reviewer independently matched the contract and five code/configuration files to frozen Git blobs and all 13 declared outputs to receipt hashes. Receipt SHA-256: `838fd62f55345949c332b1bf61b729800cfc2d8a3298d880f0d1ef52bbe51255`. The run's separate arithmetic verifier passed 27,545 scalar/array checks, including 52 primary correlation rows. These are computational checks on the same source, not independent biological replication. Bootstrap procedures have synthetic arithmetic tests; pointwise intervals do not establish multiplicity-controlled discoveries.
 
-[Run receipt](../../../analysis/research/runs/DY1_human_observational_v1/receipt.json) · [Numerical specification](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md) · [Current article ledger](../../../Research%20Article/ungated_damani_yokota_2026/README.md)
+[Run receipt](../../../analysis/research/runs/DY1_human_observational_v1/receipt.json) · [Numerical specification](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md) · [Current article ledger](../../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
 
 ## Findings that constrain interpretation
 
@@ -32,7 +32,7 @@ The matrix-panel IPF–Control difference is +2.230 [1.394, 3.111] score units. 
 
 Qualification preserved an initial historical-script hash failure, then bound the exact historical Git blob and independently reaggregated current raw counts. All 85 cached units matched raw totals and nCount_RNA; all 29 exactly mapped selected genes matched. SELENOP remains unqualified under its exact symbol. The numerical comparison uses only the nine verified outcome genes, without aliases or a marker-proxy claim. Other fibrosis diagnoses are excluded from IPF. No external recipient correlation is fitted: its available seven IPF/three Control fibroblast donors fail the fixed eight-donor minimum. Source labels, selection, annotation and unqualified clinical covariates remain limitations.
 
-[External receipt](../../../analysis/research/runs/DY1_external_human_observational_v1/receipt.json) · [External plan](../../../Research%20Article/ungated_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md)
+[External receipt](../../../analysis/research/runs/DY1_external_human_observational_v1/receipt.json) · [External plan](../../../Research%20Article/gate4M_04_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md)
 
 ## Consequence for the next question
 

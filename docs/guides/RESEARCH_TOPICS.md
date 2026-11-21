@@ -43,7 +43,7 @@ Regulatory features, identity regulation and persistence after prior exposure; R
 
 **Question homes:** [A1](../../RQ_Specified/A1_transitional_epithelial_state_distinction/README.md) · [A3](../../RQ_Specified/A3_macrophage_injury_history/README.md) · [A7](../../RQ_Specified/A7_cebpa_baseline_state_dependence/README.md) · [A33](../../RQ_Specified/A33_ezh2_tigit_areg_output/README.md) · [A34](../../RQ_Specified/A34_ezh2_ccr2_movement_fitness/README.md) · [A35](../../RQ_Specified/A35_treg_igfbp4_source_igf_response/README.md).
 
-**Paper packages:** [Choi 2020](../../Research%20Article/gate1_02_choi_2020/README.md) · [Yu/Lee/Choi 2026](../../Research%20Article/gate2_C3_yu_lee_choi_min_2026/README.md) · [Damani–Yokota 2026 / DY1 (ungated)](../../Research%20Article/ungated_damani_yokota_2026/README.md) · [Arozamena 2026 / Arz1 (ungated)](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) · [DuPage 2015 / Dp1](../../Research%20Article/gate3_09_dupage_2015/README.md).
+**Paper packages:** [Choi 2020](../../Research%20Article/gate1_02_choi_2020/README.md) · [Yu/Lee/Choi 2026](../../Research%20Article/gate2_C3_yu_lee_choi_min_2026/README.md) · [Damani–Yokota 2026 / DY1 (4M-04)](../../Research%20Article/gate4M_04_damani_yokota_2026/README.md) · [Arozamena 2026 / Arz1 (ungated)](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) · [DuPage 2015 / Dp1](../../Research%20Article/gate3_09_dupage_2015/README.md).
 
 <a id="recipient-signaling"></a>
 ## Signals, delivery and recipient context
@@ -61,7 +61,7 @@ Macrophage or microglial state, exposure history and tissue context; population 
 
 **Question homes:** [A3](../../RQ_Specified/A3_macrophage_injury_history/README.md) · [A6](../../RQ_Specified/A6_ipf_macrophage_state_composition/README.md) · [A13](../../RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md) · [A25](../../RQ_Specified/A25_microglial_midlife_configuration/README.md) · [A32](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md).
 
-**Paper packages:** [Niethamer 2025](../../Research%20Article/gate1_01_niethamer_2025/README.md) · [Sikkema 2023 / HLCA](../../Research%20Article/gate1_04_sikkema_2023_hlca/README.md) · [Cardoso 2026](../../Research%20Article/gate2_05_cardoso_2026/README.md) · [Damani–Yokota 2026 / DY1 (ungated)](../../Research%20Article/ungated_damani_yokota_2026/README.md) · [Tabula Muris Senis / Nb5](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md) · [Yadav 2025 / Yd1](../../Research%20Article/gate2_W3_yadav_2025/README.md) · [Navarro Negredo 2026 (ungated)](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md) · [Peng 2026 / Pg1 (ungated)](../../Research%20Article/ungated_peng_2026_spatial_omics/README.md).
+**Paper packages:** [Niethamer 2025](../../Research%20Article/gate1_01_niethamer_2025/README.md) · [Sikkema 2023 / HLCA](../../Research%20Article/gate1_04_sikkema_2023_hlca/README.md) · [Cardoso 2026](../../Research%20Article/gate2_05_cardoso_2026/README.md) · [Damani–Yokota 2026 / DY1 (4M-04)](../../Research%20Article/gate4M_04_damani_yokota_2026/README.md) · [Tabula Muris Senis / Nb5](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md) · [Yadav 2025 / Yd1](../../Research%20Article/gate2_W3_yadav_2025/README.md) · [Navarro Negredo 2026 (ungated)](../../Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md) · [Peng 2026 / Pg1 (ungated)](../../Research%20Article/ungated_peng_2026_spatial_omics/README.md).
 
 <a id="stroma-vasculature"></a>
 ## Stroma, matrix and vascular context
@@ -132,6 +132,6 @@ in owning reports and question arguments. No result-based folders, copied
 evidence trees or new A-series IDs are created by a tag.
 
 The [Gate 4M reading sequence](../../Research%20Article/README.md#gate-4-topic-centered-reading)
-links one folder per paper. The [Damani–Yokota study](../../Research%20Article/ungated_damani_yokota_2026/README.md)
-and its DY1 evidence share a single ungated folder. See [repository structure](REPOSITORY_STRUCTURE.md)
+links one folder per paper. The [Damani–Yokota study](../../Research%20Article/gate4M_04_damani_yokota_2026/README.md)
+and its DY1 evidence share the Gate 4M-04 folder. See [repository structure](REPOSITORY_STRUCTURE.md)
 and the [4 November architecture audit](../audits/2026-11-04-topic-navigation/README.md).
