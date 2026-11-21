@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_markers_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "At the eight previously qualified flanking CpGs in five fragments, does the sign of the DSS-minus-control methylation difference recur across the independent day-14 epithelial array and day-23 whole-colon EM-seq cohorts?",
+  "decision": "Use the specified signs and stability criteria to describe recurrent marker candidates at these sites only, subject to owner review. Actual retain/deprioritize decisions belong to the owner.",
+  "strongest_rival": "Inconsistent strand choice, small-sample variation, baseline differences, epithelium enrichment versus whole tissue, distinct DSS schedules/vehicles, collection clocks and platforms can alter apparent recurrence.",
+  "discriminator": "Each study uses its own matched control arm and native assayed strand. Inspect both arm baselines, individual mice and each leave-one-mouse difference before interpreting concordant or divergent directions.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner reviewed earlier Nagaraja and external evidence at 13ff486. Sources, original coverage and regional effects were seen, including numeric reads for availability/range. Native 48 same-strand values are part of Step 1 verification. External site effects, matched sign results and omission effects have not been computed or inspected before this freeze.",
+  "biological_unit": "An individual mouse in one of two separate studies. Three mice per arm per study. The same animals contribute multiple CpGs; five fragments group the eight sites.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Two separate cohorts, no matched individuals. Stage 1 source slices and earlier qualification are reused. Sites and fragments are not independent mouse replicates.",
+  "population_and_selection": "Exactly eight prior probe IDs at three left and five right flank dyads. Six specified GSE283386 saline mice (3 DSS, 3 water) and six GSE316762 DMSO mice (3 recovered, 3 healthy).",
+  "contrast": "Site-specific 100 times mouse-mean DSS minus mouse-mean control separately by study, in percentage points. Display external minus Nagaraja as a descriptive between-context difference.",
+  "endpoint": "Every specimen value, arm means/minima/maxima, both study differences and exact signs, the descriptive difference between studies, all one-mouse omissions and directional stability for each site/fragment.",
+  "methods": "# Do methylation differences recur at eight flanking CpGs after colitis?\n\n## Purpose and prior exposure\n\nThis owner-requested descriptive marker screen belongs to Ng26-P01. The original studies measured methylation after different DSS regimens. The [previous qualification](../external/QUALIFICATION.md) located eight exact, measurable mm10 dyads in five of the original fragments. The remaining question is whether a DSS-history difference at the same assayed cytosine has a recurring direction in the two mouse cohorts. Either direction is informative. Each probe is reported in fixed ID order with its fragment and flank.\n\nThe site selection, strand, coverage, all prior Nagaraja results, and existence of the external beta values were known. Earlier qualification code read the targeted beta cells to test availability and range. Earlier work also accessed native methylation and regional differences. The external saline arm means, DSS-minus-water differences, directional matches and stability results were not calculated before this design. Treat it as an exposed exploratory screen.\n\n## Specimens and source scales\n\n- **External, GSE283386.** Three saline + water mice (GSM8661258–60) and three saline + 2.5% DSS mice (GSM8661261–63). DSS lasted five days. Isolated male C57BL/6J colonic epithelium was collected 14 days after withdrawal. Use the deposited MM285 array beta at each original probe ID. Map matrix columns by verified chip position.\n- **Nagaraja, GSE316762.** Three DMSO control mice (GSM9459788–90, M7/M8/M9) and three recovered DMSO mice (GSM9459782–84, M1/M2/M4). The recovered specimen records specify day 23 after withdrawal following three 7-day DSS cycles with 10-day breaks. The GEO sample protocol describes three vehicle administrations beginning at day 20 and sacrifice 24 hours after the last. GEO also has a generic epithelial cell-type field; its sample titles and DNA extraction explicitly identify whole-colon OCT sections. Use this tissue label. The paper’s general in-vivo inhibition methods describe another duration; sample-linked records govern the clock for these six libraries.\n- **Strand.** The old crosswalk fixes all eight unmasked probes, each in a distinct dyad. The array’s interrogated cytosine is the native plus-C coordinate on a plus probe or the C opposite the reference G at plus-C + 1 on a minus probe. Use the one original EM-seq track value covering that base. The five minus probes require their own strand values. The three plus probes use plus-C directly. No regional mean or dyad averaging. No individual is matched between studies.\n\n[External series](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283386) · [External paper, Fig. 4a and array methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC12873232/) · [Nagaraja tissue series](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316762) · [Recovered specimen clock](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9459782) · [Nagaraja paper, Extended Data Fig. 6 and methods](https://www.nature.com/articles/s41586-026-10258-4) · [Strand crosswalk](../../../../analysis/research/runs/ng26_jf_external_qualification_v1/array_dyads.tsv)\n\n## Frozen comparison for the next step\n\n1. Include exactly the eight prequalified probe IDs and six distinct mice in each study. Preserve both study IDs, original sample names/arms, source fraction/beta, assayed strand and reference coordinate. Validate one finite fraction in [0,1] per study, mouse and probe. A zero is measured. If an expected value is missing or identities/coordinates disagree, report the source conflict and hold execution for review; do not substitute a site, mouse or strand.\n2. At each site, independently within each study, compute **100 × (mean DSS-history fraction − mean corresponding control fraction)**. Weight the three mice equally in each arm. Positive indicates higher methylation after DSS. Show group means, individual mouse values, per-arm minima and maxima, and both within-study differences in percentage points. The studies share a direction convention, with different baselines, preparations, platforms, recovery times and independent mice. Do not pool them. Report the descriptive difference between the two estimates (external minus Nagaraja) with those limitations.\n3. Call positive, negative or exactly zero using arithmetic on the deposited decimal strings as rational numbers, before any display rounding. A tie in either cohort has its own category, including ties in both. For every site omit each of the six mice in each study once; recalculate the difference with two mice in the affected arm and three in the other. Report all omissions, their minima/maxima, and whether any becomes zero or reverses sign. These ranges describe dependence on the observed mice. Baseline ranges and individual values reveal small contrasts and extreme specimens.\n4. Show joint increases and joint decreases separately. A nonzero same-direction change that survives every omission in both cohorts is worth retaining **for follow-up as a recurrent marker**. Always report its actual magnitude and baseline spread. A concordant change that reaches zero or reverses under omission is fragile. Opposite signs or a one-cohort tie deprioritize a shared-direction interpretation and preserve the separate study observations. If both differences are exactly zero, record a joint tie. Even stable opposite signs suggest context dependence only; tissue, clock, assay and injury schedule vary together. Exact ties describe the deposited precision. No minimum effect, P-value cutoff or biological equivalence margin is assumed.\n5. The reporting units are eight sites in five selected fragments. Original mice supply biological replication; co-located probes and repeated measurements from the same mice do not. Keep every site and its parent interval. No cohort-pooled effect, independent-sites test, gene ranking or causal/regulatory-target inference.\n\n**Review boundary.** Step 1 verifies specimen identities, same-strand native source fractions and deposited external availability, then freezes the numerical contract. The external effect calculation and any recurrence or deprioritization label require the next owner instruction.\n",
+  "missingness_and_exclusions": "Accept zero and preserve exact deposited decimals. Halt for provenance review if an expected specimen/coordinate is duplicated or unavailable. No replacements or outcomes-driven filtering.",
+  "multiplicity": "Eight fixed site descriptions. No p-value threshold, ranking, pooled effect, gene inference or independent-site test.",
+  "precision_status": "unknown",
+  "precision_basis": "Three mice per arm, without an established material effect margin. Within-arm ranges and exhaustive one-mouse omissions assess finite-sample influence and are not confidence bounds.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Limited recurrence screen in two preparations and clocks. No adjudication of tissue-specific biology, causal regulation, late maintenance, gene targeting or relevance to all 63 amplicons.",
+  "stop_rule": "Execute only after owner review of Step 1. Hold on any input/identity/strand/eligibility failure; keep ties, discordant sites and unstable directions. Stop after reporting these eight sites.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+      "sha256": "c5bfed323f228d017e58c71010637fcf4a1c1e363163b650674c05a69a99e52c",
+      "study_id": "design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/specimens.tsv",
+      "sha256": "414bdfb2875cd4d6841fa4bcf3247e5618199fef8c1c740691045852e488dc38",
+      "study_id": "verified_independent_cohorts",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/nagaraja_same_strand.tsv",
+      "sha256": "a4271a633744c8da83678479d9814f856b8032a1601c6aee62362f79b76919d0",
+      "study_id": "GSE316762",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_dyads.tsv",
+      "sha256": "c9548c34b034ca92fd2a2265b748c2cf1285209dbcd973e160b8eeae5d4ee216",
+      "study_id": "cross_study_coordinates",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/matrix.gz",
+      "sha256": "86818d41b50280ae918e72ed60522b116a4071a541918e5866dac6538dbb7e19",
+      "study_id": "GSE283386",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/compare_saline.py",
+      "sha256": "411a14860eb02d2edd74f8dd23a9079333829ae81ebd19342c205c39649c0862"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/compare_saline.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "mouse_values.tsv",
+    "study_differences.tsv",
+    "mouse_omissions.tsv",
+    "site_comparison.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner requested the saline-only fixed-site follow-up after the external feasibility closeout; preserve the preceding qualification."
+}

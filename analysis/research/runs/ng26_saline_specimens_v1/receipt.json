@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_specimens_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.saline_specimens_v1.json",
+  "contract_sha256": "93c539e2d4a8588e12a6bedd93f362bd4a1ef351e11facf2be1e2031862462f7",
+  "git_commit": "96a87acfd60ae3bc658a3079f3c0b267198df050",
+  "started_at": "2026-11-21T07:21:04.965566+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/verify_specimens.py",
+    "analysis/research/runs/ng26_saline_specimens_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+      "sha256": "c5bfed323f228d017e58c71010637fcf4a1c1e363163b650674c05a69a99e52c",
+      "study_id": "design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_dyads.tsv",
+      "sha256": "c9548c34b034ca92fd2a2265b748c2cf1285209dbcd973e160b8eeae5d4ee216",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_specimens.tsv",
+      "sha256": "2db1446d4e2bd446b902e98ece1fca310f1a75e1a3d60f84575c3c2e1537f514",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_availability.tsv",
+      "sha256": "1ad37ee973015bbf29a9d978a02ea911772b5d7d35ddaeaad3eaa54c948f4606",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sources.tsv",
+      "sha256": "0cd39b63672213b0654a2f50312da8493a321cac61e84fbf5f930a1b52dd7e14",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316762_family.soft.gz",
+      "sha256": "9048beb58c9343d494b6bcb7c8ff361c36aac15dbf78be0227be0c7aa659c740",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/geo.soft.gz",
+      "sha256": "c0db76bcff6243c589621b4c1ab6af4bb2d4815dafba48df5cfa3fa72924e5b8",
+      "study_id": "GSE283386",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/verify_specimens.py",
+      "sha256": "8d290b0262d9e7da344e875ccf651774b435becb0ec5b4a35a005d43829d33d7"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/specimens.tsv",
+      "sha256": "414bdfb2875cd4d6841fa4bcf3247e5618199fef8c1c740691045852e488dc38"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/nagaraja_same_strand.tsv",
+      "sha256": "a4271a633744c8da83678479d9814f856b8032a1601c6aee62362f79b76919d0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T07:21:06.046526+00:00"
+}

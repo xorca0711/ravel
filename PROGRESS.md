@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Eight saline-only CpG markers, Step 1
+
+The [specimen checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md) confirms 3 + 3 saline mice in GSE283386 (day-14 isolated epithelium) and 3 + 3 Nagaraja vehicle mice (day-23 recovered whole-colon sections). All eight flanking sites have their original same-strand native specimen values and external availability. The [prospective comparison](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md) fixes within-study percentage-point differences, exact ties, baseline ranges and individual mouse omissions. Await owner review before calculating any external effect.
+
 ## 2026-11-21 — Nagaraja JUN–FOXP1 external qualification and local closeout
 
 Following owner review of Stage 3 at `61397c1`, the final [qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md) found all four barcode-matched SELEX starting libraries in PRJEB20112. The native 12-base motif had 0–2 reads per library; the shorter CpG–AP1 context had 25–116. The independent colon array measures eight exact flanking dyads, with three usable mice per arm and zero scored-motif probes. Both candidates support limited comparisons. Neither tests late methylation-dependent co-binding. The package is ready for final owner review. No external effect estimates were run.
