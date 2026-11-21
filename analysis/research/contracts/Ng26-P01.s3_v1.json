@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s3_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do organoid EdU and post-washout size, defined-protein footprinting on two locus classes, and local methylation inform distinct explanations of the colitis-associated chromatin state?",
+  "decision": "Complete S3 eligible panels 2l, 2n, 3i and the 2o-p source/locus check. Stop for review.",
+  "strongest_rival": "Immediate drug response, selected cultures and nested organoids can mimic stable history effects. Differential binding at selected loci can depend on denominator and sequence; one library per TF condition limits prep generalization. ATAC and methylation differences may share state or preparation composition.",
+  "discriminator": "Keep drug-on percentages per labelled line, washout sizes per individual organoid, binding ratios within locus with single-protein and no-TF libraries, and methylation fractions within the same published locus separated by endpoint. Compare each with its own original source or summary.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/ng26_s2_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Exposed to Fig. 2 and 3 directions, printed P values, Table 6 summaries, six mouse/line labels and the unpaired and nested designs. Structural inspection confirmed the workbook headers, representative score rows, published Thbs1 axis and per-track interval presence. No S3 group estimates were calculated before freeze.",
+  "biological_unit": "EdU: line-labelled replicate within each arm, cross-arm pairing unknown. Diameter: individual organoid, nested well/line labels absent. Footprinting: 63 selected sequence loci, all 13 library conditions matched within locus; one per named TF condition and two no-TF libraries. Methylation: six P4 mouse-labelled organoid libraries, three per history, with equal CpG weight within each.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Arm replicate numbers do not prove pairing or distinct donors across arms. Organoids share wells; loci share protein libraries, sequences are not independent protein preparations. EM and ATAC mouse labels align by name but exact aliquot/passage identities are unverified.",
+  "population_and_selection": "All 17 Fig. 2l rows, 311 Fig. 2n organoids and all 819 raw Table 6 cells in 29 AP1-only and 34 composite loci. Six public GSE316761 tracks in the figure-labelled Thbs1 interval, interpreted as mm10 chr2:[118115000,118118000); actual selected heatmap boundaries are rounded. For primary locus summary use shared nonmissing reference-plus C positions in CG dyads, equal weights, including observed zeros.",
+  "contrast": "Drug minus vehicle separately by history and colitis minus control under each treatment, on actual unit scale. At each locus divide measured footprint by JUNFOS score, compare means with one by motif class as in Fig. 3i. For Thbs1 contrast normalised track fraction means between mouse-labelled groups after equal-site then equal-library weighting.",
+  "endpoint": "All measurements and 4-arm means/medians, diameter IQR/strict >200 um percentage and object-level rank sums; per-locus raw and relative footprint scores and per-condition means/SD/SEM/P versus Table 6. Coverage availability, shared CpG fractions, six sample summaries, locus difference in percentage points; two PDF/PNG figures.",
+  "methods": "EdU unpaired Welch and pooled two-sided t readbacks where cross-arm pairing unknown (no invented pair). Diameter rank sums per Mann-Whitney normal approximation with tie and continuity correction, descriptive at object level. Binding scores are measured ATAC depletion on defined-protein templates, using predicted sites only for selection. One-sample two-sided t versus relative score 1 in each class, SD and SEM across loci. Keep both no-TF libraries and compare their per-locus arithmetic average to the Table 6 pooled Control row, branch if incompatible. Do not test differences between classes from separate P values. Methylation: intersect reference-plus C positions of CpG dyads in six unzoomed UCSC bedGraph slices, preserve one value per position and per-library missingness, ignore unreported read-depth weight, compare common sites. Two-sided P only for replayed assays; no new P for Thbs1.",
+  "missingness_and_exclusions": "No imputation of absent CpGs or inference of absent read depth from zero methylation. Fail affected binding fit if a missing or zero JUNFOS denominator or duplicate condition-locus key. No new tissue prediction fits, no Fig. 2o joint correlation from mismatched/group summaries, no inferred wells or paired lines.",
+  "multiplicity": "Published Fig. 3i nominal per-condition one-sample P, no BH reinterpretation. Four planned within-treatment/within-history contrasts per functional panel (descriptive) with no new discovery claims. Thbs1 author-selected locus.",
+  "precision_status": "unknown",
+  "precision_basis": "EdU has 3-5 line labels per arm. Diameter lacks well and donor labels. Binding SEM is across 29 or 34 selected loci; library preparation replication unavailable for named protein groups. Thbs1 has three mouse-labelled methylation libraries per history, no per-CpG depth. No generalized confidence claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "The inhibitor readouts, defined-protein scores and local EM-seq fractions describe different materials. They cannot identify an inherited carrier, physiological TF occupancy, direct protein interaction, causal repression or paired methylation/accessibility. Fig. 2o across-region association remains the authors' estimate absent the original joint inputs.",
+  "stop_rule": "Stop on input/hash drift, arm/feature counts, invalid/duplicate measurements or ambiguous track mapping. Preserve any difference from printed statistics and comparable Table 6 summaries (>1e-8 in means/SD) or missing keys, avoid ratio/pseudocount or selection tuning. Stop after S3.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm8.xlsx",
+      "sha256": "73e3755071d9fe1a15f14235ae1c1d051a7a2a9132bd5cbd4a0435802117b2f6",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/7_inVitroFootprinting/Regions.csv",
+      "sha256": "c5f0855f33d510a5a94f19d87c5cd1c48db50df2502c9b09ab7d0d77ed3696bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316761_family.soft.gz",
+      "sha256": "a01e14675e5f55f5c30a9c9974c60ac9b30b653411c362c5a8f54a9985e66cb5",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316763_family.soft.gz",
+      "sha256": "da1dd3868c5453d44417e8898afe71ec2fca15ec8b65eb320a7220bdfdbda67b",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS5536ZQMO.json",
+      "sha256": "80bb21ae8d4474255d2613796adf35c9b06e931a6335a099c4e453b6e5a522a4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_reference.txt",
+      "sha256": "6c0fbf5ad45842f2bf94e06a4450ed0602229d37f04088cc9ed89dc962b827cd",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_track_sources.tsv",
+      "sha256": "cb3fef9dec887dfd273b9e789a116c97f544368b41e0551b33816e77d11b0287",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_track_slices.tsv",
+      "sha256": "3389c1abe5f3b9a3bc34c481b3bde5946b3cb62586f0e1497dd14096885a85bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/readback.py",
+      "sha256": "7b7487f555547e99e7e739e13517f1693828250b234b623cbc284d491f5444c2"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/plot_readback.py",
+      "sha256": "b4e7ee612263abb1bfed0302d4eb3fe7ccff8dcf543b5cf7d091994b1531b5f1"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/readback.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "function_measurements.tsv",
+    "function_groups.tsv",
+    "function_contrasts.tsv",
+    "binding_loci.tsv",
+    "binding_summary.tsv",
+    "thbs1_cpg_fractions.tsv",
+    "thbs1_libraries.tsv",
+    "thbs1_contrast.tsv",
+    "organoid_phenotypes_and_thbs1.png",
+    "organoid_phenotypes_and_thbs1.pdf",
+    "fig3i_defined_protein.png",
+    "fig3i_defined_protein.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First S3 contract after owner review of S2."
+}

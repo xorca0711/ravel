@@ -1,0 +1,138 @@
+{
+  "protein_rows": 19,
+  "protein_fraction_checks": "all within 1e-12",
+  "microscopic_counts_ed9gh": {
+    "Control": 81,
+    "Colitis recovered": 241
+  },
+  "organoid": {
+    "clean_rows": 4670,
+    "clean_pairs": 5364,
+    "score_rows": 1439685,
+    "score_features": 299,
+    "score_cells": 4193,
+    "score_clones": 128,
+    "score_pairs": 4815,
+    "clean_clones": 440,
+    "join_counts": {
+      "both": 4815,
+      "left_only": 549,
+      "right_only": 0
+    },
+    "duplicate_score_keys": 0,
+    "nonfinite_scores": 11228,
+    "features_per_pair_min_max": [
+      299,
+      299
+    ],
+    "overlapping_cells_clean": 638,
+    "overlapping_cells_scored": 585,
+    "score_disagreements_in_overlaps": 0,
+    "multiple_lines_per_clean_clone": 9,
+    "multiple_histories_per_scored_clone": 4
+  },
+  "lookup": {
+    "records_by_number_of_distinct_specimen_matches": {
+      "main_tissue.RNA": {
+        "0": 6779,
+        "1": 90776,
+        "2": 14322
+      },
+      "main_tissue.ATAC_preview": {
+        "0": 203,
+        "1": 4845
+      },
+      "extended_tissue.RNA": {
+        "0": 112003,
+        "1": 30265
+      },
+      "extended_tissue.ATAC_preview": {
+        "0": 28,
+        "1": 4894
+      },
+      "organoid.RNA": {
+        "1": 77229
+      },
+      "organoid.ATAC_preview": {
+        "0": 9,
+        "1": 5014
+      },
+      "organoid.clean_or_scored_ATAC": {
+        "1": 4670
+      }
+    },
+    "map_rows_scanned": {
+      "IGVFFI0200BNGG": 1769472,
+      "IGVFFI0569SWMX": 8847360,
+      "IGVFFI2122MRGS": 6193152,
+      "IGVFFI2524VBIM": 1769472,
+      "IGVFFI2849MQJB": 12386304,
+      "IGVFFI3632MESS": 3538944,
+      "IGVFFI6171YXAF": 3538944,
+      "IGVFFI8634LLPI": 5308416,
+      "IGVFFI9675OFBL": 3538944
+    },
+    "matrices": {
+      "main_tissue": {
+        "h5_fields": [
+          "barcodes",
+          "data",
+          "gene_names",
+          "genes",
+          "indices",
+          "indptr",
+          "shape"
+        ],
+        "matrix": "IGVFFI8996JBOK",
+        "fragments": "IGVFFI0855DXJQ",
+        "barcode_maps": [
+          "IGVFFI0569SWMX",
+          "IGVFFI2122MRGS",
+          "IGVFFI3632MESS",
+          "IGVFFI8634LLPI",
+          "IGVFFI9675OFBL"
+        ]
+      },
+      "extended_tissue": {
+        "h5_fields": [
+          "barcodes",
+          "data",
+          "gene_names",
+          "genes",
+          "indices",
+          "indptr",
+          "shape"
+        ],
+        "matrix": "IGVFFI1175PWEJ",
+        "fragments": "IGVFFI4859TVVD",
+        "barcode_maps": [
+          "IGVFFI0200BNGG",
+          "IGVFFI2524VBIM",
+          "IGVFFI6171YXAF"
+        ]
+      },
+      "organoid": {
+        "h5_fields": [
+          "barcodes",
+          "data",
+          "gene_names",
+          "genes",
+          "indices",
+          "indptr",
+          "shape"
+        ],
+        "matrix": "IGVFFI1250KMMT",
+        "fragments": "IGVFFI1146PULR",
+        "barcode_maps": [
+          "IGVFFI2849MQJB"
+        ]
+      }
+    },
+    "same_indexed_barcode_main_extended_RNA": 111877,
+    "extended_unmatched_with_main_map_match_counts": {
+      "1": 90776,
+      "2": 14322,
+      "0": 6905
+    }
+  }
+}

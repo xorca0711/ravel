@@ -1,0 +1,44 @@
+export	mapping	raw_suffix	p1	candidate_count	unsuffixed_core_observed	barcodes	unique_fragments	autosomal_unique	duplicate_rows	read_support
+extended	exact map lacks technical pool support	none	31	1	True	22919	10287758	10043077	0	23108063
+extended	exact map lacks technical pool support	none	32	1	True	1715	1756827	1709530	0	4361298
+extended	no exact map row	none	25	0	True	1135	250075	245581	0	254965
+extended	no exact map row	none	31	0	True	120	36688	35787	0	44718
+extended	no exact map row	none	32	0	True	197	46586	45278	0	52047
+extended	no exact map row	none	38	0	True	1437	437861	428672	0	476728
+extended	qualified	none	25	1	True	9916	19733961	19370344	0	24923061
+extended	qualified	none	31	1	True	39896	17345328	16924667	0	39012938
+extended	qualified	none	32	1	True	3638	3135437	3051505	0	7817678
+extended	qualified	none	38	1	True	236454	82089520	80339165	0	128037332
+main	documented suffix, shared core	-2	62	1	True	96	210197	204792	0	364587
+main	no exact map row	-2	62	0	False	97	25063	24352	0	28336
+main	no exact map row	none	3	0	True	55	11486	11219	0	11929
+main	no exact map row	none	5	0	True	86	28229	27531	0	31000
+main	no exact map row	none	6	0	True	118	29858	29013	0	31524
+main	no exact map row	none	9	0	True	6	1094	1076	0	1097
+main	no exact map row	none	10	0	True	203	49719	48509	0	53091
+main	no exact map row	none	49	0	True	83	17958	17490	0	18876
+main	no exact map row	none	58	0	True	73	15199	14762	0	17143
+main	no exact map row	none	59	0	True	108	30001	29290	0	38067
+main	no exact map row	none	60	0	True	85	24407	23792	0	25999
+main	no exact map row	none	61	0	True	104	27532	26913	0	29399
+main	no exact map row	none	62	0	True	17	3177	3092	0	4229
+main	no exact map row	none	63	0	True	81	19239	18750	0	21002
+main	no exact map row	none	64	0	True	171	39361	38388	0	49527
+main	no exact map row	none	68	0	True	69	18117	17627	0	19385
+main	no exact map row	none	70	0	True	131	27840	27157	0	32509
+main	qualified	none	3	1	True	5235	16937385	16543653	0	23179631
+main	qualified	none	5	1	True	7001	16311173	15929273	0	24726345
+main	qualified	none	6	1	True	18238	38908734	37821087	0	51292840
+main	qualified	none	9	1	True	8936	2281382	2234896	0	2360856
+main	qualified	none	10	1	True	60894	72755774	71065856	0	96570930
+main	qualified	none	49	1	True	19959	34838800	33883663	0	44443607
+main	qualified	none	58	1	True	10896	19332020	18845756	0	38490439
+main	qualified	none	59	1	True	3957	15819206	15442713	0	40507806
+main	qualified	none	60	1	True	8371	13956509	13633089	0	19406126
+main	qualified	none	61	1	True	8028	14870583	14522076	0	21192729
+main	qualified	none	62	1	True	3238	5288768	5154909	0	9423061
+main	qualified	none	63	1	True	10305	13989874	13642351	0	22515823
+main	qualified	none	64	1	True	9025	31699070	30944316	0	60628424
+main	qualified	none	68	1	True	7879	20440761	19874584	0	28272798
+main	qualified	none	70	1	True	191555	100146683	97482996	0	130593155
+main	qualified documented suffix	-2	62	1	False	10029	17128060	16697537	0	29738825

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_markers_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.saline_markers_v1.json",
+  "contract_sha256": "abd4d35a94fe06129d8b1835d40fcc25ed9e78e99bed523dd3517f8295247bcd",
+  "git_commit": "50eaec0d93b5f61a86c181a9110e74cfd1274671",
+  "started_at": "2026-11-21T07:26:41.105959+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/compare_saline.py",
+    "analysis/research/runs/ng26_saline_markers_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+      "sha256": "c5bfed323f228d017e58c71010637fcf4a1c1e363163b650674c05a69a99e52c",
+      "study_id": "design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/specimens.tsv",
+      "sha256": "414bdfb2875cd4d6841fa4bcf3247e5618199fef8c1c740691045852e488dc38",
+      "study_id": "verified_independent_cohorts",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_specimens_v1/nagaraja_same_strand.tsv",
+      "sha256": "a4271a633744c8da83678479d9814f856b8032a1601c6aee62362f79b76919d0",
+      "study_id": "GSE316762",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_dyads.tsv",
+      "sha256": "c9548c34b034ca92fd2a2265b748c2cf1285209dbcd973e160b8eeae5d4ee216",
+      "study_id": "cross_study_coordinates",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/matrix.gz",
+      "sha256": "86818d41b50280ae918e72ed60522b116a4071a541918e5866dac6538dbb7e19",
+      "study_id": "GSE283386",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/compare_saline.py",
+      "sha256": "411a14860eb02d2edd74f8dd23a9079333829ae81ebd19342c205c39649c0862"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/mouse_values.tsv",
+      "sha256": "f1f58dff415009478d82a8cd115b7bed83e6c787ff86d958a3a9aada6c07a1e1"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/study_differences.tsv",
+      "sha256": "8a0f749531c7657a738aaaf96945794fc93e5d3824994f46be270b12c1045d68"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/mouse_omissions.tsv",
+      "sha256": "8d219d7cee15f540a35274b7b2bc96a6703081536c486e7f77cf7453e6d04c3b"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/site_comparison.tsv",
+      "sha256": "fcc619d4d52a0ccb4a064bfff18fb959fae07fc8ba0896f9d06af38983b24f52"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T07:26:43.882978+00:00"
+}

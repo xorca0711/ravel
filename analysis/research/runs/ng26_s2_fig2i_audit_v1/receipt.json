@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s2_fig2i_audit_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s2_fig2i_audit_v1.json",
+  "contract_sha256": "cf9acd91aca4f5dee5e95a372b6984101b2d1f6718f53795b64a9acae9ab41d6",
+  "git_commit": "99545465e7f2a8f54873c6dad1c8ecfa02580b05",
+  "started_at": "2026-11-19T13:23:03.979907+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/check_panel_i.py",
+    "analysis/research/runs/ng26_s2_fig2i_audit_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fos_clones.tsv",
+      "sha256": "63105c325fe7b3efc148657ec3318ad9923523bd1601ae8c6a30b5a4f34f3cdd",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/check_panel_i.py",
+      "sha256": "99021e4869357110c7624a82ea23935ea662d4d20a8a9ac130756346a1d80a4b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s2_fig2i_audit_v1/panel_counts.tsv",
+      "sha256": "9921663717f6f82edcecab4b2c94b2fc7f90a475cbf178f6f187683da15dad8a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_fig2i_audit_v1/ranked_glyphs.tsv",
+      "sha256": "a349822fa3b1fddcd9bea0c86f79b6a1f98c380fd1a2094b45772d21326d758a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_fig2i_audit_v1/panel_tests.tsv",
+      "sha256": "60d4fd597f63bba6206894993139dbe631213d45a0774bbe27d60c8d92f6b28d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T13:23:09.544180+00:00"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_methylation_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which of the 63 paired Table 6 intervals have annotated motif coordinates, mm10 reference CpGs and observed native methylation in the original study specimens?",
+  "decision": "Qualify exact binding rows, motif/flank geometry and available common-CpG comparisons before any association, separately for tissue and organoids.",
+  "strongest_rival": "Selection of 63 sites, tissue and culture composition, shared technical runs, missing or ambiguous samples, variable depth and lack of independent state labels can restrict an eventual comparison.",
+  "discriminator": "Actual reference sequence and unzoomed specimen-specific bigWig intervals distinguish structural CpG absence, unreported values and represented zero fractions.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original paper, Table 6 binding interpretation, S0-S6 and deposit review were known. Stage 1 examines presence, units, depth and missingness. No association or between-arm effect was inspected or estimated.",
+  "biological_unit": "Native ATAC and tissue methylation use mice, separate organoid methylation uses source-labelled mouse lines. Binding uses paired sequences with one library per protein condition. Reads, CpGs, loci, barcodes and technical pools are nested observations.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Deduplicate shared specimen/donor accessions across technical records. Do not pool tissue and organoid cohorts. Full and extended ATAC exports are distinct technical sources, with original within-cohort controls preferred.",
+  "population_and_selection": "All 63 original amplicons, both raw protein conditions and original motif classes; six P4 organoid and twelve whole-colon tracks. All eligible and unavailable sample-window cells retained.",
+  "contrast": "Coverage only. Count shared reference CpGs within each proposed organoid history, tissue vehicle history, recovered drug, and four-arm tissue set. No methylation differences or binding contrasts calculated.",
+  "endpoint": "Original Excel rows, pinned intervals and components, source hashes, each reference CpG measurement status, specimen/window coverage and exact shared positions for the proposed contrasts.",
+  "methods": "Use zero-based half-open geometry from Regions.csv and floored score center/relative offsets from author v1.0.1 notebook. Both bases of every counted dyad lie inside its window. Include amplicon, score, composite, annotated AP1 and FOX subcores and nonoverlapping left/right flanks outside the score/composite union. Validate reference assembly, source interval bounds, fraction range, duplicate bases, and an independent repeated S3 regional download in every track. Reference plus-C site with no stored entry is missing; a stored zero is represented zero. Summarize coverage without magnitudes or history contrasts.",
+  "missingness_and_exclusions": "No FOX/composite annotation in AP1-only group means inapplicable. No reference CpGs, missing plus-C observations, measured zero and positive covered status are preserved. A locus qualifies for a methylation contrast only with at least one common site present in each intended mouse/line; report all failures. BigWigs lack sequencing-depth denominators.",
+  "multiplicity": "No tests, effect estimates, outcome selection or rankings. Retain all 63 intervals and all original samples including unavailable cases.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical coverage and presence only. No biological precision or power estimated.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source qualification does not identify cellular state, occupancy, retained protein, methylation causality, biochemical interaction strength or change after exposure.",
+  "stop_rule": "Stop on unmatched original score/amplicon keys, malformed reference, changed audit slice or overlapping contradictory intervals. End Stage 1 at availability, no association.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_jf1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/7_inVitroFootprinting/Regions.csv",
+      "sha256": "c5f0855f33d510a5a94f19d87c5cd1c48db50df2502c9b09ab7d0d77ed3696bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_sources_v1/ed6_tissue_sources.tsv",
+      "sha256": "add6afd991d48e50078b5332a5b4fd7a466cdb726493de3a7f466ed4ab0b5626",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_sources_v1/thbs1_track_sources.tsv",
+      "sha256": "cb3fef9dec887dfd273b9e789a116c97f544368b41e0551b33816e77d11b0287",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s3/bigWigToBedGraph",
+      "sha256": "8eeab2f2ae48e321ff5db8e0654ab6e97718902bfa8c89ff0c0f4446f46bad60",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify.py",
+      "sha256": "0e503ffb6c0c83d7b71d102ee2ef0df9852bd5a6ebd452d34febbd3d822acd20"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/methylation.py",
+      "sha256": "73f801957262fc0077796225b86bbbd5c972a9175f1a834074fb25279a78b8a8"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/bundle_inputs.py",
+      "sha256": "f14ce3f4351eb488a99aab45bc1a3305bc24e0fa6918760a274c86f232878c9d"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_support.py",
+      "sha256": "bd519f2b3518abfab0cb1b65ec478dac30cb75e6165d49d0397d11fab23e9c9f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/slice_tracks.py",
+      "sha256": "c07f1bc8e73d3df941a6e59571996ae6af64d223aa482ff7e5ff93d148998e1f"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "binding_panel.tsv",
+    "mm10_windows.tsv",
+    "methylation_sources.tsv",
+    "methylation_slices.tsv",
+    "methylation_dyads.tsv.gz",
+    "methylation_sample_windows.tsv.gz",
+    "methylation_contrast_coverage.tsv",
+    "stage1_sources.zip"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-requested source and coverage qualification after S6. Separate Stage 1 metadata receipt."
+}

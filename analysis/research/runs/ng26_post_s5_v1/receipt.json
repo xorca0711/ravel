@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.post_s5_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.post_s5_v1.json",
+  "contract_sha256": "2028f2ff04f2955226ba7626b232976fc1cc0a59326365aed2510c1d647baefd",
+  "git_commit": "7745e8522d27ae71715e485223a5bf27ccd1d5c1",
+  "started_at": "2026-11-20T00:52:44.683438+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/compare_families.py",
+    "analysis/research/runs/ng26_post_s5_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/dispersion.tsv",
+      "sha256": "2d188d8f228fb9c8b464f1a07dc4633ab59f0b240638bb463cb16d7d40765bee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/exclusive_cells.tsv",
+      "sha256": "dacca65892b78de5b66ec7fc8fad2dac249b7881c20f375b620bf9c64f55c1cc",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/02a_diff_motifs.R",
+      "sha256": "df7b958b8a45026370440e0ef574358c13cb48f1acdd70677eacd70e5c6e1845",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04_SHARE_TRACE.variance_testing.R",
+      "sha256": "1aa9b4e80e830bac8511786429d80b1c7df7ff9ddb6b40fbea29401655fe51de",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/compare_families.py",
+      "sha256": "b4902a314eeb9a9e0615ad2990bb2ce70987a71b0dc24390d73c9546095d385a"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/family_sources.py",
+      "sha256": "560c7d1e5c0fc0c77a8c9633533e4aa447c7e780b2e52a809945b9fec4b41887"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/plot_families.py",
+      "sha256": "b2a9eb8bcdc98c2463cbdf35ae466c2959958324cf71a45af150a5ae6c88f051"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/table2_catalog.tsv",
+      "sha256": "bb77ef128d398021fbe5bac97cd57c33770cb4e40fdebfc366ff329dacec3942"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/reporter_links.tsv",
+      "sha256": "d09863adae22878d14f300034123482b40bdb70bce6735e478d0dbb6f8eb4a75"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/family_evidence.tsv",
+      "sha256": "db6276862664ad0d487f027fc4f52dc5cffc39a480c3cdd296f8d2823d246f47"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/clone_selections.tsv",
+      "sha256": "e67d3c2e60e4091b723058abcac07698b2f88d913ab4bb8c1c191332e0b05ff3"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/conditional_draws.tsv",
+      "sha256": "9e8d179f27bedd3da7dd27282dc8b0b5dd904aaf9867bc8b983a4bde0dda4aac"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/stability.tsv",
+      "sha256": "8ac499ce7c521a8399a7a1979ed10bf3ab2cfecb0e2233217a20da983b60d02b"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/family_evidence.png",
+      "sha256": "3874f41d9b1267120233164b7dbb8dc99279eb4360bbbc31ec75722e9b65d4b1"
+    },
+    {
+      "path": "analysis/research/runs/ng26_post_s5_v1/family_evidence.pdf",
+      "sha256": "39bd077b6bf3ab4387e1f86764daa53344ef46f8c0f00613d08172c10f1b2263"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T00:53:43.771621+00:00"
+}

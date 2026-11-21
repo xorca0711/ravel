@@ -1,0 +1,93 @@
+time	methylation	model	window	atac_controls	atac_recovered	methylation_controls	methylation_recovered	check	subgroup	covariates	n	design_columns	design_rank	rho	status
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	63	4	4	-0.05974240430845	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	unadjusted	all	intercept	63	1	1	-0.0227545485356522	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	within_class	AP1 only	intercept	29	1	1	-0.169458128078818	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	within_class	AP1 + Fox	intercept	34	1	1	0.0615784248110854	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	per_kb	all	class,amplicon_width,density	63	4	4	-0.0594678876720214	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	63	6	6	-0.0911144565379343	estimated
+d102	P4_amplicon	P4 organoid	amplicon	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	63	5	5	-0.0534241758637678	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	58	4	4	-0.123451006182398	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	unadjusted	all	intercept	58	1	1	-0.102319572207122	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	within_class	AP1 only	intercept	27	1	1	-0.275377808123645	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	within_class	AP1 + Fox	intercept	31	1	1	0.0189516129032258	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	per_kb	all	class,amplicon_width,density	58	4	4	-0.123451006182398	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	58	6	6	-0.142910431780038	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	58	5	5	-0.147574717657261	estimated
+d102	P4_left_flank	P4 organoid	left_flank	2	4	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	58	5	5	-0.143144415184527	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	62	4	4	-0.0529389074238458	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	unadjusted	all	intercept	62	1	1	-0.0498627515805336	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	within_class	AP1 only	intercept	29	1	1	-0.0386747139280381	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	within_class	AP1 + Fox	intercept	33	1	1	0.0992812983949439	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	per_kb	all	class,amplicon_width,density	62	4	4	-0.0527307063120824	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	62	6	6	-0.0518302835988868	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	62	5	5	-0.05255137058631	estimated
+d102	P4_right_flank	P4 organoid	right_flank	2	4	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	62	5	5	-0.0598368765845909	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	63	4	4	-0.00705806049848082	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	unadjusted	all	intercept	63	1	1	-0.0162492349430257	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	within_class	AP1 only	intercept	29	1	1	-0.012807881773399	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	within_class	AP1 + Fox	intercept	34	1	1	0.133078686019862	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	per_kb	all	class,amplicon_width,density	63	4	4	-0.00965308290805379	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	63	6	6	0.0239082957717164	estimated
+d102	vehicle_amplicon	whole colon	amplicon	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	63	5	5	-0.00540239689808057	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	58	4	4	0.0269480518580193	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	unadjusted	all	intercept	58	1	1	0.0360856458806236	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	within_class	AP1 only	intercept	27	1	1	-0.023813158573885	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	within_class	AP1 + Fox	intercept	31	1	1	0.119354838709677	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	per_kb	all	class,amplicon_width,density	58	4	4	0.0269480518580193	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	58	6	6	0.0122029399168679	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	58	5	5	-0.0117182492323382	estimated
+d102	vehicle_left_flank	whole colon	left_flank	2	4	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	58	5	5	0.0106256256891133	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	geometry_adjusted	all	class,amplicon_width,density	62	4	4	-0.0214489516969575	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	unadjusted	all	intercept	62	1	1	-0.0704617283520627	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	within_class	AP1 only	intercept	29	1	1	-0.0431140688127427	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	within_class	AP1 + Fox	intercept	33	1	1	0.142045454545455	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	per_kb	all	class,amplicon_width,density	62	4	4	-0.0234929299145223	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	62	6	6	0.0282177457650754	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	62	5	5	-0.0215944828145913	estimated
+d102	vehicle_right_flank	whole colon	right_flank	2	4	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	62	5	5	-0.00298168937462246	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	63	4	4	-0.204317029038209	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	unadjusted	all	intercept	63	1	1	-0.193413662553043	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	within_class	AP1 only	intercept	29	1	1	-0.564039408866995	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	within_class	AP1 + Fox	intercept	34	1	1	0.107112843157744	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	per_kb	all	class,amplicon_width,density	63	4	4	-0.201959640256167	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	63	6	6	-0.315388955871914	estimated
+d50	P4_amplicon	P4 organoid	amplicon	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	63	5	5	-0.192577301453111	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	58	4	4	-0.323862455983548	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	unadjusted	all	intercept	58	1	1	-0.26862733148304	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	within_class	AP1 only	intercept	27	1	1	-0.688139223404319	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	within_class	AP1 + Fox	intercept	31	1	1	0.141935483870968	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	per_kb	all	class,amplicon_width,density	58	4	4	-0.321109802689505	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	58	6	6	-0.336591742483101	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	58	5	5	-0.320275092031906	estimated
+d50	P4_left_flank	P4 organoid	left_flank	2	2	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	58	5	5	-0.317207365919177	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	62	4	4	-0.141669496802795	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	unadjusted	all	intercept	62	1	1	-0.105341358515844	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	within_class	AP1 only	intercept	29	1	1	-0.365562264135086	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	within_class	AP1 + Fox	intercept	33	1	1	0.0775530681064882	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	per_kb	all	class,amplicon_width,density	62	4	4	-0.139419507247952	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	62	6	6	-0.23222520535899	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	62	5	5	-0.139141101414035	estimated
+d50	P4_right_flank	P4 organoid	right_flank	2	2	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	62	5	5	-0.14303648243067	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	63	4	4	0.0574790473176869	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	unadjusted	all	intercept	63	1	1	0.0502838215740603	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	within_class	AP1 only	intercept	29	1	1	-0.0157635467980295	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	within_class	AP1 + Fox	intercept	34	1	1	0.183498854087089	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	per_kb	all	class,amplicon_width,density	63	4	4	0.0574977683337838	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	63	6	6	-0.0484953578097362	estimated
+d50	vehicle_amplicon	whole colon	amplicon	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	63	5	5	0.0621294473762717	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	58	4	4	0.0353469600641318	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	unadjusted	all	intercept	58	1	1	0.0512828403094626	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	within_class	AP1 only	intercept	27	1	1	0.0650282407209938	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	within_class	AP1 + Fox	intercept	31	1	1	0.017741935483871	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	per_kb	all	class,amplicon_width,density	58	4	4	0.0380467875406321	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	58	6	6	-0.00693398837766999	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	58	5	5	0.0491932533329938	estimated
+d50	vehicle_left_flank	whole colon	left_flank	2	2	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	58	5	5	0.0485284285427887	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	geometry_adjusted	all	class,amplicon_width,density	62	4	4	0.0395966997108461	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	unadjusted	all	intercept	62	1	1	0.07396215016798	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	within_class	AP1 only	intercept	29	1	1	-0.0342448889426928	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	within_class	AP1 + Fox	intercept	33	1	1	0.116310160427808	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	per_kb	all	class,amplicon_width,density	62	4	4	0.0378668556899071	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	coupled_baselines	all	class,amplicon_width,density,atac_control,methyl_control	62	6	6	-0.0461810122404397	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	common_CpG_adjustment	all	class,amplicon_width,density,common_CpGs	62	5	5	0.0389140329697009	estimated
+d50	vehicle_right_flank	whole colon	right_flank	2	2	3	3	flank_width_adjustment	all	class,amplicon_width,density,window_width	62	5	5	0.0433222817984286	estimated

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s1_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "After recovery from colitis, how does the mouse-level fraction of CD44-positive crypt cells staining for FOS compare with controls, alongside the original study summaries of motif accessibility and stem-cell transcription?",
+  "decision": "Complete only the qualified Fig. 1 panels, assess whether the measured protein, author motif and RNA summaries agree in timing, and return for review before S2.",
+  "strongest_rival": "Between-mouse variation, crypt sampling and epithelial composition can change staining or state-average accessibility; the assays share a study but lack a mouse-by-mouse or same-cell crosswalk. DE calls also depend on the tested/adjusted gene universe and selection during injury.",
+  "discriminator": "Use separate unpaired mice, show their numerators and denominators, seven stages and a leave-one-mouse-out primary sensitivity. Read Fos motif change within each annotated cell state and follow a fixed injury-up RNA set into recovery, with missing and untestable genes retained.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/sources.tsv",
+    "analysis/research/runs/ng26_s0_v2/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published directions, Fig. 1e displayed counts 66, 184 and 7, the stated 246-gene set and >97% claim, workbook dimensions, representative values, all 19 prior mouse source counts, the protocol-day map, Table 1 missingness and S0 eligibility were known before freeze. No independent confirmation is intended.",
+  "biological_unit": "Separate mice in the FOS panel; cells are counted inside each mouse. For Tables 1 and 3, the authors summarized mouse-by-state data; this readback uses gene-by-stage and state-by-stage statistics, not original replicate observations.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Replicate labels repeat across independent harvest stages. Fig. 1k is part of Fig. 1l; the controls are reused. Protein and sequencing have no documented animal or cell identity crosswalk. RNA genes and three epithelial states are not independent mice.",
+  "population_and_selection": "All 19 MOESM7 mouse-labelled rows; primary early recovery day 63 and control day 0 (three per group). All nine Fos-leader rows from Table 3, and all uniquely keyed stem-cell genes in the acute, chronic and recovered sheets of Table 1 as identified in Supplementary Information p.10. The extra 50-day RNA sheet lies outside the original 1d-f three-stage comparison.",
+  "contrast": "Primary estimand: unpaired early-recovery mean minus control mean of 100 times double-positive/CD44-positive within each mouse, in percentage points, each mouse equally weighted. Descriptive context: the other five stages, nine deposited Fos motif deltas versus control and within-stage thresholds on released RNA estimates.",
+  "endpoint": "Primary contrast, stage means/ranges and omission range; full mouse counts and clocks, original motif delta/P/BH, RNA sheet and fixed injury-union calls, missingness and median log2 fold changes, two Fig. 1f marker readbacks, figure PDF and PNG.",
+  "methods": "Pandas-free worksheet parsing with openpyxl and Python arithmetic. Use protocol day in the workbook; derive elapsed time from first withdrawal day 8 for acute and third withdrawal day 42 for chronic and recovery; control has no withdrawal. Compare means and remove each of six mice in turn as influence sensitivity. Retain released Table 3 Fos values without refitting. Within each Table 1 sheet, call up if positive log2FC and original padj < 0.05, down if negative and padj < 0.05. Form the union of acute/chronic up genes, tabulate all three stages on that fixed set, including finite LFC medians and absence/NA. Record Lgr5 and Mki67 without selecting them by effect. Do not infer or reverse-engineer the 14-gene blacklist. Plot separate scales for three assays.",
+  "missingness_and_exclusions": "Preserve a measured zero numerator. No positive denominator or label is imputed. For RNA, missing adjusted P or LFC and absent rows are distinct from threshold failure. Stage-specific selected DESeq2 gene sets have different coverage. Hold exact Fig. 1d heatmap, Fig. 1f cell-neighbour embedding, Fig. 1i threshold fraction and Fig. 1l extended chromatin curve for their missing inputs.",
+  "multiplicity": "One prespecified descriptive protein contrast; no new tests. Original BH-adjusted motif values and DESeq2 adjusted P values are copied, not recalculated. Stage/state and RNA summaries are exposed context.",
+  "precision_status": "unknown",
+  "precision_basis": "Three independent mice per primary group and two to four per other stage. Display every observation, stage range and deletion sensitivity. No population confidence claim, cell-level interval or repeated-measures inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A staining fraction, state-mean motif accessibility delta and RNA detection count measure different features in separately sampled material. The readback cannot establish elevated accessibility in the stained cells, transcriptional equivalence, clonal inheritance, tumour growth or persistent chromatin in individual tissue cells.",
+  "stop_rule": "Fail the affected run on input/hash drift, a duplicate/conflicting mouse or gene key, denominator or fraction disagreement, unexpected panel sizes or missing motif-state combinations. Preserve the frozen evidence, record discrepancies against the published display without threshold changes, and stop before S2.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm7.xlsx",
+      "sha256": "fd568f90b67969ae2975e4460835affa3efd0eb7f79d40a0fc082f677e90484c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [
+        "Chronic injury replicate 1",
+        "Chronic injury replicate 2",
+        "Acute injury replicate 1",
+        "Acute injury replicate 2",
+        "Early recovery replicate 1",
+        "Control replicate 1",
+        "Early recovery replicate 2",
+        "Early recovery replicate 3",
+        "Control replicate 2",
+        "Control replicate 3",
+        "79d recovery replicate 1",
+        "79d recovery replicate 2",
+        "102d recovery replicate 1",
+        "102d recovery replicate 2",
+        "102d recovery replicate 3",
+        "102d recovery replicate 4",
+        "50d recovery replicate 1",
+        "50d recovery replicate 2",
+        "50d recovery replicate 3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm1.pdf",
+      "sha256": "afe7d0174e1d62447e3de99e700c17d473b4a3aa3d988b907c4ab955ce47ec4e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/01_diff_genes.R",
+      "sha256": "79d854fe34918ffe1339927aca9e5d7238d9f37e6851e74a3260d563217da549",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/02a_diff_motifs.R",
+      "sha256": "df7b958b8a45026370440e0ef574358c13cb48f1acdd70677eacd70e5c6e1845",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/readback.py",
+      "sha256": "8c3fbeb5a2a41c5f2bb284b65272c165166955183ddd0df1832f8aee62682008"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback.py",
+      "sha256": "c25eafdc8c8dd85591d24ff53687f92bd848693e81462ea61185d55aac247ccb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/readback.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "fos_mice.tsv",
+    "fos_stages.tsv",
+    "fos_primary.tsv",
+    "fos_motif_by_state.tsv",
+    "rna_stages.tsv",
+    "rna_injury_union.tsv",
+    "rna_fig1f_markers.tsv",
+    "fig1_recovery.png",
+    "fig1_recovery.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First S1 contract following review of the completed source-qualification stage."
+}

@@ -1,0 +1,205 @@
+endpoint	model	window	control_n	recovered_n	nominal_loci	predictor	check	subgroup	held_control	control_n_in_difference	covariates	n	design_columns	design_rank	rho	status
+d102	epithelial ATAC	amplicon	2	4	63	increment	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.0154275344110175	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	unadjusted	all	none	2	intercept	63	1	1	0.111799155145929	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	within_class	AP1 only	none	2	intercept	29	1	1	0.171428571428571	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	within_class	AP1 + Fox	none	2	intercept	34	1	1	-0.283728036669213	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	control_only	all	none	NA	class,width,density	63	4	4	-0.238798696765406	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	recovered_only	all	none	NA	class,width,density	63	4	4	-0.205676813628406	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	coupled_control_adjustment	all	none	2	class,width,density,mean_control	63	5	5	-0.0429468898329457	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	independent_control_split	all	IGVFSM8306UART	1	class,width,density,held_control	63	5	5	-0.0277634972436544	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	independent_control_split	all	IGVFSM9727GHLO	1	class,width,density,held_control	63	5	5	0.0042262699087422	estimated
+d102	epithelial ATAC	amplicon	2	4	63	increment	per_kb	all	none	2	class,width,density	63	4	4	-0.0128937619059555	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.0711681615046395	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	unadjusted	all	none	2	intercept	63	1	1	-0.0979742703533027	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	within_class	AP1 only	none	2	intercept	29	1	1	-0.0433497536945813	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	within_class	AP1 + Fox	none	2	intercept	34	1	1	-0.136440030557678	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	control_only	all	none	NA	class,width,density	63	4	4	-0.123329061953285	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	recovered_only	all	none	NA	class,width,density	63	4	4	-0.11613882535312	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	coupled_control_adjustment	all	none	2	class,width,density,mean_control	63	5	5	-0.0857726143136072	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	independent_control_split	all	IGVFSM8306UART	1	class,width,density,held_control	63	5	5	0.00533538874030621	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	independent_control_split	all	IGVFSM9727GHLO	1	class,width,density,held_control	63	5	5	-0.085080285193382	estimated
+d102	epithelial ATAC	amplicon	2	4	63	fold_ratio	per_kb	all	none	2	class,width,density	63	4	4	-0.0705375573149391	estimated
+d102	epithelial ATAC	amplicon	2	4	63	JUN_raw	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.0391358616030109	estimated
+d102	epithelial ATAC	amplicon	2	4	63	JUN_raw	unadjusted	all	none	2	intercept	63	1	1	0.0913498463901689	estimated
+d102	epithelial ATAC	amplicon	2	4	63	JUNFOXP1_raw	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.0257176190379411	estimated
+d102	epithelial ATAC	amplicon	2	4	63	JUNFOXP1_raw	unadjusted	all	none	2	intercept	63	1	1	0.108966973886329	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.369628872227512	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	unadjusted	all	none	2	intercept	63	1	1	-0.466685867895545	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	within_class	AP1 only	none	2	intercept	29	1	1	-0.504433497536946	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	within_class	AP1 + Fox	none	2	intercept	34	1	1	-0.284033613445378	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	control_only	all	none	NA	class,width,density	63	4	4	-0.108391933556217	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	recovered_only	all	none	NA	class,width,density	63	4	4	-0.218753605140303	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	coupled_control_adjustment	all	none	2	class,width,density,mean_control	63	5	5	-0.387718264116278	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	independent_control_split	all	IGVFSM1050BHMH	1	class,width,density,held_control	63	5	5	-0.43679153748172	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	independent_control_split	all	IGVFSM5944AGZN	1	class,width,density,held_control	63	5	5	-0.251753882829351	estimated
+d50	epithelial ATAC	amplicon	2	2	63	increment	per_kb	all	none	2	class,width,density	63	4	4	-0.369550290386093	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.121297030916059	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	unadjusted	all	none	2	intercept	63	1	1	-0.123847926267281	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	within_class	AP1 only	none	2	intercept	29	1	1	-0.205911330049261	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	within_class	AP1 + Fox	none	2	intercept	34	1	1	-0.0878533231474408	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	control_only	all	none	NA	class,width,density	63	4	4	-0.0772330241636665	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	recovered_only	all	none	NA	class,width,density	63	4	4	-0.0962093351451546	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	coupled_control_adjustment	all	none	2	class,width,density,mean_control	63	5	5	-0.131917130087132	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	independent_control_split	all	IGVFSM1050BHMH	1	class,width,density,held_control	63	5	5	-0.0187679809277119	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	independent_control_split	all	IGVFSM5944AGZN	1	class,width,density,held_control	63	5	5	-0.225776339158095	estimated
+d50	epithelial ATAC	amplicon	2	2	63	fold_ratio	per_kb	all	none	2	class,width,density	63	4	4	-0.120510542215654	estimated
+d50	epithelial ATAC	amplicon	2	2	63	JUN_raw	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.255337906496103	estimated
+d50	epithelial ATAC	amplicon	2	2	63	JUN_raw	unadjusted	all	none	2	intercept	63	1	1	-0.345766129032258	estimated
+d50	epithelial ATAC	amplicon	2	2	63	JUNFOXP1_raw	geometry_adjusted	all	none	2	class,width,density	63	4	4	-0.378319541990908	estimated
+d50	epithelial ATAC	amplicon	2	2	63	JUNFOXP1_raw	unadjusted	all	none	2	intercept	63	1	1	-0.474030337941628	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	63	4	4	0.132729474611193	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	unadjusted	all	none	3	intercept	63	1	1	0.124525947049539	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	within_class	AP1 only	none	3	intercept	29	1	1	0.299014778325123	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	34	1	1	0.0241424097274231	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	control_only	all	none	NA	class,width,density	63	4	4	0.201351646647599	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	recovered_only	all	none	NA	class,width,density	63	4	4	0.313044293928449	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	63	5	5	0.241236868042415	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	independent_control_split	all	GSM9459779	2	class,width,density,held_control	63	5	5	0.233290201066714	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	independent_control_split	all	GSM9459780	2	class,width,density,held_control	63	5	5	0.168341497374616	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	independent_control_split	all	GSM9459781	2	class,width,density,held_control	63	5	5	0.264692777882979	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	63	5	5	0.122575466023445	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	63	4	4	0.0620709306315814	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	63	1	1	0.0450290433047294	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	29	1	1	0.051231527093596	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	34	1	1	0.038964015699322	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	63	4	4	-0.000615418367960415	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	63	4	4	0.00896918470708403	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	63	5	5	0.0678026389834956	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459779	2	class,width,density,held_control	63	5	5	-0.00948638710620276	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459780	2	class,width,density,held_control	63	5	5	0.111852046100967	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459781	2	class,width,density,held_control	63	5	5	0.0434321241514465	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	63	5	5	0.0576892990498547	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	63	4	4	0.0535715008526556	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	63	1	1	0.0768086026519904	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	63	4	4	0.115441700879673	estimated
+P4_amplicon	P4 organoid	amplicon	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	63	1	1	0.11283663783344	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	58	4	4	0.308883837070899	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	unadjusted	all	none	3	intercept	58	1	1	0.252661048267316	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	within_class	AP1 only	none	3	intercept	27	1	1	0.422530916234063	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	31	1	1	0.267338709677419	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	control_only	all	none	NA	class,width,density	58	4	4	0.0490422701251072	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	recovered_only	all	none	NA	class,width,density	58	4	4	0.160914780583363	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	58	5	5	0.332695005797395	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	independent_control_split	all	GSM9459779	2	class,width,density,held_control	58	5	5	0.393980687614738	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	independent_control_split	all	GSM9459780	2	class,width,density,held_control	58	5	5	0.303050188530095	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	independent_control_split	all	GSM9459781	2	class,width,density,held_control	58	5	5	0.238074428960304	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	58	5	5	0.309027595097261	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	58	4	4	0.000827480827916038	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	58	1	1	0.0727865627907549	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	27	1	1	-0.113875745487937	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	31	1	1	0.200806451612903	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	58	4	4	0.00636541932434775	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	58	4	4	-0.0587461901628145	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	58	5	5	0.00253022671015077	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459779	2	class,width,density,held_control	58	5	5	-0.00866973223421649	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459780	2	class,width,density,held_control	58	5	5	0.0633221092377452	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459781	2	class,width,density,held_control	58	5	5	-0.0751327248029229	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	58	5	5	0.0202665881513193	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	58	4	4	0.240828971656086	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	58	1	1	0.167999754607064	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	58	4	4	0.30270850502154	estimated
+P4_left_flank	P4 organoid	left_flank	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	58	1	1	0.240632499640442	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	62	4	4	0.0487312106976178	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	unadjusted	all	none	3	intercept	62	1	1	0.00526329044461191	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	within_class	AP1 only	none	3	intercept	29	1	1	0.228845918720684	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	33	1	1	-0.0681932150591534	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	control_only	all	none	NA	class,width,density	62	4	4	0.272248528158138	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	recovered_only	all	none	NA	class,width,density	62	4	4	0.340964370177012	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	62	5	5	0.164720501965691	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	independent_control_split	all	GSM9459779	2	class,width,density,held_control	62	5	5	0.132074801154326	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	independent_control_split	all	GSM9459780	2	class,width,density,held_control	62	5	5	0.0886549798499447	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	independent_control_split	all	GSM9459781	2	class,width,density,held_control	62	5	5	0.235642326653192	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	62	5	5	0.0463268764600697	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	62	4	4	0.079037027313241	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	62	1	1	0.104711778319121	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	29	1	1	0.187954182975115	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	33	1	1	0.0168811635318003	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	62	4	4	-0.0362082591347922	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	62	4	4	-0.00325990266897467	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	62	5	5	0.0707598999906192	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459779	2	class,width,density,held_control	62	5	5	-0.000659747289686988	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459780	2	class,width,density,held_control	62	5	5	0.112419262716035	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459781	2	class,width,density,held_control	62	5	5	0.0895350940212555	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	62	5	5	0.0678887566085506	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	62	4	4	-0.0443630803983961	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	62	1	1	-0.0821979904842736	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	62	4	4	0.0233941596126069	estimated
+P4_right_flank	P4 organoid	right_flank	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	62	1	1	-0.0201717495030341	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	63	4	4	-0.248337387433383	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	unadjusted	all	none	3	intercept	63	1	1	-0.228617374936957	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	within_class	AP1 only	none	3	intercept	29	1	1	-0.320689655172414	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	34	1	1	-0.0875477463712758	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	control_only	all	none	NA	class,width,density	63	4	4	0.251089076271895	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	recovered_only	all	none	NA	class,width,density	63	4	4	0.210365878094199	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	63	5	5	-0.148442873251002	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	independent_control_split	all	GSM9459788	2	class,width,density,held_control	63	5	5	-0.0926821152254343	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	independent_control_split	all	GSM9459789	2	class,width,density,held_control	63	5	5	-0.219769573291778	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	independent_control_split	all	GSM9459790	2	class,width,density,held_control	63	5	5	-0.186762321163678	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	63	5	5	-0.25334188690648	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	63	4	4	-0.0547246923512547	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	63	1	1	-0.0460835023494968	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	29	1	1	0.141871921182266	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	34	1	1	-0.244919786096257	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	63	4	4	0.062480556424452	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	63	4	4	0.0535261773549115	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	63	5	5	-0.027695848036804	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459788	2	class,width,density,held_control	63	5	5	-0.0524903796428773	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459789	2	class,width,density,held_control	63	5	5	0.0338598213138484	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	independent_control_split	all	GSM9459790	2	class,width,density,held_control	63	5	5	-0.0715991399024217	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	63	5	5	-0.0559877137513205	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	63	4	4	-0.151206713826509	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	63	1	1	-0.140122649331439	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	63	4	4	-0.261060651135321	estimated
+vehicle_amplicon	whole colon	amplicon	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	63	1	1	-0.239034166613874	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	58	4	4	-0.135406291070901	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	unadjusted	all	none	3	intercept	58	1	1	-0.141266228374956	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	within_class	AP1 only	none	3	intercept	27	1	1	-0.208517785973891	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	31	1	1	-0.0149193548387097	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	control_only	all	none	NA	class,width,density	58	4	4	0.0767706854397085	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	recovered_only	all	none	NA	class,width,density	58	4	4	0.0762245890882253	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	58	5	5	-0.11280743467538	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	independent_control_split	all	GSM9459788	2	class,width,density,held_control	58	5	5	-0.218643381829314	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	independent_control_split	all	GSM9459789	2	class,width,density,held_control	58	5	5	-0.103033968216239	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	independent_control_split	all	GSM9459790	2	class,width,density,held_control	58	5	5	-0.0256329167464772	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	58	5	5	-0.136068350335086	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	58	4	4	0.23532208535264	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	58	1	1	0.220451609872591	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	27	1	1	0.306212795507778	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	31	1	1	0.14758064516129	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	58	4	4	-0.0390308803112572	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	58	4	4	-0.0118425401293974	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	58	5	5	0.24630155942585	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459788	2	class,width,density,held_control	58	5	5	0.209819171972291	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459789	2	class,width,density,held_control	58	5	5	0.279092004810304	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459790	2	class,width,density,held_control	58	5	5	0.204535223479255	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	58	5	5	0.196960964621942	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	58	4	4	-0.220085245043075	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	58	1	1	-0.216452348180791	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	58	4	4	-0.157320350381875	estimated
+vehicle_left_flank	whole colon	left_flank	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	58	1	1	-0.159385960193957	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	geometry_adjusted	all	none	3	class,width,density	62	4	4	-0.179911306395661	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	unadjusted	all	none	3	intercept	62	1	1	-0.203905866499876	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	within_class	AP1 only	none	3	intercept	29	1	1	-0.216555808493719	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	within_class	AP1 + Fox	none	3	intercept	33	1	1	0.000668449197860962	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	control_only	all	none	NA	class,width,density	62	4	4	0.347525245184174	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	recovered_only	all	none	NA	class,width,density	62	4	4	0.320006832850422	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	coupled_control_adjustment	all	none	3	class,width,density,mean_control	62	5	5	-0.066795602447834	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	independent_control_split	all	GSM9459788	2	class,width,density,held_control	62	5	5	0.0938515528374899	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	independent_control_split	all	GSM9459789	2	class,width,density,held_control	62	5	5	-0.233478688369846	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	independent_control_split	all	GSM9459790	2	class,width,density,held_control	62	5	5	-0.108816546898796	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	increment	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	62	5	5	-0.201760890180966	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	geometry_adjusted	all	none	3	class,width,density	62	4	4	-0.122197626984166	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	unadjusted	all	none	3	intercept	62	1	1	-0.175524748611107	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	within_class	AP1 only	none	3	intercept	29	1	1	-0.123183053750693	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	within_class	AP1 + Fox	none	3	intercept	33	1	1	-0.209558823529412	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	control_only	all	none	NA	class,width,density	62	4	4	0.0548324792674607	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	recovered_only	all	none	NA	class,width,density	62	4	4	0.0229931695153607	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	coupled_control_adjustment	all	none	3	class,width,density,mean_control	62	5	5	-0.11014495440272	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459788	2	class,width,density,held_control	62	5	5	-0.0502406190517574	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459789	2	class,width,density,held_control	62	5	5	-0.069791034824072	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	independent_control_split	all	GSM9459790	2	class,width,density,held_control	62	5	5	-0.163817304287317	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	fold_ratio	common_CpG_adjustment	all	none	3	class,width,density,common_CpGs	62	5	5	-0.179912050902279	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	JUN_raw	geometry_adjusted	all	none	3	class,width,density	62	4	4	-0.070184832959309	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	JUN_raw	unadjusted	all	none	3	intercept	62	1	1	-0.0508946222299924	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	JUNFOXP1_raw	geometry_adjusted	all	none	3	class,width,density	62	4	4	-0.186780820138321	estimated
+vehicle_right_flank	whole colon	right_flank	3	3	63	JUNFOXP1_raw	unadjusted	all	none	3	intercept	62	1	1	-0.203125196886254	estimated

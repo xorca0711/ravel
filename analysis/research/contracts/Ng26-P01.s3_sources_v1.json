@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s3_sources_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can the exact S3 regional input tables be archived under a registered run receipt?",
+  "decision": "Preserve the exact input bytes for S3 and its tissue amendment without recalculating biological results.",
+  "strongest_rival": "Line-ending conversion or an incomplete source snapshot would prevent exact hydration.",
+  "discriminator": "Compare every output SHA with the original frozen S3 inputs.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+    "analysis/research/runs/ng26_s3_v1/receipt.json",
+    "analysis/research/runs/ng26_s3_ed6_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All S3 results and source checksums were already known. This is a storage and provenance operation.",
+  "biological_unit": "Existing organoid and whole-colon methylation libraries; storage unit is each byte-preserved table.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "These four files are identical to the frozen inputs; no new samples.",
+  "population_and_selection": "Exactly the four source-slice and inventory TSVs bound in the two S3 contracts.",
+  "contrast": "Identity of bytes in the archived copy versus the original input.",
+  "endpoint": "Four source files carrying unchanged SHA-256 hashes.",
+  "methods": "Copy the input byte streams to the registered run directory. No measurements or transformations.",
+  "missingness_and_exclusions": "Stop on missing files or input hash differences.",
+  "multiplicity": "No statistical testing.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact byte and SHA-256 comparisons.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "File preservation only, no new biological evidence.",
+  "stop_rule": "Fail on a missing or changed input or output. Retain all previous contracts and receipts.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_slices.tsv",
+      "sha256": "df788ce46aa9ce550778ff0444a29f78902457210ba25af3f68e0cfcb678c260",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_sources.tsv",
+      "sha256": "add6afd991d48e50078b5332a5b4fd7a466cdb726493de3a7f466ed4ab0b5626",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_track_slices.tsv",
+      "sha256": "3389c1abe5f3b9a3bc34c481b3bde5946b3cb62586f0e1497dd14096885a85bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/thbs1_track_sources.tsv",
+      "sha256": "cb3fef9dec887dfd273b9e789a116c97f544368b41e0551b33816e77d11b0287",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/preserve_sources.py",
+      "sha256": "5eb4dce7099d1fcf21d51a06f06a3f1a2b3cf4b5c38f1dfed86807fca03e6bad"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/preserve_sources.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "ed6_tissue_slices.tsv",
+    "ed6_tissue_sources.tsv",
+    "thbs1_track_slices.tsv",
+    "thbs1_track_sources.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Archive previously frozen source bytes as registered scientific outputs for integration."
+}

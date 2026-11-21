@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s5_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "On the same clean-exclusive physical cells, how much within-clone Fos-family dispersion remains below a global null when exchange is restricted to donor line, and then to observed Hnf4g score bands within line?",
+  "decision": "Complete the feasible S5 line-only contrast on qualified physical cells; retain original independently annotated line-and-differentiation comparison as held unless state labels and validated joins exist. Report specific RNA pairing evidence and limits. Stop before the separate owner family/maintenance decision.",
+  "strongest_rival": "Between-mouse line, clone size/composition and differentiation-associated programs can explain resemblance. Hnf4g from the same assay could mediate inheritance as well as mark cell composition. Shared genotype, culture or technical sources may persist within line.",
+  "discriminator": "Compare identical cells/clone slots under global and within-line exchange; report signed and relative effects, null distribution, exchange opportunities and six omissions. Compare global ambiguity variants from S2 and a clean >=5 size floor. A frozen within-line Hnf4g tertile sensitivity isolates the change under that specific measured feature.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s4/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/ng26_s2_v1/receipt.json",
+    "analysis/research/runs/ng26_s4_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "S2 original/line-qualified/exclusive Fos variances, global nulls, loss of BH significance, and six line means already known. Published Fig. 2h, mixed-model and differentiation results and full S0-S4 context exposed. Structural inspection found the 77229-barcode RNA matrix has counts and identifiers only; examined eight related sets and technical barcode prefixes including one 1x1 adapter pool and three pools with multiple adapters. No conditional Fos result was examined before freeze.",
+  "biological_unit": "One distinct scored ATAC cell carries one unambiguous clone in a verified mouse-derived organoid line. Cells move as whole identities. Dispersion weights line-qualified clones equally. Six donor lines, three per history; no six-line population estimate from permutations.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Use all and only cells with one assignment in the complete cleaned map and a score. Filter line-qualified clones with >=2 clean cells before all three permutations (3,572 unique cells, 121 clones). Multiple-membership rows never enter the conditional shuffle. S2 all-memberships statistics are exposure context.",
+  "population_and_selection": "All qualified clean-exclusive cells from the released Fos and Hnf4g scores in six organoid lines. Primary floor two; sensitivity floor five without re-binning. For linkage-audit opportunity only, include every distinct scored ATAC cell and all RNA matrix barcodes verified against the S0 lookup and eight source records. No expression-based tuning or assumed pairing.",
+  "contrast": "Primary estimand: observed median within-clone sample variance minus mean squared median clone SD under random allocation of the same cells among clone slots within donor line. Global same-set reference and within-line Hnf4g bands use identical cells/weights. Display percentage reduction relative to expected variance; no equivalence or mechanistic margin.",
+  "endpoint": "Fos observed variance, null means/SD/central 95% reference ranges and mean Monte Carlo SE, signed difference, percent below null and lower-tail add-one randomization P. Full results for three schemes and six leave-one-line-out on primary cells; >=5 floor for three schemes. Physical cell list, per-clone inclusion, strata and exchange opportunities, saved null draws, RNA linkage inventory/cross counts and figure.",
+  "methods": "Generate 5000 NumPy PCG64 permutations per scheme/floor/omission with seed sequence [20261120, floor, omission index, scheme index]. Reassign complete cell IDs to fixed grouped clone slots only within the stratum, asserting bijection and invariance. Observed median of clone sample variances, null square of median clone SD as in original report; retain even-clone distinction. Each eligible cell exactly once. Hnf4g bands fixed by donor-specific linear 1/3,2/3 quantiles of primary cells, ties stay together (<= cutpoints); retain fixed cutpoints for omissions and >=5. Count number of crossed clones, cell slots, unordered cross-clone pairs and expected switches (N - sum n_j^2/N) for each pool; single-clone strata fixed. Examine S2 global data with the original, line-qualified and clean-exclusive memberships, then compare effect with >=5 and single-donor omissions. Under the RNA check, retain same R1/R2/R3 and compatible ATAC/RNA technical-pool adapters from actual headers; restrict candidates to uniquely identified matching specimen, report multiple and absent matches. Prefixes cover the first 65536 compressed bytes per file, not every read. Independent RNA state labels are required to execute the original state-conditioned contrast; do not relabel Hnf4g bands as RNA states.",
+  "missingness_and_exclusions": "Preserve ambiguous and zero RNA candidates in the qualification output. RNA count values or shared short barcode components alone do not assign a differentiation state. Reject duplicate physical cells and nonfinite scores for selected reporters. Exclude singleton clone slots before permutation; retain denominators for removed clones. If no cross-clone opportunity, describe frozen strata and do not interpret a degenerate null.",
+  "multiplicity": "One exposed primary within-line Fos estimate with supporting global, same-ATAC proxy, size and omission estimates. Per-scheme lower-tail P is a Monte Carlo reference measure. S2's 299-feature BH values are reported only as prior-context data. No new cross-family screening.",
+  "precision_status": "unknown",
+  "precision_basis": "Six mouse lines, exchange under stated cell/slot scheme only. Monte Carlo error applies to the conditional null mean and not to between-animal uncertainty. Display effects and leave-one-line-out range; no claim about inheritance in mouse populations.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Line-associated clone resemblance is distinct from history causation and from cell-state-adjusted inheritance. The Hnf4g covariate shares ATAC measurement and can be an inherited component; conditioning may remove part of the biological signal. Whole-clone selection, shared culture/genotype and cell-state mixing remain. No canonical RQ and no family-detection or maintenance-carrier analysis.",
+  "stop_rule": "Fail/retain any bad cell key, source hash, nonbijective assignment, insufficient strata or incompatible S2 observed variance. Hold original line-and-state inference when a validated independent assignment is absent. Report mixed signs or unstable donor effects without threshold tuning. Stop at S5.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/cell_clone_line_mouse.tsv",
+      "sha256": "76396bbaf1727a46349a01ff47137a9b988f6654486fee65e05e6d32b530428e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/dispersion.tsv",
+      "sha256": "2d188d8f228fb9c8b464f1a07dc4633ab59f0b240638bb463cb16d7d40765bee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/barcode_lookup.tsv.gz",
+      "sha256": "93058d4aee9ca2d0e98e0c0a8d43546b436e9bbf039880f9dbbd33dcdc84fc99",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/rna/IGVFFI1250KMMT.h5",
+      "sha256": "855ad0e3b85a653100bf0e786bf10002b39e7d9aff51c62977be42b14330fcad",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS5536ZQMO.json",
+      "sha256": "80bb21ae8d4474255d2613796adf35c9b06e931a6335a099c4e453b6e5a522a4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/03_SHARE_TRACE.clean_clones.R",
+      "sha256": "8f7741b1b5a91236bdad02f6c9c6d7f1d15623bbb075feb4d4180ab91b2226f3",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04b_SHARE_TRACE.linear_model.R",
+      "sha256": "a6f82b52daa0bd9e06da3af5b5f421c4cd8f2d5f1ef48bc892b800050670abb1",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS0255ZBJH.json",
+      "sha256": "6af8370deec3bd570f314cf6d1efd354e887e4ae9af17a1fce307e137cbdb16f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS0262EFJS.json",
+      "sha256": "e270a56547dfbdc63e15e63450c7eb242928f59aa312ff59a58415814b3d9601",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS2183INAQ.json",
+      "sha256": "6cd7fa9fe869ee57716ab77a38652b8a864caad8876a10ed5749ddbe5bbe0e48",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS3674UEBD.json",
+      "sha256": "73f52fd6159b45bb5301c3ec70466447fff3ecb4eb02166c979d2b5bab91b533",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS3954OIWN.json",
+      "sha256": "57b2a40ae6959aaf0ff8fb524856cb0c471845a79028f48c2319858d0109a075",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS6770YNZR.json",
+      "sha256": "991ad0d090acf403c12e6d4fa9ec82319b96b1e3cda28bf78264432d5e34ea74",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS7053XLPM.json",
+      "sha256": "1023c5e1febb80c64f8dfca7ac78906ce6d16e3bda6082e8aac02ecedbd7013d",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFDS9059ORGF.json",
+      "sha256": "758f6c867c42b3cb08dcb237aef1266d2deb07afc71accc06e4ec20917161158",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI0701QRLV.prefix64k",
+      "sha256": "d0a96e81771952ac9986baaa7bb8cdad913386476f4c27a187233f7481eb905d",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI2679BDOS.prefix64k",
+      "sha256": "8753ac9e976e64002712a765fe487f5f5a67e329fc48a1788e7408e5434b2311",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI2751XKQB.prefix64k",
+      "sha256": "c753c977e01d1eb9437d6ded7d08b92fa84872d22b9e4f5ebedb84f728ce1131",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI3855LXKJ.prefix64k",
+      "sha256": "d67266fe415ac073cb208ad2e78fcb7ece49b0095d1c1db143183b9bbc870b98",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI3919SBJV.prefix64k",
+      "sha256": "a0f09e56ecd23a1c676ddef2b4a84df2af28d66dff24c78d85b40f0d9a5f7700",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI6604XHYW.prefix64k",
+      "sha256": "eab7b0a34b3547ac520e1cfa039750caae44a4f75533c802982945bd725ee09f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI9358RLQV.prefix64k",
+      "sha256": "d1823e96cc88c161c4ca7e656ca791c9073816e21a1719dfc1765ffaafe4e1b1",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s5/IGVFFI9885LMTH.prefix64k",
+      "sha256": "248d21e01060635b7df2ef01644b773f63ed546d2d74c18e83e9c9c44a012980",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/condition_fos.py",
+      "sha256": "9cbcb0c8622853ac84e73540ea6f4ae2bfc66209873c22cfb0cc60f2f6276776"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/rna_pairing.py",
+      "sha256": "d8b9b6864d73c872b587ac2b7036146fab74b2b60e3081cc2132b55fdeb5d71c"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/plot_conditional.py",
+      "sha256": "3e7c1a8592b804d916fae12973d12cd0e069a3f5b97e0d2734fd9d4823b70bc4"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s5/condition_fos.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "barcode_prefixes.tsv",
+    "rna_candidates.tsv",
+    "adapter_pair_counts.tsv",
+    "rna_inventory.tsv",
+    "clone_size_ambiguity.tsv",
+    "hnf4g_cutpoints.tsv",
+    "exclusive_cells.tsv",
+    "s2_ambiguity_reference.tsv",
+    "conditional_estimates.tsv",
+    "permutation_opportunities.tsv",
+    "conditional_nulls.npz",
+    "fos_conditional_dispersion.png",
+    "fos_conditional_dispersion.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First exposed article-local S5 extension after the review of S4."
+}

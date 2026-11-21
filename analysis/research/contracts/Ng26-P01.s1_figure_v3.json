@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s1_figure_v3",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can the verified S1 measurements be displayed with black text and scientifically informative color for mouse stages and quantitative accessibility deltas?",
+  "decision": "Display the color-mark figure with black publication text as the current S1 export.",
+  "strongest_rival": "Ambiguous color semantics, low text contrast or different assay scales could obscure biological units and stage comparisons.",
+  "discriminator": "Inspect the PNG and PDF, verify all PDF text is black and within the page and uses a single font family, and bind each plotted endpoint to a frozen S1 table.",
+  "evidence_refs": [
+    "analysis/research/contracts/Ng26-P01.s1_v1.json",
+    "analysis/research/runs/ng26_s1_v1/receipt.json",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All numerical S1 values and prior displays were known before this figure-only amendment. No scientific endpoint, sample or estimate changes.",
+  "biological_unit": "Separate mice in the FOS panel; cells are counted inside each mouse. For Tables 1 and 3, the authors summarized mouse-by-state data; this readback uses gene-by-stage and state-by-stage statistics, not original replicate observations.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Replicate labels repeat across independent harvest stages. Fig. 1k is part of Fig. 1l; the controls are reused. Protein and sequencing have no documented animal or cell identity crosswalk. RNA genes and three epithelial states are not independent mice.",
+  "population_and_selection": "All 19 MOESM7 mouse-labelled rows; primary early recovery day 63 and control day 0 (three per group). All nine Fos-leader rows from Table 3, and all uniquely keyed stem-cell genes in the acute, chronic and recovered sheets of Table 1 as identified in Supplementary Information p.10. The extra 50-day RNA sheet lies outside the original 1d-f three-stage comparison.",
+  "contrast": "Retain the frozen unpaired contrast and stage summaries in original units; no new analysis.",
+  "endpoint": "Versioned color-mark PNG and PDF, with pure black text and a verified quantitative motif scale.",
+  "methods": "Use the four frozen S1 tables. Color staining marks and RNA bars consistently by stage, with a separate light-to-blue quantitative scale for the nine nonnegative Fos delta values. Print each delta and add a continuous labeled colorbar; keep all text black in DejaVu Sans and show mouse n. Check PDF text font, color, minimum size and page bounds, then visually inspect both exports.",
+  "missingness_and_exclusions": "Keep the previous S1 report of unavailable RNA values and original held assays; no addition, exclusion or imputation.",
+  "multiplicity": "One prespecified descriptive protein contrast; no new tests. Original BH-adjusted motif values and DESeq2 adjusted P values are copied, not recalculated. Stage/state and RNA summaries are exposed context.",
+  "precision_status": "unknown",
+  "precision_basis": "Three independent mice per primary group and two to four per other stage. Display every observation, stage range and deletion sensitivity. No population confidence claim, cell-level interval or repeated-measures inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A staining fraction, state-mean motif accessibility delta and RNA detection count measure different features in separately sampled material. The readback cannot establish elevated accessibility in the stained cells, transcriptional equivalence, clonal inheritance, tumour growth or persistent chromatin in individual tissue cells.",
+  "stop_rule": "Stop on changed input or code hash, render failure, nonblack/nonconforming/clipped PDF text or unexpected bounds. Retain prior versions.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_mice.tsv",
+      "sha256": "cc464d37c2d35efaa03b0c6faf110222598628495f0047e4ebb85c6837db9dc7",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_primary.tsv",
+      "sha256": "52a8270da4a0a41810f07ee4f83a3bc5620b5372b639cf48a1c8d3d851dde7fc",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/fos_motif_by_state.tsv",
+      "sha256": "01163d29a88880b293d3cc7526e415cc4b3f3dd98f42a0e3d769e3fb7b303fad",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s1_v1/rna_stages.tsv",
+      "sha256": "3958dc792fd20563b2380c0af3eb39b09979e5ac4c7edcf30dd63ac40ac2d751",
+      "study_id": "Ng26-P01_shared_S1_readback",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v3.py",
+      "sha256": "b91157a768b389fbd11d48a1530b2d8a76aba6591eb294d24a014c2d1859be73"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s1/plot_readback_v3.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "fig1_recovery_v3.png",
+    "fig1_recovery_v3.pdf",
+    "render_checks.json"
+  ],
+  "amendment_of": "analysis/research/contracts/Ng26-P01.s1_figure_v2.json",
+  "amendment_reason": "Owner clarified that the color restriction applies only to text. Restore color for data marks, maintain black labels in one font and retain the previous receipt and numerical source tables."
+}

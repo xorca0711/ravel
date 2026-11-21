@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s3_ed6_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "In the two published whole-colon windows, how does methylation differ between recovered and control vehicle mice, and between inhibitor and vehicle among recovered mice during the tested five-day window?",
+  "decision": "Complete the S3 tissue-locus amendment requested after the first freeze. Keep the 500-target set-level result as author-reported if exact inputs are unavailable. Stop at S3.",
+  "strongest_rival": "Cell composition, library coverage and mouse heterogeneity can shift whole-tissue methylation. Two illustrated loci may not represent the 500 selected peaks or their background. A nonsignificant set comparison does not imply equivalence or a specific maintenance carrier.",
+  "discriminator": "Use all twelve identified whole-colon mouse tracks, reference-checked mm10 windows printed for Dcaf5/Rbm27, and the two arm contrasts specified by ED6d. Separate the same-locus readback from the original peak-wide test and from tumour and organoid endpoints.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/ng26_s2_v1/receipt.json",
+    "analysis/research/contracts/Ng26-P01.s3_v1.json",
+    "analysis/research/runs/ng26_s3_v1/receipt.json",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published ED6d directions, P=2.71e-47 and nonsignificance, four arms, twelve mouse labels and two ED6e coordinate windows known. Availability of per-position intervals and original released scripts was inspected before freezing. The separate organoid S3 numerical run was complete. No tissue arm summary was calculated before freeze.",
+  "biological_unit": "Whole-colon mouse, verified by unique GSM title and DSS41prim M1-M12 filename. Three distinct mice in each of four arms; CpG positions nest within libraries and repeat across libraries.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Twelve distinct mouse labels in this tissue experiment. ATAC traces displayed above ED6e come from Fig. 1 and have no paired tissue-aliquot key. Repeated mouse-number strings in other experiments do not establish a cross-experiment link.",
+  "population_and_selection": "All twelve GSE316762 whole-colon fraction bigWigs, all reference plus-C cytosines of CpG dyads in the printed mm10 intervals chr12:[80433160,80433600) and chr18:[42347000,42347400). Primary denominator is observed in all twelve mice, secondary denominator in the nine mice displayed in ED6e. Selected illustrative loci.",
+  "contrast": "Main contrasts: recovered vehicle minus control vehicle, recovered inhibitor minus recovered vehicle, per locus. Display residual recovered inhibitor minus control vehicle and control inhibitor minus control vehicle as context. Equal mouse weights and percentage-point differences.",
+  "endpoint": "Per-CpG fractions, per-mouse means, observed/reference/common counts, arm means and ranges, named contrasts and single figure. Separately record ED6d's published target/background test and exact source limitations.",
+  "methods": "Read unzoomed UCSC bedGraph records, expand merged coordinates, intersect unique reference-plus C coordinates. Preserve observed zero and missing and use the same site set for all arms. Do not infer read coverage from fractions. No t-test, surrogate target list, tissue/epithelial joint fit or tumour mediation model.",
+  "missingness_and_exclusions": "Stop on zero common sites, overlapping track rows, unexpected coordinates or mouse labels, nonfinite fractions or incomplete track retrieval. Show numbers present per mouse and common to the four arms and the three displayed arms.",
+  "multiplicity": "Two selected descriptive locus comparisons with no significance tests or formal equivalence margin. The two original ED6d area contrasts are authors' Wilcoxon results.",
+  "precision_status": "unknown",
+  "precision_basis": "Three mice per arm. Show each library and arm range, no pseudo-replication across CpGs. Fraction tracks lack methylated and total read counts.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Regional whole-colon means describe the tested drug window. They do not establish a cell-specific carrier, reversal in principle, or mediation of tumour growth. Exact ED6d target and background identities are unavailable.",
+  "stop_rule": "Retain discordant or mixed responses. Do not reselect loci or reconstruct the 500/36,367 groups with guessed IDs. Preserve the initial frozen S3 run and stop after S3.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_sources.tsv",
+      "sha256": "add6afd991d48e50078b5332a5b4fd7a466cdb726493de3a7f466ed4ab0b5626",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/ed6_tissue_slices.tsv",
+      "sha256": "df788ce46aa9ce550778ff0444a29f78902457210ba25af3f68e0cfcb678c260",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [
+        "GSM9459782",
+        "GSM9459783",
+        "GSM9459784",
+        "GSM9459785",
+        "GSM9459786",
+        "GSM9459787",
+        "GSM9459788",
+        "GSM9459789",
+        "GSM9459790",
+        "GSM9459791",
+        "GSM9459792",
+        "GSM9459793"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Dcaf5_reference.txt",
+      "sha256": "e9800bab79c293c380cb90960155d3f2ff488fc9404292f01ff2e918c0fb2f05",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/source/Rbm27_reference.txt",
+      "sha256": "c1a6d6627ae84b9386cb3194d22507062e9c73949d704d9ce3a69f69e105d4df",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.pdf",
+      "sha256": "d9818200c7cb77de7bde6e4981d04fd70cb064457edbbdc67a4b276631532a4a",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316762_family.soft.gz",
+      "sha256": "9048beb58c9343d494b6bcb7c8ff361c36aac15dbf78be0227be0c7aa659c740",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/6_methylation/03_methylation.AP1_peak_change.R",
+      "sha256": "f0c47560f703e0d5cc9222bdf9d1bb574a3e603b87442eb0bf6c9aa606e32308",
+      "study_id": "Nagaraja2026_tissue_EM_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/tissue_methylation.py",
+      "sha256": "9e2cc16a0d40a8c64100f7dc430dfde0fd8a1b78d1d3d6cc3784e537b078b59d"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/s3/tissue_methylation.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "tissue_libraries.tsv",
+    "tissue_cpg_fractions.tsv",
+    "tissue_arms.tsv",
+    "tissue_contrasts.tsv",
+    "ed6e_tissue_methylation.png",
+    "ed6e_tissue_methylation.pdf"
+  ],
+  "amendment_of": "analysis/research/contracts/Ng26-P01.s3_v1.json",
+  "amendment_reason": "Owner added in-vivo ED6c-e after the original S3 freeze. This additive amendment retains the original contract and every output."
+}
