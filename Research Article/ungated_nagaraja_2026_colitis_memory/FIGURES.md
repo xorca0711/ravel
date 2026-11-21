@@ -71,3 +71,7 @@ All ten frozen figure pairs are shown in their current versions. The S1 composit
 The Stage 2 figure shows paired biochemical footprints, mouse-weighted epithelial accessibility differences, separate organoid and tissue-vehicle regional methylation, and all specimens at the sole scored-motif CpG. [Figure, caption and source tables](jun_foxp1/stage2/MEASUREMENTS.md) · [PDF](../../analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.pdf)
 
 The Stage 3 figures show the frozen binding–accessibility comparison, separate regional methylation estimates, and mouse/locus omission sensitivity. The secondary figure compares native methylation and accessibility across genomic loci in separate cohorts. [Results and source tables](jun_foxp1/stage3/RESULTS.md) · [Binding comparisons PDF](../../analysis/research/runs/ng26_jf_binding_display_v2/binding_associations.pdf) · [Native comparisons PDF](../../analysis/research/runs/ng26_jf_native_secondary_v1/native_associations.pdf)
+
+## Eight flanking CpG markers after DSS
+
+The numerical checkpoint shows all 96 mouse values and both study-specific differences at each of the eight fixed probes, grouped by fragment. The intervals show one-mouse omission ranges. [Figure and source tables](jun_foxp1/saline_markers/NUMERICAL_RESULTS.md) · [Vector PDF](../../analysis/research/runs/ng26_saline_marker_figure_v1/saline_markers.pdf)

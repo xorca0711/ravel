@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Eight saline-only CpG markers, numerical review
+
+After owner review of Step 1 at `50eaec0`, the [frozen screen and mouse-level figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md) found one omission-stable joint decrease (cg31603876_BC21), five sensitive joint increases and two discordant sites. Its two losses were −3.496 and −10.000 percentage points, respectively, in day-14 isolated epithelium and day-23 whole colon. Independent reconstruction reproduced the 16 effects and 96 mouse omissions. The next step is owner scientific review of the numerical checkpoint.
+
 ## 2026-11-21 — Eight saline-only CpG markers, Step 1
 
 The [specimen checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md) confirms 3 + 3 saline mice in GSE283386 (day-14 isolated epithelium) and 3 + 3 Nagaraja vehicle mice (day-23 recovered whole-colon sections). All eight flanking sites have their original same-strand native specimen values and external availability. The [prospective comparison](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md) fixes within-study percentage-point differences, exact ties, baseline ranges and individual mouse omissions. Await owner review before calculating any external effect.

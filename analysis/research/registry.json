@@ -1166,6 +1166,7 @@
       "id": "Ng26-P01",
       "plan": "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
       "evidence": [
+        "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md",
         "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md",
         "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md",
         "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md",
@@ -1773,7 +1774,8 @@
     "analysis/research/runs/ng26_jf_binding_display_v2/receipt.json",
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_markers_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

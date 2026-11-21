@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_marker_figure_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json",
+  "contract_sha256": "86bdfd76011eea273104fca78a12df1a110a3360cca47420a9b4e0a43a341f96",
+  "git_commit": "165d8a018b2dcf8ba485dc306e48fb9e39d2218f",
+  "started_at": "2026-11-21T07:29:03.230177+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/draw_markers.py",
+    "analysis/research/runs/ng26_saline_marker_figure_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/mouse_values.tsv",
+      "sha256": "f1f58dff415009478d82a8cd115b7bed83e6c787ff86d958a3a9aada6c07a1e1",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/study_differences.tsv",
+      "sha256": "8a0f749531c7657a738aaaf96945794fc93e5d3824994f46be270b12c1045d68",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/site_comparison.tsv",
+      "sha256": "fcc619d4d52a0ccb4a064bfff18fb959fae07fc8ba0896f9d06af38983b24f52",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/draw_markers.py",
+      "sha256": "5f7b14a68b35104e9a2c8562b17a19376251ad94f906303d11a8dd53cbceacb6"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_saline_marker_figure_v1/saline_markers.pdf",
+      "sha256": "e21a58d4f0ba7a38191006a5ee62921e092bc977f03576fca1e65ccec145f6ce"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_marker_figure_v1/saline_markers.png",
+      "sha256": "4882b2ee1e4a8ee689229dcfe6c92f0e86f59f77b29691573a26fad9b9545b67"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_marker_figure_v1/render_checks.json",
+      "sha256": "90d4e1989348c318fc25f187944f408a624d1c2bb9ee7014537527c37f988b73"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T07:29:11.521620+00:00"
+}
