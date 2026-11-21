@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_specimens_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Are source specimens and same-strand fractions available for all eight fixed flanking CpGs?",
+  "decision": "Verify native values, original specimen identities, clocks, arms and array availability for owner review.",
+  "strongest_rival": "Inconsistent strand choice, small-sample variation, baseline differences, epithelium enrichment versus whole tissue, distinct DSS schedules/vehicles, collection clocks and platforms can alter apparent recurrence.",
+  "discriminator": "Verify the interrogated cytosine and original source string for each tissue mouse; use the already qualified external availability flags without opening its beta matrix.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner reviewed earlier Nagaraja and external evidence at 13ff486. Sources, original coverage and regional effects were seen, including numeric reads for availability/range. Native 48 same-strand values are part of Step 1 verification. External site effects, matched sign results and omission effects have not been computed or inspected before this freeze.",
+  "biological_unit": "An individual mouse in one of two separate studies. Three mice per arm per study. The same animals contribute multiple CpGs; five fragments group the eight sites.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Two separate cohorts, no matched individuals. Stage 1 source slices and earlier qualification are reused. Sites and fragments are not independent mouse replicates.",
+  "population_and_selection": "Exactly eight prior probe IDs at three left and five right flank dyads. Six specified GSE283386 saline mice (3 DSS, 3 water) and six GSE316762 DMSO mice (3 recovered, 3 healthy).",
+  "contrast": "Verify presence, source-scale native fractions and independent sample identities only.",
+  "endpoint": "12 specimens and 48 same-strand tissue fractions with source addresses; fixed previous array availability.",
+  "methods": "Restrict previous assay/sample crosswalks to the specified specimens, check GEO metadata/availability, map each probe onto its interrogated native base, and record exactly one deposited fraction per site/mouse. No group means or array outcome data.",
+  "missingness_and_exclusions": "Accept zero and preserve exact deposited decimals. Halt for provenance review if an expected specimen/coordinate is duplicated or unavailable. No replacements or outcomes-driven filtering.",
+  "multiplicity": "Eight fixed site descriptions. No p-value threshold, ranking, pooled effect, gene inference or independent-site test.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Three mice per arm, without an established material effect margin. Within-arm ranges and exhaustive one-mouse omissions assess finite-sample influence and are not confidence bounds.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Limited recurrence screen in two preparations and clocks. No adjudication of tissue-specific biology, causal regulation, late maintenance, gene targeting or relevance to all 63 amplicons.",
+  "stop_rule": "Stop after Step 1 registration and preflight for owner review.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+      "sha256": "c5bfed323f228d017e58c71010637fcf4a1c1e363163b650674c05a69a99e52c",
+      "study_id": "design",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_dyads.tsv",
+      "sha256": "c9548c34b034ca92fd2a2265b748c2cf1285209dbcd973e160b8eeae5d4ee216",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_specimens.tsv",
+      "sha256": "2db1446d4e2bd446b902e98ece1fca310f1a75e1a3d60f84575c3c2e1537f514",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_external_qualification_v1/array_availability.tsv",
+      "sha256": "1ad37ee973015bbf29a9d978a02ea911772b5d7d35ddaeaad3eaa54c948f4606",
+      "study_id": "GSE283386_and_GSE316762_keys",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sources.tsv",
+      "sha256": "0cd39b63672213b0654a2f50312da8493a321cac61e84fbf5f930a1b52dd7e14",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/GSE316762_family.soft.gz",
+      "sha256": "9048beb58c9343d494b6bcb7c8ff361c36aac15dbf78be0227be0c7aa659c740",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/geo.soft.gz",
+      "sha256": "c0db76bcff6243c589621b4c1ab6af4bb2d4815dafba48df5cfa3fa72924e5b8",
+      "study_id": "GSE283386",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/verify_specimens.py",
+      "sha256": "8d290b0262d9e7da344e875ccf651774b435becb0ec5b4a35a005d43829d33d7"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/verify_specimens.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "specimens.tsv",
+    "nagaraja_same_strand.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner requested the saline-only fixed-site follow-up after the external feasibility closeout; preserve the preceding qualification."
+}

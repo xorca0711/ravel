@@ -1,0 +1,569 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_external_qualification_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which narrowly scoped comparisons can the public Yin selection libraries and the independent GSE283386 colon methylation array support for the 63-locus Nagaraja question?",
+  "decision": "Qualify the two fixed external studies and stop after local closeout for owner review.",
+  "strongest_rival": "A barcode-matched background can have sparse exact sequence representation; a synthetic 40-mer differs from the native locus. Array probe strand, tissue and intervention timing can prevent direct comparisons even when a fragment overlaps.",
+  "discriminator": "Match exact released library barcodes and protocols, count only three frozen native contexts, and reconcile each fixed array probe to the reference CG dyad, measured strand, native common sites and usable mice per arm.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Stage 3, original external scan and source routing were reviewed. Exact target words, eight probe IDs, dyad coordinates and four alias-matched input accessions were inspected before freeze. Per-context read counts and probe-by-arm availability were unexamined.",
+  "biological_unit": "Isolated human protein construct, protocol-specific barcode library and successive enriched cycles; reads are technical observations. The external array uses separately sampled mice, three per arm. Stage 2 methylation uses separate tissue mice or P4 mouse lines.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cycle zero precedes selections; cycles 1–4 reuse the selection series. Barcodes identify starting sequence pools. Array probe observations nest in 12 mice and 5 selected genomic regions. No individual or paired-protein measurement bridges studies.",
+  "population_and_selection": "Four matched barcode series, 4 zero-cycle and 16 selection FASTQs. Only the sole preidentified CpG-bearing scored motif, shorter CpG/AP1 word and two-base flanks; only 8 preidentified array probes in 5 amplicons.",
+  "contrast": "Coverage and feasibility only, no outcome effect or ratio. Record counts for exact words, array and native locus/strand overlap, and finite array values per arm.",
+  "endpoint": "Library and source ledger, exact-word support counts, dyad coordinates and strands, specimen identity, native strand presence and arm-level usable counts.",
+  "methods": "# External candidates · Qualification after Stage 3\n\nThe owner reviewed Stage 3 at `61397c1`. The late binding–accessibility estimate, model-specific regional methylation results, the original eight array probe IDs, their geometry, and the sole native scored-motif CpG were exposed. Source routing identified exact library aliases and four matching zero-cycle barcodes before this freeze. No alignment of study outcomes, enrichment or per-arm external beta contrast is part of this qualification.\n\n**Yin.** Anchor on the individual human JUN full-length and FOXP1 extended DNA-binding-domain experiments in PRJEB9797. Confirm the protocol from each experiment XML, exact construct, barcode, successive selection cycle, file checksum and read count. Match the four barcode strings to ZeroCycle samples in the authors' PRJEB20112. Keep the chemical attribution of an input distinct from documented barcode/sequence composition and from methylation of each selected molecule. Use the Stage 1 mm10 sequence for the lone CpG-bearing scored motif. Screen only three nested, fixed words: the exact 12-bp scored window, that window with two native bases on either side (16 bp), and its CpG plus the adjacent intact AP1 heptamer (9 bp). Count presence in either orientation within a deposited 40-base randomized insert, once per read; include zeroes, library read denominators and distinct supporting inserts. Record other read lengths, ambiguous bases and strand counts. No enriched-word search, test, estimated methylation effect or merging cycles as replicates. Separate observed feasibility of the exact local sequence, shorter context and full amplicon from chemical binding or late maintenance.\n\n**Array.** Reconcile the eight preidentified unmasked measured GPL30650 probes in the original five amplicons to exact reference mm10 CG dyads, existing common plus-C coordinates, explicit assayed strands and native coverage on the interrogated genomic base. Use the deposited two-base half-open target, independent annotation strand (v8.6 MM285 mm10 coordinate table in its matching probe order), plus-C at start and reference G at start+1. A minus-strand interrogated C lies opposite that reference G. Check target string, mask, target width and exact reference sequence; preserve disagreements without moving probes to a nearby site. Retain plus-C and opposite-base native coverage separately for P4 and tissue vehicle, and distinguish core from flanks. Map all 12 array columns to GSM, mouse sample and treatment using raw-channel filenames and original GEO records. For the eight probes only report finite beta availability and counts per arm. Pin the treatment and collection schedule, preparation and published detection criterion. No arrays are paired to Nagaraja mice. No external treatment effect, broad outcome search or qualification of another dataset is authorized.\n\nThe final decision distinguishes what either candidate can answer about methylation-dependent JUN–FOXP1 binding and late maintenance from narrower, source-supported uses. [Stage 3 results](../stage3/RESULTS.md) · [Previous deposit scan](../../post_s5/JUN_FOXP1_DEPOSIT_SCAN.md)\n",
+  "missingness_and_exclusions": "Keep every fixed run, subcontext, probe and mouse, including zero sequence hits and missing array betas. Distinguish unambiguous 40-bp reads, strand availability and true zero. No shifted nearest-CpG substitutions.",
+  "multiplicity": "Only fixed coverage checks. No outcome search, motif discovery or effect testing.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Feasibility only. No biological precision from read counts or enrichment cycles. Three mice per array arm.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "These materials do not test paired-protein methylation dependence, late colonic occupancy, maintenance or temporal ordering. Exact sequence occurrence is not methylation preference.",
+  "stop_rule": "Stop on hash, mapping or integrity failures. Report unavailable matches and retain sparse libraries. Stop at external qualification.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/DESIGN.md",
+      "sha256": "2c28906ffae9ab65e90a529ef6c42ea18a0592a41071b4c22a9d188cb967880b",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_sites.tsv.gz",
+      "sha256": "f5746b96314a751f5c68a15f8c62ba96bc2d1e76c3fc5492adde5400565dfbaf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ena.tsv",
+      "sha256": "76415a4b41d95861e40d31a08cf6ed939632ce6c147c80f3daf93d66c0ef9ef2",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/cycle0.tsv",
+      "sha256": "fd3c9d409442ada30dda4ed0fb4dc23308bcd3e98f5a2da87ba6af1bb380c6d4",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/yin-study.xml",
+      "sha256": "ac6d6edceed2c1a375b8c444c5a2d45286b96860269b354c853d754a7d83bfbe",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/cycle0-study.xml",
+      "sha256": "3330b8fb73623c053f5fb309b5bf0bbaff4456bb435d403792d05ee93f679445",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/yin-pmc-bioc.xml",
+      "sha256": "20ee5ef2e022be2a261029aed51bc0c321bc1f2df247c1de5e9e3e0c52f03e94",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/colon-pmc-bioc.xml",
+      "sha256": "3649d8709ff53ebd56428020d47b48db7ecb2ac87492fa4a5f0855f53ffa739a",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/matrix.gz",
+      "sha256": "86818d41b50280ae918e72ed60522b116a4071a541918e5866dac6538dbb7e19",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/geo.soft.gz",
+      "sha256": "c0db76bcff6243c589621b4c1ab6af4bb2d4815dafba48df5cfa3fa72924e5b8",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/manifest.gz",
+      "sha256": "36183e33914da219b6f6bd987cce5ba29c906d5083cbbbeffaf3529710a014b0",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ordering.gz",
+      "sha256": "6d199c9f5363ed00536f77165847f76bfe3ff7aac4fef1b409a4754f54dc1a6d",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/mm10.coord.gz",
+      "sha256": "5e47aa327e69cdb7b360c975b7b9ddb38fa5c31059c30aabbb882370f298b4fa",
+      "study_id": "external_colon_array_or_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082402.xml",
+      "sha256": "3f10a30f3940cc73ddad418bece474c59920cdd8110989debec36b691c27f8e9",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003378.fastq.gz",
+      "sha256": "0dfdef764b660a221274769465966b4a45af2c619490c621c184d8b59ebff571",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083380.xml",
+      "sha256": "a3feccdb45c6f599acd75f0d2355c037801712787beb1232ab9e534410538777",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004356.fastq.gz",
+      "sha256": "43c35ad162242ee721545b81e32652f8c56bdaccfb94b1e8141fb33a3b966682",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083381.xml",
+      "sha256": "2476848b044ddb57746205022d46a38133aabaead5bdc05f8b267fd90ce0d6d6",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004357.fastq.gz",
+      "sha256": "626d8541c9c6abb72af5df15c8cdc9b26c2a4594df76f21e1bce27e74abcadc4",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082405.xml",
+      "sha256": "c5833f4797bbd97779f20e299b49b18696d068d1a9a753cfde1d999d911c435b",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003381.fastq.gz",
+      "sha256": "85952046323f91baae942ad7929f13382e471308c3cc132f7f5533a5454ca7b8",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082408.xml",
+      "sha256": "0f93c84a0d3f33720e6d0958450bbe8ac72d58012b40c5f836505f79f4f4bdf1",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003384.fastq.gz",
+      "sha256": "4049c0d68cfc2fa98a507b1c72f035c53ae75d62da3a8b1e025d0f529c494351",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082409.xml",
+      "sha256": "88063650c79ea54a460c9c996f521da8e7b57041b6bf8e2b4aad6088aa59545b",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003385.fastq.gz",
+      "sha256": "21612440fa6eb05157209ec31c08cd865601fd23969d637ec3067ce0d6b4d9a9",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083383.xml",
+      "sha256": "c79f16e745a2b60ace40e8088f9450fbcb042a29ceff259a096c9a693316b4f4",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004359.fastq.gz",
+      "sha256": "9760a9ce693439be2350434de7d363917e306140066ca3f3696e783a2d781f5e",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083384.xml",
+      "sha256": "5c4205e6e51c16efad23ef37c90ac29d578921bc503223c08b44ebc87678184c",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004360.fastq.gz",
+      "sha256": "ed6250afe2edd2854c8685ad36752635faeb0a94d524732625ee2f486bc22b59",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082403.xml",
+      "sha256": "4deab4fe6158aa21a4c1cb4b55e3f76afdb8395493d446f08e5ec151e8da2964",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003379.fastq.gz",
+      "sha256": "f2d7080d192c8949ceccdff13bbab86e3c39767b9aeac9fd65f35410587288c3",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082406.xml",
+      "sha256": "57d180fc5118fe6c26c0464bc44bfb39aa4daffc92531ec5de61952aa9d25d3c",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003382.fastq.gz",
+      "sha256": "fe5b82bc5d57fea3c1463e95b9bee13ac98cdfe954d750b62e9405c1765d1e5a",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082404.xml",
+      "sha256": "b70109c36ff8213906e7851e042d9cd54e129dd75b5b8821bddae603b0d73240",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003380.fastq.gz",
+      "sha256": "8d855e39dfcb3e3404cab64aa1fc8ce55640f48deed3b73f2405c31cc123b047",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083378.xml",
+      "sha256": "4895e0e185b445d9a253c3cb89865ac93a2b20f77972c59fc26b82a984a8240e",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004354.fastq.gz",
+      "sha256": "872926efd033eddd0a50228290ce872eb3bbd487cec1e01b8c67fe406817307e",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083382.xml",
+      "sha256": "ec310e598b9647421e3894602b4299b12d5f88afe733671d4ab9c32197c6308d",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004358.fastq.gz",
+      "sha256": "ef161b20cfbe6157534b27c72f91fc82b3786e04ad54fa77e8fb79bf295f93d4",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1082407.xml",
+      "sha256": "ba80a03be289514811c9468549a6fa20ded2591e3d15541199b86b44a077efae",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1003383.fastq.gz",
+      "sha256": "7d9f6dad9d32879f197221cdcfa34e0a9f2a2b40dd70dab5804abfd69334723f",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083379.xml",
+      "sha256": "cadda8a0847faebbc6144b3ebbd424f22a51cf7a0be5bde549c240c208f236e2",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004355.fastq.gz",
+      "sha256": "0905ac5d3e7e305ee709206782053b6a67ebf4f5ba141b17a9345e34d40c7ef7",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1083385.xml",
+      "sha256": "5accaf3aea50a78b329c63bae8494cbb4237a32ffcef8e8bab04957f01e9d969",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1004361.fastq.gz",
+      "sha256": "8ab75ff86dea2a04da564505fc0394868ee8df954bdbcaf77f5aa8117fb9a4f0",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1956365.xml",
+      "sha256": "879d201a5accab018b166f42badb4392abeda104df34715f17daa86affc04924",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1895975.fastq.gz",
+      "sha256": "ae2ae7569000344add6165e203f0e38f10434435deefdd0f256faa0aeaff235c",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1956496.xml",
+      "sha256": "d4abfe4ce3adca422851b1aadfc2a2be836da7f9aebe303fc737b6165d147076",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1896106.fastq.gz",
+      "sha256": "926dbf39a66461f40bf214aabf414691f63d6db931bca499dc08784dc23fdd63",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1956225.xml",
+      "sha256": "d32de3cca29734fb11f22e1021ee80f072bd98a5bbdd2f711162982b80e4e7a1",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1895835.fastq.gz",
+      "sha256": "d4680d7822741aa15695184af3134fb223a72b9310eb81c90b1166118c0be65f",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERX1956689.xml",
+      "sha256": "b54c04c4d550f04495f6b36704a5a3de5651980edd898222270b62fd0d7d0a81",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf_external/ERR1896299.fastq.gz",
+      "sha256": "28781b35fb206dbe7e00befc5125b778b040dcd21e379f4951d57e5b68e56af5",
+      "study_id": "Yin2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/qualify.py",
+      "sha256": "166a44139e9962e1923f3d413c5903920e222fa24a8a40a049db32a64640ae4b"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/sources.py",
+      "sha256": "4afc15860e5548c66de4e14d2b2d25226d107d863a379d089899fea50f9e39e5"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/qualify.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "yin_libraries.tsv",
+    "yin_context_coverage.tsv",
+    "array_dyads.tsv",
+    "native_dyad_coverage.tsv",
+    "array_specimens.tsv",
+    "array_availability.tsv",
+    "array_arm_counts.tsv",
+    "public_sources.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Final owner-authorized external qualification after Stage 3 review. Targeted feasibility only."
+}

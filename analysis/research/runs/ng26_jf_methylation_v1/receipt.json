@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_methylation_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.jf_methylation_v1.json",
+  "contract_sha256": "b814bbb01e8987ec801d0785fdcbeb7bcccb6d60ead44f83012222a0bec42f7d",
+  "git_commit": "af0a79ea8db6721f2d285d176930877e7b60f1e7",
+  "started_at": "2026-11-21T05:52:40.809974+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify.py",
+    "analysis/research/runs/ng26_jf_methylation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_jf1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/7_inVitroFootprinting/Regions.csv",
+      "sha256": "c5f0855f33d510a5a94f19d87c5cd1c48db50df2502c9b09ab7d0d77ed3696bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_sources_v1/ed6_tissue_sources.tsv",
+      "sha256": "add6afd991d48e50078b5332a5b4fd7a466cdb726493de3a7f466ed4ab0b5626",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s3_sources_v1/thbs1_track_sources.tsv",
+      "sha256": "cb3fef9dec887dfd273b9e789a116c97f544368b41e0551b33816e77d11b0287",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s3/bigWigToBedGraph",
+      "sha256": "8eeab2f2ae48e321ff5db8e0654ab6e97718902bfa8c89ff0c0f4446f46bad60",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify.py",
+      "sha256": "0e503ffb6c0c83d7b71d102ee2ef0df9852bd5a6ebd452d34febbd3d822acd20"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/methylation.py",
+      "sha256": "73f801957262fc0077796225b86bbbd5c972a9175f1a834074fb25279a78b8a8"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/bundle_inputs.py",
+      "sha256": "f14ce3f4351eb488a99aab45bc1a3305bc24e0fa6918760a274c86f232878c9d"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_support.py",
+      "sha256": "bd519f2b3518abfab0cb1b65ec478dac30cb75e6165d49d0397d11fab23e9c9f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/slice_tracks.py",
+      "sha256": "c07f1bc8e73d3df941a6e59571996ae6af64d223aa482ff7e5ff93d148998e1f"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sources.tsv",
+      "sha256": "0cd39b63672213b0654a2f50312da8493a321cac61e84fbf5f930a1b52dd7e14"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_slices.tsv",
+      "sha256": "1a31fd4cf7d63cef182c63e04e5fb4cd2a7a0dd563d2c52e89af14c0cddcffc7"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_dyads.tsv.gz",
+      "sha256": "f501c836f1e3aa89548ae08089cdd0a5616da7c17c4405760cbecebb7177f912"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sample_windows.tsv.gz",
+      "sha256": "7250eef6087ff23db2e01de100fca786d985add65ca6b219e32d75af5fbee38e"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_contrast_coverage.tsv",
+      "sha256": "820f8352675fb3a0c2a8dc46b5743c233999551d9d2a19be8f780d256d1cc542"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T05:52:44.895141+00:00"
+}

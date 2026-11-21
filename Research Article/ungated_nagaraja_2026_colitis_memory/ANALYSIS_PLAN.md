@@ -1,0 +1,56 @@
+# Analysis plan for colonic epithelial memory after colitis
+
+**Final status · 20 November 2026.** S6 closed Ng26-P01 through synthesis of the existing outputs. The stage descriptions below preserve the prospective plan of 19 November. The original mouse-level ATAC threshold and independently state-conditioned clone comparisons remain held. No matched external intestinal contrast qualified. [Final synthesis](SYNTHESIS.md) · [Ten figures and source values](FIGURES.md)
+
+| Stage | Final disposition |
+|---|---|
+| S0 | Qualified specimen, donor and clone keys by assay. The initial barcode-related failure and successful amendment are preserved. [Source checkpoint](s0/CHECKPOINT.md) |
+| S1 | Recalculated protein frequencies from counts, read tissue motif fits and audited RNA coverage. Original individual-cell ATAC fractions and extended ATAC curve remain unresolved. [Results](s1/RESULTS.md) |
+| S2 | Replayed clone dispersion, tested membership definitions and audited Fig. 2i glyphs. The exact Fig. 2i p-value and Fig. 2j RNA fit remain unrecovered. [Results](s2/RESULTS.md) |
+| S3 | Read drug and washout endpoints, recalculated defined-protein binding and measured methylation at illustrated loci. The exact ED6d peak-set comparison remains author-reported. [Results](s3/RESULTS.md) |
+| S4 | Recalculated early mouse burden/size and read lesion P20 from the published plot. A four-arm mouse interaction and direct clone-to-lesion linkage remain unresolved. [Results](s4/RESULTS.md) |
+| S5 | Executed the within-line extension and same-assay Hnf4g sensitivity. Independent state labels remain missing. [Results](s5/RESULTS.md) |
+| Post-S5 | Owner reviewed the family comparison, whole-clone sampling, line omissions and maintenance alternatives at `3b7f008`. [Checkpoint](post_s5/RESULTS.md) |
+| S6 | Completed documentation closeout using existing receipts. The external comparison remains biological context. [Synthesis and evidence limits](SYNTHESIS.md) |
+
+## Original analysis plan
+
+**Ng26-P01 · 19 November 2026 · planning only.** Does prior colitis leave a detectable AP-1-accessible subset among recovered colonic stem/progenitor cells, and do descendants in the same organoid clone resemble one another after accounting for organoid line and differentiation? These are related questions in separate specimens. Treat the paper's reported results as known at design time. Freeze the first eligible numerical contract before computing estimates, record that exposure, and review each result before advancing. [Literature and deposit record](LITERATURE_CONTEXT.md) · [Repository research governance](../../docs/RESEARCH_GOVERNANCE.md)
+
+### S0. Establish which measurements link to which biological units
+
+Create a panel-to-file manifest for Figs. 1–4 with accession, archived version or checksum, assay, history, time, cell population and independent unit. Track mouse, organoid line, clone, cell, slide and lesion IDs as distinct fields. Test key uniqueness, mapping coverage and unmatched or ambiguous identifiers. Confirm whether each line maps to a distinct mouse. Inspect the analysis objects called by the archived scripts, especially the in-vivo chromVAR score and sample metadata. An ATAC fragment file alone does not supply the published score or its background.
+
+**First milestone.** Trace Fig. 1l's protein series from Source Data Fig. 1 to its per-sample CD44-positive denominator, double-positive numerator and protocol day. Separately qualify the tissue AP-1 score-to-mouse map and the Supplementary Data 2 organoid cell-to-clone-to-line map. Deliver a short panel eligibility table, with a reason for every held endpoint. Use the eligible table-based comparisons even if a fitted single-cell object is missing.
+
+### S1. Reproduce the recovery phenotype across mice
+
+The primary in-vivo target is Fig. 1i. For each eligible control or recovered mouse, divide the number of AP-1-high stem/progenitor cells by the number of scored stem/progenitor cells. Replay the authors' Fos motif chromVAR deviation threshold (>1.5) on their score scale. Plot one fraction per mouse and report the recovered-minus-control difference in mean mouse fractions, with cell counts displayed. The reported comparison has nine control and five recovered mice. Keep distributions by stage (Fig. 1h) and extended recovery (Fig. 1l, two mice each at days 50 and 79 and four at day 102) distinct. Protein denominators differ from ATAC denominators. Inspect every mouse at sparse time points.
+
+Then examine continuous scores and within-state fractions using epithelial states defined independently of AP-1. Compare those results with each mouse's distribution of states. A frequency shift can arise from expansion of an AP-1-high state, higher accessibility within a state, or both. Return the estimable components separately. A threshold applied to newly reconstructed scores needs its own calibration and reconstruction label. If original scores or mouse identities fail qualification, complete the independent FOS protein readback and mark the chromatin estimate pending. FOS staining and P20 RNA each measure a different feature.
+
+Use Fig. 1d–g and Supplementary Tables 1–3 to put the chromatin finding alongside acute, chronic and recovered RNA changes. Examine whether the acute transcriptional response subsides while accessibility remains elevated, and whether the pattern weakens along enterocyte differentiation. Different days comprise separately sampled mice. A cross-sectional decline describes recovery at the group level.
+
+### S2. Reproduce clonal similarity ex vivo
+
+Use Fig. 2h–i, Supplementary Data 2, the archived clone calls and Supplementary Tables 2–4. Confirm the treatment, organoid line, clone size and cell count after joins and reconcile the published 80 control and 52 colitis-derived clones in Fig. 2i. Resolve overlapping barcode memberships according to the authors' rules. The 50 largest clones in Fig. 2g are a display subset.
+
+Reproduce the archived score-dispersion statistic, shuffle scheme, seed and null calculation before altering any of them. The script globally permutes clone labels per feature, uses 1,000 shuffles and a normal-tail calculation. Reconcile observed and expected dispersion with Supplementary Table 4. Report clone-level values and line-level contributions. Compare AP-1 with ETS/CTCF (recovery-associated families in tissue) and HNF4/PPAR (differentiation-associated comparators). Smaller or poorly represented families may be unresolved. Review Fig. 2j's clone-level AP-1/P20 association alongside differentiation programs. A clone is the unit of resemblance; independent histories require mice or independently derived lines.
+
+### S3. Test the interpretation of the chromatin readout
+
+Use Figs. 2l–p and 3 to ask what distinguishes a maintained chromatin state from its current transcriptional output. Keep separate records for drug-on versus washout, methylation versus accessibility, and AP-1-only versus AP-1/FOX composite sequences. Use the published marker list for P20 and deposited locus scores for the binding comparison. Separate predicted occupancy in mouse or human samples from the defined-protein in-vitro footprint. Filter each comparison by its actual measurements and independent preparations. An acute inhibitor response addresses current activity, a washout readout addresses reversibility, and correlated methylation nominates a possible maintenance mechanism. None identifies the molecular carrier of inheritance on its own.
+
+### S4. Separate adenoma growth, burden and regenerative transcription
+
+Start with per-mouse fractions of gross adenomas larger than 1 mm (Fig. 4c), then examine lesion counts and area fraction per replicate (Extended Data Fig. 9). Fig. 4e measures microscopic adenoma area, and Fig. 4j compares the P20 RNA score across 117 control and 137 colitis-derived adenomas. Axin2 helps identify lesions in the spatial analysis. Retain mouse, section and lesion nesting wherever identities are available. The published Fig. 4e sample includes 88 lesions in seven control mice and 256 in ten mice with previous colitis. The released area worksheets for Figs. 4e and 4l expose group and area fields; a lesion-to-mouse key still needs verification. If it remains unavailable, show lesion distributions descriptively and reserve mouse-level inference for panels with animal IDs.
+
+Record all four history-by-drug arms in Fig. 4l. Estimate an interaction only with a qualified mouse-level contrast. Larger lesions at the measured endpoint and altered P20 expression address early outgrowth. Initiation, incidence over time and a continuous lineage from a traced organoid clone to an in-vivo tumour would each require other evidence.
+
+### S5. Test the strongest extension supported by these deposits
+
+**Prediction.** Among cells in the same organoid line and independently annotated differentiation state, true relatives will still have more similar AP-1 accessibility than cells assigned to size-matched pseudo-clones. The competing explanation is that clone size, line of origin and state composition account for the published resemblance. The paper already examines clonal identity and colitis history with mixed models (Extended Data Fig. 4i–m, Supplementary Note 3). Compare the supplied model and its exact inputs with the proposed conditional shuffle before opening a contract. If they already answer the same question, report the existing estimate.
+
+Proceed only if multiple exchangeable clones span the relevant line/state strata. Preserve clone counts within each stratum, account for ambiguous memberships, and show the informative lines and cells. Check equal clone weighting and leave-one-line-out sensitivity where feasible. Retain both the total and the conditional effects; differentiation can itself be transmitted within a clone. Residual resemblance supports lineage-associated persistence under these controls. Attenuation supports a contribution from sampled line or state. Sparse strata, a result driven by one line or sensitivity to membership rules leaves the conditional question unresolved. Stable genetic selection and other shared lineage features remain possible under either result.
+
+**Closeout.** Link each figure to its unit, underlying table and limitations, including null and held comparisons. Consider an intestinal comparison with Arozamena only if recovery stage, epithelial state, feature definition and donor/animal unit can be aligned. Use Naik/Cowley as tissue-level context. End the package when a further comparison cannot distinguish a biological explanation with the available data. A canonical RQ would need a separate evidence-based decision.

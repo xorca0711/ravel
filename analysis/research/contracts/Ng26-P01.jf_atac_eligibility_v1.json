@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_atac_eligibility_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which original mouse specimens support native panel accessibility readouts at 50, 79 and 102 days with within-cohort controls, and what region- and barcode-level coverage is achieved?",
+  "decision": "Qualify mouse specimen metadata, sufficient native depth, technical suffixes and credible original controls for a later analysis, then stop at Stage 1.",
+  "strongest_rival": "Selection of 63 sites, tissue and culture composition, shared technical runs, missing or ambiguous samples, variable depth and lack of independent state labels can restrict an eventual comparison.",
+  "discriminator": "Use the complete label-preserving fragment scan, unzoomed source map rows, measurement-specific barcode FASTQ prefixes, validated DNA index dictionary and nominal specimen manifest to distinguish real biological donors, duplicate pools, unresolved or colliding barcode suffixes and missing controls.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original paper, Table 6 binding interpretation, S0-S6 and deposit review were known. Stage 1 examines presence, units, depth and missingness. No association or between-arm effect was inspected or estimated.",
+  "biological_unit": "Native ATAC and tissue methylation use mice, separate organoid methylation uses source-labelled mouse lines. Binding uses paired sequences with one library per protein condition. Reads, CpGs, loci, barcodes and technical pools are nested observations.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Deduplicate shared specimen/donor accessions across technical records. Do not pool tissue and organoid cohorts. Full and extended ATAC exports are distinct technical sources, with original within-cohort controls preferred.",
+  "population_and_selection": "All original main and extended dataset specimens and every observed fragment barcode. Independently of target signal, include uniquely DNA-assigned and pool-supported barcodes. Use min 1, 300 (working), 500 observed autosomal fragments per barcode. Return every panel region, including zero counts and unannotated regions.",
+  "contrast": "Availability of deposited late recovered versus concurrent native controls in each source cohort. Main series controls retained as different-batch references only. No stage effects, site associations or between-sample comparisons of normalized signal.",
+  "endpoint": "Exact raw barcode assignments and ambiguities, technical prefix and same-map duplicate records, independent nominal and usable donors, global library depth and overlap/fragment ends per native region. Presence and sufficiency of independent state labels assessed separately in the ledger.",
+  "methods": "Read each four-round literal barcode, translating well numbers with the archived SHARE dictionary; normalize punctuation only. Inspect the full submitted map across relevant pools. Require one specimen and exact measurement-pool compatibility based on original FASTQ headers. Rescue validated suffix-only cores on matching technical library and donor. Hold suffixed core collisions from primary depth to prevent alias double-counting; preserve candidate and assigned biological IDs. No cross-export merge. The documented P1_62-2 example was located structurally before this freeze. Per donor use coverage tiers of at least 1, 300 and 500 actual unique autosomal fragments per barcode; these are not the original singlet QC. Denominator is sum of unique autosomal fragments of retained barcodes. Panel table keeps unique overlapping fragments and counts of native endpoints at start/end-1, without extra Tn5 shifts. State and original author scores require independent annotations. Source fragment row multiplicity retained separately from depth.",
+  "missingness_and_exclusions": "Zero native fragments in a covered donor-window is a measured zero. No usable donor yields missing panel counts with zero denominator. Unannotated FOX/composite windows are inapplicable. Map ambiguity, unverified technical prefix, unsupported suffix and independent state labels remain explicit. Keep every nominal animal.",
+  "multiplicity": "No tests, effect estimates, outcome selection or rankings. Retain all 63 intervals and all original samples including unavailable cases.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical coverage and presence only. No biological precision or power estimated.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source qualification does not identify cellular state, occupancy, retained protein, methylation causality, biochemical interaction strength or change after exposure.",
+  "stop_rule": "Fail on conflicting specimen-to-donor identity, barcode join row multiplication, empty technical provenance, unexplained geometry or inconsistent denominators. Report limited control groups as such. Stop for owner review before any effect or association.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_depth.tsv.gz",
+      "sha256": "9d4d1e075d408bc3c9374355be76d6872fc02c8fb1ee630f2d64ccc6b7ea02cb",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_panel.tsv.gz",
+      "sha256": "a0b4e7bd7fb7b91262dbd47cf38933ab0f242532f5b4bd1ceaed530927382052",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_depth.tsv.gz",
+      "sha256": "380b964bd8c0c080a62f90ba55fcc6cf5fec6bbfdda4ca3ce8ff4c66ddc3fdee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_panel.tsv.gz",
+      "sha256": "75520c9d6a5e21dbed6e2e02c98df96c90064c3c233721a0f152367e12a0fd38",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/upstream/fastq.process.py3.v0.9.py",
+      "sha256": "d4d15d5b0a1c9619711347cbab13f159283b162bede04e1d55de4f1c9486ccf0",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI0200BNGG.tsv.gz",
+      "sha256": "ce60620aa83cff3b8c93b669527a0bd9372846711c5811d297103823512428ee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI0569SWMX.tsv.gz",
+      "sha256": "9d8f9e697ee273eb1dd436bf8037f1c4d1558305f3eaffbaa364b0bae4cebcfc",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI2122MRGS.tsv.gz",
+      "sha256": "7617b54674a8c8c5b9ce31c45543fb6b21c799bd46fb70ee3046c5447209c3ab",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI2524VBIM.tsv.gz",
+      "sha256": "96ec35e4659602f927416222171c5198b95c94e9df06b665a6e745240d80a8bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI3632MESS.tsv.gz",
+      "sha256": "1904e65951487152d7bd8243058f4bd8002dbe95399691bfd91f9927c6551970",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI6171YXAF.tsv.gz",
+      "sha256": "99d5528b79a9aa96a314f35662eb74e954545be4331d648900c96cf0bf411543",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI8634LLPI.tsv.gz",
+      "sha256": "9448b039d094645804ea325b7e40746134c1b7f750ffd04853211dec01edaeab",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI9675OFBL.tsv.gz",
+      "sha256": "01dfbaac1fe1451bc8cf3f81a96cce87fef9cc9771cfe7f0125655c395743d59",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify_atac.py",
+      "sha256": "292cc02aa08abfd74a287021e867abdaeb06c55177d8f6a7110b91ad90b9d82f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/native_atac.py",
+      "sha256": "3e0af0fda18299438acf6429314ee73ca9f64941561202f280ac17bd3821c5bd"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/methylation.py",
+      "sha256": "73f801957262fc0077796225b86bbbd5c972a9175f1a834074fb25279a78b8a8"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_fragments.py",
+      "sha256": "3caa0aab286cd7d1cf6676274576e88439fb17ebd9f32d5d1d07fcfa0fd20818"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify_atac.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "extended_barcode_assignments.tsv.gz",
+    "main_barcode_assignments.tsv.gz",
+    "atac_measurements.tsv",
+    "atac_pool_specimens.tsv",
+    "atac_map_inventory.tsv",
+    "atac_barcode_status.tsv",
+    "atac_donor_depth.tsv",
+    "atac_timepoint_eligibility.tsv",
+    "atac_sample_windows.tsv.gz"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-requested source and coverage qualification after S6. Separate Stage 1 metadata receipt."
+}

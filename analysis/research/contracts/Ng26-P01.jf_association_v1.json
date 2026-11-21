@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_association_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Does larger paired FOS-free JUN+FOXP1 minus JUN binding track larger day-102 epithelial accessibility gain across the fixed 63 sites? How sensitive are this and the secondary methylation contrasts to class, denominators, baselines, interval opportunity and individual observations?",
+  "decision": "Complete the owner-authorized Stage 3 internal comparisons. Report signed estimates and dependence on individual mice or loci. Stop for owner review before external candidates.",
+  "strongest_rival": "Original assay selection, class and regional CpG/width opportunity; group-specific control baselines, few mice, tissue composition and cohort mismatch. The paired fold depends on JUN baseline.",
+  "discriminator": "Compare prespecified adjusted association, within-class and baseline checks and single-unit omissions. Preserve both denominator choices.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Owner reviewed Stage 2 at d1e3735. Binding values increased at all 63 loci, classes reversed median ordering on the ratio, methylation and ATAC contrasts had both signs, and a single motif CpG was measurable. Stage 2 source values and univariate displays were available. No cross-locus association, residual or omission estimate had been examined at freeze.",
+  "biological_unit": "Binding pairs are sequences from one assay library per condition. Native ATAC and whole-colon methylation units are individual mice. P4 organoid units are original mouse-derived lines.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Barcodes and fragments nest in mice; common plus-C sites nest in loci and source specimens. The 63 loci are repeated features within each mouse or library. Native cohorts have no individual match across modalities.",
+  "population_and_selection": "All fixed 63 sequences with qualified Stage 2 source measurements. N=63 whole and 58 left/62 right flank methylation with all six specimens. Each endpoint uses finite pairs and preserves true zeros. No day-79 contrast or motif-CpG association.",
+  "contrast": "Primary partial rank correlation of biochemical increment with day-102 mouse-mean CPM difference. Day 50 separate. Negative direction predicted for native methylation differences vs biochemical increase.",
+  "endpoint": "Source-scale values, residual ranks, adjusted and alternative coefficients, complete omission and influence records, figure in PNG/PDF.",
+  "methods": "Use the ranked raw JUN+FOXP1 minus JUN increment against ranked day-102 mouse-mean recovered-minus-control CPM, with rank residuals from the intercept, AP1 + Fox class indicator, rank width and rank reference CpGs per 100 bp. The prespecified positive direction indicates concordance. Repeat day 50 separately. Preserve complete pairs, average ties and record matrix dimension, rank and any unestimable fit. Round solely for tie detection at 12 decimal places to collapse arithmetic noise below source precision. Retain source-scale values. Use ordinary Pearson correlation of the two rank residuals. All 63 loci were selected in the original assay. Each biochemical condition has a single library. Coefficients are descriptive; leave-one-out ranges describe dependence on observed units.\n\nFor each ATAC time and each model/window methylation endpoint, report full-panel unadjusted and geometry/class-adjusted coefficients for the increment, paired fold, raw JUN and raw pair. For the two biochemical increment definitions also give within-class unadjusted coefficients, separate control and recovered associations, and an adjustment for the coupled mean control baseline. Rotate independent control splits: hold one mouse/line out of the control mean used in the difference and adjust on its ranked value. This yields two rotations for each ATAC time and three for each methylation model. The delta keeps all recovered animals. For ATAC repeat the main fit in CPM/kb. For methylation use full amplicon first, then left and right flanks separately for P4 lines and vehicle tissue mice; the predicted sign is negative. The geometry uses each window's own width and reference CpGs/100 bp. Also add common CpG count to the geometric fit to check opportunity. Retain windows with finite measurements, with nominal/measurable counts. Show all raw control and recovered comparisons on these same loci. A motif correlation is unestimable from one site.\n\nFor each endpoint and for the increment and paired fold, omit each locus in turn and rerank/regress from scratch. Omit each mouse/line in turn, re-average the remaining animals within each arm, and refit on the full finite locus set. Use the Stage 2 common-site definition unchanged. List every omission, identify the largest absolute coefficient change with its ID and show the full ranges, including sign changes. For transparency retain locus/mouse identifiers, source values, baseline and residual ranks, model dimensions and denominators. No omission selects the final estimate. No cross-day pooling, off-pool day-79 control, external candidate qualification or causal inference.\n\nThe [separate secondary contract](SECONDARY.md) covers colocalization of two native, separately sampled history differences. Both contracts were prepared before inspecting associations. [Stage 2 source values](../stage2/MEASUREMENTS.md)",
+  "missingness_and_exclusions": "Fixed common sites across all six mice/lines per methylation model retained during omissions. No imputation or day-79 contrast. Rank-deficient/constant fits remain unestimable with stated denominator. No results-based exclusions.",
+  "multiplicity": "One prespecified primary day-102 coefficient plus explicitly separated sensitivity and secondary results. Descriptive effect sizes, no significance testing or discovery threshold.",
+  "precision_status": "unknown",
+  "precision_basis": "Selected loci are repeated features from shared libraries/mice. Single mouse/locus omissions measure influence, not sampling confidence. No independent study validation.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Cross-locus association cannot establish simultaneous occupancy, methylation-sensitive binding, causal direction, late dependence or individual-level association. The two native cohorts and assay materials are separate.",
+  "stop_rule": "Stop on source hash mismatch or inconsistency with frozen per-arm baselines. Return mixed and missing observations and stop for owner review before evaluating external data.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/DESIGN.md",
+      "sha256": "604c4ff8307e2e1dd2c325e2f51a21e198cb9a2ad1f2cec0caf5faa423701ce4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+      "sha256": "6aa449c80612a5f776ee7ec67d47d7aafa2cd12c255250af7fa4415b4602ec7c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.tsv",
+      "sha256": "2a4ea6f3e8a3d1e26f63653154aa5e4748e44c36bd8ee510358572c0691f4ca8",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/atac_specimens.tsv",
+      "sha256": "55a335d80c674f836f88915248f18037d1376956951568b8dee1832d07ce2576",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/atac_history.tsv",
+      "sha256": "d099627912192fc92f90fdbd0c067c17e7d501b7a254bd31ed5d6a2e0c4981cd",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_specimens.tsv.gz",
+      "sha256": "672f4f61d4f59d5a0252602f7e2dcfa83b0304a33fa9e946a60709ac8b6b6be6",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_history.tsv",
+      "sha256": "e6529f8b6deadcd44e18b9eb3f54fc5eabc155da1affffe9bd858f503307eee3",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/binding_associations.py",
+      "sha256": "3bf949e70a7451dea70c7db8e9bd5a433ac746e554eb251ae254fe73da53e625"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/rank_models.py",
+      "sha256": "cbb3ba331f4c5ef575169a9fd693b4e0bd4cbeedd63d8ece12e1e15c1f80f392"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/figures.py",
+      "sha256": "bd4f56431a27b8003fd6e975952785eb56a5e2c6ad1ccc96ce351afb134bbfb0"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/binding_associations.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "associations.tsv",
+    "omissions.tsv.gz",
+    "omission_ranges.tsv",
+    "locus_pairs.tsv.gz",
+    "binding_associations.pdf",
+    "binding_associations.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Stage 3 authorized following Stage 2 review. Distinct primary and prospective secondary contracts frozen before inspection of associations."
+}

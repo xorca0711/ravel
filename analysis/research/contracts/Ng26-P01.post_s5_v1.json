@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.post_s5_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Which tested motif reporters show recovered colonic stem/progenitor accessibility shifts and lower clonal dispersion in organoids, and how sensitive is that overlap to clone assignment, donor line and observed clone number?",
+  "decision": "Recover the published overlap; quantify observed sensitivity of each matched reporter. Document alternative maintenance explanations in prose. Stop before S6 for owner review.",
+  "strongest_rival": "Cross-setting evidence can appear unique because tissue testing was limited to 50 variable motifs, assay leaders were grouped differently, clonal assignments overlap, and mouse-line composition contributes to variance. Clone sampling and persistent cell-state or genetic selection can affect the comparison.",
+  "discriminator": "Compare exact Table 3–4 names first, preserve broader Table 2 member links, then compare original, line-qualified, exclusive and within-donor variance deficits. Refit the within-line null on each within-line whole-clone sample and each line omission.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s5/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s4/RESULTS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md",
+    "analysis/research/runs/ng26_s5_v1/receipt.json",
+    "analysis/research/runs/ng26_s2_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Outcome-exposed follow-up after owner review of S5. The author AP-1-only result and ED4h clone-number observation, S2 full membership variants, S5 conditional Fos estimates and six omissions, and example family scores were seen. Inspected Table 2–4 names and headings, including 50 exact tissue–organoid names, 13 not equal to their Table 2 leaders, and both tagged methods before freeze. New resampling estimates were not run.",
+  "biological_unit": "Tissue uses mouse-level mean chromVAR summaries from the deposited tissue comparison; organoid reference cells are nested in clones and six mouse lines. Clone sampling and line omission are distinct sensitivity units.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Primary reconstruction uses the two released tests and shared materials. Sensitivity uses 3572 unique S5 cells, 121 line-qualified exclusive clones with >=2 cells and six donors, 3 lines per history. Draws reuse clones and donors.",
+  "population_and_selection": "Include all 361 Table 2 groups, 50 recovered stem_prog Table 3 rows, 299 Table 4 leaders and their nonfinite or uncovered cases. Eligible conditional set is the union of all exact and same-Table-2-group organoid reporters matched to any tested tissue reporter, regardless of sign or significance. Require finite scores on all 3572 fixed cells.",
+  "contrast": "Tissue recovered minus control replicate-mean chromVAR Z score, positive means higher accessibility. Organoid null mean minus median observed within-clone variance, positive means tighter than random. No numerical subtraction across axes. Original tissue shift uses either sign q<.05, also distinguish gains/losses; original organoid hit requires tighter and published q<.05.",
+  "endpoint": "Original raw tests and signed effects, S2 assignment variants, a full many-to-many link and family inventory; whole-clone and line-omission within-line effects, conditional null range, Monte Carlo uncertainty, matched-set threshold stability and exact cells/clones/lines achieved; compact original and sensitivity figure.",
+  "methods": "Use tables as released. Tissue: Welch t-test of replicate means with BH within 50 high-variability leaders per timepoint/cell type. Organoid: authors' two-sided normal tail on median clone variance against mean squared median shuffle SD, BH as deposited. Preserve absent and nonfinite. Exact case-sensitive names anchor claims. Shared Table 2 group is a proxy only; retain all cross pairs, no pooling, best-hit selection or manual alias. All 50/75 percent draws use floor of per-line eligible clone counts, minimum 2, without replacement, all cells per selected clone. Use 64 independent subsets per fraction and 96 common cell permutations across features per subset; full and six line omissions use 1000 permutations each. All shuffles on actual selected cells within mouse line, preserving clone slots. PCG64 seed [20261120,0,0] full; [20261120,1,i] omissions; [20261120,2,percent,draw] selection and [20261120,3,percent,draw] null. Compare observed median sample variance to mean squared median shuffled SD; save normal two-sided P, matched-set BH, add-one empirical lower tail, null MCSE and central 95% reference interval. Within each design save dispersion of effects, sign frequency, threshold frequency and Monte Carlo SE; under clone subsampling quote 5th–95th percentiles, under line deletion extrema. Every selected clone and line denominator is retained. Display preselected Fos, Etv2, Ctcf, Hnf4g and Hmga2 for original-to-conditional sensitivity, plus scatter for all finite exact pairs.",
+  "missingness_and_exclusions": "No imputation; missing tissue test is unreported; absent/nonfinite organoid tests unevaluable. Preserve incomplete matched reporters and counts without adapting their cell sets. Table 2 different leader names do not confer equivalence. Hold independent differentiation state, a wholly untested factor, and predictions beyond the six observed lines.",
+  "multiplicity": "Original BH columns use the original comparison families. Conditional normal-approximation BH across all finite eligible organoid reporters per selected subset is descriptive; two-sided q<.05 plus a positive deficit denotes a tighter call. Empirical one-sided P is a reference, not the published normal/BH criterion. Report any threshold instability, directions and finite denominators.",
+  "precision_status": "unknown",
+  "precision_basis": "Fixed six mouse-derived lines. Clone subsampling ranges quantify finite-data sensitivity; 64-draw Bernoulli Monte Carlo SE at most .0625, and 96 conditional shuffles per subset add simulation noise. Six correlated omissions have no population confidence interpretation. No probability of future unknown-factor detection.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A shared reporter motif is not TF identity, cellular memory mechanism or causal history effect. Distinguish tissue-only/ex-vivo-only measured evidence, aligned subthreshold directions, and untested/unmatched rows. No inference about as-yet-unknown factors, other mice, cancer mediation or maintenance carrier.",
+  "stop_rule": "Stop on bad hashes, duplicate physical cells, overlapping Table 2 catalog groups, infeasible dimensions, or discordant full exclusive observed variance versus S2. Keep unavailable or unfavorable rows. Stop for review before S6.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/dispersion.tsv",
+      "sha256": "2d188d8f228fb9c8b464f1a07dc4633ab59f0b240638bb463cb16d7d40765bee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s5_v1/exclusive_cells.tsv",
+      "sha256": "dacca65892b78de5b66ec7fc8fad2dac249b7881c20f375b620bf9c64f55c1cc",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/2_SHAREseq_testing/02a_diff_motifs.R",
+      "sha256": "df7b958b8a45026370440e0ef574358c13cb48f1acdd70677eacd70e5c6e1845",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04_SHARE_TRACE.variance_testing.R",
+      "sha256": "1aa9b4e80e830bac8511786429d80b1c7df7ff9ddb6b40fbea29401655fe51de",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/compare_families.py",
+      "sha256": "b4902a314eeb9a9e0615ad2990bb2ce70987a71b0dc24390d73c9546095d385a"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/family_sources.py",
+      "sha256": "560c7d1e5c0fc0c77a8c9633533e4aa447c7e780b2e52a809945b9fec4b41887"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/plot_families.py",
+      "sha256": "b2a9eb8bcdc98c2463cbdf35ae466c2959958324cf71a45af150a5ae6c88f051"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/compare_families.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "table2_catalog.tsv",
+    "reporter_links.tsv",
+    "family_evidence.tsv",
+    "clone_selections.tsv",
+    "conditional_draws.tsv",
+    "stability.tsv",
+    "family_evidence.png",
+    "family_evidence.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate owner-requested outcome-exposed checkpoint after S5 and before S6."
+}

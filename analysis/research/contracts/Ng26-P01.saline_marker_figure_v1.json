@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.saline_marker_figure_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the observed mouse values, within-study differences and leave-one-mouse ranges compare for the eight specified flanking CpGs?",
+  "decision": "Display the owner-reviewed frozen comparison at the numerical checkpoint.",
+  "strongest_rival": "The same change can arise on very different baselines, while overlapping points or pooling sites could hide individual variation.",
+  "discriminator": "Plot all 96 mouse values, 16 full differences and their omission ranges, with fragment labels and the saved site classifications.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md",
+    "analysis/research/runs/ng26_saline_markers_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The frozen numerical comparison is complete and visible. This outcome-exposed render uses all rows in fixed order. No new estimand, selection or stability criterion.",
+  "biological_unit": "An individual mouse in one of two separate studies. Three mice per arm per study. The same animals contribute multiple CpGs; five fragments group the eight sites.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Two separate cohorts, no matched individuals. Stage 1 source slices and earlier qualification are reused. Sites and fragments are not independent mouse replicates.",
+  "population_and_selection": "Exactly eight prior probe IDs at three left and five right flank dyads. Six specified GSE283386 saline mice (3 DSS, 3 water) and six GSE316762 DMSO mice (3 recovered, 3 healthy).",
+  "contrast": "Already measured methylation percent and DSS-minus-control percentage points, separated by study.",
+  "endpoint": "One multipanel academic figure in vector PDF and 300-dpi PNG with black text and output checks.",
+  "methods": "Within each genomic fragment, display each fixed probe. Show both study-specific animal distributions and group means in percent, study-specific full effects, min/max of six one-mouse omissions, and saved directional classifications. Use the article gallery black DejaVu Sans regular and bold font. Verify all eight probe labels, font, color and page bounds.",
+  "missingness_and_exclusions": "Accept zero and preserve exact deposited decimals. Halt for provenance review if an expected specimen/coordinate is duplicated or unavailable. No replacements or outcomes-driven filtering.",
+  "multiplicity": "Display only; no new effect estimates.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed mice and one-mouse omission ranges, not sampling uncertainty intervals.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "The graphic describes measured markers and mouse sensitivity. Stop at the numerical checkpoint for owner scientific review.",
+  "stop_rule": "Stop for review if any probe or legend is lost or figure integrity fails.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/mouse_values.tsv",
+      "sha256": "f1f58dff415009478d82a8cd115b7bed83e6c787ff86d958a3a9aada6c07a1e1",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/study_differences.tsv",
+      "sha256": "8a0f749531c7657a738aaaf96945794fc93e5d3824994f46be270b12c1045d68",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_saline_markers_v1/site_comparison.tsv",
+      "sha256": "fcc619d4d52a0ccb4a064bfff18fb959fae07fc8ba0896f9d06af38983b24f52",
+      "study_id": "saline_screen_source_tables",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/draw_markers.py",
+      "sha256": "5f7b14a68b35104e9a2c8562b17a19376251ad94f906303d11a8dd53cbceacb6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/draw_markers.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "saline_markers.pdf",
+    "saline_markers.png",
+    "render_checks.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Requested gallery-style rendering of the preceding frozen numerical outputs."
+}

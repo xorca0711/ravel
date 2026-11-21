@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_atac_eligibility_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.jf_atac_eligibility_v1.json",
+  "contract_sha256": "36d6fedec1723c6b693d2d3727aba266bdd035d5740f6be91a9dfcd94c38b887",
+  "git_commit": "bd61e07c58f6320f80fa548bd6fd87386ecebc81",
+  "started_at": "2026-11-21T05:57:00.425697+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify_atac.py",
+    "analysis/research/runs/ng26_jf_atac_eligibility_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_depth.tsv.gz",
+      "sha256": "9d4d1e075d408bc3c9374355be76d6872fc02c8fb1ee630f2d64ccc6b7ea02cb",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_panel.tsv.gz",
+      "sha256": "a0b4e7bd7fb7b91262dbd47cf38933ab0f242532f5b4bd1ceaed530927382052",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_depth.tsv.gz",
+      "sha256": "380b964bd8c0c080a62f90ba55fcc6cf5fec6bbfdda4ca3ce8ff4c66ddc3fdee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_panel.tsv.gz",
+      "sha256": "75520c9d6a5e21dbed6e2e02c98df96c90064c3c233721a0f152367e12a0fd38",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/upstream/fastq.process.py3.v0.9.py",
+      "sha256": "d4d15d5b0a1c9619711347cbab13f159283b162bede04e1d55de4f1c9486ccf0",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI0200BNGG.tsv.gz",
+      "sha256": "ce60620aa83cff3b8c93b669527a0bd9372846711c5811d297103823512428ee",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI0569SWMX.tsv.gz",
+      "sha256": "9d8f9e697ee273eb1dd436bf8037f1c4d1558305f3eaffbaa364b0bae4cebcfc",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI2122MRGS.tsv.gz",
+      "sha256": "7617b54674a8c8c5b9ce31c45543fb6b21c799bd46fb70ee3046c5447209c3ab",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI2524VBIM.tsv.gz",
+      "sha256": "96ec35e4659602f927416222171c5198b95c94e9df06b665a6e745240d80a8bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI3632MESS.tsv.gz",
+      "sha256": "1904e65951487152d7bd8243058f4bd8002dbe95399691bfd91f9927c6551970",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI6171YXAF.tsv.gz",
+      "sha256": "99d5528b79a9aa96a314f35662eb74e954545be4331d648900c96cf0bf411543",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI8634LLPI.tsv.gz",
+      "sha256": "9448b039d094645804ea325b7e40746134c1b7f750ffd04853211dec01edaeab",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/maps/IGVFFI9675OFBL.tsv.gz",
+      "sha256": "01dfbaac1fe1451bc8cf3f81a96cce87fef9cc9771cfe7f0125655c395743d59",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/qualify_atac.py",
+      "sha256": "292cc02aa08abfd74a287021e867abdaeb06c55177d8f6a7110b91ad90b9d82f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/native_atac.py",
+      "sha256": "3e0af0fda18299438acf6429314ee73ca9f64941561202f280ac17bd3821c5bd"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/methylation.py",
+      "sha256": "73f801957262fc0077796225b86bbbd5c972a9175f1a834074fb25279a78b8a8"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/fetch_fragments.py",
+      "sha256": "3caa0aab286cd7d1cf6676274576e88439fb17ebd9f32d5d1d07fcfa0fd20818"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/extended_barcode_assignments.tsv.gz",
+      "sha256": "bca6b5052611778a38b2b6d7232a18c37de332d24b2e5d91123cbf9f4f7300e6"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/main_barcode_assignments.tsv.gz",
+      "sha256": "24bd066e7982e6061c9135ceb79d93ff50796a676b53c1b50af6c9bf8feb7a76"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_measurements.tsv",
+      "sha256": "2c14469f9417db67afd811fd107192560f711927ce82d0a73450c46489d3a1bd"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_pool_specimens.tsv",
+      "sha256": "10ce69153b2fb702835027f7054462d1b01d650b42a7cd48e3710c20b9492340"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_map_inventory.tsv",
+      "sha256": "b9c7ea959fcf18059497c459f09baaa7e95358eb7b17c8450c4e71984dff1e17"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_barcode_status.tsv",
+      "sha256": "52ec759612236961ba7e9ec0bfceacbdd1a78f5a69d2500c9e3c9d1de4bd7b74"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_donor_depth.tsv",
+      "sha256": "3ff7bbaf3f46dd1aba016c239e4cbf8c014da2380d435f22d660c37c39d07f00"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_timepoint_eligibility.tsv",
+      "sha256": "2deda0aac8c9c5ed04e270c263ee90ab594e865f62ed267c94ec3cc9839bcfd6"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_sample_windows.tsv.gz",
+      "sha256": "a7f5a1852831f8d2661992e80a4934092d7c4abeca388d405c366ee84237ff43"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T05:58:34.204799+00:00"
+}

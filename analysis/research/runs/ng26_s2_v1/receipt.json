@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s2_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s2_v1.json",
+  "contract_sha256": "a0d7d5f01bccab3ba346e7dbc4e02b3f2e063b145fbe7a977eabf6d14742d33d",
+  "git_commit": "68ac54acc044777b89cf80a98c480dddab02c5c8",
+  "started_at": "2026-11-19T13:18:10.365251+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s2/replay.py",
+    "analysis/research/runs/ng26_s2_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [
+        "IGVFDO4498WUFA",
+        "IGVFDO4618QNAL",
+        "IGVFDO6240POWU",
+        "IGVFDO5516DGOZ",
+        "IGVFDO4379PNRX",
+        "IGVFDO6069WQXD"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/cell_clone_line_mouse.tsv",
+      "sha256": "76396bbaf1727a46349a01ff47137a9b988f6654486fee65e05e6d32b530428e",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/line_donor_key.tsv",
+      "sha256": "93cdf7d199db3fc05d7fab28bc1ee1f160a63c238348354f56a9358608be73a4",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/3_SHARE_TRACE/04_SHARE_TRACE.variance_testing.R",
+      "sha256": "1aa9b4e80e830bac8511786429d80b1c7df7ff9ddb6b40fbea29401655fe51de",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/article.xml",
+      "sha256": "b08f30ff19b62bba176532b336e45f009df816aa7b8388031102444bed562535",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/replay.py",
+      "sha256": "b0fc012faad4590f924b41c040f7af687848255990bb070bb78d7d894f9c4029"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s2/plot_clones.py",
+      "sha256": "7dc4ebb9945eca8e10169d869f9fe0318eb6b35e77e152e305f976bef8d1dba4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/dispersion.tsv",
+      "sha256": "2d188d8f228fb9c8b464f1a07dc4633ab59f0b240638bb463cb16d7d40765bee"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/null_draws.npz",
+      "sha256": "7bbc22ad2d9fb9586997c5f4c67fda688612c433a5e61fd2173e592a4a59a34a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/membership_coverage.tsv",
+      "sha256": "eaf4ac8c9bee62ff1c4dc4dde7afe8283e86f70ab436f006a991a617beee835e"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fos_clones.tsv",
+      "sha256": "63105c325fe7b3efc148657ec3318ad9923523bd1601ae8c6a30b5a4f34f3cdd"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fos_by_history.tsv",
+      "sha256": "e0ec8cdd50b3e64b56ec80b21ea96832bc0aafbcf93680f18b7a9189f81c1118"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fos_by_line.tsv",
+      "sha256": "b3879c640508371aa94f5481841796692b93843c9f871c4e95ee213c7c313710"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/line_contrasts.tsv",
+      "sha256": "e44a3c77de0289379baf73316bc28ee89653aa0b9b729a16bf9f09f1ecf80a8b"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fig2h_dispersion.pdf",
+      "sha256": "33c0c9e92670e0afa3ad41b8cc209198488b86e8c4b9e5cee69d4cd51d554136"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fig2h_dispersion.png",
+      "sha256": "ec92858855a8212f4309c6fec0d6a05b16387543973c2af762ebe780a1fcc9d8"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fig2i_history.pdf",
+      "sha256": "5b73b0b22b8c9607808d1e3ec8dd10d2f6d3e3a18972e489cd3ebb176459c4cb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s2_v1/fig2i_history.png",
+      "sha256": "9e2a2a5f49f8b31576412760b17c7172871ebc2e03aadef86c930cc0a89dd6eb"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T13:19:09.312330+00:00"
+}

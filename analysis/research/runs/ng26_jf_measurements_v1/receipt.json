@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_measurements_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.jf_measurements_v1.json",
+  "contract_sha256": "6d3b9e3be5c4a4cac880f30013661a27457be66ee41f46ef67f130e8a983afb1",
+  "git_commit": "8c83d4ef6c20c938842b77783282b0e00df26f86",
+  "started_at": "2026-11-21T06:17:37.560922+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/measure.py",
+    "analysis/research/runs/ng26_jf_measurements_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+      "sha256": "6aa449c80612a5f776ee7ec67d47d7aafa2cd12c255250af7fa4415b4602ec7c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sources.tsv",
+      "sha256": "0cd39b63672213b0654a2f50312da8493a321cac61e84fbf5f930a1b52dd7e14",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_contrast_coverage.tsv",
+      "sha256": "820f8352675fb3a0c2a8dc46b5743c233999551d9d2a19be8f780d256d1cc542",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_sample_windows.tsv.gz",
+      "sha256": "a7f5a1852831f8d2661992e80a4934092d7c4abeca388d405c366ee84237ff43",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_donor_depth.tsv",
+      "sha256": "3ff7bbaf3f46dd1aba016c239e4cbf8c014da2380d435f22d660c37c39d07f00",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/measure.py",
+      "sha256": "48f4dba72f6adcd8640b4518c517c8aea01be6441eac4159d6bcbd8d1f6be424"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/plot.py",
+      "sha256": "ec7ea4454c8385281caf08424f701266de12a2477e523decd8ebc8ad2afabccd"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/biochemical_loci.tsv",
+      "sha256": "177ba63fd357f6ea5561e767c67d98429d9e6fc25f782eac530e819a1b6cbdfa"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/binding_by_class.tsv",
+      "sha256": "a94819d1d6340dc8309a5a4c573d1c9d90a7be2b7a39b5d4f8b7153e36ba35c1"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/atac_specimens.tsv",
+      "sha256": "55a335d80c674f836f88915248f18037d1376956951568b8dee1832d07ce2576"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/atac_history.tsv",
+      "sha256": "d099627912192fc92f90fdbd0c067c17e7d501b7a254bd31ed5d6a2e0c4981cd"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_sites.tsv.gz",
+      "sha256": "f5746b96314a751f5c68a15f8c62ba96bc2d1e76c3fc5492adde5400565dfbaf"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_specimens.tsv.gz",
+      "sha256": "672f4f61d4f59d5a0252602f7e2dcfa83b0304a33fa9e946a60709ac8b6b6be6"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/methylation_history.tsv",
+      "sha256": "e6529f8b6deadcd44e18b9eb3f54fc5eabc155da1affffe9bd858f503307eee3"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.tsv",
+      "sha256": "2a4ea6f3e8a3d1e26f63653154aa5e4748e44c36bd8ee510358572c0691f4ca8"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.png",
+      "sha256": "75d1663e401eec5bbed20497c7c3ad4960e8eb07e2842eb44cbd33407b188887"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.pdf",
+      "sha256": "99313c1f3fdfc5ea54ad8b97422e8b4ef0b9b29bf9915533072c1847ccea631d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T06:17:44.686168+00:00"
+}

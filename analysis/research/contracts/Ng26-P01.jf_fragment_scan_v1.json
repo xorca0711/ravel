@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_fragment_scan_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "What native fragment depth and panel overlap are present across the complete main and extended mm10 exports before experimental comparisons?",
+  "decision": "Preserve full-library denominators and literal barcode panel rows for Stage 1 specimen qualification. No donor or exposure contrast.",
+  "strongest_rival": "Selection of 63 sites, tissue and culture composition, shared technical runs, missing or ambiguous samples, variable depth and lack of independent state labels can restrict an eventual comparison.",
+  "discriminator": "Complete chromosome-sorted original BGZF streams supply usable denominators and distinguish an unobserved region from an uninspected region.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/PANEL_ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original paper, Table 6 binding interpretation, S0-S6 and deposit review were known. Stage 1 examines presence, units, depth and missingness. No association or between-arm effect was inspected or estimated.",
+  "biological_unit": "Native ATAC and tissue methylation use mice, separate organoid methylation uses source-labelled mouse lines. Binding uses paired sequences with one library per protein condition. Reads, CpGs, loci, barcodes and technical pools are nested observations.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Deduplicate shared specimen/donor accessions across technical records. Do not pool tissue and organoid cohorts. Full and extended ATAC exports are distinct technical sources, with original within-cohort controls preferred.",
+  "population_and_selection": "All rows of both IGVF exports, every chromosome and literal export barcode. Only panel-extract rows are restricted to overlap with any original amplicon.",
+  "contrast": "Technical scan of complete source records. No condition is compared.",
+  "endpoint": "Per-raw-barcode distinct fragment counts, autosomal depth, mitochondrial count, source read support, repeated identical rows and deduplicated target-overlap rows.",
+  "methods": "Read complete BGZF streams with CRC checking, validate coordinate sort and columns, coalesce matching chromosome,start,end,barcode within each export. Use half-open overlap and retain full raw target rows. Record chromosome 1-19 autosomal counts and mitochondrial depth separately. Preserve raw identifiers and technical multiplicity.",
+  "missingness_and_exclusions": "No barcode or donor selection based on region signal. Exclude repeated identical native fragment records only from unique counts. Original tabix sidecars were absent at the checked public sibling URLs; full sequential parsing avoids requiring an index.",
+  "multiplicity": "No tests, effect estimates, outcome selection or rankings. Retain all 63 intervals and all original samples including unavailable cases.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical coverage and presence only. No biological precision or power estimated.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source qualification does not identify cellular state, occupancy, retained protein, methylation causality, biochemical interaction strength or change after exposure.",
+  "stop_rule": "Stop on source size/hash mismatch, malformed row, unsorted chromosome/start or incomplete stream. Continue only to Stage 1 coverage qualification.",
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_jf1/IGVFFI4859TVVD.tsv.gz",
+      "sha256": "e597fd33de2999bea7ad512957dd73995dfcc8e5c2df2711edd6466087d653c3",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf1/IGVFFI0855DXJQ.tsv.gz",
+      "sha256": "4480729d4dd7ef2aaa8a03d3c73cbb7e42e882b650a59c3269db06065548614f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS0502QEQJ.json",
+      "sha256": "23eaa45e45c20c5ad2c3b400299a5e711ab91eb7b7e8960737d4f7dcfeb3238a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS0237MRDL.json",
+      "sha256": "662e68a61b4aa476238c45624fbf617f7a6be069d509d15e36d5a22d6835463c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/7_inVitroFootprinting/Regions.csv",
+      "sha256": "c5f0855f33d510a5a94f19d87c5cd1c48db50df2502c9b09ab7d0d77ed3696bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_exports.py",
+      "sha256": "a771054173894f9a8f47e4334841cff3aa6cf25c789c1c739f0dda0110207b7f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_fragments.rs",
+      "sha256": "abaf14f44af93cd1bb8e4f85746cc6b4ed1c6fdb154e750e6122e31d84ba795c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_exports.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "extended_depth.tsv.gz",
+    "extended_panel.tsv.gz",
+    "main_depth.tsv.gz",
+    "main_panel.tsv.gz",
+    "scan_provenance.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-requested source and coverage qualification after S6. Separate Stage 1 metadata receipt."
+}

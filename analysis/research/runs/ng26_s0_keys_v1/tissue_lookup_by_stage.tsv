@@ -1,0 +1,25 @@
+dataset	input	indexed_barcode_status	n_specimen_matches	map_labels_if_observed	barcode_records
+extended_tissue	ATAC_preview	exact	0		28
+extended_tissue	ATAC_preview	exact	1	Colitis_79d_recovered	1105
+extended_tissue	ATAC_preview	exact	1	Colitis_recovered_102d	2202
+extended_tissue	ATAC_preview	exact	1	Colitis_recovered_50d	334
+extended_tissue	ATAC_preview	exact	1	Control	1253
+extended_tissue	RNA	exact	0		112003
+extended_tissue	RNA	exact	1	Colitis_79d_recovered	9241
+extended_tissue	RNA	exact	1	Colitis_recovered_102d	8820
+extended_tissue	RNA	exact	1	Colitis_recovered_50d	4486
+extended_tissue	RNA	exact	1	Control	7718
+main_tissue	ATAC_preview	exact	0		3
+main_tissue	ATAC_preview	exact	1	Colitis_acute	666
+main_tissue	ATAC_preview	exact	1	Colitis_healing	622
+main_tissue	ATAC_preview	exact	1	Colitis_recovered	1758
+main_tissue	ATAC_preview	exact	1	Control	1799
+main_tissue	ATAC_preview	unresolved_export_suffix	0		200
+main_tissue	RNA	exact	0		6779
+main_tissue	RNA	exact	1	Colitis_acute	19698
+main_tissue	RNA	exact	1	Colitis_healing	25128
+main_tissue	RNA	exact	1	Colitis_recovered	5756
+main_tissue	RNA	exact	1	Control	40194
+main_tissue	RNA	exact	2	Colitis_recovered	7783
+main_tissue	RNA	exact	2	Colitis_recovered|Control	1254
+main_tissue	RNA	exact	2	Control	5285

@@ -1,5 +1,65 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja Gate 4M paper package
+
+The [paper overview](Research%20Article/gate4M_02_nagaraja_2026/README.md) and [14-figure gallery](Research%20Article/gate4M_02_nagaraja_2026/FIGURES.md) bring the paper reproduction, 63-locus binding comparison and independent colon-array result into the Gate 4M reading sequence. The chr13 flanking CpG is a candidate marker of prior colitis. Its role in accessibility, paired TF occupancy and adenoma growth remains open. The [stage index](Research%20Article/ungated_nagaraja_2026_colitis_memory/README.md) links the separate assay records. The package is ready for PR review.
+
+## 2026-11-21 — Eight saline-only CpG markers, technical closeout
+
+Technical review covered all eight probes in five fragments, the mouse-level data and all omission ranges at `5d9a42e`. Among six same-direction estimates, only the chr13 flanking CpG cg31603876_BC21 kept a shared loss after every mouse omission; the smallest epithelial loss was 0.36 percentage points. All five joint gains changed sign under an epithelial mouse omission. Day-14 isolated epithelium and day-23 whole colon came from separate cohorts and DSS regimens. [Technical closeout](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md#technical-closeout) · [Reviewed figure PDF](analysis/research/runs/ng26_saline_marker_figure_v1/saline_markers.pdf) · [Full numerical comparison](analysis/research/runs/ng26_saline_markers_v1/site_comparison.tsv). Local work is complete at marker-screen scope. Biological target acceptance remains undecided.
+
+## 2026-11-21 — Eight saline-only CpG markers, Step 1
+
+The [specimen checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/CHECKPOINT.md) confirms 3 + 3 saline mice in GSE283386 (day-14 isolated epithelium) and 3 + 3 Nagaraja vehicle mice (day-23 recovered whole-colon sections). All eight flanking sites have their original same-strand native specimen values and external availability. The [prospective comparison](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/DESIGN.md) fixes within-study percentage-point differences, exact ties, baseline ranges and individual mouse omissions. Await owner review before calculating any external effect.
+
+## 2026-11-21 — Nagaraja JUN–FOXP1 external qualification and local closeout
+
+Following owner review of Stage 3 at `61397c1`, the final [qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/external/QUALIFICATION.md) found all four barcode-matched SELEX starting libraries in PRJEB20112. The native 12-base motif had 0–2 reads per library; the shorter CpG–AP1 context had 25–116. The independent colon array measures eight exact flanking dyads, with three usable mice per arm and zero scored-motif probes. Both candidates support limited comparisons. Neither tests late methylation-dependent co-binding. The package is ready for final owner review. No external effect estimates were run.
+
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 3 association
+
+The owner reviewed Stage 2 at `d1e3735`. Both Stage 3 comparisons froze at `324cb87`. The primary 63-locus day-102 binding–ATAC partial rank correlation was −0.015; day 50 was −0.370 (paired fold −0.121). Whole-amplicon binding–methylation coefficients differed between P4 organoids (+0.133) and tissue vehicle (−0.248). Day-102 tissue methylation and ATAC differences had little alignment (−0.007). The separate figure-only correction restores the lower legends from saved results. [Results, figures and sensitivity tables](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage3/RESULTS.md). Next decision is owner review before external qualification of the isolated-factor libraries or colon array. No external measurements or matched individuals entered Stage 3.
+
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 2 measurements
+
+Stage 1 at `e995c8f` completed receipt, repository and base-aware validation and received owner review. Stage 2 froze the contrasts and later association checks at `8c83d4e`. All 63 paired raw footprints increased. The AP1 + Fox class had the larger median absolute increment and the AP1-only class had the larger median ratio. Native ATAC and methylation differences had both signs. Day 79 supplies two individual recovered mice, and only one scored motif has a CpG. Next decision is owner review of the [per-locus measurements and figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md) before any [frozen cross-locus association](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md). No external candidates assessed.
+
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 1 qualification
+
+The [eligibility ledger](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md) matches all 63 binding loci, qualifies all 18 methylation tracks and reads both native ATAC exports in full. Regional methylation qualifies across the panel and one scored motif contains a CpG. Native epithelial comparisons qualify at days 50 (2 recovered/2 controls) and 102 (4/2). Day 79 has two resolved recovered donors and conflicting control accessions across the two technical pools and their shared map. Next decision is owner review of the runnable contrasts. Association work, external candidates and publication remain outside Stage 1.
+
+## 2026-11-20 — Nagaraja JUN–FOXP1 and methylation source review
+
+The [follow-up scan](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md) identifies methylated/control binding data for each isolated factor and the FOS-free protein-pair comparison at 63 known intervals. An independent colonic methylation array covers five amplicons and zero scored motifs. Next, qualify native CpG and late-ATAC coverage at the exact 63 intervals before estimating an association. Direct late colonic occupancy and direction of dependence remain unresolved.
+
+## 2026-11-20 — Nagaraja S6 final local synthesis
+
+The [S6 synthesis](Research%20Article/ungated_nagaraja_2026_colitis_memory/SYNTHESIS.md) closes Ng26-P01 from the existing receipts after owner review of the pre-S6 checkpoint at `3b7f008`. It distinguishes mouse FOS counts, released ATAC and RNA fits, clone-score replays, donor-line attenuation, locus-dependent methylation and early adenoma burden. The [ten-figure gallery](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md) links figures to source tables. Original per-mouse ATAC threshold fractions, independent organoid state labels, a maintenance-to-lesion lineage link and a matched external intestinal comparison remain unavailable. [Stage decisions and evidence needed](Research%20Article/ungated_nagaraja_2026_colitis_memory/ANALYSIS_PLAN.md)
+
+## 2026-11-20 — Nagaraja post-S5 checkpoint for owner review
+
+Fos was the only one of 50 tested reporters that met both published thresholds. Its clone variance deficit fell from +.294 in Table 4 to +.081 in the exclusive within-line comparison. Direction persisted in 6/6 donor omissions, 58/64 half-clone draws and 64/64 three-quarter draws. No full-panel conditional discovery remained. The [checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/RESULTS.md), [maintenance assessment](Research%20Article/ungated_nagaraja_2026_colitis_memory/post_s5/MAINTENANCE.md) and [receipt](analysis/research/runs/ng26_post_s5_v1/receipt.json) retain every tested and held family. S6 awaits owner review. Carrier identity, independent cell-state adjustment and linkage to individual tumours remain unresolved.
+
+## 2026-11-20 — Nagaraja S5 donor-line conditional shuffle
+
+On 3,572 exclusive cells in 121 clones, the [S5 analysis](Research%20Article/ungated_nagaraja_2026_colitis_memory/s5/RESULTS.md) gives observed-minus-null Fos variances of −.2182 globally, −.0846 within donor line and −.0863 within line plus Hnf4g bands. All line omissions preserved a negative estimate. The within-line result falls inside its empirical null. RNA-pool evidence supports partial cell matching but supplies no linked independent differentiation labels. The [S5 receipt](analysis/research/runs/ng26_s5_v1/receipt.json) preserves the opportunity counts, size and line sensitivities, and figure. S5 stops for owner review before the separate prospective checkpoint.
+
+## 2026-11-20 — Nagaraja S4 adenoma burden and P20
+
+The [S4 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s4/RESULTS.md) joins all nine gross mouse records. Recovered minus control was −0.6 gross lesions per mouse and +27.38 points in the fraction over 1 mm. In 17 separate microscopic mice, the tumour area fraction increased by .303 points. Both Fig. 4e medians and the two plotted Fig. 4j high-P20 fractions reproduce. ED9h lacks assessed area per mouse, Fig. 4l lacks lesion-to-mouse keys and the spatial series has one section per history. [S4 receipt](analysis/research/runs/ng26_s4_v1/receipt.json) · [Figures](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md#s4--adenoma-burden-and-spatial-p20). S3 source bytes were registered under a [separate archive receipt](analysis/research/runs/ng26_s3_sources_v1/receipt.json) and passed integration validation. Stopped at S4 for owner review.
+
+## 2026-11-20 — Nagaraja S3 drug, binding and methylation readback
+
+The [S3 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s3/RESULTS.md) separates the 24-hour EdU and 20-day washout diameter readouts, reproduces the 63-locus named-protein Table 6 summaries and reports methylation in six organoid and twelve whole-colon libraries. Recovered inhibitor minus control vehicle was −14.33 points at *Dcaf5* and −1.72 at *Rbm27*. The exact ED6d target/background sets, Fig. 2o joint input, EdU test specification and organoid/well nesting remain unresolved. [S3 receipt](analysis/research/runs/ng26_s3_v1/receipt.json) · [Tissue amendment receipt](analysis/research/runs/ng26_s3_ed6_v1/receipt.json). Integrated the current paper index and stopped for S3 owner review.
+
+## 2026-11-20 — Nagaraja S2 organoid clone replay
+
+The [S2 checkpoint](Research%20Article/ungated_nagaraja_2026_colitis_memory/s2/RESULTS.md) reproduces all 295 defined observed variances in Table 4. With unambiguous cells only, the adjusted P for Fos shifts from .0025 to .300. The colitis-minus-control mouse-line contrast stays positive after every donor omission, with overlap in two of nine cross-history comparisons. The published Fig. 2i draws 74 control and 49 colitis points, agreeing with the five-cell cutoff and reported high fractions. Its P = .038 remains unresolved. Fig. 2j remains an author fit. [Figures and source values](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md#s2--organoid-clones-and-the-six-mouse-lines) · [Replay receipt](analysis/research/runs/ng26_s2_v1/receipt.json) · [Point-audit receipt](analysis/research/runs/ng26_s2_fig2i_audit_v1/receipt.json). Stopped at S2 for owner review.
+
+## 2026-11-19 — Nagaraja S1 recovery readback
+
+The [S1 figure and results](Research%20Article/ungated_nagaraja_2026_colitis_memory/s1/RESULTS.md) give a mouse-weighted early-recovery FOS/CD44 difference of +16.42 percentage points (three mice per group), nine author-summary Fos motif deltas, and the released RNA injury-gene union. Of 260 injury-up genes, 19 still met the up threshold at recovery; 141 lacked adjusted P values and 15 were absent. The published 246-gene set, exact Fig. 1i fraction and extended chromatin curve remain unresolved. The [current figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/FIGURES.md) uses a separately verified rendering with stage colors, a continuous motif scale and black text. Both [S0 source qualification](Research%20Article/ungated_nagaraja_2026_colitis_memory/s0/CHECKPOINT.md) and S1 are locally preserved. Await review before the proposed S2 organoid clone-dispersion replay.
+
 ## 2026-11-19 — Paper folders and published findings
 
 The [Gate 4M sequence](Research%20Article/README.md#gate-4-topic-centered-reading) now has three paper folders, starting with Naik, followed by Nagaraja and Cowley. The [ungated Damani–Yokota package](Research%20Article/ungated_damani_yokota_2026/README.md) contains both article-local questions and the evidence formerly filed under Gate 2. Across the two physical moves, 242 tracked files were relocated and 217 historical references received exact SHA-256 mappings. One Naik script used explicitly attributed CRLF checkout bytes in its frozen contract. The migration test checks the originating Git attributes as well as the destination hash.

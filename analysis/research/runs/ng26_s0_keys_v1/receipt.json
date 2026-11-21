@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.s0_key_reconciliation_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.s0_key_reconciliation_v1.json",
+  "contract_sha256": "bf83abb785353bbf15d7d128973417d50453ec6074e7ccf93fcc0041b0cefcd6",
+  "git_commit": "b1d2b458f2c5f89c7b31fe1ae84b1e0bc1f059fd",
+  "started_at": "2026-11-19T12:35:33.555107+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s0/reconcile_keys.py",
+    "analysis/research/runs/ng26_s0_keys_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_s0/moesm4.txt",
+      "sha256": "570dab25ca0f07411db5596943cf3bd5bcf70ffa6d7760e10ebdf48fa41ee6ce",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/ref/mouse_organoids.cleaned_clone_calls.txt",
+      "sha256": "da477be0828e592f5582a5ff5e43032790e3efd66e697ca02819d627cdc9dc6d",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/organoid_memberships.tsv",
+      "sha256": "9d43902a4467e2af051eb9d3ef5453ae70363ecb2ffb15283fb7f6851ffcbb59",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/specimen_key.tsv",
+      "sha256": "63b2e8377c3d3d5fc897124001fe4571c220e50eeda4f78623a88d99c825981b",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_v2/barcode_lookup.tsv.gz",
+      "sha256": "93058d4aee9ca2d0e98e0c0a8d43546b436e9bbf039880f9dbbd33dcdc84fc99",
+      "study_id": "Nagaraja2026_same_release",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/s0/reconcile_keys.py",
+      "sha256": "0130d487858fd4541bf29417070f88b498bf99054b3163e9c5ea2f72abc5f87f"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/cell_clone_line_mouse.tsv",
+      "sha256": "76396bbaf1727a46349a01ff47137a9b988f6654486fee65e05e6d32b530428e"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/line_donor_key.tsv",
+      "sha256": "93cdf7d199db3fc05d7fab28bc1ee1f160a63c238348354f56a9358608be73a4"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/clone_ids_in_multiple_lines.tsv",
+      "sha256": "5001d11532df0fa0cbc5cf1bd832e13a5ae425d3fc5004df3983deae7f58a0db"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/nonfinite_features.tsv",
+      "sha256": "1c6ea93a9bf014cd7a982416479a09467b08a61d596ed4a8693e175ded2a2f7a"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/fig2i_denominators.tsv",
+      "sha256": "6a587f9e3b2d45196357776492fa4d5cc7eb76ff1926885ef92a3f5132978205"
+    },
+    {
+      "path": "analysis/research/runs/ng26_s0_keys_v1/tissue_lookup_by_stage.tsv",
+      "sha256": "908cf1a673d4c15c54030556d2fa7ecc0ac2c9bfabd861efbe4912ef9c58a923"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T12:35:42.297992+00:00"
+}

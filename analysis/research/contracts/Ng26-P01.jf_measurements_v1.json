@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_measurements_v1",
+  "owner": "Ng26-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Across the 63 original amplicons, what paired increment does FOXP1 add to the measured FOS-free JUN footprint, and what independently sampled native accessibility and methylation differences are measurable at each locus?",
+  "decision": "Following owner review of Stage 1, construct per-locus inputs. Hold association analysis and external candidates for a separate owner decision.",
+  "strongest_rival": "A high ratio can arise from a small JUN baseline. Wider, CpG-rich intervals have different measurement opportunity. Tissue composition, control baselines, one library per biochemical condition and few native mice can influence the apparent effects.",
+  "discriminator": "Retain absolute binding scores, differences and ratios, motif class, whole-amplicon native fragment CPM and source-scale methylation means for each arm; record fixed opportunities and counts. The frozen design defines future association and sensitivity checks.",
+  "evidence_refs": [
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/post_s5/JUN_FOXP1_DEPOSIT_SCAN.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/s3/SOURCE_NOTES.md",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, S0–S6, sample identity, source addresses, motif classes, CpG and fragment coverage were seen. Stage 1 inspected raw eligibility and dimensions. Per-locus history differences, new binding summaries and cross-locus relationships were not computed or inspected in planning.",
+  "biological_unit": "Binding pairs are sequences from one assay library per condition. Native ATAC and whole-colon methylation units are individual mice. P4 organoid units are original mouse-derived lines.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Barcodes and fragments nest in mice; common plus-C sites nest in loci and source specimens. The 63 loci are repeated features within each mouse or library. Native cohorts have no individual match across modalities.",
+  "population_and_selection": "All 63 released binding amplicons. Select the extended sorted epithelial ATAC export, all qualified mice and fixed 300-autosomal-fragments-per-barcode floor. Use the six P4 lines and six tissue vehicle mice, with no drug-treated or main-series supplementation.",
+  "contrast": "Raw JUN+FOXP1 minus JUN alone; raw quotient if JUN nonzero and fold subset on a nonnegative scale with positive JUN. At day 50/102 take mean recovered minus mean control mouse CPM. For each methylation model and each window take recovered minus control mouse/line mean fraction times 100. Retain only recovered-mouse descriptions as quantitative day-79 measurements.",
+  "endpoint": "Per-locus paired raw biochemical scores; fragment counts, denominators and CPM; common-CpG source fractions, specimen averages and differences in percentage points. Separate motif and flanks, interval width and reference CpGs per 100 bp. One gallery-matched DejaVu Sans multipanel figure.",
+  "methods": "Use exact Table 6 physical rows. ATAC counts are unique fragment overlaps to the whole fixed amplicon divided by all qualified autosomal unique fragments of that mouse times 1e6; retain CPM/kb as a secondary width adjustment. Average mice equally. For each model and window, use the Stage 1 fixed sites measured in all six original specimens; average sites equally within a specimen, then specimens equally within arm. See hash-bound DESIGN.md for the subsequent day-102 partial rank correlation and prespecified validity checks. No association computed here.",
+  "missingness_and_exclusions": "Zero target fragments with a positive denominator gives zero CPM. Failed day-79 control mapping has missing depth-normalized values; no day-79 group contrast. No common CpG gives missing methylation with usable n=0. Zero JUN denominator gives missing ratio; negative scores cannot supply ordinary fold interpretation.",
+  "multiplicity": "Measurement checkpoint only. No association coefficients, significance tests or multiple-testing decisions. Retain all 63 intervals and every unfavorable or unavailable estimate.",
+  "precision_status": "unknown",
+  "precision_basis": "Two ATAC controls at each comparative time point; two or four recovered mice. Three specimens per arm in each separate methylation model. One library per biochemical condition and one scored motif CpG constrain inference.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source-scale descriptive contrasts from selected amplicons do not establish cellular occupancy, persistent JUN/FOXP1 protein, methylation-driven binding, causal memory or matched-individual effects.",
+  "stop_rule": "Stop on input hash mismatch, duplicate or inconsistent interval/source keys, disagreement with fixed sample and opportunity counts, or unexpected zero-depth cases. Stop after the per-locus checkpoint for owner review.",
+  "inputs": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md",
+      "sha256": "6aa449c80612a5f776ee7ec67d47d7aafa2cd12c255250af7fa4415b4602ec7c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/moesm5.zip",
+      "sha256": "bd798c65d82489727cbd0d1f2e8017d11a75d78dfccd3be22ecd6533d1f9f983",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/binding_panel.tsv",
+      "sha256": "7318edb77703db6e3527c03d09d2d355f6855915bb3f6b6ce8a951b22798b698",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_sources.tsv",
+      "sha256": "0cd39b63672213b0654a2f50312da8493a321cac61e84fbf5f930a1b52dd7e14",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/methylation_contrast_coverage.tsv",
+      "sha256": "820f8352675fb3a0c2a8dc46b5743c233999551d9d2a19be8f780d256d1cc542",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/mm10_windows.tsv",
+      "sha256": "b83f674e737deeb883406350224af32d11fb98a1ce939eaf21275b5837b214b7",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_methylation_v1/stage1_sources.zip",
+      "sha256": "9dae967aee463ae1b55a4bfb188c0dddcaef0cc760575830e3327a1c08d968ca",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_sample_windows.tsv.gz",
+      "sha256": "a7f5a1852831f8d2661992e80a4934092d7c4abeca388d405c366ee84237ff43",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_atac_eligibility_v1/atac_donor_depth.tsv",
+      "sha256": "3ff7bbaf3f46dd1aba016c239e4cbf8c014da2380d435f22d660c37c39d07f00",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/measure.py",
+      "sha256": "48f4dba72f6adcd8640b4518c517c8aea01be6441eac4159d6bcbd8d1f6be424"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/plot.py",
+      "sha256": "ec7ea4454c8385281caf08424f701266de12a2477e523decd8ebc8ad2afabccd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/measure.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "biochemical_loci.tsv",
+    "binding_by_class.tsv",
+    "atac_specimens.tsv",
+    "atac_history.tsv",
+    "methylation_sites.tsv.gz",
+    "methylation_specimens.tsv.gz",
+    "methylation_history.tsv",
+    "locus_measurements.tsv",
+    "locus_measurements.png",
+    "locus_measurements.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-requested Stage 2 measurement checkpoint after reviewed Stage 1. The prospective subsequent association design is frozen separately from its possible execution."
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Ng26-P01.jf_fragment_scan_v1",
+  "owner": "Ng26-P01",
+  "contract": "analysis/research/contracts/Ng26-P01.jf_fragment_scan_v1.json",
+  "contract_sha256": "13ca22943a88a061ad3cae6e036881eac115b39b5793486a83e729f860f75e45",
+  "git_commit": "09c438641b84d8c058c6f8d3b1cab03d335af4ce",
+  "started_at": "2026-11-21T05:48:22.784157+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_exports.py",
+    "analysis/research/runs/ng26_jf_fragment_scan_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/nagaraja_jf1/IGVFFI4859TVVD.tsv.gz",
+      "sha256": "e597fd33de2999bea7ad512957dd73995dfcc8e5c2df2711edd6466087d653c3",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_jf1/IGVFFI0855DXJQ.tsv.gz",
+      "sha256": "4480729d4dd7ef2aaa8a03d3c73cbb7e42e882b650a59c3269db06065548614f",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS0502QEQJ.json",
+      "sha256": "23eaa45e45c20c5ad2c3b400299a5e711ab91eb7b7e8960737d4f7dcfeb3238a",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/IGVFDS0237MRDL.json",
+      "sha256": "662e68a61b4aa476238c45624fbf617f7a6be069d509d15e36d5a22d6835463c",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nagaraja_s0/code/7_inVitroFootprinting/Regions.csv",
+      "sha256": "c5f0855f33d510a5a94f19d87c5cd1c48db50df2502c9b09ab7d0d77ed3696bf",
+      "study_id": "Nagaraja2026_same_study",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_exports.py",
+      "sha256": "a771054173894f9a8f47e4334841cff3aa6cf25c789c1c739f0dda0110207b7f"
+    },
+    {
+      "path": "Research Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/scan_fragments.rs",
+      "sha256": "abaf14f44af93cd1bb8e4f85746cc6b4ed1c6fdb154e750e6122e31d84ba795c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_depth.tsv.gz",
+      "sha256": "9d4d1e075d408bc3c9374355be76d6872fc02c8fb1ee630f2d64ccc6b7ea02cb"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/extended_panel.tsv.gz",
+      "sha256": "a0b4e7bd7fb7b91262dbd47cf38933ab0f242532f5b4bd1ceaed530927382052"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_depth.tsv.gz",
+      "sha256": "380b964bd8c0c080a62f90ba55fcc6cf5fec6bbfdda4ca3ce8ff4c66ddc3fdee"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/main_panel.tsv.gz",
+      "sha256": "75520c9d6a5e21dbed6e2e02c98df96c90064c3c233721a0f152367e12a0fd38"
+    },
+    {
+      "path": "analysis/research/runs/ng26_jf_fragment_scan_v1/scan_provenance.json",
+      "sha256": "c2d1db3f64a6da412fe7d4ba53262533bab4d0497f8597722be0a88749a2f21c"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T05:54:59.229974+00:00"
+}
