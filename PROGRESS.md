@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 2 measurements
+
+Stage 1 at `e995c8f` completed receipt, repository and base-aware validation and received owner review. Stage 2 froze the contrasts and later association checks at `8c83d4e`. All 63 paired raw footprints increased. The AP1 + Fox class had the larger median absolute increment and the AP1-only class had the larger median ratio. Native ATAC and methylation differences had both signs. Day 79 supplies two individual recovered mice, and only one scored motif has a CpG. Next decision is owner review of the [per-locus measurements and figure](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/MEASUREMENTS.md) before any [frozen cross-locus association](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage2/DESIGN.md). No external candidates assessed.
+
 ## 2026-11-21 — Nagaraja JUN–FOXP1 Stage 1 qualification
 
 The [eligibility ledger](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/stage1/ELIGIBILITY.md) matches all 63 binding loci, qualifies all 18 methylation tracks and reads both native ATAC exports in full. Regional methylation qualifies across the panel and one scored motif contains a CpG. Native epithelial comparisons qualify at days 50 (2 recovered/2 controls) and 102 (4/2). Day 79 has two resolved recovered donors and conflicting control accessions across the two technical pools and their shared map. Next decision is owner review of the runnable contrasts. Association work, external candidates and publication remain outside Stage 1.

@@ -65,3 +65,7 @@ Panel A uses the 50 exact reporter matches and each assay's native scale. In pan
 ## Display and provenance
 
 All ten frozen figure pairs are shown in their current versions. The S1 composite uses version 3. Data marks and scales retain their original colors and all visible PDF text is black. The receipts cited above bind the exports to their source runs. [S1 render checks](../../analysis/research/runs/ng26_s1_figure_v3/render_checks.json) · [Stage status](ANALYSIS_PLAN.md)
+
+## JUN–FOXP1 extension · 63 selected amplicons
+
+The Stage 2 figure shows paired biochemical footprints, mouse-weighted epithelial accessibility differences, separate organoid and tissue-vehicle regional methylation, and all specimens at the sole scored-motif CpG. [Figure, caption and source tables](jun_foxp1/stage2/MEASUREMENTS.md) · [PDF](../../analysis/research/runs/ng26_jf_measurements_v1/locus_measurements.pdf)
