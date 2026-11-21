@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
+
+[Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).
+
 ## 2026-11-21 — Gate 4M paper consolidation and roadmap review
 
 [PR #189](https://github.com/xorca0711/ravel/pull/189) updates the [article index](Research%20Article/README.md), consolidates the Nagaraja stage records and gallery under [4M-02](Research%20Article/gate4M_02_nagaraja_2026/README.md), and moves the Damani–Yokota package to [4M-04](Research%20Article/gate4M_04_damani_yokota_2026/README.md). The [migration record](docs/migrations/2026-11-21-gate4m/README.md) accounts for both inventories. Owner review of the hash-verified second move is pending.
@@ -546,7 +550,7 @@ main is `1a6769f`, with PR #176 merged. CLI and connector identities are verifie
 as `xorca0711`. Work is isolated on `codex/navarro-question-development-20261110`;
 existing worktrees and their unrelated changes remain untouched.
 
-The [article-local assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/QUESTION_DEVELOPMENT_20261110.md)
+The [article-local assessment](Research%20Article/gate3_12_navarro_negredo_2026/QUESTION_DEVELOPMENT_20261110.md)
 connects the completed findings to recipient neural responses and sustained
 neuronal output. A bounded primary-literature pass adds differentiation/survival
 precedents and the Nissen 2026 recipient IFNAR experiment, with access and model
@@ -691,7 +695,7 @@ merging the PR into main still requires owner authorization.
 Current integration base is main `6b7f9a0` after PR #175 merged. The owner
 authorized remaining jobs, relevant new public data, folder organization and
 publication. Three new Nn26-P01 stages executed under committed contracts:
-[source refresh, residual diagnostics and human-cell context](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/README.md).
+[source refresh, residual diagnostics and human-cell context](Research%20Article/gate3_12_navarro_negredo_2026/followup_20261110/README.md).
 Source snapshots are unchanged for the original Navarro identity questions;
 both residual animal statistics remain unmatched. All 40 affected original
 observations were verified without deletions or rounding changes.
@@ -715,7 +719,7 @@ CLI/connector identities are `xorca0711`; new freeze commits use verified Xorca
 author and committer identities. No author contact or scientific acceptance
 occurred. All required local checks pass against refreshed main `6b7f9a0`,
 including 175 tests (two existing skips), repository links/data, claim and archive
-checks, and base-aware research governance. The [validation record](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/followup_20261110/VALIDATION.md)
+checks, and base-aware research governance. The [validation record](Research%20Article/gate3_12_navarro_negredo_2026/followup_20261110/VALIDATION.md)
 records scope and preservation. Delivery uses
 `codex/navarro-gallery-wording-20261110`; its associated PR owns publication and
 live CI status, covering both push and pull-request events. Next is owner review
@@ -824,8 +828,8 @@ receipt checks and the 167-test suite remain valid for this documentation change
 
 ## Navarro pooled RNA execution — 8 November 2026
 
-[RNA results and measured SVGs](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RNA_RESULTS.md)
-and [seven-stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+[RNA results and measured SVGs](Research%20Article/gate3_12_navarro_negredo_2026/RNA_RESULTS.md)
+and [seven-stage ledger](Research%20Article/gate3_12_navarro_negredo_2026/STAGE_STATUS.md)
 record completed Nn26-P01 metadata qualification and exposed description.
 The main RDS has eight aliases rather than the six published libraries; extra
 WT50/Mut50 expression comparisons are held. WT5/Mut5 has an indirect main-figure
@@ -842,9 +846,9 @@ is now imported into the scoped desktop branch, retaining the earlier animal
 evidence and all freeze commits. All nine successful Navarro receipts and 101
 receipt-bound working/Git files match their hashes. Repository and base-aware
 provenance checks pass against refreshed main `471d0c2`; the existing 167-test
-run (two skips) remains valid. [Integrated validation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/VALIDATION.md)
+run (two skips) remains valid. [Integrated validation](Research%20Article/gate3_12_navarro_negredo_2026/VALIDATION.md)
 records transfer integrity, 90 report checks and preservation of unrelated work.
-[Primary-source interpretation](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/INTERPRETATION_20261108.md)
+[Primary-source interpretation](Research%20Article/gate3_12_navarro_negredo_2026/INTERPRETATION_20261108.md)
 links exact published figures and retained exceptions. Next: source/barcode/dose
 crosswalk only if obtained; WT50/Mut50 contrasts and population inference remain
 held. No further cloud setting or optional acquisition is needed for this run.
@@ -1052,8 +1056,8 @@ there is no new external account setting to resolve for this completed intake.
 ## Navarro animal stages executed; cloud runtime/acquisition verified — 8 November 2026
 
 Owner-authorized execution registered **Nn26-P01** in the separate ungated
-package. [Results and figures](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/RESULTS.md)
-and [stage ledger](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/STAGE_STATUS.md)
+package. [Results and figures](Research%20Article/gate3_12_navarro_negredo_2026/RESULTS.md)
+and [stage ledger](Research%20Article/gate3_12_navarro_negredo_2026/STAGE_STATUS.md)
 link three frozen contracts and verified receipts. Public publisher CDN supplied
 valid S1/S4; prior blocked routes are retained. Source audit checked 180 cells;
 16 animal panels passed 657 independent checks. A narrow frozen diagnostic
@@ -1066,7 +1070,7 @@ match 38/40 reported direct tests within 0.0001. Open-field formulas omit the
 first listed mouse; its P value and WT/control IFITM3 P remain discrepant.
 No values were removed to force agreement. Stored-scale and mouse-key limits remain.
 
-[Cloud evidence](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/CLOUD_READINESS.md)
+[Cloud evidence](Research%20Article/gate3_12_navarro_negredo_2026/CLOUD_READINESS.md)
 now supersedes the initial network/runtime blocker. The owner's newer cloud
 chat `01a1ba3e-f795-73e9-aa71-4c20e962d094` verified Zenodo access, isolated
 R 4.5.0/Matrix 1.7-3/SeuratObject 5.0.2 and synthetic v3/v5 object checks.
@@ -1109,8 +1113,8 @@ synthesis. No new biological result is claimed until those runs finish.
 
 ## Navarro metadata follow-up and analysis plan — 8 November 2026
 
-Completed the owner's [metadata scan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/METADATA_FOLLOWUP.md)
-and [stepwise plan](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/ANALYSIS_PLAN.md)
+Completed the owner's [metadata scan](Research%20Article/gate3_12_navarro_negredo_2026/METADATA_FOLLOWUP.md)
+and [stepwise plan](Research%20Article/gate3_12_navarro_negredo_2026/ANALYSIS_PLAN.md)
 in the separate ungated package on `codex/navarro-aging-fit-20261108`.
 Recovered experiment-level ages/dates/tissues from all six BioSamples and
 chemistry/platform from four treatment-library records. Methods distinguish
@@ -1140,8 +1144,8 @@ were verified byte-identical to HEAD and remain unstaged. No push or PR.
 
 ## Navarro Negredo aged-brain paper assessed — 8 November 2026
 
-Completed the owner-requested [fit assessment](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/README.md)
-and [data/source audit](Research%20Article/ungated_navarro_negredo_2026_aged_brain_il10/DATA_USAGE.md)
+Completed the owner-requested [fit assessment](Research%20Article/gate3_12_navarro_negredo_2026/README.md)
+and [data/source audit](Research%20Article/gate3_12_navarro_negredo_2026/DATA_USAGE.md)
 on `codex/navarro-aging-fit-20261108`, based on freshly fetched main `1ff71a1`.
 The paper is a strong Saxton IL-10 companion: D25K connects immune selectivity
 to aged-niche neurogenesis/behavior, with distinct assays and interpretation

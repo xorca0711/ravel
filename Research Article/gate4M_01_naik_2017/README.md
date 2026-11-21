@@ -122,4 +122,4 @@ Three figures are shown here alongside the findings they support. The [figure ga
 
 ### Analysis history and provenance
 
-[Original plan](ANALYSIS_PLAN.md) · [Stage history](STAGE_STATUS.md) · [S3 endpoint amendment](S3_AMENDMENT_V1.md) · [S5M correction](S5M_AMENDMENT_V2.md) · [Pre-S7 decision](S6_DECISION_V2.md) · [Original S6/S7 disposition](S6_SYNTHESIS_V3.md). The stage reports link the methods, frozen inputs, calculations and receipts. For the closest Ravel intestinal comparison, see the [Arozamena paper package](../ungated_arozamena_2026_inflammatory_memory/README.md).
+[Original plan](ANALYSIS_PLAN.md) · [Stage history](STAGE_STATUS.md) · [S3 endpoint amendment](S3_AMENDMENT_V1.md) · [S5M correction](S5M_AMENDMENT_V2.md) · [Pre-S7 decision](S6_DECISION_V2.md) · [Original S6/S7 disposition](S6_SYNTHESIS_V3.md). The stage reports link the methods, frozen inputs, calculations and receipts. For the closest Ravel intestinal comparison, see the [Arozamena paper package](../gate4M_05_arozamena_2026/README.md).

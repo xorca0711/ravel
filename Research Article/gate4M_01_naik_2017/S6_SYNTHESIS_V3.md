@@ -124,7 +124,7 @@ No new mechanism or target was required to make this comparison informative.
 | Source-label and source-N issues | Qualified mapping for EDF6g's conflicting worksheet/final-figure/summary labels, plus recorded source/caption count discrepancies. Anonymous columns and plausible swaps do not authorize correction or refitting. |
 | Exact animal/pool/culture and cross-assay matching | Actual contributor/aliquot/culture crosswalks. Library suffixes, shared time labels and marker profiles cannot supply them. Holds apply to dependent paired/population claims. |
 | Molecular-to-function link | Qualified individual phenotype records and the corresponding culture/time join. Hamdan scratch donors 4/83/125 establish donor overlap only; no scratch digitization or RNA-to-barrier/closure model was run. |
-| Within-state versus composition; early regulation versus later output | These remain distinct biological discriminators. [Arz1-P01](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) and [A1](../../RQ_Specified/A1_transitional_epithelial_state_distinction/README.md) retain their existing ownership, mixed evidence and unresolved joins; no new Naik label replaces them. |
+| Within-state versus composition; early regulation versus later output | These remain distinct biological discriminators. [Arz1-P01](../gate4M_05_arozamena_2026/RQ_CONNECTIONS.md) and [A1](../../RQ_Specified/A1_transitional_epithelial_state_distinction/README.md) retain their existing ownership, mixed evidence and unresolved joins; no new Naik label replaces them. |
 
 The supported bounded comparison closes here. There is no automatic next score,
 pathway, cohort or pipeline; equally, no claim is made that further biology is

@@ -6,11 +6,11 @@
 ## Arozamena eligible extensions reviewed and integrated — 1 November 2026
 
 Technical handoff `a244f7f` is integrated into the existing PR #157 branch.
-The [current article ledger](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+The [current article ledger](../../../Research%20Article/gate4M_05_arozamena_2026/README.md)
 closes source qualification, Q3a/Q5a RNA and Q4a paired four-locus descriptions.
 Independent review passed all 152,186,923 raw fragment records and 128 paired
 cases, alongside the earlier raw RNA/QC audit. All four
-[figure plates](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md)
+[figure plates](../../../Research%20Article/gate4M_05_arozamena_2026/FIGURES.md)
 passed visual review. A separate render-only correction fixes primary legend
 spacing without changing measurements or overwriting the original.
 
@@ -32,7 +32,7 @@ Technical targeted/shared/archive checks passed. Parent integration validation
 passed 13,198 repository checks, the base-aware research gate and all 18 claim
 bindings. The six exactly documented frozen whitespace exceptions are retained;
 all current documentation changes are whitespace-clean. No frozen measurement
-asset changed during integration. [Detailed review](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md).
+asset changed during integration. [Detailed review](../../../Research%20Article/gate4M_05_arozamena_2026/ORIGINATING_REVIEW.md).
 This revision delivers the gallery, README/RQ context and completed/held ledger
 through [existing PR #157](https://github.com/xorca0711/ravel/pull/157); current CI
 status is shown there. Next: normal PR review, or reopen a held scientific job
@@ -59,10 +59,10 @@ Both actual figures passed visual review. The GSE329778 LGR5 panel reverses from
 -0.506 before RNA QC to +0.556 afterward, retaining 635/6,921 barcodes; this is
 selection sensitivity, not proof of memory or failure of the source's ISC result.
 
-[Current article ledger and gallery](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+[Current article ledger and gallery](../../../Research%20Article/gate4M_05_arozamena_2026/README.md)
 retain state-map, independent-unit, full common-peak and functional-join holds.
 Fragment headers establish GRCm39/ARC2.1 despite article/GEO mm10/ARC2.0.2 metadata.
-A [separate prospective Q4a brief](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_EXTENSION_BRIEF.md)
+A [separate prospective Q4a brief](../../../Research%20Article/gate4M_05_arozamena_2026/ACCESSIBILITY_EXTENSION_BRIEF.md)
 authorizes a streamed GRCm39 four-locus adaptation using matched barcodes, fixed
 M33 windows and gene-body sensitivity. Next: technical acquisition/freeze/run,
 originating review, final RQ context/PR #157 update. Fresh main is `51d3b93`.
@@ -75,10 +75,10 @@ all seven. Parent independent review passed 127 unique hash-bound paths, all sev
 raw axes and all saved overlaps; numeric-body validation relies on the separately
 reviewed streaming parsers/tests, not a second complete numeric scan.
 
-The [source report](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md)
+The [source report](../../../Research%20Article/gate4M_05_arozamena_2026/SOURCE_QUALIFICATION.md)
 records missing author state/donor maps, unvalidated pool identities, source
 run/sorting disagreements, different peak universes and missing early/later unit
-joins. [Prospective Q3a/Q5a brief](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RNA_EXTENSION_BRIEF.md)
+joins. [Prospective Q3a/Q5a brief](../../../Research%20Article/gate4M_05_arozamena_2026/RNA_EXTENSION_BRIEF.md)
 authorizes four separate RNA contrasts and bounded weighting/RNA-only QC sensitivity
 after a numerical freeze. Original within-state Q3, full Q4 and functional Q6
 remain held. Q4a will assess the third deposit's linked fragments separately.
@@ -89,7 +89,7 @@ context and PR #157 integration. No new biological endpoint has executed yet.
 
 Owner requested source qualification and every eligible extension through the
 existing technical chat, followed by review and PR #157 updates. The new
-[article-local Arz1-P01 package](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+[article-local Arz1-P01 package](../../../Research%20Article/gate4M_05_arozamena_2026/README.md)
 records the within-state/composition question, separate outcome-linkage question,
 Q0-Q7 sequence and current unknowns. This is a non-infectious intestinal reference,
 not an IL-22 or NAM-mechanism result. The namespace was checked absent before

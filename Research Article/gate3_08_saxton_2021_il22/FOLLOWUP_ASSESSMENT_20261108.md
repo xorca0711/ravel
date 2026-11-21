@@ -18,8 +18,8 @@ also decreases; broader IFN changes are smaller and the three-target subset is
 unstable. Repeating scores would not resolve the remaining biological questions.
 
 The sparse pooled Choi receptor-transcript check is complete. Arozamena's
-separate [RNA](../ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md) and
-[paired RNA/fragment](../ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md)
+separate [RNA](../gate4M_05_arozamena_2026/RNA_RESULTS.md) and
+[paired RNA/fragment](../gate4M_05_arozamena_2026/ACCESSIBILITY_RESULTS.md)
 descriptions also exist, with state/unit/function limits. Neither is an unstarted
 Saxton extension or a direct IL-22 response dataset.
 

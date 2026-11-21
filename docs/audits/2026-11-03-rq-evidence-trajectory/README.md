@@ -273,7 +273,7 @@ preparations. The hypothesis remains useful, but has not been tested locally.
 Keep the two reception questions separate and qualify the missing time/unit/
 endpoint relationship before interpreting persistence as memory.
 [Dossier](../../research_dossiers/A14.md)
-· [current external-context boundary](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md).
+· [current external-context boundary](../../../Research%20Article/gate4M_05_arozamena_2026/RQ_CONNECTIONS.md).
 
 ### A15 — epithelial integrin and active TGF-beta — Q
 
