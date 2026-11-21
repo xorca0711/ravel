@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-21 — Nagaraja Gate 4M paper package
+
+The [paper overview](Research%20Article/gate4M_02_nagaraja_2026/README.md) and [14-figure gallery](Research%20Article/gate4M_02_nagaraja_2026/FIGURES.md) bring the paper reproduction, 63-locus binding comparison and independent colon-array result into the Gate 4M reading sequence. The chr13 flanking CpG is a candidate marker of prior colitis. Its role in accessibility, paired TF occupancy and adenoma growth remains open. The [stage index](Research%20Article/ungated_nagaraja_2026_colitis_memory/README.md) links the separate assay records. The package is ready for PR review.
+
 ## 2026-11-21 — Eight saline-only CpG markers, technical closeout
 
 Technical review covered all eight probes in five fragments, the mouse-level data and all omission ranges at `5d9a42e`. Among six same-direction estimates, only the chr13 flanking CpG cg31603876_BC21 kept a shared loss after every mouse omission; the smallest epithelial loss was 0.36 percentage points. All five joint gains changed sign under an epithelial mouse omission. Day-14 isolated epithelium and day-23 whole colon came from separate cohorts and DSS regimens. [Technical closeout](Research%20Article/ungated_nagaraja_2026_colitis_memory/jun_foxp1/saline_markers/NUMERICAL_RESULTS.md#technical-closeout) · [Reviewed figure PDF](analysis/research/runs/ng26_saline_marker_figure_v1/saline_markers.pdf) · [Full numerical comparison](analysis/research/runs/ng26_saline_markers_v1/site_comparison.tsv). Local work is complete at marker-screen scope. Biological target acceptance remains undecided.
