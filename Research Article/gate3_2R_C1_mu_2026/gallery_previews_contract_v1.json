@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.gallery_previews_v1",
+  "owner": "Mu26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can readers see the four completed Mu figures directly in the paper gallery?",
+  "decision": "Render a complete inline preview of each original figure and retain access to the vector PDF.",
+  "strongest_rival": "Clipping a page or changing its aspect ratio could hide panels, labels or observations.",
+  "discriminator": "Render the complete page at fixed resolution and verify dimensions and image contents against each PDF.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C1_mu_2026/RESULTS.md",
+    "Research Article/gate3_2R_C1_mu_2026/CLOSEOUT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All four PDF figures and their interpretations were available before this documentation pass.",
+  "biological_unit": "Source workbook observation or RNA library, as labelled in each original figure.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The previews reuse the same source panels, observation groupings and libraries.",
+  "population_and_selection": "All four final single-page PDF figures from the Mu package.",
+  "contrast": "Each inline image displays the contrasts already present in its source PDF.",
+  "endpoint": "A full-page image of each frozen figure at its original aspect ratio.",
+  "methods": "Render every page to RGB PNG at 144 dpi using PyMuPDF. The source PDFs contain one page each.",
+  "missingness_and_exclusions": "Display every panel and preserve the original source-data coverage.",
+  "multiplicity": "Rendering only. All numerical comparisons come from the four source figures.",
+  "precision_status": "unknown",
+  "precision_basis": "The inferential limits of the original descriptive comparisons carry through to their previews.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "The previews reproduce the same studies, measurements and reported limitations as the four original figures.",
+  "stop_rule": "Stop if a source checksum changes or any input contains a different number of pages.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/source_values.pdf",
+      "sha256": "f2e8381add3254ee902c82c06e2d6496330a8dd43c0e156b4e92123989e032cd",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s2_v1/source_values.pdf",
+      "sha256": "4d434e27fe4db8bf9779e0e7bb846d254c0bf227ec54eb59f0fccd26c72c4699",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s3_v1/source_values.pdf",
+      "sha256": "e461c163079fda0bc703509219e38a7258f0670695d305cf8a6b2a92757c16a9",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s4_rna_figure_v1/hsc_library_counts.pdf",
+      "sha256": "0b1cfd9a3ba4642749d1b71d0232985b875abcf61eb312382c30be25e9bbc076",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/render_gallery_previews.py",
+      "sha256": "fd0a013091e722ebb8e981e56b2e8bafedc3e44c9f29f4f4fc90dc57c9fa8d53"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C1_mu_2026/render_gallery_previews.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cytokine_recall.png",
+    "aging_and_liver.png",
+    "transfer_and_physiology.png",
+    "hsc_rna.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial format conversion of the four final figures for inline viewing."
+}
