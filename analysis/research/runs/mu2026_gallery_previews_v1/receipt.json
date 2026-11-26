@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.gallery_previews_v1",
+  "owner": "Mu26-P01",
+  "contract": "Research Article/gate3_2R_C1_mu_2026/gallery_previews_contract_v1.json",
+  "contract_sha256": "03215e83255aa1b8fd376e8f1ad3b17668765dd85a4ebc681adf855ec0226a4d",
+  "git_commit": "915d353d14250f8de63a42dd50b05abfcacca182",
+  "started_at": "2026-11-26T06:31:47.637826+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C1_mu_2026/render_gallery_previews.py",
+    "analysis/research/runs/mu2026_gallery_previews_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/source_values.pdf",
+      "sha256": "f2e8381add3254ee902c82c06e2d6496330a8dd43c0e156b4e92123989e032cd",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s2_v1/source_values.pdf",
+      "sha256": "4d434e27fe4db8bf9779e0e7bb846d254c0bf227ec54eb59f0fccd26c72c4699",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s3_v1/source_values.pdf",
+      "sha256": "e461c163079fda0bc703509219e38a7258f0670695d305cf8a6b2a92757c16a9",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s4_rna_figure_v1/hsc_library_counts.pdf",
+      "sha256": "0b1cfd9a3ba4642749d1b71d0232985b875abcf61eb312382c30be25e9bbc076",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/render_gallery_previews.py",
+      "sha256": "fd0a013091e722ebb8e981e56b2e8bafedc3e44c9f29f4f4fc90dc57c9fa8d53"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/mu2026_gallery_previews_v1/cytokine_recall.png",
+      "sha256": "27196f6c7a68ea1b77d37341f2fb23e490185497df472faf1d68621e4bfff445"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_gallery_previews_v1/aging_and_liver.png",
+      "sha256": "ec6fbab85e66fafaba63fcec8bd9c623cee2c86746fc71d163da778f06a5537d"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_gallery_previews_v1/transfer_and_physiology.png",
+      "sha256": "13f923ff360025a164ac548abdd0b367fc9cc16c4367e984b0c5582de63f7d65"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_gallery_previews_v1/hsc_rna.png",
+      "sha256": "39f5a016883a9b4e34c7eff1878b9e3355508e4ff0fe1ef54d062a47390f412d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T06:31:49.842843+00:00"
+}
