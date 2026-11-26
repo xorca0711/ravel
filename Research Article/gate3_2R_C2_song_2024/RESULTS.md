@@ -77,7 +77,7 @@ Dellorusso et al. Figs. 3–5 and 6–7 connected inflammatory signaling, autoph
 
 Independent same-source checks matched Fig. 1a–c against workbook means in E:F rows 4, 20 and 36, all four ED 7 interactions against J:M rows 4 and 20 and E:H rows 36 and 52, Fig. 1f/3g against Q:R rows 93/107, and Fig. 3a/4b against H:I row 4. The Hallmark run independently recalculated expression contrast columns from library values for the covered symbols. These checks establish numerical agreement. The initial syntax failure occurred before data processing and is retained in the [v1 logs](FAILED_RUNS_V1.md) with the superseded contracts.
 
-Repository research-gate and validation, claim bindings, and 208 unit tests passed. The repository-wide compile check still reports the original syntax error in the immutable v1 script. Both executed entrypoints parse successfully. The archived failure blocks a green full compile check on this branch.
+The study branch passed the research gate, repository validation, claim checks, and its unit test suites. The [compilation check](../../tools/check_python_sources.py) verifies the original v1 script and the [six failed-run records](FAILED_RUNS_V1.md) against their archived hashes and reproduces the recorded line-192 syntax error. The scripts used for the completed analyses must compile successfully.
 
 ## Package disposition
 

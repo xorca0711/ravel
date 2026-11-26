@@ -2,7 +2,7 @@
 
 ## 2026-11-26 — Barton and Chen second-round packages
 
-The [four paper packages](Research%20Article/README.md#gate-3-second-round) bring together the completed comparisons, original figures, measured source tables and generating scripts. The four cloud study heads share 29 verified successful run receipts. The Song v1 parser failure is preserved alongside its v2 replacement. Its historical script still fails the repository-wide Python compilation check. Review the four results reports and this CI finding before integration.
+The [four paper packages](Research%20Article/README.md#gate-3-second-round) bring together the completed comparisons, original figures, measured source tables and generating scripts. The four study heads contain 29 verified successful run receipts. The compilation check now reproduces Song’s archived v1 syntax error and verifies the six failure records by hash. It compiles the v2 script used for the completed runs alongside the other repository sources. [PR #192](https://github.com/xorca0711/ravel/pull/192) contains the packages for review.
 
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
