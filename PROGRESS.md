@@ -2,7 +2,7 @@
 
 ## 2026-11-26 — Song C2 revised analysis
 
-Verified both transferred study files against their expected Git blobs. The [source provenance](Research%20Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md) records the opening comparison and base.
+Verified both transferred study files against their expected Git blobs. The [source provenance](Research%20Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md) records the opening comparison and base. S0–S5 and the S3 Hallmark adaptation have verified receipts. S6 closed at contextual reading. The [results](Research%20Article/gate3_2R_C2_song_2024/RESULTS.md) retain the viability null, mixed MCU effects, week-16 source discrepancy and holds on donor-level inference and HSC-specific mediation. The repository-wide compile check still flags the retained, superseded v1 syntax error.
 
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 

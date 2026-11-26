@@ -1,6 +1,6 @@
 # Song et al. (2024) — An NAD+-dependent metabolic checkpoint regulates hematopoietic stem cell activation and aging
 
-**gate3_2R_C2** · Brief owner read reported 26 November 2026. Analysis planned.
+**gate3_2R_C2** · Brief owner read reported 26 November 2026. Revised descriptive analysis executed and verified 26 November 2026.
 
 ## Published findings
 
@@ -15,7 +15,7 @@ Young HSCs show little overt homeostatic phenotype in the reported assays, yet p
 
 ## Ravel analyses and results
 
-The prior reading connected Song to Mu through HSC metabolism. Begin with young-cell activation and test how the response changes under MCU knockdown. The aged donor and inhibitor experiments address later regeneration, with week-16 donor contribution connecting the age-specific transplant experiments. No Song numerical run was registered at `0d32085`.
+Young Cd38 KO HSCs after cytokines showed lower cell recovery and BrdU incorporation, with little separation in 7-AAD staining. MCU knockdown nearly removed the Rhod-2 genotype difference while colony output retained a KO deficit with sensitivity to individual observations. Week-16 donor output was 30.77 percentage points lower in recipients of young Cd38 KO donor cells and 11.43 points higher in the aged cohort. Aged Cd38 loss and systemic 78c both increased relative NAD+ and lowered stress-sensitive signals. [Results and receipt index](RESULTS.md) · [Activation figure](../../analysis/research/runs/song24_c2_S1_v2/activation.png)
 
 ## Data and methods
 
@@ -27,4 +27,4 @@ Less division after stimulation and improved long-term output from aged deficien
 
 ## Figures and supporting documentation
 
-[Calcium signaling, metabolic compensation and regeneration in aging](LITERATURE_CONTEXT.md) · [RNA and transplant comparison handoff](ANALYSIS_PLAN.md) · [Mu on the SIRT3 and inflammatory phenotype](../gate3_2R_C1_mu_2026/README.md) · [Nagaraja’s example of keeping assay units separate](../gate4M_02_nagaraja_2026/ANALYSIS_RECORDS.md)
+[Calcium signaling, metabolic compensation and regeneration in aging](LITERATURE_CONTEXT.md) · [RNA and transplant comparison handoff](ANALYSIS_PLAN.md) · Mu's SIRT3 and inflammatory phenotype (separate study) · [Nagaraja’s example of keeping assay units separate](../gate4M_02_nagaraja_2026/ANALYSIS_RECORDS.md)

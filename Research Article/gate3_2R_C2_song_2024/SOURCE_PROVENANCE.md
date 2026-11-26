@@ -18,3 +18,5 @@ Supplementary Table 1 (N=2), main Figures 1–4 (N=3–6) and Extended Data Figu
 4–7, 9–10 (N=7, 10–13, 15–16). Links are available from the [publisher](https://doi.org/10.1038/s43587-024-00670-8).
 The `article` file is the [PMC manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC11565225/?report=xml).
 Workbook labels and cell coordinates are panel-local. Blank values stay blank.
+
+The Hallmark adaptation uses the versioned [mouse Hallmark GMT](https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Mm/mh.all.v2025.1.Mm.symbols.gmt). Replays used Python with openpyxl 3.1.5 and matplotlib 3.10.8.

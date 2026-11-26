@@ -247,6 +247,20 @@ revoke later permissions. Niethamer/S1 and D1 retain their own existing gates.
   `ROADMAP.json`. Papers in 2C and 2N are read while interpreting the pilot
   figures, as before; 2W is read alongside proposal W1.
 
+## Gate 3 second round
+
+[Song et al. (2024), C2](gate3_2R_C2_song_2024/README.md) · [Revised analysis and run records](gate3_2R_C2_song_2024/RESULTS.md)
+
+**Running a plan in a new session.** Start from the revision containing the plan, fetch current main and inspect the paper home and research registry for later results, amendments or existing runs. Use an isolated worktree. Verify the GitHub login is `xorca0711` on every route used. Before committing, check both `git var GIT_AUTHOR_IDENT` and `git var GIT_COMMITTER_IDENT` for Xorca and a verified account email. Apply the same checks on remote compute. The paper label identifies the reading assignment. Register an article-local candidate and the appropriate contract before new numerical work.
+
+1. Start with S0 and produce the source, panel and biological-unit map. Record file versions, hashes, reuse, unresolved units and exposure to the paper, notes and any author outcomes already seen. Mark each comparison eligible, descriptive only or held, with its reason. A missing input holds just its dependent comparison.
+2. For each eligible numerical stage, freeze and commit its contract and entrypoint with the actual inputs, estimand, units, QC, method and outputs. Use `python analysis/scripts/research_gate.py preflight <contract> --inputs`, then `run <contract> --run-id <unique-id>` and `verify <receipt>` with the same script. Independently check the primary effect, sign and aggregation. Record the receipt, source-value table, figure and interpretation in the paper folder. An adapted analysis should say exactly how it differs from the paper. [Research governance](../docs/RESEARCH_GOVERNANCE.md)
+3. Run one paper and one data-heavy stage at a time. Begin with processed tables or per-sample summaries, select needed genomic intervals and close each track before opening the next. Check input size, scratch space and peak RAM before raw reprocessing. If a necessary stage exceeds local capacity, checkpoint it and verify that an available remote target can access the frozen code and hash-matched inputs. The other stages can continue locally.
+
+The [Peng correction](../docs/research_reviews/2026-11-08-peng-spatial-reading/FRAMING_FOLLOWUP.md) documented how an available statistic displaced the biological question. The [screening amendment](../docs/research_reviews/2026-11-03-tool-assisted-screening-review/BIOLOGICAL_SCREENING_AMENDMENT_V1.md) restored the intermediate steps between source cells, their output and recipient function. Those reviews explain why Roberts keeps the failed functional rescue in view, Pestal examines both lost cells and surviving cells, Mu traces inflammation before interpreting endurance, and Song reads direct metabolic and functional assays before interpreting RNA.
+
+Two completed studies show how to finish the analysis. The [Nagaraja plan](gate4M_02_nagaraja_2026/ANALYSIS_PLAN.md) and [synthesis](gate4M_02_nagaraja_2026/SYNTHESIS.md) trace a question across tissue observations, organoids and growth, specifying where links remain unmeasured. The [DuPage plan](gate3_09_dupage_2015/ANALYSIS_PLAN.md) and [biological review](gate3_09_dupage_2015/BIOLOGICAL_REVIEW_20261107.md) show how regulation and selection can coexist. The last stage of each second-round paper returns to the opening experiment and asks which interpretation changes in light of the outside literature.
+
 <a id="folder-contract"></a>
 
 ## Article package structure

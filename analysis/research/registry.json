@@ -1248,7 +1248,9 @@
       "plan": "Research Article/gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
       "evidence": [
         "Research Article/gate3_2R_C2_song_2024/LITERATURE_CONTEXT.md",
-        "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md"
+        "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md",
+        "Research Article/gate3_2R_C2_song_2024/README.md",
+        "Research Article/gate3_2R_C2_song_2024/RESULTS.md"
       ]
     }
   ],
@@ -1803,7 +1805,8 @@
     "analysis/research/runs/song24_c2_S2_v2/receipt.json",
     "analysis/research/runs/song24_c2_S3_v2/receipt.json",
     "analysis/research/runs/song24_c2_S4_v2/receipt.json",
-    "analysis/research/runs/song24_c2_S5_v2/receipt.json"
+    "analysis/research/runs/song24_c2_S5_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S3_hallmark_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
