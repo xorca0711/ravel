@@ -1532,7 +1532,8 @@
     "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json",
     "Research Article/gate3_2R_B2_pestal_2025/transfer_contract_v1.json",
     "Research Article/gate3_2R_B2_pestal_2025/regulatory_contract_v1.json",
-    "Research Article/gate3_2R_B2_pestal_2025/lung_contract_v1.json"
+    "Research Article/gate3_2R_B2_pestal_2025/lung_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/route_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1788,7 +1789,10 @@
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
     "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
+    "analysis/research/runs/pestal_transfer_v1/receipt.json",
+    "analysis/research/runs/pestal_regulatory_v1/receipt.json",
+    "analysis/research/runs/pestal_lung_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
