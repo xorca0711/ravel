@@ -21,6 +21,10 @@ link or independent replication.
 
 [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Tissue ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) · [Growth/clones](../docs/guides/RESEARCH_TOPICS.md#growth-clonal-dynamics)
 
+## Gate 3 second round
+
+[Roberts B1](gate3_2R_B1_roberts_2017/README.md) compares apoptotic-cell uptake, TLR9 responsiveness and the response to cargo after niche withdrawal. Start with the verified plan and its figure-to-evidence map, then qualify each comparison. Freeze the appropriate article-local contract and run eligible stages sequentially through the [research runner](../docs/RESEARCH_GOVERNANCE.md). Preserve mixed and negative findings and report held comparisons with the missing input.
+
 ## Gate 4 topic-centered reading
 
 The **Gate 4M · Epigenetic & Inflammatory Memory** series asks what a tissue retains after inflammation and how recovery changes its response to a later challenge. The five papers span skin, colon, lung macrophages and intestinal regeneration.
