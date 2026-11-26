@@ -1602,7 +1602,9 @@
     "Research Article/gate3_2R_C2_song_2024/contracts/S4.v2.json",
     "Research Article/gate3_2R_C2_song_2024/contracts/S5.v2.json",
     "Research Article/gate3_2R_C2_song_2024/contracts/S3.hallmark.v1.json",
-    "Research Article/gate3_2R_C2_song_2024/contracts/figures.v1.json"
+    "Research Article/gate3_2R_C2_song_2024/contracts/figures.v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/gallery_previews_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/gallery_counts_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1887,7 +1889,9 @@
     "analysis/research/runs/song24_c2_S4_v2/receipt.json",
     "analysis/research/runs/song24_c2_S5_v2/receipt.json",
     "analysis/research/runs/song24_c2_S3_hallmark_v1/receipt.json",
-    "analysis/research/runs/song24_c2_figures_v1/receipt.json"
+    "analysis/research/runs/song24_c2_figures_v1/receipt.json",
+    "analysis/research/runs/mu2026_gallery_previews_v1/receipt.json",
+    "analysis/research/runs/pestal_gallery_counts_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

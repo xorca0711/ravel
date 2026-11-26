@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.gallery_counts_v1",
+  "owner": "Pe25-P01",
+  "contract": "Research Article/gate3_2R_B2_pestal_2025/gallery_counts_contract_v1.json",
+  "contract_sha256": "6e8904211568cf5b241991f810b0cbc67423dab16553bb7be9a611cf8c2c298d",
+  "git_commit": "525bb6b9d23246ad878d3af74cfe49116489ab18",
+  "started_at": "2026-11-26T06:42:00.383526+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B2_pestal_2025/count_gallery.py",
+    "analysis/research/runs/pestal_gallery_counts_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/pestal/GRCm38.gtf.gz",
+      "sha256": "6d572c7a7f94d03e884853e1b8330d453a88d7c7c448549b61e967d2466c5665",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763466_KLF2WTday0_1.h5",
+      "sha256": "8d6cf3096c5e4b6a513b7f2f0cc2cd472623afca3786bd9532ca42c074d30bbf",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763467_KLF2KOday0_1.h5",
+      "sha256": "e563c548888b62ff7eaefe2d549e88117661f54b642abe7088e667a54d2a38b0",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763468_KLF2KOday0_2.h5",
+      "sha256": "2ef1bff3650d8469b9c119dc246f46a17067fa48e3ff6872d64d1543e7461280",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763469_KLF2WTday0_2.h5",
+      "sha256": "fd9c9d6e16a5504620e16fbbe862c6c33877c225ba398a9a8268b55211aade0f",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763470_KLF2WTday7_1.h5",
+      "sha256": "a0570688edf29c8db0d62a0e83da24af272a881d6021a02c5c305333c610a8aa",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763471_KLF2WTday7_2.h5",
+      "sha256": "563e897a68bc55c7323c613489b817c07771305295e3f698aafecb67d00867e2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763472_KLF2WTday7_3.h5",
+      "sha256": "b0e36e75fee558fd40561f5699c8e942376dfb26bd9e2c6cc5b83f1b5bb354b2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763473_KLF2KOday7_1.h5",
+      "sha256": "9bd5492ec9c86b344d56c376fe5bc7598a96931f6161645745c21f573981aff8",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763474_KLF2KOday7_2.h5",
+      "sha256": "a8d7e5b57ecc7b33b7276c69319857ca49a76e8e3ca9345827211a20af2b7fe6",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763481_KLF4WTAM1.h5",
+      "sha256": "d997430f32083cc468b2c185f7ef805e47eb22a3844352c4f1eb1fb46a055d08",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763482_KLF4KOAM1.h5",
+      "sha256": "411cbafebb98c9c8690547646905a2ca619a2c90616d8ea1a8d8cc55e57f8b91",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763483_KLF4WTAM2.h5",
+      "sha256": "7478fa2a1ee37bfa2976d6d700e0b31bdcc5d40bd64fcbf9bdda32de64207f65",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763484_KLF4KOAM2.h5",
+      "sha256": "307d089de50932cbb65ca01fea2e134aeca38be179a9f88ebf299cb7cab22434",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/pestal_transfer_v1/libraries.tsv",
+      "sha256": "6fb8dd38e4b0f8fadddcafe1c1425427d4d4832a2d32b7a53e02b51eb5ca680f",
+      "study_id": "GSE288281",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/pestal_lung_v1/libraries.tsv",
+      "sha256": "05cff8b0239fcfe72cb6102c67b18f45842b603d966ffa092dc0dc0c4ba74ffe",
+      "study_id": "GSE288281",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/count_gallery.py",
+      "sha256": "3b9135e3a4ab73970954b31e792f0cc5305021ef673ed5a77409cd863ae93678"
+    },
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+      "sha256": "657b5932582480b395d912d9f292d787c857c87c48aa886880dae80b51b24aeb"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/cavity_estimated_counts.tsv",
+      "sha256": "6c35dd192f074bb65696144f0bf9966b602d27ac7f09a67f7a8541e046812688"
+    },
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/lung_estimated_counts.tsv",
+      "sha256": "6c871f35e10f1190263a510d7e7285915dc85afcfad77b8c64ed509c7873393d"
+    },
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/libraries.tsv",
+      "sha256": "9010a454a5655c100ea0b9a1e09a4d4f260cc15fb3f14afc77fb16f768b44045"
+    },
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/plot_values.tsv",
+      "sha256": "abeb90b95dae39107f3d6b3f7806114309d50b06bb93cd6f6cb04582348604ae"
+    },
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/cavity_markers.png",
+      "sha256": "2e717b63e8be94cc880154744ab8ec1c826b9fbc7129c5fc3f04e7ab95181794"
+    },
+    {
+      "path": "analysis/research/runs/pestal_gallery_counts_v1/lung_markers.png",
+      "sha256": "9b4a15d63b7213d7141a64ccf8871385d9ba9ba7f6a63a324cd1728c2804ea81"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T06:42:28.640153+00:00"
+}

@@ -1,5 +1,11 @@
 # Pestal et al. · Cavity acquisition, native occupancy and alveolar identity
 
+## Cavity marker expression after transfer
+
+The source for the cavity RNA plot is the Kallisto estimated fragment counts in nine deposited libraries. All four input libraries had zero estimated fragments for *Timd4*. At day 7, *Timd4* reached 4.92–6.10 log₂(CPM + 1) in the three WT libraries and 2.28–3.40 in the two Klf2-deficient libraries. *Lyve1* rose in both groups and their day-7 ranges overlapped. This pattern supports partial acquisition of cavity traits by recovered deficient cells. Bulk RNA leaves open whether particular cells changed expression or particular subpopulations preferentially survived transfer. [Count matrix](../../analysis/research/runs/pestal_gallery_counts_v1/cavity_estimated_counts.tsv) · [Plotted values](../../analysis/research/runs/pestal_gallery_counts_v1/plot_values.tsv) · [Gallery](FIGURES.md)
+
+The original cavity-population image combined published flow panels from Figs. 1 and 2. Those panels address how many cells occupy the niche and how much each donor contributes. A numerical reproduction would require animal-level events or counts with the corresponding gate denominators. The four sorted-cell lung RNA libraries likewise measure marker expression within the recovered population. [Flow sources and denominators](S0_CAVITY.md) · [Lung count matrix](../../analysis/research/runs/pestal_gallery_counts_v1/lung_estimated_counts.tsv) · [GSE288281](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288281)
+
 ## Source and unit map
 
 | Comparison | Source and unit | Eligibility |

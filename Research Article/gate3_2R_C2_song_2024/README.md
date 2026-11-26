@@ -5,10 +5,18 @@
 ## Published findings
 
 ```text
-Young HSCs under activation → CD38 supports mitochondrial calcium signaling and proliferation
-Aged HSCs → higher CD38 accompanies impaired NAD+ homeostasis
-    → aged Cd38-deficient donors show improved repopulation
-    → pharmacological CD38 inhibition improves selected aged-mouse endpoints
+How do blood stem cells meet an acute demand for new cells and retain the capacity
+to rebuild blood over a lifetime?
+
+Young HSCs → cytokine stimulation engages mitochondrial calcium handling and cycling.
+  Cd38 loss reduces proliferation in culture. Young deficient donors also contribute fewer
+  blood cells after competitive transplantation.
+Aged HSCs → elevated CD38 accompanies altered NAD+ balance and mitochondrial stress.
+  In a separate transplant cohort, aged Cd38-deficient donors contribute more blood cells.
+
+A metabolic process that supports rapid activation in youth can carry a cost in aging.
+Regenerative capacity therefore needs to be tested both during immediate activation
+and through sustained blood production after transplant.
 ```
 
 Young HSCs show little overt homeostatic phenotype in the reported assays, yet proliferate less after CD38 loss under activation. The paper measures calcium, metabolites and proliferation separately (Figs. 1–2). Aged knockout donors and treatment of aged mice provide distinct evidence (Figs. 3–4). [Primary paper](https://doi.org/10.1038/s43587-024-00670-8)
@@ -28,6 +36,10 @@ Less division after stimulation and improved long-term output from aged deficien
 ## Figures and supporting documentation
 
 [Figure gallery](FIGURES.md) · [Original source tables, scripts and run receipts](EVIDENCE.md)
+
+![Young control and Cd38-deficient HSCs after cytokine stimulation](../../analysis/research/runs/song24_c2_S1_v2/activation.png)
+
+Cell recovery, cycling and viability are shown alongside metabolic and fluorescent measurements in young HSC preparations.
 
 [Calcium signaling, metabolic compensation and regeneration in aging](LITERATURE_CONTEXT.md) · [RNA and transplant comparison handoff](ANALYSIS_PLAN.md) · Mu's SIRT3 and inflammatory phenotype (separate study) · [Nagaraja’s example of keeping assay units separate](../gate4M_02_nagaraja_2026/ANALYSIS_RECORDS.md)
 

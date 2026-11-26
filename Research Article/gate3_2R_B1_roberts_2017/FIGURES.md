@@ -1,11 +1,19 @@
 # Roberts · 60 h withdrawal from the tissue niche
 
-The two experiments compare immediate ex vivo macrophages with 60 h culture. Animal and pool nesting could not be recovered. The reference amendment explains why the two experiments use different expression inputs. [Results](RESULTS.md) · [Reference amendment](REFERENCE_AMENDMENT.md)
+## Combined comparison
 
-| Original figure | Source values |
-|---|---|
-| [Combined comparison](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png) | [withdrawal_comparison.tsv](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv) |
-| [Experiment 1](../../analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.png) | [withdrawal.tsv](../../analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.tsv) |
-| [Experiment 2](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.png) | [withdrawal.tsv](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.tsv) |
+![Ex vivo and 60-hour macrophage expression side by side for both withdrawal experiments](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png)
 
-In the combined figure, squares mark the immediate ex vivo library and open circles mark the two cultured libraries in each experiment. The lower panel shows the mean culture log₂(TPM + 1) minus baseline.
+Squares mark the immediate ex vivo library. Open circles mark the two cultured libraries in each experiment. The lower panel shows the mean culture log₂(TPM + 1) minus baseline. [Values for all six libraries](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv) · [Results](RESULTS.md)
+
+## Experiment 1
+
+![Gene expression before and after culture in the first withdrawal experiment](../../analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.png)
+
+Expression was reconstructed from the three recovered read libraries. [Source values](../../analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.tsv) · [Reference amendment](REFERENCE_AMENDMENT.md)
+
+## Experiment 2
+
+![Gene expression before and after culture in the second withdrawal experiment](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.png)
+
+This comparison uses deposited TPM values. Animal and pool nesting remain unresolved in both experiments. [Source values](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.tsv)

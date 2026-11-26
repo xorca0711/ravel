@@ -1,5 +1,11 @@
 # Current project state
 
+## 2026-11-26 — Inline galleries for the four second-round papers
+
+The [four paper galleries](Research%20Article/README.md#gate-3-second-round) display 16 figures inline, including full-page previews of Mu’s four original PDFs. Each paper README now opens with the biological question and its implications. [Mu](Research%20Article/gate3_2R_C1_mu_2026/README.md) asks whether aging blood formation can carry inflammatory effects to distant tissues.
+
+The [Pestal gallery](Research%20Article/gate3_2R_B2_pestal_2025/FIGURES.md) replaces two featured composites with plots calculated from 13 deposited Kallisto RNA libraries. All 129 plotted values were checked against the deposited estimated counts. Deficient donor cells recovered after cavity transfer acquired some markers, including *Timd4*, with lower day-7 *Timd4* values than WT. Resident abundance and donor representation remain published flow observations pending animal-level events or counts. [Results and count matrices](Research%20Article/gate3_2R_B2_pestal_2025/RESULTS.md)
+
 ## 2026-11-26 — Barton and Chen second-round packages
 
 The [four paper packages](Research%20Article/README.md#gate-3-second-round) bring together the completed comparisons, original figures, measured source tables and generating scripts. The four study heads contain 29 verified successful run receipts. The compilation check now reproduces Song’s archived v1 syntax error and verifies the six failure records by hash. It compiles the v2 script used for the completed runs alongside the other repository sources. [PR #192](https://github.com/xorca0711/ravel/pull/192) contains the packages for review.

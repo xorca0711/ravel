@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.gallery_counts_v1",
+  "owner": "Pe25-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do prespecified marker counts differ across the input and recovered transfer RNA libraries and the separately sorted alveolar macrophage libraries?",
+  "decision": "Show a sequencing-derived expression result for the cavity and lung. The original population-frequency panels require flow data.",
+  "strongest_rival": "Selection of the recovered cells, cross-day index differences or library composition can change marker profiles independently of within-cell maturation.",
+  "discriminator": "Compare available WT and KO libraries within each stage and display all originally designated markers and library points.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B2_pestal_2025/RESULTS.md",
+    "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md",
+    "Research Article/gate3_2R_B2_pestal_2025/S3_LUNG.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The paper and TPM marker results from these same libraries were known. The marker sets are unchanged from the deposited-library replay.",
+  "biological_unit": "One deposited bulk RNA library. Donor mouse, preparation or host pooling cannot be assigned to every library.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Day 0 and day 7 are separate sample groups. Biological pairing across days and independent animal counts are unresolved. Lung libraries belong to a separate perturbation.",
+  "population_and_selection": "All nine transfer and four LysM alveolar macrophage libraries in the two original sample maps. Markers are the previously specified nine cavity and twelve lung genes.",
+  "contrast": "Day-0 and day-7 WT versus Klf2-deficient BMM libraries and WT versus Klf4-deficient alveolar macrophage libraries, shown separately.",
+  "endpoint": "Unrounded estimated fragment counts summed over assigned transcripts, and per-library log2(CPM+1) for display.",
+  "methods": "Read est_counts and aux/ids directly from each deposited Kallisto HDF5. Map version-stripped IDs through Ensembl release 90, sum selected genes, and divide by all estimated fragments per library. Plot each library and preserve the unnormalized gene-by-library matrices.",
+  "missingness_and_exclusions": "Keep zeros and every deposited library in the frozen maps. Hold on missing marker targets, missing inputs, or changed group sizes. No substitution for flow events or an unobserved RNA library.",
+  "multiplicity": "Descriptive marker displays without gene-wise hypothesis tests.",
+  "precision_status": "unknown",
+  "precision_basis": "The columns are deposited libraries with unresolved animal and pool identities. No animal-level precision estimate.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Bulk estimated fragment counts measure RNA in recovered cells. They cannot reconstruct gated cell frequencies, absolute yields, donor competition, or identify lineage fate.",
+  "stop_rule": "Do not infer population size from RNA. Stop if hashes, sample counts, mapped markers, or finite nonnegative estimated fragment counts fail verification.",
+  "inputs": [
+    {
+      "path": "raw_data/pestal/GRCm38.gtf.gz",
+      "sha256": "6d572c7a7f94d03e884853e1b8330d453a88d7c7c448549b61e967d2466c5665",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763466_KLF2WTday0_1.h5",
+      "sha256": "8d6cf3096c5e4b6a513b7f2f0cc2cd472623afca3786bd9532ca42c074d30bbf",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763467_KLF2KOday0_1.h5",
+      "sha256": "e563c548888b62ff7eaefe2d549e88117661f54b642abe7088e667a54d2a38b0",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763468_KLF2KOday0_2.h5",
+      "sha256": "2ef1bff3650d8469b9c119dc246f46a17067fa48e3ff6872d64d1543e7461280",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763469_KLF2WTday0_2.h5",
+      "sha256": "fd9c9d6e16a5504620e16fbbe862c6c33877c225ba398a9a8268b55211aade0f",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763470_KLF2WTday7_1.h5",
+      "sha256": "a0570688edf29c8db0d62a0e83da24af272a881d6021a02c5c305333c610a8aa",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763471_KLF2WTday7_2.h5",
+      "sha256": "563e897a68bc55c7323c613489b817c07771305295e3f698aafecb67d00867e2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763472_KLF2WTday7_3.h5",
+      "sha256": "b0e36e75fee558fd40561f5699c8e942376dfb26bd9e2c6cc5b83f1b5bb354b2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763473_KLF2KOday7_1.h5",
+      "sha256": "9bd5492ec9c86b344d56c376fe5bc7598a96931f6161645745c21f573981aff8",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763474_KLF2KOday7_2.h5",
+      "sha256": "a8d7e5b57ecc7b33b7276c69319857ca49a76e8e3ca9345827211a20af2b7fe6",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763481_KLF4WTAM1.h5",
+      "sha256": "d997430f32083cc468b2c185f7ef805e47eb22a3844352c4f1eb1fb46a055d08",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763482_KLF4KOAM1.h5",
+      "sha256": "411cbafebb98c9c8690547646905a2ca619a2c90616d8ea1a8d8cc55e57f8b91",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763483_KLF4WTAM2.h5",
+      "sha256": "7478fa2a1ee37bfa2976d6d700e0b31bdcc5d40bd64fcbf9bdda32de64207f65",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763484_KLF4KOAM2.h5",
+      "sha256": "307d089de50932cbb65ca01fea2e134aeca38be179a9f88ebf299cb7cab22434",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/pestal_transfer_v1/libraries.tsv",
+      "sha256": "6fb8dd38e4b0f8fadddcafe1c1425427d4d4832a2d32b7a53e02b51eb5ca680f",
+      "study_id": "GSE288281",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/pestal_lung_v1/libraries.tsv",
+      "sha256": "05cff8b0239fcfe72cb6102c67b18f45842b603d966ffa092dc0dc0c4ba74ffe",
+      "study_id": "GSE288281",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/count_gallery.py",
+      "sha256": "3b9135e3a4ab73970954b31e792f0cc5305021ef673ed5a77409cd863ae93678"
+    },
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+      "sha256": "657b5932582480b395d912d9f292d787c857c87c48aa886880dae80b51b24aeb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B2_pestal_2025/count_gallery.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cavity_estimated_counts.tsv",
+    "lung_estimated_counts.tsv",
+    "libraries.tsv",
+    "plot_values.tsv",
+    "cavity_markers.png",
+    "lung_markers.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New reader-facing count displays from deposited RNA quantifications. Existing TPM, source readback and composite figures remain archived."
+}
