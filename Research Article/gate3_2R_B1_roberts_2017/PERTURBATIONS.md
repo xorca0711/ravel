@@ -1,0 +1,14 @@
+# Perturbations that distinguish receptor recovery from cargo response
+
+| Perturbation and panel | Uptake | TLR9 | Proximal signaling | TNF or cytokine |
+|---|---|---|---|---|
+| Fig. 2E, myeloid-restricted Rosa TLR9 versus Cre-negative littermate | Unmeasured here | Conditional expression | Unmeasured | CpG response returns in cavity Tim-4+ and alveolar gates |
+| Fig. 2F and S2C, constitutive RosaTlr9 pMacs | Preserved in separate uptake control | Constitutive expression | Unmeasured | CpG response returns, apoptotic-cell response stays near baseline |
+| Fig. 3A, D and 5A, 60 h pMac withdrawal | Paper reports retained engulfment | TLR9 recovers on blot | Small AC-associated pERK shift after culture, absent in programmed preparation. Both respond to R848 | Apoptotic cells now elicit TNF |
+| Fig. 3E–F, deprogrammed pMac genetic comparisons | Timd4 loss impairs uptake in the linked assays | Tlr9 loss alone leaves a response to ACs | Endosomal TLR transport and MyD88 perturbations constrain the signaling route | AC response depends on Tim-4 and endosomal signaling. Single Tlr7 or Tlr9 loss leaves responsiveness |
+| Fig. 5C–E, pMac dose series | Unmeasured | CpG series uses constitutive RosaTlr9 | R848 and CpG responses differ most at intermediate doses and converge at the highest plotted concentrations. LPS remains a response control | Secreted TNF is measured separately for each ligand |
+| Fig. 5F–G, pleural and alveolar withdrawal | Unmeasured | Unmeasured | Pleural R848 series and alveolar R848 single comparison | Deprogrammed cells respond more strongly to intermediate pleural R848 and the tested alveolar R848 dose |
+| Fig. 6A–E and S6C, interferon-treated programmed pMacs | Preserved in separate uptake control | IFNγ or IFNβ increases protein in representative blot | At comparable TLR9, IFNβ-treated programmed cells respond less strongly than 60 h cells at low/intermediate CpG and R848. High doses retain response capacity | IFN restores tested CpG response. AC wells stay near baseline |
+| Fig. 7, KLF loss and gain in the corresponding preparations | Receptor changes are measured. Uptake and signaling are distinct endpoints | KLF gain lowers TLR9 in transduced BMMs. Klf2 loss in resident pMacs changes the expression profile | No threshold fitted | KLF2 loss shifts CpG responsiveness in the relevant resident and transferred preparations. KLF2/4 gain dampens CpG responses in BMMs |
+
+Fig. 5B independently documents the authors' direction for *Dusp1*, *Socs3* and *Ptpn6* in its selected inhibitor heatmap. The rows were selected on the study outcomes. Representative plots and blots preserve response ordering and controls. Individual values, dose-response fits and between-mouse variance remain unavailable from these panels. Preserved uptake leaves subsequent cargo presentation, trafficking and signaling sensitivity unresolved. [Roberts et al., Figs. 2–7 and supplements](https://pmc.ncbi.nlm.nih.gov/articles/PMC5728676/)
