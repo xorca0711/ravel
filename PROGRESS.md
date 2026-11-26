@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-26 — Song C2 revised analysis
+
+Verified both transferred study files against their expected Git blobs. The [source provenance](Research%20Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md) records the opening comparison and base.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).
