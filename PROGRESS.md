@@ -1,5 +1,11 @@
 # Current project state
 
+## 2026-11-26 - Roberts revised analysis intake
+
+Paper branch `codex/gate3-2r-b1-roberts-2017` is based on fetched `origin/main` at `0d32085fa0e307f3a26b67592450bb8633e7700a`. The Roberts study files and registry entry are absent from this base. Revision `b8eddf8a569866e1faa45bfb310501c67abf013c` is unavailable locally and GitHub did not serve it by SHA. The expected plan blob is `6a8495d0f78961678242bf35756f96c1683a22a5`. No plan blob or opening comparison was available to observe.
+
+Pending private delivery of the exact study files. Verify the plan blob and record its opening comparison alongside the matching literature context before freezing or executing a contract. Requested order is the Fig. 2F CpG versus apoptotic-cell comparison followed by the two 60 h niche-withdrawal experiments. No stages were run or committed.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).
