@@ -4,6 +4,8 @@
 
 The paper branch `codex/gate3-2r-c1-mu-2026` starts at `0d32085fa0e307f3a26b67592450bb8633e7700a`, matching origin/main. Private transfer verified before execution. Source revision `b8eddf8a569866e1faa45bfb310501c67abf013c` was unavailable as a Git object. Observed plan blob `6684b035a2191c9eff96d37e168dd947401d9e3a` and literature blob `abbbabf37ea441b477bb6a98b59eebeb879a77bb`. The opening comparison is the T3-minus-Cre difference in the initial priming effect on TNF and IL-6 within each later myeloid priming stratum (Extended Data Fig. 1c-d).
 
+The Mu source-value replays are recorded in the [paper results](Research%20Article/gate3_2R_C1_mu_2026/RESULTS.md). Initial-priming increments were smaller in T3 cultures for both cytokines and both later-priming strata. The Fig. 7b lineage interaction was +25.26 minutes descriptively. Bulk aged HSC count directions reproduce for the four named rows. Unknown preparation, donor and mouse keys limit inference. Chromatin extraction, within-subset estimation and recovery-signature scoring remain open at the specified input and design holds.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).

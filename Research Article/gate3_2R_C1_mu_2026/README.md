@@ -1,6 +1,6 @@
 # Mu et al. (2026) — Trained immunity links hematopoietic stem cell aging to aging-associated inflammation
 
-**gate3_2R_C1** · Brief owner read reported 26 November 2026. Analysis planned.
+**gate3_2R_C1** · Brief owner read reported 26 November 2026. Descriptive recall, aging, transfer and HSC RNA replays complete.
 
 ## Published findings
 
@@ -15,7 +15,7 @@ The direction matters. The authors report that SIRT3 suppresses maladaptive trai
 
 ## Ravel analyses and results
 
-Mu appeared as X3 in the A3/A14 literature review. This plan returns to X3’s question of persistence after an initiating exposure, starting with cytokine recall and then tracing myeloid output and tissue inflammation through transfer. The former accession lead GSE335257 resolves to aged-HSC H3K4me3 CUT&Tag. No Mu numerical run was registered at `0d32085`. [Historical X3 review](../../docs/portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md) · [H3K4me3 deposit](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335257)
+Mu appeared as X3 in the A3/A14 literature review. This plan returns to X3’s question of persistence after an initiating exposure, starting with cytokine recall and then tracing myeloid output and tissue inflammation through transfer. The former accession lead GSE335257 resolves to aged-HSC H3K4me3 CUT&Tag. No Mu numerical run was registered at `0d32085`. The current replay found a smaller cytokine increment after initial priming, lower liver CD68 abundance and inflammatory fraction, and a +25.26-minute myeloid-versus-T-cell endurance interaction. [Results, figures and provenance](RESULTS.md). [Historical X3 review](../../docs/portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md) · [H3K4me3 deposit](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335257)
 
 ## Data and methods
 

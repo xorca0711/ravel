@@ -1247,7 +1247,8 @@
       "id": "Mu26-P01",
       "plan": "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
       "evidence": [
-        "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md"
+        "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_C1_mu_2026/RESULTS.md"
       ]
     }
   ],
@@ -1787,7 +1788,11 @@
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
     "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
+    "analysis/research/runs/mu2026_s1_v1/receipt.json",
+    "analysis/research/runs/mu2026_s2_v1/receipt.json",
+    "analysis/research/runs/mu2026_s3_v1/receipt.json",
+    "analysis/research/runs/mu2026_s4_rna_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
