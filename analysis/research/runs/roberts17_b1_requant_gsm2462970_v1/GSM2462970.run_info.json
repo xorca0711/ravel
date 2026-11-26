@@ -1,0 +1,9 @@
+{
+	"n_targets": 96626,
+	"n_bootstraps": 0,
+	"n_processed": 66073388,
+	"kallisto_version": "0.43.1",
+	"index_version": 10,
+	"start_time": "Thu Nov 26 13:28:19 2026",
+	"call": "raw_data/roberts_2017/requant/kallisto-0.43.1 quant -i raw_data/roberts_2017/requant/ensembl84.k31.idx -o /workspace/ravel/raw_data/roberts_2017/requant/scratch-8vce19zf/GSM2462970 --single -l 200 -s 30 -t 4 --plaintext /workspace/ravel/raw_data/roberts_2017/requant/scratch-8vce19zf/SRR5186279.trim.fastq.gz"
+}

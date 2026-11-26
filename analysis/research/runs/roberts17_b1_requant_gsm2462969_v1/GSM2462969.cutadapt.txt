@@ -1,0 +1,16 @@
+This is cutadapt 4.9 with Python 3.12.14
+Command line parameters: -j 4 -m 35 -q 30,30 -o /workspace/ravel/raw_data/roberts_2017/requant/scratch-_nwt2lp0/SRR5186278.trim.fastq.gz /workspace/ravel/raw_data/roberts_2017/requant/scratch-_nwt2lp0/SRR5186278.fastq
+Processing single-end reads on 4 cores ...
+Finished in 83.917 s (1.037 µs/read; 57.86 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              80,928,225
+
+== Read fate breakdown ==
+Reads that were too short:             397,090 (0.5%)
+Reads written (passing filters):    80,531,135 (99.5%)
+
+Total basepairs processed: 4,127,339,475 bp
+Quality-trimmed:              25,843,587 bp (0.6%)
+Total written (filtered):  4,093,621,898 bp (99.2%)

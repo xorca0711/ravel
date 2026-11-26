@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.lung_v1",
+  "owner": "Pe25-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which alveolar identity markers differ in expression among the sorted residual AMs?",
+  "decision": "Assess phenotype among remaining cells separately from flow abundance and donor recovery.",
+  "strongest_rival": "Selection of recovered cells or differing preparation composition contributes to aggregate RNA differences.",
+  "discriminator": "Check all deposited libraries, author directions and the prespecified markers. A bulk difference cannot locate a cell trajectory.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published main text, figure captions and workbook headers were read before freeze. Local numerical outcomes were not calculated.",
+  "biological_unit": "The deposited library is the description unit; donor preparation and recipient or pool crosswalks are unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Do not pair replicate labels. Tables and deposits share their original source and do not constitute independent replication.",
+  "population_and_selection": "Public per-library quantifications and author tables. The transfer and AM assays describe selected recovered cells.",
+  "contrast": "Mean WT minus mean KO log2(TPM+1) within sorted LysM alveolar macrophages.",
+  "endpoint": "Transcript-derived gene TPM; published DESeq2 fold changes; combined genomic peak overlaps where applicable.",
+  "methods": "Calculate per-transcript TPM from estimated counts divided by effective length; sum by Ensembl release 90 transcript stable ID to gene symbol, stripping version. Report equal-library mean log2(TPM+1) contrasts. Outer-join nonduplicate author symbols. Use release 113 GRCm39 gene body plus/minus 2 kb around TSS for combined BED annotation if applicable.",
+  "missingness_and_exclusions": "Drop ambiguous duplicate author symbols and retain unmatched rows; exclude unmapped transcript symbols while reporting matched targets and TPM. Retain all deposited libraries and report planned omission of the third day-7 WT library separately.",
+  "multiplicity": "Descriptive comparisons only, no new P values. Retain author adjusted P values and apply planned signature thresholds.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed library values and omission sensitivity are descriptive; unresolved source nesting prevents a precision claim.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No causal pathway, lineage or cell-level inference. Peak overlap is limited to the chosen feature; no antibody-pair effect estimate.",
+  "stop_rule": "Hold model-based inference if biological unit mapping is unresolved; require all declared libraries and valid checksums.",
+  "inputs": [
+    {
+      "path": "raw_data/pestal/GRCm38.gtf.gz",
+      "sha256": "6d572c7a7f94d03e884853e1b8330d453a88d7c7c448549b61e967d2466c5665",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSE288281.txt",
+      "sha256": "5f6e196c2700e4eefb4b836e74263983c21451aec2a27f8eacfbe1546e217da2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/article.xml",
+      "sha256": "7bbae9025978b41a5f1b06994f994ef011f6959900bae153e96e258610f48eab",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_tables5.xlsx",
+      "sha256": "006a6c7f51a4338ec92ac0e6b112328e1160edce7b96e050e0fc842e528f7d02",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763481_KLF4WTAM1.h5",
+      "sha256": "d997430f32083cc468b2c185f7ef805e47eb22a3844352c4f1eb1fb46a055d08",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763482_KLF4KOAM1.h5",
+      "sha256": "411cbafebb98c9c8690547646905a2ca619a2c90616d8ea1a8d8cc55e57f8b91",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763483_KLF4WTAM2.h5",
+      "sha256": "7478fa2a1ee37bfa2976d6d700e0b31bdcc5d40bd64fcbf9bdda32de64207f65",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763484_KLF4KOAM2.h5",
+      "sha256": "307d089de50932cbb65ca01fea2e134aeca38be179a9f88ebf299cb7cab22434",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+      "sha256": "657b5932582480b395d912d9f292d787c857c87c48aa886880dae80b51b24aeb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+  "arguments": [
+    "lung",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "effects.tsv",
+    "libraries.tsv",
+    "markers.tsv",
+    "markers.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive reconstruction on public processed and author-reported inputs."
+}

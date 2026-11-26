@@ -1,0 +1,552 @@
+[
+  {
+    "panel": "Fig 2c marrow MPP3",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "A28:A33",
+        "G29",
+        "G30"
+      ],
+      [
+        "T3",
+        "B28:B33",
+        "H29",
+        "H30"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2e serum TNF",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "A85:A95",
+        "G85",
+        "G86"
+      ],
+      [
+        "T3",
+        "B85:B99",
+        "H85",
+        "H86"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2f serum IL-6",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "A104:A114",
+        "G104",
+        "G105"
+      ],
+      [
+        "T3",
+        "B104:B118",
+        "H104",
+        "H105"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED3b liver CD68 abundance",
+    "book": 12,
+    "groups": [
+      [
+        "Cre",
+        "B2:B9",
+        "G3",
+        "G4"
+      ],
+      [
+        "T3",
+        "C2:C9",
+        "H3",
+        "H4"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED3c liver IL-6-high among CD68+",
+    "book": 12,
+    "groups": [
+      [
+        "Cre",
+        "B12:B19",
+        "G12",
+        "G13"
+      ],
+      [
+        "T3",
+        "C12:C18",
+        "H12",
+        "H13"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 3–4 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "K37:S37",
+        "Z37",
+        "Z38"
+      ],
+      [
+        "T3",
+        "K38:S38",
+        "AA37",
+        "AA38"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 5–7 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "R43:AG43",
+        "AN42",
+        "AN43"
+      ],
+      [
+        "T3",
+        "R44:AG44",
+        "AO42",
+        "AO43"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 8–9 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "S49:AI49",
+        "AP48",
+        "AP49"
+      ],
+      [
+        "T3",
+        "S50:AF50",
+        "AQ48",
+        "AQ49"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 11–12 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "R55:AG55",
+        "AN54",
+        "AN55"
+      ],
+      [
+        "T3",
+        "R56:AF56",
+        "AO54",
+        "AO55"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 15–16 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "Q61:AE61",
+        "AL60",
+        "AL61"
+      ],
+      [
+        "T3",
+        "Q62:AE62",
+        "AM60",
+        "AM61"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 17–18 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "P67:AC67",
+        "AJ67",
+        "AJ68"
+      ],
+      [
+        "T3",
+        "P68:AC68",
+        "AK67",
+        "AK68"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 20–22 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "P73:AC73",
+        "AJ73",
+        "AJ74"
+      ],
+      [
+        "T3",
+        "P74:AB74",
+        "AK73",
+        "AK74"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 2d myeloid, 24–25 mo",
+    "book": 4,
+    "groups": [
+      [
+        "Cre",
+        "J79:Q79",
+        "X78",
+        "X79"
+      ],
+      [
+        "T3",
+        "J80:Q80",
+        "Y78",
+        "Y79"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e WBC",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C69:C75",
+        "G69",
+        "G70"
+      ],
+      [
+        "T3",
+        "D69:D75",
+        "H69",
+        "H70"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e absolute neutrophils",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C84:C90",
+        "G84",
+        "G85"
+      ],
+      [
+        "T3",
+        "D84:D90",
+        "H84",
+        "H85"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e absolute lymphocytes",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C98:C104",
+        "G98",
+        "G99"
+      ],
+      [
+        "T3",
+        "D98:D104",
+        "H98",
+        "H99"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e absolute monocytes",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C113:C119",
+        "G113",
+        "G114"
+      ],
+      [
+        "T3",
+        "D113:D119",
+        "H113",
+        "H114"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e absolute eosinophils",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C128:C134",
+        "G128",
+        "G129"
+      ],
+      [
+        "T3",
+        "D128:D134",
+        "H128",
+        "H129"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e absolute basophils",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C142:C148",
+        "G142",
+        "G143"
+      ],
+      [
+        "T3",
+        "D142:D148",
+        "H142",
+        "H143"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e neutrophils %",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C157:C163",
+        "G157",
+        "G158"
+      ],
+      [
+        "T3",
+        "D157:D163",
+        "H157",
+        "H158"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e lymphocytes %",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C172:C178",
+        "G172",
+        "G173"
+      ],
+      [
+        "T3",
+        "D172:D178",
+        "H172",
+        "H173"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED2e monocytes %",
+    "book": 11,
+    "groups": [
+      [
+        "Cre",
+        "C186:C192",
+        "G186",
+        "G187"
+      ],
+      [
+        "T3",
+        "D186:D192",
+        "H186",
+        "H187"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre": -1,
+        "T3": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.figures_v1",
+  "owner": "Pe25-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the population and residual marker outcomes align across the evidence panels?",
+  "decision": "Support direct comparison of already measured endpoints and identify where results disagree.",
+  "strongest_rival": "Bulk expression reflects distinct mixtures or lower identity marker expression within shared populations.",
+  "discriminator": "Examine published marker combinations against the separately measured bulk directions; joint per-cell expression remains unmeasured.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md",
+    "Research Article/gate3_2R_B2_pestal_2025/RESULTS.md",
+    "Research Article/gate3_2R_B2_pestal_2025/S3_LUNG.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All underlying results were viewed before freezing this display. No new effect estimation.",
+  "biological_unit": "The deposited library is the description unit; donor preparation and recipient or pool crosswalks are unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Do not pair replicate labels. Tables and deposits share their original source and do not constitute independent replication.",
+  "population_and_selection": "Public per-library quantifications and author tables. The transfer and AM assays describe selected recovered cells.",
+  "contrast": "Display existing author flow panels, WT minus KO or factor minus empty RNA contrasts, and called BED overlaps.",
+  "endpoint": "Existing published flow measurements, published fold changes, combined BED overlaps and deposited RNA marker TPM.",
+  "methods": "Render prior author fold changes and combined peak counts, and assemble the published PNG/JPEG source panels with the verified lung RNA heatmap.",
+  "missingness_and_exclusions": "Show the missing author Hp contrast and zero peak overlaps as distinct states.",
+  "multiplicity": "Descriptive comparisons only, no new P values. Retain author adjusted P values and apply planned signature thresholds.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed library values and omission sensitivity are descriptive; unresolved source nesting prevents a precision claim.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No causal pathway, lineage or cell-level inference. Peak overlap is limited to the chosen feature; no antibody-pair effect estimate.",
+  "stop_rule": "Hold model-based inference if biological unit mapping is unresolved; require all declared libraries and valid checksums.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/pestal_regulatory_v1/markers.tsv",
+      "sha256": "fc579e6baefbf16a3bf3e50c472181c7d54bd4d7722b5e6dd655437de9aa194a",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/pestal_lung_v1/markers.png",
+      "sha256": "7e18bc06459d534a1925d27a644addc539e55f98be939775382180f050124d49",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_fig1.jpg",
+      "sha256": "db7b7a7601df14e239b10674d490e09ef319cbe4688d06ccbd6dcd391179146e",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_fig2.jpg",
+      "sha256": "d733ff94c95c853c5f1cd3feafa63e9fccabc996c1d99b29905472f47ab26ad5",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_fig7.jpg",
+      "sha256": "66dbb6ddf690f585bb2b46d47f0425d500197d680759d40cadf1cf0709915c10",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/render_figures.py",
+      "sha256": "ca8f02d310770a44ff9801b4a62b3b27e1501e3e47e237032ce401f56ec147bb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B2_pestal_2025/render_figures.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "loci.png",
+    "cavity_population.png",
+    "lung_population_and_state.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive reconstruction on public processed and author-reported inputs."
+}

@@ -1,5 +1,9 @@
 # Current project state
 
+## 2026-11-26 — Barton and Chen second-round packages
+
+The [four paper packages](Research%20Article/README.md#gate-3-second-round) bring together the completed comparisons, original figures, measured source tables and generating scripts. The four cloud study heads share 29 verified successful run receipts. The Song v1 parser failure is preserved alongside its v2 replacement. Its historical script still fails the repository-wide Python compilation check. Review the four results reports and this CI finding before integration.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).

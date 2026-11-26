@@ -1,0 +1,44 @@
+{
+  "S2_comparison": {
+    "shared": 12748,
+    "rho": 0.8950818755557672,
+    "strong_author_nonzero_local": 3287,
+    "same_sign": 3251
+  },
+  "S1_positive": {
+    "WT_KO_day0": {
+      "n": 700,
+      "median": -0.020227726764289772
+    },
+    "WT_KO_day7": {
+      "n": 700,
+      "median": 0.3332136883498875
+    },
+    "day7_minus_day0": {
+      "n": 700,
+      "median": 0.37213829083036876
+    },
+    "WT_KO_day7_without_GSM8763472": {
+      "n": 700,
+      "median": 0.23855637075233485
+    }
+  },
+  "S1_negative": {
+    "WT_KO_day0": {
+      "n": 452,
+      "median": -0.0617101950310259
+    },
+    "WT_KO_day7": {
+      "n": 453,
+      "median": -0.2761360992864059
+    },
+    "day7_minus_day0": {
+      "n": 452,
+      "median": -0.20108314420286846
+    },
+    "WT_KO_day7_without_GSM8763472": {
+      "n": 453,
+      "median": -0.34755591994550095
+    }
+  }
+}

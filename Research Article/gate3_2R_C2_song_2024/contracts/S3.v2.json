@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.S3.v2",
+  "owner": "Song24-C2",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Describe normalized library-level differences in the six deposited groups and compare published fold-change signs",
+  "decision": "Locate the directly supported context and identify unresolved links without promoting RNA, normalized signals or transplant readouts into mediation.",
+  "strongest_rival": "Unknown donor or preparation overlap, gating composition, shared normalization and protocol differences can obscure endpoint-specific differences.",
+  "discriminator": "Describe normalized library-level differences in the six deposited groups and compare published fold-change signs",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C2_song_2024/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Read revised plan, literature context, paper legends and methods, GEO SOFT and selected source workbook rows before freeze. Same-source exposed reproduction.",
+  "biological_unit": "Assay-specific donor or independent preparation; recipients are observation units with unresolved donor dependence. RNA library is the observed unit pending donor/pool mapping.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Panel-local workbook labels and library numbers are not donor crosswalks. No paired, clustered or cross-age inference.",
+  "population_and_selection": "Plan-defined mouse assays and deposited contexts in Song et al., DOI 10.1038/s43587-024-00670-8.",
+  "contrast": "KO minus WT, 78c minus vehicle, direct MCU knockdown difference of genotype contrasts, or explicitly observed RNA group differences as applicable.",
+  "endpoint": "Describe normalized library-level differences in the six deposited groups and compare published fold-change signs",
+  "methods": "GSM-verified library manifest, exact feature-symbol joins, hashes and library totals. For S3, retain >=10 counts in at least two libraries, log2(CPM + 0.5), observed group averages, contrast differences, stimulated all-library-pair sensitivity, named symbol-set adaptations and published tab sign concordance for absolute published log2 fold changes >=0.5.",
+  "missingness_and_exclusions": "Preserve source blanks and named arm rows; separate columns containing figure summaries. No imputation or selection to match the legend.",
+  "multiplicity": "Descriptive effects only; no new significance, equivalence or genome-wide discovery testing.",
+  "precision_status": "unknown",
+  "precision_basis": "Limits of row sensitivity retained; donor-level precision unavailable from unlinked source labels.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reanalysis. No biological replication, independent preparation assumptions, mediator attribution or unobserved factorial cell.",
+  "stop_rule": "Stop on invalid numeric cells, duplicate feature IDs, unexpected sample identities or feature universe disagreement. Record metadata and legend/source discrepancies.",
+  "inputs": [
+    {
+      "path": "raw_data/song_v1/geo",
+      "sha256": "a848a9339f79e8aedfd67cd14b1a23df8dd9ce4564b8f2b4c2d496398be71f83",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/soft",
+      "sha256": "921bb250f55db612e8548ec0a0231fbb4e7c099b47a3f2beccbf7cdf14c11b67",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/m2.xlsx",
+      "sha256": "dde372104a4be2be84f80cc45cd4d242fa62b6e21f7fd23b46817b34a63a43c6",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/article",
+      "sha256": "d355b21fd126213be87627dc9505493677e272537ac7453484e444401e9e833b",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+      "sha256": "427c90951b8aeae6fc1f1251f87aaa83071d05e3ff7dff3d8ab827e460be354e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+  "arguments": [
+    "S3",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "libraries.csv",
+    "expression.csv",
+    "rna_summary.json"
+  ],
+  "amendment_of": "Research Article/gate3_2R_C2_song_2024/contracts/S3.v1.json",
+  "amendment_reason": "Repair missing closing brace in module before any observations were computed. Frozen v1 files and failed receipts retained."
+}

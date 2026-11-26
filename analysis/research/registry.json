@@ -1242,6 +1242,52 @@
         "Research Article/gate4M_01_naik_2017/distal_m24_baseline_v1/METHOD_V1.md",
         "Research Article/gate4M_01_naik_2017/distal_m24_baseline_v1/RESULTS_V1.md"
       ]
+    },
+    {
+      "id": "Roberts17-B1",
+      "plan": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_2R_B1_roberts_2017/SOURCE_AND_PHENOTYPE.md",
+        "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_B1_roberts_2017/README.md",
+        "Research Article/gate3_2R_B1_roberts_2017/RESULTS.md",
+        "Research Article/gate3_2R_B1_roberts_2017/PERTURBATIONS.md",
+        "Research Article/gate3_2R_B1_roberts_2017/EXTERNAL_DESIGN.md",
+        "Research Article/gate3_2R_B1_roberts_2017/REFERENCE_AMENDMENT.md"
+      ]
+    },
+    {
+      "id": "Pe25-P01",
+      "plan": "Research Article/gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_2R_B2_pestal_2025/README.md",
+        "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md",
+        "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_B2_pestal_2025/RESULTS.md",
+        "Research Article/gate3_2R_B2_pestal_2025/S3_LUNG.md",
+        "Research Article/gate3_2R_B2_pestal_2025/S4_DESIGN.md",
+        "Research Article/gate3_2R_B2_pestal_2025/FIGURES.md"
+      ]
+    },
+    {
+      "id": "Mu26-P01",
+      "plan": "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_C1_mu_2026/RESULTS.md",
+        "Research Article/gate3_2R_C1_mu_2026/CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "Song24-C2",
+      "plan": "Research Article/gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_2R_C2_song_2024/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md",
+        "Research Article/gate3_2R_C2_song_2024/README.md",
+        "Research Article/gate3_2R_C2_song_2024/RESULTS.md",
+        "Research Article/gate3_2R_C2_song_2024/FIGURES.md"
+      ]
     }
   ],
   "contracts": [
@@ -1520,7 +1566,43 @@
     "analysis/research/contracts/Ng26-P01.jf_external_qualification_v1.json",
     "analysis/research/contracts/Ng26-P01.saline_specimens_v1.json",
     "analysis/research/contracts/Ng26-P01.saline_markers_v1.json",
-    "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json"
+    "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json",
+    "analysis/research/contracts/Roberts17-B1.map_v1.json",
+    "analysis/research/contracts/Roberts17-B1.withdrawal_v1.json",
+    "analysis/research/contracts/Roberts17-B1.challenge_v1.json",
+    "analysis/research/contracts/Roberts17-B1.withdrawal_exp2_v2.json",
+    "analysis/research/contracts/Roberts17-B1.external_v1.json",
+    "analysis/research/contracts/Roberts17-B1.requant_GSM2462968_v1.json",
+    "analysis/research/contracts/Roberts17-B1.withdrawal_exp2_r84_v1.json",
+    "analysis/research/contracts/Roberts17-B1.challenge_r84_v1.json",
+    "analysis/research/contracts/Roberts17-B1.requant_GSM2462969_v1.json",
+    "analysis/research/contracts/Roberts17-B1.requant_GSM2462970_v1.json",
+    "analysis/research/contracts/Roberts17-B1.withdrawal_exp1_r84_v1.json",
+    "analysis/research/contracts/Roberts17-B1.withdrawal_figure_r84_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/transfer_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/regulatory_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/lung_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/route_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/figures_contract_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s1_contract_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s2_contract_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s3_contract_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s4_rna_contract_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s4_rna_figure_contract_v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S0.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S1.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S2.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S3.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S4.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S5.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S0.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S1.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S2.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S3.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S4.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S5.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S3.hallmark.v1.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/figures.v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1776,7 +1858,36 @@
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
     "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_challenge_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_external_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_map_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/receipt.json",
+    "analysis/research/runs/roberts17_b1_challenge_r84_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462970_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/receipt.json",
+    "analysis/research/runs/pestal_transfer_v1/receipt.json",
+    "analysis/research/runs/pestal_regulatory_v1/receipt.json",
+    "analysis/research/runs/pestal_lung_v1/receipt.json",
+    "analysis/research/runs/pestal_route_v1/receipt.json",
+    "analysis/research/runs/pestal_figures_v1/receipt.json",
+    "analysis/research/runs/mu2026_s1_v1/receipt.json",
+    "analysis/research/runs/mu2026_s2_v1/receipt.json",
+    "analysis/research/runs/mu2026_s3_v1/receipt.json",
+    "analysis/research/runs/mu2026_s4_rna_v1/receipt.json",
+    "analysis/research/runs/mu2026_s4_rna_figure_v1/receipt.json",
+    "analysis/research/runs/song24_c2_S0_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S1_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S2_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S3_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S4_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S5_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S3_hallmark_v1/receipt.json",
+    "analysis/research/runs/song24_c2_figures_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

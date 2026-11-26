@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.S3.hallmark_v1",
+  "owner": "Song24-C2",
+  "contract": "Research Article/gate3_2R_C2_song_2024/contracts/S3.hallmark.v1.json",
+  "contract_sha256": "0d374336bc918ce7f84305856119c3f6329550bce13e24fd12cdc3b0e82d6e80",
+  "git_commit": "0f250976ae5e64442a1fd90138e8b48bdb6e594b",
+  "started_at": "2026-11-26T04:00:45.437979+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C2_song_2024/scripts/hallmark_v1.py",
+    "analysis/research/runs/song24_c2_S3_hallmark_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/song_v1/m2.xlsx",
+      "sha256": "dde372104a4be2be84f80cc45cd4d242fa62b6e21f7fd23b46817b34a63a43c6",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S3_v2/expression.csv",
+      "sha256": "43f5a4cd7a67182a6f51b803be4d94a8e0202e2c828f9530820cddd4ee33803a",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S3_v2/libraries.csv",
+      "sha256": "6eced2e55781e4a8f099a36fbea04524b8128436daf07eb3619ec1428b82c72d",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/mouse_hallmark_2025.1.gmt",
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "study_id": "MSigDB_Mouse_2025_1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/hallmark_v1.py",
+      "sha256": "5467c83f46f03d6d39c73bd34ca7656516a90f804e107c7f9993efce34d64b88"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_S3_hallmark_v1/hallmark.json",
+      "sha256": "14388adb974f3d351bbe7e4370295a89076ba50cfa100bbdff1a08bfdb863f24"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T04:01:02.313269+00:00"
+}

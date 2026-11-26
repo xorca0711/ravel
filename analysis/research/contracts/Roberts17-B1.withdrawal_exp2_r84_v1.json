@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.withdrawal_exp2_r84_v1",
+  "owner": "Roberts17-B1",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which recognition and inhibitory transcripts shift in both withdrawal experiments?",
+  "decision": "Describe the direction and magnitude of the seven panel genes in experiment 2.",
+  "strongest_rival": "Unknown donor or pool nesting and culture-associated selection could account for bulk abundance differences. Cargo RNA can also contribute to challenged samples.",
+  "discriminator": "Check accession roles and reference coverage, preserve separate experiments, and screen challenge data against cargo-only RNA.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B1_roberts_2017/REFERENCE_AMENDMENT.md",
+    "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published figures and the older stable-ID reads of experiment 2 and challenge were seen. The reference amendment was motivated by identifiers and target-order concordance.",
+  "biological_unit": "Independent withdrawal experiment or single cargo challenge experiment. Donor and preparation nesting unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Two culture libraries per withdrawal contrast. Fig. 3G duplicates are technical; overlap of withdrawal libraries with the challenge is unverified.",
+  "population_and_selection": "WT Tim-4-positive mouse peritoneal macrophages and irradiated thymocytes as the cargo RNA control.",
+  "contrast": "Experiment 2 60 h libraries versus immediate ex vivo.",
+  "endpoint": "Within-experiment 60 h minus 0 h gene RNA abundance",
+  "methods": "Validate exact versioned release-84 target IDs and lengths. Sum TPM by stable gene ID and compute mean log2(TPM+1) in culture minus the ex vivo baseline.",
+  "missingness_and_exclusions": "Missing or mismatched reference targets hold the affected library. Flag TPM below 1. The matched deprogrammed challenge denominator is unresolved.",
+  "multiplicity": "Fixed paper-derived panels, fully reported without significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Two experiments for comparison of directions and only technical duplication for challenge. No animal-level precision estimate.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Bulk RNA cannot establish within-cell change, secretion, or a macrophage-specific origin for RNA in a mixture.",
+  "stop_rule": "Hold the affected comparison for unresolved labels, missing panel targets, failed input integrity, or unqualified challenge denominator.",
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/ensembl84.cdna.fa.gz",
+      "sha256": "2eb57e2a5d56b562752a2700901ebf6721b546f27208316f2eaaefe7184a0680",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "sha256": "33be1976aa568cdea68360253c9a79cdec7b6cb3c34859572cc28576c8fcca0d",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+      "sha256": "187a8ea25beffe5d14ae168acd95188ebd044d2010f1cbb651c1dae941c132c4",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462971_immediately_ex_vivo_expt_2.txt.gz",
+      "sha256": "218785881070bc61203703d15c9f52fb7788a49e442010008b07274696c13821",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462971"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462972_60_hours_in_culture_expt_2_1.txt.gz",
+      "sha256": "13567b69d7fff9e1b7eed98ad47da9bdb7173b8acad567134025b65cd1899f8f",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462972"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462973_60_hours_in_culture_expt_2_2.txt.gz",
+      "sha256": "7049809fc5a514273f3ec7f0638e840be1ba2f2f92aad016f1c50583d568b14a",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462973"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+      "sha256": "6e34ef711a4edb53d67d87bd15863f4862991f047ed22169682eb52db8e6fdfa"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+  "arguments": [
+    "--stage",
+    "2",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "mapping_qc.tsv",
+    "gene_tpm.tsv",
+    "withdrawal.tsv",
+    "withdrawal.png"
+  ],
+  "amendment_of": "analysis/research/contracts/Roberts17-B1.withdrawal_exp2_v2.json",
+  "amendment_reason": "Release-84 cDNA exactly matches all transcript IDs in the deposited compatible libraries. Use exact versioned transcript-to-gene joins and preserve previous results."
+}

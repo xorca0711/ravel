@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.S3.v2",
+  "owner": "Song24-C2",
+  "contract": "Research Article/gate3_2R_C2_song_2024/contracts/S3.v2.json",
+  "contract_sha256": "0c52888382c4478222c96d9a197f59a8548d7853ec95d149dbb134ec0d95196e",
+  "git_commit": "bd7301f0d58212c465d45eb0454527772ba8bbd2",
+  "started_at": "2026-11-26T03:59:01.693510+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+    "S3",
+    "analysis/research/runs/song24_c2_S3_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/song_v1/geo",
+      "sha256": "a848a9339f79e8aedfd67cd14b1a23df8dd9ce4564b8f2b4c2d496398be71f83",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/soft",
+      "sha256": "921bb250f55db612e8548ec0a0231fbb4e7c099b47a3f2beccbf7cdf14c11b67",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/m2.xlsx",
+      "sha256": "dde372104a4be2be84f80cc45cd4d242fa62b6e21f7fd23b46817b34a63a43c6",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/article",
+      "sha256": "d355b21fd126213be87627dc9505493677e272537ac7453484e444401e9e833b",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+      "sha256": "427c90951b8aeae6fc1f1251f87aaa83071d05e3ff7dff3d8ab827e460be354e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_S3_v2/libraries.csv",
+      "sha256": "6eced2e55781e4a8f099a36fbea04524b8128436daf07eb3619ec1428b82c72d"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S3_v2/expression.csv",
+      "sha256": "43f5a4cd7a67182a6f51b803be4d94a8e0202e2c828f9530820cddd4ee33803a"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S3_v2/rna_summary.json",
+      "sha256": "4bc3959e962bbb2099a0d4c73b8e10cd0580b2844cd29019a47f32259283d618"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T03:59:03.788274+00:00"
+}

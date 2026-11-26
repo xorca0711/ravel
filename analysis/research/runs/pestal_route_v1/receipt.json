@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.route_v1",
+  "owner": "Pe25-P01",
+  "contract": "Research Article/gate3_2R_B2_pestal_2025/route_contract_v1.json",
+  "contract_sha256": "8e153fdb9aa47115cc27bd00e25cb6ed3c55d1100a227b035b5ddff69654947a",
+  "git_commit": "ba43513d036cff7800e104af84b1f6bfb565175e",
+  "started_at": "2026-11-26T04:01:05.035204+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B2_pestal_2025/route_markers.py",
+    "analysis/research/runs/pestal_route_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/pestal_transfer_v1/markers.tsv",
+      "sha256": "5ca338e060223de7ba93cc603d1e038ae13e68ee9016baafaba5f848657fe024",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/route_markers.py",
+      "sha256": "872b7b280e477e0f7e632c095210cb8742fa701f1c7f5e3ae3b80525077ffbd3"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/pestal_route_v1/route_markers.tsv",
+      "sha256": "3b56115f798b13a519ee81f19cb3388c813df281955f194df6a3f8a69b353d53"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T04:01:05.366332+00:00"
+}

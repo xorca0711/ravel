@@ -1,0 +1,4 @@
+# Keep archived study scripts and contract hashes stable across checkouts.
+*.py -text
+*.json -text
+*.md text eol=lf

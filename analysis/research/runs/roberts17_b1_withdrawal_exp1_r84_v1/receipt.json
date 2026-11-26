@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.withdrawal_exp1_r84_v1",
+  "owner": "Roberts17-B1",
+  "contract": "analysis/research/contracts/Roberts17-B1.withdrawal_exp1_r84_v1.json",
+  "contract_sha256": "0e01b6af5765818bd97b9205dd25bb8e5ba1824fc520e26ae67892554249957e",
+  "git_commit": "9497743baa6e55e70219a3b58fda87745ea79058",
+  "started_at": "2026-11-26T04:30:03.228604+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+    "--stage",
+    "1",
+    "--output",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1",
+    "--requantification",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/GSM2462968.abundance.tsv.gz",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.abundance.tsv.gz",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462970_v1/GSM2462970.abundance.tsv.gz"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/ensembl84.cdna.fa.gz",
+      "sha256": "2eb57e2a5d56b562752a2700901ebf6721b546f27208316f2eaaefe7184a0680",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "sha256": "33be1976aa568cdea68360253c9a79cdec7b6cb3c34859572cc28576c8fcca0d",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+      "sha256": "187a8ea25beffe5d14ae168acd95188ebd044d2010f1cbb651c1dae941c132c4",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/GSM2462968.abundance.tsv.gz",
+      "sha256": "70dba79bd040cf61ceb0d8f34c6b865a0c72cd7bbe4edc67f1b0cb83071b3829",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462968"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.abundance.tsv.gz",
+      "sha256": "7ff34212994b0c00f55873b6714cccf78174ac5f77d1566869e28d916576ed84",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462969"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462970_v1/GSM2462970.abundance.tsv.gz",
+      "sha256": "47c6ce057ca630e55957db4ca07288c00a856fa2a179e9b85042c965ba5733df",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462970"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+      "sha256": "6e34ef711a4edb53d67d87bd15863f4862991f047ed22169682eb52db8e6fdfa"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/mapping_qc.tsv",
+      "sha256": "739df38f01cbb48465e00a1ff4bda7a8e0a8c64ff570ce5989c777fa9c9ad55b"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/gene_tpm.tsv",
+      "sha256": "788d74f876ec288451e330a76cc299ce1fb0e4f20b7e399876b086186e57fbb4"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.tsv",
+      "sha256": "4cdb2429b6a985676910bbf4fe109b827d61c9b8d1f3bd0fe65d682ea1fde6fa"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.png",
+      "sha256": "50674e22fec1271a8462a93d53a0c0d51e09305a90f72f3f2f3ef0a5df5454d8"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T04:30:09.255391+00:00"
+}
