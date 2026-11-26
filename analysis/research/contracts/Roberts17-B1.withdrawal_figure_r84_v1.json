@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.withdrawal_figure_r84_v1",
+  "owner": "Roberts17-B1",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which withdrawal effect directions are shared across the two experiments?",
+  "decision": "Display both experimental effects together and preserve mixed directions and library spread.",
+  "strongest_rival": "Unknown donor or pool nesting and culture-associated selection could account for bulk abundance differences. Cargo RNA can also contribute to challenged samples.",
+  "discriminator": "Check accession roles and reference coverage, preserve separate experiments, and screen challenge data against cargo-only RNA.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B1_roberts_2017/REFERENCE_AMENDMENT.md",
+    "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Rendering uses completed and observed release-84 experiment-specific estimates.",
+  "biological_unit": "Independent withdrawal experiment or single cargo challenge experiment. Donor and preparation nesting unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Two culture libraries per withdrawal contrast. Fig. 3G duplicates are technical; overlap of withdrawal libraries with the challenge is unverified.",
+  "population_and_selection": "WT Tim-4-positive mouse peritoneal macrophages and irradiated thymocytes as the cargo RNA control.",
+  "contrast": "Show two separate experiment-specific 60 h minus ex vivo contrasts.",
+  "endpoint": "Within-experiment 60 h minus 0 h gene RNA abundance",
+  "methods": "Render the already computed log-scale changes and library TPMs. Do not pool the two experiments.",
+  "missingness_and_exclusions": "Require the seven registered panel genes from each exact-reference run. The plot retains all three values per experiment.",
+  "multiplicity": "Fixed paper-derived panels, fully reported without significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Two experiments for comparison of directions and only technical duplication for challenge. No animal-level precision estimate.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Bulk RNA cannot establish within-cell change, secretion, or a macrophage-specific origin for RNA in a mixture.",
+  "stop_rule": "Hold if either existing table fails hash or panel verification.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.tsv",
+      "sha256": "4cdb2429b6a985676910bbf4fe109b827d61c9b8d1f3bd0fe65d682ea1fde6fa",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "Experiment 1"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.tsv",
+      "sha256": "3e26c02aed12224bbf3f0b966654414a7793eadaa2683f4f9a6e1a7fd5a30a70",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "Experiment 2"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/compare_withdrawal.py",
+      "sha256": "effacdfbaaa1c3c278b12246feee03c99c00fbdab36c66ff9f109bc5b624393e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B1_roberts_2017/compare_withdrawal.py",
+  "arguments": [
+    "--first",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp1_r84_v1/withdrawal.tsv",
+    "--second",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.tsv",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "withdrawal_comparison.tsv",
+    "withdrawal.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial combined rendering of the two frozen release-84 experiment outputs."
+}
