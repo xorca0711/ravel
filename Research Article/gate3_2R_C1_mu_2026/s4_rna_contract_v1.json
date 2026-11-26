@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.s4_rna_v1",
+  "owner": "Mu26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do paper-named respiratory transcripts vary across aged HSC libraries?",
+  "decision": "Evaluate the released bulk HSC data for direction and mixed sample-level results.",
+  "strongest_rival": "Library depth or shifts in HSC subset composition can account for bulk expression differences.",
+  "discriminator": "Display four library counts and median-ratio normalized values for exact released labels.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results and the revised plan were read. Workbook layout and caption counts were inspected before freezing.",
+  "biological_unit": "Aged HSC RNA library. Individual animals or pooled preparations are not assigned from library suffixes.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Four labelled libraries, separate from ATAC, histone assays, transfer and recipient data.",
+  "population_and_selection": "Released GSE307126 count matrix. Two libraries per genotype.",
+  "contrast": "T3 mean minus Cre mean of median-ratio normalized counts.",
+  "endpoint": "Cox7a2, Ndufa6 and separately reported released labels ND1 and ND4.",
+  "methods": "All-positive row geometric means, per-library median ratios, and normalized-count group mean differences.",
+  "missingness_and_exclusions": "Normalization excludes genes with any zero. Selected rows retain zero counts. Released labels reported verbatim.",
+  "multiplicity": "Descriptive endpoints and contrasts only. No significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Two libraries per group and unresolved animal/pool identities. No inference.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Descriptive bulk HSC count differences cannot establish persistent within-HSC changes, respiratory function or mediation.",
+  "stop_rule": "Hold cross-study or within-subset inference without linked independent samples and compatible recovery, state and feature definitions.",
+  "inputs": [
+    {
+      "path": "raw_data/mu2026/GSE307126_RNAseq_HSCs.xlsx",
+      "sha256": "018884a8158eecf33e2e822706d12f1fc32aa9abc2c6ae78168cc2f3c3f9fdc4",
+      "study_id": "GSE307126",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/replay_hsc_counts.py",
+      "sha256": "60c54a103ece6756b5e96d55d71fafa7fd6d6d66eff6c25c4fed708be7cf060d"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C1_mu_2026/replay_hsc_counts.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "hsc_counts.tsv",
+    "normalization.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial frozen descriptive replay from verified revised plan and publisher workbooks."
+}
