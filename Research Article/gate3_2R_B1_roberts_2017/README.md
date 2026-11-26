@@ -1,14 +1,19 @@
 # Roberts et al. (2017) — Tissue-Resident Macrophages Are Locally Programmed for Silent Clearance of Apoptotic Cells
 
-**gate3_2R_B1** · Brief owner read reported 26 November 2026. Fig. 2F and both 60 h withdrawal experiments are reconstructed.
+**gate3_2R_B1** · Brief owner read reported 26 November 2026. Ravel read the representative TNF panel in Fig. 2F alongside its separate uptake control and reconstructed expression in both 60 h withdrawal experiments.
 
 ## Published findings
 
 ```text
-Resident peritoneal, pleural and alveolar macrophages engulf apoptotic cells in vivo
-    → selected populations show low TLR9 and a restrained response to nucleic acids
-Removal from the tissue and 60 h in culture
-    → peritoneal macrophages retain uptake but can produce TNF in response to apoptotic cells
+How does a healthy tissue clear dying cells every day without sustaining inflammation?
+
+Resident macrophages engulf cells carrying DNA that could trigger a TNF response.
+  ├─ In the peritoneal cavity, restoring TLR9 restores the response to CpG.
+  │  The same macrophages still release little TNF after taking up apoptotic cells.
+  └─ After 60 h outside the tissue, macrophages can respond to apoptotic-cell cargo.
+
+The tissue environment helps maintain tolerance to the body's own dying cells.
+Uptake and inflammatory sensing can be tested separately as that environment changes.
 ```
 
 The distinction is between uptake and the inflammatory response to cargo. Tim-4 identifies the peritoneal and pleural engulfers in this comparison. Alveolar macrophages clear apoptotic cells despite lacking Tim-4. Figures 1–3 establish uptake, receptor expression and responsiveness with separate assays. Figure 5 tests the signaling threshold, and Figure 7 implicates KLF2 and KLF4. [Primary paper](https://doi.org/10.1016/j.immuni.2017.10.006)
@@ -29,6 +34,12 @@ Restoring a response to CpG while restraint toward apoptotic cells persists leav
 
 [Figure gallery](FIGURES.md) · [Original source tables, scripts and run receipts](EVIDENCE.md)
 
+### Withdrawal figure and legend
+
+![Two 60 h niche-withdrawal experiments](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png)
+
+Squares show the immediate ex vivo library. Open circles show the two 60 h culture libraries for each experiment. The lower panel subtracts the baseline log₂(TPM + 1) from the mean of the two culture log₂(TPM + 1) values. The experiments are shown separately. [Combined source values](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv)
+
 [Silent clearance, corpse processing and cargo selection](LITERATURE_CONTEXT.md) · [Source and analysis handoff](ANALYSIS_PLAN.md) · [Damani–Yokota’s comparisons of macrophage abundance and state](../gate4M_04_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
 
 | Stage | Evidence and disposition |
@@ -39,12 +50,6 @@ Restoring a response to CpG while restraint toward apoptotic cells persists leav
 | S3 · Signaling | [Perturbation evidence display](PERTURBATIONS.md). Published representative panels distinguish uptake, receptor, proximal signaling and cytokines. Threshold fits and between-mouse variation remain unestimated. |
 | S4 · External cargo association | [Paired tissue results](RESULTS.md#s4--cargo-status-in-other-tissues) and [design](EXTERNAL_DESIGN.md). Cargo-status associations leave induction and subset selection unresolved. |
 | S5 · Synthesis | [Uptake, restraint and induced processing](RESULTS.md#s5--biological-interpretation), with the [Pestal planning cross-reference](../gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md). |
-
-### Withdrawal figure and legend
-
-![Two 60 h niche-withdrawal experiments](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png)
-
-Squares show the immediate ex vivo library. Open circles show the two 60 h culture libraries for each experiment. The lower panel subtracts the baseline log₂(TPM + 1) from the mean of the two culture log₂(TPM + 1) values. The experiments are shown separately. [Combined source values](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv)
 
 ### Run records
 

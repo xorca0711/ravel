@@ -5,13 +5,23 @@
 ## Published findings
 
 ```text
-Aging or inflammatory training → changes in HSCs and their myeloid progeny
-Hematopoietic SIRT3 overexpression → attenuated inflammatory responses in mice
-Transfer of myeloid cells from aged marrow chimeras → altered endurance in young recipients
-Aged HSC chromatin and RNA → separate measurements of the donor-side state
+Where does chronic inflammation in aging begin, and how does it reach distant organs?
+
+Long-lived hematopoietic stem cells (HSCs) continually replenish short-lived myeloid cells.
+  ├─ After priming in mice, marrow-derived macrophages release more inflammatory
+  │  cytokines when challenged again.
+  │  Increasing SIRT3 in the hematopoietic compartment attenuates cytokine recall.
+  ├─ Mice aged after marrow transplantation differ in liver inflammation and endurance
+  │  according to the donor marrow they received.
+  └─ Transferring myeloid cells from aged marrow chimeras to young mice carries a
+     donor-dependent difference in endurance. The T-cell comparison is much smaller.
+
+Aging blood formation can thus be one upstream source of inflammation and functional
+decline beyond the marrow. How long an imprint persists after its driver is withdrawn,
+and how much this route contributes to chronic inflammation in humans, remain open.
 ```
 
-The direction matters. The authors report that SIRT3 suppresses maladaptive training. Figures 1–3 separate an acute secondary challenge from aging and long-term marrow transplantation. Figures 4–7 test transferable effects, with Figure 7 comparing myeloid cells and T cells. Figure 8 and Extended Data Figures 5–6 examine accessibility, RNA and histone marks. [Primary paper](https://doi.org/10.1038/s43587-026-01175-2)
+The authors test whether maladaptive trained immunity in an aging blood-forming system can affect tissues supplied by its descendants. Figures 1–3 distinguish acute priming from spontaneous aging and from aging after marrow transplantation. Figures 4–7 test what transfers to a young host, including an IL-1β-sensitive recipient response and a comparison of myeloid and T-cell donors. Figure 8 and Extended Data Figs. 5–6 examine candidate molecular changes upstream. These mouse experiments identify a hematopoietic contribution. Continuing SIRT3 expression and changes in the mix of progenitors remain alternatives to a persistent imprint within individual HSCs. [Mu et al., Figs. 1–8](https://doi.org/10.1038/s43587-026-01175-2)
 
 ## Ravel analyses and results
 
@@ -28,6 +38,10 @@ Recall may depend on priming in HSCs, differentiated myeloid cells or both. The 
 ## Figures and supporting documentation
 
 [Figure gallery](FIGURES.md) · [Original source tables, scripts and run receipts](EVIDENCE.md)
+
+![Cytokine measurements by priming history and driver](../../analysis/research/runs/mu2026_gallery_previews_v1/cytokine_recall.png)
+
+Initial and later priming histories are shown separately. Dots are released observations and red bars are group means.
 
 [Inflammatory recall, subset selection and recovery](LITERATURE_CONTEXT.md) · [Inflammatory recall, transfer and sequencing handoff](ANALYSIS_PLAN.md) · [Navarro Negredo’s animal and RNA evidence](../gate3_12_navarro_negredo_2026/STAGE_STATUS.md)
 
