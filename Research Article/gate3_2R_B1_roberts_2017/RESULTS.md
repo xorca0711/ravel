@@ -38,6 +38,10 @@ All eight challenge files contained exactly 96,626 matched targets and summed to
 
 The two deprogrammed plus-AC libraries yield mean TPM of 838.1, 1149.8, 1379.2 and 871.3, respectively. The deposit does not explicitly identify the matched unstimulated preparation for Fig. 3G. Deprogrammed fold changes and the programmed-versus-deprogrammed difference in cargo response remain unestimated. The phenotypic TNF result after withdrawal comes from the separate published assay.
 
+## S3 · Perturbations and signaling
+
+The perturbation display pairs the Fig. 2F and Fig. 6 negative cargo results with receptor recovery, pERK and dose-response controls. The representative assays support reduced sensitivity to weaker stimulation. They leave cargo presentation and the responsible regulatory steps unresolved. [Perturbation evidence display](PERTURBATIONS.md)
+
 ## S4 · Cargo status in other tissues
 
 All six panel gene IDs were present in GSE83222. *Marco* was higher on average in cargo-positive fractions in all three tissues, with all three spleen pairs positive. *Timd4* was positive in all three marrow pairs, positive in two of three intestine pairs, and lower on average in spleen. *Olr1* was lower in all three intestine pairs, with mixed or tied marrow and spleen pairs. *Socs3* was lower in all three marrow pairs and *Dusp1* was lower in all three intestine pairs. *Ptpn6* had mixed directions in each tissue. The observed cargo-status contrasts can reflect preferential uptake by resident subsets. [Design and source](EXTERNAL_DESIGN.md) · [Pair values](../../analysis/research/runs/roberts17_b1_external_v1/pairs.tsv) · [Tissue summaries](../../analysis/research/runs/roberts17_b1_external_v1/tissue_summary.tsv)

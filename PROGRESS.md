@@ -4,7 +4,7 @@
 
 [Roberts B1](Research%20Article/gate3_2R_B1_roberts_2017/README.md) is reconstructed on `codex/gate3-2r-b1-roberts-2017` from `0d32085`. Both private document blobs match source revision `b8eddf8`. Fig. 2F preserves the restored CpG TNF response and the baseline-level apoptotic-cell TNF response. The experiment 1 reads were recovered against the same release-84 target set used by the experiment 2 deposit. Both 60 h contrasts lower *Timd4*, *Marco* and the three inhibitor transcripts. *Olr1* changes in opposite directions. *Tlr9* rises from below 1 TPM. [Results, figure and receipt trail](Research%20Article/gate3_2R_B1_roberts_2017/RESULTS.md)
 
-The exact-reference challenge corrects the earlier *Cxcl2* direction. The deprogrammed fold change remains held because the matched unstimulated preparation has no explicit GSM link. Tissue-specific cargo associations from GSE83222 remain descriptive. The verified plan retains its link to the separate Pestal plan, which is absent from the base checkout.
+The exact-reference challenge corrects the earlier *Cxcl2* direction. The deprogrammed fold change remains held because the matched unstimulated preparation has no explicit GSM link. Tissue-specific cargo associations from GSE83222 remain descriptive. The Roberts reader index now links every stage, both phenotype displays and the run evidence. The two restored [Pestal planning documents](Research%20Article/gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md) match source revision `b8eddf8` and resolve the cross-paper link.
 
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 

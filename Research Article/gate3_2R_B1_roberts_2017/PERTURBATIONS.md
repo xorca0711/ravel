@@ -1,5 +1,7 @@
 # Perturbations that distinguish receptor recovery from cargo response
 
+This table is the S3 evidence display. It summarizes published representative panels and labels endpoints absent from each comparison.
+
 | Perturbation and panel | Uptake | TLR9 | Proximal signaling | TNF or cytokine |
 |---|---|---|---|---|
 | Fig. 2E, myeloid-restricted Rosa TLR9 versus Cre-negative littermate | Unmeasured here | Conditional expression | Unmeasured | CpG response returns in cavity Tim-4+ and alveolar gates |
