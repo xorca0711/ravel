@@ -1540,7 +1540,8 @@
     "Research Article/gate3_2R_C2_song_2024/contracts/S2.v2.json",
     "Research Article/gate3_2R_C2_song_2024/contracts/S3.v2.json",
     "Research Article/gate3_2R_C2_song_2024/contracts/S4.v2.json",
-    "Research Article/gate3_2R_C2_song_2024/contracts/S5.v2.json"
+    "Research Article/gate3_2R_C2_song_2024/contracts/S5.v2.json",
+    "Research Article/gate3_2R_C2_song_2024/contracts/S3.hallmark.v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1796,7 +1797,13 @@
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
     "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
+    "analysis/research/runs/song24_c2_S0_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S1_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S2_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S3_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S4_v2/receipt.json",
+    "analysis/research/runs/song24_c2_S5_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
