@@ -4,9 +4,31 @@
 
 Constitutive TLR9 restored secreted TNF in response to CpG in Tim-4-positive peritoneal macrophages. Apoptotic cells remained near baseline despite preserved uptake. Fig. 6 gives a second version of this dissociation after interferon. The assays separate cargo acquisition, receptor expression and TNF. [Figure evidence and provenance](SOURCE_AND_PHENOTYPE.md) · [Perturbation comparison](PERTURBATIONS.md)
 
-Experiment 2 showed reductions in *Timd4*, *Marco*, *Socs3*, *Dusp1* and *Ptpn6*. *Olr1* rose and *Tlr9* rose from a sub-1-TPM baseline. These are experiment-specific bulk RNA results. The deposit's experiment 1 tables have no Ensembl release-79 panel transcript IDs and were held for raw-read recovery. The paper's selected Fig. 5B heatmap supplies author-reported directions for the signaling regulators in both experiments, with no library-level values. [14-library map](../../analysis/research/runs/roberts17_b1_map_v1/sample_map.tsv) · [Eligibility](../../analysis/research/runs/roberts17_b1_map_v1/panel_eligibility.tsv) · [Experiment 2 values](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.tsv) · [Experiment 2 figure](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/withdrawal.png)
+Both 60 h comparisons show decreases in *Timd4*, *Marco* and all three signaling regulators. *Dusp1* has the largest decrease in each experiment. *Olr1* decreases in experiment 1 and increases in experiment 2, so recognition genes do not move together. *Tlr9* rises in both experiments from baselines below 1 TPM. This is a descriptive check of two experiment-level contrasts. Animal and pool nesting remain unresolved.
 
-All 96,626 versioned target IDs and lengths in every compatible deposit file match the release-84 cDNA FASTA. The metadata and paper name release 79. This exact-reference correction preserves all experiment 2 signs, with the addition of one *Olr1* transcript increasing its log-scale contrast from +3.85 to +4.07. The exact-reference values supersede the stable-ID release-79 readback. [Reference audit and adaptation](REFERENCE_AMENDMENT.md) · [Earlier experiment 2 readback](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/withdrawal.tsv)
+Values are mean log₂(TPM + 1) across the two 60 h libraries minus log₂(TPM + 1) for the ex vivo library.
+
+| Gene | Experiment 1 | Experiment 2 |
+|---|---:|---:|
+| *Timd4* | -3.34 | -3.95 |
+| *Marco* | -0.62 | -0.83 |
+| *Olr1* | -3.05 | +4.07 |
+| *Socs3* | -1.08 | -0.97 |
+| *Dusp1* | -6.64 | -5.41 |
+| *Ptpn6* | -1.47 | -1.16 |
+| *Tlr9* | +1.08 | +1.80 |
+
+[Two-experiment figure](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png) · [Source values for all six libraries](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv) · [14-library map](../../analysis/research/runs/roberts17_b1_map_v1/sample_map.tsv) · [Original qualification](../../analysis/research/runs/roberts17_b1_map_v1/panel_eligibility.tsv)
+
+Experiment 1's deposited tables contain no panel transcript IDs. The reanalysis uses the three recovered read libraries. Experiment 2 uses deposited TPM. All 96,626 target IDs and lengths match release-84 cDNA in both runs. The exact-reference correction preserves all experiment 2 signs, with one additional *Olr1* transcript increasing its estimate from +3.85 to +4.07. This adaptation uses a different pipeline from the authors' Sleuth/DESeq2 analysis. [Reference audit and adaptation](REFERENCE_AMENDMENT.md) · [Earlier experiment 2 readback](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/withdrawal.tsv)
+
+| Experiment 1 library | Retained reads | Pseudoaligned | Evidence |
+|---|---:|---:|---|
+| GSM2462968 | 65,205,540 | 40,938,538 (62.8%) | [GSM2462968 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/receipt.json) |
+| GSM2462969 | 80,531,135 | 50,336,570 (62.5%) | [GSM2462969 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/receipt.json) |
+| GSM2462970 | 66,073,388 | 41,469,741 (62.8%) | [GSM2462970 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462970_v1/receipt.json) |
+
+Independent checks on the raw transcript tables and FASTA headers reproduced the gene sums and both experiment-level effects. A separate arithmetic check reproduced the challenge ratios and cargo exclusions. The external paired tissue contrasts were independently recalculated directly from the workbook.
 
 ## S2 · RNA response to apoptotic cargo
 

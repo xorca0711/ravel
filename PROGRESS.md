@@ -2,9 +2,9 @@
 
 ## 2026-11-26 — Roberts revised analysis
 
-[Roberts B1](Research%20Article/gate3_2R_B1_roberts_2017/README.md) runs on `codex/gate3-2r-b1-roberts-2017` from `0d32085`. Both privately transferred document blobs match the plan and literature from source revision `b8eddf8`. Fig. 2F preserves the CpG restoration and the negative apoptotic-cell TNF result. Experiment 2 has mixed recognition changes and lower signaling-regulator RNA. The programmed RNA challenge is mixed, and the matched deprogrammed baseline remains unresolved. GSE83222 associations vary by tissue. [Results and receipts](Research%20Article/gate3_2R_B1_roberts_2017/RESULTS.md)
+[Roberts B1](Research%20Article/gate3_2R_B1_roberts_2017/README.md) is reconstructed on `codex/gate3-2r-b1-roberts-2017` from `0d32085`. Both private document blobs match source revision `b8eddf8`. Fig. 2F preserves the restored CpG TNF response and the baseline-level apoptotic-cell TNF response. The experiment 1 reads were recovered against the same release-84 target set used by the experiment 2 deposit. Both 60 h contrasts lower *Timd4*, *Marco* and the three inhibitor transcripts. *Olr1* changes in opposite directions. *Tlr9* rises from below 1 TPM. [Results, figure and receipt trail](Research%20Article/gate3_2R_B1_roberts_2017/RESULTS.md)
 
-Experiment 1 deposit target IDs have no overlap with the planned panel's Ensembl transcripts. Accession-matched raw read recovery is in progress. Native release-79 cDNA and ncRNA are ready for an adapted quantification if all read checksums pass.
+The exact-reference challenge corrects the earlier *Cxcl2* direction. The deprogrammed fold change remains held because the matched unstimulated preparation has no explicit GSM link. Tissue-specific cargo associations from GSE83222 remain descriptive. The verified plan retains its link to the separate Pestal plan, which is absent from the base checkout.
 
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
