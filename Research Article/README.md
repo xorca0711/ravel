@@ -297,3 +297,7 @@ external thesis-study folder (organised by gate) and, for the earlier
 papers, directly under this directory; both locations are ignored by git.
 `docs/scRNAseq_workflow_Niethamer2025.md` records a filing correction for
 one mislabelled local PDF.
+
+## Gate 3 second round
+
+[Pestal B2](gate3_2R_B2_pestal_2025/README.md) examines cavity macrophage acquisition and alveolar representation and residual phenotype. Start with the paper's verified plan and the current registry. Recover the source, panel and biological-unit map before numerical work. Follow the [research contract and runner](../docs/RESEARCH_GOVERNANCE.md#prospective-contract-and-execution), run heavy stages sequentially, and preserve both mixed findings and held comparisons.

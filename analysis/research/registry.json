@@ -1249,7 +1249,11 @@
       "evidence": [
         "Research Article/gate3_2R_B2_pestal_2025/README.md",
         "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md",
-        "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md"
+        "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_B2_pestal_2025/RESULTS.md",
+        "Research Article/gate3_2R_B2_pestal_2025/S3_LUNG.md",
+        "Research Article/gate3_2R_B2_pestal_2025/S4_DESIGN.md",
+        "Research Article/gate3_2R_B2_pestal_2025/FIGURES.md"
       ]
     }
   ],
@@ -1533,7 +1537,8 @@
     "Research Article/gate3_2R_B2_pestal_2025/transfer_contract_v1.json",
     "Research Article/gate3_2R_B2_pestal_2025/regulatory_contract_v1.json",
     "Research Article/gate3_2R_B2_pestal_2025/lung_contract_v1.json",
-    "Research Article/gate3_2R_B2_pestal_2025/route_contract_v1.json"
+    "Research Article/gate3_2R_B2_pestal_2025/route_contract_v1.json",
+    "Research Article/gate3_2R_B2_pestal_2025/figures_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1792,7 +1797,8 @@
     "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
     "analysis/research/runs/pestal_transfer_v1/receipt.json",
     "analysis/research/runs/pestal_regulatory_v1/receipt.json",
-    "analysis/research/runs/pestal_lung_v1/receipt.json"
+    "analysis/research/runs/pestal_lung_v1/receipt.json",
+    "analysis/research/runs/pestal_route_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

@@ -1,6 +1,6 @@
 # Pestal et al. (2025) — KLF family members control expression of genes required for tissue macrophage identities
 
-**gate3_2R_B2** · Brief owner read reported 26 November 2026. Analysis planned.
+**gate3_2R_B2** · Brief owner read reported 26 November 2026. Source readback and descriptive replays completed.
 
 ## Published findings
 
@@ -16,7 +16,7 @@ The day-0 and day-7 transfer experiment asks when KLF2-dependent expression emer
 
 ## Ravel analyses and results
 
-The prior reading singled out the lung KLF4 phenotype. Begin by reconstructing cavity populations and shared-host competition, then test acquisition after transfer and regulation at individual loci. The lung has its own comparison of cell representation and phenotype among remaining cells. No Pestal-specific run was registered at `0d32085`.
+[Cavity flow](S0_CAVITY.md) shows selective loss of LCM representation and distinct residual phenotypes after Klf2 and Gata6 loss. [Transfer and regulatory results](RESULTS.md) show a larger LCM/SCM expression separation at day 7, mixed locus-level evidence for KLF2 regulation, and partial correspondence to Han’s route markers. [Alveolar results](S3_LUNG.md) distinguish the AM population and competitive deficit from marker changes in the recovered AM gate. [Figures and source values](FIGURES.md)
 
 ## Data and methods
 
@@ -28,4 +28,4 @@ Failure to recover a canonical cavity macrophage could reflect impaired niche se
 
 ## Figures and supporting documentation
 
-[Retinoid competence, maturation routes and lung identity](LITERATURE_CONTEXT.md) · [RNA, binding and alveolar comparison handoff](ANALYSIS_PLAN.md) · [Roberts on the clearance phenotype](../gate3_2R_B1_roberts_2017/README.md) · [Wang’s example of qualifying a sorted-cell RNA comparison](../gate3_10_wang_2018_ezh2/README.md)
+[Retinoid competence, maturation routes and lung identity](LITERATURE_CONTEXT.md) · [RNA, binding and alveolar comparison handoff](ANALYSIS_PLAN.md) · [Roberts on the clearance phenotype](https://doi.org/10.1016/j.immuni.2017.10.006) · [Wang’s example of qualifying a sorted-cell RNA comparison](../gate3_10_wang_2018_ezh2/README.md)
