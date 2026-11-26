@@ -78,3 +78,17 @@ Dellorusso et al. Figs. 3–5 and 6–7 connected inflammatory signaling, autoph
 Independent same-source checks matched Fig. 1a–c against workbook means in E:F rows 4, 20 and 36, all four ED 7 interactions against J:M rows 4 and 20 and E:H rows 36 and 52, Fig. 1f/3g against Q:R rows 93/107, and Fig. 3a/4b against H:I row 4. The Hallmark run independently recalculated expression contrast columns from library values for the covered symbols. These checks establish numerical agreement. The initial syntax failure occurred before data processing and is retained in the [v1 logs](FAILED_RUNS_V1.md) with the superseded contracts.
 
 Repository research-gate and validation, claim bindings, and 208 unit tests passed. The repository-wide compile check still reports the original syntax error in the immutable v1 script. Both executed entrypoints parse successfully. The archived failure blocks a green full compile check on this branch.
+
+## Package disposition
+
+| Stage | Final disposition |
+|---|---|
+| S0 | Source, assay and unit map completed. Donor, preparation and RNA-pool linkage remain unresolved. |
+| S1 | Recorded young activation and homeostasis comparisons and the two-part activation figure. |
+| S2 | Recorded four-arm genotype contrasts, mixed downstream responses and the missing TMRM row. The figure links back to source cells and the direct difference of contrasts. Preparation-level interaction inference remains held. |
+| S3 | Completed descriptive contrasts and the named Hallmark adaptation. Count-model and old-stimulated inference remain held. |
+| S4 | Recorded separate week-16 contrasts, the aged workbook/legend discrepancy and the young homing context. Formal age-interaction inference remains held. |
+| S5 | Recorded old genetics and 78c metabolic, lineage and colony contrasts. Cell-intrinsic and NAD+-mediated regeneration remain unresolved. |
+| S6 | Completed contextual interpretation using Camacho-Pereira, Dellorusso and Totani. The conditional Dellorusso external analysis did not qualify because the aged Song RNA lacked a coherent metabolic stress or compensation program for that comparison. |
+
+The [figure index](FIGURES.md) brings together activation, the four-group MCU comparison and the week-16 donor contrasts. The new displays were rendered solely from existing qualified tables and have a separate verified receipt. The seven original receipts and superseded v1 entrypoints were preserved.

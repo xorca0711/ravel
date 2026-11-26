@@ -28,3 +28,5 @@ Less division after stimulation and improved long-term output from aged deficien
 ## Figures and supporting documentation
 
 [Calcium signaling, metabolic compensation and regeneration in aging](LITERATURE_CONTEXT.md) · [RNA and transplant comparison handoff](ANALYSIS_PLAN.md) · Mu's SIRT3 and inflammatory phenotype (separate study) · [Nagaraja’s example of keeping assay units separate](../gate4M_02_nagaraja_2026/ANALYSIS_RECORDS.md)
+
+[Figure legends, source values and receipts](FIGURES.md) · [All stage results and receipts](RESULTS.md#run-records-and-verification) · [Package disposition](RESULTS.md#package-disposition)

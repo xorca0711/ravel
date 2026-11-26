@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.figures_v1",
+  "owner": "Song24-C2",
+  "contract": "Research Article/gate3_2R_C2_song_2024/contracts/figures.v1.json",
+  "contract_sha256": "67320e7cce5c8c139003f76dd0816a2cdb944839bddbd8e9de18e3b116e1fb5d",
+  "git_commit": "a54f65353e35075fa6364aad16928dff67fa0037",
+  "started_at": "2026-11-26T05:11:48.336102+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C2_song_2024/scripts/render_comparisons_v1.py",
+    "analysis/research/runs/song24_c2_figures_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_S2_v2/observations.csv",
+      "sha256": "09f1888992fbf0711813db9219bded3a8a1db9d54a572e3da94cf995b5910ef9",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S2_v2/contrasts.csv",
+      "sha256": "929d62bdb95501667afc5aad23a73b31deccc17badad2960b78b1a868ac26a4f",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S4_v2/observations.csv",
+      "sha256": "66143ebeb5da0e74e0dddea199a9cb9bd7594336c9438db4e50d81303bee3bdc",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S4_v2/contrasts.csv",
+      "sha256": "ff9a468ba686aeae55d102ae81e90f53d724fae2e0fa4d877929a0743c8e1e34",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/render_comparisons_v1.py",
+      "sha256": "11f0d67246222e46f37c9ae2eca8b0cc88313e444dbb36141b8930ed8b40c4ce"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_figures_v1/mcu_four_group.png",
+      "sha256": "137a66a914eda8895c7c107d489d400a43698983dfeccbc6867ca103eb675c5e"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_figures_v1/week16_transplant.png",
+      "sha256": "81b5824c67fa58606819f12a4afd3d2f8cc20b2c70ad70022129696be91ecb71"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T05:11:50.411637+00:00"
+}
