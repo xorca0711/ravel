@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.s2_v1",
+  "owner": "Mu26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the aged-mouse contrast reflect myeloid supply, inflammatory phenotype or both?",
+  "decision": "Distinguish frequencies from absolute counts and measure CD68 abundance apart from the IL-6-high fraction.",
+  "strongest_rival": "Denominator changes and macrophage-subset selection can account for fraction differences.",
+  "discriminator": "Compare published observation distributions and fixed contrasts within each matching cohort.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results and the revised plan were read. Workbook layout and caption counts were inspected before freezing.",
+  "biological_unit": "Aged mouse or aged marrow-chimera recipient. Section-to-mouse and cross-panel identifiers are unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Rows can be source values without stable biological identifiers. No row-order pairing, donor independence or cross-panel matching is assumed.",
+  "population_and_selection": "Released source rows for named Mu et al. panels. Groups and endpoints are separated by panel and study design.",
+  "contrast": "T3 minus Cre separately within matched age, assay and cohort.",
+  "endpoint": "Marrow MPP3, blood myeloid fraction and CBC counts, circulating cytokines and liver CD68 abundance and IL-6-high fraction.",
+  "methods": "Read exact workbook ranges. Calculate group means and value SEM for arithmetic readback, compare cached summaries, show raw values, calculate signed fixed contrasts.",
+  "missingness_and_exclusions": "Ignore blank cells within declared observation ranges. Do not use summary rows as observations or impute missing values.",
+  "multiplicity": "Descriptive endpoints and contrasts only. No significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Value SEM reproduces reported summary arithmetic. Unknown preparation or cluster structure prevents independent-unit precision claims.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Released-value contrasts describe these source groups. No stage-specific causal attribution or donor-level generalization.",
+  "stop_rule": "Report label, count, or summary mismatches and restrict interpretation. Hold cluster-dependent or paired models without keys.",
+  "inputs": [
+    {
+      "path": "raw_data/mu2026/MOESM4.xlsx",
+      "sha256": "c68e9031e56147d6b808ff9e849935ea05ad3acaee6c04ca3ed01f53e4393f3d",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/mu2026/MOESM11.xlsx",
+      "sha256": "5a85c87f33553cef6273a48d79b2ba1f81136d2d5873df12504cfdc4129880ea",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/mu2026/MOESM12.xlsx",
+      "sha256": "b1c505692b928ee31908b285c7fe0686e1b249b99c3cd3217fd7c1ce2df10319",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+      "sha256": "ef712c81b2a3c426425db880fbeb949dcbd10db80dd7e4ff17a49bd315ce1ecd"
+    },
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/s2_source_map_v1.json",
+      "sha256": "4c59bc15a9d76c1bbdbd0c2d0e2a817dd7cfbddf3e71546dd25de2d1416f54a7"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+  "arguments": [
+    "--map",
+    "Research Article/gate3_2R_C1_mu_2026/s2_source_map_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.tsv",
+    "summaries.tsv",
+    "contrasts.tsv",
+    "source_values.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial frozen descriptive replay from verified revised plan and publisher workbooks."
+}
