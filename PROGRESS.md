@@ -1,5 +1,11 @@
 # Current project state
 
+## 2026-11-26 — Pestal revised analysis intake
+
+The paper branch `codex/gate3_2R_B2_pestal_2025` starts at verified `origin/main` (`0d32085fa0e307f3a26b67592450bb8633e7700a`). The requested revision `b8eddf8a569866e1faa45bfb310501c67abf013c` is absent locally, and the origin fetch and GitHub commit lookup could not retrieve it. The expected plan blob is `c4c433183de744208d7b67da0d1eeb0b63dc5bba`. The privately transferred plan and literature match blobs `c4c433183de744208d7b67da0d1eeb0b63dc5bba` and `5fb0e004597e1e893fc48958d8cbac18f71ea9d9`. [S0 cavity readback](Research%20Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md) records Fig. 1A–D control, Klf2-deficient and Gata6-deficient residual populations and Fig. 2A–B donor competition by subset. Animal-keyed flow data were not identified in the paper, supplement package or linked GEO records.
+
+After intake, verify the exact plan bytes and record its opening comparison, then qualify Figs. 1–2 residual cavity populations and shared-host competition before day-7 Table S2. Track the KLF4 alveolar population and residual-state results separately. The GitHub CLI authenticated as `xorca0711`, and explicit per-command Git settings verified both commit identities as Xorca with the account's verified email. No commits were made.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).
