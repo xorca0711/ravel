@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.S1.v2",
+  "owner": "Song24-C2",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Compare young stimulated cell number, cycling, viability and metabolic readouts and fresh controls",
+  "decision": "Locate the directly supported context and identify unresolved links without promoting RNA, normalized signals or transplant readouts into mediation.",
+  "strongest_rival": "Unknown donor or preparation overlap, gating composition, shared normalization and protocol differences can obscure endpoint-specific differences.",
+  "discriminator": "Compare young stimulated cell number, cycling, viability and metabolic readouts and fresh controls",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C2_song_2024/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Read revised plan, literature context, paper legends and methods, GEO SOFT and selected source workbook rows before freeze. Same-source exposed reproduction.",
+  "biological_unit": "Assay-specific donor or independent preparation; recipients are observation units with unresolved donor dependence. RNA library is the observed unit pending donor/pool mapping.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Panel-local workbook labels and library numbers are not donor crosswalks. No paired, clustered or cross-age inference.",
+  "population_and_selection": "Plan-defined mouse assays and deposited contexts in Song et al., DOI 10.1038/s43587-024-00670-8.",
+  "contrast": "KO minus WT, 78c minus vehicle, direct MCU knockdown difference of genotype contrasts, or explicitly observed RNA group differences as applicable.",
+  "endpoint": "Compare young stimulated cell number, cycling, viability and metabolic readouts and fresh controls",
+  "methods": "Workbook cell-level extraction, per-panel finite observations, mean differences with leave-one-source-row-out sensitivity, and fsum arithmetic check. Week 16 is primary for donor output. Four-arm descriptive interaction is (KO-WT under knockdown) minus (KO-WT under control). No donor-independent interval without a preparation crosswalk.",
+  "missingness_and_exclusions": "Preserve source blanks and named arm rows; separate columns containing figure summaries. No imputation or selection to match the legend.",
+  "multiplicity": "Descriptive effects only; no new significance, equivalence or genome-wide discovery testing.",
+  "precision_status": "unknown",
+  "precision_basis": "Limits of row sensitivity retained; donor-level precision unavailable from unlinked source labels.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reanalysis. No biological replication, independent preparation assumptions, mediator attribution or unobserved factorial cell.",
+  "stop_rule": "Stop on invalid numeric cells, duplicate feature IDs, unexpected sample identities or feature universe disagreement. Record metadata and legend/source discrepancies.",
+  "inputs": [
+    {
+      "path": "raw_data/song_v1/m3.xlsx",
+      "sha256": "d07b86a91fbbc4564f3b9bb468f21a18c1ead881a7672da41ffd82a83d906964",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/m4.xlsx",
+      "sha256": "445f7d2892c8f89f11cf3377adc5a32faa14cc0a1013ec39d187ab07dae52af3",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/m7.xlsx",
+      "sha256": "85ea8177dd24db212780664c591f72bd62aff0baa030b0aeabdfd8716519697a",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/m10.xlsx",
+      "sha256": "a637fe0a4c974a94c5f22fd6ddb78e09cf58b2835a87cf36e5d34f6687c6d50f",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/article",
+      "sha256": "d355b21fd126213be87627dc9505493677e272537ac7453484e444401e9e833b",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+      "sha256": "427c90951b8aeae6fc1f1251f87aaa83071d05e3ff7dff3d8ab827e460be354e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+  "arguments": [
+    "S1",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.csv",
+    "contrasts.csv",
+    "activation.png"
+  ],
+  "amendment_of": "Research Article/gate3_2R_C2_song_2024/contracts/S1.v1.json",
+  "amendment_reason": "Repair missing closing brace in module before any observations were computed. Frozen v1 files and failed receipts retained."
+}

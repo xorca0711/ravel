@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.map_v1",
+  "owner": "Roberts17-B1",
+  "contract": "analysis/research/contracts/Roberts17-B1.map_v1.json",
+  "contract_sha256": "9cead218b89f8ba011213d750ff01750e82b5b04ad0055d9d84e27eabd12792d",
+  "git_commit": "6f4553d5ae734306469410a873b8e40ce29362e9",
+  "started_at": "2026-11-26T03:57:21.884654+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+    "--stage",
+    "map",
+    "--output",
+    "analysis/research/runs/roberts17_b1_map_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/family.soft.gz",
+      "sha256": "7f5b552443d8b2c8807743619f4776950308cc11f30461f813c7986aa7cbeea1",
+      "study_id": "GSE93820",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "GSE93820",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462968_immediately_ex_vivo_expt_1.txt.gz",
+      "sha256": "264fed66c631e0c8d491b5690d4c735e4bd6897a5652040fc9d6b61a04c68af1",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462968"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462969_60_hours_in_culture_expt_1_1.txt.gz",
+      "sha256": "160504a938909283018f3e52e4cb53441c69628bd5b9de62f032291e00ae83ed",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462969"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462970_60_hours_in_culture_expt_1_2.txt.gz",
+      "sha256": "b5617a57673a690fcd3bb358e5cfc0cc83e0c1fb4bd310ab30314c475da0f199",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462970"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462971_immediately_ex_vivo_expt_2.txt.gz",
+      "sha256": "218785881070bc61203703d15c9f52fb7788a49e442010008b07274696c13821",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462971"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462972_60_hours_in_culture_expt_2_1.txt.gz",
+      "sha256": "13567b69d7fff9e1b7eed98ad47da9bdb7173b8acad567134025b65cd1899f8f",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462972"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462973_60_hours_in_culture_expt_2_2.txt.gz",
+      "sha256": "7049809fc5a514273f3ec7f0638e840be1ba2f2f92aad016f1c50583d568b14a",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462973"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462974_programmed_macrophages_minus_ACs_1.txt.gz",
+      "sha256": "5993096f2797b51403573cf35e318da4e2638398a786acdaa717ca95362b08f1",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462974"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462975_programmed_macrophages_minus_ACs_2.txt.gz",
+      "sha256": "5f559d4c3c0bb5f5c66d2857e0fd62d02c4d39634fdbf9fd0d4cfc2547d23915",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462975"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462976_programmed_macrophages_plus_ACs_1.txt.gz",
+      "sha256": "0c67cacc83307cad44f74979191f1ce6446fc99c60e96e68a1a2186c68426d2d",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462976"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462977_programmed_macrophages_plus_ACs_2.txt.gz",
+      "sha256": "6a4c3917a44536c07a7981600a3a2265adbe8fc95068fc294759c443e7e7b6ab",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462977"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462978_deprogrammed_macrophages_plus_ACs_1.txt.gz",
+      "sha256": "991671c9c5de4b0258243e208d75a7bccb717068ddf5116e47659a3db2aa3fc0",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462978"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462979_deprogrammed_macrophages_plus_ACs_2.txt.gz",
+      "sha256": "d50c992b496c01755efce2c027774f95b6f9e4e7169791f25f1ba45724b9e744",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462979"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462980_ACs_alone_1.txt.gz",
+      "sha256": "69c6688ce94b3ad33a943bd24b9caddcbb4b5e28d6fd8b6a9e3f3a34761d7ed6",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462980"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462981_ACs_alone_2.txt.gz",
+      "sha256": "8da47465de8929d076ddac964c04af87e3ae3ce82679fd26e16923130efc32fd",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462981"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "sha256": "33be1976aa568cdea68360253c9a79cdec7b6cb3c34859572cc28576c8fcca0d",
+      "study_id": "Roberts2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+      "sha256": "187a8ea25beffe5d14ae168acd95188ebd044d2010f1cbb651c1dae941c132c4",
+      "study_id": "Roberts2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/roberts17_b1_map_v1/sample_map.tsv",
+      "sha256": "00087d4d875f95e4ad428cf9251d1143ddf3454fd4c21d5ffe41c330b8313b61"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_map_v1/panel_eligibility.tsv",
+      "sha256": "6079b3b418b2468dc25eb2834177bc43582ca4d0da63aae8d9085dda53388112"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T03:57:28.077888+00:00"
+}

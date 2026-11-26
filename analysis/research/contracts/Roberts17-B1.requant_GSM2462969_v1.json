@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.requant_GSM2462969_v1",
+  "owner": "Roberts17-B1",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can accession-matched GSM2462969 RNA be quantified on the exact 84 target set?",
+  "decision": "Recover one experiment 1 library on a comparable transcript reference before within-experiment estimation.",
+  "strongest_rival": "Unknown donor or pool nesting and culture-associated selection could account for bulk abundance differences. Cargo RNA can also contribute to challenged samples.",
+  "discriminator": "Check accession roles and reference coverage, preserve separate experiments, and screen challenge data against cargo-only RNA.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B1_roberts_2017/REFERENCE_AMENDMENT.md",
+    "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Publication and experiment 2 and challenge TPM outcomes known. Experiment 1 raw TPM outcomes unopened when specified.",
+  "biological_unit": "Independent withdrawal experiment or single cargo challenge experiment. Donor and preparation nesting unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Two culture libraries per withdrawal contrast. Fig. 3G duplicates are technical; overlap of withdrawal libraries with the challenge is unverified.",
+  "population_and_selection": "WT Tim-4-positive mouse peritoneal macrophages and irradiated thymocytes as the cargo RNA control.",
+  "contrast": "Single-library quantification of GSM2462969 using its accession-matched ENA reads.",
+  "endpoint": "Transcript TPM and estimated counts, with trimming and pseudoalignment summaries.",
+  "methods": "Trim with cutadapt 4.9 using -m 35 -q 30,30. Index verified Ensembl 84 cDNA with Kallisto 0.43.1 k31 and quantify with --single -l 200 -s 30 --plaintext and no bootstraps. Reuse the hash-bound k31 index generated in the first experiment 1 library run. ENA transfer stalled. Validate NCBI full-quality SRA archive and extract single-end FASTQ with SRA Toolkit 3.2.1.",
+  "missingness_and_exclusions": "Trim short or low-quality reads under the GEO settings. Report trimming and pseudoalignment metrics.",
+  "multiplicity": "Fixed paper-derived panels, fully reported without significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Two experiments for comparison of directions and only technical duplication for challenge. No animal-level precision estimate.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A new quantification using the identified reference, deposited reads and stated version adaptations. No original experiment 1 TPMs are recovered.",
+  "stop_rule": "Hold if accession join, SRA archive integrity, reference integrity or quantification fails.",
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/ensembl84.cdna.fa.gz",
+      "sha256": "2eb57e2a5d56b562752a2700901ebf6721b546f27208316f2eaaefe7184a0680",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/ena.tsv",
+      "sha256": "4ce3fde7790f4a45dd70ec0a4255cae0738cb6ac9bc89858a4bb6be7533a0e6a",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/kallisto-0.43.1",
+      "sha256": "3f161db5802e6293d9850f895f5e186fd3706aaafb6f033c037ff1e4ad38c816",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/SRR5186278.sra",
+      "sha256": "907f8845b583eff4a6cf779b6c5fae0e876bf7dfd12fde0ae2bcd08094c1a389",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462969"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/ensembl84.k31.idx",
+      "sha256": "cad1e1ce9eff40458bd61862e12484446af215c3601a735b2e8741fe29c66d4c",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/vdb-validate-3.2.1",
+      "sha256": "714b3ff18fb47be8b320b47b41894669e4d365692b543052abc5056cd51e87c4",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/fasterq-dump-3.2.1",
+      "sha256": "26c6420c124ba14f827e2af1bd11709238da9c76c386284bb51f41311e4162ce",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/requantify_cached.py",
+      "sha256": "4a2621744ed50b6cc235425070eabca89a402cc25871ff259756405a369afb3b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B1_roberts_2017/requantify_cached.py",
+  "arguments": [
+    "--gsm",
+    "GSM2462969",
+    "--output",
+    "{run_dir}",
+    "--source",
+    "sra"
+  ],
+  "expected_outputs": [
+    "GSM2462969.cutadapt.txt",
+    "GSM2462969.run_info.json",
+    "GSM2462969.abundance.tsv.gz",
+    "GSM2462969.sra_validation.txt"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive replay of the verified revised plan using the deposited TPM scale."
+}

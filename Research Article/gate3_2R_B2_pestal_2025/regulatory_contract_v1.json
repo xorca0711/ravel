@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.regulatory_v1",
+  "owner": "Pe25-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which native occupancy calls and in vitro induction results align with day-seven dependence?",
+  "decision": "Prioritize upstream and downstream loci while retaining discordant and uncalled loci.",
+  "strongest_rival": "Selection of recovered cells or differing preparation composition contributes to aggregate RNA differences.",
+  "discriminator": "Check all deposited libraries, author directions and the prespecified markers. A bulk difference cannot locate a cell trajectory.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_B2_pestal_2025/S0_CAVITY.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published main text, figure captions and workbook headers were read before freeze. Local numerical outcomes were not calculated.",
+  "biological_unit": "The deposited library is the description unit; donor preparation and recipient or pool crosswalks are unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Do not pair replicate labels. Tables and deposits share their original source and do not constitute independent replication.",
+  "population_and_selection": "Public per-library quantifications and author tables. The transfer and AM assays describe selected recovered cells.",
+  "contrast": "Mean each overexpression arm minus mean empty vector, separately, and genomic overlap.",
+  "endpoint": "Transcript-derived gene TPM; published DESeq2 fold changes; combined genomic peak overlaps where applicable.",
+  "methods": "Calculate per-transcript TPM from estimated counts divided by effective length; sum by Ensembl release 90 transcript stable ID to gene symbol, stripping version. Report equal-library mean log2(TPM+1) contrasts. Outer-join nonduplicate author symbols. Use release 113 GRCm39 gene body plus/minus 2 kb around TSS for combined BED annotation if applicable.",
+  "missingness_and_exclusions": "Drop ambiguous duplicate author symbols and retain unmatched rows; exclude unmapped transcript symbols while reporting matched targets and TPM. Retain all deposited libraries and report planned omission of the third day-7 WT library separately.",
+  "multiplicity": "Descriptive comparisons only, no new P values. Retain author adjusted P values and apply planned signature thresholds.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed library values and omission sensitivity are descriptive; unresolved source nesting prevents a precision claim.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No causal pathway, lineage or cell-level inference. Peak overlap is limited to the chosen feature; no antibody-pair effect estimate.",
+  "stop_rule": "Hold model-based inference if biological unit mapping is unresolved; require all declared libraries and valid checksums.",
+  "inputs": [
+    {
+      "path": "raw_data/pestal/GRCm38.gtf.gz",
+      "sha256": "6d572c7a7f94d03e884853e1b8330d453a88d7c7c448549b61e967d2466c5665",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSE288281.txt",
+      "sha256": "5f6e196c2700e4eefb4b836e74263983c21451aec2a27f8eacfbe1546e217da2",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/article.xml",
+      "sha256": "7bbae9025978b41a5f1b06994f994ef011f6959900bae153e96e258610f48eab",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GRCm39.gtf.gz",
+      "sha256": "b9fb3539f9883ae1c4b38a4e26d61e8a5367d59b175edf74fb2dadf0866840cf",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/peaks.bed.gz",
+      "sha256": "1d4901ef5bea2bd1d82554576fcf0b181130ef0d7f97a4065d464700e4368e67",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSE288282.txt",
+      "sha256": "b2d9364969d7b7d7b33993aebc7ef5162d1ae9263efed0ab644d53254119c225",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_tables2.xlsx",
+      "sha256": "621cfc3a4654cf5d13e60cac0be09597fd018e1bc26e3f97c9bc9586f0906971",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_tables3.xlsx",
+      "sha256": "fee971dd2bf00ef2cd88b5a4a894d4e2769eced8ead411431ad0310354119c3e",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/jem_20240379_tables4.xlsx",
+      "sha256": "744e7b7fc8618b6b5360bc3ddcccd1e42bf7b33654806d6db30325831bde4af1",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763475_BMM_empty_1.h5",
+      "sha256": "4957d4709857b6bc3129c816158171e6022a4ccc9f5bfb62322362c30c1590b1",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763476_BMM_empty_2.h5",
+      "sha256": "f7dfeae89d6aae17b87cfbc452facc0b34b5f859b5df9a70310fab4576e424ab",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763477_BMM_KLF2OE_1.h5",
+      "sha256": "2d44eaa9866c65495d844dad7b4bf1b98649494e9fdba20d593a0fa0d724a338",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763478_BMM_KLF2OE_2.h5",
+      "sha256": "28bde3e68d9cd19b48af0b4b07968d20665771c4774003f90a266a47d0324929",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763479_BMM_GATA6OE_1.h5",
+      "sha256": "9cc31ca8da84b82301320c221ef8737601d80e38f2d07af5f1ad9d566ef19d6d",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/pestal/GSM8763480_BMM_GATA6OE_2.h5",
+      "sha256": "68e17dbf2b5ac3082a005427c963a8e3bdf3afb2ce514ad071da643fcfd494ff",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+      "sha256": "657b5932582480b395d912d9f292d787c857c87c48aa886880dae80b51b24aeb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B2_pestal_2025/analyze.py",
+  "arguments": [
+    "regulatory",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "effects.tsv",
+    "libraries.tsv",
+    "markers.tsv",
+    "markers.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive reconstruction on public processed and author-reported inputs."
+}

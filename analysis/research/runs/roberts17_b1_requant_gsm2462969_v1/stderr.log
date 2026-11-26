@@ -1,0 +1,17 @@
+spots read      : 80,928,225
+reads read      : 161,856,450
+reads written   : 80,928,225
+reads 0-length  : 80,928,225
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 96,626
+[index] number of k-mers: 87,312,671
+[index] number of equivalence classes: 333,129
+[quant] running in single-end mode
+[quant] will process file 1: /workspace/ravel/raw_data/roberts_2017/requant/scratch-_nwt2lp0/SRR5186278.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 80,531,135 reads, 50,336,570 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,257 rounds
+

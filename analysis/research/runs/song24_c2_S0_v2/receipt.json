@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.S0.v2",
+  "owner": "Song24-C2",
+  "contract": "Research Article/gate3_2R_C2_song_2024/contracts/S0.v2.json",
+  "contract_sha256": "54148d8bff717cc80f73e5dc1b41187cafcfe8b24869a18d9b77878c30b8195a",
+  "git_commit": "bd7301f0d58212c465d45eb0454527772ba8bbd2",
+  "started_at": "2026-11-26T03:58:58.183345+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+    "S0",
+    "analysis/research/runs/song24_c2_S0_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/song_v1/geo",
+      "sha256": "a848a9339f79e8aedfd67cd14b1a23df8dd9ce4564b8f2b4c2d496398be71f83",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/soft",
+      "sha256": "921bb250f55db612e8548ec0a0231fbb4e7c099b47a3f2beccbf7cdf14c11b67",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/song_v1/article",
+      "sha256": "d355b21fd126213be87627dc9505493677e272537ac7453484e444401e9e833b",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/analyze_v2.py",
+      "sha256": "427c90951b8aeae6fc1f1251f87aaa83071d05e3ff7dff3d8ab827e460be354e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_S0_v2/libraries.csv",
+      "sha256": "6eced2e55781e4a8f099a36fbea04524b8128436daf07eb3619ec1428b82c72d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T03:58:58.942571+00:00"
+}

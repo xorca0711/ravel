@@ -852,9 +852,10 @@
         "A3",
         "A14"
       ],
-      "note_status": "not started; available for comparison reading",
-      "trial_status": "not started",
-      "scope": "literature comparison; no analysis workspace or global RQ assigned"
+      "note_status": "Brief owner read reported 2026-11-26.",
+      "trial_status": "Historical X3 literature comparison; current C1 results and source limits are reported in the Mu paper package.",
+      "folder": "gate3_2R_C1_mu_2026",
+      "scope": "X3 retains the historical A3/A14 comparison. C1 owns the separate paper analysis."
     },
     {
       "id": "X4",
@@ -874,6 +875,60 @@
     }
   ],
   "topic_reading": {
+    "3_2R": {
+      "gate": "3",
+      "title": "Barton and Chen second-round papers",
+      "index": "README.md#gate-3-second-round",
+      "selection_date": "2026-11-26",
+      "note_status": "Brief owner read reported for all four papers, 2026-11-26.",
+      "trial_status": "All four packages completed their eligible comparisons. Each results report records stage-specific limits.",
+      "papers": [
+        {
+          "id": "gate3_2R_B1",
+          "author": "Roberts et al.",
+          "year": 2017,
+          "title": "Tissue-Resident Macrophages Are Locally Programmed for Silent Clearance of Apoptotic Cells",
+          "doi": "10.1016/j.immuni.2017.10.006",
+          "folder": "gate3_2R_B1_roberts_2017",
+          "analysis_plan": "gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+          "results": "gate3_2R_B1_roberts_2017/RESULTS.md",
+          "figures": "gate3_2R_B1_roberts_2017/FIGURES.md"
+        },
+        {
+          "id": "gate3_2R_B2",
+          "author": "Pestal et al.",
+          "year": 2025,
+          "title": "KLF family members control expression of genes required for tissue macrophage identities",
+          "doi": "10.1084/jem.20240379",
+          "folder": "gate3_2R_B2_pestal_2025",
+          "analysis_plan": "gate3_2R_B2_pestal_2025/ANALYSIS_PLAN.md",
+          "results": "gate3_2R_B2_pestal_2025/RESULTS.md",
+          "figures": "gate3_2R_B2_pestal_2025/FIGURES.md"
+        },
+        {
+          "id": "gate3_2R_C1",
+          "author": "Mu et al.",
+          "year": 2026,
+          "title": "Trained immunity links hematopoietic stem cell aging to aging-associated inflammation",
+          "doi": "10.1038/s43587-026-01175-2",
+          "folder": "gate3_2R_C1_mu_2026",
+          "analysis_plan": "gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+          "results": "gate3_2R_C1_mu_2026/RESULTS.md",
+          "figures": "gate3_2R_C1_mu_2026/FIGURES.md"
+        },
+        {
+          "id": "gate3_2R_C2",
+          "author": "Song et al.",
+          "year": 2024,
+          "title": "An NAD+-dependent metabolic checkpoint regulates hematopoietic stem cell activation and aging",
+          "doi": "10.1038/s43587-024-00670-8",
+          "folder": "gate3_2R_C2_song_2024",
+          "analysis_plan": "gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
+          "results": "gate3_2R_C2_song_2024/RESULTS.md",
+          "figures": "gate3_2R_C2_song_2024/FIGURES.md"
+        }
+      ]
+    },
     "4M": {
       "gate": "4",
       "title": "Epigenetic & Inflammatory Memory",

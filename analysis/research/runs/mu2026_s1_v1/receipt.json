@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.s1_v1",
+  "owner": "Mu26-P01",
+  "contract": "Research Article/gate3_2R_C1_mu_2026/s1_contract_v1.json",
+  "contract_sha256": "fe2c9bfa7536ce30896a39a2f341020566338d116eab0cfb630a3acb0f9d46ef",
+  "git_commit": "e9c4f1f29601f23db656cecf986afb423ccf826f",
+  "started_at": "2026-11-26T03:57:51.588510+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+    "--map",
+    "Research Article/gate3_2R_C1_mu_2026/s1_source_map_v1.json",
+    "--output",
+    "analysis/research/runs/mu2026_s1_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/mu2026/MOESM3.xlsx",
+      "sha256": "e52731bdc2aa01312061dbab08e5543c9a4e45e21a1facbccf5c191545a5b9cf",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/mu2026/MOESM10.xlsx",
+      "sha256": "eafbced2a0cb65b4af752643615fe3120e025842b4b914a8aa77065c56767829",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+      "sha256": "ef712c81b2a3c426425db880fbeb949dcbd10db80dd7e4ff17a49bd315ce1ecd"
+    },
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/s1_source_map_v1.json",
+      "sha256": "6f9692be195ad20998ce683cc74069ee72aa4e0c499b126470f00b7919025919"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/observations.tsv",
+      "sha256": "ad272a1de95bdc0d6d7e6c7e91fd172f34ac963d5ecb22f6b39bd2ecf8152ab4"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/summaries.tsv",
+      "sha256": "cf3ee0cb738b04e9b73d9b54da3036fc0dfefdfb5151f678d2d0b69502e133f8"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/contrasts.tsv",
+      "sha256": "e17b1d41ed302e9110c0f5c988b1935f5406ddae2de1ad817178589ac0ba29d8"
+    },
+    {
+      "path": "analysis/research/runs/mu2026_s1_v1/source_values.pdf",
+      "sha256": "f2e8381add3254ee902c82c06e2d6496330a8dd43c0e156b4e92123989e032cd"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T03:57:54.058047+00:00"
+}

@@ -20,8 +20,8 @@ jobs:
           python-version: "3.12"
       - name: Restore hash-locked published Choi outputs
         run: python analysis/scripts/restore_published_outputs.py
-      - name: Compile Python sources
-        run: python -m compileall -q -x '[/\\]\.tools[/\\]' analysis "Research Article" RQ_Specified
+      - name: Compile Python sources and verify the archived Song v1 failure
+        run: python tools/check_python_sources.py
       - name: Test evidence and provenance contracts
         run: python -m unittest discover -s analysis/tests -q
       - name: Test project session assistance

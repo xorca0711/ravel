@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.withdrawal_exp2_v2",
+  "owner": "Roberts17-B1",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which recognition and inhibitory transcripts shift in both withdrawal experiments?",
+  "decision": "Describe the direction and magnitude of the seven panel genes in experiment 2.",
+  "strongest_rival": "Unknown donor or pool nesting and culture-associated selection could account for bulk abundance differences. Cargo RNA can also contribute to challenged samples.",
+  "discriminator": "Check accession roles and reference coverage, preserve separate experiments, and screen challenge data against cargo-only RNA.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_B1_roberts_2017/SOURCE_AND_PHENOTYPE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The published figures, text and experiment labels are known. This descriptive version was specified before inspecting deposited panel abundances.",
+  "biological_unit": "Independent withdrawal experiment or single cargo challenge experiment. Donor and preparation nesting unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Two culture libraries per withdrawal contrast. Fig. 3G duplicates are technical; overlap of withdrawal libraries with the challenge is unverified.",
+  "population_and_selection": "WT Tim-4-positive mouse peritoneal macrophages and irradiated thymocytes as the cargo RNA control.",
+  "contrast": "Experiment 2 60 h libraries versus immediate ex vivo.",
+  "endpoint": "Within-experiment 60 h minus 0 h gene RNA abundance",
+  "methods": "Sum deposit TPM by unambiguous release-79 gene mapping. Average the two log2(TPM+1) culture values and subtract the single log2(TPM+1) baseline. Flag <1 TPM and incomplete annotation coverage.",
+  "missingness_and_exclusions": "Unmapped transcripts excluded from gene numerators. Deprogrammed challenge fold held without an explicitly matched unstimulated denominator.",
+  "multiplicity": "Fixed paper-derived panels, fully reported without significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Two experiments for comparison of directions and only technical duplication for challenge. No animal-level precision estimate.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Bulk RNA cannot establish within-cell change, secretion, or a macrophage-specific origin for RNA in a mixture.",
+  "stop_rule": "Hold the affected comparison for unresolved labels, missing panel targets, failed input integrity, or unqualified challenge denominator.",
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/family.soft.gz",
+      "sha256": "7f5b552443d8b2c8807743619f4776950308cc11f30461f813c7986aa7cbeea1",
+      "study_id": "GSE93820",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "GSE93820",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462971_immediately_ex_vivo_expt_2.txt.gz",
+      "sha256": "218785881070bc61203703d15c9f52fb7788a49e442010008b07274696c13821",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462971"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462972_60_hours_in_culture_expt_2_1.txt.gz",
+      "sha256": "13567b69d7fff9e1b7eed98ad47da9bdb7173b8acad567134025b65cd1899f8f",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462972"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462973_60_hours_in_culture_expt_2_2.txt.gz",
+      "sha256": "7049809fc5a514273f3ec7f0638e840be1ba2f2f92aad016f1c50583d568b14a",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462973"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "sha256": "33be1976aa568cdea68360253c9a79cdec7b6cb3c34859572cc28576c8fcca0d",
+      "study_id": "Roberts2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+      "sha256": "187a8ea25beffe5d14ae168acd95188ebd044d2010f1cbb651c1dae941c132c4",
+      "study_id": "Roberts2017",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/withdrawal_v2.py",
+      "sha256": "81b629a3a0f2f8f3c0a8c2479bb8192f135539c9d1185033161bdb25fee66961"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B1_roberts_2017/withdrawal_v2.py",
+  "arguments": [
+    "--experiment",
+    "2",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "mapping_qc.tsv",
+    "gene_tpm.tsv",
+    "withdrawal.tsv",
+    "withdrawal.png"
+  ],
+  "amendment_of": "analysis/research/contracts/Roberts17-B1.withdrawal_v1.json",
+  "amendment_reason": "The target-ID-only qualification found zero release-79 panel targets in experiment 1's deposited quantifications. Analyze the qualified experiment separately."
+}

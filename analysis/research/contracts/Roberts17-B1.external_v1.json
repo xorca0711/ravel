@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.external_v1",
+  "owner": "Roberts17-B1",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which fixed-panel RNA components associate with detected cargo within each other tissue?",
+  "decision": "Assess the tissue boundary for cargo association and retain tissue-specific or absent directions.",
+  "strongest_rival": "Preferential uptake by an existing macrophage subset can create the observed cargo-status association.",
+  "discriminator": "Pair cargo-positive and negative within tissue and the same preparation. The design cannot discriminate induction from selection.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B1_roberts_2017/EXTERNAL_DESIGN.md",
+    "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "A-Gonzalez article and data design were reviewed. Fixed-panel outcomes from the released matrix were unopened when specified.",
+  "biological_unit": "Within-tissue mouse pool with sorted positive and negative fractions.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Nine tissue-specific pool pairs across two library batches. Cross-tissue mouse overlap unresolved.",
+  "population_and_selection": "Macrophages isolated from spleen, bone marrow and large intestine of parabiotic mice with or without detectable transferred cargo.",
+  "contrast": "Cargo-positive minus cargo-negative within each matched pair in each tissue.",
+  "endpoint": "Paired log2(CPM+1) difference in deposited TMM-normalized gene abundance.",
+  "methods": "Exact stable Ensembl gene ID join and mean paired difference by tissue, with pair directions retained.",
+  "missingness_and_exclusions": "Keep absent and ambiguous genes as missing. Do not substitute unmatched sample pairs.",
+  "multiplicity": "Fixed paper-derived panels, fully reported without significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Three pairs per tissue with descriptive directions and no population-level tests.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "This dataset quantifies association with detectable partner cargo and cannot identify within-cell induction.",
+  "stop_rule": "Hold a tissue if its library pairing is unverifiable and hold a gene if its ID is missing or duplicated.",
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/external/external.soft.gz",
+      "sha256": "e38108bfc59211b195439fc8ad6c9f4fe1d89319861bc383a5fb8fffb635cbb0",
+      "study_id": "GSE83222",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/external/external.matrix.xls.gz",
+      "sha256": "b0df0809b3cbc4eb7beee49df09da3a6730841c2da4f5a58de48411bc98409e9",
+      "study_id": "GSE83222",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "GSE83222",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/external.py",
+      "sha256": "c46da7d916964c01f52ff725d7e117037ce7ffe5d4edc7886744187264c51923"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B1_roberts_2017/external.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_map.tsv",
+    "pairs.tsv",
+    "tissue_summary.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive replay of the verified revised plan using the deposited TPM scale."
+}

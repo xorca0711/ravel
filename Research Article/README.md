@@ -4,6 +4,7 @@ Use this index to find a paper, its measured results and the evidence behind eac
 
 | Looking for | Entry point |
 |---|---|
+| Barton and Chen second-round studies | [Gate 3 second round](#gate-3-second-round) |
 | Papers on inflammatory and epigenetic memory | [Gate 4M series](#gate-4-topic-centered-reading) |
 | Study results, limitations and figures | [Study inventory and galleries](#studies-with-ravel-analyses) · [Biological topics](#biological-topics) |
 | Earlier reading order and study-note status | [Gates 1–3 and reading records](#reading-sequence-and-study-status) · [Reading and analysis status](#reading-and-analysis-status) |
@@ -20,6 +21,17 @@ columns and owning reports. Shared tags do not establish a paper-to-RQ evidence
 link or independent replication.
 
 [Epithelial states](../docs/guides/RESEARCH_TOPICS.md#epithelial-states) · [Regulatory context](../docs/guides/RESEARCH_TOPICS.md#regulatory-context) · [Recipient signaling](../docs/guides/RESEARCH_TOPICS.md#recipient-signaling) · [Myeloid context](../docs/guides/RESEARCH_TOPICS.md#myeloid-context) · [Stroma/vasculature](../docs/guides/RESEARCH_TOPICS.md#stroma-vasculature) · [Tissue ageing](../docs/guides/RESEARCH_TOPICS.md#tissue-ageing) · [Lymphocyte states](../docs/guides/RESEARCH_TOPICS.md#lymphocyte-states) · [Metabolism](../docs/guides/RESEARCH_TOPICS.md#metabolism) · [Growth/clones](../docs/guides/RESEARCH_TOPICS.md#growth-clonal-dynamics)
+
+## Gate 3 second round
+
+The Barton studies examine how tissue environments shape macrophage sensing and identity. The Chen studies trace stem-cell priming and metabolism to inflammatory and transplant outcomes. The owner reported a brief read of all four papers on 26 November 2026.
+
+| Paper | Biological result and interpretation | Evidence |
+|---|---|---|
+| [B1 · Roberts 2017](gate3_2R_B1_roberts_2017/README.md) | Restoring TLR9 recovered the CpG response. TNF stayed near baseline after apoptotic-cell uptake. | [Results](gate3_2R_B1_roberts_2017/RESULTS.md) · [Figures](gate3_2R_B1_roberts_2017/FIGURES.md) · [Source tables and scripts](gate3_2R_B1_roberts_2017/EVIDENCE.md) |
+| [B2 · Pestal 2025](gate3_2R_B2_pestal_2025/README.md) | Klf2 and Gata6 loss left different residual cavity phenotypes. The transfer RNA supports KLF2-dependent acquisition, with cell selection still plausible. | [Results](gate3_2R_B2_pestal_2025/RESULTS.md) · [Figures](gate3_2R_B2_pestal_2025/FIGURES.md) · [Source tables and scripts](gate3_2R_B2_pestal_2025/EVIDENCE.md) |
+| [C1 · Mu 2026](gate3_2R_C1_mu_2026/README.md) | Initial priming produced a smaller cytokine increment in T3 cultures. Ongoing SIRT3 expression and precursor composition limit the inference about memory. | [Results](gate3_2R_C1_mu_2026/RESULTS.md) · [Figures](gate3_2R_C1_mu_2026/FIGURES.md) · [Source tables and scripts](gate3_2R_C1_mu_2026/EVIDENCE.md) |
+| [C2 · Song 2024](gate3_2R_C2_song_2024/README.md) | Young Cd38-deficient HSCs showed less cycling. Week-16 donor representation shifted in opposite directions in the separate young and aged cohorts. | [Results](gate3_2R_C2_song_2024/RESULTS.md) · [Figures](gate3_2R_C2_song_2024/FIGURES.md) · [Source tables and scripts](gate3_2R_C2_song_2024/EVIDENCE.md) |
 
 ## Gate 4 topic-centered reading
 

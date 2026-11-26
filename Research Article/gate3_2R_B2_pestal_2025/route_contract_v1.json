@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Pe25-P01.route_v1",
+  "owner": "Pe25-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do selected externally defined route markers provide a coherent alternate-state explanation?",
+  "decision": "Assess whether bulk marker directions can justify assigning a Han route to recovered KLF2 knockout cells.",
+  "strongest_rival": "Bulk expression reflects distinct mixtures or lower identity marker expression within shared populations.",
+  "discriminator": "Examine published marker combinations against the separately measured bulk directions; joint per-cell expression remains unmeasured.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_B2_pestal_2025/S4_DESIGN.md",
+    "Research Article/gate3_2R_B2_pestal_2025/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/pestal_transfer_v1/receipt.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Pestal S1 outcomes and marker rows were viewed before freeze; read Han Figs. 1\u20134.",
+  "biological_unit": "The deposited library is the description unit; donor preparation and recipient or pool crosswalks are unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Do not pair replicate labels. Tables and deposits share their original source and do not constitute independent replication.",
+  "population_and_selection": "Public per-library quantifications and author tables. The transfer and AM assays describe selected recovered cells.",
+  "contrast": "Descriptive day-zero and day-seven WT minus KO marker comparisons from the registered transfer run.",
+  "endpoint": "TPM for five specified markers and log2(TPM+1) summary differences from the transfer receipt.",
+  "methods": "Extract exact gene-specific values for Nt5e, Lyve1, Timd4, Gata6 and Icam2 from the frozen transfer marker table.",
+  "missingness_and_exclusions": "Require all five markers and all deposited libraries; preserve original transfer limitations.",
+  "multiplicity": "Descriptive comparisons only, no new P values. Retain author adjusted P values and apply planned signature thresholds.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed library values and omission sensitivity are descriptive; unresolved source nesting prevents a precision claim.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No causal pathway, lineage or cell-level inference. Peak overlap is limited to the chosen feature; no antibody-pair effect estimate.",
+  "stop_rule": "Hold model-based inference if biological unit mapping is unresolved; require all declared libraries and valid checksums.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/pestal_transfer_v1/markers.tsv",
+      "sha256": "5ca338e060223de7ba93cc603d1e038ae13e68ee9016baafaba5f848657fe024",
+      "study_id": "Pestal2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B2_pestal_2025/route_markers.py",
+      "sha256": "872b7b280e477e0f7e632c095210cb8742fa701f1c7f5e3ae3b80525077ffbd3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_B2_pestal_2025/route_markers.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "route_markers.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive reconstruction on public processed and author-reported inputs."
+}

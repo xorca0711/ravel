@@ -1,0 +1,25 @@
+
+[build] loading fasta file /workspace/ravel/raw_data/roberts_2017/requant/scratch-i72z38ew/transcripts.fasta
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 496 target sequences
+[build] warning: replaced 3 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done 
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 562705 contigs and contains 87312671 k-mers 
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 30
+[index] k-mer length: 31
+[index] number of targets: 96,626
+[index] number of k-mers: 87,312,671
+[index] number of equivalence classes: 333,129
+[quant] running in single-end mode
+[quant] will process file 1: /workspace/ravel/raw_data/roberts_2017/requant/scratch-i72z38ew/SRR5186277.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 65,205,540 reads, 40,938,538 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,189 rounds
+

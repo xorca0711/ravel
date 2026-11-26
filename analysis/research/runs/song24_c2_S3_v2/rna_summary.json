@@ -1,0 +1,68 @@
+{
+  "tested": 11610,
+  "sign_matches": {
+    "Tab1": {
+      "young_stim_KO_WT": [
+        481,
+        481
+      ],
+      "young_fresh_KO_WT": [
+        250,
+        458
+      ],
+      "old_fresh_KO_WT": [
+        175,
+        462
+      ]
+    },
+    "Tab2": {
+      "young_stim_KO_WT": [
+        1524,
+        2926
+      ],
+      "young_fresh_KO_WT": [
+        2921,
+        2926
+      ],
+      "old_fresh_KO_WT": [
+        1445,
+        2903
+      ]
+    },
+    "Tab3": {
+      "young_stim_KO_WT": [
+        876,
+        2075
+      ],
+      "young_fresh_KO_WT": [
+        1039,
+        2046
+      ],
+      "old_fresh_KO_WT": [
+        2074,
+        2076
+      ]
+    }
+  },
+  "adapted_panels": {
+    "cytosolic_ribosomal_symbols": {
+      "n": 75,
+      "young_stim_KO_WT": 0.06322780064837197,
+      "young_fresh_KO_WT": -0.15514668976133095,
+      "old_fresh_KO_WT": -0.31856944634704476,
+      "old_minus_young_fresh": -0.1235259567019984,
+      "stim_minus_fresh": 0.24310064575056956
+    },
+    "mitochondrially_encoded_symbols": {
+      "n": 0
+    },
+    "cell_cycle_marker_adaptation": {
+      "n": 12,
+      "young_stim_KO_WT": -0.20121373341823023,
+      "young_fresh_KO_WT": -0.2229481003201479,
+      "old_fresh_KO_WT": 0.7327219613198919,
+      "old_minus_young_fresh": 0.8260444127263629,
+      "stim_minus_fresh": 0.15335782068330195
+    }
+  }
+}

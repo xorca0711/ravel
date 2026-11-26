@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Song24-C2.figures_v1",
+  "owner": "Song24-C2",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Display the qualified four-group MCU and within-cohort week-16 transplant comparisons.",
+  "decision": "Present existing values with scale, cohort and source-row sensitivity.",
+  "strongest_rival": "Unknown donor or preparation overlap, gating composition, shared normalization and protocol differences can obscure endpoint-specific differences.",
+  "discriminator": "Show all four shRNA genotype groups and separate donor cohorts with their original row totals.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C2_song_2024/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C2_song_2024/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_2R_C2_song_2024/SOURCE_PROVENANCE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All original Song S2 and S4 values and effects were read before this rendering-only freeze.",
+  "biological_unit": "Source observations from the verified S2 and S4 runs. Preparation and donor linkage remain unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Panel-local workbook labels and library numbers are not donor crosswalks. No paired, clustered or cross-age inference.",
+  "population_and_selection": "Plan-defined mouse assays and deposited contexts in Song et al., DOI 10.1038/s43587-024-00670-8.",
+  "contrast": "Previously recorded arm means and within-cohort KO minus WT contrasts.",
+  "endpoint": "Previously recorded Rhod-2, TMRM, recovered HSC count, colony count and week-16 PB donor percentage.",
+  "methods": "Render existing source observations, group means, contrast estimates and leave-one-row ranges. No biological recalculation or tests.",
+  "missingness_and_exclusions": "Preserve source blanks and named arm rows; separate columns containing figure summaries. No imputation or selection to match the legend.",
+  "multiplicity": "Descriptive effects only; no new significance, equivalence or genome-wide discovery testing.",
+  "precision_status": "unknown",
+  "precision_basis": "Limits of row sensitivity retained; donor-level precision unavailable from unlinked source labels.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Same-source reanalysis. No biological replication, independent preparation assumptions, mediator attribution or unobserved factorial cell.",
+  "stop_rule": "Stop on missing expected panels or mismatch between plotted row counts and recorded arm counts.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/song24_c2_S2_v2/observations.csv",
+      "sha256": "09f1888992fbf0711813db9219bded3a8a1db9d54a572e3da94cf995b5910ef9",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S2_v2/contrasts.csv",
+      "sha256": "929d62bdb95501667afc5aad23a73b31deccc17badad2960b78b1a868ac26a4f",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S4_v2/observations.csv",
+      "sha256": "66143ebeb5da0e74e0dddea199a9cb9bd7594336c9438db4e50d81303bee3bdc",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/song24_c2_S4_v2/contrasts.csv",
+      "sha256": "ff9a468ba686aeae55d102ae81e90f53d724fae2e0fa4d877929a0743c8e1e34",
+      "study_id": "Song2024",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C2_song_2024/scripts/render_comparisons_v1.py",
+      "sha256": "11f0d67246222e46f37c9ae2eca8b0cc88313e444dbb36141b8930ed8b40c4ce"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C2_song_2024/scripts/render_comparisons_v1.py",
+  "arguments": [
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "mcu_four_group.png",
+    "week16_transplant.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial rendering-only contract using existing verified outputs."
+}

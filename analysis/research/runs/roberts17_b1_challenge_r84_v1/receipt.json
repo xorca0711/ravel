@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.challenge_r84_v1",
+  "owner": "Roberts17-B1",
+  "contract": "analysis/research/contracts/Roberts17-B1.challenge_r84_v1.json",
+  "contract_sha256": "2e18ce7568327ffae761d48c78d1332959b711eda3defad9367c5cd189f276bf",
+  "git_commit": "fb828541f492a56d1848cf06d0110a5355f6d5a3",
+  "started_at": "2026-11-26T04:12:47.058223+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+    "--stage",
+    "challenge",
+    "--output",
+    "analysis/research/runs/roberts17_b1_challenge_r84_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/ensembl84.cdna.fa.gz",
+      "sha256": "2eb57e2a5d56b562752a2700901ebf6721b546f27208316f2eaaefe7184a0680",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/ensembl79.gtf.gz",
+      "sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
+      "sha256": "33be1976aa568cdea68360253c9a79cdec7b6cb3c34859572cc28576c8fcca0d",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+      "sha256": "187a8ea25beffe5d14ae168acd95188ebd044d2010f1cbb651c1dae941c132c4",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462974_programmed_macrophages_minus_ACs_1.txt.gz",
+      "sha256": "5993096f2797b51403573cf35e318da4e2638398a786acdaa717ca95362b08f1",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462974"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462975_programmed_macrophages_minus_ACs_2.txt.gz",
+      "sha256": "5f559d4c3c0bb5f5c66d2857e0fd62d02c4d39634fdbf9fd0d4cfc2547d23915",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462975"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462976_programmed_macrophages_plus_ACs_1.txt.gz",
+      "sha256": "0c67cacc83307cad44f74979191f1ce6446fc99c60e96e68a1a2186c68426d2d",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462976"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462977_programmed_macrophages_plus_ACs_2.txt.gz",
+      "sha256": "6a4c3917a44536c07a7981600a3a2265adbe8fc95068fc294759c443e7e7b6ab",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462977"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462978_deprogrammed_macrophages_plus_ACs_1.txt.gz",
+      "sha256": "991671c9c5de4b0258243e208d75a7bccb717068ddf5116e47659a3db2aa3fc0",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462978"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462979_deprogrammed_macrophages_plus_ACs_2.txt.gz",
+      "sha256": "d50c992b496c01755efce2c027774f95b6f9e4e7169791f25f1ba45724b9e744",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462979"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462980_ACs_alone_1.txt.gz",
+      "sha256": "69c6688ce94b3ad33a943bd24b9caddcbb4b5e28d6fd8b6a9e3f3a34761d7ed6",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462980"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/GSM2462981_ACs_alone_2.txt.gz",
+      "sha256": "8da47465de8929d076ddac964c04af87e3ae3ce82679fd26e16923130efc32fd",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462981"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/replay.py",
+      "sha256": "6bba90fd4bac7d39609f9185ec46dfccc3fdc0a4807ed1173de8a65c49392ed8"
+    },
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/release84.py",
+      "sha256": "6e34ef711a4edb53d67d87bd15863f4862991f047ed22169682eb52db8e6fdfa"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/roberts17_b1_challenge_r84_v1/mapping_qc.tsv",
+      "sha256": "2789c7f98e50f6efdd5c8b1b381ed00d67b3ca5d530d64678dc145e52cf6a011"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_challenge_r84_v1/gene_tpm.tsv",
+      "sha256": "c17dbc2afbaa4afd943d730a50b6e245f7d0c6ce7f7795b40a575d2d06859235"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_challenge_r84_v1/challenge.tsv",
+      "sha256": "604466ea6cbf351c7089f1e4acb39a7e9482bc7e8b82c4a4df129e226ac956e5"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T04:12:53.191453+00:00"
+}

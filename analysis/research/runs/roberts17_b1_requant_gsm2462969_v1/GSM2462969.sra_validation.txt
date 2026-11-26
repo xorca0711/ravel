@@ -1,0 +1,8 @@
+2026-11-26T04:23:00 vdb-validate-3.3.2.1 info: Database 'SRR5186278.sra' metadata: md5 ok
+2026-11-26T04:23:00 vdb-validate-3.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-11-26T04:23:00 vdb-validate-3.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-11-26T04:23:01 vdb-validate-3.3.2.1 info: Column 'QUALITY': md5 ok
+2026-11-26T04:23:02 vdb-validate-3.3.2.1 info: Column 'READ': md5 ok
+2026-11-26T04:23:02 vdb-validate-3.3.2.1 info: Column 'SPOT_GROUP': md5 ok
+2026-11-26T04:23:03 vdb-validate-3.3.2.1 info: Database 'raw_data/roberts_2017/requant/SRR5186278.sra' contains only unaligned reads
+2026-11-26T04:23:03 vdb-validate-3.3.2.1 info: Database 'SRR5186278.sra' is consistent

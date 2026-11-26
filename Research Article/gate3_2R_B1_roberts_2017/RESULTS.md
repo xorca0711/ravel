@@ -1,0 +1,55 @@
+# Roberts B1 results
+
+## S0–S1 · Fig. 2F and 60 h culture
+
+Constitutive TLR9 restored secreted TNF in response to CpG in Tim-4-positive peritoneal macrophages. Apoptotic cells remained near baseline despite preserved uptake. Fig. 6 gives a second version of this dissociation after interferon. The assays separate cargo acquisition, receptor expression and TNF. [Figure evidence and provenance](SOURCE_AND_PHENOTYPE.md) · [Perturbation comparison](PERTURBATIONS.md)
+
+Both 60 h comparisons show decreases in *Timd4*, *Marco* and all three signaling regulators. *Dusp1* has the largest decrease in each experiment. *Olr1* decreases in experiment 1 and increases in experiment 2, so recognition genes do not move together. *Tlr9* rises in both experiments from baselines below 1 TPM. This is a descriptive check of two experiment-level contrasts. Animal and pool nesting remain unresolved.
+
+Values are mean log₂(TPM + 1) across the two 60 h libraries minus log₂(TPM + 1) for the ex vivo library.
+
+| Gene | Experiment 1 | Experiment 2 |
+|---|---:|---:|
+| *Timd4* | -3.34 | -3.95 |
+| *Marco* | -0.62 | -0.83 |
+| *Olr1* | -3.05 | +4.07 |
+| *Socs3* | -1.08 | -0.97 |
+| *Dusp1* | -6.64 | -5.41 |
+| *Ptpn6* | -1.47 | -1.16 |
+| *Tlr9* | +1.08 | +1.80 |
+
+[Two-experiment figure](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal.png) · [Source values for all six libraries](../../analysis/research/runs/roberts17_b1_withdrawal_figure_r84_v1/withdrawal_comparison.tsv) · [14-library map](../../analysis/research/runs/roberts17_b1_map_v1/sample_map.tsv) · [Original qualification](../../analysis/research/runs/roberts17_b1_map_v1/panel_eligibility.tsv)
+
+Experiment 1's deposited tables contain no panel transcript IDs. The reanalysis uses the three recovered read libraries. Experiment 2 uses deposited TPM. All 96,626 target IDs and lengths match release-84 cDNA in both runs. The exact-reference correction preserves all experiment 2 signs, with one additional *Olr1* transcript increasing its estimate from +3.85 to +4.07. This adaptation uses a different pipeline from the authors' Sleuth/DESeq2 analysis. [Reference audit and adaptation](REFERENCE_AMENDMENT.md) · [Earlier experiment 2 readback](../../analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/withdrawal.tsv)
+
+| Experiment 1 library | Retained reads | Pseudoaligned | Evidence |
+|---|---:|---:|---|
+| GSM2462968 | 65,205,540 | 40,938,538 (62.8%) | [GSM2462968 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/receipt.json) |
+| GSM2462969 | 80,531,135 | 50,336,570 (62.5%) | [GSM2462969 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/receipt.json) |
+| GSM2462970 | 66,073,388 | 41,469,741 (62.8%) | [GSM2462970 receipt](../../analysis/research/runs/roberts17_b1_requant_gsm2462970_v1/receipt.json) |
+
+Independent checks on the raw transcript tables and FASTA headers reproduced the gene sums and both experiment-level effects. A separate arithmetic check reproduced the challenge ratios and cargo exclusions. The external paired tissue contrasts were independently recalculated directly from the workbook.
+
+## S2 · RNA response to apoptotic cargo
+
+In the programmed arm, exact-reference stimulated-to-unstimulated TPM ratios were 1.083 (*Tnf*), 0.927 (*Il1a*), 0.836 (*Il1b*) and 0.823 (*Cxcl2*). None crossed the cargo-only twofold filter against either macrophage RNA reference. The early readback had used one of four released *Cxcl2* transcripts, yielding 2.013. The exact-reference correction reverses the direction for this gene. The ratio for *Tnf* is small and the other three ratios are below one. These are descriptive abundances from technical duplicates in one experiment and do not replicate the exact Sleuth/DESeq2-scaled Fig. 3G values. The filter cannot identify a transcript's cell of origin in a mixed specimen. [Exact-reference challenge values](../../analysis/research/runs/roberts17_b1_challenge_r84_v1/challenge.tsv) · [Retained initial readback](../../analysis/research/runs/roberts17_b1_challenge_v1/challenge.tsv)
+
+All eight challenge files contained exactly 96,626 matched targets and summed to approximately one million TPM. Both stimulated libraries had lower *Cxcl2* and *Il1b* TPM than either programmed unstimulated library. *Tnf* and *Il1a* ranges overlapped. No duplicate was excluded. [Library-level TPMs](../../analysis/research/runs/roberts17_b1_challenge_r84_v1/gene_tpm.tsv)
+
+The two deprogrammed plus-AC libraries yield mean TPM of 838.1, 1149.8, 1379.2 and 871.3, respectively. The deposit does not explicitly identify the matched unstimulated preparation for Fig. 3G. Deprogrammed fold changes and the programmed-versus-deprogrammed difference in cargo response remain unestimated. The phenotypic TNF result after withdrawal comes from the separate published assay.
+
+## S3 · Perturbations and signaling
+
+The perturbation display pairs the Fig. 2F and Fig. 6 negative cargo results with receptor recovery, pERK and dose-response controls. The representative assays support reduced sensitivity to weaker stimulation. They leave cargo presentation and the responsible regulatory steps unresolved. [Perturbation evidence display](PERTURBATIONS.md)
+
+## S4 · Cargo status in other tissues
+
+All six panel gene IDs were present in GSE83222. *Marco* was higher on average in cargo-positive fractions in all three tissues, with all three spleen pairs positive. *Timd4* was positive in all three marrow pairs, positive in two of three intestine pairs, and lower on average in spleen. *Olr1* was lower in all three intestine pairs, with mixed or tied marrow and spleen pairs. *Socs3* was lower in all three marrow pairs and *Dusp1* was lower in all three intestine pairs. *Ptpn6* had mixed directions in each tissue. The observed cargo-status contrasts can reflect preferential uptake by resident subsets. [Design and source](EXTERNAL_DESIGN.md) · [Pair values](../../analysis/research/runs/roberts17_b1_external_v1/pairs.tsv) · [Tissue summaries](../../analysis/research/runs/roberts17_b1_external_v1/tissue_summary.tsv)
+
+## S5 · Biological interpretation
+
+**Which cells engulf.** Roberts's steady-state labeling identifies cavity Tim-4-positive and alveolar macrophages as engulfers, with uptake possible in the absence of Tim-4 in the lung. The external *Timd4* association varies by tissue, consistent with the need to distinguish tissue identity and detectable cargo. [Roberts et al., Fig. 1](https://doi.org/10.1016/j.immuni.2017.10.006) · [A-Gonzalez et al., Figs. 1 and 3–5](https://doi.org/10.1084/jem.20161375)
+
+**What permits restraint.** TLR9 restoration is sufficient for a tested CpG response and insufficient for TNF after apoptotic-cell uptake. The dose and pERK observations constrain a signaling explanation. They leave cargo presentation and other sources of differential sensitivity open. Culture and transfer show that environment matters. The RNA data describe abundance changes in recovered bulk samples, with culture selection a live alternative to transcriptional change within each originally isolated cell. [Roberts et al., Figs. 2–7](https://doi.org/10.1016/j.immuni.2017.10.006)
+
+**What engulfment induces.** The programmed macrophage challenge measures selected cytokine transcripts at one time. Tufan et al. provide timed evidence for a processing response and test repeated uptake and acidification in a different preparation. Following identified viable macrophages before and after cargo encounter or niche withdrawal would distinguish induced changes from sorting or survival of pre-existing subsets. [Literature context](LITERATURE_CONTEXT.md) · [Tufan et al., Figs. 1–4](https://doi.org/10.1038/s41586-024-07172-y)

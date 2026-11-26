@@ -1,0 +1,297 @@
+[
+  {
+    "panel": "ED1c TNF",
+    "book": 10,
+    "groups": [
+      [
+        "Neither Cre",
+        "B17:B19",
+        "B20",
+        "B21"
+      ],
+      [
+        "Neither T3",
+        "C17:C19",
+        "C20",
+        "C21"
+      ],
+      [
+        "Myeloid only Cre",
+        "D17:D19",
+        "D20",
+        "D21"
+      ],
+      [
+        "Myeloid only T3",
+        "E17:E19",
+        "E20",
+        "E21"
+      ],
+      [
+        "HSC only Cre",
+        "F17:F19",
+        "F20",
+        "F21"
+      ],
+      [
+        "HSC only T3",
+        "G17:G19",
+        "G20",
+        "G21"
+      ],
+      [
+        "Both Cre",
+        "H17:H19",
+        "H20",
+        "H21"
+      ],
+      [
+        "Both T3",
+        "I17:I19",
+        "I20",
+        "I21"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "Initial priming effect in Cre, myeloid unprimed": {
+        "HSC only Cre": 1,
+        "Neither Cre": -1
+      },
+      "Initial priming effect in T3, myeloid unprimed": {
+        "HSC only T3": 1,
+        "Neither T3": -1
+      },
+      "T3 minus Cre initial priming effect, myeloid unprimed": {
+        "HSC only T3": 1,
+        "Neither T3": -1,
+        "HSC only Cre": -1,
+        "Neither Cre": 1
+      },
+      "Initial priming effect in Cre, myeloid primed": {
+        "Both Cre": 1,
+        "Myeloid only Cre": -1
+      },
+      "Initial priming effect in T3, myeloid primed": {
+        "Both T3": 1,
+        "Myeloid only T3": -1
+      },
+      "T3 minus Cre initial priming effect, myeloid primed": {
+        "Both T3": 1,
+        "Myeloid only T3": -1,
+        "Both Cre": -1,
+        "Myeloid only Cre": 1
+      }
+    }
+  },
+  {
+    "panel": "ED1d IL-6",
+    "book": 10,
+    "groups": [
+      [
+        "Neither Cre",
+        "B30:B32",
+        "B33",
+        "B34"
+      ],
+      [
+        "Neither T3",
+        "C30:C32",
+        "C33",
+        "C34"
+      ],
+      [
+        "Myeloid only Cre",
+        "D30:D32",
+        "D33",
+        "D34"
+      ],
+      [
+        "Myeloid only T3",
+        "E30:E32",
+        "E33",
+        "E34"
+      ],
+      [
+        "HSC only Cre",
+        "F30:F32",
+        "F33",
+        "F34"
+      ],
+      [
+        "HSC only T3",
+        "G30:G32",
+        "G33",
+        "G34"
+      ],
+      [
+        "Both Cre",
+        "H30:H32",
+        "H33",
+        "H34"
+      ],
+      [
+        "Both T3",
+        "I30:I32",
+        "I33",
+        "I34"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "Initial priming effect in Cre, myeloid unprimed": {
+        "HSC only Cre": 1,
+        "Neither Cre": -1
+      },
+      "Initial priming effect in T3, myeloid unprimed": {
+        "HSC only T3": 1,
+        "Neither T3": -1
+      },
+      "T3 minus Cre initial priming effect, myeloid unprimed": {
+        "HSC only T3": 1,
+        "Neither T3": -1,
+        "HSC only Cre": -1,
+        "Neither Cre": 1
+      },
+      "Initial priming effect in Cre, myeloid primed": {
+        "Both Cre": 1,
+        "Myeloid only Cre": -1
+      },
+      "Initial priming effect in T3, myeloid primed": {
+        "Both T3": 1,
+        "Myeloid only T3": -1
+      },
+      "T3 minus Cre initial priming effect, myeloid primed": {
+        "Both T3": 1,
+        "Myeloid only T3": -1,
+        "Both Cre": -1,
+        "Myeloid only Cre": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 1e serum TNF",
+    "book": 3,
+    "groups": [
+      [
+        "Mx1-Cre",
+        "A44:A49",
+        "G45",
+        "G46"
+      ],
+      [
+        "Mx1-T3",
+        "B44:B49",
+        "H45",
+        "H46"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "Mx1-Cre": -1,
+        "Mx1-T3": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 1f serum IL-6",
+    "book": 3,
+    "groups": [
+      [
+        "Mx1-Cre",
+        "A54:A59",
+        "G55",
+        "G56"
+      ],
+      [
+        "Mx1-T3",
+        "B54:B59",
+        "H55",
+        "H56"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "Mx1-Cre": -1,
+        "Mx1-T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED1e Sirt3 RNA",
+    "book": 10,
+    "groups": [
+      [
+        "LysM-Cre",
+        "A39:A41",
+        "E39",
+        "E40"
+      ],
+      [
+        "LysM-T3",
+        "B39:B41",
+        "F39",
+        "F40"
+      ]
+    ],
+    "scale": "Relative expression",
+    "contrasts": {
+      "second minus first": {
+        "LysM-Cre": -1,
+        "LysM-T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED1f serum TNF",
+    "book": 10,
+    "groups": [
+      [
+        "LysM-Cre",
+        "A46:A51",
+        "G47",
+        "G48"
+      ],
+      [
+        "LysM-T3",
+        "B46:B51",
+        "H47",
+        "H48"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "LysM-Cre": -1,
+        "LysM-T3": 1
+      }
+    }
+  },
+  {
+    "panel": "ED1g serum IL-6",
+    "book": 10,
+    "groups": [
+      [
+        "LysM-Cre",
+        "A55:A60",
+        "G56",
+        "G57"
+      ],
+      [
+        "LysM-T3",
+        "B55:B60",
+        "H56",
+        "H57"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "LysM-Cre": -1,
+        "LysM-T3": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,591 @@
+[
+  {
+    "panel": "Fig 4a serum IL-6",
+    "book": 6,
+    "groups": [
+      [
+        "Young source",
+        "C5:C14",
+        "G5",
+        "G6"
+      ],
+      [
+        "Old source",
+        "D5:D14",
+        "H5",
+        "H6"
+      ]
+    ],
+    "scale": "pg/mL",
+    "contrasts": {
+      "second minus first": {
+        "Young source": -1,
+        "Old source": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 4c CD68 abundance",
+    "book": 6,
+    "groups": [
+      [
+        "Young source",
+        "C22:C31",
+        "G22",
+        "G23"
+      ],
+      [
+        "Old source",
+        "D22:D31",
+        "H22",
+        "H23"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Young source": -1,
+        "Old source": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 4d IL-6-high among CD68+",
+    "book": 6,
+    "groups": [
+      [
+        "Young source",
+        "C36:C45",
+        "G36",
+        "G37"
+      ],
+      [
+        "Old source",
+        "D36:D45",
+        "H36",
+        "H37"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Young source": -1,
+        "Old source": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 5b CD68 abundance",
+    "book": 7,
+    "groups": [
+      [
+        "IgG",
+        "A5:A12",
+        "E5",
+        "E6"
+      ],
+      [
+        "Anti-IL-1β",
+        "B5:B12",
+        "F5",
+        "F6"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "IgG": -1,
+        "Anti-IL-1β": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 5c IL-6-high among CD68+",
+    "book": 7,
+    "groups": [
+      [
+        "IgG",
+        "A17:A24",
+        "E17",
+        "E18"
+      ],
+      [
+        "Anti-IL-1β",
+        "B17:B24",
+        "F17",
+        "F18"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "IgG": -1,
+        "Anti-IL-1β": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 5d distance",
+    "book": 7,
+    "groups": [
+      [
+        "IgG",
+        "A28:A35",
+        "E28",
+        "E29"
+      ],
+      [
+        "Anti-IL-1β",
+        "B28:B35",
+        "F28",
+        "F29"
+      ]
+    ],
+    "scale": "m",
+    "contrasts": {
+      "second minus first": {
+        "IgG": -1,
+        "Anti-IL-1β": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 5e time",
+    "book": 7,
+    "groups": [
+      [
+        "IgG",
+        "A40:A47",
+        "E40",
+        "E41"
+      ],
+      [
+        "Anti-IL-1β",
+        "B40:B47",
+        "F40",
+        "F41"
+      ]
+    ],
+    "scale": "min",
+    "contrasts": {
+      "second minus first": {
+        "IgG": -1,
+        "Anti-IL-1β": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 5f inverted screen",
+    "book": 7,
+    "groups": [
+      [
+        "IgG",
+        "A51:A58",
+        "E51",
+        "E52"
+      ],
+      [
+        "Anti-IL-1β",
+        "B51:B58",
+        "F51",
+        "F52"
+      ]
+    ],
+    "scale": "s",
+    "contrasts": {
+      "second minus first": {
+        "IgG": -1,
+        "Anti-IL-1β": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 6c CD68 abundance",
+    "book": 8,
+    "groups": [
+      [
+        "Cre transfer",
+        "B3:B10",
+        "F3",
+        "F4"
+      ],
+      [
+        "T3 transfer",
+        "C3:C7",
+        "G3",
+        "G4"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "second minus first": {
+        "Cre transfer": -1,
+        "T3 transfer": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 6d IL-6-high among CD68+",
+    "book": 8,
+    "groups": [
+      [
+        "Cre transfer",
+        "B15:B22",
+        "F15",
+        "F16"
+      ],
+      [
+        "T3 transfer",
+        "C15:C19",
+        "G15",
+        "G16"
+      ]
+    ],
+    "scale": "%",
+    "contrasts": {
+      "second minus first": {
+        "Cre transfer": -1,
+        "T3 transfer": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 6e time",
+    "book": 8,
+    "groups": [
+      [
+        "Cre transfer",
+        "A28:A37",
+        "E28",
+        "E29"
+      ],
+      [
+        "T3 transfer",
+        "B28:B37",
+        "F28",
+        "F29"
+      ]
+    ],
+    "scale": "min",
+    "contrasts": {
+      "second minus first": {
+        "Cre transfer": -1,
+        "T3 transfer": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 6f distance",
+    "book": 8,
+    "groups": [
+      [
+        "Cre transfer",
+        "A42:A51",
+        "E42",
+        "E43"
+      ],
+      [
+        "T3 transfer",
+        "B42:B51",
+        "F42",
+        "F43"
+      ]
+    ],
+    "scale": "m",
+    "contrasts": {
+      "second minus first": {
+        "Cre transfer": -1,
+        "T3 transfer": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 6g inverted screen",
+    "book": 8,
+    "groups": [
+      [
+        "Cre transfer",
+        "A56:A65",
+        "E56",
+        "E57"
+      ],
+      [
+        "T3 transfer",
+        "B56:B65",
+        "F56",
+        "F57"
+      ]
+    ],
+    "scale": "s",
+    "contrasts": {
+      "second minus first": {
+        "Cre transfer": -1,
+        "T3 transfer": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 4e distance",
+    "book": 6,
+    "groups": [
+      [
+        "Young source before",
+        "B50:B59",
+        "F50",
+        "F51"
+      ],
+      [
+        "Old source before",
+        "C50:C59",
+        "G50",
+        "G51"
+      ],
+      [
+        "Young source after",
+        "B62:B71",
+        "F62",
+        "F63"
+      ],
+      [
+        "Old source after",
+        "C62:C71",
+        "G62",
+        "G63"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "old minus young, before": {
+        "Old source before": 1,
+        "Young source before": -1
+      },
+      "old minus young, after": {
+        "Old source after": 1,
+        "Young source after": -1
+      }
+    }
+  },
+  {
+    "panel": "Fig 4f time",
+    "book": 6,
+    "groups": [
+      [
+        "Young source before",
+        "B75:B84",
+        "F75",
+        "F76"
+      ],
+      [
+        "Old source before",
+        "C75:C84",
+        "G75",
+        "G76"
+      ],
+      [
+        "Young source after",
+        "B88:B97",
+        "F88",
+        "F89"
+      ],
+      [
+        "Old source after",
+        "C88:C97",
+        "G88",
+        "G89"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "old minus young, before": {
+        "Old source before": 1,
+        "Young source before": -1
+      },
+      "old minus young, after": {
+        "Old source after": 1,
+        "Young source after": -1
+      }
+    }
+  },
+  {
+    "panel": "Fig 4g inverted screen",
+    "book": 6,
+    "groups": [
+      [
+        "Young source before",
+        "B101:B110",
+        "F101",
+        "F102"
+      ],
+      [
+        "Old source before",
+        "C101:C110",
+        "G101",
+        "G102"
+      ],
+      [
+        "Young source after",
+        "B114:B123",
+        "F114",
+        "F115"
+      ],
+      [
+        "Old source after",
+        "C114:C123",
+        "G114",
+        "G115"
+      ]
+    ],
+    "scale": "Published scale",
+    "contrasts": {
+      "old minus young, before": {
+        "Old source before": 1,
+        "Young source before": -1
+      },
+      "old minus young, after": {
+        "Old source after": 1,
+        "Young source after": -1
+      }
+    }
+  },
+  {
+    "panel": "Fig 7b time to exhaustion",
+    "book": 9,
+    "groups": [
+      [
+        "Cre myeloid",
+        "A3:A15",
+        "H3",
+        "H4"
+      ],
+      [
+        "Cre T",
+        "B3:B15",
+        "J3",
+        "J4"
+      ],
+      [
+        "T3 myeloid",
+        "C3:C15",
+        "I3",
+        "I4"
+      ],
+      [
+        "T3 T",
+        "D3:D15",
+        "K3",
+        "K4"
+      ]
+    ],
+    "scale": "min",
+    "contrasts": {
+      "T3 minus Cre among myeloid recipients": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1
+      },
+      "T3 minus Cre among T-cell recipients": {
+        "T3 T": 1,
+        "Cre T": -1
+      },
+      "Myeloid minus T-cell genotype contrast": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1,
+        "T3 T": -1,
+        "Cre T": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 7c distance to exhaustion",
+    "book": 9,
+    "groups": [
+      [
+        "Cre myeloid",
+        "A20:A32",
+        "H26",
+        "H27"
+      ],
+      [
+        "Cre T",
+        "B20:B32",
+        "J26",
+        "J27"
+      ],
+      [
+        "T3 myeloid",
+        "C20:C32",
+        "I26",
+        "I27"
+      ],
+      [
+        "T3 T",
+        "D20:D32",
+        "K26",
+        "K27"
+      ]
+    ],
+    "scale": "m",
+    "contrasts": {
+      "T3 minus Cre among myeloid recipients": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1
+      },
+      "T3 minus Cre among T-cell recipients": {
+        "T3 T": 1,
+        "Cre T": -1
+      },
+      "Myeloid minus T-cell genotype contrast": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1,
+        "T3 T": -1,
+        "Cre T": 1
+      }
+    }
+  },
+  {
+    "panel": "Fig 7d inverted screen latency",
+    "book": 9,
+    "groups": [
+      [
+        "Cre myeloid",
+        "A37:A49",
+        "H43",
+        "H44"
+      ],
+      [
+        "Cre T",
+        "B37:B49",
+        "J43",
+        "J44"
+      ],
+      [
+        "T3 myeloid",
+        "C37:C49",
+        "I43",
+        "I44"
+      ],
+      [
+        "T3 T",
+        "D37:D49",
+        "K43",
+        "K44"
+      ]
+    ],
+    "scale": "s",
+    "contrasts": {
+      "T3 minus Cre among myeloid recipients": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1
+      },
+      "T3 minus Cre among T-cell recipients": {
+        "T3 T": 1,
+        "Cre T": -1
+      },
+      "Myeloid minus T-cell genotype contrast": {
+        "T3 myeloid": 1,
+        "Cre myeloid": -1,
+        "T3 T": -1,
+        "Cre T": 1
+      }
+    }
+  }
+]

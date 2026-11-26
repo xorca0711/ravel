@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Roberts17-B1.requant_GSM2462969_v1",
+  "owner": "Roberts17-B1",
+  "contract": "analysis/research/contracts/Roberts17-B1.requant_GSM2462969_v1.json",
+  "contract_sha256": "8aeb2014cf49c25a20c061f17e6b11895a3d9a0c784f9a49f5a1dc7a4efe6d35",
+  "git_commit": "91758d5ecf2fba868ac3d7f7d3536f7fe3a373f0",
+  "started_at": "2026-11-26T04:23:00.607162+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_2R_B1_roberts_2017/requantify_cached.py",
+    "--gsm",
+    "GSM2462969",
+    "--output",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1",
+    "--source",
+    "sra"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/roberts_2017/ensembl84.cdna.fa.gz",
+      "sha256": "2eb57e2a5d56b562752a2700901ebf6721b546f27208316f2eaaefe7184a0680",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/ena.tsv",
+      "sha256": "4ce3fde7790f4a45dd70ec0a4255cae0738cb6ac9bc89858a4bb6be7533a0e6a",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/kallisto-0.43.1",
+      "sha256": "3f161db5802e6293d9850f895f5e186fd3706aaafb6f033c037ff1e4ad38c816",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/SRR5186278.sra",
+      "sha256": "907f8845b583eff4a6cf779b6c5fae0e876bf7dfd12fde0ae2bcd08094c1a389",
+      "study_id": "GSE93820",
+      "unit_ids": [
+        "GSM2462969"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/ensembl84.k31.idx",
+      "sha256": "cad1e1ce9eff40458bd61862e12484446af215c3601a735b2e8741fe29c66d4c",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/vdb-validate-3.2.1",
+      "sha256": "714b3ff18fb47be8b320b47b41894669e4d365692b543052abc5056cd51e87c4",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/roberts_2017/requant/fasterq-dump-3.2.1",
+      "sha256": "26c6420c124ba14f827e2af1bd11709238da9c76c386284bb51f41311e4162ce",
+      "study_id": "reference_or_study_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_B1_roberts_2017/requantify_cached.py",
+      "sha256": "4a2621744ed50b6cc235425070eabca89a402cc25871ff259756405a369afb3b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.cutadapt.txt",
+      "sha256": "374ec3b88a191c954e8a535c7019602988a609237be9ef8d6d77af56c5bddf87"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.run_info.json",
+      "sha256": "33c2b4c9a177da63f50b267bd5f044a9090353c10e38cc607d84036ebb649cbd"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.abundance.tsv.gz",
+      "sha256": "7ff34212994b0c00f55873b6714cccf78174ac5f77d1566869e28d916576ed84"
+    },
+    {
+      "path": "analysis/research/runs/roberts17_b1_requant_gsm2462969_v1/GSM2462969.sra_validation.txt",
+      "sha256": "fa26900e9d0a497706dade822f9011c76e3f6a08c6cddc414328a918dbfba868"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T04:27:15.026091+00:00"
+}

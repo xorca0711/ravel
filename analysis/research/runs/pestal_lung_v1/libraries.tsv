@@ -1,0 +1,5 @@
+accession	sample	targets	matched	mapped_tpm	bootstrap	kallisto	call
+GSM8763481	KLF4WTAM1	113193	108171	984517.1981254669	100	0.46.1	C:\Program Files\kallisto\kallisto.exe quant -i GRCm38 -o KLF4WT1AM --single -l 258 -s 58 -b 100 -t 4 --pseudobam KP_5114_S53_L006_R1_001.fastq.gz
+GSM8763482	KLF4KOAM1	113193	108171	984543.7707095938	100	0.46.1	C:\Program Files\kallisto\kallisto.exe quant -i GRCm38 -o KLF4KO1AM --single -l 276 -s 56 -b 100 -t 4 --pseudobam KP_5115_S54_L006_R1_001.fastq.gz
+GSM8763483	KLF4WTAM2	113193	108171	984820.4573092794	100	0.46.1	C:\Program Files\kallisto\kallisto.exe quant -i GRCm38 -o KLF4WT2AM --single -l 404 -s 126 -b 100 -t 4 --pseudobam KP_5116_S55_L006_R1_001.fastq.gz
+GSM8763484	KLF4KOAM2	113193	108171	983905.558954118	100	0.46.1	C:\Program Files\kallisto\kallisto.exe quant -i GRCm38 -o KLF4KO2AM --single -l 345 -s 101 -b 100 -t 4 --pseudobam KP_5117_S56_L006_R1_001.fastq.gz
