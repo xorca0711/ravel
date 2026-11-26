@@ -1242,6 +1242,13 @@
         "Research Article/gate4M_01_naik_2017/distal_m24_baseline_v1/METHOD_V1.md",
         "Research Article/gate4M_01_naik_2017/distal_m24_baseline_v1/RESULTS_V1.md"
       ]
+    },
+    {
+      "id": "Mu26-P01",
+      "plan": "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+      "evidence": [
+        "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md"
+      ]
     }
   ],
   "contracts": [
@@ -1520,7 +1527,8 @@
     "analysis/research/contracts/Ng26-P01.jf_external_qualification_v1.json",
     "analysis/research/contracts/Ng26-P01.saline_specimens_v1.json",
     "analysis/research/contracts/Ng26-P01.saline_markers_v1.json",
-    "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json"
+    "analysis/research/contracts/Ng26-P01.saline_marker_figure_v1.json",
+    "Research Article/gate3_2R_C1_mu_2026/s1_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",

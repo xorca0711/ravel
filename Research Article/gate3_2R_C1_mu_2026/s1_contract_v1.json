@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Mu26-P01.s1_v1",
+  "owner": "Mu26-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does T3 change the priming-associated increment in recall cytokines?",
+  "decision": "Determine whether attenuation is concentrated in histories with initial priming.",
+  "strongest_rival": "General responsiveness, differing marrow composition, and unresolved prep or technical-well structure.",
+  "discriminator": "Compare published observation distributions and fixed contrasts within each matching cohort.",
+  "evidence_refs": [
+    "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
+    "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results and the revised plan were read. Workbook layout and caption counts were inspected before freezing.",
+  "biological_unit": "Lineage-negative marrow preparation after treatment of the intact mouse, or mouse for serum panels.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Rows can be source values without stable biological identifiers. No row-order pairing, donor independence or cross-panel matching is assumed.",
+  "population_and_selection": "Released source rows for named Mu et al. panels. Groups and endpoints are separated by panel and study design.",
+  "contrast": "Initial priming minus unprimed within each genotype and later priming stratum, then T3 minus Cre. Secondary panels compare their own two groups.",
+  "endpoint": "Culture TNF primary and IL-6 separate, plus separate in vivo serum cytokines and LysM Sirt3 expression.",
+  "methods": "Read exact workbook ranges. Calculate group means and value SEM for arithmetic readback, compare cached summaries, show raw values, calculate signed fixed contrasts.",
+  "missingness_and_exclusions": "Ignore blank cells within declared observation ranges. Do not use summary rows as observations or impute missing values.",
+  "multiplicity": "Descriptive endpoints and contrasts only. No significance tests.",
+  "precision_status": "unknown",
+  "precision_basis": "Value SEM reproduces reported summary arithmetic. Unknown preparation or cluster structure prevents independent-unit precision claims.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Released-value contrasts describe these source groups. No stage-specific causal attribution or donor-level generalization.",
+  "stop_rule": "Report label, count, or summary mismatches and restrict interpretation. Hold cluster-dependent or paired models without keys.",
+  "inputs": [
+    {
+      "path": "raw_data/mu2026/MOESM3.xlsx",
+      "sha256": "e52731bdc2aa01312061dbab08e5543c9a4e45e21a1facbccf5c191545a5b9cf",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/mu2026/MOESM10.xlsx",
+      "sha256": "eafbced2a0cb65b4af752643615fe3120e025842b4b914a8aa77065c56767829",
+      "study_id": "Mu2026",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+      "sha256": "ef712c81b2a3c426425db880fbeb949dcbd10db80dd7e4ff17a49bd315ce1ecd"
+    },
+    {
+      "path": "Research Article/gate3_2R_C1_mu_2026/s1_source_map_v1.json",
+      "sha256": "6f9692be195ad20998ce683cc74069ee72aa4e0c499b126470f00b7919025919"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_2R_C1_mu_2026/replay_workbooks.py",
+  "arguments": [
+    "--map",
+    "Research Article/gate3_2R_C1_mu_2026/s1_source_map_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.tsv",
+    "summaries.tsv",
+    "contrasts.tsv",
+    "source_values.pdf"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial frozen descriptive replay from verified revised plan and publisher workbooks."
+}
