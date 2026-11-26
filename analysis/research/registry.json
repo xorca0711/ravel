@@ -1248,7 +1248,8 @@
       "plan": "Research Article/gate3_2R_C1_mu_2026/ANALYSIS_PLAN.md",
       "evidence": [
         "Research Article/gate3_2R_C1_mu_2026/LITERATURE_CONTEXT.md",
-        "Research Article/gate3_2R_C1_mu_2026/RESULTS.md"
+        "Research Article/gate3_2R_C1_mu_2026/RESULTS.md",
+        "Research Article/gate3_2R_C1_mu_2026/CLOSEOUT.md"
       ]
     }
   ],
@@ -1793,7 +1794,8 @@
     "analysis/research/runs/mu2026_s1_v1/receipt.json",
     "analysis/research/runs/mu2026_s2_v1/receipt.json",
     "analysis/research/runs/mu2026_s3_v1/receipt.json",
-    "analysis/research/runs/mu2026_s4_rna_v1/receipt.json"
+    "analysis/research/runs/mu2026_s4_rna_v1/receipt.json",
+    "analysis/research/runs/mu2026_s4_rna_figure_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

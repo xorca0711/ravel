@@ -6,6 +6,8 @@ The paper branch `codex/gate3-2r-c1-mu-2026` starts at `0d32085fa0e307f3a26b6759
 
 The Mu source-value replays are recorded in the [paper results](Research%20Article/gate3_2R_C1_mu_2026/RESULTS.md). Initial-priming increments were smaller in T3 cultures for both cytokines and both later-priming strata. The Fig. 7b lineage interaction was +25.26 minutes descriptively. Bulk aged HSC count directions reproduce for the four named rows. Unknown preparation, donor and mouse keys limit inference. Chromatin extraction, within-subset estimation and recovery-signature scoring remain open at the specified input and design holds.
 
+The [Mu closeout](Research%20Article/gate3_2R_C1_mu_2026/CLOSEOUT.md) records the Fig. 8 and ED6 source audit. Bulk track assemblies and sample files resolve, but the peak coordinates and explicitly documented signal scales needed for the planned contrast do not. The snATAC mouse-key hold is separate. The paper README now links the source values and legends for S1–S4, including a separately receipted HSC RNA display. The closeout compares Ross and Zeng with the observed Mu results and specifies the missing withdrawal and rechallenge links.
+
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
 [Navarro Negredo](Research%20Article/gate3_12_navarro_negredo_2026/README.md) is Gate 3-12 in the DuPage branch, with its Saxton IL-10 cross-reference. [Arozamena](Research%20Article/gate4M_05_arozamena_2026/README.md) is Gate 4M-05, awaiting the owner’s full read. The [article roadmap](Research%20Article/README.md) separates that reading status from the existing deposited-data analyses. The former Damani–Yokota folder was removed after [archiving its two navigation notes](docs/migrations/2026-11-21-gate4m/README.md).
