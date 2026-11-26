@@ -1248,7 +1248,11 @@
       "plan": "Research Article/gate3_2R_B1_roberts_2017/ANALYSIS_PLAN.md",
       "evidence": [
         "Research Article/gate3_2R_B1_roberts_2017/SOURCE_AND_PHENOTYPE.md",
-        "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md"
+        "Research Article/gate3_2R_B1_roberts_2017/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_2R_B1_roberts_2017/README.md",
+        "Research Article/gate3_2R_B1_roberts_2017/RESULTS.md",
+        "Research Article/gate3_2R_B1_roberts_2017/PERTURBATIONS.md",
+        "Research Article/gate3_2R_B1_roberts_2017/EXTERNAL_DESIGN.md"
       ]
     }
   ],
@@ -1789,7 +1793,11 @@
     "analysis/research/runs/ng26_jf_external_qualification_v1/receipt.json",
     "analysis/research/runs/ng26_saline_specimens_v1/receipt.json",
     "analysis/research/runs/ng26_saline_markers_v1/receipt.json",
-    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json"
+    "analysis/research/runs/ng26_saline_marker_figure_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_challenge_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_external_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_map_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

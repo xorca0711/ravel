@@ -1,6 +1,6 @@
 # Roberts et al. (2017) — Tissue-Resident Macrophages Are Locally Programmed for Silent Clearance of Apoptotic Cells
 
-**gate3_2R_B1** · Brief owner read reported 26 November 2026. Analysis planned.
+**gate3_2R_B1** · Brief owner read reported 26 November 2026. Fig. 2F and the qualified RNA contrasts are documented below.
 
 ## Published findings
 
@@ -15,7 +15,7 @@ The distinction is between uptake and the inflammatory response to cargo. Tim-4 
 
 ## Ravel analyses and results
 
-The earlier Damani–Yokota comparison raised the question of what a macrophage retains from its tissue. Begin with the Fig. 2F restoration experiment, then reproduce niche withdrawal and the response to cargo as separate comparisons. No Roberts-specific run was registered at `0d32085`.
+The earlier Damani–Yokota comparison raised the question of what a macrophage retains from its tissue. Fig. 2F separates restored CpG responsiveness from persistent restraint toward apoptotic cells. The 60 h culture and acute cargo challenge are analyzed separately. The first withdrawal experiment requires raw-read recovery because its deposited quantifications use a different target namespace. [Results and run evidence](RESULTS.md)
 
 ## Data and methods
 

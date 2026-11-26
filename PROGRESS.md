@@ -1,10 +1,10 @@
 # Current project state
 
-## 2026-11-26 - Roberts revised analysis intake
+## 2026-11-26 — Roberts revised analysis
 
-Paper branch `codex/gate3-2r-b1-roberts-2017` is based on fetched `origin/main` at `0d32085fa0e307f3a26b67592450bb8633e7700a`. The Roberts study files and registry entry are absent from this base. Revision `b8eddf8a569866e1faa45bfb310501c67abf013c` is unavailable locally and GitHub did not serve it by SHA. The expected plan blob is `6a8495d0f78961678242bf35756f96c1683a22a5`. No plan blob or opening comparison was available to observe.
+[Roberts B1](Research%20Article/gate3_2R_B1_roberts_2017/README.md) runs on `codex/gate3-2r-b1-roberts-2017` from `0d32085`. Both privately transferred document blobs match the plan and literature from source revision `b8eddf8`. Fig. 2F preserves the CpG restoration and the negative apoptotic-cell TNF result. Experiment 2 has mixed recognition changes and lower signaling-regulator RNA. The programmed RNA challenge is mixed, and the matched deprogrammed baseline remains unresolved. GSE83222 associations vary by tissue. [Results and receipts](Research%20Article/gate3_2R_B1_roberts_2017/RESULTS.md)
 
-Pending private delivery of the exact study files. Verify the plan blob and record its opening comparison alongside the matching literature context before freezing or executing a contract. Requested order is the Fig. 2F CpG versus apoptotic-cell comparison followed by the two 60 h niche-withdrawal experiments. No stages were run or committed.
+Experiment 1 deposit target IDs have no overlap with the planned panel's Ensembl transcripts. Accession-matched raw read recovery is in progress. Native release-79 cDNA and ncRNA are ready for an adapted quantification if all read checksums pass.
 
 ## 2026-11-21 — DuPage extension and fifth inflammatory-memory reading
 
