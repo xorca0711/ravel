@@ -1252,7 +1252,8 @@
         "Research Article/gate3_2R_B1_roberts_2017/README.md",
         "Research Article/gate3_2R_B1_roberts_2017/RESULTS.md",
         "Research Article/gate3_2R_B1_roberts_2017/PERTURBATIONS.md",
-        "Research Article/gate3_2R_B1_roberts_2017/EXTERNAL_DESIGN.md"
+        "Research Article/gate3_2R_B1_roberts_2017/EXTERNAL_DESIGN.md",
+        "Research Article/gate3_2R_B1_roberts_2017/REFERENCE_AMENDMENT.md"
       ]
     }
   ],
@@ -1800,7 +1801,10 @@
     "analysis/research/runs/roberts17_b1_challenge_v1/receipt.json",
     "analysis/research/runs/roberts17_b1_external_v1/receipt.json",
     "analysis/research/runs/roberts17_b1_map_v1/receipt.json",
-    "analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/receipt.json"
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_v2/receipt.json",
+    "analysis/research/runs/roberts17_b1_challenge_r84_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_requant_gsm2462968_v1/receipt.json",
+    "analysis/research/runs/roberts17_b1_withdrawal_exp2_r84_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
